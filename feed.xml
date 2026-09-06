@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 05 Sep 2026 15:16:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 06 Sep 2026 13:30:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En Chaco quedan 69.664 empleos privados registrados: el nivel más bajo desde julio de 2020</title>
+      <link>https://coninteres.com/articulos/2026-09-06-chaco-empleo-privado-piso-2020.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-06-chaco-empleo-privado-piso-2020.html</guid>
+      <pubDate>Sun, 06 Sep 2026 13:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>La planilla oficial del SIPA con datos a mayo de 2026 tiene una columna para cada provincia. La del Chaco marca 69.664 asalariados registrados en empresas privadas. Hay que retroceder hasta julio de 2020, el peor tramo de la cuarentena, para encontrar un número igual o menor. Desde noviembre de 2023 la provincia perdió 8.099 puestos: una caída de 10,4% contra el 4,4% del conjunto de las 24 jurisdicciones. Chaco cae más del doble que el país.</description>
+      <ci:numero>69.664</ci:numero>
+      <ci:numeroEtiqueta>asalariados registrados del sector privado en Chaco en mayo de 2026: el nivel más bajo desde julio de 2020. Desde noviembre de 2023 se perdieron 8.099 puestos (−10,4%), más del doble de la caída del conjunto del país (−4,4%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-06-chaco-empleo-privado-piso-2020.png" length="72457" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-06-chaco-empleo-privado-piso-2020.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Malvinas: el Estado abrió 45 expedientes con una ley de 2011 que multa en barriles de petróleo, no en pesos</title>
       <link>https://coninteres.com/articulos/2026-09-05-malvinas-45-sanciones-ley-26659.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>del FGS de ANSES para crédito hipotecario</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-26-caputo-hipotecarios-fgs-anses.png" length="59803" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-08-26-caputo-hipotecarios-fgs-anses.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El bono de US$250 millones: Chaco entra en la recta final de su deuda en dólares — pero el stock total sigue subiendo</title>
-      <link>https://coninteres.com/articulos/2026-08-26-chaco-deuda-bono-dolares.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-08-26-chaco-deuda-bono-dolares.html</guid>
-      <pubDate>Wed, 26 Aug 2026 00:40:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>La provincia pagó en agosto la sexta de nueve cuotas —US$34 millones— del bono en dólares que emitió en 2016, y le quedan tres hasta febrero de 2028. Mientras salda su deuda en moneda dura más pesada, el stock total de deuda chaqueña creció 34,2% real en un año, muy por encima del promedio de las provincias.</description>
-      <ci:numero>US$250 M</ci:numero>
-      <ci:numeroEtiqueta>bono en dólares de Chaco (2016)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-26-chaco-deuda-bono-dolares.png" length="65315" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-08-26-chaco-deuda-bono-dolares.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

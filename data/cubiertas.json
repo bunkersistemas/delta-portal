@@ -763,6 +763,13 @@
       "fecha": "2026-09-05",
       "estado": "publicada",
       "articulo_id": "2026-09-05-empleo-privado-decada-perdida"
+    },
+    {
+      "tema": "Empleo asalariado privado registrado en la provincia del Chaco: 69.664 puestos en mayo de 2026",
+      "angulo": "angulo NUEVO (corte PROVINCIAL del SIPA, distinto del corte nacional del 05/09): mayo 2026 = 69.664 asalariados privados registrados en Chaco, el nivel mas bajo desde jul-2020 (69.502), el piso de la cuarentena. Desde nov-2023: -8.099 puestos (-10,4%) vs -4,4% de la suma de las 24 jurisdicciones = cae mas del doble que el pais; 7a peor caida del pais. Interanual (may-25 a may-26): -3.714 (-5,1%). Maximo de la serie jun-2023: 81.354 (-11.690 = -14,4%). Promedio 2026 hasta mayo (69.816) por debajo del promedio 2013 (70.532). NEA: Formosa -13,2%, Chaco -10,4%, Corrientes -6,4%, Misiones -4,4%. FUENTE PRIMARIA leida directo de la planilla: Secretaria de Trabajo, trabajoregistrado_2605_estadisticas.xlsx, cuadro A.5.1 (con estacionalidad). Todos los porcentajes son calculo propio sobre esa planilla. NO se uso ninguna nota de prensa ni el portal chacodiapordia como fuente. Limite explicitado: la serie se revisa hacia atras por declaraciones tardias.",
+      "fecha": "2026-09-06",
+      "estado": "publicada",
+      "articulo_id": "2026-09-06-chaco-empleo-privado-piso-2020"
     }
   ]
 }

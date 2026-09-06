@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-05T15:12:58-03:00",
+    "actualizado": "2026-09-06T13:30:30-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-06-chaco-empleo-privado-piso-2020",
+      "titulo": "En Chaco quedan 69.664 empleos privados registrados: el nivel más bajo desde julio de 2020",
+      "bajada": "La planilla oficial del SIPA con datos a mayo de 2026 tiene una columna para cada provincia. La del Chaco marca 69.664 asalariados registrados en empresas privadas. Hay que retroceder hasta julio de 2020, el peor tramo de la cuarentena, para encontrar un número igual o menor. Desde noviembre de 2023 la provincia perdió 8.099 puestos: una caída de 10,4% contra el 4,4% del conjunto de las 24 jurisdicciones. Chaco cae más del doble que el país.",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "69.664",
+      "numero_label": "asalariados registrados del sector privado en Chaco en mayo de 2026: el nivel más bajo desde julio de 2020. Desde noviembre de 2023 se perdieron 8.099 puestos (−10,4%), más del doble de la caída del conjunto del país (−4,4%)",
+      "fecha": "2026-09-06",
+      "hora": "13:00",
+      "archivo": "articulos/2026-09-06-chaco-empleo-privado-piso-2020.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-09-05-malvinas-45-sanciones-ley-26659",
       "titulo": "Malvinas: el Estado abrió 45 expedientes con una ley de 2011 que multa en barriles de petróleo, no en pesos",
