@@ -770,6 +770,20 @@
       "fecha": "2026-09-06",
       "estado": "publicada",
       "articulo_id": "2026-09-06-chaco-empleo-privado-piso-2020"
+    },
+    {
+      "tema": "Valuación de humanoides contra empleo argentino realmente existente: el mercado le pone precio a la nómina, no a la máquina",
+      "angulo": "angulo NUEVO respecto de la nota del 02/09 (que fue la valuacion de Unitree contra el mercado de robots de limpieza) y de la del 05/09 (estancamiento del empleo privado registrado): aca la cifra ancla es el EMPLEO EN CASAS PARTICULARES, 447.281 puestos en mayo 2026, sexto mes consecutivo de suba y +14,9% desde ene-2012, o sea el trabajo que el robot de limpieza venia a reemplazar es el unico que crece. Se conecta con la logica de valuacion: Morgan Stanley construye los US$5 billones desde US$3 billones de nomina; multiplos Whirlpool 0,17x / Roborock 1,64x / Unitree 126x. Serie SIPA T.2.1 completa (173 meses) descargada y procesada por Con Interes.",
+      "fecha": "2026-09-06",
+      "estado": "publicada",
+      "articulo_id": "2026-09-06-empleo-casas-particulares-vs-humanoides"
+    },
+    {
+      "tema": "canasta de crianza agosto 2026 ($713.070 de 6 a 12 años) / el cuidado sube menos que los bienes",
+      "angulo": "primera nota de la serie canasta de crianza del INDEC (difundida 14/09/2026). Ángulo: separar sus dos componentes. En un año bienes y servicios +38,3% (= CBT GBA) vs cuidado +24,9% (sueldo de escala 'Asistencia y cuidado de personas' con retiro), con IPC GBA +33,7%. Por eso los tramos donde más pesa el cuidado subieron menos (<1 año 29,0%; 6-12 31,5%). Segundo eje: sueldo de escala mensual $514.903,51 vs CBT por adulto equivalente $519.578,43 = 99,1% (ago-25 109,8%; jul-23 157,9%). Cifra ancla CONFIRMADA: INDEC + reconstrucción desde componentes independientes (CBT × 0,71 de la serie cba_cbt; 84 h × $4.072,38 del Anexo 1 Res. 6/2026 BO 03/09/2026 y escala ARCA ago-26; ago-25 $412.362,01 ARCA). Discrepancia resuelta: publicaciones de agosto con escala congelada eran previas a la Res. 6/2026. NO SE AFIRMA 'primera vez' ni 'meses seguidos debajo': sumas no remunerativas (feb-mar y ago-2026, $20.000) y el feb-26 del INDEC sin el 1,5% retroactivo cambian esa lectura; con la suma de agosto el ingreso llega a 102,9%. Tampoco que la cuidadora sea pobre. Distinto de 2026-07-19-canasta-basica-linea-pobreza (línea de pobreza del hogar) y de 2026-09-06 (empleo en casas particulares).",
+      "fecha": "2026-09-14",
+      "estado": "publicada",
+      "articulo_id": "2026-09-14-canasta-crianza-cuidado-salario"
     }
   ]
 }

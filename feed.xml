@@ -11,13 +11,39 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 06 Sep 2026 13:30:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 14 Sep 2026 21:18:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Criar a un chico de 6 a 12 años cuesta $713.070 por mes, y la parte que menos sube es el sueldo de quien lo cuida</title>
+      <link>https://coninteres.com/articulos/2026-09-14-canasta-crianza-cuidado-salario.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-14-canasta-crianza-cuidado-salario.html</guid>
+      <pubDate>Mon, 14 Sep 2026 21:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El INDEC publicó hoy la canasta de crianza de agosto. Adentro hay dos números que van a velocidades distintas: los bienes y servicios subieron 38,3% en un año, más que los precios; el cuidado, que el organismo valora con el sueldo de las trabajadoras de casas particulares, 24,9%. Por eso el total sube menos que la canasta básica. Y el sueldo de escala de una cuidadora a tiempo completo ya no alcanza la canasta básica de un adulto.</description>
+      <ci:numero>$713.070</ci:numero>
+      <ci:numeroEtiqueta>por mes costó criar a un chico de 6 a 12 años en agosto, según el INDEC: bienes más cuidado</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-14-canasta-crianza-cuidado-salario.png" length="66908" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-14-canasta-crianza-cuidado-salario.png" medium="image" type="image/png"/>
+    </item>
+    <item>
+      <title>El mercado le pone precio al sueldo, no a la máquina: el único empleo asalariado que crece en la Argentina es el que el robot venía a reemplazar</title>
+      <link>https://coninteres.com/articulos/2026-09-06-empleo-casas-particulares-vs-humanoides.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-06-empleo-casas-particulares-vs-humanoides.html</guid>
+      <pubDate>Sun, 06 Sep 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Morgan Stanley proyecta más de 1.000 millones de robots humanoides en uso en 2050, y precisa que el 90% de ellos haría «trabajo repetitivo, simple y estructurado». Por eso la bolsa paga 126 veces las ventas por un fabricante de humanoides y 0,17 por uno de heladeras: no le pone precio a la máquina, le pone precio al sueldo. Fuimos a la serie oficial del SIPA —173 meses, uno por uno— a ver qué le pasó mientras tanto al trabajo argentino. El empleo registrado en casas particulares, el que el único robot que llegó a escala masiva venía a reemplazar, encadena seis meses de suba: siete si se descuenta la estacionalidad.</description>
+      <ci:numero>447.281</ci:numero>
+      <ci:numeroEtiqueta>puestos registrados en casas particulares en mayo de 2026: el sexto mes consecutivo de suba</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-06-empleo-casas-particulares-vs-humanoides.png" length="65309" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-06-empleo-casas-particulares-vs-humanoides.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>En Chaco quedan 69.664 empleos privados registrados: el nivel más bajo desde julio de 2020</title>
       <link>https://coninteres.com/articulos/2026-09-06-chaco-empleo-privado-piso-2020.html</link>
@@ -381,32 +407,6 @@
       <ci:numeroEtiqueta>inflación de agosto que proyectan las consultoras (estimación)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-27-inflacion-agosto-proyecciones.png" length="59609" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-08-27-inflacion-agosto-proyecciones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Inocencia Fiscal II: qué le baja al contribuyente — multas hasta 50% menos y un freno a ARCA</title>
-      <link>https://coninteres.com/articulos/2026-08-27-inocencia-fiscal-2.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-08-27-inocencia-fiscal-2.html</guid>
-      <pubDate>Thu, 27 Aug 2026 01:10:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Diputados le dio media sanción y el proyecto pasó al Senado. Si se convierte en ley, las multas formales bajan hasta la mitad, se presume que tu declaración jurada es correcta, y sólo una 'discrepancia significativa' —de al menos 15% y por encima de unos $5 millones— habilitará a ARCA a impugnarla.</description>
-      <ci:numero>−50%</ci:numero>
-      <ci:numeroEtiqueta>reducción de multas formales (Inocencia Fiscal II)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-27-inocencia-fiscal-2.png" length="60477" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-08-27-inocencia-fiscal-2.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El plan hipotecario de $2 billones de Caputo: de dónde sale la plata, cómo funciona y a quién llega</title>
-      <link>https://coninteres.com/articulos/2026-08-26-caputo-hipotecarios-fgs-anses.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-08-26-caputo-hipotecarios-fgs-anses.html</guid>
-      <pubDate>Wed, 26 Aug 2026 13:20:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Gobierno canalizará $2 billones del Fondo de Garantía de Sustentabilidad de la ANSES —el fondo que respalda las jubilaciones— para reactivar el crédito hipotecario UVA. El mecanismo paso a paso, las tasas, cuánto hay que ganar para calificar, y por qué las 18.000 familias que apunta a alcanzar conviven con un déficit de 1,7 millones de viviendas.</description>
-      <ci:numero>$2 billones</ci:numero>
-      <ci:numeroEtiqueta>del FGS de ANSES para crédito hipotecario</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-26-caputo-hipotecarios-fgs-anses.png" length="59803" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-08-26-caputo-hipotecarios-fgs-anses.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

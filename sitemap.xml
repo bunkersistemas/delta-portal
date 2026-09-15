@@ -16,6 +16,7 @@
   <url><loc>https://coninteres.com/indicador/inflacion.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/seccion-tu-plata.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/seccion-tu-plata-2.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://coninteres.com/seccion-tu-plata-3.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/seccion-el-pais.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/seccion-el-pais-2.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/seccion-el-pais-3.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
@@ -23,6 +24,8 @@
   <url><loc>https://coninteres.com/seccion-tu-provincia.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/seccion-el-mundo.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/seccion-deportes.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>
+  <url><loc>https://coninteres.com/articulos/2026-09-14-canasta-crianza-cuidado-salario.html</loc><lastmod>2026-09-14</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
+  <url><loc>https://coninteres.com/articulos/2026-09-06-empleo-casas-particulares-vs-humanoides.html</loc><lastmod>2026-09-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/articulos/2026-09-06-chaco-empleo-privado-piso-2020.html</loc><lastmod>2026-09-06</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/articulos/2026-09-05-malvinas-45-sanciones-ley-26659.html</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://coninteres.com/articulos/2026-09-05-riesgo-pais-494-ranking-region.html</loc><lastmod>2026-09-05</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>
