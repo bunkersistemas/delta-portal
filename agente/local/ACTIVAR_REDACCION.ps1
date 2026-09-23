@@ -44,5 +44,6 @@ Register-ScheduledTask -TaskName $Tarea -Action $accion -Trigger $disparo -Princ
 $t = Get-ScheduledTask -TaskName $Tarea -ErrorAction SilentlyContinue
 if (-not $t) { Write-Output '[FALLA] la tarea no quedo creada'; exit 1 }
 $prox = (Get-ScheduledTaskInfo -TaskName $Tarea).NextRunTime
-Write-Output "[OK] tarea '$Tarea' creada, cada $Horas hora(s). Proxima corrida: $prox (hora de esta maquina)"
+$proxAR = [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId($prox, 'Argentina Standard Time')
+Write-Output ("[OK] tarea '$Tarea' creada, cada $Horas hora(s). Proxima corrida: {0:dd/MM HH:mm} de Buenos Aires" -f $proxAR)
 Write-Output ('     log: ' + (Join-Path $env:USERPROFILE 'coninteres-logs'))

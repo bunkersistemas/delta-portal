@@ -29,6 +29,11 @@ $env:PYTHONIOENCODING = 'utf-8'
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $OutputEncoding = [System.Text.Encoding]::UTF8
 
+# Todo en hora de Buenos Aires, cualquiera sea la zona de la maquina (esta en
+# Madrid): TZ lo respetan python, git y claude; los logs usan HoraAR.
+$env:TZ = 'ART3'
+function HoraAR { [TimeZoneInfo]::ConvertTimeBySystemTimeZoneId([DateTime]::UtcNow, 'Argentina Standard Time') }
+
 $Correo = 'oojeda465@gmail.com'
 
 $Raiz = Split-Path -Parent (Split-Path -Parent $PSScriptRoot)
@@ -36,13 +41,13 @@ Set-Location $Raiz
 
 $Logs = Join-Path $env:USERPROFILE 'coninteres-logs'
 New-Item -ItemType Directory -Force $Logs | Out-Null
-$Hoy = Get-Date -Format 'yyyy-MM-dd'
+$Hoy = (HoraAR).ToString('yyyy-MM-dd')
 $Log = Join-Path $Logs "redaccion_$Hoy.log"
 $Latido = Join-Path $Logs 'redaccion.latido'
 $Resultado = Join-Path $Raiz '.corrida.json'
 
 function Anotar($t) {
-  $l = (Get-Date -Format 'yyyy-MM-dd HH:mm:ss') + '  ' + $t
+  $l = (HoraAR).ToString('yyyy-MM-dd HH:mm:ss') + ' AR  ' + $t
   Write-Output $l
   Add-Content -Path $Log -Value $l -Encoding ASCII
 }
@@ -55,7 +60,7 @@ function Avisar($asunto, $cuerpo) {
 }
 function Terminar($codigo, $t, $avisar = $false) {
   Anotar $t
-  Set-Content -Path $Latido -Value ((Get-Date -Format 'yyyy-MM-dd HH:mm:ss') + '  ' + $t) -Encoding ASCII
+  Set-Content -Path $Latido -Value ((HoraAR).ToString('yyyy-MM-dd HH:mm:ss') + ' AR  ' + $t) -Encoding ASCII
   if ($avisar) { Avisar 'Con Interes: la redaccion programada fallo' "$t`n`nLog: $Log" }
   exit $codigo
 }
@@ -78,8 +83,10 @@ if ("$enCola".Trim() -ne '0') { Terminar 0 "[OK] hay $enCola borrador(es) espera
 # ---- 2. la corrida ----
 if (-not (Get-Command claude -ErrorAction SilentlyContinue)) { Terminar 1 '[FALLA] claude no esta en el PATH' $true }
 Remove-Item $Resultado -ErrorAction SilentlyContinue
+$ahoraAR = (HoraAR).ToString('yyyy-MM-dd HH:mm')
 $prompt = @"
 Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
+Fecha y hora de Buenos Aires: $ahoraAR. Usala para todo lo que dependa del dia (hoy, fecha de la nota, pregunta del dia, que ya publico el INDEC). La maquina esta en otra zona horaria: no te guies por su reloj.
 Hace una corrida de redaccion completa siguiendo agente/local/misiones/redaccion.md y agente/NEWSROOM.md al pie de la letra (python, no python3).
 Prioridad: lo que INDEC o BCRA publicaron hoy o en los ultimos dias y todavia no tiene nota nuestra (scripts/agenda.py, data/cubiertas.json).
 La vara no se negocia: si la cifra ancla no llega a CONFIRMADO con dos fuentes independientes, FRENAR. Un dia sin nota es mejor que una nota floja.
