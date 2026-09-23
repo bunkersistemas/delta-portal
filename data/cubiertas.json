@@ -805,6 +805,13 @@
       "fecha": "2026-09-23",
       "estado": "publicada",
       "articulo_id": "2026-09-23-inflacion-agosto-nucleo-no-bajo"
+    },
+    {
+      "tema": "costo de la construcción agosto 2026 / ICC GBA 22,0% acumulado dic-ago a la par de la inflación GBA (21,4%), pero materiales 15,3% y mano de obra 27,5%",
+      "angulo": "Ancla 22,0% (ICC INDEC GBA, acumulado dic-25 a ago-26) CONFIRMADA con CAMARCO 22,2% (22.945,2 / 18.776,5 pts, verificado que el acumulado es desde diciembre; materiales 24.840,0/21.335,3 = 16,4%; MO 20.167,9/15.026,2 = 34,2%). IPC GBA: 1,6% m, 21,4% acum, 33,7% i.a. (nacional 1,7/21,3/33,5). ICC ago: 2,5% m, 33,2% i.a.; materiales 1,7/15,3/24,7; MO 3,2/27,5/40,7 (asalariada 41,8% i.a.); GG 2,2/25,0/35,2; incidencia MO 1,55 de 2,49 pp. El titular que circuló ('superó a la inflación') es cierto solo en el mes. En real con IPC GBA: materiales -5,0%, MO +5,0%. No se usa el mensual CAMARCO (4,0%) como ancla: rectificó jun/jul por contribución empresaria homologada 20/08. Sin superlativos. Descartados en esta corrida: EPH 2T-2026 (ya cubierta en la nota del PIB del 23/09 y sin segunda fuente independiente para la tasa) y supermercados julio (sale 16:00, no publicado aún).",
+      "fecha": "2026-09-23",
+      "estado": "publicada",
+      "articulo_id": "2026-09-23-costo-construccion-materiales-mano-de-obra"
     }
   ]
 }

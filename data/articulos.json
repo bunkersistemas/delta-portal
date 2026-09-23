@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-23T06:08:16+02:00",
+    "actualizado": "2026-09-23T15:35:57+02:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-23-costo-construccion-materiales-mano-de-obra",
+      "titulo": "Construir cuesta 22% más que en diciembre, a la par de la inflación: los materiales quedaron seis puntos abajo y la mano de obra, seis arriba",
+      "bajada": "El costo de construir una vivienda en el Gran Buenos Aires subió 22,0% entre diciembre y agosto según el INDEC, y 22,2% según la Cámara Argentina de la Construcción, que lo mide por su cuenta. La inflación de la región en el mismo período fue 21,4%. El empate es solo en el promedio: los materiales subieron 15,3% y la mano de obra, 27,5%.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "22,0%",
+      "numero_label": "subió el costo de construir en el Gran Buenos Aires de diciembre a agosto (CAMARCO: 22,2%), contra 21,4% de inflación en la región",
+      "fecha": "2026-09-23",
+      "hora": "15:50",
+      "archivo": "articulos/2026-09-23-costo-construccion-materiales-mano-de-obra.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-23-inflacion-agosto-nucleo-no-bajo",
       "titulo": "La inflación bajó a 1,7% en agosto, la menor en 14 meses, pero la de fondo no se movió: la núcleo siguió en 1,8%",
