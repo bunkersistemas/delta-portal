@@ -19,7 +19,7 @@ Write-Output ('version: ' + (git log --oneline -1))
 if (-not (Test-Path $Script)) { Write-Output "[FALLA] no existe $Script"; exit 1 }
 
 $zona = [System.TimeZoneInfo]::Local.Id
-Write-Output "zona horaria de esta maquina: $zona (el disparo se fija en UTC, no depende de ella)"
+Write-Output "zona horaria de esta maquina: $zona (el disparo va hasta una hora antes y el script espera a las 07:00 de Buenos Aires)"
 
 $accion = New-ScheduledTaskAction -Execute 'powershell.exe' `
   -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$Script`"" -WorkingDirectory $Raiz
