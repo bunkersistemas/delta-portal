@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-23T05:19:19+02:00",
+    "actualizado": "2026-09-23T05:40:10+02:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-23-crecimiento-sin-empleo-cuatro-sectores",
+      "titulo": "La economía creció 2% en un año y hay 127.600 asalariados privados en blanco menos: el crecimiento vino de sectores que casi no emplean",
+      "bajada": "Entre abril y junio el PIB fue 2,0% más grande que un año antes. En el mismo período, las empresas privadas tenían 127.600 empleados registrados menos. No es una contradicción: todo el crecimiento salió del agro, la pesca, la minería y las finanzas, que dan trabajo a 9 de cada 100 asalariados privados. La industria y el comercio, que emplean a casi 4 de cada 10, no crecieron y explican el 70% de los puestos perdidos.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−127.600",
+      "numero_label": "asalariados privados registrados menos en el 2° trimestre de 2026 que un año antes, con un PIB que creció 2,0%",
+      "fecha": "2026-09-23",
+      "hora": "12:00",
+      "archivo": "articulos/2026-09-23-crecimiento-sin-empleo-cuatro-sectores.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 9 min"
+    },
     {
       "id": "2026-09-23-sueldo-blanco-gana-por-una-decima",
       "titulo": "El sueldo en blanco le ganó a la inflación por una décima, y todavía compra 3,1% menos que hace un año",
