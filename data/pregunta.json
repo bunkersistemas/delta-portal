@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-09-03",
-  "pregunta": "Desde enero de 2024, la Asignación Universal por Hijo y la asignación familiar por hijo de los trabajadores registrados se actualizan todos los meses con exactamente el mismo porcentaje: 2,11% en septiembre. Si las dos suben siempre lo mismo, ¿qué pasa con la diferencia entre una y otra?",
+  "fecha": "2026-09-14",
+  "pregunta": "La canasta de crianza del INDEC suma dos partes: lo que consume el chico y el tiempo de cuidado. Entre agosto de 2025 y agosto de 2026, la parte de bienes subió 38,3% para todas las edades y la de cuidado, 24,9%. Sin embargo, la canasta de un bebé subió 29,0% y la de un chico de 6 a 12 años, 31,5%. ¿Por qué la del bebé subió menos?",
   "opciones": [
-    "No se mueve: multiplicar dos montos por el mismo coeficiente no cambia la proporción entre ellos, así que la brecha queda igual mes tras mes",
-    "Se achica: como la asignación familiar parte de un monto más bajo, el mismo porcentaje la hace crecer más rápido y la acerca a la AUH",
-    "Se agranda: aplicar el mismo porcentaje sobre un monto mayor suma más pesos, así que la AUH se despega cada mes un poco más"
+    "Porque los productos para bebés, como pañales y leche, aumentaron menos que la ropa y los útiles de un chico en edad escolar",
+    "Porque en la canasta del bebé el cuidado pesa mucho más, y el total se mueve como un promedio de sus dos partes según cuánto pesa cada una",
+    "Porque un bebé necesita menos horas de cuidado que un chico de 6 a 12, así que la parte que menos subió le suma menos"
   ],
-  "correcta": 0,
-  "explicacion": "La movilidad de la ley 27.160 es un único coeficiente multiplicativo que se aplica a todos los montos a la vez. Y una razón entre dos números no cambia si los multiplicás a ambos por lo mismo: 9,5 veces hoy, 9,5 veces el mes que viene, con cualquier inflación. Se comprueba en los datos: entre junio y septiembre de 2026 la AUH subió 6,2781% y el cuarto rango del SUAF, 6,2922% — la diferencia son los redondeos al peso entero. La tercera opción confunde pesos con proporciones: es cierto que la AUH suma más pesos por mes (el 2,11% de $154.031 son $3.250; el de $16.217, $342), y por eso la distancia medida en plata sí se agranda. Pero la distancia medida en veces no se mueve. La brecha de 9,5 veces no nació de la inflación: la creó un acto normativo puntual, el Decreto 117/2023, que duplicó una prestación y no tocó la otra. Solo otro acto normativo puede cambiarla.",
-  "nota": "articulos/2026-09-03-asignaciones-familiares-brecha-auh-suaf.html",
-  "leccion": "lecciones/presupuesto.html"
+  "correcta": 1,
+  "explicacion": "Cuando un total junta dos partes que suben distinto, su variación es un promedio ponderado: cuenta más la parte que más pesa. Hace un año, en la canasta de un bebé el cuidado era el 69,6% del total, y en la de un chico de 6 a 12, el 50,5%. Hagamos la cuenta: 30,4% × 38,3 + 69,6% × 24,9 da 29,0; y 49,5% × 38,3 + 50,5% × 24,9 da 31,5. La primera opción falla porque el INDEC calcula los bienes de todas las edades con la misma canasta básica, así que suben igual. La tercera lo tiene al revés: un bebé necesita 147 horas de cuidado por mes y un chico en edad escolar, 84. Es el mismo mecanismo por el que tu inflación personal puede no coincidir con la del INDEC: depende de cuánto pesa cada cosa en tu gasto.",
+  "nota": "articulos/2026-09-14-canasta-crianza-cuidado-salario.html",
+  "leccion": "lecciones/inflacion-bolsillo.html"
 }
