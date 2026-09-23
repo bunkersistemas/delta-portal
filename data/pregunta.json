@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-09-14",
-  "pregunta": "La canasta de crianza del INDEC suma dos partes: lo que consume el chico y el tiempo de cuidado. Entre agosto de 2025 y agosto de 2026, la parte de bienes subió 38,3% para todas las edades y la de cuidado, 24,9%. Sin embargo, la canasta de un bebé subió 29,0% y la de un chico de 6 a 12 años, 31,5%. ¿Por qué la del bebé subió menos?",
+  "fecha": "2026-09-23",
+  "pregunta": "Entre julio de 2025 y julio de 2026, el sueldo privado registrado subió 29,7% según el INDEC y los precios subieron 33,8%. ¿Cuánto menos puede comprar hoy ese sueldo que hace un año?",
   "opciones": [
-    "Porque los productos para bebés, como pañales y leche, aumentaron menos que la ropa y los útiles de un chico en edad escolar",
-    "Porque en la canasta del bebé el cuidado pesa mucho más, y el total se mueve como un promedio de sus dos partes según cuánto pesa cada una",
-    "Porque un bebé necesita menos horas de cuidado que un chico de 6 a 12, así que la parte que menos subió le suma menos"
+    "4,1% menos: es la diferencia entre 33,8% y 29,7%",
+    "3,1% menos: hay que dividir 1,297 por 1,338, no restar los porcentajes",
+    "Nada menos, porque en julio el sueldo subió 2,3% y la inflación del mes fue 2,1%"
   ],
   "correcta": 1,
-  "explicacion": "Cuando un total junta dos partes que suben distinto, su variación es un promedio ponderado: cuenta más la parte que más pesa. Hace un año, en la canasta de un bebé el cuidado era el 69,6% del total, y en la de un chico de 6 a 12, el 50,5%. Hagamos la cuenta: 30,4% × 38,3 + 69,6% × 24,9 da 29,0; y 49,5% × 38,3 + 50,5% × 24,9 da 31,5. La primera opción falla porque el INDEC calcula los bienes de todas las edades con la misma canasta básica, así que suben igual. La tercera lo tiene al revés: un bebé necesita 147 horas de cuidado por mes y un chico en edad escolar, 84. Es el mismo mecanismo por el que tu inflación personal puede no coincidir con la del INDEC: depende de cuánto pesa cada cosa en tu gasto.",
-  "nota": "articulos/2026-09-14-canasta-crianza-cuidado-salario.html",
+  "explicacion": "Para medir el poder de compra se compara cuánto creció el sueldo con cuánto crecieron los precios, en proporción: 1,297 / 1,338 = 0,969, o sea 3,1% menos. La resta (4,1 puntos) exagera la pérdida, porque ignora que la suba de precios también se aplica sobre el aumento; con inflaciones altas la diferencia se nota. La tercera opción confunde un mes con el año: ganarle a la inflación de julio por una décima no compensa los meses en que se perdió. Es la misma cuenta que sirve para saber si tu propio sueldo le ganó o le perdió a los precios.",
+  "nota": "articulos/2026-09-23-sueldo-blanco-gana-por-una-decima.html",
   "leccion": "lecciones/inflacion-bolsillo.html"
 }
