@@ -74,7 +74,7 @@ sobre el.
 | # | Mision | Que hace | Termina en |
 |---|---|---|---|
 | **1** | **Conversar** | La puerta de entrada. Te da el estado del dia en seis lineas, te propone dos o tres cosas concretas y espera. Le pedis lo que necesites en castellano y el rutea a la mision que corresponda | Lo que hayas pedido |
-| **2** | **Corrida de redaccion** | La linea de montaje de NEWSROOM.md: rastrea, elige tema, investiga en fuentes primarias, verifica, escribe la nota | Un **borrador en `cola/`**, nunca publicado directo |
+| **2** | **Corrida de redaccion** | La linea de montaje de NEWSROOM.md: rastrea, elige tema, investiga en fuentes primarias, verifica, escribe la nota | Un **borrador en `cola/`**. Solo la redaccion programada lo publica sola, y con controles (regla 1) |
 | **3** | **Revisar y publicar** | Lista los borradores que esperan, te muestra el que elijas, y si aprobas corre `aprobar.py` | La nota **publicada** en el sitio |
 | **4** | **Ficha de investigacion** | Le das un tema o un link y devuelve una ficha con datos verificados, fuentes, etiquetas y graficos | Un archivo en **`fichas/`** |
 | **5** | **Cambios al sitio** | Modificaciones de fondo: plantilla, scripts de build, paginas nuevas | Cambios en el repo, para revisar |
@@ -90,9 +90,19 @@ cuando ya sabes exactamente que queres hacer y no tenes ganas de explicarlo.
 Estas no son de estilo. Si el agente esta por hacer una de estas cosas, frena y
 pregunta.
 
-1. **No publica sin aprobacion.** La corrida de redaccion deja el borrador en
-   `cola/`. Mover algo a `articulos/` solo pasa por la mision 3, y solo despues
-   de que Horacio dijo que si.
+1. **No publica sin aprobacion, salvo la redaccion programada.** La corrida de
+   redaccion deja el borrador en `cola/`, siempre. De ahi a `articulos/` hay
+   dos caminos, y solo dos:
+   - **Horacio aprueba** una nota de la cola (mision 3).
+   - **La redaccion programada** (`agente/local/redaccion_programada.ps1`, cada
+     3 horas, autorizada por el editor el 23/09/2026) la publica sola si el
+     agente declaro APTA y el script confirma los controles mecanicos: entrada
+     en `cola.json`, cifra ancla, `noindex`, fuentes que responden y ningun
+     archivo tocado fuera del sitio. Cada publicacion le llega a Horacio por
+     Gmail.
+   En los dos casos el agente de redaccion nunca corre `aprobar.py` ni git por
+   su cuenta. En una sesion interactiva, no se publica sin que Horacio diga que
+   si. La vara de verificacion es la misma: la automatizacion no la baja.
 2. **No commitea sin mostrar.** Antes de cualquier commit muestra `git status` y
    la lista de archivos tocados, y espera confirmacion.
 3. **Nunca pone credenciales en la URL del remoto.** Ni un PAT, ni un token, ni
@@ -219,13 +229,23 @@ Se leen al empezar y se actualizan al terminar.
   produjo 23 notas) sino falta de disparador y de colchon: nada arranca si
   Horacio no hace doble clic, y la cola esta siempre en cero. El calendario de
   publicaciones oficiales (`data/calendario.json`, 31/08/2026) ataca la mitad
-  del problema: la corrida ya no arranca en blanco. Falta la otra mitad, un
-  colchon de borradores para los dias flojos.
+  del problema: la corrida ya no arranca en blanco. La otra mitad, el
+  disparador, es la redaccion programada (23/09/2026, ver abajo).
 - **La redaccion automatica en la nube esta suspendida** desde el 31/08/2026:
   la tarea que corria cada 2 horas ya no genera borradores. La unica redaccion
   activa es la de esta maquina, asi que ya no hay riesgo de dos borradores del
   mismo dia compitiendo por el mismo tema. Sigue en pie la auditoria de los
   lunes a las 7, que no genera notas.
+- **La redaccion programada corre en esta maquina** desde el 23/09/2026: la
+  tarea "Con Interes - Redaccion programada" dispara
+  `agente/local/redaccion_programada.ps1` cada 3 horas, con una corrida a las
+  16:30 de Buenos Aires (media hora despues de INDEC y BCRA). Se activa con
+  `ACTIVAR_REDACCION.ps1` y se apaga con
+  `Disable-ScheduledTask -TaskName 'Con Interes - Redaccion programada'`.
+  No corre si hay cambios sin commitear o borradores en la cola, asi que no
+  pisa el trabajo de una sesion interactiva. Log en
+  `%USERPROFILE%\coninteres-logs\redaccion_<fecha>.log`. La mayoria de las
+  corridas deberian terminar sin nota: es lo esperado.
 
 ---
 

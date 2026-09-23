@@ -139,6 +139,16 @@ Cada uno tiene un rol acotado: hace una cosa y la hace bien.
   `data/cubiertas.json` como `en_cola`, regenera la portada
   (`python3 scripts/build_portada.py` — la cola aparece en la portada con
   enlace "Leer borrador"), hace commit y push, y avisa al humano.
+- **Excepción: la redacción programada (desde el 23/09/2026).** Cuando la
+  corrida la dispara `agente/local/redaccion_programada.ps1` en la máquina
+  del editor, el agente deja la nota en la cola como siempre y declara su
+  veredicto, pero **no** hace commit, push ni `aprobar.py`: eso lo hace el
+  script. Si el veredicto es APTA y pasan los controles mecánicos (entrada en
+  `cola.json`, cifra ancla, `noindex`, fuentes que responden, ningún archivo
+  tocado fuera del sitio), el script publica, sube y avisa al editor por
+  Gmail. Es la única vía de publicación sin aprobación nota por nota, y la
+  autorizó el editor. No cambia nada del protocolo de §3: un FRENAR sigue
+  siendo un FRENAR.
 - **El borrador debe poder LEERSE antes de aprobarse.** Tras el push, el
   borrador queda accesible en `https://coninteres.com/cola/<id>.html`. El
   aviso al humano incluye SIEMPRE: el título, esa URL directa para leerlo, y

@@ -1,6 +1,8 @@
 # Mision 1 - Corrida de redaccion
 
 **Objetivo:** dejar UN borrador nuevo en la cola de revision. No publicar.
+(Si la corrida la dispara la redaccion programada, el que publica es el script
+y no vos; ver CLAUDE.md, regla 1.)
 
 El metodo completo esta en `agente/NEWSROOM.md`. Leelo antes de arrancar: manda
 en todo lo que sea criterio. Esta mision solo ordena los pasos.
