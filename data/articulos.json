@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-23T05:40:10+02:00",
+    "actualizado": "2026-09-23T06:08:16+02:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-23-inflacion-agosto-nucleo-no-bajo",
+      "titulo": "La inflación bajó a 1,7% en agosto, la menor en 14 meses, pero la de fondo no se movió: la núcleo siguió en 1,8%",
+      "bajada": "El INDEC midió 1,7% en agosto y el instituto de estadística porteño, con otra canasta, también 1,7%. Es la cifra más baja desde junio de 2025. Pero la baja vino de la ropa, el turismo y la recreación, que se desinflaron después de las vacaciones de invierno. La inflación núcleo, la que muestra la tendencia, quedó en 1,8%, igual que en julio. Y la anual apenas pasó de 33,8% a 33,5%: la cuenta que explica por qué, y por qué desde septiembre empieza a jugar a favor.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,7%",
+      "numero_label": "fue la inflación de agosto, la más baja desde junio de 2025; la núcleo quedó en 1,8%, igual que en julio",
+      "fecha": "2026-09-23",
+      "hora": "01:30",
+      "archivo": "articulos/2026-09-23-inflacion-agosto-nucleo-no-bajo.html",
+      "verificacion": "verificada",
+      "fuentes": 3,
+      "lectura": "30 seg → 8 min"
+    },
     {
       "id": "2026-09-23-crecimiento-sin-empleo-cuatro-sectores",
       "titulo": "La economía creció 2% en un año y hay 127.600 asalariados privados en blanco menos: el crecimiento vino de sectores que casi no emplean",

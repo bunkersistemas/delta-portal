@@ -798,6 +798,13 @@
       "fecha": "2026-09-23",
       "estado": "publicada",
       "articulo_id": "2026-09-23-crecimiento-sin-empleo-cuatro-sectores"
+    },
+    {
+      "tema": "IPC agosto 2026 / 1,7% la menor desde junio 2025, pero la núcleo quedó en 1,8% (igual que julio) y la interanual apenas bajó a 33,5%",
+      "angulo": "Ancla 1,7% INDEC confirmado con IPCBA (IDECBA) 1,7%. La baja vino de estacionales (+4,5% jul -> -0,9% ago; recreación 5,0 -> 0). Núcleo 1,6 jun, 1,8 jul, 1,8 ago. Efecto base: sale ago-25 1,9%; de sep a dic salen 2,1/2,3/2,5/2,8, ilustración de la interanual a dic: 29,8% (1,7/mes), 31,3% (2,0), 32,8% (2,3). Servicios 41,8% i.a. vs bienes 29,5%. Distinto de la previa del 27/08 (proyecciones) y del mapa de divisiones del 01/09 (acumulado dic-23 a jul-26).",
+      "fecha": "2026-09-23",
+      "estado": "publicada",
+      "articulo_id": "2026-09-23-inflacion-agosto-nucleo-no-bajo"
     }
   ]
 }
