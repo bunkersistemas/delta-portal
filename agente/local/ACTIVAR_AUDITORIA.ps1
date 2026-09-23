@@ -19,16 +19,22 @@ Write-Output ('version: ' + (git log --oneline -1))
 if (-not (Test-Path $Script)) { Write-Output "[FALLA] no existe $Script"; exit 1 }
 
 $zona = [System.TimeZoneInfo]::Local.Id
-if ($zona -notmatch 'Argentina') {
-  Write-Output "[AVISO] la zona horaria es '$zona', no Argentina: las 07:00 no son las de Buenos Aires"
-}
+Write-Output "zona horaria de esta maquina: $zona (el disparo se fija en UTC, no depende de ella)"
 
 $accion = New-ScheduledTaskAction -Execute 'powershell.exe' `
   -Argument "-NoProfile -ExecutionPolicy Bypass -File `"$Script`"" -WorkingDirectory $Raiz
-$disparo = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday -At '07:00'
+# La VM no esta en hora argentina. El disparo es un poco ANTES de las 07:00 de
+# Buenos Aires (10:00 UTC) en cualquier zona y estacion, y el script espera
+# hasta las 10:00 UTC: asi no depende de como guarde la hora el Programador ni
+# del cambio de horario europeo. Argentina no cambia de horario.
+$ahora = Get-Date
+$offset = [System.TimeZoneInfo]::Local.GetUtcOffset($ahora).TotalHours
+$horaLocal = [math]::Floor(10 + $offset - 1)          # una hora antes, en hora local
+if ($horaLocal -lt 0) { $horaLocal += 24 }
+$disparo = New-ScheduledTaskTrigger -Weekly -DaysOfWeek Monday -At ('{0:00}:00' -f $horaLocal)
 $principal = New-ScheduledTaskPrincipal -UserId "$env:USERDOMAIN\$env:USERNAME" -LogonType Interactive
 $ajustes = New-ScheduledTaskSettingsSet -AllowStartIfOnBatteries -DontStopIfGoingOnBatteries `
-  -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 3) -MultipleInstances IgnoreNew
+  -StartWhenAvailable -ExecutionTimeLimit (New-TimeSpan -Hours 4) -MultipleInstances IgnoreNew
 Register-ScheduledTask -TaskName $Tarea -Action $accion -Trigger $disparo -Principal $principal `
   -Settings $ajustes -Force | Out-Null
 

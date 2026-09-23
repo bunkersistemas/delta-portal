@@ -52,6 +52,14 @@ Anotar '==== auditoria semanal: inicio ===='
 
 # ---- ventana: por defecto, de lunes a domingo de la semana pasada ----
 if (-not $Desde -or -not $Hasta) {
+  # Corrida programada: arranca a las 07:00 de Buenos Aires (10:00 UTC). La
+  # tarea dispara hasta una hora antes (ver ACTIVAR_AUDITORIA.ps1).
+  $utc = (Get-Date).ToUniversalTime()
+  $objetivo = $utc.Date.AddHours(10)
+  if ($utc -lt $objetivo) {
+    Anotar ('esperando a las 07:00 de Buenos Aires ({0:N0} min)' -f ($objetivo - $utc).TotalMinutes)
+    Start-Sleep -Seconds ([int]($objetivo - $utc).TotalSeconds)
+  }
   $h = (Get-Date).Date
   $dow = [int]$h.DayOfWeek            # 0 domingo .. 6 sabado
   $lunesEsta = $h.AddDays(-(($dow + 6) % 7))
