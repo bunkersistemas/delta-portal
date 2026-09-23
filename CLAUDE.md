@@ -95,7 +95,7 @@ pregunta.
    dos caminos, y solo dos:
    - **Horacio aprueba** una nota de la cola (mision 3).
    - **La redaccion programada** (`agente/local/redaccion_programada.ps1`, cada
-     3 horas, autorizada por el editor el 23/09/2026) la publica sola si el
+     hora, autorizada por el editor el 23/09/2026) la publica sola si el
      agente declaro APTA y el script confirma los controles mecanicos: entrada
      en `cola.json`, cifra ancla, `noindex`, fuentes que responden y ningun
      archivo tocado fuera del sitio. Cada publicacion le llega a Horacio por
@@ -238,7 +238,7 @@ Se leen al empezar y se actualizan al terminar.
   lunes a las 7, que no genera notas.
 - **La redaccion programada corre en esta maquina** desde el 23/09/2026: la
   tarea "Con Interes - Redaccion programada" dispara
-  `agente/local/redaccion_programada.ps1` cada 3 horas, con una corrida a las
+  `agente/local/redaccion_programada.ps1` cada hora, con una corrida a las
   16:30 de Buenos Aires (media hora despues de INDEC y BCRA). Se activa con
   `ACTIVAR_REDACCION.ps1` y se apaga con
   `Disable-ScheduledTask -TaskName 'Con Interes - Redaccion programada'`.

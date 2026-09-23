@@ -1,6 +1,6 @@
 # ===================================================================
 #  Con Interes - redaccion programada, corre en AGENTE007
-#  La dispara la tarea "Con Interes - Redaccion programada" (cada 3 horas,
+#  La dispara la tarea "Con Interes - Redaccion programada" (cada hora,
 #  ver ACTIVAR_REDACCION.ps1). Autorizada por el editor el 23/09/2026:
 #  las notas que pasan la verificacion se publican sin aprobacion una a una.
 #
@@ -23,6 +23,11 @@
 $ErrorActionPreference = 'Continue'
 $env:GIT_TERMINAL_PROMPT = '0'
 $env:PYTHONIOENCODING = 'utf-8'
+# Python y git escriben UTF-8: sin esto PowerShell 5.1 lee su salida con la
+# pagina de codigos de la consola y los titulos con tildes llegan rotos al
+# commit y al mail (paso en la primera corrida, 23/09/2026).
+[Console]::OutputEncoding = [System.Text.Encoding]::UTF8
+$OutputEncoding = [System.Text.Encoding]::UTF8
 
 $Correo = 'oojeda465@gmail.com'
 
