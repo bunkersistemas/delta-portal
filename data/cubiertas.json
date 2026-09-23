@@ -828,6 +828,14 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "cifra ancla (supermercados -2,1% i.a. real, INDEC) sin segunda fuente independiente coincidente: Scentia da -0,6% para cadenas; retomar medios de pago el 25/09 con Pagos Minoristas del BCRA"
+    },
+    {
+      "tema": "mercado de trabajo / EPH segundo trimestre 2026: desocupación 7,9% (1,73 millones), +0,3 pp interanual y +0,1 pp contra el primer trimestre; informalidad 45%",
+      "angulo": "FRENADA en la corrida programada del 23/09/2026 20:30. Era el único dato oficial de los últimos días sin nota nuestra (INDEC, Mercado de trabajo EPH 2T-2026, difundido el 17/09/2026). Cifras relevadas en prensa (infobae, La Gaceta, elDiarioAR, 17/09): desocupación 7,9% vs 7,6% en 2T-2025 y 7,8% en 1T-2026; Gran Rosario 11,5%, Gran Córdoba 10,5%, Mar del Plata 9,9%; informalidad 45% (+1,8 pp i.a.). El informe del INDEC no pudo leerse directo en esta corrida (el sitio no devolvió el documento). Ojo: circula 'el nivel más alto desde 2021'; no verificado contra la serie. MOTIVO DEL FRENO: la cifra ancla no llega a CONFIRMADO. No hay una segunda medición independiente de la tasa de desocupación trimestral que pueda coincidir (el ODSA-UCA es anual y mide otro universo); los medios reproducen el dato oficial y no cuentan como segunda fuente. Mismo criterio que los frenos del ICA (13:30) y de supermercados (16:30) de hoy. Los otros datos de hoy que quedaban sin revisar (autoservicios mayoristas y centros de compras, julio 2026) tienen el mismo problema: no hay medición independiente del mismo mes. Si se retoma, cruzar la EPH con el SIPA (ya usado en la nota del 23/09 de crecimiento sin empleo) o engancharla con la pobreza del 1er semestre, que sale el 24/09 a las 16.",
+      "fecha": "2026-09-23",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla (desocupación 7,9%, INDEC EPH 2T-2026) sin segunda fuente independiente posible; mayoristas y shoppings de julio con el mismo problema"
     }
   ]
 }
