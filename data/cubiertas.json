@@ -812,6 +812,14 @@
       "fecha": "2026-09-23",
       "estado": "publicada",
       "articulo_id": "2026-09-23-costo-construccion-materiales-mano-de-obra"
+    },
+    {
+      "tema": "intercambio comercial (ICA) agosto 2026 / las exportaciones crecieron 12,4% por precios (+16,0%) con cantidades en baja (-3,1%)",
+      "angulo": "FRENADA en la corrida programada del 23/09/2026 13:30. Ángulo evaluado: el superávit de agosto (US$2.187 M; expo 8.883 +12,4%, impo 6.696 +3,6%) vino de precios, no de volumen: expo precios +16,0% / cantidades -3,1% (PP cantidades -20,1%); impo precios +11,0% / cantidades -6,5%; a precios de ago-2025 el saldo habría sido US$1.622 M; ganancia de términos del intercambio US$348 M (ITI 145,3, +4,5%). Fuente primaria: INDEC, ICA agosto 2026, difundido el 18/09 (https://www.indec.gob.ar/uploads/informesdeprensa/ica_09_266E5973E036.pdf). Ojo: el texto de la pág. 9 del informe dice 'incrementos ... en las cantidades (3,1%)', en contradicción con el cuadro 3 y el resumen (-3,1%): errata del INDEC. MOTIVO DEL FRENO: la cifra ancla no llega a CONFIRMADO. No hay segunda fuente independiente que coincida: el IPMP del BCRA (IPMPSerie.xlsx) da +22,3% i.a. en agosto (agro +20,1%, metales +28,1%, petróleo +33,8%); confirma la dirección (suba de precios) pero no el número, y mide otra canasta. El Informe de Evolución del Mercado de Cambios del BCRA de agosto sale el 25/09: retomar el tema ese día con el cruce aduana (INDEC) vs caja (BCRA), sin repetir el ángulo de la nota del 31/08 (brecha aduana-cambios).",
+      "fecha": "2026-09-23",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla (precios de exportación +16,0%) sin segunda fuente independiente coincidente; retomar el 25/09 con el balance cambiario del BCRA"
     }
   ]
 }
