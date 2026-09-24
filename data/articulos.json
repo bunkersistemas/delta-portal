@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T18:39:56-03:00",
+    "actualizado": "2026-09-24T19:38:42-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-juegos-suramericanos-cuanto-cuestan-deuda-caf",
+      "titulo": "Cuánto cuestan los Juegos Suramericanos: Santa Fe tomó una deuda de US$75 millones a 18 años, y la organización ya calcula el total en hasta US$135 millones",
+      "bajada": "Los Juegos terminan el sábado 26 en Rosario, Santa Fe y Rafaela. La ley provincial 14.388 autorizó a la provincia a endeudarse hasta US$75 millones con la CAF, y el Decreto 110/2026 puso a la Nación como garante. En 2024 el Gobierno santafesino anunció una inversión de US$90 millones; esta semana el coordinador de los Juegos habló de 130 a 135. La diferencia, dijo, salió del Tesoro provincial.",
+      "seccion": "DEPORTES",
+      "formato": "Anatomía de un dato",
+      "numero": "US$75 M",
+      "numero_label": "deuda autorizada con la CAF para las obras de los Juegos Suramericanos (ley 14.388 y Decreto 110/2026), a 18 años",
+      "fecha": "2026-09-24",
+      "hora": "20:00",
+      "archivo": "articulos/2026-09-24-juegos-suramericanos-cuanto-cuestan-deuda-caf.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-24-nafta-combustibles-subieron-50-un-ano",
       "titulo": "Cuánto subió la nafta en un año: los combustibles aumentaron 50%, casi una vez y media la inflación",
