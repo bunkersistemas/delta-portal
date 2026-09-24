@@ -843,6 +843,13 @@
       "fecha": "2026-09-23",
       "estado": "publicada",
       "articulo_id": "2026-09-23-supermercados-julio-mas-bajo-desde-2017"
+    },
+    {
+      "tema": "mercado de trabajo por región / EPH 2T-2026: desocupación del interior 7,6% (6,3% en 2T-2025, +100.700 desocupados), 82% del aumento en la región pampeana, Gran Rosario 11,5%; GBA sin cambio significativo",
+      "angulo": "RETOMADA en la corrida programada del 24/09/2026 00:30 bajo la regla de estadísticas oficiales (NEWSROOM §3); la frenada del 23/09 20:30 era la tasa nacional 7,9%. Ángulo nuevo: la geografía (la nota del 23/09 de crecimiento sin empleo solo lo mencionó en una línea del desplegable). Portales: infobae y ámbito (desempleo CABA), pagina12 (Rosario 11,5%, pluriempleo). Condición 1: informe INDEC mercado_trabajo_eph_2trim26433FCBC5A8.pdf pág. 4, interior 7,6% con aumento significativo de 1,3 pp. Condición 2: recalculado con cuadros_tasas_indicadores_eph_09_26.xls y coeficientes_variacion_mdt_09_26.xlsx: 508.392/6.704.290 = 7,58%; 2025 407.686/6.507.084 = 6,27%; +100.706. Pampeana 232.324 -> 314.699 (+82.375, 81,8%). Rosario 55.389 -> 83.232, tasa 7,7 -> 11,5 (IC 9,4-13,6). Condición 3: SIPA (trabajoregistrado_2606_estadisticas.xlsx, A.5.1) promedio abr-jun, 22 provincias sin BA ni CABA 2.762,3 -> 2.707,5 mil (-54.800, -2,0%); Santa Fe -6.378, Córdoba -9.317. Diferencia explicada: SIPA también cae en BA+CABA (-2,1%) sin suba de desocupación EPH en GBA (universo: registro vs encuesta; informalidad). Significancia por ciudad: cálculo propio con CV de ambos años, muestras independientes (conservador): Pampeana z 3,3, Rosario z 2,4, MdP 1,7 y Santa Fe 1,7 al límite, Córdoba 1,0 no. Superlativos: interior 7,6 el más alto de un 2T desde 2021 (8,9); valores previos 2022 5,7, 2023 5,7, 2024 6,7, 2025 6,3. Rosario 11,5 más alto de un 2T desde 2021 (11,8); previos 4,3/5,3/7,2/7,7. Rosario la tasa más alta de los 31 aglomerados (Córdoba 10,5 segunda).",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-desempleo-interior-rosario-pampeana"
     }
   ]
 }

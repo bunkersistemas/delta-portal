@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-09-23",
-  "pregunta": "Entre julio de 2025 y julio de 2026, el sueldo privado registrado subió 29,7% según el INDEC y los precios subieron 33,8%. ¿Cuánto menos puede comprar hoy ese sueldo que hace un año?",
+  "fecha": "2026-09-24",
+  "pregunta": "En agosto de 2026 los precios subieron 1,7%, y en agosto de 2025 habían subido 1,9%. La inflación de los últimos doce meses, que en julio era 33,8%, ¿qué hizo en agosto?",
   "opciones": [
-    "4,1% menos: es la diferencia entre 33,8% y 29,7%",
-    "3,1% menos: hay que dividir 1,297 por 1,338, no restar los porcentajes",
-    "Nada menos, porque en julio el sueldo subió 2,3% y la inflación del mes fue 2,1%"
+    "Bajó un poco, a 33,5%: el mes nuevo (1,7%) reemplazó en la cuenta a uno algo más alto (1,9%)",
+    "Bajó a 1,7%, porque la inflación de agosto fue la más baja en catorce meses",
+    "Subió, porque los precios siguieron aumentando en agosto"
   ],
-  "correcta": 1,
-  "explicacion": "Para medir el poder de compra se compara cuánto creció el sueldo con cuánto crecieron los precios, en proporción: 1,297 / 1,338 = 0,969, o sea 3,1% menos. La resta (4,1 puntos) exagera la pérdida, porque ignora que la suba de precios también se aplica sobre el aumento; con inflaciones altas la diferencia se nota. La tercera opción confunde un mes con el año: ganarle a la inflación de julio por una décima no compensa los meses en que se perdió. Es la misma cuenta que sirve para saber si tu propio sueldo le ganó o le perdió a los precios.",
-  "nota": "articulos/2026-09-23-sueldo-blanco-gana-por-una-decima.html",
+  "correcta": 0,
+  "explicacion": "La inflación interanual compara los precios de hoy con los de doce meses atrás. Cada mes entra un dato nuevo y sale el del mismo mes del año anterior: en agosto entró 1,7% y salió 1,9%, así que la interanual bajó apenas, de 33,8% a 33,5% (1,338 × 1,017 / 1,019 = 1,335). Confundir la inflación de un mes con la de un año es el error más común al leer estos números. Y que los precios sigan subiendo no hace subir la interanual: para eso, el mes nuevo tendría que ser más alto que el que sale.",
+  "nota": "articulos/2026-09-23-inflacion-agosto-nucleo-no-bajo.html",
   "leccion": "lecciones/inflacion-bolsillo.html"
 }

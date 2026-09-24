@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 23 Sep 2026 23:37:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 00:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El desempleo subió en el interior y no en el Gran Buenos Aires: 100.700 desocupados más en un año, y el 82% en la región pampeana</title>
+      <link>https://coninteres.com/articulos/2026-09-24-desempleo-interior-rosario-pampeana.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-desempleo-interior-rosario-pampeana.html</guid>
+      <pubDate>Thu, 24 Sep 2026 01:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>La desocupación de las ciudades del interior pasó de 6,3% a 7,6% en un año, según la encuesta de hogares del INDEC: unas 100.700 personas más buscan trabajo sin conseguirlo. En el Gran Buenos Aires no hubo un cambio significativo. El 82% del aumento está en la región pampeana, y Gran Rosario llegó a 11,5%.</description>
+      <ci:numero>7,6%</ci:numero>
+      <ci:numeroEtiqueta>fue la desocupación de las ciudades del interior en el 2° trimestre de 2026 (6,3% un año antes, INDEC); la más alta para un 2° trimestre desde 2021</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-desempleo-interior-rosario-pampeana.png" length="72762" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-desempleo-interior-rosario-pampeana.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los supermercados vendieron 2,1% menos en julio: el julio más flojo desde 2017 y siete meses seguidos en baja</title>
       <link>https://coninteres.com/articulos/2026-09-23-supermercados-julio-mas-bajo-desde-2017.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>vehículos de marcas chinas patentados entre enero y julio de 2026; eran 3.985 un año antes</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-31-autos-chinos-patentamientos-produccion.png" length="72564" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-08-31-autos-chinos-patentamientos-produccion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina bombea más petróleo que nunca: 912.939 barriles por día en julio, y el récord de 1998 quedó 54.635 barriles atrás</title>
-      <link>https://coninteres.com/articulos/2026-08-31-produccion-petroleo-record-912-mil-barriles.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-08-31-produccion-petroleo-record-912-mil-barriles.html</guid>
-      <pubDate>Mon, 31 Aug 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El récord es real y lo confirmamos sumando la base oficial pozo por pozo. Pero el pico previo no fue de 847.000 barriles diarios —esa cifra coincide con el promedio anual de 1998— sino de 858.304 en mayo de aquel año. Comparar un récord mensual contra un promedio anual infla la hazaña.</description>
-      <ci:numero>912.939 b/d</ci:numero>
-      <ci:numeroEtiqueta>producción de petróleo de julio de 2026, el máximo de la serie oficial</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-31-produccion-petroleo-record-912-mil-barriles.png" length="69158" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-08-31-produccion-petroleo-record-912-mil-barriles.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
