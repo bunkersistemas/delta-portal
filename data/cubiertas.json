@@ -952,6 +952,13 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-emae-julio-mayor-caida-desde-2020"
+    },
+    {
+      "tema": "precio de los combustibles / IPC GBA agosto 2026: combustibles y lubricantes para vehículos +50,0% interanual contra 33,7% del nivel general (+12,2% real); en las seis regiones por encima de la inflación; suba de Shell, Axion y Puma de esta semana",
+      "angulo": "Corrida programada del 24/09/2026 18:30. Pregunta de plata ('cuánto subió la nafta', 'cuánto cuesta llenar el tanque') detrás de la suba de Shell/Axion/Puma, en 5 portadas (infobae, lanacion, iprofesional, cronista, pagina12; clarin y tn no se pudieron leer). Ángulo nuevo respecto de la nota de venta de combustibles (23/07): el precio, no el volumen. Verificación: estadística oficial recalculada (cuadro sh_ipc_aperturas: GBA combustibles 7.522,09 -> 11.280,04 = +50,0%; nivel general 9.185,31 -> 12.276,81 = +33,7%; coincide con la interanual publicada; las 6 regiones y el acumulado dic-ago 28,1% vs 21,4% también coinciden) + contraste independiente con el registro de precios en surtidor de la Secretaría de Energía (Res. 314/2016), mediana de nafta súper en CABA: Axion ago-25 $1.374 -> ago-26 $2.119 (+54,2%), Shell jul-25 $1.336 -> jul-26 $2.134 (+59,7%); diferencia explicada por universo (solo súper y solo CABA vs todo el rubro en GBA). Tanque: Shell CABA mediana de 23 declaraciones del 22/09 $2.185 x 50 = $109.250 (ago-25 $1.399 -> $69.950). YPF excluida del registro por falta de actualizaciones en CABA. Subas de la semana atribuidas a La Nación. Sin superlativos; no se atribuyen causas a los saltos de marzo (7,0%) y abril (11,7%).",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-nafta-combustibles-subieron-50-un-ano"
     }
   ]
 }

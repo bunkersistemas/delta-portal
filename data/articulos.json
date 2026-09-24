@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T17:41:07-03:00",
+    "actualizado": "2026-09-24T18:39:56-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-nafta-combustibles-subieron-50-un-ano",
+      "titulo": "Cuánto subió la nafta en un año: los combustibles aumentaron 50%, casi una vez y media la inflación",
+      "bajada": "En el índice de precios del INDEC, los combustibles para el auto subieron 50,0% entre agosto de 2025 y agosto de 2026 en el Gran Buenos Aires, contra 33,7% del conjunto de los precios. Hace un año iban por debajo de la inflación; los saltos de marzo y abril los pusieron arriba. Y esta semana Shell, Axion y Puma volvieron a subir.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "50,0%",
+      "numero_label": "subieron los combustibles para el auto entre agosto de 2025 y agosto de 2026 en el GBA (IPC del INDEC), contra 33,7% del nivel general",
+      "fecha": "2026-09-24",
+      "hora": "18:30",
+      "archivo": "articulos/2026-09-24-nafta-combustibles-subieron-50-un-ano.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-24-emae-julio-mayor-caida-desde-2020",
       "titulo": "La actividad cayó 2,9% en julio, la baja mensual más fuerte desde abril de 2020, y volvió al nivel de marzo de 2025",

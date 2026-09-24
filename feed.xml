@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 17:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 18:40:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Cuánto subió la nafta en un año: los combustibles aumentaron 50%, casi una vez y media la inflación</title>
+      <link>https://coninteres.com/articulos/2026-09-24-nafta-combustibles-subieron-50-un-ano.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-nafta-combustibles-subieron-50-un-ano.html</guid>
+      <pubDate>Thu, 24 Sep 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En el índice de precios del INDEC, los combustibles para el auto subieron 50,0% entre agosto de 2025 y agosto de 2026 en el Gran Buenos Aires, contra 33,7% del conjunto de los precios. Hace un año iban por debajo de la inflación; los saltos de marzo y abril los pusieron arriba. Y esta semana Shell, Axion y Puma volvieron a subir.</description>
+      <ci:numero>50,0%</ci:numero>
+      <ci:numeroEtiqueta>subieron los combustibles para el auto entre agosto de 2025 y agosto de 2026 en el GBA (IPC del INDEC), contra 33,7% del nivel general</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-nafta-combustibles-subieron-50-un-ano.png" length="67083" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-nafta-combustibles-subieron-50-un-ano.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La actividad cayó 2,9% en julio, la baja mensual más fuerte desde abril de 2020, y volvió al nivel de marzo de 2025</title>
       <link>https://coninteres.com/articulos/2026-09-24-emae-julio-mayor-caida-desde-2020.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de la línea de pobreza de una persona cubría el salario mínimo en julio</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-01-salario-minimo-linea-pobreza.png" length="60041" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-01-salario-minimo-linea-pobreza.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Dónde puede pedir crédito una PyME hoy: las 12 vías, verificadas una por una, y cuáles te atienden directamente</title>
-      <link>https://coninteres.com/articulos/2026-09-01-financiamiento-pyme-donde-pedir-credito.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-01-financiamiento-pyme-donde-pedir-credito.html</guid>
-      <pubDate>Tue, 01 Sep 2026 18:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Relevamos doce caminos de financiamiento y leímos lo que cada organismo dice de sí mismo en su propia página. En cinco podés golpear la puerta vos: BICE, Banco Nación, CFI, la factura electrónica y el mercado de capitales. Otros cuatro sí financian a PyMEs pero por otra vía —le prestan o le garantizan al banco que después te presta a vos— y dos, el FMI y el Banco Mundial, no financian empresas: su contraparte son los Estados. Saber cuál es cuál te ahorra golpear la puerta equivocada.</description>
-      <ci:numero>5</ci:numero>
-      <ci:numeroEtiqueta>puertas donde una PyME puede presentarse directamente, de 12 vías relevadas</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-01-financiamiento-pyme-donde-pedir-credito.png" length="56868" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-01-financiamiento-pyme-donde-pedir-credito.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
