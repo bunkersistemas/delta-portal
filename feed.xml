@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 19:38:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 20:50:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Cuánto te devuelven por los cortes de luz: Edesur le debe en promedio $29.143 a cada uno de 715.417 usuarios por el último verano</title>
+      <link>https://coninteres.com/articulos/2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor.html</guid>
+      <pubDate>Thu, 24 Sep 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El ENRE publicó el informe preliminar del semestre septiembre 2025-febrero 2026. Edesur tiene que bonificar $20.849 millones a uno de cada cuatro usuarios de su red; en Cañuelas el promedio llega a $127.257. Edenor, que cumplió los topes en casi toda su área, debe $631 millones a 123.981 usuarios. El apagón del sábado 19 no entra en esta cuenta: se va a medir en el semestre que empezó este mes.</description>
+      <ci:numero>$29.143</ci:numero>
+      <ci:numeroEtiqueta>bonificación promedio por usuario que Edesur debe acreditar por los cortes de sep-2025 a feb-2026 (ENRE, informe preliminar del semestre 59)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor.png" length="71268" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Cuánto cuestan los Juegos Suramericanos: Santa Fe tomó una deuda de US$75 millones a 18 años, y la organización ya calcula el total en hasta US$135 millones</title>
       <link>https://coninteres.com/articulos/2026-09-24-juegos-suramericanos-cuanto-cuestan-deuda-caf.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de las muertes de menores de 1 año de 2024 fue por causas que el Ministerio de Salud clasifica como reducibles</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-01-mortalidad-infantil-muertes-evitables.png" length="67989" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-01-mortalidad-infantil-muertes-evitables.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las exportaciones a Europa crecieron 19% y eso es menos que el promedio: el mapa del comercio argentino se está corriendo a Asia y Estados Unidos</title>
-      <link>https://coninteres.com/articulos/2026-09-01-exportaciones-mapa-destinos-europa-asia.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-01-exportaciones-mapa-destinos-europa-asia.html</guid>
-      <pubDate>Tue, 01 Sep 2026 19:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Circuló esta semana que las ventas a Europa subieron cerca de 20%. El dato es correcto, pero leído solo no dice nada: las exportaciones totales crecieron 22,9%, así que la Unión Europea quedó 3,8 puntos por debajo del promedio y perdió participación. Fuimos al cuadro del INDEC y ordenamos los 20 destinos. El que más peso perdió es Brasil.</description>
-      <ci:numero>19,1%</ci:numero>
-      <ci:numeroEtiqueta>crecieron las exportaciones a la Unión Europea, contra un promedio general de 22,9%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-01-exportaciones-mapa-destinos-europa-asia.png" length="65893" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-01-exportaciones-mapa-destinos-europa-asia.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

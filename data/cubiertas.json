@@ -966,6 +966,13 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-juegos-suramericanos-cuanto-cuestan-deuda-caf"
+    },
+    {
+      "tema": "cortes de luz / bonificaciones de Edesur y Edenor por calidad de servicio técnico, semestre 59 (sep 2025-feb 2026): Edesur $20.849 M a 715.417 usuarios ($29.143 promedio), Cañuelas $127.257; Edenor $631 M a 123.981 ($5.093)",
+      "angulo": "Corrida programada del 24/09/2026 20:30. Pregunta de plata detrás del apagón del 19/09 ('cuánto me devuelven por los cortes'), en lanacion (mapa de cortes y devoluciones) e infobae (apagón). Fuente primaria: ENRE, Informe preliminar semestral sem 59, publicado 23/09/2026 (informe_semestral_sobre_el_desempeno_edn_eds_sem59_230926.pdf). Camino de estadística oficial (NEWSROOM §3): (1) tabla 2.4; (2) recalculado desde las tablas por partido: suma exacta 715.417 / $20.849.126.852 / $29.142,62; Edenor 123.981 / $631.490.385; SAIFI y SAIDI ponderados por usuarios 4,88 y 8,30 vs 4,88 y 8,29 publicados; (3) contraste independiente: Edesur, reporte 3T-2025 (SAIDI LTM 18,2 h, mismo orden que 7,72-8,48 h/semestre del ENRE) y memoria 2025 (SAIDI empeoró vs 2024; sus cifras 1.020->1.250 sin unidad y el +18% no cierran entre sí, no se usan). Serie: sem 57 (sep24-feb25) Edesur 4,12 cortes / 7,37 h, $20.467 M a 663.042 usuarios ($30.868,71). Excluido el total de $31.986 M porque el detalle de producto técnico no suma su resumen (Edesur 3.673 vs 4.606 M). Preliminar: excluye fuerza mayor pendiente; Edenor pidió corrección (La Nación). El apagón del 19/09 (597.597 usuarios en el pico) cae en el semestre 61.",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor"
     }
   ]
 }

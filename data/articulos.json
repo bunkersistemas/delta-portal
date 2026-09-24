@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T19:38:42-03:00",
+    "actualizado": "2026-09-24T20:50:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor",
+      "titulo": "Cuánto te devuelven por los cortes de luz: Edesur le debe en promedio $29.143 a cada uno de 715.417 usuarios por el último verano",
+      "bajada": "El ENRE publicó el informe preliminar del semestre septiembre 2025-febrero 2026. Edesur tiene que bonificar $20.849 millones a uno de cada cuatro usuarios de su red; en Cañuelas el promedio llega a $127.257. Edenor, que cumplió los topes en casi toda su área, debe $631 millones a 123.981 usuarios. El apagón del sábado 19 no entra en esta cuenta: se va a medir en el semestre que empezó este mes.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$29.143",
+      "numero_label": "bonificación promedio por usuario que Edesur debe acreditar por los cortes de sep-2025 a feb-2026 (ENRE, informe preliminar del semestre 59)",
+      "fecha": "2026-09-24",
+      "hora": "20:30",
+      "archivo": "articulos/2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-24-juegos-suramericanos-cuanto-cuestan-deuda-caf",
       "titulo": "Cuánto cuestan los Juegos Suramericanos: Santa Fe tomó una deuda de US$75 millones a 18 años, y la organización ya calcula el total en hasta US$135 millones",
