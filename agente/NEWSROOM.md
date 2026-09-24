@@ -568,6 +568,15 @@ interpretar la actualidad. El propósito es hacer cultura económica.
 > sección queda como especificación para cuando se reactive la distribución
 > en redes.
 
+> **ACTUALIZADO 24/09/2026 — decisión del editor: X se publica solo, sin aprobación.**
+> Lo hace n8n en AGENTE007 (flujo "Con Interes - publicar en X"), no la redacción:
+> cada 15 minutos lee `feed.xml` y postea cada nota nueva ya publicada — la tarjeta
+> con el título, y el link en la respuesta. Tiene cupo diario y nunca postea dos
+> veces la misma nota. Las credenciales de X viven en n8n: **siguen sin tocar este
+> repositorio**. Para la redacción no cambia nada: no genera kit y no toca redes;
+> lo que pasa a X sale de la nota publicada, con su título y su tarjeta.
+> Donde abajo dice "ningún agente auto-publica en redes", quedó reemplazado por esto.
+
 ### 9 bis. La infraestructura de distribución que sí está lista (01/09/2026)
 
 Aunque el kit siga suspendido, el sitio ya tiene las dos piezas que hacen falta
