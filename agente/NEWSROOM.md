@@ -73,8 +73,9 @@ Cada uno tiene un rol acotado: hace una cosa y la hace bien.
   primero, con la serie ya armada y el número anterior a mano.
   Si el calendario tiene más de 20 días, rehacerlo:
   `python scripts/build_calendario.py`.
-- **Tarea B — el barrido**, para los días sin publicación oficial relevante o
-  cuando algo se impone en la agenda pública. Relevar las noticias más
+- **Tarea B — el barrido, en todas las corridas** (desde el 24/09/2026; antes
+  era solo para los días sin publicación oficial, y las corridas se quedaban
+  sin tema cuando se agotaba el calendario). Relevar las noticias más
   destacadas del momento en los principales portales argentinos. Fuentes:
   `infobae.com`, `lanacion.com.ar`, `clarin.com`, `ambito.com`,
   `iprofesional.com`, `cronista.com`, `tn.com.ar`, `pagina12.com.ar`.
@@ -300,13 +301,37 @@ El Verificador es lo que separa a Con Interés de un generador de texto. Reglas:
 - **Doble fuente independiente.** Toda cifra ancla necesita al menos dos fuentes
   que no se citen entre sí. El dato oficial (INDEC/BCRA) cuenta como fuente
   primaria; un medio que lo reproduce NO es una segunda fuente independiente.
+- **Estadísticas oficiales que mide un solo organismo (desde el 24/09/2026).**
+  Muchas cifras las produce un único organismo y nadie más las mide igual:
+  el EMAE, la pobreza, la desocupación y las encuestas de supermercados, por
+  ejemplo. Exigirles una segunda medición idéntica las deja siempre afuera.
+  Para esas cifras, la ancla queda `CONFIRMADO` si se cumplen las tres
+  condiciones:
+  1. **Está en el documento oficial.** La cifra figura tal cual en el informe
+     del organismo que la produce (INDEC, BCRA, ministerio), con su URL.
+  2. **Se recalcula.** El agente la vuelve a calcular desde la serie cruda del
+     mismo organismo (planilla, CSV) y le da igual. Si el organismo no publica
+     la serie, esta condición no se cumple.
+  3. **Tiene un contraste independiente.** Una fuente que no la cita (otro
+     organismo, un registro administrativo, una consultora reconocida, una
+     provincia) confirma la dirección y el orden de magnitud. Si el contraste
+     da distinto, la nota lo muestra y explica la diferencia en "④ Cómo lo
+     sabemos" (universo, método, período). Si la diferencia no se puede
+     explicar, se FRENA.
+
+  La nota dice en "④ Cómo lo sabemos" cuál de los dos caminos usó: dos
+  fuentes que coinciden, o estadística oficial recalculada con contraste.
+  Esta regla no vale para cifras de un solo medio, de una sola consultora, de
+  un funcionario sin documento, ni para proyecciones: esas siguen necesitando
+  dos fuentes independientes que coincidan.
 - **Postura de refutación.** El agente asume que el dato está mal hasta que las
   fuentes lo sostienen. Busca activamente la cifra que lo contradiga.
 - **Coherencia interna.** Los números tienen que cerrar entre sí (una serie que
   acumula 16,8% en el semestre debe ser consistente con sus datos mensuales).
   Si no cierran, se frena y se revisa.
 - **Etiquetado honesto:**
-  - `CONFIRMADO` — dos fuentes independientes coinciden.
+  - `CONFIRMADO` — dos fuentes independientes coinciden, o es una estadística
+    oficial que cumple las tres condiciones de arriba.
   - `ESTIMACIÓN` — proviene de una proyección o tiene rango; se publica **con**
     el rango y la palabra "estimado", nunca como hecho cerrado.
   - `NO_VERIFICADO` — una sola fuente, o fuentes que se contradicen. **No entra

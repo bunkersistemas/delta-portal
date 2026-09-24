@@ -88,16 +88,18 @@ $prompt = @"
 Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
 Fecha y hora de Buenos Aires: $ahoraAR. Usala para todo lo que dependa del dia (hoy, fecha de la nota, pregunta del dia, que ya publico el INDEC). La maquina esta en otra zona horaria: no te guies por su reloj.
 Hace una corrida de redaccion completa siguiendo agente/local/misiones/redaccion.md y agente/NEWSROOM.md al pie de la letra (python, no python3).
-Prioridad: lo que INDEC o BCRA publicaron hoy o en los ultimos dias y todavia no tiene nota nuestra (scripts/agenda.py, data/cubiertas.json).
-La vara no se negocia: si la cifra ancla no llega a CONFIRMADO con dos fuentes independientes, FRENAR. Un dia sin nota es mejor que una nota floja.
-Si no hay ningun dato nuevo con valor periodistico, no escribas nada: es un resultado valido.
+El objetivo de cada corrida es publicar UNA nota buena. Trabaja asi:
+1. RASTREO, siempre las dos cosas: (a) barre las portadas de economia de infobae, lanacion, clarin, ambito, iprofesional, cronista, tn y pagina12 con WebFetch, y anota los temas que se repiten en varias; (b) corre python scripts/agenda.py para el calendario oficial.
+2. Arma una lista de 8 a 12 candidatas ordenada por riqueza de datos y relevancia. Descarta las que ya estan en data/cubiertas.json como publicada o en_cola sin un angulo nuevo. Las descartadas antes por falta de segunda fuente SI se pueden retomar: desde el 24/09/2026 rige la regla de estadisticas oficiales de NEWSROOM.md seccion 3.
+3. Toma la primera candidata y hace investigacion y verificacion completas. Del portal se saca el TEMA; el numero sale siempre de la fuente primaria.
+4. Si FRENA, registra el descarte en data/cubiertas.json y pasa a la candidata siguiente, en esta misma corrida. Hasta 4 candidatas. Recien si las 4 frenan, termina sin nota.
+La vara no se negocia: la cifra ancla tiene que llegar a CONFIRMADO por alguno de los dos caminos de NEWSROOM.md seccion 3. Nunca inventes, redondees a favor ni publiques un dato que no cierra.
 Como maximo UNA nota. Dejala en cola/ con noindex, agregala a data/cola.json, registrala en data/cubiertas.json como en_cola y corre python scripts/build_portada.py.
 Antes de terminar, corre vos los tres chequeos del editor de cierre (URLs 200, superlativos con valor previo, coherencia copete-graficos-cuerpo-manifiesto).
 Si es la primera corrida del dia y data/pregunta.json no es de hoy, actualizala. Sin kit social.
 PROHIBIDO: correr aprobar.py o rechazar.py, usar git, tocar notas ya publicadas, poner credenciales en ningun lado. La publicacion la hace el script que te llamo, despues de controlar tu trabajo.
 AL FINAL escribi el archivo .corrida.json en la raiz del repo: un objeto JSON con tres claves de texto.
-veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado.
-Con FRENAR registra el descarte en data/cubiertas.json como pide la mision.
+veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado; si no hubo nota, nombra cada candidata que probaste y por que freno.
 "@
 Anotar 'llamando a la redaccion...'
 $salida = & claude -p $prompt --permission-mode dontAsk `

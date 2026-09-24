@@ -40,11 +40,13 @@ en todo lo que sea criterio. Esta mision solo ordena los pasos.
 Corre los seis agentes en cadena. La salida de cada uno es la entrada del que
 sigue:
 
-1. **Rastreador** - primero la agenda del paso 0: lo que sale del calendario
-   oficial entra como candidato con ventaja. Despues releva lo mas destacado
-   del momento en infobae, lanacion, clarin, ambito, iprofesional, cronista, tn
-   y pagina12, priorizando lo que aparece repetido en varias portadas. Salida:
-   8-12 candidatas, marcando cuales vienen del calendario.
+1. **Rastreador** - SIEMPRE barre las portadas de economia de infobae,
+   lanacion, clarin, ambito, iprofesional, cronista, tn y pagina12, y prioriza
+   lo que aparece repetido en varias. Suma la agenda del paso 0: lo que sale
+   del calendario oficial entra como candidato con ventaja. Del portal se saca
+   el TEMA, nunca el dato: el numero se busca en la fuente primaria. Salida:
+   8-12 candidatas, marcando cuales vienen del calendario y en cuantas
+   portadas aparece cada una.
 2. **Editor** - elige UNA. Criterios en orden: riqueza de datos, relevancia para
    el lector argentino hoy, no repetir.
 3. **Investigador** - va a las fuentes PRIMARIAS (INDEC, BCRA, Ministerio de
@@ -53,8 +55,12 @@ sigue:
    unidad y si es definitivo, preliminar o estimado.
 4. **Verificador** - intenta REFUTAR cada cifra, no confirmarla. Doble fuente
    independiente para la cifra ancla; un medio que reproduce el dato oficial no
-   cuenta como segunda fuente. Etiqueta cada dato CONFIRMADO / ESTIMACION /
-   NO_VERIFICADO y da un veredicto: APTA o FRENAR.
+   cuenta como segunda fuente. Si la ancla es una estadistica oficial que mide
+   un solo organismo, vale el camino de NEWSROOM.md seccion 3 (documento
+   oficial + recalculo desde la serie cruda + contraste independiente).
+   Etiqueta cada dato CONFIRMADO / ESTIMACION / NO_VERIFICADO y da un
+   veredicto: APTA o FRENAR. Con FRENAR, el Editor pasa a la candidata
+   siguiente de la lista.
 5. **Redactor** - escribe con la estructura de 6 capas sobre
    `agente/plantilla.html`. Graficos SVG propios desde el dato crudo. Cero
    imagenes de terceros.
