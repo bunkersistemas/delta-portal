@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 23 Sep 2026 15:35:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 23 Sep 2026 23:37:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los supermercados vendieron 2,1% menos en julio: el julio más flojo desde 2017 y siete meses seguidos en baja</title>
+      <link>https://coninteres.com/articulos/2026-09-23-supermercados-julio-mas-bajo-desde-2017.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-23-supermercados-julio-mas-bajo-desde-2017.html</guid>
+      <pubDate>Wed, 23 Sep 2026 23:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Descontada la inflación, las ventas de los supermercados cayeron 2,1% interanual en julio según el INDEC. Es el séptimo mes de 2026 en baja y el índice de julio quedó en 80,3 puntos, el más bajo para ese mes desde que empieza la serie actual, en 2017. Mientras tanto, lo cobrado con billeteras y QR subió 63,8% y ya es el 15,6% del total.</description>
+      <ci:numero>−2,1%</ci:numero>
+      <ci:numeroEtiqueta>cayeron las ventas reales de los supermercados en julio contra julio de 2025 (INDEC); séptimo mes de 2026 en baja</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-23-supermercados-julio-mas-bajo-desde-2017.png" length="67153" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-23-supermercados-julio-mas-bajo-desde-2017.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Construir cuesta 22% más que en diciembre, a la par de la inflación: los materiales quedaron seis puntos abajo y la mano de obra, seis arriba</title>
       <link>https://coninteres.com/articulos/2026-09-23-costo-construccion-materiales-mano-de-obra.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>producción de petróleo de julio de 2026, el máximo de la serie oficial</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-31-produccion-petroleo-record-912-mil-barriles.png" length="69158" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-08-31-produccion-petroleo-record-912-mil-barriles.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las Leonas son campeonas del mundo: la beca más alta que paga el Estado a un deportista es de $1.699.500 por mes, un 8,6% arriba de la línea de pobreza</title>
-      <link>https://coninteres.com/articulos/2026-08-30-leonas-becas-enard.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-08-30-leonas-becas-enard.html</guid>
-      <pubDate>Sun, 30 Aug 2026 23:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>DEPORTES</category>
-      <description>Las 20 campeonas del Mundial de hockey figuran en la nómina de becados del ENARD. Quince cobran la beca máxima, cuatro una intermedia y una $404.481. Cruzamos los dos documentos oficiales del organismo con el plantel campeón, nombre por nombre. La aclaración que ordena todo: esa beca no es un sueldo.</description>
-      <ci:numero>$1.699.500</ci:numero>
-      <ci:numeroEtiqueta>beca mensual máxima del ENARD para un atleta; la cobran 15 de las 20 campeonas del mundo</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-30-leonas-becas-enard.png" length="76104" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-08-30-leonas-becas-enard.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -836,6 +836,13 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "cifra ancla (desocupación 7,9%, INDEC EPH 2T-2026) sin segunda fuente independiente posible; mayoristas y shoppings de julio con el mismo problema"
+    },
+    {
+      "tema": "consumo / Encuesta INDEC de supermercados julio 2026: -2,1% i.a. real, siete meses de 2026 en baja, el julio más bajo de la serie 2017-2026 (80,3) y billeteras/QR 15,6% de la caja",
+      "angulo": "RETOMADA en la corrida programada del 23/09/2026 23:30 bajo la regla de estadísticas oficiales (NEWSROOM §3, vigente 24/09/2026); la frenada de las 16:30 fue por falta de segunda medición idéntica. Tema repetido en 6 de 6 portadas leídas (infobae, lanacion, ambito, iprofesional, cronista, pagina12; clarin y tn no respondieron). Condición 1: informe INDEC super_09_260FBFF11FE1.pdf, -2,1% i.a., -2,7% acum, -0,7% desest. Condición 2: recalculado desde serie_supermercados.xlsx: 80,27/81,96 = -2,07%; acum -2,72%; nominal 25,84% / precios implícitos 28,49% = -2,07%. Condición 3: CAME IVM pyme julio 2026 (documentos-online/14371, leído directo) alimentos y bebidas -5,4% i.a. real; Scentia vía Infobae 21/08: consumo masivo -2,6%, cadenas -0,6%. Diferencia explicada por universo. Superlativo con valor previo: julio 2026 índice 80,27 es el julio más bajo desde ene-2017; previo mínimo julio 2024 81,15. Billeteras/QR/otros 15,6% = máximo de la serie; previo jun-2026 15,4%. NO se afirma récord de caída (2024 llegó a -17,8% en oct) ni peor racha (todo 2024 negativo). Ticket $34.981 +16,5% (real ~-9%), operaciones ~+8% (cálculo propio aproximado). Personal 95.383 -4,6%. Distinto de la nota del 24/07 (mayo, shoppings vs súper): acá el eje es el nivel de julio contra la serie y el giro de medios de pago.",
+      "fecha": "2026-09-23",
+      "estado": "publicada",
+      "articulo_id": "2026-09-23-supermercados-julio-mas-bajo-desde-2017"
     }
   ]
 }

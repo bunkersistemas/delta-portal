@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-23T15:35:57+02:00",
+    "actualizado": "2026-09-23T23:37:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-23-supermercados-julio-mas-bajo-desde-2017",
+      "titulo": "Los supermercados vendieron 2,1% menos en julio: el julio más flojo desde 2017 y siete meses seguidos en baja",
+      "bajada": "Descontada la inflación, las ventas de los supermercados cayeron 2,1% interanual en julio según el INDEC. Es el séptimo mes de 2026 en baja y el índice de julio quedó en 80,3 puntos, el más bajo para ese mes desde que empieza la serie actual, en 2017. Mientras tanto, lo cobrado con billeteras y QR subió 63,8% y ya es el 15,6% del total.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−2,1%",
+      "numero_label": "cayeron las ventas reales de los supermercados en julio contra julio de 2025 (INDEC); séptimo mes de 2026 en baja",
+      "fecha": "2026-09-23",
+      "hora": "23:30",
+      "archivo": "articulos/2026-09-23-supermercados-julio-mas-bajo-desde-2017.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-23-costo-construccion-materiales-mano-de-obra",
       "titulo": "Construir cuesta 22% más que en diciembre, a la par de la inflación: los materiales quedaron seis puntos abajo y la mano de obra, seis arriba",
