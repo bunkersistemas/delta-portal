@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 00:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 02:40:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El riesgo país subió ocho ruedas seguidas y volvió a 566 puntos: casi el mismo nivel con el que arrancó 2026</title>
+      <link>https://coninteres.com/articulos/2026-09-24-riesgo-pais-566-ocho-subas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-riesgo-pais-566-ocho-subas.html</guid>
+      <pubDate>Thu, 24 Sep 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>El índice de JP Morgan pasó de 485 a 566 puntos entre el 11 y el 23 de septiembre, el nivel más alto desde fines de abril y apenas 5 puntos debajo del 571 con el que empezó el año. La tasa de los bonos de Estados Unidos también subió, pero explica una parte chica: de casi un punto más que le costaría hoy a la Argentina endeudarse en dólares, 0,81 es riesgo país.</description>
+      <ci:numero>566</ci:numero>
+      <ci:numeroEtiqueta>puntos básicos del riesgo país al cierre del 23 de septiembre de 2026 (EMBI de JP Morgan): octava suba seguida, el nivel más alto desde fines de abril; el año empezó en 571</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-riesgo-pais-566-ocho-subas.png" length="69200" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-riesgo-pais-566-ocho-subas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El desempleo subió en el interior y no en el Gran Buenos Aires: 100.700 desocupados más en un año, y el 82% en la región pampeana</title>
       <link>https://coninteres.com/articulos/2026-09-24-desempleo-interior-rosario-pampeana.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>partidos de Messi con la selección mayor: récord histórico, junto con sus 125 goles</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-31-messi-seleccion-numeros-finanzas.png" length="68196" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-08-31-messi-seleccion-numeros-finanzas.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los autos chinos pasaron de 3.985 a 28.291 patentamientos en un año: ya son uno de cada nueve autos nuevos, y la producción nacional de autos se partió al medio</title>
-      <link>https://coninteres.com/articulos/2026-08-31-autos-chinos-patentamientos-produccion.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-08-31-autos-chinos-patentamientos-produccion.html</guid>
-      <pubDate>Mon, 31 Aug 2026 18:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Contamos el registro oficial de patentamientos, marca por marca. Las chinas multiplicaron por siete sus unidades mientras el mercado se achicaba 10%. El hallazgo es dónde pegó: en pickups, lo que la Argentina fabrica, siguen siendo el 1,6%; en autos y SUV llegaron al 11,8%, y ahí la producción nacional cayó 47,7%.</description>
-      <ci:numero>28.291</ci:numero>
-      <ci:numeroEtiqueta>vehículos de marcas chinas patentados entre enero y julio de 2026; eran 3.985 un año antes</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-31-autos-chinos-patentamientos-produccion.png" length="72564" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-08-31-autos-chinos-patentamientos-produccion.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

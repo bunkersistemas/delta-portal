@@ -882,6 +882,13 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "informe del IDECBA inaccesible (no se pudo leer ni recalcular); prensa contradictoria en la interanual y la EPH da 5,6% contra 7,2% sin explicación posible"
+    },
+    {
+      "tema": "riesgo país / ocho subas seguidas hasta 566 pb (23/09/2026), el nivel más alto desde fines de abril y casi el punto de partida de 2026 (571)",
+      "angulo": "Corrida programada del 24/09/2026 02:30. Tema en 5 portadas (infobae, lanacion, iprofesional, pagina12, ámbito). Ángulo NUEVO respecto de la nota del 05/09 (494 y ranking regional): el rebote de septiembre deshizo toda la baja del año (571 el 1/1 -> 402 el 10/07 -> 566) y la descomposición del costo de endeudarse: Treasury 10 años 4,96% -> 5,11% (Tesoro de EE.UU., planilla oficial) y riesgo país 485 -> 566; costo aproximado 9,81% -> 10,77%, de los 0,96 pp 0,15 son EE.UU. y 0,81 riesgo país. Ancla 566 CONFIRMADA por dos compilaciones del EMBI que coinciden cierre por cierre (Rava Bursátil y ArgentinaDatos; los 8 cierres 490/506/510/515/524/533/555/566 idénticos) + Infobae, iProfesional y Diario de Cuyo. Hitos cotejados con tablas mensuales de Rava: 571 (1/1, también Perfil), 637 (30/03, pico del año), 567 (30/04), 402 (10/07; Perfil 403), 411 (3/08), 532 (20/08, también LN e Infobae), 485 (11/09, también Infobae). Superlativo: más alto desde fines de abril (valor previo 567 el 30/04 en Rava; Infobae dice desde el 28/04; Bloomberg Línea da cierre de abril 556: se escribe fines de abril). NO se afirma racha récord (agosto 411 -> 532) ni máximo del año (637 en marzo) ni una causa.",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-riesgo-pais-566-ocho-subas"
     }
   ]
 }

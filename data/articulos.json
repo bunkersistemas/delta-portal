@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T00:41:48-03:00",
+    "actualizado": "2026-09-24T02:40:15-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-riesgo-pais-566-ocho-subas",
+      "titulo": "El riesgo país subió ocho ruedas seguidas y volvió a 566 puntos: casi el mismo nivel con el que arrancó 2026",
+      "bajada": "El índice de JP Morgan pasó de 485 a 566 puntos entre el 11 y el 23 de septiembre, el nivel más alto desde fines de abril y apenas 5 puntos debajo del 571 con el que empezó el año. La tasa de los bonos de Estados Unidos también subió, pero explica una parte chica: de casi un punto más que le costaría hoy a la Argentina endeudarse en dólares, 0,81 es riesgo país.",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "566",
+      "numero_label": "puntos básicos del riesgo país al cierre del 23 de septiembre de 2026 (EMBI de JP Morgan): octava suba seguida, el nivel más alto desde fines de abril; el año empezó en 571",
+      "fecha": "2026-09-24",
+      "hora": "02:30",
+      "archivo": "articulos/2026-09-24-riesgo-pais-566-ocho-subas.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-24-desempleo-interior-rosario-pampeana",
       "titulo": "El desempleo subió en el interior y no en el Gran Buenos Aires: 100.700 desocupados más en un año, y el 82% en la región pampeana",
