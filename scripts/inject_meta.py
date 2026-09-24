@@ -11,15 +11,24 @@ Uso:  python3 scripts/inject_meta.py
 import json, os, re
 from html import escape
 
+def fecha_iso(a):
+    """Fecha y hora con huso (Argentina, -03:00). Google ordena las noticias por
+    frescura: con la fecha sola todas las del dia empatan a medianoche."""
+    f, h = str(a.get("fecha", "")), str(a.get("hora", ""))
+    if re.fullmatch(r"\d{4}-\d{2}-\d{2}", f) and re.fullmatch(r"\d{2}:\d{2}", h):
+        return f"{f}T{h}:00-03:00"
+    return f
+
 def jsonld_block(a, url, img):
     """JSON-LD schema.org/Article para SEO (rich results + comprensión de Google)."""
     data = {
         "@context": "https://schema.org",
         "@type": "NewsArticle",
-        "headline": a.get("titulo", "")[:110],
+        # titulo completo: el tope de 110 de Google ya no rige y cortaba a mitad de frase
+        "headline": a.get("titulo", ""),
         "description": a.get("bajada", ""),
-        "datePublished": a.get("fecha", ""),
-        "dateModified": a.get("fecha", ""),
+        "datePublished": fecha_iso(a),
+        "dateModified": fecha_iso(a),
         "mainEntityOfPage": {"@type": "WebPage", "@id": url},
         "image": [img],
         "articleSection": a.get("seccion", ""),
@@ -63,6 +72,8 @@ def meta_block(a):
         "<!-- DELTA-META:start -->\n"
         '<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">\n'
         f'<link rel="canonical" href="{url}">\n'
+        # sin esto Discover solo puede mostrar la miniatura chica, no la tarjeta
+        '<meta name="robots" content="max-image-preview:large">\n'
         f'<meta name="description" content="{desc}">\n'
         '<meta property="og:type" content="article">\n'
         '<meta property="og:site_name" content="Con Interés">\n'
