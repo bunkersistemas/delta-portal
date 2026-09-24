@@ -1,3 +1,9 @@
+> **ACTUALIZADO 24/09/2026: el sitio SI mide.** Cloudflare Web Analytics esta activo hace
+> ~2 meses con inyeccion automatica desde el proxy (RUM, *Automatic setup*): no hizo falta
+> tocar `metrics.js`. Se ve en dash.cloudflare.com -> Web Analytics, con *Exclude bots*.
+> Primer corte, 30 dias: 540 visitas, 300 desde Google, 61% a una sola nota (Leonas/ENARD).
+> Los numeros vienen muestreados (terminan en 0): leerlos como orden de magnitud.
+
 # Activar la medicion del sitio
 
 > Estado al 31/08/2026: el sitio **no mide nada**. Los includes ya estan puestos
