@@ -931,6 +931,13 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-plazo-fijo-pierde-inflacion-2026"
+    },
+    {
+      "tema": "tasas de EE.UU. / bono del Tesoro a 10 años en 5,11% (23/09/2026), el máximo desde julio de 2007, y su peso en el costo en dólares de la Argentina en 2026",
+      "angulo": "Corrida programada del 24/09/2026 06:30. Tema en cronista, infobae y ámbito (suba global de tasas). Ángulo NUEVO respecto de la nota de riesgo país de hoy (que descompuso 12 días, 11-23/09, y concluyó que 0,81 de 0,96 pts era riesgo país): acá el eje es la tasa de EE.UU. en sí, en 19 años de historia, y el balance de TODO 2026. Tesoro 10 años 4,18% (31/12/25) -> 5,11% (+0,93) mientras el riesgo país fue 571 -> 566 (-0,05): la suma aproximada pasó de 9,89% a 10,77%, la más alta del año (previo 10,72% el 20 y el 30/03, con RP 633 y 637). Desde el piso de julio (8,56%, 06/07) domina el riesgo país (+1,58 vs +0,63), y la nota lo dice. La Fed subió 25 pb el 16/09/2026 a 3,75-4%, primera suba desde julio de 2023. Verificación: estadística oficial recalculada (serie diaria del Tesoro 2000-2026; último cierre >=5,11: 13/07/2007; >5,11: 12/07/2007, 5,13; pico 2023: 4,98 el 19/10) + contraste de mercado (Yahoo Finance 5,12% intradiario, CNN '5,1% por primera vez en 19 años'). Riesgo país: Rava y ArgentinaDatos coinciden. No se usa superlativo del bono a 30 años (hueco de la serie 2002-2006).",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-tasa-tesoro-eeuu-maximo-2007"
     }
   ]
 }
