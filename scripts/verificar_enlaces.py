@@ -11,6 +11,7 @@ Uso:  python3 scripts/verificar_enlaces.py [--todas]
       (--todas incluye también los enlaces del cuerpo de la nota)
 """
 import glob, os, re, sys, urllib.request
+from html import unescape
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = {"User-Agent": "Mozilla/5.0 (ConInteres verificador de fuentes; +https://coninteres.com/como-trabajamos.html)"}
@@ -23,18 +24,19 @@ def urls_de(path, todas=False):
         if i == -1:
             i = html.find("<footer")
         zona = html[i:] if i != -1 else html
-    return sorted(set(re.findall(r'href="(https?://[^"]+)"', zona)))
+    # el href viene escapado (&amp;): se pide la URL real, la que abre el lector
+    return sorted(set(unescape(u) for u in re.findall(r'href="(https?://[^"]+)"', zona)))
 
-def check(url):
+def check(url, t_head=15, t_get=20):
     try:
         req = urllib.request.Request(url, headers=UA, method="HEAD")
-        with urllib.request.urlopen(req, timeout=15) as r:
+        with urllib.request.urlopen(req, timeout=t_head) as r:
             return r.status
     except Exception:
         # algunos servidores rechazan HEAD: reintentar con GET
         try:
             req = urllib.request.Request(url, headers=UA)
-            with urllib.request.urlopen(req, timeout=20) as r:
+            with urllib.request.urlopen(req, timeout=t_get) as r:
                 return r.status
         except Exception as e:
             return str(e)[:80]
