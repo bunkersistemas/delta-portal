@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T02:40:15-03:00",
+    "actualizado": "2026-09-24T03:40:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-jubilacion-minima-linea-pobreza-jubilado",
+      "titulo": "La jubilación mínima con bono supera por 13,6% la línea de pobreza de un jubilado que vive solo: hace un año la superaba por 23,3%",
+      "bajada": "En octubre la mínima sube 1,66% y llega a $435.748,51, pero el bono de $70.000 sigue igual desde marzo de 2024. Puesta al lado de la canasta del INDEC para una persona de esa edad, la mínima sin el bono ya no alcanza la línea de pobreza desde noviembre de 2025: en agosto cubría el 97,3%.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "113,6%",
+      "numero_label": "de la línea de pobreza de un jubilado varón de 61 a 75 años que vive solo cubría en agosto de 2026 la jubilación mínima con bono ($489.776 contra $431.250); en agosto de 2025, 123,3%",
+      "fecha": "2026-09-24",
+      "hora": "03:30",
+      "archivo": "articulos/2026-09-24-jubilacion-minima-linea-pobreza-jubilado.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-24-riesgo-pais-566-ocho-subas",
       "titulo": "El riesgo país subió ocho ruedas seguidas y volvió a 566 puntos: casi el mismo nivel con el que arrancó 2026",
