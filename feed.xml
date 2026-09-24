@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 03:40:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 04:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Argentina empieza a devolverle el capital al FMI: el viernes vence la primera cuota del préstamo de 2022, unos US$794 millones</title>
+      <link>https://coninteres.com/articulos/2026-09-24-fmi-primera-cuota-capital-acuerdo-2022.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-fmi-primera-cuota-capital-acuerdo-2022.html</guid>
+      <pubDate>Thu, 24 Sep 2026 05:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Desde enero de 2025 el país le pagó al Fondo solo intereses y recargos: 3.780 millones de DEG, y nada de capital. Eso cambia el 25 de septiembre. Es la primera de doce cuotas iguales, y el calendario del propio FMI muestra que el capital a devolver casi se multiplica por cuatro en 2027.</description>
+      <ci:numero>US$794 M</ci:numero>
+      <ci:numeroEtiqueta>vale la primera cuota de capital del préstamo del FMI de 2022, que vence el 25/09/2026: 583,3 millones de DEG al tipo de cambio del 23/09 (1 DEG = US$1,36147)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-fmi-primera-cuota-capital-acuerdo-2022.png" length="79649" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-fmi-primera-cuota-capital-acuerdo-2022.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La jubilación mínima con bono supera por 13,6% la línea de pobreza de un jubilado que vive solo: hace un año la superaba por 23,3%</title>
       <link>https://coninteres.com/articulos/2026-09-24-jubilacion-minima-linea-pobreza-jubilado.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>facturó en 2024 la sociedad que administra los derechos de imagen de Messi, con más de €11 M de beneficio</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-31-messi-empresario-balances.png" length="69989" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-08-31-messi-empresario-balances.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Dos organismos del Estado miden el mismo comercio exterior: en exportaciones coinciden con 0,2% de diferencia; en importaciones faltan US$40.682 millones</title>
-      <link>https://coninteres.com/articulos/2026-08-31-comercio-exterior-brecha-aduana-cambios.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-08-31-comercio-exterior-brecha-aduana-cambios.html</guid>
-      <pubDate>Mon, 31 Aug 2026 01:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El INDEC mide la mercadería en la aduana; el BCRA, los dólares que se pagan. Armamos las dos series mes a mes durante 36 meses. La brecha exportadora tenía un decreto que la explicaba y se fue a cero cuando lo derogaron. La importadora no cerró: una parte es cómo se valúa, otra una norma de 2023, y queda un resto sin explicar.</description>
-      <ci:numero>US$40.682 M</ci:numero>
-      <ci:numeroEtiqueta>importaciones que la aduana registró y no se pagaron por el mercado de cambios en 36 meses</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-31-comercio-exterior-brecha-aduana-cambios.png" length="76993" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-08-31-comercio-exterior-brecha-aduana-cambios.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

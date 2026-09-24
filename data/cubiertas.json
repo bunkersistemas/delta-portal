@@ -896,6 +896,27 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-jubilacion-minima-linea-pobreza-jubilado"
+    },
+    {
+      "tema": "deuda en pesos / conversión de la LELINK D30S6 (dólar linked): el Tesoro rescató el 75% (US$3.299 M VNO) el 22/09/2026",
+      "angulo": "FRENADA en la corrida programada del 24/09/2026 04:30. Tema en lanacion, infobae, ambito y cronista. Fuente primaria leída: Secretaría de Finanzas, Resultado de la licitación para la conversión de la LELINK D30S6 (22/09/2026): 354 ofertas; adjudicado D30O6 US$2.419 M VNO (corte 993,58), D30N6 US$843 M (989,98), TZV28 US$70 M (846,60); VNO a rescatar de la D30S6 US$3.299 M = 75% del VNO en circulación. Ojo: la prensa dice \"canjeó US$3.332 M\", que es el VNO de los títulos NUEVOS, no el rescatado. Serie previa: D31G6 en agosto, 34,12%. MOTIVO DEL FRENO: la cifra la publica solo el emisor; no hay serie cruda del stock en circulación para recalcular el 75% (la Resolución Conjunta 50/2026 solo fija un tope de US$4.000 M) ni un contraste independiente (los medios reproducen el comunicado). Si se retoma: con el stock de la D30S6 de una fuente de mercado (BYMA/Caja de Valores) o del boletín de deuda de Finanzas.",
+      "fecha": "2026-09-24",
+      "estado": "descartada",
+      "articulo_id": ""
+    },
+    {
+      "tema": "Corredor Andes-Atlántico / marco de financiamiento EE.UU.-Argentina de hasta US$7.000 M a 2027 (EXIM, DFC) y propuesta de EXIM de hasta US$6.000 M para Argentina LNG",
+      "angulo": "FRENADA en la corrida programada del 24/09/2026 04:30. Tema en 5 portadas (infobae, lanacion, ambito, cronista, pagina12). MOTIVO DEL FRENO: las fuentes primarias no se pudieron leer ni responden 200 (state.gov: fact sheet y declaración conjunta devuelven 403; Cancillería no lo publicó en su sitio; exim.gov no tiene el comunicado); lo que circula viene de la prensa. Además el monto es un tope no vinculante (\"hasta\"), sin serie para comparar. Ángulo a retomar si aparece el documento: de los US$7.000 M, US$6.000 M son una propuesta indicativa y no vinculante de EXIM para un solo proyecto (Argentina LNG, US$51.000 M de inversión total, FID prevista a fin de noviembre).",
+      "fecha": "2026-09-24",
+      "estado": "descartada",
+      "articulo_id": ""
+    },
+    {
+      "tema": "deuda con el FMI / primera cuota de capital del acuerdo de 2022: 583,3 M DEG (~US$794 M) el 25/09/2026, tras dos años de pagar solo cargos",
+      "angulo": "El eje es el CALENDARIO del FMI, no las reservas: primera recompra del EFF 2022 (1/12 del desembolso de 7.000 M DEG del 25/03/2022), primera devolución de capital desde 2024 (2025 y 2026 al 23/09: cero; cargos 2.066 M DEG en 2025 y 1.714,8 M en 2026). Capital a devolver: 833,3 M DEG en 2026, 3.250 en 2027 (x3,9), máximo 7.092 en 2031. Recargos: 35,7% de los cargos del 1/11/2026. Ancla CONFIRMADA por dos fuentes: FMI (Projected Payments al 31/08/2026) y Secretaría de Finanzas (Programa Financiero 2026-2027: capital FMI US$1.100 M en 2026 y US$4.400 M en 2027), más recálculo 7.000/12. Conversión al DEG del 23/09 (1,361470).",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-fmi-primera-cuota-capital-acuerdo-2022"
     }
   ]
 }
