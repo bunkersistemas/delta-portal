@@ -938,6 +938,13 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-tasa-tesoro-eeuu-maximo-2007"
+    },
+    {
+      "tema": "pobreza primer semestre 2026 / INDEC 32,3% de personas (9.729.000), +4,1 pp contra el 2S-2025 (28,2%) y sin cambio significativo contra el 1S-2025 (31,6%); mayores de 65 de 10,8% a 14,8%",
+      "angulo": "Corrida programada del 24/09/2026 16:30. Tema en 7 portadas (infobae, lanacion, ambito, iprofesional, cronista, pagina12 y el calendario INDEC del día). Ángulo: no solo 'subió la pobreza' sino las DOS comparaciones: contra el 2S25 la suba es clara (IC 90% 26,8-29,7 vs 30,8-33,7), contra el 1S25 el propio INDEC dice que no hay cambio significativo (IC 30,1-33,1). Por edad, el único grupo con intervalos que no se superponen es 65+ (9,5-12,1 -> 12,7-16,9). Mecanismo: CBT +19,6% vs ingreso per cápita +11,5% semestral; +33,1% vs +31,3% interanual. Verificación: estadística oficial recalculada (9.729/30.143 mil = 32,28%; suma regional = 9.729; 2S25 8.474.136/30.017.559 = 28,2%; variaciones del cuadro 5 recalculadas) + contraste UTDT nowcast Ene26Jun26 de González-Rozada 31,6% [30,1-33,0]. Superlativo: primera suba desde el 1S-2024 (52,9 desde 41,7); tres bajas seguidas 38,1/31,6/28,2. No se usan las cifras de '15 millones' ni '2 millones de pobres nuevos' (extrapolaciones a todo el país). No se compararon intervalos por región.",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-pobreza-primer-semestre-2026-mayores-65"
     }
   ]
 }

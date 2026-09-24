@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T21:20:16+02:00",
+    "actualizado": "2026-09-24T22:10:30+02:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-pobreza-primer-semestre-2026-mayores-65",
+      "titulo": "La pobreza subió a 32,3% y cortó tres semestres de baja; contra hace un año, el único grupo de edad con una suba que supera el margen de error es el de los mayores de 65",
+      "bajada": "Son 9,7 millones de personas en los 31 aglomerados que mide el INDEC, 1,25 millones más que en el segundo semestre de 2025: en el semestre los ingresos subieron 11,5% y la canasta de pobreza, 19,6%. Contra el primer semestre de 2025 (31,6%), el INDEC no ve un cambio significativo. La excepción son los mayores de 65: de 10,8% a 14,8%.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "32,3%",
+      "numero_label": "personas bajo la línea de pobreza en los 31 aglomerados urbanos, primer semestre de 2026 (INDEC): 9.729.000; 28,2% en el 2º semestre de 2025 y 31,6% en el 1º semestre de 2025",
+      "fecha": "2026-09-24",
+      "hora": "17:00",
+      "archivo": "articulos/2026-09-24-pobreza-primer-semestre-2026-mayores-65.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-24-tasa-tesoro-eeuu-maximo-2007",
       "titulo": "La tasa de los bonos de Estados Unidos llegó a 5,11%, la más alta desde 2007: en 2026 explica toda la suba de lo que le cuesta a la Argentina endeudarse en dólares",
