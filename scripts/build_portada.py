@@ -719,7 +719,7 @@ HTML = f"""<!DOCTYPE html>
       <div class="f-brand"><span class="tri">%</span> {escape(portal['nombre'])}</div>
       <div class="f-desc">{escape(portal['descripcion'])}</div>
       <div style="margin-top:10px"><a href="como-trabajamos.html" style="font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)">% Cómo trabajamos — método, IA y ética →</a> · <a href="aprender.html" style="font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)">Modo Aprendizaje →</a> · <a href="feed.xml" style="font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)">RSS →</a></div>
-      <div style="margin-top:8px;font-family:var(--mono);font-size:11px;color:var(--faint)"><a href="legal.html" style="color:var(--muted);text-decoration:none">Aviso legal y correcciones</a> · <a href="privacidad.html" style="color:var(--muted);text-decoration:none">Política de privacidad</a> · El contenido de este sitio es informativo y educativo; no constituye asesoramiento financiero.</div>
+      <div style="margin-top:8px;font-family:var(--mono);font-size:11px;color:var(--faint)"><a href="suscribirse.html" style="color:var(--teal-deep);text-decoration:none;font-weight:600">Suscribite por mail</a> &middot; <a href="legal.html" style="color:var(--muted);text-decoration:none">Aviso legal y correcciones</a> · <a href="privacidad.html" style="color:var(--muted);text-decoration:none">Política de privacidad</a> · El contenido de este sitio es informativo y educativo; no constituye asesoramiento financiero.</div>
       {editor_html}
     </div>
   </div>
@@ -867,7 +867,7 @@ for g in GRUPOS:
       <div class="f-brand"><span class="tri">%</span> {escape(portal['nombre'])}</div>
       <div class="f-desc">{escape(portal['descripcion'])}</div>
       <div style="margin-top:10px"><a href="como-trabajamos.html" style="font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)">% Cómo trabajamos &rarr;</a> &middot; <a href="aprender.html" style="font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)">Modo Aprendizaje &rarr;</a> &middot; <a href="feed.xml" style="font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)">RSS &rarr;</a></div>
-      <div style="margin-top:8px;font-family:var(--mono);font-size:11px;color:var(--faint)"><a href="legal.html" style="color:var(--muted);text-decoration:none">Aviso legal y correcciones</a> &middot; <a href="privacidad.html" style="color:var(--muted);text-decoration:none">Política de privacidad</a> &middot; El contenido de este sitio es informativo y educativo; no constituye asesoramiento financiero.</div>
+      <div style="margin-top:8px;font-family:var(--mono);font-size:11px;color:var(--faint)"><a href="suscribirse.html" style="color:var(--teal-deep);text-decoration:none;font-weight:600">Suscribite por mail</a> &middot; <a href="legal.html" style="color:var(--muted);text-decoration:none">Aviso legal y correcciones</a> &middot; <a href="privacidad.html" style="color:var(--muted);text-decoration:none">Política de privacidad</a> &middot; El contenido de este sitio es informativo y educativo; no constituye asesoramiento financiero.</div>
     </div>
   </div>
 </footer>
@@ -993,7 +993,7 @@ ARCHIVO = f"""<!DOCTYPE html>
       <div class="f-brand"><span class="tri">%</span> {escape(portal['nombre'])}</div>
       <div class="f-desc">{escape(portal['descripcion'])}</div>
       <div style="margin-top:10px"><a href="como-trabajamos.html" style="font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)">% Cómo trabajamos &rarr;</a> &middot; <a href="aprender.html" style="font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)">Modo Aprendizaje &rarr;</a> &middot; <a href="feed.xml" style="font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)">RSS &rarr;</a></div>
-      <div style="margin-top:8px;font-family:var(--mono);font-size:11px;color:var(--faint)"><a href="legal.html" style="color:var(--muted);text-decoration:none">Aviso legal y correcciones</a> &middot; <a href="privacidad.html" style="color:var(--muted);text-decoration:none">Política de privacidad</a> &middot; El contenido de este sitio es informativo y educativo; no constituye asesoramiento financiero.</div>
+      <div style="margin-top:8px;font-family:var(--mono);font-size:11px;color:var(--faint)"><a href="suscribirse.html" style="color:var(--teal-deep);text-decoration:none;font-weight:600">Suscribite por mail</a> &middot; <a href="legal.html" style="color:var(--muted);text-decoration:none">Aviso legal y correcciones</a> &middot; <a href="privacidad.html" style="color:var(--muted);text-decoration:none">Política de privacidad</a> &middot; El contenido de este sitio es informativo y educativo; no constituye asesoramiento financiero.</div>
     </div>
   </div>
 </footer>
@@ -1144,7 +1144,7 @@ HOY = f"""<!DOCTYPE html>
 
 <footer>
   <div class="wrap">
-    <a href="index.html">Portada</a> · <a href="herramientas.html">Herramientas</a> · <a href="aprender.html">Modo Aprendizaje</a> · <a href="legal.html">Aviso legal</a> · <a href="privacidad.html">Privacidad</a>
+    <a href="index.html">Portada</a> · <a href="herramientas.html">Herramientas</a> · <a href="aprender.html">Modo Aprendizaje</a> · <a href="suscribirse.html">Suscribite</a> · <a href="legal.html">Aviso legal</a> · <a href="privacidad.html">Privacidad</a>
   </div>
 </footer>
 
@@ -1214,7 +1214,7 @@ with open(os.path.join(ROOT, "hoy.html"), "w", encoding="utf-8") as f:
 # ---- sitemap.xml (para SEO) --------------------------------------------
 urls = [f"  <url><loc>{SITE}/</loc><changefreq>hourly</changefreq><priority>1.0</priority></url>"]
 urls.append(f"  <url><loc>{SITE}/hoy.html</loc><changefreq>hourly</changefreq><priority>0.9</priority></url>")
-for pg in ("aprender.html", "como-trabajamos.html", "legal.html", "privacidad.html", "herramientas.html", "pregunta.html", "archivo.html"):
+for pg in ("aprender.html", "como-trabajamos.html", "suscribirse.html", "legal.html", "privacidad.html", "herramientas.html", "pregunta.html", "archivo.html"):
     urls.append(f"  <url><loc>{SITE}/{pg}</loc><changefreq>weekly</changefreq><priority>0.7</priority></url>")
 for ind in ("dolar-oficial", "dolar-blue", "dolar-mep", "riesgo-pais", "inflacion"):
     urls.append(f"  <url><loc>{SITE}/indicador/{ind}.html</loc><changefreq>daily</changefreq><priority>0.8</priority></url>")

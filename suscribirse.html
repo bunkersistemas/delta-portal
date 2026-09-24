@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Suscribite — Con Interés</title>
+<meta name="description" content="Recibí por mail las notas más importantes de la semana de Con Interés: la economía argentina con cada número y su fuente a la vista. Gratis, y te das de baja con un clic.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="canonical" href="https://coninteres.com/suscribirse.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Con Interés">
+<meta property="og:title" content="Suscribite a Con Interés">
+<meta property="og:description" content="La economía argentina con cada número y su fuente a la vista. Las notas más importantes de la semana, por mail y gratis.">
+<meta property="og:url" content="https://coninteres.com/suscribirse.html">
+<meta property="og:image" content="https://coninteres.com/assets/og-delta.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4;--ink:#16130F;--ink-soft:#3C3833;--teal:#0E7C86;--teal-deep:#0A5C63;
+    --amber:#C4701F;--green:#2E8B6F;--muted:#6B6560;--faint:#8A847C;--rule:#DCD6CC;
+    --grid:#E7E1D7;--card:#FFFFFF;--card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,serif;--sans:"Inter",system-ui,sans-serif;--mono:"IBM Plex Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;font-weight:500}
+  .mh-back{font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none}
+  article{padding-top:40px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:14px}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .lead{font-family:var(--serif);font-size:21px;line-height:1.5;color:var(--ink-soft);margin:0 0 8px}
+  .caja{background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:24px 22px;margin:28px 0 0}
+  .caja label{display:block;font-family:var(--mono);font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);margin-bottom:8px}
+  .fila{display:flex;gap:10px;flex-wrap:wrap}
+  .fila input[type=email]{flex:1 1 260px;font:inherit;font-size:17px;padding:12px 14px;border:1px solid var(--rule);border-radius:10px;background:var(--paper);color:var(--ink)}
+  .fila input[type=email]:focus{outline:2px solid var(--teal);outline-offset:1px}
+  .fila button{flex:0 0 auto;font:inherit;font-weight:600;font-size:16px;padding:12px 22px;border:0;border-radius:10px;background:var(--teal);color:#fff;cursor:pointer}
+  .fila button:hover{background:var(--teal-deep)}
+  .trampa{position:absolute;left:-10000px;width:1px;height:1px;overflow:hidden}
+  .nota{font-size:14px;color:var(--muted);margin:12px 0 0;line-height:1.5}
+  .rules{list-style:none;margin:32px 0 0;padding:0}
+  .rules li{background:var(--card);border:1px solid var(--card-edge);border-radius:12px;padding:16px 18px;margin-bottom:12px;font-size:16px;line-height:1.55;color:var(--ink-soft)}
+  .rules li b{color:var(--ink);display:block;font-weight:600;margin-bottom:3px}
+  .rules li .mk{color:var(--teal);font-family:var(--mono);font-weight:600;margin-right:8px}
+  footer{border-top:2px solid var(--ink);margin-top:52px;padding:26px 0 60px}
+  footer .fb{font-family:var(--serif);font-weight:700;font-size:18px;color:var(--ink)}
+  footer .fb .tri{color:var(--teal)}
+  footer .fl{font-family:var(--mono);font-size:12px;color:var(--muted);margin-top:8px}
+  footer .fl a{color:var(--teal-deep);text-decoration:none}
+  @media(max-width:600px){h1{font-size:30px}.lead{font-size:19px}}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a class="mh-back" href="index.html">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+
+  <div class="kicker">Suscribite</div>
+  <h1>La economía argentina, con cada número y su fuente</h1>
+  <p class="lead">Te mandamos por mail las notas más importantes de la semana. Gratis, y te das de baja con un clic cuando quieras.</p>
+
+  <!-- El formulario envia a Mailrelay (cuenta coninteres, grupo "Suscriptores").
+       Mailrelay manda un mail para confirmar: nadie queda suscripto sin confirmarlo.
+       El campo "anotheremail" es una trampa para robots y tiene que quedar vacio. -->
+  <form class="caja" action="https://coninteres.ipzmarketing.com/f/XLVSCGpui-0" method="post">
+    <label for="email">Tu email</label>
+    <div class="fila">
+      <input type="email" id="email" name="subscriber[email]" required autocomplete="email" placeholder="nombre@ejemplo.com">
+      <button type="submit" name="commit">Quiero recibirlo</button>
+    </div>
+    <div class="trampa" aria-hidden="true"><input type="text" name="anotheremail" tabindex="-1" autocomplete="off"></div>
+    <p class="nota">Te vamos a mandar un mail para confirmar. Hasta que no lo confirmes, no te llega nada. Usamos tu mail solo para esto: <a href="privacidad.html">privacidad</a>.</p>
+  </form>
+
+  <ul class="rules">
+    <li><span class="mk">%</span><b>Cada cifra, con su fuente a la vista.</b>Toda nota enlaza el documento oficial del que sale el dato, para que lo compruebes vos.</li>
+    <li><span class="mk">%</span><b>Antes de publicar, intentamos refutar cada número.</b>Si un dato no se puede confirmar, no sale. Preferimos una nota menos antes que un dato falso.</li>
+    <li><span class="mk">%</span><b>Datos, no opinión.</b>Te damos el dato, su contexto y las lecturas posibles, para que saques tus conclusiones. No damos consejos de inversión.</li>
+    <li><span class="mk">%</span><b>Siempre: ¿y esto cómo me toca a mí?</b>Cuánto subió lo que pagás, cuánto rinde lo que ahorrás, cuánto cubre lo que cobrás.</li>
+  </ul>
+
+  <p class="nota">¿Querés saber cómo se hace? Está todo en <a href="como-trabajamos.html">Cómo trabajamos</a>.</p>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="fb"><span class="tri">%</span> Con Interés</div>
+    <div class="fl">La economía, con interés · <a href="index.html">Portada</a> · <a href="legal.html">Aviso legal y correcciones</a> · <a href="privacidad.html">Privacidad</a></div>
+  </div>
+</footer>
+
+<!-- CI-METRICS --><script defer src="assets/metrics.js?v=1"></script>
+</body>
+</html>
