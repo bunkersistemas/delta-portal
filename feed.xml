@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 04:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 05:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un plazo fijo en pesos rindió 15,6% entre enero y agosto y los precios subieron 21,3%: el ahorro perdió 4,7% de poder de compra</title>
+      <link>https://coninteres.com/articulos/2026-09-24-plazo-fijo-pierde-inflacion-2026.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-plazo-fijo-pierde-inflacion-2026.html</guid>
+      <pubDate>Thu, 24 Sep 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Con la tasa promedio que los bancos pagaron a las personas, un plazo fijo renovado mes a mes le ganó a la inflación de mayo a octubre de 2025. Desde diciembre, no: ocho meses seguidos rindió menos que los precios, y en agosto apenas empató. La tasa bajó de 43,9% a 19,4% anual en un año; la inflación, mucho menos.</description>
+      <ci:numero>−4,7%</ci:numero>
+      <ci:numeroEtiqueta>de poder de compra perdió entre enero y agosto de 2026 un plazo fijo en pesos renovado mes a mes a la tasa promedio para personas humanas del BCRA: rindió 15,6% contra una inflación de 21,3% (INDEC)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-plazo-fijo-pierde-inflacion-2026.png" length="75006" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-plazo-fijo-pierde-inflacion-2026.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Argentina empieza a devolverle el capital al FMI: el viernes vence la primera cuota del préstamo de 2022, unos US$794 millones</title>
       <link>https://coninteres.com/articulos/2026-09-24-fmi-primera-cuota-capital-acuerdo-2022.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>del impuesto que financia al cine argentino sale de entradas a películas extranjeras</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-31-cine-argentino-tres-de-cada-cien-entradas.png" length="66362" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-08-31-cine-argentino-tres-de-cada-cien-entradas.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El negocio de Messi no son los hoteles: es su nombre. La empresa que administra su imagen ganó €11 millones en 2024; la hotelera perdió plata</title>
-      <link>https://coninteres.com/articulos/2026-08-31-messi-empresario-balances.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-08-31-messi-empresario-balances.html</guid>
-      <pubDate>Mon, 31 Aug 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>Con el retiro llegó el retrato del Messi empresario y un patrimonio que se estima cerca de los US$1.000 millones. Fuimos a los papeles —el BORME español, las cuentas depositadas y una sociedad suya que cotiza en bolsa— y el balance cuenta otra cosa: de las cuatro patas del holding, la única claramente rentable es la que no tiene un ladrillo.</description>
-      <ci:numero>€61,9 M</ci:numero>
-      <ci:numeroEtiqueta>facturó en 2024 la sociedad que administra los derechos de imagen de Messi, con más de €11 M de beneficio</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-08-31-messi-empresario-balances.png" length="69989" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-08-31-messi-empresario-balances.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

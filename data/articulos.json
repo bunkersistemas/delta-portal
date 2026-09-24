@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T04:44:25-03:00",
+    "actualizado": "2026-09-24T05:42:14-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-plazo-fijo-pierde-inflacion-2026",
+      "titulo": "Un plazo fijo en pesos rindió 15,6% entre enero y agosto y los precios subieron 21,3%: el ahorro perdió 4,7% de poder de compra",
+      "bajada": "Con la tasa promedio que los bancos pagaron a las personas, un plazo fijo renovado mes a mes le ganó a la inflación de mayo a octubre de 2025. Desde diciembre, no: ocho meses seguidos rindió menos que los precios, y en agosto apenas empató. La tasa bajó de 43,9% a 19,4% anual en un año; la inflación, mucho menos.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−4,7%",
+      "numero_label": "de poder de compra perdió entre enero y agosto de 2026 un plazo fijo en pesos renovado mes a mes a la tasa promedio para personas humanas del BCRA: rindió 15,6% contra una inflación de 21,3% (INDEC)",
+      "fecha": "2026-09-24",
+      "hora": "06:30",
+      "archivo": "articulos/2026-09-24-plazo-fijo-pierde-inflacion-2026.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-24-fmi-primera-cuota-capital-acuerdo-2022",
       "titulo": "Argentina empieza a devolverle el capital al FMI: el viernes vence la primera cuota del préstamo de 2022, unos US$794 millones",

@@ -917,6 +917,20 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-fmi-primera-cuota-capital-acuerdo-2022"
+    },
+    {
+      "tema": "régimen de Zona Fría / reforma con media sanción que el Senado trata el 24/09/2026 (subsidio al gas pasa de geográfico a por ingresos, umbral 3 CBT)",
+      "angulo": "FRENADA en la corrida programada del 24/09/2026 05:30. Tema en infobae (dos notas) y agenda del Senado. MOTIVO DEL FRENO: la cifra ancla (usuarios que perderían el subsidio) no coincide entre fuentes: 1,24 M hogares bonaerenses, 1,6 M, 3,35 M y 3,37 M (3.365.230 beneficiarios de la ampliación) según el medio, y ENARGAS no publica la serie de beneficiarios (la página del régimen no tiene datos; el informe general es un PDF de 2022 sin texto extraíble). Ahorro fiscal ($272.099 M) es una proyección oficial sin segunda fuente. Ángulo a retomar si aparece el dato oficial de beneficiarios por subzona o si la ley se sanciona.",
+      "fecha": "2026-09-24",
+      "estado": "descartada",
+      "articulo_id": ""
+    },
+    {
+      "tema": "plazo fijo en pesos contra la inflación / tasa real de 2026: rindió 15,6% vs IPC 21,3% en ene-ago (−4,7% de poder de compra); ocho meses seguidos debajo de la inflación (dic-25 a jul-26) y empate en agosto (1,65% vs 1,66%)",
+      "angulo": "Ángulo nuevo respecto de la retrospectiva de 36 meses (27/08, que solo mencionaba la tasa ~24%): la tasa REAL del ahorrista mes a mes. Serie BCRA 1190 (plazo fijo en pesos de personas humanas, TNA diaria, 19,47% al 22/09) promediada por mes y llevada a rendimiento mensual (TNA × días/365), contra IPC nacional INDEC (21,3% acumulado ene-ago, recalculado del índice). Contraste: pizarra BNA 18,75% online / 15,5% sucursal y tasas de diez bancos 16%-21%. Sensibilidad con la serie 1207 (plazo fijo 30 días, total): −3,8%. Hace un año: TNA 43,9% (sep-25) y el plazo fijo le ganaba a la inflación por más de 1 punto por mes.",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-plazo-fijo-pierde-inflacion-2026"
     }
   ]
 }
