@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 22:10:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 17:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La actividad cayó 2,9% en julio, la baja mensual más fuerte desde abril de 2020, y volvió al nivel de marzo de 2025</title>
+      <link>https://coninteres.com/articulos/2026-09-24-emae-julio-mayor-caida-desde-2020.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-emae-julio-mayor-caida-desde-2020.html</guid>
+      <pubDate>Thu, 24 Sep 2026 17:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El EMAE del INDEC retrocedió 2,9% frente a junio y 1,4% contra julio de 2025. Comercio (−5,1%) e industria (−4,6%) le restaron 1,3 puntos a la interanual. Los tres índices privados de actividad total también vieron caída en julio, pero más chica: entre 0,5% y 1,1%.</description>
+      <ci:numero>−2,9%</ci:numero>
+      <ci:numeroEtiqueta>cayó la actividad en julio de 2026 frente a junio (EMAE del INDEC, desestacionalizado): la mayor baja mensual desde abril de 2020; −1,4% contra julio de 2025</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-emae-julio-mayor-caida-desde-2020.png" length="71870" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-emae-julio-mayor-caida-desde-2020.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La pobreza subió a 32,3% y cortó tres semestres de baja; contra hace un año, el único grupo de edad con una suba que supera el margen de error es el de los mayores de 65</title>
       <link>https://coninteres.com/articulos/2026-09-24-pobreza-primer-semestre-2026-mayores-65.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>puertas donde una PyME puede presentarse directamente, de 12 vías relevadas</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-01-financiamiento-pyme-donde-pedir-credito.png" length="56868" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-01-financiamiento-pyme-donde-pedir-credito.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El crédito a las empresas casi se duplicó en dos años, pero todo el crecimiento pasó antes de noviembre: en los últimos siete meses se frenó y la mora se triplicó</title>
-      <link>https://coninteres.com/articulos/2026-09-01-credito-empresas-24-meses-organismos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-01-credito-empresas-24-meses-organismos.html</guid>
-      <pubDate>Tue, 01 Sep 2026 16:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>Bajamos la serie completa del Banco Central y la descontamos por inflación. En 24 meses el crédito real a empresas creció 97,1%, pero 92,4% de eso ocurrió en los primeros 17. Y sobre el financiamiento de organismos internacionales, que se busca todos los días: el BID Invest lo dice en su propia página, trabaja con bancos, no con PyMEs.</description>
-      <ci:numero>97,1%</ci:numero>
-      <ci:numeroEtiqueta>creció el crédito real a empresas en 24 meses, pero casi todo antes de noviembre</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-01-credito-empresas-24-meses-organismos.png" length="67255" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-01-credito-empresas-24-meses-organismos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

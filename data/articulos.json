@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T22:10:30+02:00",
+    "actualizado": "2026-09-24T17:41:07-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-emae-julio-mayor-caida-desde-2020",
+      "titulo": "La actividad cayó 2,9% en julio, la baja mensual más fuerte desde abril de 2020, y volvió al nivel de marzo de 2025",
+      "bajada": "El EMAE del INDEC retrocedió 2,9% frente a junio y 1,4% contra julio de 2025. Comercio (−5,1%) e industria (−4,6%) le restaron 1,3 puntos a la interanual. Los tres índices privados de actividad total también vieron caída en julio, pero más chica: entre 0,5% y 1,1%.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−2,9%",
+      "numero_label": "cayó la actividad en julio de 2026 frente a junio (EMAE del INDEC, desestacionalizado): la mayor baja mensual desde abril de 2020; −1,4% contra julio de 2025",
+      "fecha": "2026-09-24",
+      "hora": "17:30",
+      "archivo": "articulos/2026-09-24-emae-julio-mayor-caida-desde-2020.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-24-pobreza-primer-semestre-2026-mayores-65",
       "titulo": "La pobreza subió a 32,3% y cortó tres semestres de baja; contra hace un año, el único grupo de edad con una suba que supera el margen de error es el de los mayores de 65",

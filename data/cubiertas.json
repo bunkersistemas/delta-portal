@@ -945,6 +945,13 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-pobreza-primer-semestre-2026-mayores-65"
+    },
+    {
+      "tema": "EMAE / actividad económica julio 2026: −2,9% mensual desestacionalizado (la mayor baja desde abril de 2020), −1,4% interanual, acumulado ene-jul +1,7%; comercio −5,1% e industria −4,6% i.a.",
+      "angulo": "Corrida programada del 24/09/2026 17:30. Calendario INDEC del día + 5 portadas (infobae, lanacion, ambito, iprofesional, cronista; clarin y tn no se pudieron leer). Serie nueva respecto de la nota de mayo (22/07): el dato de julio, el nivel (149,6, el más bajo desde marzo de 2025 = 149,5; -4,5% desde el pico de marzo de 2026, 156,7) y la tendencia-ciclo que sigue +0,2%. Verificación: estadística oficial recalculada (informe técnico + planilla sh_emae_mensual: 149,648/154,117 = -2,90%; 151,554/153,771 = -1,44%; ene-jul +1,66%) + contraste de cuatro privados que confirman la dirección pero no la magnitud (OJF -0,9% m/m y +0,3% i.a.; Equilibra -0,5% y +0,5%; Analytica -1,1% y +0,7%; FIEL industria -1,4% y -1,1%); la brecha se explica por la industria (IPI INDEC -5,0% m/m vs FIEL -1,4%) y construcción (OJF +4,0% vs INDEC -3,3% i.a.), y la nota la muestra. Superlativo: última caída mayor, abril de 2020 (-15,6%); mayor intermedia, marzo de 2025 (-2,58%). No se usó la explicación del ministro Caputo (lluvias, gas, Mundial) por no tener documento oficial enlazable; no se habla de recesión.",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-emae-julio-mayor-caida-desde-2020"
     }
   ]
 }
