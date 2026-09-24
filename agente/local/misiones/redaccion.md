@@ -44,11 +44,29 @@ sigue:
    lanacion, clarin, ambito, iprofesional, cronista, tn y pagina12, y prioriza
    lo que aparece repetido en varias. Suma la agenda del paso 0: lo que sale
    del calendario oficial entra como candidato con ventaja. Del portal se saca
-   el TEMA, nunca el dato: el numero se busca en la fuente primaria. Salida:
-   8-12 candidatas, marcando cuales vienen del calendario y en cuantas
-   portadas aparece cada una.
-2. **Editor** - elige UNA. Criterios en orden: riqueza de datos, relevancia para
-   el lector argentino hoy, no repetir.
+   el TEMA, nunca el dato: el numero se busca en la fuente primaria.
+   **Ademas, SIEMPRE, la pregunta de plata detras de la noticia** (desde el
+   24/09/2026): de lo que es noticia hoy en cualquier seccion -deporte,
+   espectaculos, sociedad, no solo economia-, que pregunta de plata se hace la
+   gente y buscaria en Google ("cuanto cobra", "cuanto cuesta", "cuanto paga
+   el Estado", "cuanto sale") que se pueda contestar con documentos oficiales.
+   Minimo 2 candidatas de este tipo. Salida: 8-12 candidatas, marcando cuales
+   vienen del calendario, en cuantas portadas aparece cada una y cuales son
+   "pregunta de plata".
+2. **Editor** - elige UNA. Criterios en orden:
+   1. **Una pregunta que la gente busca y nadie contesta con datos.** Es lo
+      que trae lectores: en los 30 dias al 24/09/2026 el 61% de las visitas
+      (330 de 540, Cloudflare Web Analytics) fue a UNA nota, la de las becas
+      de las Leonas, y llegaron desde Google. Las notas del dato del dia
+      (EMAE, pobreza, IPC) no pasaron de 10 visitas cada una: ese dato lo
+      publican todos los medios a la misma hora y Google muestra primero a
+      los grandes.
+   2. Riqueza de datos.
+   3. Relevancia para el lector argentino hoy.
+   4. No repetir.
+   El dato del dia del calendario sigue siendo candidato, pero solo gana si
+   trae un angulo que los otros medios no tienen (un cruce, una serie larga,
+   una comparacion propia). La vara de verificacion no cambia para ningun tipo.
 3. **Investigador** - va a las fuentes PRIMARIAS (INDEC, BCRA, Ministerio de
    Economia, Boletin Oficial, balances, bases internacionales), no a la nota que
    reboto el dato. Arma la ficha: cada numero con su URL exacta, su fecha, su
