@@ -850,6 +850,38 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-desempleo-interior-rosario-pampeana"
+    },
+    {
+      "tema": "mercado de trabajo / pluriempleo: 'ya afecta al 10% de los trabajadores' (EPH 2T-2026)",
+      "angulo": "FRENADA en la corrida programada del 24/09/2026 01:30. Tema en 3 portadas (ámbito, pagina12, infobae vía CABA). La cifra que circula (1 de cada 10 ocupados con más de un empleo; 11,5% en 2025 según C-P/Pastrana) sale de procesamientos privados de los microdatos de la EPH, no de un documento del INDEC: no cumple la condición 1 de la regla de estadísticas oficiales (NEWSROOM §3). El indicador oficial más cercano, en el informe del INDEC (mercado_trabajo_eph_2trim26433FCBC5A8.pdf, cuadro 1.2), es la tasa de ocupados demandantes de empleo: 16,9% en 2T-2026 contra 17,1% en 2T-2025 (15,8% en 1T-2026). No subió en el año, así que tampoco sostiene 'avanza el pluriempleo' como tendencia interanual. Si se retoma: calcular la cantidad de ocupaciones desde los microdatos oficiales y conseguir una segunda fuente independiente que coincida.",
+      "fecha": "2026-09-24",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "la cifra ancla (pluriempleo 10%) no figura en un documento oficial: sale de procesamientos privados; el indicador oficial (ocupados demandantes 16,9% vs 17,1%) no confirma la suba"
+    },
+    {
+      "tema": "dólar mayorista / récord nominal de la Comunicación A 3500 ($1.516,30 el 23/09/2026)",
+      "angulo": "DESCARTADA en la corrida programada del 24/09/2026 01:30 por falta de ángulo nuevo. Tema en infobae y lanacion. Serie BCRA com3500.xls leída: 23/09/2026 $1.516,2964, máximo nominal de la serie; valor previo $1.515,1105 (09/09/2026), apenas $1,19 menos. El mayorista se movió +0,45% desde el 31/08 ($1.509,4686): el 'récord nominal' es un dato sin historia. El ángulo con valor (tipo de cambio real / atraso) ya está cubierto por las notas del ITCRM (23/07) y del blue (22/07). Si se retoma: cuando el movimiento sea significativo, o combinado con el balance cambiario del BCRA del 25/09.",
+      "fecha": "2026-09-24",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "récord nominal por $1,19 (+0,45% en el mes), sin ángulo nuevo respecto de las notas de tipo de cambio real ya publicadas"
+    },
+    {
+      "tema": "compras por courier agosto 2026 / US$104,2 M (+13,9% i.a.), acumulado ene-ago US$855,1 M (+71,1%): el boom se desacelera",
+      "angulo": "FRENADA en la corrida programada del 24/09/2026 01:30. Tema en infobae y cronista (y lanacion 22/09). Condición 1 cumplida: INDEC, ica_cuadros_18_09_26.xls, cuadro 15 (NCM 99980400, bienes despachados mediante servicios postales): agosto US$104,234 M, +13,94% i.a.; cuadros 32 y 34: ene-ago US$855,13 M contra 499,86 M (+71,07%). Ángulo evaluado: la suba interanual pasó de +104,2% en el 1er semestre (nota del 21/07) a +13,9% en agosto; julio 108 M y junio 125 M según prensa (no recalculados). MOTIVO DEL FRENO: no hay contraste independiente (condición 3): la única otra fuente citada, Analytica (vía La Nación), procesa la misma base del INDEC, y ARCA no publica la serie mensual. Si se retoma: buscar un registro administrativo (ARCA, Correo) o una cámara del sector con datos propios.",
+      "fecha": "2026-09-24",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla (courier agosto US$104,2 M, INDEC) sin contraste independiente: las otras fuentes reprocesan el mismo dato del INDEC"
+    },
+    {
+      "tema": "desocupación en CABA 2T-2026 / IDECBA-ETOI 7,2% y más ocupados buscando otro empleo",
+      "angulo": "FRENADA en la corrida programada del 24/09/2026 01:30. Tema en infobae y ámbito (y pagina12 por el pluriempleo). Publicación oficial: IDECBA, 'Situación del mercado laboral de la Ciudad de Buenos Aires. 2do. trimestre de 2026' (23/09/2026). El sitio del IDECBA no respondió desde esta máquina (timeouts y bucle de redirecciones): no se leyó ni el documento ni la serie, así que no se cumplen las condiciones 1 y 2. La prensa se contradice en la comparación interanual (infobae: bajó de 7,7% a 7,2%; ámbito y otros: sin cambios). Contraste disponible: la EPH del INDEC (cuadros_tasas_indicadores_eph_09_26.xls, cuadro 3.4) da para CABA 5,6% en 2T-2026, 1,6 pp debajo del IDECBA; la diferencia (ETOI contra EPH, muestra y método) no se pudo explicar sin el documento. Si se retoma: leer el informe y la serie del IDECBA y explicar la brecha ETOI/EPH en '④ Cómo lo sabemos'.",
+      "fecha": "2026-09-24",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "informe del IDECBA inaccesible (no se pudo leer ni recalcular); prensa contradictoria en la interanual y la EPH da 5,6% contra 7,2% sin explicación posible"
     }
   ]
 }
