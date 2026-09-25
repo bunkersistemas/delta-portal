@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T03:45:29-03:00",
+    "actualizado": "2026-09-25T04:54:41-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-despedida-messi-cuanto-cuesta-entrada",
+      "titulo": "¿Cuánto cuesta ir a la despedida de Messi? De $90.000 a $480.000 por adulto, los mismos pesos que hace un año: con la inflación, 25% menos",
+      "bajada": "La AFA puso las entradas para Argentina-Benín, el último partido de Messi con la selección, entre $90.000 y $480.000 para un adulto. En cinco de las siete ubicaciones del Monumental son los mismos pesos que cobró en septiembre de 2025. Con 33,5% de inflación en el medio, esas entradas cuestan 25,1% menos en términos reales. La platea más cara, igual, supera a la jubilación mínima de octubre.",
+      "seccion": "DEPORTES",
+      "formato": "Anatomía de un dato",
+      "numero": "−25,1%",
+      "numero_label": "precio real de las entradas de la selección en el Monumental contra septiembre de 2025",
+      "fecha": "2026-09-25",
+      "hora": "05:30",
+      "archivo": "articulos/2026-09-25-despedida-messi-cuanto-cuesta-entrada.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-09-25-skanska-decomiso-cuanto-vale-hoy",
       "titulo": "Caso Skanska: el decomiso es de $48,6 millones de hace 20 años. Sin actualizar, hoy alcanza para US$32.008",

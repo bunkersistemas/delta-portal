@@ -1075,6 +1075,37 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-skanska-decomiso-cuanto-vale-hoy"
+    },
+    {
+      "tema": "cuánto cobra un senador / dieta de los senadores nacionales en septiembre de 2026 (4.000 módulos, DR 8/24) tras la sesión del 24/09",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 04:30. Pregunta de plata detrás de la sesión del Senado (zona fría, reforma del BCRA). Fuente primaria leída: senado.gob.ar/dietas y el recibo modelo (bundles/senadoportal/webNueva/pdf/dietas/recibo.pdf), que es de MARZO de 2026: módulo $2.784,456902, dieta $6.961.142,26 menos renuncia al aumento paritario (DP 143/2026) = $6.387.124,83, más gastos de representación y desarraigo: $10.219.399,73 brutos con la renuncia. MOTIVO DEL FRENO: el valor del módulo de septiembre sale solo de la prensa (acta paritaria legislativa UPCN-ATE-APL no publicada) y la prensa se contradice en agosto ($11,877 M según cronista, $12,26 M según lanacion); además el neto depende de renuncias por senador (DP 344/2025, DP 143/2026). Retomar con el acta paritaria o un recibo del Senado posterior a marzo.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "último recibo oficial del Senado es de marzo; el módulo de septiembre solo en prensa, con cifras contradictorias"
+    },
+    {
+      "tema": "cuánto tiene que ganar un hogar para no ser pobre / canasta básica total de agosto 2026 por tipo de hogar (familia tipo $1.605.497)",
+      "angulo": "DESCARTADA en la corrida programada del 25/09/2026 04:30 por falta de ángulo nuevo. Pregunta de plata detrás de la pobreza del 1S-2026. Serie INDEC serie_cba_cbt.xls leída: CBT adulto equivalente ago-2026 $519.578,43 (+2,6% m, +38,3% i.a.), hogar 2 $1.605.497,35. Esas cifras ya salieron en la nota de la canasta de crianza (14/09, +38,3%), en la de jubilación mínima contra la línea de pobreza (24/09) y en la de pobreza del 1S-2026 (24/09).",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin ángulo nuevo: canasta de agosto y su +38,3% ya publicados el 14/09 y el 24/09"
+    },
+    {
+      "tema": "empresas / hechos relevantes CNV 21-24/09/2026: Molinos Agro-ACA (acuerdos de implementación de la planta de Timbúes), Central Puerto (recompra de acciones) e YPF (recompra de ON Clase XXVII)",
+      "angulo": "DESCARTADAS en la corrida programada del 25/09/2026 04:30 (hoy ya se publicó una nota de EMPRESAS, Skanska/Pecom, así que no regía el cupo). Documentos leídos en la CNV: Molinos Agro informa la firma de los acuerdos de implementación con ACA para la planta de crushing de soja de Timbúes sin ningún monto (acta de directorio 221); Central Puerto compró 100.000 acciones propias a $2.016,27 ($201.627.129) el 24/09; YPF recompró entre el 15 y el 18/09 ON Clase XXVII (YMCTO) por VN US$23.368.197 ($35.212.692.686,15, 99,77% del VN) de una emisión de US$127.904.997 que vence en octubre de 2026. Ninguno trae una cifra que sostenga una nota: sin monto (Molinos) o una operación chica de rutina (recompras).",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "documentos sin monto o con operaciones chicas de rutina; cupo de empresas ya cubierto hoy"
+    },
+    {
+      "tema": "cuánto cuesta ir a la despedida de Messi / precios de la AFA para Argentina-Benín (6/10/2026, Monumental): $90.000 a $480.000, los mismos pesos que Argentina-Venezuela (4/9/2025) en 5 de 7 ubicaciones; -25,1% real con IPC ago-25/ago-26 (+33,5%)",
+      "angulo": "Pregunta de plata detrás de la noticia deportiva del día (entradas agotadas, infobae y otros). Listas de la AFA del 19/09/2026 y del 26/08/2025 contrastadas con Deportick (evento Burkina Faso 2026 y preventa Amex 2025 en Internet Archive): plateas $450.000 y $320.000 iguales en los dos años con dos fuentes; altas $158.000->$180.000 (+13,9%, -14,7% real) y $260.000->$320.000 (+23,1%, -7,8% real). IPC INDEC 9.193,2441->12.276,766; contraste IPCBA 33,3% i.a. Referencia: jubilación mínima de octubre $435.748,51 (Res. ANSES 284/2026): la platea de $480.000 es 110% del haber.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-despedida-messi-cuanto-cuesta-entrada"
     }
   ]
 }
