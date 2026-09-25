@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 21:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 22:39:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Fondo para despidos: por cada año trabajado, una pyme junta en el FAL casi un tercio de la indemnización; una gran empresa, el 13%</title>
+      <link>https://coninteres.com/articulos/2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion.html</guid>
+      <pubDate>Thu, 24 Sep 2026 23:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Fondo de Asistencia Laboral arranca el 1 de noviembre. Al trabajador no le descuentan nada: el aporte lo pone el empleador, que a cambio paga menos contribuciones a la seguridad social. Pero con 2,5% del sueldo en una pyme y 1% en una gran empresa, lo que entra al fondo por cada año trabajado equivale a 32,5% y 13% de la indemnización que genera ese año. El resto lo sigue debiendo la empresa.</description>
+      <ci:numero>32,5%</ci:numero>
+      <ci:numeroEtiqueta>de un sueldo por año trabajado deposita una pyme en el FAL (2,5% × 13 sueldos, ley 27.802 art. 60); la indemnización es un sueldo por año. En una gran empresa, 13%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion.png" length="76649" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Presupuesto 2027: la caja del Tesoro suma $14,8 billones. El 162% de suba se mide contra lo que quedó después de repartirla; contra la ley de 2026, crece 19,4%</title>
       <link>https://coninteres.com/articulos/2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>los robots humanoides que Unitree vendió en toda su historia (2023-2025), según su prospecto, mientras la bolsa de Shanghái la valuaba en 50.800 millones de dólares</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-02-humanoides-valuacion-mercado-real.png" length="75168" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-02-humanoides-valuacion-mercado-real.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las tarifas subieron 530% y la ropa 124%: el mapa completo de qué se encareció y qué se abarató desde diciembre de 2023</title>
-      <link>https://coninteres.com/articulos/2026-09-01-precios-relativos-doce-divisiones-ipc.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-01-precios-relativos-doce-divisiones-ipc.html</guid>
-      <pubDate>Tue, 01 Sep 2026 22:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El IPC acumuló 241,8% en 32 meses, pero ese promedio esconde doce rubros que corrieron a velocidades muy distintas: 406,7 puntos separan al primero del último. Ordenamos los doce con los datos del INDEC. Y el hallazgo no es que los servicios se dispararon, sino de dónde venían: en enero de 2024 estaban en el punto más barato de la última década frente a los bienes, y hoy volvieron casi exactamente a donde estaban en 2017.</description>
-      <ci:numero>406,7 pp</ci:numero>
-      <ci:numeroEtiqueta>de diferencia entre el rubro de precios que más subió del IPC y el que menos subió desde diciembre de 2023: las tarifas de la vivienda contra la ropa</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-01-precios-relativos-doce-divisiones-ipc.png" length="70440" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-01-precios-relativos-doce-divisiones-ipc.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

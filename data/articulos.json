@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T21:41:30-03:00",
+    "actualizado": "2026-09-24T22:39:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion",
+      "titulo": "Fondo para despidos: por cada año trabajado, una pyme junta en el FAL casi un tercio de la indemnización; una gran empresa, el 13%",
+      "bajada": "El Fondo de Asistencia Laboral arranca el 1 de noviembre. Al trabajador no le descuentan nada: el aporte lo pone el empleador, que a cambio paga menos contribuciones a la seguridad social. Pero con 2,5% del sueldo en una pyme y 1% en una gran empresa, lo que entra al fondo por cada año trabajado equivale a 32,5% y 13% de la indemnización que genera ese año. El resto lo sigue debiendo la empresa.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "32,5%",
+      "numero_label": "de un sueldo por año trabajado deposita una pyme en el FAL (2,5% × 13 sueldos, ley 27.802 art. 60); la indemnización es un sueldo por año. En una gran empresa, 13%",
+      "fecha": "2026-09-24",
+      "hora": "23:30",
+      "archivo": "articulos/2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91",
       "titulo": "Presupuesto 2027: la caja del Tesoro suma $14,8 billones. El 162% de suba se mide contra lo que quedó después de repartirla; contra la ley de 2026, crece 19,4%",

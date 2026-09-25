@@ -980,6 +980,21 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91"
+    },
+    {
+      "tema": "régimen de Zona Fría / ley sancionada por el Senado el 24/09/2026 (38 a 8): cuánto más pagarían de gas los usuarios que pierden el beneficio",
+      "angulo": "RETOMADA en la corrida programada del 24/09/2026 22:30 porque la ley se sancionó (condición para retomar que dejó la frenada de las 05:30). Tema en iprofesional (dos notas, 'lo perderán 1,6 millones de usuarios'), cronista (dos notas) e infobae. FRENADA OTRA VEZ: (1) la cantidad de usuarios que pierden el beneficio sigue sin dato oficial y las cifras chocan (1,6 M según el Gobierno, 2,5 M según la oposición, más de 3 M incorporados en 2021); ENARGAS no publica beneficiarios; (2) la pregunta de plata (cuánto sube la factura) no se puede contestar con documentos: la ley elimina la garantía del descuento de 50%, deja el porcentaje a criterio del Poder Ejecutivo, calcula la ayuda sobre el precio del gas y no sobre la tarifa total y remite a la inscripción en el SEF; además no está promulgada ni publicada en el Boletín Oficial. Retomar cuando se publique la reglamentación con el porcentaje de bonificación y los cuadros tarifarios de ENARGAS.",
+      "fecha": "2026-09-24",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla sin fuente oficial (beneficiarios 1,6 / 2,5 / 3+ M) y efecto en la factura dependiente de una reglamentación que todavía no existe"
+    },
+    {
+      "tema": "Fondo de Asistencia Laboral (FAL) / cuánto de la indemnización cubre: una pyme deposita 32,5% de un sueldo por año trabajado (2,5% × 13 sueldos) y una gran empresa 13% (1% × 13), contra una indemnización de un sueldo por año; arranca el 1/11/2026",
+      "angulo": "Corrida programada del 24/09/2026 22:30. Pregunta de plata ('¿me descuentan el FAL del sueldo?', '¿alcanza para la indemnización?') detrás de la nota de El Cronista del día (qué pasa con las empresas que no elijan cuenta FAL). Tema nuevo: no había nada de reforma laboral en cubiertas. Ancla = parámetros legales + cálculo: ley 27.802 art. 60 (1%/2,5% sobre la base de contribuciones patronales al SIPA), ley 24.241 art. 6 (el SAC es remuneración previsional; art. 9: el tope rige solo para aportes), nuevo art. 245 LCT (un sueldo por año, sin SAC; tope 3 veces el promedio del convenio). Tasas coinciden en la ley (InfoLEG) y en el informe independiente de la BCR (Informativo 2239, 17/04/2026: masa $13,33 billones, aporte $263.268 M/mes, recalculado exacto). Otros hechos: art. 62 cuenta común por empleador, no por trabajador; art. 64 responsabilidad del empleador intacta; art. 76 + Dec. 408/2026 art. 24 reducción equivalente de contribuciones (leyes 19.032, 24.013, 24.241, 24.714); Dec. 408 art. 27 vigencia 1/11/2026, art. 15 carencia 6 meses, art. 3 c) 12 meses de registro, art. 20 comisión tope 1% anual. Sin superlativos. Apertura pymes/grandes rotulada como estimación.",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion"
     }
   ]
 }
