@@ -1039,6 +1039,13 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-inflacion-meta-29-ritmo-necesario"
+    },
+    {
+      "tema": "Loma Negra, balance del primer semestre 2026 / ganancia neta $50.418 M (+64,8% en moneda constante) con ventas +1,6% y ganancia operativa -8,5%: la pérdida por diferencia de cambio bajó de $44.211 M a $5.871 M",
+      "angulo": "Corrida programada del 25/09/2026 00:46. Cupo de EMPRESAS (sin nota de la sección desde el 31/08). Tema: 6-K del 21/09/2026 con los estados contables del semestre en inglés (bloque EMPRESAS de agenda.py). Ángulo propio: el puente de la ganancia antes de impuestos (+$33.938 M) renglón por renglón; el alivio cambiario (+$38.340 M) explica más que toda la mejora y la ganancia operativa restó $5.064 M. Verificación: dos documentos de la empresa ante la SEC (estados contables al 30/06/2026 y comunicado 2T del 06/08/2026) con los mismos renglones + recálculo completo del estado de resultados (todos los subtotales cierran) + contraste de las cifras del trimestre en Ámbito (07/08/2026: ventas $238.053 M, neta $7.043 M). Cifras en moneda homogénea (NIC 29) de junio de 2026. Sin superlativos. Citas de la empresa verificadas textuales en el comunicado.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-loma-negra-ganancia-dolar-semestre"
     }
   ]
 }

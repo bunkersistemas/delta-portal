@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 25 Sep 2026 00:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 00:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Loma Negra vendió lo mismo, ganó menos con su negocio y su ganancia neta subió 65%: la diferencia la hizo el dólar</title>
+      <link>https://coninteres.com/articulos/2026-09-25-loma-negra-ganancia-dolar-semestre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-loma-negra-ganancia-dolar-semestre.html</guid>
+      <pubDate>Fri, 25 Sep 2026 01:45:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>En el primer semestre de 2026 la cementera facturó apenas 1,6% más que un año antes, en moneda constante, y su ganancia operativa cayó 8,5%. Aun así terminó con una ganancia neta de $50.418 millones, 65% más. La explicación está en un solo renglón de su balance: lo que perdió por el dólar bajó de $44.211 millones a $5.871 millones.</description>
+      <ci:numero>$50.418 M</ci:numero>
+      <ci:numeroEtiqueta>ganancia neta de Loma Negra en el primer semestre de 2026 (pesos de junio de 2026), 65% más que un año antes con ventas que crecieron 1,6%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-loma-negra-ganancia-dolar-semestre.png" length="71413" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-loma-negra-ganancia-dolar-semestre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Para cerrar 2026 en 29%, como promete el Presupuesto, la inflación tiene que promediar 1,55% por mes hasta diciembre: cuatro meses así no se ven desde 2017</title>
       <link>https://coninteres.com/articulos/2026-09-25-inflacion-meta-29-ritmo-necesario.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>asalariados registrados del sector privado en mayo de 2026, contra 6,169 millones en julio de 2016. Desde noviembre de 2023 se perdieron 241.000 puestos</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-05-empleo-privado-decada-perdida.png" length="67732" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-05-empleo-privado-decada-perdida.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El INDEC informó que la pesca creció 300,2% en julio. Contra el último julio sin conflicto, creció 8,6%</title>
-      <link>https://coninteres.com/articulos/2026-09-03-pesca-300-por-ciento-base-hundida.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-03-pesca-300-por-ciento-base-hundida.html</guid>
-      <pubDate>Thu, 03 Sep 2026 23:55:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El dato salió el jueves a las 16 y varios portales lo publicaron con ese número en el título: la producción pesquera se multiplicó por cuatro en un año. La cuenta está bien. El problema es contra qué se compara: julio de 2025 fue el peor julio de toda la serie, con buena parte de la flota langostinera amarrada por un conflicto gremial. Bajamos la serie oficial completa —175 meses desde enero de 2012— y rehicimos la comparación contra julio de 2024, el último julio normal. El resultado es 8,6%. El propio informe del INDEC avisa del problema, en un recuadro que empieza con la palabra IMPORTANTE.</description>
-      <ci:numero>8,6%</ci:numero>
-      <ci:numeroEtiqueta>creció la producción pesquera de julio de 2026 contra julio de 2024, el último julio sin conflicto gremial. Contra julio de 2025 —con la flota amarrada— el INDEC informó +300,2%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-03-pesca-300-por-ciento-base-hundida.png" length="73494" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-03-pesca-300-por-ciento-base-hundida.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

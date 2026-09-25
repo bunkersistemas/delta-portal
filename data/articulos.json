@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T00:45:45-03:00",
+    "actualizado": "2026-09-25T00:57:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-loma-negra-ganancia-dolar-semestre",
+      "titulo": "Loma Negra vendió lo mismo, ganó menos con su negocio y su ganancia neta subió 65%: la diferencia la hizo el dólar",
+      "bajada": "En el primer semestre de 2026 la cementera facturó apenas 1,6% más que un año antes, en moneda constante, y su ganancia operativa cayó 8,5%. Aun así terminó con una ganancia neta de $50.418 millones, 65% más. La explicación está en un solo renglón de su balance: lo que perdió por el dólar bajó de $44.211 millones a $5.871 millones.",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$50.418 M",
+      "numero_label": "ganancia neta de Loma Negra en el primer semestre de 2026 (pesos de junio de 2026), 65% más que un año antes con ventas que crecieron 1,6%",
+      "fecha": "2026-09-25",
+      "hora": "01:45",
+      "archivo": "articulos/2026-09-25-loma-negra-ganancia-dolar-semestre.html",
+      "verificacion": "verificada",
+      "fuentes": 3,
+      "lectura": "30 seg → 9 min"
+    },
     {
       "id": "2026-09-25-inflacion-meta-29-ritmo-necesario",
       "titulo": "Para cerrar 2026 en 29%, como promete el Presupuesto, la inflación tiene que promediar 1,55% por mes hasta diciembre: cuatro meses así no se ven desde 2017",
