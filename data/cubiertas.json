@@ -1008,6 +1008,37 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-concordia-pobreza-no-es-desempleo"
+    },
+    {
+      "tema": "desperdicio de alimentos / 73 millones de kilos descartados por supermercados en 2025 ($370.520 M) y por qué donar cuesta más que tirar (crédito fiscal de IVA)",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 00:30. Pregunta de plata detrás de la nota de lanacion (portada, 24/09) e infobae (21/09 y 23/09). MOTIVO DEL FRENO: la cifra ancla no está en ningún documento oficial legible: la prensa la atribuye a la Secretaría de Agricultura, pero el Informe de gestión anual 2025 de la DNAyDR (alimentosargentinos.magyp.gob.ar) no la trae (solo 4ta medición del Tablero de mermas, 96,7% de participación del sector y variación 33,8%), el Informe_Tablero_PDA_2024.pdf da 404 y el tablero es un Power BI de GS1 sin serie descargable para recalcular. La cobertura del tablero además no coincide entre fuentes (61%, 83,7% y 96,7%). Si se retoma: conseguir el informe del tablero con datos 2025 y el texto de la norma sobre el IVA de las donaciones.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla sin documento oficial ni serie para recalcular"
+    },
+    {
+      "tema": "visita del papa León XIV (8 al 11/11/2026) / cuánto cuesta y quién la paga",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 00:30. Pregunta de plata detrás de la visita (feriados, operativo; lanacion e infobae). MOTIVO DEL FRENO: el costo de US$25 M circula sin atribución (infozona y réplicas); el anuncio oficial de Casa Rosada del 21/09/2026 no da montos (solo 7 millones de asistentes esperados, 4 eventos masivos y 11 cerrados); las resoluciones 898, 899 y 900/2026 son del operativo de seguridad, sin costo. Si se retoma: decreto o resolución con partida presupuestaria, o balance de la Conferencia Episcopal.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "costo sin documento oficial"
+    },
+    {
+      "tema": "obra social de las Fuerzas Armadas (ex IOSFA) / cuánto debe, tras la renuncia del liquidador (24/09/2026)",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 00:30. Tema en cronista, ámbito, lanacion. MOTIVO DEL FRENO: la deuda no tiene documento y las cifras chocan: $200.000 M y $213.000 M (lanacion, sin fuente documental) y $500.000 M (ATE). Si se retoma: estados contables del IOSFA, informe de la SIGEN o de la AGN, o una resolución del Ministerio de Defensa con el pasivo.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "deuda sin documento y cifras contradictorias"
+    },
+    {
+      "tema": "meta de inflación 2026 del Presupuesto 2027 (29,0%) / ritmo necesario: 1,55% mensual de septiembre a diciembre, con 21,3% acumulado a agosto; cuatro meses con 6,35% o menos no se registran desde ago-nov 2017",
+      "angulo": "Corrida programada del 25/09/2026 00:30. Tema en infobae (Analytica, 24/09; expectativas UTDT), ámbito (expectativas 29,8%). Ángulo propio: la historia del ritmo requerido en la serie del IPC nacional desde dic-2016 (tramos de 4 meses: mínimo desde 2018 = may-ago 2025 7,08%; solo 2017 bajo 6,35%: may-ago 5,89% y ago-nov 6,34%), y la meta anterior (proyecto 2026: 10,1% para 2026 y 24,5% para 2025, que cerró en 31,5%). Verificación: dos documentos oficiales recalculados (INDEC serie_ipc_divisiones.csv: 10.121,3715 -> 12.276,766 = 21,295%; mensaje del proyecto de Presupuesto 2027 pág. 32: IPC 2026 29,0%) + cálculo (1,29/1,21295)^(1/4)-1 = 1,5515% + contraste independiente Analytica 1,6% (infobae 24/09) y REM BCRA agosto (mediana 1,8/1,7/1,6/1,78; 2026 30,0%; P10 29,12; 47 participantes). Superlativo con valor previo: ago-nov 2017 6,34%.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-inflacion-meta-29-ritmo-necesario"
     }
   ]
 }

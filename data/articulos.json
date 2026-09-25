@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T23:46:27-03:00",
+    "actualizado": "2026-09-25T00:45:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-inflacion-meta-29-ritmo-necesario",
+      "titulo": "Para cerrar 2026 en 29%, como promete el Presupuesto, la inflación tiene que promediar 1,55% por mes hasta diciembre: cuatro meses así no se ven desde 2017",
+      "bajada": "Entre enero y agosto los precios ya subieron 21,3%. Para llegar al 29% que el Gobierno escribió en el Presupuesto 2027 los precios solo pueden subir 6,35% en cuatro meses. Desde 2018 el mejor tramo de cuatro meses fue 7,08%, y los analistas que releva el BCRA esperan 1,8% en septiembre. Hace un año, el Presupuesto 2026 prometía 10,1% para todo este año.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,55%",
+      "numero_label": "de inflación promedio por mes hace falta de septiembre a diciembre para que 2026 cierre en 29%, la meta del Presupuesto 2027: ya se acumuló 21,3% a agosto (cálculo propio con el IPC del INDEC)",
+      "fecha": "2026-09-25",
+      "hora": "01:30",
+      "archivo": "articulos/2026-09-25-inflacion-meta-29-ritmo-necesario.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-24-concordia-pobreza-no-es-desempleo",
       "titulo": "Concordia tiene 56,2% de pobres y 6,1% de desocupados; Rosario, 23,1% y 11,5%: el mapa de la pobreza no es el del desempleo",

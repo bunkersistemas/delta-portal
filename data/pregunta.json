@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-09-24",
-  "pregunta": "En agosto de 2026 los precios subieron 1,7%, y en agosto de 2025 habían subido 1,9%. La inflación de los últimos doce meses, que en julio era 33,8%, ¿qué hizo en agosto?",
+  "fecha": "2026-09-25",
+  "pregunta": "En el primer semestre de 2026 la pobreza fue 32,3%, contra 28,2% en el segundo semestre de 2025. En esos seis meses, el ingreso por persona de los hogares subió 11,5%. ¿Qué explica, sobre todo, que haya más pobres?",
   "opciones": [
-    "Bajó un poco, a 33,5%: el mes nuevo (1,7%) reemplazó en la cuenta a uno algo más alto (1,9%)",
-    "Bajó a 1,7%, porque la inflación de agosto fue la más baja en catorce meses",
-    "Subió, porque los precios siguieron aumentando en agosto"
+    "Que la canasta que marca la línea de pobreza subió más que los ingresos: 19,6%, y más hogares quedaron por debajo",
+    "Que subió la desocupación: la pobreza solo crece cuando se pierden empleos",
+    "Que los ingresos bajaron: si hay más pobres, es porque la gente cobra menos pesos que antes"
   ],
   "correcta": 0,
-  "explicacion": "La inflación interanual compara los precios de hoy con los de doce meses atrás. Cada mes entra un dato nuevo y sale el del mismo mes del año anterior: en agosto entró 1,7% y salió 1,9%, así que la interanual bajó apenas, de 33,8% a 33,5% (1,338 × 1,017 / 1,019 = 1,335). Confundir la inflación de un mes con la de un año es el error más común al leer estos números. Y que los precios sigan subiendo no hace subir la interanual: para eso, el mes nuevo tendría que ser más alto que el que sale.",
-  "nota": "articulos/2026-09-23-inflacion-agosto-nucleo-no-bajo.html",
-  "leccion": "lecciones/inflacion-bolsillo.html"
+  "explicacion": "El INDEC cuenta como pobre a un hogar cuyo ingreso no alcanza la canasta básica total que le corresponde. Por eso lo que importa es la carrera entre las dos: entre un semestre y otro los ingresos subieron 11,5% en pesos, no bajaron, pero la canasta subió 19,6% y más hogares quedaron debajo de la línea. El desempleo influye, pero no es el único camino: se puede tener trabajo y ser pobre. Contra el primer semestre de 2025 la carrera fue pareja (canasta 33,1%, ingresos 31,3%), y por eso la pobreza de hoy se parece a la de hace un año (31,6%).",
+  "nota": "articulos/2026-09-24-pobreza-primer-semestre-2026-mayores-65.html",
+  "leccion": ""
 }
