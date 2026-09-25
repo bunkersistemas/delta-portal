@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T20:50:57-03:00",
+    "actualizado": "2026-09-24T21:41:30-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91",
+      "titulo": "Presupuesto 2027: la caja del Tesoro suma $14,8 billones. El 162% de suba se mide contra lo que quedó después de repartirla; contra la ley de 2026, crece 19,4%",
+      "bajada": "La Jurisdicción 91, \"Obligaciones a Cargo del Tesoro\", no es un ministerio: es una partida que administra la Secretaría de Hacienda. La ley de 2026 le asignó $12,4 billones y el Gobierno estima que cerrará el año con $5,6 billones: más de la mitad salió de ahí durante el año. El proyecto 2027 la vuelve a llenar. Contra la ley de 2026 crece 19,4%, mientras el gasto total crece 36,5%.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$14,8 billones",
+      "numero_label": "Jurisdicción 91 (Obligaciones a Cargo del Tesoro) en el proyecto de Presupuesto 2027: +19,4% contra la ley de 2026, +162,6% contra el cierre estimado de 2026",
+      "fecha": "2026-09-24",
+      "hora": "22:00",
+      "archivo": "articulos/2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor",
       "titulo": "Cuánto te devuelven por los cortes de luz: Edesur le debe en promedio $29.143 a cada uno de 715.417 usuarios por el último verano",
