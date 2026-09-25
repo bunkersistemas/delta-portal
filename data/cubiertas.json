@@ -1158,6 +1158,21 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-cobra-directorio-irsa"
+    },
+    {
+      "tema": "cuánto paga Apple a los usuarios argentinos de iPhone / acuerdo ADELCO c/ Apple Inc. (Expte. 285/2020, Juzgado Nacional en lo Comercial 21, Sec. 42), homologado el 11/08/2026 y aclarado el 24/08/2026: fondo global de US$3.000.000 con tope de US$40 por dispositivo (alcanza para 75.000 equipos al tope)",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 09:30. Pregunta de plata detrás de la noticia de infobae (portada, 25/09), iprofesional y medios regionales. Fuente primaria leída: edicto del Boletín Oficial, segunda sección, aviso A1530953 (e. 23/09/2026 N° 69178/26 v. 25/09/2026), con el texto completo del acuerdo: US$3.000.000, tope US$40 por Dispositivo Elegible, modelos iPhone 6/6 Plus/6s/6s Plus/SE/7/7 Plus, usuarios residentes al 04/02/2020, seis meses para reclamar desde la Fecha de Implementación en acuerdosmartphones.com.ar, 30 días hábiles para excluirse. Comparación reunida: EE.UU. (In re Apple Inc. Device Performance Litigation, fondo US$310-500 M, US$92,17 por equipo según Cotchett, Pitre & McCarthy) y Chile (ODECU, 84.167 UF, tope 1,25 UF por equipo, más de 150.000 inscriptos, La Tercera). MOTIVO DEL FRENO: la cifra ancla tiene una sola fuente primaria (el edicto); toda la prensa lo reproduce, el sitio del acuerdo todavía no publica los términos (solo un formulario vacío), ADELCO no lo publicó en adelco.org y la resolución del juzgado no es accesible. No es una estadística oficial, así que no aplica el camino de §3. Si se retoma: cuando el sitio del acuerdo publique el texto o la Fecha de Implementación, o ADELCO o Apple publiquen un comunicado propio.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla en una sola fuente primaria (edicto del Boletín Oficial), sin segunda fuente independiente"
+    },
+    {
+      "tema": "dólar contra el techo de la banda cambiaria / 24/09/2026: mayorista A3500 $1.518,7415 (máximo de 2026) contra techo BCRA $1.911,44: tendría que subir 25,9% (4,0% el 02/01/2026, con techo $1.529,03 y dólar $1.469,613); techo +25,0% y dólar +3,3% en 2026; máximo del año 26,1% el 22/09; piso $727,36; techo del 30/10 $1.950,97 (28,5% arriba del dólar del 24/09)",
+      "angulo": "Corrida programada del 25/09/2026 09:30. Pregunta de plata (a cuánto puede llegar el dólar / cuánto le falta al techo) detrás del máximo nominal del año (La Nación, 24/09: $1.540 minorista, $1.519,50 mayorista) y de la crítica al esquema cambiario (infobae, 25/09). Retoma con ángulo nuevo el dólar descartado el 24/09 (récord nominal sin historia): acá el eje es la distancia al techo, que no había salido. Camino de estadística oficial: (1) serie-completa-bandas-cambiarias.xlsx y com3500.xls del BCRA; (2) recálculo del techo con el IPC del INDEC T-2 prorrateado por día calendario: 1.879,92 x 1,021^(24/30) = 1.911,44; ajustes de fin de mes feb-sep coinciden con IPC dic-jul (con el corrimiento de los meses que cierran en fin de semana); (3) contraste Banco Nación divisa venta $1.519,50 (24/09 17:02, +0,05%) y cierre mayorista $1.519,50 en La Nación. IPC dic-25 a ago-26 +21,3% (10.121,3715 -> 12.276,766). Sin comparación con 2025 (otra regla de ajuste y la serie oficial arranca el 02/01/2026). El balance cambiario de agosto del BCRA (calendario de hoy) todavía no estaba publicado a las 09:30.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda"
     }
   ]
 }

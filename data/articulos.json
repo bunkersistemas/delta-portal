@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T08:51:50-03:00",
+    "actualizado": "2026-09-25T09:47:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda",
+      "titulo": "¿Cuánto tiene que subir el dólar para tocar el techo de la banda? 25,9%: en enero le alcanzaba con 4%",
+      "bajada": "El techo de la banda cambiaria se mueve con la inflación: subió 25% en 2026, hasta $1.911,44 el 24 de septiembre. El dólar mayorista subió 3,3%, hasta $1.518,74, su valor más alto del año. Por eso, aun en su máximo, está más lejos del techo que en cualquier cierre de mes de 2026. En octubre el techo sube otro 1,7%.",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "25,9%",
+      "numero_label": "lo que tendría que subir el dólar mayorista ($1.518,74, Com. A 3500, 24/09/2026) para tocar el techo de la banda cambiaria del BCRA ($1.911,44 ese día)",
+      "fecha": "2026-09-25",
+      "hora": "09:30",
+      "archivo": "articulos/2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-09-25-cuanto-cobra-directorio-irsa",
       "titulo": "¿Cuánto cobra el directorio de IRSA? $24.293 millones por un año, $4.589 millones por encima del límite del 5% de la ganancia",

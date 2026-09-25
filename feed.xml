@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 25 Sep 2026 08:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 09:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Cuánto tiene que subir el dólar para tocar el techo de la banda? 25,9%: en enero le alcanzaba con 4%</title>
+      <link>https://coninteres.com/articulos/2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda.html</guid>
+      <pubDate>Fri, 25 Sep 2026 09:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>El techo de la banda cambiaria se mueve con la inflación: subió 25% en 2026, hasta $1.911,44 el 24 de septiembre. El dólar mayorista subió 3,3%, hasta $1.518,74, su valor más alto del año. Por eso, aun en su máximo, está más lejos del techo que en cualquier cierre de mes de 2026. En octubre el techo sube otro 1,7%.</description>
+      <ci:numero>25,9%</ci:numero>
+      <ci:numeroEtiqueta>lo que tendría que subir el dólar mayorista ($1.518,74, Com. A 3500, 24/09/2026) para tocar el techo de la banda cambiaria del BCRA ($1.911,44 ese día)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda.png" length="72977" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>¿Cuánto cobra el directorio de IRSA? $24.293 millones por un año, $4.589 millones por encima del límite del 5% de la ganancia</title>
       <link>https://coninteres.com/articulos/2026-09-25-cuanto-cobra-directorio-irsa.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>perdió en un año el poder de compra del sueldo privado registrado, aunque en julio le ganó a la inflación</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-23-sueldo-blanco-gana-por-una-decima.png" length="63080" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-23-sueldo-blanco-gana-por-una-decima.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Criar a un chico de 6 a 12 años cuesta $713.070 por mes, y la parte que menos sube es el sueldo de quien lo cuida</title>
-      <link>https://coninteres.com/articulos/2026-09-14-canasta-crianza-cuidado-salario.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-14-canasta-crianza-cuidado-salario.html</guid>
-      <pubDate>Mon, 14 Sep 2026 21:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El INDEC publicó hoy la canasta de crianza de agosto. Adentro hay dos números que van a velocidades distintas: los bienes y servicios subieron 38,3% en un año, más que los precios; el cuidado, que el organismo valora con el sueldo de las trabajadoras de casas particulares, 24,9%. Por eso el total sube menos que la canasta básica. Y el sueldo de escala de una cuidadora a tiempo completo ya no alcanza la canasta básica de un adulto.</description>
-      <ci:numero>$713.070</ci:numero>
-      <ci:numeroEtiqueta>por mes costó criar a un chico de 6 a 12 años en agosto, según el INDEC: bienes más cuidado</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-14-canasta-crianza-cuidado-salario.png" length="66908" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-14-canasta-crianza-cuidado-salario.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
