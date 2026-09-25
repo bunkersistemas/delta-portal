@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T09:47:40-03:00",
+    "actualizado": "2026-09-25T11:43:28-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-empleada-domestica-sueldo-octubre",
+      "titulo": "Una empleada doméstica cobra $498.582 por mes desde octubre: 33,1% más que hace un año, casi lo mismo que subieron los precios",
+      "bajada": "La escala oficial de octubre fija $498.582,06 por mes para el personal de tareas generales con retiro y $4.064,08 por hora. Contra octubre de 2025 son 33,1% más. Pero la suba llegó tarde: en agosto, con la suma fija incluida, el sueldo mínimo compraba 4,2% menos que un año antes.",
+      "titulo_busqueda": "¿Cuánto cobra una empleada doméstica en octubre de 2026? $498.582 por mes y $4.064,08 la hora",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$498.582",
+      "numero_label": "sueldo mínimo mensual de una trabajadora de casas particulares de tareas generales con retiro desde octubre de 2026 (Resolución 6/2026 de la CNTCP); en octubre de 2025, $374.541,36",
+      "fecha": "2026-09-25",
+      "hora": "11:30",
+      "archivo": "articulos/2026-09-25-empleada-domestica-sueldo-octubre.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda",
       "titulo": "El dólar tiene que subir 25,9% para tocar el techo de la banda: en enero le alcanzaba con 4%",
