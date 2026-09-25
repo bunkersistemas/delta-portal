@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T11:43:28-03:00",
+    "actualizado": "2026-09-25T12:42:29-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-cuanto-cobra-albanil-uocra-septiembre",
+      "titulo": "Un oficial de la construcción cobra $6.468 la hora desde septiembre: en el año a agosto, su sueldo le ganó 5,2% a la inflación",
+      "bajada": "El acuerdo de la UOCRA con las cámaras de la construcción fija para septiembre $6.468 por hora para un oficial y $5.502 para un ayudante, en la zona A. Con la jornada completa de 44 horas semanales, un oficial cobra $1,23 millones de básico por mes. Entre agosto de 2025 y agosto de 2026 su ingreso subió 40,4%, con la suma no remunerativa de entonces incluida; los precios, 33,5%.",
+      "titulo_busqueda": "¿Cuánto cobra un albañil en septiembre de 2026? $6.468 la hora un oficial de la UOCRA",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$6.468",
+      "numero_label": "por hora cobra un oficial de la construcción (UOCRA, zona A) desde septiembre de 2026",
+      "fecha": "2026-09-25",
+      "hora": "12:30",
+      "archivo": "articulos/2026-09-25-cuanto-cobra-albanil-uocra-septiembre.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-empleada-domestica-sueldo-octubre",
       "titulo": "Una empleada doméstica cobra $498.582 por mes desde octubre: 33,1% más que hace un año, casi lo mismo que subieron los precios",
