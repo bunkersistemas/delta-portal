@@ -1173,6 +1173,38 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda"
+    },
+    {
+      "tema": "cuánto cuesta llenar el tanque después de la suba de Shell, Axion y Puma (hasta 5%, 24-25/09/2026) / precio de la nafta súper por provincia y por bandera con el padrón oficial de precios en surtidor (Res. 314/2016)",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 10:30. Pregunta de plata detrás de la noticia más repetida del día (infobae dos notas, lanacion, cronista, pagina12). Fuente primaria leída: Secretaría de Energía, 'Precios vigentes en surtidor - Resolución 314/2016' (datos.energia.gob.ar, recurso actualizado el 25/09/2026 13:00 UTC; 36.667 filas). MOTIVO DEL FRENO: el padrón todavía no refleja la suba: de 4.164 registros diurnos de nafta súper, solo 33 tienen vigencia del 24/09 en adelante (Axion 11, YPF 6, Shell 5), y el archivo 'vigente' arrastra precios viejos (YPF en CABA: mediana $1.186 en 75 registros, el más reciente del 01/09/2026; las blancas de CABA con última vigencia en septiembre de 2025). No hay forma de dar 'cuánto cuesta hoy' desde un documento oficial. Si se retoma: dentro de una o dos semanas, filtrando vigencias posteriores a la suba, o con los cuadros de precios que publiquen las propias petroleras.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "el padrón oficial de precios en surtidor no refleja todavía la suba y arrastra precios vencidos"
+    },
+    {
+      "tema": "cuánto impuesto paga cada litro de nafta y cuánto subiría el 1/10/2026 si se aplica lo postergado / impuestos sobre los combustibles líquidos y al dióxido de carbono (Ley 23.966, Decretos 617/2025, 693/2026 y 829/2026)",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 10:30. Pregunta de plata detrás de la suba de la nafta y de la postergación hasta el 1/10 del Decreto 829/2026 (BO 31/08/2026). Documentos leídos: Decreto 829/2026 (solo corre fechas, sin montos), Decreto 693/2026 (BO 31/07/2026: incrementos de agosto de $10,572 ICL y $0,648 IDC por litro de nafta; $9,511, $5,150 diferencial y $1,084 IDC por litro de gasoil) y el cuadro de ARCA de montos actualizados (biblioteca.arca.gob.ar getAdjunto i=40106), que es de junio de 2025 (nafta $238,061 + $14,583 plenos). MOTIVO DEL FRENO: ningún documento oficial da el monto que se cobra hoy por litro: los decretos fijan solo incrementos sobre una cadena que arranca en 2024 (Decreto 466/2024 y los incisos agregados al 617/2025 mes a mes), y ARCA publica el monto pleno, no el aplicado. Reconstruir la cadena da una cifra propia sin segunda fuente. Si se retoma: cuando ARCA publique el cuadro de montos de octubre de 2026 o un decreto fije montos absolutos.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "el impuesto aplicado por litro no figura en ningún documento oficial; solo incrementos encadenados"
+    },
+    {
+      "tema": "Manisur S.A. (Santa Eufemia, Córdoba) pidió su propia quiebra / cuánto debe: pasivo de $20.337 M contra activo de $15.472 M según la prensa",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 10:30. Tema en infobae (portada, 25/09), iprofesional y pagina12 (24/09). MOTIVO DEL FRENO: las cifras solo están en los medios (pagina12 no cita documento, juzgado ni expediente; la fuente sería la presentación ante el juzgado de La Carlota, que no es pública). Manisur no es emisora ante la CNV, así que no hay balance ni hecho relevante presentado. Línea roja de 2 quater: sin documento de la propia empresa o de un regulador no hay cifra ancla. Si se retoma: si se publica el edicto de quiebra en el Boletín Oficial de Córdoba con el pasivo, o la sentencia.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifras solo en la prensa; ni expediente público ni documentos ante la CNV"
+    },
+    {
+      "tema": "Surcos S.A., concurso preventivo / prórroga del período de exclusividad hasta el 08/04/2027 (hecho relevante CNV del 23/09/2026): cuánto les debe a sus acreedores",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 10:30. Candidata de EMPRESAS del bloque de agenda.py (hoy ya se publicaron notas de EMPRESAS, así que no regía el cupo). Documento leído en la CNV (adjunto 'HR - Concurso - Periodo de Exclusividad - Audiencia Informativa.pdf', vía aif2.cnv.gov.ar/api/ValetKeyProvider/GetPublicValetKey + blob.cnv.gov.ar DownloadBlob): el juzgado civil y comercial de 2ª nominación de Santa Fe (CUIJ 21-02050877-6) prorrogó el 22/09/2026 por 90 días hábiles el período de exclusividad (vence el 08/04/2027) y fijó la audiencia informativa para el 31/03/2027. MOTIVO DEL FRENO: el hecho relevante no trae ningún monto, y el último balance presentado ante la CNV cierra el 31/05/2025 (presentado el 25/03/2026): una deuda de hace 16 meses no contesta cuánto debe hoy. Tampoco está en ninguna portada. Si se retoma: cuando presente un balance reciente o la propuesta de acuerdo con quita y plazos.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "hecho relevante sin montos y último balance al 31/05/2025"
     }
   ]
 }
