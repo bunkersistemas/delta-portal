@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T05:56:35-03:00",
+    "actualizado": "2026-09-25T06:43:16-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-cuanto-cuesta-sacar-barril-vaca-muerta",
+      "titulo": "¿Cuánto cuesta sacar un barril de Vaca Muerta? US$4,5 a Vista: de los US$81 que facturó por cada uno, el pozo se llevó US$19 y el Estado, US$21",
+      "bajada": "Según su balance del segundo trimestre de 2026, a Vista le costó US$4,5 sacar cada barril equivalente de sus pozos, casi todos en Vaca Muerta. Facturó US$81,3 por barril: la amortización de los pozos se llevó US$19,0, regalías, retenciones y ganancias US$21,4, y a la empresa le quedaron US$22,7 de ganancia neta. A YPF un barril convencional le cuesta US$23,6.",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$4,5",
+      "numero_label": "costo de extracción (lifting cost) por barril equivalente de Vista en el 2º trimestre de 2026, contra US$81,3 de ingresos por barril",
+      "fecha": "2026-09-25",
+      "hora": "07:30",
+      "archivo": "articulos/2026-09-25-cuanto-cuesta-sacar-barril-vaca-muerta.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 8 min"
+    },
     {
       "id": "2026-09-25-letras-intransferibles-bcra-tesoro",
       "titulo": "¿Cuánto le debe el Tesoro al Banco Central en letras intransferibles? US$29.080 millones, menos de la mitad que en abril de 2025",
