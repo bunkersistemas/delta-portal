@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 25 Sep 2026 01:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 02:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Cuánto cobra un campeón suramericano? $699.840 por mes de beca del Estado: con el aumento de septiembre, compra 19% menos que hace un año</title>
+      <link>https://coninteres.com/articulos/2026-09-25-cuanto-cobra-campeon-suramericano-beca.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-cuanto-cobra-campeon-suramericano-beca.html</guid>
+      <pubDate>Fri, 25 Sep 2026 03:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>DEPORTES</category>
+      <description>Mientras terminan los Juegos de Santa Fe, el Boletín Oficial dice cuánto paga la Secretaría de Deportes por una medalla suramericana: $699.840 por mes a un oro individual, $583.200 a un bronce y $326.592 a un juvenil. En septiembre cobraron 652 atletas y 329 técnicos, $525,8 millones en total. La beca de oro estuvo trece meses congelada en $648.000 y ahora subió 8%; los precios subieron 33,5% en el año a agosto.</description>
+      <ci:numero>$699.840</ci:numero>
+      <ci:numeroEtiqueta>beca mensual del Estado nacional para un oro individual en los últimos Juegos Suramericanos, desde septiembre de 2026 (Resolución 139/2026); compra 19,1% menos que los $648.000 de agosto de 2025</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-campeon-suramericano-beca.png" length="89579" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-campeon-suramericano-beca.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>¿Cuánto cobra un petrolero en Vaca Muerta? $8,79 millones brutos por mes en promedio: cuatro veces el sueldo privado del país</title>
       <link>https://coninteres.com/articulos/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>motos patentadas por cada auto 0 km en agosto de 2026, según ACARA. En agosto de 2025 la relación era de 1,00: 54.560 motos contra 54.664 autos</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-05-motos-autos-relacion-agosto.png" length="55074" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-05-motos-autos-relacion-agosto.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El aumento más grande de septiembre es 35,52% y el más chico 1,8%. Comparar los dos es un error: uno es de un año</title>
-      <link>https://coninteres.com/articulos/2026-09-05-aumentos-septiembre-mensual-anual.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-05-aumentos-septiembre-mensual-anual.html</guid>
-      <pubDate>Sat, 05 Sep 2026 16:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Las listas de aumentos que circulan a fin de mes ponen todos los porcentajes en la misma columna, y ahí se arma el malentendido. El 35,52% de los alquileres viejos es un ajuste anual; el 6,22% de los alquileres nuevos es trimestral; todo lo demás —transporte, prepagas, colegios, empleadas domésticas— es mensual. Llevados todos a la misma vara, el orden se da vuelta por completo: el aumento más fuerte de septiembre no es el del alquiler, es el del tren, que sube 14,29% en un solo mes.</description>
-      <ci:numero>35,52%</ci:numero>
-      <ci:numeroEtiqueta>el ajuste de septiembre para los alquileres firmados bajo la ley 27.551, hoy derogada. Es anual: equivale a 2,57% por mes, y queda en el medio de la tabla cuando se lo compara con el resto</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-05-aumentos-septiembre-mensual-anual.png" length="70130" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-05-aumentos-septiembre-mensual-anual.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
