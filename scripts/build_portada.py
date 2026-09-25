@@ -55,6 +55,7 @@ def actualizado_hace(iso):
 
 SEC_COLOR = {
     "ECONOMÍA": "#0E7C86", "ECONOMÍA PROVINCIAL": "#C4701F", "MERCADOS": "#0A5C63", "MUNDO": "#7A5CC4",
+    "EMPRESAS": "#2F5DA8",
     # compat / fallback
     "PLATA": "#0E7C86", "MÁQUINAS": "#C4701F", "CIENCIA": "#2E8B6F",
     "EL MUNDO EN NÚMEROS": "#7A5CC4", "DEPORTES": "#C0392B", "NEGOCIOS": "#0A5C63",
@@ -99,7 +100,8 @@ TU_PLATA_KW = [
 GRUPOS = [
     {"id": "tu-plata", "label": "Tu plata", "sub": "sueldo · precios · ahorro · crédito", "color": "#0E7C86"},
     {"id": "el-pais", "label": "El país", "sub": "actividad · empleo · cuentas públicas · energía", "color": "#C4701F"},
-    {"id": "los-mercados", "label": "Los mercados", "sub": "dólar · bonos · empresas · inversión", "color": "#0A5C63"},
+    {"id": "empresas", "label": "Empresas", "sub": "balances · negocios · quién gana y quién pierde", "color": "#2F5DA8"},
+    {"id": "los-mercados", "label": "Los mercados", "sub": "dólar · bonos · tasas · inversión", "color": "#0A5C63"},
     {"id": "tu-provincia", "label": "Tu provincia", "sub": "las economías del interior, en números", "color": "#2E8B6F"},
     {"id": "el-mundo", "label": "El mundo", "sub": "lo global que toca a la Argentina", "color": "#7A5CC4"},
     {"id": "deportes", "label": "Deportes", "sub": "la economía del deporte, en números", "color": "#C0392B"},
@@ -118,6 +120,8 @@ def url_seccion(gid, pag=1):
 
 def grupo_de(a):
     s = a["seccion"]
+    if s == "EMPRESAS":
+        return "empresas"
     if s == "MERCADOS":
         return "los-mercados"
     if s == "ECONOMÍA PROVINCIAL":

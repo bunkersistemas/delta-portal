@@ -186,6 +186,13 @@ data/                   manifiestos JSON - la fuente de verdad
                           con fecha y hora oficiales. GENERADO por
                           scripts/build_calendario.py desde los calendarios de
                           difusion de cada organismo. Ninguna fecha se estima.
+  empresas.json           LO QUE PRESENTARON LAS EMPRESAS ante la CNV (hechos
+                          relevantes) y la SEC (argentinas que cotizan en
+                          EE.UU.), mas las fechas de balance que ellas mismas
+                          anunciaron. GENERADO por scripts/build_empresas.py,
+                          que ACUMULA: la pagina de la CNV muestra solo los
+                          ultimos 50. Es la segunda agenda, desde el
+                          25/09/2026 (NEWSROOM.md 2 quater).
   eventos.json            anotaciones de las fichas de indicador
   ipc-divisiones.json     las DOCE DIVISIONES del IPC nacional (indice mensual)
                           mas sus ponderadores nacionales. GENERADO por
@@ -203,7 +210,9 @@ scripts/                build_portada.py, aprobar.py, rechazar.py, ...
                           archivo: python scripts/build_tarjetas.py --forzar
   build_calendario.py     rehace data/calendario.json desde INDEC y BCRA
   agenda.py               que sale en los proximos dias + nuestra ultima nota
-                          de esa misma serie. Es el paso 0 de toda corrida.
+                          de esa misma serie, y el bloque EMPRESAS. Es el
+                          paso 0 de toda corrida.
+  build_empresas.py       rehace data/empresas.json desde la CNV y la SEC
 negocio/                tablero de crecimiento y metricas
 ```
 

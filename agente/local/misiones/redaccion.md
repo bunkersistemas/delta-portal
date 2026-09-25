@@ -17,6 +17,11 @@ en todo lo que sea criterio. Esta mision solo ordena los pasos.
      obvio: fuente primaria garantizada y serie previa para comparar.
      Si el calendario avisa que tiene mas de 20 dias, rehacelo antes:
      `python scripts/build_calendario.py`.
+   - **Las empresas (desde el 25/09/2026):** antes de agenda.py corre
+     `python scripts/build_empresas.py`. El bloque EMPRESAS muestra lo que las
+     empresas presentaron ante la CNV y la SEC y las fechas de balance que
+     anunciaron. Si dice "HOY NO HAY NOTA DE EMPRESAS", aplica el cupo de
+     NEWSROOM.md seccion 2 quater.
    - **Los pedidos de lectores (SUSPENDIDO, 01/09/2026):** el canal esta
      cerrado hasta que haya una casilla propia del medio o un formulario, asi
      que por ahora esta seccion no aparece. Cuando se reactive:
@@ -50,9 +55,13 @@ sigue:
    espectaculos, sociedad, no solo economia-, que pregunta de plata se hace la
    gente y buscaria en Google ("cuanto cobra", "cuanto cuesta", "cuanto paga
    el Estado", "cuanto sale") que se pueda contestar con documentos oficiales.
-   Minimo 2 candidatas de este tipo. Salida: 8-12 candidatas, marcando cuales
-   vienen del calendario, en cuantas portadas aparece cada una y cuales son
-   "pregunta de plata".
+   Minimo 2 candidatas de este tipo.
+   **Ademas, las empresas** (desde el 25/09/2026): minimo 2 candidatas del
+   bloque EMPRESAS de agenda.py cuando tiene material. El tema sale de la
+   linea de la CNV o la SEC; la nota, del documento enlazado.
+   Salida: 8-12 candidatas, marcando cuales vienen del calendario, cuales de
+   empresas, en cuantas portadas aparece cada una y cuales son "pregunta de
+   plata".
 2. **Editor** - elige UNA. Criterios en orden:
    1. **Una pregunta que la gente busca y nadie contesta con datos.** Es lo
       que trae lectores: en los 30 dias al 24/09/2026 el 61% de las visitas
@@ -67,6 +76,12 @@ sigue:
    El dato del dia del calendario sigue siendo candidato, pero solo gana si
    trae un angulo que los otros medios no tienen (un cruce, una serie larga,
    una comparacion propia). La vara de verificacion no cambia para ningun tipo.
+   **Cupo de empresas:** si hoy no se publico ninguna nota de la seccion
+   EMPRESAS y hay una candidata de empresas con documento primario, compite
+   con ventaja: descartarla exige una razon, escrita en el motivo. Una nota
+   de empresas sigue las lineas rojas de NEWSROOM.md 2 quater (solo cifras de
+   documentos de la propia empresa o un regulador; nunca un juicio sobre la
+   accion) y usa el formato "Anatomia de un balance" cuando es un balance.
 3. **Investigador** - va a las fuentes PRIMARIAS (INDEC, BCRA, Ministerio de
    Economia, Boletin Oficial, balances, bases internacionales), no a la nota que
    reboto el dato. Arma la ficha: cada numero con su URL exacta, su fecha, su

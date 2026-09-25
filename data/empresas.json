@@ -1,0 +1,222 @@
+{
+  "generado": "2026-09-25T00:33",
+  "fuentes": [
+    "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
+    "https://data.sec.gov/submissions/"
+  ],
+  "incompleto": [],
+  "hechos": [
+    {
+      "id": "cnv-3573191",
+      "fuente": "CNV",
+      "fecha": "2026-09-24T19:00",
+      "entidad": "MOLINOS AGRO S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - MOLINOS AGRO - HECHO RELEVANTE - INVERSIÓN CONJUNTA MOA - ACA - ACUERDOS DE IMPLEMENTACIÓN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A1D95102-8F1B-4B1A-AD4B-A96C916F04D7"
+    },
+    {
+      "id": "cnv-3573114",
+      "fuente": "CNV",
+      "fecha": "2026-09-24T17:31",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (24 09 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6835BC5D-1EBC-4B44-9712-B1F2A7E84D36"
+    },
+    {
+      "id": "cnv-3572979",
+      "fuente": "CNV",
+      "fecha": "2026-09-24T14:41",
+      "entidad": "PECOM SERVICIOS ENERGIA S.A.U",
+      "tipo": "judicial",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - PECOM - HR - SENTENCIA CASO SKANSKA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1C66FC7B-8597-4802-9EE9-DDE1A019F00E"
+    },
+    {
+      "id": "cnv-3572700",
+      "fuente": "CNV",
+      "fecha": "2026-09-23T15:48",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5F5FF266-A6A9-4075-A0A7-701C4E230D52"
+    },
+    {
+      "id": "cnv-3572465",
+      "fuente": "CNV",
+      "fecha": "2026-09-23T08:29",
+      "entidad": "SURCOS SOCIEDAD ANONIMA",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN JUDICIAL - INFORMACIÓN JUDICIAL - HECHO RELEVANTE – CONCURSO PREVENTIVO - EVOLUCIÓN DEL PROCESO CONCURSAL.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2B88D297-CFE7-483A-A3AE-CBB22109E0CA"
+    },
+    {
+      "id": "sec-0001193125-26-399609",
+      "fuente": "SEC",
+      "fecha": "2026-09-23",
+      "entidad": "Vista Energy",
+      "ticker": "VIST",
+      "tipo": "balance",
+      "descripcion": "6-K Advance Notice of 3rd Quarter of 2026 Results Mexico City, September 23, 2026 — Vista Energy, S.A.B. de C.V. (“Vista” or the “Company”) (NYSE: VIST; BMV: VISTA) announced today tha",
+      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526399609/d27684d6k.htm"
+    },
+    {
+      "id": "cnv-3572435",
+      "fuente": "CNV",
+      "fecha": "2026-09-22T18:25",
+      "entidad": "IRSA INVERSIONES Y REPRESENTACIONES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE. TRANSACCIÓN CON PARTES RELACIONADAS.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E74EBF4D-D201-4278-B92A-53D4C98768BC"
+    },
+    {
+      "id": "cnv-3571939",
+      "fuente": "CNV",
+      "fecha": "2026-09-21T16:13",
+      "entidad": "MERCADO ARGENTINO DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE — ART. 3 INC. 35 A), TÍTULO XII NORMAS CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/714B441D-E280-4296-A474-8D7BDA50BDF7"
+    },
+    {
+      "id": "cnv-3571768",
+      "fuente": "CNV",
+      "fecha": "2026-09-21T12:14",
+      "entidad": "CENTRAL TERMICA ROCA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - GMSA Y CTR GERENTE GENERAL",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/515BA8BF-4F5D-4C68-9889-CF927A28D50A"
+    },
+    {
+      "id": "cnv-3571767",
+      "fuente": "CNV",
+      "fecha": "2026-09-21T12:13",
+      "entidad": "GENERACION MEDITERRANEA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - GMSA Y CTR GERENTE GENERAL",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A18A7167-88C9-4828-884A-99CFEE38B47E"
+    },
+    {
+      "id": "cnv-3571627",
+      "fuente": "CNV",
+      "fecha": "2026-09-21T09:56",
+      "entidad": "YPF S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN FINANCIERA - INFORME DE RECOMPRA DE OBLIGACIONES NEGOCIABLES",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/940DC331-A934-4BB2-9223-9D2E76EA15A4"
+    },
+    {
+      "id": "sec-0001711375-26-000046",
+      "fuente": "SEC",
+      "fecha": "2026-09-21",
+      "entidad": "Loma Negra",
+      "ticker": "LOMA",
+      "tipo": "balance",
+      "descripcion": "6-K EX-1 2 financialstatements2q26e.htm EX-1 financialstatements2q26e LOMA NEGRA COMPAÑÍA INDUSTRIAL ARGENTINA SOCIEDAD ANÓNIMA CONSOLIDATED CONDENSED INTERIM FINANCIAL STATEMENTS AS O",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711375/000171137526000046/consolidatedcondensedinter.htm"
+    },
+    {
+      "id": "sec-0001140361-26-036495",
+      "fuente": "SEC",
+      "fecha": "2026-09-14",
+      "entidad": "Mercado Libre",
+      "ticker": "MELI",
+      "tipo": "hecho",
+      "descripcion": "8-K otro hecho",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000114036126036495/ef20081942_8k.htm"
+    },
+    {
+      "id": "sec-0001140361-26-036136",
+      "fuente": "SEC",
+      "fecha": "2026-09-10",
+      "entidad": "Mercado Libre",
+      "ticker": "MELI",
+      "tipo": "hecho",
+      "descripcion": "8-K acuerdo relevante; comunicado",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000114036126036136/ef20081842_8k.htm"
+    },
+    {
+      "id": "sec-0001292814-26-004371",
+      "fuente": "SEC",
+      "fecha": "2026-08-27",
+      "entidad": "BBVA Argentina",
+      "ticker": "BBAR",
+      "tipo": "balance",
+      "descripcion": "6-K Financial Statements as of June 30, 2026 – Sect. 63 BYMA listing rules and regulations – Translation of a submission from Banco BBVA Argentina S.A to the CNV dated on August 27,",
+      "url": "https://www.sec.gov/Archives/edgar/data/913059/000129281426004371/bbar20260827_6k.htm"
+    },
+    {
+      "id": "sec-0001292814-26-004370",
+      "fuente": "SEC",
+      "fecha": "2026-08-27",
+      "entidad": "BBVA Argentina",
+      "ticker": "BBAR",
+      "tipo": "balance",
+      "descripcion": "6-K Banco BBVA Argentina S.A. reports consolidated second quarter earnings for fiscal year 2026. 2Q26 ConferenceCall Friday, August28, 2026 -12:00 p.m. Buenos Aires time –(11:00 a.m",
+      "url": "https://www.sec.gov/Archives/edgar/data/913059/000129281426004370/bbarpr2q26_6k.htm"
+    }
+  ],
+  "anuncios": [
+    {
+      "id": "sec-0001193125-26-399609-2026-10-28",
+      "fuente": "SEC",
+      "fecha": "2026-10-28",
+      "entidad": "Vista Energy",
+      "ticker": "VIST",
+      "frase": "ber 23, 2026 — Vista Energy, S.A.B. de C.V. (“Vista” or the “Company”) (NYSE: VIST; BMV: VISTA) announced today that it will release its consolidated financial statements for the third quarter of this year on Wednesday, October 28, 2026, after market closes. The Company will present the results through a webcast on",
+      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526399609/d27684d6k.htm",
+      "presentado": "2026-09-23"
+    },
+    {
+      "id": "sec-0001193125-26-399609-2026-10-29",
+      "fuente": "SEC",
+      "fecha": "2026-10-29",
+      "entidad": "Vista Energy",
+      "ticker": "VIST",
+      "frase": "oday that it will release its consolidated financial statements for the third quarter of this year on Wednesday, October 28, 2026, after market closes. The Company will present the results through a webcast on Thursday, October 29, 2026, at 8:00 am Mexico City time (10:00 am ET; 11:00 am BAT). The webcast will be a",
+      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526399609/d27684d6k.htm",
+      "presentado": "2026-09-23"
+    }
+  ],
+  "sec_vistos": {
+    "sec-0000933267-26-000053": "2026-08-31",
+    "sec-0000933267-26-000055": "2026-09-03",
+    "sec-0000933267-26-000057": "2026-09-09",
+    "sec-0000933267-26-000059": "2026-09-17",
+    "sec-0000933267-26-000061": "2026-09-23",
+    "sec-0000933267-26-000063": "2026-09-23",
+    "sec-0001034957-26-000057": "2026-08-27",
+    "sec-0001034957-26-000059": "2026-08-27",
+    "sec-0001034957-26-000061": "2026-08-28",
+    "sec-0001034957-26-000063": "2026-09-04",
+    "sec-0001034957-26-000065": "2026-09-08",
+    "sec-0001034957-26-000069": "2026-09-17",
+    "sec-0001104659-26-107037": "2026-09-11",
+    "sec-0001104659-26-108004": "2026-09-16",
+    "sec-0001104659-26-108115": "2026-09-16",
+    "sec-0001104659-26-109053": "2026-09-21",
+    "sec-0001114700-26-000075": "2026-09-02",
+    "sec-0001114700-26-000077": "2026-09-02",
+    "sec-0001114700-26-000080": "2026-09-10",
+    "sec-0001114700-26-000083": "2026-09-14",
+    "sec-0001193125-26-384346": "2026-09-08",
+    "sec-0001193125-26-398099": "2026-09-22",
+    "sec-0001292814-26-004406": "2026-09-01",
+    "sec-0001292814-26-004481": "2026-09-08",
+    "sec-0001292814-26-004483": "2026-09-08",
+    "sec-0001292814-26-004487": "2026-09-08",
+    "sec-0001292814-26-004489": "2026-09-08",
+    "sec-0001292814-26-004496": "2026-09-08",
+    "sec-0001292814-26-004516": "2026-09-10",
+    "sec-0001292814-26-004574": "2026-09-16",
+    "sec-0001292814-26-004576": "2026-09-16",
+    "sec-0001292814-26-004691": "2026-09-24",
+    "sec-0001554855-26-001964": "2026-09-08",
+    "sec-0001554855-26-001968": "2026-09-08",
+    "sec-0001554855-26-001992": "2026-09-10",
+    "sec-0001554855-26-002000": "2026-09-15",
+    "sec-0001554855-26-002013": "2026-09-17",
+    "sec-0001554855-26-002025": "2026-09-21"
+  }
+}

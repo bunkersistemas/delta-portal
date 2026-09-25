@@ -47,13 +47,14 @@ REGLA = (220, 214, 204)
 COLOR = {
     "tu-plata": (14, 124, 134),
     "el-pais": (196, 112, 31),
+    "empresas": (47, 93, 168),
     "los-mercados": (10, 92, 99),
     "tu-provincia": (46, 139, 111),
     "el-mundo": (122, 92, 196),
     "deportes": (192, 57, 43),
 }
 ETIQUETA = {
-    "tu-plata": "Tu plata", "el-pais": "El país", "los-mercados": "Los mercados",
+    "tu-plata": "Tu plata", "el-pais": "El país", "empresas": "Empresas", "los-mercados": "Los mercados",
     "tu-provincia": "Tu provincia", "el-mundo": "El mundo", "deportes": "Deportes",
 }
 

@@ -294,6 +294,65 @@ Tras tocar el manifiesto: `python scripts/build_pedidos.py` regenera
 
 ---
 
+## 2 quater. Empresas — la segunda agenda (desde el 25/09/2026)
+
+**Por qué existe.** Al 25/09/2026, de 136 notas publicadas 102 eran ECONOMÍA,
+17 MERCADOS y 10 ECONOMÍA PROVINCIAL; solo dos trataban de una empresa con
+nombre propio (Mercado Libre y el holding de Messi). No fue casualidad: el
+Rastreador arrancaba por el calendario del INDEC y el BCRA, y el Editor le daba
+ventaja a lo que venía de ahí. Lo macro ganaba siempre porque era lo único que
+llegaba con fuente primaria asegurada. Las empresas ahora tienen la suya.
+
+**La entrada.** `python scripts/build_empresas.py` y después `agenda.py`, que
+muestra el bloque EMPRESAS:
+- **Presentado en los últimos días** ante la **CNV** (hechos relevantes de
+  todas las empresas reguladas, no solo las que cotizan afuera) y la **SEC**
+  (las argentinas que cotizan en EE.UU.): balances, hechos relevantes,
+  financiamiento, concursos. La CNV muestra solo los últimos 50 en su página,
+  por eso el script acumula en `data/empresas.json`.
+- **Fechas de balance anunciadas por la propia empresa** en un documento
+  presentado. No se estima ninguna: si la empresa no escribió la fecha, no hay
+  anuncio.
+
+**El cupo.** Si hoy no se publicó ninguna nota de la sección EMPRESAS y hay una
+candidata del bloque con documento primario, entra a la lista **con la misma
+ventaja que el dato del calendario**: descartarla exige una razón, escrita en el
+motivo de la corrida. El Rastreador lleva **al menos dos candidatas de
+empresas** cuando el bloque tiene material. Una por día como meta, no como
+obligación: si ninguna pasa la verificación, no hay nota de empresas.
+
+**Qué es nota de empresas.** Cómo le fue a una empresa y por qué, contado
+desde sus papeles: un balance (cuánto facturó, cuánto ganó, qué cambió y qué lo
+explica), una compra o venta, una inversión anunciada con monto, un concurso
+preventivo, una emisión de deuda y a qué tasa. La pregunta de plata aplica
+igual: "¿cuánto gana YPF por cada litro que vende?" le gana a "YPF presentó su
+balance".
+
+**Formato: Anatomía de un balance.** El que ya funcionó con Mercado Libre
+(facturó más que nunca y ganó menos): ① el número que sorprende; ② qué
+presentó la empresa y cuándo; ③ el mismo número un año antes y, si existe, el
+de su par más cercano; ④ de qué renglón del balance sale cada cifra; ⑤ qué
+explica la diferencia, con las palabras de la propia empresa atribuidas; ⑥ el
+documento enlazado. El manifiesto lleva `"seccion": "EMPRESAS"` y
+`"formato": "Anatomía de un balance"`.
+
+**Líneas rojas propias de una nota sobre una empresa** (se suman a §2 bis):
+1. **Solo cifras de documentos que presentó la propia empresa** (balance,
+   hecho relevante, CNV, SEC, registro público) o un regulador. Lo que dicen
+   analistas o medios sobre la empresa no es fuente de la cifra ancla.
+2. **Nunca un juicio sobre la acción o el bono**: ni "barata", ni "cara", ni
+   precio objetivo, ni "conviene". Se cuenta el negocio, no la inversión
+   (§2 bis, regla 6).
+3. **Las cifras en la moneda y el período en que la empresa las presentó.** Si
+   se convierten o se ajustan por inflación, se dice cómo y con qué tipo de
+   cambio o índice. Balances argentinos en moneda homogénea: se aclara.
+4. **Resultado no es caja.** Si la nota habla de ganancia, dice si es
+   operativa o neta; "ganó" sin apellido no va.
+5. **Un concurso o una sentencia se cuentan desde el expediente o el hecho
+   relevante**, con la palabra exacta ("concurso preventivo", no "quiebra").
+
+---
+
 ## 3. Protocolo de verificación (fact-check)
 
 El Verificador es lo que separa a Con Interés de un generador de texto. Reglas:
@@ -377,8 +436,8 @@ publicar se mueve a `articulos` en `data/articulos.json`):
   "id": "2026-07-19-tema-en-kebab",
   "titulo": "…",
   "bajada": "…",
-  "seccion": "ECONOMÍA | MERCADOS | MUNDO",
-  "formato": "Anatomía de un dato | El número del día | Antes/Después | …",
+  "seccion": "ECONOMÍA | EMPRESAS | MERCADOS | MUNDO",
+  "formato": "Anatomía de un dato | Anatomía de un balance | El número del día | Antes/Después | …",
   "numero": "1,9%",
   "numero_label": "qué mide la cifra ancla",
   "fecha": "2026-07-19",

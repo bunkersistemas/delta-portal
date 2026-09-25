@@ -12,15 +12,22 @@ que actualizar y contra la que hay que comparar.
 Es la diferencia entre "a ver que encuentro hoy" y "el jueves a las 16 sale el
 IPC de agosto, la ultima que escribimos fue esta, y el dato a superar es este".
 
-Ademas lee data/pedidos.json y lista lo que pidieron los lectores. Son las dos
-entradas del paso 0: lo que va a salir (el calendario) y lo que alguien quiere
-saber (los pedidos). Un pedido es un CANDIDATO para el Editor, nunca una orden:
+Ademas lee data/empresas.json (lo genera build_empresas.py desde la CNV y la
+SEC): los balances y hechos relevantes que las empresas presentaron en los
+ultimos dias, y las fechas de balance que ellas mismas anunciaron. Sin esa
+entrada lo macro gana siempre, porque es lo unico que llega con fuente
+primaria asegurada (de 136 notas al 25/09/2026, dos eran de una empresa).
+
+Y lee data/pedidos.json y lista lo que pidieron los lectores. Son las
+entradas del paso 0: lo que va a salir (el calendario), lo que presentaron
+las empresas, y lo que alguien quiere saber (los pedidos). Un pedido es un CANDIDATO para el Editor, nunca una orden:
 ver agente/NEWSROOM.md, seccion 2 ter.
 
 Uso:
   python scripts/agenda.py                # los proximos 14 dias
   python scripts/agenda.py --dias 30
   python scripts/agenda.py --alta         # solo prioridad alta
+  python scripts/agenda.py --dias-empresas 5
 """
 import argparse
 import datetime
@@ -171,10 +178,94 @@ def imprimir_pedidos(pend):
     print("  y se verifica con el mismo protocolo. Ver NEWSROOM.md, seccion 2 ter.")
 
 
+# Palabras del nombre de una empresa que no la identifican.
+VACIAS_EMPRESA = set("""
+sa s a sau saic sab cv inc corp corporation grupo group banco bank compania
+compañia compañía sociedad anonima anónima argentina argentino
+energia energía de del la el y
+""".split())
+
+
+def claves_empresa(nombre):
+    return [w for w in re.findall(r"[a-z]{3,}", sin_tildes(nombre))
+            if w not in VACIAS_EMPRESA]
+
+
+def ultima_nuestra(nombre, idx):
+    """Nuestra ultima nota que nombra a esta empresa en el titulo o el slug."""
+    claves = claves_empresa(nombre)[:2]
+    if not claves:
+        return None
+    rx = [_rx(c, False) for c in claves]
+    for _, crudo, a in idx:  # de la mas nueva a la mas vieja
+        if all(r.search(crudo) for r in rx):
+            return a
+    return None
+
+
+def imprimir_empresas(arts, idx, hoy, dias_hechos, dias_anuncios):
+    emp = cargar("empresas.json")
+    print()
+    print("=" * 78)
+    print("EMPRESAS  (CNV y SEC: lo que las empresas presentaron)")
+    print("=" * 78)
+    if not emp:
+        print("  Falta data/empresas.json. Corre:  python scripts/build_empresas.py")
+        return
+    gen = emp.get("generado", "")
+    print("  generado %s%s" % (gen, "" if not emp.get("incompleto")
+                               else "   OJO incompleto: " + "; ".join(emp["incompleto"])))
+
+    notas_emp = sorted((a for a in arts if a.get("seccion") == "EMPRESAS"),
+                       key=lambda a: a.get("fecha", ""), reverse=True)
+    if notas_emp:
+        ult = notas_emp[0]
+        hace = (hoy - datetime.date.fromisoformat(ult["fecha"])).days
+        print("  ultima nota EMPRESAS: %s (hace %d dias) - %s"
+              % (ult["fecha"], hace, ult["titulo"][:48]))
+        cupo = hace >= 1
+    else:
+        print("  ultima nota EMPRESAS: ninguna todavia")
+        cupo = True
+    if cupo:
+        print("  -> HOY NO HAY NOTA DE EMPRESAS: una candidata de aca compite con la")
+        print("     misma ventaja que el dato del calendario (ver NEWSROOM.md 2 quater).")
+
+    hasta = hoy + datetime.timedelta(days=dias_anuncios)
+    anun = [a for a in emp.get("anuncios", [])
+            if hoy <= datetime.date.fromisoformat(a["fecha"]) <= hasta]
+    print()
+    print("  Fechas de balance ANUNCIADAS por la empresa (proximos %d dias): %d"
+          % (dias_anuncios, len(anun)))
+    for a in anun:
+        print("    %s  %-22s %s" % (a["fecha"], a["entidad"][:22], a["url"]))
+        print("        \"...%s\"" % a["frase"][-110:])
+
+    desde = (hoy - datetime.timedelta(days=dias_hechos)).isoformat()
+    hechos = [h for h in emp.get("hechos", []) if h["fecha"][:10] >= desde]
+    orden = {"balance": 0, "judicial": 1, "hecho": 2, "financiamiento": 3}
+    hechos.sort(key=lambda h: h["fecha"], reverse=True)
+    hechos.sort(key=lambda h: orden.get(h["tipo"], 9))  # estable: dentro del tipo, la mas nueva primero
+    print()
+    print("  Presentado en los ultimos %d dias: %d (balances primero)" % (dias_hechos, len(hechos)))
+    for h in hechos:
+        print("    %s %-4s %-14s %s" % (h["fecha"][:10], h["fuente"], h["tipo"], h["entidad"][:40]))
+        print("        %s" % h["descripcion"][:100])
+        print("        %s" % h["url"])
+        prev = ultima_nuestra(h["entidad"], idx)
+        if prev:
+            print("        ultima nuestra: %s (%s)" % (prev["titulo"][:56], prev["fecha"]))
+    print()
+    print("  La linea de arriba es el TEMA, no el dato: la nota se escribe desde el")
+    print("  documento enlazado. El tipo es preclasificacion, no dato de la fuente.")
+
+
 def main():
     ap = argparse.ArgumentParser()
     ap.add_argument("--dias", type=int, default=14)
     ap.add_argument("--alta", action="store_true", help="solo prioridad alta")
+    ap.add_argument("--dias-empresas", type=int, default=4,
+                    help="cuantos dias hacia atras de presentaciones de empresas")
     args = ap.parse_args()
 
     cal = cargar("calendario.json")
@@ -209,6 +300,7 @@ def main():
 
     if not filas:
         print("No hay publicaciones en la ventana pedida.")
+        imprimir_empresas(arts, idx, hoy, args.dias_empresas, args.dias)
         imprimir_pedidos(pedidos_pendientes())
         return 0
 
@@ -271,6 +363,7 @@ def main():
     print("*** prioridad alta   * media   |  fuentes:", ", ".join(cal["fuentes"]))
     print("La prioridad es preclasificacion editorial, no dato de la fuente.")
 
+    imprimir_empresas(arts, idx, hoy, args.dias_empresas, args.dias)
     imprimir_pedidos(pedidos_pendientes())
     return 0
 
