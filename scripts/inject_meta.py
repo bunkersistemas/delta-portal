@@ -65,7 +65,9 @@ def imagen_de(a):
 
 def meta_block(a):
     url = f"{SITE}/{a['archivo']}"
-    title = escape(a['titulo']) + " — Con Interés"
+    # la pregunta que busca la gente, si la hay, va a lo que lee Google y las
+    # redes; el titulo de portada arranca con el dato (25/09/2026)
+    title = escape(a.get('titulo_busqueda') or a['titulo']) + " — Con Interés"
     desc = escape(a.get('bajada', ''))
     img = imagen_de(a)
     return (
@@ -99,6 +101,10 @@ def main():
             print(f"  (falta {a['archivo']}, salteo)"); continue
         html = open(path, encoding="utf-8").read()
         html = BLOCK_RE.sub("", html)            # saca bloque previo si existe
+        if a.get("titulo_busqueda"):
+            html = re.sub(r"<title>.*?</title>",
+                          "<title>" + escape(a["titulo_busqueda"]).replace("\\", "\\\\") + " — CON INTERÉS</title>",
+                          html, count=1, flags=re.S)
         block = meta_block(a)
         # insertar después del <meta name="viewport" ...>
         m = re.search(r'<meta name="viewport"[^>]*>\n?', html)

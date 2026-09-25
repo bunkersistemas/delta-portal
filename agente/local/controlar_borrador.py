@@ -10,6 +10,9 @@ Sale con 0 e imprime  ok|titulo|numero|numero_label  si:
 Si no, imprime el motivo y sale con:
   1 = falla DEFINITIVA: el borrador esta mal armado o una fuente no existe
       (404 / 410). No se arregla esperando: se rechaza.
+  3 = TITULAR: la nota puede estar bien, pero el titular es una pregunta y
+      hoy ya se paso el tope (scripts/titulares.py). No se rechaza ni se
+      reintenta sola: queda en la cola para que el editor la retitule.
   2 = falla TRANSITORIA: una fuente no respondio a tiempo, o contesto 403, 429
       o 5xx (antibot, sobrecarga). La nota puede estar bien: se reintenta en
       la corrida siguiente.
@@ -24,6 +27,7 @@ import json, os, re, sys
 ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 sys.path.insert(0, os.path.join(ROOT, "scripts"))
 from verificar_enlaces import urls_de, check
+import titulares
 
 DEFINITIVOS = (404, 410)
 
@@ -57,6 +61,9 @@ def main(i):
         fallar("falta cola/" + i + ".html")
     if 'name="robots" content="noindex"' not in open(f, encoding="utf-8").read():
         fallar("sin noindex")
+    p = titulares.problemas(b["titulo"], titulares.del_dia(titulares.publicadas(), b.get("fecha") or titulares.hoy_ar()))
+    if p:
+        fallar("titular en forma de pregunta: " + "; ".join(p), 3)
     rotas, lentas = [], []
     for u in urls_de(f):
         e, s = estado(u)

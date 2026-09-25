@@ -56,6 +56,14 @@ sigue:
    gente y buscaria en Google ("cuanto cobra", "cuanto cuesta", "cuanto paga
    el Estado", "cuanto sale") que se pueda contestar con documentos oficiales.
    Minimo 2 candidatas de este tipo.
+   **La pregunta elige el TEMA, no la forma del titular** (desde el
+   25/09/2026). Ese dia 8 de 11 titulares arrancaban con "Cuanto" y la
+   portada parecia un portal de chimentos. El titular (`titulo`) arranca con
+   el dato o el hecho; la frase que busca la gente va en `titulo_busqueda`
+   de la entrada de `data/cola.json`, que es lo que va al `<title>` y a las
+   redes (lo que lee Google). Como maximo 2 titulares en forma de pregunta por
+   dia y nunca dos seguidos: `python scripts/titulares.py "<titulo>"` dice si
+   entra, y el control de la redaccion programada no publica solo el que no.
    **Ademas, las empresas** (desde el 25/09/2026): minimo 2 candidatas del
    bloque EMPRESAS de agenda.py cuando tiene material. El tema sale de la
    linea de la CNV o la SEC; la nota, del documento enlazado.

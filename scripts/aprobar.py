@@ -47,6 +47,7 @@ def main(draft_id):
     # 2) armar entrada de articulos.json
     entry = {
         "id": draft["id"], "titulo": draft["titulo"], "bajada": draft.get("bajada",""),
+        "titulo_busqueda": draft.get("titulo_busqueda",""),
         "seccion": draft["seccion"], "formato": draft.get("formato",""),
         "numero": draft.get("numero",""), "numero_label": draft.get("numero_label",""),
         "fecha": draft.get("fecha",""), "hora": draft.get("hora",""),

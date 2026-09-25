@@ -21,7 +21,10 @@
 #         - pasa: se publica;
 #         - una fuente no respondio a tiempo (falla transitoria): el borrador
 #           se commitea en la cola y se RETIENE para la corrida siguiente;
-#         - falla definitiva: se rechaza con rechazar.py.
+#         - falla definitiva: se rechaza con rechazar.py;
+#         - titular en forma de pregunta con el tope del dia pasado
+#           (scripts/titulares.py, 25/09/2026): queda en la cola para el
+#           editor, sin rechazar ni reintentar.
 #       En ningun caso el repo queda sucio: una nota trabada no frena el dia.
 #       (24/09/2026: una nota que estaba bien dejo 9 corridas seguidas sin
 #       correr porque el control la dejo sin commitear.)
@@ -151,6 +154,11 @@ $retenidos = LeerRetenidos
 foreach ($id in @($enCola | Where-Object { $retenidos -contains $_ })) {
   Anotar "segundo control del borrador retenido $id"
   $rc = Publicar $id
+  if ($rc -eq 3) {
+    # el titular no paso el tope de preguntas: no es un error de la nota, queda para el editor
+    GuardarRetenidos @(LeerRetenidos | Where-Object { $_ -ne $id })
+    Terminar 0 'en_espera' "[AL EDITOR] $id queda en la cola: $($script:motivoControl)" $id
+  }
   # no se publico: segunda falla, se rechaza y la corrida sigue con otro tema
   Rechazar $id ("no paso el control por segunda vez: " + $script:motivoControl)
 }
@@ -171,6 +179,7 @@ El objetivo de cada corrida es publicar UNA nota buena. Trabaja asi:
 3. Toma la primera candidata y hace investigacion y verificacion completas. Del portal se saca el TEMA; el numero sale siempre de la fuente primaria.
 4. Si FRENA, registra el descarte en data/cubiertas.json y pasa a la candidata siguiente, en esta misma corrida. Hasta 4 candidatas. Recien si las 4 frenan, termina sin nota.
 La vara no se negocia: la cifra ancla tiene que llegar a CONFIRMADO por alguno de los dos caminos de NEWSROOM.md seccion 3. Nunca inventes, redondees a favor ni publiques un dato que no cierra.
+TITULAR: la pregunta de plata sirve para ELEGIR el tema, no es la forma del titular. El "titulo" arranca con el dato o el hecho; la pregunta tal como la buscaria la gente va en "titulo_busqueda" de la entrada de data/cola.json. Antes de cerrar corre python scripts/titulares.py "<titulo>": si dice NO ENTRA, reescribi el titulo. Un titular que no pasa no se publica solo: queda esperando al editor.
 Como maximo UNA nota. Dejala en cola/ con noindex, agregala a data/cola.json, registrala en data/cubiertas.json como en_cola y corre python scripts/build_portada.py.
 Antes de terminar, corre vos los tres chequeos del editor de cierre (URLs 200, superlativos con valor previo, coherencia copete-graficos-cuerpo-manifiesto).
 Si es la primera corrida del dia y data/pregunta.json no es de hoy, actualizala. Sin kit social.
@@ -203,6 +212,14 @@ if ($r.veredicto -ne 'APTA') {
 $id = "$($r.id)".Trim()
 if ($id -notmatch '^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$') { Terminar 1 'falla' "[FALLA] id invalido: '$id'" }
 $rc = Publicar $id
+if ($rc -eq 3) {
+  # titular en forma de pregunta con el tope del dia pasado (scripts/titulares.py).
+  # La nota esta verificada: no se tira. Se sube a la cola (noindex) y espera al
+  # editor; mientras tanto la redaccion queda en espera, como con cualquier
+  # borrador ajeno, y el resumen diario lo cuenta.
+  Subir "Redaccion: queda en cola $id para el editor (titular)" $id
+  Terminar 0 'en_espera' "[AL EDITOR] $id queda en la cola: $($script:motivoControl)" $id
+}
 if ($rc -eq 2) {
   # falla transitoria: el borrador se commitea en la cola (con noindex) y la
   # corrida siguiente le repite el control antes de investigar otra cosa

@@ -435,6 +435,7 @@ publicar se mueve a `articulos` en `data/articulos.json`):
 {
   "id": "2026-07-19-tema-en-kebab",
   "titulo": "…",
+  "titulo_busqueda": "… (opcional)",
   "bajada": "…",
   "seccion": "ECONOMÍA | EMPRESAS | MERCADOS | MUNDO",
   "formato": "Anatomía de un dato | Anatomía de un balance | El número del día | Antes/Después | …",
@@ -448,6 +449,13 @@ publicar se mueve a `articulos` en `data/articulos.json`):
   "lectura": "30 seg → 12 min"
 }
 ```
+
+**`titulo` y `titulo_busqueda`** (desde el 25/09/2026). El `titulo` es el de la
+portada y el `<h1>`: arranca con el dato o el hecho, no con una pregunta. La
+pregunta tal como la escribiría la gente en Google («¿Cuánto cobra…?») va en
+`titulo_busqueda`, y `inject_meta.py` la pone en el `<title>`, en `og:title` y en
+`twitter:title`. Como máximo dos titulares en forma de pregunta por día y nunca
+dos seguidos: lo controla `scripts/titulares.py`.
 
 Tras cualquier cambio de manifiesto: `python3 scripts/build_portada.py` para
 regenerar la portada, y luego commit + push.
