@@ -1060,6 +1060,21 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-cobra-campeon-suramericano-beca"
+    },
+    {
+      "tema": "Revolut compra Banco Cetelem (autorización del BCRA, 24/09/2026) / qué compró: un banco de $6.287 M de activo sin depósitos ni préstamos al público",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 03:30. Pregunta de plata ('¿qué compró Revolut?'), tema en lanacion, infobae, iprofesional y cronista. Dato leído en la API del BCRA (www.bcra.gob.ar/api/endpoints/entidades-financieras-estados-contables.php?category=00331): jun-2026 activo $6.286.671 miles (efectivo 1.384.295, préstamos solo al sector financiero 4.770.187, sin depósitos), pasivo 354.096, PN 5.932.575, resultado acumulado 2026 -2.454.177; dic-2024 activo 6.871.161. MOTIVO DEL FRENO: la cifra ancla la publica solo el BCRA y no hay contraste independiente: la web de Cetelem tiene informes hasta 2017, la entidad se retiró de la oferta pública (CNV) y los 'US$6,4 millones de activos' de la prensa extranjera (jun-2025) no tienen fuente propia; el precio no se divulgó. Si se retoma: estados contables de la entidad firmados por auditor, o un documento de Revolut o BNP Paribas con cifras.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla solo en el BCRA, sin contraste independiente; precio no divulgado"
+    },
+    {
+      "tema": "caso Skanska / decomiso de $48.612.536,03 (TOF 4, fundamentos 22/09/2026; hecho relevante de Pecom Servicios Energía ante la CNV, 24/09/2026): US$16,4 M en 2005-2006, US$32.008 hoy sin actualizar, ~$24.432 M actualizado por CER (estimado, rango $23.229-25.547 M)",
+      "angulo": "Corrida programada del 25/09/2026 03:30. Pregunta de plata ('¿cuánto vale hoy el decomiso?') desde el bloque EMPRESAS (CNV, Pecom, judicial). Verificación: total en el hecho relevante de Pecom (adjunto 'Pecom - HR - Sentencia caso Skanska.pdf', leído vía aif2.cnv.gov.ar/api/ValetKeyProvider/GetPublicValetKey + blob.cnv.gov.ar/BlobWebService.svc/DownloadBlob) + desglose en Infobae y La Nación (22/09, crónicas de los fundamentos, anteriores al HR): 34.594.947,34 (administración fraudulenta) + 14.017.588,69 (cohecho; 96 cheques a 23 proveedores may-2005 a mar-2006) = 48.612.536,03 exacto. El fallo (1.145 páginas) no está publicado en sitio oficial abierto (el archivo del CIJ en csjn.gov.ar llega a 2019). Conversiones propias con la API del BCRA: A3500 promedio may-05/mar-06 $2,9622 (235 ruedas), 2005 $2,9236, 2006 $3,0741, 24/09/2026 $1.518,7415; CER promedio may-05/mar-06 1,68114, 01/05/2005 1,60776, 31/03/2006 1,76820, 25/09/2026 844,90990 (factor 502,6). Contexto: embargo de $17.323.926,46 confirmado por la Cámara Federal (CIJ, 2010). Advertencia sobre el CER 2007-2015 (Decreto 55/2016). Sin superlativos. Sentencia no firme: se dice.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-skanska-decomiso-cuanto-vale-hoy"
     }
   ]
 }
