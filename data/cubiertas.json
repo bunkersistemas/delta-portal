@@ -1135,6 +1135,29 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-presta-banco-hipotecario-sueldo-promedio"
+    },
+    {
+      "tema": "cuánto cuesta el MotoGP en Buenos Aires / obra del Autódromo Oscar y Juan Gálvez (calendario 2027 confirmado el 25/09/2026, GP del 9 al 11/04/2027)",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 08:30. Pregunta de plata detrás del calendario 2027 de MotoGP (infobae, 25/09). Documentos leídos: informe final AGCBA proyecto 1.25.14 (05/12/2025): contrato interadministrativo Secretaría de Deportes-AUSA por USD 35.028.472 (2024, Programa 85, FF11) y cesión a AUSA de los derechos de comercialización del autódromo para MotoGP/IndyCar por 4 años; Decreto CABA 151/26 (sin montos); noticia GCBA del 30/07/2026 (reformulación, sin montos). MOTIVO DEL FRENO: el costo de la obra reformulada en 2026 no tiene documento oficial y las cifras chocan (US$100 M y US$150 M en prensa, $71.499 M de adjudicación de pista sin fuente primaria ubicada); el contrato con Dorna no es público. Si se retoma: pliegos y adjudicaciones de AUSA 2026, ejecución del Programa 85 del presupuesto porteño o un nuevo informe de la AGCBA.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "costo total de la obra 2026 sin documento oficial; cifras de prensa contradictorias (US$100 M / US$150 M)"
+    },
+    {
+      "tema": "cuánto hay que ganar para estar en el 10% más rico del país / umbral del decil 10 (EPH, distribución del ingreso)",
+      "angulo": "DESCARTADA en la corrida programada del 25/09/2026 08:30 por oportunidad, no por verificación. Pregunta de plata detrás de la nota de infobae del 25/09 (10% más rico de CABA, IDECBA). El último dato nacional es del 1T-2026 (ya cubierto el 22/07 con la participación del decil 10) y el INDEC publica el 2T-2026 el 01/10/2026 (calendario oficial): conviene hacerla ese día, con el umbral del decil 10 del informe y recálculo desde la base usuaria de la EPH (PONDIH).",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "dato nacional de hace dos trimestres; el INDEC publica el nuevo el 01/10/2026: retomar ese día"
+    },
+    {
+      "tema": "cuánto cobra el directorio de IRSA / remuneración propuesta por el ejercicio 2025/26: $24.293.481.028,85 (convocatoria a asamblea del 22/10/2026), $4.589.438.862,75 por encima del límite del 5% de la ganancia ($394.080.843.322,03) del art. 261 LGS; 6,2% de la ganancia, 11,5% del dividendo propuesto (hasta $211.000 M); +33,5% nominal contra 2024/25 ($18.192.594.071,06), igual que el IPC ago-25/ago-26 (+33,54%); en pesos de jun-2026, 24.807 / 24.442 / 24.430 M en tres ejercicios (nota 25 del balance); 19,0% del costo de todo el personal",
+      "angulo": "Corrida programada del 25/09/2026 08:30. Pregunta de plata desde el bloque EMPRESAS (hecho relevante de IRSA del 22/09 sobre Golden Juniors llevó a sus documentos del ejercicio). Hoy ya había nota de EMPRESAS (Vista), así que no regía el cupo: ganó por ser pregunta de plata con documento primario. Verificación: convocatoria en la CNV (hecho relevante 17/09/2026) y 6-K de la SEC del mismo día con los mismos importes al centavo + recálculo del exceso (5% x 394.080.843.322,03 = 19.704.042.166,10; 24.293.481.028,85 - 19.704.042.166,10 = 4.589.438.862,75 exacto) + estados contables al 30/06/2026 (nota 25: honorarios a directores 24.430 M, coherente). Serie: actas de asamblea 2024 (13.323 M aprobados, ejercicio con pérdida de 18.377 M) y 2025 (18.193 M aprobados). IPC INDEC 9.193,2441 -> 12.276,766. RIPTE jul-26 1.946.028,12. Sin juicio sobre la acción ni sobre el monto; justificación de la empresa atribuida.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-cuanto-cobra-directorio-irsa"
     }
   ]
 }
