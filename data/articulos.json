@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T15:45:40-03:00",
+    "actualizado": "2026-09-25T16:45:27-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-dolares-personas-humanas-agosto",
+      "titulo": "Los argentinos compraron US$2.463 millones en agosto, 15,5% menos que en julio: la misma cantidad de gente, pero cada uno compró menos",
+      "bajada": "Según el informe cambiario que el Banco Central publicó hoy, compraron billetes 1,7 millones de personas, las mismas que en julio, pero por menos plata cada una: unos US$1.680 en promedio, contra unos US$1.950 el mes anterior. Y de lo que salió del sistema, el BCRA estima que la parte que se fue del país bajó de US$1.000 a US$700 millones.",
+      "titulo_busqueda": "¿Cuántos dólares compraron los argentinos en agosto de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$2.463 M",
+      "numero_label": "compra neta de dólar billete de las personas humanas en agosto de 2026 (BCRA)",
+      "fecha": "2026-09-25",
+      "hora": "16:30",
+      "archivo": "articulos/2026-09-25-dolares-personas-humanas-agosto.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 10 min"
+    },
     {
       "id": "2026-09-25-cuanto-cobra-playero-estacion-servicio-octubre",
       "titulo": "Un playero cobra $1.639.573 de básico en octubre: en el año a agosto, su sueldo le ganó 3% a la inflación y perdió 8% contra la nafta que despacha",

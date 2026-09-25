@@ -1248,6 +1248,13 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-cobra-playero-estacion-servicio-octubre"
+    },
+    {
+      "tema": "compra de dólar billete de personas humanas / agosto 2026 (US$2.463 M netos, −15,5% contra julio, segundo mes más alto de 2026) con los mismos 1,7 M de compradores: compra bruta promedio estimada ~US$1.680 por persona (jul ~US$1.950)",
+      "angulo": "Corrida programada del 25/09/2026 16:30. Calendario oficial (BCRA, informe cambiario de agosto, publicado el 25/09) + pregunta de plata ('¿cuántos dólares compraron los argentinos?'). Ángulo nuevo respecto de la nota de julio (30/08): (a) la baja no vino de menos compradores (1,7 M en jul y ago) sino de menos dólares por cabeza: compra bruta/compradores abr-ago 2026 = ~1.818, 1.580, 1.629, 1.953, 1.678 (estimado propio; cantidad redondeada por el BCRA); (b) serie propia de destinos estimados por el BCRA abr-ago 2026 (depósitos 1.200/700/800/1.000/1.100; tarjetas 600/800/700/900/900; activos externos 400/300/500/1.000/700): la parte que se fue del sistema bajó de ~1.000 a ~700. Ancla por el camino de estadística oficial (NEWSROOM §3): documento (informe ago-2026, págs. 4 y 14), recálculo desde el anexo crudo (compras 2.853,3 − ventas 389,8 = 2.463,5, coincide) y contraste independiente (depósitos privados en dólares, API BCRA var. 108: 40.269 -> 40.888, +619 M en agosto; dirección y orden de magnitud coinciden; la diferencia con los 1.100 M estimados se explica por empresas, retiros e intereses). Superlativo 'segundo más alto de 2026' con la serie ene-ago 2026 del anexo (jul 2.915,8; ago 2.463,5; abr 2.292,5). Destinos marcados como ESTIMACIÓN del BCRA.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-dolares-personas-humanas-agosto"
     }
   ]
 }
