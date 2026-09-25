@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T17:44:31-03:00",
+    "actualizado": "2026-09-25T18:41:48-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-turismo-agosto-deficit-brasil",
+      "titulo": "El déficit de turistas se achicó 45% en agosto: los viajes de argentinos a Brasil cayeron 20% y ya vienen más brasileños de los que van",
+      "bajada": "En agosto salieron 219.172 turistas argentinos más de los que entraron extranjeros, contra 400.901 un año antes. Los viajes a Brasil cayeron 20,2% y a Chile, 48,4%, y llegaron más turistas de Brasil (136.800) que argentinos viajaron allá (132.500). El déficit sigue siendo más del doble que el de agosto de 2024.",
+      "titulo_busqueda": "¿Cuántos argentinos viajaron a Brasil en agosto de 2026? 132.500, un 20% menos",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−45%",
+      "numero_label": "cuánto se achicó en agosto el saldo negativo de turistas: 219.172 contra 400.901 en agosto de 2025",
+      "fecha": "2026-09-25",
+      "hora": "18:30",
+      "archivo": "articulos/2026-09-25-turismo-agosto-deficit-brasil.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-pasaporte-cuanto-cuesta-dolares",
       "titulo": "El pasaporte cuesta $100.000 desde marzo: al dólar oficial son US$66, lo mismo que en 2025 y 53% más que en 2023",

@@ -1262,6 +1262,13 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-pasaporte-cuanto-cuesta-dolares"
+    },
+    {
+      "tema": "turismo internacional agosto 2026 (INDEC, 25/09/2026) / saldo de turistas -219.172 contra -400.901 en ago-2025 (-45,3%); emisivo 652.055 (-18,3%), receptivo 432.883 (+8,9%); Brasil: 132,5 mil argentinos fueron (-20,2%) y 136,8 mil brasileños vinieron (+16,3%); Chile -48,4%",
+      "angulo": "Corrida programada del 25/09/2026 18:30. Dato del calendario oficial (INDEC, hoy 16:00) con ángulo propio: el boom de viajes a Brasil de 2025 se desinfla y vuelven a venir más brasileños de los que van (como en ago-2024: 135,2 contra 82,3 mil), y el déficit de agosto es la mitad del de 2025 pero 2,3 veces el de 2024. Verificación por estadística oficial recalculada: informe eti_09_2658FB61A61B.pdf (cuadros 1, 2 y 4) + serie serie_turismo_receptivo_emisivo.xlsx (recálculo del saldo) + contraste independiente con la base abierta del Ministerio de Turismo de Brasil (Polícia Federal): llegadas de residentes en la Argentina ago-2026 102.461 contra 127.056 (-19,4%, frente al -20,2% del INDEC); ene-ago 2.244.297 (-15,4%). Niveles distintos por universo (residentes de cualquier nacionalidad con destino principal Brasil vs. extranjeros registrados en la frontera brasileña). Sin gasto: el de la ETI es trimestral (3T-2026 todavía no publicado).",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-turismo-agosto-deficit-brasil"
     }
   ]
 }

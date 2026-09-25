@@ -1,11 +1,20 @@
 {
-  "generado": "2026-09-25T17:30",
+  "generado": "2026-09-25T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3573440",
+      "fuente": "CNV",
+      "fecha": "2026-09-25T17:45",
+      "entidad": "BANCO VOII S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE DE CAMBIO DE SEDE SOCIAL BANCO VOII S.A.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3511E34F-B214-49E4-8598-5272F719EDAD"
+    },
     {
       "id": "cnv-3573566",
       "fuente": "CNV",
@@ -21,7 +30,7 @@
       "fecha": "2026-09-25T17:26",
       "entidad": "CENTRAL PUERTO",
       "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (25 09 26)",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/02675A5F-DDAC-49AE-A2DB-2FAB011D583B"
     },
     {
@@ -239,6 +248,7 @@
     "sec-0001292814-26-004574": "2026-09-16",
     "sec-0001292814-26-004576": "2026-09-16",
     "sec-0001292814-26-004691": "2026-09-24",
+    "sec-0001292814-26-004710": "2026-09-25",
     "sec-0001554855-26-001964": "2026-09-08",
     "sec-0001554855-26-001968": "2026-09-08",
     "sec-0001554855-26-001992": "2026-09-10",
