@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T00:57:02-03:00",
+    "actualizado": "2026-09-25T01:43:38-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-cuanto-cobra-petrolero-vaca-muerta",
+      "titulo": "¿Cuánto cobra un petrolero en Vaca Muerta? $8,79 millones brutos por mes en promedio: cuatro veces el sueldo privado del país",
+      "bajada": "Según los datos oficiales del sistema previsional, en mayo de 2026 un asalariado registrado de la extracción de petróleo y gas en Neuquén cobró en promedio $8.794.703 brutos: 4,1 veces el promedio privado del país y 2,1 veces el de la provincia. En un año le ganó 5,6% a la inflación; el promedio nacional perdió 1,3%. En las operadoras, $12,7 millones; en las empresas de servicios, donde están ocho de cada diez, $7,9 millones.",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$8,79 M",
+      "numero_label": "remuneración bruta promedio de un asalariado registrado de la extracción de petróleo y gas en Neuquén, mayo de 2026 (OEDE-SIPA), 4,1 veces el promedio privado del país",
+      "fecha": "2026-09-25",
+      "hora": "02:30",
+      "archivo": "articulos/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-25-loma-negra-ganancia-dolar-semestre",
       "titulo": "Loma Negra vendió lo mismo, ganó menos con su negocio y su ganancia neta subió 65%: la diferencia la hizo el dólar",

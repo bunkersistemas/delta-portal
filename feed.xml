@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 25 Sep 2026 00:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 01:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Cuánto cobra un petrolero en Vaca Muerta? $8,79 millones brutos por mes en promedio: cuatro veces el sueldo privado del país</title>
+      <link>https://coninteres.com/articulos/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.html</guid>
+      <pubDate>Fri, 25 Sep 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Según los datos oficiales del sistema previsional, en mayo de 2026 un asalariado registrado de la extracción de petróleo y gas en Neuquén cobró en promedio $8.794.703 brutos: 4,1 veces el promedio privado del país y 2,1 veces el de la provincia. En un año le ganó 5,6% a la inflación; el promedio nacional perdió 1,3%. En las operadoras, $12,7 millones; en las empresas de servicios, donde están ocho de cada diez, $7,9 millones.</description>
+      <ci:numero>$8,79 M</ci:numero>
+      <ci:numeroEtiqueta>remuneración bruta promedio de un asalariado registrado de la extracción de petróleo y gas en Neuquén, mayo de 2026 (OEDE-SIPA), 4,1 veces el promedio privado del país</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.png" length="74027" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Loma Negra vendió lo mismo, ganó menos con su negocio y su ganancia neta subió 65%: la diferencia la hizo el dólar</title>
       <link>https://coninteres.com/articulos/2026-09-25-loma-negra-ganancia-dolar-semestre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>el ajuste de septiembre para los alquileres firmados bajo la ley 27.551, hoy derogada. Es anual: equivale a 2,57% por mes, y queda en el medio de la tabla cuando se lo compara con el resto</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-05-aumentos-septiembre-mensual-anual.png" length="70130" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-05-aumentos-septiembre-mensual-anual.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Hay 37.000 asalariados privados registrados menos que en julio de 2016: el empleo formal volvió al nivel de hace diez años</title>
-      <link>https://coninteres.com/articulos/2026-09-05-empleo-privado-decada-perdida.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-05-empleo-privado-decada-perdida.html</guid>
-      <pubDate>Sat, 05 Sep 2026 18:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El dato viene del SIPA, el registro del sistema previsional, y lo procesó el equipo de empleo del IIEP de la UBA y el CONICET. En mayo de 2026 había 6,132 millones de trabajadores asalariados registrados en empresas privadas. En julio de 2016 había 6,169 millones. Entre las dos fechas hubo dos gobiernos, una pandemia, una salida del cepo y dos crisis cambiarias, y el resultado neto es levemente negativo. La serie acumula además doce meses consecutivos de caída: la racha más larga desde que el registro está disponible, en 2009.</description>
-      <ci:numero>6,13 M</ci:numero>
-      <ci:numeroEtiqueta>asalariados registrados del sector privado en mayo de 2026, contra 6,169 millones en julio de 2016. Desde noviembre de 2023 se perdieron 241.000 puestos</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-05-empleo-privado-decada-perdida.png" length="67732" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-05-empleo-privado-decada-perdida.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
