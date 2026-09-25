@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-24T22:39:49-03:00",
+    "actualizado": "2026-09-24T23:46:27-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-24-concordia-pobreza-no-es-desempleo",
+      "titulo": "Concordia tiene 56,2% de pobres y 6,1% de desocupados; Rosario, 23,1% y 11,5%: el mapa de la pobreza no es el del desempleo",
+      "bajada": "Concordia es la ciudad con la pobreza más alta de las que mide el INDEC: 56,2% en el primer semestre de 2026. Pero su desocupación, 6,1%, no supera el promedio del país. En Gran Rosario pasa lo contrario. En las 32 áreas de la encuesta, la pobreza no acompaña al desempleo: acompaña a cuánta gente trabaja.",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "56,2%",
+      "numero_label": "de las personas de Concordia bajo la línea de pobreza en el 1er semestre de 2026 (INDEC, cuadro 4.1), la estimación más alta de las 32 áreas; su desocupación fue 6,1% en los dos trimestres",
+      "fecha": "2026-09-24",
+      "hora": "23:30",
+      "archivo": "articulos/2026-09-24-concordia-pobreza-no-es-desempleo.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion",
       "titulo": "Fondo para despidos: por cada año trabajado, una pyme junta en el FAL casi un tercio de la indemnización; una gran empresa, el 13%",

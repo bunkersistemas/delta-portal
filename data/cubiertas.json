@@ -995,6 +995,19 @@
       "fecha": "2026-09-24",
       "estado": "publicada",
       "articulo_id": "2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion"
+    },
+    {
+      "tema": "deuda provincial / San Juan volvió al mercado internacional tras 27 años: bono de US$600 M a 2035, cupón 9,55%, rendimiento 9,875% (24/09/2026)",
+      "angulo": "FRENADA en la corrida programada del 24/09/2026 23:30. Pregunta de plata ('¿cuánto le cuesta a San Juan?': US$57,3 M de intereses por año con un cupón de 9,55%). Tema en infobae y ámbito. El cupón, el rendimiento, el monto colocado y la amortización 2033-2035 solo aparecen en declaraciones del gobierno provincial reproducidas por medios (infobae, ámbito, sanjuan8, tiempodesanjuan): no se encontró documento primario (decreto de emisión, aviso de resultado, prospecto, informe de calificadora); sisanjuan.gob.ar devolvió 504 y economia.sanjuan.gob.ar no tiene comunicado. La ley provincial de financiamiento autoriza HASTA US$600 M, no dice lo colocado. Una cifra de funcionario sin documento no califica para la regla de estadísticas oficiales. Retomable si aparece el aviso de colocación o el decreto en el Boletín Oficial de San Juan.",
+      "fecha": "2026-09-24",
+      "estado": "descartada"
+    },
+    {
+      "tema": "pobreza por aglomerado 1er semestre 2026 / Concordia 56,2% (la estimación más alta de las 32 áreas por tercer semestre seguido) con desocupación 6,1%; Gran Rosario 23,1% con 11,5%: entre ciudades la pobreza no correlaciona con la desocupación (-0,04) y sí con la tasa de empleo (-0,65)",
+      "angulo": "Corrida programada del 24/09/2026 23:30. Pregunta que la gente busca ('¿cuál es la ciudad más pobre?'; Concordia en infobae, ámbito, iprofesional y medios entrerrianos) + cruce propio que nadie publicó. Ángulo NUEVO respecto de la nota de pobreza del 24/09 (total 32,3% y mayores de 65; no abrió aglomerados) y de la de desempleo del interior (Rosario 11,5%, sin pobreza). Camino de estadística oficial (NEWSROOM §3): (1) informe técnico INDEC eph_pobreza_09_26, cuadro 4.1 pág. 9: Concordia 43,6% hogares / 56,2% personas, CV 6,1, IC90 50,6-61,8; (2) recálculo 94/168 mil = 55,95%, rango por redondeo 55,5-56,4 contiene 56,2 (hogares 23/54 -> 41,3-43,9 contiene 43,6); desocupación Concordia 1T 4,281/70,696 mil = 6,06%; (3) contraste DGEC Entre Ríos, NBI Censo 2022: departamento Concordia 16,2% de la población (32.026/197.603), máximo de 17 departamentos, vs Paraná 6,0% y provincia 8,5%. Cruce: 32 áreas, desocupación y tasa de empleo como promedio simple 1T-2T 2026 (cuadros 3.1 de EPH 06_26 y 09_26); r pobreza-desocupación -0,04, pobreza-empleo -0,65; sin las 6 áreas con CV de desocupación >25%: -0,02 y -0,67. Salvedades escritas: Concordia vs Resistencia (IC 40,0-57,2) no separables; la suba 49,9 -> 56,2 no es significativa; correlación no es causa. Superlativo 'por tercer semestre seguido' con valores previos: 1S25 49,2 vs Resistencia 48,1; 2S25 49,9 vs 42,2; 2S24 Resistencia 60,8 > Concordia 57,1.",
+      "fecha": "2026-09-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-24-concordia-pobreza-no-es-desempleo"
     }
   ]
 }

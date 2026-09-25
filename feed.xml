@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 24 Sep 2026 22:39:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 24 Sep 2026 23:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Concordia tiene 56,2% de pobres y 6,1% de desocupados; Rosario, 23,1% y 11,5%: el mapa de la pobreza no es el del desempleo</title>
+      <link>https://coninteres.com/articulos/2026-09-24-concordia-pobreza-no-es-desempleo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-concordia-pobreza-no-es-desempleo.html</guid>
+      <pubDate>Thu, 24 Sep 2026 23:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Concordia es la ciudad con la pobreza más alta de las que mide el INDEC: 56,2% en el primer semestre de 2026. Pero su desocupación, 6,1%, no supera el promedio del país. En Gran Rosario pasa lo contrario. En las 32 áreas de la encuesta, la pobreza no acompaña al desempleo: acompaña a cuánta gente trabaja.</description>
+      <ci:numero>56,2%</ci:numero>
+      <ci:numeroEtiqueta>de las personas de Concordia bajo la línea de pobreza en el 1er semestre de 2026 (INDEC, cuadro 4.1), la estimación más alta de las 32 áreas; su desocupación fue 6,1% en los dos trimestres</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-concordia-pobreza-no-es-desempleo.png" length="76276" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-concordia-pobreza-no-es-desempleo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Fondo para despidos: por cada año trabajado, una pyme junta en el FAL casi un tercio de la indemnización; una gran empresa, el 13%</title>
       <link>https://coninteres.com/articulos/2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>la distancia entre las dos prestaciones que el Estado paga por un chico: $154.031 de AUH contra $16.217 de asignación familiar en el tramo donde caen dos sueldos promedio. En diciembre de 2023 la brecha era de 4,8 veces</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-03-asignaciones-familiares-brecha-auh-suaf.png" length="71911" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-03-asignaciones-familiares-brecha-auh-suaf.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Vendió 5.632 robots humanoides en tres años y la bolsa la valuó en 50.800 millones de dólares: la robótica que se financia no es la que se vende</title>
-      <link>https://coninteres.com/articulos/2026-09-02-humanoides-valuacion-mercado-real.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-02-humanoides-valuacion-mercado-real.html</guid>
-      <pubDate>Wed, 02 Sep 2026 18:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Unitree, la primera fabricante de robots humanoides en cotizar en bolsa, debutó en la bolsa de Shanghái el 19 de agosto y cerró su primer día valiendo 201 veces lo que factura. Al mismo tiempo, el robot que sí se vende en volumen —el que limpia pisos: 32,72 millones de unidades en 2025— deja márgenes de entre 7 y 12 centavos por peso y ya fundió a iRobot, la empresa que lanzó el Roomba en 2002. Fuimos al prospecto, a los balances y a las góndolas: son dos industrias distintas con el mismo nombre.</description>
-      <ci:numero>5.632</ci:numero>
-      <ci:numeroEtiqueta>los robots humanoides que Unitree vendió en toda su historia (2023-2025), según su prospecto, mientras la bolsa de Shanghái la valuaba en 50.800 millones de dólares</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-02-humanoides-valuacion-mercado-real.png" length="75168" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-02-humanoides-valuacion-mercado-real.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
