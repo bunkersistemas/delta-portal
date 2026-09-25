@@ -1,11 +1,38 @@
 {
-  "generado": "2026-09-25T16:30",
+  "generado": "2026-09-25T17:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3573566",
+      "fuente": "CNV",
+      "fecha": "2026-09-25T17:27",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/89991678-038C-4FD1-B97D-D440EF7BE0FE"
+    },
+    {
+      "id": "cnv-3573564",
+      "fuente": "CNV",
+      "fecha": "2026-09-25T17:26",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/02675A5F-DDAC-49AE-A2DB-2FAB011D583B"
+    },
+    {
+      "id": "cnv-3556168",
+      "fuente": "CNV",
+      "fecha": "2026-09-25T17:22",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/586CDDBC-8A51-4BB7-B24F-B6939912DAAF"
+    },
     {
       "id": "cnv-3573191",
       "fuente": "CNV",

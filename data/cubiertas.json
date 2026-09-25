@@ -1255,6 +1255,13 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-dolares-personas-humanas-agosto"
+    },
+    {
+      "tema": "cuánto cuesta el pasaporte / tarifa del Renaper: regular $100.000 desde el 06/03/2026 (Disp. 106/2026), exprés $200.000, en el día $330.000; serie $15.000 (25/08/2023, Disp. 832/2023), $35.000 (09/01/2024, Disp. 18/2024), $70.000 (01/03/2025, Disp. 199/2025); al A3500 del día de vigencia US$42,86 / 42,98 / 65,77 / 70,73 y US$65,62 el 25/09/2026 (+53% contra 2023); en pesos de ago-2026 (IPC nacional) 90.081 / 100.829 / 102.878 / 110.831; -9,8% real desde marzo",
+      "angulo": "Corrida programada del 25/09/2026 17:30. Pregunta de plata ('¿cuánto cuesta el pasaporte?', tarifario del Renaper en Ámbito del día) con ángulo propio: la serie completa de tarifas desde 2023 en dólares oficiales y en pesos constantes. Ancla por dos fuentes independientes: tarifario oficial del Renaper (argentina.gob.ar) y Gobierno del Neuquén (04/03/2026), con la Disposición 106/2026 del BO (vigencia 06/03/2026). Cadena de disposiciones verificada (cada una deroga la anterior). A3500 de la API BCRA var. 5; IPC nacional INDEC. Sin comparación regional (no verificada).",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-pasaporte-cuanto-cuesta-dolares"
     }
   ]
 }

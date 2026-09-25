@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T16:45:27-03:00",
+    "actualizado": "2026-09-25T17:44:31-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-pasaporte-cuanto-cuesta-dolares",
+      "titulo": "El pasaporte cuesta $100.000 desde marzo: al dólar oficial son US$66, lo mismo que en 2025 y 53% más que en 2023",
+      "bajada": "El pasaporte regular cuesta $100.000 desde el 6 de marzo; el exprés, $200.000, y el que se entrega en el día, $330.000. Desde agosto de 2023 el Renaper lo subió cuatro veces: al dólar oficial pasó de US$43 a US$66, y en pesos de hoy cada aumento lo dejó entre $90.000 y $111.000.",
+      "titulo_busqueda": "¿Cuánto cuesta el pasaporte en 2026? $100.000 el regular, $200.000 el exprés y $330.000 en el día",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$100.000",
+      "numero_label": "lo que se paga de bolsillo por el pasaporte regular del Renaper desde el 6 de marzo de 2026",
+      "fecha": "2026-09-25",
+      "hora": "17:30",
+      "archivo": "articulos/2026-09-25-pasaporte-cuanto-cuesta-dolares.html",
+      "verificacion": "verificada",
+      "fuentes": 13,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-dolares-personas-humanas-agosto",
       "titulo": "Los argentinos compraron US$2.463 millones en agosto, 15,5% menos que en julio: la misma cantidad de gente, pero cada uno compró menos",
