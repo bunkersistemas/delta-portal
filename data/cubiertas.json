@@ -1219,6 +1219,13 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-cobra-albanil-uocra-septiembre"
+    },
+    {
+      "tema": "cuánto cuesta la VTV en la provincia de Buenos Aires / tarifa básica (auto hasta 2.500 kg, IVA incl.) $97.057,65 desde el 16/01/2026 (Res. 369/2025 MTRAGP); aumento a $114.105,99 (+17,6%) suspendido hasta el 14/10/2026 (Res. 295/2026, BO PBA 18/09/2026); tarifa = 7% del básico SMATA-CAVEA categoría 1 (CCT 594/10); +21,9% i.a. contra IPC +33,5% (-8,7% real); CABA $96.968,19",
+      "angulo": "Corrida programada del 25/09/2026 13:30. Pregunta de plata ('¿cuánto cuesta la VTV?') detrás de la noticia de la VTV gratis/rebajas en Buenos Aires (cronista) y del congelamiento (ámbito y medios regionales). Ancla: artículo 1 de la Res. 369/2025 (BO PBA 22/12/2025) + Res. 295/2026 (BO 18/09/2026) + API oficial de costos de vtv.gba.gob.ar; recálculo independiente con la escala SMATA-CAVEA oct-dic 2025 publicada por el SMATA ($1.386.537,89 x 7% = $97.057,65 al centavo; abr-jun 2026 $1.630.085,67 x 7% = $114.105,997; ene-2025 $1.137.726,75 x 7% = $79.640,87 de la Res. 188/2025). Corrección a la prensa: motos 50-200 cc $38.823,06 y >2.500 kg $174.703,77 (oficiales; los medios dieron $38.801,03 y $174.604,64). Contexto: sueldo cat. 1 +33,3% i.a. (jul-sep 2025 $1.306.944,94 a jul-sep 2026 $1.742.235,56); precedente de 2025 (aumento de abril suspendido 90 días por Res. 163/2025 y aplicado desde el 16/07/2025). No se afirma el precio desde el 15/10: la norma no lo fija.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-vtv-provincia-buenos-aires-cuanto-cuesta"
     }
   ]
 }
