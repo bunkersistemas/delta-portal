@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T04:54:41-03:00",
+    "actualizado": "2026-09-25T05:56:35-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-letras-intransferibles-bcra-tesoro",
+      "titulo": "¿Cuánto le debe el Tesoro al Banco Central en letras intransferibles? US$29.080 millones, menos de la mitad que en abril de 2025",
+      "bajada": "Son pagarés en dólares a diez años que el Tesoro le entregó al BCRA a cambio de reservas para pagar deuda. Llegaron a US$69.408 millones en abril de 2025; dos recompras los bajaron al nivel más bajo de la serie oficial. El BCRA los tiene anotados a menos de un tercio. La reforma de su Carta Orgánica, que el Senado aprobó con cambios, le prohíbe prestarle al Estado.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$29.080 M",
+      "numero_label": "letras intransferibles del Tesoro en poder del BCRA al 31/08/2026, valor nominal (Secretaría de Finanzas, dato preliminar: US$29.079,7 millones)",
+      "fecha": "2026-09-25",
+      "hora": "06:30",
+      "archivo": "articulos/2026-09-25-letras-intransferibles-bcra-tesoro.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-despedida-messi-cuanto-cuesta-entrada",
       "titulo": "¿Cuánto cuesta ir a la despedida de Messi? De $90.000 a $480.000 por adulto, los mismos pesos que hace un año: con la inflación, 25% menos",

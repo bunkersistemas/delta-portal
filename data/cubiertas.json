@@ -1106,6 +1106,21 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-despedida-messi-cuanto-cuesta-entrada"
+    },
+    {
+      "tema": "Fondo de Integración Socio Urbana (FISU) / cuánta plata tiene el fondo de barrios populares: $257.488.806.641,50 al 07/04/2026 (Informe 145 JGM) con obras paralizadas que afectan a 193.266 familias",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 05:30. Pregunta de plata detrás del proyecto de ley de financiamiento de barrios populares (Iglesia, movimientos sociales y 11 bloques; se presenta el 30/09; infobae) y de la Res. 209/2026 de la Secretaría de Obras Públicas (BO 23/09/2026, plan de acción, sin montos). Fuente leída: Informe 145 del Jefe de Gabinete a Diputados (abril de 2026), respuesta a la pregunta 1439, pág. 1317-1318: saldo consolidado de las tres cuentas fiduciarias (BICE Fideicomisos) $257.488.806.641,50 al 07/04/2026; 193.266 familias con obras paralizadas; Mi Pieza: 13.844 beneficiarias con pagos pendientes por $4.388.990.000. Las cifras de la prensa ($171.863 M en 2023 contra $3.336 M en 2026, 98% de caída, 671 obras) no figuran en el texto del informe (estarían en el anexo, que no se encontró). MOTIVO DEL FRENO: el saldo es una cifra administrativa de un solo documento; el informe trimestral de ejecución de fondos fiduciarios de la ONP (II trim. 2026) agrupa al FISU con los demás fondos en liquidación, sin saldo propio; Presupuesto Abierto solo muestra el programa 83 (Integración Socio Urbana), sin transferencias desde 2025, que no es el fideicomiso. Retomar con los estados contables del fideicomiso, el anexo de la pregunta 1439 o un informe de la SIGEN/AGN con el saldo.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla (saldo del FISU) en un solo documento oficial, sin segunda fuente ni serie para recalcular"
+    },
+    {
+      "tema": "letras intransferibles del Tesoro en poder del BCRA / US$29.079,7 M al 31/08/2026 (valor nominal, Finanzas), mínimo de la serie mensual desde 2019 y -58,1% contra el máximo de abr-2025 (US$69.407,7 M)",
+      "angulo": "Gancho: el Senado aprobó con cambios la reforma de la Carta Orgánica del BCRA (24/09/2026, 46-22; vuelve a Diputados), que prohíbe prestarle al Estado (O.D. 211). Anatomía de un dato con estadística oficial recalculada: boletín mensual de deuda al 31/08/2026 (hoja A.1, filas Letra BCRA + FDA + FOI) y recálculo desde la hoja A.4 (69.407,7 + 148,1 colocaciones - 40.476,1 cancelaciones = 29.079,7). Contraste independiente: balance semanal del BCRA, rubro Letras intransferibles y otras, baja en las mismas semanas (may-25, ago-25, may-26, ago-26); valor contable 34,4% del nominal en abr-2025 y 29,5% en ago-2026 (US$8.571,7 M). Res. Conj. 21/2025: VNO US$13.616,9 M por US$12.000 M (cierra exacto con el boletín). Res. Conj. 27/2026: VNO US$20.433,7 M por $18,4 billones (US$13.224,9 M a $1.391,3141); el boletín registra -22.284,1 en may-26: diferencia de US$1.850,4 M sin explicar en los documentos, declarada en la nota. No se incluyen adelantos transitorios (Finanzas US$2.710,3 M y BCRA $2,93 billones no coinciden) ni otros títulos del BCRA.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-letras-intransferibles-bcra-tesoro"
     }
   ]
 }
