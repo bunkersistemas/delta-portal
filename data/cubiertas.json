@@ -1226,6 +1226,21 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-vtv-provincia-buenos-aires-cuanto-cuesta"
+    },
+    {
+      "tema": "cuánto cobra la AUH en octubre de 2026 / $156.588 (Res. ANSES 283/2026, BO 23/09/2026, movilidad 1,66%)",
+      "angulo": "DESCARTADA en la corrida programada del 25/09/2026 14:30 por falta de ángulo nuevo. Pregunta de plata de infobae (portada), ámbito, cronista y lanacion. El monto nuevo es el de septiembre ($154.031) por 1,0166, y la comparación de la AUH con la canasta de crianza ya salió en la nota del 03/09 (22,1% de la canasta de 6 a 12 años; 17,7% lo que entra cada mes). Todos los medios publican la tabla del mes.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin ángulo nuevo: el cruce AUH-canasta de crianza ya se publicó el 03/09"
+    },
+    {
+      "tema": "pobreza en la Ciudad de Buenos Aires / IDECBA 1er semestre 2026 21,5% de personas (2T 21,9%, 675.000) contra INDEC 11,1% (IC 90% 8,0-14,2) para la misma ciudad y el mismo semestre; líneas de pobreza comparadas por hogar tipo (agosto 2026)",
+      "angulo": "Corrida programada del 25/09/2026 14:30. Tema del día (IDECBA publicó el 25/09; infobae, pagina12 'los sueldos no alcanzan en CABA', ámbito e iprofesional con el 10% más rico de CABA). Ángulo propio: nadie cruza la cifra de la Ciudad con la del INDEC publicada un día antes (11,1%, la más baja de los 31 aglomerados). Hallazgos: 1,94 veces (hogares 17,3 vs 8,9); brecha 9,5 / 5,4 / 9,6 / 10,4 pp en 2S24-1S26; interanual en direcciones opuestas (IDECBA 20,5->21,5; INDEC 15,1->11,1, dentro del margen: IC 10,9-19,2 vs 8,0-14,2); indigencia 7,6% vs 1,5%. Explicación documentada: líneas de agosto 2026 IDECBA vs INDEC (CBT GBA $519.578,43 x AE de la tabla oficial, cálculo propio): familia de 4 propietaria $1.651.798 vs $1.610.693 (+2,6%), pareja de 25 propietaria 972.695 vs 924.850 (+5,2%), pareja de 25 inquilina 1.147.329 (+24,1%; +18,0% contra la propietaria), varón solo 602.434 vs 529.970 (+13,7%); indigencia de la familia 903.930 vs 728.820 (+24,0%); más encuestas distintas (ETOI vs EPH). Se declara que no hay conciliación publicada y no se reparten los 10,4 pp. Verificación: estadística oficial recalculada (675.000/3.087.000 = 21,87%; 239.000/1.379.000 = 17,33%; semestre = promedio de 21,1 y 21,9; planilla CV_AX16: 1S25 20,47 y 2S25 19,2) + contraste INDEC (la dirección contra el semestre anterior coincide: las dos suben). Sin superlativos. Distinta de 2026-09-24-pobreza-primer-semestre-2026-mayores-65 (nacional) y de 2026-09-24-concordia-pobreza-no-es-desempleo (ranking INDEC por ciudad).",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-pobreza-caba-ciudad-casi-doble-que-indec"
     }
   ]
 }
