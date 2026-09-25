@@ -1269,6 +1269,13 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-turismo-agosto-deficit-brasil"
+    },
+    {
+      "tema": "cuánto cobra un empleado de comercio en octubre de 2026 / escala CCT 130/75 (FAECYS-CAC-CAME-UDECA), acuerdo del 22/07/2026 homologado por DI-2026-964-APN-DNRYRT#MCH (jul-ago-sep 1,9% no acumulativo sobre junio + bono $50.000 en jul y ago; revisión en octubre): vendedor B sept-nov/2026 $1.226.349 + $120.000 = $1.346.349, sin aumento pactado; ago-25 $1.092.759 -> ago-26 $1.322.148 (+21,0%) vs IPC nacional +33,5% (-9,4% real; con bono -7,7%)",
+      "angulo": "Corrida programada del 25/09/2026 19:30. Pregunta de plata ('¿cuánto cobra un empleado de comercio?', Día del Empleado de Comercio 26/09; iprofesional portada 25/09, infobae, cronista). Ancla en dos documentos de las partes que coinciden al peso: circular FAECYS del 28/07/2026 (hoja vendedor B, fila sept.-nov./2026) y planillas con firmas de la CAC (Vendedores B, 'septiembre de 2026 - noviembre de 2026', fila inicial); homologación DI-2026-964 (05/08/2026). Recalculada desde la escala de junio 2026 (vendedor B $1.153.746 + $120.000; 1,9% x $1.273.746 = $24.201,17 por tramo -> 1.177.947 / 1.202.148 / 1.226.349). Año anterior: circular del acuerdo 26/06/2025 (sec.org.ar), ago-25 $1.052.759 + $40.000. IPC nacional serie_ipc_divisiones.csv: 9.193,2441 -> 12.276,766. Contraste independiente: índice de salarios INDEC privado registrado jul/jul -3,1% (nota del 23/09) vs escala de comercio jul/jul -10,4%: misma dirección, diferencia por universo (piso de convenio vs salario pagado, todas las actividades). Cierra la serie de convenios de la semana (UOCRA +5,2%, playero +3,1%, doméstica -4,2%, comercio -9,4%). No se afirma el traslado del día no laborable del 26/09 (sin documento primario de 2026).",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-cuanto-cobra-empleado-comercio-octubre"
     }
   ]
 }
