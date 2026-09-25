@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T06:43:16-03:00",
+    "actualizado": "2026-09-25T07:45:15-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,21 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-cuanto-presta-banco-hipotecario-sueldo-promedio",
+      "titulo": "¿Cuánto te presta el banco para una casa si cobrás el sueldo promedio? $50,1 millones a 20 años: unos US$33.000",
+      "bajada": "Con el sueldo promedio de un trabajador registrado, $1.946.028 brutos en julio, los bancos privados que cobran 7,5% anual prestan como máximo $50,1 millones a 20 años. Son unos US$33.000: si el banco financia el 75%, alcanza para una propiedad de US$44.000 y hay que tener ahorrados otros US$11.000. Para pedir $100 millones hace falta cobrar el doble del promedio. Y en el último año la cuota en UVA subió más que los sueldos.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$50,1 M",
+      "numero_label": "préstamo hipotecario máximo a 20 años al 7,5% con el sueldo promedio registrado (RIPTE julio 2026, $1.615.203 de bolsillo; cuota hasta 25%)",
+      "fecha": "2026-09-25",
+      "hora": "08:30",
+      "archivo": "articulos/2026-09-25-cuanto-presta-banco-hipotecario-sueldo-promedio.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-cuanto-cuesta-sacar-barril-vaca-muerta",
       "titulo": "¿Cuánto cuesta sacar un barril de Vaca Muerta? US$4,5 a Vista: de los US$81 que facturó por cada uno, el pozo se llevó US$19 y el Estado, US$21",

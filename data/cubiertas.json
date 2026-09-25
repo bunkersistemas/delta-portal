@@ -1128,6 +1128,13 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-cuesta-sacar-barril-vaca-muerta"
+    },
+    {
+      "tema": "cuánto te presta el banco con el sueldo promedio / crédito hipotecario UVA para primera vivienda, septiembre 2026: con el RIPTE de julio ($1.946.028,12 bruto, $1.615.203 de bolsillo tras 17% de aportes) y cuota de hasta 25%, préstamo máximo $50,1 M a 20 años al 7,5% TNA (Galicia, Santander, Supervielle, Credicoop, Comafi), $62,6 M en el Nación (6,70%, 30 años), $43,6 M en el Hipotecario (15 años); ~US$33.000; propiedad de US$44.000 con 75% financiado y US$11.000 de ahorro; para $100 M hacen falta $3,88 M brutos (2 RIPTE); UVA +33,4% contra RIPTE +28,8% jul-25/jul-26 (cuota de 25% pasa a 25,9%)",
+      "angulo": "Pregunta de plata dada vuelta ('cuánto me prestan con mi sueldo' en vez de 'cuánto hay que ganar', que ya contestan La Nación y Ámbito cada mes) con el sueldo promedio oficial y todos los bancos del registro del BCRA. Tasas y plazos: régimen de transparencia del BCRA (api.bcra.gob.ar/transparencia) contrastado con las páginas de Supervielle (7,50% TNA / 7,76% TEA / 20 años / 75%) y Banco Nación (6,70% / 6,91% / 30 años / 75%). RIPTE por el camino de estadística oficial: página de Seguridad Social + serie de datos.gob.ar + contraste INDEC índice de salarios privado registrado (+29,7% vs +28,8% i.a.). Aportes 11+3+3 en leyes 24.241 art. 11, 19.032 art. 8 d y 23.660 art. 16 b. Cálculo propio con sistema francés, sin seguros ni Ganancias; supuesto declarado: 25% sobre el neto (sobre el bruto serían $60,4 M). Ingreso mínimo informado al BCRA mayor al sueldo promedio en Supervielle, Santander ($3 M), Credicoop ($3,5 M) y Comafi ($9 M).",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-cuanto-presta-banco-hipotecario-sueldo-promedio"
     }
   ]
 }
