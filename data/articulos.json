@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T19:43:01-03:00",
+    "actualizado": "2026-09-25T20:46:48-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-cuanto-interes-cobra-prestamo-personal-tarjeta",
+      "titulo": "Un préstamo personal cuesta 65,8% anual y financiar la tarjeta, 79,1%: por tu plazo fijo, el banco te paga 19,4%",
+      "bajada": "En agosto los bancos cobraron en promedio 65,8% anual por un préstamo personal y 79,1% por financiar el saldo de la tarjeta, según el BCRA, y le pagaron 19,4% a las personas por su plazo fijo. En un año la tasa de los préstamos personales bajó 8,3 puntos con la misma inflación: 33,5% contra 33,6%.",
+      "titulo_busqueda": "¿Cuánto interés cobra un préstamo personal en 2026? 65,8% anual en promedio",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "65,8%",
+      "numero_label": "tasa nominal anual promedio de los préstamos personales en agosto de 2026 (BCRA); 89,8% efectiva",
+      "fecha": "2026-09-25",
+      "hora": "20:30",
+      "archivo": "articulos/2026-09-25-cuanto-interes-cobra-prestamo-personal-tarjeta.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-cuanto-cobra-empleado-comercio-octubre",
       "titulo": "Un vendedor de comercio cobra $1.346.349 en octubre, lo mismo que en septiembre: en un año su sueldo subió 21% y los precios, 33,5%",

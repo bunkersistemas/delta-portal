@@ -1276,6 +1276,13 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-cobra-empleado-comercio-octubre"
+    },
+    {
+      "tema": "cuánto interés cobra un préstamo personal y la tarjeta / tasas activas de agosto 2026 (BCRA IMM): personales 65,8% TNA (TEA 89,8%), tarjetas 79,1% (TEA 115,2%), plazo fijo personas 19,4%; personales -8,3 pp contra ago-25 (74,1%) con la misma inflación interanual (33,5% vs 33,6%)",
+      "angulo": "Corrida programada del 25/09/2026 20:30. Pregunta de plata ('¿cuánto interés cobra un préstamo personal / la tarjeta?') detrás de los reclamos por las tasas de bancos, fintech y billeteras (pagina12, 25/09). Camino estadística oficial: (1) Informe Monetario Mensual ago-2026, cuadro de tasas activas: personales 65,8 TNA / 89,8 TEA, jul 65,8, jun 66,7, dic-25 71,0, ago-25 74,1; tarjetas 79,1 / 115,2, ago-25 86,6; (2) recalculada: API BCRA var 1219 (personales tasa fija) 65,78 / 65,77 / 66,68 / 70,93 / 74,09, los cinco al decimal; TEA de 65,8 capitalizada cada 30 días = 89,8. Tarjetas: var 1215 da 79,29 contra 79,1 del IMM (se usa el IMM y se aclara en la capa 4); (3) contraste: régimen de transparencia (API transparencia v1.0, TEA máximas declaradas por cada banco desde 01/08/2026): personales BNA 57,1-99,4, Credicoop 72,9, Ciudad 101,2, Patagonia 101,3-131,7, Comafi 127,4; tarjetas mediana de 32 bancos 110,7 (Galicia 117,6, Santander 113,6, BNA 107,1, BBVA 101,2, Macro 97,5). Plazo fijo personas var 1190 promedio de agosto 19,38 (IMM hasta $1 M: 18,8). IPC INDEC 33,5% i.a. ago-26, 33,6% ago-25, 1,66% mensual. Superlativo: jul-ago 2026 los niveles más bajos desde jul-2024 (63,24; ago-24 67,99). Cuota de $1 M a 12 meses $115.911 (estimación, sistema francés, sin IVA ni seguros). Candidatas no tomadas en esta corrida: empresas (A3 Mercados y Banco Comafi, hechos relevantes; ya hubo nota de EMPRESAS hoy), Electrolux cierra Rosario, YPF sube 1%, riesgo país sobre 600, reservas y pago al FMI.",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-cuanto-interes-cobra-prestamo-personal-tarjeta"
     }
   ]
 }

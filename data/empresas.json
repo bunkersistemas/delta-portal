@@ -1,11 +1,20 @@
 {
-  "generado": "2026-09-25T19:30",
+  "generado": "2026-09-25T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3573628",
+      "fuente": "CNV",
+      "fecha": "2026-09-25T19:33",
+      "entidad": "YPF S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN FINANCIERA - INFORME DE RECOMPRA DE OBLIGACIONES NEGOCIABLES",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E7268DCA-0510-4375-91F9-E3D94C2626F2"
+    },
     {
       "id": "cnv-3573440",
       "fuente": "CNV",

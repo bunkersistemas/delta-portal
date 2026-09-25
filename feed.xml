@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 25 Sep 2026 19:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 20:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un préstamo personal cuesta 65,8% anual y financiar la tarjeta, 79,1%: por tu plazo fijo, el banco te paga 19,4%</title>
+      <link>https://coninteres.com/articulos/2026-09-25-cuanto-interes-cobra-prestamo-personal-tarjeta.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-cuanto-interes-cobra-prestamo-personal-tarjeta.html</guid>
+      <pubDate>Fri, 25 Sep 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En agosto los bancos cobraron en promedio 65,8% anual por un préstamo personal y 79,1% por financiar el saldo de la tarjeta, según el BCRA, y le pagaron 19,4% a las personas por su plazo fijo. En un año la tasa de los préstamos personales bajó 8,3 puntos con la misma inflación: 33,5% contra 33,6%.</description>
+      <ci:numero>65,8%</ci:numero>
+      <ci:numeroEtiqueta>tasa nominal anual promedio de los préstamos personales en agosto de 2026 (BCRA); 89,8% efectiva</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-interes-cobra-prestamo-personal-tarjeta.png" length="75426" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-interes-cobra-prestamo-personal-tarjeta.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un vendedor de comercio cobra $1.346.349 en octubre, lo mismo que en septiembre: en un año su sueldo subió 21% y los precios, 33,5%</title>
       <link>https://coninteres.com/articulos/2026-09-25-cuanto-cobra-empleado-comercio-octubre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>rendimiento del bono del Tesoro de EE.UU. a 10 años al cierre del 23 de septiembre de 2026 (Departamento del Tesoro): el más alto desde julio de 2007; sumado al riesgo país da 10,77%, el costo aproximado en dólares más alto de 2026 para la Argentina</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-tasa-tesoro-eeuu-maximo-2007.png" length="80618" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-tasa-tesoro-eeuu-maximo-2007.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un plazo fijo en pesos rindió 15,6% entre enero y agosto y los precios subieron 21,3%: el ahorro perdió 4,7% de poder de compra</title>
-      <link>https://coninteres.com/articulos/2026-09-24-plazo-fijo-pierde-inflacion-2026.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-plazo-fijo-pierde-inflacion-2026.html</guid>
-      <pubDate>Thu, 24 Sep 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Con la tasa promedio que los bancos pagaron a las personas, un plazo fijo renovado mes a mes le ganó a la inflación de mayo a octubre de 2025. Desde diciembre, no: ocho meses seguidos rindió menos que los precios, y en agosto apenas empató. La tasa bajó de 43,9% a 19,4% anual en un año; la inflación, mucho menos.</description>
-      <ci:numero>−4,7%</ci:numero>
-      <ci:numeroEtiqueta>de poder de compra perdió entre enero y agosto de 2026 un plazo fijo en pesos renovado mes a mes a la tasa promedio para personas humanas del BCRA: rindió 15,6% contra una inflación de 21,3% (INDEC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-plazo-fijo-pierde-inflacion-2026.png" length="75006" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-plazo-fijo-pierde-inflacion-2026.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
