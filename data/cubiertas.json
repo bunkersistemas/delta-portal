@@ -1321,6 +1321,30 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-cobra-trabajador-avicola-septiembre"
+    },
+    {
+      "tema": "medios de pago / la tarjeta de débito pierde contra el QR: 163,7 M de compras en junio de 2026 (-6,9% i.a., -25,5% contra jun-2024; -13,4% real) mientras los pagos con transferencia pasan de 53,0 M a 109,4 M (Informe Mensual de Pagos Minoristas del BCRA, julio de 2026)",
+      "angulo": "DESCARTADA en la corrida programada del 25/09/2026 23:30 por falta de ángulo nuevo, no por verificación. Candidata del calendario (BCRA, Informe de Pagos Minoristas, HOY) y de cronista ('cae en picada el uso de las tarjetas de crédito'). La ancla llegaba a CONFIRMADO por el camino de estadística oficial: (1) informe-mensual-pagos-minoristas-2026-07.pdf, pág. 4: débito 163,7 M de transacciones en junio, -6,9% i.a. en cantidad y -13,4% real; crédito 176,2 M, +1,6% y -10,2% real; (2) recalculado desde series-informe-mensual-pagos-minoristas-2026-07.xlsx (hoja Tarjetas: 163.666.044 contra 175.873.615 = -6,94%; monto 5.188.216.929.217 / 4.486.196.780.937 deflactado con IPC nacional INDEC 11.826,4103 / 8.855,5681 = -13,40%; crédito -10,18%); (3) contraste: INDEC, encuesta de supermercados de julio de 2026 (serie_supermercados.xlsx, cuadro 4): débito 25,9% de las ventas contra 28,6% en jul-25 y 32,2% en jul-23, -14,7% real; otros medios (QR, billeteras) 15,6% contra 12,0%. Dato propio: entre jun-24 y jun-26 el débito perdió 56.109.977 compras por mes y los pagos con transferencia ganaron 56.410.622 (109.438.373 contra 53.027.751). Superlativo revisado: que el crédito supere al débito NO es primera vez (ya pasó en 2018-2019 y en abr, may y ago-nov de 2025). MOTIVO DEL DESCARTE: la historia (el QR crece, el débito cae en cantidad y en valor real) ya la contó 2026-07-20-pagos-qr-superan-100-millones (mayo: débito -7% y -13,9% real) y la participación del débito en supermercados salió en 2026-09-23-supermercados-julio-mas-bajo-desde-2017 (gráfico 2019-2026). Actualizarla un mes y sumar la cuenta de dos años no alcanza como ángulo nuevo. Si se retoma: cuando el QR alcance al débito en cantidad de operaciones (junio: 109,4 M contra 163,7 M), con la misma planilla.",
+      "fecha": "2026-09-25",
+      "estado": "descartada"
+    },
+    {
+      "tema": "extracciones en cajeros automáticos / 42,3 M en junio de 2026, -26,4% i.a. y -56,2% contra jun-2024 (96,6 M), monto promedio $114.000 (BCRA, Informe de Pagos Minoristas de julio de 2026)",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 23:30. Candidata derivada del mismo informe del BCRA ('¿se usa menos el efectivo?'). Documento y recálculo cierran (hoja Resto: 42.294.047 contra 57.500.167 y 96.615.578). MOTIVO DEL FRENO: el contraste independiente no acompaña la lectura de 'retirada del efectivo': en la encuesta de supermercados del INDEC el efectivo SUBIÓ de 15,7% a 16,6% de las ventas entre jul-25 y jul-26 (+33,0% nominal, casi a la par del IPC), y la caída de extracciones puede venir de otros canales (extrabancarias, closed loop) y de montos promedio más altos. Sin una explicación documentada de la diferencia, se frena.",
+      "fecha": "2026-09-25",
+      "estado": "descartada"
+    },
+    {
+      "tema": "empresas / hechos relevantes CNV del 23 y 25/09/2026: A3 Mercados (dos presentaciones) y Banco Comafi",
+      "angulo": "DESCARTADAS en la corrida programada del 25/09/2026 23:30 (hoy ya se publicaron notas de EMPRESAS: no regía el cupo). Adjuntos leídos en la vista pública de la CNV: A3 Mercados #3573566 '25.09.26 - Información Diaria PRAP' y #3556168 'ANEXO II - CONTROL ENVIO POR AIF 30.06.2026' (formularios de rutina, sin hecho económico); Banco Comafi #3572700 'Programa CEDEARs Braskem SA - Información relevante' (aviso del programa de CEDEAR, no de la empresa). El resto del bloque ya estaba tomado o descartado hoy (Vista, Loma Negra, Pecom, Surcos, MSU, Central Puerto, Molinos, IRSA, YPF). Sin material para una nota.",
+      "fecha": "2026-09-25",
+      "estado": "descartada"
+    },
+    {
+      "tema": "reservas del BCRA tras el pago de la primera cuota de capital al FMI (25/09/2026): caída de unos US$600 M en el día y US$1.553 M en la semana según la prensa",
+      "angulo": "DESCARTADA en la corrida programada del 25/09/2026 23:30 por falta de ángulo nuevo. Tema en infobae, lanacion, ámbito y cronista. El pago ya lo anticipó la nota del 24/09 (primera cuota de capital, 583,3 M DEG, ~US$794 M) y las reservas brutas y el freno de las compras salieron en la nota de las 21:30 de hoy (US$49.412 M al 22/09). Retomar con el Informe Monetario Diario que traiga el dato del 25/09, si la caída cambia la cuenta contra el récord del 25/08.",
+      "fecha": "2026-09-25",
+      "estado": "descartada"
     }
   ]
 }
