@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T09:41:26-03:00",
+    "actualizado": "2026-09-26T20:43:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-congreso-presupuesto-2027-costo-por-cargo",
+      "titulo": "El Congreso presupuesta $4,8 millones por mes por cargo en sueldos para 2027: el gasto total sube 20,3% contra lo que termina gastando este año",
+      "bajada": "El proyecto de Presupuesto 2027 le asigna al Congreso $817.429 millones de gasto en personal para 12.978 cargos: $4,8 millones por mes por cada uno, con aguinaldo y cargas sociales. Los \"casi $6 millones por empleado\" que circularon dividen todo el gasto, obra social y servicios incluidos. Y el Poder Legislativo crece 20,3% contra lo que el Gobierno estima que gastará en 2026, no 60%.",
+      "titulo_busqueda": "¿Cuánto cuesta un empleado del Congreso? El gasto por cargo en el Presupuesto 2027",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$4,8 millones",
+      "numero_label": "gasto en personal por cargo y por mes del Congreso en el proyecto de Presupuesto 2027 ($817.429 M / 12.978 cargos / 13), con aguinaldo y cargas",
+      "fecha": "2026-09-26",
+      "hora": "20:30",
+      "archivo": "articulos/2026-09-26-congreso-presupuesto-2027-costo-por-cargo.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-26-nueva-zelanda-working-holiday-salario-minimo-pesos",
       "titulo": "El salario mínimo de Nueva Zelanda paga $20.690 la hora: 10,8 veces el argentino, pero para ir con la Working Holiday hay que mostrar $3,6 millones",
