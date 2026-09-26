@@ -1283,6 +1283,21 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-cuanto-interes-cobra-prestamo-personal-tarjeta"
+    },
+    {
+      "tema": "deuda de las distribuidoras eléctricas con CAMMESA que compensa la ley de Zona Fría (sancionada por el Senado el 24/09/2026) / cuánto deben Edenor, Edesur y el grupo DESA",
+      "angulo": "DESCARTADA en la corrida programada del 25/09/2026 21:30. Pregunta de plata ('¿cuánto les deben las distribuidoras a CAMMESA?') detrás de iprofesional (25/09) y la sanción de la ley. El total de US$1.842 M y el desglose por empresa solo aparecen en la prensa (LPO, Letra P, El Destape), atribuidos a un informe de la Jefatura de Gabinete al Congreso que no se pudo localizar: el último informe JGM listado por el Senado es el 145 (29/04/2026) y su PDF no se pudo leer. Los medios no coinciden entre sí (Edesur US$343 M o 345 M; grupo DESA US$304 M o 474 M). El balance de Edenor al 30/06/2026 (6-K ante la SEC, 11/08/2026) da $394.013 M en tres planes de pago con CAMMESA (92.586 + 112.656 + 188.771; nota 24: 324.438 no corriente + 69.575 corriente) y $235.413 M de deuda comercial por compra de energía, pero sin una segunda fuente con la misma definición y fecha. Retomar si aparece el informe JGM o una resolución de la Secretaría de Energía con los montos.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla (deuda total y por empresa) solo en prensa, atribuida a un informe JGM no localizado, con cifras contradictorias entre medios"
+    },
+    {
+      "tema": "compras de dólares del BCRA en 2026 / US$14.325,4 M al 22/09/2026 (43% sobre el escenario base de US$10.000 M, cruzado el 03/06), pero septiembre US$218 M en 16 días hábiles = US$13,6 M por día contra US$138,5 M en abril (-90%); agosto US$770 M (38,5 por día); para US$17.000 M faltan US$2.675 M (~US$39 M por día en 68-69 días hábiles)",
+      "angulo": "Corrida programada del 25/09/2026 21:30. Pregunta de plata ('¿cuántos dólares compró el Banco Central?') detrás de cinco portadas (infobae, lanacion, ambito, cronista, iprofesional: el BCRA no compró el 25/09 y las reservas cayeron). Ángulo nuevo frente a 2026-07-19-bcra-compra-record-dolares (récord diario de US$532 M) y 2026-08-25-reservas-bcra-record: el derrumbe del ritmo de compras y la cuenta contra el programa. Camino estadística oficial: (1) Informe Monetario Diario del 25/09/2026 (datos al 22/09): compra de divisas día 7, mes 218, año 14.325,410; IMM agosto 2026: 770 en el mes y 14.107 acumulado; (2) recalculado: API BCRA variable 78 sumada desde el 02/01: 14.107,4 al 31/08 y 14.325,4 al 22/09, al decimal; (3) contraste: FMI, staff report de la segunda revisión (08/05/2026): alrededor de US$7.500 M acumulados, más de US$80 M por día; la serie da 7.485,4 al 08/05 en 84 días hábiles (89,1 por día). Programa: comunicado BCRA de diciembre de 2025 (US$10.000 M base, hasta US$17.000 M, 5% del volumen diario). Superlativo: septiembre es el menor promedio diario del año (valor previo: agosto 38,5; enero 55,2). Contexto 2025: saldo neto ene-24/09/2025 US$243 M. Reservas brutas 22/09 US$49.412 M (IMD), US$1.500 M debajo del récord del 25/08 (50.912). El 25/09 sin compras solo según Infobae, fuera de las cifras. Candidatas no tomadas: deuda de distribuidoras con CAMMESA (FRENADA, ver arriba), pobreza infantil 44,5% (INDEC, dato del día ya publicado por todos), riesgo país sobre 600 (sin ángulo nuevo tras la nota del 24/09), Día del Empleado de Comercio (repite la escala publicada hoy), Electrolux cierra Rosario (sin documento primario), Tesla llega a la Argentina y acuerdo automotriz con México (sin precios ni documento oficial), empresas CNV (A3 Mercados y Banco Comafi: presentaciones de rutina; Central Puerto, recompra ya descartada hoy; cupo de EMPRESAS ya cubierto con IRSA).",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-bcra-compras-dolares-septiembre-ritmo"
     }
   ]
 }

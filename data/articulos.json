@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T20:46:48-03:00",
+    "actualizado": "2026-09-25T21:45:23-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-bcra-compras-dolares-septiembre-ritmo",
+      "titulo": "El Banco Central compró US$14.325 millones en 2026, pero en septiembre bajó a US$13,6 millones por día hábil: 90% menos que en abril",
+      "bajada": "El Banco Central compró US$14.325 millones entre enero y el 22 de septiembre, 43% más que los US$10.000 millones de su escenario base para todo 2026. Pero el ritmo se desplomó: en septiembre compra en promedio US$13,6 millones por día hábil, contra US$138,5 millones en abril.",
+      "titulo_busqueda": "¿Cuántos dólares compró el Banco Central en 2026? US$14.325 millones, pero casi nada en septiembre",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$13,6 M",
+      "numero_label": "compra promedio de dólares del BCRA por día hábil en septiembre de 2026 (al 22/09); en abril, US$138,5 M",
+      "fecha": "2026-09-25",
+      "hora": "21:30",
+      "archivo": "articulos/2026-09-25-bcra-compras-dolares-septiembre-ritmo.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-cuanto-interes-cobra-prestamo-personal-tarjeta",
       "titulo": "Un préstamo personal cuesta 65,8% anual y financiar la tarjeta, 79,1%: por tu plazo fijo, el banco te paga 19,4%",
