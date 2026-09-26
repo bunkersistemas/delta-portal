@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T00:43:21-03:00",
+    "actualizado": "2026-09-26T01:55:04-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-autos-mexico-importaciones-caen-sin-acuerdo",
+      "titulo": "Las compras de autos a México cayeron 65,6% entre junio y agosto, después de que venció el cupo que los dejaba entrar sin arancel",
+      "bajada": "Entre junio y agosto de 2026 la Argentina importó autos de México por US$27,2 millones, contra US$79,0 millones en los mismos meses de 2025, según la base de comercio exterior del INDEC. El 18 de marzo venció el cupo del acuerdo automotor entre los dos países y la negociación para renovarlo está trabada.",
+      "titulo_busqueda": "¿Qué pasa con los autos que vienen de México? Las importaciones cayeron 65,6% sin el acuerdo",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−65,6%",
+      "numero_label": "cayeron las importaciones de autos desde México en junio-agosto de 2026 contra igual período de 2025 (INDEC, valor FOB)",
+      "fecha": "2026-09-26",
+      "hora": "02:30",
+      "archivo": "articulos/2026-09-26-autos-mexico-importaciones-caen-sin-acuerdo.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-26-electrodomesticos-produccion-cae-electrolux",
       "titulo": "La fabricación de electrodomésticos cayó 27,8% en 2026, el peor enero-julio desde 2020, y Electrolux deja de producir en Rosario",

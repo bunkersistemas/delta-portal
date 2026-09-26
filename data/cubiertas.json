@@ -1352,6 +1352,13 @@
       "fecha": "2026-09-26",
       "estado": "publicada",
       "articulo_id": "2026-09-26-electrodomesticos-produccion-cae-electrolux"
+    },
+    {
+      "tema": "autos importados de México tras el vencimiento del cupo del ACE 55 (18/03/2026) / INDEC NCM 8703 origen México: jun-ago 2026 US$27.202.336 FOB contra US$78.967.546 en jun-ago 2025 (−65,6%); abr-may 2026 US$51,4 M y US$41,1 M por envíos en tránsito; participación 10,9% (mar-may 26) -> 2,1% (jun-ago 26), 5,2% un año antes; 8704 −92,4%; México a UN Comtrade: feb-26 US$63,1 M y abr-26 US$7,5 M (−59,7% i.a.); patentamientos DNRPA de 12 modelos mexicanos importados 2.464 (mar) -> 1.333 (ago), −45,9%; cupo del Octavo Protocolo US$773.125.578 FOB (19/03/2025-18/03/2026)",
+      "angulo": "Corrida programada del 26/09/2026 01:30. Pregunta de plata detrás de la nota de infobae (portada, 25/09: qué modelos podrían encarecerse 35%): qué pasa con los autos de México sin el acuerdo. Nadie lo había medido con datos: la cifra ancla es una suma propia sobre la base oficial de importaciones del INDEC (código de país 218 = México, confirmado en el propio sistema comex del INDEC). Camino de verificación: estadística oficial recalculada + contraste independiente (exportaciones que informa México a UN Comtrade: jun-25 US$30,8 M vs INDEC US$30,7 M; y patentamientos DNRPA). El arancel de 35% es el AEC de la Decisión CMC 70/00 (UNLP) y lo confirma Infobae para los autos mexicanos. La nota no afirma subas de precios ni cuenta unidades importadas; exportaciones argentinas a México bajo secreto estadístico.",
+      "fecha": "2026-09-26",
+      "estado": "publicada",
+      "articulo_id": "2026-09-26-autos-mexico-importaciones-caen-sin-acuerdo"
     }
   ]
 }
