@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 26 Sep 2026 05:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 06:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El seguro obligatorio del auto paga hasta $20,8 millones por una muerte: el monto quedó fijo en enero y ya compra 15% menos</title>
+      <link>https://coninteres.com/articulos/2026-09-26-seguro-obligatorio-auto-cuanto-cubre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-26-seguro-obligatorio-auto-cuanto-cubre.html</guid>
+      <pubDate>Sat, 26 Sep 2026 07:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El seguro obligatorio de responsabilidad civil paga hasta $20,8 millones por cada persona que muere o queda con incapacidad total en un choque, más $910.000 de gastos de sanatorio y $533.000 de sepelio. La Superintendencia de Seguros lo actualiza una vez por año: desde enero, la inflación le sacó 15,2% de poder de compra.</description>
+      <ci:numero>$20,8 M</ci:numero>
+      <ci:numeroEtiqueta>tope por persona del seguro obligatorio del auto por muerte o incapacidad total y permanente, pólizas desde el 01/01/2026 (Res. SSN 589/2025); $16 M en 2025 y $8 M en 2024</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-seguro-obligatorio-auto-cuanto-cubre.png" length="75555" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-seguro-obligatorio-auto-cuanto-cubre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las renovables cubrieron el 18,9% de la demanda eléctrica de 2025: la ley pedía 20%, y el Congreso les acaba de extender los beneficios hasta 2045</title>
       <link>https://coninteres.com/articulos/2026-09-26-renovables-meta-20-por-ciento-2025.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de inflación promedio por mes hace falta de septiembre a diciembre para que 2026 cierre en 29%, la meta del Presupuesto 2027: ya se acumuló 21,3% a agosto (cálculo propio con el IPC del INDEC)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-inflacion-meta-29-ritmo-necesario.png" length="80511" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-inflacion-meta-29-ritmo-necesario.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Concordia tiene 56,2% de pobres y 6,1% de desocupados; Rosario, 23,1% y 11,5%: el mapa de la pobreza no es el del desempleo</title>
-      <link>https://coninteres.com/articulos/2026-09-24-concordia-pobreza-no-es-desempleo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-concordia-pobreza-no-es-desempleo.html</guid>
-      <pubDate>Thu, 24 Sep 2026 23:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Concordia es la ciudad con la pobreza más alta de las que mide el INDEC: 56,2% en el primer semestre de 2026. Pero su desocupación, 6,1%, no supera el promedio del país. En Gran Rosario pasa lo contrario. En las 32 áreas de la encuesta, la pobreza no acompaña al desempleo: acompaña a cuánta gente trabaja.</description>
-      <ci:numero>56,2%</ci:numero>
-      <ci:numeroEtiqueta>de las personas de Concordia bajo la línea de pobreza en el 1er semestre de 2026 (INDEC, cuadro 4.1), la estimación más alta de las 32 áreas; su desocupación fue 6,1% en los dos trimestres</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-concordia-pobreza-no-es-desempleo.png" length="76276" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-concordia-pobreza-no-es-desempleo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T05:47:28-03:00",
+    "actualizado": "2026-09-26T06:43:59-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-seguro-obligatorio-auto-cuanto-cubre",
+      "titulo": "El seguro obligatorio del auto paga hasta $20,8 millones por una muerte: el monto quedó fijo en enero y ya compra 15% menos",
+      "bajada": "El seguro obligatorio de responsabilidad civil paga hasta $20,8 millones por cada persona que muere o queda con incapacidad total en un choque, más $910.000 de gastos de sanatorio y $533.000 de sepelio. La Superintendencia de Seguros lo actualiza una vez por año: desde enero, la inflación le sacó 15,2% de poder de compra.",
+      "titulo_busqueda": "¿Cuánto cubre el seguro obligatorio del auto en 2026? $20,8 millones por muerte o incapacidad",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$20,8 M",
+      "numero_label": "tope por persona del seguro obligatorio del auto por muerte o incapacidad total y permanente, pólizas desde el 01/01/2026 (Res. SSN 589/2025); $16 M en 2025 y $8 M en 2024",
+      "fecha": "2026-09-26",
+      "hora": "07:30",
+      "archivo": "articulos/2026-09-26-seguro-obligatorio-auto-cuanto-cubre.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-26-renovables-meta-20-por-ciento-2025",
       "titulo": "Las renovables cubrieron el 18,9% de la demanda eléctrica de 2025: la ley pedía 20%, y el Congreso les acaba de extender los beneficios hasta 2045",
