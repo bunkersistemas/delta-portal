@@ -1449,6 +1449,13 @@
       "fecha": "2026-09-26",
       "estado": "publicada",
       "articulo_id": "2026-09-26-cuanto-cobra-metalurgico-uom-septiembre"
+    },
+    {
+      "tema": "cuánto se gana en Nueva Zelanda con la Working Holiday / salario mínimo adulto NZ$23,95 por hora desde el 01/04/2026 (Minimum Wage Order 2026; antes NZ$23,50) = $20.690,18 al BCRA del 25/09/2026 (NZD $863,89065) contra SMVM sep-26 $1.919 la hora (Res. 4/2026): 10,8 veces; 18,5 horas NZ = un SMVM; visa Argentina 1.000 plazas, cerrada para 2026, fondos NZ$4.200 ($3.628.341, 9,45 SMVM) + tarifa desde NZ$770 ($665.196); hace un año $18.113,34 (NZ$23,50 x $770,7805): +14,2% en pesos contra IPC +33,5% (-14,5% real)",
+      "angulo": "Corrida programada del 26/09/2026 09:30. Pregunta de plata (\"¿cuánto se gana en Nueva Zelanda con la Working Holiday?\") detrás de lanacion (23/09, visa abierta el 24/09) e iprofesional; los medios dan el salario en NZD, nadie lo pasa a pesos con tipo de cambio oficial, contra el SMVM ni muestra que el peso le comió 14,5% en un año. Verificación: dos fuentes que coinciden para NZ$23,95 (Employment New Zealand, tabla de tarifas; business.govt.nz, aviso de la suba desde NZ$23,50); legislation.govt.nz y MBIE devolvieron 403/vacío, la norma no se cita como leída. Tipo de cambio BCRA (API estadisticascambiarias, NZD 0,5663 x USD 1.525,5 = 863,89065) contrastado con BCE (0,56709 USD por NZD, 0,14% de diferencia). SMVM del art. 1 de la Res. 4/2026 (BO 02/09/2026). Visa: ficha de Immigration New Zealand. IPC INDEC serie_ipc_divisiones.csv. Sin superlativos. Clarín y TN no se pudieron leer en el barrido.",
+      "fecha": "2026-09-26",
+      "estado": "publicada",
+      "articulo_id": "2026-09-26-nueva-zelanda-working-holiday-salario-minimo-pesos"
     }
   ]
 }

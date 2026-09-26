@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 26 Sep 2026 08:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 09:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El salario mínimo de Nueva Zelanda paga $20.690 la hora: 10,8 veces el argentino, pero para ir con la Working Holiday hay que mostrar $3,6 millones</title>
+      <link>https://coninteres.com/articulos/2026-09-26-nueva-zelanda-working-holiday-salario-minimo-pesos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-26-nueva-zelanda-working-holiday-salario-minimo-pesos.html</guid>
+      <pubDate>Sat, 26 Sep 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Desde el 1 de abril, el mínimo neozelandés es de 23,95 dólares de ese país por hora. Al tipo de cambio del Banco Central son $20.690, contra $1.919 del salario mínimo argentino de septiembre. Pero la visa exige tener NZ$4.200 para vivir, que son $3,63 millones, y en un año esa hora en pesos subió 14,2%, contra una inflación de 33,5%.</description>
+      <ci:numero>$20.690</ci:numero>
+      <ci:numeroEtiqueta>una hora de salario mínimo en Nueva Zelanda (NZ$23,95) al tipo de cambio del BCRA del 25/09/2026, bruta</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-nueva-zelanda-working-holiday-salario-minimo-pesos.png" length="84515" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-nueva-zelanda-working-holiday-salario-minimo-pesos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un metalúrgico no puede cobrar menos de $1.131.201 en septiembre: en el año a agosto ese piso perdió 7,9% contra la inflación</title>
       <link>https://coninteres.com/articulos/2026-09-26-cuanto-cobra-metalurgico-uom-septiembre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>beca mensual del Estado nacional para un oro individual en los últimos Juegos Suramericanos, desde septiembre de 2026 (Resolución 139/2026); compra 19,1% menos que los $648.000 de agosto de 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-campeon-suramericano-beca.png" length="84350" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-campeon-suramericano-beca.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un petrolero de Vaca Muerta cobra $8,79 millones brutos por mes en promedio: cuatro veces el sueldo privado del país</title>
-      <link>https://coninteres.com/articulos/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.html</guid>
-      <pubDate>Fri, 25 Sep 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Según los datos oficiales del sistema previsional, en mayo de 2026 un asalariado registrado de la extracción de petróleo y gas en Neuquén cobró en promedio $8.794.703 brutos: 4,1 veces el promedio privado del país y 2,1 veces el de la provincia. En un año le ganó 5,6% a la inflación; el promedio nacional perdió 1,3%. En las operadoras, $12,7 millones; en las empresas de servicios, donde están ocho de cada diez, $7,9 millones.</description>
-      <ci:numero>$8,79 M</ci:numero>
-      <ci:numeroEtiqueta>remuneración bruta promedio de un asalariado registrado de la extracción de petróleo y gas en Neuquén, mayo de 2026 (OEDE-SIPA), 4,1 veces el promedio privado del país</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.png" length="72204" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-petrolero-vaca-muerta.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
