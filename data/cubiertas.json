@@ -1366,6 +1366,21 @@
       "fecha": "2026-09-26",
       "estado": "publicada",
       "articulo_id": "2026-09-26-discapacidad-nomenclador-centro-de-dia-inflacion"
+    },
+    {
+      "tema": "recesión técnica / cuánto tendría que crecer la actividad en ago-sep 2026 para que el 3T no caiga: EMAE desest 2T prom. 154,143, jul 149,648 -> ago+sep deben promediar 156,390 (máx. de la serie mar-26 156,737): 2,97% por mes (6,04% acumulado) o 4,51% de una vez; subas >=3% solo 4 veces desde 2004 (ene-10, may-20, jun-20, dic-21), dos seguidas solo may-jun 2020; escenarios 3T: como julio -2,9%, vuelta a junio -1,0%, vuelta al récord +0,1%; PIB desest 2T-26 -0,59%",
+      "angulo": "Corrida programada del 26/09/2026 03:30. Pregunta de la gente (¿estamos en recesión técnica?) en infobae, lanacion y cronista (26/09). Ángulo nuevo frente a la nota del EMAE de julio (24/09, que no afirmaba recesión) y la del PIB 2T (23/09): la aritmética del tercer trimestre, la rareza histórica del rebote necesario y la última racha (4T-23 a 2T-24). Camino estadística oficial recalculada: informe EMAE jul y PIB 2T (INDEC) + planillas sh_emae_mensual_base2004 y sh_oferta_demanda_desest_09_26 (EMAE trimestral y PIB desest coinciden al decimal 2022-1T26; 2T26 -0,62 vs -0,59) + contraste: Lousteau 2,9% y Telechea ~3% (La Nación 25/09), LCG 3% y Empiria 6% (Infobae 26/09); agosto: IPI FIEL -0,95% (planilla, 4 meses seguidos en baja) y Construya -3,46%. No afirma recesión ni proyecta.",
+      "fecha": "2026-09-26",
+      "estado": "publicada",
+      "articulo_id": "2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer"
+    },
+    {
+      "tema": "empresas / hechos relevantes CNV 24-25/09/2026: YPF recompra de ON Clase XXVII (21-25/09) y Central Puerto recompra de acciones propias (24 y 25/09); Vista Energy aviso de fecha de resultados 3T (SEC 6-K 23/09)",
+      "angulo": "DESCARTADAS en la corrida programada del 26/09/2026 03:30, aunque regía el cupo (hoy sin nota de EMPRESAS). Adjuntos leídos en la CNV: YPF recompró ON Clase XXVII (YMCTO) por VN US$7.961.386 ($12.092.845.940,60, 99,87% del VN) entre el 21 y el 25/09, que con la recompra anterior (VN US$23.368.197) suma US$31,3 M de una emisión de US$127.904.997 que vence en octubre de 2026; Central Puerto compró 100.000 acciones propias a $2.007,63 ($200.763.464) el 25/09, igual que el 24/09. Razón: operaciones chicas y de rutina, del mismo tipo que las descartadas el 25/09; ninguna cifra sostiene una nota con serie y contexto. Vista solo anuncia una fecha.",
+      "fecha": "2026-09-26",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "recompras chicas y de rutina; aviso de fecha sin cifras"
     }
   ]
 }

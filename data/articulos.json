@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T02:42:05-03:00",
+    "actualizado": "2026-09-26T03:42:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer",
+      "titulo": "La actividad tendría que crecer 3% en agosto y otro 3% en septiembre para esquivar la recesión técnica: dos saltos así seguidos solo se vieron en 2020",
+      "bajada": "Con la serie del INDEC, agosto y septiembre tendrían que crecer 3,0% cada uno para que el tercer trimestre no quede debajo del segundo, que ya cayó 0,6%. Desde 2004 hubo cuatro meses con subas de 3% o más, y dos seguidos solo en mayo y junio de 2020, a la salida de la cuarentena. Los primeros indicadores privados de agosto dieron baja.",
+      "titulo_busqueda": "¿Argentina entra en recesión técnica? Cuánto tiene que crecer la economía en agosto y septiembre para evitarla",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "3,0%",
+      "numero_label": "lo que tendría que crecer la actividad en agosto y otra vez en septiembre (EMAE desestacionalizado) para que el 3er trimestre de 2026 no quede debajo del 2do",
+      "fecha": "2026-09-26",
+      "hora": "04:00",
+      "archivo": "articulos/2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-26-discapacidad-nomenclador-centro-de-dia-inflacion",
       "titulo": "El arancel oficial de un centro de día para personas con discapacidad es de $1.120.293 por mes: en agosto compraba 23,7% menos que en noviembre de 2023",

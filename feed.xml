@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 26 Sep 2026 02:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 03:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La actividad tendría que crecer 3% en agosto y otro 3% en septiembre para esquivar la recesión técnica: dos saltos así seguidos solo se vieron en 2020</title>
+      <link>https://coninteres.com/articulos/2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer.html</guid>
+      <pubDate>Sat, 26 Sep 2026 04:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Con la serie del INDEC, agosto y septiembre tendrían que crecer 3,0% cada uno para que el tercer trimestre no quede debajo del segundo, que ya cayó 0,6%. Desde 2004 hubo cuatro meses con subas de 3% o más, y dos seguidos solo en mayo y junio de 2020, a la salida de la cuarentena. Los primeros indicadores privados de agosto dieron baja.</description>
+      <ci:numero>3,0%</ci:numero>
+      <ci:numeroEtiqueta>lo que tendría que crecer la actividad en agosto y otra vez en septiembre (EMAE desestacionalizado) para que el 3er trimestre de 2026 no quede debajo del 2do</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer.png" length="76591" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El arancel oficial de un centro de día para personas con discapacidad es de $1.120.293 por mes: en agosto compraba 23,7% menos que en noviembre de 2023</title>
       <link>https://coninteres.com/articulos/2026-09-26-discapacidad-nomenclador-centro-de-dia-inflacion.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>Jurisdicción 91 (Obligaciones a Cargo del Tesoro) en el proyecto de Presupuesto 2027: +19,4% contra la ley de 2026, +162,6% contra el cierre estimado de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91.png" length="86260" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Cuánto te devuelven por los cortes de luz: Edesur le debe en promedio $29.143 a cada uno de 715.417 usuarios por el último verano</title>
-      <link>https://coninteres.com/articulos/2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor.html</guid>
-      <pubDate>Thu, 24 Sep 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El ENRE publicó el informe preliminar del semestre septiembre 2025-febrero 2026. Edesur tiene que bonificar $20.849 millones a uno de cada cuatro usuarios de su red; en Cañuelas el promedio llega a $127.257. Edenor, que cumplió los topes en casi toda su área, debe $631 millones a 123.981 usuarios. El apagón del sábado 19 no entra en esta cuenta: se va a medir en el semestre que empezó este mes.</description>
-      <ci:numero>$29.143</ci:numero>
-      <ci:numeroEtiqueta>bonificación promedio por usuario que Edesur debe acreditar por los cortes de sep-2025 a feb-2026 (ENRE, informe preliminar del semestre 59)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor.png" length="71268" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-cortes-luz-cuanto-devuelven-edesur-edenor.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
