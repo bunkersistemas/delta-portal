@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T22:44:20-03:00",
+    "actualizado": "2026-09-26T00:43:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-electrodomesticos-produccion-cae-electrolux",
+      "titulo": "La fabricación de electrodomésticos cayó 27,8% en 2026, el peor enero-julio desde 2020, y Electrolux deja de producir en Rosario",
+      "bajada": "Entre enero y julio las fábricas argentinas de heladeras, lavarropas, cocinas y demás aparatos para el hogar produjeron 27,8% menos que un año antes, según el INDEC. Llevan doce meses seguidos en baja y el empleo registrado del rubro cayó 13,5%. En ese contexto, Electrolux anunció que deja de fabricar en su planta de Rosario y pasa a importar.",
+      "titulo_busqueda": "¿Por qué cierra Electrolux en Argentina? La producción de electrodomésticos cayó 27,8% en 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−27,8%",
+      "numero_label": "cayó la producción de aparatos de uso doméstico en enero-julio de 2026 contra igual período de 2025 (INDEC, IPI manufacturero)",
+      "fecha": "2026-09-26",
+      "hora": "01:30",
+      "archivo": "articulos/2026-09-26-electrodomesticos-produccion-cae-electrolux.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-cuanto-cobra-trabajador-avicola-septiembre",
       "titulo": "Un trabajador avícola cobra $2.086.331 de básico en septiembre: en un año su sueldo quedó 0,2% debajo de la inflación, pero compra 7,3% más pollo",

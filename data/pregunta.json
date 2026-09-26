@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-09-25",
-  "pregunta": "En el primer semestre de 2026 la pobreza fue 32,3%, contra 28,2% en el segundo semestre de 2025. En esos seis meses, el ingreso por persona de los hogares subió 11,5%. ¿Qué explica, sobre todo, que haya más pobres?",
+  "fecha": "2026-09-26",
+  "pregunta": "Entre enero y agosto de 2026 los precios subieron 21,3%. En el Presupuesto 2027 el Gobierno escribió una inflación de 29% para todo 2026. ¿Cuánto pueden subir los precios, como máximo, entre septiembre y diciembre para que se cumpla?",
   "opciones": [
-    "Que la canasta que marca la línea de pobreza subió más que los ingresos: 19,6%, y más hogares quedaron por debajo",
-    "Que subió la desocupación: la pobreza solo crece cuando se pierden empleos",
-    "Que los ingresos bajaron: si hay más pobres, es porque la gente cobra menos pesos que antes"
+    "6,35% en los cuatro meses, porque cada suba se aplica sobre precios que ya subieron",
+    "7,7%: la diferencia entre 29% y 21,3%",
+    "29%, porque la meta se vuelve a contar desde septiembre"
   ],
   "correcta": 0,
-  "explicacion": "El INDEC cuenta como pobre a un hogar cuyo ingreso no alcanza la canasta básica total que le corresponde. Por eso lo que importa es la carrera entre las dos: entre un semestre y otro los ingresos subieron 11,5% en pesos, no bajaron, pero la canasta subió 19,6% y más hogares quedaron debajo de la línea. El desempleo influye, pero no es el único camino: se puede tener trabajo y ser pobre. Contra el primer semestre de 2025 la carrera fue pareja (canasta 33,1%, ingresos 31,3%), y por eso la pobreza de hoy se parece a la de hace un año (31,6%).",
-  "nota": "articulos/2026-09-24-pobreza-primer-semestre-2026-mayores-65.html",
+  "explicacion": "Las subas de precios no se suman: se encadenan. Si algo costaba $100 en diciembre de 2025, en agosto cuesta $121,30. Para terminar el año en $129 (29% más que en diciembre) solo puede subir $7,70 sobre $121,30, que es 6,35%. Restar 29 menos 21,3 da 7,7 y exagera el margen, porque trata cada suba como si se aplicara sobre el precio de diciembre y no sobre el que ya subió. Repartido en cuatro meses, 6,35% equivale a 1,55% por mes.",
+  "nota": "articulos/2026-09-25-inflacion-meta-29-ritmo-necesario.html",
   "leccion": ""
 }

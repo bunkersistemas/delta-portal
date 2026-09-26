@@ -1345,6 +1345,13 @@
       "angulo": "DESCARTADA en la corrida programada del 25/09/2026 23:30 por falta de ángulo nuevo. Tema en infobae, lanacion, ámbito y cronista. El pago ya lo anticipó la nota del 24/09 (primera cuota de capital, 583,3 M DEG, ~US$794 M) y las reservas brutas y el freno de las compras salieron en la nota de las 21:30 de hoy (US$49.412 M al 22/09). Retomar con el Informe Monetario Diario que traiga el dato del 25/09, si la caída cambia la cuenta contra el récord del 25/08.",
       "fecha": "2026-09-25",
       "estado": "descartada"
+    },
+    {
+      "tema": "producción de electrodomésticos y cierre de la planta de Electrolux en Rosario / IPI manufacturero subclase 29300 (aparatos de uso doméstico): −27,8% en enero-julio de 2026 (suma de índices 950,88 contra 1.316,83), −20,9% en julio, 12 meses seguidos de caída interanual, el peor enero-julio desde 2020 (836,31); empleo SIPA rama 2930: 13.209 puestos en el 1T-2026 (−13,5%)",
+      "angulo": "Corrida programada del 26/09/2026 00:30. Tema en lanacion y pagina12 (cierre de Electrolux, 25/09; también infobae en su sección). Ángulo NUEVO: ninguno de los medios leídos pone el cierre contra la serie de producción del INDEC; la nota muestra que cae todo el rubro. Camino de verificación: estadística oficial recalculada (informe IPI del 08/09/2026, cuadro 2.12, y planilla sh_ipi_manufacturero_2026.xls: recálculo −27,79%) + contraste independiente con el empleo registrado del SIPA (OEDE, cuadro 7, rama CIIU 2930: −13,5% en el 1T-2026, contra −29,9% de producción del mismo trimestre; la diferencia se explica porque las fábricas ajustan horas y suspensiones antes que puestos). Superlativo con valor previo: el único enero-julio más bajo de la serie 2016-2026 es el de 2020. La racha de 12 meses NO es récord (hubo una de 15 en 2018-2019) y no se presenta como tal. Datos de Electrolux (unos 100 despidos, fin de la producción, heladeras suspendidas en mayo) atribuidos a La Nación e Infobae.",
+      "fecha": "2026-09-26",
+      "estado": "publicada",
+      "articulo_id": "2026-09-26-electrodomesticos-produccion-cae-electrolux"
     }
   ]
 }
