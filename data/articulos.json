@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-25T21:45:23-03:00",
+    "actualizado": "2026-09-25T22:44:20-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-cuanto-cobra-trabajador-avicola-septiembre",
+      "titulo": "Un trabajador avícola cobra $2.086.331 de básico en septiembre: en un año su sueldo quedó 0,2% debajo de la inflación, pero compra 7,3% más pollo",
+      "bajada": "La federación de la alimentación y la cámara de procesadoras avícolas fijaron para septiembre un básico de $2.086.331,50 para la categoría inicial del convenio 783/20. Entre agosto de 2025 y agosto de 2026 ese básico subió 33,3%, dos décimas menos que los precios (33,5%). Pero el pollo entero subió 24,2%: con el mismo sueldo, el trabajador compra 7,3% más kilos que hace un año.",
+      "titulo_busqueda": "¿Cuánto cobra un trabajador avícola en septiembre de 2026? $2.086.331 de básico",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$2.086.331",
+      "numero_label": "de básico cobra la categoría inicial del convenio avícola (CCT 783/20) en septiembre de 2026",
+      "fecha": "2026-09-25",
+      "hora": "22:30",
+      "archivo": "articulos/2026-09-25-cuanto-cobra-trabajador-avicola-septiembre.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-25-bcra-compras-dolares-septiembre-ritmo",
       "titulo": "El Banco Central compró US$14.325 millones en 2026, pero en septiembre bajó a US$13,6 millones por día hábil: 90% menos que en abril",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 25 Sep 2026 21:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 25 Sep 2026 22:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un trabajador avícola cobra $2.086.331 de básico en septiembre: en un año su sueldo quedó 0,2% debajo de la inflación, pero compra 7,3% más pollo</title>
+      <link>https://coninteres.com/articulos/2026-09-25-cuanto-cobra-trabajador-avicola-septiembre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-cuanto-cobra-trabajador-avicola-septiembre.html</guid>
+      <pubDate>Fri, 25 Sep 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La federación de la alimentación y la cámara de procesadoras avícolas fijaron para septiembre un básico de $2.086.331,50 para la categoría inicial del convenio 783/20. Entre agosto de 2025 y agosto de 2026 ese básico subió 33,3%, dos décimas menos que los precios (33,5%). Pero el pollo entero subió 24,2%: con el mismo sueldo, el trabajador compra 7,3% más kilos que hace un año.</description>
+      <ci:numero>$2.086.331</ci:numero>
+      <ci:numeroEtiqueta>de básico cobra la categoría inicial del convenio avícola (CCT 783/20) en septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-trabajador-avicola-septiembre.png" length="80490" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-trabajador-avicola-septiembre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Banco Central compró US$14.325 millones en 2026, pero en septiembre bajó a US$13,6 millones por día hábil: 90% menos que en abril</title>
       <link>https://coninteres.com/articulos/2026-09-25-bcra-compras-dolares-septiembre-ritmo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cayó la actividad en julio de 2026 frente a junio (EMAE del INDEC, desestacionalizado): la mayor baja mensual desde abril de 2020; −1,4% contra julio de 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-emae-julio-mayor-caida-desde-2020.png" length="71870" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-emae-julio-mayor-caida-desde-2020.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La pobreza subió a 32,3% y cortó tres semestres de baja; contra hace un año, el único grupo de edad con una suba que supera el margen de error es el de los mayores de 65</title>
-      <link>https://coninteres.com/articulos/2026-09-24-pobreza-primer-semestre-2026-mayores-65.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-pobreza-primer-semestre-2026-mayores-65.html</guid>
-      <pubDate>Thu, 24 Sep 2026 17:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Son 9,7 millones de personas en los 31 aglomerados que mide el INDEC, 1,25 millones más que en el segundo semestre de 2025: en el semestre los ingresos subieron 11,5% y la canasta de pobreza, 19,6%. Contra el primer semestre de 2025 (31,6%), el INDEC no ve un cambio significativo. La excepción son los mayores de 65: de 10,8% a 14,8%.</description>
-      <ci:numero>32,3%</ci:numero>
-      <ci:numeroEtiqueta>personas bajo la línea de pobreza en los 31 aglomerados urbanos, primer semestre de 2026 (INDEC): 9.729.000; 28,2% en el 2º semestre de 2025 y 31,6% en el 1º semestre de 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-pobreza-primer-semestre-2026-mayores-65.png" length="77448" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-pobreza-primer-semestre-2026-mayores-65.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

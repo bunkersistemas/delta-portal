@@ -1298,6 +1298,29 @@
       "fecha": "2026-09-25",
       "estado": "publicada",
       "articulo_id": "2026-09-25-bcra-compras-dolares-septiembre-ritmo"
+    },
+    {
+      "tema": "boleto de colectivo en el AMBA desde octubre de 2026 / cuánto cuesta el viaje mínimo en líneas porteñas, bonaerenses y nacionales",
+      "angulo": "FRENADA en la corrida programada del 25/09/2026 22:30. Pregunta de plata ('¿cuánto cuesta el colectivo en octubre?'; cronista, infobae 23/09, El Destape). Documentos leídos: Res. 180/SECT/26 GCBA (BOCBA 7441, 31/08/2026: cuadro de septiembre, fórmula 2% + IPC nacional de dos meses antes, julio 2,11%) y Res. 62/SECT/26 (abril); página SUBE de tarifas vigentes (septiembre: línea porteña 0-3 km $887,99, bonaerense $1.164,47, nacional $742,81); Res. 27/2026 y 40/2026 de la Secretaría de Transporte de la Nación (cuadros de líneas nacionales en anexos no legibles). MOTIVO DEL FRENO: la resolución de octubre de la Ciudad (y la de la Provincia) todavía no está publicada; la página de tarifas del GCBA sigue con la de septiembre. Los $920,84 que publican los medios salen de aplicar 3,7% (IPC redondeado a 1,7%); con el IPC de agosto a dos decimales (1,66%) la fórmula da $887,99 x 1,0366 = $920,49. La Provincia aparece con 3,6% ($1.206,39) sin norma localizada. Retomar el 30/09-01/10, cuando salgan las resoluciones de octubre, con la brecha entre jurisdicciones como ángulo.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "la tarifa de octubre no tiene resolución publicada; la cifra de los medios es una proyección con IPC redondeado"
+    },
+    {
+      "tema": "MSU Green Energy / compromiso previo de fusión por absorción de BML Inversora S.A.U. (hecho relevante CNV del 25/09/2026)",
+      "angulo": "DESCARTADA en la corrida programada del 25/09/2026 22:30. Candidata de EMPRESAS del bloque de agenda.py (hoy ya hubo notas de EMPRESAS: no regía el cupo). Documento leído en la CNV ('Hecho Relevante - Compromiso Previo de Fusión.pdf', vía GetPublicValetKey + DownloadBlob): el directorio aprobó el 25/09/2026, ad referéndum de la asamblea, el compromiso previo de fusión por absorción de BML Inversora S.A.U. (sociedad unipersonal absorbida, que se disuelve sin liquidarse), con fecha efectiva 01/07/2026. El documento no trae ningún monto, relación de canje ni balance especial de fusión.",
+      "fecha": "2026-09-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "hecho relevante sin montos: reorganización con una sociedad unipersonal"
+    },
+    {
+      "tema": "cuánto cobra un trabajador avícola / escala CCT 783/20 (FTIA-CEPA) de septiembre de 2026: Grupo A y Categoría 1 $2.086.331,50 (+1,9% sobre agosto); agosto $2.047.408,51 contra $1.536.008,05 en ago-25 (+33,3%) vs IPC nacional +33,5% (-0,2%); pollo entero GBA $3.848,28 -> $4.780,14 (+24,2%): 399,1 -> 428,3 kilos (+7,3%)",
+      "angulo": "Corrida programada del 25/09/2026 22:30. Pregunta de plata ('¿cuánto cobra un trabajador avícola?') de iprofesional (portada, 25/09) y cronista. Ancla: planilla firmada por la parte empresaria y la sindical, 'remunerativo 1° al 30 de septiembre 2026', EX-2026-46510159-APN-DGDTEYSS#MCH, publicada por el STIA PBA (imagen leída). Recalculada: la planilla jul-ago 2026 publicada por la FTIA (PDF) y por el STIA coinciden al centavo (jul $2.011.206,79, ago $2.047.408,51 = x1,018 exacto); ago x1,019 = $2.086.309,27 y la planilla da $2.086.331,50 (+$22,23; factor 1,01901 uniforme en todas las categorías: redondeo de la escala firmada, explicado en la capa 4). Contraste: Cronista y Diario Sindical (25/09) publican la misma escala (reproducen la comunicación de la FTIA; se aclara). Año anterior: planilla jul-oct 2025 (STIA): ago-25 $1.536.008,05, sep-25 $1.560.584,18. IPC INDEC serie_ipc_divisiones.csv, nacional 9.193,2441 -> 12.276,766. Precios promedio INDEC (sh_ipc_precios_promedio.xls): pollo entero GBA 3.848,28 -> 4.780,14; pampeana 4.114,20 -> 5.045,16 (+22,6%; kilos +8,7%). Contexto: ajuste de enero de 2026 de 5,37% por la inflación de nov-dic 2025 (STIA). Ángulo nuevo frente a la serie de convenios del día (UOCRA, playero, doméstica, comercio): el sueldo contra el precio del producto que procesa. Sin superlativos. Candidatas no tomadas en esta corrida: boleto de colectivo de octubre (FRENADA, ver arriba), MSU Green Energy-BML (DESCARTADA, sin montos), jubilación de octubre (Res. ANSES 283/2026; sin ángulo nuevo tras la nota del 24/09), Electrolux cierra Rosario (sin documento primario), acuerdo automotriz con México (sin precios ni documento), renovables con estabilidad fiscal a 2045 (sin cifra de bolsillo), riesgo país sobre 600 (sin ángulo nuevo tras la nota del 24/09), Scaloni y la AFA (sin documento público).",
+      "fecha": "2026-09-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-25-cuanto-cobra-trabajador-avicola-septiembre"
     }
   ]
 }

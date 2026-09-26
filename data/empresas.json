@@ -1,11 +1,20 @@
 {
-  "generado": "2026-09-25T21:30",
+  "generado": "2026-09-25T22:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3573631",
+      "fuente": "CNV",
+      "fecha": "2026-09-25T21:32",
+      "entidad": "MSU GREEN ENERGY S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - COMPROMISO PREVIO DE FUSIÓN ENTRE MSU GREEN ENERGY S.A. Y BML INVERSORA S.A.U.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2C5E03DB-D32D-44C6-BF35-8E2D7EF9ABBB"
+    },
     {
       "id": "cnv-3573628",
       "fuente": "CNV",
