@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T07:45:09-03:00",
+    "actualizado": "2026-09-26T08:43:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-cuanto-cobra-metalurgico-uom-septiembre",
+      "titulo": "Un metalúrgico no puede cobrar menos de $1.131.201 en septiembre: en el año a agosto ese piso perdió 7,9% contra la inflación",
+      "bajada": "El acuerdo de la UOM con las cámaras metalúrgicas, homologado el 1 de septiembre, fija un ingreso mínimo de $1.131.201 por mes para quien trabaja la jornada completa. Entre agosto de 2025 y agosto de 2026 ese piso subió 23,0% y los precios, 33,5%. El básico por hora del ingresante subió 22,3%: compra 8,4% menos que hace un año.",
+      "titulo_busqueda": "¿Cuánto cobra un metalúrgico en septiembre de 2026? El piso de la UOM es $1.131.201",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$1.131.201",
+      "numero_label": "es el ingreso mínimo mensual del convenio metalúrgico (CCT 260/75) en septiembre de 2026 para la jornada completa",
+      "fecha": "2026-09-26",
+      "hora": "09:30",
+      "archivo": "articulos/2026-09-26-cuanto-cobra-metalurgico-uom-septiembre.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-26-cuanto-cobra-camionero-septiembre",
       "titulo": "Un camionero cobra $1.095.277 de básico en septiembre: en el año a agosto su sueldo le ganó 1,6% a la inflación, y desde enero suma un bono de $1,2 millones",

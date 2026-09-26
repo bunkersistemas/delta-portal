@@ -1442,6 +1442,13 @@
       "fecha": "2026-09-26",
       "estado": "publicada",
       "articulo_id": "2026-09-26-cuanto-cobra-camionero-septiembre"
+    },
+    {
+      "tema": "cuánto cobra un metalúrgico / Ingreso Mínimo Global de Referencia del CCT 260/75 (UOMRA-ADIMRA, AFARTE, CAIAMA, FEDEHOGAR, CAMIMA), acta del 14/08/2026 homologada por Disp. DI-2026-1099-APN-DNRYRT#MCH (01/09/2026): $1.131.201 en sep-26 ($1.117.862 ago-26, $1.160.976 oct-26); ago-25 $909.114 -> ago-26 +23,0% vs IPC nacional +33,5% (-7,9% real); ingresante rama 17 $3.668,50 -> $4.485,97 la hora (+22,3%, -8,4% real); piso fijo en $1.036.390 de mar a jul-26 (-13,2% real ago-25 a jul-26); compensación $210.000 = 87,5% del hueco abr-jul ($239.990); piso/CBT hogar 2: 78,3% -> 69,6%",
+      "angulo": "Corrida programada del 26/09/2026 08:30. Pregunta de plata detrás de la noticia de infobae (25/09: Vaspia, metalúrgica de Lanús que ofreció pagar sueldos con bronce) y del cierre de Electrolux; UOM cubierto por Cronista, Perfil, Río Negro con escalas, ninguno con poder de compra. Verificación: dos fuentes que coinciden (acta y planillas publicadas por ADIMRA, api/public/archivos/4303 y 4304, y por la UOM Seccional San Francisco, uploads/escalas/20260909_*), con los RE-2026-79537879 y RE-2026-79536710 que homologa la Disp. 1099/2026; recálculo 4.313,43 x 1,04 = 4.485,97; ago-25 del acta del 04/06/2025 y planillas ADIMRA 4232; sep-25 a mar-26 de planillas ADIMRA 4267 y acta del 02/12/2025. IPC datos.gob.ar 148.3_INIVELNAL_DICI_M_26 (9.193,2441 y 12.276,766); CBT INDEC serie_cba_cbt.xls (hogar 2: 1.160.780,04 y 1.605.497,35). Sin superlativos. Clarín y TN no se pudieron leer en el barrido. Candidatas no tomadas: Catamarca elimina IIBB a la industria (anuncio sin norma ni cifras), gasto tributario del Presupuesto 2027 (ya cubierto por ámbito, BAE y otros el 17/09), YPF +1% (padrón de surtidor sin actualizar, ya frenada el 25/09), riesgo país sobre 600 y reservas tras el pago al FMI (sin ángulo nuevo), empresas CNV (nada nuevo hoy; hoy ya hubo nota de EMPRESAS, BBVA), Cybertruck de Milei (sin precio oficial en Argentina).",
+      "fecha": "2026-09-26",
+      "estado": "publicada",
+      "articulo_id": "2026-09-26-cuanto-cobra-metalurgico-uom-septiembre"
     }
   ]
 }
