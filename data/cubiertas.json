@@ -1389,6 +1389,45 @@
       "estado": "publicada",
       "articulo_id": "2026-09-26-bbva-mora-personas-ganancia-balance",
       "motivo_descarte": ""
+    },
+    {
+      "tema": "deRentas (alquiler de autos a choferes de aplicaciones) / ON Serie II por $9.357 M a TAMAR privada + 0%, 24 meses; flota de 150 a 7.000 autos",
+      "angulo": "DESCARTADA en la corrida programada del 26/09/2026 05:30. Candidata de empresas y pregunta de plata ('¿cuánto cuesta alquilar un auto para trabajar con Uber?', iprofesional). Las cifras solo aparecen en la gacetilla de la empresa reproducida por RoadShow (25/09/2026); el aviso de resultado y el prospecto no se encontraron en la AIF de la CNV (la página no se puede leer sin navegador) ni en BYMA. Sin precios de alquiler a choferes en ningún documento.",
+      "fecha": "2026-09-26",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario accesible: las cifras son de la gacetilla de la empresa"
+    },
+    {
+      "tema": "exportaciones de medicamentos agosto 2026 / US$116 M, +21,8% interanual (CILFA sobre datos del INDEC); importaciones US$241,1 M (+22,2%)",
+      "angulo": "DESCARTADA en la corrida programada del 26/09/2026 05:30 (infobae, BAE, crónica). Recalculo desde las bases de comercio exterior del INDEC (comex.indec.gob.ar, exponm25/26 e impom25/26, capítulo 30 de la NCM): agosto 2026 US$94,9 M contra US$75,2 M (+26,2%), 3003+3004 US$75,5 M; ene-ago capítulo 30 +1,8% contra el +7% de CILFA. Más de 15.000 registros del capítulo 30 están bajo secreto estadístico ('s'), por lo que la cifra de la cámara no se puede reproducir. Importaciones capítulo 30: +22,8% (cerca del +22,2%).",
+      "fecha": "2026-09-26",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "la cifra ancla es de una sola cámara y el recálculo con la base del INDEC no cierra (secreto estadístico)"
+    },
+    {
+      "tema": "IRSA / inversión adicional de hasta US$4 M en Golden Juniors Segregated Portfolio, fondo cuyo administrador controla Eduardo Elsztain (hecho relevante del 22/09/2026; SEC 6-K del 23/09); acumulado aprobado US$16 M (US$12 M el 29/08/2025)",
+      "angulo": "DESCARTADA en la corrida programada del 26/09/2026 05:30. Candidata de empresas (transacción con partes relacionadas). Documentos leídos: 6-K del 23/09/2026 y del 02/09/2025 (SEC); estados de IRSA al 31/03/2026 (6-K del 26/05/2026: tenencia $17.500 M, resultado $9.553 M en nueve meses) y de Cresud al 31/12/2025 ($18.476 M y $10.359 M en seis meses). Falta la cifra al 30/06/2026: los estados anuales solo están en la AIF de la CNV, que no se pudo leer. iProfesional ya publicó la ampliación.",
+      "fecha": "2026-09-26",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin la cifra del ejercicio al 30/06/2026 (estados anuales inaccesibles) y tema ya contado; IRSA tuvo nota el 25/09"
+    },
+    {
+      "tema": "Día del Empleado de Comercio 2026 (trasladado al lunes 28/09 por FAECYS y las cámaras) / cuánto cobra quien trabaja ese día",
+      "angulo": "DESCARTADA en la corrida programada del 26/09/2026 05:30 sin investigación completa: la respuesta (feriado pago doble, adicional mensual/25 según práctica) ya la publicaron El Cronista, iProfesional y otros, y la escala de comercio salió en nuestra nota del 25/09. El divisor /25 es práctica liquidatoria, no norma.",
+      "fecha": "2026-09-26",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin ángulo nuevo: todos los medios lo contestan y la escala ya se publicó el 25/09"
+    },
+    {
+      "tema": "energías renovables / meta de la Ley 27.191 (20% del consumo eléctrico al 31/12/2025): CAMMESA 2025 = 18,87% de la demanda del MEM (26.659,4 / 141.251,4 GWh), faltaron 1.590,9 GWh; el 19,6% difundido es solo diciembre; 12 meses a ago-26 19,28%; ene-ago 2026 17,92% vs 17,31%; jul-26 13,71% (mínimo desde jul-24)",
+      "angulo": "Corrida programada del 26/09/2026 05:30. Tema del día: el Senado sancionó el 24/09 (38 a 8) la prórroga a 2045 del art. 17 (estabilidad fiscal) de la Ley 27.191 (iprofesional, ADNSUR). Ángulo propio: nadie contrastó la prórroga con la meta del art. 5; los medios citan 19,6% (diciembre) como dato del año. Camino estadística oficial: (1) hoja 'Tabla Resumen Global' de la base de CAMMESA (actualizada 22/09/2026), Ren MEM / Dem MEM 2025 = 0,1887; (2) recálculo desde las filas por máquina = 18,87%, y dic-25 = 19,60% como el informe mensual; (3) contraste Ember (eólica+solar 16% de la generación 2025; con CAMMESA 16,8% de la demanda, diferencia de denominador y fuentes) y cámara del sector 'cerca del 19%' (ADNSUR). Superlativos: 2025 máximo anual de la serie 2011-2025 (previo 2024: 16,31%); oct-25 25,57% máximo mensual (previo sep-24 21,08%); jul-26 el más bajo desde jul-24 (13,54%). Apertura: eólica 69,9%, solar 19,2%; RenovAr 50,2% (+3,8%), MATER 40,3% (+44,3%); Buenos Aires 30,5%, Chubut 22,4%.",
+      "fecha": "2026-09-26",
+      "estado": "publicada",
+      "articulo_id": "2026-09-26-renovables-meta-20-por-ciento-2025"
     }
   ]
 }

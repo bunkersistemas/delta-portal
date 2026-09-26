@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T04:45:04-03:00",
+    "actualizado": "2026-09-26T05:47:28-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-renovables-meta-20-por-ciento-2025",
+      "titulo": "Las renovables cubrieron el 18,9% de la demanda eléctrica de 2025: la ley pedía 20%, y el Congreso les acaba de extender los beneficios hasta 2045",
+      "bajada": "La Ley 27.191 fijó que al 31 de diciembre de 2025 el 20% de la electricidad del país viniera del viento, el sol y otras fuentes renovables. Según la base de datos de CAMMESA, en 2025 cubrieron el 18,9% de la demanda: faltaron 1.591 GWh. El 19,6% que circuló como dato del año es solo diciembre. En los doce meses a agosto de 2026 van 19,3%.",
+      "titulo_busqueda": "¿Argentina cumplió la meta de 20% de energías renovables? Lo que dicen los datos de CAMMESA",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "18,9%",
+      "numero_label": "de la demanda del mercado eléctrico cubierta por renovables en 2025 (CAMMESA); la Ley 27.191 fijaba 20% al 31/12/2025",
+      "fecha": "2026-09-26",
+      "hora": "07:00",
+      "archivo": "articulos/2026-09-26-renovables-meta-20-por-ciento-2025.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-26-bbva-mora-personas-ganancia-balance",
       "titulo": "El 10,2% de lo que BBVA les prestó a las personas está en mora, contra 4% hace un año: aun así, su ganancia neta subió 65%",
