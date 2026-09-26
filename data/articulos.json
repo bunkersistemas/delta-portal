@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T03:42:17-03:00",
+    "actualizado": "2026-09-26T04:45:04-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-bbva-mora-personas-ganancia-balance",
+      "titulo": "El 10,2% de lo que BBVA les prestó a las personas está en mora, contra 4% hace un año: aun así, su ganancia neta subió 65%",
+      "bajada": "En el segundo trimestre de 2026, de cada $100 que BBVA Argentina tenía prestados a personas, $10,19 estaban en mora; un año antes eran $4,04. El banco apartó $303.811 millones para cubrir deudas que no espera cobrar, 57% más. Aun así, su ganancia neta subió 65%: le rindieron más los intereses y las comisiones, y gastó menos.",
+      "titulo_busqueda": "¿Cuánta gente no paga la tarjeta y los préstamos? Lo que muestra el balance de BBVA",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "10,2%",
+      "numero_label": "de la cartera de BBVA Argentina a personas estaba en mora al 30/06/2026; un año antes, 4,04%",
+      "fecha": "2026-09-26",
+      "hora": "05:00",
+      "archivo": "articulos/2026-09-26-bbva-mora-personas-ganancia-balance.html",
+      "verificacion": "verificada",
+      "fuentes": 3,
+      "lectura": "30 seg → 8 min"
+    },
     {
       "id": "2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer",
       "titulo": "La actividad tendría que crecer 3% en agosto y otro 3% en septiembre para esquivar la recesión técnica: dos saltos así seguidos solo se vieron en 2020",

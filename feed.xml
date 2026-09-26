@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 26 Sep 2026 03:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 04:45:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El 10,2% de lo que BBVA les prestó a las personas está en mora, contra 4% hace un año: aun así, su ganancia neta subió 65%</title>
+      <link>https://coninteres.com/articulos/2026-09-26-bbva-mora-personas-ganancia-balance.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-26-bbva-mora-personas-ganancia-balance.html</guid>
+      <pubDate>Sat, 26 Sep 2026 05:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>En el segundo trimestre de 2026, de cada $100 que BBVA Argentina tenía prestados a personas, $10,19 estaban en mora; un año antes eran $4,04. El banco apartó $303.811 millones para cubrir deudas que no espera cobrar, 57% más. Aun así, su ganancia neta subió 65%: le rindieron más los intereses y las comisiones, y gastó menos.</description>
+      <ci:numero>10,2%</ci:numero>
+      <ci:numeroEtiqueta>de la cartera de BBVA Argentina a personas estaba en mora al 30/06/2026; un año antes, 4,04%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-bbva-mora-personas-ganancia-balance.png" length="71426" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-bbva-mora-personas-ganancia-balance.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La actividad tendría que crecer 3% en agosto y otro 3% en septiembre para esquivar la recesión técnica: dos saltos así seguidos solo se vieron en 2020</title>
       <link>https://coninteres.com/articulos/2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de un sueldo por año trabajado deposita una pyme en el FAL (2,5% × 13 sueldos, ley 27.802 art. 60); la indemnización es un sueldo por año. En una gran empresa, 13%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion.png" length="76649" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-fondo-despidos-fal-cuanto-cubre-indemnizacion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Presupuesto 2027: la caja del Tesoro suma $14,8 billones. El 162% de suba se mide contra lo que quedó después de repartirla; contra la ley de 2026, crece 19,4%</title>
-      <link>https://coninteres.com/articulos/2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91.html</guid>
-      <pubDate>Thu, 24 Sep 2026 22:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La Jurisdicción 91, "Obligaciones a Cargo del Tesoro", no es un ministerio: es una partida que administra la Secretaría de Hacienda. La ley de 2026 le asignó $12,4 billones y el Gobierno estima que cerrará el año con $5,6 billones: más de la mitad salió de ahí durante el año. El proyecto 2027 la vuelve a llenar. Contra la ley de 2026 crece 19,4%, mientras el gasto total crece 36,5%.</description>
-      <ci:numero>$14,8 billones</ci:numero>
-      <ci:numeroEtiqueta>Jurisdicción 91 (Obligaciones a Cargo del Tesoro) en el proyecto de Presupuesto 2027: +19,4% contra la ley de 2026, +162,6% contra el cierre estimado de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91.png" length="86260" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

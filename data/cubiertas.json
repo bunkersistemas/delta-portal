@@ -1381,6 +1381,14 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "recompras chicas y de rutina; aviso de fecha sin cifras"
+    },
+    {
+      "tema": "BBVA Argentina, balance del 2T 2026 / mora de la cartera a personas 10,19% (1.019.678/10.009.994 M) contra 4,04% en 2T 2025; cargos por incobrabilidad $303.811 M (+57,4%) y ganancia neta $131.562 M (+65,2%, moneda de jun-2026); contraste BCRA: mora de familias del sistema 5,13% -> 12,77% (jun-25/jun-26), 12,94% en jul-26 (máximo de la serie desde 2010)",
+      "angulo": "anatomía de un balance: la mora a personas se multiplicó por 2,5 y el banco igual ganó 65% más porque intereses netos (+$121.857 M), comisiones (+$53.367 M) y menores gastos (+$48.922 M) compensaron los incobrables (-$110.803 M). Distinto de las notas de mora del sistema (01/09, abril): acá es la cuenta de un banco con nombre propio",
+      "fecha": "2026-09-26",
+      "estado": "publicada",
+      "articulo_id": "2026-09-26-bbva-mora-personas-ganancia-balance",
+      "motivo_descarte": ""
     }
   ]
 }
