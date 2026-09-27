@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T04:43:52-03:00",
+    "actualizado": "2026-09-27T05:49:26-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-pensiones-invalidez-presupuesto-2027-trabajo-formal",
+      "titulo": "Hay 159.301 pensiones por invalidez más de las que previó el Presupuesto 2026: el de 2027 las suma y propone que sean incompatibles con un trabajo en blanco",
+      "bajada": "El Presupuesto 2026 previó 977.943 pensiones por invalidez. En junio se pagaban 1.137.244: 159.301 más (+16,3%). El proyecto 2027 ya cuenta 1.141.436 y les asigna $6,09 billones, pero propone que la pensión sea incompatible con cualquier empleo formal o con el monotributo. Hoy se puede trabajar en blanco y cobrarla mientras no se ganen más de dos salarios mínimos.",
+      "titulo_busqueda": "¿Se pierde la pensión por invalidez si trabajás en blanco? Lo que propone el Presupuesto 2027 y cuántas pensiones se pagan",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "159.301",
+      "numero_label": "pensiones por invalidez pagadas en junio de 2026 (1.137.244, BESS cuadro 3.3, no suspendidas) por encima de la meta del Presupuesto 2026 (977.943, Jurisdicción 80, programa 69); el proyecto 2027 prevé 1.141.436",
+      "fecha": "2026-09-27",
+      "hora": "06:30",
+      "archivo": "articulos/2026-09-27-pensiones-invalidez-presupuesto-2027-trabajo-formal.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-vialidad-decomiso-inflacion-valor",
       "titulo": "El decomiso de Vialidad se calculó con precios de mayo de 2025 y quedó en $684.990 millones: la inflación ya le sacó 29% de su valor",
