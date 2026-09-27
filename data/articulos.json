@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T19:50:47-03:00",
+    "actualizado": "2026-09-27T20:46:54-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-cuanto-menos-gana-una-mujer-brecha-ingresos",
+      "titulo": "Las mujeres cobran en promedio 29,1% menos que los varones: $959.030 por mes contra $1.352.247. Por hora trabajada, la distancia baja a 10,3%",
+      "bajada": "Según la Encuesta Permanente de Hogares del INDEC, en el primer trimestre de 2026 las mujeres que cobran algún ingreso recibieron en promedio $393.217 por mes menos que los varones. Por su trabajo principal, la distancia es de 29,3%, y un año antes era de 27,8%. Buena parte de la diferencia está en las horas: ellas trabajan por paga ocho horas menos por semana.",
+      "titulo_busqueda": "¿Cuánto menos gana una mujer que un hombre en la Argentina? 29,1% menos, según el INDEC",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "29,1%",
+      "numero_label": "menos cobran en promedio las mujeres con ingresos que los varones ($959.030 contra $1.352.247 por mes, EPH-INDEC, primer trimestre de 2026); por el trabajo principal 29,3% y por hora trabajada 10,3%",
+      "fecha": "2026-09-27",
+      "hora": "21:30",
+      "archivo": "articulos/2026-09-27-cuanto-menos-gana-una-mujer-brecha-ingresos.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-cuanto-gasta-ciudad-basura-recoleccion",
       "titulo": "La Ciudad de Buenos Aires gastó $1,15 billones en la basura en 2025: 8 de cada 100 pesos de todo lo que gastó, y tres de cada cuatro fueron al contrato de recolección",
