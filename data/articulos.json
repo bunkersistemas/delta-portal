@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T22:48:19-03:00",
+    "actualizado": "2026-09-26T23:47:42-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-regalias-petroleo-neuquen-vaca-muerta",
+      "titulo": "Las regalías del petróleo le dejaron a Neuquén US$1.062 millones entre enero y julio: 61,6% más que un año antes, con más barriles y un crudo más caro",
+      "bajada": "Mientras el gobernador y un exministro discuten si Vaca Muerta \"derrama\", hay un canal que se puede medir con papeles oficiales: lo que las petroleras le pagan a la provincia por cada barril. En siete meses de 2026 Neuquén ya superó lo que generó en todo 2024, y concentra casi 7 de cada 10 dólares de regalías petroleras del país.",
+      "titulo_busqueda": "¿Cuánto le deja Vaca Muerta a Neuquén en regalías? US$1.062 millones por el petróleo entre enero y julio",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "US$1.062 M",
+      "numero_label": "regalías por petróleo generadas en Neuquén entre enero y julio de 2026, +61,6% interanual (Secretaría de Energía)",
+      "fecha": "2026-09-26",
+      "hora": "23:30",
+      "archivo": "articulos/2026-09-26-regalias-petroleo-neuquen-vaca-muerta.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-26-juguetes-importados-record-kilos",
       "titulo": "En 2025 entraron 23,3 millones de kilos de juguetes importados, el máximo desde 2007: en 2026 llegan 11% menos, pero 37% más que en 2023",
