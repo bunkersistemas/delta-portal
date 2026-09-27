@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T12:40:14-03:00",
+    "actualizado": "2026-09-27T13:44:41-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-aerolineas-expropiacion-sentencia-embargos",
+      "titulo": "La Argentina debe US$390,9 millones por la expropiación de Aerolíneas y ya le pueden pedir embargos: en 2008 el Estado había tasado las dos aerolíneas en US$832 millones negativos",
+      "bajada": "Una jueza federal de Washington resolvió el 25 de septiembre que pasó un \"tiempo razonable\" sin que la Argentina pagara la sentencia de US$390,9 millones que confirmó el laudo del CIADI por Aerolíneas y Austral, y habilitó al acreedor a pedir embargos. La sentencia es de diciembre de 2024 y suma intereses de 4,24% anual: con ellos, la cuenta ronda hoy los US$421 millones.",
+      "titulo_busqueda": "¿Cuánto tiene que pagar la Argentina por la expropiación de Aerolíneas? US$390,9 millones más intereses",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$390,9 M",
+      "numero_label": "sentencia de la Justicia federal de EE.UU. (D.D.C., 10/12/2024, confirmada por el Circuito de D.C. el 21/07/2026) que ejecuta el laudo del CIADI por la expropiación de Aerolíneas y Austral; más intereses de 4,24% anual",
+      "fecha": "2026-09-27",
+      "hora": "14:30",
+      "archivo": "articulos/2026-09-27-aerolineas-expropiacion-sentencia-embargos.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-intereses-deuda-superavit-primario-ocho-meses",
       "titulo": "El Estado pagó $9,94 billones de intereses de la deuda en ocho meses: se llevaron 81 de cada 100 pesos del superávit primario",

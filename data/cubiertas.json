@@ -1629,6 +1629,13 @@
       "fecha": "2026-09-27",
       "estado": "publicada",
       "articulo_id": "2026-09-27-intereses-deuda-superavit-primario-ocho-meses"
+    },
+    {
+      "tema": "cuánto tiene que pagar la Argentina por la expropiación de Aerolíneas / Titan Consortium 1 v. Argentine Republic (D.D.C. 21-cv-2250): sentencia del 10/12/2024 por US$390.907.115,55 (laudo CIADI ARB/09/1 de 2017: US$320.760.000 + US$3.494.807 de costas + US$1.017.512 de la anulación + US$65,6 M de intereses previos); orden del 25/09/2026 que habilita a pedir embargos (28 U.S.C. 1610(c)); intereses posteriores 4,24% anual, total estimado ~US$421,3 M al 27/09/2026",
+      "angulo": "Corrida programada del 27/09/2026 13:30. Pregunta de plata detrás de infobae y cronista (27/09: la Justicia de EE.UU. habilitó embargos por Aerolíneas). Camino dos fuentes coincidentes: resolución D.D.C. del 25/09/2026 y sentencia del Circuito de D.C. del 21/07/2026 dan el mismo monto (US$390.907.115,55); certificado del secretario registrado en SDNY (26-mc-454). Recálculo: capital del laudo (párr. 1147) + anulación = US$325.272.319; la diferencia son intereses previos (no recalculables semestre a semestre: anexo de Titan no público; la Argentina no lo objetó). Ángulo propio: (1) intereses posteriores (28 USC 1961: 4,24% de la semana al 06/12/2024, FRED WGS1YR y tabla S.D. Tex.; diarios, capitalización anual) = ~US$47.300 por día, total ~US$421,3 M, marcado como ESTIMACIÓN; (2) las tasaciones de 2008 según el laudo: TTN -$2.540.338.289 (~US$-832 M), Credit Suisse por Interinvest US$330-540 M, escenario 3 de los demandantes US$1.590 M, valor de mercado según el CIADI >= US$330 M. Sin superlativos. No se afirma quién está detrás de Titan (la prensa dice Burford; los documentos no). Hoy ya hay nota de EMPRESAS (Mercado Libre, 00:30): el cupo no aplica; el bloque CNV/SEC no trae material nuevo (Vista solo anuncia fecha del 3T, Banco VOII cambio de sede; A3 Mercados, Comafi, YPF, Central Puerto, MSU y Molinos ya descartados). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-27",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-aerolineas-expropiacion-sentencia-embargos"
     }
   ]
 }
