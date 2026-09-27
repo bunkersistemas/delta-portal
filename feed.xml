@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 26 Sep 2026 21:39:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 26 Sep 2026 22:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En 2025 entraron 23,3 millones de kilos de juguetes importados, el máximo desde 2007: en 2026 llegan 11% menos, pero 37% más que en 2023</title>
+      <link>https://coninteres.com/articulos/2026-09-26-juguetes-importados-record-kilos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-26-juguetes-importados-record-kilos.html</guid>
+      <pubDate>Sat, 26 Sep 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El sábado cerró Tío Mario, una juguetería porteña con casi 30 años. Los números oficiales muestran contra qué compite el sector: en 2025 la Argentina importó 23,3 millones de kilos de juguetes, 94% de China, y cada kilo llegó a US$5,41, el valor más bajo desde 2007. En 2026 la ola bajó, pero no volvió al nivel de antes.</description>
+      <ci:numero>23,3 M kg</ci:numero>
+      <ci:numeroEtiqueta>kilos de juguetes importados por la Argentina en 2025, el máximo desde 2007 (INDEC, NCM 9503)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-juguetes-importados-record-kilos.png" length="77418" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-juguetes-importados-record-kilos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El seguro de desempleo paga como máximo $383.800 en septiembre: desde un sueldo de $616.546 en bruto, todos cobran lo mismo</title>
       <link>https://coninteres.com/articulos/2026-09-26-seguro-desempleo-tope-cuanto-paga.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>letras intransferibles del Tesoro en poder del BCRA al 31/08/2026, valor nominal (Secretaría de Finanzas, dato preliminar: US$29.079,7 millones)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-letras-intransferibles-bcra-tesoro.png" length="78616" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-letras-intransferibles-bcra-tesoro.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Ir a la despedida de Messi cuesta de $90.000 a $480.000 por adulto, los mismos pesos que hace un año: con la inflación, 25% menos</title>
-      <link>https://coninteres.com/articulos/2026-09-25-despedida-messi-cuanto-cuesta-entrada.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-despedida-messi-cuanto-cuesta-entrada.html</guid>
-      <pubDate>Fri, 25 Sep 2026 05:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>DEPORTES</category>
-      <description>La AFA puso las entradas para Argentina-Benín, el último partido de Messi con la selección, entre $90.000 y $480.000 para un adulto. En cinco de las siete ubicaciones del Monumental son los mismos pesos que cobró en septiembre de 2025. Con 33,5% de inflación en el medio, esas entradas cuestan 25,1% menos en términos reales. La platea más cara, igual, supera a la jubilación mínima de octubre.</description>
-      <ci:numero>−25,1%</ci:numero>
-      <ci:numeroEtiqueta>precio real de las entradas de la selección en el Monumental contra septiembre de 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-despedida-messi-cuanto-cuesta-entrada.png" length="66770" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-despedida-messi-cuanto-cuesta-entrada.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

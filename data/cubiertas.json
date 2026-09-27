@@ -1470,6 +1470,31 @@
       "fecha": "2026-09-26",
       "estado": "publicada",
       "articulo_id": "2026-09-26-seguro-desempleo-tope-cuanto-paga"
+    },
+    {
+      "tema": "cuánto le cuesta al Reino Unido defender Malvinas / costo anual de la guarnición de Mount Pleasant, tras la advertencia del secretario de Defensa británico (26/09/2026)",
+      "angulo": "DESCARTADA en la corrida programada del 26/09/2026 22:30. Pregunta de plata detrás de la noticia política del día (cronista, pagina12, infobae). El último costo oficial encontrado es la respuesta parlamentaria HL1489 de 2015 (unas £85 M por año, sin el puente aéreo ni la flota); la API de preguntas escritas del Parlamento británico no devolvió ninguna cifra 2019-2026. Sin dato reciente ni segunda fuente, la ancla no llega a CONFIRMADO. Retomar si el MoD publica el costo en una respuesta nueva.",
+      "fecha": "2026-09-26",
+      "estado": "descartada"
+    },
+    {
+      "tema": "Catamarca elimina Ingresos Brutos a la industria / cuánto deja de cobrar la provincia y qué alícuota pagaba una fábrica",
+      "angulo": "DESCARTADA en la corrida programada del 26/09/2026 22:30. Tema en ámbito e iprofesional (25-26/09). Es un anuncio del gobernador Jalil ante la UIA: no hay ley ni decreto publicado, ni costo fiscal oficial (el 1,4% de la recaudación que circula es una estimación de la UIPBA para Buenos Aires). La página de alícuotas de Rentas de Catamarca no trae la tasa general de la industria. Retomar cuando salga la norma.",
+      "fecha": "2026-09-26",
+      "estado": "descartada"
+    },
+    {
+      "tema": "herencias vacantes en CABA / cuánto cuestan los departamentos sin herederos que remata el Banco Ciudad y cuánto recauda la Ciudad",
+      "angulo": "DESCARTADA en la corrida programada del 26/09/2026 22:30. Tema en infobae (26/09, subasta del 09/10) y lanacion (19/09). Los precios base ya los publican todos los medios; el ángulo propio (resultado de los remates contra la base, o lo recaudado para el Fondo Educativo Permanente) no tiene dato oficial público: la página de la Procuración no publica resultados ni montos. Sin ancla verificable.",
+      "fecha": "2026-09-26",
+      "estado": "descartada"
+    },
+    {
+      "tema": "juguetes importados / NCM 9503 (INDEC): 23.303.721 kg en 2025, máximo desde 2007 (22.332.914 kg; serie comparable desde HS2007), +64,1% contra 2023 y +75,7% contra 2024; US$126,0 M FOB (-28,5% contra 2018: 176,3 M); US$5,41 por kilo, el más bajo desde 2007 (5,00); China 94,1% de los kilos y 84,2% de los dólares; ene-ago 2026 11.325.451 kg (-11,0% i.a., +36,7% contra 2023), US$65,0 M (-7,9%)",
+      "angulo": "Corrida programada del 26/09/2026 22:30. Pregunta de plata detrás del cierre de la juguetería Tío Mario (infobae 26/09). Camino estadística oficial: (1) base de comercio exterior del INDEC, importaciones mensuales 2002-2026, suma NCM 9503 de todos los orígenes; (2) recálculo propio; China = código 310 (ene-jul 2026 CIF 9.490,6 M, en línea con los 9.495 M del ICA); (3) contraste: UN Comtrade, exportaciones de China a la Argentina HS 9503: 24.659.946 kg en 2025 contra 21.918.172 kg del INDEC con origen China (+12,5%; 2023 +3,7%, 2024 +5,1%); ambos casi duplican 2023-2025 (+84,8% y +70,3%). En dólares China declara US$199,8 M contra US$106,1 M del INDEC: brecha no explicable con datos públicos, por eso la ancla va en kilos. CAIJ (vía infobae): 1S2026 7,2 M kg (-11,8%) contra INDEC 7,39 M kg (-10,9%). Superlativos: kilos 2025 > 2007 (valor previo 22.332.914) y > todo 2008-2024 (máx 2008 21.743.047); US$/kg 2025 5,41 < todo 2008-2024 (mín 2008 6,14). Antes de 2007 la 9503 excluía muñecas (9502) y triciclos (9501): no comparable. Otras candidatas: Malvinas, Catamarca IIBB y herencias vacantes (descartadas en esta corrida); Tesla en Argentina (sin precio oficial, ya cubierto); FMI y América Latina (cubierto por cronista; cargos ya en la nota del 24/09); empresas del bloque CNV/SEC ya descartadas el 25-26/09 y la cuota de EMPRESAS del día la cubrió BBVA.",
+      "fecha": "2026-09-26",
+      "estado": "publicada",
+      "articulo_id": "2026-09-26-juguetes-importados-record-kilos"
     }
   ]
 }

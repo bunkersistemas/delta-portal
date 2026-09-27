@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T21:39:28-03:00",
+    "actualizado": "2026-09-26T22:48:19-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-26-juguetes-importados-record-kilos",
+      "titulo": "En 2025 entraron 23,3 millones de kilos de juguetes importados, el máximo desde 2007: en 2026 llegan 11% menos, pero 37% más que en 2023",
+      "bajada": "El sábado cerró Tío Mario, una juguetería porteña con casi 30 años. Los números oficiales muestran contra qué compite el sector: en 2025 la Argentina importó 23,3 millones de kilos de juguetes, 94% de China, y cada kilo llegó a US$5,41, el valor más bajo desde 2007. En 2026 la ola bajó, pero no volvió al nivel de antes.",
+      "titulo_busqueda": "¿Cuántos juguetes importa la Argentina? En 2025 entraron 23,3 millones de kilos, el máximo desde 2007",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "23,3 M kg",
+      "numero_label": "kilos de juguetes importados por la Argentina en 2025, el máximo desde 2007 (INDEC, NCM 9503)",
+      "fecha": "2026-09-26",
+      "hora": "22:30",
+      "archivo": "articulos/2026-09-26-juguetes-importados-record-kilos.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-26-seguro-desempleo-tope-cuanto-paga",
       "titulo": "El seguro de desempleo paga como máximo $383.800 en septiembre: desde un sueldo de $616.546 en bruto, todos cobran lo mismo",
