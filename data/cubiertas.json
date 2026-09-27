@@ -1650,6 +1650,13 @@
       "fecha": "2026-09-27",
       "estado": "publicada",
       "articulo_id": "2026-09-27-dolar-presupuesto-2027-cuanto-supone"
+    },
+    {
+      "tema": "autos eléctricos importados / cuánto arancel paga un auto eléctrico (Tesla prepara su primera tienda, iProfesional 25/09/2026): INDEC NCM 8703.80 (solo motor eléctrico) ene-ago 2026 US$118.886.213 FOB contra US$13.546.141 en ene-ago 2025 (8,78 veces) y US$49.693.187 en todo 2025 (2,39 veces); China (cód. 310) US$109.253.647 = 91,9% (ene-ago 2025: 65,6%); ene-2026 US$32,5 M máximo mensual; Decreto 49/2025: arancel 0% hasta US$16.000 FOB, 50.000 unidades/año, 5 años",
+      "angulo": "Corrida programada del 27/09/2026 16:30. Pregunta de plata detrás de la llegada de Tesla (iProfesional): cuántos eléctricos entran y con qué arancel. Ángulo NUEVO respecto de las notas de patentamientos (2026-07-19 electrificados, 2026-08-31 autos chinos): valor de importación de eléctricos puros (BEV) en la base de aduana, no unidades patentadas. Camino estadística oficial: (1) base comex del INDEC (imports_2018..2026_M.zip); (2) recálculo propio: suma de la posición 8703.80, serie 2018-2026 (antes de 2018 la base no tiene la posición; 2017 usa 8703.90 residual); (3) contraste: patentamientos BEV ACARA vía A Rodar Post (01/09/2026) 5.166 ene-ago 2026 vs 526 (9,8 veces), misma dirección y magnitud. Diferencia mostrada: UN Comtrade China declara 2025 US$90,7 M y 6.781 unidades (promedio US$13.381) contra INDEC-China US$43,4 M; probable desfase de viaje (INDEC-China ene+feb 2026 US$49,4 M), no probado. Superlativo: 8 meses de 2026 > cualquier año completo de la serie (previo 2025 US$49,7 M; 2024 US$21,7 M). No se cuentan autos con la aduana ni se afirma precio de venta. Tesla atribuido a iProfesional (sin anuncio oficial). Hoy ya hay nota de EMPRESAS (Mercado Libre). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-27",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-autos-electricos-importados-ocho-meses-china"
     }
   ]
 }
