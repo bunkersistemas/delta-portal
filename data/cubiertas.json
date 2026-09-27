@@ -1570,6 +1570,25 @@
       "fecha": "2026-09-27",
       "estado": "publicada",
       "articulo_id": "2026-09-27-malvinas-licencias-pesca-calamar-illex"
+    },
+    {
+      "tema": "cuánto cuesta la nafta de YPF después de la suba del 26/09/2026 (+1% promedio) / precio de la nafta súper por provincia en el padrón de la Secretaría de Energía (Res. 314/2016)",
+      "angulo": "FRENADA en la corrida programada del 27/09/2026 08:30 (retomada del descarte del 25/09 porque YPF, la de mayor red, subió el 26/09; tema en lanacion, iprofesional, cronista y pagina12). Fuente primaria leída: 'Precios vigentes en surtidor - Resolución 314/2016' (datos.energia.gob.ar, recurso actualizado el 27/09/2026 10:02). MOTIVO DEL FRENO: el padrón sigue sin reflejar la suba: de 4.164 registros diurnos de nafta súper, YPF tiene 8 con vigencia del 23/09 en adelante (3 del 26/09 y 1 del 27/09), y en CABA la última vigencia de YPF es del 01/09/2026. Sin precio vigente oficial no hay cifra ancla. Retomar cuando el padrón se actualice.",
+      "fecha": "2026-09-27",
+      "estado": "descartada"
+    },
+    {
+      "tema": "cuánto vale un caballo de polo / exportación de equinos en pie (Triple Corona y robo de caballos de polo, 26-27/09/2026): valor FOB por cabeza",
+      "angulo": "FRENADA en la corrida programada del 27/09/2026 08:30. Pregunta de plata detrás de la noticia deportiva (lanacion: Triple Corona; infobae: robo de caballos de polo). Fuentes leídas: INDEC comercio exterior (exports_2025_M y 2026_M, NCM 0101: 2025 US$22.472.129 FOB y 1.333.175 kg; ene-nov 2025 US$19.879.261; ene-ago 2026 US$17.545.481; los totales cierran con el control etotnm), SAGyP/SENASA (argentina.gob.ar: 2024 3.200 equinos por US$21.409.000, 77% polo; ene-nov 2025 2.905 equinos por US$20,7 M) y UN Comtrade (reporte argentino: 2024 1.840 cabezas por US$13,4 M; 2025 1.978 cabezas por US$15,35 M; importaciones de EE.UU. desde Argentina 981 cabezas en 2024 y 873 en 2025). MOTIVO DEL FRENO: el INDEC no publica cabezas y las dos fuentes que sí lo hacen se contradicen (3.200 contra 1.840 caballos en 2024; US$21,4 M contra US$13,4 M), sin forma de dirimir. Sin cantidad confirmada no hay valor por caballo, que era la pregunta.",
+      "fecha": "2026-09-27",
+      "estado": "descartada"
+    },
+    {
+      "tema": "qué provincias tienen déficit fiscal / resultado primario provincial 2025 (DNAP, serie AIF APNF 2005-2025, ejecución provisoria): 12 de 23 jurisdicciones con déficit primario contra 3 en 2024; 9 pasaron de superávit a déficit (CABA, Chubut, Corrientes, La Rioja, Mendoza, Misiones, Río Negro, Santa Cruz, Tierra del Fuego); la mayor cantidad desde 2017 (18)",
+      "angulo": "Corrida programada del 27/09/2026 08:30. Tema en cronista (dos notas: Libertad y Progreso 26/09 y Politikon Chaco/IARAF) e infobae (peso de los gobernadores en 2027). Ancla CONFIRMADA por el camino de estadística oficial: documento DNAP (renglón IX de cada hoja), recálculo propio (conteo por año 2005-2025; consolidado = suma exacta de las 23 en 2025 y de las 24 en 2024) y contraste independiente (Politikon: 11 superávit/12 déficit; LyP: las mismas 9 y 19 de 23 empeoran, igual a nuestro FR/ingresos; Cuenta General 2025 de Entre Ríos, SPNF devengado: primario +4.448 M y financiero −130.473 M contra DNAP +1.082 M y −133.839 M). Superlativo: valor previo 2017 = 18; 2018-2024 máximo 11 (2019). Comparables 23 (sin La Pampa, sin datos 2025): primario +2.548.688,7 M → −293.735,9 M; financiero +1.005.487,6 M → −2.780.356,7 M; gasto primario +51,7% y ingresos totales +47,0% nominales; 14 con déficit financiero (5 en 2024). Extremos: Tierra del Fuego −15,4% de ingresos; Santiago del Estero +21,5%. El 8,9% real es de LyP, atribuido.",
+      "fecha": "2026-09-27",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-provincias-deficit-primario-2025"
     }
   ]
 }

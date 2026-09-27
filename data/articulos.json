@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T07:49:49-03:00",
+    "actualizado": "2026-09-27T08:46:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-provincias-deficit-primario-2025",
+      "titulo": "Doce provincias cerraron 2025 con déficit primario, la mayor cantidad desde 2017: un año antes eran tres",
+      "bajada": "De las 23 jurisdicciones que ya informaron su ejecución de 2025, doce gastaron más de lo que les entró aun sin contar los intereses de la deuda. En 2024 habían sido tres. Nueve pasaron de superávit a déficit en un solo año, y el conjunto de las provincias volvió a quedar en rojo: en pesos, el gasto primario subió 51,7% y los ingresos, 47,0%.",
+      "titulo_busqueda": "¿Qué provincias tienen déficit fiscal? Doce cerraron 2025 en rojo, la mayor cantidad desde 2017",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "12 de 23",
+      "numero_label": "provincias con déficit primario en 2025 (DNAP, provisorio)",
+      "fecha": "2026-09-27",
+      "hora": "09:30",
+      "archivo": "articulos/2026-09-27-provincias-deficit-primario-2025.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-malvinas-licencias-pesca-calamar-illex",
       "titulo": "Las licencias de pesca le dejaron al gobierno de Malvinas £36,5 millones en un año: un tercio de sus ingresos, y casi la mitad sale del calamar que pescan barcos de Taiwán y Corea",
