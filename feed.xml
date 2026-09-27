@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 27 Sep 2026 01:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 02:39:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un estatal de Río Negro que deje el IPROSS se lleva solo su aporte del 4%: 36 de cada 100 pesos de su cobertura, contra 85 de un empleado privado</title>
+      <link>https://coninteres.com/articulos/2026-09-27-rio-negro-ipross-libre-eleccion-aporte-4-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-rio-negro-ipross-libre-eleccion-aporte-4-por-ciento.html</guid>
+      <pubDate>Sun, 27 Sep 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>La Legislatura rionegrina aprobó el 24 de septiembre que los empleados públicos puedan elegir otra obra social. Por un estatal en actividad entran al IPROSS 11 puntos de su sueldo: el 4% que aporta él y el 7% que pone el Estado. Si se va, se lleva los 4 y los 7 se quedan. En el sistema nacional, al trabajador lo sigue el 85% de lo que se aporta por él.</description>
+      <ci:numero>36,4%</ci:numero>
+      <ci:numeroEtiqueta>parte de lo que se paga por la salud de un estatal rionegrino en actividad que podrá llevarse a otra obra social: su aporte del 4% sobre 11 puntos (4% + 7% patronal que queda en el IPROSS). Ley K 2753 art. 25 y art. 25 bis de la reforma aprobada el 24/09/2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-rio-negro-ipross-libre-eleccion-aporte-4-por-ciento.png" length="87004" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-rio-negro-ipross-libre-eleccion-aporte-4-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un hogar porteño necesita $5,1 millones por mes para estar en el 10% que más gana: la vara subió 27,5% en un año, menos que los precios</title>
       <link>https://coninteres.com/articulos/2026-09-27-cuanto-hay-que-ganar-10-por-ciento-mas-rico-caba.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que tendría que subir el dólar mayorista ($1.518,74, Com. A 3500, 24/09/2026) para tocar el techo de la banda cambiaria del BCRA ($1.911,44 ese día)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda.png" length="69496" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>IRSA propone pagarle $24.293 millones a su directorio por un año: $4.589 millones por encima del límite del 5% de la ganancia</title>
-      <link>https://coninteres.com/articulos/2026-09-25-cuanto-cobra-directorio-irsa.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-cuanto-cobra-directorio-irsa.html</guid>
-      <pubDate>Fri, 25 Sep 2026 09:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>IRSA, dueña de 18 shoppings, propone pagarle a su directorio $24.293 millones por el ejercicio que cerró en junio de 2026: 6,2% de su ganancia. Supera en $4.589 millones el límite del 5% de las utilidades, así que la asamblea del 22 de octubre tiene que aprobarlo de manera expresa. En pesos de hoy, es lo mismo que cobró en cada uno de los dos ejercicios anteriores.</description>
-      <ci:numero>$24.293 M</ci:numero>
-      <ci:numeroEtiqueta>remuneración total propuesta al directorio de IRSA por el ejercicio 2025/26 (convocatoria del 17/09/2026), 6,2% de la ganancia y $4.589 M por encima del límite del 5%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-directorio-irsa.png" length="79545" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-directorio-irsa.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

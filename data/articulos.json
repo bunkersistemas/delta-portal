@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T01:43:49-03:00",
+    "actualizado": "2026-09-27T02:39:24-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-rio-negro-ipross-libre-eleccion-aporte-4-por-ciento",
+      "titulo": "Un estatal de Río Negro que deje el IPROSS se lleva solo su aporte del 4%: 36 de cada 100 pesos de su cobertura, contra 85 de un empleado privado",
+      "bajada": "La Legislatura rionegrina aprobó el 24 de septiembre que los empleados públicos puedan elegir otra obra social. Por un estatal en actividad entran al IPROSS 11 puntos de su sueldo: el 4% que aporta él y el 7% que pone el Estado. Si se va, se lleva los 4 y los 7 se quedan. En el sistema nacional, al trabajador lo sigue el 85% de lo que se aporta por él.",
+      "titulo_busqueda": "¿Cuánto aporte se lleva un estatal de Río Negro si deja el IPROSS? El 4% del sueldo; el 7% queda",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "36,4%",
+      "numero_label": "parte de lo que se paga por la salud de un estatal rionegrino en actividad que podrá llevarse a otra obra social: su aporte del 4% sobre 11 puntos (4% + 7% patronal que queda en el IPROSS). Ley K 2753 art. 25 y art. 25 bis de la reforma aprobada el 24/09/2026",
+      "fecha": "2026-09-27",
+      "hora": "02:30",
+      "archivo": "articulos/2026-09-27-rio-negro-ipross-libre-eleccion-aporte-4-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-cuanto-hay-que-ganar-10-por-ciento-mas-rico-caba",
       "titulo": "Un hogar porteño necesita $5,1 millones por mes para estar en el 10% que más gana: la vara subió 27,5% en un año, menos que los precios",
