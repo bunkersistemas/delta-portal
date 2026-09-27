@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T08:46:36-03:00",
+    "actualizado": "2026-09-27T09:44:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-brasil-deficit-comercial-se-achico-autos",
+      "titulo": "El déficit comercial con Brasil se achicó 55,2% en ocho meses: la Argentina le compró US$2.139 millones menos y más de un tercio de la baja son autos",
+      "bajada": "Entre enero y agosto de 2026 la Argentina le vendió a Brasil US$8.578 millones y le compró US$10.630 millones, según el INDEC. El rojo con su principal socio fue de US$2.052 millones, contra US$4.580 millones un año antes. Las ventas crecieron 4,7%; lo que cambió fueron las compras, que cayeron 16,8%. Brasil elige presidente el 4 de octubre.",
+      "titulo_busqueda": "¿Cuánto le compra y le vende la Argentina a Brasil? El déficit se achicó 55,2% en 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−55,2%",
+      "numero_label": "cuánto se achicó el déficit comercial con Brasil en enero-agosto de 2026 (US$2.052 M contra US$4.580 M, INDEC)",
+      "fecha": "2026-09-27",
+      "hora": "10:30",
+      "archivo": "articulos/2026-09-27-brasil-deficit-comercial-se-achico-autos.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-provincias-deficit-primario-2025",
       "titulo": "Doce provincias cerraron 2025 con déficit primario, la mayor cantidad desde 2017: un año antes eran tres",
