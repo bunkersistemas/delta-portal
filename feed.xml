@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 27 Sep 2026 05:49:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 06:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Una sucesión en la Justicia nacional paga 1,5% de tasa más honorarios medidos en UMA: la unidad vale $105.991 desde agosto y subió 37,2% en un año, más que los precios</title>
+      <link>https://coninteres.com/articulos/2026-09-27-cuanto-cuesta-sucesion-uma-tasa-justicia.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-cuanto-cuesta-sucesion-uma-tasa-justicia.html</guid>
+      <pubDate>Sun, 27 Sep 2026 07:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Heredar una casa en la Ciudad de Buenos Aires tiene dos costos que fija la ley: la tasa de justicia, 1,5% de lo que se transmite, y el honorario del abogado, que sale de una escala en UMA. Esa escala va de 11%-16,5% del patrimonio en una herencia chica a 6%-7,5% en una de más de $79,6 millones. La UMA la actualiza la Corte: vale $105.991 desde el 1 de agosto.</description>
+      <ci:numero>$105.991</ci:numero>
+      <ci:numeroEtiqueta>valor de la UMA desde el 1/8/2026 (Corte Suprema, Res. SGA 2372/2026), la unidad de la escala de honorarios de una sucesión en la Justicia nacional; +37,2% contra agosto de 2025 ($77.229), con inflación interanual de 33,5%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-cuesta-sucesion-uma-tasa-justicia.png" length="94795" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-cuesta-sucesion-uma-tasa-justicia.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Hay 159.301 pensiones por invalidez más de las que previó el Presupuesto 2026: el de 2027 las suma y propone que sean incompatibles con un trabajo en blanco</title>
       <link>https://coninteres.com/articulos/2026-09-27-pensiones-invalidez-presupuesto-2027-trabajo-formal.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de los porteños era pobre en el primer semestre de 2026 según la Ciudad (IDECBA); el INDEC midió 11,1%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-pobreza-caba-ciudad-casi-doble-que-indec.png" length="67636" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-pobreza-caba-ciudad-casi-doble-que-indec.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La VTV en la provincia de Buenos Aires cuesta $97.057 desde enero: el aumento a $114.106 quedó en pausa hasta el 14 de octubre</title>
-      <link>https://coninteres.com/articulos/2026-09-25-vtv-provincia-buenos-aires-cuanto-cuesta.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-vtv-provincia-buenos-aires-cuanto-cuesta.html</guid>
-      <pubDate>Fri, 25 Sep 2026 13:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>La tarifa básica de la VTV bonaerense, la de un auto de hasta 2.500 kilos, es $97.057,65 desde el 16 de enero. El aumento a $114.105,99 (+17,6%) que correspondía desde julio quedó suspendido hasta el 14 de octubre. En un año la VTV subió 21,9%; los precios, 33,5%.</description>
-      <ci:numero>$97.057</ci:numero>
-      <ci:numeroEtiqueta>cuesta la VTV de un auto de hasta 2.500 kilos en la provincia de Buenos Aires (tarifa básica, IVA incluido)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-vtv-provincia-buenos-aires-cuanto-cuesta.png" length="73855" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-vtv-provincia-buenos-aires-cuanto-cuesta.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

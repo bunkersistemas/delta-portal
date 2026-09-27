@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T05:49:26-03:00",
+    "actualizado": "2026-09-27T06:42:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-cuanto-cuesta-sucesion-uma-tasa-justicia",
+      "titulo": "Una sucesión en la Justicia nacional paga 1,5% de tasa más honorarios medidos en UMA: la unidad vale $105.991 desde agosto y subió 37,2% en un año, más que los precios",
+      "bajada": "Heredar una casa en la Ciudad de Buenos Aires tiene dos costos que fija la ley: la tasa de justicia, 1,5% de lo que se transmite, y el honorario del abogado, que sale de una escala en UMA. Esa escala va de 11%-16,5% del patrimonio en una herencia chica a 6%-7,5% en una de más de $79,6 millones. La UMA la actualiza la Corte: vale $105.991 desde el 1 de agosto.",
+      "titulo_busqueda": "¿Cuánto cuesta una sucesión en 2026? Tasa de justicia y honorarios del abogado",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$105.991",
+      "numero_label": "valor de la UMA desde el 1/8/2026 (Corte Suprema, Res. SGA 2372/2026), la unidad de la escala de honorarios de una sucesión en la Justicia nacional; +37,2% contra agosto de 2025 ($77.229), con inflación interanual de 33,5%",
+      "fecha": "2026-09-27",
+      "hora": "07:30",
+      "archivo": "articulos/2026-09-27-cuanto-cuesta-sucesion-uma-tasa-justicia.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-pensiones-invalidez-presupuesto-2027-trabajo-formal",
       "titulo": "Hay 159.301 pensiones por invalidez más de las que previó el Presupuesto 2026: el de 2027 las suma y propone que sean incompatibles con un trabajo en blanco",
