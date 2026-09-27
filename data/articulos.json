@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T11:47:23-03:00",
+    "actualizado": "2026-09-27T12:40:14-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-intereses-deuda-superavit-primario-ocho-meses",
+      "titulo": "El Estado pagó $9,94 billones de intereses de la deuda en ocho meses: se llevaron 81 de cada 100 pesos del superávit primario",
+      "bajada": "Entre enero y agosto de 2026, el Sector Público Nacional ahorró $12,28 billones antes de pagar la deuda y le pagó $9,94 billones de intereses, según la Secretaría de Hacienda. Le quedaron $2,34 billones. En los mismos meses de 2025, los intereses se habían llevado 70 de cada 100 pesos; si se descuenta la venta de las represas hidroeléctricas de enero, este año son 88.",
+      "titulo_busqueda": "¿Cuánto paga la Argentina de intereses de la deuda? $9,94 billones en ocho meses",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$9,94 bill.",
+      "numero_label": "intereses netos de la deuda pagados por el Sector Público Nacional en enero-agosto de 2026 (Hacienda, base caja): 81,0% del superávit primario",
+      "fecha": "2026-09-27",
+      "hora": "13:30",
+      "archivo": "articulos/2026-09-27-intereses-deuda-superavit-primario-ocho-meses.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-construcciones-prefabricadas-importadas-record-china",
       "titulo": "En 2025 entraron 13.858 toneladas de construcciones prefabricadas importadas, el máximo desde 2002: en 2026 ya son 17.811 en ocho meses, y nueve de cada diez kilos vienen de China",
