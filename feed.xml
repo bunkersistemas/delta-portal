@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 27 Sep 2026 16:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 17:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las baterías contra los apagones del AMBA cuestan US$95,7 millones por año durante 15 años: la cuenta va a las facturas de Edenor y Edesur</title>
+      <link>https://coninteres.com/articulos/2026-09-27-baterias-apagones-amba-cuanto-cuestan.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-baterias-apagones-amba-cuanto-cuestan.html</guid>
+      <pubDate>Sun, 27 Sep 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Gobierno firmó contratos con 11 centrales de baterías para que el verano tenga menos cortes de luz en el AMBA. Según el estado de contratos de CAMMESA, cobran en total US$7,97 millones por mes por estar disponibles, durante 15 años. Una resolución de la Secretaría de Energía manda trasladar ese costo a los usuarios finales. Repartido en partes iguales entre los 6,38 millones de usuarios de Edenor y Edesur, son US$1,25 por mes cada uno.</description>
+      <ci:numero>US$95,7 M</ci:numero>
+      <ci:numeroEtiqueta>pago anual a precio de contrato de las 11 centrales de baterías AlmaGBA (683 MW, US$7.971.556 por mes; CAMMESA y resoluciones SE 361/2025 y 384/2025)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-baterias-apagones-amba-cuanto-cuestan.png" length="83989" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-baterias-apagones-amba-cuanto-cuestan.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los autos eléctricos importados sumaron US$118,9 millones en ocho meses, 8,8 veces más que un año antes: 92 de cada 100 dólares fueron a China</title>
       <link>https://coninteres.com/articulos/2026-09-27-autos-electricos-importados-ocho-meses-china.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>arancel mensual por persona de un centro de día de jornada doble, categoría A, desde septiembre de 2026 (Res. 3487/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-discapacidad-nomenclador-centro-de-dia-inflacion.png" length="78120" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-discapacidad-nomenclador-centro-de-dia-inflacion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las compras de autos a México cayeron 65,6% entre junio y agosto, después de que venció el cupo que los dejaba entrar sin arancel</title>
-      <link>https://coninteres.com/articulos/2026-09-26-autos-mexico-importaciones-caen-sin-acuerdo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-26-autos-mexico-importaciones-caen-sin-acuerdo.html</guid>
-      <pubDate>Sat, 26 Sep 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre junio y agosto de 2026 la Argentina importó autos de México por US$27,2 millones, contra US$79,0 millones en los mismos meses de 2025, según la base de comercio exterior del INDEC. El 18 de marzo venció el cupo del acuerdo automotor entre los dos países y la negociación para renovarlo está trabada.</description>
-      <ci:numero>−65,6%</ci:numero>
-      <ci:numeroEtiqueta>cayeron las importaciones de autos desde México en junio-agosto de 2026 contra igual período de 2025 (INDEC, valor FOB)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-autos-mexico-importaciones-caen-sin-acuerdo.png" length="73828" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-autos-mexico-importaciones-caen-sin-acuerdo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

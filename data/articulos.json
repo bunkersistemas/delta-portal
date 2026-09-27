@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T16:45:50-03:00",
+    "actualizado": "2026-09-27T17:47:22-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-baterias-apagones-amba-cuanto-cuestan",
+      "titulo": "Las baterías contra los apagones del AMBA cuestan US$95,7 millones por año durante 15 años: la cuenta va a las facturas de Edenor y Edesur",
+      "bajada": "El Gobierno firmó contratos con 11 centrales de baterías para que el verano tenga menos cortes de luz en el AMBA. Según el estado de contratos de CAMMESA, cobran en total US$7,97 millones por mes por estar disponibles, durante 15 años. Una resolución de la Secretaría de Energía manda trasladar ese costo a los usuarios finales. Repartido en partes iguales entre los 6,38 millones de usuarios de Edenor y Edesur, son US$1,25 por mes cada uno.",
+      "titulo_busqueda": "¿Cuánto cuestan las baterías contra los cortes de luz y quién las paga? US$95,7 millones por año",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$95,7 M",
+      "numero_label": "pago anual a precio de contrato de las 11 centrales de baterías AlmaGBA (683 MW, US$7.971.556 por mes; CAMMESA y resoluciones SE 361/2025 y 384/2025)",
+      "fecha": "2026-09-27",
+      "hora": "18:30",
+      "archivo": "articulos/2026-09-27-baterias-apagones-amba-cuanto-cuestan.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-27-autos-electricos-importados-ocho-meses-china",
       "titulo": "Los autos eléctricos importados sumaron US$118,9 millones en ocho meses, 8,8 veces más que un año antes: 92 de cada 100 dólares fueron a China",
