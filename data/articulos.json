@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-26T23:47:42-03:00",
+    "actualizado": "2026-09-27T00:42:04-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais",
+      "titulo": "Mercado Libre se endeudó por US$1.000 millones a diez años pagando 1,3 puntos más que EE.UU.: la sobretasa del Estado argentino, el riesgo país, llegó el viernes a 6,09",
+      "bajada": "El 9 de septiembre Mercado Libre colocó bonos a diez años con un rendimiento de 6,139%: 130 puntos básicos por encima del bono del Tesoro de Estados Unidos. Ese día el riesgo país, que mide esa misma sobretasa para los bonos del Estado argentino, estaba en 491 puntos. El viernes 25 cerró en 609, el nivel más alto desde abril.",
+      "titulo_busqueda": "¿A qué tasa se endeuda Mercado Libre? 5,85% a diez años, 1,3 puntos sobre EE.UU., contra 6,09 del riesgo país",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "130 pb",
+      "numero_label": "sobretasa sobre el Tesoro de EE.UU. que pagó Mercado Libre al colocar US$1.000 M a diez años el 09/09/2026 (término de colocación, SEC); riesgo país 491 ese día y 609 el 25/09",
+      "fecha": "2026-09-27",
+      "hora": "00:30",
+      "archivo": "articulos/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-26-regalias-petroleo-neuquen-vaca-muerta",
       "titulo": "Las regalías del petróleo le dejaron a Neuquén US$1.062 millones entre enero y julio: 61,6% más que un año antes, con más barriles y un crudo más caro",

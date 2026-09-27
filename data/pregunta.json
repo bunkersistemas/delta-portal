@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-09-26",
-  "pregunta": "Entre enero y agosto de 2026 los precios subieron 21,3%. En el Presupuesto 2027 el Gobierno escribió una inflación de 29% para todo 2026. ¿Cuánto pueden subir los precios, como máximo, entre septiembre y diciembre para que se cumpla?",
+  "fecha": "2026-09-27",
+  "pregunta": "El seguro de desempleo paga el 75% del mejor sueldo neto de los últimos seis meses, con un tope de un salario mínimo: $383.800 en septiembre de 2026. Alguien que cobraba $800.000 netos pierde el trabajo en septiembre. ¿Cuánto cobra por mes en los primeros cuatro meses?",
   "opciones": [
-    "6,35% en los cuatro meses, porque cada suba se aplica sobre precios que ya subieron",
-    "7,7%: la diferencia entre 29% y 21,3%",
-    "29%, porque la meta se vuelve a contar desde septiembre"
+    "$383.800, porque el 75% de su sueldo supera el tope y se cobra el tope",
+    "$600.000, el 75% de $800.000",
+    "$800.000, porque los primeros meses el seguro reemplaza el sueldo completo"
   ],
   "correcta": 0,
-  "explicacion": "Las subas de precios no se suman: se encadenan. Si algo costaba $100 en diciembre de 2025, en agosto cuesta $121,30. Para terminar el año en $129 (29% más que en diciembre) solo puede subir $7,70 sobre $121,30, que es 6,35%. Restar 29 menos 21,3 da 7,7 y exagera el margen, porque trata cada suba como si se aplicara sobre el precio de diciembre y no sobre el que ya subió. Repartido en cuatro meses, 6,35% equivale a 1,55% por mes.",
-  "nota": "articulos/2026-09-25-inflacion-meta-29-ritmo-necesario.html",
+  "explicacion": "La fórmula del 75% tiene un techo. El 75% de $800.000 da $600.000, pero la norma pone como máximo un salario mínimo, que en septiembre es $383.800. Por eso, desde un sueldo neto de $511.733 (unos $616.546 brutos) para arriba, todos cobran lo mismo. A esta persona el seguro le reemplaza 48% de lo que llevaba a su casa, no 75%. Y además baja con el tiempo: se cobra 80% del monto del quinto al octavo mes y 70% del noveno al duodécimo.",
+  "nota": "articulos/2026-09-26-seguro-desempleo-tope-cuanto-paga.html",
   "leccion": ""
 }

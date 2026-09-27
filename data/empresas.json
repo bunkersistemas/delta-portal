@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-26T23:30",
+  "generado": "2026-09-27T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -189,26 +189,6 @@
       "tipo": "hecho",
       "descripcion": "8-K acuerdo relevante; comunicado",
       "url": "https://www.sec.gov/Archives/edgar/data/1099590/000114036126036136/ef20081842_8k.htm"
-    },
-    {
-      "id": "sec-0001292814-26-004371",
-      "fuente": "SEC",
-      "fecha": "2026-08-27",
-      "entidad": "BBVA Argentina",
-      "ticker": "BBAR",
-      "tipo": "balance",
-      "descripcion": "6-K Financial Statements as of June 30, 2026 – Sect. 63 BYMA listing rules and regulations – Translation of a submission from Banco BBVA Argentina S.A to the CNV dated on August 27,",
-      "url": "https://www.sec.gov/Archives/edgar/data/913059/000129281426004371/bbar20260827_6k.htm"
-    },
-    {
-      "id": "sec-0001292814-26-004370",
-      "fuente": "SEC",
-      "fecha": "2026-08-27",
-      "entidad": "BBVA Argentina",
-      "ticker": "BBAR",
-      "tipo": "balance",
-      "descripcion": "6-K Banco BBVA Argentina S.A. reports consolidated second quarter earnings for fiscal year 2026. 2Q26 ConferenceCall Friday, August28, 2026 -12:00 p.m. Buenos Aires time –(11:00 a.m",
-      "url": "https://www.sec.gov/Archives/edgar/data/913059/000129281426004370/bbarpr2q26_6k.htm"
     }
   ],
   "anuncios": [
@@ -240,8 +220,6 @@
     "sec-0000933267-26-000059": "2026-09-17",
     "sec-0000933267-26-000061": "2026-09-23",
     "sec-0000933267-26-000063": "2026-09-23",
-    "sec-0001034957-26-000057": "2026-08-27",
-    "sec-0001034957-26-000059": "2026-08-27",
     "sec-0001034957-26-000061": "2026-08-28",
     "sec-0001034957-26-000063": "2026-09-04",
     "sec-0001034957-26-000065": "2026-09-08",

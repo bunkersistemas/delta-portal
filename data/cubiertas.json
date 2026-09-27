@@ -1502,6 +1502,13 @@
       "fecha": "2026-09-26",
       "estado": "publicada",
       "articulo_id": "2026-09-26-regalias-petroleo-neuquen-vaca-muerta"
+    },
+    {
+      "tema": "Mercado Libre, bono 5,850% 2036 / sobretasa de 130 pb sobre el Tesoro de EE.UU. (FWP SEC 09/09/2026: US$1.000 M, precio 97,864%, rendimiento 6,139%, UST de referencia 4,839%) contra riesgo país 491 el mismo día y 609 el 25/09/2026 (el más alto desde el 07/04, 610)",
+      "angulo": "Corrida programada del 27/09/2026 00:30. Regía el cupo de EMPRESAS (hoy sin nota de la sección). Tema del día: riesgo país arriba de 600 (infobae, lanacion, pagina12, iprofesional); ángulo propio desde el bloque EMPRESAS (8-K de MELI del 10 y 14/09, no tratados antes): una empresa nacida en la Argentina se financia con 130 pb de sobretasa, igual que en dic-2025 (US$750 M 4,900% 2033, rendimiento 5,176%, UST 3,876%; riesgo país 634 ese día) mientras el riesgo país fue de 634 a 402 y a 609. Ancla CONFIRMADA: FWP + 424B2 (dos documentos de la empresa ante la SEC) + recálculo (precio 97,864 con cupón semestral 5,85% da 6,139%; 4,839 + 1,30 = 6,139) + contraste del Tesoro de EE.UU. (curva oficial: 10 años 4,83% el 09/09). Riesgo país: ArgentinaDatos y Rava coinciden (634/491/609; 610 el 07/04). Contexto: Argentina 18,6% de los ingresos del 1S-2026 (3.537/19.014, 10-Q); deuda total US$11.626 M tras el bono (424B2). ESTIMACIÓN marcada: costo aproximado del Estado UST + EMBI 9,7% (09/09) y 11,3% (25/09); sobretasa de 2021 ~205 pb (cálculo propio con la curva del Tesoro). Sin juicio sobre el bono ni la acción. Otras candidatas de la lista: dólar tarjeta arriba de $2.000 (infobae), provincias que volvieron al déficit (cronista), cuánto le cobra el FMI a la Argentina (cronista; solapa con la nota del 24/09), Supercopa Internacional Central-Estudiantes (premio sin documento oficial), exención de ABL a hoteles y restaurantes 2027 (proyecto sin norma), Tesla en la Argentina (sin precio oficial); empresas: Central Puerto y YPF recompras (descartadas 25 y 26/09 por rutina), Banco Voii cambio de sede (sin cifras).",
+      "fecha": "2026-09-27",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais"
     }
   ]
 }

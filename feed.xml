@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 26 Sep 2026 23:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 00:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Mercado Libre se endeudó por US$1.000 millones a diez años pagando 1,3 puntos más que EE.UU.: la sobretasa del Estado argentino, el riesgo país, llegó el viernes a 6,09</title>
+      <link>https://coninteres.com/articulos/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.html</guid>
+      <pubDate>Sun, 27 Sep 2026 00:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>El 9 de septiembre Mercado Libre colocó bonos a diez años con un rendimiento de 6,139%: 130 puntos básicos por encima del bono del Tesoro de Estados Unidos. Ese día el riesgo país, que mide esa misma sobretasa para los bonos del Estado argentino, estaba en 491 puntos. El viernes 25 cerró en 609, el nivel más alto desde abril.</description>
+      <ci:numero>130 pb</ci:numero>
+      <ci:numeroEtiqueta>sobretasa sobre el Tesoro de EE.UU. que pagó Mercado Libre al colocar US$1.000 M a diez años el 09/09/2026 (término de colocación, SEC); riesgo país 491 ese día y 609 el 25/09</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.png" length="81813" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las regalías del petróleo le dejaron a Neuquén US$1.062 millones entre enero y julio: 61,6% más que un año antes, con más barriles y un crudo más caro</title>
       <link>https://coninteres.com/articulos/2026-09-26-regalias-petroleo-neuquen-vaca-muerta.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>préstamo hipotecario máximo a 20 años al 7,5% con el sueldo promedio registrado (RIPTE julio 2026, $1.615.203 de bolsillo; cuota hasta 25%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-presta-banco-hipotecario-sueldo-promedio.png" length="72214" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-presta-banco-hipotecario-sueldo-promedio.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Sacar un barril de Vaca Muerta le cuesta US$4,5 a Vista: de los US$81 que facturó por cada uno, el pozo se llevó US$19 y el Estado, US$21</title>
-      <link>https://coninteres.com/articulos/2026-09-25-cuanto-cuesta-sacar-barril-vaca-muerta.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-cuanto-cuesta-sacar-barril-vaca-muerta.html</guid>
-      <pubDate>Fri, 25 Sep 2026 07:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Según su balance del segundo trimestre de 2026, a Vista le costó US$4,5 sacar cada barril equivalente de sus pozos, casi todos en Vaca Muerta. Facturó US$81,3 por barril: la amortización de los pozos se llevó US$19,0, regalías, retenciones y ganancias US$21,4, y a la empresa le quedaron US$22,7 de ganancia neta. A YPF un barril convencional le cuesta US$23,6.</description>
-      <ci:numero>US$4,5</ci:numero>
-      <ci:numeroEtiqueta>costo de extracción (lifting cost) por barril equivalente de Vista en el 2º trimestre de 2026, contra US$81,3 de ingresos por barril</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cuesta-sacar-barril-vaca-muerta.png" length="79904" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cuesta-sacar-barril-vaca-muerta.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
