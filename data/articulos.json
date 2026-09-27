@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T13:44:41-03:00",
+    "actualizado": "2026-09-27T15:02:16-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-hogares-piden-prestamos-bancos-para-vivir",
+      "titulo": "1,67 millones de hogares tuvieron que pedir un préstamo a un banco o una financiera para vivir: 16,4%, el máximo desde 2016",
+      "bajada": "En el segundo semestre de 2025, el 16,4% de los hogares urbanos le pidió plata a un banco o una financiera para mantenerse, según las bases de la Encuesta Permanente de Hogares del INDEC. El pico anterior era 14,5%, en 2019. Contando a los que le pidieron a un familiar o un amigo, fueron 27,6%: más de uno de cada cuatro. En el primer trimestre de 2026, el último con datos, los que le pidieron a un banco fueron 15,6%, contra 13,9% un año antes.",
+      "titulo_busqueda": "¿Cuántos hogares se endeudan para llegar a fin de mes? Uno de cada seis le pide a un banco",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "16,4%",
+      "numero_label": "hogares urbanos que tuvieron que pedir préstamos a bancos o financieras para vivir en el 2º semestre de 2025 (EPH-INDEC, cálculo propio con el método del INDEC): máximo de la serie desde 2016",
+      "fecha": "2026-09-27",
+      "hora": "15:30",
+      "archivo": "articulos/2026-09-27-hogares-piden-prestamos-bancos-para-vivir.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-aerolineas-expropiacion-sentencia-embargos",
       "titulo": "La Argentina debe US$390,9 millones por la expropiación de Aerolíneas y ya le pueden pedir embargos: en 2008 el Estado había tasado las dos aerolíneas en US$832 millones negativos",
