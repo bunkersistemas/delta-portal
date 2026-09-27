@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 27 Sep 2026 06:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 27 Sep 2026 07:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las licencias de pesca le dejaron al gobierno de Malvinas £36,5 millones en un año: un tercio de sus ingresos, y casi la mitad sale del calamar que pescan barcos de Taiwán y Corea</title>
+      <link>https://coninteres.com/articulos/2026-09-27-malvinas-licencias-pesca-calamar-illex.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-malvinas-licencias-pesca-calamar-illex.html</guid>
+      <pubDate>Sun, 27 Sep 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>En el año fiscal que terminó en junio de 2025, el gobierno de las islas cobró £36.481.492 por licencias de pesca: unos US$48 millones, 32% de todo lo que ingresó a sus cuentas. Casi la mitad de lo que se paga por pescar ahí sale del calamar Illex, la misma especie que desembarca la flota argentina, y 105 de los 107 barcos habilitados para pescarlo en 2025 eran taiwaneses o coreanos.</description>
+      <ci:numero>£36,5 M</ci:numero>
+      <ci:numeroEtiqueta>cobró el gobierno de Malvinas por licencias de pesca en el año fiscal 2024/25 (£36.481.492, 32% de sus ingresos operativos; presupuesto oficial 2026/27)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-malvinas-licencias-pesca-calamar-illex.png" length="79090" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-malvinas-licencias-pesca-calamar-illex.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Una sucesión en la Justicia nacional paga 1,5% de tasa más honorarios medidos en UMA: la unidad vale $105.991 desde agosto y subió 37,2% en un año, más que los precios</title>
       <link>https://coninteres.com/articulos/2026-09-27-cuanto-cuesta-sucesion-uma-tasa-justicia.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de básico cobra un playero de estación de servicio (CCT 488/07, CABA y provincia de Buenos Aires) en octubre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-playero-estacion-servicio-octubre.png" length="79311" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-cuanto-cobra-playero-estacion-servicio-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Ciudad cuenta casi el doble de pobres porteños que el INDEC: 21,5% contra 11,1% en el mismo semestre</title>
-      <link>https://coninteres.com/articulos/2026-09-25-pobreza-caba-ciudad-casi-doble-que-indec.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-pobreza-caba-ciudad-casi-doble-que-indec.html</guid>
-      <pubDate>Fri, 25 Sep 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>El IDECBA midió 21,5% de pobreza en la Ciudad de Buenos Aires en el primer semestre de 2026; el INDEC, para la misma ciudad y el mismo semestre, 11,1%. No es un error de ninguno: usan encuestas distintas y líneas de pobreza distintas. Para una pareja que alquila, la línea de la Ciudad está 24,1% más arriba.</description>
-      <ci:numero>21,5%</ci:numero>
-      <ci:numeroEtiqueta>de los porteños era pobre en el primer semestre de 2026 según la Ciudad (IDECBA); el INDEC midió 11,1%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-pobreza-caba-ciudad-casi-doble-que-indec.png" length="67636" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-pobreza-caba-ciudad-casi-doble-que-indec.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

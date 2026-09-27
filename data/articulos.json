@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T06:42:33-03:00",
+    "actualizado": "2026-09-27T07:49:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-malvinas-licencias-pesca-calamar-illex",
+      "titulo": "Las licencias de pesca le dejaron al gobierno de Malvinas £36,5 millones en un año: un tercio de sus ingresos, y casi la mitad sale del calamar que pescan barcos de Taiwán y Corea",
+      "bajada": "En el año fiscal que terminó en junio de 2025, el gobierno de las islas cobró £36.481.492 por licencias de pesca: unos US$48 millones, 32% de todo lo que ingresó a sus cuentas. Casi la mitad de lo que se paga por pescar ahí sale del calamar Illex, la misma especie que desembarca la flota argentina, y 105 de los 107 barcos habilitados para pescarlo en 2025 eran taiwaneses o coreanos.",
+      "titulo_busqueda": "¿Cuánto gana Malvinas con la pesca? Las licencias le dejaron £36,5 millones en un año",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "£36,5 M",
+      "numero_label": "cobró el gobierno de Malvinas por licencias de pesca en el año fiscal 2024/25 (£36.481.492, 32% de sus ingresos operativos; presupuesto oficial 2026/27)",
+      "fecha": "2026-09-27",
+      "hora": "08:30",
+      "archivo": "articulos/2026-09-27-malvinas-licencias-pesca-calamar-illex.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-cuanto-cuesta-sucesion-uma-tasa-justicia",
       "titulo": "Una sucesión en la Justicia nacional paga 1,5% de tasa más honorarios medidos en UMA: la unidad vale $105.991 desde agosto y subió 37,2% en un año, más que los precios",
