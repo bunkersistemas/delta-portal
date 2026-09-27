@@ -1535,6 +1535,13 @@
       "angulo": "DESCARTADA en la corrida programada del 27/09/2026 02:30. Las fuentes oficiales (argentina.gob.ar, GCBA, 13/10/2025) solo dicen que la etapa 4 demanda 'más de $100 mil millones', sin monto de adjudicación documentado ni costo total de las cuatro etapas (obra iniciada antes de 2019, parada cinco años). Sin cifra ancla que llegue a CONFIRMADO.",
       "fecha": "2026-09-27",
       "estado": "descartada"
+    },
+    {
+      "tema": "cuántas empresas cerraron desde 2023 / empleadores con trabajadores declarados y cobertura de ART (SRT, unidades productivas): 512.357 en nov-23 -> 481.015 en jun-26 (-31.342, -6,1%), mínimo desde jul-2007 (479.354); 17 caídas mensuales seguidas (feb-25 a jun-26); tramos -9.228 / -5.728 / -16.386; 1 y 2 personas = 21.771 (69,5% de la baja, 52,1% del stock de nov-23); contraste OEDE-SIPA empresas privadas con empleo 4T23 567.416 -> 4T25 540.262 (-27.154, -4,8%); aperturas 79.994 (2023) / 63.494 (2024) / 64.124 (2025, -19,8%) contra cierres 78.099 / 77.881 / 76.891 (-1,5%); menos aperturas desde 1997 solo en 2001, 2002, 2020 y 2021",
+      "angulo": "La cifra de 'empresas cerradas' que circula es un saldo: los cierres de 2024-2025 quedaron en el nivel de 2023 y lo que se derrumbó fueron las aperturas (el informe OEDE del 13/07/2026 lo dice así). Siete de cada diez empleadores que faltan tenían 1 o 2 personas. Camino de verificación: estadística oficial recalculada (serie SRT cuadro 4.2) + contraste independiente (OEDE, SIPA).",
+      "fecha": "2026-09-27",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-empleadores-menos-empresas-abren-menos"
     }
   ]
 }

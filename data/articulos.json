@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T02:39:24-03:00",
+    "actualizado": "2026-09-27T03:42:08-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-empleadores-menos-empresas-abren-menos",
+      "titulo": "Hay 31.342 empleadores menos que en noviembre de 2023: en 2025 cerraron casi tantas empresas como en 2023, pero abrieron 19,8% menos",
+      "bajada": "En junio de 2026 había 481.015 empresas y entidades con al menos un trabajador registrado, según la Superintendencia de Riesgos del Trabajo: el número más bajo desde 2007. Siete de cada diez de las que faltan tenían una o dos personas en nómina. Y los registros del sistema previsional muestran que el agujero no lo abrieron más cierres, sino menos aperturas.",
+      "titulo_busqueda": "¿Cuántas empresas cerraron desde 2023? Hay 31.342 empleadores menos, pero lo que cayó es cuántas abren",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "31.342",
+      "numero_label": "empleadores menos con al menos una persona trabajadora declarada y cobertura de ART entre noviembre de 2023 (512.357) y junio de 2026 (481.015), −6,1% (SRT, serie histórica de unidades productivas, cuadro 4.2)",
+      "fecha": "2026-09-27",
+      "hora": "03:30",
+      "archivo": "articulos/2026-09-27-empleadores-menos-empresas-abren-menos.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-rio-negro-ipross-libre-eleccion-aporte-4-por-ciento",
       "titulo": "Un estatal de Río Negro que deje el IPROSS se lleva solo su aporte del 4%: 36 de cada 100 pesos de su cobertura, contra 85 de un empleado privado",
