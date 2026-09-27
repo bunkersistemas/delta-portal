@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T03:42:08-03:00",
+    "actualizado": "2026-09-27T04:43:52-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-vialidad-decomiso-inflacion-valor",
+      "titulo": "El decomiso de Vialidad se calculó con precios de mayo de 2025 y quedó en $684.990 millones: la inflación ya le sacó 29% de su valor",
+      "bajada": "La Justicia fijó el decomiso de la causa Vialidad en $684.990.350.139,86: la condena de 2022 actualizada con la inflación hasta mayo de 2025. Desde entonces los precios subieron 40,9% y el monto no se movió. Para valer lo mismo, hoy tendría que ser de unos $965.000 millones. En dólares oficiales pasó de US$536 millones a US$449 millones.",
+      "titulo_busqueda": "¿Cuánto tiene que pagar Cristina Kirchner por el decomiso de Vialidad? $684.990 millones de mayo de 2025, que ya perdieron 29%",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$684.990 M",
+      "numero_label": "decomiso de la causa Vialidad fijado por el TOF 2 el 15/07/2025 con el IPC de mayo de 2025 ($684.990.350.139,86), confirmado por Casación Sala IV el 17/09/2025; recalculado al centavo con la serie del INDEC (nov-22 a may-25)",
+      "fecha": "2026-09-27",
+      "hora": "04:30",
+      "archivo": "articulos/2026-09-27-vialidad-decomiso-inflacion-valor.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-empleadores-menos-empresas-abren-menos",
       "titulo": "Hay 31.342 empleadores menos que en noviembre de 2023: en 2025 cerraron casi tantas empresas como en 2023, pero abrieron 19,8% menos",
