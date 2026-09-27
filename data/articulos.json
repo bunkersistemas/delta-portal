@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T15:02:16-03:00",
+    "actualizado": "2026-09-27T15:41:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-dolar-presupuesto-2027-cuanto-supone",
+      "titulo": "El Presupuesto 2027 supone un dólar de $1.847,6 en diciembre de 2027: los analistas que releva el BCRA esperan $2.016, 9% más",
+      "bajada": "El Gobierno escribió en el proyecto de Presupuesto que el dólar mayorista va a subir 15,5% durante 2027, menos que la inflación que prevé para ese año. Los analistas del REM esperan un dólar 9,1% más alto. Y el antecedente no ayuda: hace un año, el Presupuesto 2026 suponía $1.325 para diciembre de 2025, y el dólar terminó en $1.447,8.",
+      "titulo_busqueda": "¿A cuánto va a estar el dólar en 2027, según el Presupuesto?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "$1.847,6",
+      "numero_label": "es el dólar mayorista (promedio de diciembre) que supone el proyecto de Presupuesto 2027 para diciembre de 2027, 15,5% más que los $1.600 de fin de 2026; la mediana del REM del BCRA espera $2.015,7",
+      "fecha": "2026-09-27",
+      "hora": "16:30",
+      "archivo": "articulos/2026-09-27-dolar-presupuesto-2027-cuanto-supone.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-09-27-hogares-piden-prestamos-bancos-para-vivir",
       "titulo": "1,67 millones de hogares tuvieron que pedir un préstamo a un banco o una financiera para vivir: 16,4%, el máximo desde 2016",

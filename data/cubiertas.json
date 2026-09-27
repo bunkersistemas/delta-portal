@@ -1643,6 +1643,13 @@
       "fecha": "2026-09-27",
       "estado": "publicada",
       "articulo_id": "2026-09-27-hogares-piden-prestamos-bancos-para-vivir"
+    },
+    {
+      "tema": "a cuánto va a estar el dólar en 2027 según el Presupuesto / proyecto de Presupuesto 2027 (mensaje, pág. 32): TCN promedio de diciembre $1.600,0 en 2026 y $1.847,6 en 2027 (+15,5%, IPC 18%), $1.989,4 en 2028 y $2.063,4 en 2029; Presupuesto 2026 suponía $1.325 dic-25 (fue $1.447,84 promedio A3500, +9,3%), $1.423 dic-26 y $1.470 dic-27; REM ago-2026 mediana dic-26 $1.630 y dic-27 $2.015,7 (44 resp., P25 $1.919,9), +9,1% sobre el Presupuesto; A3500 25/09/2026 $1.523,97",
+      "angulo": "Corrida programada del 27/09/2026 15:30. Pregunta de plata detrás de ámbito (Presupuesto 2027: un dólar 10% arriba consumiría el margen fiscal) y del riesgo país arriba de 600 en infobae, lanacion, ámbito, iprofesional y pagina12. Ángulo nuevo respecto de la nota de la meta de inflación del 25/09 (misma pág. 32, pero IPC): el dólar del Presupuesto contra el REM y contra el supuesto del año pasado. Verificación: documento oficial + recálculo con la serie A3500 (el cuadro usa el promedio mensual: dic-25 1.447,84 y dic-24 1.020,71 coinciden con 1.447,8 y 1.021) + contraste REM (base implícita dic-25 1.447,6).",
+      "fecha": "2026-09-27",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-dolar-presupuesto-2027-cuanto-supone"
     }
   ]
 }
