@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T09:44:00-03:00",
+    "actualizado": "2026-09-27T10:41:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-deuda-provincia-buenos-aires-vencimientos-2027",
+      "titulo": "La provincia de Buenos Aires debe US$12.112 millones y 2027 es su año de pagos más pesado: le vencen $3,07 billones",
+      "bajada": "Al 30 de junio, la deuda bonaerense sumaba $17,95 billones, según el informe trimestral de la propia provincia: la mitad de todo lo que deben las provincias. En 2027 le vencen $3,07 billones, unos US$2.069 millones, 17% de lo que debe. El pico no lo arman los bonos emitidos bajo ley de Nueva York, que pagan casi lo mismo cada año hasta 2037, sino la deuda local.",
+      "titulo_busqueda": "¿Cuánto debe la provincia de Buenos Aires? US$12.112 millones, y 2027 es su año de pagos más pesado",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "US$12.112 M",
+      "numero_label": "deuda de la provincia de Buenos Aires al 30/06/2026 (informe provincial)",
+      "fecha": "2026-09-27",
+      "hora": "11:30",
+      "archivo": "articulos/2026-09-27-deuda-provincia-buenos-aires-vencimientos-2027.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-brasil-deficit-comercial-se-achico-autos",
       "titulo": "El déficit comercial con Brasil se achicó 55,2% en ocho meses: la Argentina le compró US$2.139 millones menos y más de un tercio de la baja son autos",
