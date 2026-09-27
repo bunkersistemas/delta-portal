@@ -1603,6 +1603,25 @@
       "fecha": "2026-09-27",
       "estado": "publicada",
       "articulo_id": "2026-09-27-deuda-provincia-buenos-aires-vencimientos-2027"
+    },
+    {
+      "tema": "cuánto cobra un trabajador golondrina / tarefero de yerba mate: remuneraciones de cosecha de la Res. CNTA 38/2026 (BO 13/03/2026; febrero $31.352,56 por tonelada de hoja verde en yerbal normal, tramos hasta junio de 2026, vigencia hasta 31/03/2027)",
+      "angulo": "FRENADA en la corrida programada del 27/09/2026 11:30. Pregunta de plata detrás de infobae sociedad 27/09 ('Aves de paso': 150.000 trabajadores golondrina, sin fuentes citadas). MOTIVO DEL FRENO: la cifra ancla (valor por tonelada vigente desde junio de 2026) está solo en el Anexo del BO, que se descarga por POST (download_anexo) y no se pudo leer en este entorno; el texto del aviso no trae montos y argentina.gob.ar/normativa no enlaza los anexos. Solo la prensa misionera (Primera Edición, El Territorio, NEA Hoy) reproduce febrero. Retomar con el anexo legible (o el cuadro de ARCA de remuneraciones mínimas agrarias con la Res. 38) y el valor del mismo mes de 2025 para comparar con el IPC.",
+      "fecha": "2026-09-27",
+      "estado": "descartada"
+    },
+    {
+      "tema": "compras de la ex Agencia Nacional de Discapacidad (Andis) / desvíos de precios de hasta 1972% contra PAMI y productos distintos de los adjudicados (La Nación 27/09/2026, informes del Ministerio de Salud y del ex interventor Vilches enviados a la Justicia)",
+      "angulo": "FRENADA en la corrida programada del 27/09/2026 11:30. Tema en lanacion (portada), Análisis, Informe Digital, DataChaco. MOTIVO DEL FRENO: los informes están en el expediente judicial y no están publicados; las cifras (1972%, 4239% del andador) solo aparecen en la prensa, que los cita. Hay imputaciones sin sentencia (línea roja 7). Retomar si se publica el informe (SIGEN, AGN o Ministerio de Salud) o las órdenes de compra en COMPR.AR con sus precios.",
+      "fecha": "2026-09-27",
+      "estado": "descartada"
+    },
+    {
+      "tema": "casas prefabricadas chinas / importación de construcciones prefabricadas (NCM 9406, INDEC): 2025 13.858.082 kg (US$35,6 M FOB), máximo de la serie desde 2002 (previo 2019: 12.810.496 kg); ene-ago 2026 17.811.141 kg (+201,7% vs 5.903.841; +28,5% vs todo 2025), 89,6% de China; US$/kg FOB 1,90 (-23,5% vs ene-ago 2025)",
+      "angulo": "Corrida programada del 27/09/2026 11:30. Pregunta de plata detrás de lanacion (casas prefabricadas chinas: cuánto cuestan, 26-27/09; también ámbito, créditos para casas modulares, y Bloomberg Línea): los medios dan catálogos, nadie da cuántas entran. Camino estadística oficial: (1) base de comercio exterior del INDEC, archivos imports_AAAA_M.zip 2002-2026; (2) recálculo propio por posición 9406 (todos los orígenes; China = código 310); serie arranca en 2002 (2001 da 404); (3) contraste UN Comtrade, exportaciones de China a la Argentina HS 9406: 2023 2.739 t, 2024 5.097 t, 2025 14.031 t (US$24,5 M) contra INDEC origen China 3.793 / 8.393 / 12.021 t; mismo salto, diferencia anual no explicada entera (2024 +65%, 2025 -14%), suma 2023-25 10,7%. 2026 sin dato de China en Comtrade: va como provisorio INDEC. Superlativos: 2025 año completo más alto (previo 2019 12.810 t); ene-ago 2026 el más alto (previo ene-ago 2024 8.300 t). La posición no distingue casas de galpones ni módulos de campamento (71,7% es 9406.90.20, hierro o acero): la nota no cuenta casas. Candidatas probadas antes en esta corrida: tareferos (CNTA 38/2026, anexo ilegible) y Andis (sin documento público). Hoy ya hay nota de EMPRESAS (Mercado Libre); el bloque CNV/SEC no trae material nuevo (Vista solo anuncia fecha de resultados). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-27",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-construcciones-prefabricadas-importadas-record-china"
     }
   ]
 }
