@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T18:44:15-03:00",
+    "actualizado": "2026-09-27T19:50:47-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-cuanto-gasta-ciudad-basura-recoleccion",
+      "titulo": "La Ciudad de Buenos Aires gastó $1,15 billones en la basura en 2025: 8 de cada 100 pesos de todo lo que gastó, y tres de cada cuatro fueron al contrato de recolección",
+      "bajada": "El programa de higiene urbana de la Ciudad (recolección, barrido, contenedores y entierro de los residuos) devengó $1.154.984 millones en 2025, según la ejecución presupuestaria oficial. Son $96.249 millones por mes y 8,01% del gasto porteño. El 74,1% fue al contrato con las empresas que recolectan y barren, el mismo que la Ciudad empieza a relicitar para cuando venza en 2028.",
+      "titulo_busqueda": "¿Cuánto paga la Ciudad de Buenos Aires por la recolección de basura? $1,15 billones en 2025",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$1,15 billones",
+      "numero_label": "devengó en 2025 el programa Servicios de Higiene Urbana de la Ciudad de Buenos Aires ($1.154.984.724.903): 8,01% de todo su gasto; 74,1% fue al contrato de recolección y limpieza con empresas",
+      "fecha": "2026-09-27",
+      "hora": "20:30",
+      "archivo": "articulos/2026-09-27-cuanto-gasta-ciudad-basura-recoleccion.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-27-cuanto-cobra-docente-universitario-ley-financiamiento",
       "titulo": "Los sueldos de los docentes universitarios compran 25% menos que en noviembre de 2023: para cumplir la ley tendrían que subir 33,4%",

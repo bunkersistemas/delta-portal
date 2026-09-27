@@ -1671,6 +1671,29 @@
       "fecha": "2026-09-27",
       "estado": "publicada",
       "articulo_id": "2026-09-27-cuanto-cobra-docente-universitario-ley-financiamiento"
+    },
+    {
+      "tema": "cuánto le cuesta a la Nación que los jueces no paguen Ganancias / gasto tributario por exención de magistrados y funcionarios judiciales nacionales y provinciales, Presupuesto 2027 (mensaje, cuadro 2, pág. 45): $1.943.642,4 M en 2027 (0,14% PIB), $1.238.416,7 M en 2026 y $724.373,7 M en 2025; la edición de septiembre de 2025 de la serie DNIAF daba $883.880 M para 2025 y $881.676 M para 2026",
+      "angulo": "FRENADA en la corrida programada del 27/09/2026 19:30. Pregunta de plata detrás de Página12 (27/09, Los privilegios que esconde el Presupuesto). Motivo: la cifra de 2027 es una proyección de la Subsecretaría de Ingresos Públicos y no hay segunda fuente independiente (todos los medios reproducen la misma; el camino de estadística oficial no vale para proyecciones); la misma oficina revisó 2025 (-18%) y 2026 (+40%) sin explicarlo y el salto 2026-2027 (+56,9%) no cierra con la inflación del Presupuesto (18%); además la pregunta ya la contestaron Chequeado y El Cronista (17/09). Retomar cuando la DNIAF publique el informe 2025-2027 con su metodología.",
+      "fecha": "2026-09-27",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "proyección de una sola fuente, revisiones de la serie sin explicar y pregunta ya contestada por otros medios"
+    },
+    {
+      "tema": "cheques rechazados por falta de fondos, agosto 2026 / 82.050 (-16,2% mensual, +14,4% interanual), $283.191,5 M (BCRA, informe de pagos minoristas)",
+      "angulo": "DESCARTADA en la corrida programada del 27/09/2026 19:30 sin investigación completa: Infobae, Rosario Finanzas e Informe Digital ya publicaron las mismas cifras del BCRA el 27/09 y no apareció un ángulo propio respecto de la nota del 21/07 (mayo).",
+      "fecha": "2026-09-27",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin ángulo nuevo: el dato del día ya lo publicaron varios medios con las mismas cifras"
+    },
+    {
+      "tema": "cuánto paga la Ciudad de Buenos Aires por la recolección de basura / programa 52 Servicios de Higiene Urbana, devengado 2025 $1.154.984.724.903 (8,01% de $14.414.804.160.946, todas las jurisdicciones); contrato de recolección y limpieza por terceros $855.308.932.838 (74,1%), disposición final $135.545.687.567, contenedores $71.040.812.035, zonas vulnerables $49.260.919.327; serie de la porción 2020-2025: 7,96 / 7,13 / 7,34 / 7,24 / 8,19 / 8,01%; sancionado 2026 $1.340.907.029.508 (7,37%), contrato $1.148.902.534.035; $30.832 por habitante por mes (Censo 2022, 3.121.707)",
+      "angulo": "Corrida programada del 27/09/2026 19:30. Pregunta de plata detrás de Infobae (27/09, Ley Moyano y nueva licitación de residuos) y Página12 (17/09, audiencia pública del 05/10): nadie publicó cuánto cuesta el servicio. Camino estadística oficial recalculada con contraste: (1) presupuesto ejecutado del GCBA en datos abiertos (4T de cada año); (2) suma propia de los renglones del programa 52; (3) contraste: AGCBA ejercicio 2022 (contrato $79.336.117.624,07 y contenedores $1.814.789.859,16; la base da $79.336.117.625 y $1.814.789.859), AGCBA ejercicio 2024 (sanción $414.406.630.233, idéntica), Chequeado 09/05/2025 (devengado 2024 ~$764 mil M, base $764.845 M; contrato presupuesto 2025 ~$825 mil M, base $825.313 M). Diferencia mostrada: 8,36% de Chequeado contra 8,19% propio por el total usado. No se usa el total por contratista de la AGCBA 2024 ($779.267 M) porque su propio cuadro por zona no cierra. No se afirma lo que cobra cada empresa en 2025, ni el costo de las indemnizaciones (US$200 M de prensa, sin documento), ni variación real. Audiencia y vencimiento 2028 atribuidos a Página12 e Infobae (el Boletín porteño no se pudo leer). Primera candidata frenada: Ganancias de los jueces. Hoy ya hubo nota de EMPRESAS (Mercado Libre): no regía el cupo; el bloque (Vista Energy aviso de fecha, Central Puerto recompra, Banco Voii sede) no trae una cifra nueva. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-27",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-cuanto-gasta-ciudad-basura-recoleccion"
     }
   ]
 }
