@@ -1463,6 +1463,13 @@
       "fecha": "2026-09-26",
       "estado": "publicada",
       "articulo_id": "2026-09-26-congreso-presupuesto-2027-costo-por-cargo"
+    },
+    {
+      "tema": "cuánto paga el seguro de desempleo / prestación por desempleo (Ley 24.013), tope = 100% del SMVM: $383.800 sep-26 y $391.200 oct-26 (Res. CNEPYSMVM 4/2026, BO 02/09/2026; piso 50% = $191.900); el 75% del neto toca el tope desde $511.733 neto = $616.546 bruto (oct $628.434); reemplazo del neto: SMVM 75%, camionero 42,2%, UOM 40,9%, RIPTE jul 23,1% (tope jul $372.400); BESS cuadro 5.1: promedio pagado jun $316.935 = 86,2% del tope, beneficiarios 103.434 (ene) -> 116.641 (jun, +12,8%)",
+      "angulo": "Corrida programada del 26/09/2026 21:30. Pregunta de plata detrás de infobae (26/09: quiénes pueden pedir la ayuda de la ANSES para personas sin trabajo), en contexto de recesión técnica y desocupación en alza. Ángulo propio: el 75% es de fachada para cualquier sueldo de convenio; el seguro funciona como un SMVM fijo. Verificación: dos fuentes que coinciden (BO Res. 4/2026 art. 1 y 2 + página del Consejo del Salario de la Secretaría de Trabajo; la página publica un mínimo de $191.800 contra $191.900 del 50%, se usa la resolución) + recálculo + contraste independiente del BESS (Secretaría de Seguridad Social, xlsx desempleo jun-2026). ANSES (anses.gob.ar) responde 403 al verificador: no se cita. Otras candidatas de la corrida (no probadas): riesgo país >600 (cubierto 24/09 a 566, ángulo débil), YPF +1% combustibles (cubierto 24-25/09), reservas y pago al FMI (descartada 25/09), remates de departamentos sin herederos en CABA (Banco Ciudad), cuánto le cuesta el FMI a América Latina (cronista), provincias vuelven al déficit (cronista), récord de exportaciones agroindustriales 84,26 Mt (infobae), Catamarca elimina IIBB a la industria (ámbito); empresas: Molinos Agro-ACA, YPF recompra de ON y Central Puerto (ya descartadas 25-26/09 por falta de monto o hecho económico) y MSU Green Energy (descartada 25/09). Hoy ya hay nota de EMPRESAS (BBVA): no regía el cupo.",
+      "fecha": "2026-09-26",
+      "estado": "publicada",
+      "articulo_id": "2026-09-26-seguro-desempleo-tope-cuanto-paga"
     }
   ]
 }
