@@ -1509,6 +1509,13 @@
       "fecha": "2026-09-27",
       "estado": "publicada",
       "articulo_id": "2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais"
+    },
+    {
+      "tema": "cuánto hay que ganar para estar en el 10% más rico de la Ciudad de Buenos Aires / piso del décimo decil de ingreso total familiar, IDECBA-ETOI 2T-2026: $5.100.000 netos por mes (2T-2025: $4.000.000, +27,5% contra IPCBA +32,7%)",
+      "angulo": "Corrida programada del 27/09/2026 01:30. Pregunta de plata del día (Cronista 27/09 'cuánto hay que ganar para estar entre las más ricas de CABA'; infobae/ámbito/iprofesional el 25/09). Distinta de la nota de pobreza CABA del 25/09 (líneas de pobreza) y de la del decil 10 nacional (descartada por oportunidad, INDEC 01/10). Ángulo propio: la comparación interanual que nadie hizo, recalculada desde la base usuaria 2T-2025: P10 500.000 -> 730.000 (+46,0%), P50 1.500.000 -> 1.910.000 (+27,3%), P90 4.000.000 -> 5.100.000 (+27,5%) contra IPCBA 32,7%; real P90 -3,9%, P50 -4,0%, P10 +10,0%; P90/P10 8,0 -> 7,0; Gini ITF 0,424 -> 0,415. Decil 10: 137.311 hogares, promedio $7.704.374, 30,0% de la masa; decil 1 $453.282 (1,8%); 17,0 veces. Per cápita: piso decil 10 $2.600.000 (C.4.A). Ocupación principal: decil 10 desde $3.000.000, mediana $1.200.000 (C.9.A). Verificación: estadística oficial recalculada + contraste. (1) ir_2026_2059 C.3.A, G.1.A. (2) recálculo desde el cuadro (137.311/1.371.831=10,0%; 1.057.895.304/137.311=7.704.374; 29,95%; cocientes 7,0 y 2,7 = G.2.A); la base 2T-2026 no está publicada: método validado reproduciendo exacto el C.3.A del 1T-2026 (ir_2026_2037: piso 5.200.000, 1.356.457 hogares, media 2.588.582) desde etoi261, y 2T-2025 desde etoi252 v2 (media 2.015.490 = serie publicada; cocientes 8,0/3,0/2,7 = G.2.A). (3) contraste EPH INDEC 1T-2026 aglomerado 32 (PONDIH): P90 $6.000.000 vs ETOI 5.200.000, media +24%; explicado por muestra (591 vs 1.573 hogares), no respuesta (248 de 591 con ADECIFR=12, reponderados) vs imputación del IDECBA; misma brecha ETOI/EPH que la nota de pobreza CABA.",
+      "fecha": "2026-09-27",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-cuanto-hay-que-ganar-10-por-ciento-mas-rico-caba"
     }
   ]
 }
