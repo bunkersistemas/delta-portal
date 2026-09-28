@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T20:46:54-03:00",
+    "actualizado": "2026-09-27T21:44:41-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-cuanto-gana-campeon-copa-argentina-premios",
+      "titulo": "El campeón de la Copa Argentina cobra $496,6 millones en premios: en dólares, 41% menos que con la escala que la AFA anunció en 2018",
+      "bajada": "La AFA fijó para 2026 una escala que le deja $496,6 millones al campeón si es de Primera. Son 40 veces los pesos de la escala que anunció en abril de 2018, pero en dólares valen 41% menos: US$356.400 contra US$599.800. Al dólar de hoy, el título entero paga menos que un solo partido ganado en la fase de grupos de la Libertadores.",
+      "titulo_busqueda": "¿Cuánto gana el campeón de la Copa Argentina 2026? $496,6 millones en premios, según la AFA",
+      "seccion": "DEPORTES",
+      "formato": "Anatomía de un dato",
+      "numero": "$496,6 M",
+      "numero_label": "premios que cobra el campeón de la Copa Argentina 2026 si es de Primera (AFA, Boletín 6850): US$356.400 al dólar del anuncio, 40,6% menos que los US$599.800 de la escala de abril de 2018",
+      "fecha": "2026-09-27",
+      "hora": "21:30",
+      "archivo": "articulos/2026-09-27-cuanto-gana-campeon-copa-argentina-premios.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-09-27-cuanto-menos-gana-una-mujer-brecha-ingresos",
       "titulo": "Las mujeres cobran en promedio 29,1% menos que los varones: $959.030 por mes contra $1.352.247. Por hora trabajada, la distancia baja a 10,3%",
