@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 05:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 06:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Presupuesto 2027 reserva $516.218 millones para las elecciones: 43,6% más que lo que costó votar en 2025, cuando no hubo PASO</title>
+      <link>https://coninteres.com/articulos/2026-09-28-cuanto-cuestan-elecciones-2027-presupuesto.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-28-cuanto-cuestan-elecciones-2027-presupuesto.html</guid>
+      <pubDate>Mon, 28 Sep 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El proyecto de Presupuesto 2027 le asigna $516.218 millones a la organización de las elecciones nacionales del año que viene. Es 43,6% más que los $359.437 millones que costaron las de 2025, pero con la inflación que supone el propio Presupuesto sería alrededor de 10% menos en términos reales. Y el proyecto no dice si esa plata alcanza para las PASO, que la ley todavía manda hacer en agosto.</description>
+      <ci:numero>$516.218 M</ci:numero>
+      <ci:numeroEtiqueta>crédito del proyecto de Presupuesto 2027 para la Ejecución de Actos Electorales (Jefatura de Gabinete, programa 16, actividad 43)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-cuanto-cuestan-elecciones-2027-presupuesto.png" length="79317" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-cuanto-cuestan-elecciones-2027-presupuesto.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las personas compraron US$17.545 millones en billetes en ocho meses: más que los US$14.107 millones que sumó el Banco Central</title>
       <link>https://coninteres.com/articulos/2026-09-28-personas-compraron-dolares-mas-que-bcra.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>ingreso total familiar mensual neto desde el que un hogar porteño entra en el 10% con más ingresos, 2º trimestre de 2026 (IDECBA, ETOI, cuadro C.3.A); $4.000.000 un año antes</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-hay-que-ganar-10-por-ciento-mas-rico-caba.png" length="79986" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-hay-que-ganar-10-por-ciento-mas-rico-caba.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Mercado Libre se endeudó por US$1.000 millones a diez años pagando 1,3 puntos más que EE.UU.: la sobretasa del Estado argentino, el riesgo país, llegó el viernes a 6,09</title>
-      <link>https://coninteres.com/articulos/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.html</guid>
-      <pubDate>Sun, 27 Sep 2026 00:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>El 9 de septiembre Mercado Libre colocó bonos a diez años con un rendimiento de 6,139%: 130 puntos básicos por encima del bono del Tesoro de Estados Unidos. Ese día el riesgo país, que mide esa misma sobretasa para los bonos del Estado argentino, estaba en 491 puntos. El viernes 25 cerró en 609, el nivel más alto desde abril.</description>
-      <ci:numero>130 pb</ci:numero>
-      <ci:numeroEtiqueta>sobretasa sobre el Tesoro de EE.UU. que pagó Mercado Libre al colocar US$1.000 M a diez años el 09/09/2026 (término de colocación, SEC); riesgo país 491 ese día y 609 el 25/09</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.png" length="81813" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
