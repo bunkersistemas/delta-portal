@@ -1777,6 +1777,20 @@
       "fecha": "2026-09-28",
       "estado": "publicada",
       "articulo_id": "2026-09-28-cuanto-cuestan-elecciones-2027-presupuesto"
+    },
+    {
+      "tema": "cuánto le cuesta Enarsa al Estado / transferencias del Tesoro a Energía Argentina S.A. (Presupuesto Abierto, crédito mensual 2017-2026, devengado con beneficiario Enarsa/IEASA, actualización 25/09/2026)",
+      "angulo": "ene-ago 2026 $614.449,4 M (ene 284.757; may 35.000; jun 230.000; jul 51.478; ago 13.214,4 reversión Gasoducto Norte; sep al 25: 0) contra ene-ago 2025 $753.373,7 M (-18,4% nominal, -34,6% real) y ene-ago 2023 $817.768,0 M = $6,37 bill. de ago-26 contra $0,68 bill. (-89,4% real, IPC INDEC mes a mes, ago-26 12.276,766); mínimo de la serie ene-ago 2017-2026 (previo 2025 $1,03 bill.; 2017 $1,09 bill.); crédito 2026 inicial $1.645.880 M, vigente $939.364,8 M (-42,9%), ejecutado 65,4% / Corrida programada del 28/09/2026 07:30. Tema: Decreto 1107/2026 (BO 28/09/2026), segunda etapa de la privatización de Enarsa: venta de 65,01% de TMB, 68,83% de TSM y la participación (>=70%) en CTGB (infobae portada, diariohoy, examedia). Ángulo NUEVO respecto de la nota de subsidios del 28/09 01:30 (que citó ENARSA -33% del IIEP en un gráfico por destino): serie de diez años por empresa y recorte del crédito 2026, ligado a la privatización. Verificación: estadística oficial recalculada + contraste: IIEP Reporte #42 tabla 2 ENARSA 614.449 vs 920.985 (-33% nominal, -46% real) igual a nuestro recálculo (ene-sep 2025 920.984,7; -46,0% real); OPC ene-2024 (vía Ámbito 18/01/2024) 2023 $1.128.808 M vs cierre PA $1.069.561,9 M (5,5%, ejecución preliminar vs cierre). Descartadas antes en esta corrida: visita del Papa (DNU 1103/2026 del 28/09 sin monto, gasto con cargo a créditos vigentes de la J25) y valuación de las acciones de TMB/TSM (sin precio en el decreto ni balances públicos de las sociedades).",
+      "fecha": "2026-09-28",
+      "estado": "publicada",
+      "articulo_id": "2026-09-28-cuanto-le-cuesta-enarsa-al-estado"
+    },
+    {
+      "tema": "visita del papa León XIV (8 al 11/11/2026) / cuánto cuesta y quién la paga (RETOMADA)",
+      "angulo": "FRENADA en la corrida programada del 28/09/2026 07:30. Retomada porque el BO del 28/09/2026 trae el DNU 1103/2026 (feriado nacional 9/11, feriados 10/11 en Córdoba y CABA y 11/11 en PBA; crea la Unidad Ejecutora Especial Temporaria en la JGM, titular y coordinadores ad honorem). MOTIVO DEL FRENO: el DNU no fija ningún monto: el art. 16 dice que el gasto se atiende con los créditos vigentes de la Jurisdicción 25 (JGM). Si se retoma: resolución de la JGM que asigne crédito a la Unidad, o contrataciones adjudicadas en COMPR.AR.",
+      "fecha": "2026-09-28",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }

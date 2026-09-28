@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-28T06:42:38-03:00",
+    "actualizado": "2026-09-28T07:46:42-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-28-cuanto-le-cuesta-enarsa-al-estado",
+      "titulo": "El Tesoro le giró a Enarsa 89% menos que en 2023, en pesos de hoy, y el Gobierno pone en venta sus centrales eléctricas",
+      "bajada": "Entre enero y agosto de 2026, el Tesoro nacional le transfirió a Energía Argentina (Enarsa) $614.449 millones. Llevado a pesos de agosto de 2026, es 89% menos que en los mismos meses de 2023 y el nivel más bajo de la serie 2017-2026. Este lunes, un decreto autorizó vender las acciones que la empresa tiene en tres centrales térmicas.",
+      "titulo_busqueda": "¿Cuánto le cuesta Enarsa al Estado? Lo que le giró el Tesoro, año por año",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−89%",
+      "numero_label": "caída real de las transferencias del Tesoro a Enarsa, enero-agosto de 2026 contra enero-agosto de 2023 (Presupuesto Abierto, devengado, pesos de agosto de 2026)",
+      "fecha": "2026-09-28",
+      "hora": "07:30",
+      "archivo": "articulos/2026-09-28-cuanto-le-cuesta-enarsa-al-estado.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-28-cuanto-cuestan-elecciones-2027-presupuesto",
       "titulo": "El Presupuesto 2027 reserva $516.218 millones para las elecciones: 43,6% más que lo que costó votar en 2025, cuando no hubo PASO",
