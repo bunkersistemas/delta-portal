@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-27T23:47:19-03:00",
+    "actualizado": "2026-09-28T00:46:13-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-28-aeropuertos-argentina-concesion-2056-ezeiza",
+      "titulo": "La concesión de Aeropuertos Argentina se estira hasta 2056 si invierte US$600 millones en Ezeiza: 18 años más que el vencimiento actual",
+      "bajada": "La Decisión Administrativa 27/2026, publicada hoy en el Boletín Oficial, aprueba el acuerdo entre el ORSNA y Aeropuertos Argentina 2000. La concesión de los aeropuertos del Grupo A, que vencía el 13 de febrero de 2038, se extiende hasta el 13 de febrero de 2056 si la empresa acredita los fondos antes de mediados de 2027 y avanza las obras antes de fin de 2031. Si no cumple, termina en 2049.",
+      "titulo_busqueda": "¿Hasta cuándo tiene Aeropuertos Argentina la concesión y cuánto le paga al Estado?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "2056",
+      "numero_label": "año en que vence la concesión de Aeropuertos Argentina 2000 si cumple la inversión adicional de US$600 M en Ezeiza (DA 27/2026, BO 28/09/2026); 2049 si no cumple; hasta hoy, 2038",
+      "fecha": "2026-09-28",
+      "hora": "01:00",
+      "archivo": "articulos/2026-09-28-aeropuertos-argentina-concesion-2056-ezeiza.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-27-cuanto-cobra-enfermero-clinica-sanidad",
       "titulo": "Un enfermero de clínica cobra $1.262.121 de básico: en un año subió 23,6% y los precios, 33,5%",

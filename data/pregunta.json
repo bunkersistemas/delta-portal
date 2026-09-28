@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-09-27",
-  "pregunta": "El seguro de desempleo paga el 75% del mejor sueldo neto de los últimos seis meses, con un tope de un salario mínimo: $383.800 en septiembre de 2026. Alguien que cobraba $800.000 netos pierde el trabajo en septiembre. ¿Cuánto cobra por mes en los primeros cuatro meses?",
+  "fecha": "2026-09-28",
+  "pregunta": "En el primer trimestre de 2026 las mujeres cobraron en promedio 29,1% menos que los varones por mes. Si se mide por hora trabajada, la distancia baja a 10,3%. ¿Qué explica la mayor parte de la diferencia entre esos dos números?",
   "opciones": [
-    "$383.800, porque el 75% de su sueldo supera el tope y se cobra el tope",
-    "$600.000, el 75% de $800.000",
-    "$800.000, porque los primeros meses el seguro reemplaza el sueldo completo"
+    "Que las mujeres ocupadas trabajan por paga menos horas por semana: 31,7 contra 39,8 de los varones",
+    "Que por la misma hora de trabajo a las mujeres se les paga 29,1% menos",
+    "Que hay más mujeres desocupadas, y eso baja el promedio de ingresos de las mujeres"
   ],
   "correcta": 0,
-  "explicacion": "La fórmula del 75% tiene un techo. El 75% de $800.000 da $600.000, pero la norma pone como máximo un salario mínimo, que en septiembre es $383.800. Por eso, desde un sueldo neto de $511.733 (unos $616.546 brutos) para arriba, todos cobran lo mismo. A esta persona el seguro le reemplaza 48% de lo que llevaba a su casa, no 75%. Y además baja con el tiempo: se cobra 80% del monto del quinto al octavo mes y 70% del noveno al duodécimo.",
-  "nota": "articulos/2026-09-26-seguro-desempleo-tope-cuanto-paga.html",
+  "explicacion": "Lo que se cobra por mes es horas trabajadas por lo que se paga cada hora. Quien trabaja menos horas pagas cobra menos por mes aunque su hora valga lo mismo. Por eso la brecha mensual mezcla dos cosas: que las mujeres ocupadas trabajan unas ocho horas pagas menos por semana y que su hora se paga 10,3% menos. Los desocupados no entran en la cuenta: se compara a quienes tienen trabajo. Las dos brechas son reales, pero miden cosas distintas.",
+  "nota": "articulos/2026-09-27-cuanto-menos-gana-una-mujer-brecha-ingresos.html",
   "leccion": ""
 }
