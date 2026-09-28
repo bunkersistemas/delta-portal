@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-28T00:46:13-03:00",
+    "actualizado": "2026-09-28T01:44:03-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-28-subsidios-luz-gas-5-billones-ocho-meses",
+      "titulo": "El Estado gastó $5,18 billones en subsidios a la luz y el gas en ocho meses: 72% más que en 2025, con precios que subieron 33,5%",
+      "bajada": "Entre enero y agosto de 2026, el Sector Público Nacional pagó $5,18 billones en subsidios a la energía, según la Secretaría de Hacienda. Un año antes habían sido $3,01 billones. Casi todo va a CAMMESA, la empresa que compra la electricidad para todo el país. El Gobierno lo atribuye al costo de generar energía con la crisis en Medio Oriente.",
+      "titulo_busqueda": "¿Cuánto gasta el Estado en subsidios a la luz y el gas? $5,18 billones en ocho meses",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$5,18 bill.",
+      "numero_label": "subsidios económicos a la energía pagados por el Sector Público Nacional en enero-agosto de 2026 (Hacienda, base caja): +72,3% contra enero-agosto de 2025, con IPC agosto interanual de 33,5%",
+      "fecha": "2026-09-28",
+      "hora": "01:30",
+      "archivo": "articulos/2026-09-28-subsidios-luz-gas-5-billones-ocho-meses.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-28-aeropuertos-argentina-concesion-2056-ezeiza",
       "titulo": "La concesión de Aeropuertos Argentina se estira hasta 2056 si invierte US$600 millones en Ezeiza: 18 años más que el vencimiento actual",
