@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-28T02:51:59-03:00",
+    "actualizado": "2026-09-28T03:43:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-28-consumo-maximo-historico-milei-indec",
+      "titulo": "El consumo privado creció 0,4% en un año y cayó 2,4% en el último trimestre: el máximo que citó Milei fue a principios de 2026",
+      "bajada": "\"El consumo está en máximo histórico\", dijo el Presidente el domingo. El último dato del INDEC, el del segundo trimestre, dice otra cosa: sin efectos estacionales, el consumo de los hogares cayó 2,4% contra el primer trimestre, la baja más fuerte desde fines de 2023, y quedó debajo de los cuatro trimestres anteriores. Contra un año antes, subió apenas 0,4%.",
+      "titulo_busqueda": "¿Está el consumo en máximos históricos, como dijo Milei? Qué dicen los datos del INDEC",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "0,4%",
+      "numero_label": "cuánto creció el consumo privado entre el 2° trimestre de 2025 y el de 2026, a precios constantes (INDEC); desestacionalizado cayó 2,4% contra el 1er trimestre, que fue el máximo de la serie",
+      "fecha": "2026-09-28",
+      "hora": "03:30",
+      "archivo": "articulos/2026-09-28-consumo-maximo-historico-milei-indec.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-28-atn-provincias-184-mil-millones",
       "titulo": "El Gobierno repartió $184.000 millones de ATN en 2026 y nueve provincias no recibieron nada: Misiones se llevó $25.000 millones",
