@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 01:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 02:52:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Gobierno repartió $184.000 millones de ATN en 2026 y nueve provincias no recibieron nada: Misiones se llevó $25.000 millones</title>
+      <link>https://coninteres.com/articulos/2026-09-28-atn-provincias-184-mil-millones.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-28-atn-provincias-184-mil-millones.html</guid>
+      <pubDate>Mon, 28 Sep 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Entre enero y el 25 de septiembre, la Nación giró $184.000 millones en Aportes del Tesoro Nacional, el fondo que reparte a discreción entre las provincias. Fueron a 15 jurisdicciones; Buenos Aires, la Ciudad, Tucumán, La Rioja y otras cinco no recibieron nada. En mayo, el crédito del fondo para todo el año se recortó 56%: de $569.426 millones a $248.755 millones.</description>
+      <ci:numero>$184.000 M</ci:numero>
+      <ci:numeroEtiqueta>Aportes del Tesoro Nacional (ATN) pagados a 15 provincias entre enero y el 25/09/2026 (Ministerio de Economía, Presupuesto Abierto); nueve jurisdicciones sin ATN; crédito anual recortado de $569.426 M a $248.755 M en mayo</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-atn-provincias-184-mil-millones.png" length="88566" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-atn-provincias-184-mil-millones.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Estado gastó $5,18 billones en subsidios a la luz y el gas en ocho meses: 72% más que en 2025, con precios que subieron 33,5%</title>
       <link>https://coninteres.com/articulos/2026-09-28-subsidios-luz-gas-5-billones-ocho-meses.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>tope mensual de la prestación por desempleo en septiembre de 2026 (100% del salario mínimo, Res. 4/2026); $391.200 en octubre</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-seguro-desempleo-tope-cuanto-paga.png" length="71794" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-seguro-desempleo-tope-cuanto-paga.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Congreso presupuesta $4,8 millones por mes por cargo en sueldos para 2027: el gasto total sube 20,3% contra lo que termina gastando este año</title>
-      <link>https://coninteres.com/articulos/2026-09-26-congreso-presupuesto-2027-costo-por-cargo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-26-congreso-presupuesto-2027-costo-por-cargo.html</guid>
-      <pubDate>Sat, 26 Sep 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El proyecto de Presupuesto 2027 le asigna al Congreso $817.429 millones de gasto en personal para 12.978 cargos: $4,8 millones por mes por cada uno, con aguinaldo y cargas sociales. Los "casi $6 millones por empleado" que circularon dividen todo el gasto, obra social y servicios incluidos. Y el Poder Legislativo crece 20,3% contra lo que el Gobierno estima que gastará en 2026, no 60%.</description>
-      <ci:numero>$4,8 millones</ci:numero>
-      <ci:numeroEtiqueta>gasto en personal por cargo y por mes del Congreso en el proyecto de Presupuesto 2027 ($817.429 M / 12.978 cargos / 13), con aguinaldo y cargas</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-congreso-presupuesto-2027-costo-por-cargo.png" length="81027" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-congreso-presupuesto-2027-costo-por-cargo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
