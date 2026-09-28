@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-28T04:43:01-03:00",
+    "actualizado": "2026-09-28T05:46:30-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-28-personas-compraron-dolares-mas-que-bcra",
+      "titulo": "Las personas compraron US$17.545 millones en billetes en ocho meses: más que los US$14.107 millones que sumó el Banco Central",
+      "bajada": "Entre enero y agosto de 2026 las personas compraron en neto US$17.545 millones en billetes, 24% más que los US$14.107 millones que compró el Banco Central. En agosto fueron 1,7 millones de compradores y US$2.853 millones: más de tres veces lo que compró el BCRA en el mes.",
+      "titulo_busqueda": "¿Cuántos dólares compraron los argentinos en agosto de 2026?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$17.545 M",
+      "numero_label": "compras netas de dólares billete de las personas, enero-agosto de 2026 (BCRA)",
+      "fecha": "2026-09-28",
+      "hora": "05:30",
+      "archivo": "articulos/2026-09-28-personas-compraron-dolares-mas-que-bcra.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-28-deuda-bonistas-vencimientos-2027",
       "titulo": "La Argentina tiene que pagarles US$9.763 millones a los bonistas en 2027: el pago de julio sube casi US$1.000 millones",

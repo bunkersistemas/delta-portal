@@ -1763,6 +1763,13 @@
       "fecha": "2026-09-28",
       "estado": "publicada",
       "articulo_id": "2026-09-28-deuda-bonistas-vencimientos-2027"
+    },
+    {
+      "tema": "cuántos dólares compraron los argentinos en agosto de 2026 / personas humanas, billetes (BCRA, Evolución del Mercado de Cambios y Balance Cambiario ago-26 y anexo XLSX): 1,7 M compradores, compras brutas US$2.853,3 M, ventas 389,8 (734 mil personas), netas 2.463,5; jul-26 3.319,4 (máx. 2026), ago-25 2.422,5 (+17,8%); ene-ago 2026 netas US$17.544,6 M (brutas 20.898,4) contra compras del BCRA US$14.107,4 M (var. 78; IMM ago) = 1,24 veces; ago 3,2 veces (770,2); personas > BCRA en 6 de 8 meses (no abr ni may); abr-25 a ago-26 brutas 47.466,0, netas 40.334,1, pico sep-25 5.080,4; usos ago (estimación BCRA, sector privado ~2.600): 1.100 depósitos, 900 tarjetas, 700 activos externos",
+      "angulo": "Corrida programada del 28/09/2026 05:30. Pregunta de plata ('¿cuántos dólares compraron los argentinos?') detrás de infobae (27/09, comparación con cuatro sectores), iprofesional (28/09, 'compraron más de u$s2.850 millones') y lanacion (25/09, demanda de dólares). Ángulo propio: el cruce mes a mes con las compras del BCRA y la serie desde la salida del cepo; distinto de 2026-09-25-bcra-compras-dolares-septiembre-ritmo (ritmo del BCRA). Camino estadística oficial: (1) informes BCRA ago-26 (sección II.3.1) y jul-26; (2) recálculo desde el anexo XLSX, hoja Datos Mercado de Cambios, sector Personas Humanas, Billetes - Egresos / Ingresos: 2.853,3 / 389,8 / 2.463,5, igual al informe; BCRA desde API var. 78 = 14.107,4 (igual al IMM); (3) contraste: depósitos en USD del sector privado no financiero (API var. 108, balances de entidades): 40.269 (31/07) -> 40.887 (31/08), +618 contra ~1.100 estimados depositados (el saldo descuenta retiros y empresas); +11.536 desde el 31/03/2025. Cupo EMPRESAS ya cubierto hoy (Aeropuertos Argentina). Candidatas no tomadas: privatización de ENARSA, PECOM sentencia Skanska, exportaciones agroindustriales ene-ago, bono de jubilados de octubre (ya cubierto), deuda en pesos a 15 meses (cerca de la nota de deuda de hoy), Central Puerto recompra (descartada 25 y 26/09), INDEC sector energético 2T (sale a las 16). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-28",
+      "estado": "publicada",
+      "articulo_id": "2026-09-28-personas-compraron-dolares-mas-que-bcra"
     }
   ]
 }

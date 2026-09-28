@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 28 Sep 2026 04:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 28 Sep 2026 05:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las personas compraron US$17.545 millones en billetes en ocho meses: más que los US$14.107 millones que sumó el Banco Central</title>
+      <link>https://coninteres.com/articulos/2026-09-28-personas-compraron-dolares-mas-que-bcra.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-28-personas-compraron-dolares-mas-que-bcra.html</guid>
+      <pubDate>Mon, 28 Sep 2026 05:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Entre enero y agosto de 2026 las personas compraron en neto US$17.545 millones en billetes, 24% más que los US$14.107 millones que compró el Banco Central. En agosto fueron 1,7 millones de compradores y US$2.853 millones: más de tres veces lo que compró el BCRA en el mes.</description>
+      <ci:numero>US$17.545 M</ci:numero>
+      <ci:numeroEtiqueta>compras netas de dólares billete de las personas, enero-agosto de 2026 (BCRA)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-personas-compraron-dolares-mas-que-bcra.png" length="70890" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-personas-compraron-dolares-mas-que-bcra.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina tiene que pagarles US$9.763 millones a los bonistas en 2027: el pago de julio sube casi US$1.000 millones</title>
       <link>https://coninteres.com/articulos/2026-09-28-deuda-bonistas-vencimientos-2027.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>sobretasa sobre el Tesoro de EE.UU. que pagó Mercado Libre al colocar US$1.000 M a diez años el 09/09/2026 (término de colocación, SEC); riesgo país 491 ese día y 609 el 25/09</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.png" length="81813" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-mercado-libre-deuda-sobretasa-riesgo-pais.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las regalías del petróleo le dejaron a Neuquén US$1.062 millones entre enero y julio: 61,6% más que un año antes, con más barriles y un crudo más caro</title>
-      <link>https://coninteres.com/articulos/2026-09-26-regalias-petroleo-neuquen-vaca-muerta.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-26-regalias-petroleo-neuquen-vaca-muerta.html</guid>
-      <pubDate>Sat, 26 Sep 2026 23:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Mientras el gobernador y un exministro discuten si Vaca Muerta "derrama", hay un canal que se puede medir con papeles oficiales: lo que las petroleras le pagan a la provincia por cada barril. En siete meses de 2026 Neuquén ya superó lo que generó en todo 2024, y concentra casi 7 de cada 10 dólares de regalías petroleras del país.</description>
-      <ci:numero>US$1.062 M</ci:numero>
-      <ci:numeroEtiqueta>regalías por petróleo generadas en Neuquén entre enero y julio de 2026, +61,6% interanual (Secretaría de Energía)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-26-regalias-petroleo-neuquen-vaca-muerta.png" length="80542" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-26-regalias-petroleo-neuquen-vaca-muerta.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
