@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-28T03:43:21-03:00",
+    "actualizado": "2026-09-28T04:43:01-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-28-deuda-bonistas-vencimientos-2027",
+      "titulo": "La Argentina tiene que pagarles US$9.763 millones a los bonistas en 2027: el pago de julio sube casi US$1.000 millones",
+      "bajada": "Entre el 9 de enero y el 9 de julio de 2027 vencen US$9.763 millones de los Bonares y Globales de la reestructuración de 2020, según el perfil de vencimientos de la Secretaría de Finanzas: 11% más que en 2026. El salto está en julio, cuando empiezan a devolverse los bonos 2038. Y 2027 no es el techo: el calendario sube hasta 2031.",
+      "titulo_busqueda": "¿Cuánto tiene que pagar la Argentina de deuda en 2027? US$9.763 millones a los bonistas",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$9.763 M",
+      "numero_label": "vencimientos de capital e intereses de Bonares y Globales (reestructuración 2020) en 2027, según el perfil de la Secretaría de Finanzas al 31/03/2026",
+      "fecha": "2026-09-28",
+      "hora": "04:30",
+      "archivo": "articulos/2026-09-28-deuda-bonistas-vencimientos-2027.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-28-consumo-maximo-historico-milei-indec",
       "titulo": "El consumo privado creció 0,4% en un año y cayó 2,4% en el último trimestre: el máximo que citó Milei fue a principios de 2026",
