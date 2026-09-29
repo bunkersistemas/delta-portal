@@ -1,11 +1,20 @@
 {
-  "generado": "2026-09-29T14:30",
+  "generado": "2026-09-29T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3574410",
+      "fuente": "CNV",
+      "fecha": "2026-09-29T16:07",
+      "entidad": "MASTELLONE HERMANOS S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE DEL 29 DE SEPTIEMBRE DE 2026.-",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/BF037680-F741-4C59-BB94-7D8C408F030A"
+    },
     {
       "id": "cnv-3574163",
       "fuente": "CNV",

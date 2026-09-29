@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-29T16:20:35-03:00",
+    "actualizado": "2026-09-29T16:46:38-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-29-dividendos-duenos-extranjeros-maximo",
+      "titulo": "Las empresas con dueños extranjeros declararon US$2.882 millones de dividendos en tres meses: el doble que un año antes y lo más desde 2011",
+      "bajada": "Es lo que publicó hoy el INDEC para el segundo trimestre de 2026. Sumando lo que las empresas reinvirtieron, a sus dueños del exterior les correspondieron US$4.080 millones de utilidades, el máximo de la serie que empieza en 2006. Por el mercado de cambios salieron US$1.856 millones en esos tres meses; un año antes, US$13 millones.",
+      "titulo_busqueda": "¿Cuántos dólares se llevan las empresas extranjeras de la Argentina en dividendos?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$2.882 M",
+      "numero_label": "dividendos declarados para dueños del exterior de empresas en la Argentina, 2T-2026 (INDEC, provisorio)",
+      "fecha": "2026-09-29",
+      "hora": "17:30",
+      "archivo": "articulos/2026-09-29-dividendos-duenos-extranjeros-maximo.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-29-dolares-fuera-del-sistema-hogares-empresas",
       "titulo": "Hogares y empresas tienen US$260.402 millones en billetes y cuentas fuera de los bancos del país: 5,8 veces las reservas del Banco Central",

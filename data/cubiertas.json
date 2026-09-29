@@ -1926,6 +1926,19 @@
       "fecha": "2026-09-29",
       "estado": "publicada",
       "articulo_id": "2026-09-29-dolares-fuera-del-sistema-hogares-empresas"
+    },
+    {
+      "tema": "cuánto paga el Estado por los helicópteros Black Hawk del Ejército / cuatro UH-60L: US$28-30 M según iProfesional y Zona Militar (29/09/2026); paquete autorizado por el Departamento de Estado de EE.UU. hasta US$140 M (11/09/2026)",
+      "angulo": "FRENADA en la corrida programada del 29/09/2026 16:30. Pregunta de plata (cuánto paga el Estado) detrás de iProfesional (29/09) y Zona Militar (28/09). MOTIVO DEL FRENO: la cifra de US$28 M (aeronaves, repuestos y combustible para 480 horas) sale de la exposición del Ejército que reproducen medios especializados; no se encontró resolución, Boletín Oficial ni comunicado oficial con el monto, y la de iProfesional no cita documento. El paquete de US$140 M del Departamento de Estado es oficial pero ya lo contaron todos los medios el 10-11/09 y no es lo que se paga. Retomar si aparece la carta de oferta (LOA), una decisión administrativa o una partida del Presupuesto con el monto.",
+      "fecha": "2026-09-29",
+      "estado": "descartada"
+    },
+    {
+      "tema": "cuántos dólares se llevan las empresas extranjeras en dividendos / renta de la inversión directa, balanza de pagos INDEC 2T-2026 (29/09/2026): dividendos débito US$2.882,1 M (2T-2025 1.441,9; x2,0), el mayor desde 2T-2011 (3.636,3); utilidades totales 4.080,0 (dividendos + reinvertidas 1.198,0), máximo de la serie 2006-2026 (previos 3.422,9 en 1T-2026 y 3.231,8 en 4T-2011); 1S-2026 dividendos 4.977,5, más que cualquier año desde 2012 (máx. 2025: 4.165,2); pagos por el MLC (BCRA): abr 365, may 476, jun 1.015 = 1.856 (2T-2025: 13,4; año 2025: 276,7; ene-ago 2026: 3.731,5)",
+      "angulo": "Corrida programada del 29/09/2026 16:30. Dato del calendario oficial (INDEC hoy 16:00, prioridad alta) con ángulo propio y pregunta de plata. Distinta de la nota de las 16:30 del mismo informe (dólares fuera del sistema, stock de activos de la PII) y de la de cuenta corriente 1T (23/07): acá el eje es la renta que se va a los dueños del exterior, cruzada con los giros del mercado de cambios. Camino estadística oficial: (1) informe técnico cuadro I.10 pág. 18 (UyD débito 4.080 contra 1.988; aumento 2.158); (2) recálculo desde cin_II_2026.xls cuadro 14, renglones 1.B.2.1.1 / 1.B.2.1.1.1 / 1.B.2.1.1.2 débito: 2.882,1 + 1.198,0 = 4.080,0; serie trimestral 2006-2026 recorrida para los superlativos; (3) contraste BCRA, informes de cambios abr/may/jun 2026 (365, 476, 1.015) = anexo MC por concepto, Utilidades y Dividendos - Egresos (1.855,6); junio el mes más alto desde may-2010 (1.095,3) en la serie desde 2003. Diferencia devengado (INDEC) contra pagado por MLC (BCRA) explicada en la nota (A 8226, BOPREAL). Antes en esta corrida: Black Hawk (FRENADA, cifra sin documento). No tomadas: riesgo país, consumo CAC, aumentos de octubre, CABA (IDECBA no responde), Avex, Pagotto/dieta de senadores (ya descartada 25/09), OCDE educación, empresas del bloque CNV (hoy ya hubo nota de EMPRESAS, Central Puerto; Mastellone/Arcor/YPF/MSU ya leídas o sin cifras). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-29",
+      "estado": "publicada",
+      "articulo_id": "2026-09-29-dividendos-duenos-extranjeros-maximo"
     }
   ]
 }

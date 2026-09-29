@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 16:20:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 16:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las empresas con dueños extranjeros declararon US$2.882 millones de dividendos en tres meses: el doble que un año antes y lo más desde 2011</title>
+      <link>https://coninteres.com/articulos/2026-09-29-dividendos-duenos-extranjeros-maximo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-dividendos-duenos-extranjeros-maximo.html</guid>
+      <pubDate>Tue, 29 Sep 2026 17:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Es lo que publicó hoy el INDEC para el segundo trimestre de 2026. Sumando lo que las empresas reinvirtieron, a sus dueños del exterior les correspondieron US$4.080 millones de utilidades, el máximo de la serie que empieza en 2006. Por el mercado de cambios salieron US$1.856 millones en esos tres meses; un año antes, US$13 millones.</description>
+      <ci:numero>US$2.882 M</ci:numero>
+      <ci:numeroEtiqueta>dividendos declarados para dueños del exterior de empresas en la Argentina, 2T-2026 (INDEC, provisorio)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-dividendos-duenos-extranjeros-maximo.png" length="73759" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-dividendos-duenos-extranjeros-maximo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Hogares y empresas tienen US$260.402 millones en billetes y cuentas fuera de los bancos del país: 5,8 veces las reservas del Banco Central</title>
       <link>https://coninteres.com/articulos/2026-09-29-dolares-fuera-del-sistema-hogares-empresas.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>intereses netos de la deuda pagados por el Sector Público Nacional en enero-agosto de 2026 (Hacienda, base caja): 81,0% del superávit primario</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-intereses-deuda-superavit-primario-ocho-meses.png" length="68443" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-intereses-deuda-superavit-primario-ocho-meses.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>En 2025 entraron 13.858 toneladas de construcciones prefabricadas importadas, el máximo desde 2002: en 2026 ya son 17.811 en ocho meses, y nueve de cada diez kilos vienen de China</title>
-      <link>https://coninteres.com/articulos/2026-09-27-construcciones-prefabricadas-importadas-record-china.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-construcciones-prefabricadas-importadas-record-china.html</guid>
-      <pubDate>Sun, 27 Sep 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Las casas prefabricadas chinas se volvieron tema y los medios publican catálogos. Los registros de aduana del INDEC muestran el tamaño de la ola: en 2025 la Argentina importó 13.858 toneladas de construcciones prefabricadas, la cifra más alta desde 2002. Entre enero y agosto de 2026 ya entraron 17.811, más que en todo 2025, y el 89,6% vino de China. Cada kilo llegó al puerto a US$1,90, 23,5% menos que un año antes.</description>
-      <ci:numero>13.858 t</ci:numero>
-      <ci:numeroEtiqueta>toneladas de construcciones prefabricadas importadas por la Argentina en 2025, el máximo desde 2002 (INDEC, NCM 9406)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-construcciones-prefabricadas-importadas-record-china.png" length="76607" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-construcciones-prefabricadas-importadas-record-china.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
