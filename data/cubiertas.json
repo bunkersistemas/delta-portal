@@ -1888,6 +1888,29 @@
       "fecha": "2026-09-29",
       "estado": "publicada",
       "articulo_id": "2026-09-29-subte-cuanto-cuesta-viaje-octubre"
+    },
+    {
+      "tema": "proyección de Caputo: el BCRA compraría US$19.438 M en 2026 (conferencia del 29/09/2026, Infobae) / cuánto tiene que comprar por mes hasta diciembre contra el ritmo de agosto y septiembre",
+      "angulo": "FRENADA en la corrida programada del 29/09/2026 12:30. Serie oficial de compras (API BCRA v4.0 variable 78): ene-ago 2026 US$14.107,4 M (coincide con la nota del 28/09), septiembre al 23/09 US$224 M (17 ruedas), agosto US$770,2 M. MOTIVO DEL FRENO: la proyección y el gráfico de Economía solo aparecen en Infobae; no hay documento, comunicado ni video oficial enlazable, y la regla de citas prohíbe levantarla de otro medio. Sin la proyección, la nota era el dato de compras de septiembre, que la serie oficial todavía no completa. Retomar si Economía publica la presentación o cuando cierre la serie de septiembre.",
+      "fecha": "2026-09-29",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "la proyección de Caputo no tiene fuente primaria enlazable y la serie de compras llega al 23/09"
+    },
+    {
+      "tema": "recesión técnica en la Ciudad de Buenos Aires / PGB trimestral IDECBA 2T-2026: -0,2% desestacionalizado tras -0,9% en el 1T, +0,3% interanual (infobae, cronista, pagina12 29/09/2026)",
+      "angulo": "FRENADA en la corrida programada del 29/09/2026 12:30. estadisticaciudad.gob.ar no respondió desde esta máquina (curl HTTP 000; WebFetch en bucle de redirección 301 https->http), así que no se pudo leer el informe ni la serie cruda ni garantizar que la URL de la fuente responda 200. Retomar cuando el sitio del IDECBA responda.",
+      "fecha": "2026-09-29",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "fuente primaria (IDECBA) inaccesible desde la máquina"
+    },
+    {
+      "tema": "cuánto cobra un bancario en octubre de 2026 / CCT 18/75, grilla firmada de agosto de 2026 (La Bancaria, actas 11/09/2026): salario inicial conformado $2.505.061,24 (básico $1.642.764,63) + ROE $72.413,50 = $2.577.474,74; ajuste mensual por IPC INDEC acumulado desde diciembre redondeado a un decimal (dic-25 $2.065.178,27 x 1,213 exacto); ago-25 $1.876.720,94 -> +33,5% vs IPC +33,5% (poder de compra -0,05%); RIPTE jul-25 $1.510.680,81 -> jul-26 $1.946.028,12 +28,8% vs IPC +33,8% (-3,7%); Día del Bancario mínimo $2.233.175,44 (ago-25 $1.673.031,80)",
+      "angulo": "Corrida programada del 29/09/2026 12:30. Pregunta de plata ('¿cuánto cobra un bancario?'; ámbito e iprofesional del 29/09 publican la escala de agosto como la de octubre). Ángulo propio: el mecanismo (IPC acumulado redondeado a un decimal, recalculado al centavo en los ocho meses de 2026 y en ago-25 desde dic-24 x 1,195), el poder de compra congelado contra el RIPTE que pierde 3,7%, y la tabla de convenios de la semana (UOCRA +5,2, playero +3,1, camionero +1,6, avícola -0,2, comercio -9,4, de nuestras notas del 25-26/09). Verificación: grilla firmada (PDF escaneado, leído) + comunicado de La Bancaria, recalculados con el IPC del INDEC (datos.gob.ar), fuente independiente del gremio. Acuerdo 2026 sin homologación publicada (se aclara). Sin superlativos. Antes en esta corrida frenaron la proyección de compras del BCRA de Caputo y la recesión técnica porteña (ver entradas previas). No tomadas: jubilación mínima de octubre (Res. 284/2026, ya contestada por todos los medios), venta de centrales de Enarsa (US$800 M es expectativa oficial), Ecocarnes y sus cheques rechazados, aumentos de luz y gas de octubre (cuadros aún no publicados), balanza de pagos 2T (sale a las 16). EMPRESAS: hoy ya hubo nota (Central Puerto), no rige el cupo; Arcor, Central Puerto, YPF y MSU ya leídas y descartadas. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-29",
+      "estado": "publicada",
+      "articulo_id": "2026-09-29-cuanto-cobra-bancario-octubre"
     }
   ]
 }

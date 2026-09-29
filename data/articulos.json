@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-29T10:48:05-03:00",
+    "actualizado": "2026-09-29T12:51:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-29-cuanto-cobra-bancario-octubre",
+      "titulo": "Un bancario que recién entra cobra $2.505.061 en agosto: su sueldo subió 33,5% en un año, lo mismo que la inflación, y el salario formal promedio quedó 3,7% atrás",
+      "bajada": "La escala firmada de agosto de 2026 fija en $2.505.061,24 el salario inicial conformado de un empleado bancario (CCT 18/75), más $72.413,50 de participación en las ganancias. Es la que rige cuando se cobra en octubre: la de septiembre recién se conoce después del IPC del 13 de octubre. El sueldo bancario se ajusta por la inflación acumulada del INDEC: subió 33,5% en un año, igual que los precios. El salario formal promedio (RIPTE) perdió 3,7% en el año a julio.",
+      "titulo_busqueda": "¿Cuánto cobra un bancario en octubre de 2026? $2.505.061 el sueldo inicial",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$2.505.061",
+      "numero_label": "es el salario inicial conformado de un empleado bancario (CCT 18/75) en agosto de 2026, la escala que rige al cobrar en octubre",
+      "fecha": "2026-09-29",
+      "hora": "13:30",
+      "archivo": "articulos/2026-09-29-cuanto-cobra-bancario-octubre.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-09-29-subte-cuanto-cuesta-viaje-octubre",
       "titulo": "La Ciudad calcula que cada viaje en subte cuesta $2.541 y en octubre el pasajero con SUBE registrada paga $1.817: 55 de cada 100 pesos del costo son sueldos",

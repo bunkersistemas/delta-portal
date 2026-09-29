@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 10:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 12:51:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un bancario que recién entra cobra $2.505.061 en agosto: su sueldo subió 33,5% en un año, lo mismo que la inflación, y el salario formal promedio quedó 3,7% atrás</title>
+      <link>https://coninteres.com/articulos/2026-09-29-cuanto-cobra-bancario-octubre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-cuanto-cobra-bancario-octubre.html</guid>
+      <pubDate>Tue, 29 Sep 2026 13:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La escala firmada de agosto de 2026 fija en $2.505.061,24 el salario inicial conformado de un empleado bancario (CCT 18/75), más $72.413,50 de participación en las ganancias. Es la que rige cuando se cobra en octubre: la de septiembre recién se conoce después del IPC del 13 de octubre. El sueldo bancario se ajusta por la inflación acumulada del INDEC: subió 33,5% en un año, igual que los precios. El salario formal promedio (RIPTE) perdió 3,7% en el año a julio.</description>
+      <ci:numero>$2.505.061</ci:numero>
+      <ci:numeroEtiqueta>es el salario inicial conformado de un empleado bancario (CCT 18/75) en agosto de 2026, la escala que rige al cobrar en octubre</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-cuanto-cobra-bancario-octubre.png" length="80903" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-cuanto-cobra-bancario-octubre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Ciudad calcula que cada viaje en subte cuesta $2.541 y en octubre el pasajero con SUBE registrada paga $1.817: 55 de cada 100 pesos del costo son sueldos</title>
       <link>https://coninteres.com/articulos/2026-09-29-subte-cuanto-cuesta-viaje-octubre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>deuda de la provincia de Buenos Aires al 30/06/2026 (informe provincial)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-deuda-provincia-buenos-aires-vencimientos-2027.png" length="69204" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-deuda-provincia-buenos-aires-vencimientos-2027.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El déficit comercial con Brasil se achicó 55,2% en ocho meses: la Argentina le compró US$2.139 millones menos y más de un tercio de la baja son autos</title>
-      <link>https://coninteres.com/articulos/2026-09-27-brasil-deficit-comercial-se-achico-autos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-brasil-deficit-comercial-se-achico-autos.html</guid>
-      <pubDate>Sun, 27 Sep 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y agosto de 2026 la Argentina le vendió a Brasil US$8.578 millones y le compró US$10.630 millones, según el INDEC. El rojo con su principal socio fue de US$2.052 millones, contra US$4.580 millones un año antes. Las ventas crecieron 4,7%; lo que cambió fueron las compras, que cayeron 16,8%. Brasil elige presidente el 4 de octubre.</description>
-      <ci:numero>−55,2%</ci:numero>
-      <ci:numeroEtiqueta>cuánto se achicó el déficit comercial con Brasil en enero-agosto de 2026 (US$2.052 M contra US$4.580 M, INDEC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-brasil-deficit-comercial-se-achico-autos.png" length="79162" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-brasil-deficit-comercial-se-achico-autos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
