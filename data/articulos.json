@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-28T07:46:42-03:00",
+    "actualizado": "2026-09-28T22:48:46-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-28-bid-prestamo-reforma-arca",
+      "titulo": "El BID le presta US$100 millones a la Argentina para rehacer ARCA: 61 de cada 100 dólares van a sistemas y la deuda se paga en 25 años",
+      "bajada": "El Decreto 1115/2026 aprobó una línea de crédito del BID de hasta US$600 millones para reformar la agencia que cobra los impuestos, pero el préstamo comprometido es uno solo, de US$100 millones. US$61,1 millones van a la modernización digital. Se devuelve en 25 años, con cinco años y medio de gracia y tasa variable.",
+      "titulo_busqueda": "¿Cuánto cuesta la reforma de ARCA y quién la paga? El préstamo del BID, en números",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$100 M",
+      "numero_label": "primer préstamo del BID para reformar ARCA (contrato 6139/OC-AR, Decreto 1115/2026), dentro de una línea de hasta US$600 millones",
+      "fecha": "2026-09-28",
+      "hora": "22:30",
+      "archivo": "articulos/2026-09-28-bid-prestamo-reforma-arca.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-28-cuanto-le-cuesta-enarsa-al-estado",
       "titulo": "El Tesoro le giró a Enarsa 89% menos que en 2023, en pesos de hoy, y el Gobierno pone en venta sus centrales eléctricas",

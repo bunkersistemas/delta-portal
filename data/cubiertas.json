@@ -1791,6 +1791,21 @@
       "fecha": "2026-09-28",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "empresas / hechos relevantes CNV 28/09/2026: Arcor (autorización de emisión de ON bajo el régimen de emisor frecuente) y Arcor (Estados Financieros especiales y Compromiso Previo de Escisión-Fusión: Arcor y Bagley escinden sus acciones de Mastellone Hermanos para fusionarlas con La Serenísima Unida, joint venture lácteo con Danone, efectos 01/08/2026)",
+      "angulo": "DESCARTADAS en la corrida programada del 28/09/2026 22:30 (hoy ya hubo nota de EMPRESAS, Aeropuertos Argentina: no regía el cupo). Adjuntos leídos en la CNV vía GetPublicValetKey + DownloadBlob (POST con ValetKey como dato de formulario): 'HRon.pdf' dice que el directorio autorizó emitir ON 'por un monto, plazo y demás condiciones que determinen los subdelegados', sin cifras; 'HR cpf.pdf' informa la aprobación de los estados especiales y del compromiso previo, sin montos ni relación de canje. Retomar cuando salga el aviso de resultado de la colocación o el prospecto de la escisión-fusión con cifras.",
+      "fecha": "2026-09-28",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "documentos sin montos; cupo de empresas ya cubierto hoy"
+    },
+    {
+      "tema": "cuánto cuesta la reforma de ARCA y quién la paga / préstamo BID 6139/OC-AR por US$100.000.000 (Decreto 1115/2026, BO 28/09/2026), primera operación de la CCLIP AR-O0035 de hasta US$600 M; componentes: modernización digital 61.125.000 (61,1%), administración y contingencias 12.375.000, gobernanza 11.000.000, experiencia del contribuyente 10.500.000, gestión de riesgos 5.000.000; 25 años, 66 meses de gracia, SOFR + márgenes; sin aporte local",
+      "angulo": "Corrida programada del 28/09/2026 22:30. Tema en portadas: El Cronista ('la apuesta de u$s 600 millones'); pregunta de plata: cuánto cuesta y quién la paga. Ángulo propio: la línea de US$600 M es un techo (estimado de tres préstamos); lo comprometido es US$100 M, y 61,1% va a sistemas. Ancla CONFIRMADA por dos fuentes independientes (las dos partes): Decreto 1115/2026 + Anexo II (modelo de contrato, cláusulas 2.01, 2.04, 2.05, 2.06 y Anexo Único, bajado del BO por download_anexo) y BID (ficha AR-L1416: US$100 M, operación 6139/OC-AR, aprobada 29/04/2026, sin fecha de firma; comunicado: 25 años, 5,5 de gracia, SOFR; propuesta PR-5373: cuadro 1 idéntico, 'no habrá contrapartida local'). Contexto: Banco Mundial US$300 M (comunicado 29/07/2025, P508935); mismo BO: Decreto 1104 (BID 6142/OC-AR, Entre Ríos, US$280 M) y 1105 (CAF, Chubut, US$150 M) = US$530 M con ARCA. Atribuidas al BID sin segunda fuente: brecha del IVA 37% (2024) -> meta 31% (2028), costo de recaudación 1,12% (2025) -> 1,03% (2029), ~19.000 agentes, TADAT D (FMI 2024). La propuesta dice que 1,12% es 'superior al promedio regional de 1,26%' (no cierra): solo se usa la OCDE 0,8%. No se estiman intereses (tasa variable). Otras candidatas de la lista: bono de $70.000 de octubre (Decreto 1108, sin ángulo nuevo tras las notas del 20/07 y 24/09), riesgo país 628 (ya cubierto 24 y 27/09), licitación del Tesoro (comunicado único, sin segunda fuente independiente), DDJJ de Adorni (ya contestada por los medios y causa penal abierta), partida discrecional del Presupuesto 2027 (J91 ya cubierta 24/09), Palais de Glace (Decreto 1106 sin montos), INDEC indicadores del sector energético 2T (sin ángulo propio); EMPRESAS: Arcor HR de emisión de ON y HR de escisión-fusión Mastellone (sin montos), Central Puerto recompras (rutina). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-28",
+      "estado": "publicada",
+      "articulo_id": "2026-09-28-bid-prestamo-reforma-arca"
     }
   ]
 }
