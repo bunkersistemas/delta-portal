@@ -1859,6 +1859,21 @@
       "fecha": "2026-09-29",
       "estado": "publicada",
       "articulo_id": "2026-09-29-mora-empresas-bancos-billones"
+    },
+    {
+      "tema": "Presupuesto 2027: partida para gasto discrecional de US$5.000 M ('Otras asistencias financieras', $7,68 billones en Obligaciones a Cargo del Tesoro; Ámbito 28/09/2026, BAE Negocios, Zentrix)",
+      "angulo": "DESCARTADA en la corrida programada del 29/09/2026 06:30 sin investigar. Es el programa 99 de la Jurisdicción 91 ($7.675.543 M), que ya figura en la nota publicada el 24/09 (2026-09-24-presupuesto-2027-caja-tesoro-jurisdiccion-91).",
+      "fecha": "2026-09-29",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin ángulo nuevo: el programa 99 de la J91 ya se publicó el 24/09"
+    },
+    {
+      "tema": "a qué tasa se endeuda la Argentina en dólares / bono AO29 (Bono del Tesoro en USD 6% con vencimiento 31/10/2029, Res. Conj. 44/2026): VN US$1.226 M en circulación tras tres licitaciones (15-16/07: 499+150 a 943,00, TIREA 8,29%; 29-30/07: 327+150 a 945,00, 8,33%; 12-13/08: 50+50 a 937,85, 8,72%); efectivo unos US$1.156 M; ofertas VN 1.322 / 519 / 121; no se ofreció el 27/08, el 11/09 ni el 28/09",
+      "angulo": "Corrida programada del 29/09/2026 06:30. Tema: riesgo país en 628 (infobae, lanacion, ámbito, iprofesional, pagina12) e 'Economía no colocó bonos en dólares por tercera vez' (infobae 29/09). Ángulo nuevo frente a la nota de la licitación en pesos de la madrugada (que excluía de forma explícita los bonos en dólares) y a los vencimientos 2027 del 28/09: la serie completa del bono en dólares AO29 (el que el Tesoro licitó desde julio), vuelta por vuelta, la suba de la tasa de corte y la caída de las ofertas. Verificación: dos documentos oficiales + recálculo + contraste. (1) Seis comunicados de Finanzas: la circulación informada (499, 649, 976, 1.126, 1.176, 1.226) es igual a la suma de adjudicaciones. (2) Res. Conj. 44/2026 (máximo 2.000 M), 46/2026 (ampliación de hasta 1.351.252.354 = 2.000 - 648,7 colocado en julio) y 48/2026 (hasta 100 M = 50+50 de agosto). (3) TIREA recalculada desde el precio de corte con el flujo de la Res. 44 (6% mensual, 30/360): 8,28 / 8,30 / 8,70 contra 8,29 / 8,33 / 8,72 oficiales; TNA 8,39% capitalizada mensualmente = 8,72%. (4) Contraste: Infobae 12/08 (US$50 M a 8,72%, circulación 1.176). Llamados del 27/08, 11/09 y 28/09 leídos: sin AO29. Inconsistencias declaradas en la nota: rótulos TNA/TIREA invertidos en la segunda vuelta del 30/07; VE ofertado mayor que VN ofertado el 12/08; efectivo total con cuatro sumandos redondeados. Solo atribuido, no verificado: plan 2027 de US$5.000 M en Bonar 2029 (Infobae) y rendimiento de mercado cercano al 10%. Contexto: AN29 dic-2025, VN US$1.000 M a 9,26% TNA; el efectivo del AO29 equivale al 11,8% de los US$9.763 M de pagos a bonistas en 2027. Sin superlativos. Candidatas no tomadas: partida discrecional del Presupuesto 2027 (publicada el 24/09), boleto de colectivo de octubre (la resolución del GCBA sigue sin publicarse; retomar 30/09-01/10), PUAM de octubre (misma movilidad que la AUH descartada el 25/09), precandidata al Oscar y aportes del INCAA (sin documento de subsidio localizado), concurso preventivo de la textil de Portsaid (sin expediente con cifras), costo de la energía industrial +300% (dato de cámara), industria UIA y cemento de agosto (sin contraste oficial hasta el 07/10), Sea Lion y arbitraje (cubierto 18/07 y 05/09), empresas CNV (hoy ya hubo nota de EMPRESAS; Arcor, Central Puerto, MSU-BML e YPF ya leídas y descartadas). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-29",
+      "estado": "publicada",
+      "articulo_id": "2026-09-29-tesoro-bono-dolares-ao29-tres-licitaciones"
     }
   ]
 }
