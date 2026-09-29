@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-09-28",
-  "pregunta": "En el primer trimestre de 2026 las mujeres cobraron en promedio 29,1% menos que los varones por mes. Si se mide por hora trabajada, la distancia baja a 10,3%. ¿Qué explica la mayor parte de la diferencia entre esos dos números?",
+  "fecha": "2026-09-29",
+  "pregunta": "Entre enero y agosto de 2026 el Banco Central compró US$14.107 millones en el mercado de cambios. En el mismo período, las personas compraron en neto US$17.545 millones en billetes. ¿Qué quiere decir que las personas compraran más que el Banco Central?",
   "opciones": [
-    "Que las mujeres ocupadas trabajan por paga menos horas por semana: 31,7 contra 39,8 de los varones",
-    "Que por la misma hora de trabajo a las mujeres se les paga 29,1% menos",
-    "Que hay más mujeres desocupadas, y eso baja el promedio de ingresos de las mujeres"
+    "Que una parte de los dólares que entraron al mercado terminó en manos de ahorristas y no en las reservas del Banco Central",
+    "Que el Banco Central les vendió a las personas los dólares que había comprado y se quedó sin reservas",
+    "Que las personas compraron dólares con pesos que les prestó el Banco Central"
   ],
   "correcta": 0,
-  "explicacion": "Lo que se cobra por mes es horas trabajadas por lo que se paga cada hora. Quien trabaja menos horas pagas cobra menos por mes aunque su hora valga lo mismo. Por eso la brecha mensual mezcla dos cosas: que las mujeres ocupadas trabajan unas ocho horas pagas menos por semana y que su hora se paga 10,3% menos. Los desocupados no entran en la cuenta: se compara a quienes tienen trabajo. Las dos brechas son reales, pero miden cosas distintas.",
-  "nota": "articulos/2026-09-27-cuanto-menos-gana-una-mujer-brecha-ingresos.html",
-  "leccion": ""
+  "explicacion": "En el mercado de cambios, cada dólar que alguien vende lo compra otro. Los que venden son sobre todo los exportadores y los que traen financiamiento. Los que compran son los importadores, las personas, las empresas que pagan deudas y también el Banco Central. Si las personas compran más que el BCRA, quiere decir que más dólares fueron a los colchones y a las cuentas de los ahorristas que a las reservas. El BCRA no les vendió sus dólares: los dos compraron al mismo tiempo, cada uno una parte de lo que ofrecieron los vendedores.",
+  "nota": "articulos/2026-09-28-personas-compraron-dolares-mas-que-bcra.html",
+  "leccion": "lecciones/pesos-o-dolares.html"
 }

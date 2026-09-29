@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-28T22:48:46-03:00",
+    "actualizado": "2026-09-29T00:54:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-29-tesoro-deuda-pesos-vence-antes-elecciones",
+      "titulo": "El Tesoro renovó $8,62 billones y nada vence después de julio de 2027: en junio colocaba deuda en pesos hasta 2030",
+      "bajada": "El lunes 28 de septiembre el Tesoro colocó $8,62 billones y el título más largo vence el 30 de julio de 2027, a diez meses. Es la cuarta licitación por efectivo seguida en la que nada de lo colocado en pesos vence después de julio de 2027. El 10 de junio había colocado bonos hasta junio de 2030.",
+      "titulo_busqueda": "¿A qué plazo y a qué tasa se endeuda el Tesoro en pesos? La licitación, en números",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "10 meses",
+      "numero_label": "plazo del título más largo que colocó el Tesoro en la licitación del 28/09/2026 (bono TAMAR TML27, vence el 30/07/2027); el 10/06/2026 el más largo vencía el 28/06/2030 (Secretaría de Finanzas)",
+      "fecha": "2026-09-29",
+      "hora": "01:30",
+      "archivo": "articulos/2026-09-29-tesoro-deuda-pesos-vence-antes-elecciones.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-28-bid-prestamo-reforma-arca",
       "titulo": "El BID le presta US$100 millones a la Argentina para rehacer ARCA: 61 de cada 100 dólares van a sistemas y la deuda se paga en 25 años",

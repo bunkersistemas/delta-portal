@@ -1806,6 +1806,37 @@
       "fecha": "2026-09-28",
       "estado": "publicada",
       "articulo_id": "2026-09-28-bid-prestamo-reforma-arca"
+    },
+    {
+      "tema": "empresas / Arcor, hecho relevante CNV del 28/09/2026 'Emisión de ON Clase 7 y Clase 8' (y Central Puerto, adquisición de acciones propias del 28/09/2026)",
+      "angulo": "DESCARTADA en la corrida programada del 29/09/2026 00:30, aunque regía el cupo (hoy sin nota de EMPRESAS). Adjunto 'HRon.pdf' descargado de la CNV (GetPublicValetKey + DownloadBlob, guid 1417b8ab-b37b-44e5-12c9-29ff1c6ab876): es la misma carta del 28/09 ya leída en la corrida de las 22:30. El directorio autorizó emitir ON bajo el Régimen de Emisor Frecuente 'por un monto, plazo y demás condiciones que determinen los subdelegados', sin cifras. Central Puerto: otra recompra diaria de rutina, del mismo tipo que las descartadas el 25 y el 26/09. El resto del bloque (MSU-BML, A3 Mercados, Banco VOII, Molinos-ACA, YPF recompra de ON, Loma Negra, Surcos, IRSA, Pecom) ya estaba leído, descartado o publicado. Retomar Arcor cuando salga el aviso de suscripción o de resultado de la colocación con monto y tasa.",
+      "fecha": "2026-09-29",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "documento sin montos (Arcor) y recompra de rutina (Central Puerto); ningún documento nuevo del bloque EMPRESAS con cifras"
+    },
+    {
+      "tema": "reservas del BCRA debajo de US$48.000 M (28/09/2026, infobae, ámbito, iprofesional) / cuánto cayeron desde el máximo del 25/08 (US$50.913 M) y qué lo explica (factores de variación de la serie del BCRA)",
+      "angulo": "FRENADA en la corrida programada del 29/09/2026 00:30. La serie oficial (API BCRA v4.0 variable 1 y series.xlsm, hoja RESERVAS, notas al 28/09) llega hasta el 24/09 (US$48.845 M), sin el 25/09 (pago de capital al FMI) ni el 28/09, que es la cifra noticia. Con datos al 23/09: -US$1.984,9 M desde el 25/08; factores 26/08-23/09: compras +507,5, organismos internacionales -488,2, otras operaciones del sector público -120,6, efectivo mínimo -1.125,8, otros -757,8 (suman la variación). Una nota con esos datos quedaba vieja frente al titular y sin el pago al FMI. Retomar cuando la serie incluya el 25 y el 28/09 (probablemente el 30/09 o el 01/10).",
+      "fecha": "2026-09-29",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "la cifra noticia (menos de US$48.000 M el 28/09) todavía no está en la serie oficial del BCRA, que llega al 24/09"
+    },
+    {
+      "tema": "Índice de Confianza en el Gobierno (UTDT) septiembre 2026 / 1,94 puntos, -5,9% contra agosto, igual al mínimo de la gestión Milei (sep-25 y jul-26)",
+      "angulo": "DESCARTADA en la corrida programada del 29/09/2026 00:30 sin redactar. Tema en cronista, pagina12, infobae e iprofesional. El informe de la UTDT (download.php?fname=_179060603218536000.pdf) ya trae la comparación con las presidencias anteriores en el mes 33 (NK 2,62; CFK I 1,77; MM 1,75; CFK II 1,71; AF 1,23) y dice que las variaciones desde mayo son 'compatibles con el error muestral' (error estándar ±0,06; IC 95% 1,81-2,06). Sin ángulo propio, no es pregunta de plata y la serie cruda no apareció en la página de descarga de datos.",
+      "fecha": "2026-09-29",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin ángulo propio: la comparación histórica ya está en el informe de la UTDT y la caída está dentro del error muestral"
+    },
+    {
+      "tema": "a qué plazo y a qué tasa se endeuda el Tesoro en pesos / licitación del 28/09/2026 (Secretaría de Finanzas): $8,62 billones adjudicados ($8.621.925 M) sobre $9,77 billones ofertados; título más largo TML27, vence el 30/07/2027 (305 días, 10 meses; RC 36/2026, BO 01/07/2026); plazo promedio ponderado 5,8 meses contra 30,9 el 10/06/2026 (título más largo al 28/06/2030, RC 32/2026); cuarta licitación por efectivo seguida sin títulos en pesos que venzan después de jul-2027",
+      "angulo": "Corrida programada del 29/09/2026 00:30. Tema en infobae, lanacion, ámbito e iprofesional ('Caputo renovó $8,6 billones y acortó el plazo'). La corrida del 28/09 22:30 la había dejado pasar por 'comunicado único, sin segunda fuente independiente'. Esta vez la cifra ancla (vencimiento del título más largo) tiene dos documentos oficiales distintos: el comunicado de resultado y la Resolución Conjunta 36/2026 del Boletín Oficial que creó el TML27. Lo mismo para la comparación del 10/06 (comunicado y RC 32/2026). Ángulo propio: serie de las 18 licitaciones por efectivo de 2026 (14/01 a 28/09), leídas en los comunicados de argentina.gob.ar. En 17 los valores efectivos por título suman el total anunciado; la del 29/07 no (11,34 contra 12,21 billones) y queda fuera del promedio. Vencimiento máximo en pesos y dólar linked: de enero a julio siempre 2028 o después (máximo 28/06/2030 el 10/06); desde el 12/08, 29/01/2027, 31/05/2027, 30/07/2027 y 30/07/2027. Plazo promedio ponderado por valor efectivo, desde la fecha de licitación: ene-feb 5,0 a 6,4 meses, 10/06 30,9, 26/06 20,3, 15/07 11,8, 12/08 3,7, 27/08 4,8, 11/09 4,4, 28/09 5,8. El 54% de lo del 28/09 vence hasta el 15/01/2027. Tasas por el mismo título: TZXY7 (CER) 1,54% el 13/05 y 5,97% el 28/09; T15E7 (fija) 34,46% el 28/01, 38,25% el 11/02 y 29,36% el 28/09; TML27 31,50% el 26/06, 31,66% el 11/09 y 30,84% el 28/09. Relación entre ofertado y adjudicado: 1,68 el 11/09 y 1,13 el 28/09 (ofertas -31%). Contraste: Infobae 28/09 (mismos títulos, montos y vencimientos) y BAE Negocios 27/09 (mismo menú; ya decía que el título más largo vencía antes de las elecciones, por eso el aporte propio es la serie del año). Se descartó como fuente la nota de Ámbito 'Test clave... $8,1 billones': es de la licitación del 11/09. Excluidos y aclarados: canje D30S6 del 22/09 (TZV28 jun-2028, VN US$70 M) y Bonar AO29 en dólares del 12/08. No se usan el rollover de 100,08% ni la frase de Furiase sobre el 50% de los vencimientos después de las elecciones: no están en el comunicado. Sin superlativos de récord: 'la cuarta seguida' queda documentada con la serie completa de 2026. Candidatas no tomadas: Arcor y Central Puerto (EMPRESAS, sin montos o de rutina), reservas debajo de US$48.000 M (serie oficial al 24/09), ICG Di Tella (sin ángulo propio), Zona Fría (sin reglamentación, igual que el 24/09), aumentos de octubre y alquiler (formato ya publicado el 05/09), venta de centrales (cubierta el 28/09), DDJJ de Adorni (ya contestada por los medios en junio), actividad porteña 2T (IDECBA, dos portales, sin ángulo), régimen PER de ARCA (un solo portal, sin serie). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-29",
+      "estado": "publicada",
+      "articulo_id": "2026-09-29-tesoro-deuda-pesos-vence-antes-elecciones"
     }
   ]
 }
