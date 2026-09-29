@@ -1852,6 +1852,13 @@
       "fecha": "2026-09-29",
       "estado": "publicada",
       "articulo_id": "2026-09-29-central-puerto-abrasilver-dividendo"
+    },
+    {
+      "tema": "cuánto deben las empresas en mora a los bancos / irregularidad del crédito a empresas (BCRA, Informe sobre Bancos jul-26 publicado 18/09/2026 y anexo XLSX, '3. Empresas - Total'): 3,62% en jul-26 (3,50% jun-26; 1,18% jul-25; mínimo de la serie 2010-2026 0,67% nov-24; máximo 8,10% feb-20; más alto desde ene-24 4,22%, antes abr-22 3,68%); en mora $3.252.396 M sobre $89,86 billones; nov-24 $252.245 M = $406.625 M de jul-26 (x7,998 real, x12,9 nominal); feb-20 $4,70 billones de jul-26 (hoy 69%); documentos 0,32% -> 3,51% (41% del crédito, 39,7% de la mora); prefinanciación de exportaciones 0,54% -> 0,51%; familias 12,94% (máximo de la serie, previo may-26 12,79%)",
+      "angulo": "Corrida programada del 29/09/2026 04:30. Tema en iProfesional (29/09, IES: 'la morosidad en empresas se multiplicó por 5'), Ámbito (12/09) e infobae. Ángulo propio: la plata en mora en pesos de hoy (casi 8 veces más que en nov-24), la línea que se rompió (documentos, x10,9) contra la de exportadores (sin deterioro), y la serie larga (69% del monto real de la crisis de 2020). Camino estadística oficial: (1) Informe sobre Bancos jul-26: 'el coeficiente de irregularidad del crédito a las empresas alcanzó 3,6%'; (2) recálculo: promedio ponderado de las seis líneas por su saldo = 3,6196% exacto (y 0,6743% en nov-24); (3) contraste independiente: CEPA (23/07/2026, Central de Deudores) 0,7% oct-24 y 3,0% may-26 contra 0,69% y 3,48% del anexo; diferencia de nivel por universo (el BCRA suma el crédito comercial a personas humanas, nota 3). IPC INDEC 148.3_INIVELNAL_DICI_M_26. No se usó la cifra atribuida a Equilibra en Ámbito (nota con muro de suscripción). Candidatas no tomadas: Cambiaso embajador (Decreto 1116/2026, ad honorem, sin monto), costo del viaje de Milei a París (sin documento), aumentos de octubre (prepagas sin norma; colectivo frenado el 25/09), riesgo país 628 (sin ángulo nuevo tras el 24/09), balanza de pagos 2T (sale hoy a las 16), venta de centrales de Enarsa (publicada 28/09), empresas CNV (hoy ya hubo nota de EMPRESAS, Central Puerto; Arcor ON 7/8 sin cifras; MSU-BML descartada el 25/09), gasto tributario 2027 (proyección, descartada 27/09), industria de agosto (dato de la UIA; el INDEC publica el 07/10), pagos con QR (publicada en julio), Zona Fría (sin reglamentación). Clarín y TN no se pudieron leer en el barrido.",
+      "fecha": "2026-09-29",
+      "estado": "publicada",
+      "articulo_id": "2026-09-29-mora-empresas-bancos-billones"
     }
   ]
 }
