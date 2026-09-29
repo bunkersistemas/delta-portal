@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-29T18:46:51-03:00",
+    "actualizado": "2026-09-29T20:46:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-29-alquiler-dos-ambientes-caba-sueldo",
+      "titulo": "Alquilar un dos ambientes en la Ciudad cuesta $811.651 por mes: equivale a 41 de cada $100 de un sueldo formal promedio, contra 36 entre 2013 y 2020",
+      "bajada": "Descontada la inflación, el alquiler publicado está 42,3% por debajo de su pico de octubre de 2023 y 3,1% más barato que hace un año. Pero los sueldos también perdieron: el dos ambientes todavía pesa más en el salario que en cualquier año entre 2013 y 2020.",
+      "titulo_busqueda": "¿Cuánto cuesta alquilar un dos ambientes en CABA?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$811.651",
+      "numero_label": "alquiler mensual publicado de un dos ambientes en la Ciudad de Buenos Aires, agosto 2026 (IDECBA, provisorio)",
+      "fecha": "2026-09-29",
+      "hora": "20:30",
+      "archivo": "articulos/2026-09-29-alquiler-dos-ambientes-caba-sueldo.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-29-tambero-leche-precio-sachet",
       "titulo": "El tambero cobra $535 por litro de leche y el sachet sale $2.008 en el Gran Buenos Aires: le llegan $26,6 de cada $100, contra $29,3 un año antes",

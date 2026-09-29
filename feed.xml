@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 18:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 20:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Alquilar un dos ambientes en la Ciudad cuesta $811.651 por mes: equivale a 41 de cada $100 de un sueldo formal promedio, contra 36 entre 2013 y 2020</title>
+      <link>https://coninteres.com/articulos/2026-09-29-alquiler-dos-ambientes-caba-sueldo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-alquiler-dos-ambientes-caba-sueldo.html</guid>
+      <pubDate>Tue, 29 Sep 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Descontada la inflación, el alquiler publicado está 42,3% por debajo de su pico de octubre de 2023 y 3,1% más barato que hace un año. Pero los sueldos también perdieron: el dos ambientes todavía pesa más en el salario que en cualquier año entre 2013 y 2020.</description>
+      <ci:numero>$811.651</ci:numero>
+      <ci:numeroEtiqueta>alquiler mensual publicado de un dos ambientes en la Ciudad de Buenos Aires, agosto 2026 (IDECBA, provisorio)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-alquiler-dos-ambientes-caba-sueldo.png" length="79244" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-alquiler-dos-ambientes-caba-sueldo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El tambero cobra $535 por litro de leche y el sachet sale $2.008 en el Gran Buenos Aires: le llegan $26,6 de cada $100, contra $29,3 un año antes</title>
       <link>https://coninteres.com/articulos/2026-09-29-tambero-leche-precio-sachet.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>hogares urbanos que tuvieron que pedir préstamos a bancos o financieras para vivir en el 2º semestre de 2025 (EPH-INDEC, cálculo propio con el método del INDEC): máximo de la serie desde 2016</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-hogares-piden-prestamos-bancos-para-vivir.png" length="73468" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-hogares-piden-prestamos-bancos-para-vivir.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina debe US$390,9 millones por la expropiación de Aerolíneas y ya le pueden pedir embargos: en 2008 el Estado había tasado las dos aerolíneas en US$832 millones negativos</title>
-      <link>https://coninteres.com/articulos/2026-09-27-aerolineas-expropiacion-sentencia-embargos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-aerolineas-expropiacion-sentencia-embargos.html</guid>
-      <pubDate>Sun, 27 Sep 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Una jueza federal de Washington resolvió el 25 de septiembre que pasó un "tiempo razonable" sin que la Argentina pagara la sentencia de US$390,9 millones que confirmó el laudo del CIADI por Aerolíneas y Austral, y habilitó al acreedor a pedir embargos. La sentencia es de diciembre de 2024 y suma intereses de 4,24% anual: con ellos, la cuenta ronda hoy los US$421 millones.</description>
-      <ci:numero>US$390,9 M</ci:numero>
-      <ci:numeroEtiqueta>sentencia de la Justicia federal de EE.UU. (D.D.C., 10/12/2024, confirmada por el Circuito de D.C. el 21/07/2026) que ejecuta el laudo del CIADI por la expropiación de Aerolíneas y Austral; más intereses de 4,24% anual</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-aerolineas-expropiacion-sentencia-embargos.png" length="92701" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-aerolineas-expropiacion-sentencia-embargos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
