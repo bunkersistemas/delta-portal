@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 12:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 16:20:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Hogares y empresas tienen US$260.402 millones en billetes y cuentas fuera de los bancos del país: 5,8 veces las reservas del Banco Central</title>
+      <link>https://coninteres.com/articulos/2026-09-29-dolares-fuera-del-sistema-hogares-empresas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-dolares-fuera-del-sistema-hogares-empresas.html</guid>
+      <pubDate>Tue, 29 Sep 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Es la cifra que publicó hoy el INDEC para el 30 de junio de 2026, la más alta de su serie, que empieza en 2006. En el segundo trimestre creció US$1.134 millones, casi lo mismo que el Banco Central estima que se fue del sistema en esos tres meses. Desde el fin del cepo, el stock afuera subió US$12.912 millones.</description>
+      <ci:numero>US$260.402 M</ci:numero>
+      <ci:numeroEtiqueta>billetes y depósitos en el exterior de hogares y empresas al 30/06/2026 (INDEC, provisorio)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-dolares-fuera-del-sistema-hogares-empresas.png" length="76082" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-dolares-fuera-del-sistema-hogares-empresas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un bancario que recién entra cobra $2.505.061 en agosto: su sueldo subió 33,5% en un año, lo mismo que la inflación, y el salario formal promedio quedó 3,7% atrás</title>
       <link>https://coninteres.com/articulos/2026-09-29-cuanto-cobra-bancario-octubre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>toneladas de construcciones prefabricadas importadas por la Argentina en 2025, el máximo desde 2002 (INDEC, NCM 9406)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-construcciones-prefabricadas-importadas-record-china.png" length="76607" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-construcciones-prefabricadas-importadas-record-china.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La provincia de Buenos Aires debe US$12.112 millones y 2027 es su año de pagos más pesado: le vencen $3,07 billones</title>
-      <link>https://coninteres.com/articulos/2026-09-27-deuda-provincia-buenos-aires-vencimientos-2027.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-deuda-provincia-buenos-aires-vencimientos-2027.html</guid>
-      <pubDate>Sun, 27 Sep 2026 11:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Al 30 de junio, la deuda bonaerense sumaba $17,95 billones, según el informe trimestral de la propia provincia: la mitad de todo lo que deben las provincias. En 2027 le vencen $3,07 billones, unos US$2.069 millones, 17% de lo que debe. El pico no lo arman los bonos emitidos bajo ley de Nueva York, que pagan casi lo mismo cada año hasta 2037, sino la deuda local.</description>
-      <ci:numero>US$12.112 M</ci:numero>
-      <ci:numeroEtiqueta>deuda de la provincia de Buenos Aires al 30/06/2026 (informe provincial)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-deuda-provincia-buenos-aires-vencimientos-2027.png" length="69204" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-deuda-provincia-buenos-aires-vencimientos-2027.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

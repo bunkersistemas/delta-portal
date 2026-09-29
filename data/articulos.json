@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-29T12:51:05-03:00",
+    "actualizado": "2026-09-29T16:20:35-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-29-dolares-fuera-del-sistema-hogares-empresas",
+      "titulo": "Hogares y empresas tienen US$260.402 millones en billetes y cuentas fuera de los bancos del país: 5,8 veces las reservas del Banco Central",
+      "bajada": "Es la cifra que publicó hoy el INDEC para el 30 de junio de 2026, la más alta de su serie, que empieza en 2006. En el segundo trimestre creció US$1.134 millones, casi lo mismo que el Banco Central estima que se fue del sistema en esos tres meses. Desde el fin del cepo, el stock afuera subió US$12.912 millones.",
+      "titulo_busqueda": "¿Cuántos dólares tienen los argentinos fuera del sistema?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$260.402 M",
+      "numero_label": "billetes y depósitos en el exterior de hogares y empresas al 30/06/2026 (INDEC, provisorio)",
+      "fecha": "2026-09-29",
+      "hora": "16:30",
+      "archivo": "articulos/2026-09-29-dolares-fuera-del-sistema-hogares-empresas.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-29-cuanto-cobra-bancario-octubre",
       "titulo": "Un bancario que recién entra cobra $2.505.061 en agosto: su sueldo subió 33,5% en un año, lo mismo que la inflación, y el salario formal promedio quedó 3,7% atrás",
