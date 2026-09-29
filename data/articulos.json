@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-29T06:54:07-03:00",
+    "actualizado": "2026-09-29T08:42:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-29-ingresos-brutos-provincias-recaudacion-2025",
+      "titulo": "Las provincias cobraron $33,4 billones de Ingresos Brutos en 2025: $90 por cada $100 que la Nación recaudó con Ganancias",
+      "bajada": "Ingresos Brutos es el impuesto que Cristiano Rattazzi llamó \"pésimo\" esta semana. En 2025 les dejó a las 23 provincias y a la Ciudad $33,37 billones: 78,8% de todo lo que cobran con impuestos propios, más del doble que el impuesto al cheque y más de la mitad del IVA. En el primer semestre de 2026 recaudó 3,6% menos que un año antes, descontada la inflación.",
+      "titulo_busqueda": "¿Cuánto recaudan las provincias con Ingresos Brutos?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$33,4 billones",
+      "numero_label": "Ingresos Brutos cobrado en 2025 por las 23 provincias y la CABA ($33.373.064 M, DNAP, información mensual 2025): 78,8% de su recaudación tributaria propia ($42.366.422 M) y 90,0% de lo que la Nación recaudó con Ganancias ($37.063.166 M, ARCA)",
+      "fecha": "2026-09-29",
+      "hora": "08:30",
+      "archivo": "articulos/2026-09-29-ingresos-brutos-provincias-recaudacion-2025.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-29-tesoro-bono-dolares-ao29-tres-licitaciones",
       "titulo": "El Tesoro emitió US$1.226 millones de su bono en dólares y lleva tres licitaciones sin ofrecerlo: la última vez pagó 8,72% anual",

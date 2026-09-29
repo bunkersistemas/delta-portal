@@ -1874,6 +1874,13 @@
       "fecha": "2026-09-29",
       "estado": "publicada",
       "articulo_id": "2026-09-29-tesoro-bono-dolares-ao29-tres-licitaciones"
+    },
+    {
+      "tema": "cuánto recaudan las provincias con Ingresos Brutos / DNAP, información mensual 2025: $33.373.064 M en las 24 jurisdicciones = 78,8% de la recaudación tributaria propia ($42.366.422 M); ARCA 2025: IVA neto $61.296.099 M (IIBB = 54,4%), Ganancias $37.063.166 M (90,0%), Créditos y Débitos $13.995.364 M (2,38 veces); 1S-2026 $19.469.990 M contra 1S-2025 $15.198.324 M (+28,1% nominal, IPC promedio +32,9%: -3,6% real); 2025 contra 2024 +41,8% (IPC promedio +41,9%); participación en la serie anual sin La Pampa 52,1% (1984) -> 83,5% (2023, máximo; previo 79,1% en 2022) -> 78,9% (2025); dependencia Misiones 91,7%, Neuquén 90,9%, Salta 90,0%, Tierra del Fuego 51,5%",
+      "angulo": "Corrida programada del 29/09/2026 08:30. Pregunta de plata detrás de Rattazzi en LN+ ('Ingresos Brutos... es un pésimo impuesto', La Nación e iProfesional 28-29/09), JP Morgan contra los tributos provinciales (La Nación) y el proyecto de Catamarca para eliminar IIBB a la industria (Cronista). Ángulo propio: el tamaño contra los impuestos nacionales que compara Rattazzi; Chequeado (17/10/2025) ya había dado el 78% y el 4,1% del PIB, pero no la comparación con IVA/Ganancias/cheque, el 2025 cerrado ni la caída real de 2026. Camino estadística oficial: (1) total de la hoja IIBB de top_mensual_2025_12.xlsx (DNAP); (2) recálculo: suma de 24 jurisdicciones x 12 meses = 33.373.064 exacto (hoja TOTAL 42.366.422 también); (3) contraste: serie anual por ejecución presupuestaria (serie_top_1984_2025, sin La Pampa) 32.905.777 contra 33.028.255 de la mensual para las mismas 23 (-0,4%, fuentes y métodos distintos según la DNAP) y DPPT-PBA con datos de ARBA 10.631.475 = DNAP. No se usa el % del PIB. Candidatas no tomadas: comercio con Francia (viaje de Milei a París con 13 gobernadores), soja y retenciones por tonelada (cubierta en julio), Zona Fría (sin reglamentación), presupuesto educativo 2027 y OCDE (ya contestado por Chequeado y otros desde el 19/09), industria de agosto (UIA, privada; INDEC el 07/10), balanza de pagos 2T (INDEC a las 16), riesgo país 628 (cubierto). EMPRESAS: YPF recompra de ON, Central Puerto recompras, Arcor escisión-fusión Mastellone y ON, MSU-BML (ya leídas y descartadas, sin montos nuevos) e YPF-Entre Ríos acuerdo logístico (sin documento en la CNV); el cupo no rige: hoy ya se publicó Central Puerto. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-29",
+      "estado": "publicada",
+      "articulo_id": "2026-09-29-ingresos-brutos-provincias-recaudacion-2025"
     }
   ]
 }

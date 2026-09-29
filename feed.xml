@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 06:54:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 08:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las provincias cobraron $33,4 billones de Ingresos Brutos en 2025: $90 por cada $100 que la Nación recaudó con Ganancias</title>
+      <link>https://coninteres.com/articulos/2026-09-29-ingresos-brutos-provincias-recaudacion-2025.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-ingresos-brutos-provincias-recaudacion-2025.html</guid>
+      <pubDate>Tue, 29 Sep 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Ingresos Brutos es el impuesto que Cristiano Rattazzi llamó "pésimo" esta semana. En 2025 les dejó a las 23 provincias y a la Ciudad $33,37 billones: 78,8% de todo lo que cobran con impuestos propios, más del doble que el impuesto al cheque y más de la mitad del IVA. En el primer semestre de 2026 recaudó 3,6% menos que un año antes, descontada la inflación.</description>
+      <ci:numero>$33,4 billones</ci:numero>
+      <ci:numeroEtiqueta>Ingresos Brutos cobrado en 2025 por las 23 provincias y la CABA ($33.373.064 M, DNAP, información mensual 2025): 78,8% de su recaudación tributaria propia ($42.366.422 M) y 90,0% de lo que la Nación recaudó con Ganancias ($37.063.166 M, ARCA)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-ingresos-brutos-provincias-recaudacion-2025.png" length="84150" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-ingresos-brutos-provincias-recaudacion-2025.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Tesoro emitió US$1.226 millones de su bono en dólares y lleva tres licitaciones sin ofrecerlo: la última vez pagó 8,72% anual</title>
       <link>https://coninteres.com/articulos/2026-09-29-tesoro-bono-dolares-ao29-tres-licitaciones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>provincias con déficit primario en 2025 (DNAP, provisorio)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-provincias-deficit-primario-2025.png" length="60038" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-provincias-deficit-primario-2025.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las licencias de pesca le dejaron al gobierno de Malvinas £36,5 millones en un año: un tercio de sus ingresos, y casi la mitad sale del calamar que pescan barcos de Taiwán y Corea</title>
-      <link>https://coninteres.com/articulos/2026-09-27-malvinas-licencias-pesca-calamar-illex.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-malvinas-licencias-pesca-calamar-illex.html</guid>
-      <pubDate>Sun, 27 Sep 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>En el año fiscal que terminó en junio de 2025, el gobierno de las islas cobró £36.481.492 por licencias de pesca: unos US$48 millones, 32% de todo lo que ingresó a sus cuentas. Casi la mitad de lo que se paga por pescar ahí sale del calamar Illex, la misma especie que desembarca la flota argentina, y 105 de los 107 barcos habilitados para pescarlo en 2025 eran taiwaneses o coreanos.</description>
-      <ci:numero>£36,5 M</ci:numero>
-      <ci:numeroEtiqueta>cobró el gobierno de Malvinas por licencias de pesca en el año fiscal 2024/25 (£36.481.492, 32% de sus ingresos operativos; presupuesto oficial 2026/27)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-malvinas-licencias-pesca-calamar-illex.png" length="79090" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-malvinas-licencias-pesca-calamar-illex.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
