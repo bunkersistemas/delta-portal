@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-29T00:54:02-03:00",
+    "actualizado": "2026-09-29T02:47:30-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-29-central-puerto-abrasilver-dividendo",
+      "titulo": "Central Puerto vendió su parte en una minera de plata a 6,4 veces lo que había puesto y repartió casi todo en dividendos: $247.344 millones",
+      "bajada": "La generadora eléctrica había invertido C$35,7 millones en AbraSilver, dueña del proyecto de plata y oro Diablillos, entre 2024 y 2025. Informó a la CNV que vendió todo por C$228,4 millones y pagó el 25 de septiembre un dividendo extraordinario de $164 por acción. Al tipo de cambio del día del anuncio, el dividendo equivale al 99,8% de lo que cobró.",
+      "titulo_busqueda": "¿Cuánto ganó Central Puerto con AbraSilver y cuánto pagó de dividendo?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "6,4 veces",
+      "numero_label": "lo que Central Puerto cobró por el 100% de su participación en AbraSilver (C$228.406.885) sobre lo que había invertido (C$35.741.477), según su hecho relevante del 16/09/2026 ante la CNV y la SEC; la inversión la confirman los comunicados de AbraSilver",
+      "fecha": "2026-09-29",
+      "hora": "02:30",
+      "archivo": "articulos/2026-09-29-central-puerto-abrasilver-dividendo.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-29-tesoro-deuda-pesos-vence-antes-elecciones",
       "titulo": "El Tesoro renovó $8,62 billones y nada vence después de julio de 2027: en junio colocaba deuda en pesos hasta 2030",
