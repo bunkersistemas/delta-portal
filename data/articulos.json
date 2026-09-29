@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-29T16:46:38-03:00",
+    "actualizado": "2026-09-29T18:46:51-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-29-tambero-leche-precio-sachet",
+      "titulo": "El tambero cobra $535 por litro de leche y el sachet sale $2.008 en el Gran Buenos Aires: le llegan $26,6 de cada $100, contra $29,3 un año antes",
+      "bajada": "En un año, lo que cobran los tambos subió 13,0%; el sachet, 24,2%, y los precios en general, 33,5%. De mayo a agosto de 2026, la parte del precio de la leche que le queda al productor no estuvo tan baja desde mayo de 2018.",
+      "titulo_busqueda": "¿Cuánto cobra el tambero por un litro de leche?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "26,6%",
+      "numero_label": "lo que cobró el tambero por litro sobre el precio del sachet de leche entera en el GBA, agosto 2026 (Agricultura e INDEC)",
+      "fecha": "2026-09-29",
+      "hora": "18:30",
+      "archivo": "articulos/2026-09-29-tambero-leche-precio-sachet.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-29-dividendos-duenos-extranjeros-maximo",
       "titulo": "Las empresas con dueños extranjeros declararon US$2.882 millones de dividendos en tres meses: el doble que un año antes y lo más desde 2011",

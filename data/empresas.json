@@ -1,11 +1,29 @@
 {
-  "generado": "2026-09-29T16:30",
+  "generado": "2026-09-29T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3574568",
+      "fuente": "CNV",
+      "fecha": "2026-09-29T18:20",
+      "entidad": "BANCO DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9247B55B-240F-4AD9-827F-67A34BA5251A"
+    },
+    {
+      "id": "cnv-3574504",
+      "fuente": "CNV",
+      "fecha": "2026-09-29T17:12",
+      "entidad": "BANCO DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ACUERDO VALO-ROSVAL. CESION DE POSICIONES CONTRACTUALES CON AGENTES DE NEGOCIACIÓN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9E2E405B-6E00-4AC4-9F25-B174934D760E"
+    },
     {
       "id": "cnv-3574410",
       "fuente": "CNV",
