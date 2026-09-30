@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T04:46:41-03:00",
+    "actualizado": "2026-09-30T06:51:08-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-impuesto-combustibles-vialidad-rutas",
+      "titulo": "El impuesto a los combustibles recaudó $4,09 billones en ocho meses y Vialidad Nacional gastó $7,66 de cada $100: en 2023 eran $89",
+      "bajada": "Entre enero y agosto de 2026, Vialidad Nacional devengó $313.151 millones, según Presupuesto Abierto. En el mismo período, el impuesto a los combustibles le dejó al Estado $4.088.353 millones. Llevado a pesos de hoy, el impuesto recauda el doble que en 2023 y Vialidad gasta 82% menos. La ley reparte ese impuesto en siete destinos; ninguno se llama Vialidad.",
+      "titulo_busqueda": "¿Adónde va la plata del impuesto a los combustibles?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$7,66",
+      "numero_label": "gasto devengado de Vialidad Nacional por cada $100 del impuesto a los combustibles (Ley 23.966), enero-agosto de 2026: $313.151 M sobre $4.088.353 M; $89,16 en enero-agosto de 2023",
+      "fecha": "2026-09-30",
+      "hora": "07:45",
+      "archivo": "articulos/2026-09-30-impuesto-combustibles-vialidad-rutas.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-09-30-retenciones-recaudacion-ocho-meses",
       "titulo": "Las retenciones le dejaron al Estado $5,6 billones en ocho meses: 3,7 de cada $100 que recaudó, contra 13,5 en 2008",

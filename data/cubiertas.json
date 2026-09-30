@@ -2027,6 +2027,20 @@
       "fecha": "2026-09-30",
       "estado": "publicada",
       "articulo_id": "2026-09-30-retenciones-recaudacion-ocho-meses"
+    },
+    {
+      "tema": "cuánto invierte Francia en la Argentina (Argentina Week en París, 30/09/2026) / posición de inversión extranjera directa por país, BCRA (anexo del informe de IED, 1T-2026): Francia US$8.178,3 M al 31/03/2026, 7° origen, máximo de la serie 2017-2026 (previo 7.829,7 en 2T-2025)",
+      "angulo": "FRENADA en la corrida programada del 30/09/2026 06:30 (primera candidata; tema en infobae, ámbito, cronista e iprofesional). MOTIVO: las fuentes se contradicen y la diferencia no se puede explicar con documentos. La Banque de France da un stock de 3.453 M de euros a fines de 2024 (contra US$6.991 M del BCRA para la misma fecha, casi el doble), y la Direction générale du Trésor (21/07/2026) cita al BCRA con US$7.600 M para fines de 2024, lo que indica una revisión fuerte de la serie provisoria. Comercio bilateral: la base del INDEC tiene 2.308 registros confidenciales para Francia (código 412) en 2025 y no permite recalcular el total. Retomar si el BCRA publica la serie definitiva o si aparece una explicación metodológica de la diferencia con la Banque de France.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": ""
+    },
+    {
+      "tema": "adónde va la plata del impuesto a los combustibles / Vialidad Nacional (SAF 604) devengó $313.150,8 M en ene-ago 2026 (Presupuesto Abierto, crédito mensual, act. 27/09/2026) contra $4.088.352,5 M del impuesto sobre los combustibles líquidos Ley 23.966 (Ingresos Públicos, naftas 1.840.429,2 + otros 2.247.923,3) = $7,66 por cada $100; ene-ago 2023 $89,16 (244.305,2 / 274.005,4), 2024 $20,28, 2025 $13,00; en pesos de ago-26 (IPC INDEC): impuesto 2,15 -> 4,37 billones (x2,03; +17,6% vs 2025), Vialidad 1,89 -> 0,33 billones (-82,3%; -30,6% vs 2025); bienes de uso 1,03 -> 0,16 billones (-85,0%); art. 19 Ley 23.966: 28,58% al Fideicomiso de Infraestructura de Transporte = $1.168.451 M (3,73 veces Vialidad), 28,69% SIPA",
+      "angulo": "Corrida programada del 30/09/2026 06:30 (segunda candidata, tras frenar Francia). Pregunta de plata detrás del amparo de legisladores entrerrianos por fondos para rutas nacionales (lanacion 29/09/2026). Ángulo NUEVO frente a ACIJ/La Nación (23/08, gasto de Vialidad en 30 años) y CEPA (-83% a julio): el cruce con la recaudación del impuesto a los combustibles y su reparto legal. Camino estadística oficial recalculada para las dos partes: (1) Presupuesto Abierto y planillas de Ingresos Públicos; (2) suma mensual propia; (3) contrastes: ACIJ vía La Nación (2023 $2,7 bill., 2024 $811.000 M, 2025 $783.000 M a precios de 2026; propio 2,81 / 0,79 / 0,80) y CEPA (-83% vs 2023 a julio; propio -82,3% a agosto) para Vialidad; Criteria (+12,6% real en agosto; propio +12,7%) para el impuesto. No se afirma nada sobre inversiones financieras del fideicomiso (lo que alega el amparo). Sin superlativos.",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-impuesto-combustibles-vialidad-rutas"
     }
   ]
 }
