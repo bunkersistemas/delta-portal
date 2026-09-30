@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T08:43:05-03:00",
+    "actualizado": "2026-09-30T10:43:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-evasion-fiscal-umbral-100-millones",
+      "titulo": "La evasión es delito desde $100 millones por impuesto y por año: el piso de 2017, llevado a pesos de hoy, sería $147,6 millones",
+      "bajada": "La Ley de Inocencia Fiscal multiplicó por 66,7 el monto a partir del cual evadir es delito, pero entre diciembre de 2017 y diciembre de 2025 los precios se multiplicaron por 81,1. Medido en pesos de agosto de 2026, el piso nuevo es 32% más bajo que el que fijó la reforma de 2017. ARCA reglamentó hoy cómo se evita la denuncia penal pagando la deuda.",
+      "titulo_busqueda": "¿Desde cuánto una deuda con ARCA es delito de evasión?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$100 M",
+      "numero_label": "monto evadido a partir del cual la evasión simple es delito, por impuesto y por año (Ley 27.799, art. 1°, BO 02/01/2026); antes $1.500.000 desde la Ley 27.430 de 2017, que en pesos de agosto de 2026 serían $147,6 M con el IPC del INDEC",
+      "fecha": "2026-09-30",
+      "hora": "11:30",
+      "archivo": "articulos/2026-09-30-evasion-fiscal-umbral-100-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-30-japon-carne-vacuna-mercado-argentina",
       "titulo": "Japón compró US$3.117 millones de carne vacuna en 2025 y a la Argentina le compró US$376.000: 12 de cada 100.000 dólares",

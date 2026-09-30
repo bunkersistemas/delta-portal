@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 30 Sep 2026 08:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 10:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La evasión es delito desde $100 millones por impuesto y por año: el piso de 2017, llevado a pesos de hoy, sería $147,6 millones</title>
+      <link>https://coninteres.com/articulos/2026-09-30-evasion-fiscal-umbral-100-millones.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-evasion-fiscal-umbral-100-millones.html</guid>
+      <pubDate>Wed, 30 Sep 2026 11:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Ley de Inocencia Fiscal multiplicó por 66,7 el monto a partir del cual evadir es delito, pero entre diciembre de 2017 y diciembre de 2025 los precios se multiplicaron por 81,1. Medido en pesos de agosto de 2026, el piso nuevo es 32% más bajo que el que fijó la reforma de 2017. ARCA reglamentó hoy cómo se evita la denuncia penal pagando la deuda.</description>
+      <ci:numero>$100 M</ci:numero>
+      <ci:numeroEtiqueta>monto evadido a partir del cual la evasión simple es delito, por impuesto y por año (Ley 27.799, art. 1°, BO 02/01/2026); antes $1.500.000 desde la Ley 27.430 de 2017, que en pesos de agosto de 2026 serían $147,6 M con el IPC del INDEC</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-evasion-fiscal-umbral-100-millones.png" length="77729" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-evasion-fiscal-umbral-100-millones.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Japón compró US$3.117 millones de carne vacuna en 2025 y a la Argentina le compró US$376.000: 12 de cada 100.000 dólares</title>
       <link>https://coninteres.com/articulos/2026-09-30-japon-carne-vacuna-mercado-argentina.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>premios que cobra el campeón de la Copa Argentina 2026 si es de Primera (AFA, Boletín 6850): US$356.400 al dólar del anuncio, 40,6% menos que los US$599.800 de la escala de abril de 2018</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-gana-campeon-copa-argentina-premios.png" length="84695" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-gana-campeon-copa-argentina-premios.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las mujeres cobran en promedio 29,1% menos que los varones: $959.030 por mes contra $1.352.247. Por hora trabajada, la distancia baja a 10,3%</title>
-      <link>https://coninteres.com/articulos/2026-09-27-cuanto-menos-gana-una-mujer-brecha-ingresos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-cuanto-menos-gana-una-mujer-brecha-ingresos.html</guid>
-      <pubDate>Sun, 27 Sep 2026 21:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Según la Encuesta Permanente de Hogares del INDEC, en el primer trimestre de 2026 las mujeres que cobran algún ingreso recibieron en promedio $393.217 por mes menos que los varones. Por su trabajo principal, la distancia es de 29,3%, y un año antes era de 27,8%. Buena parte de la diferencia está en las horas: ellas trabajan por paga ocho horas menos por semana.</description>
-      <ci:numero>29,1%</ci:numero>
-      <ci:numeroEtiqueta>menos cobran en promedio las mujeres con ingresos que los varones ($959.030 contra $1.352.247 por mes, EPH-INDEC, primer trimestre de 2026); por el trabajo principal 29,3% y por hora trabajada 10,3%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-menos-gana-una-mujer-brecha-ingresos.png" length="88597" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-menos-gana-una-mujer-brecha-ingresos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
