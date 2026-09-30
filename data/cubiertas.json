@@ -2012,6 +2012,21 @@
       "fecha": "2026-09-30",
       "estado": "publicada",
       "articulo_id": "2026-09-30-empresas-deuda-bonos-exterior-maximo"
+    },
+    {
+      "tema": "empresas / Avex S.A. (grupo Granja Tres Arroyos), pedido de concurso preventivo (iProfesional y Cronista, 26-29/09/2026): cuánto debe",
+      "angulo": "FRENADA en la corrida programada del 30/09/2026 04:30 (primera candidata, con cupo de empresas: hoy no hubo nota de EMPRESAS). Avex no presenta ante la CNV y el escrito del concurso no es público; las cifras de la prensa salen de él y no coinciden entre medios (cheques rechazados $10.093 M según uno, más de $126.000 M según otro; deuda total $536.000 M, financiera $199.000 M). Fuente de regulador consultada: BCRA, Central de Deudores (CUIT 30-70872992-9, API pública), agosto de 2026: BBVA $327,7 M (situación 1), Credicoop $174,5 M (situación 4, 48 días de atraso, situación jurídica), Santander $45,9 M (situación 4), Galicia $0,6 M; unos $548,6 M con entidades locales, lejos de los $199.000 M de deuda financiera publicados. La diferencia no se puede explicar sin el escrito (puede haber deuda con acreedores del exterior u obligaciones negociables, que la Central no registra). Sin documento no hay cifra ancla. Retomar con el expediente o un hecho relevante del grupo.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "las cifras del concurso solo están en la prensa y no cierran con la Central de Deudores del BCRA"
+    },
+    {
+      "tema": "cuánto recauda el Estado por las retenciones / derechos de exportación enero-agosto 2026 (Subsecretaría de Ingresos Públicos, DNIAF, planilla Recaudación tributaria agosto 2026): $5.595.156,2 M (2025: $5.806.120,4 M; -3,63% nominal; real -28,3% estimado con IPC INDEC a pesos de ago-26), 3,66% de los recursos tributarios ($153.045.987 M) contra 4,86% en ene-ago 2025 y 13,49% en ene-ago 2008 (máximo de la serie ene-ago 2003-2026; solo 2018 2,62, 2017 2,93 y 2023 3,14 fueron menores); Hacienda base caja $5.442.944,6 M (-4,9%), 44,3% del superávit primario ($12.277.683,7 M) y más que el resultado financiero ($2.336.619,8 M); Presupuesto 2027: $8.536.982,5 M en 2026 (0,75% del PIB) y $12.062.269,8 M en 2027 (0,85% del PIB, 3,92% del total)",
+      "angulo": "Corrida programada del 30/09/2026 04:30 (segunda candidata, tras frenar Avex). Pregunta de plata detrás del reclamo de la Federación Agraria en su congreso de Rosario (lanacion 29/09/2026: fin de las retenciones por ley); ninguna portada da la cifra. Camino estadística oficial recalculada: (1) planilla 2026-agosto-1.xlsx; (2) suma de la serie mensual 2026_7.xlsx = acumulado, y 2025_8.xlsx para 2025; serie 2003-2025 con las planillas anuales de Ingresos Públicos; (3) contraste Secretaría de Hacienda, IMIG agosto 2026 base caja (diferencia 2,7%, concentrada en agosto: momento de registro). Contexto: Decreto 423/2026 (BO 03/06/2026, cita de considerandos leída en el BO); no se citan alícuotas (están en los anexos). No abre por producto: 'retenciones' = todo el renglón de derechos de exportación.",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-retenciones-recaudacion-ocho-meses"
     }
   ]
 }

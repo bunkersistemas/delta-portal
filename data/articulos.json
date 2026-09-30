@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T02:53:29-03:00",
+    "actualizado": "2026-09-30T04:46:41-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-retenciones-recaudacion-ocho-meses",
+      "titulo": "Las retenciones le dejaron al Estado $5,6 billones en ocho meses: 3,7 de cada $100 que recaudó, contra 13,5 en 2008",
+      "bajada": "Entre enero y agosto de 2026, los derechos de exportación sumaron $5,6 billones, según la Subsecretaría de Ingresos Públicos: 3,6% menos que un año antes en pesos, con precios que subieron 33,5%. Pesan menos que en casi cualquier año desde 2003, pero equivalen a 44 de cada $100 del superávit primario. El Presupuesto 2027 estima $12,06 billones para el año que viene.",
+      "titulo_busqueda": "¿Cuánto recauda el Estado por las retenciones?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$5,6 bill.",
+      "numero_label": "derechos de exportación recaudados por la Nación en enero-agosto de 2026 (Subsecretaría de Ingresos Públicos): $5.595.156 M, 3,66% de los recursos tributarios; 13,49% en enero-agosto de 2008",
+      "fecha": "2026-09-30",
+      "hora": "05:00",
+      "archivo": "articulos/2026-09-30-retenciones-recaudacion-ocho-meses.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-30-empresas-deuda-bonos-exterior-maximo",
       "titulo": "Las empresas deben US$20.189 millones en bonos a inversores del exterior, casi el doble que a fines de 2023",
