@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T16:41:05-03:00",
+    "actualizado": "2026-09-30T18:51:20-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-jubiladas-haber-medio-moratoria",
+      "titulo": "Una jubilada cobra en promedio $647.279 y un jubilado $893.978: 72 de cada 100 pesos, porque ocho de cada diez mujeres se jubilaron por moratoria",
+      "bajada": "En junio de 2026 una jubilación del sistema nacional (SIPA) pagó en promedio $739.544: $647.279 si la cobraba una mujer y $893.978 si la cobraba un varón, según el dosier de personas mayores que el INDEC publicó hoy y el boletín de la Seguridad Social. La diferencia no está en lo que cobra cada una sino en cómo se jubilaron: 79,5% de las mujeres entraron por moratoria, contra 48,9% de los varones. Entre quienes se jubilaron con sus aportes, ellas cobran más que ellos.",
+      "titulo_busqueda": "¿Cuánto cobra en promedio un jubilado en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$647.279",
+      "numero_label": "haber medio de una jubilada del SIPA en junio de 2026, bono incluido; el de un jubilado fue $893.978: 72 de cada 100 pesos (INDEC y Seguridad Social)",
+      "fecha": "2026-09-30",
+      "hora": "18:30",
+      "archivo": "articulos/2026-09-30-jubiladas-haber-medio-moratoria.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-30-empleados-estado-nacional-agosto-2026",
       "titulo": "El Estado nacional tiene 74.332 empleados menos que en noviembre de 2023: la planta bajó 33 meses seguidos y en agosto quedó en 269.025 personas",

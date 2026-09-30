@@ -2092,6 +2092,19 @@
       "fecha": "2026-09-30",
       "estado": "publicada",
       "articulo_id": "2026-09-30-empleados-estado-nacional-agosto-2026"
+    },
+    {
+      "tema": "cuánto cobra en promedio un jubilado y por qué las mujeres cobran menos / haber medio de las jubilaciones del SIPA por sexo y moratoria, junio 2026 (INDEC, Dosier estadístico de personas mayores 2026, publicado 30/09/2026, cuadros 2.3 y 2.4 = BESS pasivos jun-26, cuadros 2.3.11 y 2.3.12): mujeres $647.279 (moratoria $470.974; sin moratoria $1.331.761), varones $893.978 ($523.960; $1.248.278) = 72 de cada 100; promedio $739.544 (cuadro 2.3.5) sobre 5.669.312 jubilaciones; con moratoria 79,5% de las mujeres (2.822.125 de 3.549.030) y 48,9% de los varones (1.037.130 de 2.120.270); jun-25 $487.261 y $665.477 (73,2 de cada 100); var. i.a. +32,8% y +34,3% contra IPC +33,5%; mínima jun-26 $403.317,99 + bono $70.000 (Res. ANSES 139/2026, Decreto 399/2026)",
+      "angulo": "Corrida programada del 30/09/2026 18:30. Pregunta de plata ('¿cuánto cobra en promedio un jubilado?') detrás de la publicación del día del INDEC (calendario, serie nueva; una corrida anterior la había dejado pasar 'sin pregunta de plata clara') y del debate sobre envejecimiento en el Coloquio de IDEA (infobae, lanacion). Ángulo NUEVO frente a las notas de jubilaciones del 20/07 (bono congelado) y del 24/09 (mínima contra la CBT): la brecha de género del haber medio se explica por la moratoria; sin moratoria las jubiladas cobran 107 por cada 100 de los varones. Ancla CONFIRMADA por el camino de estadística oficial: documento INDEC + recálculo exacto desde el Boletín Estadístico de la Seguridad Social (DNPSS, cuadros 2.3.11 y 2.3.12, peso por peso) + contraste con los microdatos de la EPH 1T-2026 (V2_01_M + V2_02_M, PONDII): mujeres $604.189, varones $704.284 (86 de cada 100), misma dirección y orden de magnitud; la diferencia se explica por universo (31 aglomerados, cajas provinciales fuera del SIPA, monto declarado, enero-marzo).",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-jubiladas-haber-medio-moratoria"
+    },
+    {
+      "tema": "empresas / cupo del día 30/09/2026 18:30: Petroquímica Comodoro Rivadavia y Luz de Tres Picos (compromiso previo de fusión, CNV 30/09/2026) y Toyota (RIGI por US$1.341 M en Zárate, 30/09/2026)",
+      "angulo": "DESCARTADAS en la corrida programada del 30/09/2026 18:30. PCR y Luz de Tres Picos: el visor público de la CNV (aif2.cnv.gov.ar, publicview) arma el formulario por script y no expone el texto ni los adjuntos; sin documento leído no hay cifra. Toyota: el monto (US$1.341 M), las exportaciones (US$1.280 M por año) y el superlativo 'la inversión más grande de la historia en la industria automotriz' salen solo del posteo de Luis Caputo en X (infobae, ámbito, cronista); no hay todavía resolución en el Boletín Oficial ni documento de la empresa. Retomar Toyota cuando se publique la resolución de adhesión al RIGI. Central Puerto (recompras), Arcor, Mastellone y Banco de Valores ya estaban leídas o descartadas.",
+      "fecha": "2026-09-30",
+      "estado": "descartada"
     }
   ]
 }

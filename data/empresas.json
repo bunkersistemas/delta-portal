@@ -1,11 +1,29 @@
 {
-  "generado": "2026-09-30T16:30",
+  "generado": "2026-09-30T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3574885",
+      "fuente": "CNV",
+      "fecha": "2026-09-30T18:05",
+      "entidad": "PETROQUÍMICA COMODORO RIVADAVIA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - SUSCRIPCIÓN DE COMPROMISO PREVIO DE FUSIÓN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4DC9C9EE-D748-4AD8-9FCA-CEAE7EFF788D"
+    },
+    {
+      "id": "cnv-3575008",
+      "fuente": "CNV",
+      "fecha": "2026-09-30T17:16",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (30 09 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4960CC6E-2122-459F-94F8-8120D8D012B1"
+    },
     {
       "id": "cnv-3574875",
       "fuente": "CNV",
