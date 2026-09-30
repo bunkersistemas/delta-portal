@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T14:44:40-03:00",
+    "actualizado": "2026-09-30T16:41:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-empleados-estado-nacional-agosto-2026",
+      "titulo": "El Estado nacional tiene 74.332 empleados menos que en noviembre de 2023: la planta bajó 33 meses seguidos y en agosto quedó en 269.025 personas",
+      "bajada": "Según el informe que el INDEC publicó hoy, al 31 de agosto de 2026 trabajaban 269.025 personas en la administración pública nacional y en las empresas y sociedades del Estado. Son 74.332 menos que en noviembre de 2023, una baja de 21,6%, y el número más bajo de la serie, que empieza en julio de 2022. La planta cayó todos los meses desde diciembre de 2023, pero cada vez más despacio: 39.320 personas menos en el primer año, 12.645 en los últimos nueve meses.",
+      "titulo_busqueda": "¿Cuántos empleados públicos menos hay desde que asumió Milei?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−74.332",
+      "numero_label": "personas menos en la administración pública nacional y las empresas del Estado entre noviembre de 2023 (343.357) y agosto de 2026 (269.025), según el INDEC: −21,6%",
+      "fecha": "2026-09-30",
+      "hora": "16:30",
+      "archivo": "articulos/2026-09-30-empleados-estado-nacional-agosto-2026.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-30-universidades-transferencias-nueve-meses-2023",
       "titulo": "La Nación gastó $4,07 billones en las universidades en nueve meses: 30,6% menos que en 2023, en pesos de hoy",

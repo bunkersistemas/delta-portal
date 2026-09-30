@@ -2085,6 +2085,13 @@
       "fecha": "2026-09-30",
       "estado": "publicada",
       "articulo_id": "2026-09-30-universidades-transferencias-nueve-meses-2023"
+    },
+    {
+      "tema": "cuántos empleados públicos menos tiene el Estado nacional / dotación de la APN, empresas y sociedades, INDEC agosto 2026 (publicado 30/09/2026): 269.025 personas (-0,5% m/m, -5,8% i.a.), 74.332 menos que nov-23 (343.357, -21,6%), mínimo de la serie (desde jul-22; mínimo previo jul-26 270.471), 33 bajas mensuales seguidas desde dic-23; ritmo: nov23-nov24 -39.320, nov24-nov25 -22.367, nov25-ago26 -12.645; APN -51.218 (-22,0%), empresas -23.114 (-21,0%); por entidad: Correo -5.645, Operadora Ferroviaria -4.374, ARCA -3.500, ANSES -3.021, CONICET -2.869, BNA -2.382, Aerolíneas -1.920, PAMI -1.638 (AySA -1.866 excluida por dato imputado); APE (ex Télam) 810->167; INCAA 1.137->479",
+      "angulo": "Corrida programada del 30/09/2026 16:30. Dato del calendario oficial (INDEC hoy 16:00, serie nueva para Con Interés) con pregunta de búsqueda ('cuántos empleados públicos menos hay desde que asumió Milei'). Ángulo propio: acumulado desde nov-23, el ritmo que se frena y quiénes perdieron más gente (solo entidades sin dato imputado en ago-26). Camino estadística oficial recalculada: (1) informe INDEC dotacion_personal_apn_09_2679845EB044.pdf (link tomado de la portada del INDEC); (2) recálculo desde serie_dotacion_apn.xlsx y serie_dotacion_apn_cuadro_2_3.xlsx; (3) contraste SIPA (trabajoregistrado_2606_estadisticas.xlsx, T.2.1): asalariados del sector público, todos los niveles, nov-23 3.484.305 -> jun-26 3.395.893 (-88.412) contra INDEC mismo período -71.514; universos distintos, explicado en la nota. Imputados ago-26: 12 entidades, 19.376 personas (7,2%). NO afirmado: cuántos fueron despidos; comparaciones por tipo de estructura (reclasificaciones). Candidatas no tomadas: empresas del bloque CNV (Mastellone, Banco de Valores, Arcor y Central Puerto ya leídas y descartadas hoy; Luz de Tres Picos, compromiso previo de fusión del 30/09, sin cifras de negocio), jubilación mínima de octubre (cubierta 24/09), Zona Fría (frenada dos veces), Black Hawk (frenada 29/09), empleadas domésticas octubre (cubierta), dosier de personas mayores INDEC (sin pregunta de plata clara). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-empleados-estado-nacional-agosto-2026"
     }
   ]
 }

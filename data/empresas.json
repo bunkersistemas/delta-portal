@@ -1,11 +1,20 @@
 {
-  "generado": "2026-09-30T14:30",
+  "generado": "2026-09-30T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3574875",
+      "fuente": "CNV",
+      "fecha": "2026-09-30T15:18",
+      "entidad": "LUZ DE TRES PICOS S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - SUSCRIPCIÓN DE COMPROMISO PREVIO DE FUSIÓN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/024FB450-E97E-45B0-B5DE-823DC296D675"
+    },
     {
       "id": "cnv-3574580",
       "fuente": "CNV",
