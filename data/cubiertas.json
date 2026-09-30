@@ -2063,6 +2063,21 @@
       "fecha": "2026-09-30",
       "estado": "publicada",
       "articulo_id": "2026-09-30-evasion-fiscal-umbral-100-millones"
+    },
+    {
+      "tema": "empresas / hechos relevantes CNV 28-29/09/2026 LEÍDOS: Mastellone Hermanos (compra del 45% de Logística La Serenísima a Danone Argentina, quedan 50/50), Banco de Valores (cesión de posiciones de Rosval con agentes de negociación, cierre a más tardar el 05/11/2026; y renovación de líneas de crédito a partes relacionadas RUNFO y OFFAL EXP) y Arcor (compromiso previo de escisión-fusión de las acciones de Mastellone con La Serenísima Unida, JV lácteo con Danone)",
+      "angulo": "DESCARTADAS en la corrida programada del 30/09/2026 12:30 pese al cupo de empresas (hoy sin nota de EMPRESAS). Esta vez los PDF SÍ se leyeron: se bajan con GET /api/ValetKeyProvider/GetPublicValetKey/<guid>?operation=DownloadBlob en aif2.cnv.gov.ar (con la cookie de la página publicview) y POST a blob.cnv.gov.ar/BlobWebService.svc/DownloadBlob/<guid> con ValetKey en el cuerpo; el guid está en el JSON 'nombreArchivo/guid' de la página. MOTIVO: ninguno de los cuatro documentos trae montos, precios ni tasas (Mastellone: HR - Acciones LLSSA; Banco de Valores: acta 5493 y 5496; Arcor: HR cpf del 28/09). Sin cifra no hay ancla. Retomar Mastellone/Arcor si aparecen los estados financieros especiales de la escisión-fusión con valores, y Arcor ON con el aviso de resultados del 01/10.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "documentos de la CNV leídos, sin montos"
+    },
+    {
+      "tema": "cuánto sale el colectivo en la Ciudad en octubre de 2026 y cuánto pone la Ciudad (RETOMADA) / Res. 210/SECT/26 (BO CABA 7464, 30/09/2026), anexo IF-2026-43666802: boleto mínimo 0-3 km $920,48 (sep $887,99, Res. 180/SECT/26; +3,66% = 2% + IPC ago 1,6592%); 3-6 $1.022,81; 6-12 $1.101,59; 12-27 $1.180,44. Res. 207/SECT/26: compensación de octubre $20.102.147.065,25 a las 27 líneas (sep $21.048.273.647,47, Res. 184/SECT/26, -4,5%). Res. 181/SECT/26 anexo octubre (IF-2026-38905679): costo $5.466,165/km sin IVA, IPK 3,373, costo por pasajero $1.620,341, ingreso medio $652,83 (40,3%); compensación final del cálculo $22.486 M (pagado 89,4%; sep 90,4%). Oct-2025 $546,54 (Res. 155/SECT/25): +68,4% vs IPC ago/ago 33,5% (+26,1% real)",
+      "angulo": "Corrida programada del 30/09/2026 12:30. RETOMADA con elemento nuevo: frenada el 25/09 y el 29/09 porque la resolución de octubre no estaba publicada; hoy salió en el BO porteño 7464 (API obtenerBoletin/7464). Pregunta de plata detrás de 'aumentos de octubre' (infobae, lanacion, ámbito, pagina12). Ángulo propio que los medios no dan: el costo por pasajero del cálculo oficial (qué parte paga el boleto: 40,3%, contra 38,6% en septiembre), en qué se va el costo (personal 44,66%, energía 19,47%) y la compensación pagada por línea, más la brecha entre lo pagado y lo que da el cálculo (no explicada en los documentos; se dice). Complementa la nota del subte del 29/09, que excluía el colectivo. Verificación: documento oficial recalculado al centavo con IPC INDEC (serie 148.3_INIVELNAL_DICI_M_26) + contraste Red SUBE (sep $887,99) + Infobae 29/09 ($920,48). Suma de las 27 líneas = $20.102.147.056,35 (redondeo $8,90). Sin superlativos. Candidatas no tomadas: universidades (costo de la ley), autos eléctricos tope US$35.000 (Decreto 1128/2026, ya cubierto por todos), reservas BCRA de septiembre, jubilados/clase media CABA, soja retenida, cuenta corriente 2T, empleo público INDEC (sale 16:00).",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-colectivo-porteno-octubre-costo-compensacion"
     }
   ]
 }

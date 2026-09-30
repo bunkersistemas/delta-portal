@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T10:43:00-03:00",
+    "actualizado": "2026-09-30T12:54:11-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-colectivo-porteno-octubre-costo-compensacion",
+      "titulo": "El colectivo porteño pasa a $920,48 y la Ciudad les paga $20.102 millones a las 27 líneas en octubre: el boleto cubre 40 de cada $100 del costo",
+      "bajada": "Desde el 1 de octubre el boleto mínimo de las líneas de colectivo que recorren solo la Ciudad sube 3,66%, de $887,99 a $920,48. En su cálculo de costos, la Ciudad fijó en $1.620,34 sin IVA lo que cuesta llevar a cada pasajero en octubre, y en $652,83 lo que paga en promedio: 40 de cada 100 pesos. Para el resto, aprobó $20.102 millones de compensación a las empresas.",
+      "titulo_busqueda": "¿Cuánto sale el colectivo en la Ciudad en octubre de 2026 y cuánto pone la Ciudad?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$920,48",
+      "numero_label": "cuesta desde el 01/10/2026 el boleto mínimo (0-3 km) de las 27 líneas de colectivo porteñas (Res. 210/SECT/26); la Ciudad calculó el costo por pasajero de octubre en $1.620,34 sin IVA (Res. 181/SECT/26) y el pasajero paga en promedio 40,3%",
+      "fecha": "2026-09-30",
+      "hora": "12:30",
+      "archivo": "articulos/2026-09-30-colectivo-porteno-octubre-costo-compensacion.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-30-evasion-fiscal-umbral-100-millones",
       "titulo": "La evasión es delito desde $100 millones por impuesto y por año: el piso de 2017, llevado a pesos de hoy, sería $147,6 millones",

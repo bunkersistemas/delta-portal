@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 30 Sep 2026 10:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 12:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El colectivo porteño pasa a $920,48 y la Ciudad les paga $20.102 millones a las 27 líneas en octubre: el boleto cubre 40 de cada $100 del costo</title>
+      <link>https://coninteres.com/articulos/2026-09-30-colectivo-porteno-octubre-costo-compensacion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-colectivo-porteno-octubre-costo-compensacion.html</guid>
+      <pubDate>Wed, 30 Sep 2026 12:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Desde el 1 de octubre el boleto mínimo de las líneas de colectivo que recorren solo la Ciudad sube 3,66%, de $887,99 a $920,48. En su cálculo de costos, la Ciudad fijó en $1.620,34 sin IVA lo que cuesta llevar a cada pasajero en octubre, y en $652,83 lo que paga en promedio: 40 de cada 100 pesos. Para el resto, aprobó $20.102 millones de compensación a las empresas.</description>
+      <ci:numero>$920,48</ci:numero>
+      <ci:numeroEtiqueta>cuesta desde el 01/10/2026 el boleto mínimo (0-3 km) de las 27 líneas de colectivo porteñas (Res. 210/SECT/26); la Ciudad calculó el costo por pasajero de octubre en $1.620,34 sin IVA (Res. 181/SECT/26) y el pasajero paga en promedio 40,3%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-colectivo-porteno-octubre-costo-compensacion.png" length="95544" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-colectivo-porteno-octubre-costo-compensacion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La evasión es delito desde $100 millones por impuesto y por año: el piso de 2017, llevado a pesos de hoy, sería $147,6 millones</title>
       <link>https://coninteres.com/articulos/2026-09-30-evasion-fiscal-umbral-100-millones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que se pagó del fondo de hasta $200.000 millones para los inundados de Bahía Blanca (Decreto 238/2025), todo en mayo de 2025; los otros $100.000 millones los recortó la Decisión Administrativa 23/2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-fondo-bahia-blanca-cuanto-se-pago.png" length="74188" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-fondo-bahia-blanca-cuanto-se-pago.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El campeón de la Copa Argentina cobra $496,6 millones en premios: en dólares, 41% menos que con la escala que la AFA anunció en 2018</title>
-      <link>https://coninteres.com/articulos/2026-09-27-cuanto-gana-campeon-copa-argentina-premios.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-cuanto-gana-campeon-copa-argentina-premios.html</guid>
-      <pubDate>Sun, 27 Sep 2026 21:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>DEPORTES</category>
-      <description>La AFA fijó para 2026 una escala que le deja $496,6 millones al campeón si es de Primera. Son 40 veces los pesos de la escala que anunció en abril de 2018, pero en dólares valen 41% menos: US$356.400 contra US$599.800. Al dólar de hoy, el título entero paga menos que un solo partido ganado en la fase de grupos de la Libertadores.</description>
-      <ci:numero>$496,6 M</ci:numero>
-      <ci:numeroEtiqueta>premios que cobra el campeón de la Copa Argentina 2026 si es de Primera (AFA, Boletín 6850): US$356.400 al dólar del anuncio, 40,6% menos que los US$599.800 de la escala de abril de 2018</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-gana-campeon-copa-argentina-premios.png" length="84695" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-gana-campeon-copa-argentina-premios.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
