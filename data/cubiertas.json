@@ -1960,6 +1960,19 @@
       "fecha": "2026-09-29",
       "estado": "publicada",
       "articulo_id": "2026-09-29-metrogas-licencia-2047-venta-edenor"
+    },
+    {
+      "tema": "cuánta tierra tienen los extranjeros en la Argentina / Registro Nacional de Tierras Rurales, cuadro Provincia/Territorio subprovincial (PDF de agosto de 2025): Nación 266.643.212,84 ha rurales, 13.262.725,64 extranjerizadas = 4,97%; 31 departamentos por encima del 15% (4.318.634,85 ha, 32,6% del total); Salta 11,40% la provincia más alta, Santa Cruz 1.905.084 ha la de más hectáreas; San Carlos (Salta) 59,82% el departamento más alto; primer relevamiento 2015 (Infojus): 16.253.279 ha = 6,09%",
+      "angulo": "Corrida programada del 30/09/2026 00:30. Pregunta de plata detrás del fallo de la Corte del 29/09/2026 (CECIM La Plata, revoca la inconstitucionalidad del art. 154 del DNU 70/2023 que derogó la Ley 26.737), en infobae, cronista y ámbito, sin cifras en ninguna. Camino de verificación: estadística oficial recalculada (suma de las 23 provincias = 13.262.725,65) + contraste del Observatorio de Tierras CONICET-UBA (más de 13 M ha, ~5%, datos pedidos por acceso a la información; cuenta 36 departamentos, usamos los 31 del cuadro oficial, igual que Chequeado). NO se compara 2015 contra 2025 como caída: según datos del RNTR difundidos por Chequeado en 2018 ya eran ~12,5 M, la baja fue depuración temprana y el Registro no la explica.",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-tierra-rural-extranjeros-hectareas"
+    },
+    {
+      "tema": "empresas / hechos relevantes CNV 28-29/09/2026: Mastellone Hermanos (\"HR - Acciones LLSSA\", 29/09) y Arcor (aprobación de compromiso previo de fusión, 28/09); también Banco de Valores (acuerdo VALO-Rosval, 29/09)",
+      "angulo": "DESCARTADAS en la corrida programada del 30/09/2026 00:30, pese al cupo de empresas (hoy no hubo nota de EMPRESAS). MOTIVO: el texto del hecho relevante está solo en el PDF adjunto de la CNV y desde esta sesión no se pudo bajar (la página publicview solo trae el título y el nombre del archivo; la descarga del blob quedó bloqueada). Sin documento leído no hay cifra ancla. Retomar leyendo los PDF: el de Mastellone parece una operación sobre acciones de Logística La Serenísima; el de Arcor, la fusión con sociedades controladas.",
+      "fecha": "2026-09-30",
+      "estado": "descartada"
     }
   ]
 }

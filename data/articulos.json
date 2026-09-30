@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-29T22:46:44-03:00",
+    "actualizado": "2026-09-30T00:47:32-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-tierra-rural-extranjeros-hectareas",
+      "titulo": "Los extranjeros tienen 13,26 millones de hectáreas rurales, el 4,97% del país, y en 31 departamentos ya pasan el tope del 15% que fijaba la Ley de Tierras",
+      "bajada": "Es el último dato del Registro Nacional de Tierras Rurales, de agosto de 2025. El promedio nacional queda lejos del límite, pero la tierra extranjera está concentrada: un tercio está en esos 31 departamentos, y en cinco supera la mitad del suelo rural. El 29 de septiembre la Corte Suprema revocó el fallo que había declarado inconstitucional la derogación de esa ley.",
+      "titulo_busqueda": "¿Cuánta tierra tienen los extranjeros en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "4,97%",
+      "numero_label": "de la tierra rural del país en manos extranjeras: 13.262.726 de 266.643.213 hectáreas (Registro Nacional de Tierras Rurales, agosto de 2025)",
+      "fecha": "2026-09-30",
+      "hora": "00:30",
+      "archivo": "articulos/2026-09-30-tierra-rural-extranjeros-hectareas.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-29-metrogas-licencia-2047-venta-edenor",
       "titulo": "Metrogas firmó 20 años más de licencia, hasta 2047, mientras YPF le vende el 70% de la empresa a Edenor por US$780 millones",
