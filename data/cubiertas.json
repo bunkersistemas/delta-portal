@@ -2041,6 +2041,21 @@
       "fecha": "2026-09-30",
       "estado": "publicada",
       "articulo_id": "2026-09-30-impuesto-combustibles-vialidad-rutas"
+    },
+    {
+      "tema": "empresas / cupo del día 30/09/2026 08:30: Mastellone (HR 29/09) y Banco de Valores (HR 'Transacciones entre Partes Relacionadas', 29/09) y Arcor (ON Clase 7 y 8, fusión)",
+      "angulo": "DESCARTADAS en la corrida programada del 30/09/2026 08:30 pese al cupo de empresas (hoy sin nota de EMPRESAS). El texto de los hechos relevantes de Mastellone y Banco de Valores está solo en el PDF adjunto de la CNV (guid 4c630cec-4f0e-4fae-41ea-c25ffbce81ac para Banco de Valores) y la descarga del blob sigue bloqueada desde esta sesión; sin documento leído no hay cifra ancla. Arcor: la licitación de las ON es el 01/10/2026, todavía sin tasa ni monto. Central Puerto: recompras diarias de rutina.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "PDF de la CNV ilegible desde la sesión (Mastellone, Banco de Valores) y licitación de Arcor todavía sin resultado"
+    },
+    {
+      "tema": "cuánta carne compra Japón y cuánto le vende la Argentina (acuerdo de requisitos sanitarios para la zona libre de aftosa con vacunación, anunciado por Caputo; Ámbito 30/09/2026) / importaciones de carne vacuna de Japón 2025 (UN Comtrade, reporter 392, HS 0201+0202): 496.166 t y US$3.117,1 M CIF; desde la Argentina 24,1 t y US$376.396 (0,0121%); desde Uruguay 5.249 t y US$34,28 M (1,1%); Australia 49,7% y EE.UU. 35,9% del volumen; serie 2019-2025; FOB congelada Uruguay->Japón US$6.375/t vs ->China US$4.754/t; Argentina->China US$3.791/t; arancel general 38,5% vs 20,8% CPTPP/UE/EE.UU.",
+      "angulo": "Pregunta de plata detrás del anuncio: el mercado de 'más de US$3.100 M' que cita el Gobierno, cuánto le vende hoy la Argentina y la escala posible según Uruguay (mismo estatus OMSA y mismo arancel). Verificación: estadística oficial de la aduana japonesa recalculada desde UN Comtrade + contraste USDA FAS JA2026-0007 (-6%, 50%/36%) y comunicado del Gobierno de 21/08/2024 (2023: US$2.929 M y 503.939 t, exacto). Distinto de la nota de carne vacuna del 20/07 (consumo interno vs exportaciones).",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-japon-carne-vacuna-mercado-argentina"
     }
   ]
 }

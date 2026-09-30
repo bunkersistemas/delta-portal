@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T06:51:08-03:00",
+    "actualizado": "2026-09-30T08:43:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-japon-carne-vacuna-mercado-argentina",
+      "titulo": "Japón compró US$3.117 millones de carne vacuna en 2025 y a la Argentina le compró US$376.000: 12 de cada 100.000 dólares",
+      "bajada": "Es el mercado que el Gobierno dice haber abierto esta semana para la carne de la zona que vacuna contra la aftosa. Según la aduana japonesa, el año pasado Japón importó 496.166 toneladas; de la Argentina, que puede venderle desde la Patagonia desde 2018, llegaron 24. Uruguay, que también vacuna, le vendió 91 veces más.",
+      "titulo_busqueda": "¿Cuánta carne compra Japón y cuánto le vende la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$3.117 M",
+      "numero_label": "importaciones de carne vacuna de Japón en 2025 (posiciones 0201 y 0202, valor CIF, aduana de Japón vía UN Comtrade): 496.166 toneladas; desde la Argentina US$376.396 (24 t, 12 de cada 100.000 dólares), desde Uruguay US$34,28 M",
+      "fecha": "2026-09-30",
+      "hora": "09:30",
+      "archivo": "articulos/2026-09-30-japon-carne-vacuna-mercado-argentina.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-30-impuesto-combustibles-vialidad-rutas",
       "titulo": "El impuesto a los combustibles recaudó $4,09 billones en ocho meses y Vialidad Nacional gastó $7,66 de cada $100: en 2023 eran $89",
