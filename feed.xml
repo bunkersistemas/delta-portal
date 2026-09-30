@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 30 Sep 2026 18:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 20:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>YPF anotó US$783 millones de impuesto a las Ganancias en seis meses, casi 24 veces más que un año antes, y en efectivo pagó US$34 millones</title>
+      <link>https://coninteres.com/articulos/2026-09-30-ypf-impuesto-ganancias-semestre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-ypf-impuesto-ganancias-semestre.html</guid>
+      <pubDate>Wed, 30 Sep 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Según sus estados financieros al 30 de junio, presentados ante la SEC y la CNV, YPF registró un impuesto a las ganancias corriente de US$783 millones en el primer semestre de 2026, contra US$33 millones un año antes. Es más que en cualquier año completo desde 2015. En efectivo pagó US$34 millones: el grueso vence en los próximos doce meses.</description>
+      <ci:numero>US$783 M</ci:numero>
+      <ci:numeroEtiqueta>impuesto a las ganancias corriente de YPF en el primer semestre de 2026 (estados financieros al 30/06/2026, nota 19; 6-K ante la SEC del 17/08/2026); US$33 M un año antes</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-ypf-impuesto-ganancias-semestre.png" length="87602" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-ypf-impuesto-ganancias-semestre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Una jubilada cobra en promedio $647.279 y un jubilado $893.978: 72 de cada 100 pesos, porque ocho de cada diez mujeres se jubilaron por moratoria</title>
       <link>https://coninteres.com/articulos/2026-09-30-jubiladas-haber-medio-moratoria.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>Aportes del Tesoro Nacional (ATN) pagados a 15 provincias entre enero y el 25/09/2026 (Ministerio de Economía, Presupuesto Abierto); nueve jurisdicciones sin ATN; crédito anual recortado de $569.426 M a $248.755 M en mayo</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-atn-provincias-184-mil-millones.png" length="88566" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-atn-provincias-184-mil-millones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Estado gastó $5,18 billones en subsidios a la luz y el gas en ocho meses: 72% más que en 2025, con precios que subieron 33,5%</title>
-      <link>https://coninteres.com/articulos/2026-09-28-subsidios-luz-gas-5-billones-ocho-meses.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-28-subsidios-luz-gas-5-billones-ocho-meses.html</guid>
-      <pubDate>Mon, 28 Sep 2026 01:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y agosto de 2026, el Sector Público Nacional pagó $5,18 billones en subsidios a la energía, según la Secretaría de Hacienda. Un año antes habían sido $3,01 billones. Casi todo va a CAMMESA, la empresa que compra la electricidad para todo el país. El Gobierno lo atribuye al costo de generar energía con la crisis en Medio Oriente.</description>
-      <ci:numero>$5,18 bill.</ci:numero>
-      <ci:numeroEtiqueta>subsidios económicos a la energía pagados por el Sector Público Nacional en enero-agosto de 2026 (Hacienda, base caja): +72,3% contra enero-agosto de 2025, con IPC agosto interanual de 33,5%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-subsidios-luz-gas-5-billones-ocho-meses.png" length="78845" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-subsidios-luz-gas-5-billones-ocho-meses.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

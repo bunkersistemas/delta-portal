@@ -2105,6 +2105,13 @@
       "angulo": "DESCARTADAS en la corrida programada del 30/09/2026 18:30. PCR y Luz de Tres Picos: el visor público de la CNV (aif2.cnv.gov.ar, publicview) arma el formulario por script y no expone el texto ni los adjuntos; sin documento leído no hay cifra. Toyota: el monto (US$1.341 M), las exportaciones (US$1.280 M por año) y el superlativo 'la inversión más grande de la historia en la industria automotriz' salen solo del posteo de Luis Caputo en X (infobae, ámbito, cronista); no hay todavía resolución en el Boletín Oficial ni documento de la empresa. Retomar Toyota cuando se publique la resolución de adhesión al RIGI. Central Puerto (recompras), Arcor, Mastellone y Banco de Valores ya estaban leídas o descartadas.",
       "fecha": "2026-09-30",
       "estado": "descartada"
+    },
+    {
+      "tema": "cuánto paga YPF de impuesto a las Ganancias / impuesto a las ganancias corriente de YPF 1S-2026 US$783 M (1S-2025 US$33 M, x23,7; estados financieros al 30/06/2026, 6-K SEC del 17/08/2026, nota 19; versión en pesos $1.109.104 M / A3500 prom. 1S-26 $1.414,86 = US$783,9 M); cargo total 836 sobre ganancia antes de impuestos 2.450 = 34,1% (tasa efectiva proyectada 34,12%); pagos de Ganancias 1S-26 US$34 M (1S-25 112); deuda de Ganancias corriente 781 al 30/06/2026 (73 al 31/12/2025), no corriente 801 (830); impuesto corriente anual (20-F): 2020 15, 2021 18, 2022 31, 2023 45, 2024 137, 2025 61; en pesos 2014 $7.323 M (~US$902 M est. a 8,1188), 2015 a favor, 2016-2019 entre 34 y 50 est.; pagos 2020-2025 35/5/266/10/26/133; plan de regularización de quebrantos (RG ARCA 5684/2025): cargo US$1.049 M en 2025, saldo 828 no corriente + 50 corriente al 31/12/2025",
+      "angulo": "Corrida programada del 30/09/2026 20:30. Cupo de EMPRESAS (hoy sin nota de la sección) y pregunta de plata detrás de las entrevistas de Horacio Marín con La Nación e Infobae (30/09: más de US$1.000 M de Ganancias el año que viene; tema en las portadas de infobae y lanacion). Ángulo propio: contrastar la proyección con los balances de la propia empresa (serie 2013-2026 del impuesto corriente y de los pagos, 20-F y 6-K ante la SEC). La proyección se menciona atribuida, sin cita textual, y no es cifra de la nota. Ancla CONFIRMADA: documento de la empresa (versión en dólares) + recálculo desde la versión en pesos presentada ante la CNV con el A3500 promedio del semestre (diferencia 0,1%) + coherencia con la tasa efectiva proyectada y con la deuda de Ganancias del balance. Toyota (RIGI) sigue sin resolución en el Boletín Oficial: la empresa habla de US$1.300 M estimados y Caputo de US$1.341 M.",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-ypf-impuesto-ganancias-semestre"
     }
   ]
 }
