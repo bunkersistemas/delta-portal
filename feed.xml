@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 29 Sep 2026 20:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 29 Sep 2026 22:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Metrogas firmó 20 años más de licencia, hasta 2047, mientras YPF le vende el 70% de la empresa a Edenor por US$780 millones</title>
+      <link>https://coninteres.com/articulos/2026-09-29-metrogas-licencia-2047-venta-edenor.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-metrogas-licencia-2047-venta-edenor.html</guid>
+      <pubDate>Tue, 29 Sep 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Metrogas informó hoy a la CNV que firmó con el Ministerio de Economía la prórroga de su licencia por 20 años desde el 28 de diciembre de 2027, cuando vencía. Falta que la ratifiquen sus accionistas, el 29 de octubre, y el Poder Ejecutivo. Pasa en plena venta: Edenor acordó pagarle a YPF US$780 millones por el 70% de la distribuidora, que atiende a 2,43 millones de clientes.</description>
+      <ci:numero>US$780 M</ci:numero>
+      <ci:numeroEtiqueta>precio que Edenor acordó pagarle a YPF por el 70% de Metrogas y el 5% de MetroENERGÍA (hechos relevantes de YPF y Edenor ante la SEC, 10/08/2026; Res. 1469/2026 del Ministerio de Economía); la venta no se cerró</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-metrogas-licencia-2047-venta-edenor.png" length="87422" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-metrogas-licencia-2047-venta-edenor.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Alquilar un dos ambientes en la Ciudad cuesta $811.651 por mes: equivale a 41 de cada $100 de un sueldo formal promedio, contra 36 entre 2013 y 2020</title>
       <link>https://coninteres.com/articulos/2026-09-29-alquiler-dos-ambientes-caba-sueldo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>es el dólar mayorista (promedio de diciembre) que supone el proyecto de Presupuesto 2027 para diciembre de 2027, 15,5% más que los $1.600 de fin de 2026; la mediana del REM del BCRA espera $2.015,7</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-dolar-presupuesto-2027-cuanto-supone.png" length="86623" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-dolar-presupuesto-2027-cuanto-supone.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>1,67 millones de hogares tuvieron que pedir un préstamo a un banco o una financiera para vivir: 16,4%, el máximo desde 2016</title>
-      <link>https://coninteres.com/articulos/2026-09-27-hogares-piden-prestamos-bancos-para-vivir.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-hogares-piden-prestamos-bancos-para-vivir.html</guid>
-      <pubDate>Sun, 27 Sep 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En el segundo semestre de 2025, el 16,4% de los hogares urbanos le pidió plata a un banco o una financiera para mantenerse, según las bases de la Encuesta Permanente de Hogares del INDEC. El pico anterior era 14,5%, en 2019. Contando a los que le pidieron a un familiar o un amigo, fueron 27,6%: más de uno de cada cuatro. En el primer trimestre de 2026, el último con datos, los que le pidieron a un banco fueron 15,6%, contra 13,9% un año antes.</description>
-      <ci:numero>16,4%</ci:numero>
-      <ci:numeroEtiqueta>hogares urbanos que tuvieron que pedir préstamos a bancos o financieras para vivir en el 2º semestre de 2025 (EPH-INDEC, cálculo propio con el método del INDEC): máximo de la serie desde 2016</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-hogares-piden-prestamos-bancos-para-vivir.png" length="73468" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-hogares-piden-prestamos-bancos-para-vivir.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
