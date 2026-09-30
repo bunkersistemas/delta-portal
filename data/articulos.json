@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T00:47:32-03:00",
+    "actualizado": "2026-09-30T02:53:29-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-empresas-deuda-bonos-exterior-maximo",
+      "titulo": "Las empresas deben US$20.189 millones en bonos a inversores del exterior, casi el doble que a fines de 2023",
+      "bajada": "Es lo que muestra la deuda externa del segundo trimestre de 2026 que publicó el INDEC. Esa deuda en bonos creció 44,8% en un año y es la más alta de la serie, que empieza en 2006. Ya son 19 de cada 100 dólares que las empresas les deben a acreedores de afuera; a fines de 2023 eran 11.",
+      "titulo_busqueda": "¿Cuánto deben las empresas argentinas en el exterior?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$20.189 M",
+      "numero_label": "deuda de las empresas no financieras en bonos y otros títulos en manos de no residentes, 30/06/2026 (INDEC, provisorio)",
+      "fecha": "2026-09-30",
+      "hora": "03:30",
+      "archivo": "articulos/2026-09-30-empresas-deuda-bonos-exterior-maximo.html",
+      "verificacion": "verificada",
+      "fuentes": 3,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-30-tierra-rural-extranjeros-hectareas",
       "titulo": "Los extranjeros tienen 13,26 millones de hectáreas rurales, el 4,97% del país, y en 31 departamentos ya pasan el tope del 15% que fijaba la Ley de Tierras",

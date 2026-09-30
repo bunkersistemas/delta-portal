@@ -1973,6 +1973,45 @@
       "angulo": "DESCARTADAS en la corrida programada del 30/09/2026 00:30, pese al cupo de empresas (hoy no hubo nota de EMPRESAS). MOTIVO: el texto del hecho relevante está solo en el PDF adjunto de la CNV y desde esta sesión no se pudo bajar (la página publicview solo trae el título y el nombre del archivo; la descarga del blob quedó bloqueada). Sin documento leído no hay cifra ancla. Retomar leyendo los PDF: el de Mastellone parece una operación sobre acciones de Logística La Serenísima; el de Arcor, la fusión con sociedades controladas.",
       "fecha": "2026-09-30",
       "estado": "descartada"
+    },
+    {
+      "tema": "cuánto le cobró la FIFA a la AFA por el Mundial 2026 y por qué el Kempes juega con aforo reducido (Argentina-Bolivia, 30/09/2026) / multa de USD 321.000 según el comunicado de la Comisión Disciplinaria de la FIFA (21/08/2026)",
+      "angulo": "FRENADA en la corrida programada del 30/09/2026 02:30. Pregunta de plata detrás del partido de hoy en Córdoba con media cancha (lanacion, infobae; AFA 25/09: Popular Sur cerrada, Norte -2.500, Gasparini para chicos). Documentos leídos: comunicado FIFA (inside.fifa.com, 21/08/2026: AFA USD 321.000, dos partidos de local al 50%, USD 100.000 para plan antidiscriminación, USD 100.000 y un partido en suspenso; Paredes 10 partidos y USD 90.000, Molina 7 y 90.000, Almada 1 y 30.000, Ayala 3 y 30.000) y comunicado AFA del 21/08 (multas de 10.000 + 20.000 + 100.000 + 91.000 = USD 221.000, con la de 100.000 a invertir en el plan, más 100.000 en suspenso; cierre del 50% 'en el próximo partido oficial'). MOTIVO DEL FRENO: las dos fuentes no cierran ni en el monto (221.000 contra 321.000: no se puede saber si el plan de 100.000 es adicional o es la misma multa) ni en la cantidad de partidos con aforo reducido (uno contra dos); la cantidad de butacas cerradas (30.000 de 57.000) solo aparece en medios. El premio de subcampeón de la FIFA (USD 33 M, dic-2025) quedó desactualizado por el aumento de 15% de abril de 2026, que no da cifras por puesto. Retomar con el texto de la decisión de la FIFA o un comunicado de la AFA que dé el total.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "FIFA y AFA no coinciden en el monto de la multa ni en la cantidad de partidos con aforo reducido"
+    },
+    {
+      "tema": "cuánto costaron los fusiles ARAD comprados a Israel para reemplazar al FAL (presentación del Ministerio de Defensa en Patricios, 29/09/2026) / contrato de USD 1.730.499 por 700 ARAD 7, accesorios y 167 armas de fogueo, dentro de un marco de hasta USD 12 M a tres años",
+      "angulo": "FRENADA en la corrida programada del 30/09/2026 02:30. Pregunta de plata detrás de lanacion e infobae (29/09). El monto circula desde julio (canal26, ámbito, La Unión) sin citar documento; el comunicado oficial del Ministerio de Defensa (argentina.gob.ar, 29/09/2026) no da cantidades ni montos, y el Decreto 314/2026 (Plan ARMA, BO 04/05/2026) es el esquema de financiamiento, no el contrato. No se encontró resolución, decisión administrativa ni publicación en el Boletín Oficial con el monto. Retomar si aparece el contrato, una resolución o la partida presupuestaria.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "el monto del contrato no figura en ningún documento oficial encontrado"
+    },
+    {
+      "tema": "autos eléctricos sin arancel: el Decreto 1128/2026 (BO 30/09/2026) cambia el tope de valor FOB de USD 16.000 del Decreto 49/2025 por topes por posición en un Anexo I (IF-2026-93530114-APN-SSIYEC#MEC)",
+      "angulo": "FRENADA en la corrida programada del 30/09/2026 02:30. Tema propio del Boletín Oficial de hoy (el arancel de los autos eléctricos ya salió el 27/09). MOTIVO DEL FRENO: el tope nuevo está solo en el anexo, que el Boletín Oficial entrega por POST (download_anexo) y no se pudo leer desde este entorno; el texto del decreto no trae montos. Retomar con el anexo legible.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "el tope FOB nuevo está solo en el anexo del BO, ilegible desde este entorno"
+    },
+    {
+      "tema": "Arcor, obligaciones negociables Clase 7 (USD, 36 meses, tasa fija) y Clase 8 (pesos, 18 meses, TAMAR privada + margen) por hasta USD 40 M ampliables a 80 M (hecho relevante CNV del 28/09/2026)",
+      "angulo": "DESCARTADA en la corrida programada del 30/09/2026 02:30 pese al cupo de empresas: la licitación es el jueves 01/10/2026 de 10 a 16, así que todavía no hay tasa ni monto colocado. El PDF de la CNV sigue sin poder leerse; el detalle sale del informe de Moody's Local del 29/09/2026 y de la prensa. Retomar el 01/10 o el 02/10 con el aviso de resultados.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "la licitación es el 01/10/2026: todavía no hay resultado"
+    },
+    {
+      "tema": "cuánto deben las empresas argentinas en el exterior / títulos de deuda de las sociedades no financieras, hogares e ISFLSH en manos de no residentes, INDEC 2T-2026 (29/09/2026): USD 20.188,6 M al 30/06/2026 (cuadro 24 de cin_II_2026.xls; informe, cuadro III.1 p. 29: 20.189 contra 18.500), +9,1% trimestral, +44,8% interanual (13.942,0), +84,4% contra 4T-2023 (10.950,7); máximo de la serie desde 1T-2006 (previo 18.499,6 en 1T-2026; antes de 2025, 14.923,0 en 2T-2018); 19,0% de la deuda externa del sector (106.243,3) contra 11,0% en 4T-2023 (99.335,3); crédito entre empresas -2.964,1 en el trimestre",
+      "angulo": "Corrida programada del 30/09/2026 02:30 (cuarta candidata investigada, tras frenar FIFA-AFA, fusiles ARAD y autos eléctricos; Arcor descartada por falta de resultado; clase media porteña descartada por repetida). Tema: la deuda externa del 2T que publicó el INDEC (ámbito, cronista, infobae y pagina12 con el total o la parte del Estado). Ángulo NUEVO frente a 2026-07-24-deuda-externa-record-321-mil-millones (el total y el Estado): la deuda de las EMPRESAS en bonos con no residentes. Camino estadística oficial recalculada: (1) informe bal_09_26BA83A84318.pdf, cuadro III.1; (2) recálculo desde cin_II_2026.xls, cuadro 24 (82 trimestres); (3) contraste BCRA, Informe sobre Deuda Externa Privada 1T-2026 (RAEyPE): títulos en manos de no residentes USD 20.705 M al 31/03 y +1.345 M en el trimestre; stock implícito a fines de 2025 19.360 = INDEC (empresas 17.347,6 + bancos 1.695,4 + otras financieras 317,2 = 19.360,2); 1T-2026 INDEC 20.615,4 (-0,4%, no explicado, se dice en la nota). Matiz escrito en la nota: el INDEC usa el relevamiento del BCRA como fuente de la deuda privada. No afirma empresas, moneda, ley ni emisiones nuevas contra compras de no residentes.",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-empresas-deuda-bonos-exterior-maximo"
     }
   ]
 }
