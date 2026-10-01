@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 01 Oct 2026 16:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 20:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Nación giró $7,02 billones a las provincias en septiembre: por habitante, Tierra del Fuego recibió $437.740 y Buenos Aires $91.329, casi cinco veces menos</title>
+      <link>https://coninteres.com/articulos/2026-10-01-coparticipacion-provincias-por-habitante.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-01-coparticipacion-provincias-por-habitante.html</guid>
+      <pubDate>Thu, 01 Oct 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Entre coparticipación y otros fondos automáticos, la Nación les transfirió a las 24 jurisdicciones $7.023.026 millones en septiembre, 38,4% más que un año antes. Repartida por habitante, la plata no se parece a la población: Buenos Aires tiene el 38,2% de los habitantes y recibió el 22,8%; Catamarca, Formosa y Tierra del Fuego, con el 2,7% de la gente, se llevaron el 7,1%.</description>
+      <ci:numero>$7,02 billones</ci:numero>
+      <ci:numeroEtiqueta>transferencias automáticas de la Nación a las 24 jurisdicciones en septiembre de 2026: $7.023.026 millones (Ministerio de Economía, Dirección Nacional de Asuntos Provinciales); $5.074.002 millones en septiembre de 2025 (+38,4%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-coparticipacion-provincias-por-habitante.png" length="92459" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-coparticipacion-provincias-por-habitante.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un hogar necesita $3,9 millones por mes para estar en el 10% que más gana del país: la vara subió 25,8% en un año, menos que los precios</title>
       <link>https://coninteres.com/articulos/2026-10-01-cuanto-hay-que-ganar-10-por-ciento-mas-rico-pais.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>Ingresos Brutos cobrado en 2025 por las 23 provincias y la CABA ($33.373.064 M, DNAP, información mensual 2025): 78,8% de su recaudación tributaria propia ($42.366.422 M) y 90,0% de lo que la Nación recaudó con Ganancias ($37.063.166 M, ARCA)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-ingresos-brutos-provincias-recaudacion-2025.png" length="84150" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-ingresos-brutos-provincias-recaudacion-2025.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Tesoro emitió US$1.226 millones de su bono en dólares y lleva tres licitaciones sin ofrecerlo: la última vez pagó 8,72% anual</title>
-      <link>https://coninteres.com/articulos/2026-09-29-tesoro-bono-dolares-ao29-tres-licitaciones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-tesoro-bono-dolares-ao29-tres-licitaciones.html</guid>
-      <pubDate>Tue, 29 Sep 2026 07:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>Entre julio y agosto el Tesoro colocó US$1.226 millones de valor nominal de su bono en dólares AO29 y recibió unos US$1.156 millones. La tasa de corte subió de 8,29% a 8,72% anual y las ofertas cayeron de US$1.322 millones a US$121 millones. Desde el 12 de agosto lleva tres licitaciones sin ofrecerlo.</description>
-      <ci:numero>US$1.226 M</ci:numero>
-      <ci:numeroEtiqueta>valor nominal en circulación del bono en dólares AO29 (6%, vence el 31/10/2029), colocado en tres licitaciones entre el 15/07 y el 13/08/2026; no se ofreció el 27/08, el 11/09 ni el 28/09 (Secretaría de Finanzas)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-tesoro-bono-dolares-ao29-tres-licitaciones.png" length="82378" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-tesoro-bono-dolares-ao29-tres-licitaciones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

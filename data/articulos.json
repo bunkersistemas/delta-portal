@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T16:44:59-03:00",
+    "actualizado": "2026-10-01T20:48:55-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-coparticipacion-provincias-por-habitante",
+      "titulo": "La Nación giró $7,02 billones a las provincias en septiembre: por habitante, Tierra del Fuego recibió $437.740 y Buenos Aires $91.329, casi cinco veces menos",
+      "bajada": "Entre coparticipación y otros fondos automáticos, la Nación les transfirió a las 24 jurisdicciones $7.023.026 millones en septiembre, 38,4% más que un año antes. Repartida por habitante, la plata no se parece a la población: Buenos Aires tiene el 38,2% de los habitantes y recibió el 22,8%; Catamarca, Formosa y Tierra del Fuego, con el 2,7% de la gente, se llevaron el 7,1%.",
+      "titulo_busqueda": "¿Cuánto recibe cada provincia de coparticipación? $7,02 billones en septiembre, y por habitante Tierra del Fuego recibe casi cinco veces más que Buenos Aires",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$7,02 billones",
+      "numero_label": "transferencias automáticas de la Nación a las 24 jurisdicciones en septiembre de 2026: $7.023.026 millones (Ministerio de Economía, Dirección Nacional de Asuntos Provinciales); $5.074.002 millones en septiembre de 2025 (+38,4%)",
+      "fecha": "2026-10-01",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-01-coparticipacion-provincias-por-habitante.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-01-cuanto-hay-que-ganar-10-por-ciento-mas-rico-pais",
       "titulo": "Un hogar necesita $3,9 millones por mes para estar en el 10% que más gana del país: la vara subió 25,8% en un año, menos que los precios",

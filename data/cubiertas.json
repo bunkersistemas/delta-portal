@@ -2295,6 +2295,13 @@
       "angulo": "FRENADA en la corrida programada del 01/10/2026 18:30. Retoma el freno del 25/09. MOTIVO DEL FRENO: el monto pagado sigue sin documento (un posteo del organismo, 'más de $200.000 M') y no cierra con la ejecución presupuestaria: las transferencias del Tesoro al IOSFA en 2026 suman $26.424 M, ocho veces menos, y no se pudo establecer de dónde salió el resto (aportes, Fondo Fiduciario, otra partida). Diferencia sin explicar = FRENAR. Si se retoma: resolución del Ministerio de Defensa o de la OSFA con el pago, o estados contables de la obra social.",
       "fecha": "2026-10-01",
       "estado": "descartada"
+    },
+    {
+      "tema": "cuánto recibe cada provincia de coparticipación / transferencias automáticas de la Nación a las 24 jurisdicciones, septiembre de 2026 (DNAP, planilla internet_diario_sep26_21.xls, columna Total (1)+(2)): $7.023.026,0 M (sep-25 $5.074.002,4 M, +38,4%); coparticipación $6.457.628 M (91,9%), regímenes especiales $283.182 M, compensación Consenso Fiscal $282.215 M ($166.031 M a Buenos Aires); por habitante con Censo 2022 definitivo: Tierra del Fuego $437.740, Catamarca $415.542, Formosa $396.782, promedio $153.033, Buenos Aires $91.329 (38,19% de la población, 22,79% de la plata), CABA $49.551; contraste DNIAF recaudación sep-26 renglón Provincias $7.026.672 M (0,05%)",
+      "angulo": "Corrida programada del 01/10/2026 20:30. Del barrido: la recaudación de septiembre estaba en cinco portadas (lanacion, infobae, iprofesional, cronista, pagina12) con el mismo dato nacional; el ángulo propio es la pregunta de plata por provincia y por habitante, que no habíamos cubierto nunca (sí ATN el 28/09 e Ingresos Brutos el 29/09). Ancla CONFIRMADA por el camino de estadística oficial: (1) planilla mensual de la DNAP; (2) recálculo día por día y provincia por provincia, cierra al peso con la hoja '24 jurisdicciones'; (3) contraste con otro registro, el informe de recaudación de la DNIAF del 01/10/2026 (lo recaudado por ARCA con los porcentajes de la ley), diferencia 0,05%. Variación real no estimada: el IPC de septiembre sale el 13/10; se compara con el 33,5% interanual de agosto. Sin superlativos históricos. Si se retoma: cuando salga el IPC de septiembre, serie larga real con serie_ron_2003_2025.xlsx.",
+      "fecha": "2026-10-01",
+      "estado": "publicada",
+      "articulo_id": "2026-10-01-coparticipacion-provincias-por-habitante"
     }
   ]
 }

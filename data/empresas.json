@@ -1,11 +1,29 @@
 {
-  "generado": "2026-10-01T18:30",
+  "generado": "2026-10-01T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3575704",
+      "fuente": "CNV",
+      "fecha": "2026-10-01T18:47",
+      "entidad": "AVAL FEDERAL SGR",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - INFORMA AUTORIZACIÓN DE FUSIÓN POR ABSORCIÓN.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6B6AF3A3-2D3A-49F6-849C-6C302DC25A14"
+    },
+    {
+      "id": "cnv-3575698",
+      "fuente": "CNV",
+      "fecha": "2026-10-01T18:30",
+      "entidad": "FID AVAL SGR",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - INFORMA AUTORIZACIÓN DE FUSIÓN POR ABSORCIÓN.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/173B6FAC-3F95-4DF5-A776-ABA21FA1C1B7"
+    },
     {
       "id": "cnv-3575687",
       "fuente": "CNV",
