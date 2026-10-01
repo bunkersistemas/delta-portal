@@ -1,11 +1,56 @@
 {
-  "generado": "2026-10-01T16:30",
+  "generado": "2026-10-01T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3575687",
+      "fuente": "CNV",
+      "fecha": "2026-10-01T18:18",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/D98BB822-C0B7-4507-9994-66759807DBF5"
+    },
+    {
+      "id": "cnv-3575689",
+      "fuente": "CNV",
+      "fecha": "2026-10-01T18:18",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/49F24964-52F1-48C9-BE27-882269D08DEA"
+    },
+    {
+      "id": "cnv-3575691",
+      "fuente": "CNV",
+      "fecha": "2026-10-01T18:16",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN JUDICIAL - INFORMA ACCIÓN DE CLASE - EXPEDIENTE CARATULADO “ASOCIACIÓN CIVIL POR LOS CONSUMIDORES Y EL MEDIO AMBIENTE (ACYMA) C/ BANCO COMAFI S.A. S/ ORDINARIO”.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/8DA4CDCB-AFDF-45E2-8562-FA7DB1DA6634"
+    },
+    {
+      "id": "cnv-3575674",
+      "fuente": "CNV",
+      "fecha": "2026-10-01T17:34",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 01.10.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/63C77D18-A431-4915-BC73-231C2313E478"
+    },
+    {
+      "id": "cnv-3575663",
+      "fuente": "CNV",
+      "fecha": "2026-10-01T17:30",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (01 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3ACED22F-3036-49CF-8684-2455A2252FAD"
+    },
     {
       "id": "cnv-3575354",
       "fuente": "CNV",

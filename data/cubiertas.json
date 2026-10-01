@@ -2271,6 +2271,30 @@
       "fecha": "2026-10-01",
       "estado": "publicada",
       "articulo_id": "2026-10-01-cuanto-hay-que-ganar-10-por-ciento-mas-rico-pais"
+    },
+    {
+      "tema": "cuánto cuesta cada tren nuevo de la línea B del subte / préstamo CAF de US$145 M aprobado el 01/10/2026 (garantía nacional) para la fase 1 de modernización (inversión total de la fase US$241,7 M; 29 formaciones, 174 coches); contrato SBASE-CRRC Changchun de US$263.185.329,76 CIF y US$301.592.592,20 con impuestos y nacionalización (enelsubte, 16/07 y 26/08/2025)",
+      "angulo": "FRENADA en la corrida programada del 01/10/2026 18:30. Tema en cronista e infobae (pregunta de plata: cuánto cuesta un tren del subte). MOTIVO DEL FRENO: el precio del contrato de los trenes solo aparece en un medio especializado; no se encontró la resolución de adjudicación de SBASE ni el contrato en el Boletín Oficial porteño. Además los montos no se reconcilian: la fase 1 que financia la CAF suma US$241,7 M, menos que el contrato de trenes solo (US$301,6 M), y el DNU 186/25 que citó la Legislatura habla de US$300 M para la línea B. Si se retoma: resolución de adjudicación de SBASE (licitación de material rodante), ley o DNU de endeudamiento con su anexo, y el comunicado de la CAF.",
+      "fecha": "2026-10-01",
+      "estado": "descartada"
+    },
+    {
+      "tema": "cuánto paga un plazo fijo en cada banco / comparador de tasas del BCRA (API plazos-fijos.php, 01/10/2026): Banco Nación 18,75% TNA a 30 días (pizarra BNA vigente al 17/09/2026: 18,75% TNA, 20,45% TEA, canal electrónico 30-59 días); máximo Banco de Comercio 23,5%; de los diez bancos con más depósitos solo el Provincia (21% clientes, 22% no clientes) rinde más por mes que el IPC de agosto (1,7%)",
+      "angulo": "DESCARTADA en la corrida programada del 01/10/2026 18:30. Tema en iprofesional (dos notas). El ancla se podía confirmar (BCRA + pizarra del BNA), pero no hay ángulo nuevo: la nota del 24/09/2026 (plazo fijo contra la inflación) ya trae la tasa del Nación de 18,75% y el rango del comparador, y el ranking banco por banco lo publicó iProfesional hoy. Si se retoma: cuando salga el IPC de septiembre (13/10), cruzar tasa por banco contra la inflación del mes con el comparador del BCRA.",
+      "fecha": "2026-10-01",
+      "estado": "descartada"
+    },
+    {
+      "tema": "cuánto cobran los estatales de Santiago del Estero / bono extraordinario de $2.400.000 en tres cuotas de $800.000 (09/10, 10/11 y 10/12/2026), anunciado por el gobernador Elías Suárez el 29/09/2026",
+      "angulo": "DESCARTADA en la corrida programada del 01/10/2026 18:30. Tema en cronista (pregunta de plata). MOTIVO: el anuncio se hizo por redes sociales y no se encontró decreto publicado; sin la dotación oficial de la administración provincial no se puede calcular el costo total ni comparar con el sueldo. Una cifra suelta, sin serie ni comparación, no es nota. Si se retoma: decreto provincial del bono en el Boletín Oficial de Santiago del Estero y dotación de personal (DNAP o presupuesto provincial).",
+      "fecha": "2026-10-01",
+      "estado": "descartada"
+    },
+    {
+      "tema": "cuánto pagó el Gobierno de la deuda de la obra social de las Fuerzas Armadas (OSFA, ex IOSFA) (RETOMADA) / OSFA anunció el 01/10/2026 el pago de 'la histórica deuda con prestadores de +200.000 M' (cronista); Presupuesto Abierto (crédito mensual 2026, actualización 29/09/2026): Ministerio de Defensa, Transferencias Varias, subparcial IOSFA, crédito vigente $26.424,0 M, devengado $26.424,0 M, pagado $26.110,0 M",
+      "angulo": "FRENADA en la corrida programada del 01/10/2026 18:30. Retoma el freno del 25/09. MOTIVO DEL FRENO: el monto pagado sigue sin documento (un posteo del organismo, 'más de $200.000 M') y no cierra con la ejecución presupuestaria: las transferencias del Tesoro al IOSFA en 2026 suman $26.424 M, ocho veces menos, y no se pudo establecer de dónde salió el resto (aportes, Fondo Fiduciario, otra partida). Diferencia sin explicar = FRENAR. Si se retoma: resolución del Ministerio de Defensa o de la OSFA con el pago, o estados contables de la obra social.",
+      "fecha": "2026-10-01",
+      "estado": "descartada"
     }
   ]
 }
