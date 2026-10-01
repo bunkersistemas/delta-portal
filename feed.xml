@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 01 Oct 2026 06:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 08:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>AySA propone cambiar las zonas de su tarifa: a 2 millones de hogares les subiría el agua 22,6% en promedio y a 684.000 les bajaría 14,7%</title>
+      <link>https://coninteres.com/articulos/2026-10-01-aysa-coeficientes-zonales-factura-agua.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-01-aysa-coeficientes-zonales-factura-agua.html</guid>
+      <pubDate>Thu, 01 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La empresa quiere pasar de 11 a 5 zonas tarifarias, armadas con datos del Censo 2022, y quitarles el descuento de 15% a los hogares que dejen de estar en una zona baja. Según sus propios cálculos, a tarifas de septiembre, a 6 de cada 10 hogares les sube la factura y a 2 de cada 10 les baja. Lo que AySA cobraría de más iría a la tarifa social. Se discute en audiencia pública el 26 de octubre.</description>
+      <ci:numero>22,6%</ci:numero>
+      <ci:numeroEtiqueta>suba promedio de la factura mensual sin impuestos (a tarifas de septiembre de 2026) para los 1.998.747 usuarios residenciales a los que les sube, según la propuesta de coeficientes zonales de AySA (Anexo I de la Resolución ERAS 41/2026); a 683.927 les baja 14,7%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-aysa-coeficientes-zonales-factura-agua.png" length="88464" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-aysa-coeficientes-zonales-factura-agua.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El tope para importar autos eléctricos sin arancel pasa de US$16.000 a US$35.000: los híbridos solo suben a US$18.000</title>
       <link>https://coninteres.com/articulos/2026-10-01-autos-electricos-tope-35000-sin-arancel.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>primer préstamo del BID para reformar ARCA (contrato 6139/OC-AR, Decreto 1115/2026), dentro de una línea de hasta US$600 millones</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-bid-prestamo-reforma-arca.png" length="82020" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-bid-prestamo-reforma-arca.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Tesoro le giró a Enarsa 89% menos que en 2023, en pesos de hoy, y el Gobierno pone en venta sus centrales eléctricas</title>
-      <link>https://coninteres.com/articulos/2026-09-28-cuanto-le-cuesta-enarsa-al-estado.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-28-cuanto-le-cuesta-enarsa-al-estado.html</guid>
-      <pubDate>Mon, 28 Sep 2026 07:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y agosto de 2026, el Tesoro nacional le transfirió a Energía Argentina (Enarsa) $614.449 millones. Llevado a pesos de agosto de 2026, es 89% menos que en los mismos meses de 2023 y el nivel más bajo de la serie 2017-2026. Este lunes, un decreto autorizó vender las acciones que la empresa tiene en tres centrales térmicas.</description>
-      <ci:numero>−89%</ci:numero>
-      <ci:numeroEtiqueta>caída real de las transferencias del Tesoro a Enarsa, enero-agosto de 2026 contra enero-agosto de 2023 (Presupuesto Abierto, devengado, pesos de agosto de 2026)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-cuanto-le-cuesta-enarsa-al-estado.png" length="66598" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-cuanto-le-cuesta-enarsa-al-estado.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
