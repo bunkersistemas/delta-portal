@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T14:40:30-03:00",
+    "actualizado": "2026-10-01T16:44:59-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-cuanto-hay-que-ganar-10-por-ciento-mas-rico-pais",
+      "titulo": "Un hogar necesita $3,9 millones por mes para estar en el 10% que más gana del país: la vara subió 25,8% en un año, menos que los precios",
+      "bajada": "En el segundo trimestre de 2026, el 10% de los hogares con más ingresos de las 31 ciudades que releva la EPH empezaba en $3.900.000 por mes, según el informe que el INDEC publicó hoy. Un año antes, la vara estaba en $3.100.000. Subió 25,8%, cuando los precios subieron 33,0%. El techo del 10% que menos gana subió 31,4%.",
+      "titulo_busqueda": "¿Cuánto hay que ganar para estar en el 10% más rico de la Argentina? $3,9 millones por hogar",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$3,9 millones",
+      "numero_label": "ingreso total familiar mensual desde el que un hogar entra en el 10% con más ingresos, 31 aglomerados urbanos, 2º trimestre de 2026 (INDEC, EPH, cuadro 7); $3.100.000 un año antes",
+      "fecha": "2026-10-01",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-01-cuanto-hay-que-ganar-10-por-ciento-mas-rico-pais.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-01-longvie-perdida-semestre-catamarca",
       "titulo": "Longvie vendió 8,4% más aparatos y facturó 10,9% menos: perdió $6.036 millones en el semestre y ahora lleva calefones y anafes a Catamarca",

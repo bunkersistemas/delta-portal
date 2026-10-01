@@ -1150,7 +1150,8 @@
       "fecha": "2026-09-25",
       "estado": "descartada",
       "articulo_id": "",
-      "motivo_descarte": "dato nacional de hace dos trimestres; el INDEC publica el nuevo el 01/10/2026: retomar ese día"
+      "motivo_descarte": "dato nacional de hace dos trimestres; el INDEC publica el nuevo el 01/10/2026: retomar ese día",
+      "retomada": "2026-10-01: retomada y enviada a la cola como 2026-10-01-cuanto-hay-que-ganar-10-por-ciento-mas-rico-pais"
     },
     {
       "tema": "cuánto cobra el directorio de IRSA / remuneración propuesta por el ejercicio 2025/26: $24.293.481.028,85 (convocatoria a asamblea del 22/10/2026), $4.589.438.862,75 por encima del límite del 5% de la ganancia ($394.080.843.322,03) del art. 261 LGS; 6,2% de la ganancia, 11,5% del dividendo propuesto (hasta $211.000 M); +33,5% nominal contra 2024/25 ($18.192.594.071,06), igual que el IPC ago-25/ago-26 (+33,54%); en pesos de jun-2026, 24.807 / 24.442 / 24.430 M en tres ejercicios (nota 25 del balance); 19,0% del costo de todo el personal",
@@ -2263,6 +2264,13 @@
       "fecha": "2026-10-01",
       "estado": "publicada",
       "articulo_id": "2026-10-01-longvie-perdida-semestre-catamarca"
+    },
+    {
+      "tema": "cuánto hay que ganar para estar en el 10% más rico del país / piso del décimo decil de ingreso total familiar, EPH-INDEC 2T-2026 (31 aglomerados): $3.900.000 por mes (2T-2025: $3.100.000, +25,8%); promedio del decil $6.057.098 (+26,5%), 29,7% del ingreso; mediana de hogares $1.580.000 (+28,6%), techo del decil 1 $578.000 (+31,4%); IPC promedio abr-jun +33,0% (cálculo propio); por persona (IPCF) desde $1.333.333; ingreso individual y ocupación principal desde $2.000.000; Gini 0,428 (0,424)",
+      "angulo": "Corrida programada del 01/10/2026 16:30. Retoma el descarte del 25/09 (había que esperar el dato nacional del 2T, publicado hoy a las 16 por el INDEC). Pregunta de plata + calendario oficial: cuánto hay que ganar, y que la vara de arriba subió menos que los precios y que las de abajo. Ancla CONFIRMADA por el camino de estadística oficial: (1) cuadro 7 del informe técnico vol. 10 n° 243 y planilla hog_ingreso_total_fliar_2t26.xls; (2) recálculo desde los valores absolutos del cuadro (29,7% y promedio $6.060.070 vs $6.057.098 por redondeo de hogares) y método validado con microdatos EPH 1T-2026 (piso $4.120.000, promedio decil $6.732.547, exactos) y 2T-2025 (piso $3.100.000, promedio $4.789.702, exactos); la base 2T-2026 no está publicada al 01/10 16:30; (3) contraste IDECBA ETOI 2T-2026: ITF promedio CABA +27,1% vs EPH nacional +27,0%, piso del decil 10 porteño $5.100.000. Distinto de la nota del 22/07 (participación del decil 10 por persona en 1T) y de la de CABA del 27/09.",
+      "fecha": "2026-10-01",
+      "estado": "publicada",
+      "articulo_id": "2026-10-01-cuanto-hay-que-ganar-10-por-ciento-mas-rico-pais"
     }
   ]
 }
