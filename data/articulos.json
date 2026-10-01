@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T04:45:39-03:00",
+    "actualizado": "2026-10-01T06:48:43-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-autos-electricos-tope-35000-sin-arancel",
+      "titulo": "El tope para importar autos eléctricos sin arancel pasa de US$16.000 a US$35.000: los híbridos solo suben a US$18.000",
+      "bajada": "Desde el 1 de octubre de 2026, un auto 100% eléctrico puede entrar al país sin arancel dentro del cupo si vale hasta US$35.000 en origen, según el anexo del Decreto 1128/2026. Antes el límite era US$16.000 para todos. Los híbridos suben a US$18.000 y los mild hybrid siguen en US$16.000. Fuera del cupo, el arancel es 35%.",
+      "titulo_busqueda": "¿Qué autos eléctricos entran sin arancel? El tope subió de US$16.000 a US$35.000 FOB",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$35.000",
+      "numero_label": "valor FOB máximo por unidad para que un auto 100% eléctrico entre sin arancel dentro del cupo desde el 01/10/2026 (Anexo I del Decreto 1128/2026); antes, US$16.000",
+      "fecha": "2026-10-01",
+      "hora": "07:45",
+      "archivo": "articulos/2026-10-01-autos-electricos-tope-35000-sin-arancel.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-01-subsidio-gas-luz-octubre-sef",
       "titulo": "Los hogares con subsidio tienen 74,25% de descuento en el precio del gas en octubre: el decreto que armó el esquema les daba 4,55%",
