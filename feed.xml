@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 30 Sep 2026 20:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 30 Sep 2026 22:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La docena de huevos cuesta $3.868 en el Gran Buenos Aires, 2,6% menos que hace un año: es el único de 59 productos del INDEC que bajó en pesos</title>
+      <link>https://coninteres.com/articulos/2026-09-30-docena-huevos-precio-granja-gondola.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-docena-huevos-precio-granja-gondola.html</guid>
+      <pubDate>Wed, 30 Sep 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Con una inflación de 33,7%, la docena se abarató 27,1% en términos reales. En la granja, el precio cayó más que en la góndola: entre 12,0% y 18,9%, según la fuente. Y a quien produce, una docena le alcanza para comprar casi un tercio menos de maíz que hace un año.</description>
+      <ci:numero>$3.868</ci:numero>
+      <ci:numeroEtiqueta>precio promedio de la docena de huevos en el Gran Buenos Aires en agosto de 2026 (INDEC): 2,6% menos que un año antes</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-docena-huevos-precio-granja-gondola.png" length="81643" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-docena-huevos-precio-granja-gondola.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>YPF anotó US$783 millones de impuesto a las Ganancias en seis meses, casi 24 veces más que un año antes, y en efectivo pagó US$34 millones</title>
       <link>https://coninteres.com/articulos/2026-09-30-ypf-impuesto-ganancias-semestre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuánto creció el consumo privado entre el 2° trimestre de 2025 y el de 2026, a precios constantes (INDEC); desestacionalizado cayó 2,4% contra el 1er trimestre, que fue el máximo de la serie</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-consumo-maximo-historico-milei-indec.png" length="76764" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-consumo-maximo-historico-milei-indec.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Gobierno repartió $184.000 millones de ATN en 2026 y nueve provincias no recibieron nada: Misiones se llevó $25.000 millones</title>
-      <link>https://coninteres.com/articulos/2026-09-28-atn-provincias-184-mil-millones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-28-atn-provincias-184-mil-millones.html</guid>
-      <pubDate>Mon, 28 Sep 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Entre enero y el 25 de septiembre, la Nación giró $184.000 millones en Aportes del Tesoro Nacional, el fondo que reparte a discreción entre las provincias. Fueron a 15 jurisdicciones; Buenos Aires, la Ciudad, Tucumán, La Rioja y otras cinco no recibieron nada. En mayo, el crédito del fondo para todo el año se recortó 56%: de $569.426 millones a $248.755 millones.</description>
-      <ci:numero>$184.000 M</ci:numero>
-      <ci:numeroEtiqueta>Aportes del Tesoro Nacional (ATN) pagados a 15 provincias entre enero y el 25/09/2026 (Ministerio de Economía, Presupuesto Abierto); nueve jurisdicciones sin ATN; crédito anual recortado de $569.426 M a $248.755 M en mayo</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-atn-provincias-184-mil-millones.png" length="88566" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-atn-provincias-184-mil-millones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -2112,6 +2112,29 @@
       "fecha": "2026-09-30",
       "estado": "publicada",
       "articulo_id": "2026-09-30-ypf-impuesto-ganancias-semestre"
+    },
+    {
+      "tema": "Presupuesto porteño 2027: cuánto baja la Patente y cuánto va al subte (comunicado GCBA 24/09/2026; proyecto enviado a la Legislatura el 30/09/2026; infobae, ámbito, cronista, pagina12)",
+      "angulo": "DESCARTADA en la corrida programada del 30/09/2026 22:30. El proyecto de Ley Tarifaria 2027 y el de Presupuesto 2027 no están publicados (ni en buenosaires.gob.ar ni en la Legislatura); las cifras (6 de cada 10 autos pagan menos, alícuota efectiva de 3,0% a 2,3%, Fiat Cronos 2020 de $110.900 a $56.800 por bimestre, casi $1 billón para obras de subte) salen solo del comunicado del GCBA del 24/09/2026 y de los medios que lo reproducen: proyección de una sola fuente. Retomar cuando el texto del proyecto (anexo de alícuotas de Patentes) esté en el sitio de la Legislatura.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin texto del proyecto de Ley Tarifaria 2027; cifras solo del comunicado del GCBA"
+    },
+    {
+      "tema": "FMI: fin de la misión de la tercera revisión del acuerdo de 2025 y desembolso esperado (lanacion US$869 M, ámbito y cronista unos US$900 M, iprofesional US$980 M; 30/09/2026)",
+      "angulo": "DESCARTADA en la corrida programada del 30/09/2026 22:30. No hay acuerdo a nivel técnico (staff-level agreement): la misión terminó pero el monto del desembolso es una expectativa y los medios dan tres cifras distintas. imf.org responde 403 a clientes automáticos, así que la fuente primaria no se puede leer ni pasaría el control de enlaces. Retomar cuando el FMI publique el acuerdo a nivel técnico o la aprobación del Directorio con el monto en DEG.",
+      "fecha": "2026-09-30",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin acuerdo a nivel técnico; monto del desembolso dispar entre medios; imf.org inaccesible"
+    },
+    {
+      "tema": "cuánto cuesta la docena de huevos y por qué bajó / INDEC precios promedio GBA (sh_ipc_precios_promedio.xls, 'Huevos de gallina', docena): $3.868,23 ago-26 contra $3.971,62 ago-25 (-2,6%; real -27,1% con IPC GBA 33,7%), único de los 59 productos de la hoja GBA con baja nominal (siguiente: arroz +2,6%; carne picada +52,7%); máximo de la serie oct-25 $4.050,41 (previo jun-25 $4.036,73); granja huevo blanco: Secretaría de Agricultura (Cátedra Avícola) $2.032,2 -> $1.647,2 (-18,9%, valor repetido mar-ago 2026), CAPIA Buenos Aires $1.614,19 -> $1.420,99 (-12,0%); parte de la granja 51,2% -> 42,6% (SAGyP) y 40,6% -> 36,7% (CAPIA); relación maíz/huevo 8,8 -> 6,1 kg",
+      "angulo": "Corrida programada del 30/09/2026 22:30. Pregunta de plata detrás del consumo récord de huevo (infobae y lanacion, 30/09/2026). Ángulo propio: el huevo es lo único de la lista del INDEC que bajó en pesos, y la granja cobra todavía menos. Ancla CONFIRMADA por el camino de estadística oficial: documento INDEC + recálculo desde la serie + contraste independiente de dirección con dos series de granja (SAGyP/Cátedra Avícola y CAPIA). El consumo por habitante (CAPIA/ILH, 398 huevos en 2025) NO entra: solo hay medios que citan a la cámara.",
+      "fecha": "2026-09-30",
+      "estado": "publicada",
+      "articulo_id": "2026-09-30-docena-huevos-precio-granja-gondola"
     }
   ]
 }

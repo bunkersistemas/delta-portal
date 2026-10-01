@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T20:40:55-03:00",
+    "actualizado": "2026-09-30T22:42:24-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-09-30-docena-huevos-precio-granja-gondola",
+      "titulo": "La docena de huevos cuesta $3.868 en el Gran Buenos Aires, 2,6% menos que hace un año: es el único de 59 productos del INDEC que bajó en pesos",
+      "bajada": "Con una inflación de 33,7%, la docena se abarató 27,1% en términos reales. En la granja, el precio cayó más que en la góndola: entre 12,0% y 18,9%, según la fuente. Y a quien produce, una docena le alcanza para comprar casi un tercio menos de maíz que hace un año.",
+      "titulo_busqueda": "¿Cuánto cuesta la docena de huevos y por qué bajó?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$3.868",
+      "numero_label": "precio promedio de la docena de huevos en el Gran Buenos Aires en agosto de 2026 (INDEC): 2,6% menos que un año antes",
+      "fecha": "2026-09-30",
+      "hora": "22:30",
+      "archivo": "articulos/2026-09-30-docena-huevos-precio-granja-gondola.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-30-ypf-impuesto-ganancias-semestre",
       "titulo": "YPF anotó US$783 millones de impuesto a las Ganancias en seis meses, casi 24 veces más que un año antes, y en efectivo pagó US$34 millones",
