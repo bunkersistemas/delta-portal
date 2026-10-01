@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 01 Oct 2026 00:52:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 02:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Quedan 20 millones de toneladas de soja de la cosecha 2025/26 sin llegar a exportadores ni fábricas: 41%, contra 31% hace un año</title>
+      <link>https://coninteres.com/articulos/2026-10-01-soja-sin-comprar-cosecha-2025-26.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-01-soja-sin-comprar-cosecha-2025-26.html</guid>
+      <pubDate>Thu, 01 Oct 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Hasta el 23 de septiembre, los exportadores y la industria aceitera habían comprado 29,2 millones de toneladas de la soja cosechada este año, 59% de los 49,3 millones que se produjeron. A la misma altura de 2025 llevaban 69%: en esa semana hubo retenciones cero y se compraron 3 millones de toneladas en siete días. El ritmo de este año es el de 2023 y 2024.</description>
+      <ci:numero>20,1 M t</ci:numero>
+      <ci:numeroEtiqueta>de soja de la cosecha 2025/26 que todavía no compraron exportadores ni fábricas al 23/09/2026 (Secretaría de Agricultura): 40,8% de los 49,3 millones de toneladas cosechados; un año antes quedaba 31,1%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-soja-sin-comprar-cosecha-2025-26.png" length="80810" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-soja-sin-comprar-cosecha-2025-26.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El metro cúbico de gas de Metrogas sube 2,6% en octubre aunque el gas en origen bajó 2%: un descuento de $4,78 se volvió un recargo de $4,03</title>
       <link>https://coninteres.com/articulos/2026-10-01-gas-metrogas-octubre-metro-cubico.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>compras netas de dólares billete de las personas, enero-agosto de 2026 (BCRA)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-personas-compraron-dolares-mas-que-bcra.png" length="70890" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-personas-compraron-dolares-mas-que-bcra.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina tiene que pagarles US$9.763 millones a los bonistas en 2027: el pago de julio sube casi US$1.000 millones</title>
-      <link>https://coninteres.com/articulos/2026-09-28-deuda-bonistas-vencimientos-2027.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-28-deuda-bonistas-vencimientos-2027.html</guid>
-      <pubDate>Mon, 28 Sep 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre el 9 de enero y el 9 de julio de 2027 vencen US$9.763 millones de los Bonares y Globales de la reestructuración de 2020, según el perfil de vencimientos de la Secretaría de Finanzas: 11% más que en 2026. El salto está en julio, cuando empiezan a devolverse los bonos 2038. Y 2027 no es el techo: el calendario sube hasta 2031.</description>
-      <ci:numero>US$9.763 M</ci:numero>
-      <ci:numeroEtiqueta>vencimientos de capital e intereses de Bonares y Globales (reestructuración 2020) en 2027, según el perfil de la Secretaría de Finanzas al 31/03/2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-deuda-bonistas-vencimientos-2027.png" length="77939" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-deuda-bonistas-vencimientos-2027.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

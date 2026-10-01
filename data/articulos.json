@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T00:52:28-03:00",
+    "actualizado": "2026-10-01T02:46:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-soja-sin-comprar-cosecha-2025-26",
+      "titulo": "Quedan 20 millones de toneladas de soja de la cosecha 2025/26 sin llegar a exportadores ni fábricas: 41%, contra 31% hace un año",
+      "bajada": "Hasta el 23 de septiembre, los exportadores y la industria aceitera habían comprado 29,2 millones de toneladas de la soja cosechada este año, 59% de los 49,3 millones que se produjeron. A la misma altura de 2025 llevaban 69%: en esa semana hubo retenciones cero y se compraron 3 millones de toneladas en siete días. El ritmo de este año es el de 2023 y 2024.",
+      "titulo_busqueda": "¿Cuánta soja queda sin vender de la cosecha 2025/26?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "20,1 M t",
+      "numero_label": "de soja de la cosecha 2025/26 que todavía no compraron exportadores ni fábricas al 23/09/2026 (Secretaría de Agricultura): 40,8% de los 49,3 millones de toneladas cosechados; un año antes quedaba 31,1%",
+      "fecha": "2026-10-01",
+      "hora": "02:30",
+      "archivo": "articulos/2026-10-01-soja-sin-comprar-cosecha-2025-26.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-01-gas-metrogas-octubre-metro-cubico",
       "titulo": "El metro cúbico de gas de Metrogas sube 2,6% en octubre aunque el gas en origen bajó 2%: un descuento de $4,78 se volvió un recargo de $4,03",
