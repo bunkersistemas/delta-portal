@@ -2202,6 +2202,37 @@
       "fecha": "2026-10-01",
       "estado": "publicada",
       "articulo_id": "2026-10-01-aysa-coeficientes-zonales-factura-agua"
+    },
+    {
+      "tema": "cuánto aumentan las prepagas en octubre de 2026 / aumento ponderado por afiliados con la base de cuadros tarifarios de la Superintendencia de Servicios de Salud (Res. SSS 645/2025; API cuadrostarifarios.sssalud.gob.ar, período 202610, todas las tipificaciones, consultada 01/10/2026 ~11 hs): 1,96% (1,9643% con la tasa declarada; 1,9644% recalculado como valor oct/sep en 8.820 de 8.960 renglones emparejados) en 34 entidades con 3.995.459 cápitas; mismas 34 en septiembre 2,30% (2,2953%); oct-2025 solo tipificación A 1,90% (16 entidades); IPC INDEC ago-26 1,7% (1,659%), jul-26 2,1%, ago-25 1,9%; OSDE 2.156.310 cápitas (54,0%) 1,86%: 1,9% AMBA y Patagonia, 1,7% 'País excepto Patagonia, Bs As y CABA' (431.176), 2,1% en 27.845; Sancor 2,13% (2,06/2,81), Swiss 2,00, Medifé 1,95, Prevención 2,20, Galeno 2,40, Federada 1,70, Medicina Esencial 1,90, Luis Pasteur 2,30, Omint 3,22 (2,6/2,9/4,9), H. Italiano 2,10, Unión Personal 1,70; 74,6% de las cápitas con suba <=2%, 85,7% >1,7%",
+      "angulo": "Corrida programada del 01/10/2026 10:30. Pregunta de plata ('¿cuánto aumentan las prepagas en octubre?', infobae 'uno por uno los aumentos que rigen hoy', El Destape, MDZ). Ángulo propio: los medios dan listas por empresa; la base oficial de la SSS trae cápitas por plan-edad-región y permite el promedio ponderado del sector, la comparación con septiembre y con el último IPC conocido. Reemplaza con dato oficial el 417% del IAG que la nota del 23/07 había marcado como no verificado (no se repite el ángulo: aquella era cobertura, esta es el aumento del mes). Verificación (camino estadística oficial de un solo organismo): (1) base oficial del regulador; (2) recálculo desde los valores de cuota oct/sep, coincide al 0,0001 pp, 8.812 renglones coinciden con la tasa declarada (diferencias: H. Español de Mendoza 15,3-15,5% vs 15% declarado, 1 renglón Sancor; 771 cápitas); (3) contraste con los anuncios de las empresas en El Destape y MDZ (01/10/2026): Swiss 2, Galeno 2,4, Italiano 2,1, Alemán 1,9, Sancor 2,06-2,81, Omint hasta 4,9 coinciden; OSDE 'entre 1,9 y 2,1' en medios, la base agrega 1,7% en el interior (se usa la base). Límites: 34 de 86 entidades cargaron octubre al 01/10 (las faltantes sumaban 595.453 cápitas en sep, 13%); 3.381 renglones sin cápitas no pesan; modalidad_adhesion sin interpretar. Sin superlativos. Candidatas probadas y no tomadas en esta corrida: compras del BCRA en septiembre (la serie oficial var. 78 sigue cortada al 25/09, no se puede recalcular el mes; ya frenada el 29/09); TotalEnergies 'cerca de US$10.000 M' (anuncio oral en Argentina Week París, sin documento; lanacion dice US$5.000 M para Vaca Muerta); recaudación de septiembre (ARCA no la había publicado a las 10:30). Empresas pese al cupo (hoy sin nota de EMPRESAS): build_empresas.py 0 presentaciones nuevas; Arcor ON Clase 7 y 8 sin aviso de resultados (licitación hoy 10 a 16); Central Puerto recompras de rutina ya leídas; PCR y Luz de Tres Picos, compromiso previo de fusión sin cifras; Mastellone y Banco de Valores ya leídos sin montos. Otras de portada no tomadas: FAL reglamentado por ARCA (cubierto 24/09), jubilaciones de octubre (cubiertas), liquidación del agro de septiembre (CIARA, cámara sin serie oficial del mes), herencias y legítima (Cronista, evergreen), EPH distribución del ingreso (INDEC a las 16). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-10-01",
+      "estado": "publicada",
+      "articulo_id": "2026-10-01-prepagas-aumento-octubre-superintendencia"
+    },
+    {
+      "tema": "empresas / cupo del día 01/10/2026 10:30: Arcor (ON Clase 7 y 8), Central Puerto (adquisición de acciones propias, HR 28-30/09), Petroquímica Comodoro Rivadavia y Luz de Tres Picos (compromiso previo de fusión), Mastellone y Banco de Valores",
+      "angulo": "NO TOMADAS en la corrida programada del 01/10/2026 10:30 pese al cupo (hoy sin nota de EMPRESAS). build_empresas.py: 0 presentaciones nuevas en CNV y SEC. Arcor: licitación de las ON hoy de 10 a 16, sin aviso de resultados. Central Puerto: recompras diarias de rutina ya leídas. PCR y Luz de Tres Picos: sin montos. Mastellone y Banco de Valores: leídos el 30/09, sin montos. Ninguna con documento primario con cifra ancla. Ganó la pregunta de plata de las prepagas con base oficial de la SSS.",
+      "fecha": "2026-10-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario con cifra o resultado todavía no publicado"
+    },
+    {
+      "tema": "cuántos dólares compró el BCRA en septiembre de 2026 (cierre de mes; iProfesional y La Nación 01/10: US$160 M y US$70 M el último día)",
+      "angulo": "NO TOMADA en la corrida del 01/10/2026 10:30: la serie oficial de compras diarias (API BCRA v4.0, variable 78) llega al 25/09/2026, no se puede recalcular el total del mes. Retomar cuando la serie complete septiembre; ya cubierto el acumulado al 22/09 el 25/09.",
+      "fecha": "2026-10-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "serie oficial incompleta para el mes"
+    },
+    {
+      "tema": "cuánto invierte TotalEnergies en la Argentina / 'cerca de US$10.000 M' anunciados por Patrick Pouyanné en Argentina Week París (30/09-01/10/2026): Alberdi offshore Tierra del Fuego US$1.500 M, San Roque y Aguada Pichana en Vaca Muerta ~US$5.000 M",
+      "angulo": "NO TOMADA en la corrida del 01/10/2026 10:30: anuncio oral sin documento de la empresa ni resolución RIGI; las cifras son aproximadas ('cerca de', 'potencial') y difieren entre medios (infobae US$10.000 M total, La Nación US$5.000 M Vaca Muerta).",
+      "fecha": "2026-10-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario; cifras aproximadas"
     }
   ]
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T08:46:11-03:00",
+    "actualizado": "2026-10-01T11:02:16-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-prepagas-aumento-octubre-superintendencia",
+      "titulo": "Las prepagas suben 1,96% en octubre en promedio por afiliado: menos que en septiembre, pero más que la inflación de agosto",
+      "bajada": "Con los cuadros que las empresas declararon ante la Superintendencia de Servicios de Salud calculamos el aumento ponderado por cantidad de afiliados. En las 34 prepagas que ya cargaron octubre da 1,96%; esas mismas habían subido 2,30% en septiembre. OSDE, que reúne a más de la mitad de los afiliados declarados, sube 1,9% en el AMBA y 1,7% en buena parte del interior.",
+      "titulo_busqueda": "¿Cuánto aumentan las prepagas en octubre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,96%",
+      "numero_label": "aumento de la cuota de las prepagas en octubre de 2026, promedio ponderado por afiliados de las 34 entidades que declararon sus cuadros tarifarios ante la Superintendencia de Servicios de Salud (3.995.459 afiliados; cálculo propio); septiembre 2,30%, IPC de agosto 1,7%",
+      "fecha": "2026-10-01",
+      "hora": "11:30",
+      "archivo": "articulos/2026-10-01-prepagas-aumento-octubre-superintendencia.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-01-aysa-coeficientes-zonales-factura-agua",
       "titulo": "AySA propone cambiar las zonas de su tarifa: a 2 millones de hogares les subiría el agua 22,6% en promedio y a 684.000 les bajaría 14,7%",
