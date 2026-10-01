@@ -2256,6 +2256,13 @@
       "fecha": "2026-10-01",
       "estado": "publicada",
       "articulo_id": "2026-10-01-malvinas-sea-lion-regalias-petroleo"
+    },
+    {
+      "tema": "Longvie: pérdida neta del 1er semestre 2026 y traslado de calefones y anafes a Catamarca / hecho relevante CNV 01/10/2026 (Paraná y Villa Martelli -> Catamarca, completar en noviembre) + EEFF consolidados al 30/06/2026 (CNV 11/08/2026, NIC 29, pesos de jun-26): ventas netas $35.569.734.346 (1S25 $39.921.404.382, -10,9%), costo 95,0% de ventas (88,7%), resultado bruto $1.770.826.762 (-60,8%), operativo -$4.455.643.837 (-$1.856.386.222), antes de impuestos -$7.672.998.450, pérdida neta -$6.035.528.960 (-$3.792.545.368, +59,1%), $17 por cada $100 vendidos; unidades vendidas 119.979 (110.699, +8,4%), producidas 63.919 (98.236, -34,9%); facturación por aparato ~$296.466 vs ~$360.630 (-17,8%, cálculo propio); inventarios $28.040 M -> $20.189 M; PN $31.349 M -> $25.317 M (-19,2%); flujo operativo +$4.213 M",
+      "angulo": "Corrida programada del 01/10/2026 14:30. Cupo de EMPRESAS (hoy sin nota de la sección): el hecho relevante de Longvie (nuevo en build_empresas.py, 01/10) no trae cifras, así que la nota se ancla en el balance que lo explica (formato Anatomía de un balance): vendió más unidades y facturó menos. Ancla -$6.035.528.960 en el estado de resultados y el balance consolidados y en la síntesis art. 63 de BYMA (10/08/2026); recalculada renglón por renglón, cierra al peso. Se aclara en ④ que la reseña rotula al revés antes/después de impuestos ($6.031.909.096 es el resultado integral). Sin superlativos. No se afirma ahorro del traslado ni efectos sobre empleo (no figuran en documentos).",
+      "fecha": "2026-10-01",
+      "estado": "publicada",
+      "articulo_id": "2026-10-01-longvie-perdida-semestre-catamarca"
     }
   ]
 }

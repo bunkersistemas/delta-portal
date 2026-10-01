@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 01 Oct 2026 12:55:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 14:40:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Longvie vendió 8,4% más aparatos y facturó 10,9% menos: perdió $6.036 millones en el semestre y ahora lleva calefones y anafes a Catamarca</title>
+      <link>https://coninteres.com/articulos/2026-10-01-longvie-perdida-semestre-catamarca.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-01-longvie-perdida-semestre-catamarca.html</guid>
+      <pubDate>Thu, 01 Oct 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Según su balance del primer semestre de 2026, presentado ante la CNV, Longvie vendió 119.979 aparatos, 8,4% más que un año antes, pero facturó 10,9% menos en moneda de junio y perdió $6.036 millones. Hoy informó que concentrará toda la fabricación de calefones y anafes en su planta de Catamarca para bajar costos.</description>
+      <ci:numero>$6.036 M</ci:numero>
+      <ci:numeroEtiqueta>pérdida neta de Longvie en el primer semestre de 2026, en pesos de junio</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-longvie-perdida-semestre-catamarca.png" length="76146" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-longvie-perdida-semestre-catamarca.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El gobierno de Malvinas cobraría 9% de regalías por el petróleo de Sea Lion: unos US$115 millones por año estimados, y su presupuesto no anota ni una libra en los próximos cinco años</title>
       <link>https://coninteres.com/articulos/2026-10-01-malvinas-sea-lion-regalias-petroleo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>crédito a empresas en situación irregular en julio de 2026 ($3.252.396 M = 3,62% de $89,86 billones; BCRA, Informe sobre Bancos jul-26 y su anexo); en nov-24 eran $252.245 M ($406.625 M de jul-26): 7,998 veces en términos reales</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-mora-empresas-bancos-billones.png" length="81623" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-mora-empresas-bancos-billones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Central Puerto vendió su parte en una minera de plata a 6,4 veces lo que había puesto y repartió casi todo en dividendos: $247.344 millones</title>
-      <link>https://coninteres.com/articulos/2026-09-29-central-puerto-abrasilver-dividendo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-central-puerto-abrasilver-dividendo.html</guid>
-      <pubDate>Tue, 29 Sep 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>La generadora eléctrica había invertido C$35,7 millones en AbraSilver, dueña del proyecto de plata y oro Diablillos, entre 2024 y 2025. Informó a la CNV que vendió todo por C$228,4 millones y pagó el 25 de septiembre un dividendo extraordinario de $164 por acción. Al tipo de cambio del día del anuncio, el dividendo equivale al 99,8% de lo que cobró.</description>
-      <ci:numero>6,4 veces</ci:numero>
-      <ci:numeroEtiqueta>lo que Central Puerto cobró por el 100% de su participación en AbraSilver (C$228.406.885) sobre lo que había invertido (C$35.741.477), según su hecho relevante del 16/09/2026 ante la CNV y la SEC; la inversión la confirman los comunicados de AbraSilver</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-central-puerto-abrasilver-dividendo.png" length="88460" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-central-puerto-abrasilver-dividendo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-01T12:30",
+  "generado": "2026-10-01T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3575354",
+      "fuente": "CNV",
+      "fecha": "2026-10-01T12:31",
+      "entidad": "LONGVIE",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE LONGVIE PLANTA CATAMARCA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/8D36229B-AA7C-4D3F-A1B3-79D63211DEE2"
+    },
     {
       "id": "cnv-3574885",
       "fuente": "CNV",

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T12:55:48-03:00",
+    "actualizado": "2026-10-01T14:40:30-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-longvie-perdida-semestre-catamarca",
+      "titulo": "Longvie vendió 8,4% más aparatos y facturó 10,9% menos: perdió $6.036 millones en el semestre y ahora lleva calefones y anafes a Catamarca",
+      "bajada": "Según su balance del primer semestre de 2026, presentado ante la CNV, Longvie vendió 119.979 aparatos, 8,4% más que un año antes, pero facturó 10,9% menos en moneda de junio y perdió $6.036 millones. Hoy informó que concentrará toda la fabricación de calefones y anafes en su planta de Catamarca para bajar costos.",
+      "titulo_busqueda": "¿Cuánto perdió Longvie y por qué lleva calefones y anafes a Catamarca?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$6.036 M",
+      "numero_label": "pérdida neta de Longvie en el primer semestre de 2026, en pesos de junio",
+      "fecha": "2026-10-01",
+      "hora": "14:30",
+      "archivo": "articulos/2026-10-01-longvie-perdida-semestre-catamarca.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-01-malvinas-sea-lion-regalias-petroleo",
       "titulo": "El gobierno de Malvinas cobraría 9% de regalías por el petróleo de Sea Lion: unos US$115 millones por año estimados, y su presupuesto no anota ni una libra en los próximos cinco años",
