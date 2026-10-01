@@ -2173,6 +2173,21 @@
       "fecha": "2026-10-01",
       "estado": "publicada",
       "articulo_id": "2026-10-01-soja-sin-comprar-cosecha-2025-26"
+    },
+    {
+      "tema": "empresas / cupo del día 01/10/2026 04:30: Arcor (ON Clase 7 y 8), Central Puerto (adquisición de acciones propias, HR 28-30/09), Petroquímica Comodoro Rivadavia y Luz de Tres Picos (compromiso previo de fusión), Toyota (RIGI US$1.341 M)",
+      "angulo": "NO TOMADAS en la corrida programada del 01/10/2026 04:30 pese al cupo (hoy sin nota de EMPRESAS). build_empresas.py: 0 presentaciones nuevas en CNV y SEC. Arcor: la licitación de las ON es hoy de 10 a 16, sin aviso de resultados a las 04:30. Central Puerto: recompras diarias de rutina, ya leídas. PCR y Luz de Tres Picos: sin montos en lo publicado. Toyota: la Primera Sección del BO del 01/10/2026 no trae la resolución de adhesión al RIGI (infobae y La Nación siguen citando el anuncio). Ninguna tiene documento primario con cifra ancla. Retomar Arcor con el aviso de resultados de la tarde.",
+      "fecha": "2026-10-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario con cifra o resultado todavía no publicado"
+    },
+    {
+      "tema": "cuánto subsidio tienen la luz y el gas en octubre de 2026 / Res. SE 272/2026 (BO 01/10/2026): hogares del SEF con 50% general + 24,25% extraordinaria sobre el precio del gas del consumo base = 74,25%, contra 0% + 4,55% = 4,55% del Anexo II del Decreto 943/2025 (16 veces más); luz: bloque de 200 kWh con 75% (50+25) contra 150 kWh con 54,55% (50+4,55) del decreto (equivalente 150 contra 81,8 kWh, +83%); serie extraordinaria gas may-oct 25/25/25/25/24,25/24,25 (Res. 111, 121, 146, 187, 223, 272) contra cronograma 15,91/13,64/11,36/9,09/6,82/4,55; luz jun 11,97, jul-ago 16,59, sep-oct 25; ejemplo Metrogas CABA: precio del gas en origen $205,93/m3 -> unos $53 con 74,25% (unos $197 con 4,55%)",
+      "angulo": "Corrida programada del 01/10/2026 04:30. Pregunta de plata ('¿cuánto subsidio tiene la luz y el gas en octubre?') detrás de infobae ('El Gobierno mantendrá los subsidios a la energía debido a la crisis en Medio Oriente' y 'los aumentos que rigen a partir de hoy'), La Nación ('Medidas excepcionales') y ámbito (aumentos de octubre). Ángulo propio: lo que fijaba el decreto contra lo aplicado; en octubre, terminado el invierno, el decreto le sacaba al gas la bonificación general de 50% (brecha de 69,7 puntos contra 17,4 en septiembre). Distinta de 2026-10-01-gas-metrogas-octubre-metro-cubico (tarifa sin subsidio) y de la nota del 28/09 sobre el gasto fiscal en subsidios. Camino normativo: (1) Res. 272/2026 en el BO; (2) Anexo II del Decreto 943/2025 (PDF IF-2025-143839560 publicado por Metrogas), confirmado por los considerandos de la Res. 272 y el comunicado oficial de enero; (3) recálculo del cronograma lineal (25/11 por mes) y de las sumas; contraste EconoJournal 29/07/2026. Discrepancia documentada: el comunicado oficial del 01/09 dijo 24,5% y la Res. 223/2026 dice 24,25%; vale la norma. Cuadros de Edenor/Edesur de octubre sin publicar: luz sin pesos.",
+      "fecha": "2026-10-01",
+      "estado": "publicada",
+      "articulo_id": "2026-10-01-subsidio-gas-luz-octubre-sef"
     }
   ]
 }

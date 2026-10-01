@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T02:46:21-03:00",
+    "actualizado": "2026-10-01T04:45:39-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-subsidio-gas-luz-octubre-sef",
+      "titulo": "Los hogares con subsidio tienen 74,25% de descuento en el precio del gas en octubre: el decreto que armó el esquema les daba 4,55%",
+      "bajada": "La Secretaría de Energía extendió a octubre el subsidio de invierno. Según el decreto de diciembre, el gas de los hogares del régimen de subsidios perdía la bonificación general de 50% y conservaba una extraordinaria de 4,55%. En la luz, el bloque con descuento sube a 200 kWh, contra los 150 que fijaba el decreto, y el descuento a 75%, contra 54,55%.",
+      "titulo_busqueda": "¿Cuánto subsidio tienen la luz y el gas en octubre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "74,25%",
+      "numero_label": "descuento sobre el precio del gas para los hogares del SEF en octubre (el decreto fijaba 4,55%)",
+      "fecha": "2026-10-01",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-01-subsidio-gas-luz-octubre-sef.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-01-soja-sin-comprar-cosecha-2025-26",
       "titulo": "Quedan 20 millones de toneladas de soja de la cosecha 2025/26 sin llegar a exportadores ni fábricas: 41%, contra 31% hace un año",
