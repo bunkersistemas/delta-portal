@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 01 Oct 2026 11:02:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 12:55:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El gobierno de Malvinas cobraría 9% de regalías por el petróleo de Sea Lion: unos US$115 millones por año estimados, y su presupuesto no anota ni una libra en los próximos cinco años</title>
+      <link>https://coninteres.com/articulos/2026-10-01-malvinas-sea-lion-regalias-petroleo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-01-malvinas-sea-lion-regalias-petroleo.html</guid>
+      <pubDate>Thu, 01 Oct 2026 13:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>El régimen fiscal de las islas cobra 9% del valor del petróleo que se extrae y 26% de impuesto sobre las ganancias. A la producción pico de la primera fase de Sea Lion y a US$70 el barril, la regalía sola serían unos US$115 millones por año (estimado): el 76% de todo lo que hoy ingresa al gobierno isleño. Su presupuesto, sin embargo, deja en blanco el renglón del petróleo hasta 2030/31.</description>
+      <ci:numero>9%</ci:numero>
+      <ci:numeroEtiqueta>regalía que cobra el gobierno de las islas Malvinas sobre el valor de mercado del petróleo extraído (régimen fiscal del Departamento de Recursos Minerales; coincide Edison Investment Research); a 50.000 barriles diarios y US$70 el barril, unos US$115 millones por año (estimado)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-malvinas-sea-lion-regalias-petroleo.png" length="79341" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-malvinas-sea-lion-regalias-petroleo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las prepagas suben 1,96% en octubre en promedio por afiliado: menos que en septiembre, pero más que la inflación de agosto</title>
       <link>https://coninteres.com/articulos/2026-10-01-prepagas-aumento-octubre-superintendencia.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que Central Puerto cobró por el 100% de su participación en AbraSilver (C$228.406.885) sobre lo que había invertido (C$35.741.477), según su hecho relevante del 16/09/2026 ante la CNV y la SEC; la inversión la confirman los comunicados de AbraSilver</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-central-puerto-abrasilver-dividendo.png" length="88460" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-central-puerto-abrasilver-dividendo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Tesoro renovó $8,62 billones y nada vence después de julio de 2027: en junio colocaba deuda en pesos hasta 2030</title>
-      <link>https://coninteres.com/articulos/2026-09-29-tesoro-deuda-pesos-vence-antes-elecciones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-tesoro-deuda-pesos-vence-antes-elecciones.html</guid>
-      <pubDate>Tue, 29 Sep 2026 01:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>El lunes 28 de septiembre el Tesoro colocó $8,62 billones y el título más largo vence el 30 de julio de 2027, a diez meses. Es la cuarta licitación por efectivo seguida en la que nada de lo colocado en pesos vence después de julio de 2027. El 10 de junio había colocado bonos hasta junio de 2030.</description>
-      <ci:numero>10 meses</ci:numero>
-      <ci:numeroEtiqueta>plazo del título más largo que colocó el Tesoro en la licitación del 28/09/2026 (bono TAMAR TML27, vence el 30/07/2027); el 10/06/2026 el más largo vencía el 28/06/2030 (Secretaría de Finanzas)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-tesoro-deuda-pesos-vence-antes-elecciones.png" length="75850" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-tesoro-deuda-pesos-vence-antes-elecciones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

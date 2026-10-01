@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T11:02:16-03:00",
+    "actualizado": "2026-10-01T12:55:48-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-malvinas-sea-lion-regalias-petroleo",
+      "titulo": "El gobierno de Malvinas cobraría 9% de regalías por el petróleo de Sea Lion: unos US$115 millones por año estimados, y su presupuesto no anota ni una libra en los próximos cinco años",
+      "bajada": "El régimen fiscal de las islas cobra 9% del valor del petróleo que se extrae y 26% de impuesto sobre las ganancias. A la producción pico de la primera fase de Sea Lion y a US$70 el barril, la regalía sola serían unos US$115 millones por año (estimado): el 76% de todo lo que hoy ingresa al gobierno isleño. Su presupuesto, sin embargo, deja en blanco el renglón del petróleo hasta 2030/31.",
+      "titulo_busqueda": "¿Cuánto gana Malvinas con el petróleo de Sea Lion?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "9%",
+      "numero_label": "regalía que cobra el gobierno de las islas Malvinas sobre el valor de mercado del petróleo extraído (régimen fiscal del Departamento de Recursos Minerales; coincide Edison Investment Research); a 50.000 barriles diarios y US$70 el barril, unos US$115 millones por año (estimado)",
+      "fecha": "2026-10-01",
+      "hora": "13:30",
+      "archivo": "articulos/2026-10-01-malvinas-sea-lion-regalias-petroleo.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-01-prepagas-aumento-octubre-superintendencia",
       "titulo": "Las prepagas suben 1,96% en octubre en promedio por afiliado: menos que en septiembre, pero más que la inflación de agosto",

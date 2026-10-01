@@ -2233,6 +2233,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario; cifras aproximadas"
+    },
+    {
+      "tema": "cuánto impuesto a los combustibles sube en octubre de 2026 (RETOMADA) / Decreto 1126/2026 (BO 30/09/2026) que posterga al 1/11/2026 los incrementos pendientes del ICL y el IDC (iProfesional 01/10)",
+      "angulo": "FRENADA en la corrida programada del 01/10/2026 12:30. Se retomó la candidata frenada el 25/09 por si el decreto nuevo fijaba montos. Leído el decreto en el BO: cuatro artículos, solo corre fechas (art. 1: postergación entre el 1/08 y el 31/10/2026; art. 2: incrementos desde el 1/11/2026); no fija ningún monto por litro. Sigue sin documento oficial con el impuesto aplicado. Retomar con el decreto de noviembre o un cuadro de ARCA con montos de octubre.",
+      "fecha": "2026-10-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "el Decreto 1126/2026 no fija montos por litro; solo posterga"
+    },
+    {
+      "tema": "empresas / cupo del día 01/10/2026 12:30: Arcor (ON Clase 7 y 8), Central Puerto (adquisición de acciones propias, HR 28-30/09), Petroquímica Comodoro Rivadavia y Luz de Tres Picos (compromiso previo de fusión), Mastellone y Banco de Valores, Pan American Energy (pedido de RIGI por US$1.200 M, La Nación)",
+      "angulo": "NO TOMADAS en la corrida programada del 01/10/2026 12:30 pese al cupo (hoy sin nota de EMPRESAS). build_empresas.py: 0 presentaciones nuevas en CNV y SEC. Arcor: la licitación de las ON cierra a las 16, sin aviso de resultados. Central Puerto: recompras diarias de rutina ya leídas. PCR y Luz de Tres Picos: sin montos. Mastellone y Banco de Valores: leídos el 30/09, sin montos. Pan American Energy: el pedido de adhesión al RIGI no es un documento público; sin hecho relevante en la CNV. Ganó la pregunta de plata de Malvinas (arbitraje por Sea Lion) con documento oficial del gobierno isleño.",
+      "fecha": "2026-10-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario con cifra o resultado todavía no publicado"
+    },
+    {
+      "tema": "cuánto gana Malvinas con el petróleo de Sea Lion / regalía de 9% sobre el valor de mercado del petróleo extraído y 26% de impuesto a las sociedades (FIG, Department of Mineral Resources, Fiscal Regime; coincide Edison Investment Research 05/04/2017); estimación a 50.000 b/d (pico fase 1, JPT) y US$70 (supuesto de Rockhopper): 4.500 b/d, US$114.975.000 por año (£86,54 M a 1,3285 BoE 30/09/2026) = 76,0% de los ingresos operativos 2024/25 (£113.861.492) y 2,37 veces las licencias de pesca (£36.481.492); renglón 997 'Oil Revenues' del presupuesto 2026/27 en blanco de 2024/25 a 2030/31",
+      "angulo": "Corrida programada del 01/10/2026 12:30. Pregunta de plata detrás del arbitraje del Anexo VII de la Convemar (Comunicado Oficial 166, 28/09/2026) y la convocatoria de la embajadora argentina en Londres (infobae, lanacion, ámbito, iprofesional, cronista 01/10). Ángulo nuevo frente a Sea Lion (18/07: reservas, inversión, ingreso bruto contra PBI), la ley 26.659 (05/09) y la pesca (27/09): qué parte del petróleo se queda el fisco isleño y que su presupuesto no proyecta ninguna libra de petróleo hasta 2030/31. Ancla 9% CONFIRMADA por dos fuentes independientes (página oficial del FIG y análisis de Edison). Montos rotulados como estimación con sensibilidad US$60/70/80 (98,6 / 115,0 / 131,4 M). Límites documentados: metodología de valuación del crudo y 'seguridad para inversores' aprobadas por el Consejo Ejecutivo en oct-2025 sin publicar; reducción discrecional del gobernador; el 26% no se estima. Comparación con la ley 17.319 (art. 47: base 15% + X; art. 59: reducción hasta 5%; art. 93: 12% estatales). Sin superlativos.",
+      "fecha": "2026-10-01",
+      "estado": "publicada",
+      "articulo_id": "2026-10-01-malvinas-sea-lion-regalias-petroleo"
     }
   ]
 }
