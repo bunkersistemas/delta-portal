@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-09-30",
-  "pregunta": "Según el INDEC, al 30 de junio de 2026 hogares y empresas argentinas tenían US$260.402 millones en billetes y en bancos del exterior. Ese mismo día, las reservas del Banco Central eran de US$44.870 millones. ¿Por qué esos dólares no sirven para pagar la deuda del país?",
+  "fecha": "2026-10-01",
+  "pregunta": "Según el INDEC y el boletín de la Seguridad Social, en junio de 2026 una jubilada del sistema nacional cobraba en promedio $647.279 y un jubilado $893.978. Pero entre quienes se jubilaron sin moratoria, ellas cobran $107 por cada $100 de ellos. ¿Qué explica que en el promedio general las mujeres cobren menos?",
   "opciones": [
-    "Porque son de los hogares y las empresas, no del Estado: el Banco Central solo puede usar los dólares que tiene en sus reservas",
-    "Porque son dólares falsos o viejos que ya no tienen valor",
-    "Porque el INDEC los estima mal y en realidad son muchos menos que las reservas"
+    "Que 79,5% de las jubiladas entró por moratoria, contra 48,9% de los varones, y las jubilaciones por moratoria son en promedio mucho más bajas",
+    "Que la ley les paga a las mujeres una jubilación menor que a los varones por los mismos aportes",
+    "Que las mujeres se jubilan a los 60 años y por cada año antes de los 65 se les descuenta una parte del haber"
   ],
   "correcta": 0,
-  "explicacion": "Los US$260.402 millones son ahorro privado: dólares guardados en casas, cajas de seguridad o cuentas en otros países. Pertenecen a quien los ahorró, y el Estado no puede disponer de ellos. Las reservas, en cambio, son los dólares que tiene el Banco Central, y son las que se usan para pagar deudas o intervenir en el mercado. Por eso un país puede tener mucho ahorro en dólares de sus habitantes y, al mismo tiempo, pocas reservas: el ahorro privado es 5,8 veces las reservas.",
-  "nota": "articulos/2026-09-29-dolares-fuera-del-sistema-hogares-empresas.html",
-  "leccion": "lecciones/pesos-o-dolares.html"
+  "explicacion": "El promedio mezcla dos grupos muy distintos. Quien se jubiló por moratoria (con pocos o ningún año de aportes, que paga en cuotas) cobraba en junio en promedio $470.974 si era mujer y $523.960 si era varón; quien se jubiló con sus aportes, $1.331.761 y $1.248.278. Como ocho de cada diez mujeres entraron por moratoria y entre los varones es la mitad, el promedio de ellas queda más cerca del haber bajo. Por eso un promedio puede mostrar una brecha que dentro de cada grupo no existe o va al revés.",
+  "nota": "articulos/2026-09-30-jubiladas-haber-medio-moratoria.html",
+  "leccion": ""
 }

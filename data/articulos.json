@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-09-30T22:42:24-03:00",
+    "actualizado": "2026-10-01T00:52:28-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-gas-metrogas-octubre-metro-cubico",
+      "titulo": "El metro cúbico de gas de Metrogas sube 2,6% en octubre aunque el gas en origen bajó 2%: un descuento de $4,78 se volvió un recargo de $4,03",
+      "bajada": "Para un hogar sin subsidio y antes de impuestos, el metro cúbico pasa de $316,16 a $324,31 y el cargo fijo de la categoría más baja, de $4.432,10 a $4.534,59. El precio del gas en origen bajó 2,0%, pero un ajuste por diferencias de meses anteriores pasó de restar a sumar: sin ese cambio, el metro cúbico habría bajado 0,2%. En un año subió 54,5%.",
+      "titulo_busqueda": "¿Cuánto sube el gas en octubre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$324,31",
+      "numero_label": "cobra Metrogas por metro cúbico de gas a un hogar sin subsidio desde el 1 de octubre de 2026, sin impuestos (ENREGE, Res. 720/2026): +2,6% contra septiembre ($316,16) y +54,5% contra octubre de 2025 ($209,88)",
+      "fecha": "2026-10-01",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-01-gas-metrogas-octubre-metro-cubico.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-09-30-docena-huevos-precio-granja-gondola",
       "titulo": "La docena de huevos cuesta $3.868 en el Gran Buenos Aires, 2,6% menos que hace un año: es el único de 59 productos del INDEC que bajó en pesos",

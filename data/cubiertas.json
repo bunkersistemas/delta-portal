@@ -2135,6 +2135,21 @@
       "fecha": "2026-09-30",
       "estado": "publicada",
       "articulo_id": "2026-09-30-docena-huevos-precio-granja-gondola"
+    },
+    {
+      "tema": "cuánto sube el gas en octubre de 2026 / Metrogas, Capital Federal, residencial sin SEF, sin impuestos (ENREGE Res. 720/2026, BO 01/10/2026): cargo por m3 $324,31 (sep $316,16, +2,58%; oct-25 $209,88, +54,52%), cargo fijo R1 $4.534,59 (sep $4.432,10, +2,31%; oct-25 $3.230,25, +40,38%); PIST $210,04 -> $205,93 (-1,96%) y diferencias diarias acumuladas -4,78 -> +4,03 (sin ese cambio el m3 habría bajado 0,21%)",
+      "angulo": "Corrida programada del 01/10/2026 00:30. Pregunta de plata ('¿cuánto sube el gas en octubre?') detrás de los 'aumentos de octubre' (ámbito, infobae 30/09) y de los cuadros del ENREGE publicados hoy en el BO. Ángulo propio: la anatomía del m3 (el gas en origen bajó y lo dio vuelta el ajuste por diferencias diarias acumuladas, que restó $26,17 de oct-25 a abr-26) y la serie de 14 cuadros ago-25/oct-26. Verificación: (1) anexo BO Res. 720/2026 (descargado por POST /pdf/download_anexo con seccion, nroAnexo, idAnexo y fechaPublicacion); (2) planilla del regulador tarifas-gn-20260901.xlsx coincide al centavo con el BO de septiembre (la de octubre no estaba publicada); (3) recálculo: los componentes suman el m3 en los 14 cuadros; PIST = PAU US$3,696/MMBTU (Res. SE 23/2026) x A3500 prom. 1-15/09 $1.510,5658 / 27,10473 = $205,98 vs $205,93 (0,02%; feb/mar/abr <0,07%; may-sep el cuadro ~+3% por GNL y volúmenes fuera del PAU según nota MECON 28/04/2026, no medido); (4) contraste: técnicos del ENREGE +2,24% promedio residencial país (iProfesional 29/09). IPC ago/ago 33,54% (12.276,766/9.193,2441) contra m3 +42,82% y fijo +43,18%. Superlativo con historia: febrero +20,3% m/m (229,65 -> 276,27) es la mayor suba mensual del m3 entre oct-25 y oct-26; la siguiente, jul->ago-26 +5,75% (296,06 -> 313,08). NO afirmado: factura con impuestos, factura SEF, origen de las DDA. Candidatas no tomadas: ver entrada siguiente (empresas) y el motivo de .corrida.json.",
+      "fecha": "2026-10-01",
+      "estado": "publicada",
+      "articulo_id": "2026-10-01-gas-metrogas-octubre-metro-cubico"
+    },
+    {
+      "tema": "empresas / cupo del día 01/10/2026 00:30: Toyota (RIGI US$1.341 M, Zárate), Petroquímica Comodoro Rivadavia y Luz de Tres Picos (compromiso previo de fusión, CNV 30/09), Central Puerto (adquisición de acciones propias, HR 28-30/09), Arcor (ON Clase 7 y 8)",
+      "angulo": "NO TOMADAS en la corrida programada del 01/10/2026 00:30 pese al cupo de empresas (hoy sin nota de EMPRESAS). Toyota: el BO del 01/10/2026 tampoco trae la resolución de adhesión al RIGI (las resoluciones del Ministerio de Economía 1707 a 1720 del día son designaciones); la cifra sigue siendo del anuncio de Caputo y de la empresa, sin documento. PCR y Luz de Tres Picos: descartadas el 30/09 por no tener montos leídos; sin documento nuevo en la CNV. Central Puerto: recompras ya leídas en corridas anteriores. Arcor: el aviso de resultados de las ON no estaba publicado a las 00:30. Ganó la pregunta de plata del día (tarifa de gas de octubre, con documento oficial publicado hoy).",
+      "fecha": "2026-10-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario con cifra (Toyota, PCR) o ya cubiertas/pendientes (Central Puerto, Arcor)"
     }
   ]
 }

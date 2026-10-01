@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 30 Sep 2026 22:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 01 Oct 2026 00:52:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El metro cúbico de gas de Metrogas sube 2,6% en octubre aunque el gas en origen bajó 2%: un descuento de $4,78 se volvió un recargo de $4,03</title>
+      <link>https://coninteres.com/articulos/2026-10-01-gas-metrogas-octubre-metro-cubico.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-01-gas-metrogas-octubre-metro-cubico.html</guid>
+      <pubDate>Thu, 01 Oct 2026 00:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Para un hogar sin subsidio y antes de impuestos, el metro cúbico pasa de $316,16 a $324,31 y el cargo fijo de la categoría más baja, de $4.432,10 a $4.534,59. El precio del gas en origen bajó 2,0%, pero un ajuste por diferencias de meses anteriores pasó de restar a sumar: sin ese cambio, el metro cúbico habría bajado 0,2%. En un año subió 54,5%.</description>
+      <ci:numero>$324,31</ci:numero>
+      <ci:numeroEtiqueta>cobra Metrogas por metro cúbico de gas a un hogar sin subsidio desde el 1 de octubre de 2026, sin impuestos (ENREGE, Res. 720/2026): +2,6% contra septiembre ($316,16) y +54,5% contra octubre de 2025 ($209,88)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-gas-metrogas-octubre-metro-cubico.png" length="89130" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-gas-metrogas-octubre-metro-cubico.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La docena de huevos cuesta $3.868 en el Gran Buenos Aires, 2,6% menos que hace un año: es el único de 59 productos del INDEC que bajó en pesos</title>
       <link>https://coninteres.com/articulos/2026-09-30-docena-huevos-precio-granja-gondola.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>vencimientos de capital e intereses de Bonares y Globales (reestructuración 2020) en 2027, según el perfil de la Secretaría de Finanzas al 31/03/2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-deuda-bonistas-vencimientos-2027.png" length="77939" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-deuda-bonistas-vencimientos-2027.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El consumo privado creció 0,4% en un año y cayó 2,4% en el último trimestre: el máximo que citó Milei fue a principios de 2026</title>
-      <link>https://coninteres.com/articulos/2026-09-28-consumo-maximo-historico-milei-indec.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-28-consumo-maximo-historico-milei-indec.html</guid>
-      <pubDate>Mon, 28 Sep 2026 03:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>"El consumo está en máximo histórico", dijo el Presidente el domingo. El último dato del INDEC, el del segundo trimestre, dice otra cosa: sin efectos estacionales, el consumo de los hogares cayó 2,4% contra el primer trimestre, la baja más fuerte desde fines de 2023, y quedó debajo de los cuatro trimestres anteriores. Contra un año antes, subió apenas 0,4%.</description>
-      <ci:numero>0,4%</ci:numero>
-      <ci:numeroEtiqueta>cuánto creció el consumo privado entre el 2° trimestre de 2025 y el de 2026, a precios constantes (INDEC); desestacionalizado cayó 2,4% contra el 1er trimestre, que fue el máximo de la serie</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-28-consumo-maximo-historico-milei-indec.png" length="76764" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-28-consumo-maximo-historico-milei-indec.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

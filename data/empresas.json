@@ -1,5 +1,5 @@
 {
-  "generado": "2026-09-30T22:30",
+  "generado": "2026-10-01T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -313,7 +313,6 @@
     }
   ],
   "sec_vistos": {
-    "sec-0000933267-26-000053": "2026-08-31",
     "sec-0000933267-26-000055": "2026-09-03",
     "sec-0000933267-26-000057": "2026-09-09",
     "sec-0000933267-26-000059": "2026-09-17",
