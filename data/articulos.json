@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-02T04:46:30-03:00",
+    "actualizado": "2026-10-02T06:43:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-02-ganancias-jubilados-piso-octubre",
+      "titulo": "El piso de Ganancias para los jubilados es $3,49 millones por mes en octubre: 19% más que la jubilación máxima de la ANSES",
+      "bajada": "La ley reemplaza las deducciones de un jubilado por ocho haberes mínimos: $3.485.988 en octubre de 2026, según la tabla de ARCA. La jubilación máxima del sistema nacional es $2.932.175. Con una sola jubilación de la ANSES, y sin otros ingresos ni Bienes Personales, nadie llega al impuesto: lo pagan los haberes de regímenes especiales o quienes suman más de un ingreso.",
+      "titulo_busqueda": "¿Desde cuánto pagan Ganancias los jubilados en octubre de 2026? $3.485.988 por mes",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$3,49 M",
+      "numero_label": "deducción específica de Ganancias de un jubilado en octubre de 2026: 8 x haber mínimo $435.748,51 = $3.485.988,08 por mes (ARCA; Res. ANSES 284/2026)",
+      "fecha": "2026-10-02",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-02-ganancias-jubilados-piso-octubre.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-02-ypf-juicio-corte-suprema-burford-valor",
       "titulo": "El fondo que financió el juicio por YPF valúa su parte en US$101 millones: a fin de 2025 la tenía en US$1.689 millones",
