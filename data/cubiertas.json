@@ -2352,6 +2352,19 @@
       "fecha": "2026-10-02",
       "estado": "publicada",
       "articulo_id": "2026-10-02-pluspetrol-rigi-bajo-del-choique-produccion"
+    },
+    {
+      "tema": "programa de ciudadanía por inversión (anunciado en París el 02/10/2026 por Caputo y Santilli) / cuánto cuesta: US$350.000 de aporte al Tesoro o US$800.000 en un título público, más US$100.000 por cónyuge e hijos de 18 a 25 y US$25.000 por menor",
+      "angulo": "FRENADA en la corrida programada del 02/10/2026 10:30 (candidata 1; tema en 4 portadas: infobae, La Nación, ámbito, Cronista). Los montos no figuran en ningún documento oficial: no hay norma en el Boletín Oficial del 02/10 (el Decreto 285/2026 solo designa a la directora de la Agencia de Programas de Ciudadanía por Inversión; el Decreto 524/2025 deja los montos al Ministerio de Economía), ni comunicado en argentina.gob.ar/economia ni en casarosada.gob.ar al cierre; solo el anuncio reproducido por medios. El único documento oficial con monto es la noticia de argentina.gob.ar del 29/05/2025 (inversiones de 'más de US$500.000'). Retomable cuando se publique la resolución con los montos: el ángulo 'de US$500.000 a US$350.000' sigue libre.",
+      "fecha": "2026-10-02",
+      "estado": "descartada"
+    },
+    {
+      "tema": "cuánto exporta Catamarca y cuánto pesaba el cobre de Alumbrera / RIGI de Agua Rica (MARA, Glencore) aprobado el 02/10/2026: exportaciones de Catamarca 2025 US$402 M (INDEC OPEX 2025, p. 14; serie recalculada 401,8), 2012 US$1.719,9 M (máximo de la serie 2002-2025; 2.º 2010 con US$1.676,7 M), productos primarios 2012 US$1.562,6 M vs 2025 US$24,5 M; 2019 US$143,1 M (-69,5%); participación nacional 2,15% (2012) vs 0,46% (2025); 1.er semestre 2026 US$392 M (+119,6%, MOI 373; mejor 1.er semestre desde 2014, que tuvo 577,7); Agua Rica más de 200.000 t/año de cobre en concentrado en los primeros 10 años (RNS Glencore 02/10/2026), inversión US$4.000 M (Glencore 18/08/2025, rango 3.500-4.500); Alumbrera reabre con 1.ª producción en el 2.º semestre de 2027, ~2.000 personas; cobre del país ~2.100 t en 2025 vs 203.700 t en 2002 (CAEM)",
+      "angulo": "Corrida programada del 02/10/2026 10:30 (candidata 2, tras frenar la ciudadanía por inversión). Tema en infobae y La Nación (RIGI de Glencore anunciado en París). Ángulo propio: lo que la provincia perdió con el cierre de Alumbrera y lo que el litio ya recuperó, con la serie del INDEC desde 2002. Ancla CONFIRMADA por el camino de estadística oficial recalculada (NEWSROOM 3): informe OPEX 2025 (USD 402 M) + recálculo desde Serie_Opex_Mensual_2002_2026 del archivo exports_2026_M.zip (401,8; 1S-2026 392,5 vs 392 del informe) + contraste independiente: CAEM con datos de la Secretaría de Minería, exportaciones mineras de Catamarca 278 (2024) a 353 (2025), +27% contra +22,2% del INDEC, diferencia explicada por universo. NO se usan los US$2.167 M de exportaciones anuales ni las fechas nov-2027/oct-2031 (solo en medios, sin documento de Glencore ni del Gobierno). Ya había notas de EMPRESAS hoy (Arcor, Pluspetrol): el cupo no aplicaba; el bloque CNV/SEC no traía presentaciones nuevas.",
+      "fecha": "2026-10-02",
+      "estado": "publicada",
+      "articulo_id": "2026-10-02-catamarca-exportaciones-cobre-alumbrera-agua-rica"
     }
   ]
 }
