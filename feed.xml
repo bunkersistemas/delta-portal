@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 02 Oct 2026 16:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 18:38:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un kilo de asado cuesta lo mismo que 3,5 kilos de pollo: el promedio de 2016 a 2024 era 3, y en diciembre pasado llegó a 4</title>
+      <link>https://coninteres.com/articulos/2026-10-02-asado-pollo-kilos-precio-relativo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-02-asado-pollo-kilos-precio-relativo.html</guid>
+      <pubDate>Fri, 02 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En un año el asado subió 52,1% en el Gran Buenos Aires y el pollo entero, 24,2%, con una inflación de 33,7%. La distancia entre las dos carnes se achicó desde el pico de diciembre de 2025, pero sigue por encima de lo que fue casi siempre en los últimos diez años. Es el telón de fondo del dato que circuló esta semana: el pollo ya se come más que la carne vacuna.</description>
+      <ci:numero>3,5 kg</ci:numero>
+      <ci:numeroEtiqueta>kilos de pollo entero que se pagan con un kilo de asado en el GBA, agosto de 2026: $16.736,73 / $4.780,14, INDEC precios promedio (sh_ipc_precios_promedio.xls, hoja GBA)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-asado-pollo-kilos-precio-relativo.png" length="73183" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-asado-pollo-kilos-precio-relativo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Una hora de trabajo en la Argentina produce 6,9% menos que en 2016: la productividad repuntó 3,3% en 2025, pero no recuperó lo perdido</title>
       <link>https://coninteres.com/articulos/2026-10-02-productividad-hora-trabajo-indec.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>gasto devengado de Vialidad Nacional por cada $100 del impuesto a los combustibles (Ley 23.966), enero-agosto de 2026: $313.151 M sobre $4.088.353 M; $89,16 en enero-agosto de 2023</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-impuesto-combustibles-vialidad-rutas.png" length="83763" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-impuesto-combustibles-vialidad-rutas.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las retenciones le dejaron al Estado $5,6 billones en ocho meses: 3,7 de cada $100 que recaudó, contra 13,5 en 2008</title>
-      <link>https://coninteres.com/articulos/2026-09-30-retenciones-recaudacion-ocho-meses.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-retenciones-recaudacion-ocho-meses.html</guid>
-      <pubDate>Wed, 30 Sep 2026 05:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y agosto de 2026, los derechos de exportación sumaron $5,6 billones, según la Subsecretaría de Ingresos Públicos: 3,6% menos que un año antes en pesos, con precios que subieron 33,5%. Pesan menos que en casi cualquier año desde 2003, pero equivalen a 44 de cada $100 del superávit primario. El Presupuesto 2027 estima $12,06 billones para el año que viene.</description>
-      <ci:numero>$5,6 bill.</ci:numero>
-      <ci:numeroEtiqueta>derechos de exportación recaudados por la Nación en enero-agosto de 2026 (Subsecretaría de Ingresos Públicos): $5.595.156 M, 3,66% de los recursos tributarios; 13,49% en enero-agosto de 2008</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-retenciones-recaudacion-ocho-meses.png" length="76088" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-retenciones-recaudacion-ocho-meses.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

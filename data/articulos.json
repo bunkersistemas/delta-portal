@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-02T16:41:14-03:00",
+    "actualizado": "2026-10-02T18:38:31-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-02-asado-pollo-kilos-precio-relativo",
+      "titulo": "Un kilo de asado cuesta lo mismo que 3,5 kilos de pollo: el promedio de 2016 a 2024 era 3, y en diciembre pasado llegó a 4",
+      "bajada": "En un año el asado subió 52,1% en el Gran Buenos Aires y el pollo entero, 24,2%, con una inflación de 33,7%. La distancia entre las dos carnes se achicó desde el pico de diciembre de 2025, pero sigue por encima de lo que fue casi siempre en los últimos diez años. Es el telón de fondo del dato que circuló esta semana: el pollo ya se come más que la carne vacuna.",
+      "titulo_busqueda": "¿Cuántos kilos de pollo se compran con un kilo de asado? 3,5, según los precios del INDEC",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "3,5 kg",
+      "numero_label": "kilos de pollo entero que se pagan con un kilo de asado en el GBA, agosto de 2026: $16.736,73 / $4.780,14, INDEC precios promedio (sh_ipc_precios_promedio.xls, hoja GBA)",
+      "fecha": "2026-10-02",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-02-asado-pollo-kilos-precio-relativo.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-02-productividad-hora-trabajo-indec",
       "titulo": "Una hora de trabajo en la Argentina produce 6,9% menos que en 2016: la productividad repuntó 3,3% en 2025, pero no recuperó lo perdido",

@@ -2402,6 +2402,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin dato nuevo o fuente primaria (Línea F, panaderías, ciudadanía) o sin ángulo propio frente a la candidata elegida"
+    },
+    {
+      "tema": "cuántos kilos de pollo se compran con un kilo de asado / precio relativo asado/pollo entero, INDEC precios promedio GBA (sh_ipc_precios_promedio.xls): ago-26 $16.736,73 / $4.780,14 = 3,50 (ago-25 2,86; promedio abr-2016 a dic-2024 2,99; máximo de la serie dic-25 4,04, anterior dic-21 3,96); asado +52,1%, pollo +24,2%, nalga +50,0%, picada +52,7% vs IPC GBA +33,7%",
+      "angulo": "Pregunta de plata detrás de la noticia del día (el pollo superó a la carne vacuna en consumo, IERAL; iProfesional, Página12, infobae). Los medios repiten el consumo y el 3,6 del IERAL; el nuestro es la serie oficial completa de 125 meses del INDEC con el máximo de dic-2025 y la vuelta parcial. Contraste independiente: IPCVA, informe de precios minoristas AMBA ago-26 (carne +51,8%, pollo +28,7%, asado/pollo 3,58, pico 4,01). Distinto de la nota de consumo avícola del 25/07 (CEPA, 49,4 kg) y de la de cerdo del 23/07.",
+      "fecha": "2026-10-02",
+      "estado": "publicada",
+      "articulo_id": "2026-10-02-asado-pollo-kilos-precio-relativo"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/10/2026 18:30: riesgo país 650 (5 portadas), Argentina Week US$27.000 M (5 portadas), recaudación de septiembre (3 portadas), ciudadanía por inversión (2), Glencore Agua Rica US$4.000 M (2), Karina Milei y los langostinos en Francia (infobae), plazo fijo en bancos chicos (iProfesional), canasta del jubilado vs haber mínimo (ámbito), BBVA 6-K al 30/06 (SEC) y Mastellone HR 29/09 (CNV)",
+      "angulo": "NO TOMADAS en la corrida programada del 02/10/2026 18:30; ganó asado contra pollo (pregunta de plata, INDEC + IPCVA). Riesgo país: el EMBI no tiene fuente primaria abierta. Argentina Week: montos anunciados sin documento; la IED ya se cubrió hoy a las 14:30. Recaudación, ciudadanía: ya descartadas hoy (sin ángulo propio / sin norma con montos). Glencore: cubierto hoy con Catamarca. Langostinos a Francia: retomable con INDEC comercio exterior, menor interés. Plazo fijo por banco: descartado el 01/10. Canasta del jubilado: ángulo publicado el 24/09. BBVA: balance cubierto el 26/09. Mastellone: HR leído y descartado el 30/09. Hoy ya hay notas de EMPRESAS (Pluspetrol, Arcor): el cupo no aplica. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-10-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
     }
   ]
 }
