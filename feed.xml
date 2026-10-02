@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 02 Oct 2026 14:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 16:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Una hora de trabajo en la Argentina produce 6,9% menos que en 2016: la productividad repuntó 3,3% en 2025, pero no recuperó lo perdido</title>
+      <link>https://coninteres.com/articulos/2026-10-02-productividad-hora-trabajo-indec.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-02-productividad-hora-trabajo-indec.html</guid>
+      <pubDate>Fri, 02 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El INDEC volvió a medir el capital de la economía y publicó por primera vez de qué está hecho su crecimiento. En 2025 el valor agregado por hora trabajada subió 3,3%, la primera suba desde 2017 sin contar la pandemia. Aun así quedó 6,9% por debajo de 2016: en nueve años las horas trabajadas crecieron 10,7% y lo producido, 3,1%.</description>
+      <ci:numero>−6,9%</ci:numero>
+      <ci:numeroEtiqueta>produce de menos una hora de trabajo en 2025 contra 2016: valor agregado por hora trabajada, índice 93,1 (2016=100), INDEC, Documento de trabajo N° 52 (02/10/2026), cuadro 13</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-productividad-hora-trabajo-indec.png" length="80897" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-productividad-hora-trabajo-indec.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La inversión extranjera directa dio negativa entre abril y junio: salieron US$1.820 millones netos porque las filiales les devolvieron deuda a sus casas matrices</title>
       <link>https://coninteres.com/articulos/2026-10-02-inversion-extranjera-directa-negativa-casas-matrices.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>derechos de exportación recaudados por la Nación en enero-agosto de 2026 (Subsecretaría de Ingresos Públicos): $5.595.156 M, 3,66% de los recursos tributarios; 13,49% en enero-agosto de 2008</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-retenciones-recaudacion-ocho-meses.png" length="76088" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-retenciones-recaudacion-ocho-meses.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las empresas deben US$20.189 millones en bonos a inversores del exterior, casi el doble que a fines de 2023</title>
-      <link>https://coninteres.com/articulos/2026-09-30-empresas-deuda-bonos-exterior-maximo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-empresas-deuda-bonos-exterior-maximo.html</guid>
-      <pubDate>Wed, 30 Sep 2026 03:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>Es lo que muestra la deuda externa del segundo trimestre de 2026 que publicó el INDEC. Esa deuda en bonos creció 44,8% en un año y es la más alta de la serie, que empieza en 2006. Ya son 19 de cada 100 dólares que las empresas les deben a acreedores de afuera; a fines de 2023 eran 11.</description>
-      <ci:numero>US$20.189 M</ci:numero>
-      <ci:numeroEtiqueta>deuda de las empresas no financieras en bonos y otros títulos en manos de no residentes, 30/06/2026 (INDEC, provisorio)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-empresas-deuda-bonos-exterior-maximo.png" length="70247" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-empresas-deuda-bonos-exterior-maximo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

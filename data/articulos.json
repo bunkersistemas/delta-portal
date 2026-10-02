@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-02T14:43:40-03:00",
+    "actualizado": "2026-10-02T16:41:14-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-02-productividad-hora-trabajo-indec",
+      "titulo": "Una hora de trabajo en la Argentina produce 6,9% menos que en 2016: la productividad repuntó 3,3% en 2025, pero no recuperó lo perdido",
+      "bajada": "El INDEC volvió a medir el capital de la economía y publicó por primera vez de qué está hecho su crecimiento. En 2025 el valor agregado por hora trabajada subió 3,3%, la primera suba desde 2017 sin contar la pandemia. Aun así quedó 6,9% por debajo de 2016: en nueve años las horas trabajadas crecieron 10,7% y lo producido, 3,1%.",
+      "titulo_busqueda": "¿Cuánto produce un trabajador argentino por hora? 6,9% menos que en 2016, según el INDEC",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−6,9%",
+      "numero_label": "produce de menos una hora de trabajo en 2025 contra 2016: valor agregado por hora trabajada, índice 93,1 (2016=100), INDEC, Documento de trabajo N° 52 (02/10/2026), cuadro 13",
+      "fecha": "2026-10-02",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-02-productividad-hora-trabajo-indec.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-02-inversion-extranjera-directa-negativa-casas-matrices",
       "titulo": "La inversión extranjera directa dio negativa entre abril y junio: salieron US$1.820 millones netos porque las filiales les devolvieron deuda a sus casas matrices",

@@ -2387,6 +2387,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario (ciudadanía, riesgo país) o sin ángulo propio frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto produce un trabajador argentino por hora / productividad laboral INDEC (Documento de trabajo N° 52, 02/10/2026, cuadros 12 y 13): VAB por hora trabajada 93,1 en 2025 (2016=100), -6,9% contra 2016, +3,3% contra 2024 (90,2, mínimo de la serie); PTF 92,5 (+2,8% en 2025); horas +10,7% y VAB +3,1% entre 2016 y 2025; capital por hora +2,9%; horas agregadas 2016-2025: no registrados +1.427 M, no asalariados +1.391 M, registrados +551 M; stock de capital 2025 $2.348 billones corrientes",
+      "angulo": "Serie larga del dato del día: el titular de todos es la suba de 2025; el nuestro es que la hora de trabajo sigue 6,9% debajo de 2016 y que ocho de cada diez horas nuevas desde 2016 fueron no registradas o no asalariadas. Verificación: estadística oficial recalculada (sh_VBP_VAB_09_26 cuadro 3 + horas CGI 4T25 = 93,1) con contraste OIT (producto por hora, ILOSTAT modelado: -6,1% 2016-2025, +3,1% en 2025). Superlativo corregido: el INDEC dice 'primera vez desde 2016' pero su cuadro 13 muestra suba en 2017; la nota dice 'primera suba desde 2017 sin contar 2020'.",
+      "fecha": "2026-10-02",
+      "estado": "publicada",
+      "articulo_id": "2026-10-02-productividad-hora-trabajo-indec"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/10/2026 16:30: Línea F del subte (cuánto cuesta, apertura de sobres técnicos 02/10, presupuesto oficial US$1.350 M; Cronista, La Nación), paritaria UOM octubre (cuánto cobra un metalúrgico, iProfesional; Disposición DNRRT 1099/2026), Aluar (respuesta a consulta del accionista ANSES, CNV 02/10), Caja de Valores (anuncios de dividendos, CNV 02/10), cadena de panaderías que cierra y pide la quiebra (infobae), ciudadanía por inversión, G7 libera 100 M de barriles (ámbito), autos 0 km más vendidos de septiembre (infobae)",
+      "angulo": "NO TOMADAS en la corrida programada del 02/10/2026 16:30; ganó la productividad del INDEC (publicada hoy a las 16, serie nueva). Línea F: el monto es el presupuesto oficial ya difundido desde 2025, la apertura de hoy es solo técnica (sin precios) y la página de la Ciudad devolvía error 500; sin dato nuevo ni fuente que resuelva. UOM: la escala de octubre ya la contestaron iProfesional y otros con el mismo acuerdo homologado; sin ángulo propio. Aluar y Caja de Valores: sin cifra ancla en la línea de la CNV; hoy ya hay notas de EMPRESAS (Pluspetrol, Arcor), el cupo no aplica. Panaderías: sin documento primario. Ciudadanía: sigue sin norma con montos. G7 y autos 0 km: sin fuente primaria argentina ni ángulo propio. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-10-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin dato nuevo o fuente primaria (Línea F, panaderías, ciudadanía) o sin ángulo propio frente a la candidata elegida"
     }
   ]
 }

@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-02T14:30",
+  "generado": "2026-10-02T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3576088",
+      "fuente": "CNV",
+      "fecha": "2026-10-02T15:26",
+      "entidad": "ALUAR ALUMINIO ARGENTINO",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE RESPUESTA CONSULTA ACCIONISTA ANSES S. ASAMBLEA GOYE - 14.10.2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7E6FB4C0-0BC8-4027-A23E-D85E1AB49F3F"
+    },
     {
       "id": "cnv-3575946",
       "fuente": "CNV",
