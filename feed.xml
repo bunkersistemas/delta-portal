@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 02 Oct 2026 06:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 08:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Pluspetrol entra al RIGI con un área que ya produce 46.594 barriles de petróleo por día: 3,6 veces más que hace un año</title>
+      <link>https://coninteres.com/articulos/2026-10-02-pluspetrol-rigi-bajo-del-choique-produccion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-02-pluspetrol-rigi-bajo-del-choique-produccion.html</guid>
+      <pubDate>Fri, 02 Oct 2026 09:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>El Gobierno anunció el ingreso al RIGI de Bajo del Choique-La Invernada, el área de Vaca Muerta donde Pluspetrol y GyP prometen invertir US$12.400 millones en 25 años. Según las declaraciones juradas ante la Secretaría de Energía, en agosto ya produjo 46.594 barriles de petróleo por día, 3,6 veces más que un año antes: es la quinta área de Neuquén y saca casi 5 de cada 100 barriles del país.</description>
+      <ci:numero>46.594</ci:numero>
+      <ci:numeroEtiqueta>barriles de petróleo por día que produjo en agosto de 2026 Bajo del Choique-La Invernada, el área de Pluspetrol que entra al RIGI (Secretaría de Energía, Capítulo IV); 13.047 un año antes</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-pluspetrol-rigi-bajo-del-choique-produccion.png" length="72373" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-pluspetrol-rigi-bajo-del-choique-produccion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El piso de Ganancias para los jubilados es $3,49 millones por mes en octubre: 19% más que la jubilación máxima de la ANSES</title>
       <link>https://coninteres.com/articulos/2026-10-02-ganancias-jubilados-piso-octubre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>alquiler mensual publicado de un dos ambientes en la Ciudad de Buenos Aires, agosto 2026 (IDECBA, provisorio)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-alquiler-dos-ambientes-caba-sueldo.png" length="79244" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-alquiler-dos-ambientes-caba-sueldo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El tambero cobra $535 por litro de leche y el sachet sale $2.008 en el Gran Buenos Aires: le llegan $26,6 de cada $100, contra $29,3 un año antes</title>
-      <link>https://coninteres.com/articulos/2026-09-29-tambero-leche-precio-sachet.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-tambero-leche-precio-sachet.html</guid>
-      <pubDate>Tue, 29 Sep 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En un año, lo que cobran los tambos subió 13,0%; el sachet, 24,2%, y los precios en general, 33,5%. De mayo a agosto de 2026, la parte del precio de la leche que le queda al productor no estuvo tan baja desde mayo de 2018.</description>
-      <ci:numero>26,6%</ci:numero>
-      <ci:numeroEtiqueta>lo que cobró el tambero por litro sobre el precio del sachet de leche entera en el GBA, agosto 2026 (Agricultura e INDEC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-tambero-leche-precio-sachet.png" length="76716" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-tambero-leche-precio-sachet.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

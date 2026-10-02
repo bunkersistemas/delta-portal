@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-02T06:43:05-03:00",
+    "actualizado": "2026-10-02T08:47:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-02-pluspetrol-rigi-bajo-del-choique-produccion",
+      "titulo": "Pluspetrol entra al RIGI con un área que ya produce 46.594 barriles de petróleo por día: 3,6 veces más que hace un año",
+      "bajada": "El Gobierno anunció el ingreso al RIGI de Bajo del Choique-La Invernada, el área de Vaca Muerta donde Pluspetrol y GyP prometen invertir US$12.400 millones en 25 años. Según las declaraciones juradas ante la Secretaría de Energía, en agosto ya produjo 46.594 barriles de petróleo por día, 3,6 veces más que un año antes: es la quinta área de Neuquén y saca casi 5 de cada 100 barriles del país.",
+      "titulo_busqueda": "¿Cuánto petróleo produce Pluspetrol en Vaca Muerta y cuánto invierte con el RIGI?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "46.594",
+      "numero_label": "barriles de petróleo por día que produjo en agosto de 2026 Bajo del Choique-La Invernada, el área de Pluspetrol que entra al RIGI (Secretaría de Energía, Capítulo IV); 13.047 un año antes",
+      "fecha": "2026-10-02",
+      "hora": "09:30",
+      "archivo": "articulos/2026-10-02-pluspetrol-rigi-bajo-del-choique-produccion.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-02-ganancias-jubilados-piso-octubre",
       "titulo": "El piso de Ganancias para los jubilados es $3,49 millones por mes en octubre: 19% más que la jubilación máxima de la ANSES",
