@@ -2417,6 +2417,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto te prestan con los créditos hipotecarios de la ANSES / segunda licitación de plazos fijos UVA del FGS (Com. B 13240, 02/10/2026; licitación 06/10, $200.000 M; pasa de 'primera vivienda' a única vivienda o sin uso de la que tiene): tope 150.000 UVA (Com. A 8475) × UVA $2.140,88 (02/10/2026) = $321.132.000 (US$210.843 a $1.523,0868); cuota inicial con UVA+7,5% y sistema francés: 15 años $2.976.933, 20 años $2.587.018 (1,33 RIPTE jul-26 $1.946.028,12), 25 años $2.373.137, 30 años $2.245.402; 622 créditos al tope con $200.000 M; programa $2 billones = 22% de la cartera hipotecaria en pesos ($9.082.976 M al 29/09/2026, BCRA var. 112), cartera en UVA +29,0% i.a. y +3,2% en septiembre",
+      "angulo": "Pregunta de plata detrás de la noticia del día (Infobae, cambio de primera a única vivienda en la segunda licitación). Los medios cuentan el cambio de requisito; el nuestro es cuánto puede prestar como máximo cada crédito, cuánto cuesta la cuota y el tamaño del programa contra la cartera. Distinto de la nota del 26/08 (anuncio del plan de Caputo) y de la del 25/09 (cuánto presta un banco con el sueldo promedio, que se enlaza). El resultado de la primera licitación (13 bancos, UVA+4,94% a 5 años) no se usó como dato propio: sin documento oficial encontrado.",
+      "fecha": "2026-10-02",
+      "estado": "publicada",
+      "articulo_id": "2026-10-02-credito-hipotecario-anses-fgs-tope-cuota"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/10/2026 20:30: Argentina Week US$27.000 M (5 portadas), riesgo país en máximo del año (5), ciudadanía por inversión (3), Línea F del subte (infobae, Cronista), Lácteos Verónica y Granja Tres Arroyos (iProfesional), Willard en concurso (iProfesional), litio de Jujuy con minera china (iProfesional), Savencia cierra la ex Ilolay (iProfesional), consumo de cerdo 20 kg (infobae), elecciones en Brasil (La Nación, Cronista), visita del papa León XIV (Cronista), empresas CNV: Caja de Valores (anuncios de dividendos 02/10) y Aluar (respuesta a la ANSES 02/10)",
+      "angulo": "NO TOMADAS en la corrida programada del 02/10/2026 20:30; ganó el tope de los créditos hipotecarios del FGS (Com. A 8475 y B 13240, BCRA). Argentina Week, riesgo país, ciudadanía, Línea F, Lácteos Verónica, Aluar, Caja de Valores: ya descartadas hoy con el mismo motivo (sin documento con montos, EMBI sin fuente primaria abierta, sin cifra ancla en la línea de la CNV). Willard, Savencia, Granja Tres Arroyos: sin documento primario en el bloque de la CNV. Litio de Jujuy: retomable con el IPI minero del 08/10. Cerdo: publicado el 23/07. Brasil: comercio bilateral publicado el 27/09. Papa: descartado dos veces (25 y 28/09). Hoy ya hay notas de EMPRESAS (Pluspetrol, Arcor): el cupo no aplica. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-10-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
     }
   ]
 }
