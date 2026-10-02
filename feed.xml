@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 02 Oct 2026 00:38:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 02:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Arcor consiguió US$43 millones a tres años al 5,69% anual: en mayo, por el mismo plazo, había pagado 5,25%</title>
+      <link>https://coninteres.com/articulos/2026-10-02-arcor-obligaciones-negociables-tasa-dolares.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-02-arcor-obligaciones-negociables-tasa-dolares.html</guid>
+      <pubDate>Fri, 02 Oct 2026 03:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>En la licitación del 1 de octubre, Arcor colocó US$43,4 millones en obligaciones negociables a tres años al 5,69% anual, 0,44 puntos más que en mayo por el mismo plazo, y $55.408 millones en pesos a la tasa TAMAR más 4,95 puntos, contra 2,99 en mayo. En esos meses el riesgo país pasó de 543 a 636 puntos.</description>
+      <ci:numero>5,69%</ci:numero>
+      <ci:numeroEtiqueta>tasa nominal anual en dólares de la ON Clase 7 de Arcor, a tres años (licitación del 01/10/2026; 5,25% en mayo)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-arcor-obligaciones-negociables-tasa-dolares.png" length="76448" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-arcor-obligaciones-negociables-tasa-dolares.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>De cada dólar de dividendo que pagó Coca-Cola, al dueño argentino de un Cedear le llegaron 65 centavos: 30 se los quedó el fisco de Estados Unidos</title>
       <link>https://coninteres.com/articulos/2026-10-02-cedear-dividendo-coca-cola-retencion.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>billetes y depósitos en el exterior de hogares y empresas al 30/06/2026 (INDEC, provisorio)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-dolares-fuera-del-sistema-hogares-empresas.png" length="76082" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-dolares-fuera-del-sistema-hogares-empresas.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un bancario que recién entra cobra $2.505.061 en agosto: su sueldo subió 33,5% en un año, lo mismo que la inflación, y el salario formal promedio quedó 3,7% atrás</title>
-      <link>https://coninteres.com/articulos/2026-09-29-cuanto-cobra-bancario-octubre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-29-cuanto-cobra-bancario-octubre.html</guid>
-      <pubDate>Tue, 29 Sep 2026 13:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La escala firmada de agosto de 2026 fija en $2.505.061,24 el salario inicial conformado de un empleado bancario (CCT 18/75), más $72.413,50 de participación en las ganancias. Es la que rige cuando se cobra en octubre: la de septiembre recién se conoce después del IPC del 13 de octubre. El sueldo bancario se ajusta por la inflación acumulada del INDEC: subió 33,5% en un año, igual que los precios. El salario formal promedio (RIPTE) perdió 3,7% en el año a julio.</description>
-      <ci:numero>$2.505.061</ci:numero>
-      <ci:numeroEtiqueta>es el salario inicial conformado de un empleado bancario (CCT 18/75) en agosto de 2026, la escala que rige al cobrar en octubre</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-29-cuanto-cobra-bancario-octubre.png" length="80903" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-29-cuanto-cobra-bancario-octubre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-02T00:38:52-03:00",
+    "actualizado": "2026-10-02T02:46:42-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-02-arcor-obligaciones-negociables-tasa-dolares",
+      "titulo": "Arcor consiguió US$43 millones a tres años al 5,69% anual: en mayo, por el mismo plazo, había pagado 5,25%",
+      "bajada": "En la licitación del 1 de octubre, Arcor colocó US$43,4 millones en obligaciones negociables a tres años al 5,69% anual, 0,44 puntos más que en mayo por el mismo plazo, y $55.408 millones en pesos a la tasa TAMAR más 4,95 puntos, contra 2,99 en mayo. En esos meses el riesgo país pasó de 543 a 636 puntos.",
+      "titulo_busqueda": "¿A qué tasa se endeudó Arcor con sus nuevas obligaciones negociables?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "5,69%",
+      "numero_label": "tasa nominal anual en dólares de la ON Clase 7 de Arcor, a tres años (licitación del 01/10/2026; 5,25% en mayo)",
+      "fecha": "2026-10-02",
+      "hora": "03:30",
+      "archivo": "articulos/2026-10-02-arcor-obligaciones-negociables-tasa-dolares.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-02-cedear-dividendo-coca-cola-retencion",
       "titulo": "De cada dólar de dividendo que pagó Coca-Cola, al dueño argentino de un Cedear le llegaron 65 centavos: 30 se los quedó el fisco de Estados Unidos",
