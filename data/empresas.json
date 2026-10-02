@@ -1,11 +1,38 @@
 {
-  "generado": "2026-10-02T12:30",
+  "generado": "2026-10-02T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3575946",
+      "fuente": "CNV",
+      "fecha": "2026-10-02T13:32",
+      "entidad": "CAJA DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV Y BYMA DIGITAL 8605 OCTUBRE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/52135B16-7471-494A-832B-A11C563F9705"
+    },
+    {
+      "id": "cnv-3575945",
+      "fuente": "CNV",
+      "fecha": "2026-10-02T13:32",
+      "entidad": "CAJA DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV Y BYMA DIGITAL 8603 OCTUBRE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/C7BCE07B-67C3-4850-8CF8-FD388B9416F2"
+    },
+    {
+      "id": "cnv-3575943",
+      "fuente": "CNV",
+      "fecha": "2026-10-02T13:32",
+      "entidad": "CAJA DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV 8575",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FC4FB13C-4B86-4EC4-B72D-EE2D04E39DE8"
+    },
     {
       "id": "sec-0001292814-26-004838",
       "fuente": "SEC",

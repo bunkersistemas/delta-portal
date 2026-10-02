@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-02T12:41:12-03:00",
+    "actualizado": "2026-10-02T14:43:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-02-inversion-extranjera-directa-negativa-casas-matrices",
+      "titulo": "La inversión extranjera directa dio negativa entre abril y junio: salieron US$1.820 millones netos porque las filiales les devolvieron deuda a sus casas matrices",
+      "bajada": "Lo registró el INDEC en la balanza de pagos del segundo trimestre de 2026. En el primer semestre la inversión extranjera directa sumó US$1.014 millones, lo menos para esos seis meses desde 2014. Y por el mercado de cambios, en 2025 salieron más dólares de inversión directa de los que entraron, por primera vez en la serie del Banco Central, que empieza en 2003.",
+      "titulo_busqueda": "¿Cuánta inversión extranjera entra de verdad a la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−US$1.820 M",
+      "numero_label": "inversión extranjera directa neta en la Argentina, 2T-2026 (INDEC, emisión neta de pasivos de inversión directa, provisorio): las filiales cancelaron US$2.789 M de deuda con sus casas matrices",
+      "fecha": "2026-10-02",
+      "hora": "14:30",
+      "archivo": "articulos/2026-10-02-inversion-extranjera-directa-negativa-casas-matrices.html",
+      "verificacion": "verificada",
+      "fuentes": 3,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-02-industria-textil-produccion-debajo-pandemia",
       "titulo": "La industria textil produjo 22,6% menos que en 2025: entre enero y julio fabricó menos que en 2020, el año de la cuarentena",

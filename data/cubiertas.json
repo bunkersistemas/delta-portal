@@ -2372,6 +2372,21 @@
       "fecha": "2026-10-02",
       "estado": "publicada",
       "articulo_id": "2026-10-02-industria-textil-produccion-debajo-pandemia"
+    },
+    {
+      "tema": "cuánta inversión extranjera entra de verdad a la Argentina / inversión extranjera directa (emisión neta de pasivos de inversión directa), INDEC balanza de pagos 2T-2026 (29/09/2026, cuadro I.13 y apartado 3.1 pág. 21; cin_II_2026.xls cuadros 6 y 14): 2T-26 -1.819,7 (capital distinto de reinversión -228,6, reinversión de utilidades +1.198,0, instrumentos de deuda -2.789,1; INDEC: cancelaciones de deuda de sucursales y subsidiarias con sus casas matrices); 1T-26 2.834,1; 1S-26 1.014,4 (1S-25 3.541,4, -71,4%), el primer semestre más bajo desde 2014 (-368,4; siguen 2020 1.720,2 y 2009 2.016,3); 1S-26 sin reinversión -1.511,1 (2014: -3.129,0); 2025 4.361,7, el año más bajo desde 2016 (3.260,2); trimestres negativos 2T-14, 4T-16, 2T-20, 4T-25 (-4.104,3) y 2T-26. BCRA anexo balance cambiario, MC por concepto, inversión directa de no residentes: 2T-26 ingresos 405,4, egresos 1.132,9, neto -727,5; 1S-26 -183,9; ene-ago 2026 -760,2; 2025 -1.340,7 (único año negativo desde 2003; egresos 2.762,6, máximo de la serie, previo 2024 816,5)",
+      "angulo": "Corrida programada del 02/10/2026 14:30. Disparador: Argentina Week en París (infobae, La Nación, ámbito y Cronista, 02/10). Ángulo propio: anuncios contra lo que registra la balanza de pagos; no se cita la cifra de US$27.000 M de anuncios (sin documento oficial, solo declaraciones reproducidas por medios). Ancla CONFIRMADA por el camino de estadística oficial recalculada (NEWSROOM 3): texto del informe técnico (-1.820) + recálculo desde cin_II_2026.xls (cuadros 6 y 14 cierran) + contraste independiente con el BCRA (mercado de cambios, -727,5 en el trimestre, misma dirección). La diferencia en el semestre (INDEC +1.014 vs BCRA -184) se explica por la reinversión de utilidades y la deuda pagada fuera del mercado de cambios; sin reinversión el INDEC da -1.511. Superlativos con valor previo: 1S-2014 (INDEC) y serie BCRA desde 2003. No se identifican empresas (INDEC no publica el detalle). Complementa la nota de dividendos del 29/09. Hoy ya hay notas de EMPRESAS (Pluspetrol, Arcor): el cupo no aplica. Si se retoma: balanza de pagos 3T-2026 (diciembre).",
+      "fecha": "2026-10-02",
+      "estado": "publicada",
+      "articulo_id": "2026-10-02-inversion-extranjera-directa-negativa-casas-matrices"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/10/2026 14:30: ciudadanía por inversión (cuánto cuesta, 4 portadas), Lácteos Verónica (cheques rechazados y concurso, iProfesional), recaudación de septiembre (+3,7%, La Nación, iProfesional, Página12), maíz récord 2025/26 (64 Mt, Bolsa de Cereales), exportaciones agro a la UE +21% (infobae), deuda flotante (Cronista), riesgo país 650 (4 portadas), BBVA 6-K estados financieros al 30/06 (SEC)",
+      "angulo": "NO TOMADAS en la corrida programada del 02/10/2026 14:30; ganó la inversión extranjera directa (INDEC + BCRA). Ciudadanía por inversión: el BO del 02/10 (17 resoluciones, CNV RG 1170, DNM Disp. 1290) sigue sin la norma con los montos; sin documento oficial. Lácteos Verónica: el dato de los cheques (BCRA) ya lo contestaron varios medios con la misma fuente; sin ángulo propio. Recaudación de septiembre: dato del día ya publicado por todos con el mismo ángulo. Maíz récord: cifra de la Bolsa de Cereales reproducida por todos los medios agro. Exportaciones a la UE: informe ya difundido, sin ángulo nuevo. Deuda flotante: definición discutible desde Presupuesto Abierto, riesgo alto. Riesgo país: el EMBI no tiene fuente primaria abierta. BBVA: balance ya cubierto el 26/09 (mora). Hoy ya hay notas de EMPRESAS (Pluspetrol, Arcor): el cupo no aplica.",
+      "fecha": "2026-10-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario (ciudadanía, riesgo país) o sin ángulo propio frente a la candidata elegida"
     }
   ]
 }
