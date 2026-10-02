@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T20:48:55-03:00",
+    "actualizado": "2026-10-01T22:46:04-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-cuanto-cobra-un-fiscal-federal",
+      "titulo": "Un fiscal general federal cobra $9,38 millones brutos por mes: en nueve meses su sueldo subió 24,7%, lo mismo que la inflación",
+      "bajada": "Es lo que fija para agosto de 2026 la escala de la Procuración General de la Nación para un fiscal general, el cargo de Diego Luciani, ovacionado hoy en el Coloquio de IDEA: $9.379.464 por mes, antes de descuentos y sin el adicional por antigüedad. Desde diciembre de 2025, los aumentos de jueces y fiscales federales copiaron la inflación del INDEC. Entre agosto de 2024 y diciembre de 2025 habían quedado 2,3% atrás.",
+      "titulo_busqueda": "¿Cuánto cobra un fiscal federal en la Argentina? $9,38 millones brutos un fiscal general",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$9,38 millones",
+      "numero_label": "sueldo bruto mensual de un fiscal general del Ministerio Público Fiscal de la Nación (y de un juez de cámara), agosto de 2026, sin antigüedad (Procuración General, escala salarial, código 506: $9.379.464,53); +24,7% desde noviembre de 2025, igual que el IPC",
+      "fecha": "2026-10-01",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-01-cuanto-cobra-un-fiscal-federal.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-01-coparticipacion-provincias-por-habitante",
       "titulo": "La Nación giró $7,02 billones a las provincias en septiembre: por habitante, Tierra del Fuego recibió $437.740 y Buenos Aires $91.329, casi cinco veces menos",

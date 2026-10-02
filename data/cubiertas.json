@@ -2302,6 +2302,13 @@
       "fecha": "2026-10-01",
       "estado": "publicada",
       "articulo_id": "2026-10-01-coparticipacion-provincias-por-habitante"
+    },
+    {
+      "tema": "cuánto cobra un fiscal federal / escala salarial de la Procuración General de la Nación, agosto de 2026: fiscal general (código 506, ante tribunal oral, cargo de Diego Luciani) $9.379.464,53 brutos sin antigüedad; fiscal ante juez de 1ª instancia $7.363.234,35; Procurador General $11.346.912,25; auxiliar $2.006.954,14. Aumentos de la escala de magistrados desde dic-2025 iguales al IPC mensual (dic 2,8; ene-mar 9,5 acum.; abr 2,6; may 2,1; jun 1,9; jul 2,1; ago 1,7): nov-25 a ago-26 +24,7% contra IPC +24,7%; ago-24 a ago-26 +74,4% contra +78,4% (-2,2% real, ya -2,3% a dic-25)",
+      "angulo": "Corrida programada del 01/10/2026 22:30. Pregunta de plata detrás de la ovación a Luciani en el Coloquio de IDEA (lanacion, infobae 01/10). Ángulo propio: el sueldo del cargo y la regla que muestran los documentos (cada aumento desde diciembre igual al IPC del mes). Ancla CONFIRMADA por dos fuentes oficiales independientes: (1) escala PGN ago-26, suma de componentes = total; (2) escala del Consejo de la Magistratura: juez de cámara = fiscal general al centavo en dic-25 ($7.729.168,51), y cada componente de jul-26 del Consejo ($9.222.678,99) x 1,017 da el de ago-26 de la PGN. IPC: serie_ipc_divisiones.csv. Sin superlativos. No se afirma el ingreso personal de Luciani ni una norma de indexación. Si se retoma: cuando salga el IPC de septiembre (13/10) y la escala de septiembre, ver si la regla sigue.",
+      "fecha": "2026-10-01",
+      "estado": "publicada",
+      "articulo_id": "2026-10-01-cuanto-cobra-un-fiscal-federal"
     }
   ]
 }
