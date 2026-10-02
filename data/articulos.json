@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-01T22:46:04-03:00",
+    "actualizado": "2026-10-02T00:38:52-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-02-cedear-dividendo-coca-cola-retencion",
+      "titulo": "De cada dólar de dividendo que pagó Coca-Cola, al dueño argentino de un Cedear le llegaron 65 centavos: 30 se los quedó el fisco de Estados Unidos",
+      "bajada": "Coca-Cola pagó el 1 de octubre US$0,53 por acción. Según el aviso de pago que Banco Comafi presentó ante la CNV, al dueño de un Cedear de la empresa le llegaron US$0,0688 de los US$0,106 que le correspondían: 64,9%. El 30% lo retuvo el fisco de Estados Unidos y el resto fue la comisión del banco y su IVA.",
+      "titulo_busqueda": "¿Cuánto se cobra de dividendo con un Cedear?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$0,65",
+      "numero_label": "de cada dólar de dividendo de Coca-Cola le llegó al dueño de un Cedear",
+      "fecha": "2026-10-02",
+      "hora": "01:30",
+      "archivo": "articulos/2026-10-02-cedear-dividendo-coca-cola-retencion.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-01-cuanto-cobra-un-fiscal-federal",
       "titulo": "Un fiscal general federal cobra $9,38 millones brutos por mes: en nueve meses su sueldo subió 24,7%, lo mismo que la inflación",

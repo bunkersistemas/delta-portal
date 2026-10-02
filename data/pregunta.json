@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-01",
-  "pregunta": "Según el INDEC y el boletín de la Seguridad Social, en junio de 2026 una jubilada del sistema nacional cobraba en promedio $647.279 y un jubilado $893.978. Pero entre quienes se jubilaron sin moratoria, ellas cobran $107 por cada $100 de ellos. ¿Qué explica que en el promedio general las mujeres cobren menos?",
+  "fecha": "2026-10-02",
+  "pregunta": "Según el INDEC, en el segundo trimestre de 2026 un hogar necesitaba $3.900.000 por mes para estar en el 10% que más gana de las 31 ciudades de la EPH. Un año antes la vara era $3.100.000: subió 25,8%. En el mismo período los precios subieron 33,0%. ¿Qué quiere decir eso?",
   "opciones": [
-    "Que 79,5% de las jubiladas entró por moratoria, contra 48,9% de los varones, y las jubilaciones por moratoria son en promedio mucho más bajas",
-    "Que la ley les paga a las mujeres una jubilación menor que a los varones por los mismos aportes",
-    "Que las mujeres se jubilan a los 60 años y por cada año antes de los 65 se les descuenta una parte del haber"
+    "Que, descontada la inflación, hoy hace falta un ingreso de menor poder de compra que hace un año para entrar en el 10% de arriba",
+    "Que los hogares más ricos ganan hoy menos pesos que hace un año",
+    "Que el 10% más rico es hoy un grupo más chico que hace un año"
   ],
   "correcta": 0,
-  "explicacion": "El promedio mezcla dos grupos muy distintos. Quien se jubiló por moratoria (con pocos o ningún año de aportes, que paga en cuotas) cobraba en junio en promedio $470.974 si era mujer y $523.960 si era varón; quien se jubiló con sus aportes, $1.331.761 y $1.248.278. Como ocho de cada diez mujeres entraron por moratoria y entre los varones es la mitad, el promedio de ellas queda más cerca del haber bajo. Por eso un promedio puede mostrar una brecha que dentro de cada grupo no existe o va al revés.",
-  "nota": "articulos/2026-09-30-jubiladas-haber-medio-moratoria.html",
-  "leccion": ""
+  "explicacion": "Los deciles siempre agrupan al 10% de los hogares, así que el grupo no se achica: lo que se mueve es la vara de entrada. Esa vara subió de $3.100.000 a $3.900.000, así que en pesos es más alta. Pero como los precios subieron más (33,0% contra 25,8%), con $3.900.000 de hoy se compra menos que con $3.100.000 de hace un año. Cuando un monto sube menos que la inflación, pierde poder de compra aunque el número sea más grande.",
+  "nota": "articulos/2026-10-01-cuanto-hay-que-ganar-10-por-ciento-mas-rico-pais.html",
+  "leccion": "lecciones/inflacion-bolsillo.html"
 }

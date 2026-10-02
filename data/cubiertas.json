@@ -2309,6 +2309,21 @@
       "fecha": "2026-10-01",
       "estado": "publicada",
       "articulo_id": "2026-10-01-cuanto-cobra-un-fiscal-federal"
+    },
+    {
+      "tema": "empresas / cupo del día 02/10/2026 00:30: Banco Comafi (acción de clase ACYMA, Expte. 24445/2024, programa de beneficios) y Aval Federal SGR / FID Aval SGR (fusión por absorción, fondo de riesgo autorizado $24.592.156.065)",
+      "angulo": "NO TOMADAS en la corrida programada del 02/10/2026 00:30. Leídos los PDF en la CNV. Comafi, acción de clase: la nota del banco no trae montos reclamados ni el objeto exacto del reclamo, solo que se refiere al programa de beneficios y que el banco la va a contestar; sin cifra ancla. Aval Federal/FID Aval: hay cifras del fondo de riesgo pero sin serie ni comparación y de bajo interés para el lector. Ganó otro documento de la misma CNV del 01/10: los avisos de pago de dividendos de Cedear de Comafi.",
+      "fecha": "2026-10-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin cifra ancla (Comafi) / sin contexto ni interés (SGR)"
+    },
+    {
+      "tema": "cuánto se cobra de dividendo con un Cedear / avisos de pago de Banco Comafi ante la CNV (HR 01/10/2026, CEDEARS-AVISOS DE PAGO ADP-FDX-KO-NKE-NVDA, pago 01/10/2026): Coca-Cola US$0,53 por acción (10-Q SEC trimestre al 03/07/2026), relación 5:1, bruto US$0,106 por Cedear, retención 30% US$0,0318, comisión US$0,004452 (4,2%), IVA US$0,000935, neto US$0,068813 = 64,9%; 7.936.555 Cedear (1.587.311 acciones), pagado US$546.138,76; Nvidia, Nike 64,9%; ADP y FedEx 63,2% (comisión 5,6%); total cinco avisos US$1.071.751,08, retenido ≈US$495.384 (cálculo propio); Argentina sin tratado tributario con EE.UU. (IRS)",
+      "angulo": "Corrida programada del 02/10/2026 00:30. Pregunta de plata + cupo de EMPRESAS (documento primario de la CNV): cuánto llega de verdad de un dividendo de Cedear (tema en iProfesional, tres notas de Cedear del 01/10). Ancla CONFIRMADA por dos fuentes independientes: aviso de Comafi y 10-Q de Coca-Cola para US$0,53; 30% en aviso y en IRS NRA Withholding; recálculo cierra con el aviso (diferencia de US$0,60 en el total por redondeo). Sin superlativos. No se afirma la tributación argentina posterior ni la comisión de otros emisores.",
+      "fecha": "2026-10-02",
+      "estado": "publicada",
+      "articulo_id": "2026-10-02-cedear-dividendo-coca-cola-retencion"
     }
   ]
 }
