@@ -1,11 +1,21 @@
 {
-  "generado": "2026-10-02T10:30",
+  "generado": "2026-10-02T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "sec-0001292814-26-004838",
+      "fuente": "SEC",
+      "fecha": "2026-10-02",
+      "entidad": "BBVA Argentina",
+      "ticker": "BBAR",
+      "tipo": "balance",
+      "descripcion": "6-K Financial Statements as of June 30, 2026. SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed",
+      "url": "https://www.sec.gov/Archives/edgar/data/913059/000129281426004838/bbarfs2q26_6k.htm"
+    },
     {
       "id": "cnv-3575704",
       "fuente": "CNV",

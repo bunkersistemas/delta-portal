@@ -2365,6 +2365,13 @@
       "fecha": "2026-10-02",
       "estado": "publicada",
       "articulo_id": "2026-10-02-catamarca-exportaciones-cobre-alumbrera-agua-rica"
+    },
+    {
+      "tema": "cuánto cayó la industria textil en 2026 / IPI manufacturero INDEC jul-2026 (informe 08/09/2026, cuadro 2.3): división 17 Productos textiles índice 73,3, -13,0% i.a., -22,6% acumulado ene-jul (recálculo cuadro 2: suma 400,00 vs 516,55 = -22,56%); enero-julio más bajo de la serie 2016-2026 (valor previo 2020, suma 444,55; 2026 -10,0%), -33,9% vs 2023, -50,8% vs 2016; 13 meses seguidos de caída i.a. (jul-25 a jul-26), pozo nov-25 -35,7%; tejidos y acabado -35,1%, hilados de algodón -17,5%, fibras -15,4%, otros -17,1%; prendas, cuero y calzado -14,4% (no perfora 2020: 509,81 vs 347,97); empleo registrado OEDE/SIPA rama 17: 51.884 puestos 1T-26 vs 58.984 1T-25 (-12,0%) y 62.996 4T-23 (-17,6%), mínimo desde 3T-2004 (50.739); confecciones 35.709 (-9,1% i.a.; 41.742 en 4T-23); IPC jul-26 prendas y calzado +11,5% i.a. vs nivel general +33,8% (la división que menos subió)",
+      "angulo": "Corrida programada del 02/10/2026 12:30. Tema en infobae y ámbito (informe de la FITA, 02/10). Ángulo propio: el nivel, no la variación: la producción textil de enero-julio quedó por debajo de la de 2020 y es la más baja de la serie, con el empleo de la rama en mínimo desde 2004. Ancla CONFIRMADA por el camino de estadística oficial recalculada (NEWSROOM 3): informe técnico del INDEC + recálculo desde sh_ipi_manufacturero_2026.xls + contraste independiente con el registro administrativo del SIPA (OEDE, nacional_serie_empleo_trimestral_8.xlsx, cuadro 4): -12,0% i.a. en 1T-26, misma dirección, magnitud menor que la producción del trimestre (-26,9%). Superlativos con valor previo: 2020 (IPI) y 3T-2004 (empleo). No se recalculan ni afirman en voz propia las cifras de la FITA (28.322 puestos desde dic-23, otra apertura); no se explican causas ni importaciones. Hoy ya hay notas de EMPRESAS (Arcor, Pluspetrol): el cupo no aplica. Si se retoma: IPI de agosto el 07/10/2026 y empleo del 2T-26.",
+      "fecha": "2026-10-02",
+      "estado": "publicada",
+      "articulo_id": "2026-10-02-industria-textil-produccion-debajo-pandemia"
     }
   ]
 }
