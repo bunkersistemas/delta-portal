@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-02T02:46:42-03:00",
+    "actualizado": "2026-10-02T04:46:30-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-02-ypf-juicio-corte-suprema-burford-valor",
+      "titulo": "El fondo que financió el juicio por YPF valúa su parte en US$101 millones: a fin de 2025 la tenía en US$1.689 millones",
+      "bajada": "Burford Capital bajó 94% el valor de lo que espera cobrar por el juicio de YPF después de que la Cámara de Apelaciones de Nueva York anulara la sentencia de US$16.100 millones contra la Argentina. El 30 de septiembre, los demandantes le pidieron a la Corte Suprema de EE.UU. que la reviva: la Corte toma unos 80 casos por año de los 7.000 a 8.000 que le piden revisar.",
+      "titulo_busqueda": "¿Cuánto tiene que pagar la Argentina por el juicio de YPF? Hoy, nada: la sentencia de US$16.100 millones está anulada",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$101,1 M",
+      "numero_label": "valor razonable de la parte propia de Burford Capital en los juicios por YPF al 30/06/2026 (10-Q ante la SEC); US$1.689,4 M al 31/12/2025",
+      "fecha": "2026-10-02",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-02-ypf-juicio-corte-suprema-burford-valor.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-02-arcor-obligaciones-negociables-tasa-dolares",
       "titulo": "Arcor consiguió US$43 millones a tres años al 5,69% anual: en mayo, por el mismo plazo, había pagado 5,25%",
