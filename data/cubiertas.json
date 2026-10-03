@@ -2483,6 +2483,21 @@
       "fecha": "2026-10-03",
       "estado": "publicada",
       "articulo_id": "2026-10-03-deuda-fmi-cuanto-debe-argentina-vencimientos"
+    },
+    {
+      "tema": "cuántos locales vacíos hay en la Ciudad de Buenos Aires (RETOMADA: descartada el 03/10 00:30 como 'sin fuente oficial'; sí la hay) / IDECBA, ejes comerciales 2do cuatrimestre 2026 (Informe de resultados 2063, 01/10/2026; xlsx AC_EJ_2026_03, _06 y _07): 1.388 desocupados sobre 12.916 relevados = 10,7% (2C-2025: 1.100 sobre 12.919 = 8,5%; +288); alquiler/venta 239 -> 464 (+94%), vacantes 597 -> 728, construcción 264 -> 196; ocupados 11.819 -> 11.528 (-291), indumentaria -196 (67%), alojamiento y comidas +58; Comuna 8 15,2% y Comuna 15 15,0%; Villa Crespo 11,8% -> 22,7%; contraste CAC jul-ago 2026: 284 locales, +4% i.a., alquiler +120,4% (Noticias Argentinas 03/09/2026)",
+      "angulo": "la tasa más alta de las cinco mediciones del recorrido de 48 ejes (8,4 / 8,5 / 8,7 / 10,0 / 10,7) y ocupación 89,3% debajo del mínimo del recorrido anterior de 53 ejes (90,1%, 3C-2025, IDECBA informe 2005); el cartel de alquiler casi se duplica; la ropa explica dos tercios de la caída neta de comercios abiertos. Verificación: estadística oficial recalculada desde el banco de datos del IDECBA + contraste CAC (dirección coincide, magnitud distinta por universo y período, explicada en la nota).",
+      "fecha": "2026-10-03",
+      "estado": "publicada",
+      "articulo_id": "2026-10-03-locales-vacios-caba-ejes-comerciales"
+    },
+    {
+      "tema": "descartes de la corrida programada del 03/10/2026 06:30: riesgo país en máximo del año (5 portadas), Argentina Week US$27.000 M (5), ciudadanía por inversión (3), plan de retiros voluntarios en la APN (infobae), Gran Premio Jockey Club (La Nación), habilitaciones comerciales en CABA (Cronista), deuda flotante (Cronista), desigualdad 2T-2026 (Página12), consumo de huevo (infobae), alojamiento en Luján por la visita del papa (infobae), Burkina Faso (infobae, La Nación), empresas CNV/SEC: BBVA 6-K al 30/06, Caja de Valores (dividendos), Aval Federal y Fid Aval SGR (fusión), PCR y Luz de Tres Picos (fusión)",
+      "angulo": "NO TOMADAS en la corrida programada del 03/10/2026 06:30; ganaron los locales vacíos de la Ciudad (IDECBA; tema en Página12, iProfesional y otros). Riesgo país, Argentina Week, ciudadanía: ya descartadas con el mismo motivo. Retiros voluntarios: el decreto todavía no salió, sin documento. Jockey Club: premio sin segunda fuente. Habilitaciones: menor interés de búsqueda, retomable con la ley tarifaria porteña. Deuda flotante: retomable con Presupuesto Abierto. Desigualdad: mismo informe que la nota del 01/10 (10% más rico). Huevo: precio cubierto el 30/09. Papa y Burkina Faso: descartados antes. Empresas: hoy ya hay nota de EMPRESAS (Aluar, 00:30), el cupo no aplica; BBVA cubierto el 26/09; fusiones de SGR y de PCR sin cifra ancla en la línea de la CNV. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-03",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
     }
   ]
 }

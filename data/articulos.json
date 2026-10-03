@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T04:46:33-03:00",
+    "actualizado": "2026-10-03T06:40:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-locales-vacios-caba-ejes-comerciales",
+      "titulo": "Las calles comerciales porteñas tienen 1.388 locales vacíos, 288 más que hace un año, y la ropa explica dos de cada tres comercios que se perdieron",
+      "bajada": "Entre mayo y agosto de 2026, casi 11 de cada 100 locales a la calle de los 48 ejes comerciales de la Ciudad de Buenos Aires estaban cerrados, en alquiler o en obra, según el relevamiento del IDECBA. Es la tasa más alta desde que se mide ese recorrido. Los que tienen el cartel de alquiler o venta casi se duplicaron: de 239 a 464.",
+      "titulo_busqueda": "¿Cuántos locales vacíos hay en la Ciudad de Buenos Aires?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "1.388",
+      "numero_label": "locales vacíos en los 48 ejes comerciales de la Ciudad de Buenos Aires, 2do cuatrimestre de 2026: 10,7% de 12.916 relevados (IDECBA, Informe de resultados 2063, provisorio); 1.100 y 8,5% un año antes",
+      "fecha": "2026-10-03",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-03-locales-vacios-caba-ejes-comerciales.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-03-deuda-fmi-cuanto-debe-argentina-vencimientos",
       "titulo": "La Argentina le debe US$57.705 millones al FMI y en 2027 le tiene que devolver US$4.407 millones de capital, casi cuatro veces lo de este año",
