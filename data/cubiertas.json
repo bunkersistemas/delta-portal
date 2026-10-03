@@ -2536,6 +2536,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto ahorra una pyme por contratar con la reforma laboral / RIFL (Decreto 315/2026, art. 7: 2% SIPA-FNE-AAFF + 3% INSSJP = 5% por 48 meses, altas 01/05/2026-30/04/2027) contra 18% / 20,4% del régimen general (Ley 27.541 art. 19); desde el período noviembre de 2026 el FAL (Ley 27.802 arts. 60 y 76, RG ARCA 5907/2026) se suma al 5% porque no se descuenta en las relaciones RIFL (Decreto 315/2026 art. 8): pyme 7,5%, ahorro de 13 a 10,5 puntos",
+      "angulo": "Pregunta de plata detrás de la nota de La Nación del 03/10/2026 ('La reforma laboral de Milei no seduce todavía a los creadores de empleo'). Ángulo propio: el FAL achica el ahorro del RIFL desde noviembre (pyme -2,5 puntos, grandes -1), dato que no surge de ninguna nota leída. Contexto: SIPA desestacionalizado abr-26 6.141.363 a jun-26 6.126.380 (-14.983). No hay dato oficial publicado de altas con modalidad 710. Detracción del art. 22 de la 27.541 dejada afuera de ambos lados (máx. $1.261 por trabajador).",
+      "fecha": "2026-10-03",
+      "estado": "publicada",
+      "articulo_id": "2026-10-03-rifl-cargas-patronales-pyme-fondo-despidos"
+    },
+    {
+      "tema": "descartes de la corrida programada del 03/10/2026 12:30: riesgo país en máximo del año (infobae, La Nación, ámbito, Cronista, Página12), Argentina Week US$27.000 M (La Nación, iProfesional), recaudación e IVA en baja (ámbito, iProfesional, Página12), pollo supera a la vaca (ámbito, iProfesional), créditos hipotecarios con menos ingreso mínimo (infobae, ámbito), visita del papa y alojamiento en Luján (infobae), Burkina Faso, retiros voluntarios, empresas CNV/SEC",
+      "angulo": "NO TOMADAS en la corrida programada del 03/10/2026 12:30; ganó el RIFL contra el FAL (pregunta de plata, Decreto 315/2026 + Ley 27.802 + RG 5907/2026), primera candidata probada. Riesgo país: EMBI sin fuente primaria abierta. Argentina Week: sin documento con montos. Recaudación: ya publicada por todos con el mismo ángulo; el IPC de septiembre sale el 13/10. Pollo: cubierto el 25/07 y el 02/10. Hipotecarios: tope del FGS publicado el 02/10. Papa: sigue sin resolución de la JGM ni contrataciones con monto; el precio de alojamiento en Luján es de avisos privados. Burkina Faso, retiros voluntarios (sin decreto), Willard, Tres Arroyos, Savencia: sin documento primario. Empresas: hoy ya hay nota de EMPRESAS (Aluar, 00:30), el cupo no aplica; BBVA cubierto el 26/09, Comafi y Mastellone descartados antes, Caja de Valores, Central Puerto y A3 sin cifra ancla en la línea de la CNV. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-03",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
     }
   ]
 }

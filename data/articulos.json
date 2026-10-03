@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T10:47:10-03:00",
+    "actualizado": "2026-10-03T12:50:15-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-rifl-cargas-patronales-pyme-fondo-despidos",
+      "titulo": "Una pyme que toma a un empleado nuevo paga 5% de cargas patronales en vez de 18%, pero desde noviembre pagará 7,5%: el fondo de despidos se come casi un quinto del ahorro",
+      "bajada": "Con el RIFL de la reforma laboral, una empresa que contrata a alguien que estaba fuera del empleo registrado paga 5% de contribuciones durante 48 meses, en vez de 18% o 20,4%. Desde noviembre se le suma el aporte al fondo para despidos, que en el régimen general sale de las mismas contribuciones: por cada $1.000.000 de sueldo, el ahorro de una pyme baja de $130.000 a $105.000 por mes.",
+      "titulo_busqueda": "¿Cuánto ahorra una pyme por contratar con la reforma laboral? El RIFL baja las cargas patronales al 5%",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "7,5%",
+      "numero_label": "pagará desde noviembre una pyme por un empleado del RIFL (5% de contribuciones + 2,5% al FAL), contra 18% del régimen general",
+      "fecha": "2026-10-03",
+      "hora": "12:30",
+      "archivo": "articulos/2026-10-03-rifl-cargas-patronales-pyme-fondo-despidos.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-03-depositos-argentinos-bancos-estados-unidos",
       "titulo": "Personas y empresas de la Argentina tienen US$12.946 millones depositados en bancos de Estados Unidos, 37% más que a fines de 2023",
