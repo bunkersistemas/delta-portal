@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 03 Oct 2026 06:40:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 08:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El litio exportó US$1.126 millones en el primer semestre, más que en todo 2025: ya le vende al mundo más que los lácteos y la cebada</title>
+      <link>https://coninteres.com/articulos/2026-10-03-litio-exportaciones-semestre-supera-2025.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-litio-exportaciones-semestre-supera-2025.html</guid>
+      <pubDate>Sat, 03 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Según el INDEC, entre enero y junio de 2026 el complejo litio vendió al exterior 186,3% más que un año antes y superó lo que había exportado en los doce meses de 2025, que ya habían sido récord. Pasó del puesto 17 al 10 entre los complejos exportadores del país. Lo empujaron a la vez el precio y las toneladas, y casi todo fue a un solo comprador: China se llevó el 83,9%.</description>
+      <ci:numero>US$1.126 M</ci:numero>
+      <ci:numeroEtiqueta>exportaciones del complejo litio en el 1er semestre de 2026 (INDEC, Complejos exportadores, provisorio): +186,3% contra US$393 M del 1er semestre de 2025 y más que todo 2025 (US$932 M, récord de la serie 2002-2025)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-litio-exportaciones-semestre-supera-2025.png" length="84902" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-litio-exportaciones-semestre-supera-2025.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las calles comerciales porteñas tienen 1.388 locales vacíos, 288 más que hace un año, y la ropa explica dos de cada tres comercios que se perdieron</title>
       <link>https://coninteres.com/articulos/2026-10-03-locales-vacios-caba-ejes-comerciales.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>impuesto a las ganancias corriente de YPF en el primer semestre de 2026 (estados financieros al 30/06/2026, nota 19; 6-K ante la SEC del 17/08/2026); US$33 M un año antes</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-ypf-impuesto-ganancias-semestre.png" length="87602" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-ypf-impuesto-ganancias-semestre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Una jubilada cobra en promedio $647.279 y un jubilado $893.978: 72 de cada 100 pesos, porque ocho de cada diez mujeres se jubilaron por moratoria</title>
-      <link>https://coninteres.com/articulos/2026-09-30-jubiladas-haber-medio-moratoria.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-jubiladas-haber-medio-moratoria.html</guid>
-      <pubDate>Wed, 30 Sep 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En junio de 2026 una jubilación del sistema nacional (SIPA) pagó en promedio $739.544: $647.279 si la cobraba una mujer y $893.978 si la cobraba un varón, según el dosier de personas mayores que el INDEC publicó hoy y el boletín de la Seguridad Social. La diferencia no está en lo que cobra cada una sino en cómo se jubilaron: 79,5% de las mujeres entraron por moratoria, contra 48,9% de los varones. Entre quienes se jubilaron con sus aportes, ellas cobran más que ellos.</description>
-      <ci:numero>$647.279</ci:numero>
-      <ci:numeroEtiqueta>haber medio de una jubilada del SIPA en junio de 2026, bono incluido; el de un jubilado fue $893.978: 72 de cada 100 pesos (INDEC y Seguridad Social)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-jubiladas-haber-medio-moratoria.png" length="86441" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-jubiladas-haber-medio-moratoria.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

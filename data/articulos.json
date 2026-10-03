@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T06:40:33-03:00",
+    "actualizado": "2026-10-03T08:42:19-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-litio-exportaciones-semestre-supera-2025",
+      "titulo": "El litio exportó US$1.126 millones en el primer semestre, más que en todo 2025: ya le vende al mundo más que los lácteos y la cebada",
+      "bajada": "Según el INDEC, entre enero y junio de 2026 el complejo litio vendió al exterior 186,3% más que un año antes y superó lo que había exportado en los doce meses de 2025, que ya habían sido récord. Pasó del puesto 17 al 10 entre los complejos exportadores del país. Lo empujaron a la vez el precio y las toneladas, y casi todo fue a un solo comprador: China se llevó el 83,9%.",
+      "titulo_busqueda": "¿Cuánto litio exporta la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$1.126 M",
+      "numero_label": "exportaciones del complejo litio en el 1er semestre de 2026 (INDEC, Complejos exportadores, provisorio): +186,3% contra US$393 M del 1er semestre de 2025 y más que todo 2025 (US$932 M, récord de la serie 2002-2025)",
+      "fecha": "2026-10-03",
+      "hora": "08:30",
+      "archivo": "articulos/2026-10-03-litio-exportaciones-semestre-supera-2025.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-03-locales-vacios-caba-ejes-comerciales",
       "titulo": "Las calles comerciales porteñas tienen 1.388 locales vacíos, 288 más que hace un año, y la ropa explica dos de cada tres comercios que se perdieron",
