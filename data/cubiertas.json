@@ -2513,6 +2513,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
+    },
+    {
+      "tema": "empresas / cuánto debe Lácteos Verónica (VERONICA S.A.C.I.A.F.E.I., CUIT 30-50097982-4; iProfesional 03/10/2026: '10 meses sin sueldos, 3.400 cheques rebotados') / BCRA Central de Deudores, API ChequesRechazados y Deudas/Historicas (03/10/2026): 3.476 cheques rechazados SIN FONDOS por $12.683,2 M entre feb-2025 y ago-2026 (486 pagados por $1.400,4 M; 2.990 impagos por ~$11.282,7 M); pico jun-jul 2025 (2.147 cheques, $6.433 M); deuda bancaria total $9.648,6 M en ene-2025, $4.747,5 M en jul-2026 y $2.108,9 M en ago-2026, toda en situación 3 a 5",
+      "angulo": "FRENADA en la corrida programada del 03/10/2026 10:30 (primera candidata probada). El dato del BCRA se recalcula desde el detalle crudo y coincide con lo publicado en agosto (infobae 22/08: 'más de 2.900 cheques' por 'más de $11.200 M' y $4.745 M de deuda bancaria; pasivo concursal $15.945 M), pero no hay contraste independiente: los medios reproducen la misma Central de Deudores, y el expediente del concurso preventivo (Juzgado Nacional en lo Comercial 17, Secretaría 34) no está accesible en línea ni hay edicto encontrado en el Boletín Oficial, así que el concurso no se puede contar desde el expediente (línea roja 5 de 2 quater). Además el ángulo ya lo publicaron todos en agosto. Retomable si aparece el edicto de apertura o la sindicatura publica el informe del art. 35 (verificación de créditos), con el ángulo de la cronología de los rechazos.",
+      "fecha": "2026-10-03",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla sin contraste independiente (solo BCRA, que los medios reproducen) y concurso sin expediente accesible"
+    },
+    {
+      "tema": "cuánta plata tienen los argentinos en bancos de Estados Unidos (RETOMADA: FATCA descartado el 03/10 02:30 como 'sin cifra'; infobae 03/10/2026 'Acuerdo Fatca: qué información recibe ARCA') / Tesoro de EE.UU., TIC lb_globl.txt, Argentina col. 6 (depósitos no negociables de 'all other foreigners'): jul-26 US$12.946 M (dic-23 9.451, +37,0%; mar-25 10.831, +2.115; máximo de la serie desde 2003: may-20 13.042; Brasil jul-26 12.467; Chile 15.304; México 49.682); contraste BIS LBS (bancos en EE.UU., pasivos préstamos y depósitos con no bancos de la Argentina): Q1-26 12.068 vs TIC mar-26 11.849; Q4-23 9.415 vs 9.451; todos los informantes Q1-26 18.365; acuerdo FATCA art. 2(2)(b): EE.UU. informa intereses, dividendos y otras rentas de fuente EE.UU., no saldos",
+      "angulo": "Pregunta de plata detrás de la noticia del día (FATCA, infobae). Ángulo propio: los medios explican qué recibe ARCA pero no cuánta plata hay; la nota del 29/09 (INDEC, US$260.402 M en billetes y depósitos afuera) decía que no se sabe cuánto es depósito: el TIC pone el piso para EE.UU. (4,7% en jun-26). Camino de verificación: estadística oficial de un solo organismo (Tesoro de EE.UU.) recalculada (las seis columnas suman el total en dólares en los 282 meses) + contraste BIS.",
+      "fecha": "2026-10-03",
+      "estado": "publicada",
+      "articulo_id": "2026-10-03-depositos-argentinos-bancos-estados-unidos"
+    },
+    {
+      "tema": "descartes de la corrida programada del 03/10/2026 10:30: riesgo país en máximo del año (infobae, La Nación, ámbito, Cronista, Página12), Argentina Week US$27.000 M (La Nación, ámbito, iProfesional, Cronista), RIGI dos proyectos (ámbito, Página12), plazo fijo en octubre (ámbito, iProfesional, Cronista), Línea F del subte (infobae, Cronista), vencimientos de deuda en pesos de octubre $27 billones (ámbito), reactor RA-10 del INVAP (Cronista), superávit minero de agosto (ámbito), Granja Tres Arroyos inhibida y Willard en concurso (iProfesional), Savencia cierra la ex Ilolay (iProfesional), Colapinto en Baréin (Página12), empresas CNV/SEC: BBVA 6-K al 30/06, Caja de Valores (dividendos), Central Puerto y A3 Mercados (recompras), Banco Comafi (acción de clase), fusiones de SGR y de PCR con Luz de Tres Picos",
+      "angulo": "NO TOMADAS en la corrida programada del 03/10/2026 10:30; ganó los depósitos de residentes argentinos en bancos de EE.UU. (Tesoro de EE.UU. + BIS), segunda candidata probada después de Lácteos Verónica (frenada). Riesgo país, Argentina Week, RIGI, plazo fijo, Línea F: ya descartadas o cubiertas con el mismo motivo. Vencimientos en pesos: la deuda en pesos antes de las elecciones se publicó el 29/09. RA-10: sin documento con el costo total a mano, menor interés de búsqueda. Superávit minero: litio publicado hoy 08:30 y oro descartado por incoherencia. Tres Arroyos, Willard, Savencia: sin documento primario. Colapinto: sin fuente oficial de cifras. Empresas: hoy ya hay nota de EMPRESAS (Aluar, 00:30), el cupo no aplica; la candidata de empresas con documento del regulador (Verónica, BCRA) se probó y frenó. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-03",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
     }
   ]
 }

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 03 Oct 2026 08:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 10:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Personas y empresas de la Argentina tienen US$12.946 millones depositados en bancos de Estados Unidos, 37% más que a fines de 2023</title>
+      <link>https://coninteres.com/articulos/2026-10-03-depositos-argentinos-bancos-estados-unidos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-depositos-argentinos-bancos-estados-unidos.html</guid>
+      <pubDate>Sat, 03 Oct 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Es el dato de julio de 2026 del Tesoro de EE.UU., a US$96 millones del máximo de su serie, de mayo de 2020. Ese mes los depósitos de residentes argentinos superaron a los de Brasil. Por el acuerdo FATCA, ARCA recibe de esas cuentas los intereses, no los saldos.</description>
+      <ci:numero>US$12.946 M</ci:numero>
+      <ci:numeroEtiqueta>depósitos de residentes privados argentinos (no oficiales ni bancos) en bancos y entidades financieras de EE.UU., julio de 2026 (Tesoro de EE.UU., TIC): +37,0% contra US$9.451 M de diciembre de 2023; máximo de la serie US$13.042 M (mayo de 2020)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-depositos-argentinos-bancos-estados-unidos.png" length="88157" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-depositos-argentinos-bancos-estados-unidos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El litio exportó US$1.126 millones en el primer semestre, más que en todo 2025: ya le vende al mundo más que los lácteos y la cebada</title>
       <link>https://coninteres.com/articulos/2026-10-03-litio-exportaciones-semestre-supera-2025.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>precio promedio de la docena de huevos en el Gran Buenos Aires en agosto de 2026 (INDEC): 2,6% menos que un año antes</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-docena-huevos-precio-granja-gondola.png" length="81643" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-docena-huevos-precio-granja-gondola.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>YPF anotó US$783 millones de impuesto a las Ganancias en seis meses, casi 24 veces más que un año antes, y en efectivo pagó US$34 millones</title>
-      <link>https://coninteres.com/articulos/2026-09-30-ypf-impuesto-ganancias-semestre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-ypf-impuesto-ganancias-semestre.html</guid>
-      <pubDate>Wed, 30 Sep 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Según sus estados financieros al 30 de junio, presentados ante la SEC y la CNV, YPF registró un impuesto a las ganancias corriente de US$783 millones en el primer semestre de 2026, contra US$33 millones un año antes. Es más que en cualquier año completo desde 2015. En efectivo pagó US$34 millones: el grueso vence en los próximos doce meses.</description>
-      <ci:numero>US$783 M</ci:numero>
-      <ci:numeroEtiqueta>impuesto a las ganancias corriente de YPF en el primer semestre de 2026 (estados financieros al 30/06/2026, nota 19; 6-K ante la SEC del 17/08/2026); US$33 M un año antes</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-ypf-impuesto-ganancias-semestre.png" length="87602" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-ypf-impuesto-ganancias-semestre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
