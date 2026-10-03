@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 03 Oct 2026 16:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 18:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Chubut tiene 3.440 petroleros registrados menos que a comienzos de 2024: más de uno de cada cuatro, y el nivel más bajo desde 2006</title>
+      <link>https://coninteres.com/articulos/2026-10-03-chubut-empleo-petrolero-cayo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-chubut-empleo-petrolero-cayo.html</guid>
+      <pubDate>Sat, 03 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>En el primer trimestre de 2026, la extracción de petróleo y gas de Chubut tenía 9.629 asalariados registrados, según la Secretaría de Trabajo. Dos años antes eran 13.069: se perdió el 26,3% de los puestos, la mitad de todo el empleo privado que perdió la provincia en ese lapso. La producción de petróleo de Chubut bajó bastante menos, 11,2%. Mientras tanto, la de Neuquén creció 60,7%.</description>
+      <ci:numero>−3.440</ci:numero>
+      <ci:numeroEtiqueta>asalariados registrados menos en la extracción de petróleo y gas de Chubut: 9.629 en el 1T-2026 contra 13.069 en el 1T-2024 (OEDE-SIPA, rama 11; la SRT confirma −25,1%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-chubut-empleo-petrolero-cayo.png" length="73833" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-chubut-empleo-petrolero-cayo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El retiro voluntario de la ANSES paga hasta 17,1 sueldos a los empleados de 60 a 69 años: en marzo, a los de hasta 62, les ofrecía hasta 24</title>
       <link>https://coninteres.com/articulos/2026-10-03-retiro-voluntario-anses-cuanto-paga.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>valor FOB máximo por unidad para que un auto 100% eléctrico entre sin arancel dentro del cupo desde el 01/10/2026 (Anexo I del Decreto 1128/2026); antes, US$16.000</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-autos-electricos-tope-35000-sin-arancel.png" length="75165" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-autos-electricos-tope-35000-sin-arancel.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los hogares con subsidio tienen 74,25% de descuento en el precio del gas en octubre: el decreto que armó el esquema les daba 4,55%</title>
-      <link>https://coninteres.com/articulos/2026-10-01-subsidio-gas-luz-octubre-sef.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-01-subsidio-gas-luz-octubre-sef.html</guid>
-      <pubDate>Thu, 01 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La Secretaría de Energía extendió a octubre el subsidio de invierno. Según el decreto de diciembre, el gas de los hogares del régimen de subsidios perdía la bonificación general de 50% y conservaba una extraordinaria de 4,55%. En la luz, el bloque con descuento sube a 200 kWh, contra los 150 que fijaba el decreto, y el descuento a 75%, contra 54,55%.</description>
-      <ci:numero>74,25%</ci:numero>
-      <ci:numeroEtiqueta>descuento sobre el precio del gas para los hogares del SEF en octubre (el decreto fijaba 4,55%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-subsidio-gas-luz-octubre-sef.png" length="68294" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-subsidio-gas-luz-octubre-sef.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

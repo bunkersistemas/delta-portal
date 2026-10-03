@@ -2573,6 +2573,13 @@
       "fecha": "2026-10-03",
       "estado": "publicada",
       "articulo_id": "2026-10-03-retiro-voluntario-anses-cuanto-paga"
+    },
+    {
+      "tema": "cuántos empleos petroleros perdió Chubut / asalariados registrados de la rama 11 (extracción de petróleo y gas, incluye servicios) en Chubut, OEDE-SIPA boletín trimestral provincial: 13.069 en 1T-2024 -> 9.629 en 1T-2026 (-3.440, -26,3%; mínimo desde 4T-2006, 9.602); 1110 operadoras 2.546 -> 1.848, 1120 servicios 10.523 -> 7.781; empleo privado total de Chubut 106.046 -> 99.421 (-6.625, el petróleo explica 52%); producción de petróleo de Chubut (Secretaría de Energía, por provincia) 133.421 -> 118.477 b/d (-11,2%), 2T-2026 116.167 (mínimo de la serie desde 2009); Neuquén 373.549 -> 600.269 b/d (+60,7%)",
+      "angulo": "PREGUNTA DE PLATA detrás de Ámbito y Cronista 03/10/2026 (empleo registrado: cae el sector energético). Ángulo propio: el empleo y no la producción, y solo donde los dos registros coinciden. Verificación por el camino de estadística oficial: (1) boletín OEDE a 2 dígitos; (2) recálculo a 4 dígitos, 1110 + 1120 = rama 11 exacto; (3) contraste SRT, boletín mensual del sector B por jurisdicción: Chubut 12.166 (mar-24) -> 9.116 (feb-26), -25,1%, y 8.754 en jun-26. NO se publicó el dato nacional (OEDE 71.881 -> 62.645) ni Neuquén ni Santa Cruz: la SRT da otra dirección o magnitud (sector B nacional 98.995 en mar-24 y 100.080 en jun-26; Neuquén SRT 23.944 -> 29.611 contra OEDE 26.277 -> 25.154; Santa Cruz SRT -7,6% contra OEDE -40,3%) y la diferencia no se pudo explicar. Retomable el nacional si se reconcilian las clasificaciones. Contexto YPF: 6-K del 16/01/2026, cesión de Manantiales Behr a Limay Energía (Rovella) por US$575 M, ~25 kbbl/d, sin atribuir causalidad. Otras candidatas de la corrida 18:30: habilitación de comercios en CABA (Ley Tarifaria 6928, art. 27: sin cargo, ancla en $0), registro de conducir en CABA (36 UF, sin gancho del día), deuda flotante (Presupuesto Abierto, menor interés), Pandanés (quiebra sin expediente), riesgo país (EMBI sin fuente abierta), Argentina Week (sin documento con montos), Ley de Tierras (publicada el 30/09), Burkina Faso (descartado antes). Empresas: hoy ya hubo nota EMPRESAS (Aluar 00:30), el cupo no aplica; BBVA cubierto el 26/09; Caja de Valores, Central Puerto, PCR y las SGR sin cifra ancla en la línea de la CNV. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-03",
+      "estado": "publicada",
+      "articulo_id": "2026-10-03-chubut-empleo-petrolero-cayo"
     }
   ]
 }

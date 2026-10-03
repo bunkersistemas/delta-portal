@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T16:48:14-03:00",
+    "actualizado": "2026-10-03T18:54:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-chubut-empleo-petrolero-cayo",
+      "titulo": "Chubut tiene 3.440 petroleros registrados menos que a comienzos de 2024: más de uno de cada cuatro, y el nivel más bajo desde 2006",
+      "bajada": "En el primer trimestre de 2026, la extracción de petróleo y gas de Chubut tenía 9.629 asalariados registrados, según la Secretaría de Trabajo. Dos años antes eran 13.069: se perdió el 26,3% de los puestos, la mitad de todo el empleo privado que perdió la provincia en ese lapso. La producción de petróleo de Chubut bajó bastante menos, 11,2%. Mientras tanto, la de Neuquén creció 60,7%.",
+      "titulo_busqueda": "¿Cuántos empleos petroleros perdió Chubut? 3.440 en dos años: más de uno de cada cuatro",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "−3.440",
+      "numero_label": "asalariados registrados menos en la extracción de petróleo y gas de Chubut: 9.629 en el 1T-2026 contra 13.069 en el 1T-2024 (OEDE-SIPA, rama 11; la SRT confirma −25,1%)",
+      "fecha": "2026-10-03",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-03-chubut-empleo-petrolero-cayo.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-03-retiro-voluntario-anses-cuanto-paga",
       "titulo": "El retiro voluntario de la ANSES paga hasta 17,1 sueldos a los empleados de 60 a 69 años: en marzo, a los de hasta 62, les ofrecía hasta 24",
