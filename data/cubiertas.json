@@ -2580,6 +2580,13 @@
       "fecha": "2026-10-03",
       "estado": "publicada",
       "articulo_id": "2026-10-03-chubut-empleo-petrolero-cayo"
+    },
+    {
+      "tema": "cuánto exporta Neuquén / INDEC Origen provincial de las exportaciones 1S-2026 (02/09/2026, p. 10 y cuadros): Neuquén US$4.304 M (+42,5%; 8,7% del total 49.511), crudo 3.903 (90,7%), gas 7,1%, USMCA 1.313, Chile 1.173; 1S 2023-2026 Neuquén 1.677 / 2.334 / 3.020 / 4.304, Buenos Aires 13.012 / 14.343 / 14.506 / 15.965 -> NQ/BA 12,9% -> 27,0%; Córdoba 1S-26 5.601 (NQ/Cba 76,8%; 39,5% en 2023); Santa Fe 9.357; recálculo serie mensual comex (exports_2026_M.zip, hasta ago-26): 4.303,8; 1S-2017 35,4; máximo de la serie desde 2002 (previo 1S-2025 3.019,8); NQ/BA máximo previo antes de 2022: 9,6% (2003); ene-ago 2026 6.031,3 (+47,9%)",
+      "angulo": "Corrida programada del 03/10/2026 20:30. Tema: Infobae 03/10 (IERAL, Belich: Neuquén superaría a Córdoba en 2027, a Santa Fe en 2028 y a Buenos Aires en 2031-32; proyección atribuida, no verificada). Ángulo propio: el dato de hoy y no la proyección, en primeros semestres (todos revisados): la proporción contra Buenos Aires se duplicó en tres años y contra Córdoba pasó de 39 a 77. Verificación por estadística oficial recalculada + contraste Secretaría de Energía (importaciones-exportaciones desde 2016, crudo Medanito Neuquén 1S-26: 6.788.037 m3, US$3.592,5 M = 92% del crudo según INDEC; +83,7% en valor y +44,8% en volumen). Diferencia de base explicada: el INDEC revisó la asignación provincial de 2025 (informe de marzo: Neuquén 4.534, Chubut 3.966; serie actual: 6.300,6 y 2.593,9); la nota no usa la cifra anual de marzo. Otras candidatas de la corrida no tomadas: Banco Provincia Acá Materiales (sin CFT, ya evaluado el 02/10), riesgo país (EMBI sin fuente abierta), Argentina Week (sin documento con montos), ONU desempeño industrial (ámbito), deudas de los hogares (Cronista), El Niño y cosecha (proyecciones privadas), Pandanés (sin expediente), elecciones en Brasil (comercio publicado el 27/09), Burkina Faso y Peregrinación a Luján (descartados antes); empresas: Longvie planta Catamarca (HR 01/10; balance cubierto el 01/10) y Banco de Valores-Rosval (sin cifra en la línea de la CNV); el cupo de empresas no aplica (Aluar, 00:30).",
+      "fecha": "2026-10-03",
+      "estado": "publicada",
+      "articulo_id": "2026-10-03-neuquen-exportaciones-buenos-aires-semestre"
     }
   ]
 }

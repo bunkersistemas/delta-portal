@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T18:54:17-03:00",
+    "actualizado": "2026-10-03T20:44:28-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-neuquen-exportaciones-buenos-aires-semestre",
+      "titulo": "Neuquén exportó US$4.304 millones en el primer semestre: por cada US$100 que vende Buenos Aires ya vende US$27, el doble que en 2023",
+      "bajada": "Según el INDEC, Neuquén le vendió al mundo US$4.304 millones entre enero y junio de 2026, 42,5% más que un año antes y el mejor primer semestre de la serie, que arranca en 2002. Nueve de cada diez dólares fueron petróleo crudo. Es la cuarta provincia exportadora y achica la distancia con las tres grandes: por cada US$100 que exportó Buenos Aires, vendió US$27; en el primer semestre de 2023, US$13. A Córdoba ya le vende 77 de cada 100.",
+      "titulo_busqueda": "¿Cuánto exporta Neuquén? US$4.304 millones en el primer semestre de 2026: 27 de cada 100 dólares que vende Buenos Aires",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "US$4.304 M",
+      "numero_label": "exportaciones de bienes con origen en Neuquén en el primer semestre de 2026 (INDEC, Origen provincial de las exportaciones; recalculado de la serie mensual: 4.303,8); +42,5% interanual, 27,0% de lo que exportó Buenos Aires (12,9% en 2023)",
+      "fecha": "2026-10-03",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-03-neuquen-exportaciones-buenos-aires-semestre.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-03-chubut-empleo-petrolero-cayo",
       "titulo": "Chubut tiene 3.440 petroleros registrados menos que a comienzos de 2024: más de uno de cada cuatro, y el nivel más bajo desde 2006",
