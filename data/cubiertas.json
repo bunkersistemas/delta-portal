@@ -2558,6 +2558,21 @@
       "fecha": "2026-10-03",
       "estado": "publicada",
       "articulo_id": "2026-10-03-cuanto-cobra-peon-rural-octubre"
+    },
+    {
+      "tema": "cuántos metros cuadrados tiene un departamento nuevo en CABA (infobae 03/10/2026, 'Los departamentos en CABA son cada vez más chicos': mediana de 46 m2 en los construidos desde 2020 contra 102 m2 en los años 30, informe de Mirando.ai)",
+      "angulo": "FRENADA en la corrida programada del 03/10/2026 16:30 (primera candidata probada). La cifra ancla es de una sola empresa privada (Mirando.ai) y sale de avisos de venta agrupados por década de construcción. El IDECBA no publica una serie comparable: el banco de datos de permisos con viviendas nuevas y su superficie llega a enero de 2019 (banco_datos_hist), los permisos recientes no traen cantidad de viviendas, y la superficie promedio de departamentos publicados es por ambientes y para alquiler, no por año de construcción. Sin segunda fuente ni serie oficial para recalcular. Retomable si el IDECBA publica superficie por vivienda permisada.",
+      "fecha": "2026-10-03",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla de una sola consultora privada, sin serie oficial comparable para recalcular ni contrastar"
+    },
+    {
+      "tema": "cuánto paga el retiro voluntario en el Estado / Plan de Retiros de Voluntad Recíproca de la ANSES, Etapa 2 (Res. ANSES 261/2026, BO 01/09/2026, anexo IF-2026-83509467-ANSES-ANSES, arts. 7 y 8; adhesión prorrogada al 09/10/2026 por Res. 292/2026, BO 02/10/2026): 90% del haber bruto de mayo de 2026 por año de antigüedad, tope 90% x 19 = 17,1 haberes, solo 60-64 años o 65-69 con menos de 30 años de aportes (edad al 31/05/2026, ingreso antes del 01/01/2024); Etapa 1 (Res. 68/2026, BO 16/03/2026, anexo arts. 2 f, 7 y 10; prórroga Res. 81/2026 al 24/04/2026): 90% por año, tope 24 haberes, hasta 62 años y 2 años de antigüedad",
+      "angulo": "PREGUNTA DE PLATA detrás de infobae 03/10/2026 ('el Gobierno prepara un decreto con un plan de retiros voluntarios para empleados públicos', sin montos). Ángulo propio: el plan vigente con condiciones escritas es el de la ANSES, y su segunda etapa paga menos en las carreras largas (con 30 años: 17,1 contra 24 sueldos, -28,8%; iguales hasta 19 años) y cambia de público (60-69 en vez de hasta 62). Contexto: dotación ANSES, INDEC cuadros 2 y 3: abr-26 12.135, may-26 11.228, jun-26 10.997 (-1.138 en dos meses contra -36,3 por mes entre mar-25 y mar-26), ago-26 10.958; el INDEC no separa causas. Verificación: anexo del BO leído (download_anexo) + copia en InfoLEG 429463 + recálculo 0,9 x 19. Otras candidatas de la corrida 16:30: departamentos más chicos (frenada, ver entrada anterior), faena bovina en baja (infobae; consumo cubierto el 20/07 y Japón el 30/09), huevo consumo mundial (dato de CAPIA/ILH, publicado desde mayo), Working Holiday Nueva Zelanda (La Nación; publicada el 26/09), riesgo país 655 (EMBI sin fuente primaria abierta), Argentina Week US$27.000 M (sin documento con montos), luz de octubre (cuadros de Edenor y Edesur todavía no están en el BO del 02/10), SRT Res. 50/2026 MOPRE $95.864,67 (bajo interés). Empresas: ya hubo nota EMPRESAS hoy (Aluar 00:30), el cupo no aplica; Caja de Valores (dividendos), PCR y Luz de Tres Picos (fusión) y Central Puerto (recompras) sin cifra ancla en la línea de la CNV; BBVA 6-K cubierto el 26/09. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-10-03",
+      "estado": "publicada",
+      "articulo_id": "2026-10-03-retiro-voluntario-anses-cuanto-paga"
     }
   ]
 }
