@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 02 Oct 2026 20:39:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 02 Oct 2026 22:45:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Francia compró US$846 millones de langostinos y camarones en 2025 y solo 2,7% vino de la Argentina: Ecuador le vendió 48%</title>
+      <link>https://coninteres.com/articulos/2026-10-02-francia-langostinos-argentina-ecuador.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-02-francia-langostinos-argentina-ecuador.html</guid>
+      <pubDate>Fri, 02 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Es el mercado al que fue a buscar clientes la ronda de negocios que encabezó Karina Milei en París. Según la aduana francesa, el año pasado llegaron de la Argentina 2.519 toneladas por US$22,8 millones: la Argentina fue el décimo proveedor. En vieiras, en cambio, es el primero.</description>
+      <ci:numero>2,7%</ci:numero>
+      <ci:numeroEtiqueta>parte argentina de las importaciones francesas de langostinos y camarones congelados en 2025 (posición 0306.17, valor CIF, aduana de Francia vía UN Comtrade): US$22,8 M (2.519 t) de US$846,5 M (121.664 t); Ecuador 48,0%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-francia-langostinos-argentina-ecuador.png" length="81054" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-francia-langostinos-argentina-ecuador.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El crédito hipotecario con fondos de la ANSES llega hasta $321 millones: la cuota a 20 años arranca en $2,59 millones, 1,3 sueldos promedio</title>
       <link>https://coninteres.com/articulos/2026-10-02-credito-hipotecario-anses-fgs-tope-cuota.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>monto evadido a partir del cual la evasión simple es delito, por impuesto y por año (Ley 27.799, art. 1°, BO 02/01/2026); antes $1.500.000 desde la Ley 27.430 de 2017, que en pesos de agosto de 2026 serían $147,6 M con el IPC del INDEC</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-evasion-fiscal-umbral-100-millones.png" length="77729" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-evasion-fiscal-umbral-100-millones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Japón compró US$3.117 millones de carne vacuna en 2025 y a la Argentina le compró US$376.000: 12 de cada 100.000 dólares</title>
-      <link>https://coninteres.com/articulos/2026-09-30-japon-carne-vacuna-mercado-argentina.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-japon-carne-vacuna-mercado-argentina.html</guid>
-      <pubDate>Wed, 30 Sep 2026 09:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Es el mercado que el Gobierno dice haber abierto esta semana para la carne de la zona que vacuna contra la aftosa. Según la aduana japonesa, el año pasado Japón importó 496.166 toneladas; de la Argentina, que puede venderle desde la Patagonia desde 2018, llegaron 24. Uruguay, que también vacuna, le vendió 91 veces más.</description>
-      <ci:numero>US$3.117 M</ci:numero>
-      <ci:numeroEtiqueta>importaciones de carne vacuna de Japón en 2025 (posiciones 0201 y 0202, valor CIF, aduana de Japón vía UN Comtrade): 496.166 toneladas; desde la Argentina US$376.396 (24 t, 12 de cada 100.000 dólares), desde Uruguay US$34,28 M</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-japon-carne-vacuna-mercado-argentina.png" length="85202" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-japon-carne-vacuna-mercado-argentina.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
