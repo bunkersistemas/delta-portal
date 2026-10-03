@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T12:50:15-03:00",
+    "actualizado": "2026-10-03T14:51:13-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-cuanto-cobra-peon-rural-octubre",
+      "titulo": "Un peón rural cobra $1.235.833 de básico desde octubre y el acuerdo lo deja fijo hasta julio de 2027: en el año a agosto su sueldo empató con la inflación",
+      "bajada": "El acuerdo que firmaron UATRE y las entidades del campo, homologado el 4 de septiembre, fija en $1.235.833,53 el básico de octubre de un peón general y lo deja igual hasta el 31 de julio de 2027. En los 15 meses anteriores el básico nunca pasó más de dos meses sin cambiar. Entre agosto de 2025 y agosto de 2026 subió 33,7% y los precios, 33,5%: empató.",
+      "titulo_busqueda": "¿Cuánto cobra un peón rural en octubre de 2026? $1.235.833 de básico, fijo hasta julio de 2027",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$1.235.833",
+      "numero_label": "de básico cobra un peón general del Régimen de Trabajo Agrario desde octubre de 2026, fijo hasta julio de 2027",
+      "fecha": "2026-10-03",
+      "hora": "14:30",
+      "archivo": "articulos/2026-10-03-cuanto-cobra-peon-rural-octubre.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-03-rifl-cargas-patronales-pyme-fondo-despidos",
       "titulo": "Una pyme que toma a un empleado nuevo paga 5% de cargas patronales en vez de 18%, pero desde noviembre pagará 7,5%: el fondo de despidos se come casi un quinto del ahorro",

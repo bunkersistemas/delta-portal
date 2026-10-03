@@ -2551,6 +2551,13 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto cobra un peón rural en octubre de 2026 / Régimen de Trabajo Agrario, personal permanente de prestación continua: peón general $1.235.833,53 + $12.465 no remunerativos desde el 01/10/2026 y hasta el 31/07/2027 (acta acuerdo CNTA del 30/07/2026, UATRE-SRA-CRA-CONINAGRO-CAME, homologada por Disposición DNRyRT 1120/2026 del 04/09/2026)",
+      "angulo": "PREGUNTA DE PLATA detrás de iProfesional 03/10/2026 (\"Salario rural UATRE: cuánto cobra un peón\"). Ángulo propio: el tramo de octubre queda FIJO diez meses (hasta jul-2027) cuando en los 15 meses anteriores el básico nunca estuvo más de dos meses quieto (serie completa del BO: Res. CNTA 174/2025, 219/2025, 290/2025, Disp. 643/2026); y agosto contra agosto el básico subió 33,7% contra 33,5% del IPC: empató (+0,1%). Verificación: acta firmada + disposición homologatoria coinciden al centavo; recálculo del jornal (sueldo/22,7309) y de los tramos; IPC datos.gob.ar. Otras candidatas de la corrida 14:30 no probadas: riesgo país 650 (sin fuente primaria abierta, descartado en 10 corridas), Argentina Week US$27.000 M (sin documento con montos), pollo vs vaca (cubierto 25/07 y 02/10), recaudación/IVA (ya publicada por todos; IPC sale el 13/10), crédito hipotecario UVA (tope FGS 02/10), plomero (sin documento oficial), UOM octubre (cubierto 26/09), Willard concurso y Savencia/Ilolay (sin expediente), empresas: ya hubo nota EMPRESAS hoy (Aluar 00:30), BBVA cubierto 26/09, Caja de Valores/Central Puerto/A3 sin cifra ancla.",
+      "fecha": "2026-10-03",
+      "estado": "publicada",
+      "articulo_id": "2026-10-03-cuanto-cobra-peon-rural-octubre"
     }
   ]
 }
