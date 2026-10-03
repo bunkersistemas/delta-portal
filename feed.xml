@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 03 Oct 2026 00:54:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 02:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La industria tiene 88.859 asalariados registrados menos que en 2023, y casi todo el empleo que sumaron bares y restaurantes es informal o por cuenta propia</title>
+      <link>https://coninteres.com/articulos/2026-10-03-industria-empleo-gastronomia-sueldos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-industria-empleo-gastronomia-sueldos.html</guid>
+      <pubDate>Sat, 03 Oct 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre junio de 2023 y junio de 2026 la industria perdió 88.859 asalariados registrados, 7,5%, y quedó en su nivel más bajo desde enero de 2021. Bares y restaurantes sumaron gente, pero según la encuesta del INDEC el 94% de lo que crecieron fue trabajo sin descuento jubilatorio o por cuenta propia. Y un sueldo registrado de gastronomía es la mitad que uno de fábrica.</description>
+      <ci:numero>−88.859</ci:numero>
+      <ci:numeroEtiqueta>asalariados registrados de la industria manufacturera, junio de 2026 contra junio de 2023: de 1.189.743 a 1.100.884 (SIPA, Ministerio de Capital Humano, cuadro A.2.1)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-industria-empleo-gastronomia-sueldos.png" length="77728" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-industria-empleo-gastronomia-sueldos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Aluar tuvo una ganancia neta de $258.692 millones, 25,8 veces la de un año antes, y la ANSES, dueña del 9,90%, votará directores con voto acumulativo</title>
       <link>https://coninteres.com/articulos/2026-10-03-aluar-ganancia-anses-asamblea.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>gastó la Nación en transferencias a las universidades nacionales entre enero y el 28/09/2026 (Presupuesto Abierto, programa 26, devengado): 30,6% menos que en enero-septiembre de 2023 en pesos de agosto de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-universidades-transferencias-nueve-meses-2023.png" length="81540" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-universidades-transferencias-nueve-meses-2023.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El colectivo porteño pasa a $920,48 y la Ciudad les paga $20.102 millones a las 27 líneas en octubre: el boleto cubre 40 de cada $100 del costo</title>
-      <link>https://coninteres.com/articulos/2026-09-30-colectivo-porteno-octubre-costo-compensacion.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-colectivo-porteno-octubre-costo-compensacion.html</guid>
-      <pubDate>Wed, 30 Sep 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Desde el 1 de octubre el boleto mínimo de las líneas de colectivo que recorren solo la Ciudad sube 3,66%, de $887,99 a $920,48. En su cálculo de costos, la Ciudad fijó en $1.620,34 sin IVA lo que cuesta llevar a cada pasajero en octubre, y en $652,83 lo que paga en promedio: 40 de cada 100 pesos. Para el resto, aprobó $20.102 millones de compensación a las empresas.</description>
-      <ci:numero>$920,48</ci:numero>
-      <ci:numeroEtiqueta>cuesta desde el 01/10/2026 el boleto mínimo (0-3 km) de las 27 líneas de colectivo porteñas (Res. 210/SECT/26); la Ciudad calculó el costo por pasajero de octubre en $1.620,34 sin IVA (Res. 181/SECT/26) y el pasajero paga en promedio 40,3%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-colectivo-porteno-octubre-costo-compensacion.png" length="95544" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-colectivo-porteno-octubre-costo-compensacion.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

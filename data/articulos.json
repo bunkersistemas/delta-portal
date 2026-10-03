@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T00:54:21-03:00",
+    "actualizado": "2026-10-03T02:43:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-industria-empleo-gastronomia-sueldos",
+      "titulo": "La industria tiene 88.859 asalariados registrados menos que en 2023, y casi todo el empleo que sumaron bares y restaurantes es informal o por cuenta propia",
+      "bajada": "Entre junio de 2023 y junio de 2026 la industria perdió 88.859 asalariados registrados, 7,5%, y quedó en su nivel más bajo desde enero de 2021. Bares y restaurantes sumaron gente, pero según la encuesta del INDEC el 94% de lo que crecieron fue trabajo sin descuento jubilatorio o por cuenta propia. Y un sueldo registrado de gastronomía es la mitad que uno de fábrica.",
+      "titulo_busqueda": "¿Cuánto gana un empleado de gastronomía comparado con uno de fábrica?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−88.859",
+      "numero_label": "asalariados registrados de la industria manufacturera, junio de 2026 contra junio de 2023: de 1.189.743 a 1.100.884 (SIPA, Ministerio de Capital Humano, cuadro A.2.1)",
+      "fecha": "2026-10-03",
+      "hora": "02:30",
+      "archivo": "articulos/2026-10-03-industria-empleo-gastronomia-sueldos.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-03-aluar-ganancia-anses-asamblea",
       "titulo": "Aluar tuvo una ganancia neta de $258.692 millones, 25,8 veces la de un año antes, y la ANSES, dueña del 9,90%, votará directores con voto acumulativo",

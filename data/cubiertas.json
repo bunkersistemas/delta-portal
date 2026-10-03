@@ -2454,6 +2454,20 @@
       "fecha": "2026-10-03",
       "estado": "descartada",
       "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto gana un empleado de gastronomía comparado con uno de fábrica / cuántos empleos perdió la industria: asalariados registrados de la industria (SIPA, trabajo registrado a jun-26, cuadro A.2.1) 1.189.743 en jun-23 -> 1.100.884 en jun-26 (-88.859, -7,5%; mínimo desde ene-21, 1.097.749; 20 meses seguidos de baja desestacionalizada desde nov-24); hoteles y restaurantes 277.971 -> 267.276 (-10.695, -3,8%); privado total 6.353.117 -> 6.095.843 (-257.274). EPH microdatos 1T23 vs 1T26: hoteles y restaurantes 508.818 -> 730.188 (+221.370: registrados +12.329, asalariados sin descuento +113.823, no asalariados +95.218 = 94% fuera del empleo registrado); industria 1.639.640 -> 1.457.631. Remuneración promedio registrada may-26 (OEDE, cuadro 5.1): industria $2.477.579, hoteles y restaurantes $1.260.861 (50,9%); mediana $1.827.562 y $908.537 (49,7%)",
+      "angulo": "Corrida programada del 03/10/2026 02:30. Pregunta de plata detrás de Infobae (03/10: la industria perdió 415.000 empleos y la gastronomía sumó 495.000, EPH 2T23-2T26). Ángulo NUEVO: qué clase de empleo se pierde y cuál se gana (registrado vs informal) y cuánto paga cada uno; la nota del 23/09 fue la caída interanual del empleo privado por rama. Camino estadística oficial recalculada con contraste: (1) informe SIPA jun-26 (industria 1.100,9 miles, -4,5% i.a.); (2) recálculo desde la planilla A.2.1; (3) contraste EPH-INDEC (no cita al SIPA): participación de la industria 12,2% 2T23 (recalculado) -> 10,8% 1T26 (recalculado = cuadro 1.5 del informe 2T26) -> 9,8% 2T26; -182.009 ocupados 1T23-1T26, misma dirección. Diferencia explicada en ④: la EPH da una brecha salarial menor (80% entre registrados) por medir ingreso declarado en mano en 31 aglomerados vs bruto declarado por el empleador. No se usan el 415.000 ni el 495.000 (microdatos 2T26 no publicados, no recalculables).",
+      "fecha": "2026-10-03",
+      "estado": "publicada",
+      "articulo_id": "2026-10-03-industria-empleo-gastronomia-sueldos"
+    },
+    {
+      "tema": "descartes de la corrida programada del 03/10/2026 02:30: riesgo país en máximo del año (5 portadas), Argentina Week US$27.000 M (5), ciudadanía por inversión (3), recaudación de septiembre (3), Línea F del subte (infobae, Cronista), deuda flotante del Tesoro (Cronista), acuerdo FATCA y ARCA (infobae), cuánto cobra un plomero (iProfesional), paritaria UOM (iProfesional), panaderías que cierran (infobae), Lácteos Verónica (iProfesional), empresas CNV/SEC: BBVA 6-K al 30/06, Caja de Valores (dividendos), Banco de Valores (acuerdo VALO-ROSVAL), Mastellone (HR 29/09), PCR (renovables, infobae)",
+      "angulo": "NO TOMADAS en la corrida programada del 03/10/2026 02:30; ganó el empleo industrial contra el gastronómico (SIPA + EPH + OEDE). Riesgo país: el EMBI no tiene fuente primaria abierta. Argentina Week y ciudadanía: sin documento con montos. Recaudación: ya publicada por todos con el mismo ángulo. Línea F, Verónica, panaderías, UOM: ya descartadas el 02/10 con el mismo motivo. Deuda flotante: retomable con Presupuesto Abierto (devengado menos pagado), menor interés de búsqueda hoy. FATCA: sin cifra. Plomero: sin fuente oficial de tarifas. Empresas: hoy ya hay nota de EMPRESAS (Aluar, 00:30), el cupo no aplica; BBVA cubierto el 26/09, Mastellone descartado el 30/09, Caja de Valores y Banco de Valores sin cifra ancla en la línea de la CNV. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-03",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }
