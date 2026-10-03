@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-02T22:45:33-03:00",
+    "actualizado": "2026-10-03T00:54:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-aluar-ganancia-anses-asamblea",
+      "titulo": "Aluar tuvo una ganancia neta de $258.692 millones, 25,8 veces la de un año antes, y la ANSES, dueña del 9,90%, votará directores con voto acumulativo",
+      "bajada": "Según sus estados financieros al 30 de junio de 2026, presentados ante la CNV, Aluar tuvo una ganancia neta de $258.692 millones en su último ejercicio, 25,8 veces la de un año antes, con 43,5% más toneladas exportadas. El directorio no propuso un dividendo y deja la decisión a la asamblea del 14 de octubre, donde la ANSES, dueña del 9,90%, votará directores con voto acumulativo.",
+      "titulo_busqueda": "¿Cuánto ganó Aluar y qué pide la ANSES en su asamblea?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$258.692 M",
+      "numero_label": "ganancia neta de Aluar en el ejercicio julio 2025-junio 2026, en pesos de junio de 2026",
+      "fecha": "2026-10-03",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-03-aluar-ganancia-anses-asamblea.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 8 min"
+    },
     {
       "id": "2026-10-02-francia-langostinos-argentina-ecuador",
       "titulo": "Francia compró US$846 millones de langostinos y camarones en 2025 y solo 2,7% vino de la Argentina: Ecuador le vendió 48%",

@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-02",
-  "pregunta": "Según el INDEC, en el segundo trimestre de 2026 un hogar necesitaba $3.900.000 por mes para estar en el 10% que más gana de las 31 ciudades de la EPH. Un año antes la vara era $3.100.000: subió 25,8%. En el mismo período los precios subieron 33,0%. ¿Qué quiere decir eso?",
+  "fecha": "2026-10-03",
+  "pregunta": "Según el INDEC, entre 2016 y 2025 el valor agregado de la economía creció 3,1% y las horas trabajadas crecieron 10,7%. ¿Qué pasó con lo que se produce por cada hora de trabajo?",
   "opciones": [
-    "Que, descontada la inflación, hoy hace falta un ingreso de menor poder de compra que hace un año para entrar en el 10% de arriba",
-    "Que los hogares más ricos ganan hoy menos pesos que hace un año",
-    "Que el 10% más rico es hoy un grupo más chico que hace un año"
+    "Bajó cerca de 7%: se trabajaron muchas más horas para producir apenas un poco más",
+    "Subió 3,1%, porque la economía produjo más que en 2016",
+    "Subió 13,8%, porque crecieron tanto la producción como las horas"
   ],
   "correcta": 0,
-  "explicacion": "Los deciles siempre agrupan al 10% de los hogares, así que el grupo no se achica: lo que se mueve es la vara de entrada. Esa vara subió de $3.100.000 a $3.900.000, así que en pesos es más alta. Pero como los precios subieron más (33,0% contra 25,8%), con $3.900.000 de hoy se compra menos que con $3.100.000 de hace un año. Cuando un monto sube menos que la inflación, pierde poder de compra aunque el número sea más grande.",
-  "nota": "articulos/2026-10-01-cuanto-hay-que-ganar-10-por-ciento-mas-rico-pais.html",
-  "leccion": "lecciones/inflacion-bolsillo.html"
+  "explicacion": "La productividad por hora es lo producido dividido por las horas trabajadas. Si lo producido creció 3,1% y las horas 10,7%, la cuenta es 1,031 dividido 1,107: da 0,931, o sea 6,9% menos por hora que en 2016. Que la economía produzca más en total no alcanza: si para lograrlo hacen falta todavía más horas, cada hora rinde menos. Por eso el INDEC muestra que la productividad repuntó 3,3% en 2025 pero no recuperó el nivel de 2016.",
+  "nota": "articulos/2026-10-02-productividad-hora-trabajo-indec.html",
+  "leccion": ""
 }

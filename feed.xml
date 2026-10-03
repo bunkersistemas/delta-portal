@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 02 Oct 2026 22:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 00:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Aluar tuvo una ganancia neta de $258.692 millones, 25,8 veces la de un año antes, y la ANSES, dueña del 9,90%, votará directores con voto acumulativo</title>
+      <link>https://coninteres.com/articulos/2026-10-03-aluar-ganancia-anses-asamblea.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-aluar-ganancia-anses-asamblea.html</guid>
+      <pubDate>Sat, 03 Oct 2026 00:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Según sus estados financieros al 30 de junio de 2026, presentados ante la CNV, Aluar tuvo una ganancia neta de $258.692 millones en su último ejercicio, 25,8 veces la de un año antes, con 43,5% más toneladas exportadas. El directorio no propuso un dividendo y deja la decisión a la asamblea del 14 de octubre, donde la ANSES, dueña del 9,90%, votará directores con voto acumulativo.</description>
+      <ci:numero>$258.692 M</ci:numero>
+      <ci:numeroEtiqueta>ganancia neta de Aluar en el ejercicio julio 2025-junio 2026, en pesos de junio de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-aluar-ganancia-anses-asamblea.png" length="81730" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-aluar-ganancia-anses-asamblea.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Francia compró US$846 millones de langostinos y camarones en 2025 y solo 2,7% vino de la Argentina: Ecuador le vendió 48%</title>
       <link>https://coninteres.com/articulos/2026-10-02-francia-langostinos-argentina-ecuador.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuesta desde el 01/10/2026 el boleto mínimo (0-3 km) de las 27 líneas de colectivo porteñas (Res. 210/SECT/26); la Ciudad calculó el costo por pasajero de octubre en $1.620,34 sin IVA (Res. 181/SECT/26) y el pasajero paga en promedio 40,3%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-colectivo-porteno-octubre-costo-compensacion.png" length="95544" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-colectivo-porteno-octubre-costo-compensacion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La evasión es delito desde $100 millones por impuesto y por año: el piso de 2017, llevado a pesos de hoy, sería $147,6 millones</title>
-      <link>https://coninteres.com/articulos/2026-09-30-evasion-fiscal-umbral-100-millones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-evasion-fiscal-umbral-100-millones.html</guid>
-      <pubDate>Wed, 30 Sep 2026 11:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La Ley de Inocencia Fiscal multiplicó por 66,7 el monto a partir del cual evadir es delito, pero entre diciembre de 2017 y diciembre de 2025 los precios se multiplicaron por 81,1. Medido en pesos de agosto de 2026, el piso nuevo es 32% más bajo que el que fijó la reforma de 2017. ARCA reglamentó hoy cómo se evita la denuncia penal pagando la deuda.</description>
-      <ci:numero>$100 M</ci:numero>
-      <ci:numeroEtiqueta>monto evadido a partir del cual la evasión simple es delito, por impuesto y por año (Ley 27.799, art. 1°, BO 02/01/2026); antes $1.500.000 desde la Ley 27.430 de 2017, que en pesos de agosto de 2026 serían $147,6 M con el IPC del INDEC</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-evasion-fiscal-umbral-100-millones.png" length="77729" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-evasion-fiscal-umbral-100-millones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
