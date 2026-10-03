@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 03 Oct 2026 02:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 04:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina le debe US$57.705 millones al FMI y en 2027 le tiene que devolver US$4.407 millones de capital, casi cuatro veces lo de este año</title>
+      <link>https://coninteres.com/articulos/2026-10-03-deuda-fmi-cuanto-debe-argentina-vencimientos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-deuda-fmi-cuanto-debe-argentina-vencimientos.html</guid>
+      <pubDate>Sat, 03 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Secretaría de Finanzas y el propio Fondo registran la misma deuda, cada uno en su moneda: US$57.705 millones o 42.552 millones de DEG, 13,4 veces la cuota del país. En septiembre de 2026 volvió a vencer capital por primera vez desde 2024, y más de la mitad de lo que se debe vence entre 2026 y 2030.</description>
+      <ci:numero>US$57.705 M</ci:numero>
+      <ci:numeroEtiqueta>deuda de la administración central con el FMI al 30/06/2026 (Secretaría de Finanzas); el FMI registra DEG 42.552 M, lo mismo a 0,737407 DEG por dólar</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-deuda-fmi-cuanto-debe-argentina-vencimientos.png" length="84099" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-deuda-fmi-cuanto-debe-argentina-vencimientos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La industria tiene 88.859 asalariados registrados menos que en 2023, y casi todo el empleo que sumaron bares y restaurantes es informal o por cuenta propia</title>
       <link>https://coninteres.com/articulos/2026-10-03-industria-empleo-gastronomia-sueldos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>personas menos en la administración pública nacional y las empresas del Estado entre noviembre de 2023 (343.357) y agosto de 2026 (269.025), según el INDEC: −21,6%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-empleados-estado-nacional-agosto-2026.png" length="80784" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-empleados-estado-nacional-agosto-2026.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Nación gastó $4,07 billones en las universidades en nueve meses: 30,6% menos que en 2023, en pesos de hoy</title>
-      <link>https://coninteres.com/articulos/2026-09-30-universidades-transferencias-nueve-meses-2023.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-30-universidades-transferencias-nueve-meses-2023.html</guid>
-      <pubDate>Wed, 30 Sep 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y el 28 de septiembre de 2026, el Estado nacional devengó $4.072.486 millones en transferencias a las universidades nacionales, según Presupuesto Abierto. Llevado a pesos de agosto de 2026, es 30,6% menos que en los mismos meses de 2023 y casi lo mismo que en 2024 y 2025. En julio el Gobierno sumó $1,31 billones al presupuesto universitario por decreto: quedan $2,06 billones sin gastar para los últimos tres meses del año.</description>
-      <ci:numero>$4,07 billones</ci:numero>
-      <ci:numeroEtiqueta>gastó la Nación en transferencias a las universidades nacionales entre enero y el 28/09/2026 (Presupuesto Abierto, programa 26, devengado): 30,6% menos que en enero-septiembre de 2023 en pesos de agosto de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-30-universidades-transferencias-nueve-meses-2023.png" length="81540" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-30-universidades-transferencias-nueve-meses-2023.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T02:43:02-03:00",
+    "actualizado": "2026-10-03T04:46:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-deuda-fmi-cuanto-debe-argentina-vencimientos",
+      "titulo": "La Argentina le debe US$57.705 millones al FMI y en 2027 le tiene que devolver US$4.407 millones de capital, casi cuatro veces lo de este año",
+      "bajada": "La Secretaría de Finanzas y el propio Fondo registran la misma deuda, cada uno en su moneda: US$57.705 millones o 42.552 millones de DEG, 13,4 veces la cuota del país. En septiembre de 2026 volvió a vencer capital por primera vez desde 2024, y más de la mitad de lo que se debe vence entre 2026 y 2030.",
+      "titulo_busqueda": "¿Cuánto le debe la Argentina al FMI? US$57.705 millones, y en 2027 vencen US$4.407 millones de capital",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$57.705 M",
+      "numero_label": "deuda de la administración central con el FMI al 30/06/2026 (Secretaría de Finanzas); el FMI registra DEG 42.552 M, lo mismo a 0,737407 DEG por dólar",
+      "fecha": "2026-10-03",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-03-deuda-fmi-cuanto-debe-argentina-vencimientos.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-03-industria-empleo-gastronomia-sueldos",
       "titulo": "La industria tiene 88.859 asalariados registrados menos que en 2023, y casi todo el empleo que sumaron bares y restaurantes es informal o por cuenta propia",
