@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T10:40:56-03:00",
+    "actualizado": "2026-10-04T12:43:07-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-cerdo-brasil-importaciones-record",
+      "titulo": "La Argentina le compró 41.222 toneladas de carne de cerdo a Brasil en ocho meses, la mayor cantidad desde 2002: ya pasó a cualquier año completo salvo 2025",
+      "bajada": "Brasil, que hoy elige presidente, le vendió a la Argentina 41.222 toneladas de carne porcina entre enero y agosto, 19,5% más que un año antes, según el INDEC. La aduana brasileña anota casi lo mismo: 41.384. De cada 100 kilos de esta carne que importa el país, 98,6 vienen de Brasil, y este año llegan más baratos: US$2,64 el kilo, 9,8% menos que en 2025.",
+      "titulo_busqueda": "¿Cuánta carne de cerdo le compra la Argentina a Brasil?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "41.222 t",
+      "numero_label": "toneladas de carne de cerdo (posición 0203) importadas desde Brasil entre enero y agosto de 2026, según el INDEC: la mayor cantidad para esos meses desde 2002",
+      "fecha": "2026-10-04",
+      "hora": "12:30",
+      "archivo": "articulos/2026-10-04-cerdo-brasil-importaciones-record.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-04-acompanamiento-social-78000-poder-de-compra",
       "titulo": "El ex Potenciar Trabajo sigue en $78.000 desde diciembre de 2023: perdió 71% de su poder de compra y hoy alcanza para un tercio de la canasta de alimentos de un adulto",
