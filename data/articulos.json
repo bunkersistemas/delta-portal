@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T00:42:31-03:00",
+    "actualizado": "2026-10-04T02:58:29-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-iva-cada-100-pesos-consumo-minimo",
+      "titulo": "La tasa del IVA es 21%, pero el Estado cobró $9,22 por cada $100 que gastaron los hogares en el primer semestre: el nivel más bajo desde 2004",
+      "bajada": "En un precio con IVA general, $17,36 de cada $100 son impuesto. Pero entre enero y junio de 2026 el IVA que recaudó ARCA equivalió a $9,22 por cada $100 que gastaron los hogares, según las cuentas del INDEC: el primer semestre más bajo de la serie, que arranca en 2004. Un año antes eran $10,04. Casi ocho de cada diez centavos de esa baja vinieron del IVA que se cobra en la Aduana.",
+      "titulo_busqueda": "¿Cuánto IVA se paga en realidad? $9,22 de cada $100 que gastan los hogares, el mínimo desde 2004",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$9,22",
+      "numero_label": "IVA recaudado por cada $100 de consumo privado, enero-junio de 2026 (ARCA, IVA neto $35.217.982 M / INDEC, consumo privado a precios corrientes $382.126.957 M = 9,216%; 1S-2025 10,04; mínimo previo de la serie 1S-2004 9,33; contraste Hacienda IMIG +22,5% vs ARCA +22,8% e IARAF sep-26 IVA -5,4% real)",
+      "fecha": "2026-10-04",
+      "hora": "02:30",
+      "archivo": "articulos/2026-10-04-iva-cada-100-pesos-consumo-minimo.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-04-japon-lengua-vacuna-precio-rusia",
       "titulo": "La Argentina le vende la lengua de vaca a Rusia a US$4 el kilo; Japón, que le acaba de abrir el mercado, la paga US$11",
