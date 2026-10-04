@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T02:58:29-03:00",
+    "actualizado": "2026-10-04T04:48:32-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich",
+      "titulo": "Los aportes y contribuciones alcanzaron para pagar $74,9 de cada $100 de jubilaciones del SIPA en 2025, no $30 como dijo Bullrich",
+      "bajada": "Patricia Bullrich dijo en el Coloquio de IDEA que el 70% de las jubilaciones se paga con impuestos y solo el 30% con aportes. Los números de la ANSES dicen casi lo contrario: en 2025 cobró $37,2 billones de aportes y contribuciones y pagó $49,6 billones de jubilaciones y pensiones del SIPA. Es la proporción más alta desde 2015. El resto lo cubren impuestos con destino fijo, sobre todo el del cheque.",
+      "titulo_busqueda": "¿Las jubilaciones se pagan con aportes o con impuestos? Los aportes cubrieron $74,9 de cada $100 en 2025",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$74,9",
+      "numero_label": "aportes y contribuciones de la ANSES por cada $100 de jubilaciones y pensiones del SIPA, 2025 (Presupuesto Abierto: aportes $37.182.293 M / gasto devengado programas 16+17+20 $49.610.733 M = 74,95%; recálculo serie GPN SIPA 2025 = 49.610.733; 2015 75,3, 2014 82,2, mínimo 2020 55,2; contraste ARCA seguridad social $45.633.686 M = 92,0% e IMIG 89,8%; estricto con AAFF 63,6%)",
+      "fecha": "2026-10-04",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-04-iva-cada-100-pesos-consumo-minimo",
       "titulo": "La tasa del IVA es 21%, pero el Estado cobró $9,22 por cada $100 que gastaron los hogares en el primer semestre: el nivel más bajo desde 2004",
