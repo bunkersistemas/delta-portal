@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T20:44:28-03:00",
+    "actualizado": "2026-10-03T22:42:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-03-auh-20-retenido-libreta-automatica",
+      "titulo": "ANSES ya retuvo $283.966 por cada chico en edad escolar con AUH en 2026, más que en todo 2025: desde noviembre la escuela lo informa sola",
+      "bajada": "Cada mes ANSES deposita el 80% de la AUH y guarda el 20% hasta que se acreditan los controles de salud y la escuela. Con los montos oficiales, entre enero y octubre de 2026 esa reserva suma $283.965,60 por hijo en edad escolar, más que los $262.263,60 de todo 2025. Desde noviembre, por las resoluciones 508 y 290 de 2026, la escolaridad la informa la Secretaría de Educación y la Libreta queda como plan B.",
+      "titulo_busqueda": "¿Cuánto es el 20% retenido de la AUH? $283.966 por hijo en lo que va de 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$283.966",
+      "numero_label": "20% reservado de la AUH por hijo (valor general) acumulado de enero a octubre de 2026: $283.965,60, suma de los montos mensuales oficiales (SPE-ANSES; octubre $156.588, Res. ANSES 283/2026, anexo V), recalculados con el IPC del INDEC; todo 2025: $262.263,60",
+      "fecha": "2026-10-03",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-03-auh-20-retenido-libreta-automatica.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-03-neuquen-exportaciones-buenos-aires-semestre",
       "titulo": "Neuquén exportó US$4.304 millones en el primer semestre: por cada US$100 que vende Buenos Aires ya vende US$27, el doble que en 2023",
