@@ -2706,6 +2706,13 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario, una sola fuente o ya cubiertas frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto le pagó la Argentina a EE.UU. por el swap / cuánto se usó del acuerdo de estabilización cambiaria Tesoro-BCRA (Bessent abre la puerta a otra asistencia, 04/10/2026: infobae, La Nación, ámbito, Cronista, Página12) / ESF del Tesoro, nota 9: acuerdo por US$20.000 M del 18/10/2025, swap por US$2.500 M en octubre de 2025, devuelto completo en diciembre, sin usos pendientes al 31/08/2026; tabla 1: pesos argentinos US$2.534,2 M al 30/11/2025, cero al 31/12/2025 y al 31/08/2026; BCRA Estados Contables 2025, nota 2.2: USD 2.500.000 miles, intereses USD 17.743 miles (0,71%); nota 5: $29.188.334.000 miles = US$20.000 M x 1.459,4167; línea = 48,7% de las reservas al 31/12/2025 (US$41.095 M, anexo II); BIS US$2.500 M al 31/12/2025 (nota 4.14, sin vínculo afirmado); intereses al FMI 2025 US$2.782 M (nota 2.8)",
+      "angulo": "Corrida programada del 04/10/2026 20:30. Pregunta de plata ('¿cuánto le costó a la Argentina / cuánto ganó EE.UU. con el swap?') detrás de la noticia del día en cinco portadas. Verificación: dos fuentes independientes que coinciden (ESF del Tesoro, prestamista, y balance auditado del BCRA, deudor) para la ancla US$2.500 M, el tope US$20.000 M y la cancelación en diciembre; recálculo de cuentas de orden y de la tenencia de pesos del ESF. Intereses US$17,7 M: una sola fuente (balance del BCRA, que los pagó), publicados atribuidos. NO afirmado: tasa anual (fechas exactas no públicas), con qué fondos se canceló, uso posterior al 31/08/2026; sin cita de Bessent (entrevista con Axios sin enlace primario). Candidatas no tomadas: EMPRESAS (cupo aplica, hoy sin nota de EMPRESAS) descartadas con razón: build_empresas.py trajo 0 presentaciones nuevas; BBVA 6-K cubierto el 26/09; Comafi acción de clase sin monto; PCR-Luz de Tres Picos y Aval-Fid Aval (fusiones) sin cifra ancla y visor CNV sin el compromiso; Caja de Valores (dividendos), Central Puerto y A3 (recompras) de rutina; Longvie y Aluar publicados el 01/10 y 03/10. Reactor RA-10 (Cronista): sin documento de costo leído; carne 'mercado de US$3.000 M' (iProfesional): Japón ya cubierto hoy; deudas de hogares (Cronista), ventas pyme CAME, riesgo país, Brasil, pollo: descartadas antes con el mismo motivo. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-10-04",
+      "estado": "publicada",
+      "articulo_id": "2026-10-04-swap-tesoro-eeuu-cuanto-pago-argentina"
     }
   ]
 }

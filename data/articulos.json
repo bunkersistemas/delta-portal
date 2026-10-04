@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T18:44:16-03:00",
+    "actualizado": "2026-10-04T20:44:27-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-swap-tesoro-eeuu-cuanto-pago-argentina",
+      "titulo": "La Argentina usó US$2.500 millones de los US$20.000 millones del swap con EE.UU. y pagó US$17,7 millones de intereses: lo devolvió en diciembre y hasta agosto no volvió a tocarlo",
+      "bajada": "Es lo que muestran los papeles de las dos partes. Según el Fondo de Estabilización Cambiaria del Tesoro de EE.UU., el BCRA cambió pesos por US$2.500 millones en octubre de 2025 y los devolvió completos en diciembre. El balance auditado del Banco Central agrega que pagó US$17,7 millones de intereses, el 0,71% de lo que usó. Al 31 de agosto de 2026, último estado publicado, el acuerdo seguía sin ningún uso.",
+      "titulo_busqueda": "¿Cuánto le pagó la Argentina a EE.UU. por el swap? US$17,7 millones de intereses por US$2.500 millones",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$2.500 M",
+      "numero_label": "lo que el BCRA usó del acuerdo de estabilización cambiaria de US$20.000 millones con el Tesoro de EE.UU. (swap de octubre de 2025, devuelto en diciembre): ESF del Tesoro, nota 9 (nov-25, dic-25, ago-26) y BCRA, Estados Contables 2025, nota 2.2; 12,5% de la línea; intereses pagados US$17.743.000 según el BCRA (0,71%)",
+      "fecha": "2026-10-04",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-04-swap-tesoro-eeuu-cuanto-pago-argentina.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-04-elecciones-sin-paso-costo-2025",
       "titulo": "Las elecciones de 2025, las primeras sin PASO, costaron $359.437 millones: descontada la inflación, lo mismo que las de 2021, que tuvieron dos votaciones",
