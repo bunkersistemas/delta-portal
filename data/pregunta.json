@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-03",
-  "pregunta": "Según el INDEC, entre 2016 y 2025 el valor agregado de la economía creció 3,1% y las horas trabajadas crecieron 10,7%. ¿Qué pasó con lo que se produce por cada hora de trabajo?",
+  "fecha": "2026-10-04",
+  "pregunta": "En octubre de 2026 la AUH es de $156.588 por hijo. ANSES deposita cada mes el 80% y guarda el 20% hasta que se acreditan los controles de salud y la escuela. ¿Cuánto queda guardado ese mes por un hijo en edad escolar?",
   "opciones": [
-    "Bajó cerca de 7%: se trabajaron muchas más horas para producir apenas un poco más",
-    "Subió 3,1%, porque la economía produjo más que en 2016",
-    "Subió 13,8%, porque crecieron tanto la producción como las horas"
+    "$31.317,60: es el 20% de $156.588, y se cobra cuando se acreditan los controles",
+    "$125.270,40: es lo que queda retenido cada mes",
+    "Nada: con el cambio de noviembre, ANSES ya paga el 100% todos los meses"
   ],
   "correcta": 0,
-  "explicacion": "La productividad por hora es lo producido dividido por las horas trabajadas. Si lo producido creció 3,1% y las horas 10,7%, la cuenta es 1,031 dividido 1,107: da 0,931, o sea 6,9% menos por hora que en 2016. Que la economía produzca más en total no alcanza: si para lograrlo hacen falta todavía más horas, cada hora rinde menos. Por eso el INDEC muestra que la productividad repuntó 3,3% en 2025 pero no recuperó el nivel de 2016.",
-  "nota": "articulos/2026-10-02-productividad-hora-trabajo-indec.html",
+  "explicacion": "El 20% de $156.588 es $31.317,60, y eso es lo que ANSES guarda ese mes. Los $125.270,40 son el otro 80%, el que se deposita: es fácil confundir lo que se cobra con lo que se retiene. Para los chicos de cinco años en adelante la reserva no desaparece porque cambie quién informa la escolaridad: desde noviembre lo informa Educación en lugar de la familia, pero el 20% se sigue juntando durante el año. Mes a mes, sumó $283.965,60 por hijo entre enero y octubre de 2026. (Para los de hasta cuatro años con los controles al día, desde marzo el 20% se paga junto con el 80%.)",
+  "nota": "articulos/2026-10-03-auh-20-retenido-libreta-automatica.html",
   "leccion": ""
 }

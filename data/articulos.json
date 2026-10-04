@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-03T22:42:33-03:00",
+    "actualizado": "2026-10-04T00:42:31-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-japon-lengua-vacuna-precio-rusia",
+      "titulo": "La Argentina le vende la lengua de vaca a Rusia a US$4 el kilo; Japón, que le acaba de abrir el mercado, la paga US$11",
+      "bajada": "El acuerdo sanitario que anunció el Gobierno el 30 de septiembre incluye la lengua. Según su aduana, Japón importó en 2025 25.509 toneladas de lengua vacuna congelada por US$280,8 millones, a US$11,01 el kilo. La Argentina exportó 6.742 toneladas por US$27,1 millones y 95 de cada 100 dólares vinieron de Rusia, a US$4,05 el kilo. Uruguay le cobra a Japón US$10,27 y, con 35% del volumen argentino, facturó 85% de lo que facturó la Argentina.",
+      "titulo_busqueda": "¿Cuánto paga Japón por la lengua de vaca? US$11 el kilo; la Argentina la vende a Rusia a US$4",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$11,01",
+      "numero_label": "precio promedio por kilo de la lengua vacuna congelada que importó Japón en 2025 (aduana de Japón vía UN Comtrade, posición 0206.21: US$280.793.553 CIF / 25.508.506 kg, recalculado); contraste FOB a Japón: Uruguay 10,27, Australia 10,31, EE.UU. 11,55; Argentina a Rusia 4,05 (INDEC vía UN Comtrade)",
+      "fecha": "2026-10-04",
+      "hora": "01:30",
+      "archivo": "articulos/2026-10-04-japon-lengua-vacuna-precio-rusia.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-03-auh-20-retenido-libreta-automatica",
       "titulo": "ANSES ya retuvo $283.966 por cada chico en edad escolar con AUH en 2026, más que en todo 2025: desde noviembre la escuela lo informa sola",
