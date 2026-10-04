@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 04 Oct 2026 12:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 14:45:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un plazo fijo en dólares a 30 días paga 1,1% anual: US$11 por cada US$1.000 en un año, y aun así personas y empresas tienen US$11.619 millones depositados, 63,5% más que hace un año</title>
+      <link>https://coninteres.com/articulos/2026-10-04-plazo-fijo-dolares-cuanto-paga.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-plazo-fijo-dolares-cuanto-paga.html</guid>
+      <pubDate>Sun, 04 Oct 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Es la tasa promedio de los bancos al 1° de octubre, según el BCRA; en enero promediaba 1,99%. Una letra del Tesoro de EE.UU. a cuatro semanas rinde 3,96%, y los bancos les prestan dólares a las empresas a 4,1%. Los plazos fijos en dólares del sector privado están en el nivel más alto de la serie diaria del BCRA, que arranca en 2015.</description>
+      <ci:numero>1,10%</ci:numero>
+      <ci:numeroEtiqueta>tasa nominal anual promedio de los plazos fijos en dólares a 30 días, 1° de octubre de 2026 (BCRA, Informe Monetario Diario): 1,99% de promedio en enero de 2026; plazos fijos en dólares del sector privado US$11.619 M al 30/09/2026 (+63,5% interanual)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-plazo-fijo-dolares-cuanto-paga.png" length="94403" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-plazo-fijo-dolares-cuanto-paga.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina le compró 41.222 toneladas de carne de cerdo a Brasil en ocho meses, la mayor cantidad desde 2002: ya pasó a cualquier año completo salvo 2025</title>
       <link>https://coninteres.com/articulos/2026-10-04-cerdo-brasil-importaciones-record.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>valor razonable de la parte propia de Burford Capital en los juicios por YPF al 30/06/2026 (10-Q ante la SEC); US$1.689,4 M al 31/12/2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-ypf-juicio-corte-suprema-burford-valor.png" length="80645" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-ypf-juicio-corte-suprema-burford-valor.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Arcor consiguió US$43 millones a tres años al 5,69% anual: en mayo, por el mismo plazo, había pagado 5,25%</title>
-      <link>https://coninteres.com/articulos/2026-10-02-arcor-obligaciones-negociables-tasa-dolares.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-02-arcor-obligaciones-negociables-tasa-dolares.html</guid>
-      <pubDate>Fri, 02 Oct 2026 03:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>En la licitación del 1 de octubre, Arcor colocó US$43,4 millones en obligaciones negociables a tres años al 5,69% anual, 0,44 puntos más que en mayo por el mismo plazo, y $55.408 millones en pesos a la tasa TAMAR más 4,95 puntos, contra 2,99 en mayo. En esos meses el riesgo país pasó de 543 a 636 puntos.</description>
-      <ci:numero>5,69%</ci:numero>
-      <ci:numeroEtiqueta>tasa nominal anual en dólares de la ON Clase 7 de Arcor, a tres años (licitación del 01/10/2026; 5,25% en mayo)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-arcor-obligaciones-negociables-tasa-dolares.png" length="76448" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-arcor-obligaciones-negociables-tasa-dolares.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T12:43:07-03:00",
+    "actualizado": "2026-10-04T14:45:11-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-plazo-fijo-dolares-cuanto-paga",
+      "titulo": "Un plazo fijo en dólares a 30 días paga 1,1% anual: US$11 por cada US$1.000 en un año, y aun así personas y empresas tienen US$11.619 millones depositados, 63,5% más que hace un año",
+      "bajada": "Es la tasa promedio de los bancos al 1° de octubre, según el BCRA; en enero promediaba 1,99%. Una letra del Tesoro de EE.UU. a cuatro semanas rinde 3,96%, y los bancos les prestan dólares a las empresas a 4,1%. Los plazos fijos en dólares del sector privado están en el nivel más alto de la serie diaria del BCRA, que arranca en 2015.",
+      "titulo_busqueda": "¿Cuánto paga un plazo fijo en dólares?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "1,10%",
+      "numero_label": "tasa nominal anual promedio de los plazos fijos en dólares a 30 días, 1° de octubre de 2026 (BCRA, Informe Monetario Diario): 1,99% de promedio en enero de 2026; plazos fijos en dólares del sector privado US$11.619 M al 30/09/2026 (+63,5% interanual)",
+      "fecha": "2026-10-04",
+      "hora": "14:30",
+      "archivo": "articulos/2026-10-04-plazo-fijo-dolares-cuanto-paga.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-04-cerdo-brasil-importaciones-record",
       "titulo": "La Argentina le compró 41.222 toneladas de carne de cerdo a Brasil en ocho meses, la mayor cantidad desde 2002: ya pasó a cualquier año completo salvo 2025",
