@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 04 Oct 2026 14:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 16:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Ir y volver a Mar del Plata por la ruta 2 cuesta $31.600 de peaje en auto: la tarifa subió 21,5% en un año, menos que los precios</title>
+      <link>https://coninteres.com/articulos/2026-10-04-peaje-ruta-2-mar-del-plata-fin-de-semana-largo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-peaje-ruta-2-mar-del-plata-fin-de-semana-largo.html</guid>
+      <pubDate>Sun, 04 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Las cabinas de Samborombón y Maipú le cobran $7.900 cada una a un auto que paga en efectivo, y $7.856,80 con TelePASE. Ida y vuelta son cuatro pasadas. En octubre de 2025 cada una costaba $6.500: la tarifa subió 21,5%, mientras los precios subieron 30,8% hasta agosto. En el fin de semana largo del 12 de octubre no rige la tarifa rebajada de los días de semana.</description>
+      <ci:numero>$31.600</ci:numero>
+      <ci:numeroEtiqueta>paga de peaje un auto que va y vuelve de Mar del Plata por la ruta 2 en efectivo: cuatro pasadas por Samborombón y Maipú a $7.900 (Res. 544/2026 del Ministerio de Infraestructura bonaerense y cuadro de AUBASA); con TelePASE, $31.427,20</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-peaje-ruta-2-mar-del-plata-fin-de-semana-largo.png" length="86326" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-peaje-ruta-2-mar-del-plata-fin-de-semana-largo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un plazo fijo en dólares a 30 días paga 1,1% anual: US$11 por cada US$1.000 en un año, y aun así personas y empresas tienen US$11.619 millones depositados, 63,5% más que hace un año</title>
       <link>https://coninteres.com/articulos/2026-10-04-plazo-fijo-dolares-cuanto-paga.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>deducción específica de Ganancias de un jubilado en octubre de 2026: 8 x haber mínimo $435.748,51 = $3.485.988,08 por mes (ARCA; Res. ANSES 284/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-ganancias-jubilados-piso-octubre.png" length="77309" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-ganancias-jubilados-piso-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El fondo que financió el juicio por YPF valúa su parte en US$101 millones: a fin de 2025 la tenía en US$1.689 millones</title>
-      <link>https://coninteres.com/articulos/2026-10-02-ypf-juicio-corte-suprema-burford-valor.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-02-ypf-juicio-corte-suprema-burford-valor.html</guid>
-      <pubDate>Fri, 02 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Burford Capital bajó 94% el valor de lo que espera cobrar por el juicio de YPF después de que la Cámara de Apelaciones de Nueva York anulara la sentencia de US$16.100 millones contra la Argentina. El 30 de septiembre, los demandantes le pidieron a la Corte Suprema de EE.UU. que la reviva: la Corte toma unos 80 casos por año de los 7.000 a 8.000 que le piden revisar.</description>
-      <ci:numero>US$101,1 M</ci:numero>
-      <ci:numeroEtiqueta>valor razonable de la parte propia de Burford Capital en los juicios por YPF al 30/06/2026 (10-Q ante la SEC); US$1.689,4 M al 31/12/2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-ypf-juicio-corte-suprema-burford-valor.png" length="80645" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-ypf-juicio-corte-suprema-burford-valor.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

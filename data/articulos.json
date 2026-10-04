@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T14:45:11-03:00",
+    "actualizado": "2026-10-04T16:44:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-peaje-ruta-2-mar-del-plata-fin-de-semana-largo",
+      "titulo": "Ir y volver a Mar del Plata por la ruta 2 cuesta $31.600 de peaje en auto: la tarifa subió 21,5% en un año, menos que los precios",
+      "bajada": "Las cabinas de Samborombón y Maipú le cobran $7.900 cada una a un auto que paga en efectivo, y $7.856,80 con TelePASE. Ida y vuelta son cuatro pasadas. En octubre de 2025 cada una costaba $6.500: la tarifa subió 21,5%, mientras los precios subieron 30,8% hasta agosto. En el fin de semana largo del 12 de octubre no rige la tarifa rebajada de los días de semana.",
+      "titulo_busqueda": "¿Cuánto cuesta el peaje de la ruta 2 a Mar del Plata en octubre de 2026?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$31.600",
+      "numero_label": "paga de peaje un auto que va y vuelve de Mar del Plata por la ruta 2 en efectivo: cuatro pasadas por Samborombón y Maipú a $7.900 (Res. 544/2026 del Ministerio de Infraestructura bonaerense y cuadro de AUBASA); con TelePASE, $31.427,20",
+      "fecha": "2026-10-04",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-04-peaje-ruta-2-mar-del-plata-fin-de-semana-largo.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-04-plazo-fijo-dolares-cuanto-paga",
       "titulo": "Un plazo fijo en dólares a 30 días paga 1,1% anual: US$11 por cada US$1.000 en un año, y aun así personas y empresas tienen US$11.619 millones depositados, 63,5% más que hace un año",
