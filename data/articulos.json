@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T16:44:33-03:00",
+    "actualizado": "2026-10-04T18:44:16-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-elecciones-sin-paso-costo-2025",
+      "titulo": "Las elecciones de 2025, las primeras sin PASO, costaron $359.437 millones: descontada la inflación, lo mismo que las de 2021, que tuvieron dos votaciones",
+      "bajada": "El Gobierno busca eliminar las primarias antes de 2027. La ejecución del presupuesto muestra qué pasó la vez que no se hicieron: organizar las elecciones de 2025 costó, en pesos de 2025, lo mismo que las de 2021, con PASO y generales. Bajaron los aportes a los partidos y los viáticos, pero los servicios comerciales, la partida de la logística, subieron 48,8%. Para 2027 el Presupuesto pide $516.218 millones.",
+      "titulo_busqueda": "¿Cuánto cuestan las PASO?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$359.437 M",
+      "numero_label": "gasto devengado en Ejecución de Actos Electorales (Dirección Nacional Electoral) en 2025, sin PASO; las de 2021, con PASO y generales, costaron $359.483 M en pesos de 2025 (Presupuesto Abierto e IPC del INDEC)",
+      "fecha": "2026-10-04",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-04-elecciones-sin-paso-costo-2025.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-04-peaje-ruta-2-mar-del-plata-fin-de-semana-largo",
       "titulo": "Ir y volver a Mar del Plata por la ruta 2 cuesta $31.600 de peaje en auto: la tarifa subió 21,5% en un año, menos que los precios",

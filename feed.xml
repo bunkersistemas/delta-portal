@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 04 Oct 2026 16:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 18:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las elecciones de 2025, las primeras sin PASO, costaron $359.437 millones: descontada la inflación, lo mismo que las de 2021, que tuvieron dos votaciones</title>
+      <link>https://coninteres.com/articulos/2026-10-04-elecciones-sin-paso-costo-2025.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-elecciones-sin-paso-costo-2025.html</guid>
+      <pubDate>Sun, 04 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Gobierno busca eliminar las primarias antes de 2027. La ejecución del presupuesto muestra qué pasó la vez que no se hicieron: organizar las elecciones de 2025 costó, en pesos de 2025, lo mismo que las de 2021, con PASO y generales. Bajaron los aportes a los partidos y los viáticos, pero los servicios comerciales, la partida de la logística, subieron 48,8%. Para 2027 el Presupuesto pide $516.218 millones.</description>
+      <ci:numero>$359.437 M</ci:numero>
+      <ci:numeroEtiqueta>gasto devengado en Ejecución de Actos Electorales (Dirección Nacional Electoral) en 2025, sin PASO; las de 2021, con PASO y generales, costaron $359.483 M en pesos de 2025 (Presupuesto Abierto e IPC del INDEC)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-elecciones-sin-paso-costo-2025.png" length="89128" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-elecciones-sin-paso-costo-2025.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Ir y volver a Mar del Plata por la ruta 2 cuesta $31.600 de peaje en auto: la tarifa subió 21,5% en un año, menos que los precios</title>
       <link>https://coninteres.com/articulos/2026-10-04-peaje-ruta-2-mar-del-plata-fin-de-semana-largo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>barriles de petróleo por día que produjo en agosto de 2026 Bajo del Choique-La Invernada, el área de Pluspetrol que entra al RIGI (Secretaría de Energía, Capítulo IV); 13.047 un año antes</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-pluspetrol-rigi-bajo-del-choique-produccion.png" length="72373" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-pluspetrol-rigi-bajo-del-choique-produccion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El piso de Ganancias para los jubilados es $3,49 millones por mes en octubre: 19% más que la jubilación máxima de la ANSES</title>
-      <link>https://coninteres.com/articulos/2026-10-02-ganancias-jubilados-piso-octubre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-02-ganancias-jubilados-piso-octubre.html</guid>
-      <pubDate>Fri, 02 Oct 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La ley reemplaza las deducciones de un jubilado por ocho haberes mínimos: $3.485.988 en octubre de 2026, según la tabla de ARCA. La jubilación máxima del sistema nacional es $2.932.175. Con una sola jubilación de la ANSES, y sin otros ingresos ni Bienes Personales, nadie llega al impuesto: lo pagan los haberes de regímenes especiales o quienes suman más de un ingreso.</description>
-      <ci:numero>$3,49 M</ci:numero>
-      <ci:numeroEtiqueta>deducción específica de Ganancias de un jubilado en octubre de 2026: 8 x haber mínimo $435.748,51 = $3.485.988,08 por mes (ARCA; Res. ANSES 284/2026)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-ganancias-jubilados-piso-octubre.png" length="77309" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-ganancias-jubilados-piso-octubre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
