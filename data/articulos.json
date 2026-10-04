@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T04:48:32-03:00",
+    "actualizado": "2026-10-04T06:43:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-pbi-crecio-empleo-privado-cayo-2025",
+      "titulo": "La economía creció 4,5% en 2025 y el sector privado tuvo 22.291 asalariados registrados menos: no había pasado en ningún año desde 1997",
+      "bajada": "Daniel Schteingart, de Fundar, dijo que 2025 fue el primer año en 30 en que el PBI creció y el empleo formal privado cayó. Las series oficiales le dan la razón. Desde 1997 hubo otros nueve años en que bajó el empleo asalariado privado en blanco, y en todos la economía también se achicó. En 2025, no: el PBI subió 4,5% y los puestos registrados bajaron 0,3%.",
+      "titulo_busqueda": "¿Es cierto que en 2025 creció el PBI y cayó el empleo formal por primera vez en 30 años?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "22.291",
+      "numero_label": "puestos asalariados privados registrados menos en 2025 (promedio anual, -0,3%), con un PBI que creció 4,5%",
+      "fecha": "2026-10-04",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-04-pbi-crecio-empleo-privado-cayo-2025.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich",
       "titulo": "Los aportes y contribuciones alcanzaron para pagar $74,9 de cada $100 de jubilaciones del SIPA en 2025, no $30 como dijo Bullrich",

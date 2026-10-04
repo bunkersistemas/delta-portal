@@ -2631,6 +2631,21 @@
       "fecha": "2026-10-04",
       "estado": "publicada",
       "articulo_id": "2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich"
+    },
+    {
+      "tema": "¿es cierto que 2025 fue el primer año en 30 en que creció el PBI y cayó el empleo formal privado? (Daniel Schteingart, Fundar, entrevista en Infobae 04/10/2026) / OEDE-SIPA serie anual cuadro 1: asalariados privados registrados 2024 6.682.637,5 -> 2025 6.660.346,5 (-22.291, -0,33%); recálculo serie trimestral (sep-26) 6.683.906,5 -> 6.662.711,5 (-21.195, -0,32%); INDEC oferta y demanda 09/26 cuadro 1: PBI 2025 +4,48% (preliminar; recálculo promedio trimestral igual); años con caída del empleo 1997-2024: 1999, 2000, 2001, 2002, 2009, 2016, 2019, 2020, 2024, todos con PBI en baja (1997-2003 serie INDEC base 1993 vía Banco Mundial); años con PBI en baja y empleo en alza: 2012, 2014, 2018, 2023; contra 2023: PBI +3,1%, empleo -138.905 (-2,0%); 2T-2026 PBI +2,0% i.a., empleo -2,0% (provisorio); por rama 2025: industria -20.094, comercio +19.837, minas y canteras -6.057; contraste SRT trabajadores cubiertos en unidades productivas sin administración pública 7.102.993 -> 7.066.967 (-0,5%); IGA-OJF 2025 +4,7%",
+      "angulo": "Corrida programada del 04/10/2026 06:30. Chequeo de una afirmación on-the-record de portada (infobae 04/10). Primera candidata probada: APTA. Camino estadística oficial recalculada con contraste (SIPA + SRT; INDEC + IGA-OJF). Diferencia con notas previas: la del 23/09 (crecimiento sin empleo, 4 sectores) y la del 05/09 (37.000 menos que en 2016) no miraban la serie larga 1997-2025 ni el superlativo; la del 03/10 era industria contra gastronomía.",
+      "fecha": "2026-10-04",
+      "estado": "publicada",
+      "articulo_id": "2026-10-04-pbi-crecio-empleo-privado-cayo-2025"
+    },
+    {
+      "tema": "descartes de la corrida programada del 04/10/2026 06:30: riesgo país en máximo del año (La Nación, Página12, Cronista, infobae), Argentina Week US$27.000 M (La Nación, iProfesional, ámbito), pollo supera a la vaca en consumo (ámbito, iProfesional), plazo fijo en octubre (ámbito, iProfesional), hipotecarios UVA (ámbito), línea de crédito del Banco Provincia para construir (infobae), ONU: Argentina cuarta peor en desempeño industrial (ámbito), Lácteos Verónica, Granja Tres Arroyos, Savencia/ex Ilolay, Pandanés (iProfesional, Página12), elecciones en Brasil, Colapinto en Baréin, Argentina 7-0 Burkina Faso, Peregrinación a Luján (infobae portada), empresas CNV/SEC: BBVA 6-K al 30/06, Banco Comafi (acción de clase), Caja de Valores (dividendos), Central Puerto y A3 Mercados (recompras), PCR y Luz de Tres Picos (fusión), Aval Federal y Fid Aval SGR (fusión), Longvie planta Catamarca, Aluar respuesta a ANSES",
+      "angulo": "NO TOMADAS en la corrida programada del 04/10/2026 06:30; ganó el chequeo de Schteingart (PBI crece y empleo privado registrado cae, INDEC + SIPA + SRT), primera candidata probada. Riesgo país (EMBI sin fuente primaria abierta), Argentina Week (sin documento con montos), pollo (cubierto 25/07 y 02/10), plazo fijo (descartado 01/10), hipotecarios (FGS publicado 02/10): ya descartadas o cubiertas con el mismo motivo. Banco Provincia: tasa de un solo banco, menor interés que el chequeo. ONU/ONUDI: índice compuesto sin serie cruda a mano. Verónica: frenada el 03/10 por falta de contraste. Tres Arroyos, Savencia, Pandanés: sin documento primario con cifras. Brasil: comercio bilateral publicado el 27/09. Colapinto, selección, Luján: sin documento oficial con montos. EMPRESAS: el cupo aplica (hoy no hay nota de EMPRESAS) y se descarta con razón: BBVA 2T cubierto el 26/09 desde el mismo 6-K; Comafi acción de clase descartada el 02/10 (sin monto en el expediente); Longvie Catamarca y Aluar-ANSES publicados el 01/10 y 03/10; dividendos, recompras y fusiones de SGR y de PCR sin cifra ancla en la línea de la CNV. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-04",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario o sin ángulo propio frente a la candidata elegida"
     }
   ]
 }
