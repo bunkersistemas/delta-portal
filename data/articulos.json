@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T06:43:02-03:00",
+    "actualizado": "2026-10-04T08:43:08-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-milei-16-puntos-crecimiento-mandato",
+      "titulo": "La economía creció 3,1% en los primeros dos años de Milei: para cerrar el mandato con los 16 puntos que prometió tiene que crecer 12,6% en 2026 y 2027",
+      "bajada": "En París, Javier Milei dijo que terminará sus cuatro años con un crecimiento acumulado de más de 16 puntos. Con los datos del INDEC, en 2024 y 2025 el PBI quedó 3,1% arriba de 2023. Para llegar a 16 haría falta crecer 12,6% en los dos años que quedan. El Presupuesto 2027 de su propio gobierno supone 7,1%.",
+      "titulo_busqueda": "¿Cuánto creció la economía con Milei?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "3,1%",
+      "numero_label": "crecimiento acumulado del PBI en 2024 y 2025 contra 2023 (INDEC); la promesa es más de 16% en cuatro años",
+      "fecha": "2026-10-04",
+      "hora": "08:30",
+      "archivo": "articulos/2026-10-04-milei-16-puntos-crecimiento-mandato.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-04-pbi-crecio-empleo-privado-cayo-2025",
       "titulo": "La economía creció 4,5% en 2025 y el sector privado tuvo 22.291 asalariados registrados menos: no había pasado en ningún año desde 1997",

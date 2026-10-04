@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 04 Oct 2026 06:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 04 Oct 2026 08:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La economía creció 3,1% en los primeros dos años de Milei: para cerrar el mandato con los 16 puntos que prometió tiene que crecer 12,6% en 2026 y 2027</title>
+      <link>https://coninteres.com/articulos/2026-10-04-milei-16-puntos-crecimiento-mandato.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-milei-16-puntos-crecimiento-mandato.html</guid>
+      <pubDate>Sun, 04 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En París, Javier Milei dijo que terminará sus cuatro años con un crecimiento acumulado de más de 16 puntos. Con los datos del INDEC, en 2024 y 2025 el PBI quedó 3,1% arriba de 2023. Para llegar a 16 haría falta crecer 12,6% en los dos años que quedan. El Presupuesto 2027 de su propio gobierno supone 7,1%.</description>
+      <ci:numero>3,1%</ci:numero>
+      <ci:numeroEtiqueta>crecimiento acumulado del PBI en 2024 y 2025 contra 2023 (INDEC); la promesa es más de 16% en cuatro años</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-milei-16-puntos-crecimiento-mandato.png" length="71514" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-milei-16-puntos-crecimiento-mandato.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La economía creció 4,5% en 2025 y el sector privado tuvo 22.291 asalariados registrados menos: no había pasado en ningún año desde 1997</title>
       <link>https://coninteres.com/articulos/2026-10-04-pbi-crecio-empleo-privado-cayo-2025.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>sueldo bruto mensual de un fiscal general del Ministerio Público Fiscal de la Nación (y de un juez de cámara), agosto de 2026, sin antigüedad (Procuración General, escala salarial, código 506: $9.379.464,53); +24,7% desde noviembre de 2025, igual que el IPC</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-cuanto-cobra-un-fiscal-federal.png" length="82157" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-cuanto-cobra-un-fiscal-federal.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Nación giró $7,02 billones a las provincias en septiembre: por habitante, Tierra del Fuego recibió $437.740 y Buenos Aires $91.329, casi cinco veces menos</title>
-      <link>https://coninteres.com/articulos/2026-10-01-coparticipacion-provincias-por-habitante.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-01-coparticipacion-provincias-por-habitante.html</guid>
-      <pubDate>Thu, 01 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Entre coparticipación y otros fondos automáticos, la Nación les transfirió a las 24 jurisdicciones $7.023.026 millones en septiembre, 38,4% más que un año antes. Repartida por habitante, la plata no se parece a la población: Buenos Aires tiene el 38,2% de los habitantes y recibió el 22,8%; Catamarca, Formosa y Tierra del Fuego, con el 2,7% de la gente, se llevaron el 7,1%.</description>
-      <ci:numero>$7,02 billones</ci:numero>
-      <ci:numeroEtiqueta>transferencias automáticas de la Nación a las 24 jurisdicciones en septiembre de 2026: $7.023.026 millones (Ministerio de Economía, Dirección Nacional de Asuntos Provinciales); $5.074.002 millones en septiembre de 2025 (+38,4%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-coparticipacion-provincias-por-habitante.png" length="92459" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-coparticipacion-provincias-por-habitante.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
