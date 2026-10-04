@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T08:43:08-03:00",
+    "actualizado": "2026-10-04T10:40:56-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-04-acompanamiento-social-78000-poder-de-compra",
+      "titulo": "El ex Potenciar Trabajo sigue en $78.000 desde diciembre de 2023: perdió 71% de su poder de compra y hoy alcanza para un tercio de la canasta de alimentos de un adulto",
+      "bajada": "El Programa de Acompañamiento Social, heredero del Potenciar Trabajo, paga $78.000 por mes: el mismo monto que el Potenciar en diciembre de 2023. Con la inflación del INDEC hasta agosto, esa plata compra 71,2% menos. Cuando se fijó alcanzaba para la canasta de alimentos de un adulto; en agosto de 2026, para el 33,2%.",
+      "titulo_busqueda": "¿Cuánto cobra el Acompañamiento Social (ex Potenciar Trabajo) en octubre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "-71,2%",
+      "numero_label": "poder de compra que perdieron los $78.000 del Acompañamiento Social (ex Potenciar Trabajo) entre diciembre de 2023 y agosto de 2026, con el IPC del INDEC",
+      "fecha": "2026-10-04",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-04-acompanamiento-social-78000-poder-de-compra.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-04-milei-16-puntos-crecimiento-mandato",
       "titulo": "La economía creció 3,1% en los primeros dos años de Milei: para cerrar el mandato con los 16 puntos que prometió tiene que crecer 12,6% en 2026 y 2027",
