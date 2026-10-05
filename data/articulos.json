@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-05T08:41:08-03:00",
+    "actualizado": "2026-10-05T09:44:37-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -14,9 +14,27 @@
     "ECONOMÍA",
     "ECONOMÍA PROVINCIAL",
     "MERCADOS",
-    "MUNDO"
+    "MUNDO",
+    "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-05-ia-choco-contra-el-enchufe",
+      "titulo": "Una empresa suiza alquila neuronas humanas vivas para computar: la inteligencia artificial chocó contra el enchufe",
+      "bajada": "La tecnología más poderosa jamás construida encontró su límite en el recurso más antiguo de la economía: la energía. Y el intento más radical de superarlo —computar con neuronas humanas vivas— ya se alquila por internet.",
+      "titulo_busqueda": "¿Se puede computar con neuronas humanas? Una empresa suiza ya las alquila por internet",
+      "seccion": "IA",
+      "formato": "Análisis",
+      "numero": "20 vatios",
+      "numero_label": "lo que consume un cerebro humano; los centros de datos del mundo consumirán unos 950 TWh por año hacia 2030 (AIE)",
+      "fecha": "2026-10-05",
+      "hora": "12:00",
+      "archivo": "articulos/2026-10-05-ia-choco-contra-el-enchufe.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "6 min",
+      "destacada": true
+    },
     {
       "id": "2026-10-05-cauchari-olaroz-ampliacion-litio-85000-toneladas",
       "titulo": "Cauchari-Olaroz va a más que duplicar su capacidad de litio en Jujuy: de 40.000 a 85.000 toneladas por año, con una inversión de US$1.013 millones según la empresa",

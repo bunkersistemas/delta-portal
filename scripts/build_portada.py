@@ -58,7 +58,7 @@ SEC_COLOR = {
     "EMPRESAS": "#2F5DA8",
     # compat / fallback
     "PLATA": "#0E7C86", "MÁQUINAS": "#C4701F", "CIENCIA": "#2E8B6F",
-    "EL MUNDO EN NÚMEROS": "#7A5CC4", "DEPORTES": "#C0392B", "NEGOCIOS": "#0A5C63",
+    "EL MUNDO EN NÚMEROS": "#7A5CC4", "DEPORTES": "#C0392B", "IA": "#B8336A", "NEGOCIOS": "#0A5C63",
     "TECNOLOGÍA": "#C4701F",
 }
 
@@ -105,6 +105,7 @@ GRUPOS = [
     {"id": "tu-provincia", "label": "Tu provincia", "sub": "las economías del interior, en números", "color": "#2E8B6F"},
     {"id": "el-mundo", "label": "El mundo", "sub": "lo global que toca a la Argentina", "color": "#7A5CC4"},
     {"id": "deportes", "label": "Deportes", "sub": "la economía del deporte, en números", "color": "#C0392B"},
+    {"id": "ia", "label": "La economía de la IA", "sub": "cómo la inteligencia artificial transforma la economía", "color": "#B8336A"},
 ]
 GRUPO_POR_ID = {g["id"]: g for g in GRUPOS}
 
@@ -130,6 +131,8 @@ def grupo_de(a):
         return "el-mundo"
     if s == "DEPORTES":
         return "deportes"
+    if s == "IA":
+        return "ia"
     texto = (a["titulo"] + " " + a.get("bajada", "") + " " + a.get("numero_label", "")).lower()
     return "tu-plata" if any(k in texto for k in TU_PLATA_KW) else "el-pais"
 

@@ -2787,6 +2787,13 @@
       "fecha": "2026-10-05",
       "estado": "publicada",
       "articulo_id": "2026-10-05-cauchari-olaroz-ampliacion-litio-85000-toneladas"
+    },
+    {
+      "tema": "IA y energía: el límite eléctrico de la inteligencia artificial (IEA 485 TWh 2025 -> 950 TWh 2030, capex 2026 de Microsoft/Google/Amazon/Meta) y la biocomputación con organoides humanos (FinalSpark, Cortical Labs)",
+      "angulo": "Nota de opinión-análisis escrita por el editor; inaugura la sección La economía de la IA. Texto del editor, verificado cifra por cifra el 05/10/2026: 9 reformulaciones aprobadas por el editor (capital del sector -> solo Cortical Labs; sin 'un bit'; 50% es consumo eléctrico; etc.).",
+      "fecha": "2026-10-05",
+      "estado": "publicada",
+      "articulo_id": "2026-10-05-ia-choco-contra-el-enchufe"
     }
   ]
 }

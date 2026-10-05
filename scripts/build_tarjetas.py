@@ -52,10 +52,12 @@ COLOR = {
     "tu-provincia": (46, 139, 111),
     "el-mundo": (122, 92, 196),
     "deportes": (192, 57, 43),
+    "ia": (184, 51, 106),
 }
 ETIQUETA = {
     "tu-plata": "Tu plata", "el-pais": "El país", "empresas": "Empresas", "los-mercados": "Los mercados",
     "tu-provincia": "Tu provincia", "el-mundo": "El mundo", "deportes": "Deportes",
+    "ia": "La economía de la IA",
 }
 
 # La tipografia del sitio (Source Serif 4 / Inter / IBM Plex Mono) son webfonts.
