@@ -2808,6 +2808,21 @@
       "fecha": "2026-10-05",
       "estado": "publicada",
       "articulo_id": "2026-10-05-cuanto-cobra-gendarme-octubre"
+    },
+    {
+      "tema": "cuántos pasajeros perdió Flybondi y quién se quedó con ellos (infobae y La Nación 05/10/2026: Flybondi se presentó el 02/10/2026 en concurso preventivo, Juzgado Comercial N° 24) / ANAC, tablas de movimientos y pasajeros 2023-2026, cuadro 15: Flybondi cabotaje ago-26 1.865 pasajeros (18 vuelos, cuadro 17) vs ago-25 254.533 (1.646 vuelos); ene-26 353.622 (récord desde 2018, previo ene-25 349.481); feb-26 25,0% del cabotaje; Aerolíneas +75.323 y JetSMART +55.230; cabotaje total 1.511.782 -> 1.395.670 (-116.112, -7,7%)",
+      "angulo": "Corrida programada del 05/10/2026 14:30, primera candidata probada (pregunta de plata + empresa del día en 2 portadas leídas). Ancla 1.865 CONFIRMADA por estadística oficial recalculada: suma por aerolínea del cuadro 15 ago-26 = 1.395.670 = cuadro 7 (regular 1.375.694 + no regular 19.976); ago-25 suma 1.511.782 vs cuadro 7 1.511.718 (64 de diferencia, se usa la suma por aerolínea y se explica). Jun-ago 2026 provisorios. Contraste independiente: ANAC de Brasil (29/07/2026, 79% de vuelos cancelados en Brasil del 1 al 27/07) y failbondi.fail (rastreo: 547 vuelos semanales y 15,4 aviones/día en su pico; 1 vuelo en la última semana al 03/10); sus conteos mensuales difieren de la ANAC (junio 803 vs 450 cab+intl) y no se usan para cifras. Superlativo 'mejor mes desde 2018' con valor previo ene-25 349.481 (máximo 2018-2022: dic-22 277.203). No se da deuda total (sin documento del expediente); embargos ARCA/ANAC > $1.500 M c/u atribuidos a La Nación. EMPRESAS: hoy ya hubo nota (Cauchari-Olaroz), no rige el cupo; esta nota va igual en EMPRESAS con cifras del regulador.",
+      "fecha": "2026-10-05",
+      "estado": "publicada",
+      "articulo_id": "2026-10-05-flybondi-concurso-pasajeros-cabotaje-anac"
+    },
+    {
+      "tema": "descartes de la corrida programada del 05/10/2026 14:30: mora récord y préstamos de consumo (infobae, ámbito), Bessent y nuevo rescate (5 portadas), Brasil/Bolsonaro y mercados (6 portadas), RIGI ronda de negocios y misión de EE.UU. (infobae, La Nación, Página12), industria cuarta peor según la ONU (Cronista, Página12), oferta de alquileres +300% en el AMBA (infobae), 40% de los hogares más pobres de CABA gasta más de la mitad en alquiler (iProfesional), Añelo duplicó su población (infobae), Adecoagro vs Vicentin por Shimy y Yogs (iProfesional), recolección de basura y Camioneros (Cronista), quesera francesa cierra planta (La Nación), Pandanés, prepagas y DNU 70 (La Nación), empresas CNV/SEC: YPF recompra de ON propias (hecho relevante 05/10), BBVA 6-K, Comafi, Caja de Valores, Central Puerto y A3 (recompras), Aval/Fid Aval SGR, Longvie, Aluar",
+      "angulo": "NO TOMADAS en la corrida programada del 05/10/2026 14:30; ganó Flybondi (primera candidata, APTA). Préstamos: el IMM de septiembre sale el 07/10. Bessent, Brasil: cubiertas el 04-05/10. RIGI e industria: cubiertas varias veces en la semana sin dato nuevo. Alquileres AMBA: fuente privada única (portal inmobiliario); alquiler CABA cubierto el 29/09. Añelo: sin dato censal de localidad nuevo a mano frente a la candidata elegida. Adecoagro/Vicentin, quesera, Pandanés: sin documento primario con cifras. Camioneros y recolección: cubiertos el 26-27/09. Prepagas: cubiertas el 01/10. YPF recompra de ON: candidata de empresas válida que queda para otra corrida (hoy ya hubo nota de EMPRESAS). Resto del bloque EMPRESAS: ya cubierto o sin cifra ancla. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-05",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "ya cubiertas, fuente privada única o sin documento primario frente a la candidata elegida"
     }
   ]
 }

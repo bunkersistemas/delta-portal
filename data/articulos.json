@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-05T12:44:55-03:00",
+    "actualizado": "2026-10-05T14:46:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-05-flybondi-concurso-pasajeros-cabotaje-anac",
+      "titulo": "Flybondi, ahora en concurso preventivo, llevó 1.865 pasajeros de cabotaje en agosto contra 254.533 un año antes: Aerolíneas y JetSMART sumaron 130.553 y el cabotaje igual perdió 116.112",
+      "bajada": "En febrero Flybondi llevaba uno de cada cuatro pasajeros de los vuelos dentro del país. En agosto, según la ANAC, hizo 18 vuelos de cabotaje y llevó 1.865 personas. Aerolíneas Argentinas y JetSMART crecieron, pero no alcanzaron a cubrir el hueco: el cabotaje tuvo 116.112 pasajeros menos que en agosto de 2025.",
+      "titulo_busqueda": "¿Quién se quedó con los pasajeros de Flybondi?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "1.865",
+      "numero_label": "pasajeros de cabotaje que llevó Flybondi en agosto de 2026, contra 254.533 en agosto de 2025 (ANAC)",
+      "fecha": "2026-10-05",
+      "hora": "14:30",
+      "archivo": "articulos/2026-10-05-flybondi-concurso-pasajeros-cabotaje-anac.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-05-cuanto-cobra-gendarme-octubre",
       "titulo": "Un gendarme cobra $1.003.308 de haber en octubre, y el suplemento de $459.269 por destino de conflicto solo puede llegar al 16% de la fuerza",
