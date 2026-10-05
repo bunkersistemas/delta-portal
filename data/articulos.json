@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-05T04:52:59-03:00",
+    "actualizado": "2026-10-05T06:44:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-05-puam-octubre-2026-cuanto-cobra-titulares",
+      "titulo": "La PUAM paga $418.598,81 en octubre con el bono y la cobran cada vez más: 218.844 personas en junio, 6,6% más que en enero, y casi nueve de cada diez son hombres",
+      "bajada": "La Pensión Universal para el Adulto Mayor es de $348.598,81 en octubre, más un bono de $70.000. Después de dos años de caída, la cantidad de titulares volvió a subir en 2026: la moratoria se cerró en marzo de 2025 y, por primera vez desde al menos 2010, la mayoría de las jubilaciones nuevas son sin moratoria.",
+      "titulo_busqueda": "¿Cuánto cobra la PUAM en octubre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$418.598,81",
+      "numero_label": "PUAM de octubre de 2026 con el bono: $348.598,81 (Res. ANSES 284/2026, 80% de la mínima) + $70.000 (Decreto 1108/2026)",
+      "fecha": "2026-10-05",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-05-puam-octubre-2026-cuanto-cobra-titulares.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-05-estados-unidos-paso-a-china-comprador-exportaciones",
       "titulo": "Estados Unidos le compró a la Argentina US$6.691 millones en ocho meses, 34,5% más que en 2025, y pasó a China como segundo destino de las exportaciones",

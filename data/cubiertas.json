@@ -2765,6 +2765,21 @@
       "fecha": "2026-10-05",
       "estado": "publicada",
       "articulo_id": "2026-10-05-estados-unidos-paso-a-china-comprador-exportaciones"
+    },
+    {
+      "tema": "cuánto cobra la PUAM en octubre de 2026 (infobae 05/10/2026 'De cuánto es la PUAM de ANSES en octubre 2026') / Res. ANSES 284/2026 art. 5: $348.598,81 (80% de la mínima $435.748,51) + bono Decreto 1108/2026 $70.000 = $418.598,81; titulares PUAM no suspendidos BESS jun-2026 cuadro 3.7: 218.844 (ene-26 205.278, +6,6%; promedio 2025 192.152, el más bajo desde 2020; 2023 272.354); 87,3% hombres (cuadro 3.6: 191.060 y 27.784 mujeres); altas de jubilación 1S-2026 sin moratoria 56.373 de 99.673 (56,6%), primera vez mayoría desde 2010 (máximo previo 45,9% en 2018; cuadro 2.4.1); Presupuesto 2027 programa 30: meta 253.032 pensionados, crédito $1.412.814 M",
+      "angulo": "Corrida programada del 05/10/2026 06:30, primera candidata probada. Pregunta de plata (el monto de la PUAM, en portada de infobae) con ángulo propio: la PUAM vuelve a crecer desde que venció la moratoria de la Ley 27.705 (dos años desde marzo de 2023) y casi toda es masculina; por primera vez desde 2010 la mayoría de las altas de jubilación son sin moratoria. Ancla CONFIRMADA por dos normas distintas (Res. ANSES 284/2026 y Decreto 1108/2026) más el recálculo 0,8 x mínima. Titulares por el camino de estadística oficial: BESS cuadro 3.7 = suma por edad (3.6) = suma por provincia (3.9); contraste: meta del Presupuesto 2027 (Ministerio de Economía). Declarado en ④: no se atribuye causa a la composición por sexo; titulares a junio. Superlativos con valor previo: 'primera vez desde 2010' (máximo previo 45,9% en 2018) y 'más bajo desde 2020' (2020: 168.545). No se toca pregunta.json (ya es de hoy).",
+      "fecha": "2026-10-05",
+      "estado": "publicada",
+      "articulo_id": "2026-10-05-puam-octubre-2026-cuanto-cobra-titulares"
+    },
+    {
+      "tema": "descartes de la corrida programada del 05/10/2026 06:30: BCRA aceleró la compra de reservas tras el FMI (infobae), servicios basados en el conocimiento en récord exportador (infobae), préstamos personales cayeron en septiembre (ámbito), soja 'mileísta' (infobae, Cronista), patentamientos de septiembre (infobae), ventas minoristas pyme +0,3% (infobae, La Nación, ámbito, Página12; CAME), elecciones en Brasil y el real (5 portadas), Bessent y otro rescate (5 portadas), cuota alimentaria cobrada en la factura de luz (iProfesional), Lácteos Verónica, Pandanés, empresas CNV/SEC: BBVA 6-K al 30/06, Banco Comafi, Caja de Valores (dividendos), Central Puerto y A3 Mercados (recompras), Aval Federal y Fid Aval SGR, Longvie, Aluar",
+      "angulo": "NO TOMADAS en la corrida programada del 05/10/2026 06:30; ganó la PUAM (pregunta de plata buscada, con serie oficial del BESS que nadie publicó), primera candidata probada. Compras del BCRA: cubierto el 25/09 y descartado el 01/10, sin dato nuevo de cierre. SBC: cubierta el 19/07, actualización sin ángulo nuevo. Préstamos personales: frenada el 04/10, el IMM de septiembre sale el 07/10. Soja: cubierta el 01/10. Patentamientos: ACARA es una cámara privada; menor interés que la PUAM. CAME: relevamiento privado de una sola fuente. Brasil y Bessent: cubiertas el 05/10 y el 04/10. Cuota alimentaria: fallo judicial individual, sin cifra oficial (canasta de crianza publicada el 14/09). Verónica y Pandanés: sin documento primario con cifras. EMPRESAS: el cupo aplica (hoy no hay nota de EMPRESAS) y se descarta con razón: build_empresas.py trajo 0 presentaciones nuevas; BBVA 2T cubierto el 26/09 desde el mismo 6-K; Comafi descartada el 02/10; Longvie y Aluar publicados el 01/10 y 03/10; dividendos de terceros, recompras diarias y fusiones de SGR sin cifra ancla. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-05",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "ya cubiertas, una sola fuente privada o sin documento primario frente a la candidata elegida"
     }
   ]
 }
