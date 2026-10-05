@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-04",
-  "pregunta": "En octubre de 2026 la AUH es de $156.588 por hijo. ANSES deposita cada mes el 80% y guarda el 20% hasta que se acreditan los controles de salud y la escuela. ¿Cuánto queda guardado ese mes por un hijo en edad escolar?",
+  "fecha": "2026-10-05",
+  "pregunta": "El Estado nacional gastó $194.091 millones en vacunas en 2024 y $189.395 millones en 2025. La inflación promedio de 2025 fue de 41,9%. Descontada la inflación, ¿cuánto cambió el gasto en vacunas?",
   "opciones": [
-    "$31.317,60: es el 20% de $156.588, y se cobra cuando se acreditan los controles",
-    "$125.270,40: es lo que queda retenido cada mes",
-    "Nada: con el cambio de noviembre, ANSES ya paga el 100% todos los meses"
+    "Cayó alrededor de 31%: con 41,9% de inflación, los $189.395 millones de 2025 compran lo que $133.471 millones en 2024",
+    "Cayó apenas 2,4%: es la diferencia entre los dos montos",
+    "Subió: con inflación, cualquier gasto en pesos crece año contra año"
   ],
   "correcta": 0,
-  "explicacion": "El 20% de $156.588 es $31.317,60, y eso es lo que ANSES guarda ese mes. Los $125.270,40 son el otro 80%, el que se deposita: es fácil confundir lo que se cobra con lo que se retiene. Para los chicos de cinco años en adelante la reserva no desaparece porque cambie quién informa la escolaridad: desde noviembre lo informa Educación en lugar de la familia, pero el 20% se sigue juntando durante el año. Mes a mes, sumó $283.965,60 por hijo entre enero y octubre de 2026. (Para los de hasta cuatro años con los controles al día, desde marzo el 20% se paga junto con el 80%.)",
-  "nota": "articulos/2026-10-03-auh-20-retenido-libreta-automatica.html",
+  "explicacion": "Para comparar pesos de años distintos hay que llevarlos a la misma moneda. Si los precios subieron 41,9% en promedio, $189.395 millones de 2025 valen lo que $133.471 millones de 2024 ($189.395 / 1,419). Contra los $194.091 millones de 2024, es 31,2% menos. El 2,4% es la caída en pesos corrientes: confundirla con la caída real es el error más común con cifras en pesos. Y que un monto en pesos crezca no dice nada: con inflación alta, puede crecer y aun así comprar menos.",
+  "nota": "articulos/2026-10-04-gasto-vacunas-2025-minimo.html",
   "leccion": ""
 }

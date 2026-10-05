@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-04T22:44:16-03:00",
+    "actualizado": "2026-10-05T00:44:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-05-brasil-mas-caro-tipo-cambio-real",
+      "titulo": "Brasil está 17,8% más caro para los argentinos que en el verano de 2025, pero 5% más barato que el último verano",
+      "bajada": "Lo dice el tipo de cambio real con Brasil que calcula el BCRA, que compara cuántos pesos cuesta un real con cuánto subieron los precios de cada lado. Entre enero de 2025 y julio de 2026 el real pasó de $173,30 a $290,78 en promedio, un 67,8% más, mientras los precios argentinos subieron 53,6% y los brasileños, 7,7%. Desde enero de 2026 la cuenta se dio vuelta: Brasil se abarató 5%.",
+      "titulo_busqueda": "¿Está más caro Brasil para los argentinos? Cuánto cambió desde el verano de 2025",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "17,8%",
+      "numero_label": "más caro está Brasil para los argentinos en julio de 2026 que en enero de 2025 (tipo de cambio real bilateral del BCRA)",
+      "fecha": "2026-10-05",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-05-brasil-mas-caro-tipo-cambio-real.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-04-gasto-vacunas-2025-minimo",
       "titulo": "El Estado gastó $189.395 millones en vacunas en 2025: descontada la inflación, 31% menos que en 2024 y el monto más bajo en al menos nueve años",
