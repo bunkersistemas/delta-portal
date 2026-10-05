@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-05T18:42:44-03:00",
+    "actualizado": "2026-10-05T20:40:47-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-05-exportaciones-petroleo-crudo-oleoducto-vmos",
+      "titulo": "La Argentina vendió US$6.625 millones de petróleo crudo en ocho meses, casi lo mismo que en todo 2025: el oleoducto Vaca Muerta Sur está pensado para cargar el doble de lo que se exporta hoy",
+      "bajada": "Entre enero y agosto de 2026 las exportaciones de crudo subieron 54,7%, según el INDEC: se vendió 30,7% más petróleo y a un precio 18,3% más alto. Ya suman el 98,6% de lo que se exportó en todo 2025. El oleoducto Vaca Muerta Sur, que acaba de recibir sus dos monoboyas, está diseñado para cargar 550.000 barriles por día; hoy la Argentina exporta unos 267.000.",
+      "titulo_busqueda": "¿Cuánto petróleo exporta la Argentina y cuánto puede sumar el oleoducto Vaca Muerta Sur?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$6.625 M",
+      "numero_label": "exportaciones de petróleo crudo (NCM 27090010) enero-agosto de 2026, +54,7% contra US$4.284 M en 2025 (INDEC, ICA agosto 2026, cuadro 8)",
+      "fecha": "2026-10-05",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-05-exportaciones-petroleo-crudo-oleoducto-vmos.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-05-mercado-libre-argentina-brasil-contribucion-directa",
       "titulo": "Mercado Libre factura tres veces más en Brasil que en la Argentina, pero la Argentina le dejó más: US$623 millones de contribución directa contra US$550 millones en el segundo trimestre",

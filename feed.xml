@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 18:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 20:40:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina vendió US$6.625 millones de petróleo crudo en ocho meses, casi lo mismo que en todo 2025: el oleoducto Vaca Muerta Sur está pensado para cargar el doble de lo que se exporta hoy</title>
+      <link>https://coninteres.com/articulos/2026-10-05-exportaciones-petroleo-crudo-oleoducto-vmos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-exportaciones-petroleo-crudo-oleoducto-vmos.html</guid>
+      <pubDate>Mon, 05 Oct 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre enero y agosto de 2026 las exportaciones de crudo subieron 54,7%, según el INDEC: se vendió 30,7% más petróleo y a un precio 18,3% más alto. Ya suman el 98,6% de lo que se exportó en todo 2025. El oleoducto Vaca Muerta Sur, que acaba de recibir sus dos monoboyas, está diseñado para cargar 550.000 barriles por día; hoy la Argentina exporta unos 267.000.</description>
+      <ci:numero>US$6.625 M</ci:numero>
+      <ci:numeroEtiqueta>exportaciones de petróleo crudo (NCM 27090010) enero-agosto de 2026, +54,7% contra US$4.284 M en 2025 (INDEC, ICA agosto 2026, cuadro 8)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-exportaciones-petroleo-crudo-oleoducto-vmos.png" length="89225" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-exportaciones-petroleo-crudo-oleoducto-vmos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Mercado Libre factura tres veces más en Brasil que en la Argentina, pero la Argentina le dejó más: US$623 millones de contribución directa contra US$550 millones en el segundo trimestre</title>
       <link>https://coninteres.com/articulos/2026-10-05-mercado-libre-argentina-brasil-contribucion-directa.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>pagará desde noviembre una pyme por un empleado del RIFL (5% de contribuciones + 2,5% al FAL), contra 18% del régimen general</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-rifl-cargas-patronales-pyme-fondo-despidos.png" length="76324" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-rifl-cargas-patronales-pyme-fondo-despidos.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Personas y empresas de la Argentina tienen US$12.946 millones depositados en bancos de Estados Unidos, 37% más que a fines de 2023</title>
-      <link>https://coninteres.com/articulos/2026-10-03-depositos-argentinos-bancos-estados-unidos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-depositos-argentinos-bancos-estados-unidos.html</guid>
-      <pubDate>Sat, 03 Oct 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>Es el dato de julio de 2026 del Tesoro de EE.UU., a US$96 millones del máximo de su serie, de mayo de 2020. Ese mes los depósitos de residentes argentinos superaron a los de Brasil. Por el acuerdo FATCA, ARCA recibe de esas cuentas los intereses, no los saldos.</description>
-      <ci:numero>US$12.946 M</ci:numero>
-      <ci:numeroEtiqueta>depósitos de residentes privados argentinos (no oficiales ni bancos) en bancos y entidades financieras de EE.UU., julio de 2026 (Tesoro de EE.UU., TIC): +37,0% contra US$9.451 M de diciembre de 2023; máximo de la serie US$13.042 M (mayo de 2020)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-depositos-argentinos-bancos-estados-unidos.png" length="88157" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-depositos-argentinos-bancos-estados-unidos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
