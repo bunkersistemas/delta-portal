@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 14:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 16:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un empleado soltero empieza a pagar Ganancias con $3.505.431 brutos por mes: el piso subió 33,5% en un año y el sueldo promedio, 28,8%</title>
+      <link>https://coninteres.com/articulos/2026-10-05-ganancias-piso-sueldo-empleados-octubre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-ganancias-piso-sueldo-empleados-octubre.html</guid>
+      <pubDate>Mon, 05 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Desde julio, según las tablas de ARCA, un asalariado soltero tiene retención de Ganancias si cobra más de $3.505.431 brutos por mes; con cónyuge y dos hijos a cargo, más de $4.648.749. El piso se ajusta dos veces por año con la inflación y en julio subió 16,85%. Hoy equivale a 1,8 sueldos promedio, pero a fin de cada semestre esa distancia se achica.</description>
+      <ci:numero>$3,51 M</ci:numero>
+      <ci:numeroEtiqueta>sueldo bruto mensual desde el que un empleado soltero tiene retención de Ganancias en jul-dic 2026: ($501.639,28 + $2.407.868,55) / 0,83 = $3.505.431,12 (ARCA, deducciones art. 30 jul-dic 2026; 17% de aportes)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-ganancias-piso-sueldo-empleados-octubre.png" length="88837" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-ganancias-piso-sueldo-empleados-octubre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Flybondi, ahora en concurso preventivo, llevó 1.865 pasajeros de cabotaje en agosto contra 254.533 un año antes: Aerolíneas y JetSMART sumaron 130.553 y el cabotaje igual perdió 116.112</title>
       <link>https://coninteres.com/articulos/2026-10-05-flybondi-concurso-pasajeros-cabotaje-anac.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>exportaciones del complejo litio en el 1er semestre de 2026 (INDEC, Complejos exportadores, provisorio): +186,3% contra US$393 M del 1er semestre de 2025 y más que todo 2025 (US$932 M, récord de la serie 2002-2025)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-litio-exportaciones-semestre-supera-2025.png" length="84902" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-litio-exportaciones-semestre-supera-2025.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las calles comerciales porteñas tienen 1.388 locales vacíos, 288 más que hace un año, y la ropa explica dos de cada tres comercios que se perdieron</title>
-      <link>https://coninteres.com/articulos/2026-10-03-locales-vacios-caba-ejes-comerciales.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-locales-vacios-caba-ejes-comerciales.html</guid>
-      <pubDate>Sat, 03 Oct 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Entre mayo y agosto de 2026, casi 11 de cada 100 locales a la calle de los 48 ejes comerciales de la Ciudad de Buenos Aires estaban cerrados, en alquiler o en obra, según el relevamiento del IDECBA. Es la tasa más alta desde que se mide ese recorrido. Los que tienen el cartel de alquiler o venta casi se duplicaron: de 239 a 464.</description>
-      <ci:numero>1.388</ci:numero>
-      <ci:numeroEtiqueta>locales vacíos en los 48 ejes comerciales de la Ciudad de Buenos Aires, 2do cuatrimestre de 2026: 10,7% de 12.916 relevados (IDECBA, Informe de resultados 2063, provisorio); 1.100 y 8,5% un año antes</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-locales-vacios-caba-ejes-comerciales.png" length="77970" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-locales-vacios-caba-ejes-comerciales.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

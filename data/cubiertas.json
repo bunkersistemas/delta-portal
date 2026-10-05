@@ -2823,6 +2823,13 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "ya cubiertas, fuente privada única o sin documento primario frente a la candidata elegida"
+    },
+    {
+      "tema": "desde qué sueldo paga Ganancias un empleado (RETOMADA del ángulo asalariado; hook: ARCA presenta nuevo sistema de Ganancias, Ámbito y El Cronista 05/10/2026) / ARCA deducciones art. 30 jul-dic 2026: GNI $501.639,28 + deducción especial ap. 2 $2.407.868,55 por mes = $2.909.507,83 neto -> $3.505.431,12 bruto (17% aportes); casado con 2 hijos $4.648.748,76 (debajo de la base máxima de oct $4.769.631,49, Res. ANSES 284/2026); actualización 16,846% = IPC dic-25/jun-26; pisos por semestre 2025 H1 $2.280.558, H2 $2.624.853, 2026 H1 $3.000.046; +33,5% interanual vs RIPTE jul-25/jul-26 +28,8%; piso/RIPTE 1,80 en jul-26, 1,57 en jun-26 (serrucho 1,85-1,55 desde 2025)",
+      "angulo": "el piso del ASALARIADO en sueldo bruto y su distancia al sueldo promedio mes a mes (serrucho semestral). La nota del 02/10 era el piso de los JUBILADOS (deducción específica) y solo mencionaba la deducción neta del asalariado soltero. Contraste: +blogdelcontador 16/07 ($3.505.431,12 y $4.648.748,75), Cronista 08/07 estimación previa $3.507.909.",
+      "fecha": "2026-10-05",
+      "estado": "publicada",
+      "articulo_id": "2026-10-05-ganancias-piso-sueldo-empleados-octubre"
     }
   ]
 }
