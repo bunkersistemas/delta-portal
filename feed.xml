@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 05 Oct 2026 06:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 08:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Cauchari-Olaroz va a más que duplicar su capacidad de litio en Jujuy: de 40.000 a 85.000 toneladas por año, con una inversión de US$1.013 millones según la empresa</title>
+      <link>https://coninteres.com/articulos/2026-10-05-cauchari-olaroz-ampliacion-litio-85000-toneladas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-cauchari-olaroz-ampliacion-litio-85000-toneladas.html</guid>
+      <pubDate>Mon, 05 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Lithium Argentina presentó el 30 de septiembre el estudio de alcance de la segunda etapa de Cauchari-Olaroz: 45.000 toneladas más de carbonato de litio por año, para llegar a 85.000, con un costo de capital de US$1.013 millones. Ante el RIGI, la operadora Minera Exar había declarado US$1.166,7 millones. La primera parte, de 10.000 toneladas, debería arrancar en 2028.</description>
+      <ci:numero>85.000 t</ci:numero>
+      <ci:numeroEtiqueta>capacidad anual de carbonato de litio de Cauchari-Olaroz con la segunda etapa (hoy 40.000 t): estudio de alcance de Lithium Argentina (30/09/2026) y Res. MEcon 825/2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-cauchari-olaroz-ampliacion-litio-85000-toneladas.png" length="87207" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-cauchari-olaroz-ampliacion-litio-85000-toneladas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La PUAM paga $418.598,81 en octubre con el bono y la cobran cada vez más: 218.844 personas en junio, 6,6% más que en enero, y casi nueve de cada diez son hombres</title>
       <link>https://coninteres.com/articulos/2026-10-05-puam-octubre-2026-cuanto-cobra-titulares.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte argentina de las importaciones francesas de langostinos y camarones congelados en 2025 (posición 0306.17, valor CIF, aduana de Francia vía UN Comtrade): US$22,8 M (2.519 t) de US$846,5 M (121.664 t); Ecuador 48,0%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-francia-langostinos-argentina-ecuador.png" length="81054" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-francia-langostinos-argentina-ecuador.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El crédito hipotecario con fondos de la ANSES llega hasta $321 millones: la cuota a 20 años arranca en $2,59 millones, 1,3 sueldos promedio</title>
-      <link>https://coninteres.com/articulos/2026-10-02-credito-hipotecario-anses-fgs-tope-cuota.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-02-credito-hipotecario-anses-fgs-tope-cuota.html</guid>
-      <pubDate>Fri, 02 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Banco Central licita el lunes otros $200.000 millones del fondo de la ANSES para que los bancos presten para la vivienda, y desde esta vuelta ya no hace falta que sea la primera: alcanza con que sea la única. Cada crédito puede ser de hasta 150.000 UVA, $321,1 millones al valor del 2 de octubre, unos US$210.800. Con la tasa máxima permitida, la cuota inicial de ese crédito a 20 años es de $2.587.018: 1,33 veces el sueldo promedio de un trabajador registrado.</description>
-      <ci:numero>$321,1 M</ci:numero>
-      <ci:numeroEtiqueta>monto máximo de cada crédito hipotecario con fondos del FGS de la ANSES: 150.000 UVA (Com. A 8475) al valor de la UVA del 2/10/2026 ($2.140,88)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-02-credito-hipotecario-anses-fgs-tope-cuota.png" length="81397" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-02-credito-hipotecario-anses-fgs-tope-cuota.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

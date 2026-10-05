@@ -2780,6 +2780,13 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "ya cubiertas, una sola fuente privada o sin documento primario frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto invierte Exar para ampliar Cauchari-Olaroz y cuánto litio va a producir (iProfesional 05/10/2026 'Minera bajo control chino extraerá más litio en Jujuy') / estudio de alcance de la segunda etapa de Lithium Argentina (GlobeNewswire 30/09/2026): +45.000 tpa LCE, capacidad total ~85.000 tpa (hoy 40.000), capex US$1.013 M con contingencias (421 pozos/piletas + 356 plantas + 208 infraestructura + 28 propios; ~US$22.500/t), opex US$5.006/t, precio supuesto US$18.000/t, fase inicial 10.000 tpa DLE en 2028, permisos 1S-2027; Res. MEcon 825/2026 (BO 05/06/2026): RIGI de Minera Exar Sucursal Dedicada, 45.000 t -> 85.000 t, inversión en activos computables US$1.166.677.726, adhesión 09/05/2026, 90 meses desde jul-2026, operación dic-2028, primeros dos años US$96.755.467; producción 2025 34.100 t y 1S-2026 19.000 t (6-K SEC 11/08/2026); Exar 44,8% LAR, 91,5% LAR+Ganfeng, 8,5% JEMSE",
+      "angulo": "Corrida programada del 05/10/2026 08:30, primera candidata probada. Cupo de EMPRESAS (hoy no había nota de EMPRESAS): build_empresas.py trajo 0 presentaciones nuevas y ese bloque ya se había descartado con razón a las 06:30, así que el tema salió del barrido (iProfesional) y la nota, de los documentos de la empresa y del Ministerio. Ángulo nuevo frente a 'cuánto litio exporta la Argentina' (03/10): una empresa con nombre propio y su plan de inversión. Ancla 85.000 t CONFIRMADA por dos fuentes independientes (comunicado de la empresa y Res. 825/2026 del Ministerio de Economía), más las 45.000 t en el 6-K del 2T. Recálculo: 421+356+208+28=1.013; 1.013/45.000=22.511 US$/t. Diferencia con el RIGI (US$153,7 M) mostrada y declarada sin explicación en los documentos. Estimación rotulada: 45.000 t x US$18.000 = US$810 M/año, 87% de las exportaciones del complejo litio 2025 (US$932 M, INDEC). Sin superlativos. Se sacó el desglose del opex (las partidas leídas sumaban 4.767, no 5.006). pregunta.json ya era de hoy.",
+      "fecha": "2026-10-05",
+      "estado": "publicada",
+      "articulo_id": "2026-10-05-cauchari-olaroz-ampliacion-litio-85000-toneladas"
     }
   ]
 }
