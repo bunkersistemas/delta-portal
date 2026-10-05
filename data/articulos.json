@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-05T00:44:25-03:00",
+    "actualizado": "2026-10-05T02:45:19-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-05-tren-mar-del-plata-tarifa-referencia-fin-de-semana-largo",
+      "titulo": "El Gobierno llevó a $48.137 la tarifa de referencia del tren a Mar del Plata, pero el pasaje del fin de semana largo se vende desde $32.000",
+      "bajada": "La Secretaría de Transporte subió en cinco escalones mensuales la tarifa de referencia del tren Constitución-Mar del Plata: de $25.431, vigente desde 2024, a $48.137 en septiembre. Trenes Argentinos puede cobrar entre 75% menos y 75% más, y vende el pasaje en primera desde $32.000 los fines de semana y desde $25.000 de martes a jueves, el mismo precio que en octubre de 2025.",
+      "titulo_busqueda": "¿Cuánto cuesta el tren a Mar del Plata en el fin de semana largo de octubre?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$48.137",
+      "numero_label": "tarifa de referencia del tren Constitución-Mar del Plata desde septiembre de 2026 (Secretaría de Transporte, Res. 27/2026, anexo IV); Trenes Argentinos vende el pasaje del fin de semana largo desde $32.000 en primera",
+      "fecha": "2026-10-05",
+      "hora": "02:30",
+      "archivo": "articulos/2026-10-05-tren-mar-del-plata-tarifa-referencia-fin-de-semana-largo.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-05-brasil-mas-caro-tipo-cambio-real",
       "titulo": "Brasil está 17,8% más caro para los argentinos que en el verano de 2025, pero 5% más barato que el último verano",
