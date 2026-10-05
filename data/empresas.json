@@ -1,11 +1,29 @@
 {
-  "generado": "2026-10-05T16:30",
+  "generado": "2026-10-05T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3577069",
+      "fuente": "CNV",
+      "fecha": "2026-10-05T18:01",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 05.10.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5D4E11F9-861C-45FB-8163-1D1C5E36DBF1"
+    },
+    {
+      "id": "cnv-3577044",
+      "fuente": "CNV",
+      "fecha": "2026-10-05T17:39",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (05 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E9B4460B-899C-44DC-A96F-69C02CFAE705"
+    },
     {
       "id": "cnv-3576341",
       "fuente": "CNV",
@@ -469,6 +487,7 @@
     "sec-0001292814-26-004750": "2026-09-30",
     "sec-0001292814-26-004758": "2026-10-01",
     "sec-0001292814-26-004834": "2026-10-02",
+    "sec-0001292814-26-004854": "2026-10-05",
     "sec-0001554855-26-001964": "2026-09-08",
     "sec-0001554855-26-001968": "2026-09-08",
     "sec-0001554855-26-001992": "2026-09-10",

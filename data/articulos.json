@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-05T16:41:32-03:00",
+    "actualizado": "2026-10-05T18:42:44-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-05-mercado-libre-argentina-brasil-contribucion-directa",
+      "titulo": "Mercado Libre factura tres veces más en Brasil que en la Argentina, pero la Argentina le dejó más: US$623 millones de contribución directa contra US$550 millones en el segundo trimestre",
+      "bajada": "Según el balance del segundo trimestre que presentó ante la SEC, Mercado Libre facturó US$5.530 millones en Brasil y US$1.839 millones en la Argentina. Pero después de restar los costos de cada país, la Argentina le dejó US$623 millones y Brasil, US$550 millones. Pasa desde fines de 2024: siete trimestres seguidos.",
+      "titulo_busqueda": "¿Cuánto le deja la Argentina a Mercado Libre comparado con Brasil?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$623 M",
+      "numero_label": "contribución directa de Mercado Libre en la Argentina en el 2T 2026: ingresos US$1.839 M menos costos del segmento US$1.216 M, contra US$550 M en Brasil (10-Q al 30/06/2026, nota 6)",
+      "fecha": "2026-10-05",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-05-mercado-libre-argentina-brasil-contribucion-directa.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-05-ganancias-piso-sueldo-empleados-octubre",
       "titulo": "Un empleado soltero empieza a pagar Ganancias con $3.505.431 brutos por mes: el piso subió 33,5% en un año y el sueldo promedio, 28,8%",
