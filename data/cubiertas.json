@@ -2734,6 +2734,37 @@
       "fecha": "2026-10-05",
       "estado": "en_cola",
       "archivo": "cola/2026-10-05-tren-mar-del-plata-tarifa-referencia-fin-de-semana-largo.html"
+    },
+    {
+      "tema": "tasas municipales bonaerenses / cuánto cobra cada municipio de Seguridad e Higiene (infobae 05/10/2026 'Cuáles son los municipios bonaerenses con mayor presión tributaria', Cronista, MDZ): semáforo fiscal de menosimpuestos.com.ar (Valenzuela, LLA), Hurlingham 3,16%, Lanús 3,07%, promedio 1,46% en 52 municipios",
+      "angulo": "FRENADA en la corrida programada del 05/10/2026 04:30 (primera candidata probada, pregunta de plata). El 3,16% es un índice propio del sitio (promedio de alícuotas nominales de cinco actividades + 0,14 por tasa vial y por habilitación) que no publica las alícuotas por municipio ni enlaza las ordenanzas: no se puede recalcular. La página oficial de Hurlingham (O.F. 9574, decretos de actualización 2025) da 0,98%-1,44% en comercio y servicios y 3,50% en supermercados e hipermercados; el portal oficial de Transparencia Tributaria Municipal (Ministerio de Economía) está relevado al 31/03/2025. Sin las ordenanzas impositivas 2026 de los municipios comparados no hay cifra ancla. Retomable con las ordenanzas 2026 en SIBOM y un ángulo propio (cuánto paga un mismo comercio en cinco municipios).",
+      "fecha": "2026-10-05",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "índice de un sitio partidario no recalculable; portal oficial a marzo de 2025"
+    },
+    {
+      "tema": "reactor RA-10 y radioisótopos (Cronista 04-05/10/2026 'El nuevo reactor del INVAP, a punto de convertirse en nueva fuente de exportación: la inversión que falta'; ámbito, iProfesional) / cuánto exporta la Argentina en radioisótopos: ONU Comtrade, Argentina, HS 284443: exportaciones 2024 US$360.134; 2025 sin exportaciones registradas e importaciones por US$6,33 M (284443) y US$0,47 M (284442)",
+      "angulo": "FRENADA en la corrida programada del 05/10/2026 04:30 (segunda candidata). La posición HS 2844.4x mezcla el molibdeno-99 con otros isótopos y fuentes, y los radiofármacos se clasifican en otras posiciones, así que la estadística comercial no aísla el producto del que habla la nota; el 20% de la demanda mundial de Mo-99 es una proyección de la CNEA sin segunda fuente (ESTIMACIÓN). Sin cifra ancla confirmable.",
+      "fecha": "2026-10-05",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "la estadística comercial no aísla el Mo-99; proyección de una sola fuente"
+    },
+    {
+      "tema": "cuánto cobra el presidente (Bartolomé Abdala a cargo del Ejecutivo, La Nación 05/10/2026) / sueldos de Milei, la vicepresidenta y los ministros",
+      "angulo": "FRENADA en la corrida programada del 05/10/2026 04:30 (tercera candidata, pregunta de plata). El único documento con montos es la respuesta a un pedido de acceso a la información de Chequeado (mayo de 2026: presidente $4.066.018, vicepresidenta $3.764.821, ministro $7.656.785), alojada en un Drive; el decreto de enero de 2026 habilitó aumentos sin publicar cifras y no hay escala oficial vigente a octubre. El recibo de dieta del Senado (senado.gob.ar/dietas) sigue siendo el de marzo de 2026: se volvió a consultar. Sin documento oficial enlazable y vigente no hay ancla.",
+      "fecha": "2026-10-05",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento oficial vigente con los montos"
+    },
+    {
+      "tema": "quién le compra más a la Argentina, China o Estados Unidos (La Nación 05/10/2026: 'Llega una misión de EE.UU. para evaluar inversiones: el apoyo a Milei y la disputa con China'; Bessent en cinco portadas) / INDEC ICA ago-26 (18/09/2026), cuadros 23, 24, 36, 38 y 39: exportaciones ene-ago 2026 a EE.UU. US$6.691,5 M (+34,5% vs 4.974,2; 10,0% del total 67.247,8) y a China US$6.155,2 M (+17,8% vs 5.226,6; 9,2%); Brasil 8.577,9 (12,8%); 2025 completo China 9.809,2 > EE.UU. 8.345,2; EE.UU. > China en 5 de 8 meses de 2026; China jun-ago 2.208,0 vs 3.024,6 (-27,0%), mayo 1.506,5; EE.UU. julio 1.112,0 (máximo desde ene-25; previo dic-25 932,1). EE.UU. +1.717,3: carnes 645,3 (+248,1%, +459,9), piedras y metales preciosos 970,1 (+71,7%, +405,2), petróleo crudo 2.229,0 (+12,3%, +244,2), metales comunes 591,8 (+189,0), resto MOI +179,6, carburantes +90,1, resto +149,3. China: semillas oleaginosas 1.156,9 (-41,2%, -811,5), químicos 1.269,5 (+208,7%, +858,3), cereales 620,8 (+226,8), carnes 1.360,0 (+10,1%); productos primarios 42,6% de lo vendido a China vs 8,0% a EE.UU.",
+      "angulo": "Corrida programada del 05/10/2026 04:30, cuarta candidata probada. Pregunta de plata ('¿quién le compra más a la Argentina, China o Estados Unidos?') detrás de la misión de inversiones de EE.UU. y la disputa con China. Ángulo nuevo: la nota del 27/09 fue sobre Brasil con el mismo informe; el cambio de orden entre EE.UU. y China no estaba contado. Ancla por el camino de estadística oficial: (1) documento: ICA p. 21 ('le siguieron Estados Unidos y China, con 10,0% y 9,2%') y p. 23; (2) recálculo: suma de los ocho meses de los cuadros 23 y 24 = cuadro 38 al decimal; (3) contraste: U.S. Census, Trade in Goods with Argentina, importaciones ene-jul 2026 US$5.524,6 M (+31,2% vs 4.210,1) contra INDEC ene-jul 5.977,0 (+38,5%); 2025 8.283,6 vs 8.345,2 (-0,7%); China (ONU Comtrade, informado por China) importaciones 2025 US$9.079,0 M vs INDEC 9.809,2 (INDEC incluye HK y Macao): los dos espejos confirman el orden de 2025. Declarado en ④: China no publicó 2026 mensual en Comtrade (el cambio de orden es el que mide el INDEC) y con el dato de EE.UU. (7,6% menor en ene-jul) la distancia sería más chica; agosto provisorio (15,6% de documentación pendiente). Importaciones y saldos NO incluidos: el Census registra exportaciones a la Argentina mucho mayores que las importaciones desde EE.UU. del INDEC (ene-jul 5.949,3 vs 3.967,1) y esa asimetría no se pudo explicar con documentos. No se atribuyen causas (cuota de carne, precio de la soja). Superlativos: solo 'mes más alto desde enero de 2025' para julio, con el previo documentado. Candidatas no tomadas: EMPRESAS (cupo vigente, hoy sin nota de EMPRESAS) descartadas con razón: build_empresas.py trajo 0 presentaciones nuevas y todo el bloque ya fue publicado o descartado con motivo (BBVA 6-K 2T cubierto el 26/09; Longvie Catamarca el 01/10; Comafi acción de clase sin monto; Caja de Valores avisos de dividendo de terceros; Central Puerto y A3 recompras diarias; fusiones de SGR y de PCR sin cifra de negocio). Servicios basados en el conocimiento, US$10.493 M (infobae): actualización sin ángulo nuevo frente a la nota del 19/07. Compras de dólares del BCRA tras el FMI (infobae, Cronista): cubierto el 25/09. Riesgo país, Bessent, ventas minoristas pyme (CAME, una sola fuente privada), pollo contra vaca, Lácteos Verónica: cubiertos o frenados antes. Clarín y TN no respondieron al barrido.",
+      "fecha": "2026-10-05",
+      "estado": "publicada",
+      "articulo_id": "2026-10-05-estados-unidos-paso-a-china-comprador-exportaciones"
     }
   ]
 }

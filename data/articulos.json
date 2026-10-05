@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-05T02:45:19-03:00",
+    "actualizado": "2026-10-05T04:52:59-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -17,6 +17,22 @@
     "MUNDO"
   ],
   "articulos": [
+    {
+      "id": "2026-10-05-estados-unidos-paso-a-china-comprador-exportaciones",
+      "titulo": "Estados Unidos le compró a la Argentina US$6.691 millones en ocho meses, 34,5% más que en 2025, y pasó a China como segundo destino de las exportaciones",
+      "bajada": "Entre enero y agosto de 2026 Estados Unidos le compró a la Argentina bienes por US$6.691 millones y China por US$6.155 millones, según el INDEC. Un año antes el orden era el inverso. Carne, oro y petróleo explican casi dos tercios de la suba de las ventas a Estados Unidos; en las ventas a China, lo que más cayó fue la soja.",
+      "titulo_busqueda": "¿Quién le compra más a la Argentina, China o Estados Unidos?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$6.691 M",
+      "numero_label": "exportaciones de la Argentina a Estados Unidos en enero-agosto de 2026 (INDEC, ICA de agosto): 10,0% del total, contra US$6.155 M a China (9,2%)",
+      "fecha": "2026-10-05",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-05-estados-unidos-paso-a-china-comprador-exportaciones.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-05-tren-mar-del-plata-tarifa-referencia-fin-de-semana-largo",
       "titulo": "El Gobierno llevó a $48.137 la tarifa de referencia del tren a Mar del Plata, pero el pasaje del fin de semana largo se vende desde $32.000",
