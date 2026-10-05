@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-05T08:30",
+  "generado": "2026-10-05T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3576341",
+      "fuente": "CNV",
+      "fecha": "2026-10-05T09:34",
+      "entidad": "YPF S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - YPF - HECHO RELEVANTE - INFORME DE RECOMPRA DE ONS PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/46DCF6D5-AC3D-43B2-84C7-AD66802EA7D1"
+    },
     {
       "id": "cnv-3576088",
       "fuente": "CNV",
@@ -466,6 +475,7 @@
     "sec-0001554855-26-002000": "2026-09-15",
     "sec-0001554855-26-002013": "2026-09-17",
     "sec-0001554855-26-002025": "2026-09-21",
-    "sec-0001554855-26-002042": "2026-09-28"
+    "sec-0001554855-26-002042": "2026-09-28",
+    "sec-0001554855-26-002070": "2026-10-05"
   }
 }

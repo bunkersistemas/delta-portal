@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-05T09:44:37-03:00",
+    "actualizado": "2026-10-05T10:41:18-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-05-cuanto-cobra-vigilador-seguridad-privada-octubre",
+      "titulo": "Un vigilador de seguridad privada cobra $1.827.200 brutos en octubre: en el año a agosto su sueldo perdió 6,6% contra la inflación",
+      "bajada": "El acuerdo de la UPSRA con la cámara de empresas de seguridad, homologado el 17 de julio, fija para octubre $1.827.200 brutos para un vigilador general que trabaja 25 días. Casi un tercio no es remunerativo. Entre agosto de 2025 y agosto de 2026 ese total subió 24,8% y los precios, 33,5%: compra 6,6% menos.",
+      "titulo_busqueda": "¿Cuánto cobra un vigilador de seguridad privada en octubre de 2026? $1.827.200 brutos",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$1.827.200",
+      "numero_label": "brutos cobra en octubre de 2026 un vigilador general de seguridad privada (CCT 507/07) con 25 días trabajados",
+      "fecha": "2026-10-05",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-05-cuanto-cobra-vigilador-seguridad-privada-octubre.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-05-ia-choco-contra-el-enchufe",
       "titulo": "Una empresa suiza alquila neuronas humanas vivas para computar: la inteligencia artificial chocó contra el enchufe",
