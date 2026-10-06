@@ -1,11 +1,29 @@
 {
-  "generado": "2026-10-06T12:30",
+  "generado": "2026-10-06T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3577417",
+      "fuente": "CNV",
+      "fecha": "2026-10-06T14:26",
+      "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5F5A4444-9611-4C6F-BACB-68600E6A3808"
+    },
+    {
+      "id": "cnv-3577346",
+      "fuente": "CNV",
+      "fecha": "2026-10-06T13:14",
+      "entidad": "INVAP S.A.U",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - INVAP SAU - 20261006 -",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/0C53023F-F391-4F22-A883-B60210B8FB96"
+    },
     {
       "id": "cnv-3577069",
       "fuente": "CNV",

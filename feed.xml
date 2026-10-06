@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 06 Oct 2026 12:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 14:38:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Una docena de huevos paga $671 de IVA y un kilo de pollo, que cuesta 24% más, $454: si la alícuota bajara al 10,5%, como pide un proyecto, la docena podría costar $3.533</title>
+      <link>https://coninteres.com/articulos/2026-10-06-iva-huevo-docena-pollo-proyecto.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-iva-huevo-docena-pollo-proyecto.html</guid>
+      <pubDate>Tue, 06 Oct 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El huevo paga la tasa general de 21%; el pollo, el cerdo y la carne vacuna pagan la mitad, el pollo y el cerdo desde la reforma de 2017. Hay proyectos en el Congreso para igualarlos, y diputados del PRO quieren discutir uno con el presupuesto. Si la rebaja llegara entera a la góndola, la docena bajaría $335,67: 8,7%.</description>
+      <ci:numero>$671</ci:numero>
+      <ci:numeroEtiqueta>IVA contenido en el precio promedio de una docena de huevos en el GBA, agosto de 2026 ($3.868,23, INDEC; alícuota general de 21%, Ley de IVA art. 28)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-iva-huevo-docena-pollo-proyecto.png" length="88159" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-iva-huevo-docena-pollo-proyecto.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Tesoro pagará con bonos hasta $221.119 millones de deudas con constructoras: el 10,7% de lo que la Nación gastó en capital de enero a agosto</title>
       <link>https://coninteres.com/articulos/2026-10-06-deuda-obra-publica-bonos-constructoras.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>puestos asalariados privados registrados menos en 2025 (promedio anual, -0,3%), con un PBI que creció 4,5%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-pbi-crecio-empleo-privado-cayo-2025.png" length="68418" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-pbi-crecio-empleo-privado-cayo-2025.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los aportes y contribuciones alcanzaron para pagar $74,9 de cada $100 de jubilaciones del SIPA en 2025, no $30 como dijo Bullrich</title>
-      <link>https://coninteres.com/articulos/2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich.html</guid>
-      <pubDate>Sun, 04 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Patricia Bullrich dijo en el Coloquio de IDEA que el 70% de las jubilaciones se paga con impuestos y solo el 30% con aportes. Los números de la ANSES dicen casi lo contrario: en 2025 cobró $37,2 billones de aportes y contribuciones y pagó $49,6 billones de jubilaciones y pensiones del SIPA. Es la proporción más alta desde 2015. El resto lo cubren impuestos con destino fijo, sobre todo el del cheque.</description>
-      <ci:numero>$74,9</ci:numero>
-      <ci:numeroEtiqueta>aportes y contribuciones de la ANSES por cada $100 de jubilaciones y pensiones del SIPA, 2025 (Presupuesto Abierto: aportes $37.182.293 M / gasto devengado programas 16+17+20 $49.610.733 M = 74,95%; recálculo serie GPN SIPA 2025 = 49.610.733; 2015 75,3, 2014 82,2, mínimo 2020 55,2; contraste ARCA seguridad social $45.633.686 M = 92,0% e IMIG 89,8%; estricto con AAFF 63,6%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich.png" length="92147" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

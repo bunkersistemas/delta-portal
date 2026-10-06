@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-06T12:44:06-03:00",
+    "actualizado": "2026-10-06T14:38:34-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-06-iva-huevo-docena-pollo-proyecto",
+      "titulo": "Una docena de huevos paga $671 de IVA y un kilo de pollo, que cuesta 24% más, $454: si la alícuota bajara al 10,5%, como pide un proyecto, la docena podría costar $3.533",
+      "bajada": "El huevo paga la tasa general de 21%; el pollo, el cerdo y la carne vacuna pagan la mitad, el pollo y el cerdo desde la reforma de 2017. Hay proyectos en el Congreso para igualarlos, y diputados del PRO quieren discutir uno con el presupuesto. Si la rebaja llegara entera a la góndola, la docena bajaría $335,67: 8,7%.",
+      "titulo_busqueda": "¿Cuánto bajaría el huevo si le bajan el IVA al 10,5%?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$671",
+      "numero_label": "IVA contenido en el precio promedio de una docena de huevos en el GBA, agosto de 2026 ($3.868,23, INDEC; alícuota general de 21%, Ley de IVA art. 28)",
+      "fecha": "2026-10-06",
+      "hora": "14:30",
+      "archivo": "articulos/2026-10-06-iva-huevo-docena-pollo-proyecto.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-06-deuda-obra-publica-bonos-constructoras",
       "titulo": "El Tesoro pagará con bonos hasta $221.119 millones de deudas con constructoras: el 10,7% de lo que la Nación gastó en capital de enero a agosto",

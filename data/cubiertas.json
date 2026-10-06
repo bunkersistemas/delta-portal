@@ -3017,6 +3017,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "ya cubiertas, fuente privada única, sin documento o proyección sin segunda fuente, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto IVA paga el huevo y cuánto bajaría con 10,5% (proyecto del PRO para tratar con el presupuesto, La Nación 06/10/2026; proyecto Michel-Marclay-Bahl de marzo de 2026) / INDEC precios promedio GBA ago-26: huevos docena $3.868,23 -> IVA 21% $671,35 (17,36 de cada $100), con 10,5% $3.532,56 (-$335,67, -8,68%); pollo entero kg $4.780,14 (+23,6%) -> IVA 10,5% $454,22 (huevo +47,8%); carne picada IVA $1.008,48, asado $1.590,37, merluza (21%) $2.572,22; leche exenta (art. 7 inc. f)",
+      "angulo": "Corrida programada del 06/10/2026 14:30, primera candidata probada (pregunta de plata, APTA). Ángulo nuevo respecto de la nota del precio del huevo del 30/09: el impuesto adentro del precio y la comparación con el pollo, a partir del proyecto de rebaja. Precio: estadística oficial recalculada (xls INDEC; SAGyP minorista reproduce 3.868,2) + contraste SAGyP/Cátedra Avícola mayorista $1.647,2 (-18,9% i.a., misma dirección). Alícuota: dos textos legales que coinciden (Ley de IVA t.o. art. 28 en InfoLEG y Ley 27.430 art. 96). No afirmado: traslado completo al precio, recaudación (sin consumo oficial en pesos), proyección fiscal de CAPIA (atribuida), número de expediente (no leído en HCDN).",
+      "fecha": "2026-10-06",
+      "estado": "publicada",
+      "articulo_id": "2026-10-06-iva-huevo-docena-pollo-proyecto"
+    },
+    {
+      "tema": "descartes de la corrida programada del 06/10/2026 14:30: empresas CNV/SEC (INVAP HR 06/10, ICBC Argentina HR 06/10, BBVA 6-K estados al 30/06, YPF recompra de ON HR 05/10, Central Puerto y A3 recompras, Caja de Valores avisos de dividendos, Aluar respuesta a la ANSES), Banco Mundial 2,1% (infobae, ámbito, iProfesional, Cronista), industria entre las cuatro peores según la ONU (infobae, iProfesional, Página12), celulares importados +746% (infobae), Granja Tres Arroyos 1.250 despidos, retiros voluntarios en Vialidad, reventa de entradas de Messi (infobae), Rockhopper y Malvinas (La Nación), producción automotriz, Flybondi, AySA, REM e IPI pesquero",
+      "angulo": "NO TOMADAS en la corrida programada del 06/10/2026 14:30; ganó el IVA del huevo (primera candidata, APTA). EMPRESAS: el cupo no regía (hoy ya hubo nota de EMPRESAS, AySA 09:30); build_empresas.py trajo 2 hechos nuevos de la CNV (INVAP e ICBC) pero el visor de la CNV devuelve solo el formulario, sin el documento: sin cifra legible. Banco Mundial: proyección, exige dos fuentes; REM todavía no publicado. Celulares: dato de una sola nota sin la fuente primaria identificada, retomable con el ICA del INDEC. Messi reventa: precios de reventa sin fuente oficial; entradas oficiales cubiertas el 25/09. Rockhopper: cotización de la acción (línea roja 2 quater). Resto: descartados antes en el día por las mismas razones (Vialidad sin escala del CCT, Tres Arroyos sin documento, ADEFA fuente única, Flybondi y AySA cubiertos). Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento legible, proyección sin segunda fuente o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }
