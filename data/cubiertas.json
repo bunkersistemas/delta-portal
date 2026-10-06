@@ -2987,6 +2987,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario, fuente privada única o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto cobra un juez federal (juicio político al juez federal de Rosario Gastón Salmain, infobae 06/10/2026) / escala salarial del Consejo de la Magistratura, agosto de 2026 (Acordada CSJN 25/2026, 1,7%): juez de 1ra. instancia sin antigüedad $7.363.234,35 bruto (ago-25 $5.365.087,10: +37,2% contra IPC 33,5%, +2,8% real); igual al fiscal ante juez de 1ª instancia en la escala del MPF",
+      "angulo": "Corrida programada del 06/10/2026 10:30, primera candidata probada (pregunta de plata, APTA). Camino de dos fuentes oficiales que coinciden: escala del Consejo de la Magistratura (PDF) y escala del Ministerio Público Fiscal (CSV), más recálculo (julio $7.240.151,77 x 1,017 y suma de los cinco componentes). Ángulo propio: las seis acordadas revisadas (ago-25, dic-25, abr, jun, jul y ago-26) igualan la inflación de su mes redondeada a un decimal; en pesos de agosto de 2026 el sueldo está en $7,36 M desde diciembre. Contraste: índice de salarios del sector público registrado del INDEC, jul-25/jul-26 +31,0% contra IPC 33,8% (-2,1% real). Retomable con cada escala nueva o con el sueldo de los jueces provinciales.",
+      "fecha": "2026-10-06",
+      "estado": "publicada",
+      "articulo_id": "2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion"
+    },
+    {
+      "tema": "descartes de la corrida programada del 06/10/2026 10:30: empresas CNV/SEC (BBVA 6-K estados al 30/06, YPF recompra de ON HR 05/10, Central Puerto y A3 recompras, Caja de Valores avisos de dividendos, Aluar respuesta a la ANSES), FMI critica los subsidios a las tarifas (ámbito), desocupación como principal preocupación (infobae, ámbito, La Nación; encuestas), faena y frigoríficos (infobae), harina de soja y EUDR (infobae, Cronista), fondos de caminos rurales bonaerenses (La Nación), línea F (Cronista), satélite de INVAP (Cronista), FAL antes del 1/11 (Cronista), Nobel de Física, Nordelta y carpinchos, despedida de Messi, REM del BCRA e IPI pesquero (salen hoy por la tarde)",
+      "angulo": "NO TOMADAS en la corrida programada del 06/10/2026 10:30; ganó cuánto cobra un juez federal (primera candidata, APTA). EMPRESAS: el cupo no regía (hoy ya hubo nota de EMPRESAS, AySA 09:30); build_empresas.py trajo 0 presentaciones nuevas; BBVA cubierto el 26/09; YPF recompra de ON ya leída el 05/10 (rutina, monto chico); recompras diarias y dividendos de terceros, sin cifra ancla. FMI y subsidios: gasto en subsidios cubierto el 28/09 y el 01/10. Desocupación: encuestas privadas de una sola fuente; EPH cubierta el 24/09. Faena y EUDR: quedan como candidatas, sin pregunta de plata fuerte. Caminos rurales: tasa vial municipal sin fuente consolidada. Línea F: descartada varias veces sin documento nuevo. INVAP: sin documento con montos. FAL: cubierto el 24/09. Nobel y Nordelta: sin ángulo argentino con documento. Messi: entradas cubiertas el 25/09 y AFA frenada hoy. REM e IPI pesquero: todavía no publicados a las 10:30. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "ya cubiertas, fuente privada única, sin documento o todavía no publicadas, frente a la candidata elegida"
     }
   ]
 }
