@@ -3040,6 +3040,30 @@
       "estado": "publicada",
       "articulo_id": "2026-10-06-celulares-importados-cuanto-gasta-argentina",
       "motivo_descarte": ""
+    },
+    {
+      "tema": "concesión de 3.900 km de rutas nacionales, Etapa III de la Red Federal de Concesiones (toma de posesión el 07/10/2026; infobae, ámbito, Cronista 06/10) / cuánto va a costar el peaje: tarifas adjudicadas por la Res. MEcon 1379/2026 (BO 24/08/2026), sin IVA: Centro $1.399, Centro Norte $2.175, Noroeste $2.285, Litoral $2.876,04, Noreste $2.950, Cuyo $3.090,2462, Chaco-Santa Fe $3.520, Mesopotámico $3.564,99; tarifa vigente de Corredores Viales: $1.500 la categoría 1 (cuadros de cvsa.com.ar con vigencia desde el 26/02/2026; leídas Fernández, Riachuelo y La Paz)",
+      "angulo": "FRENADA en la corrida programada del 06/10/2026 18:30 (primera candidata probada). La comparación tarifa adjudicada con IVA contra los $1.500 de hoy (Cuyo $3.739,20, 2,5 veces) depende de dos datos que solo están en el pliego de la Etapa III (Res. 174/2026, anexos únicamente en CONTRAT.AR, no legibles desde esta máquina): a qué categoría corresponde la tarifa ofertada (el esquema nuevo tiene 7 categorías y motos a 0,5) y desde cuándo se cobra (en la Etapa II la tarifa vigente se mantenía hasta cumplir la 'transitabilidad segura', según Vialidad el 13/06/2025; para la Etapa III no hay documento oficial abierto que lo diga). Además los tramos Chaco-Santa Fe (RN 11) y Mesopotámico (RN 12 y 18 en Entre Ríos) no tienen estaciones de Corredores Viales para comparar. Retomar cuando Vialidad publique en el Boletín Oficial los cuadros tarifarios de las nuevas concesionarias.",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "categoría y fecha de aplicación de la tarifa ofertada no verificables en documento oficial abierto"
+    },
+    {
+      "tema": "descartes de la corrida programada del 06/10/2026 18:30: empresas CNV/SEC (Central Puerto adquisición de acciones propias HR 05 y 06/10, TRANSENER renuncia de directora suplente, ICBC Argentina desvinculación, INVAP HR 06/10, A3 recompra, YPF recompra de ON HR 05/10, BBVA 6-K estados al 30/06, Caja de Valores avisos de dividendos, Aluar respuesta a la ANSES), planta II de litio Sal de Oro de POSCO inaugurada por Karina Milei y Santilli (La Nación, Cronista; RIGI Res. 1157/2026), retiros voluntarios en Vialidad y en la APN (infobae, Cronista), Banco Mundial 2,1% (5 portadas), FMI y subsidios a las tarifas (ámbito, Página12), entradas de Messi en reventa (infobae, iProfesional), Banco Provincia baja tasas de refinanciación (La Nación), biodiésel a Europa x4 (La Nación), fallo por la ley de financiamiento universitario (Cronista), planes de celular (iProfesional), hospedaje en Mar del Plata para el 12/10 (ámbito), Granja Tres Arroyos 1.250 despidos, IPI pesquero de agosto (INDEC, hoy 16:00)",
+      "angulo": "NO TOMADAS en la corrida programada del 06/10/2026 18:30; ganó el REM de septiembre (segunda candidata probada, APTA, tras los peajes de la Etapa III, frenada). EMPRESAS: el cupo no regía (hoy ya hubo nota de EMPRESAS, AySA 09:30); build_empresas.py trajo 2 hechos nuevos de la CNV: Central Puerto (recompra diaria de acciones, sin cifra ancla; Central Puerto cubierta el 29/09) y TRANSENER (cambio de directorio, sin cifra); INVAP e ICBC, el visor de la CNV no devuelve el documento; YPF, BBVA, A3, Caja de Valores y Aluar ya leídos y descartados hoy. POSCO Sal de Oro: montos de inversión que no cierran entre sí en las fuentes (US$207,9 M de activos computables y US$547 M en el RIGI contra 'más de US$2.000 M' en el acto) y litio cubierto el 03/10 y el 05/10; retomable con la resolución del RIGI como ancla. Banco Mundial: usado como contraste en la nota elegida. Vialidad: sin escala del CCT. FMI-subsidios, Messi, AySA: cubiertos. Banco Provincia, planes de celular, hospedaje: productos comerciales o fuente privada. Biodiésel: sin pregunta de plata fuerte, queda candidata con el ICA del INDEC. Universidades: cubierto el 30/09; el costo de la ley es una estimación que exige dos fuentes. IPI pesquero: serie cubierta el 03/09 y Malvinas el 27/09. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "ya cubiertas, sin documento con cifra ancla, montos que no cierran o fuente privada, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto va a crecer la economía en 2026 (REM del BCRA de septiembre, publicado el 06/10/2026: infobae, ámbito, iProfesional, Cronista, Página12) / mediana del crecimiento 2026: 1,5% (ago 2,1%, jun 3,0%, máx. 3,7% dic-24/ene-25; 34 relevamientos desde dic-23, mínimo de la serie; recorte de 0,6 pp, el mayor de un mes al otro, previo 0,55); Top 10 1,2%; PIB 3T-26 −1,0% s.e. (mediana −0,95, 38 respuestas, rango −2,1 a +1,8; en agosto esperaban +1,1%), 4T +1,8%; Presupuesto 2027 supone 3,0% para 2026; INDEC PIB 2T −0,59% s.e. (752.422,5 -> 747.969,9); última racha de caídas 4T-23 a 2T-24",
+      "angulo": "Corrida programada del 06/10/2026 18:30, segunda candidata probada (APTA). Dato del calendario (REM, hoy) en cinco portadas, con ángulo propio: la serie completa de los 34 pronósticos para 2026 (el más bajo y el mayor recorte), el cruce con el supuesto del Presupuesto 2027 (la mitad) y con el PIB desestacionalizado del INDEC (sería la primera doble caída desde mediados de 2024; nivel implícito del 3T apenas 0,2% sobre el 3T-25, estimación). Diferencia con la nota del 26/09 (aritmética del trimestre con el EMAE) y la del 04/10 (promesa de 16 puntos con el REM de agosto): dato nuevo del BCRA y su evolución. Camino estadística oficial recalculada (planilla de resultados y base histórica del REM) con contraste (Banco Mundial 2,1% vía Buenos Aires Times; EMAE de julio −2,9%).",
+      "fecha": "2026-10-06",
+      "estado": "publicada",
+      "articulo_id": "2026-10-06-rem-crecimiento-2026-mitad-presupuesto",
+      "motivo_descarte": ""
     }
   ]
 }

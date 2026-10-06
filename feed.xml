@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 06 Oct 2026 16:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 18:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El mercado recortó a 1,5% lo que espera que crezca la economía en 2026, la mitad del 3% del Presupuesto, y estima que el PBI cayó 1% en el tercer trimestre</title>
+      <link>https://coninteres.com/articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html</guid>
+      <pubDate>Tue, 06 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Los 44 analistas que consulta el Banco Central bajaron a 1,5% el crecimiento que esperan para 2026, desde 2,1% en agosto y 3,0% en junio: es el pronóstico más bajo en los 34 relevamientos que preguntaron por este año. Además estiman que el PBI cayó 1,0% en el tercer trimestre. Después del −0,6% del segundo, serían dos trimestres seguidos en baja, algo que no pasa desde mediados de 2024.</description>
+      <ci:numero>1,5%</ci:numero>
+      <ci:numeroEtiqueta>crecimiento del PBI que espera para 2026 la mediana de los 44 analistas del REM del BCRA (septiembre de 2026, publicado el 06/10/2026); en junio esperaban 3,0%, lo mismo que supone el Presupuesto 2027</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.png" length="81106" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina gastó US$311,8 millones en celulares importados en ocho meses, 8,5 veces lo de 2025, y las compras de partes cayeron 63,5%</title>
       <link>https://coninteres.com/articulos/2026-10-06-celulares-importados-cuanto-gasta-argentina.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>poder de compra que perdieron los $78.000 del Acompañamiento Social (ex Potenciar Trabajo) entre diciembre de 2023 y agosto de 2026, con el IPC del INDEC</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-acompanamiento-social-78000-poder-de-compra.png" length="77213" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-acompanamiento-social-78000-poder-de-compra.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La economía creció 3,1% en los primeros dos años de Milei: para cerrar el mandato con los 16 puntos que prometió tiene que crecer 12,6% en 2026 y 2027</title>
-      <link>https://coninteres.com/articulos/2026-10-04-milei-16-puntos-crecimiento-mandato.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-milei-16-puntos-crecimiento-mandato.html</guid>
-      <pubDate>Sun, 04 Oct 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En París, Javier Milei dijo que terminará sus cuatro años con un crecimiento acumulado de más de 16 puntos. Con los datos del INDEC, en 2024 y 2025 el PBI quedó 3,1% arriba de 2023. Para llegar a 16 haría falta crecer 12,6% en los dos años que quedan. El Presupuesto 2027 de su propio gobierno supone 7,1%.</description>
-      <ci:numero>3,1%</ci:numero>
-      <ci:numeroEtiqueta>crecimiento acumulado del PBI en 2024 y 2025 contra 2023 (INDEC); la promesa es más de 16% en cuatro años</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-milei-16-puntos-crecimiento-mandato.png" length="71514" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-milei-16-puntos-crecimiento-mandato.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

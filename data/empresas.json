@@ -1,11 +1,29 @@
 {
-  "generado": "2026-10-06T16:30",
+  "generado": "2026-10-06T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3577610",
+      "fuente": "CNV",
+      "fecha": "2026-10-06T17:27",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (06 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E440A9BE-1A0A-4BE7-8CE9-63DDED100523"
+    },
+    {
+      "id": "cnv-3577551",
+      "fuente": "CNV",
+      "fecha": "2026-10-06T16:35",
+      "entidad": "CIA. DE TRANSPORTE DE ENERGIA ELECTRICA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - RENUNCIA DIRECTORA SUPLENTE FLAVIA VANESA BEVILACQUA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3D93EB32-D480-4117-805A-32D039CA6A63"
+    },
     {
       "id": "cnv-3577417",
       "fuente": "CNV",

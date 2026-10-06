@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-06T16:49:59-03:00",
+    "actualizado": "2026-10-06T18:48:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-06-rem-crecimiento-2026-mitad-presupuesto",
+      "titulo": "El mercado recortó a 1,5% lo que espera que crezca la economía en 2026, la mitad del 3% del Presupuesto, y estima que el PBI cayó 1% en el tercer trimestre",
+      "bajada": "Los 44 analistas que consulta el Banco Central bajaron a 1,5% el crecimiento que esperan para 2026, desde 2,1% en agosto y 3,0% en junio: es el pronóstico más bajo en los 34 relevamientos que preguntaron por este año. Además estiman que el PBI cayó 1,0% en el tercer trimestre. Después del −0,6% del segundo, serían dos trimestres seguidos en baja, algo que no pasa desde mediados de 2024.",
+      "titulo_busqueda": "¿Cuánto va a crecer la economía argentina en 2026? Lo que esperan los analistas del REM del BCRA",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,5%",
+      "numero_label": "crecimiento del PBI que espera para 2026 la mediana de los 44 analistas del REM del BCRA (septiembre de 2026, publicado el 06/10/2026); en junio esperaban 3,0%, lo mismo que supone el Presupuesto 2027",
+      "fecha": "2026-10-06",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-06-celulares-importados-cuanto-gasta-argentina",
       "titulo": "La Argentina gastó US$311,8 millones en celulares importados en ocho meses, 8,5 veces lo de 2025, y las compras de partes cayeron 63,5%",
