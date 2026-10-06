@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 06 Oct 2026 02:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 04:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Boca cobró más por quedar afuera en el grupo de la Libertadores que por llegar a la semifinal de la Sudamericana: US$3,68 millones contra US$2,6 millones</title>
+      <link>https://coninteres.com/articulos/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.html</guid>
+      <pubDate>Tue, 06 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>DEPORTES</category>
+      <description>Son las cuentas de la propia CONMEBOL. Con la escala de premios de 2026, jugar la fase de grupos de la Libertadores paga US$3 millones de entrada y la de la Sudamericana, US$900.000: 3,3 veces más. Esa es la plata que reparte la tabla anual, a seis fechas del final.</description>
+      <ci:numero>US$3,68 M</ci:numero>
+      <ci:numeroEtiqueta>premios que la CONMEBOL le acreditó a Boca por la fase de grupos de la Libertadores 2026 (6 partidos, 2 ganados); por llegar a la semifinal de la Sudamericana sumó US$2,6 M</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.png" length="87650" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El alquiler de un dos ambientes en la Ciudad supera la mitad del ingreso del 40% de los hogares que menos ganan: en el cuarto decil es el 52,7%, y un año atrás era el 53,8%</title>
       <link>https://coninteres.com/articulos/2026-10-06-alquiler-dos-ambientes-mitad-ingreso-deciles-caba.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>exportaciones de bienes con origen en Neuquén en el primer semestre de 2026 (INDEC, Origen provincial de las exportaciones; recalculado de la serie mensual: 4.303,8); +42,5% interanual, 27,0% de lo que exportó Buenos Aires (12,9% en 2023)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-neuquen-exportaciones-buenos-aires-semestre.png" length="92915" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-neuquen-exportaciones-buenos-aires-semestre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Chubut tiene 3.440 petroleros registrados menos que a comienzos de 2024: más de uno de cada cuatro, y el nivel más bajo desde 2006</title>
-      <link>https://coninteres.com/articulos/2026-10-03-chubut-empleo-petrolero-cayo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-chubut-empleo-petrolero-cayo.html</guid>
-      <pubDate>Sat, 03 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>En el primer trimestre de 2026, la extracción de petróleo y gas de Chubut tenía 9.629 asalariados registrados, según la Secretaría de Trabajo. Dos años antes eran 13.069: se perdió el 26,3% de los puestos, la mitad de todo el empleo privado que perdió la provincia en ese lapso. La producción de petróleo de Chubut bajó bastante menos, 11,2%. Mientras tanto, la de Neuquén creció 60,7%.</description>
-      <ci:numero>−3.440</ci:numero>
-      <ci:numeroEtiqueta>asalariados registrados menos en la extracción de petróleo y gas de Chubut: 9.629 en el 1T-2026 contra 13.069 en el 1T-2024 (OEDE-SIPA, rama 11; la SRT confirma −25,1%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-chubut-empleo-petrolero-cayo.png" length="73833" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-chubut-empleo-petrolero-cayo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

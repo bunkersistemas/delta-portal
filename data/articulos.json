@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-06T02:42:57-03:00",
+    "actualizado": "2026-10-06T04:46:41-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-06-boca-libertadores-sudamericana-premios-conmebol",
+      "titulo": "Boca cobró más por quedar afuera en el grupo de la Libertadores que por llegar a la semifinal de la Sudamericana: US$3,68 millones contra US$2,6 millones",
+      "bajada": "Son las cuentas de la propia CONMEBOL. Con la escala de premios de 2026, jugar la fase de grupos de la Libertadores paga US$3 millones de entrada y la de la Sudamericana, US$900.000: 3,3 veces más. Esa es la plata que reparte la tabla anual, a seis fechas del final.",
+      "titulo_busqueda": "¿Cuánta plata gana un club por jugar la Libertadores y la Sudamericana 2026?",
+      "seccion": "DEPORTES",
+      "formato": "Anatomía de un dato",
+      "numero": "US$3,68 M",
+      "numero_label": "premios que la CONMEBOL le acreditó a Boca por la fase de grupos de la Libertadores 2026 (6 partidos, 2 ganados); por llegar a la semifinal de la Sudamericana sumó US$2,6 M",
+      "fecha": "2026-10-06",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-06-alquiler-dos-ambientes-mitad-ingreso-deciles-caba",
       "titulo": "El alquiler de un dos ambientes en la Ciudad supera la mitad del ingreso del 40% de los hogares que menos ganan: en el cuarto decil es el 52,7%, y un año atrás era el 53,8%",
