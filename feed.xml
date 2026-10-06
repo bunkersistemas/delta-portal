@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 06 Oct 2026 04:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 06:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un maestro de primaria con diez años de antigüedad cobró en junio $1.087.013 de bolsillo en promedio: descontada la inflación, 16,8% menos que tres años antes</title>
+      <link>https://coninteres.com/articulos/2026-10-06-cuanto-cobra-maestro-sueldo-docente-inflacion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-cuanto-cobra-maestro-sueldo-docente-inflacion.html</guid>
+      <pubDate>Tue, 06 Oct 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Según la serie oficial de salarios docentes del Ministerio de Capital Humano, un maestro de grado de jornada simple con diez años de antigüedad cobró en junio de 2026 $1.087.013 de bolsillo en promedio. Descontada la inflación, es 16,8% menos que en junio de 2023 y menos que en cualquier trimestre entre diciembre de 2016 y septiembre de 2023. Alcanza para el 71,0% de la canasta de pobreza de una familia tipo; en Neuquén, para el 121%; en Misiones, para el 53%.</description>
+      <ci:numero>−16,8%</ci:numero>
+      <ci:numeroEtiqueta>poder de compra del sueldo de bolsillo de un maestro de grado con 10 años de antigüedad, promedio del país, junio de 2026 contra junio de 2023 (serie CECE-Ministerio de Capital Humano, ajustada por IPC INDEC)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-cobra-maestro-sueldo-docente-inflacion.png" length="84719" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-cobra-maestro-sueldo-docente-inflacion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Boca cobró más por quedar afuera en el grupo de la Libertadores que por llegar a la semifinal de la Sudamericana: US$3,68 millones contra US$2,6 millones</title>
       <link>https://coninteres.com/articulos/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>20% reservado de la AUH por hijo (valor general) acumulado de enero a octubre de 2026: $283.965,60, suma de los montos mensuales oficiales (SPE-ANSES; octubre $156.588, Res. ANSES 283/2026, anexo V), recalculados con el IPC del INDEC; todo 2025: $262.263,60</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-auh-20-retenido-libreta-automatica.png" length="97956" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-auh-20-retenido-libreta-automatica.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Neuquén exportó US$4.304 millones en el primer semestre: por cada US$100 que vende Buenos Aires ya vende US$27, el doble que en 2023</title>
-      <link>https://coninteres.com/articulos/2026-10-03-neuquen-exportaciones-buenos-aires-semestre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-03-neuquen-exportaciones-buenos-aires-semestre.html</guid>
-      <pubDate>Sat, 03 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Según el INDEC, Neuquén le vendió al mundo US$4.304 millones entre enero y junio de 2026, 42,5% más que un año antes y el mejor primer semestre de la serie, que arranca en 2002. Nueve de cada diez dólares fueron petróleo crudo. Es la cuarta provincia exportadora y achica la distancia con las tres grandes: por cada US$100 que exportó Buenos Aires, vendió US$27; en el primer semestre de 2023, US$13. A Córdoba ya le vende 77 de cada 100.</description>
-      <ci:numero>US$4.304 M</ci:numero>
-      <ci:numeroEtiqueta>exportaciones de bienes con origen en Neuquén en el primer semestre de 2026 (INDEC, Origen provincial de las exportaciones; recalculado de la serie mensual: 4.303,8); +42,5% interanual, 27,0% de lo que exportó Buenos Aires (12,9% en 2023)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-03-neuquen-exportaciones-buenos-aires-semestre.png" length="92915" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-03-neuquen-exportaciones-buenos-aires-semestre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

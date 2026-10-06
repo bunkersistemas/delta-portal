@@ -2931,6 +2931,46 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario, sin serie para recalcular, fuente privada única o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto cobra un maestro (resultados de PISA 2025, OCDE 08/09/2026; entrevista de La Nación a Esteban Bullrich 06/10/2026) / Ministerio de Capital Humano, CECE, series de salario docente (actualizadas 04/08/2026), maestro de grado jornada simple 10 años de antigüedad, financiamiento jurisdiccional y nacional, promedio ponderado: bolsillo jun-26 $1.087.013 (bruto $1.308.651); jun-25 $809.567; jun-23 $188.887; dic-23 $311.394; dic-16 $12.302; real jun-23/jun-26 -16,8% (bruto -15,6%), jun-25/jun-26 +0,5%, dic-16/jun-26 -25,3%; mínimo dic-16/sep-23 en pesos de jun-26: jun-21 $1.107.993; mínimo total mar-24 $929.875; provincias jun-26 bolsillo: Neuquén $1.856.209, Misiones $808.715 (2,3 veces); CBT hogar 2 jun-26 $1.531.472,91 -> 71,0%; IPC INDEC 1.709,6115 / 8.855,5681 / 11.826,4103; contraste índice de salarios INDEC sector público registrado 1.434,49 / 6.063,83 / 7.889,40 -> -20,5% y -2,6%",
+      "angulo": "Corrida programada del 06/10/2026 06:30, cuarta candidata probada (APTA). PREGUNTA DE PLATA detrás de PISA: cuánto cobra un maestro. Ángulo propio: la serie larga en pesos constantes (desde dic-2016, primer IPC nacional) y la cobertura de la canasta por provincia; iProfesional había dado el ranking provincial bruto de junio en el Día del Maestro (sin serie real ni canasta). Camino estadística oficial recalculada con contraste: (1) planillas oficiales del CECE; (2) recálculo propio de la variación real con el IPC del INDEC; (3) contraste independiente con el índice de salarios del sector público del INDEC (misma dirección, -20,5% contra -16,8%; diferencia por universo). Superlativo con valor previo: menos que cualquier trimestre dic-16/sep-23 (mínimo previo jun-21, $1.107.993 de hoy). No se afirma causalidad entre salarios y PISA. Datos provinciales provisorios; el promedio ponderado lo calcula el Ministerio (ponderaciones no publicadas). Santiago del Estero jun-26 incluye sumas extraordinarias. Distinto de 2026-09-27-cuanto-cobra-docente-universitario-ley-financiamiento (universitarios).",
+      "fecha": "2026-10-06",
+      "estado": "publicada",
+      "archivo": "cola/2026-10-06-cuanto-cobra-maestro-sueldo-docente-inflacion.html",
+      "articulo_id": "2026-10-06-cuanto-cobra-maestro-sueldo-docente-inflacion"
+    },
+    {
+      "tema": "cuánto le deja la Selección a la AFA (despedida de Messi, Argentina-Benín 06/10/2026) / memoria y balance de la AFA",
+      "angulo": "FRENADA en la corrida programada del 06/10/2026 06:30 (primera candidata probada, pregunta de plata). La memoria y balance de la AFA no está publicada en una fuente abierta: solo hay cifras de la asamblea reproducidas por medios (superávit $11.138 M, patrimonio $64.182 M, Infobae 28/10/2025). Sin documento primario no hay cifra ancla. Retomar si la AFA publica el balance o aparece en un registro público.",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario accesible"
+    },
+    {
+      "tema": "cuánto cuestan los viajes de Milei (Milei en París, viaje a España y nuevo viaje a Washington; La Nación, Página12, Cronista 06/10/2026) / Presupuesto Abierto 2023-2025, Secretaría General, programa Conducción del PEN: pasajes y viáticos (Seguridad, Logística y Comunicaciones 2025: viáticos $544,6 M, pasajes $254,7 M, combustibles $1.502,0 M)",
+      "angulo": "FRENADA en la corrida programada del 06/10/2026 06:30 (segunda candidata probada). El presupuesto no separa los viajes del Presidente: los pasajes y viáticos son de toda la Secretaría General y el combustible de la flota aérea se mezcla con el de los vehículos. El costo por viaje solo está en el Informe de Gestión del Jefe de Gabinete del 29/04/2026 (combustible ~US$970.000 en ocho viajes ene-abr), ya publicado por todos los medios en mayo y junio; no hay informe posterior con datos nuevos. Retomar con el próximo Informe de Gestión.",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "el presupuesto no aísla el dato; la única fuente con el costo por viaje ya fue cubierta por todos"
+    },
+    {
+      "tema": "cuántos dólares giran las petroleras en dividendos (Cronista 06/10/2026, informe del Instituto Argentina Grande: petróleo y gas US$1.091,5 M de US$4.041,4 M dic-25/06-10-26) / BCRA, Informe de Evolución del Mercado de Cambios ene-ago 2026: 'Energía' entre los sectores destacados (mar 460, abr 107, may 172, jun 165, jul 149, ago 56 M)",
+      "angulo": "FRENADA en la corrida programada del 06/10/2026 06:30 (tercera candidata probada). El BCRA solo nombra en el texto los sectores 'destacados' de cada mes y no publica la serie de utilidades y dividendos por sector, así que no se puede recalcular (enero, febrero y septiembre faltan). El IAG es una fuente privada única y usa otra clasificación (petróleo y gas, no 'Energía'). Dividendos totales ya cubiertos el 29/09 con la balanza de pagos.",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin serie oficial para recalcular; fuente privada única"
+    },
+    {
+      "tema": "descartes de la corrida programada del 06/10/2026 06:30: empresas CNV/SEC (BBVA 6-K estados al 30/06, YPF recompra de ON HR 05/10, Central Puerto y A3 recompras, Caja de Valores dividendos, Aluar respuesta a la ANSES), Mundial de Rugby 2035 (candidatura UAR con Uruguay, Chile y Brasil; infobae, La Nación 05/10), nueve argentinos en el Masters de Shanghái (premios ATP), contrabando de cosméticos en shoppings (Cronista, CAPA), perfumes importados, vacuna de la meningitis (La Nación), paro de la línea A (infobae), higiene urbana porteña (infobae), Banco Macro fondo de soja, Naranja X QR en colectivos (infobae), REM del BCRA e IPI pesquero (salen hoy por la tarde)",
+      "angulo": "NO TOMADAS en la corrida programada del 06/10/2026 06:30; ganó el sueldo de los maestros (cuarta candidata probada, APTA, tras AFA, viajes presidenciales y dividendos por sector, frenadas). EMPRESAS (rige el cupo: hoy no hay nota de EMPRESAS), razones: build_empresas.py trajo 0 presentaciones nuevas; BBVA cubierto el 26/09; YPF recompra de ON ya leída el 05/10 (rutina, monto chico); Central Puerto y A3 recompras diarias y Caja de Valores avisos de dividendos de terceros, sin cifra ancla; Aluar cubierto el 03/10. Mundial de Rugby 2035: la Argentina no publicó compromisos con montos y la fuente del costo de Francia 2023 (Cour des comptes) no respondía desde esta máquina (ECONNREFUSED): retomar con el informe accesible. Shanghái: premios de la ATP sin pregunta de plata argentina fuerte y hoy ya hay nota de DEPORTES. Cosméticos: encuesta de la cámara (privada, una fuente). Meningitis: gasto en vacunas cubierto el 04/10. Línea A: sin escala salarial oficial publicada. Higiene urbana: cubierta el 27/09 y hoy. Macro y Naranja X: productos comerciales, sin cifra oficial. PISA con gasto por alumno (OCDE EAG, dato 2022): descartado por desfase de años frente a la serie docente. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario, fuente privada única, fuente inaccesible o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }
