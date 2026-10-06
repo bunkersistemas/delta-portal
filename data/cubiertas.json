@@ -2860,6 +2860,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "fuente privada única, sin documento primario o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto cobra un diputado nacional (proyecto para suspender la dieta a los diputados que insulten, infobae 05/10/2026) / HCDN datos abiertos 'Dietas y gastos de representación' (remuneraciones1.9.csv: dieta $6.125.805,18, gastos de representación $464.489,12; descuentos2.0.csv) y recibo modelo remuneraciones2.1.pdf ('Recibo 032026')",
+      "angulo": "FRENADA en la corrida programada del 05/10/2026 22:30 (primera candidata probada). La planilla de datos abiertos no dice a qué mes corresponde y el recibo modelo de la HCDN es de marzo de 2026 (la página dice 'Actualizado: Marzo 2026'); el valor de octubre solo aparece en prensa. Mismo problema que la dieta del Senado (25/09). Retomar con un recibo oficial posterior o el acta paritaria legislativa.",
+      "fecha": "2026-10-05",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla sin documento oficial vigente: el último recibo de la HCDN es de marzo de 2026"
+    },
+    {
+      "tema": "cuánto es el subsidio eléctrico para zonas cálidas (gobernadores del norte presionan para que funcione en noviembre, infobae 05/10/2026): bloques subsidiados de 300 a 550 kWh en zonas muy cálidas y de 150 a 300 kWh en cálidas, noviembre-abril (acuerdo de agosto de 2026 según prensa)",
+      "angulo": "FRENADA en la corrida programada del 05/10/2026 22:30 (segunda candidata probada). El esquema se va a fijar por resolución de la Secretaría de Energía, que todavía no se publicó en el Boletín Oficial; las cifras solo están en prensa y en declaraciones de gobernadores. Retomar cuando salga la resolución.",
+      "fecha": "2026-10-05",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento oficial: la resolución no se publicó"
+    },
+    {
+      "tema": "cuánto gas le va a vender la Argentina a Europa (presentación del GNL argentino en Bruselas ante 17 países, La Nación 05/10/2026) / contrato Southern Energy-SEFE: 2 Mt/año por 8 años desde fines de 2027, FOB, un tercio de la producción proyectada de SESA (comunicados de SEFE y de la Cancillería, 04/03/2026; precio no publicado) contra importaciones de GNL del INDEC (NCM 27111100): ene-ago 2026 945.752 t, US$814,8 M FOB (CIF 867,2), US$861,5/t; 2025 970.783 t, US$563,5 M, US$580,4/t (+48,4% precio, -2,6% t, +44,6% valor); serie anual 2019-2025 en kt: 1.253,5 / 1.320,1 / 2.554,8 / 1.671,7 / 1.894,3 / 1.139,6 / 970,8; x2,1; solo 2021 supera 2 Mt desde 2019; precio 2022 US$1.412,6/t. Contraste Secretaría de Energía, TD comercio exterior (importación de GNL, todo ENARSA): may-ago 2026 1.328.262 miles de m3 y US$854,7 M; 2025 1.369.400 miles de m3 y US$601,3 M (-3,0% y +42,1%); 1.402 a 1.413 m3 por tonelada mes a mes",
+      "angulo": "Corrida programada del 05/10/2026 22:30, tercera candidata probada (APTA). Pregunta de plata detrás de la presentación del GNL argentino en Bruselas (La Nación 05/10, también en su portada de economía). RETOMADA: la corrida de las 18:30 la descartó como 'contrato ya conocido, sin documento nuevo con cifra'; el ángulo nuevo es el cruce propio del contrato con las importaciones de GNL del INDEC, nunca cubiertas (la nota del 21/07 sobre producción de gas solo mencionaba la paradoja de importar). Ancla CONFIRMADA por dos fuentes independientes que coinciden (SEFE y Cancillería). Importaciones: estadística oficial recalculada desde la base cruda del INDEC, con contraste independiente de la Secretaría de Energía (misma dirección y magnitud; factor físico estable). Sin valor del contrato (no publicado). Único superlativo: 'desde 2019, solo en 2021 se importó más de 2 Mt' (serie mostrada en el gráfico). Antes frenaron la dieta de los diputados y el subsidio a zonas cálidas (ver sus entradas); descartada sin investigar la multa al vecino de Nordelta que disparó a carpinchos (multa privada del barrio y particular imputado, línea roja 7). EMPRESAS: YPF recompra de ON Clase XXVII (HR CNV 05/10, leído vía la clave pública del blob de la CNV: US$4.374.760 VN a 99,91%, $6.660.251.170,56, emisión de US$127.904.997 que vence en octubre de 2026) no tomada: monto chico, sin pregunta de plata, y hoy ya hubo dos notas de EMPRESAS, así que no rige el cupo. Otras de portada no tomadas: Brasil y riesgo país, Flybondi, monoboyas del VMOS, automotriz, quesera francesa, Tango, F-16 (cubiertas o descartadas hoy). Clarín y TN no se pudieron leer.",
+      "fecha": "2026-10-05",
+      "estado": "publicada",
+      "articulo_id": "2026-10-05-gnl-europa-sefe-contra-importaciones"
     }
   ]
 }
