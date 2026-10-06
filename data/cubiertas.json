@@ -3064,6 +3064,23 @@
       "estado": "publicada",
       "articulo_id": "2026-10-06-rem-crecimiento-2026-mitad-presupuesto",
       "motivo_descarte": ""
+    },
+    {
+      "tema": "créditos hipotecarios del FGS, resultado de la segunda licitación del 06/10/2026 (infobae, La Nación, ámbito): $200.000 M a 12 de 14 bancos, 1 año UVA+2,71% ($3.252 M) y 5 años UVA+4,79% ($196.748 M), ofertas por $246.000 M / qué bancos dan crédito hipotecario con fondos de la ANSES",
+      "angulo": "FRENADA en la corrida programada del 06/10/2026 20:30 (primera candidata probada). Pregunta de plata: qué bancos dan hipotecarios con plata de la ANSES y a qué tasa. Las cifras solo aparecen en medios que citan al BCRA sin enlace; no se encontró la Comunicación B ni un comunicado oficial con el resultado (la Com. B 13223 de la primera licitación es solo el llamado, igual que la B 13240). Programa ya cubierto el 26/08 y el 02/10.",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento oficial con el resultado de la licitación; cifras solo de medios"
+    },
+    {
+      "tema": "índice de producción industrial pesquero de agosto de 2026 (INDEC, 06/10/2026, calendario oficial; Diario El Atlántico 06/10) / nivel general 249,1, −17,2% i.a. contra agosto de 2025 (300,8, el agosto más alto de la serie 2012-2026; previo 288,3 en 2024); acumulado ene-ago +39,7% vs 2025 y +10,3% vs 2024 (1.787,5 vs 1.620,7, el más alto de la serie; promedio mensual 223,4 vs 202,6); peces −28,7%, crustáceos −14,6%, moluscos +111,2%; ene-ago vs 2024 peces +22,9%, crustáceos +2,1%, moluscos +17,8%; desembarques SSPyA (provisorios): ene-ago 643.197 t (+9,6% vs 587.028 de 2024; +10,0% vs 584.473 de 2025), agosto 61.856 t (−25,9% vs 83.525); langostino ene-ago 170.009 t (+6,7% vs 2024), calamar illex 188.369 t (+22,4% vs 2024, −9,0% vs 2025)",
+      "angulo": "Corrida programada del 06/10/2026 20:30, segunda candidata probada (APTA). Dato del calendario de hoy que ningún portal nacional levantó, con ángulo propio anunciado en la nota del 03/09 (pesca 300% con base hundida): agosto es el primer dato después del conflicto de 2025 y cae contra el agosto récord, mientras el enero-agosto es el más alto de la serie. Camino estadística oficial: (1) informe técnico INDEC ipi_pesquero_10_26; (2) recálculo desde serie_ipi_pesquero.xlsx (−17,18%, +39,73%, grupos exactos); (3) contraste con desembarques de la Subsecretaría de Pesca (registro administrativo; misma dirección; diferencia explicada por ponderación a precios de 2004 y tipo de buque; tablas provisorias: ene-jul 584.928 t 'de las principales pesquerías' difundido en septiembre contra 581.341 que suma hoy la tabla, diferencia menor a 1% sin explicación de universo en el comunicado). No se atribuye causa a la baja del langostino de agosto. Candidatas no tomadas: RIGI costo fiscal (infobae, iProfesional, Página12: solo estimaciones privadas y de un diputado, proyecciones sin dos fuentes que coincidan), ley de financiamiento universitario tras el fallo (Cronista, ámbito: costo solo como proyección), salario de Messi en Inter Miami (sin documento oficial, fuente única), depósitos en dólares en el mejor mes del año (La Nación; cubierto 18/07 y 04/10), préstamos en dólares récord (sin máximo previo documentable antes de la serie), concesión de rutas (frenada hoy 14:30), Granja Tres Arroyos (sin documento primario), Banco Mundial y REM (publicada hoy). EMPRESAS: hoy ya hubo nota de EMPRESAS (AySA 09:30), el cupo no aplica; YPF recompra de ON (HR CNV 05/10) e INVAP (HR 06/10): la página de la CNV no muestra un documento legible; Central Puerto y A3 recompras, TRANSENER e ICBC cambios de directorio, Caja de Valores dividendos: sin cifra ancla; BBVA 6-K cubierto el 26/09. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-06",
+      "estado": "publicada",
+      "archivo": "cola/2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos.html",
+      "articulo_id": "2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos",
+      "motivo_descarte": ""
     }
   ]
 }

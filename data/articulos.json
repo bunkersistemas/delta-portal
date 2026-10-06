@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-06T18:48:06-03:00",
+    "actualizado": "2026-10-06T20:43:58-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos",
+      "titulo": "La pesca cayó 17,2% en agosto contra el mejor agosto de la serie, pero los primeros ocho meses de 2026 son los más altos desde 2012",
+      "bajada": "El INDEC informó que la producción pesquera de agosto cayó 17,2% interanual. Es el primer dato que ya no se compara contra los meses del conflicto gremial de 2025, pero la vara es alta: agosto de 2025 fue el agosto más alto desde que empieza la serie. Los primeros ocho meses de 2026 marcan el acumulado más alto desde 2012, 10,3% arriba de 2024, el último año sin conflicto. Los desembarques que registra la Subsecretaría de Pesca dicen lo mismo en toneladas: +9,6%.",
+      "titulo_busqueda": "¿Cómo viene la pesca en 2026? El índice del INDEC de agosto, sin el efecto del conflicto de 2025",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−17,2%",
+      "numero_label": "variación interanual del índice de producción industrial pesquero de agosto de 2026 (INDEC, 06/10/2026), contra agosto de 2025, el agosto más alto de la serie que empieza en 2012",
+      "fecha": "2026-10-06",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-06-rem-crecimiento-2026-mitad-presupuesto",
       "titulo": "El mercado recortó a 1,5% lo que espera que crezca la economía en 2026, la mitad del 3% del Presupuesto, y estima que el PBI cayó 1% en el tercer trimestre",

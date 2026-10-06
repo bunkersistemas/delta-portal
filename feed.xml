@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 06 Oct 2026 18:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 20:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La pesca cayó 17,2% en agosto contra el mejor agosto de la serie, pero los primeros ocho meses de 2026 son los más altos desde 2012</title>
+      <link>https://coninteres.com/articulos/2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos.html</guid>
+      <pubDate>Tue, 06 Oct 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El INDEC informó que la producción pesquera de agosto cayó 17,2% interanual. Es el primer dato que ya no se compara contra los meses del conflicto gremial de 2025, pero la vara es alta: agosto de 2025 fue el agosto más alto desde que empieza la serie. Los primeros ocho meses de 2026 marcan el acumulado más alto desde 2012, 10,3% arriba de 2024, el último año sin conflicto. Los desembarques que registra la Subsecretaría de Pesca dicen lo mismo en toneladas: +9,6%.</description>
+      <ci:numero>−17,2%</ci:numero>
+      <ci:numeroEtiqueta>variación interanual del índice de producción industrial pesquero de agosto de 2026 (INDEC, 06/10/2026), contra agosto de 2025, el agosto más alto de la serie que empieza en 2012</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos.png" length="69823" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El mercado recortó a 1,5% lo que espera que crezca la economía en 2026, la mitad del 3% del Presupuesto, y estima que el PBI cayó 1% en el tercer trimestre</title>
       <link>https://coninteres.com/articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>toneladas de carne de cerdo (posición 0203) importadas desde Brasil entre enero y agosto de 2026, según el INDEC: la mayor cantidad para esos meses desde 2002</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-cerdo-brasil-importaciones-record.png" length="77496" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-cerdo-brasil-importaciones-record.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El ex Potenciar Trabajo sigue en $78.000 desde diciembre de 2023: perdió 71% de su poder de compra y hoy alcanza para un tercio de la canasta de alimentos de un adulto</title>
-      <link>https://coninteres.com/articulos/2026-10-04-acompanamiento-social-78000-poder-de-compra.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-acompanamiento-social-78000-poder-de-compra.html</guid>
-      <pubDate>Sun, 04 Oct 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Programa de Acompañamiento Social, heredero del Potenciar Trabajo, paga $78.000 por mes: el mismo monto que el Potenciar en diciembre de 2023. Con la inflación del INDEC hasta agosto, esa plata compra 71,2% menos. Cuando se fijó alcanzaba para la canasta de alimentos de un adulto; en agosto de 2026, para el 33,2%.</description>
-      <ci:numero>-71,2%</ci:numero>
-      <ci:numeroEtiqueta>poder de compra que perdieron los $78.000 del Acompañamiento Social (ex Potenciar Trabajo) entre diciembre de 2023 y agosto de 2026, con el IPC del INDEC</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-acompanamiento-social-78000-poder-de-compra.png" length="77213" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-acompanamiento-social-78000-poder-de-compra.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
