@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-06T00:54:17-03:00",
+    "actualizado": "2026-10-06T02:42:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-06-alquiler-dos-ambientes-mitad-ingreso-deciles-caba",
+      "titulo": "El alquiler de un dos ambientes en la Ciudad supera la mitad del ingreso del 40% de los hogares que menos ganan: en el cuarto decil es el 52,7%, y un año atrás era el 53,8%",
+      "bajada": "Con el precio promedio publicado en el segundo trimestre ($770.520 por mes) y el ingreso de los hogares porteños del mismo trimestre, los dos medidos por el IDECBA, la cuenta da más de 50% en los cuatro deciles de abajo y 170,0% en el primero. Recalculamos decil por decil lo que informó el Consejo Económico y Social de la Ciudad: se sostiene, y en el último año pesó un poco menos para los hogares de abajo.",
+      "titulo_busqueda": "¿Qué parte del sueldo se va en el alquiler en CABA?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "52,7%",
+      "numero_label": "del ingreso total familiar promedio de un hogar porteño del cuarto decil equivale al alquiler publicado de un dos ambientes, 2º trimestre de 2026 (cálculo propio con IDECBA); 53,8% un año antes",
+      "fecha": "2026-10-06",
+      "hora": "02:30",
+      "archivo": "articulos/2026-10-06-alquiler-dos-ambientes-mitad-ingreso-deciles-caba.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-06-cuanto-cobra-recolector-residuos-octubre",
       "titulo": "Un recolector de residuos cobra $1.038.436 de básico en octubre: en el año a agosto su sueldo le ganó 1,6% a la inflación, pero en agosto cubría el 61,8% de la canasta de pobreza de una familia tipo",
