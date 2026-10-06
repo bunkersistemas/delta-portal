@@ -3002,6 +3002,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "ya cubiertas, fuente privada única, sin documento o todavía no publicadas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto les debe el Estado a las constructoras y cómo les paga (La Nación, ámbito, iProfesional, Cronista 06/10/2026) / Resolución Conjunta 59/2026 SF-SH (BO 06/10/2026): ampliación de tres títulos capitalizables por hasta $221.119.509.519 de valor efectivo (33% Letra 30/10/2026 VNO $60.000 M, 33% Bono 15/01/2027 VNO $51.000 M, 34% Bono 30/04/2027 VNO $60.000 M) para el Régimen Simplificado de Extinción de Obligaciones de Contratos de Obra Pública de la Res. 1/2026 SCIN (BO 02/07/2026, mismo tope); certificados, acopio y redeterminaciones 2022-2025",
+      "angulo": "Corrida programada del 06/10/2026 12:30, primera candidata probada (pregunta de plata, APTA). Camino de dos documentos oficiales que coinciden: el tope figura con todos sus dígitos en la Res. 1/2026 SCIN (julio) y en la Res. Conj. 59/2026 SF-SH (octubre), más recálculo del reparto 33/33/34 (2027: $148.150 M, 67%). Ángulo propio: el tope equivale al 10,7% del gasto de capital del SPN base caja ene-ago 2026 ($2.072.956,5 M, IMIG agosto; suma mensual recalculada igual al acumulado), 14,4% de la inversión real directa y 54,7% del gasto de capital de agosto. No afirmado: cuánto se entrega efectivamente (depende de adhesiones y auditoría), deuda total con contratistas, empresas beneficiarias, tratamiento fiscal (atribuido a El Economista). Retomable con el monto efectivamente entregado o con el vencimiento de la letra del 30/10.",
+      "fecha": "2026-10-06",
+      "estado": "publicada",
+      "articulo_id": "2026-10-06-deuda-obra-publica-bonos-constructoras"
+    },
+    {
+      "tema": "descartes de la corrida programada del 06/10/2026 12:30: empresas CNV/SEC (BBVA 6-K estados al 30/06, YPF recompra de ON HR 05/10, Central Puerto y A3 recompras, Caja de Valores avisos de dividendos, Aluar respuesta a la ANSES), retiros voluntarios en Vialidad Nacional (Res. 1220/2026; infobae, Cronista), Granja Tres Arroyos ratifica 1.250 despidos (infobae, iProfesional), Banco Mundial baja la proyección de crecimiento 2026 de 3,6% a 2,1% (infobae), industria entre las cuatro peores según la ONU (infobae, iProfesional, Página12), producción automotriz -15,6% (ámbito, Página12), dividendos por más de US$4.000 M (infobae, Cronista), Caputo y las elecciones de 2027, riesgo país debajo de 600 y Brasil (La Nación, ámbito, iProfesional), desocupación como principal preocupación (encuestas), FMI y subsidios (ámbito), despedida de Messi (iProfesional, Página12), Pandanés (Página12), plazo fijo para generar $200.000 (ámbito)",
+      "angulo": "NO TOMADAS en la corrida programada del 06/10/2026 12:30; ganó la deuda de obra pública pagada con bonos (primera candidata, APTA). EMPRESAS: el cupo no regía (hoy ya hubo nota de EMPRESAS, AySA 09:30); build_empresas.py trajo 0 presentaciones nuevas; BBVA cubierto el 26/09; YPF recompra de ON ya leída el 05/10 (rutina, monto chico); Central Puerto, A3 y Caja de Valores, recompras diarias y dividendos de terceros sin cifra ancla. Vialidad: la resolución da una fórmula (90% u 85% de un haber por año, tope 24), no un monto, y el retiro en el Estado se cubrió el 03/10 con la ANSES; retomable con la escala del CCT de Vialidad. Granja Tres Arroyos: sin documento primario con cifras (no presenta ante la CNV). Banco Mundial: proyección, que exige dos fuentes; candidata para cuando salgan el REM (hoy por la tarde) y el WEO del FMI. Industria ONU, automotriz, dividendos, riesgo país, Brasil, desocupación, FMI-subsidios, Messi: ya cubiertos o descartados hoy (00:30 a 10:30) por las mismas razones. Pandanés: sin documento. Plazo fijo en pesos: la contestan todos con calculadoras. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-06",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "ya cubiertas, fuente privada única, sin documento o proyección sin segunda fuente, frente a la candidata elegida"
     }
   ]
 }

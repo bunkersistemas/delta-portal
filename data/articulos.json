@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-06T10:46:39-03:00",
+    "actualizado": "2026-10-06T12:44:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-06-deuda-obra-publica-bonos-constructoras",
+      "titulo": "El Tesoro pagará con bonos hasta $221.119 millones de deudas con constructoras: el 10,7% de lo que la Nación gastó en capital de enero a agosto",
+      "bajada": "El Gobierno va a cancelar con una letra y dos bonos del Tesoro, en vez de con efectivo, hasta $221.119 millones de certificados de obra pública que quedaron impagos entre 2022 y 2025. Equivale al 10,7% de todo el gasto de capital del Sector Público Nacional en los primeros ocho meses de 2026. Un tercio vence el 30 de octubre; los otros dos tercios, en 2027.",
+      "titulo_busqueda": "¿Cuánto les debe el Estado a las constructoras y cómo les va a pagar?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$221.119 M",
+      "numero_label": "tope de deuda de obra pública 2022-2025 que el Tesoro cancela con títulos capitalizables (Res. 1/2026 SCIN y Res. Conjunta 59/2026, BO 06/10/2026)",
+      "fecha": "2026-10-06",
+      "hora": "12:30",
+      "archivo": "articulos/2026-10-06-deuda-obra-publica-bonos-constructoras.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion",
       "titulo": "Un juez federal de primera instancia cobra $7.363.234 brutos por mes sin antigüedad: en un año le ganó 2,8% a la inflación y desde diciembre le empata",

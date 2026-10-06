@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 06 Oct 2026 10:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 12:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Tesoro pagará con bonos hasta $221.119 millones de deudas con constructoras: el 10,7% de lo que la Nación gastó en capital de enero a agosto</title>
+      <link>https://coninteres.com/articulos/2026-10-06-deuda-obra-publica-bonos-constructoras.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-deuda-obra-publica-bonos-constructoras.html</guid>
+      <pubDate>Tue, 06 Oct 2026 12:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Gobierno va a cancelar con una letra y dos bonos del Tesoro, en vez de con efectivo, hasta $221.119 millones de certificados de obra pública que quedaron impagos entre 2022 y 2025. Equivale al 10,7% de todo el gasto de capital del Sector Público Nacional en los primeros ocho meses de 2026. Un tercio vence el 30 de octubre; los otros dos tercios, en 2027.</description>
+      <ci:numero>$221.119 M</ci:numero>
+      <ci:numeroEtiqueta>tope de deuda de obra pública 2022-2025 que el Tesoro cancela con títulos capitalizables (Res. 1/2026 SCIN y Res. Conjunta 59/2026, BO 06/10/2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-deuda-obra-publica-bonos-constructoras.png" length="77496" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-deuda-obra-publica-bonos-constructoras.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un juez federal de primera instancia cobra $7.363.234 brutos por mes sin antigüedad: en un año le ganó 2,8% a la inflación y desde diciembre le empata</title>
       <link>https://coninteres.com/articulos/2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>aportes y contribuciones de la ANSES por cada $100 de jubilaciones y pensiones del SIPA, 2025 (Presupuesto Abierto: aportes $37.182.293 M / gasto devengado programas 16+17+20 $49.610.733 M = 74,95%; recálculo serie GPN SIPA 2025 = 49.610.733; 2015 75,3, 2014 82,2, mínimo 2020 55,2; contraste ARCA seguridad social $45.633.686 M = 92,0% e IMIG 89,8%; estricto con AAFF 63,6%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich.png" length="92147" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-aportes-jubilaciones-75-de-cada-100-bullrich.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La tasa del IVA es 21%, pero el Estado cobró $9,22 por cada $100 que gastaron los hogares en el primer semestre: el nivel más bajo desde 2004</title>
-      <link>https://coninteres.com/articulos/2026-10-04-iva-cada-100-pesos-consumo-minimo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-iva-cada-100-pesos-consumo-minimo.html</guid>
-      <pubDate>Sun, 04 Oct 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En un precio con IVA general, $17,36 de cada $100 son impuesto. Pero entre enero y junio de 2026 el IVA que recaudó ARCA equivalió a $9,22 por cada $100 que gastaron los hogares, según las cuentas del INDEC: el primer semestre más bajo de la serie, que arranca en 2004. Un año antes eran $10,04. Casi ocho de cada diez centavos de esa baja vinieron del IVA que se cobra en la Aduana.</description>
-      <ci:numero>$9,22</ci:numero>
-      <ci:numeroEtiqueta>IVA recaudado por cada $100 de consumo privado, enero-junio de 2026 (ARCA, IVA neto $35.217.982 M / INDEC, consumo privado a precios corrientes $382.126.957 M = 9,216%; 1S-2025 10,04; mínimo previo de la serie 1S-2004 9,33; contraste Hacienda IMIG +22,5% vs ARCA +22,8% e IARAF sep-26 IVA -5,4% real)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-iva-cada-100-pesos-consumo-minimo.png" length="94471" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-iva-cada-100-pesos-consumo-minimo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
