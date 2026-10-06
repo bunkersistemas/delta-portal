@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-05",
-  "pregunta": "El Estado nacional gastó $194.091 millones en vacunas en 2024 y $189.395 millones en 2025. La inflación promedio de 2025 fue de 41,9%. Descontada la inflación, ¿cuánto cambió el gasto en vacunas?",
+  "fecha": "2026-10-06",
+  "pregunta": "Entre julio y diciembre de 2026, un empleado soltero puede deducir $2.909.508 por mes en Ganancias (ganancia no imponible más deducción especial). Esa cifra se compara con el sueldo neto, y del sueldo bruto le descuentan 17% de aportes. ¿Desde qué sueldo bruto mensual le empiezan a retener Ganancias?",
   "opciones": [
-    "Cayó alrededor de 31%: con 41,9% de inflación, los $189.395 millones de 2025 compran lo que $133.471 millones en 2024",
-    "Cayó apenas 2,4%: es la diferencia entre los dos montos",
-    "Subió: con inflación, cualquier gasto en pesos crece año contra año"
+    "Desde $3.505.431: si el neto es el 83% del bruto, el bruto es $2.909.508 dividido 0,83",
+    "Desde $3.404.124: hay que sumarle 17% a los $2.909.508",
+    "Desde $2.909.508: las deducciones se comparan directo con el sueldo bruto"
   ],
   "correcta": 0,
-  "explicacion": "Para comparar pesos de años distintos hay que llevarlos a la misma moneda. Si los precios subieron 41,9% en promedio, $189.395 millones de 2025 valen lo que $133.471 millones de 2024 ($189.395 / 1,419). Contra los $194.091 millones de 2024, es 31,2% menos. El 2,4% es la caída en pesos corrientes: confundirla con la caída real es el error más común con cifras en pesos. Y que un monto en pesos crezca no dice nada: con inflación alta, puede crecer y aun así comprar menos.",
-  "nota": "articulos/2026-10-04-gasto-vacunas-2025-minimo.html",
+  "explicacion": "Las deducciones de Ganancias se comparan con el sueldo neto de aportes, no con el bruto. Si de cada $100 brutos se descuentan $17 (11% de jubilación, 3% de PAMI y 3% de obra social), el neto es el 83% del bruto. Para pasar del neto al bruto hay que dividir por 0,83: $2.909.508 / 0,83 = $3.505.431. Sumarle 17% al neto da menos ($3.404.124), porque el 17% se calcula sobre el bruto, que es más grande que el neto. Es el mismo error que restar un porcentaje y después sumarlo esperando volver al punto de partida.",
+  "nota": "articulos/2026-10-05-ganancias-piso-sueldo-empleados-octubre.html",
   "leccion": ""
 }

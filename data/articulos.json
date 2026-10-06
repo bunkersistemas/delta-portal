@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-05T22:51:42-03:00",
+    "actualizado": "2026-10-06T00:54:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-06-cuanto-cobra-recolector-residuos-octubre",
+      "titulo": "Un recolector de residuos cobra $1.038.436 de básico en octubre: en el año a agosto su sueldo le ganó 1,6% a la inflación, pero en agosto cubría el 61,8% de la canasta de pobreza de una familia tipo",
+      "bajada": "El acuerdo que firmaron el 18 de septiembre la federación de Camioneros y las cámaras FAETYL y FADEEAC fija para octubre un básico de $1.038.436 para los recolectores de residuos y limpieza del convenio 40/89. Entre agosto de 2025 y agosto de 2026 ese básico subió 35,6% y los precios, 33,5%: compra 1,6% más. Pero la canasta de pobreza de una familia tipo subió 38,3%, y el básico de agosto cubría el 61,8% de ella, contra 63,0% un año antes.",
+      "titulo_busqueda": "¿Cuánto cobra un recolector de basura en octubre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$1.038.436",
+      "numero_label": "salario básico de octubre de 2026 de un recolector de residuo y limpieza, CCT 40/89 (planilla 10/26 del acuerdo Camioneros-FAETYL-FADEEAC del 18/09/2026)",
+      "fecha": "2026-10-06",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-06-cuanto-cobra-recolector-residuos-octubre.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-05-gnl-europa-sefe-contra-importaciones",
       "titulo": "Southern Energy le va a vender 2 millones de toneladas de gas natural licuado por año a la estatal alemana SEFE desde fines de 2027: más del doble de las 945.752 que la Argentina importó entre enero y agosto",
