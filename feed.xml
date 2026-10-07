@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 06 Oct 2026 20:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 06 Oct 2026 22:55:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Presupuesto 2026 previó $2,64 billones para cubrir lo que la tarifa de luz no paga y en nueve meses ya se pagaron $4,35 billones, 64% más: para 2027 promete $3,08 billones</title>
+      <link>https://coninteres.com/articulos/2026-10-06-subsidio-luz-cammesa-presupuesto-2026-excedido.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-subsidio-luz-cammesa-presupuesto-2026-excedido.html</guid>
+      <pubDate>Tue, 06 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Es la plata que el Tesoro le gira a CAMMESA, la compañía que compra la electricidad para todo el país, por la parte del costo que no cubren las facturas. El límite de todo 2026 se pasó en julio. Para 2027 el Gobierno pide menos de lo que ya gastó este año y supone que la tarifa cubra el 99,75% del costo mayorista, contra 80,48% que se proponía para 2026.</description>
+      <ci:numero>+64%</ci:numero>
+      <ci:numeroEtiqueta>lo que se devengó en enero-septiembre de 2026 para la actividad Sustentabilidad del Mercado Eléctrico (CAMMESA), $4.345.154 M, por encima de lo que el Presupuesto 2026 había previsto para todo el año, $2.642.272 M (Presupuesto Abierto al 04/10/2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-subsidio-luz-cammesa-presupuesto-2026-excedido.png" length="90068" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-subsidio-luz-cammesa-presupuesto-2026-excedido.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La pesca cayó 17,2% en agosto contra el mejor agosto de la serie, pero los primeros ocho meses de 2026 son los más altos desde 2012</title>
       <link>https://coninteres.com/articulos/2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>tasa nominal anual promedio de los plazos fijos en dólares a 30 días, 1° de octubre de 2026 (BCRA, Informe Monetario Diario): 1,99% de promedio en enero de 2026; plazos fijos en dólares del sector privado US$11.619 M al 30/09/2026 (+63,5% interanual)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-plazo-fijo-dolares-cuanto-paga.png" length="94403" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-plazo-fijo-dolares-cuanto-paga.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina le compró 41.222 toneladas de carne de cerdo a Brasil en ocho meses, la mayor cantidad desde 2002: ya pasó a cualquier año completo salvo 2025</title>
-      <link>https://coninteres.com/articulos/2026-10-04-cerdo-brasil-importaciones-record.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-cerdo-brasil-importaciones-record.html</guid>
-      <pubDate>Sun, 04 Oct 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Brasil, que hoy elige presidente, le vendió a la Argentina 41.222 toneladas de carne porcina entre enero y agosto, 19,5% más que un año antes, según el INDEC. La aduana brasileña anota casi lo mismo: 41.384. De cada 100 kilos de esta carne que importa el país, 98,6 vienen de Brasil, y este año llegan más baratos: US$2,64 el kilo, 9,8% menos que en 2025.</description>
-      <ci:numero>41.222 t</ci:numero>
-      <ci:numeroEtiqueta>toneladas de carne de cerdo (posición 0203) importadas desde Brasil entre enero y agosto de 2026, según el INDEC: la mayor cantidad para esos meses desde 2002</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-cerdo-brasil-importaciones-record.png" length="77496" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-cerdo-brasil-importaciones-record.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
