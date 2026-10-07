@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-07T06:46:55-03:00",
+    "actualizado": "2026-10-07T08:49:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-07-inflacion-argentina-turquia-ocde",
+      "titulo": "La Argentina tuvo en agosto más inflación que Turquía y que cualquier país de la OCDE: 33,5% contra 31,5%",
+      "bajada": "Según el informe de precios de la OCDE del 6 de octubre, en agosto la inflación interanual de la Argentina, 33,5%, superó a la de Turquía, 31,5%, y quedó por encima de la de los 38 países del organismo y del resto del G20 que publica. Es casi ocho veces el promedio de la OCDE (4,3%). Desde octubre de 2025, la tasa argentina subió 2,2 puntos y la turca bajó 1,4.",
+      "titulo_busqueda": "¿Qué país tiene más inflación, Argentina o Turquía?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "33,5%",
+      "numero_label": "inflación interanual de la Argentina en agosto de 2026 (INDEC), la más alta de la tabla de la OCDE y el G20; Turquía, 31,5%",
+      "fecha": "2026-10-07",
+      "hora": "08:30",
+      "archivo": "articulos/2026-10-07-inflacion-argentina-turquia-ocde.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-07-invap-facturacion-satelites-nuclear-balance",
       "titulo": "INVAP facturó $440.085 millones en su último ejercicio, 6,4% más que el anterior, pero los satélites vendieron 46% menos y la ganancia cayó por cuarto año seguido",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 06:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 08:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina tuvo en agosto más inflación que Turquía y que cualquier país de la OCDE: 33,5% contra 31,5%</title>
+      <link>https://coninteres.com/articulos/2026-10-07-inflacion-argentina-turquia-ocde.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-07-inflacion-argentina-turquia-ocde.html</guid>
+      <pubDate>Wed, 07 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Según el informe de precios de la OCDE del 6 de octubre, en agosto la inflación interanual de la Argentina, 33,5%, superó a la de Turquía, 31,5%, y quedó por encima de la de los 38 países del organismo y del resto del G20 que publica. Es casi ocho veces el promedio de la OCDE (4,3%). Desde octubre de 2025, la tasa argentina subió 2,2 puntos y la turca bajó 1,4.</description>
+      <ci:numero>33,5%</ci:numero>
+      <ci:numeroEtiqueta>inflación interanual de la Argentina en agosto de 2026 (INDEC), la más alta de la tabla de la OCDE y el G20; Turquía, 31,5%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-inflacion-argentina-turquia-ocde.png" length="70339" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-inflacion-argentina-turquia-ocde.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>INVAP facturó $440.085 millones en su último ejercicio, 6,4% más que el anterior, pero los satélites vendieron 46% menos y la ganancia cayó por cuarto año seguido</title>
       <link>https://coninteres.com/articulos/2026-10-07-invap-facturacion-satelites-nuclear-balance.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>más caro está Brasil para los argentinos en julio de 2026 que en enero de 2025 (tipo de cambio real bilateral del BCRA)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-brasil-mas-caro-tipo-cambio-real.png" length="68374" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-brasil-mas-caro-tipo-cambio-real.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Estado gastó $189.395 millones en vacunas en 2025: descontada la inflación, 31% menos que en 2024 y el monto más bajo en al menos nueve años</title>
-      <link>https://coninteres.com/articulos/2026-10-04-gasto-vacunas-2025-minimo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-gasto-vacunas-2025-minimo.html</guid>
-      <pubDate>Sun, 04 Oct 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Es lo que pagó el Ministerio de Salud por comprar, guardar y distribuir las vacunas del calendario, según la ejecución del presupuesto. En pesos de 2025, en 2020 había gastado $652.265 millones. En 2026 el gasto se recuperó: en nueve meses ya superó a todo 2025, aun descontando la inflación. La dosis de los 11 años contra el meningococo llegó en 2025 a 57,1% de los chicos.</description>
-      <ci:numero>$189.395 M</ci:numero>
-      <ci:numeroEtiqueta>gastó el Estado nacional en vacunas del calendario en 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-gasto-vacunas-2025-minimo.png" length="73941" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-gasto-vacunas-2025-minimo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
