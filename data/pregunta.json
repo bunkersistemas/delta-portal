@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-06",
-  "pregunta": "Entre julio y diciembre de 2026, un empleado soltero puede deducir $2.909.508 por mes en Ganancias (ganancia no imponible más deducción especial). Esa cifra se compara con el sueldo neto, y del sueldo bruto le descuentan 17% de aportes. ¿Desde qué sueldo bruto mensual le empiezan a retener Ganancias?",
+  "fecha": "2026-10-07",
+  "pregunta": "Los analistas que consulta el Banco Central esperan que la economía crezca 1,5% en 2026, pero también estiman que el PBI cayó 1,0% en el tercer trimestre, después de bajar 0,6% en el segundo. ¿Cómo puede crecer el año si dos trimestres seguidos caen?",
   "opciones": [
-    "Desde $3.505.431: si el neto es el 83% del bruto, el bruto es $2.909.508 dividido 0,83",
-    "Desde $3.404.124: hay que sumarle 17% a los $2.909.508",
-    "Desde $2.909.508: las deducciones se comparan directo con el sueldo bruto"
+    "Porque el 1,5% compara el promedio de todo 2026 con el de todo 2025, y 2025 terminó alto y el primer trimestre de 2026 fue el más alto de la serie",
+    "No puede: si dos trimestres caen, el año tiene que dar negativo, así que uno de los dos números está mal",
+    "Porque el 1,5% ya descuenta la inflación y la caída trimestral no"
   ],
   "correcta": 0,
-  "explicacion": "Las deducciones de Ganancias se comparan con el sueldo neto de aportes, no con el bruto. Si de cada $100 brutos se descuentan $17 (11% de jubilación, 3% de PAMI y 3% de obra social), el neto es el 83% del bruto. Para pasar del neto al bruto hay que dividir por 0,83: $2.909.508 / 0,83 = $3.505.431. Sumarle 17% al neto da menos ($3.404.124), porque el 17% se calcula sobre el bruto, que es más grande que el neto. Es el mismo error que restar un porcentaje y después sumarlo esperando volver al punto de partida.",
-  "nota": "articulos/2026-10-05-ganancias-piso-sueldo-empleados-octubre.html",
+  "explicacion": "El crecimiento anual compara el nivel promedio de un año con el del año anterior. Si la economía arrancó 2026 en un nivel alto (el primer trimestre fue el más alto de la serie desestacionalizada del INDEC), el promedio del año puede quedar arriba del de 2025 aunque después vengan trimestres en baja. Por eso el número anual se mueve más despacio que el trimestral. Y los dos están en términos reales, sin inflación: la diferencia no viene de los precios sino de qué se compara con qué. Ojo: el −1,0% del tercer trimestre es un pronóstico; el INDEC lo publica en diciembre.",
+  "nota": "articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html",
   "leccion": ""
 }

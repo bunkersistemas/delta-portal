@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-06T22:55:34-03:00",
+    "actualizado": "2026-10-07T01:05:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-07-brasil-vendio-argentina-septiembre-25-menos",
+      "titulo": "Brasil le vendió a la Argentina 25,2% menos en septiembre, pero contra su mejor mes desde 2023: en nueve meses la baja es de 18,5%",
+      "bajada": "Brasil ya publicó su comercio exterior de septiembre, trece días antes que el INDEC: le vendió a la Argentina US$1.356 millones y le compró US$1.305 millones. La caída de 25,2% de sus ventas es contra septiembre de 2025, el mes más alto desde junio de 2023; contra agosto, la baja es de 8,2%. En nueve meses Brasil le vendió a la Argentina US$2.626 millones menos que en 2025, y casi la mitad de la caída de septiembre son autos.",
+      "titulo_busqueda": "¿Cuánto le compra la Argentina a Brasil? El comercio de septiembre de 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−25,2%",
+      "numero_label": "caída de las exportaciones de Brasil a la Argentina en septiembre de 2026 contra septiembre de 2025: US$1.356,5 M contra US$1.813,5 M (Secex/MDIC, Publicação Mensal de septiembre de 2026; recalculado en Comex Stat)",
+      "fecha": "2026-10-07",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-07-brasil-vendio-argentina-septiembre-25-menos.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-06-subsidio-luz-cammesa-presupuesto-2026-excedido",
       "titulo": "El Presupuesto 2026 previó $2,64 billones para cubrir lo que la tarifa de luz no paga y en nueve meses ya se pagaron $4,35 billones, 64% más: para 2027 promete $3,08 billones",
