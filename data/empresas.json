@@ -1,11 +1,29 @@
 {
-  "generado": "2026-10-07T10:30",
+  "generado": "2026-10-07T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3577785",
+      "fuente": "CNV",
+      "fecha": "2026-10-07T11:11",
+      "entidad": "CAMUZZI GAS DEL SUR S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE – CONTRATOS DE PRÉSTAMO CON EL BANCO MACRO S.A.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2F969BAF-2F1D-4A49-A971-FC0C17D3F2B7"
+    },
+    {
+      "id": "cnv-3577782",
+      "fuente": "CNV",
+      "fecha": "2026-10-07T11:07",
+      "entidad": "CAMUZZI GAS PAMPEANA S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - PRÉSTAMO BANCO MACRO CAMUZZI GAS PAMPEANA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/93888684-3036-497D-B275-64A6B080C285"
+    },
     {
       "id": "cnv-3577610",
       "fuente": "CNV",
