@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 12:49:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:14:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La industria produjo en agosto 3,2% menos que un año antes y su tendencia ya devolvió tres cuartas partes de lo que había recuperado desde el pozo de 2024</title>
+      <link>https://coninteres.com/articulos/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.html</guid>
+      <pubDate>Wed, 07 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El INDEC informó que la producción industrial de agosto cayó 3,2% interanual. Contra julio rebotó 1,9%, pero julio había sido un mes de derrumbe. La tendencia-ciclo bajó por cuarto mes seguido, quedó en el nivel más bajo desde junio de 2024 y ya devolvió el 74,5% de lo que había ganado entre abril de 2024 y enero de 2025. Fue el agosto más flojo desde 2020.</description>
+      <ci:numero>−3,2%</ci:numero>
+      <ci:numeroEtiqueta>variación interanual del IPI manufacturero de agosto de 2026 (INDEC, informe técnico del 07/10/2026); la tendencia-ciclo devolvió el 74,5% de la recuperación abr-24/ene-25</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.png" length="78705" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La nueva planta de litio de POSCO en el Salar del Hombre Muerto puede producir 23.000 toneladas por año, no 100.000: es casi una quinta parte de lo que produjo toda la Argentina en 2025</title>
       <link>https://coninteres.com/articulos/2026-10-07-posco-sal-de-oro-planta-litio-23000-toneladas.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>PUAM de octubre de 2026 con el bono: $348.598,81 (Res. ANSES 284/2026, 80% de la mínima) + $70.000 (Decreto 1108/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-puam-octubre-2026-cuanto-cobra-titulares.png" length="88405" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-puam-octubre-2026-cuanto-cobra-titulares.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Estados Unidos le compró a la Argentina US$6.691 millones en ocho meses, 34,5% más que en 2025, y pasó a China como segundo destino de las exportaciones</title>
-      <link>https://coninteres.com/articulos/2026-10-05-estados-unidos-paso-a-china-comprador-exportaciones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-estados-unidos-paso-a-china-comprador-exportaciones.html</guid>
-      <pubDate>Mon, 05 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y agosto de 2026 Estados Unidos le compró a la Argentina bienes por US$6.691 millones y China por US$6.155 millones, según el INDEC. Un año antes el orden era el inverso. Carne, oro y petróleo explican casi dos tercios de la suba de las ventas a Estados Unidos; en las ventas a China, lo que más cayó fue la soja.</description>
-      <ci:numero>US$6.691 M</ci:numero>
-      <ci:numeroEtiqueta>exportaciones de la Argentina a Estados Unidos en enero-agosto de 2026 (INDEC, ICA de agosto): 10,0% del total, contra US$6.155 M a China (9,2%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-estados-unidos-paso-a-china-comprador-exportaciones.png" length="88772" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-estados-unidos-paso-a-china-comprador-exportaciones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-07T12:49:44-03:00",
+    "actualizado": "2026-10-07T16:14:29-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-07-industria-agosto-tendencia-devolvio-recuperacion",
+      "titulo": "La industria produjo en agosto 3,2% menos que un año antes y su tendencia ya devolvió tres cuartas partes de lo que había recuperado desde el pozo de 2024",
+      "bajada": "El INDEC informó que la producción industrial de agosto cayó 3,2% interanual. Contra julio rebotó 1,9%, pero julio había sido un mes de derrumbe. La tendencia-ciclo bajó por cuarto mes seguido, quedó en el nivel más bajo desde junio de 2024 y ya devolvió el 74,5% de lo que había ganado entre abril de 2024 y enero de 2025. Fue el agosto más flojo desde 2020.",
+      "titulo_busqueda": "¿Cómo le fue a la industria en agosto de 2026? Qué dice el IPI manufacturero del INDEC",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−3,2%",
+      "numero_label": "variación interanual del IPI manufacturero de agosto de 2026 (INDEC, informe técnico del 07/10/2026); la tendencia-ciclo devolvió el 74,5% de la recuperación abr-24/ene-25",
+      "fecha": "2026-10-07",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-07-posco-sal-de-oro-planta-litio-23000-toneladas",
       "titulo": "La nueva planta de litio de POSCO en el Salar del Hombre Muerto puede producir 23.000 toneladas por año, no 100.000: es casi una quinta parte de lo que produjo toda la Argentina en 2025",

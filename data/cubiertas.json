@@ -3167,6 +3167,37 @@
       "fecha": "2026-10-07",
       "estado": "publicada",
       "articulo_id": "2026-10-07-posco-sal-de-oro-planta-litio-23000-toneladas"
+    },
+    {
+      "tema": "cuánto cuesta la visita del papa León XIV y quién la paga (RETOMADA por La Nación 07/10/2026: la Iglesia pasa la colecta entre empresarios; infobae 07/10: alquiler en Luján)",
+      "angulo": "FRENADA en la corrida programada del 07/10/2026 14:30 (primera candidata probada, pregunta de plata). Los US$30 M de costo para el Vaticano son de 'fuentes involucradas en el viaje' sin nombre; el esquema de financiamiento 25/25/25/25 no tiene fuente; elpapaenargentina.com.ar lista aportantes sin montos; el Gobierno no publicó montos de seguridad ni de transmisión. Sigue sin documento oficial con cifra, igual que el 25/09, el 28/09 y el 04/10.",
+      "fecha": "2026-10-07",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento oficial con montos; cifras de fuentes anónimas"
+    },
+    {
+      "tema": "cuánto combustible de aviación sostenible va a producir la biorrefinería de YPF en San Lorenzo (Santa Fe Bio, YPF 50% y Essential Energy 50%; contrato de largo plazo con TOTSA TotalEnergies del 07/10/2026; infobae, ámbito, Río Negro, LMNeuquén; infobae: 'negocio de hasta USD 1.000 millones')",
+      "angulo": "FRENADA en la corrida programada del 07/10/2026 14:30 (segunda candidata probada, EMPRESAS; el cupo no regía: hoy ya hubo nota de EMPRESAS, POSCO 12:30). La cifra ancla (170.000 t por año) aparece como producción de SAF y HVO en lo que levantan ámbito y Río Negro, y como capacidad de procesamiento de la biorrefinería en GlobalPorts (con pretratamiento de 250.000 t), sin separar SAF de HVO; no se encontró el comunicado en la web de YPF ni en la de TotalEnergies; los US$1.000 M son un cálculo de infobae con un precio por litro sin fuente. El contexto tampoco se pudo armar: la serie de ventas de aerokerosene de la Secretaría de Energía (datos.energia.gob.ar) no se actualiza desde 2019. Retomable con el comunicado oficial o con la resolución del RIGI si el proyecto se presenta.",
+      "fecha": "2026-10-07",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla ambigua (producción o procesamiento, SAF y HVO juntos) y sin documento de la empresa enlazable; sin serie oficial actualizada para el contexto"
+    },
+    {
+      "tema": "cómo le fue a la industria en agosto de 2026 / IPI manufacturero INDEC (07/10/2026, calendario oficial; informe ipi_manufacturero_10_264B0CD91C87.pdf y sh_ipi_manufacturero_2026.xls): ago-26 119,29 vs ago-25 123,28 = −3,2% i.a.; ene-ago −2,7% (promedio 115,20 vs 118,43; desde 2016 solo 2020 103,3 y 2024 113,3 más bajos; vs 2023 131,08 = −12,1%); desestacionalizada +1,9% m/m (114,29 vs 112,12; julio −5,1%); tendencia-ciclo −0,6% (114,87), cuarta baja seguida (abril −0,03%), mínimo desde jun-24 (114,06; jul-24 115,69); piso abr-24 112,52, techo ene-25 121,73 (+8,2%), devuelto 74,5%; agosto más bajo desde 2020 (116,63; 2025 123,28, 2024 128,73, 2023 138,36); 11 de 16 divisiones en baja: maquinaria y equipo −24,0% (incidencia −1,3 pp), otros equipos −20,6%, prendas −14,7%, tabaco −14,3%, productos de metal −9,6%, textiles −9,4%, automotores −8,8%; suben refinación +4,7% (acumulado +9,1%), químicos +4,0%, metálicas básicas +3,3%, otro equipo de transporte +12,1%",
+      "angulo": "Corrida programada del 07/10/2026 14:30, tercera candidata probada (APTA). Dato del calendario de hoy (16:00) con ángulo propio: los medios titulan el −3,2% interanual o el +1,9% mensual; la nota explica que el rebote sale de la base hundida de julio, que la tendencia-ciclo ya devolvió tres cuartas partes de la recuperación 2024-25, y pone agosto en la serie de once agostos. Distinto de 2026-10-03 (empleo industrial), 2026-10-02 (textil) y 2026-07-19 (industria contra construcción, mayo). Camino estadística oficial recalculada: (1) informe técnico INDEC del 07/10/2026 (−3,2, −2,7, +1,9, −0,6 y las 16 divisiones); (2) recálculo desde la planilla (−3,24%, −2,73%, +1,93%, divisiones exactas); (3) contraste FIEL, parte de prensa N° 1092 del 23/09/2026: −4,2% i.a., −1,2% ene-ago, −0,9% desestacionalizado, recuperación 'interrumpida en abril'; refinación +9,1% acumulado en los dos índices. Diferencia mensual explicada en la nota (julio −5,1% en el INDEC, componente irregular). Superlativos con valor previo en la ficha. NO afirmado: causas de la caída, empleo, facturación.",
+      "fecha": "2026-10-07",
+      "estado": "publicada",
+      "articulo_id": "2026-10-07-industria-agosto-tendencia-devolvio-recuperacion"
+    },
+    {
+      "tema": "descartes de la corrida programada del 07/10/2026 14:30: tierras bonaerenses en manos extranjeras (el Juzgado Contencioso Administrativo N° 4 de La Plata intimó al Gobierno a informar en 5 días, amparo de la Defensoría del Pueblo bonaerense; La Nación y Cronista 07/10), Uber-PedidosYa (sindicato denuncia concentración, iProfesional), Camuzzi Gas del Sur y Pampeana préstamos del Banco Macro (HR CNV 07/10), desempleo de 11,5% en Gran Rosario (Cronista), despachos de cemento en su pico anual de septiembre (ámbito, AFCP), reforma laboral: 36.000 puestos y 6.905 empresas menos desde marzo (iProfesional), deuda y morosidad de las familias (Fundación Pensar en La Nación; 54% con atrasos, infobae), Informe Monetario Mensual del BCRA, caso ANDIS $192.000 M (La Nación), Santa Fe mantiene las PASO (Cronista), FMI y petróleo caro en 2027 (infobae, ámbito), riesgo país cerca de 600, despedida de Messi, ISAC de agosto (INDEC 16:00)",
+      "angulo": "NO TOMADAS en la corrida programada del 07/10/2026 14:30; ganó el IPI manufacturero de agosto (tercera candidata, APTA). Tierras bonaerenses: la respuesta oficial (RNTR, ago-2025: Buenos Aires 827.341 ha, 2,87%; Campana 50,27%, Zárate 24,80%) ya está en la nota del 30/09, sin ángulo nuevo. Uber-PedidosYa: Delivery Hero informa solo el segmento Américas, sin dato de la Argentina. Camuzzi: el visor de la CNV devuelve solo el formulario. Gran Rosario 11,5%: publicado el 24/09 (pobreza por aglomerado). Cemento: cámara privada (AFCP), sin segunda fuente oficial. Empresas cerradas: cubierto el 27/09 con la serie de la SRT. Deuda de las familias: el IMM de septiembre no estaba publicado (informe-monetario-mensual-2026-09.pdf daba 404 a las 15) y lo demás son encuestas privadas. ANDIS: sin documento público, frenada el 27/09. PASO: costo cubierto el 04/10. FMI: proyecciones, cubierto el 06/10. ISAC: sale a la misma hora, queda para otra corrida. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-07",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "ya cubiertas, sin documento con cifra ancla o datos no publicados, frente a la candidata elegida"
     }
   ]
 }
