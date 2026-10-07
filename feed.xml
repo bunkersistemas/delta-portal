@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 04:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 06:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>INVAP facturó $440.085 millones en su último ejercicio, 6,4% más que el anterior, pero los satélites vendieron 46% menos y la ganancia cayó por cuarto año seguido</title>
+      <link>https://coninteres.com/articulos/2026-10-07-invap-facturacion-satelites-nuclear-balance.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-07-invap-facturacion-satelites-nuclear-balance.html</guid>
+      <pubDate>Wed, 07 Oct 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Según sus estados financieros al 30 de junio de 2026, presentados ante la CNV, INVAP facturó $440.085 millones en su último ejercicio, 6,4% más que el anterior descontada la inflación. Pero el negocio espacial, el del satélite SABIA-Mar que se lanzaría en 2027, vendió 46,4% menos, y la ganancia neta, $6.490 millones, cayó por cuarto año seguido. Lo nuclear ya es 72 de cada 100 pesos que factura.</description>
+      <ci:numero>$440.085 M</ci:numero>
+      <ci:numeroEtiqueta>facturación consolidada de INVAP entre julio de 2025 y junio de 2026, en pesos de junio de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-invap-facturacion-satelites-nuclear-balance.png" length="83794" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-invap-facturacion-satelites-nuclear-balance.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los autos subieron 4,8% entre enero y agosto y la inflación 21,4%: comparados con el resto de los precios, están en su nivel más bajo desde mayo de 2020</title>
       <link>https://coninteres.com/articulos/2026-10-07-autos-precio-inflacion-2026.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>gastó el Estado nacional en vacunas del calendario en 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-gasto-vacunas-2025-minimo.png" length="73941" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-gasto-vacunas-2025-minimo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina usó US$2.500 millones de los US$20.000 millones del swap con EE.UU. y pagó US$17,7 millones de intereses: lo devolvió en diciembre y hasta agosto no volvió a tocarlo</title>
-      <link>https://coninteres.com/articulos/2026-10-04-swap-tesoro-eeuu-cuanto-pago-argentina.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-04-swap-tesoro-eeuu-cuanto-pago-argentina.html</guid>
-      <pubDate>Sun, 04 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Es lo que muestran los papeles de las dos partes. Según el Fondo de Estabilización Cambiaria del Tesoro de EE.UU., el BCRA cambió pesos por US$2.500 millones en octubre de 2025 y los devolvió completos en diciembre. El balance auditado del Banco Central agrega que pagó US$17,7 millones de intereses, el 0,71% de lo que usó. Al 31 de agosto de 2026, último estado publicado, el acuerdo seguía sin ningún uso.</description>
-      <ci:numero>US$2.500 M</ci:numero>
-      <ci:numeroEtiqueta>lo que el BCRA usó del acuerdo de estabilización cambiaria de US$20.000 millones con el Tesoro de EE.UU. (swap de octubre de 2025, devuelto en diciembre): ESF del Tesoro, nota 9 (nov-25, dic-25, ago-26) y BCRA, Estados Contables 2025, nota 2.2; 12,5% de la línea; intereses pagados US$17.743.000 según el BCRA (0,71%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-04-swap-tesoro-eeuu-cuanto-pago-argentina.png" length="94230" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-04-swap-tesoro-eeuu-cuanto-pago-argentina.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

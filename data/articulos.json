@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-07T04:44:09-03:00",
+    "actualizado": "2026-10-07T06:46:55-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-07-invap-facturacion-satelites-nuclear-balance",
+      "titulo": "INVAP facturó $440.085 millones en su último ejercicio, 6,4% más que el anterior, pero los satélites vendieron 46% menos y la ganancia cayó por cuarto año seguido",
+      "bajada": "Según sus estados financieros al 30 de junio de 2026, presentados ante la CNV, INVAP facturó $440.085 millones en su último ejercicio, 6,4% más que el anterior descontada la inflación. Pero el negocio espacial, el del satélite SABIA-Mar que se lanzaría en 2027, vendió 46,4% menos, y la ganancia neta, $6.490 millones, cayó por cuarto año seguido. Lo nuclear ya es 72 de cada 100 pesos que factura.",
+      "titulo_busqueda": "¿Cuánto factura INVAP? Lo que vendió en reactores, satélites y radares",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$440.085 M",
+      "numero_label": "facturación consolidada de INVAP entre julio de 2025 y junio de 2026, en pesos de junio de 2026",
+      "fecha": "2026-10-07",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-07-invap-facturacion-satelites-nuclear-balance.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 8 min"
+    },
     {
       "id": "2026-10-07-autos-precio-inflacion-2026",
       "titulo": "Los autos subieron 4,8% entre enero y agosto y la inflación 21,4%: comparados con el resto de los precios, están en su nivel más bajo desde mayo de 2020",

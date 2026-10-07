@@ -3139,6 +3139,13 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento legible, ya cubiertas o proyecciones sin segunda fuente, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto factura INVAP (El Cronista 06-07/10/2026, 'Cómo es el nuevo satélite que INVAP prepara para lanzar en 2027'; hecho relevante de INVAP ante la CNV del 06/10/2026) / estados financieros consolidados al 30/06/2026 (CNV 08/09/2026): ventas $440.085 M (+6,4% real contra $413.451 M), área espacial $27.072 M (−46,4%, mínimo de cinco ejercicios), nuclear $315.122 M (71,6% de las ventas, 37,0% en 2022), ganancia neta $6.490 M (−24,4%, cuarta baja seguida), cartera US$588 M (US$693 M en jun-25)",
+      "angulo": "Corrida programada del 07/10/2026 06:30, primera candidata probada (APTA). Cupo EMPRESAS vigente (hoy no había nota de la sección): candidata con documento primario de la propia empresa, el balance anual publicado en invap.com.ar y registrado en la CNV (estados contables consolidados al 30/06/2026, 08/09/2026), que las corridas anteriores no habían encontrado porque el visor de la CNV no devuelve el documento. Pregunta de plata: ¿cuánto factura INVAP? Ángulo propio: el año del SABIA-Mar es el peor de cinco para su negocio espacial y la empresa depende cada vez más del reactor Pallas (Países Bajos). Camino: documentos de la empresa + recálculo (las áreas de la reseña suman el total al peso en los cinco ejercicios; estado de resultados rehecho al peso). Superlativos con valor previo: ventas más altas de cinco ejercicios (jun-24 $439.283 M, +0,2%, dicho así en la nota); espacial mínimo (mínimo anterior jun-25 $50.490 M); ganancia 19.953 > 15.289 > 12.350 > 8.580 > 6.490. NO afirmado: costo del SABIA-Mar, parte de las ventas que paga el Estado, contenido del HR del 06/10. Otras candidatas de la corrida no probadas: Central Puerto e YPF (recompras ya leídas y descartadas hoy), TRANSENER, ICBC y A3 (sin cifra ancla), retiros voluntarios en la APN (decreto no publicado), costo del SABIA-Mar (sin documento con monto), hospedaje en Mar del Plata para el 12/10 (precios privados), deuda de las familias con el IMM de septiembre (todavía no publicado a las 06:30), ISAC e IPI manufacturero (salen 16:00), empresas cerradas y empleo formal (cubierto el 27/09), financiamiento universitario (costo proyectado). Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-07",
+      "estado": "publicada",
+      "articulo_id": "2026-10-07-invap-facturacion-satelites-nuclear-balance"
     }
   ]
 }
