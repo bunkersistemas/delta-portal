@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-07T08:49:05-03:00",
+    "actualizado": "2026-10-07T10:40:13-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-07-tope-devolucion-iva-servicios-publicos-subsidios",
+      "titulo": "El Gobierno fijó en $27.200 millones lo máximo que devolverá de IVA a las empresas de servicios públicos con subsidios: descontada la inflación, es el 6,1% del tope de 2019",
+      "bajada": "El Ministerio de Economía fijó en $27.200 millones el tope anual para devolverles saldos de IVA a las empresas de servicios públicos cuyas tarifas bajan por subsidios. Descontada la inflación, es el 6,1% del primer tope, fijado en 2019, y 21,5% menos que el del año pasado. Nueve de cada diez pesos van a energía.",
+      "titulo_busqueda": "¿Cuánto IVA les devuelve el Estado a las empresas de servicios públicos con subsidios?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$27.200 M",
+      "numero_label": "tope anual para devolver saldos de IVA a empresas de servicios públicos con tarifas subsidiadas, créditos de 2025 (Res. MEcon 1759/2026, BO 07/10/2026); 6,1% del tope de 2019 en términos reales",
+      "fecha": "2026-10-07",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-07-tope-devolucion-iva-servicios-publicos-subsidios.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-07-inflacion-argentina-turquia-ocde",
       "titulo": "La Argentina tuvo en agosto más inflación que Turquía y que cualquier país de la OCDE: 33,5% contra 31,5%",
