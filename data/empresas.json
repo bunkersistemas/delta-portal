@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-07T16:30",
+  "generado": "2026-10-07T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3578161",
+      "fuente": "CNV",
+      "fecha": "2026-10-07T17:19",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (07 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/BC5B93D3-E2DB-40AE-8001-1BEFF66478FF"
+    },
     {
       "id": "cnv-3577998",
       "fuente": "CNV",
@@ -553,6 +562,7 @@
     "sec-0001292814-26-004834": "2026-10-02",
     "sec-0001292814-26-004854": "2026-10-05",
     "sec-0001292814-26-004860": "2026-10-07",
+    "sec-0001292814-26-004862": "2026-10-07",
     "sec-0001554855-26-001964": "2026-09-08",
     "sec-0001554855-26-001968": "2026-09-08",
     "sec-0001554855-26-001992": "2026-09-10",
