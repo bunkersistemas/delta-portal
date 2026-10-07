@@ -3198,6 +3198,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "ya cubiertas, sin documento con cifra ancla o datos no publicados, frente a la candidata elegida"
+    },
+    {
+      "tema": "cómo le fue a la construcción en agosto de 2026 / ISAC INDEC (07/10/2026, calendario oficial; informe isac_10_2674E79F6A29.pdf y planilla sh_isac_2026.xls; infobae, ámbito y Cronista 07/10: 'la construcción rebotó en agosto')",
+      "angulo": "ancla −4,4% interanual (recalculado −4,36%; contraste Índice Construya −5,3% ia y −1,2% acumulado). Ángulo propio: enero-agosto 2026 queda 24,4% debajo de 2023 (promedio 141,96 vs 187,83); tendencia-ciclo 142,43, cuarta baja seguida y nivel más bajo desde nov-24 (141,35); recuperó 19,2% de lo perdido entre may-23 (194,05) y may-24 (130,15); 12 de 13 insumos debajo de 2023 en ene-ago (solo pinturas +6,4%); puestos registrados jul-26 375.158 vs jul-23 463.921 (−19,1%)",
+      "fecha": "2026-10-07",
+      "estado": "publicada",
+      "articulo_id": "2026-10-07-construccion-agosto-debajo-2023-insumos"
+    },
+    {
+      "tema": "descartes de la corrida programada del 07/10/2026 16:30: multas del proyecto de reforma del Código Contravencional porteño (Jorge Macri, hasta $7 M por alcoholemia y $58,6 M por actividades lucrativas no autorizadas; Cronista, iProfesional 07/10), recaudación por apuestas online +40% real (ámbito), costo de una mudanza (iProfesional), sueldos de camioneros en octubre (iProfesional), riesgo país cerca de 600 (infobae, La Nación, ámbito, iProfesional), deuda y atrasos de las familias (infobae, La Nación, ámbito), empresas CNV/SEC (Camuzzi Gas del Sur y Pampeana préstamos del Banco Macro HR 07/10, Central Puerto recompra HR 05-06/10, YPF recompra de ON HR 05/10, INVAP HR 06/10), venta de Nissan Argentina (infobae)",
+      "angulo": "",
+      "fecha": "2026-10-07",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "multas porteñas: el proyecto se envió hoy y su texto no está publicado en la Legislatura, la cifra sale solo de la prensa; apuestas online y mudanza: sin serie oficial a mano; camioneros, riesgo país, deuda de familias y empresas CNV: ya descartadas hoy o sin ángulo nuevo; cupo de empresas no aplica (ya se publicaron POSCO e INVAP hoy). Se eligió el ISAC del día con ángulo propio (contra 2023, insumos y empleo)"
     }
   ]
 }

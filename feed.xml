@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 16:14:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 07 Oct 2026 16:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La construcción hizo en agosto 4,4% menos que un año antes y en ocho meses quedó 24,4% debajo de 2023: de 13 materiales, solo la pintura se consume más que entonces</title>
+      <link>https://coninteres.com/articulos/2026-10-07-construccion-agosto-debajo-2023-insumos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-07-construccion-agosto-debajo-2023-insumos.html</guid>
+      <pubDate>Wed, 07 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El INDEC informó que la actividad de la construcción cayó 4,4% interanual en agosto. Contra julio subió apenas 0,4%, después de una baja de 4,4%, y la tendencia-ciclo bajó por cuarto mes seguido hasta el nivel más bajo desde noviembre de 2024. Entre enero y agosto, la actividad quedó 24,4% debajo del mismo tramo de 2023, y de los 13 materiales que mide el INDEC, solo la pintura se consume más que entonces.</description>
+      <ci:numero>−4,4%</ci:numero>
+      <ci:numeroEtiqueta>variación interanual del ISAC de agosto de 2026 (INDEC, informe técnico del 07/10/2026); enero-agosto quedó 24,4% debajo de 2023</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-construccion-agosto-debajo-2023-insumos.png" length="77450" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-construccion-agosto-debajo-2023-insumos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La industria produjo en agosto 3,2% menos que un año antes y su tendencia ya devolvió tres cuartas partes de lo que había recuperado desde el pozo de 2024</title>
       <link>https://coninteres.com/articulos/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>capacidad anual de carbonato de litio de Cauchari-Olaroz con la segunda etapa (hoy 40.000 t): estudio de alcance de Lithium Argentina (30/09/2026) y Res. MEcon 825/2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-cauchari-olaroz-ampliacion-litio-85000-toneladas.png" length="87207" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-cauchari-olaroz-ampliacion-litio-85000-toneladas.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La PUAM paga $418.598,81 en octubre con el bono y la cobran cada vez más: 218.844 personas en junio, 6,6% más que en enero, y casi nueve de cada diez son hombres</title>
-      <link>https://coninteres.com/articulos/2026-10-05-puam-octubre-2026-cuanto-cobra-titulares.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-puam-octubre-2026-cuanto-cobra-titulares.html</guid>
-      <pubDate>Mon, 05 Oct 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La Pensión Universal para el Adulto Mayor es de $348.598,81 en octubre, más un bono de $70.000. Después de dos años de caída, la cantidad de titulares volvió a subir en 2026: la moratoria se cerró en marzo de 2025 y, por primera vez desde al menos 2010, la mayoría de las jubilaciones nuevas son sin moratoria.</description>
-      <ci:numero>$418.598,81</ci:numero>
-      <ci:numeroEtiqueta>PUAM de octubre de 2026 con el bono: $348.598,81 (Res. ANSES 284/2026, 80% de la mínima) + $70.000 (Decreto 1108/2026)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-puam-octubre-2026-cuanto-cobra-titulares.png" length="88405" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-puam-octubre-2026-cuanto-cobra-titulares.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

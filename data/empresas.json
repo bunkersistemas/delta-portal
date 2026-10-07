@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-07T14:30",
+  "generado": "2026-10-07T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3577998",
+      "fuente": "CNV",
+      "fecha": "2026-10-07T15:06",
+      "entidad": "INVAP S.A.U",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - INVAP SAU - SÍNTESIS AGOYE 20261006",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7CF75024-532C-4F08-B8E8-78BFCC3FFBF4"
+    },
     {
       "id": "cnv-3577785",
       "fuente": "CNV",
