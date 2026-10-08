@@ -3305,6 +3305,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "empresas sin documento con cifra ancla nueva; resto sin cifra oficial, cubierto o no publicado todavía, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto cuesta AySA / ofertas económicas por el 90% de AySA abiertas el 08/10/2026 (US$340,2 M del consorcio Rowing-Arcos-Transclor-PHX contra US$285 M de Roggio ROAS; infobae, La Nación, Cronista, ámbito 08/10/2026)",
+      "angulo": "Corrida programada del 08/10/2026 10:30, primera candidata probada (pregunta de plata, 4 portadas). FRENADA: los montos solo están en medios (La Nación, Cronista, infobae), que no citan acta ni documento; no hay comunicado del Ministerio de Economía en argentina.gob.ar ni acta de CONTRAT.AR accesible al 08/10 10:30. Retomable cuando se publique el acta de apertura o la resolución de adjudicación.",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "cifra ancla sin documento oficial: los medios no son fuentes independientes entre sí ni citan el acta"
+    },
+    {
+      "tema": "cuánto cuesta el peaje a Mar del Plata en el fin de semana largo con la suba de octubre (ámbito 08/10/2026 'Los peajes de las rutas a la Costa Atlántica aumentan 8,29% desde este viernes'; infobrisas, elonce) / Res. MIySP PBA 760/2026 (RESO-2026-760-GDEBA-MIYSPGP, firmada 02/10, BO 30.338 del 08/10/2026, rige desde el 09/10), anexo IF-2026-29456386: Samborombón, La Huella y Maipú cat. 1 $8.600 manual / $8.507,95 automático (bonificada $6.900 / $6.806,35); ida y vuelta 4 pasadas $34.400 (TelePASE $34.031,80; bonificada $27.600); antes $31.600",
+      "angulo": "ÁNGULO NUEVO respecto de la nota del 04/10 (cuadro de julio, $31.600, 'subió menos que los precios'): tarifa nueva para el mismo fin de semana largo y, con ella, el peaje empata a la inflación del último año (TelePASE $6.498,12 -> $8.507,95 = +30,9%; efectivo $6.500 -> $8.600 = +32,3%; IPC sep-25/ago-26 +30,8%). Descomposición del CVT de la nota GAF/07/2026: IS feb-may 8.096,38 -> 8.787,56 (+8,54%, x0,55 = 4,70 pts), IPIM mar-jun 14.780,13 -> 16.104,20 (+8,96%, 2,24), IPC mar-jun 11.077,10 -> 11.826,41 (+6,76%, 1,35) = 8,29%. Verificación: documento oficial + recálculo con series INDEC de datos.gob.ar (148.3_INIVELNAL_DICI_M_26, 448.1_NIVEL_GENERAL_0_0_13_46, 149.1_TL_REGIADO_OCTU_0_16): CVT 8,288%; $7.856,80 x 1,08288 = $8.507,98 (anexo 8.507,95); contraste ámbito (mismos valores, reproduce el documento). La página de AUBASA sigue con el cuadro de julio al 08/10. Redondeo manual $92,05 por pasada. Sin superlativos. Corrida programada del 08/10/2026 10:30, segunda candidata probada.",
+      "fecha": "2026-10-08",
+      "estado": "publicada",
+      "articulo_id": "2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre"
+    },
+    {
+      "tema": "descartes de la corrida programada del 08/10/2026 10:30: empresas CNV/SEC (Camuzzi Gas del Sur y Pampeana préstamos del Banco Macro HR 07/10; Central Puerto adquisición de acciones propias HR 05-07/10; YPF recompra de ON HR 05/10; INVAP HR 06-07/10), BCRA usa datos de ARCA para calificar crédito (infobae, La Nación), Stellantis podría cerrar sus dos plantas (infobae, La Nación), riesgo país cerca de 600 (infobae, La Nación, ámbito, Página12), prórroga de Ganancias e Inocencia Fiscal II (infobae, ámbito, iProfesional, Cronista), servicio doméstico octubre (La Nación, iProfesional), RIGI gasto tributario (ámbito), Plus Ultra reduce vuelos a Madrid (La Nación), muerte de Piero (ámbito, argentina.gob.ar), ISSP e IPI minero (INDEC hoy 16:00)",
+      "angulo": "Elegida la pregunta de plata del peaje a la Costa con la Res. 760/2026 publicada hoy (ver entrada en_cola). AySA frenada aparte. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "empresas: cupo aplica (hoy sin nota de EMPRESAS) pero la vista pública de la CNV del HR de Camuzzi no muestra monto, tasa ni plazo, y Central Puerto, YPF e INVAP son recompras de rutina o ya cubiertas (INVAP 07/10): sin documento con cifra ancla nueva; resto cubierto (servicio doméstico 25/09), proyecciones sin dato oficial o no publicado todavía (INDEC 16:00)"
     }
   ]
 }

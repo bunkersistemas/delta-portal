@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 08:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 10:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Ir y volver a Mar del Plata por la ruta 2 cuesta $34.400 de peaje desde el viernes: la tarifa sube 8,9% justo antes del fin de semana largo</title>
+      <link>https://coninteres.com/articulos/2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre.html</guid>
+      <pubDate>Thu, 08 Oct 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Desde el viernes 9 de octubre, las cabinas de Samborombón y Maipú le cobran $8.600 a un auto que paga en efectivo y $8.507,95 con TelePASE. Son $2.800 más que la semana pasada por una ida y vuelta. Con esta suba, el peaje empató a la inflación del último año: la fórmula que lo actualiza esta vez cargó la suba de los salarios.</description>
+      <ci:numero>$34.400</ci:numero>
+      <ci:numeroEtiqueta>paga de peaje un auto que va y vuelve de Mar del Plata por la ruta 2 en efectivo desde el 09/10/2026: cuatro pasadas por Samborombón y Maipú a $8.600 (Res. 760/2026 del Ministerio de Infraestructura bonaerense, BO 08/10/2026); con TelePASE, $34.031,80</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre.png" length="88145" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un dos ambientes usado en la Ciudad cuesta 74,3 sueldos promedio: en 2019 hacían falta 128,5</title>
       <link>https://coninteres.com/articulos/2026-10-08-departamento-caba-cuantos-sueldos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>exportaciones de petróleo crudo (NCM 27090010) enero-agosto de 2026, +54,7% contra US$4.284 M en 2025 (INDEC, ICA agosto 2026, cuadro 8)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-exportaciones-petroleo-crudo-oleoducto-vmos.png" length="89225" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-exportaciones-petroleo-crudo-oleoducto-vmos.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Mercado Libre factura tres veces más en Brasil que en la Argentina, pero la Argentina le dejó más: US$623 millones de contribución directa contra US$550 millones en el segundo trimestre</title>
-      <link>https://coninteres.com/articulos/2026-10-05-mercado-libre-argentina-brasil-contribucion-directa.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-mercado-libre-argentina-brasil-contribucion-directa.html</guid>
-      <pubDate>Mon, 05 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Según el balance del segundo trimestre que presentó ante la SEC, Mercado Libre facturó US$5.530 millones en Brasil y US$1.839 millones en la Argentina. Pero después de restar los costos de cada país, la Argentina le dejó US$623 millones y Brasil, US$550 millones. Pasa desde fines de 2024: siete trimestres seguidos.</description>
-      <ci:numero>US$623 M</ci:numero>
-      <ci:numeroEtiqueta>contribución directa de Mercado Libre en la Argentina en el 2T 2026: ingresos US$1.839 M menos costos del segmento US$1.216 M, contra US$550 M en Brasil (10-Q al 30/06/2026, nota 6)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-mercado-libre-argentina-brasil-contribucion-directa.png" length="90383" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-mercado-libre-argentina-brasil-contribucion-directa.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
