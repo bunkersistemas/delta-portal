@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-08T10:54:38-03:00",
+    "actualizado": "2026-10-08T12:42:11-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-08-inflacion-caba-septiembre-regulados",
+      "titulo": "Los precios regulados subieron 31,1% en nueve meses en la Ciudad y el resto, 22,3%: en 2025 había sido al revés",
+      "bajada": "La inflación de la Ciudad de Buenos Aires fue 1,8% en septiembre. Detrás del promedio hay un cambio de motor: entre enero y septiembre de 2026 los precios regulados —colegios, prepagas, tarifas de agua, luz y gas, subte y colectivo— subieron 31,1%, y el resto de la canasta, 22,3%. En los mismos meses de 2025 había pasado lo contrario: 21,0% contra 24,1%.",
+      "titulo_busqueda": "Inflación en la Ciudad en septiembre de 2026: ¿cuánto subieron las tarifas, las prepagas y los colegios?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "31,1%",
+      "numero_label": "suba de los precios regulados del IPCBA entre diciembre de 2025 y septiembre de 2026 (IDECBA, informe de resultados 2064, cuadro C.4; índice 3.210,34 / 2.449,34); resto IPCBA 22,3%",
+      "fecha": "2026-10-08",
+      "hora": "12:30",
+      "archivo": "articulos/2026-10-08-inflacion-caba-septiembre-regulados.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre",
       "titulo": "Ir y volver a Mar del Plata por la ruta 2 cuesta $34.400 de peaje desde el viernes: la tarifa sube 8,9% justo antes del fin de semana largo",

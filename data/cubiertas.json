@@ -3328,6 +3328,29 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "empresas: cupo aplica (hoy sin nota de EMPRESAS) pero la vista pública de la CNV del HR de Camuzzi no muestra monto, tasa ni plazo, y Central Puerto, YPF e INVAP son recompras de rutina o ya cubiertas (INVAP 07/10): sin documento con cifra ancla nueva; resto cubierto (servicio doméstico 25/09), proyecciones sin dato oficial o no publicado todavía (INDEC 16:00)"
+    },
+    {
+      "tema": "inflación de la Ciudad de septiembre de 2026 / cuánto subieron tarifas, prepagas y colegios: IPCBA septiembre (IDECBA, informe de resultados 2064, publicado 08/10/2026; infobae, La Nación, ámbito, iProfesional, Cronista, Página12 08/10/2026): 1,8% mensual, 23,7% acumulado, 32,9% i.a.; regulados 2,1% / 31,1% / 41,6%, resto IPCBA 1,7% / 22,3% / 31,6%",
+      "angulo": "ÁNGULO PROPIO: el cambio de motor de la inflación porteña. Ene-sep 2025 regulados 21,0% contra resto 24,1% (cálculo con la serie IPCBA_base_2021100-Evol_gral_estac_reg_resto.xlsx: dic-24 1.873,35 / 1.605,10; sep-25 2.267,31 / 1.991,39); ene-sep 2026 31,1% contra 22,3% (sep-26 3.210,34 / 2.621,51; dic-25 2.449,34 / 2.144,36). Brecha interanual 10,0 p.p., la mayor desde marzo de 2025 (31,1 p.p.: 91,5 contra 60,4); entre abr-25 y ago-26 el máximo fue 9,6 (jul-26). Verificación: estadística oficial de un solo organismo (NEWSROOM §3): documento (cuadro C.4) + recálculo desde la planilla + contraste INDEC serie_ipc_divisiones.csv, GBA: regulados ene-ago 2025 19,7% y 2026 28,8%, núcleo 20,8% y 20,0%; i.a. ago-26 43,1% contra 32,5% (IPCBA ene-ago 2026: 28,4% y 20,2%). Distinto de la nota del 01/09 (doce divisiones del IPC nacional desde dic-2023) y de la del 23/09 (IPC de agosto). Corrida programada del 08/10/2026 12:30, segunda candidata probada (AySA frenada otra vez).",
+      "fecha": "2026-10-08",
+      "estado": "publicada",
+      "articulo_id": "2026-10-08-inflacion-caba-septiembre-regulados"
+    },
+    {
+      "tema": "cuánto se pagó por AySA / adjudicación del 90% de AySA al consorcio Rowing-Arcos-Transclor-PHX por US$340 M (infobae, La Nación, ámbito, Cronista, Página12 08/10/2026)",
+      "angulo": "Corrida programada del 08/10/2026 12:30, primera candidata probada (pregunta de plata, 5 portadas; también cupo EMPRESAS). FRENADA otra vez: al 08/10 12:30 no hay comunicado del Ministerio de Economía (la última noticia oficial sobre AySA es del 15/09) ni acta de apertura o resolución de adjudicación accesible; el monto sigue solo en medios. Retomable con el acta de CONTRAT.AR o la resolución de adjudicación.",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "cifra ancla sin documento oficial; los medios no son fuentes independientes"
+    },
+    {
+      "tema": "descartes de la corrida programada del 08/10/2026 12:30: empresas CNV/SEC (Camuzzi Gas del Sur y Pampeana préstamos del Banco Macro HR 07/10; Central Puerto adquisición de acciones propias HR 05-07/10; YPF recompra de ON HR 05/10; INVAP HR 06-07/10; A3, ICBC, TRANSENER), Electrofueguina-Frávega despidos y costo del régimen de Tierra del Fuego (iProfesional), pymes perdieron 181.000 puestos desde nov-23 (infobae), mapa de deudores por provincia y edad (iProfesional), autos a tasa 0% (infobae), petróleo arriba de US$105 (infobae, Página12), prórroga de Ganancias e Inocencia Fiscal II (infobae, ámbito, iProfesional, Cronista), Stellantis (infobae), BCRA y datos de ARCA para el crédito (infobae, La Nación), ranking de empresas que más enojan (La Nación), alquileres CABA septiembre (infobae)",
+      "angulo": "NO TOMADAS en la corrida programada del 08/10/2026 12:30; ganó la inflación porteña de septiembre con el ángulo regulados contra resto (segunda candidata, APTA). EMPRESAS (rige el cupo: hoy no hay nota de la sección): AySA frenada aparte por falta de documento oficial; Camuzzi, el visor de la CNV no muestra monto, tasa ni plazo; Central Puerto, YPF y A3, recompras de rutina sin cifra ancla nueva; INVAP publicada el 07/10; ICBC y TRANSENER, cambios de directorio. Tierra del Fuego: el costo fiscal es una estimación de gasto tributario, sin segunda fuente que coincida. Pymes y empleo: SRT publicada el 27/09. Deudores (IMM descartado el 07/10). Autos a tasa 0%: condiciones comerciales. Petróleo: sin cifra local nueva. Ganancias: fechas sin cifra ancla. Stellantis y BCRA-ARCA: sin documento con cifra. Ranking de enojo: estudio privado sin serie. Alquileres y sueldos para un departamento: publicada hoy 09:30. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "empresas sin documento con cifra ancla nueva (AySA sin acta oficial); resto cubierto, estimaciones o sin dato oficial, frente a la candidata elegida"
     }
   ]
 }
