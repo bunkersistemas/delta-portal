@@ -3227,6 +3227,22 @@
       "fecha": "2026-10-07",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "cuánto recauda el Estado con las apuestas online (ámbito 07/10/2026, 'Las apuestas online aceleran su aporte a la caja fiscal con un salto real superior al 40%') / ARCA, comparativo de septiembre 2026, renglón 'Apuestas on line': ene-sep 2026 $123.855,8 M vs $65.625,4 M (+88,73%), sep-26 $17.254,5 M vs $8.828,6 M (+95,44%); toda la recaudación ene-sep +29,44% ($191.161.069 M); participación 0,065% (0,044% en 2025); máximo mensual jul-26 $17.797,9 M (serie propia desde ene-2025; la planilla de 2024 no lo separa); real ene-ago +40,8% con IPC INDEC (jul +50,3%, ago +45,8%, jul/jun +27,6%); premios de juegos de azar +78,1%, apuestas en efectivo +44,0% (online 2,17 veces efectivo); Ley 27.346 art. 5: 5% sobre depósitos netos, 2,5% con inversión genuina, 10% sujeto del exterior, 15% baja tributación",
+      "angulo": "Corrida programada del 08/10/2026 00:30, segunda candidata probada (APTA). Pregunta de plata detrás del dato de ámbito (paywall, sin fuente nombrada): cuánta plata es, y contra qué. Ángulo propio: crece tres veces más rápido que toda la recaudación y aun así es $6,5 de cada $10.000. Camino estadística oficial: (1) comparativo ARCA sep-26; (2) recálculo desde serie2026.xls y serie2025.xls (suma idéntica) y deflactado con IPC nacional INDEC; (3) contraste con Econviews (El Cronista: 41% real ene-ago, 50% jul, 46% ago) y Analytica (Infobae: jul/jun 27,8%, i.a. 50,5%), diferencias de décimas por el deflactor. No se estima el monto apostado (la tasa varía de 2,5% a 15% y ARCA no informa la mezcla) ni se atribuye la suba al Mundial. Primera candidata frenada: La Rioja aporte extraordinario de Ingresos Brutos (Ley 10.907), texto oficial inaccesible y sin cifra oficial de recaudación.",
+      "fecha": "2026-10-08",
+      "estado": "publicada",
+      "articulo_id": "2026-10-08-apuestas-online-recaudacion-arca",
+      "motivo_descarte": ""
+    },
+    {
+      "tema": "descartes de la corrida programada del 08/10/2026 00:30: La Rioja aporte extraordinario del 25% sobre Ingresos Brutos para bases de $2.000 M o más (Ley 10.907, BO provincial 12.393 del 06/10; infobae, Cronista, iProfesional), RIGI gasto tributario US$8.500 M (ámbito), Central Puerto recompra de acciones (6-K SEC 07/10: 120.000 acciones a $2.040,96 en BYMA y 30.000 ADR a US$12,68 en NYSE el 06/10) y Camuzzi préstamos del Banco Macro (HR CNV 07/10), riesgo país en suba (infobae, La Nación, ámbito, Página12), Inocencia Fiscal II reglamentación el viernes (infobae, iProfesional, Cronista), Banco Mundial recorta crecimiento (Página12), acuerdo con EE.UU. contra la sobreproducción china (infobae, Cronista), brecha con el techo de la banda (infobae), vacaciones con la reforma laboral (Cronista), Nissan vende su negocio argentino (infobae), ISSP e IPI minero (INDEC hoy 16:00)",
+      "angulo": "NO TOMADAS en la corrida programada del 08/10/2026 00:30; ganaron las apuestas online (segunda candidata, APTA). La Rioja (primera candidata, FRENADA): el texto de la Ley 10.907 no está en ningún sitio oficial accesible (compras.larioja.gob.ar/pdf/ley_10907.pdf da 404; el dominio del Boletín Oficial provincial no resuelve) y no hay estimación oficial de recaudación: el único número es un ejemplo de un contador en El Cronista; retomable con el texto oficial o una resolución de la DGIP. EMPRESAS (hoy no hay nota de la sección, el cupo regía): Central Puerto, el 6-K del 07/10 se lee en la SEC pero informa una recompra diaria sin el programa ni acumulado, y el dividendo y la venta de AbraSilver ya se publicaron el 29/09; Camuzzi: el visor de la CNV sigue sin documento legible. RIGI: estimación privada, descartada el 06 y 07/10. Riesgo país, banda cambiaria (24/09), Inocencia Fiscal (27/08): cubiertos sin ángulo nuevo. Banco Mundial: proyección. Acuerdo anti-China, vacaciones, Nissan: sin cifra oficial. ISSP e IPI minero: todavía no publicados a las 00:30. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "La Rioja sin texto oficial accesible ni cifra oficial; empresas sin documento con cifra ancla nueva; resto cubierto, proyecciones o sin dato oficial, frente a la candidata elegida"
     }
   ]
 }

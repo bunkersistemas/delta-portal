@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 07 Oct 2026 18:39:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 00:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las apuestas online le dejaron al fisco $123.856 millones en nueve meses, 89% más que en 2025: crecieron tres veces más rápido que toda la recaudación</title>
+      <link>https://coninteres.com/articulos/2026-10-08-apuestas-online-recaudacion-arca.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-apuestas-online-recaudacion-arca.html</guid>
+      <pubDate>Thu, 08 Oct 2026 00:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre enero y septiembre de 2026 el impuesto a las apuestas online le dejó a ARCA $123.856 millones, 88,7% más que en los mismos meses de 2025, mientras toda la recaudación creció 29,4%. Descontada la inflación, la suba de enero a agosto fue de 40,8%. Aun así, de cada $10.000 que cobra ARCA, $6,5 vienen de este impuesto.</description>
+      <ci:numero>$123.856 M</ci:numero>
+      <ci:numeroEtiqueta>recaudación del impuesto a las apuestas online (Ley 27.346) entre enero y septiembre de 2026, pesos corrientes (ARCA, comparativo de septiembre 2026: renglón «Apuestas on line» $123.855,8 M contra $65.625,4 M en 2025, +88,73%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-apuestas-online-recaudacion-arca.png" length="91790" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-apuestas-online-recaudacion-arca.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Gobierno le puso precio a la ciudadanía argentina: US$350.000 de aporte no reembolsable, aunque el decreto que la habilita fue declarado nulo por la Cámara Electoral y espera a la Corte</title>
       <link>https://coninteres.com/articulos/2026-10-07-ciudadania-por-inversion-cuanto-cuesta.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>brutos cobra en octubre de 2026 un vigilador general de seguridad privada (CCT 507/07) con 25 días trabajados</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-cuanto-cobra-vigilador-seguridad-privada-octubre.png" length="73521" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-cuanto-cobra-vigilador-seguridad-privada-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Una empresa suiza alquila neuronas humanas vivas para computar: la inteligencia artificial chocó contra el enchufe</title>
-      <link>https://coninteres.com/articulos/2026-10-05-ia-choco-contra-el-enchufe.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-ia-choco-contra-el-enchufe.html</guid>
-      <pubDate>Mon, 05 Oct 2026 12:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>IA</category>
-      <description>La tecnología más poderosa jamás construida encontró su límite en el recurso más antiguo de la economía: la energía. Y el intento más radical de superarlo —computar con neuronas humanas vivas— ya se alquila por internet.</description>
-      <ci:numero>20 vatios</ci:numero>
-      <ci:numeroEtiqueta>lo que consume un cerebro humano; los centros de datos del mundo consumirán unos 950 TWh por año hacia 2030 (AIE)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-ia-choco-contra-el-enchufe.png" length="61847" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-ia-choco-contra-el-enchufe.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

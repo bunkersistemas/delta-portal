@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-07",
-  "pregunta": "Los analistas que consulta el Banco Central esperan que la economía crezca 1,5% en 2026, pero también estiman que el PBI cayó 1,0% en el tercer trimestre, después de bajar 0,6% en el segundo. ¿Cómo puede crecer el año si dos trimestres seguidos caen?",
+  "fecha": "2026-10-08",
+  "pregunta": "Según el INDEC, en la serie desestacionalizada la industria cayó 5,1% en julio contra junio y rebotó 1,9% en agosto contra julio. ¿Cuánto tendría que subir en septiembre para volver al nivel de junio?",
   "opciones": [
-    "Porque el 1,5% compara el promedio de todo 2026 con el de todo 2025, y 2025 terminó alto y el primer trimestre de 2026 fue el más alto de la serie",
-    "No puede: si dos trimestres caen, el año tiene que dar negativo, así que uno de los dos números está mal",
-    "Porque el 1,5% ya descuenta la inflación y la caída trimestral no"
+    "Alrededor de 3,4%",
+    "3,2%: lo que resulta de restar 5,1 menos 1,9",
+    "5,1%: lo mismo que cayó en julio"
   ],
   "correcta": 0,
-  "explicacion": "El crecimiento anual compara el nivel promedio de un año con el del año anterior. Si la economía arrancó 2026 en un nivel alto (el primer trimestre fue el más alto de la serie desestacionalizada del INDEC), el promedio del año puede quedar arriba del de 2025 aunque después vengan trimestres en baja. Por eso el número anual se mueve más despacio que el trimestral. Y los dos están en términos reales, sin inflación: la diferencia no viene de los precios sino de qué se compara con qué. Ojo: el −1,0% del tercer trimestre es un pronóstico; el INDEC lo publica en diciembre.",
-  "nota": "articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html",
+  "explicacion": "Los porcentajes no se restan porque cada uno se calcula sobre una base distinta. Si junio vale 100, julio quedó en 94,9 y agosto, 1,9% arriba de julio, en 96,7. Para volver de 96,7 a 100 hay que subir 3,3 puntos sobre 96,7: un 3,4%. Por la misma razón, después de una caída hace falta una suba porcentual más grande que la caída para recuperar el nivel: para revertir un −5,1% hace falta un +5,4%, no un +5,1%.",
+  "nota": "articulos/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.html",
   "leccion": ""
 }

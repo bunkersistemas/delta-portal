@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-07T18:39:42-03:00",
+    "actualizado": "2026-10-08T00:44:52-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-08-apuestas-online-recaudacion-arca",
+      "titulo": "Las apuestas online le dejaron al fisco $123.856 millones en nueve meses, 89% más que en 2025: crecieron tres veces más rápido que toda la recaudación",
+      "bajada": "Entre enero y septiembre de 2026 el impuesto a las apuestas online le dejó a ARCA $123.856 millones, 88,7% más que en los mismos meses de 2025, mientras toda la recaudación creció 29,4%. Descontada la inflación, la suba de enero a agosto fue de 40,8%. Aun así, de cada $10.000 que cobra ARCA, $6,5 vienen de este impuesto.",
+      "titulo_busqueda": "¿Cuánto recauda el Estado con las apuestas online?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$123.856 M",
+      "numero_label": "recaudación del impuesto a las apuestas online (Ley 27.346) entre enero y septiembre de 2026, pesos corrientes (ARCA, comparativo de septiembre 2026: renglón «Apuestas on line» $123.855,8 M contra $65.625,4 M en 2025, +88,73%)",
+      "fecha": "2026-10-08",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-08-apuestas-online-recaudacion-arca.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-07-ciudadania-por-inversion-cuanto-cuesta",
       "titulo": "El Gobierno le puso precio a la ciudadanía argentina: US$350.000 de aporte no reembolsable, aunque el decreto que la habilita fue declarado nulo por la Cámara Electoral y espera a la Corte",
