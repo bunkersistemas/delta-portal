@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-08T04:43:28-03:00",
+    "actualizado": "2026-10-08T07:03:12-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-08-carne-argentina-europa-cuanto-vende",
+      "titulo": "Europa pagó US$747 millones por la carne vacuna argentina en 2025: se llevó 9 de cada 100 kilos y puso 20 de cada 100 dólares",
+      "bajada": "Productores de Irlanda piden que Bruselas le cierre la puerta a la carne argentina como ya se la cerró a la de Brasil. Según el INDEC, la Unión Europea es, entre los grandes compradores, el que mejor paga: US$12.261 por tonelada, 3,2 veces lo que pagó China. A Irlanda, la Argentina no le vendió ni un kilo.",
+      "titulo_busqueda": "¿Cuánta carne le vende la Argentina a Europa?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$747 M",
+      "numero_label": "pagó la Unión Europea por la carne vacuna argentina en 2025 (FOB, INDEC)",
+      "fecha": "2026-10-08",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-08-carne-argentina-europa-cuanto-vende.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-08-veteranos-malvinas-pension-cuanto-cobran",
       "titulo": "Un veterano de Malvinas cobra $1.307.245 de pensión en octubre: tres jubilaciones mínimas, el monto que fijó un decreto de 2004",

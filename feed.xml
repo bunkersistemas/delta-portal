@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 04:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 07:03:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Europa pagó US$747 millones por la carne vacuna argentina en 2025: se llevó 9 de cada 100 kilos y puso 20 de cada 100 dólares</title>
+      <link>https://coninteres.com/articulos/2026-10-08-carne-argentina-europa-cuanto-vende.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-carne-argentina-europa-cuanto-vende.html</guid>
+      <pubDate>Thu, 08 Oct 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Productores de Irlanda piden que Bruselas le cierre la puerta a la carne argentina como ya se la cerró a la de Brasil. Según el INDEC, la Unión Europea es, entre los grandes compradores, el que mejor paga: US$12.261 por tonelada, 3,2 veces lo que pagó China. A Irlanda, la Argentina no le vendió ni un kilo.</description>
+      <ci:numero>US$747 M</ci:numero>
+      <ci:numeroEtiqueta>pagó la Unión Europea por la carne vacuna argentina en 2025 (FOB, INDEC)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-carne-argentina-europa-cuanto-vende.png" length="68221" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-carne-argentina-europa-cuanto-vende.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un veterano de Malvinas cobra $1.307.245 de pensión en octubre: tres jubilaciones mínimas, el monto que fijó un decreto de 2004</title>
       <link>https://coninteres.com/articulos/2026-10-08-veteranos-malvinas-pension-cuanto-cobran.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>sueldo bruto mensual desde el que un empleado soltero tiene retención de Ganancias en jul-dic 2026: ($501.639,28 + $2.407.868,55) / 0,83 = $3.505.431,12 (ARCA, deducciones art. 30 jul-dic 2026; 17% de aportes)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-ganancias-piso-sueldo-empleados-octubre.png" length="88837" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-ganancias-piso-sueldo-empleados-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Flybondi, ahora en concurso preventivo, llevó 1.865 pasajeros de cabotaje en agosto contra 254.533 un año antes: Aerolíneas y JetSMART sumaron 130.553 y el cabotaje igual perdió 116.112</title>
-      <link>https://coninteres.com/articulos/2026-10-05-flybondi-concurso-pasajeros-cabotaje-anac.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-flybondi-concurso-pasajeros-cabotaje-anac.html</guid>
-      <pubDate>Mon, 05 Oct 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>En febrero Flybondi llevaba uno de cada cuatro pasajeros de los vuelos dentro del país. En agosto, según la ANAC, hizo 18 vuelos de cabotaje y llevó 1.865 personas. Aerolíneas Argentinas y JetSMART crecieron, pero no alcanzaron a cubrir el hueco: el cabotaje tuvo 116.112 pasajeros menos que en agosto de 2025.</description>
-      <ci:numero>1.865</ci:numero>
-      <ci:numeroEtiqueta>pasajeros de cabotaje que llevó Flybondi en agosto de 2026, contra 254.533 en agosto de 2025 (ANAC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-flybondi-concurso-pasajeros-cabotaje-anac.png" length="83110" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-flybondi-concurso-pasajeros-cabotaje-anac.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
