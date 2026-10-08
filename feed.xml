@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 00:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 02:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Banco Central compró US$14.709 millones en 2026, pero las reservas subieron US$7.562 millones: 53 de cada 100 dólares salieron por las cuentas del Tesoro</title>
+      <link>https://coninteres.com/articulos/2026-10-08-reservas-bcra-compras-pagos-tesoro.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-reservas-bcra-compras-pagos-tesoro.html</guid>
+      <pubDate>Thu, 08 Oct 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Entre el 2 de enero y el 2 de octubre el Banco Central compró US$14.709 millones, pero las reservas crecieron US$7.562 millones. La diferencia la explica sobre todo el Tesoro: en neto, US$4.686 millones se fueron en operaciones con el FMI, el BID y el Banco Mundial, y US$3.093 millones en otros pagos de sus cuentas en dólares. En agosto y septiembre, lo que salió hacia los organismos superó a lo que compró el BCRA.</description>
+      <ci:numero>US$7.779 M</ci:numero>
+      <ci:numeroEtiqueta>salida neta por las cuentas del Tesoro en el BCRA entre el 02/01 y el 02/10/2026: organismos internacionales −US$4.685,9 M + otras operaciones del sector público −US$3.093,3 M, 52,9% de las compras de divisas (US$14.708,9 M) (BCRA, series.xlsm, hoja RESERVAS)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-reservas-bcra-compras-pagos-tesoro.png" length="93666" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-reservas-bcra-compras-pagos-tesoro.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las apuestas online le dejaron al fisco $123.856 millones en nueve meses, 89% más que en 2025: crecieron tres veces más rápido que toda la recaudación</title>
       <link>https://coninteres.com/articulos/2026-10-08-apuestas-online-recaudacion-arca.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>haber mensual de octubre de 2026 del grado Gendarme de la Gendarmería Nacional (Resolución 844/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-cuanto-cobra-gendarme-octubre.png" length="78486" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-cuanto-cobra-gendarme-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un vigilador de seguridad privada cobra $1.827.200 brutos en octubre: en el año a agosto su sueldo perdió 6,6% contra la inflación</title>
-      <link>https://coninteres.com/articulos/2026-10-05-cuanto-cobra-vigilador-seguridad-privada-octubre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-cuanto-cobra-vigilador-seguridad-privada-octubre.html</guid>
-      <pubDate>Mon, 05 Oct 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El acuerdo de la UPSRA con la cámara de empresas de seguridad, homologado el 17 de julio, fija para octubre $1.827.200 brutos para un vigilador general que trabaja 25 días. Casi un tercio no es remunerativo. Entre agosto de 2025 y agosto de 2026 ese total subió 24,8% y los precios, 33,5%: compra 6,6% menos.</description>
-      <ci:numero>$1.827.200</ci:numero>
-      <ci:numeroEtiqueta>brutos cobra en octubre de 2026 un vigilador general de seguridad privada (CCT 507/07) con 25 días trabajados</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-cuanto-cobra-vigilador-seguridad-privada-octubre.png" length="73521" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-cuanto-cobra-vigilador-seguridad-privada-octubre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

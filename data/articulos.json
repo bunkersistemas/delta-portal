@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-08T00:44:52-03:00",
+    "actualizado": "2026-10-08T02:43:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-08-reservas-bcra-compras-pagos-tesoro",
+      "titulo": "El Banco Central compró US$14.709 millones en 2026, pero las reservas subieron US$7.562 millones: 53 de cada 100 dólares salieron por las cuentas del Tesoro",
+      "bajada": "Entre el 2 de enero y el 2 de octubre el Banco Central compró US$14.709 millones, pero las reservas crecieron US$7.562 millones. La diferencia la explica sobre todo el Tesoro: en neto, US$4.686 millones se fueron en operaciones con el FMI, el BID y el Banco Mundial, y US$3.093 millones en otros pagos de sus cuentas en dólares. En agosto y septiembre, lo que salió hacia los organismos superó a lo que compró el BCRA.",
+      "titulo_busqueda": "¿Por qué no suben las reservas si el Banco Central compra dólares?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$7.779 M",
+      "numero_label": "salida neta por las cuentas del Tesoro en el BCRA entre el 02/01 y el 02/10/2026: organismos internacionales −US$4.685,9 M + otras operaciones del sector público −US$3.093,3 M, 52,9% de las compras de divisas (US$14.708,9 M) (BCRA, series.xlsm, hoja RESERVAS)",
+      "fecha": "2026-10-08",
+      "hora": "02:30",
+      "archivo": "articulos/2026-10-08-reservas-bcra-compras-pagos-tesoro.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-08-apuestas-online-recaudacion-arca",
       "titulo": "Las apuestas online le dejaron al fisco $123.856 millones en nueve meses, 89% más que en 2025: crecieron tres veces más rápido que toda la recaudación",
