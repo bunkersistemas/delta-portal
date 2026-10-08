@@ -3373,6 +3373,21 @@
       "fecha": "2026-10-08",
       "estado": "publicada",
       "articulo_id": "2026-10-08-clase-media-caba-cuanto-hay-que-ganar"
+    },
+    {
+      "tema": "cuánto pagó YPF por YPF Luz (infobae, El Cronista, iProfesional 08/10/2026) / hecho relevante de YPF S.A. ante la CNV del 08/10/2026: compra a BNR Power Investments B.V. de 237.499.943 acciones clase B (24,99%) por USD 430.000.000 con financiamiento del exterior, sujeta a condiciones precedentes; YPF ya tenía 75,01%; el HR de YPF Energía Eléctrica del mismo día confirma acciones y porcentaje (sin precio); F-1/A SEC 23/07/2026: 950.000.000 acciones, ingresos 2025 US$640,8 M, ganancia neta US$7,4 M (2024 US$263,1 M), EBITDA ajustado US$427,5 M, dividendos US$50 M en 2024 y 2025; 6-K de YPF del 20/03/2018: GE aportó US$275 M + hasta US$35 M contingentes por el 24,99%",
+      "angulo": "Anatomía de un dato: el precio de la recompra contra lo que puso GE por la misma porción en 2018 (+56,4%; +38,7% contra el máximo de US$310 M), el valor implícito del 100% (US$1.720 M contra unos US$1.100 M) y qué compra YPF (EBITDA, dividendos, capacidad). Diferencia con la nota del 30/09 (YPF, impuesto a las ganancias del semestre): aquella era el balance de YPF; esta es YPF Luz y la compra de la parte de BNR.",
+      "fecha": "2026-10-08",
+      "estado": "publicada",
+      "articulo_id": "2026-10-08-ypf-luz-compra-participacion-bnr-430-millones"
+    },
+    {
+      "tema": "descartes de la corrida programada del 08/10/2026 20:30: AGN contra BCRA por el oro (pérdida de US$1.023 M según la AGN contra resultado positivo de US$2.505 M según el BCRA; infobae, La Nación, iProfesional, ámbito), Telecentro compra iPlan por US$260 M (infobae, La Nación), AySA US$340 M (5 portadas), IPI minero de agosto +8,4% (La Nación, calendario INDEC de hoy), Genneia parque solar US$110 M (infobae, La Nación), Banco Nación y el crédito (ámbito), apretón monetario de septiembre (La Nación), Alberto Ades en el Gabinete (4 portadas), IRSA prospecto de fusión (CNV 08/10), Camuzzi préstamos del Banco Macro (CNV 07/10), pymes 181.000 puestos menos (infobae), transferencias entre cuentas propias (iProfesional)",
+      "angulo": "NO TOMADAS en la corrida programada del 08/10/2026 20:30; ganó YPF Luz (primera candidata: pregunta de plata y empresas, con documentos de las dos partes; APTA). Hoy ya había nota de EMPRESAS (La Anónima), así que no regía el cupo. Oro del BCRA: las notas no enlazan el informe de la AGN ni la respuesta del BCRA, y las dos cifras miden cosas distintas; retomable con el informe de auditoría publicado. Telecentro-iPlan: sin documento de la empresa con el precio. AySA: frenada dos veces hoy por falta de acta oficial. IPI minero: pierde contra la candidata elegida, retomable. Genneia: inversión anunciada, sin documento ante la CNV. Ades: opinión sin cifra. IRSA: prospecto de fusión sin cifra ancla leída. Camuzzi: visor sin monto. Pymes: SRT publicada el 27/09. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }

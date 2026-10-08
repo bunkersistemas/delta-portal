@@ -1,11 +1,38 @@
 {
-  "generado": "2026-10-08T18:30",
+  "generado": "2026-10-08T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3578714",
+      "fuente": "CNV",
+      "fecha": "2026-10-08T20:16",
+      "entidad": "IRSA INVERSIONES Y REPRESENTACIONES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - PROSPECTO DE FUSIÓN APROBADO",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/09C8DD92-7560-4B11-B61B-E62C6E270798"
+    },
+    {
+      "id": "cnv-3578709",
+      "fuente": "CNV",
+      "fecha": "2026-10-08T20:05",
+      "entidad": "YPF ENERGÍA ELÉCTRICA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - CAMBIO COMPOSICIÓN ACCIONARIA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4182F93B-0968-456A-AE4C-AE695AB50C5F"
+    },
+    {
+      "id": "cnv-3578705",
+      "fuente": "CNV",
+      "fecha": "2026-10-08T19:57",
+      "entidad": "YPF S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ADQUISICIÓN DE PARTICIPACIÓN ACCIONARIA EN YPF ENERGÍA ELÉCTRICA S.A.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2D6775ED-120A-4532-BFEA-69D24F66306F"
+    },
     {
       "id": "cnv-3578533",
       "fuente": "CNV",

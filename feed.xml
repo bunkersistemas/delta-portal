@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 18:39:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 20:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>YPF pagará US$430 millones por el 24,99% de YPF Luz, la misma porción por la que General Electric puso US$275 millones en 2018</title>
+      <link>https://coninteres.com/articulos/2026-10-08-ypf-luz-compra-participacion-bnr-430-millones.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-ypf-luz-compra-participacion-bnr-430-millones.html</guid>
+      <pubDate>Thu, 08 Oct 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>El directorio de YPF aprobó hoy comprarle a BNR Power Investments, el socio que entró de la mano de General Electric, el 24,99% de YPF Luz por US$430 millones. Es la misma porción por la que GE puso US$275 millones en 2018, más un pago contingente de hasta US$35 millones. Con la compra, YPF se queda con el 100% de la generadora y el precio le pone a toda la empresa un valor de US$1.720 millones.</description>
+      <ci:numero>US$430 M</ci:numero>
+      <ci:numeroEtiqueta>precio que YPF pagará a BNR Power Investments por el 24,99% de YPF Luz</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-ypf-luz-compra-participacion-bnr-430-millones.png" length="82344" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-ypf-luz-compra-participacion-bnr-430-millones.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Una familia porteña de cuatro necesita $2.669.815 por mes para ser clase media, 33,7% más que hace un año</title>
       <link>https://coninteres.com/articulos/2026-10-08-clase-media-caba-cuanto-hay-que-ganar.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>premios que la CONMEBOL le acreditó a Boca por la fase de grupos de la Libertadores 2026 (6 partidos, 2 ganados); por llegar a la semifinal de la Sudamericana sumó US$2,6 M</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.png" length="87650" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El alquiler de un dos ambientes en la Ciudad supera la mitad del ingreso del 40% de los hogares que menos ganan: en el cuarto decil es el 52,7%, y un año atrás era el 53,8%</title>
-      <link>https://coninteres.com/articulos/2026-10-06-alquiler-dos-ambientes-mitad-ingreso-deciles-caba.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-alquiler-dos-ambientes-mitad-ingreso-deciles-caba.html</guid>
-      <pubDate>Tue, 06 Oct 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Con el precio promedio publicado en el segundo trimestre ($770.520 por mes) y el ingreso de los hogares porteños del mismo trimestre, los dos medidos por el IDECBA, la cuenta da más de 50% en los cuatro deciles de abajo y 170,0% en el primero. Recalculamos decil por decil lo que informó el Consejo Económico y Social de la Ciudad: se sostiene, y en el último año pesó un poco menos para los hogares de abajo.</description>
-      <ci:numero>52,7%</ci:numero>
-      <ci:numeroEtiqueta>del ingreso total familiar promedio de un hogar porteño del cuarto decil equivale al alquiler publicado de un dos ambientes, 2º trimestre de 2026 (cálculo propio con IDECBA); 53,8% un año antes</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-alquiler-dos-ambientes-mitad-ingreso-deciles-caba.png" length="84264" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-alquiler-dos-ambientes-mitad-ingreso-deciles-caba.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

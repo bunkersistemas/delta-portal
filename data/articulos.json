@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-08T18:39:54-03:00",
+    "actualizado": "2026-10-08T20:41:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-08-ypf-luz-compra-participacion-bnr-430-millones",
+      "titulo": "YPF pagará US$430 millones por el 24,99% de YPF Luz, la misma porción por la que General Electric puso US$275 millones en 2018",
+      "bajada": "El directorio de YPF aprobó hoy comprarle a BNR Power Investments, el socio que entró de la mano de General Electric, el 24,99% de YPF Luz por US$430 millones. Es la misma porción por la que GE puso US$275 millones en 2018, más un pago contingente de hasta US$35 millones. Con la compra, YPF se queda con el 100% de la generadora y el precio le pone a toda la empresa un valor de US$1.720 millones.",
+      "titulo_busqueda": "¿Cuánto pagó YPF por YPF Luz? US$430 millones por el 24,99% que tenía el socio de General Electric",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$430 M",
+      "numero_label": "precio que YPF pagará a BNR Power Investments por el 24,99% de YPF Luz",
+      "fecha": "2026-10-08",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-08-ypf-luz-compra-participacion-bnr-430-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-08-clase-media-caba-cuanto-hay-que-ganar",
       "titulo": "Una familia porteña de cuatro necesita $2.669.815 por mes para ser clase media, 33,7% más que hace un año",
