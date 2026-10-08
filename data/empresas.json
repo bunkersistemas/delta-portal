@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-08T12:30",
+  "generado": "2026-10-08T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3578437",
+      "fuente": "CNV",
+      "fecha": "2026-10-08T13:51",
+      "entidad": "S.A. IMPORTADORA Y EXP. DE LA PATAGONIA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - DIVIDENDOS EN EFECTIVO, APROBADOS POR LA ASAMBLEA ORDINARIA DE ACCIONISTAS DE FECHA 08/10/2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/C3F66F4D-40D2-42A7-B46D-7BEF49D67841"
+    },
     {
       "id": "cnv-3578161",
       "fuente": "CNV",

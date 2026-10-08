@@ -3351,6 +3351,21 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "empresas sin documento con cifra ancla nueva (AySA sin acta oficial); resto cubierto, estimaciones o sin dato oficial, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto gana La Anónima (S.A. Importadora y Exportadora de la Patagonia) / hecho relevante CNV del 08/10/2026: la asamblea aprobó dividendos en efectivo por $11.315.078 miles (propuesta de la memoria: $10.900.000 miles en moneda de jun-26, reexpresada a ago-26) + estados financieros consolidados al 30/06/2026 (CNV 08/09/2026): ingresos netos $3.376.356.840 miles (-0,82%), ganancia neta $26.244.872 miles contra $42.159.817 miles (-37,7%, moneda de jun-26), nota 36 siniestro del depósito de Cipolletti del 02/06/2026 con efecto neto positivo de $20.275.793 miles, incobrables de la tarjeta propia $48.675.009 miles (3,7x), 12 hipermercados de Libertad desde el 01/06/2026",
+      "angulo": "Anatomía de un balance: 78 centavos de ganancia por cada $100 de ingresos ($1,24 un año antes) y el incendio de Cipolletti, neto del seguro, equivalente al 77% de la ganancia; supermercados -4,27%, frigoríficos +35,4% y resultado operativo de la tarjeta -$41.151 M. Ningún portal publicó el balance ni el efecto del seguro. Documentos leídos desde los adjuntos de la CNV (blob público) que el visor no muestra.",
+      "fecha": "2026-10-08",
+      "estado": "en_cola",
+      "articulo_id": "2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo"
+    },
+    {
+      "tema": "descartes de la corrida programada del 08/10/2026 14:30: empresas CNV/SEC (Camuzzi Gas del Sur y Pampeana préstamos del Banco Macro HR 07/10; Central Puerto adquisición de acciones propias HR 05-07/10; YPF recompra de ON HR 05/10; INVAP HR 06-07/10; A3, ICBC, TRANSENER), cuánto necesita una familia porteña para ser clase media (infobae, iProfesional), entradas de Lollapalooza 2027 (infobae), marcha universitaria y toma del Pizzurno (infobae), AySA US$340 M (infobae, La Nación, ámbito, Cronista, Página12), inflación porteña de septiembre (cinco portadas), peajes de la ruta 2 (infobae, ámbito, iProfesional), El Niño en el Litoral (infobae, Cronista), escala del servicio doméstico de octubre (La Nación, iProfesional), Caputo y el desembolso del FMI (infobae, Cronista), despedida de Tevez y retiro de Messi (infobae)",
+      "angulo": "NO TOMADAS en la corrida programada del 08/10/2026 14:30; ganó La Anónima (empresas, cupo del día: hoy no había nota de la sección; primera candidata, APTA). Camuzzi, Central Puerto, YPF, INVAP, A3, ICBC y TRANSENER: mismos motivos que en la corrida de las 12:30. Clase media porteña: pregunta de plata con fuente IDECBA, pierde contra el cupo de empresas con documento primario y dato exclusivo. Lollapalooza: precio comercial de una productora, sin documento oficial. Universidades: transferencias publicadas el 30/09. AySA: frenada dos veces hoy por falta de acta oficial. Inflación porteña y peajes: publicadas hoy. El Niño: sin cifra oficial nueva de asistencia. Servicio doméstico: escala publicada el 25/09. FMI: deuda publicada el 03/10. Messi: publicadas el 31/08 y el 25/09; Tevez sin cifra. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "cubiertas hoy o antes, sin documento oficial o sin cifra, frente a la candidata de empresas con documento primario"
     }
   ]
 }
