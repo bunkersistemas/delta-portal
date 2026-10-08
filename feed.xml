@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 12:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 16:30:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Anónima ganó $26.245 millones en su último ejercicio, 37,7% menos, y el incendio de su depósito de Cipolletti le sumó $20.276 millones gracias al seguro</title>
+      <link>https://coninteres.com/articulos/2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo.html</guid>
+      <pubDate>Thu, 08 Oct 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Según su balance al 30 de junio de 2026, presentado ante la CNV, La Anónima ganó $26.245 millones en su último ejercicio, 37,7% menos que el anterior en moneda constante: 78 centavos por cada $100 de ingresos. El incendio de su depósito de Cipolletti, neto de la indemnización del seguro, le sumó $20.276 millones, el equivalente al 77% de esa ganancia. Hoy la asamblea aprobó repartir $11.315 millones de dividendo.</description>
+      <ci:numero>$26.245 M</ci:numero>
+      <ci:numeroEtiqueta>ganancia neta consolidada de La Anónima entre julio de 2025 y junio de 2026, en pesos de junio de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo.png" length="78607" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los precios regulados subieron 31,1% en nueve meses en la Ciudad y el resto, 22,3%: en 2025 había sido al revés</title>
       <link>https://coninteres.com/articulos/2026-10-08-inflacion-caba-septiembre-regulados.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>salario básico de octubre de 2026 de un recolector de residuo y limpieza, CCT 40/89 (planilla 10/26 del acuerdo Camioneros-FAETYL-FADEEAC del 18/09/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-cobra-recolector-residuos-octubre.png" length="87593" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-cobra-recolector-residuos-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Southern Energy le va a vender 2 millones de toneladas de gas natural licuado por año a la estatal alemana SEFE desde fines de 2027: más del doble de las 945.752 que la Argentina importó entre enero y agosto</title>
-      <link>https://coninteres.com/articulos/2026-10-05-gnl-europa-sefe-contra-importaciones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-gnl-europa-sefe-contra-importaciones.html</guid>
-      <pubDate>Mon, 05 Oct 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El contrato, firmado en marzo, es por ocho años. Mientras tanto, la Argentina sigue comprando GNL para el invierno: en los primeros ocho meses de 2026 trajo 2,6% menos que un año antes, pero pagó US$814,8 millones, 44,6% más, porque cada tonelada salió 48,4% más cara.</description>
-      <ci:numero>2 M t</ci:numero>
-      <ci:numeroEtiqueta>toneladas de GNL por año que la estatal alemana SEFE le compra a Southern Energy durante 8 años desde fines de 2027 (comunicados de SEFE y Cancillería, 04/03/2026)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-gnl-europa-sefe-contra-importaciones.png" length="82611" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-gnl-europa-sefe-contra-importaciones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

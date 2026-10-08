@@ -1,22 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-10-08T14:30:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo",
-      "titulo": "La Anónima ganó $26.245 millones en su último ejercicio, 37,7% menos, y el incendio de su depósito de Cipolletti le sumó $20.276 millones gracias al seguro",
-      "titulo_busqueda": "¿Cuánto gana La Anónima? Su balance, el incendio de Cipolletti y el dividendo",
-      "bajada": "Según su balance al 30 de junio de 2026, presentado ante la CNV, La Anónima ganó $26.245 millones en su último ejercicio, 37,7% menos que el anterior en moneda constante: 78 centavos por cada $100 de ingresos. El incendio de su depósito de Cipolletti, neto de la indemnización del seguro, le sumó $20.276 millones, el equivalente al 77% de esa ganancia. Hoy la asamblea aprobó repartir $11.315 millones de dividendo.",
-      "seccion": "EMPRESAS",
-      "formato": "Anatomía de un balance",
-      "numero": "$26.245 M",
-      "numero_label": "ganancia neta consolidada de La Anónima entre julio de 2025 y junio de 2026, en pesos de junio de 2026",
-      "fecha": "2026-10-08",
-      "hora": "14:30",
-      "archivo": "cola/2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo.html",
-      "verificacion": "verificada",
-      "fuentes": 5,
-      "lectura": "30 seg → 8 min"
-    }
-  ]
+  "borradores": []
 }
