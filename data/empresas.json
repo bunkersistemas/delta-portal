@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-08T14:30",
+  "generado": "2026-10-08T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3578533",
+      "fuente": "CNV",
+      "fecha": "2026-10-08T16:51",
+      "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - AMPLIACIÓN DEL MONTO DEL PROGRAMA DE OBLIGACIONES NEGOCIABLES",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/730C10E1-AEDA-4638-9CCA-B9B01F0B793A"
+    },
     {
       "id": "cnv-3578437",
       "fuente": "CNV",
@@ -573,6 +582,7 @@
     "sec-0001292814-26-004860": "2026-10-07",
     "sec-0001292814-26-004862": "2026-10-07",
     "sec-0001292814-26-004866": "2026-10-08",
+    "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-001964": "2026-09-08",
     "sec-0001554855-26-001968": "2026-09-08",
     "sec-0001554855-26-001992": "2026-09-10",

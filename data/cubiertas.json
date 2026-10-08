@@ -3366,6 +3366,13 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "cubiertas hoy o antes, sin documento oficial o sin cifra, frente a la candidata de empresas con documento primario"
+    },
+    {
+      "tema": "cuánto hay que ganar para ser clase media en la Ciudad de Buenos Aires (infobae, La Nación, iProfesional 08/10/2026) / IDECBA Informe 2065 (08/10/2026), Hogar 1 (pareja de 35 con hijos de 9 y 6, propietaria): canasta total sep-26 $2.135.851,80, piso clase media $2.669.814,76 (1,25 CT), techo $8.543.407,23; sep-25 $1.997.377,71 (Informe 1985) -> +33,7% contra IPCBA 32,9%; parejas de 25 propietaria/inquilina CT $1.259.163/$1.583.942 -> pisos $1.573.954/$1.979.928 (cálculo propio); hogares clase media 2T-26 53,5% (Informe 2060)",
+      "angulo": "Anatomía de un dato: el piso de la clase media porteña y cuánto subió en un año (más que la inflación), lo que suma alquilar (+25,8% para una pareja sin hijos) y la serie de hogares de clase media en los segundos trimestres 2017-2026. Diferencia con la nota del 25/09 (pobreza CABA contra INDEC): aquella usaba los umbrales de agosto como dato lateral; esta tiene eje en el piso de clase media de septiembre, su variación interanual y el costo de alquilar. Contraste: CBT INDEC GBA ago-26 $1.605.497 (+38,3%) contra CBT IDECBA $1.651.798 (+34,4%). NO TOMADAS en esta corrida: AGN y el oro del BCRA (infobae), Telecentro-iPlan US$260 M (infobae, La Nación), IPI minero de agosto +8,4% (La Nación, calendario), Genneia parque solar US$110 M (infobae, La Nación), La Rioja aporte extraordinario de IIBB (La Nación), dividendos récord (La Nación, iProfesional), Flybondi (publicada 05/10), ISSP julio (calendario); empresas CNV (Camuzzi, Central Puerto, YPF, INVAP, ICBC, TRANSENER, La Anónima): hoy ya hay nota de EMPRESAS, sin cupo. Clarín y TN no se pudieron leer.",
+      "fecha": "2026-10-08",
+      "estado": "publicada",
+      "articulo_id": "2026-10-08-clase-media-caba-cuanto-hay-que-ganar"
     }
   ]
 }

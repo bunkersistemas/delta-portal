@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-08T16:30:57-03:00",
+    "actualizado": "2026-10-08T18:39:54-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-08-clase-media-caba-cuanto-hay-que-ganar",
+      "titulo": "Una familia porteña de cuatro necesita $2.669.815 por mes para ser clase media, 33,7% más que hace un año",
+      "bajada": "Es el piso que fija el instituto de estadística de la Ciudad para una pareja con dos hijos que es dueña de su casa. En doce meses subió $672.437, algo más que la inflación porteña. Si la pareja no tiene hijos y alquila, la vara queda en $1.979.928: una cuarta parte más que si fuera propietaria.",
+      "titulo_busqueda": "¿Cuánto hay que ganar para ser clase media en la Ciudad de Buenos Aires?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$2.669.815",
+      "numero_label": "ingreso mensual mínimo para ser clase media en la Ciudad de Buenos Aires en septiembre de 2026, pareja con dos hijos propietaria (IDECBA)",
+      "fecha": "2026-10-08",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-08-clase-media-caba-cuanto-hay-que-ganar.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo",
       "titulo": "La Anónima ganó $26.245 millones en su último ejercicio, 37,7% menos, y el incendio de su depósito de Cipolletti le sumó $20.276 millones gracias al seguro",
