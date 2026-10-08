@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 07:03:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 08:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un dos ambientes usado en la Ciudad cuesta 74,3 sueldos promedio: en 2019 hacían falta 128,5</title>
+      <link>https://coninteres.com/articulos/2026-10-08-departamento-caba-cuantos-sueldos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-departamento-caba-cuantos-sueldos.html</guid>
+      <pubDate>Thu, 08 Oct 2026 09:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>El metro cuadrado se publica a US$2.343, 17% menos que hace siete años, y el sueldo formal promedio vale 43% más en dólares. Entre los períodos sin cepo, hay que volver a 2017 para encontrar una cuenta tan favorable. Lo que no volvió es el crédito: las hipotecas firmadas en la Ciudad cayeron 47% en un año.</description>
+      <ci:numero>74,3 sueldos</ci:numero>
+      <ci:numeroEtiqueta>cuesta un dos ambientes usado de 42 m² en la Ciudad, en sueldos formales promedio pasados a dólares (2do. trim. 2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-departamento-caba-cuantos-sueldos.png" length="65858" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-departamento-caba-cuantos-sueldos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Europa pagó US$747 millones por la carne vacuna argentina en 2025: se llevó 9 de cada 100 kilos y puso 20 de cada 100 dólares</title>
       <link>https://coninteres.com/articulos/2026-10-08-carne-argentina-europa-cuanto-vende.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>contribución directa de Mercado Libre en la Argentina en el 2T 2026: ingresos US$1.839 M menos costos del segmento US$1.216 M, contra US$550 M en Brasil (10-Q al 30/06/2026, nota 6)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-mercado-libre-argentina-brasil-contribucion-directa.png" length="90383" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-mercado-libre-argentina-brasil-contribucion-directa.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un empleado soltero empieza a pagar Ganancias con $3.505.431 brutos por mes: el piso subió 33,5% en un año y el sueldo promedio, 28,8%</title>
-      <link>https://coninteres.com/articulos/2026-10-05-ganancias-piso-sueldo-empleados-octubre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-05-ganancias-piso-sueldo-empleados-octubre.html</guid>
-      <pubDate>Mon, 05 Oct 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Desde julio, según las tablas de ARCA, un asalariado soltero tiene retención de Ganancias si cobra más de $3.505.431 brutos por mes; con cónyuge y dos hijos a cargo, más de $4.648.749. El piso se ajusta dos veces por año con la inflación y en julio subió 16,85%. Hoy equivale a 1,8 sueldos promedio, pero a fin de cada semestre esa distancia se achica.</description>
-      <ci:numero>$3,51 M</ci:numero>
-      <ci:numeroEtiqueta>sueldo bruto mensual desde el que un empleado soltero tiene retención de Ganancias en jul-dic 2026: ($501.639,28 + $2.407.868,55) / 0,83 = $3.505.431,12 (ARCA, deducciones art. 30 jul-dic 2026; 17% de aportes)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-05-ganancias-piso-sueldo-empleados-octubre.png" length="88837" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-05-ganancias-piso-sueldo-empleados-octubre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

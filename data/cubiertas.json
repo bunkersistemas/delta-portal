@@ -3289,6 +3289,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "empresas sin documento con cifra ancla nueva; resto cubierto, sin dato oficial o no publicado todavía, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuántos sueldos hacen falta para comprar un departamento en CABA (infobae 08/10/2026, 'Cuántos salarios se necesitan para comprar un metro cuadrado en la Ciudad de Buenos Aires', con Index Zonaprop) / IDECBA Informe de resultados 2052 (28/08/2026) cuadro C.2: 2 ambientes usados 2T-2026 US$2.343/m2 (+1,4% i.a.), 42 m2, US$98.406 por unidad, provisorio; planilla MI_DVP_AX03.xlsx fila Total 2T-26 2.343,2, 2T-25 2.309,8, 2T-19 2.831,3, máximo 4T-18 2.878,5; RIPTE prom. abr-jun 2026 $1.867.738,69; A3500 prom. $1.409,6541 -> US$1.325,0; 98.406 / 1.325,0 = 74,3 sueldos; 2T-2019 128,5 (RIPTE US$925,7); m2 -17,2%, sueldo USD +43,1%; barrios (42 m2): Lugano 45,6, Palermo 98,8, Puerto Madero 184,0; escrituras 2T 16.897 (+0,3%), hipotecas 1.961 (-47,1%)",
+      "angulo": "Corrida programada del 08/10/2026 08:30, primera candidata probada (APTA). Pregunta de plata detrás de la nota de infobae, con serie oficial propia en vez del índice de un portal. Camino estadística oficial recalculada con contraste: (1) IDECBA ir_2026_2052.pdf cuadro C.2; (2) recálculo desde MI_DVP_AX03.xlsx (2.343,2; +1,45%), RIPTE CSV datos.gob.ar = tabla oficial argentina.gob.ar, A3500 com3500.xls (hoja mensual = promedio de la diaria, dif. máx. 0,0012%; 2009 desde la diaria); (3) contraste Zonaprop jun-26 US$2.467/m2 +1,6% 12m, 2 amb US$2.491/m2 -> 79,0 sueldos con 42 m2 (incluye a estrenar). Se excluyen los trimestres con cepo (4T-11 a 4T-15 y 3T-19 a 1T-25) porque el dólar oficial no era el de las propiedades. Superlativo: la más favorable desde 2T-2017 (72,1) entre trimestres sin cepo; mínimo comparable 3T-2011 69,8; máximo 4T-2018 133,1. NO afirmado: precio de escritura, sueldo de la Ciudad, que el RIPTE incluya o no el aguinaldo, el dato del 3T-2026 (no publicado; solo se aclara que el dólar subió 7,4% a septiembre).",
+      "fecha": "2026-10-08",
+      "estado": "publicada",
+      "archivo": "cola/2026-10-08-departamento-caba-cuantos-sueldos.html",
+      "articulo_id": "2026-10-08-departamento-caba-cuantos-sueldos"
+    },
+    {
+      "tema": "descartes de la corrida programada del 08/10/2026 08:30: empresas CNV/SEC (Camuzzi Gas del Sur y Pampeana préstamos del Banco Macro HR 07/10, Central Puerto adquisición de acciones propias HR 05-07/10, YPF recompra de ON HR 05/10, INVAP HR 06-07/10, ICBC desvinculación, TRANSENER renuncia de directora, A3 recompra), prórroga de Ganancias y Bienes Personales para personas físicas (La Nación, ámbito, iProfesional), créditos para refaccionar la casa (ámbito), Stellantis podría cerrar sus dos plantas (infobae, La Nación), reforma laboral: 36.000 puestos y 6.905 empresas menos desde marzo (iProfesional), Uber-PedidosYa y el sindicato (iProfesional), Granja Tres Arroyos sueldos atrasados (La Nación), multas de tránsito de $7 millones (Cronista), Premio Nobel de Literatura (Página12), mudanzas (iProfesional), ISSP e IPI minero (INDEC hoy 16:00)",
+      "angulo": "NO TOMADAS en la corrida programada del 08/10/2026 08:30; ganó cuántos sueldos cuesta un departamento en CABA (primera candidata, APTA). EMPRESAS (rige el cupo: hoy no hay nota de la sección): descartadas con razón; Camuzzi, el visor de la CNV no devolvió el hecho relevante en ninguna corrida de hoy; Central Puerto, YPF y A3, recompras de rutina ya leídas sin cifra ancla nueva; INVAP publicada el 07/10; ICBC y TRANSENER, cambios de directorio sin cifra; Stellantis, sin documento de la empresa con cifras de la Argentina. La candidata elegida es pregunta de plata con estadística oficial, serie de 20 años y contraste independiente (criterio 1 del Editor). Prórroga de Ganancias: fechas sin cifra ancla. Créditos para refacción: condiciones comerciales de un banco, sin serie. Empresas cerradas: SRT publicada el 27/09. Uber-PedidosYa, Tres Arroyos, mudanzas: sin documento primario con cifra. Multas de tránsito: descartadas el 07/10. Nobel: descartado el 06/10. ISSP e IPI minero: todavía no publicados a las 08:30. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "empresas sin documento con cifra ancla nueva; resto sin cifra oficial, cubierto o no publicado todavía, frente a la candidata elegida"
     }
   ]
 }
