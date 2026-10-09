@@ -3532,6 +3532,46 @@
       "estado": "publicada",
       "articulo_id": "2026-10-09-microcredito-provincia-10-millones-tasa-bonificada",
       "archivo": "cola/2026-10-09-microcredito-provincia-10-millones-tasa-bonificada.html"
+    },
+    {
+      "tema": "cuánto cayó la recaudación de la Ciudad de Buenos Aires (La Nación y ámbito 09/10/2026: la Ciudad evalúa emitir un bono para pagar deudas con proveedores por la caída de la recaudación)",
+      "angulo": "Corrida programada del 09/10/2026 12:30, primera candidata probada (pregunta de plata, 2 portadas; tema no cubierto). FRENADA: no hay serie oficial accesible de la recaudación porteña de 2026. La AGIP no publica estadísticas legibles (agip.gob.ar/agip/estadisticas vacía), data.buenosaires.gob.ar devolvió 503, las páginas de Hacienda y Finanzas y del Régimen de Responsabilidad Fiscal del GCBA no tienen ejecución de recursos 2025-2026 y la serie de la DNAP (Nación) llega a mayo. El único dato mensual es del Observatorio de CEPA (julio 2026: recaudación propia -6,3% real, Ingresos Brutos -5,1%), una sola consultora, cuyo PDF tampoco se pudo leer. Retomable con la serie oficial de la AGIP o la ejecución presupuestaria del GCBA.",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "cifra ancla sin serie oficial accesible; solo una consultora"
+    },
+    {
+      "tema": "IRSA: prospecto de fusión aprobado (CNV 08/10/2026)",
+      "angulo": "Corrida programada del 09/10/2026 12:30, segunda candidata probada (empresas; el cupo del día ya estaba cubierto por AySA, Río Turbio y Tecpetrol). FRENADA: el visor de la CNV (presentación 09C8DD92) solo muestra un formulario sin documentos adjuntos, y en la SEC el último 6-K de IRSA es del 23/09 (inversión de hasta US$4 M en Golden Juniors SP, parte relacionada; cuota de la ON clase XXIV): el prospecto de fusión no está en ningún documento legible. Sin cifra ancla. Retomable con el prospecto en la SEC o en la CNV.",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "documento de la empresa no legible; sin cifra ancla"
+    },
+    {
+      "tema": "cuánto oro produce y exporta la Argentina (AGN contra BCRA por el oro; IPI minero de agosto, INDEC 08/10/2026: plata y oro y sus concentrados -25,2% interanual, índice 114,8; acumulado ene-ago -1,6%; doré +6,6%; minerales metalíferos -17,9%)",
+      "angulo": "Corrida programada del 09/10/2026 12:30, tercera candidata probada (RETOMADA de los descartes del 08 y 09/10). Informe técnico ipi_minero_10_26AEDFED4AA8.pdf leído (cuadro 3). FRENADA en el contraste independiente: el mes no tiene otra medición (los reportes de las mineras son trimestrales) y las exportaciones del INDEC (exponm26.csv, NCM 7108 y 2616) tienen filas bajo secreto estadístico con valores de hasta nueve cifras (julio 71081210 a los destinos 204, 212 y 315; agosto a 212, 331 y 159), así que el total de oro exportado no se puede recalcular: lo visible da US$430,3 M en agosto y US$3.641 M en enero-agosto, pero es un piso, no el total. Un mes de caída con el acumulado en -1,6% tampoco alcanza para la nota. Retomable con el informe de exportaciones mineras de la Secretaría de Minería o el tercer trimestre de las empresas.",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "sin contraste independiente para el mes; exportaciones con secreto estadístico, total no recalculable"
+    },
+    {
+      "tema": "cuánto es la multa por exceso de velocidad en las rutas bonaerenses en el fin de semana largo del 12/10/2026 (UF de septiembre-octubre $2.281 según Canal 26 e iProfesional; ámbito, Cronista)",
+      "angulo": "Corrida programada del 09/10/2026 12:30, cuarta candidata probada (pregunta de plata). FRENADA: la resolución de la Subsecretaría de Política y Seguridad Vial que fija la UF de septiembre-octubre (sería la 4/2026) no aparece en normas.gba.gob.ar; la serie oficial ubicada es Res. 1/2026 (BO 30192, 04/03/2026, $1.896, marzo-abril), 2/2026 (BO 30232, 06/05) y 3/2026 (BO 30272, 03/07, julio-agosto). Los medios no coinciden en el rango de la multa por exceso de velocidad ($342.150 a $2.281.000 en Canal 26; $681.300 a $2.271.000 en ámbito para el grupo de faltas graves) y la respuesta ya la dan varios medios, sin ángulo propio. Retomable con la Res. 4/2026 y el texto de la Ley 13.927.",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "norma vigente no localizada; medios con montos contradictorios; sin ángulo propio"
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/10/2026 12:30: tasa de embarque en dólares (ORSNA 69/2026; el anexo IF-2026-95257538-APN-GREYF#ORSNA sigue sin publicarse aparte, cuarto intento del día), Telecentro compra iPlan por US$260 M (La Nación; sin documento con el monto), Genneia parque solar US$110 M (infobae, La Nación), paritaria de la alimentación sin acuerdo (iProfesional; escala del CCT 244/94 sin homologación oficial localizada), costo de mantener un auto contra el salario mínimo (infobae; estimación privada), AGN contra BCRA por el oro (La Nación, iProfesional; sin informe de la AGN), Inocencia Fiscal II reglamentada (infobae, La Nación, ámbito, Cronista; multa publicada hoy 08:30), Banco Nación y el crédito (infobae, ámbito), superávit primario más bajo (proyección de un banco), Ley de Tierras (Cronista, ámbito; publicada el 30/09), Boletín Oficial de hoy (MEcon 1771 = RIGI de Tecpetrol ya publicado; 1772 prórroga de descuentos sin montos; 1775, 1781, 1782 designaciones; 1787 transporte Mercosur; SAGyP 191 sello Alimentos Argentinos; SICyP 408 eficiencia de aires acondicionados; DNRyRT 610-665 convenios sin escala legible en el índice), empresas CNV (Nuevo Continente balance al 31/07: visor sin estados contables; YPF Luz, La Anónima/Patagonia dividendos, Camuzzi, Central Puerto, YPF recompra de ON, ICBC, INVAP, TRANSENER, A3: ya descartadas o cubiertas hoy); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 09/10/2026 12:30. Las cuatro candidatas probadas frenaron (ver entradas propias). Cupo de EMPRESAS ya cubierto hoy (AySA, Río Turbio y Tecpetrol).",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas"
     }
   ]
 }
