@@ -3484,6 +3484,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto es la multa de ARCA por no presentar la declaración jurada (Ley 27.826 publicada en el BO del 09/10/2026; Inocencia Fiscal II: infobae, ámbito, Cronista 09/10/2026) / art. 2° Ley 27.826 incorpora el art. 49 bis a la Ley 11.683: multas de los arts. 38, 39 y sin número siguientes -25% de pleno derecho para mipymes, personas humanas, sucesiones y ESFL que no sean grandes contribuyentes; art. 38: $220.000 persona y $440.000 sociedad (Ley 27.799 art. 15, BO 02/01/2026; antes $200 y $400; = InfoLEG texto actualizado Ley 11.683) -> $165.000 y $330.000; art. 39: $150.000-$2.500.000 -> $112.500-$1.875.000; art. 17 régimen especial -50% para infracciones anteriores al 09/10 no firmes o firmes impagas, obligaciones vencidas desde la Ley 27.799 ($110.000 persona), ARCA reglamenta en 30 días; art. 14 multas rurales Ley 25.191 $120.000-$7.500.000 por trabajador; contra jubilación mínima oct-26 $435.748,51 (Res. ANSES 284/2026): 50,5% -> 37,9%",
+      "angulo": "Antes/Después, ECONOMÍA. Corrida programada del 09/10/2026 08:30, primera candidata (pregunta de plata). Distinto de la nota del 27/08 (media sanción, solo porcentajes, sin montos en pesos ni vigencia) y del descarte de las 06:30 (que miró solo los montos penales de la ley): ahora la ley rige y la nota da la multa en pesos. Verificación: dos fuentes que coinciden para el monto de base (Ley 27.799 en el BO + texto actualizado de InfoLEG) y texto oficial de la Ley 27.826 (PDF del BO) para la rebaja; cálculo propio 220.000 × 0,75. No se da monto para la combinación con la reducción a la mitad del art. 38 (15 días) porque la ley no la define.",
+      "fecha": "2026-10-09",
+      "estado": "publicada",
+      "articulo_id": "2026-10-09-multa-arca-no-presentar-declaracion-jurada",
+      "motivo_descarte": ""
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/10/2026 08:30: multas por trabajador rural no registrado de la Ley 27.826 (art. 14; sin el texto vigente anterior del art. 15 de la Ley 25.191 para comparar, quedó como párrafo dentro de la nota elegida), régimen simplificado de Ganancias sin topes (ámbito; cubierto el 27/08 y sin cifra ancla nueva), nuevas tarifas de 30 aeropuertos (ORSNA 69/2026; frenada a las 06:30 por anexo ilegible), AGN contra BCRA por el oro (La Nación, iProfesional, infobae; sigue sin informe de la AGN), Telecentro compra iPlan por US$260 M (La Nación, infobae; sin documento con el monto), Genneia parque solar US$110 M (La Nación, infobae), cuánto se puede transferir entre cuentas propias sin problemas con ARCA (iProfesional; ya respondida por todos), empleadas domésticas en octubre (iProfesional; publicada 25/09), La Rioja aporte extraordinario de Ingresos Brutos (La Nación; sin norma localizada), maquinaria agrícola en septiembre (infobae; sin serie oficial del mes), Messi y la despedida de la Selección (infobae; sin documento de montos), descarrilamiento en Río Turbio (cubierta hoy), empresas CNV (IRSA prospecto de fusión, YPF Luz y recompra de ON, Camuzzi préstamos del Banco Macro, ICBC programa de ON, Central Puerto recompra, INVAP asamblea, Patagonia dividendos: sin cifra ancla nueva o ya cubiertas); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 09/10/2026 08:30; ganó la multa de ARCA por no presentar la declaración jurada (primera candidata, APTA). Cupo de EMPRESAS ya cubierto hoy (AySA, Río Turbio y Tecpetrol).",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }

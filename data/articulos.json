@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-09T06:49:18-03:00",
+    "actualizado": "2026-10-09T08:43:26-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-09-multa-arca-no-presentar-declaracion-jurada",
+      "titulo": "La multa de ARCA por no presentar una declaración jurada baja de $220.000 a $165.000 para personas y pymes desde el 9 de octubre",
+      "bajada": "Es la rebaja permanente de 25% que trae la Ley 27.826, publicada el 9 de octubre en el Boletín Oficial: alcanza a personas, sucesiones, entidades sin fines de lucro y pymes que no sean grandes contribuyentes. Una sociedad pyme pasa de $440.000 a $330.000. Las multas de 2026 que todavía no estén firmes, o que estén firmes pero sin pagar, pueden bajar a la mitad.",
+      "titulo_busqueda": "¿Cuánto es la multa de ARCA por no presentar la declaración jurada?",
+      "seccion": "ECONOMÍA",
+      "formato": "Antes/Después",
+      "numero": "$165.000",
+      "numero_label": "multa por no presentar una declaración jurada para una persona humana desde el 9/10/2026: $220.000 (Ley 27.799, art. 15) menos 25% (Ley 27.826, art. 2°)",
+      "fecha": "2026-10-09",
+      "hora": "08:30",
+      "archivo": "articulos/2026-10-09-multa-arca-no-presentar-declaracion-jurada.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-09-rigi-tecpetrol-los-toldos-6432-millones",
       "titulo": "El RIGI de Tecpetrol en Vaca Muerta suma US$6.432 millones, pero 55 de cada 100 dólares llegan después de 2029",

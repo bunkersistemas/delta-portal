@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 09 Oct 2026 06:49:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 08:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La multa de ARCA por no presentar una declaración jurada baja de $220.000 a $165.000 para personas y pymes desde el 9 de octubre</title>
+      <link>https://coninteres.com/articulos/2026-10-09-multa-arca-no-presentar-declaracion-jurada.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-09-multa-arca-no-presentar-declaracion-jurada.html</guid>
+      <pubDate>Fri, 09 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Es la rebaja permanente de 25% que trae la Ley 27.826, publicada el 9 de octubre en el Boletín Oficial: alcanza a personas, sucesiones, entidades sin fines de lucro y pymes que no sean grandes contribuyentes. Una sociedad pyme pasa de $440.000 a $330.000. Las multas de 2026 que todavía no estén firmes, o que estén firmes pero sin pagar, pueden bajar a la mitad.</description>
+      <ci:numero>$165.000</ci:numero>
+      <ci:numeroEtiqueta>multa por no presentar una declaración jurada para una persona humana desde el 9/10/2026: $220.000 (Ley 27.799, art. 15) menos 25% (Ley 27.826, art. 2°)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-multa-arca-no-presentar-declaracion-jurada.png" length="76394" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-multa-arca-no-presentar-declaracion-jurada.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El RIGI de Tecpetrol en Vaca Muerta suma US$6.432 millones, pero 55 de cada 100 dólares llegan después de 2029</title>
       <link>https://coninteres.com/articulos/2026-10-09-rigi-tecpetrol-los-toldos-6432-millones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>importaciones de teléfonos inteligentes (posición 8517.13, FOB) entre enero y agosto de 2026, según el INDEC: 8,5 veces lo de enero-agosto de 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-celulares-importados-cuanto-gasta-argentina.png" length="86024" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-celulares-importados-cuanto-gasta-argentina.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Una docena de huevos paga $671 de IVA y un kilo de pollo, que cuesta 24% más, $454: si la alícuota bajara al 10,5%, como pide un proyecto, la docena podría costar $3.533</title>
-      <link>https://coninteres.com/articulos/2026-10-06-iva-huevo-docena-pollo-proyecto.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-iva-huevo-docena-pollo-proyecto.html</guid>
-      <pubDate>Tue, 06 Oct 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El huevo paga la tasa general de 21%; el pollo, el cerdo y la carne vacuna pagan la mitad, el pollo y el cerdo desde la reforma de 2017. Hay proyectos en el Congreso para igualarlos, y diputados del PRO quieren discutir uno con el presupuesto. Si la rebaja llegara entera a la góndola, la docena bajaría $335,67: 8,7%.</description>
-      <ci:numero>$671</ci:numero>
-      <ci:numeroEtiqueta>IVA contenido en el precio promedio de una docena de huevos en el GBA, agosto de 2026 ($3.868,23, INDEC; alícuota general de 21%, Ley de IVA art. 28)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-iva-huevo-docena-pollo-proyecto.png" length="88159" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-iva-huevo-docena-pollo-proyecto.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
