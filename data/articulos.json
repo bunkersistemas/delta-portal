@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-09T14:41:35-03:00",
+    "actualizado": "2026-10-09T16:44:34-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-09-empleadores-por-provincia-la-rioja-neuquen",
+      "titulo": "La Rioja tiene 22,2% menos empleadores que en noviembre de 2023, la peor caída del país, y Neuquén es la única provincia que sumó",
+      "bajada": "Entre noviembre de 2023 y junio de 2026 la cantidad de empresas y entidades con al menos un trabajador registrado bajó en 23 de los 24 distritos, según la Superintendencia de Riesgos del Trabajo. En el interior la baja fue de 8,0%, casi el doble que en la Ciudad y la provincia de Buenos Aires. Las cuatro provincias del Nordeste perdieron más del 10%.",
+      "titulo_busqueda": "¿Cuántas empresas cerraron en cada provincia? El mapa de los empleadores que faltan desde 2023",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "−22,2%",
+      "numero_label": "caída de los empleadores con trabajadores registrados en La Rioja entre noviembre de 2023 y junio de 2026 (SRT)",
+      "fecha": "2026-10-09",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-09-empleadores-por-provincia-la-rioja-neuquen.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-09-cuanto-le-cuesta-fabricaciones-militares-al-estado",
       "titulo": "El Tesoro le giró $20.280 millones a Fabricaciones Militares en 2025, y lo que la empresa vendió no alcanzó ni para pagar los sueldos",

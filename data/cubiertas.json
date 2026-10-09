@@ -3587,6 +3587,29 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto costaría viajar a EE.UU. con el permiso ESTA de US$40 contra la visa de turista (ámbito 09/10/2026, 'Cómo viajar a Estados Unidos sin visa: el permiso de 40 dólares que reemplaza el visado')",
+      "angulo": "Pregunta de plata: costo del ESTA (US$40) frente al arancel de la visa B1/B2 (US$185) y el Visa Integrity Fee de US$250.",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "FRENAR en la corrida programada del 09/10/2026 16:30: la Argentina no está en el Visa Waiver Program (el ESTA no aplica a pasaportes argentinos); travel.state.gov devuelve 403 a la verificación de enlaces y la entrada en vigor del Visa Integrity Fee no tiene documento oficial localizado. Sin fuente primaria accesible, la cifra ancla no llega a CONFIRMADO."
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/10/2026 16:30: viajar a EE.UU. sin visa (frenada aparte), AGN contra BCRA por el oro (La Nación, iProfesional; sin informe de la AGN), Telecentro compra iPlan (sin documento con el monto), Neuquén récord de recaudación (infobae; regalías publicadas el 26/09), expensas en barrios caros (iProfesional; precios privados), atraso en el pago de servicios (iProfesional; dato privado), deuda en pesos y vencimientos (ámbito; perfil de vencimientos en dólares publicado el 28/09), Banco Nación crédito (infobae, La Nación), coparticipación y caída de ingresos de los gobernadores (La Nación; publicada el 01/10), mercado automotor e importaciones (infobae, iProfesional; autos chinos publicada el 31/08), Día Mundial del Huevo (precio de la docena publicado el 30/09), colegio de Vicente López con alumnos con discapacidad (La Nación; nomenclador publicado el 26/09), láctea quebrada (La Nación; expediente sin cifra ancla), empresas CNV (Nuevo Continente, IRSA, Camuzzi, YPF, ICBC, Central Puerto: ya descartadas hoy o sin cifra ancla nueva; cupo de EMPRESAS cubierto hoy con AySA, Río Turbio, Tecpetrol y Fabricaciones Militares); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 09/10/2026 16:30; ganó empleadores por provincia (SRT).",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuántas empresas cerraron en cada provincia (La Nación y ámbito 09/10/2026: dato SRT de julio, 480.067 empleadores, 948 menos que en junio y 32.290 menos que en nov-23) / SRT serie según jurisdicción (domicilio fiscal), unidades productivas, cuadro 3.2: nov-23 512.357 -> jun-26 481.015 por provincia; La Rioja 2.194 -> 1.707 (-487, -22,2%, la mayor caída; 439 en jun-25 a jun-26, 12 caídas mensuales seguidas, mínimo desde sep-21 1.700); Neuquén 7.603 -> 7.675 (+72, +0,9%, la única que sube); TdF -14,9%, Chaco -13,9%, Catamarca -13,8%; NEA -3.161 (-12,2%); interior sin CABA ni PBA 235.202 -> 216.316 (-8,0%) vs CABA+PBA 277.155 -> 264.699 (-4,5%); 19 de 24 peor que el promedio (-6,1%); La Rioja trabajadores cubiertos (cuadro 3.1) 30.663 -> 28.628 (-6,6%); cuadro 6.2 (ubicación de trabajadores) La Rioja -19,7%, Neuquén +1,4%; contraste OEDE empresas por provincia 2023-2024 (cuadro 5): La Rioja 3.388 -> 3.083 (-9,0%) vs SRT nov-23 a dic-24 -9,3%; Neuquén +0,6% en ambas; mismas cinco provincias con mayor baja",
+      "angulo": "Ángulo nuevo frente a la nota del 27/09 (total nacional y tamaño de la nómina): el mapa por provincia. Camino de verificación: estadística oficial recalculada (las 24 jurisdicciones suman el total) + contraste independiente (OEDE, SIPA, 2023-2024).",
+      "fecha": "2026-10-09",
+      "estado": "publicada",
+      "articulo_id": "2026-10-09-empleadores-por-provincia-la-rioja-neuquen"
     }
   ]
 }
