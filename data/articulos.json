@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-09T08:43:26-03:00",
+    "actualizado": "2026-10-09T10:55:53-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-09-microcredito-provincia-10-millones-tasa-bonificada",
+      "titulo": "El microcrédito bonaerense de hasta $10 millones cobra 22,5% anual con la bonificación de la Provincia: la mitad de la tasa normal",
+      "bajada": "Es la línea Microcréditos con Bonificación de Tasas, para microempresas de la provincia de Buenos Aires. El Ministerio de Producción paga la mitad de la tasa: la de inversión baja de 45% a 22,5% anual, y la de capital de trabajo, de 50% a 25%. Un crédito de $10 millones a cuatro años queda en una cuota de unos $318.000 por mes, contra unos $452.000 sin la bonificación.",
+      "titulo_busqueda": "¿Cuánto cobra el crédito de hasta $10 millones con tasa bonificada de la Provincia?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "22,5%",
+      "numero_label": "tasa nominal anual del microcrédito de inversión de Provincia Microcréditos con la bonificación de 50% del Ministerio de Producción bonaerense (sin bonificar: 45%)",
+      "fecha": "2026-10-09",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-09-microcredito-provincia-10-millones-tasa-bonificada.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-09-multa-arca-no-presentar-declaracion-jurada",
       "titulo": "La multa de ARCA por no presentar una declaración jurada baja de $220.000 a $165.000 para personas y pymes desde el 9 de octubre",

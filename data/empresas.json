@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-09T08:30",
+  "generado": "2026-10-09T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3578753",
+      "fuente": "CNV",
+      "fecha": "2026-10-09T09:56",
+      "entidad": "NUEVO CONTINENTE S.A",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - APROBACIÓN ESTADOS FINANCIEROS ANUALES AL 31 DE JULIO DE 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/34539446-56FE-424A-923D-CD375DBFDCD8"
+    },
     {
       "id": "cnv-3578718",
       "fuente": "CNV",
@@ -611,6 +620,7 @@
     "sec-0001292814-26-004860": "2026-10-07",
     "sec-0001292814-26-004862": "2026-10-07",
     "sec-0001292814-26-004866": "2026-10-08",
+    "sec-0001292814-26-004878": "2026-10-09",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-001992": "2026-09-10",
     "sec-0001554855-26-002000": "2026-09-15",
