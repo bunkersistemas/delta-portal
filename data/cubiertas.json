@@ -3610,6 +3610,22 @@
       "fecha": "2026-10-09",
       "estado": "publicada",
       "articulo_id": "2026-10-09-empleadores-por-provincia-la-rioja-neuquen"
+    },
+    {
+      "tema": "cuánto aumenta la tasa de embarque de cabotaje / tasa de uso de aeroestación (TUA) doméstica del Grupo A en dólares (RETOMADA: Res. ORSNA 69/2026, BO 09/10/2026, aviso 348787; La Nación, Cronista, Página12 09/10/2026): US$9 por pasajero embarcado, categorías I y II (página de tasas del ORSNA, actualización octubre 2026 = 6-K de Corporación America Airports ante la SEC del 28/09/2026, 'Domestic Passenger Use Fee will increase to $9.00 by January 1, 2027'); vigente hoy $5.685 cat. I, $3.963 cat. II, $3.472 cat. III-IV (Res. ORSNA 29/2024 del 08/10/2024 = 6-K, nota 1); exigible a los 60 días corridos (08/12/2026, art. 4°); A3500 09/10/2026 $1.517 -> $13.653 (+140,2% cat. I, +244,5% cat. II); $5.685 = US$3,75 hoy; Res. 29/2024 calculada como USD 5 con REM $1.137 (acta del 10/09/2020 'equivalente a USD 5'); serie al dólar de la fecha de cada resolución: $614/102,68 = 5,98 (Res. 83/2021), $1.100/172,39 = 6,38 (Res. 98/2022), $2.540/360,50 = 7,05 (Res. 84/2023), $5.685/975,50 = 5,83 (Res. 29/2024) -> US$9 el más alto de los cinco; regional US$25,16 de hasta 300 km a hasta 1.000 km desde 01/01/2027 (6-K), internacional sin cambios US$57 cat. I (-55,9%); no cambian no concesionados (Rosario, Corrientes, Santa Fe $5.685) ni tarifas propias (Ushuaia $18.126, El Calafate y Trelew $16.676, Bahía Blanca $13.685, Neuquén $12.000, Chapelco $11.480)",
+      "angulo": "Antes/Después, ECONOMÍA. Corrida programada del 09/10/2026 18:30, primera candidata probada (pregunta de plata, 3 portadas). Frenada cuatro veces hoy porque el anexo IF-2026-95257538-APN-GREYF#ORSNA no es accesible; ahora el valor está en dos fuentes independientes: la página de tasas del ORSNA (regulador) y el 6-K de Corporación America Airports ante la SEC (empresa regulada). Ángulo propio: la serie de la tarifa medida en dólares (cada valor en pesos se licuó; el nuevo es el más alto desde 2021), los aeropuertos que no cambian y el ejemplo de ida y vuelta. Distinto de la nota del 28/09 (plazo de la concesión, sin valores de tarifa). Sin valor para categorías III y IV (no publicados). Diferencia de fechas: norma 08/12/2026, empresa 'by January 1, 2027'; se usa la norma.",
+      "fecha": "2026-10-09",
+      "estado": "publicada",
+      "articulo_id": "2026-10-09-tasa-aeropuerto-cabotaje-9-dolares",
+      "archivo": "cola/2026-10-09-tasa-aeropuerto-cabotaje-9-dolares.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/10/2026 18:30: exportaciones lácteas US$1.130,4 M ene-ago (+16,7%, OCLA vía La Nación; INDEC + contraste del importador pendiente, sin pregunta de plata), cierre de empresas (La Nación, ámbito; publicada hoy 16:30 por provincia), AGN contra BCRA por el oro (La Nación, iProfesional, Página12; sin informe de la AGN), Telecentro compra iPlan por US$260 M (La Nación; sin documento con el monto), Genneia parque solar San Juan Sur US$110 M (infobae), ovoproductos exportación récord US$20 M (infobae; monto chico), libertad económica puesto 151 de 165 (ámbito; índice de una sola fundación), crédito UVA de US$80.000 y sueldo necesario (ámbito; hipotecarios cubiertos el 02/10 y 07/10), Inocencia Fiscal II reglamentada (multa publicada hoy 08:30), Banco Nación crédito +40% (infobae), expensas (iProfesional; precios privados), paritaria de la alimentación (sin escala homologada), BTS en La Plata (precios privados), empresas CNV/SEC (Nuevo Continente balance al 31/07, IRSA prospecto de fusión, Camuzzi préstamos Banco Macro, Central Puerto recompra, YPF recompra de ON, ICBC programa de ON, Patagonia dividendos: ya descartadas hoy o sin cifra ancla nueva; cupo de EMPRESAS cubierto hoy con AySA, Río Turbio, Tecpetrol y Fabricaciones Militares); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 09/10/2026 18:30; ganó la tasa de uso de aeroestación de cabotaje en dólares (primera candidata, APTA).",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }
