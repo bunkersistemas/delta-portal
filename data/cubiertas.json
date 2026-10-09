@@ -3460,6 +3460,30 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "tasa de embarque en dólares / Resolución ORSNA 69/2026 (BO 09/10/2026, infobae 'nuevas tarifas para operar en 30 aeropuertos'): nuevo cuadro tarifario del Grupo A de AA2000, la TUA doméstica pasa de pesos a dólares, exigible a los 60 días; Tasa de Aterrizaje Internacional con la bonificación IATA del 30% incorporada; TUA de cabotaje vigente CAT I $5.685 (Res. ORSNA 29/2024, página de tasas del ORSNA)",
+      "angulo": "Corrida programada del 09/10/2026 06:30, primera candidata (pregunta de plata: cuánto va a costar la tasa de embarque de cabotaje). FRENADA: los valores nuevos están solo en el anexo IF-2026-95257538-APN-GREYF#ORSNA, que no se pudo leer (ni en el detalle del aviso, ni con ?anexos=1, ni en el PDF del aviso, ni en la página de tasas del ORSNA, actualizada a octubre pero con los valores en pesos). Sin cifra ancla. Retomable cuando el ORSNA o la ANAC publiquen el cuadro.",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "cifra ancla no disponible: el anexo con los valores en dólares no es accesible"
+    },
+    {
+      "tema": "cuánto invierte Tecpetrol en Vaca Muerta con el RIGI / Resolución MEcon 1771/2026 (08/10/2026, BO 09/10/2026): adhesión de Tecpetrol S.A. Gas y Petróleo del Neuquén S.A. UT RIGI Los Toldos U.T.E. como PEELP; Los Toldos II Este, 78 km², Pehuenches; 380 pozos horizontales; CPF 70.000 bbl/d y 3.600.000 Sm3/d; etapas: 1) 01/11/2024-28/02/2027 US$1.635 M, 16 pozos; 2) 01/03/2027-30/06/2029 US$1.268 M, 91 pozos; 3) 01/07/2029-2054 US$3.529 M, 273 pozos; total US$6.432 M (54,9% en la etapa 3; 45,1% = US$2.903 M hasta jun-2029); dos primeros años US$1.182.281.332 + US$577.933.468 = US$1.760.214.800; mínimo PEELP US$2.000 M al 31/08/2027; adhesión 09/09/2026; pedido 20/03/2026; Acta Comité 27 del 20/08/2026; comparación Res. 1025/2026 Rincón de Aranda US$4.521 M (1.159/1.107/2.255, etapa 3 49,9%); 70.000 bbl/d = 7,7% de 912.939 bbl/d de jul-26 (SE)",
+      "angulo": "Anatomía de un dato, EMPRESAS. Corrida programada del 09/10/2026 06:30, segunda candidata (la primera, tasa de embarque en dólares, frenó). Ángulo nuevo frente al anuncio del 19/08 (US$6.400 M redondeado): el reparto por etapas y años que recién publica la resolución, y por qué en marzo circuló US$2.400 M (horizonte a 2028) y en agosto US$6.400 M. Verificación: dos fuentes que coinciden: texto completo de la resolución en el BO (sumas recalculadas: 6.432, 380 pozos, 1.760.214.800) + anuncio del Ministerio de Economía del 19/08/2026 (Perfil, El Cronista: US$6.400 M); contraste de la empresa: Tecpetrol, más de US$2.000 M hasta fines de 2027 (Perfil), coherente con etapa 1 + inicio de etapa 2. Sin superlativos (no se usa 'el mayor RIGI petrolero' de El Cronista). La producción actual del área no se publica (sin dato oficial a mano).",
+      "fecha": "2026-10-09",
+      "estado": "publicada",
+      "articulo_id": "2026-10-09-rigi-tecpetrol-los-toldos-6432-millones",
+      "archivo": "cola/2026-10-09-rigi-tecpetrol-los-toldos-6432-millones.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/10/2026 06:30: tasa de embarque en dólares (ORSNA 69/2026, frenada aparte), Ley 27.826 régimen penal tributario (BO 09/10; los pisos de evasión ya publicados el 30/09 con la Ley 27.799; la nueva ley no trae montos penales), ARCA RG 5910/2026 tráfico vecinal fronterizo (tope US$150 por poblador, sin cambio de monto desde la RG 1336/2002), cuánto se puede transferir entre cuentas propias sin que ARCA lo informe (ámbito, iProfesional, Cronista; ya respondida por todos los medios), AGN contra BCRA por el oro (infobae, La Nación, iProfesional; sin informe de la AGN), Telecentro compra iPlan por US$260 M (infobae, La Nación; sin documento con el monto), Genneia parque solar US$110 M (infobae, La Nación), faena vacuna (La Nación), producción minera +8,4% (La Nación; IPI minero ya evaluado el 08/10), AySA (cubierta), Electrofueguina (cubierta), empleadas domésticas (publicada 25/09), discapacidad (nomenclador publicado 26/09), premios de copas (publicada 06/10), Boca-Vasco y despedida de Messi (sin documento de montos), empresas CNV/SEC (IRSA prospecto de fusión, Camuzzi préstamos Banco Macro, YPF recompra de ON, ICBC programa de ON, Central Puerto recompra, INVAP asamblea); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 09/10/2026 06:30; ganó el RIGI de Tecpetrol (segunda candidata, APTA). Cupo de EMPRESAS ya cubierto hoy (AySA y Río Turbio); la nota igual es de la sección por ser de una empresa con documento de regulador.",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }
