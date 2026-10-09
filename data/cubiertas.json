@@ -3626,6 +3626,21 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuántos ceros le sacaron al peso argentino (propuesta de Horacio Tomás Liendo (h) de una unidad de cuenta 'peso actual' = $1.000 indexada por CER, 'le saco los tres ceros', El Cronista 09/10/2026) / 13 ceros entre 1970 y 1992: Ley 18.188 art. 1 ($1 = 100 m$n, vigente 01/01/1970), Ley 22.707 art. 1 ($a 1 = $ ley 10.000, vigente 01/06/1983), Decreto 1096/85 art. 1 (A 1 = $a 1.000, vigente 15/06/1985), Decreto 2128/91 art. 2 ($1 = A 10.000, vigente 01/01/1992, art. 3 un peso por dólar)",
+      "angulo": "Pregunta de plata detrás de la propuesta: cuántos ceros perdió ya la moneda. Ángulo propio: el peso de 1992 nació a $1 por dólar (Decreto 2128 art. 3) y el 09/10/2026 el mayorista A 3500 es $1.515,8766 (BCRA API Monetarias var. 5): el dólar ganó tres cifras, las mismas que propone quitar Liendo. El peso actual lleva 34 años y 9 meses, más que peso ley + peso argentino + austral juntos (22 años, fechas del BCRA). Con tres ceros menos: SMVM $391.200 (Res. CNEPYSMVM 4/2026) -> $391,20; billete de $20.000 (el mayor vigente, BCRA) -> $20. Cifra ancla CONFIRMADA por dos fuentes que coinciden: texto de cada norma (InfoLEG / argentina.gob.ar) y página del BCRA 'emisiones anteriores'. Diferencia de fecha de la Ley 18.188 (InfoLEG 15/04/1969, BCRA 05/04/1969) explicada en la nota.",
+      "fecha": "2026-10-09",
+      "estado": "publicada",
+      "articulo_id": "2026-10-09-cuantos-ceros-le-sacaron-al-peso"
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/10/2026 20:30: Metrotel incorpora al fondo Nippur con el 51% y lanza Tuenti (La Nación; sin documento primario con monto), Telecentro compra iPlan por US$260 M (La Nación; sin documento con el monto), Genneia parque solar San Juan Sur US$110 M (infobae), recesión técnica bonaerense (ámbito, Cronista; estimación de una sola fuente, Banco Provincia), Ciudad y bono para pagar proveedores (descartada hoy), Belgrano Cargas y dos ramales (La Nación; sin cifra ancla), Plus Ultra reduce vuelos a Madrid (infobae; descartada el 07/10), calendario ANSES de la PNC y la PUAM (PUAM publicada el 05/10), salario mínimo de octubre y su cronograma (iProfesional; publicado el 01/09 y el 26/09), pensiones por invalidez (publicada el 27/09), docente universitario, salario rural y empleadas domésticas (publicadas), AGN contra BCRA por el oro (sin informe de la AGN), empresas CNV/SEC (Nuevo Continente balance al 31/07, IRSA prospecto de fusión, Camuzzi préstamos Banco Macro, Central Puerto recompra, YPF recompra de ON y compra de YPF Luz, ICBC programa de ON, Patagonia dividendos, INVAP, A3: ya descartadas o cubiertas hoy; cupo de EMPRESAS cubierto hoy con AySA, Río Turbio, Tecpetrol y Fabricaciones Militares); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 09/10/2026 20:30; ganó cuántos ceros le sacaron al peso (primera candidata, APTA).",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }
