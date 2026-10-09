@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 09 Oct 2026 10:55:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 14:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Tesoro le giró $20.280 millones a Fabricaciones Militares en 2025, y lo que la empresa vendió no alcanzó ni para pagar los sueldos</title>
+      <link>https://coninteres.com/articulos/2026-10-09-cuanto-le-cuesta-fabricaciones-militares-al-estado.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-09-cuanto-le-cuesta-fabricaciones-militares-al-estado.html</guid>
+      <pubDate>Fri, 09 Oct 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Fabricaciones Militares, la empresa estatal de municiones, pólvoras y explosivos, informó ventas por $34.459 millones en 2025 y gastó $35.519 millones en sueldos. El Tesoro le cubrió el 57% de esa cuenta. Descontada la inflación, la ayuda es 58% menor que en 2023, y en 2026 sigue bajando.</description>
+      <ci:numero>$20.280 M</ci:numero>
+      <ci:numeroEtiqueta>transferencias del Tesoro a Fabricaciones Militares en 2025 (Presupuesto Abierto y Oficina Nacional de Presupuesto)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-cuanto-le-cuesta-fabricaciones-militares-al-estado.png" length="74596" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-cuanto-le-cuesta-fabricaciones-militares-al-estado.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El microcrédito bonaerense de hasta $10 millones cobra 22,5% anual con la bonificación de la Provincia: la mitad de la tasa normal</title>
       <link>https://coninteres.com/articulos/2026-10-09-microcredito-provincia-10-millones-tasa-bonificada.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>variación interanual del índice de producción industrial pesquero de agosto de 2026 (INDEC, 06/10/2026), contra agosto de 2025, el agosto más alto de la serie que empieza en 2012</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos.png" length="69823" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-pesca-agosto-cae-17-ocho-meses-mas-altos.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El mercado recortó a 1,5% lo que espera que crezca la economía en 2026, la mitad del 3% del Presupuesto, y estima que el PBI cayó 1% en el tercer trimestre</title>
-      <link>https://coninteres.com/articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html</guid>
-      <pubDate>Tue, 06 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Los 44 analistas que consulta el Banco Central bajaron a 1,5% el crecimiento que esperan para 2026, desde 2,1% en agosto y 3,0% en junio: es el pronóstico más bajo en los 34 relevamientos que preguntaron por este año. Además estiman que el PBI cayó 1,0% en el tercer trimestre. Después del −0,6% del segundo, serían dos trimestres seguidos en baja, algo que no pasa desde mediados de 2024.</description>
-      <ci:numero>1,5%</ci:numero>
-      <ci:numeroEtiqueta>crecimiento del PBI que espera para 2026 la mediana de los 44 analistas del REM del BCRA (septiembre de 2026, publicado el 06/10/2026); en junio esperaban 3,0%, lo mismo que supone el Presupuesto 2027</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.png" length="81106" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

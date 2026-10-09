@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-09T10:55:53-03:00",
+    "actualizado": "2026-10-09T14:41:35-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-09-cuanto-le-cuesta-fabricaciones-militares-al-estado",
+      "titulo": "El Tesoro le giró $20.280 millones a Fabricaciones Militares en 2025, y lo que la empresa vendió no alcanzó ni para pagar los sueldos",
+      "bajada": "Fabricaciones Militares, la empresa estatal de municiones, pólvoras y explosivos, informó ventas por $34.459 millones en 2025 y gastó $35.519 millones en sueldos. El Tesoro le cubrió el 57% de esa cuenta. Descontada la inflación, la ayuda es 58% menor que en 2023, y en 2026 sigue bajando.",
+      "titulo_busqueda": "¿Cuánto le cuesta Fabricaciones Militares al Estado? Lo que le giró el Tesoro y lo que vendió",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "$20.280 M",
+      "numero_label": "transferencias del Tesoro a Fabricaciones Militares en 2025 (Presupuesto Abierto y Oficina Nacional de Presupuesto)",
+      "fecha": "2026-10-09",
+      "hora": "14:30",
+      "archivo": "articulos/2026-10-09-cuanto-le-cuesta-fabricaciones-militares-al-estado.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-09-microcredito-provincia-10-millones-tasa-bonificada",
       "titulo": "El microcrédito bonaerense de hasta $10 millones cobra 22,5% anual con la bonificación de la Provincia: la mitad de la tasa normal",
