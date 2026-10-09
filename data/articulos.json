@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-08T20:41:40-03:00",
+    "actualizado": "2026-10-08T22:46:20-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-08-cuanto-cuesta-un-preso-carceles-federales",
+      "titulo": "Cada preso de las cárceles federales le costó al Estado $3.431.239 por mes en 2025: 19% menos que en 2022, descontada la inflación",
+      "bajada": "El Servicio Penitenciario Federal gastó $493.357 millones en 2025 y alojó en promedio a 11.982 personas. Ocho de cada diez pesos fueron sueldos de su personal. Hay más presos que en cualquier diciembre desde 2020, pero la plata por cada uno, en pesos constantes, quedó cerca del piso de los últimos cinco años.",
+      "titulo_busqueda": "¿Cuánto cuesta un preso en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$3.431.239",
+      "numero_label": "gasto del Servicio Penitenciario Federal por preso y por mes en 2025: $493.357,2 millones devengados (Presupuesto Abierto, servicio 331) / 11.982 presos promedio (PROCUVIN) / 12",
+      "fecha": "2026-10-08",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-08-cuanto-cuesta-un-preso-carceles-federales.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-08-ypf-luz-compra-participacion-bnr-430-millones",
       "titulo": "YPF pagará US$430 millones por el 24,99% de YPF Luz, la misma porción por la que General Electric puso US$275 millones en 2018",

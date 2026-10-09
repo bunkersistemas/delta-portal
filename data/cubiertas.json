@@ -3388,6 +3388,30 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto perdió el BCRA con el oro (RETOMADA) / AGN: pérdida de US$1.023 M en derivados sobre oro en 2025 contra resultado neto positivo de US$2.505 M según el comunicado del BCRA del 08/10/2026",
+      "angulo": "Corrida programada del 08/10/2026 22:30, primera candidata probada (pregunta de plata, infobae, La Nación, ámbito, iProfesional). FRENADA: el informe ni el comunicado de la AGN están publicados en un sitio accesible (agn.ar no muestra contenido; ninguna nota los enlaza) y el comunicado del BCRA (bcra.gob.ar/noticias/resultado-neto-positivo-oro-2025/) no trae onzas, precios ni el monto de las coberturas. Los estados contables 2025 del BCRA sí dan: oro 1.984,96 miles de onzas troy a US$4.326,01 (US$2.623,45 en 2024), diferencia de cotización del oro $8.002.499.977 miles y 'operaciones con instrumentos derivados' (−$1.026.657.400 miles, línea que no separa el oro). Recalculada desde el balance, la suba por precio da unos US$3.380 M; menos US$1.023 M quedan US$2.357 M, no los US$2.505 M del BCRA. Las cifras de las dos partes no cierran entre sí ni con el balance. Retomable con el informe de auditoría de la AGN publicado.",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "cifra ancla sin documento accesible de la AGN; las cifras del BCRA y la AGN no cierran con el balance"
+    },
+    {
+      "tema": "cuánto cuesta un preso en la Argentina (traslado de Devoto a Marcos Paz, El Cronista 08/10/2026; RETOMA desde otro ángulo la mudanza de Devoto descartada el 27/09 por el costo de la obra) / gasto del Servicio Penitenciario Federal por preso: devengado 2025 del servicio 331 $493.357,2 M (Presupuesto Abierto credito-anual-2025, igual a la suma de credito-mensual-2025) / población promedio 11.982 (PROCUVIN informe anual 2025, 12 cierres mensuales; contraste PPN Informe Anual 2025: 12.152 al 24/12/2025 contra 12.166 PROCUVIN) = $41.174.862 por año, $3.431.239 por mes, $112.808 por día; en pesos de 2025, por mes: 2021 4.150.391, 2022 4.236.163, 2023 4.127.427, 2024 3.354.667 (−19,0% 2025 contra 2022); gasto real −14,2% 2022-2025, presos dic-22 11.349 a dic-25 12.166 (+7,2%, máximo de la serie PROCUVIN desde 2020); personal permanente 79,1%, alimentos 12,6% ($14.219 por preso y por día); Devoto 1.521 presos con cupo 1.186 (+32%, PPN p. 59)",
+      "angulo": "Anatomía de un dato: el costo por preso de las cárceles federales, su caída real desde 2022 mientras la población crece, y en qué se va la plata. Distinto del descarte del 27/09 (costo de la obra de Marcos Paz, sin cifra). Corrida programada del 08/10/2026 22:30, segunda candidata probada (el oro del BCRA frenado). Verificación: cálculo propio sobre dos registros oficiales; gasto recalculado con la base mensual, población contrastada entre PROCUVIN y PPN (0,1%).",
+      "fecha": "2026-10-08",
+      "estado": "publicada",
+      "articulo_id": "2026-10-08-cuanto-cuesta-un-preso-carceles-federales",
+      "archivo": "cola/2026-10-08-cuanto-cuesta-un-preso-carceles-federales.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 08/10/2026 22:30: oro del BCRA (frenado aparte), AySA US$340 M (infobae, La Nación, ámbito, Cronista, Página12), Telecentro compra iPlan por US$260 M (infobae, La Nación), IPI minero de agosto +8,4% con petróleo crudo 4.606,2 miles de m3 (máximo de la serie INDEC desde 2017; no convencional +26,9%) y oro y plata −25,2% (La Nación, calendario INDEC de hoy), RIGI gasto tributario US$8.500 M (iProfesional), faena vacuna −1 millón de cabezas en nueve meses (La Nación), Genneia parque solar US$110 M (infobae, La Nación), Banco Mundial 2,1% (iProfesional), Granja Tres Arroyos 1.250 despidos (iProfesional), Black Hawk de Colombia (iProfesional), prórroga de Ganancias (Cronista), empresas CNV (IRSA prospecto de fusión, Camuzzi préstamos Banco Macro, Patagonia dividendos, ICBC ampliación de ON)",
+      "angulo": "NO TOMADAS en la corrida programada del 08/10/2026 22:30; ganó el costo por preso de las cárceles federales (segunda candidata, APTA). Hoy ya hay dos notas de EMPRESAS (La Anónima e YPF Luz): no rige el cupo. AySA: sigue sin acta ni resolución oficial (frenada dos veces hoy). Telecentro-iPlan y Genneia: sin documento presentado con el monto. IPI minero: el récord de petróleo ya se publicó el 22/07 y el 31/08 con datos de la Secretaría de Energía; la caída de oro y plata queda retomable con el detalle por mina. RIGI: estimación privada, descartada el 06, 07 y 08/10. Faena: sin la serie oficial a mano en esta corrida, retomable con los datos de la Secretaría de Agricultura. Banco Mundial: proyección, cubierta con el REM el 06/10. Tres Arroyos: sin documento con cifra. Black Hawk: descartado el 29/09. Ganancias: fechas sin cifra. IRSA, Camuzzi, Patagonia e ICBC: sin cifra ancla leída. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-08",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }

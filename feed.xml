@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 08 Oct 2026 20:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 08 Oct 2026 22:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Cada preso de las cárceles federales le costó al Estado $3.431.239 por mes en 2025: 19% menos que en 2022, descontada la inflación</title>
+      <link>https://coninteres.com/articulos/2026-10-08-cuanto-cuesta-un-preso-carceles-federales.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-cuanto-cuesta-un-preso-carceles-federales.html</guid>
+      <pubDate>Thu, 08 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Servicio Penitenciario Federal gastó $493.357 millones en 2025 y alojó en promedio a 11.982 personas. Ocho de cada diez pesos fueron sueldos de su personal. Hay más presos que en cualquier diciembre desde 2020, pero la plata por cada uno, en pesos constantes, quedó cerca del piso de los últimos cinco años.</description>
+      <ci:numero>$3.431.239</ci:numero>
+      <ci:numeroEtiqueta>gasto del Servicio Penitenciario Federal por preso y por mes en 2025: $493.357,2 millones devengados (Presupuesto Abierto, servicio 331) / 11.982 presos promedio (PROCUVIN) / 12</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-cuanto-cuesta-un-preso-carceles-federales.png" length="76877" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-cuanto-cuesta-un-preso-carceles-federales.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>YPF pagará US$430 millones por el 24,99% de YPF Luz, la misma porción por la que General Electric puso US$275 millones en 2018</title>
       <link>https://coninteres.com/articulos/2026-10-08-ypf-luz-compra-participacion-bnr-430-millones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>poder de compra del sueldo de bolsillo de un maestro de grado con 10 años de antigüedad, promedio del país, junio de 2026 contra junio de 2023 (serie CECE-Ministerio de Capital Humano, ajustada por IPC INDEC)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-cobra-maestro-sueldo-docente-inflacion.png" length="84719" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-cobra-maestro-sueldo-docente-inflacion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Boca cobró más por quedar afuera en el grupo de la Libertadores que por llegar a la semifinal de la Sudamericana: US$3,68 millones contra US$2,6 millones</title>
-      <link>https://coninteres.com/articulos/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.html</guid>
-      <pubDate>Tue, 06 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>DEPORTES</category>
-      <description>Son las cuentas de la propia CONMEBOL. Con la escala de premios de 2026, jugar la fase de grupos de la Libertadores paga US$3 millones de entrada y la de la Sudamericana, US$900.000: 3,3 veces más. Esa es la plata que reparte la tabla anual, a seis fechas del final.</description>
-      <ci:numero>US$3,68 M</ci:numero>
-      <ci:numeroEtiqueta>premios que la CONMEBOL le acreditó a Boca por la fase de grupos de la Libertadores 2026 (6 partidos, 2 ganados); por llegar a la semifinal de la Sudamericana sumó US$2,6 M</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.png" length="87650" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
