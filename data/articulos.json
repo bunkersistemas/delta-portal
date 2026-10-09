@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-08T22:46:20-03:00",
+    "actualizado": "2026-10-09T00:45:19-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-09-aysa-oferta-340-millones-transferencias-tesoro",
+      "titulo": "La mejor oferta por el 90% de AySA fue de US$340,2 millones: el Estado le había girado 19 veces eso entre 2017 y 2025",
+      "bajada": "El consorcio de Rowing, Arcos, Transclor y PHX ofreció US$340,2 millones por el 90% de las acciones de AySA, 19,4% más que el grupo Roggio. La oferta le pone a toda la empresa un valor de US$378 millones, menos de lo que AySA ingresó en cuatro meses de 2025. Y es una fracción de lo que el Tesoro le transfirió: unos US$6.600 millones en nueve años.",
+      "titulo_busqueda": "¿Cuánto pagaron por AySA? La mejor oferta fue de US$340,2 millones por el 90%",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$340,2 M",
+      "numero_label": "oferta más alta por el 90% de las acciones de AySA (consorcio Rowing, Arcos, Transclor y PHX)",
+      "fecha": "2026-10-09",
+      "hora": "01:30",
+      "archivo": "articulos/2026-10-09-aysa-oferta-340-millones-transferencias-tesoro.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-08-cuanto-cuesta-un-preso-carceles-federales",
       "titulo": "Cada preso de las cárceles federales le costó al Estado $3.431.239 por mes en 2025: 19% menos que en 2022, descontada la inflación",

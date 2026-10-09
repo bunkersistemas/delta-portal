@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-08",
-  "pregunta": "Según el INDEC, en la serie desestacionalizada la industria cayó 5,1% en julio contra junio y rebotó 1,9% en agosto contra julio. ¿Cuánto tendría que subir en septiembre para volver al nivel de junio?",
+  "fecha": "2026-10-09",
+  "pregunta": "Según la estadística porteña, una familia tipo necesitaba $1.997.378 por mes en septiembre de 2025 para ser de clase media, y $2.669.815 en septiembre de 2026. Si una familia estaba justo en ese piso y sus ingresos subieron 30% en el año, ¿dónde quedó?",
   "opciones": [
-    "Alrededor de 3,4%",
-    "3,2%: lo que resulta de restar 5,1 menos 1,9",
-    "5,1%: lo mismo que cayó en julio"
+    "Arriba del piso: 30% es mucho más de lo que suben los sueldos",
+    "Debajo del piso, por unos $73.000 por mes",
+    "Justo en el piso: 30% es casi lo mismo que la inflación del año"
   ],
-  "correcta": 0,
-  "explicacion": "Los porcentajes no se restan porque cada uno se calcula sobre una base distinta. Si junio vale 100, julio quedó en 94,9 y agosto, 1,9% arriba de julio, en 96,7. Para volver de 96,7 a 100 hay que subir 3,3 puntos sobre 96,7: un 3,4%. Por la misma razón, después de una caída hace falta una suba porcentual más grande que la caída para recuperar el nivel: para revertir un −5,1% hace falta un +5,4%, no un +5,1%.",
-  "nota": "articulos/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.html",
+  "correcta": 1,
+  "explicacion": "El piso de la clase media no es un monto fijo: se calcula como 1,25 veces la canasta total del hogar, así que sube con los precios de esa canasta. En el último año subió 33,7%, un poco más que la inflación porteña (32,9%). Con 30% de aumento, la familia pasó de $1.997.378 a unos $2.596.591, y el piso ya estaba en $2.669.815. Para mantenerse en la misma posición no alcanza con que el ingreso suba mucho: tiene que subir al menos lo mismo que la canasta que define la línea.",
+  "nota": "articulos/2026-10-08-clase-media-caba-cuanto-hay-que-ganar.html",
   "leccion": ""
 }

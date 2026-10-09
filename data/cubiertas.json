@@ -3412,6 +3412,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto pagaron por AySA (RETOMADA, frenada tres veces el 08/10 por falta de documento oficial) / comunicado del Ministerio de Economía del 08/10/2026 (apertura de ofertas económicas, licitación 504/2-0003-LPU26): Rowing-Arcos-Transclor-PHX US$340.200.000 y Roggio ROAS US$285.000.000 por el 90% (+19,4%); valor implícito del 100% US$378,0 M; plan 2027-2031 $2,89 billones de dic-25 sin IVA (≈US$1.988 M a $1.455); ME: transferencias del Tesoro 2006-2023 más de US$13.400 M; serie propia Presupuesto Abierto 2017-2025 en dólares al tipo de cambio oficial promedio anual del BCRA ≈US$6.596,7 M (19,4 veces la oferta; 2021 US$1.589,4 M); ingresos corrientes 2025 ONP $1.426.575,5 M / $1.245,90 = US$1.145 M (4 meses US$381,7 M)",
+      "angulo": "Anatomía de un dato: el precio ofrecido contra lo que el Tesoro le giró a AySA en dólares, el valor implícito de toda la empresa contra sus ingresos y el plan de inversiones. Diferencia con la nota del 06/10 (transferencias en pesos, antes de abrir las ofertas): ahora con el precio oficial y la serie en dólares. Corrida programada del 09/10/2026 00:30, primera candidata (pregunta de plata, 5 portadas el 08/10; cupo EMPRESAS: hoy sin nota de la sección). Verificación: dos fuentes que coinciden: comunicado oficial del Ministerio de Economía + Noticias Argentinas 10:35 desde la apertura pública, con la diferencia de casi 20% atribuida al consorcio ganador. Sin adjudicación todavía: se habla de oferta más alta.",
+      "fecha": "2026-10-09",
+      "estado": "publicada",
+      "articulo_id": "2026-10-09-aysa-oferta-340-millones-transferencias-tesoro",
+      "motivo_descarte": ""
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/10/2026 00:30: IRSA prospecto de fusión aprobado (CNV 08/10), Camuzzi Gas del Sur y Pampeana préstamos del Banco Macro (CNV 07/10), La Anónima dividendos (CNV 08/10), Central Puerto adquisición de acciones propias (HR 05-07/10), YPF recompra de ON (05 y 08/10), ICBC ampliación del programa de ON (08/10), AGN contra BCRA por el oro (infobae, La Nación, ámbito, iProfesional, Cronista), Telecentro compra iPlan por US$260 M (infobae, La Nación), Genneia parque solar US$110 M (infobae, La Nación), cuánta plata se puede transferir entre cuentas propias sin problemas con ARCA (iProfesional), CABA bono para pagar a proveedores (ámbito), Electrofueguina-Frávega (iProfesional), Alberto Ades (cuatro portadas), inflación de septiembre (sale el 13/10)",
+      "angulo": "NO TOMADAS en la corrida programada del 09/10/2026 00:30; ganó la oferta por AySA (primera candidata, APTA; es de la sección EMPRESAS, así que cubre el cupo del día). IRSA: el prospecto de fusión no trae cifra ancla nueva frente al documento de AySA; La Anónima: dividendos ya contados el 08/10; Camuzzi: el visor de la CNV sin monto, tasa ni plazo; Central Puerto, YPF e ICBC: recompras o programas de rutina. Oro del BCRA: frenado el 08/10 22:30, sin informe de la AGN accesible. Telecentro y Genneia: sin documento presentado con el monto. Transferencias y ARCA: pregunta de plata sin serie, pierde contra AySA. CABA bono: proyecto sin documento. Ades: opinión sin cifra. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }
