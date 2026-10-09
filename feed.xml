@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 09 Oct 2026 00:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 09 Oct 2026 03:00:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Tesoro le giró a Río Turbio $119.237 millones en 2025, 38 veces lo que la empresa facturó, y en 2026 le gira algo más, descontada la inflación</title>
+      <link>https://coninteres.com/articulos/2026-10-09-cuanto-le-cuesta-rio-turbio-al-estado.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-09-cuanto-le-cuesta-rio-turbio-al-estado.html</guid>
+      <pubDate>Fri, 09 Oct 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Yacimientos Carboníferos Río Turbio informó ingresos por ventas de $3.150 millones en 2025. El Tesoro le transfirió $119.237 millones, casi todo para pagar sueldos. En los primeros ocho meses de 2026, en pesos constantes, le giró 3,3% más que un año antes.</description>
+      <ci:numero>$119.237 M</ci:numero>
+      <ci:numeroEtiqueta>transferencias del Tesoro a Yacimientos Carboníferos Río Turbio en 2025 (Presupuesto Abierto y Oficina Nacional de Presupuesto)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-cuanto-le-cuesta-rio-turbio-al-estado.png" length="82794" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-cuanto-le-cuesta-rio-turbio-al-estado.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La mejor oferta por el 90% de AySA fue de US$340,2 millones: el Estado le había girado 19 veces eso entre 2017 y 2025</title>
       <link>https://coninteres.com/articulos/2026-10-09-aysa-oferta-340-millones-transferencias-tesoro.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>sueldo bruto mensual de un juez federal de primera instancia sin antigüedad, agosto de 2026 (escala del Consejo de la Magistratura, Acordada CSJN 25/2026; igual al fiscal ante juez de 1ª instancia del MPF)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion.png" length="86464" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Tesoro le giró a AySA 97% menos en 2025 que en 2023, descontada la inflación, y el jueves se abren las ofertas por el 90% de la empresa</title>
-      <link>https://coninteres.com/articulos/2026-10-06-cuanto-le-cuesta-aysa-al-estado.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-06-cuanto-le-cuesta-aysa-al-estado.html</guid>
-      <pubDate>Tue, 06 Oct 2026 09:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>En 2025 el Tesoro nacional le transfirió a AySA $36.600 millones, todo para obras. En 2023 le había girado $285.016 millones, que en pesos de hoy son $1,70 billones: 35 veces más. El jueves 8 de octubre se abren las ofertas económicas de los dos consorcios que compiten por quedarse con la empresa.</description>
-      <ci:numero>−97%</ci:numero>
-      <ci:numeroEtiqueta>caída real de las transferencias del Estado nacional a AySA, 2025 contra 2023 (Presupuesto Abierto, devengado, pesos de agosto de 2026: $1.701.901 M a $48.476 M)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-le-cuesta-aysa-al-estado.png" length="80496" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-06-cuanto-le-cuesta-aysa-al-estado.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
