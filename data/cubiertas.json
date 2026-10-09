@@ -3444,6 +3444,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuántos empleos perdió la industria de Tierra del Fuego (Electrofueguina-Frávega activaría despidos, iProfesional 08/10/2026; la nota de celulares importados del 06/10 dejó explícito que no medía el empleo fueguino) / IPIEC, planilla 14_3_01 personal activo en establecimientos industriales: electrónicas ago-26 5.091 (= BEM N.º 266 pág. 11) vs ago-25 7.718 (revisado; el BEM N.º 254 había publicado 8.167 provisorio, de ahí el −37,7% del boletín y de iProfesional) = −2.627, −34,0%; total seis rubros 9.584 -> 6.564 (−3.020; electrónica 87%; 77,6% del personal industrial); agosto más bajo desde 2009 (3.411; mínimo 2010-2025: ago-19 6.085); may-26 4.900, el mes más bajo desde abr-10 (4.853); pico nov-15 13.820 (−63,2%); dic-25 7.317 -> ene-26 5.425 (−1.892, −25,9%; ene-25 −200), mes del arancel 0% a celulares (Decreto 333/2025, desde 15/01/2026); producción ago-26 764.867 u. (−30,8%), TV −58,9%, celulares −31,2%, aire −24,8%, módulos autos +163,8%; EPH Ushuaia-Río Grande 2T-26 desocupación 8,1% (8,3%), empleo 44,5% (46,1%), actividad 48,5% (50,3%)",
+      "angulo": "Anatomía de un dato, ECONOMÍA PROVINCIAL. Corrida programada del 09/10/2026 04:30, primera candidata (pregunta de plata). Distinto de la nota de celulares importados del 06/10 (comercio exterior, sin empleo) y de la de Chubut del 03/10. Verificación: estadística oficial recalculada (boletín + planilla del IPIEC) con contraste independiente OEDE-SIPA rama 32 TDF 1T-25 6.030 -> 1T-26 5.127 (−15,0%; con rama 29, −18,0%) contra promedio IPIEC 7.075 -> 5.332 (−24,6%): misma dirección, niveles a 4%; diferencia explicada por universo (el IPIEC incluye aire acondicionado, electrodomésticos y autopartes electrónicas que el OEDE clasifica en otras ramas). Se corrige el −37,7% que circula (dato provisorio de 2025).",
+      "fecha": "2026-10-09",
+      "estado": "publicada",
+      "articulo_id": "2026-10-09-electronica-tierra-del-fuego-empleo-agosto",
+      "archivo": "cola/2026-10-09-electronica-tierra-del-fuego-empleo-agosto.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/10/2026 04:30: AGN contra BCRA por el oro (infobae, La Nación, ámbito, iProfesional; sigue sin informe de la AGN publicado), faena vacuna en mínimo (La Nación; sin la serie oficial de septiembre de la SAGyP), IPI minero oro y plata −25,2% (La Nación), Telecentro compra iPlan por US$260 M (infobae, La Nación; sin documento con el monto), CABA bono para pagar a proveedores (ámbito; proyecto sin documento), Banco Nación y el crédito (ámbito), cuánta plata se puede transferir entre cuentas propias sin problemas con ARCA (iProfesional), industria bonaerense y el rubro que perdió 75% del empleo (infobae), Genneia parque solar US$110 M (infobae, La Nación), Corte Suprema y la Ley de Tierras (Cronista, ámbito; tierra extranjera publicada el 30/09), peajes a la Costa +8,9% (iProfesional; publicada el 08/10), empleadas domésticas de octubre (iProfesional; publicada el 25/09), empresas CNV/SEC (IRSA prospecto de fusión aprobado 08/10, Camuzzi Gas del Sur y Pampeana préstamos del Banco Macro 07/10, ICBC ampliación de ON 08/10, YPF recompra de ON 05 y 08/10, Central Puerto adquisición de acciones propias 05-07/10, INVAP síntesis de asamblea 06/10)",
+      "angulo": "NO TOMADAS en la corrida programada del 09/10/2026 04:30; ganó el empleo de la electrónica fueguina (primera candidata, APTA). Empresas: hoy ya hay dos notas de EMPRESAS (AySA y Río Turbio), el cupo no aplica; IRSA, Camuzzi, ICBC, YPF, Central Puerto e INVAP sin cifra ancla nueva en la línea de la CNV o ya cubiertas. Oro del BCRA: frenado el 08/10 por falta del informe de la AGN; la búsqueda de hoy tampoco lo encontró. Faena y oro y plata: retomables con la serie oficial. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "fecha": "2026-10-09",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }
