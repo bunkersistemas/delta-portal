@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 10 Oct 2026 04:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 06:40:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La salud mental tiene $1,47 de cada $100 del presupuesto nacional de salud en 2026, la porción más chica en cuatro años: la ley pide $10</title>
+      <link>https://coninteres.com/articulos/2026-10-10-presupuesto-salud-mental-ley-10-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-10-presupuesto-salud-mental-ley-10-por-ciento.html</guid>
+      <pubDate>Sat, 10 Oct 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Estado nacional tiene asignados $138.292 millones a salud mental y adicciones este año. La Ley 26.657 fija un piso del 10% del presupuesto de salud desde 2013, y para llegar harían falta $942.184 millones: 6,8 veces más. La porción venía de 2,62% en 2023.</description>
+      <ci:numero>1,47%</ci:numero>
+      <ci:numeroEtiqueta>porción del presupuesto nacional de salud 2026 asignada a salud mental y adicciones (Presupuesto Abierto, crédito vigente al 07/10/2026): $138.291,6 M de SEDRONAR, hospitales Ramón Carrillo y Laura Bonaparte y la actividad Apoyo y Promoción de la Salud Mental, sobre $9.421.841,5 M de la función Salud; la Ley 26.657 pide 10%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-10-presupuesto-salud-mental-ley-10-por-ciento.png" length="83081" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-10-presupuesto-salud-mental-ley-10-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Telecom quedó con 58 de cada 100 líneas móviles al comprar Movistar, y aun después de ceder 6 millones a Tuenti seguirá con cerca de la mitad</title>
       <link>https://coninteres.com/articulos/2026-10-10-telecom-movistar-tuenti-lineas-moviles-mercado.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>tope anual para devolver saldos de IVA a empresas de servicios públicos con tarifas subsidiadas, créditos de 2025 (Res. MEcon 1759/2026, BO 07/10/2026); 6,1% del tope de 2019 en términos reales</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-tope-devolucion-iva-servicios-publicos-subsidios.png" length="82602" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-tope-devolucion-iva-servicios-publicos-subsidios.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina tuvo en agosto más inflación que Turquía y que cualquier país de la OCDE: 33,5% contra 31,5%</title>
-      <link>https://coninteres.com/articulos/2026-10-07-inflacion-argentina-turquia-ocde.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-07-inflacion-argentina-turquia-ocde.html</guid>
-      <pubDate>Wed, 07 Oct 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Según el informe de precios de la OCDE del 6 de octubre, en agosto la inflación interanual de la Argentina, 33,5%, superó a la de Turquía, 31,5%, y quedó por encima de la de los 38 países del organismo y del resto del G20 que publica. Es casi ocho veces el promedio de la OCDE (4,3%). Desde octubre de 2025, la tasa argentina subió 2,2 puntos y la turca bajó 1,4.</description>
-      <ci:numero>33,5%</ci:numero>
-      <ci:numeroEtiqueta>inflación interanual de la Argentina en agosto de 2026 (INDEC), la más alta de la tabla de la OCDE y el G20; Turquía, 31,5%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-inflacion-argentina-turquia-ocde.png" length="70339" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-inflacion-argentina-turquia-ocde.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

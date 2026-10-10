@@ -3743,6 +3743,21 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto gasta el Estado en salud mental (Día Mundial de la Salud Mental, 10/10/2026; art. 32 de la Ley 26.657: piso del 10% del presupuesto de salud) / Presupuesto Abierto crédito anual 2023-2026: SEDRONAR + hospitales Ramón Carrillo y Laura Bonaparte (ANES programas 19 y 16 en 2026) + MinSalud prog. 42 Apoyo y Promoción de la Salud Mental; 2026 vigente al 07/10 $138.291,6 M (73.271,9 + 44.587,5 + 19.484,7 + 947,5) sobre función Salud $9.421.841,5 M = 1,468%; 2023 2,62%, 2024 1,93%, 2025 1,69% (vigente); 10% = $942.184 M, 6,8 veces; sin SEDRONAR 0,69%; Apoyo y Promoción inicial $47,7 M -> vigente $947,5 M, devengado 40,8%",
+      "angulo": "Corrida programada del 10/10/2026 06:30, primera candidata probada (pregunta de plata detrás del Día Mundial de la Salud Mental). Anatomía de un dato: la porción contra el piso legal y su serie 2023-2026. Verificación por estadística oficial recalculada con contraste independiente: el mismo método aplicado al crédito inicial 2026 da 1,419% (ACIJ, nov-2025: 1,42%) y a lo devengado en 2023 2,662% (ACIJ: nunca superó 2,66%); los montos por partida 2026 de ACIJ coinciden con la base.",
+      "fecha": "2026-10-10",
+      "estado": "publicada",
+      "articulo_id": "2026-10-10-presupuesto-salud-mental-ley-10-por-ciento"
+    },
+    {
+      "tema": "descartes de la corrida programada del 10/10/2026 06:30: oro del BCRA y la AGN (infobae, La Nación, iProfesional, Página12; frenado el 10/10 02:30, sin novedad), cuánto se cobra por trabajar el feriado del 12/10 (pregunta de plata; regla de la LCT sin cifra ancla nueva, salario mínimo publicado), crecida del río Uruguay en Concordia (infobae; sin documento con montos), dólares fuera del sistema 27,6% del PBI (infobae; posición de inversión internacional publicada el 29/09), Metrotel-Tuenti (publicada hoy 04:30), pensiones por invalidez truchas (iProfesional; sin documento oficial), salario mínimo de octubre (iProfesional; publicado), costo fiscal del RIGI a dos años (iProfesional; estimación de una consultora), recesión técnica bonaerense (ámbito, Cronista; una sola fuente), empresas CNV/SEC (Nuevo Continente balance al 31/07 y Camuzzi préstamos del Banco Macro: visor sin documento ni cifra; Central Puerto recompras, YPF, IRSA, ICBC, INVAP, A3, TRANSENER, Patagonia: ya descartadas o cubiertas; cupo de EMPRESAS ya cubierto hoy con Telecom); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "Corrida programada del 10/10/2026 06:30. La primera candidata (presupuesto de salud mental contra el 10% de la Ley 26.657) pasó la verificación y quedó en cola.",
+      "fecha": "2026-10-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }
