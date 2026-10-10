@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-09T20:40:54-03:00",
+    "actualizado": "2026-10-09T22:47:18-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-09-ropa-importada-record-2025",
+      "titulo": "La Argentina importó ropa por US$650 millones en 2025, el doble que en 2024 y 26% más que el récord anterior, de 2018",
+      "bajada": "Mientras la industria textil le pide a la Aduana más controles, los números oficiales muestran el tamaño de la ola: en 2025 entraron 38,1 millones de kilos de ropa, el 71% de China, y cada kilo llegó a US$17,08, el precio más bajo desde 2007. En 2026 sigue creciendo: entre enero y agosto, 28,1% más en dólares y 53,5% más en kilos.",
+      "titulo_busqueda": "¿Cuánta ropa importa la Argentina? En 2025 fueron US$650 millones, el récord de la serie del INDEC",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$650 M",
+      "numero_label": "ropa importada por la Argentina en 2025 (capítulos 61 y 62, valor FOB, INDEC): 97,0% más que en 2024 y 25,8% más que el récord anterior, 2018",
+      "fecha": "2026-10-09",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-09-ropa-importada-record-2025.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-09-cuantos-ceros-le-sacaron-al-peso",
       "titulo": "La Argentina le sacó 13 ceros a su moneda entre 1970 y 1992, y desde la convertibilidad el dólar pasó de $1 a $1.515,88: tres cifras más",
