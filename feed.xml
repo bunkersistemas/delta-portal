@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 10 Oct 2026 00:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 10 Oct 2026 04:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Telecom quedó con 58 de cada 100 líneas móviles al comprar Movistar, y aun después de ceder 6 millones a Tuenti seguirá con cerca de la mitad</title>
+      <link>https://coninteres.com/articulos/2026-10-10-telecom-movistar-tuenti-lineas-moviles-mercado.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-10-telecom-movistar-tuenti-lineas-moviles-mercado.html</guid>
+      <pubDate>Sat, 10 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Con la compra de Movistar, Telecom sumó 36,9 millones de los 63,4 millones de accesos móviles que contaba el ENACOM: el 58,1%, según el dictamen de la Autoridad Nacional de la Competencia. Para aprobarla, el Tribunal le ordenó ceder 6 millones de clientes a un tercer operador. Hecha la cuenta con los mismos datos, Telecom queda con el 48,7%; con los balances de junio de 2026, con el 51,2%.</description>
+      <ci:numero>58,1%</ci:numero>
+      <ci:numeroEtiqueta>de las líneas móviles del país suman Personal y Movistar, hoy de Telecom (ANC con datos del ENACOM, 3T-2024)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-10-telecom-movistar-tuenti-lineas-moviles-mercado.png" length="74111" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-10-telecom-movistar-tuenti-lineas-moviles-mercado.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La SIDE tiene $26.564 millones para gastos reservados en 2026, casi el doble que en 2025, y en nueve meses ya usó el 69%</title>
       <link>https://coninteres.com/articulos/2026-10-10-side-gastos-reservados-2026.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>inflación interanual de la Argentina en agosto de 2026 (INDEC), la más alta de la tabla de la OCDE y el G20; Turquía, 31,5%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-inflacion-argentina-turquia-ocde.png" length="70339" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-inflacion-argentina-turquia-ocde.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>INVAP facturó $440.085 millones en su último ejercicio, 6,4% más que el anterior, pero los satélites vendieron 46% menos y la ganancia cayó por cuarto año seguido</title>
-      <link>https://coninteres.com/articulos/2026-10-07-invap-facturacion-satelites-nuclear-balance.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-07-invap-facturacion-satelites-nuclear-balance.html</guid>
-      <pubDate>Wed, 07 Oct 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Según sus estados financieros al 30 de junio de 2026, presentados ante la CNV, INVAP facturó $440.085 millones en su último ejercicio, 6,4% más que el anterior descontada la inflación. Pero el negocio espacial, el del satélite SABIA-Mar que se lanzaría en 2027, vendió 46,4% menos, y la ganancia neta, $6.490 millones, cayó por cuarto año seguido. Lo nuclear ya es 72 de cada 100 pesos que factura.</description>
-      <ci:numero>$440.085 M</ci:numero>
-      <ci:numeroEtiqueta>facturación consolidada de INVAP entre julio de 2025 y junio de 2026, en pesos de junio de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-invap-facturacion-satelites-nuclear-balance.png" length="83794" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-invap-facturacion-satelites-nuclear-balance.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

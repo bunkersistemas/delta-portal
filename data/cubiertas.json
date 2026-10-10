@@ -3728,6 +3728,21 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas"
+    },
+    {
+      "tema": "cuántas líneas móviles tiene cada compañía y cuánto le queda a Telecom tras ceder 6 millones (Metrotel cambia de dueños y lanzará Tuenti: Infobae y La Nación 09/10/2026) / ANC dictamen SCE RE-2026-48551898 (14/05/2026) tabla 8, accesos 3T-2024 con datos ENACOM: Telefónica 15.453.607, Telecom 21.411.729, conjunta 36.865.336 (58,1%), Claro 26.528.598 (41,8%), total 63.402.551, HHI 3.485 -> 5.134; Res. RESFC-2026-38-APN-TDC#ANC (17/06/2026): ceder 6.000.000 clientes (4 M AMBA, 2 M resto); con cesión Telecom 48,7%, nuevo operador 9,5%, HHI ~4.210 (cálculo propio); Telecom 6-K 07/08/2026: Personal 19,4 M (-7,1%), Movistar 19,5 M con M2M, ARPU 1S-26 $11.772,2 y $9.840,4; América Móvil 2T-26: Claro 26.401 miles; ENACOM 2T-26 64.282.292 accesos -> Personal+Movistar 60,5%, con cesión 51,2%",
+      "angulo": "Corrida programada del 10/10/2026 04:30, primera candidata probada (empresas, cupo de EMPRESAS vigente; pregunta de plata: cuántos clientes tiene cada compañía y qué pasa con las líneas que van a Tuenti). Ángulo nuevo frente a los descartes de Metrotel-Tuenti del 09 y 10/10 (frenados por falta de documento con el precio): la nota no usa el precio sino la participación de mercado, desde el dictamen de la ANC, y la actualiza con los balances de junio de 2026. Ancla por estadística oficial recalculada (58,14%, HHI 3.485 igual al dictamen) + contraste independiente (6-K de Telecom y América Móvil: 60,5% del total ENACOM, diferencia de método explicada).",
+      "fecha": "2026-10-10",
+      "estado": "publicada",
+      "articulo_id": "2026-10-10-telecom-movistar-tuenti-lineas-moviles-mercado"
+    },
+    {
+      "tema": "descartes de la corrida programada del 10/10/2026 04:30: Día del Asado y cuánto cuesta un asado (Página12; asado/pollo publicada el 02/10 con la misma serie de precios promedio del INDEC), cuántas horas trabaja un argentino (Lula y la semana laboral en Brasil, infobae; menor prioridad), prestadores del PAMI y las actualizaciones (ámbito; sin documento oficial con los valores), Argentina cara o barata en dólares (infobae, ámbito, Cronista; ITCRM publicado el 23/07 y Brasil el 05/10), Ley de Tierras y la Corte (infobae, La Nación, Página12, Cronista; tierra extranjera publicada el 30/09), Malvinas y la ruta Punta Arenas-Malvinas (infobae; Sea Lion publicado), oro del BCRA y la AGN (infobae, La Nación, iProfesional, Página12; frenado el 10/10 02:30), empresas cerradas (publicada 09/10), Inocencia Fiscal II (multa publicada 09/10), BTS en La Plata, fin de semana largo y expensas (precios privados), visita del papa (sin documento con costo), empresas CNV/SEC (Nuevo Continente balance al 31/07 y Camuzzi préstamos del Banco Macro: el visor de la CNV sigue sin documento ni cifra; Central Puerto recompras, YPF, IRSA, ICBC, INVAP, A3, TRANSENER, Patagonia: ya descartadas o cubiertas; Telecom-Telefónica fue la candidata elegida); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "Corrida programada del 10/10/2026 04:30. La primera candidata (Telecom y el reparto de las líneas móviles) pasó la verificación y quedó en cola.",
+      "fecha": "2026-10-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }
