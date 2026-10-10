@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-10T06:40:31-03:00",
+    "actualizado": "2026-10-10T08:41:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-10-presupuesto-deporte-nacional-enard-2026",
+      "titulo": "El Estado nacional tiene $61.296 millones para el deporte en 2026: descontada la inflación, 68% menos que en 2023",
+      "bajada": "Es la suma de los programas nacionales de deporte y el ENARD, el ente que paga las becas y los viajes del alto rendimiento. Entre 2023 y 2026 los precios se multiplicaron por 5,8 y el presupuesto del deporte, por 1,8. Hoy tiene $4 de cada $10.000 del presupuesto nacional; en 2023 tenía $8.",
+      "titulo_busqueda": "¿Cuánta plata pone el Estado en el deporte? $61.296 millones en 2026, 68% menos que en 2023",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−68%",
+      "numero_label": "caída real del presupuesto nacional del deporte entre 2023 y 2026 (Presupuesto Abierto, crédito vigente al 07/10/2026): $61.296,0 M en 2026 (programas de deporte $39.896,0 M + ENARD $21.400,0 M) contra $33.319,3 M en 2023, que con el IPC promedio del INDEC son $192.650 M de 2026",
+      "fecha": "2026-10-10",
+      "hora": "08:30",
+      "archivo": "articulos/2026-10-10-presupuesto-deporte-nacional-enard-2026.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-10-presupuesto-salud-mental-ley-10-por-ciento",
       "titulo": "La salud mental tiene $1,47 de cada $100 del presupuesto nacional de salud en 2026, la porción más chica en cuatro años: la ley pide $10",

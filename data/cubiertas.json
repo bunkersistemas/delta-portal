@@ -3758,6 +3758,13 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánta plata pone el Estado nacional en el deporte (La Nación 10/10/2026 'Que las medallas no tapen los agujeros: el deporte argentino se abrazó a un oro pasajero, pero la plata no alcanza'; Suramericanos Santa Fe 2026) / Presupuesto Abierto crédito anual 2023-2026: programas de deporte (2023 MinTurDep 4+26+27+28; 2024-2025 Turismo y Deportes 11+54+55+57; 2026 Ministerio del Interior 11+54+55+57) + Tesoro prog. 73 ENARD; vigente 2023 22.915,4+10.403,9=33.319,3; 2024 38.741,0+16.000=54.741,0; 2025 35.058,9+20.650=55.708,9; 2026 39.896,0+21.400=61.296,0 (al 07/10); IPC promedio 2023 1.975,0, 2024 6.317,7, 2025 8.966,2, 2026 ene-ago 11.419,3; pesos de 2026: 192.650 / 98.945 / 70.951 / 61.296 = -68,2% vs 2023, -13,6% vs 2025; por $10.000 del total AN 8,25 / 5,70 / 4,33 / 4,02; ENARD real -18,6% vs 2025; becas 2.650 -> 5.700 (-62,8% real); Clubes de Barrio y Pueblo 6.856,5 -> 50,0 (devengado 0); Juegos y Eventos 6.757,1 devengado 4,7%; crédito inicial -55,7%",
+      "angulo": "Corrida programada del 10/10/2026 08:30, primera candidata probada (pregunta de plata detrás de la nota de deportes de La Nación). Anatomía de un dato: serie real 2023-2026 y porción del presupuesto. Verificación por estadística oficial recalculada con contraste independiente: Táctica (vía Ámbito y 442 Perfil, 04/09/2026) midió -68,0% real contra 2023 en la ejecución del 1er semestre 2026; nuestro crédito anual da -68,2%. ENARD contra 2023 no coincide (Táctica -49,3% semestral, nosotros -64,4% anual; el crédito 2023 se duplicó en el año): no se usa, solo la comparación con 2025. Sin superlativos históricos: 'la porción más chica de los cuatro años' con la serie 2023-2026 documentada. Otras candidatas de la lista, no probadas: empresas CNV/SEC (Nuevo Continente balance al 31/07 y Camuzzi préstamos: visor sin documento; resto ya cubiertas; cupo EMPRESAS ya cubierto hoy con Telecom), crédito al consumo de septiembre (ámbito), Argentina 151 de 165 en libertad económica (ámbito; índice de una sola institución), Aeropuertos Argentina US$1.500 M (infobae, La Nación; acta acuerdo publicada el 28/09), egg products récord de exportación (infobae), Chiqui Tapia y facturas de la AFA (La Nación; causa judicial), oro del BCRA y AGN (frenado), empresas cerradas en julio (publicada 09/10). clarin.com y tn.com.ar no accesibles. pregunta.json ya era de hoy.",
+      "fecha": "2026-10-10",
+      "estado": "en_cola",
+      "archivo": "cola/2026-10-10-presupuesto-deporte-nacional-enard-2026.html"
     }
   ]
 }
