@@ -3665,6 +3665,29 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto cobrará Pinamar por registrar UTV, cuatriciclos y motos que entran a las playas (La Nación 09/10/2026: $205.320 de inscripción y $136.880 de renovación desde el 01/12/2026; Pinamar Diario: Asamblea de Mayores Contribuyentes aprobó 300 módulos de inscripción, 200 de renovación y una tasa ambiental de 65/125/375/500 módulos)",
+      "angulo": "FRENADA en la corrida programada del 10/10/2026 00:30 (primera candidata, pregunta de plata).",
+      "fecha": "2026-10-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "cifra ancla sin documento oficial: la reforma del Código Tributario aprobada por la Asamblea de Mayores Contribuyentes no está publicada en el Boletín Oficial municipal (SIBOM, ediciones 393 a 424 revisadas, la última del 05/10/2026), y los montos en pesos de La Nación implican un módulo de $684,40 que no coincide con el valor oficial vigente ($590 desde el 01/01/2026, art. 220 del Código Tributario según la Ordenanza 7159/2025, Boletín 391 del 27/01/2026); no se encontró decreto de actualización del módulo. Retomar cuando se publique la ordenanza con el valor del módulo."
+    },
+    {
+      "tema": "cuánta plata tiene la SIDE para gastos reservados (Yofre deja la Escuela Nacional de Inteligencia, El Cronista 09/10/2026; Presupuesto 2027 en Diputados) / Presupuesto Abierto al 07/10/2026, servicio 302: gastos reservados (3.9.2) vigentes $26.563,9 M (inicial $19.096,9 M + DNU 594/2026 $7.467 M), devengados $18.373,0 M (69,2%); total SIDE inicial $97.135,4 M + DNU 594 $49.261,5 M + DNU 867 $30.518,9 M = vigente $176.915,8 M, devengado $108.137,3 M; 2025 reservados $13.436,6 M; proyecto 2027 $181.472 M",
+      "angulo": "Anatomía de un dato: reservados 2026 casi el doble que 2025 (+44,4% en pesos de agosto de 2026, 6,6 veces 2023) y en nueve meses ya más que todo 2025 sin inflación ($19.140 M contra $18.398 M); presupuesto inicial contra final 2024-2026; gasto mensual récord de septiembre ($25.731 M). Diferencia con Chequeado (17/07 y 08/09) y Perfil (20/09): ejecución al 07/10 y serie real de reservados. Verificación: estadística oficial recalculada desde los DNU (cierra al decimal) con contraste de Chequeado (ejecución a agosto $82.406 M = suma propia $82.406,5 M).",
+      "fecha": "2026-10-10",
+      "estado": "publicada",
+      "articulo_id": "2026-10-10-side-gastos-reservados-2026"
+    },
+    {
+      "tema": "descartes de la corrida programada del 10/10/2026 00:30: Pinamar registro de UTV (frenada aparte), empresas CNV/SEC (Nuevo Continente balance al 31/07 y Camuzzi Gas del Sur y Pampeana préstamos del Banco Macro: el visor de la CNV sigue devolviendo solo el formulario, sin documento ni cifra; Central Puerto recompras diarias, YPF recompra de ON y compra de YPF Luz, IRSA fusión, ICBC, INVAP, A3, TRANSENER, Patagonia: ya descartadas o cubiertas), proyecto de discapacidad con costo de hasta $1,2 billones (infobae; proyección sin documento oficial), costo fiscal del RIGI (iProfesional; estimación de una consultora), Metrotel-Tuenti (sin documento con monto), AGN y el oro del BCRA (sin informe de la AGN), compras del BCRA (publicada 08/10), Aeropuertos 2030 (publicada 28/09), tasa de uso aeroportuario (publicada 09/10), empresas cerradas (publicada 09/10), recesión bonaerense (una sola fuente), libertad económica (índice de una fundación), Boca semis de la Sudamericana (premios publicados el 06/10), Red Bull y Horner, Cristiano Ronaldo, BTS en La Plata y expensas (sin documento oficial argentino o precios privados), submarinos (sin monto oficial), software y nueva ley (Cronista; exportaciones SBC publicadas el 19/07); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 10/10/2026 00:30; ganó la SIDE y los gastos reservados (segunda candidata, APTA). Cupo de EMPRESAS: regía (hoy no hubo nota de EMPRESAS) pero ninguna candidata del bloque tiene documento legible con cifra ancla nueva.",
+      "fecha": "2026-10-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }

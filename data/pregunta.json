@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-09",
-  "pregunta": "Según la estadística porteña, una familia tipo necesitaba $1.997.378 por mes en septiembre de 2025 para ser de clase media, y $2.669.815 en septiembre de 2026. Si una familia estaba justo en ese piso y sus ingresos subieron 30% en el año, ¿dónde quedó?",
+  "fecha": "2026-10-10",
+  "pregunta": "Entre 1970 y 1992 la Argentina cambió cuatro veces de moneda: cada peso ley valió 100 pesos moneda nacional, cada peso argentino 10.000 pesos ley, cada austral 1.000 pesos argentinos y cada peso actual 10.000 australes. ¿A cuántos pesos moneda nacional equivale hoy un peso?",
   "opciones": [
-    "Arriba del piso: 30% es mucho más de lo que suben los sueldos",
-    "Debajo del piso, por unos $73.000 por mes",
-    "Justo en el piso: 30% es casi lo mismo que la inflación del año"
+    "A 21.100: se suman las cuatro equivalencias (100 + 10.000 + 1.000 + 10.000)",
+    "A diez billones: un 1 seguido de 13 ceros",
+    "A 10.000: lo que fijó la última conversión, la de 1992"
   ],
   "correcta": 1,
-  "explicacion": "El piso de la clase media no es un monto fijo: se calcula como 1,25 veces la canasta total del hogar, así que sube con los precios de esa canasta. En el último año subió 33,7%, un poco más que la inflación porteña (32,9%). Con 30% de aumento, la familia pasó de $1.997.378 a unos $2.596.591, y el piso ya estaba en $2.669.815. Para mantenerse en la misma posición no alcanza con que el ingreso suba mucho: tiene que subir al menos lo mismo que la canasta que define la línea.",
-  "nota": "articulos/2026-10-08-clase-media-caba-cuanto-hay-que-ganar.html",
+  "explicacion": "Cada cambio de moneda se aplica sobre el anterior, así que las equivalencias se multiplican, no se suman: 100 × 10.000 × 1.000 × 10.000 = 10.000.000.000.000. Multiplicar por potencias de diez es lo mismo que sumar ceros: 2 + 4 + 3 + 4 = 13. Por eso un peso de hoy equivale a diez billones de pesos moneda nacional, la moneda que circuló hasta 1969. Desde 1992 no se quitó ningún cero más, pero el dólar pasó de $1 a más de $1.500: tres cifras nuevas.",
+  "nota": "articulos/2026-10-09-cuantos-ceros-le-sacaron-al-peso.html",
   "leccion": ""
 }
