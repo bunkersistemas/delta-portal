@@ -3688,6 +3688,46 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuántos billetes de cada denominación hay en circulación (pregunta de plata detrás del 'apretón monetario' de septiembre, La Nación 10/10/2026, y de la propuesta de quitar tres ceros; billete de $20.000 el mayor vigente) / BCRA",
+      "angulo": "Corrida programada del 10/10/2026 02:30, primera candidata probada (pregunta de plata). FRENADA: el BCRA no publica en ningún lugar accesible la cantidad de billetes por denominación. series.xlsm (hojas BASE MONETARIA, RESERVAS, DEPOSITOS, PRESTAMOS...) solo trae montos; el Boletín Estadístico de septiembre de 2026 (boldat202609.pdf, 27 páginas) no tiene el cuadro; las páginas bcra.gob.ar/efectivo y billetes-monedas-y-otros-medios-de-pago no enlazan planillas. Lo único disponible son notas de 2023-2025 con datos viejos. Sí quedó a mano el monto: billetes y monedas en poder del público $26.671.279 M al 07/10/2026 (API Monetarias var. 17), circulación monetaria $28.954.822 M (var. 16). Retomable si el BCRA publica la serie por denominación.",
+      "fecha": "2026-10-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "sin serie oficial accesible de billetes por denominación"
+    },
+    {
+      "tema": "cuántos autos fabrica Stellantis en la Argentina (Herlander Zola, presidente de Stellantis Sudamérica, a Exame: podría cerrar una o las dos plantas, El Palomar y Ferreyra; La Nación y Perfil 09-10/10/2026; la empresa respondió que eran escenarios hipotéticos)",
+      "angulo": "Corrida programada del 10/10/2026 02:30, segunda candidata probada (empresas y pregunta de plata, La Nación). FRENADA: ninguna fuente pública da la producción ni las ventas por terminal. El informe de prensa de ADEFA de septiembre de 2026 (resumen-2026-09-es.pdf, 16 páginas) solo trae totales: producción 39.747 (sep, -15,6% i.a.), 314.975 ene-sep (-16,9%); exportaciones 28.213 y 203.072 (+1,6%); ventas a concesionarios 43.214 y 344.589 (-24,3%), de las que nacionales 12.987 y 102.275 (-38,8% contra 167.054). La participación de Peugeot que cita Zola (9% a 5%) no se puede contrastar: la DNRPA no publica inscripciones por marca en datos abiertos y la página de ACARA no es legible sin JavaScript. No hay documento de Stellantis ante la CNV ni la SEC con cifras de las plantas argentinas.",
+      "fecha": "2026-10-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "sin documento de la empresa ni estadística oficial por terminal o por marca"
+    },
+    {
+      "tema": "cuánto oro tiene el Banco Central y cuánto vale (pregunta de plata detrás de la pelea AGN-BCRA por el oro, infobae 10/10/2026 'El oro de la polémica', La Nación, iProfesional, Página12) / estados contables 2025 del BCRA (nota 4.1.1: 1.984,96 miles de onzas troy a US$4.326,01 al 31/12/2025 y a US$2.623,45 al 31/12/2024; oro neto $12.530.058.768 miles; anexo II US$8.585.662 miles, recalculado 1.984,96 x 4.326,01 = US$8.586,96 M) y estado resumido de activos y pasivos al 30/09/2026 (oro neto $12.500.427.514 miles; A3500 del 30/09 $1.517,5209 -> US$8.237,4 M, precio implícito US$4.149,9 la onza; reservas brutas 30/09 US$46.092 M -> 17,9%)",
+      "angulo": "Corrida programada del 10/10/2026 02:30, tercera candidata probada (pregunta de plata, 4 portadas). Ángulo distinto del frenado el 08/10 (cuánto perdió con los derivados): el stock y su valor. FRENADA en el contraste independiente: la cantidad de onzas sale solo del BCRA. La tabla del Consejo Mundial del Oro (datos del FMI, IFS septiembre 2026) no muestra la fila de la Argentina en la página y el archivo World_official_gold_holdings_as_of_Oct2026_IFS.xlsx devuelve 403; la API del FMI no respondió. El precio de mercado de contraste para el 30/09 tampoco tiene fuente citable a mano (LBMA 403; solo el futuro de diciembre en COMEX, 4.186,7). Retomable con el dato del FMI o del Consejo Mundial del Oro accesible.",
+      "fecha": "2026-10-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "cifra ancla de una sola fuente (BCRA); contraste independiente (FMI/WGC) y precio de mercado no accesibles"
+    },
+    {
+      "tema": "cuántos de los autos 0 km que se venden se fabrican en el país (Stellantis y su advertencia; ACARA vía Perfil 01/10/2026: 31% nacionales y 69% importados en los patentamientos de septiembre, 49.814 unidades) / ADEFA septiembre 2026: ventas a concesionarios de vehículos nacionales 12.987 de 43.214 (30,1%) y 102.275 de 344.589 en ene-sep (29,7%, contra 167.054 de 455.220 = 36,7% en 2025)",
+      "angulo": "Corrida programada del 10/10/2026 02:30, cuarta candidata probada. FRENADA: las dos cifras son de cámaras con universos distintos (ADEFA: ventas mayoristas de sus marcas; ACARA: patentamientos de todo el mercado, conocido solo por la prensa porque su sitio no es legible) y no miden lo mismo, así que no sirven como dos fuentes que coinciden; la estadística oficial (INDEC, Índices de patentamientos, con la apertura nacional/importado) del tercer trimestre sale el martes 13/10/2026 a las 16 (en el segundo trimestre, automóviles de junio: 15,2% nacionales según la prensa). Conviene retomarla ese día con el INDEC como ancla y ADEFA/ACARA como contraste, sumando lo de Stellantis.",
+      "fecha": "2026-10-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "sin estadística oficial de septiembre; dos cámaras con universos distintos; retomar con el INDEC del 13/10"
+    },
+    {
+      "tema": "descartes de la corrida programada del 10/10/2026 02:30: billetes por denominación, Stellantis, oro del BCRA y autos nacionales (frenadas aparte); base monetaria y 'apretón' de septiembre (La Nación; el Informe Monetario Mensual de agosto dice +1,5% real desestacionalizado tras once meses de baja, pero la serie sin desestacionalizar recalculada sube en junio, y el de septiembre no está publicado: no se puede recalcular el dato oficial), subsidios de luz y gas con nuevo trámite (infobae; descuentos de octubre publicados el 01/10), Banco Nación concentra el 37% del crecimiento del crédito (La Nación, infobae, ámbito; sin pregunta de plata), concurso preventivo de la textil de Portsaid, La Martina y Rapsodia (La Nación; sin expediente legible), Metrotel-Tuenti (sin documento con monto), Alpargatas US$100 M y apps de movilidad US$100 M (anuncios privados), BCRA casi US$15.000 M comprados (publicada 08/10), recesión bonaerense (una sola fuente), Inocencia Fiscal II (multa publicada 09/10), salario mínimo y salario rural de octubre (publicados), expensas, BTS en La Plata y fin de semana largo (precios privados), Horner y Red Bull, Cristiano Ronaldo, sismo de Panamá (sin documento argentino), Sea Lion y el Tribunal del Mar (petróleo de Sea Lion publicado), empresas CNV/SEC (Nuevo Continente balance al 31/07 y Camuzzi préstamos del Banco Macro: el visor de la CNV sigue sin documento ni cifra; IRSA fusión, YPF, YPF Luz, Central Puerto, ICBC, INVAP, A3, TRANSENER, Patagonia: ya descartadas o cubiertas); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 10/10/2026 02:30; las cuatro candidatas probadas frenaron. Cupo de EMPRESAS: regía (la nota del 09/10 es de ayer) y Stellantis compitió con ventaja, pero no hay documento de la empresa con cifras; el resto del bloque no tiene documento legible con cifra ancla nueva.",
+      "fecha": "2026-10-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas"
     }
   ]
 }
