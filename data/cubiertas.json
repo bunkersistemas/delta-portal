@@ -3772,6 +3772,19 @@
       "fecha": "2026-10-10",
       "estado": "en_cola",
       "archivo": "cola/2026-10-10-cataratas-iguazu-parques-nacionales-entrada-precio.html"
+    },
+    {
+      "tema": "cuánto cobra un trabajador de la alimentación (ámbito 11/10/2026: 'Fracasó la paritaria de la Alimentación: cuánto ofrecieron de aumento los empresarios') / escala del CCT 244/94",
+      "angulo": "Corrida programada del 11/10/2026 12:30, primera candidata probada (pregunta de plata). FRENADA: no se encontró la escala vigente homologada (Boletín Oficial) ni el acta con la oferta en un documento oficial accesible; la búsqueda devuelve solo notas de medios de años anteriores. Sin cifra ancla de documento primario no hay nota.",
+      "fecha": "2026-10-11",
+      "estado": "descartada"
+    },
+    {
+      "tema": "cuánto vale todo el capital de la Argentina (El Cronista 11/10/2026: 'El INDEC calculó cuánto vale el capital físico de la Argentina y Milei celebró un dato clave') / INDEC, Documento de trabajo N.º 52 (octubre de 2026), stock de capital 2004-2025 y productividad 2016-2025: cuadro 11, stock 2025 a precios corrientes $2.348.104.611 M (viviendas 759.201.224 + otros edificios y estructuras 1.047.387.576 + maquinaria y equipo 541.515.811, recalculado igual); cuadro 10, precios de 2004: 1.867.113 (2016) -> 2.127.939 (2025) = +14,0%; cuadro 12 (2016=100): VAB 103,1, servicios laborales 110,7, PTF 92,5; PTF 2025 +2,8% (92,5/90,0), mayor suba de la serie (previa: 2020 +2,3%); infraestructura de gobierno general 355.601 -> 354.464 -> 353.901 (-0,3% y -0,2%), primera caída de dos años seguidos desde 2004 (antes solo 2020)",
+      "angulo": "Corrida programada del 11/10/2026 12:30, segunda candidata probada. Anatomía de un dato: capital +14,0% contra producción +3,1% y horas +10,7% (2016-2025). Verificación por estadística oficial recalculada con contraste independiente: Penn World Table 11.0 (Universidad de Groningen, series rkna y rtfpna vía FRED) da para 2016-2023 capital +13,2% y PTF -12,6%, contra INDEC +11,6% y -8,1%: misma dirección y orden de magnitud; la diferencia de PTF se explica por método (PIB y ocupados ajustados por educación contra VAB y horas). El informe dice 1,6% de crecimiento anual promedio del stock 2016-2025; desde el cuadro da 1,5% compuesto: se usa la variación punta a punta. 2024 provisorio, 2025 preliminar. Otras candidatas de la lista, no probadas: empresas CNV/SEC (agenda.py: HOY NO HAY NOTA DE EMPRESAS; A3 Mercados HR 09/10, ICBC ampliación del programa de ON 08/10 y Nuevo Continente estados anuales al 31/07: el visor de la CNV devuelve solo un formulario de compensaciones vacío, sin documento ni cifra, comprobado hoy; Central Puerto recompras, YPF recompra de ON y YPF Luz, IRSA fusión, Camuzzi préstamos, INVAP y Patagonia: ya descartadas o cubiertas), base naval de Ushuaia y submarinos (Cronista, iProfesional; sin documento oficial con montos), atraso cambiario y tipo de cambio real (infobae, La Nación, ámbito, iProfesional; ITCRM publicado el 23/07), recaudación provincial en baja (infobae, ámbito, Cronista; Ingresos Brutos publicado el 29/09), crédito al consumo de septiembre (ámbito), expensas en CABA (ámbito; precios privados), oro del BCRA y AGN (sin informe de la AGN), Colapinto en Singapur (sin documento oficial con montos). clarin.com y tn.com.ar no accesibles.",
+      "fecha": "2026-10-11",
+      "estado": "en_cola",
+      "archivo": "cola/2026-10-11-stock-de-capital-productividad-indec.html"
     }
   ]
 }

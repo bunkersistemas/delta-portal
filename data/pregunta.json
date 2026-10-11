@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-10",
-  "pregunta": "Entre 1970 y 1992 la Argentina cambió cuatro veces de moneda: cada peso ley valió 100 pesos moneda nacional, cada peso argentino 10.000 pesos ley, cada austral 1.000 pesos argentinos y cada peso actual 10.000 australes. ¿A cuántos pesos moneda nacional equivale hoy un peso?",
+  "fecha": "2026-10-11",
+  "pregunta": "El presupuesto nacional del deporte pasó de $33.319 millones en 2023 a $61.296 millones en 2026: se multiplicó por 1,84. En el mismo período los precios, medidos por el IPC, se multiplicaron por 5,78. Descontada la inflación, ¿qué le pasó a esa plata?",
   "opciones": [
-    "A 21.100: se suman las cuatro equivalencias (100 + 10.000 + 1.000 + 10.000)",
-    "A diez billones: un 1 seguido de 13 ceros",
-    "A 10.000: lo que fijó la última conversión, la de 1992"
+    "Subió 84%: es lo que creció el monto en pesos",
+    "Bajó 32%: el monto nuevo compra el 32% de lo que compraba antes",
+    "Bajó 68%: el monto nuevo compra menos de un tercio de lo que compraba antes"
   ],
-  "correcta": 1,
-  "explicacion": "Cada cambio de moneda se aplica sobre el anterior, así que las equivalencias se multiplican, no se suman: 100 × 10.000 × 1.000 × 10.000 = 10.000.000.000.000. Multiplicar por potencias de diez es lo mismo que sumar ceros: 2 + 4 + 3 + 4 = 13. Por eso un peso de hoy equivale a diez billones de pesos moneda nacional, la moneda que circuló hasta 1969. Desde 1992 no se quitó ningún cero más, pero el dólar pasó de $1 a más de $1.500: tres cifras nuevas.",
-  "nota": "articulos/2026-10-09-cuantos-ceros-le-sacaron-al-peso.html",
+  "correcta": 2,
+  "explicacion": "Para comparar pesos de años distintos se divide lo que creció el monto por lo que crecieron los precios: 1,84 / 5,78 = 0,32. Los $61.296 millones de 2026 compran el 32% de lo que compraban los $33.319 millones de 2023, así que la caída real es lo que falta para llegar al 100%: 68%. El error común es confundir ese 32% con la caída. Y mirar solo el monto en pesos engaña: con inflación casi todo sube en pesos aunque alcance para menos.",
+  "nota": "articulos/2026-10-10-presupuesto-deporte-nacional-enard-2026.html",
   "leccion": ""
 }
