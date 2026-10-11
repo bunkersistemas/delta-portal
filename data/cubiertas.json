@@ -3792,6 +3792,19 @@
       "fecha": "2026-10-11",
       "estado": "en_cola",
       "archivo": "cola/2026-10-11-ia-empleo-jovenes-stanford.html"
+    },
+    {
+      "tema": "cuánto paga la obra social o el PAMI a un celíaco (Infobae 10/10/2026 'Qué afiliados de PAMI pueden recibir $58.560 por mes y cómo solicitar el beneficio') / cobertura dineraria del art. 9 del anexo del Decreto 218/2023: 27,5% de la CBA del INDEC para un adulto de 30 a 60 años, actualización semestral; vigente desde el 26/04/2026 $58.560,975 (Ministerio de Salud; PAMI $58.560,98 desde el período mayo 2026; ACA $58.560,97) = 27,5% x $212.949 (CBA marzo 2026, INDEC 14/04/2026); próxima actualización 26/10/2026; con la CBA de agosto 2026 ($235.103) la regla daría $64.653 y el monto vigente cubre 24,9%",
+      "angulo": "Corrida programada del 11/10/2026 14:30, segunda candidata probada (pregunta de plata detrás de Infobae; la primera, sueldo de empleadas domésticas de octubre en infobae e iProfesional, ya publicada el 25/09 con el mismo ángulo). Anatomía de un dato: el monto queda fijo seis meses y la canasta sube todos los meses (serrucho: 22,1% de la CBA en mar-26 con el monto de oct-25, salto de 24,7% en abril; 24,9% en ago-26). Verificación: dos fuentes oficiales independientes (Ministerio de Salud, página del 26/04/2026; PAMI, página del trámite y DI-2025-1084 del 22/10/2025) más recálculo desde la serie CBA del INDEC: los montos de abr-23 ($7.806,73), oct-23 ($13.160,95), abr-25 ($44.108,08), oct-25 ($46.966,70) y abr-26 ($58.560,975) cierran al centavo con 27,5% de la CBA redondeada a pesos. Los $64.653 son cálculo propio con la misma regla; no se estima el monto del 26/10 (la CBA de septiembre sale el 13/10). Sin dato público del costo actual de una canasta sin TACC ni de cuántos cobran.",
+      "fecha": "2026-10-11",
+      "estado": "en_cola",
+      "archivo": "cola/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 11/10/2026 14:30: sueldo de empleadas domésticas de octubre (infobae e iProfesional; publicada el 25/09/2026 con la misma escala de la Res. CNTCP 6/2026, sin ángulo nuevo), informalidad laboral 45% y 70% entre cuentapropistas del conurbano (La Nación, ámbito; estudio privado, no investigada), inflación en dólares: restaurantes e indumentaria más caros de la región (La Nación, ámbito; comparación de una consultora), recaudación provincial en baja por Ingresos Brutos (ámbito, Cronista; IIBB 2025 publicada el 29/09), crédito al consumo en baja en septiembre (ámbito; no investigada), pesca y calamar Illex con China y Malvinas (infobae; informe de ONG, sin tiempo en esta corrida), Día de la Madre en los comercios (infobae; el relevamiento de CAME sale después del 18/10), cupo de autos híbridos y eléctricos (infobae; publicada el 01/10), empresas CNV/SEC (Nuevo Continente balance al 31/07 y Camuzzi préstamos del Banco Macro: el visor de la CNV sigue sin documento legible con cifra; ICBC ampliación del programa de ON, Central Puerto recompras, YPF recompra de ON y YPF Luz ya publicada el 08/10, IRSA fusión descartada el 09/10, INVAP publicada el 07/10)",
+      "angulo": "NO TOMADAS en la corrida programada del 11/10/2026 14:30; ganó la cobertura por celiaquía (segunda candidata, APTA). Cupo de EMPRESAS: regía (la última nota de EMPRESAS es del 10/10), pero ninguna candidata del bloque tiene documento legible con cifra ancla nueva; la pregunta de plata de la celiaquía tiene documento oficial y recálculo completo.",
+      "fecha": "2026-10-11",
+      "estado": "descartada"
     }
   ]
 }
