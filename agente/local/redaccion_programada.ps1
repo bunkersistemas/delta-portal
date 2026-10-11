@@ -1,7 +1,8 @@
 # ===================================================================
 #  Con Interes - redaccion programada, corre en AGENTE007
-#  La dispara la tarea "Con Interes - Redaccion programada" (cada hora,
-#  ver ACTIVAR_REDACCION.ps1). Autorizada por el editor el 23/09/2026:
+#  La dispara la tarea "Con Interes - Redaccion programada" (cada 2 horas,
+#  ver ACTIVAR_REDACCION.ps1). Una vez por semana la corrida es de la
+#  seccion IA (agente/local/semana_ia.py, misiones/economia-ia.md). Autorizada por el editor el 23/09/2026:
 #  las notas que pasan la verificacion se publican sin aprobacion una a una.
 #
 #  Uso manual:
@@ -169,6 +170,35 @@ if ($enCola.Count -gt 0) { Terminar 0 'en_espera' ("[OK] hay {0} borrador(es) es
 if (-not (Get-Command claude -ErrorAction SilentlyContinue)) { Terminar 1 'falla' '[FALLA] claude no esta en el PATH' }
 Remove-Item $Resultado -ErrorAction SilentlyContinue
 $ahoraAR = (HoraAR).ToString('yyyy-MM-dd HH:mm')
+
+# Mision: la seccion "La economia de la IA" publica una nota por semana, los
+# martes (NEWSROOM.md 2 quinquies, editor 11/10/2026). Si en la semana (martes
+# a lunes) no salio ninguna, esta corrida es de IA. Si frena, la siguiente de
+# IA espera $HorasEntreIA horas: en el medio corren las generales, asi una
+# semana con temas dificiles no deja al sitio sin notas.
+# ia_forzada.txt (en coninteres-logs, una fecha AAAA-MM-DD) adelanta una entrega.
+$HorasEntreIA = 4
+$ArchivoIntentoIA = Join-Path $Logs 'ia_ultimo_intento.txt'
+$ArchivoForzadaIA = Join-Path $Logs 'ia_forzada.txt'
+$forzada = ''
+if (Test-Path $ArchivoForzadaIA) { $forzada = "$(Get-Content $ArchivoForzadaIA -TotalCount 1)".Trim() }
+$sem = @(& $py agente/local/semana_ia.py $Hoy $forzada 2>&1)
+if ($LASTEXITCODE -ne 0) { Terminar 1 'falla' ('[FALLA] semana_ia.py: ' + ($sem -join ' | ')) }
+if ($sem -contains 'BORRAR_FORZADA') { Remove-Item $ArchivoForzadaIA -ErrorAction SilentlyContinue; Anotar 'entrega IA adelantada ya cumplida: se borra ia_forzada.txt' }
+$Mision = 'general'
+if ("$($sem[0])".StartsWith('IA|')) {
+  $ultimoIA = $null
+  if (Test-Path $ArchivoIntentoIA) { try { $ultimoIA = [datetime]::ParseExact("$(Get-Content $ArchivoIntentoIA -TotalCount 1)".Trim(), 'yyyy-MM-dd HH:mm', $null) } catch { $ultimoIA = $null } }
+  $ahora = [datetime]::ParseExact($ahoraAR, 'yyyy-MM-dd HH:mm', $null)
+  if ($ultimoIA -and ($ahora - $ultimoIA).TotalHours -lt ($HorasEntreIA - 0.25)) {
+    Anotar ("IA pendiente pero el ultimo intento fue {0}: esta corrida es general ({1})" -f $ultimoIA.ToString('yyyy-MM-dd HH:mm'), "$($sem[0])".Substring(3))
+  } else {
+    $Mision = 'ia'
+    # se anota ANTES de correr: un intento que se corta tambien cuenta
+    Set-Content -Path $ArchivoIntentoIA -Value $ahoraAR -Encoding ASCII
+  }
+}
+Anotar ("mision: {0} ({1})" -f $Mision, "$($sem[0])")
 $prompt = @"
 Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
 Fecha y hora de Buenos Aires: $ahoraAR. Usala para todo lo que dependa del dia (hoy, fecha de la nota, pregunta del dia, que ya publico el INDEC). La maquina esta en otra zona horaria: no te guies por su reloj.
@@ -187,6 +217,25 @@ PROHIBIDO: correr aprobar.py o rechazar.py, usar git, tocar notas ya publicadas,
 AL FINAL escribi el archivo .corrida.json en la raiz del repo: un objeto JSON con tres claves de texto.
 veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado; si no hubo nota, nombra cada candidata que probaste y por que freno.
 "@
+if ($Mision -eq 'ia') {
+$prompt = @"
+Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
+Fecha y hora de Buenos Aires: $ahoraAR. Usala para todo lo que dependa del dia. La maquina esta en otra zona horaria: no te guies por su reloj.
+Esta corrida es la de la seccion LA ECONOMIA DE LA IA: la nota de la semana. Segui agente/local/misiones/economia-ia.md y agente/NEWSROOM.md (secciones 2 bis, 2 quinquies y 3) al pie de la letra (python, no python3).
+El objetivo es publicar UNA nota de investigacion sobre como la inteligencia artificial esta cambiando la economia del mundo y sobre todo la de la Argentina, construida desde investigaciones de universidades y centros de conocimiento.
+1. RASTREO: busca investigaciones recientes en los centros que lista la mision (del mundo, de la region y de la Argentina) y anota donde buscaste.
+2. Arma 5 a 8 candidatas: estudio (autores, institucion, ano, URL del original), hallazgo en una linea y puente a la Argentina con un dato local. Descarta lo que ya esta en data/cubiertas.json sin angulo nuevo.
+3. Toma la primera y aplica las cinco condiciones de NEWSROOM.md 2 quinquies: atribuida, leida en el ORIGINAL (PDF o pagina del centro, con cuadro o pagina; la nota de prensa no alcanza), con metodo y limites, con otro estudio al lado, y con el cruce argentino verificado con la vara de la seccion 3.
+4. Si FRENA, registra el descarte en data/cubiertas.json y pasa a la siguiente, en esta misma corrida. Hasta 4 candidatas. Recien si las 4 frenan, termina sin nota.
+Nunca inventes, redondees a favor, presentes una proyeccion como hecho ni cites un paper que no leiste.
+En data/cola.json la entrada lleva "seccion": "IA" (obligatorio) y "formato": "Investigacion". El titulo arranca con el hallazgo y dice de quien es; la pregunta como la buscaria la gente va en "titulo_busqueda". Corre python scripts/titulares.py "<titulo>": si dice NO ENTRA, reescribilo.
+Como maximo UNA nota. Dejala en cola/ con noindex, agregala a data/cola.json, registrala en data/cubiertas.json como en_cola y corre python scripts/build_portada.py.
+Antes de terminar, corre vos los tres chequeos del editor de cierre (URLs 200, superlativos con valor previo, coherencia copete-graficos-cuerpo-manifiesto). Sin kit social. No toques data/pregunta.json.
+PROHIBIDO: correr aprobar.py o rechazar.py, usar git, tocar notas ya publicadas, poner credenciales en ningun lado. La publicacion la hace el script que te llamo, despues de controlar tu trabajo.
+AL FINAL escribi el archivo .corrida.json en la raiz del repo: un objeto JSON con tres claves de texto.
+veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado; si no hubo nota, nombra cada candidata que probaste y por que freno.
+"@
+}
 Anotar 'llamando a la redaccion...'
 $salida = & claude -p $prompt --permission-mode dontAsk `
   --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' 2>&1
@@ -211,6 +260,10 @@ if ($r.veredicto -ne 'APTA') {
 # ---- 3. controles sobre el borrador, y 4. publicar ----
 $id = "$($r.id)".Trim()
 if ($id -notmatch '^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$') { Terminar 1 'falla' "[FALLA] id invalido: '$id'" }
+if ($Mision -eq 'ia') {
+  $secIA = "$(& $py -c "import json,sys;print(','.join(b.get('seccion','') for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]))" $id)".Trim()
+  if ($secIA -ne 'IA') { Anotar "[AVISO] la corrida de IA dejo $id con seccion '${secIA}': no cuenta como la nota IA de la semana" }
+}
 $rc = Publicar $id
 if ($rc -eq 3) {
   # titular en forma de pregunta con el tope del dia pasado (scripts/titulares.py).

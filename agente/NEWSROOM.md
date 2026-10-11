@@ -353,6 +353,53 @@ documento enlazado. El manifiesto lleva `"seccion": "EMPRESAS"` y
 
 ---
 
+## 2 quinquies. La economía de la IA — una nota por semana (desde el 11/10/2026)
+
+**Qué es.** Una sección de investigación sobre cómo la inteligencia
+artificial está cambiando la economía del mundo y, sobre todo, la de la
+Argentina. La materia prima son **investigaciones de universidades y centros
+de conocimiento** (papers, documentos de trabajo, informes con método), no
+lo que dicen las empresas de IA ni los titulares. La misión está en
+`agente/local/misiones/economia-ia.md`.
+
+**Ritmo.** Una nota por semana, los martes. La redacción programada toma
+sola la corrida de IA cuando en la semana (de martes a lunes) todavía no
+salió ninguna nota con `"seccion": "IA"`; si frena, reintenta unas horas
+después, intercalada con las corridas generales. Decisión del editor,
+11/10/2026.
+
+**La vara para un estudio (decisión del editor, 11/10/2026).** Un paper casi
+nunca tiene dos fuentes independientes ni es una estadística oficial, así que
+la sección §3 lo dejaría siempre afuera. Para esta sección la cifra ancla
+puede ser **lo que encontró un estudio**, y queda `CONFIRMADO` si se cumplen
+las cinco condiciones:
+
+1. **Atribuida.** La nota dice quién lo encontró: autores, institución y
+   año ("según un estudio del MIT de 2026…"). Nunca se presenta como un hecho
+   del mundo; es un hallazgo de alguien.
+2. **Leída en el original.** La cifra sale del paper, documento de trabajo o
+   informe mismo (PDF o página del centro), con cuadro o página. La nota de
+   prensa o el artículo que lo comenta sirven para encontrarlo, no para
+   citarlo. Si no se puede leer el original, se FRENA.
+3. **Con método y límites.** "④ Cómo lo sabemos" explica qué midió el
+   estudio, sobre qué muestra, país y período, y qué no puede decir
+   (correlación no es causalidad; un experimento con 500 personas no es la
+   economía entera; una proyección es una proyección y lleva `ESTIMACIÓN`).
+4. **Con otro estudio al lado.** Al menos una investigación independiente
+   que vaya en la misma dirección **o** que la contradiga, y la nota lo dice.
+   Si la literatura está dividida, eso es parte de la nota.
+5. **Con el cruce argentino verificado con la vara de siempre.** Lo que la
+   nota diga de la Argentina con datos (empleo por ocupación de la EPH,
+   exportaciones de servicios, inversión, salarios) sigue la sección §3 sin
+   excepción.
+
+No entran como ancla: encuestas de opinión de consultoras sin método
+publicado, cifras de empresas sobre su propio producto, preprints que nadie
+más citó y que contradicen todo lo demás sin explicar por qué, ni
+proyecciones de "cuántos empleos se van a perder" presentadas como hechos.
+
+---
+
 ## 3. Protocolo de verificación (fact-check)
 
 El Verificador es lo que separa a Con Interés de un generador de texto. Reglas:
@@ -437,7 +484,7 @@ publicar se mueve a `articulos` en `data/articulos.json`):
   "titulo": "…",
   "titulo_busqueda": "… (opcional)",
   "bajada": "…",
-  "seccion": "ECONOMÍA | EMPRESAS | MERCADOS | MUNDO",
+  "seccion": "ECONOMÍA | EMPRESAS | MERCADOS | MUNDO | IA",
   "formato": "Anatomía de un dato | Anatomía de un balance | El número del día | Antes/Después | …",
   "numero": "1,9%",
   "numero_label": "qué mide la cifra ancla",
