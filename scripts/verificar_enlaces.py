@@ -12,6 +12,14 @@ Uso:  python3 scripts/verificar_enlaces.py [--todas]
 """
 import glob, os, re, sys, urllib.request
 from html import unescape
+try:
+    # Usa el almacen de certificados de Windows: completa la cadena cuando el
+    # servidor no manda el intermedio (rug.nl, 11/10/2026: CERTIFICATE_VERIFY_FAILED
+    # con certifi, 200 con el sistema). Sin el paquete, sigue como antes.
+    import truststore
+    truststore.inject_into_ssl()
+except ImportError:
+    pass
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 UA = {"User-Agent": "Mozilla/5.0 (ConInteres verificador de fuentes; +https://coninteres.com/como-trabajamos.html)"}
