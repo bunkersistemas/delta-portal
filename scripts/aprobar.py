@@ -55,6 +55,10 @@ def main(draft_id):
         "verificacion": draft.get("verificacion","verificada"),
         "fuentes": draft.get("fuentes",0), "lectura": draft.get("lectura",""),
     }
+    # serie en prueba (ej. "plata-deportistas", 11/10/2026): sirve para contar el
+    # cupo de la serie y medirla. Solo se copia si el borrador la trae.
+    if draft.get("serie"):
+        entry["serie"] = draft["serie"]
     art["articulos"].insert(0, entry)
     art["portal"]["actualizado"] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat() \
         if os.environ.get("DELTA_NOW") is None else os.environ["DELTA_NOW"]

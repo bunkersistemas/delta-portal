@@ -198,7 +198,28 @@ if ("$($sem[0])".StartsWith('IA|')) {
     Set-Content -Path $ArchivoIntentoIA -Value $ahoraAR -Encoding ASCII
   }
 }
-Anotar ("mision: {0} ({1})" -f $Mision, "$($sem[0])")
+# Serie en prueba "la plata de los deportistas" (editor, 11/10/2026: 2 por semana
+# del 12 al 25/10). Va despues de IA y con el mismo freno: si frena, el proximo
+# intento espera $HorasEntreIA horas y en el medio corren las generales.
+$motivoMision = "$($sem[0])"
+if ($Mision -eq 'general') {
+  $dep = @(& $py agente/local/serie_deportistas.py $Hoy 2>&1)
+  if ($LASTEXITCODE -ne 0) { Anotar ('[AVISO] serie_deportistas.py fallo, la corrida es general: ' + ($dep -join ' | ')) }
+  elseif ("$($dep[0])".StartsWith('DEPORTISTAS|')) {
+    $ArchivoIntentoDep = Join-Path $Logs 'deportistas_ultimo_intento.txt'
+    $ultimoDep = $null
+    if (Test-Path $ArchivoIntentoDep) { try { $ultimoDep = [datetime]::ParseExact("$(Get-Content $ArchivoIntentoDep -TotalCount 1)".Trim(), 'yyyy-MM-dd HH:mm', $null) } catch { $ultimoDep = $null } }
+    $ahora = [datetime]::ParseExact($ahoraAR, 'yyyy-MM-dd HH:mm', $null)
+    if ($ultimoDep -and ($ahora - $ultimoDep).TotalHours -lt ($HorasEntreIA - 0.25)) {
+      Anotar ("serie deportistas pendiente pero el ultimo intento fue {0}: esta corrida es general" -f $ultimoDep.ToString('yyyy-MM-dd HH:mm'))
+    } else {
+      $Mision = 'deportistas'
+      Set-Content -Path $ArchivoIntentoDep -Value $ahoraAR -Encoding ASCII
+    }
+  }
+  $motivoMision = "$($dep[0])"
+}
+Anotar ("mision: {0} ({1})" -f $Mision, $motivoMision)
 $prompt = @"
 Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
 Fecha y hora de Buenos Aires: $ahoraAR. Usala para todo lo que dependa del dia (hoy, fecha de la nota, pregunta del dia, que ya publico el INDEC). La maquina esta en otra zona horaria: no te guies por su reloj.
@@ -236,6 +257,21 @@ AL FINAL escribi el archivo .corrida.json en la raiz del repo: un objeto JSON co
 veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado; si no hubo nota, nombra cada candidata que probaste y por que freno.
 "@
 }
+if ($Mision -eq 'deportistas') {
+$prompt = @"
+Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
+Fecha y hora de Buenos Aires: $ahoraAR. Usala para todo lo que dependa del dia. La maquina esta en otra zona horaria: no te guies por su reloj.
+Esta corrida es de la serie en prueba LA PLATA DE LOS DEPORTISTAS: cuanto cobra un deportista, cuanto le cuesta competir y quien le paga. Segui agente/local/misiones/plata-deportistas.md y agente/NEWSROOM.md (secciones 2 bis y 3) al pie de la letra (python, no python3).
+El protagonista es una persona o un grupo de deportistas, no un club ni el presupuesto general. La vara es la de siempre: la cifra ancla tiene que llegar a CONFIRMADO por alguno de los dos caminos de NEWSROOM.md seccion 3. Lo que dice un deportista en una entrevista es contexto atribuido, nunca la cifra ancla.
+Arma 4 a 6 candidatas con su fuente primaria posible, toma la primera y verifica. Si FRENA, registra el descarte en data/cubiertas.json y pasa a la siguiente, hasta 4. Recien si las 4 frenan, termina sin nota.
+En data/cola.json la entrada lleva "seccion": "DEPORTES" y "serie": "plata-deportistas" (obligatorio: es lo que cuenta la serie). El titulo arranca con la persona y la cifra; la pregunta como la buscaria la gente va en "titulo_busqueda". Corre python scripts/titulares.py "<titulo>": si dice NO ENTRA, reescribilo.
+Como maximo UNA nota. Dejala en cola/ con noindex, agregala a data/cola.json, registrala en data/cubiertas.json como en_cola y corre python scripts/build_portada.py.
+Antes de terminar, corre vos los tres chequeos del editor de cierre (URLs 200, superlativos con valor previo, coherencia copete-graficos-cuerpo-manifiesto). Sin kit social. No toques data/pregunta.json.
+PROHIBIDO: correr aprobar.py o rechazar.py, usar git, tocar notas ya publicadas, poner credenciales en ningun lado. La publicacion la hace el script que te llamo, despues de controlar tu trabajo.
+AL FINAL escribi el archivo .corrida.json en la raiz del repo: un objeto JSON con tres claves de texto.
+veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado; si no hubo nota, nombra cada candidata que probaste y por que freno.
+"@
+}
 Anotar 'llamando a la redaccion...'
 $salida = & claude -p $prompt --permission-mode dontAsk `
   --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' 2>&1
@@ -263,6 +299,10 @@ if ($id -notmatch '^\d{4}-\d{2}-\d{2}-[a-z0-9-]+$') { Terminar 1 'falla' "[FALLA
 if ($Mision -eq 'ia') {
   $secIA = "$(& $py -c "import json,sys;print(','.join(b.get('seccion','') for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]))" $id)".Trim()
   if ($secIA -ne 'IA') { Anotar "[AVISO] la corrida de IA dejo $id con seccion '${secIA}': no cuenta como la nota IA de la semana" }
+}
+if ($Mision -eq 'deportistas') {
+  $serie = "$(& $py -c "import json,sys;print(','.join(b.get('serie','') for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]))" $id)".Trim()
+  if ($serie -ne 'plata-deportistas') { Anotar "[AVISO] la corrida de la serie dejo $id con serie '${serie}': no cuenta para el cupo de la serie" }
 }
 $rc = Publicar $id
 if ($rc -eq 3) {
