@@ -8,3 +8,9 @@ fichas/*.html
 # Guia local del agente: contiene una nota de seguridad con rutas de
 # credenciales de la maquina de Horacio. Queda local, no se publica.
 agente/local/LEEME.md
+# Documentos internos del negocio (comites, metricas, costos, auditorias):
+# desde el 11/10/2026 viven fuera del repo, que es publico y que GitHub Pages
+# sirve entero en coninteres.com. Copia en C:\Users\Horacio\coninteres-privado.
+negocio/
+# Salidas privadas de los agentes (informe de auditoria antes de moverlo)
+_privado/

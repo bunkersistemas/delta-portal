@@ -34,7 +34,8 @@ El repo actualizado + `data/articulos.json`. Selecciona las notas cuya
 
 ## Salida
 
-Escribir `negocio/auditoria-AAAA-MM-DD.md` con:
+Escribir `_privado/auditoria-AAAA-MM-DD.md` con (el script lo mueve despues a una
+carpeta privada de la VM; desde el 11/10/2026 el informe NO va al repo, que es publico):
 
 - por nota: veredicto + hallazgo concreto + la fuente de contraste usada;
 - un **scorecard global**: cuántas CONFIRMADAS / IMPRECISAS / DISCREPANCIAS /
@@ -50,7 +51,7 @@ Escribir `negocio/auditoria-AAAA-MM-DD.md` con:
   **corrección pública visible** (caja "△ Corrección" con fecha, como la de
   la nota del déficit primario, según el compromiso de `legal.html` §4), y lo
   marca **URGENTE**.
-- Hace **commit + push del informe** y notifica al humano con: link al
+- **No** hace commit ni push del informe (desde el 11/10/2026 queda privado) y notifica al humano con: link al
   informe, cantidad de notas revisadas y la lista priorizada de acciones.
 - Si el **push falla**, aplica el **PLAN B** del Publicador (`NEWSROOM.md` §2 ⑥):
   bundle + LEEME entregados por el chat, y el aviso encabezado con que el

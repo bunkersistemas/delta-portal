@@ -15,8 +15,9 @@
 #       buscar en la web, correr verificar_enlaces.py y escribir.
 #    4. Controla el informe: que exista y que declare la misma cantidad
 #       de notas que conto el script.
-#    5. Commitea SOLO el informe y lo sube. Cualquier otro archivo que el
-#       agente haya tocado queda sin subir y se avisa.
+#    5. Mueve el informe a coninteres-privado\auditorias (desde el 11/10/2026
+#       NO se commitea: el repo es publico). Si el agente toco otro archivo del
+#       repo, queda sin subir y se avisa.
 #  Todo en ASCII: la consola de Windows rompe las tildes.
 # ===================================================================
 param(
@@ -91,7 +92,11 @@ if ($N -eq 0) {
 
 # ---- 3. correr el auditor ----
 if (-not (Get-Command claude -ErrorAction SilentlyContinue)) { Terminar 1 '[FALLA] claude no esta en el PATH' }
-$Informe = "negocio/auditoria-$Hoy.md"
+# El informe NO va al repo: es publico y GitHub Pages lo sirve entero (11/10/2026).
+# El agente lo escribe en _privado/ (ignorado por git) y el script lo mueve afuera.
+$Informe = "_privado/auditoria-$Hoy.md"
+$Privado = Join-Path $env:USERPROFILE 'coninteres-privado\auditorias'
+New-Item -ItemType Directory -Force (Split-Path $Informe) | Out-Null
 $prompt = @"
 Sos el auditor semanal de Con Interes. Corres sin nadie mirando: no hagas preguntas.
 Lee agente/AUDITORIA.md (tu runbook) y agente/NEWSROOM.md seccion 3 (la vara de verificacion) y aplicalos al pie de la letra.
@@ -117,13 +122,11 @@ if ($texto -notmatch "Notas revisadas:\s*$N\b") {
 }
 Anotar "[OK] informe con $N notas declaradas"
 
-# ---- 5. commit SOLO del informe, y push ----
-$otros = @(git status --porcelain | Where-Object { $_ -notmatch [regex]::Escape("negocio/auditoria-$Hoy.md") })
-if ($otros.Count -gt 0) { Anotar ('[AVISO] el auditor toco otros archivos, NO se suben: ' + ($otros -join ' | ')) }
-git add -- $Informe
-git -c user.email='auditoria@coninteres.com' -c user.name='Auditoria Con Interes' commit -m "Auditoria semanal $Desde a $Hasta ($N notas)" 2>&1 | Out-Null
-if ($LASTEXITCODE -ne 0) { Terminar 1 '[FALLA] no se pudo commitear el informe' }
-git pull --rebase --autostash origin main 2>&1 | Out-Null
-git push origin main 2>&1 | Out-Null
-if ($LASTEXITCODE -ne 0) { Terminar 1 '[FALLA] el push fallo; el informe quedo commiteado en la VM' }
-Terminar 0 "[OK] informe subido: https://coninteres.com/$Informe ($N notas, $Desde a $Hasta)"
+# ---- 5. el informe a la carpeta privada (no se commitea: el repo es publico) ----
+$otros = @(git status --porcelain)
+if ($otros.Count -gt 0) { Anotar ('[AVISO] el auditor toco archivos del repo, quedan sin subir: ' + ($otros -join ' | ')) }
+New-Item -ItemType Directory -Force $Privado | Out-Null
+$destino = Join-Path $Privado (Split-Path $Informe -Leaf)
+Move-Item -Path $Informe -Destination $destino -Force
+if (-not (Test-Path $destino)) { Terminar 1 "[FALLA] no se pudo mover el informe a $Privado" }
+Terminar 0 "[OK] informe privado: $destino ($N notas, $Desde a $Hasta)"

@@ -213,7 +213,8 @@ scripts/                build_portada.py, aprobar.py, rechazar.py, ...
                           de esa misma serie, y el bloque EMPRESAS. Es el
                           paso 0 de toda corrida.
   build_empresas.py       rehace data/empresas.json desde la CNV y la SEC
-negocio/                tablero de crecimiento y metricas
+negocio/                (YA NO ESTA EN EL REPO: privado desde el 11/10/2026,
+                        ver .gitignore; el repo es publico)
 ```
 
 **Los manifiestos de `data/` son sagrados.** Cada corrida en la nube era una
@@ -224,7 +225,7 @@ Se leen al empezar y se actualizan al terminar.
 
 ## 6. Lo que esta pendiente (contexto util para el agente)
 
-- **La medicion del sitio no esta instalada.** `negocio/tablero.md` lo dice:
+- **La medicion del sitio no esta instalada.** El tablero de negocio (hoy privado) lo decia:
   Cloudflare Web Analytics no tiene beacon en ninguna pagina y
   `assets/metrics.js` sigue con `ENDPOINT=null`. Por eso todo el tablero de
   trafico esta en `s/d`. Es gratis de arreglar y es lo primero que conviene

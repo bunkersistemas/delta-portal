@@ -152,12 +152,16 @@ en clave **Fase 1 (crecer, gratis)**:
 1. Cada gerencia produce su aporte breve según su misión y las reglas del §3.
 2. Síntesis consolida en una minuta con: el experimento de crecimiento de la semana
    (gratis o casi), lo descartado, y la decisión que necesita del humano.
-3. La minuta se guarda en `negocio/comite-<fecha>.md` y se entrega a Horacio.
+3. La minuta se entrega a Horacio y se guarda FUERA del repo (es publico y GitHub
+   Pages lo sirve entero): `negocio/` es privada desde el 11/10/2026.
 4. Nada que cueste plata se ejecuta sin su aprobación.
 
 ---
 
 ## 7. Estado del sistema (lo que el negocio lee y escribe)
+
+> Desde el 11/10/2026 `negocio/` no esta en el repo (ver `.gitignore`): estas rutas son
+> de la copia privada, no del sitio.
 
 ```
 negocio/comite-<fecha>.md   minuta consolidada de cada comité (memoria del negocio)

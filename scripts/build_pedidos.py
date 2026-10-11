@@ -35,7 +35,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 # Vacio = la pagina usa el fallback por correo.
 FORM_EMBED = ""
 
-CORREO = "oojeda465@gmail.com"
+CORREO = "redaccion@coninteres.com"
 
 MESES = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio",
          "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
