@@ -1,22 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-10-11T12:30:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-10-11-stock-de-capital-productividad-indec",
-      "titulo": "La Argentina tiene 14% más capital que en 2016 —casas, rutas, fábricas y máquinas—, pero produce apenas 3,1% más",
-      "titulo_busqueda": "¿Cuánto vale todo el capital de la Argentina? $2.348 billones, y 14% más que en 2016",
-      "bajada": "El INDEC volvió a medir el stock de capital del país por primera vez desde 2006: todo lo construido y las máquinas valían $2.348 billones en 2025. Que el capital y las horas trabajadas crecieran más que la producción quiere decir que la productividad cayó: en 2025 quedó 7,5% debajo de 2016, aun después de su mayor suba de la serie.",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "+14%",
-      "numero_label": "crecimiento del stock de capital de la Argentina entre 2016 y 2025, en volumen (INDEC, Documento de trabajo N.º 52, cuadro 10: 2.127.939 / 1.867.113 millones de pesos de 2004), contra +3,1% del valor agregado y +10,7% de las horas trabajadas (cuadro 12); valor a precios de 2025: $2.348.104.611 millones (cuadro 11)",
-      "fecha": "2026-10-11",
-      "hora": "12:30",
-      "archivo": "cola/2026-10-11-stock-de-capital-productividad-indec.html",
-      "verificacion": "verificada",
-      "fuentes": 3,
-      "lectura": "30 seg → 7 min"
-    }
-  ]
+  "borradores": []
 }

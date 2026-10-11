@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 10 Oct 2026 10:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 11 Oct 2026 13:27:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina tiene 14% más capital que en 2016 —casas, rutas, fábricas y máquinas—, pero produce apenas 3,1% más</title>
+      <link>https://coninteres.com/articulos/2026-10-11-stock-de-capital-productividad-indec.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-11-stock-de-capital-productividad-indec.html</guid>
+      <pubDate>Sun, 11 Oct 2026 12:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El INDEC volvió a medir el stock de capital del país por primera vez desde 2006: todo lo construido y las máquinas valían $2.348 billones en 2025. Que el capital y las horas trabajadas crecieran más que la producción quiere decir que la productividad cayó: en 2025 quedó 7,5% debajo de 2016, aun después de su mayor suba de la serie.</description>
+      <ci:numero>+14%</ci:numero>
+      <ci:numeroEtiqueta>crecimiento del stock de capital de la Argentina entre 2016 y 2025, en volumen (INDEC, Documento de trabajo N.º 52, cuadro 10: 2.127.939 / 1.867.113 millones de pesos de 2004), contra +3,1% del valor agregado y +10,7% de las horas trabajadas (cuadro 12); valor a precios de 2025: $2.348.104.611 millones (cuadro 11)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-11-stock-de-capital-productividad-indec.png" length="81774" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-11-stock-de-capital-productividad-indec.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Entrar a las Cataratas del Iguazú cuesta $25.000 para un argentino: 67% más que en 2025, el doble de lo que subió para un extranjero</title>
       <link>https://coninteres.com/articulos/2026-10-10-cataratas-iguazu-parques-nacionales-entrada-precio.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>variación interanual del ISAC de agosto de 2026 (INDEC, informe técnico del 07/10/2026); enero-agosto quedó 24,4% debajo de 2023</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-construccion-agosto-debajo-2023-insumos.png" length="77450" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-construccion-agosto-debajo-2023-insumos.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La industria produjo en agosto 3,2% menos que un año antes y su tendencia ya devolvió tres cuartas partes de lo que había recuperado desde el pozo de 2024</title>
-      <link>https://coninteres.com/articulos/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.html</guid>
-      <pubDate>Wed, 07 Oct 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El INDEC informó que la producción industrial de agosto cayó 3,2% interanual. Contra julio rebotó 1,9%, pero julio había sido un mes de derrumbe. La tendencia-ciclo bajó por cuarto mes seguido, quedó en el nivel más bajo desde junio de 2024 y ya devolvió el 74,5% de lo que había ganado entre abril de 2024 y enero de 2025. Fue el agosto más flojo desde 2020.</description>
-      <ci:numero>−3,2%</ci:numero>
-      <ci:numeroEtiqueta>variación interanual del IPI manufacturero de agosto de 2026 (INDEC, informe técnico del 07/10/2026); la tendencia-ciclo devolvió el 74,5% de la recuperación abr-24/ene-25</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.png" length="78705" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
