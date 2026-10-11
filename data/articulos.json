@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-11T14:56:21-03:00",
+    "actualizado": "2026-10-11T16:46:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-11-importacion-gasoil-refinerias-record",
+      "titulo": "La Argentina importó 65% menos gasoil que en 2025: las refinerías produjeron un récord y lo que viene de afuera cayó a 4 de cada 100 litros vendidos",
+      "bajada": "En enero-agosto de 2026 la Argentina importó 408.390 metros cúbicos de gasoil, 65% menos que un año antes y lo más bajo desde 2016. Las refinerías produjeron 9,9 millones de metros cúbicos, el máximo desde 2010. Lo importado equivale a 4 de cada 100 litros vendidos, aunque cada litro costó 47,6% más.",
+      "titulo_busqueda": "¿Cuánto gasoil importa la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−65%",
+      "numero_label": "caída del gasoil importado en enero-agosto de 2026 contra 2025: 408.390 m³ contra 1.167.082 (Secretaría de Energía, Res. 1104/2004); contraste INDEC NCM 2710.19.21: 372,0 contra 981,2 millones de kg (−62,1%)",
+      "fecha": "2026-10-11",
+      "hora": "17:30",
+      "archivo": "articulos/2026-10-11-importacion-gasoil-refinerias-record.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-11-celiaquia-cobertura-obra-social-pami-monto",
       "titulo": "Un celíaco recibe $58.560 por mes de su obra social o del PAMI para comprar harinas sin gluten: con la canasta de agosto, el monto ya cubre 24,9% y no el 27,5% que fija la norma",
