@@ -35,9 +35,13 @@ ACTUAL = os.path.join(ROOT, "_privado", "pedido_actual.json")
 # redaccion: usa archivos propios para no pisarse
 ACTUAL_ENFOQUE = os.path.join(ROOT, "_privado", "enfoque_pedido.json")
 FRENA_ENFOQUE = os.path.join(ROOT, "_privado", "enfoque_frena.txt")
+# lo que el lector senalo en la vista previa, para la corrida de correccion
+REVISION = os.path.join(ROOT, "_privado", "revision.json")
+EN_REVISION = ("en_revision", "revision_ok", "revision_error")
 HORAS_COLGADO = 6     # en_investigacion sin borrador en la cola por mas de esto: la corrida se corto
 HORAS_RESPUESTA = 24  # enfoque propuesto sin respuesta del lector: se avanza con lo propuesto
 RONDAS_MAX = 3        # despues de 3 enfoques rechazados se investiga con lo que dijo el lector
+HORAS_REVISION = 12  # vista previa al lector: sin respuesta en 12 h se publica igual (sin veto)
 MAX_INTENTOS = 2      # editor 12/10/2026: toda solicitud termina en nota; si falla se reintenta, a los 2 se avisa
 ENFOQUE = os.path.join(ROOT, "_privado", "enfoque.json")
 # coninteres-logs/pedido_sin_cupo.txt con la fecha de hoy: permite UNA nota pedida
@@ -175,6 +179,9 @@ def elegir(hoy, modo="investigar"):
     if os.path.exists(SIN_CUPO):
         forzado = open(SIN_CUPO, encoding="ascii").read().strip() == hoy
     hoy_salio = any(x.get("pedido") and x.get("fecha") == hoy for x in articulos())
+    if modo != "enfoque" and pedir("GET", "?select=id&estado=in.(%s)" % ",".join(EN_REVISION)):
+        print("GENERAL|hay una investigacion en vista previa del lector: no se empieza otra")
+        return
     if modo == "enfoque":
         if not enfocar:
             print("GENERAL|no hay pedidos esperando enfoque")
@@ -245,7 +252,7 @@ def devolver_enfoque(pid, motivo):
 def en_curso(chat):
     """Pedidos abiertos de un chat: editor 12/10/2026, una investigacion en curso por persona."""
     return pedir("GET", "?select=id,titulo,estado&telegram_chat=eq.%d"
-                        "&estado=in.(recibido,en_investigacion,enfoque_propuesto,enfoque_aprobado)" % int(chat))
+                        "&estado=in.(recibido,en_investigacion,enfoque_propuesto,enfoque_aprobado,en_revision,revision_ok,revision_error)" % int(chat))
 
 
 def crear_desde_chat(chat, titulo, tipo, detalle):
@@ -254,6 +261,68 @@ def crear_desde_chat(chat, titulo, tipo, detalle):
                                "origen": "telegram", "telegram_chat": int(chat),
                                "codigo_tg": str(uuid.uuid4())})
     return filas[0]["id"]
+
+
+def tiene_telegram(pid):
+    f = pedir("GET", "?select=telegram_chat&id=eq.%d" % int(pid))
+    print("SI" if f and f[0].get("telegram_chat") else "NO")
+
+
+def a_revision(pid, borrador):
+    """Editor, 12/10/2026: el lector ve la nota antes de publicarla, SIN VETO. Le llega
+    el borrador con Publicar / Hay un error; sin respuesta en HORAS_REVISION se publica."""
+    hasta = dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=HORAS_REVISION)
+    filas = pedir("PATCH", "?id=eq.%d" % int(pid), {"estado": "en_revision", "borrador": borrador,
+                                                      "revision_hasta": hasta.isoformat()})
+    if len(filas) != 1 or filas[0]["estado"] != "en_revision":
+        raise SystemExit("ERROR: el pedido %s no quedo en revision" % pid)
+    print("OK|pedido %s -> en_revision (%s)" % (pid, borrador))
+    avisar(pid, "\U0001f4f0 Tu investigaci\u00f3n est\u00e1 lista. Antes de publicarla, mirala vos primero:\n"
+           "https://coninteres.com/cola/%s.html\n\n"
+           "Si ves un dato mal o algo que qued\u00f3 afuera de lo que aprobaste, toc\u00e1 \u00abHay un error\u00bb "
+           "y contanos (si ten\u00e9s la fuente, mejor). Lo revisamos contra la fuente antes de publicar.\n\n"
+           "Si no nos escrib\u00eds en %d horas, la publicamos as\u00ed. El resultado es el que dan los datos: "
+           "lo que se corrige son los errores." % (borrador, HORAS_REVISION),
+           [[{"text": "\U0001f44d Publicar", "callback_data": "pub:%d" % int(pid)}],
+            [{"text": "\U0001f4dd Hay un error", "callback_data": "err:%d" % int(pid)}]])
+
+
+def revisiones():
+    """Que hacer con las vistas previas: PUBLICAR|pid|borrador o CORREGIR|pid|borrador.
+    Una por llamada (la redaccion publica una por corrida)."""
+    ahora = dt.datetime.now(dt.timezone.utc).isoformat()
+    f = pedir("GET", "?select=id,estado,borrador,revision_hasta,revision_comentario,titulo"
+                     "&estado=in.(%s)&order=revision_hasta" % ",".join(EN_REVISION))
+    for p in f:
+        if p["estado"] == "revision_error":
+            os.makedirs(os.path.dirname(REVISION), exist_ok=True)
+            with open(REVISION, "w", encoding="utf-8") as h:
+                json.dump({"pedido": p["id"], "borrador": p["borrador"], "titulo": p["titulo"],
+                           "lo_que_senalo_el_lector": p.get("revision_comentario") or ""},
+                          h, ensure_ascii=False, indent=2)
+            print("CORREGIR|%d|%s" % (p["id"], p["borrador"]))
+            return
+    for p in f:
+        if p["estado"] == "revision_ok" or (p["estado"] == "en_revision" and (p.get("revision_hasta") or "") < ahora):
+            print("PUBLICAR|%d|%s" % (p["id"], p["borrador"]))
+            return
+    print("NADA|")
+
+
+def borradores_en_revision():
+    for p in pedir("GET", "?select=borrador&estado=in.(%s)" % ",".join(EN_REVISION)):
+        if p.get("borrador"):
+            print(p["borrador"])
+
+
+def marcar_revision(pid, chat, ok, texto=""):
+    """Lo usa el bot: el lector toco Publicar o mando lo que vio mal."""
+    f = pedir("GET", "?select=estado,telegram_chat&id=eq.%d" % int(pid))
+    if not f or f[0].get("telegram_chat") != chat or f[0]["estado"] != "en_revision":
+        return False
+    cuerpo = {"estado": "revision_ok"} if ok else {"estado": "revision_error", "revision_comentario": texto[:1500]}
+    filas = pedir("PATCH", "?id=eq.%d&estado=eq.en_revision" % int(pid), cuerpo)
+    return len(filas) == 1
 
 
 def guardar_enfoque(pid):
@@ -325,6 +394,16 @@ if __name__ == "__main__":
         elegir(a[1])
     elif len(a) == 3 and a[0] == "elegir" and a[2] == "enfoque":
         elegir(a[1], "enfoque")
+    elif len(a) == 2 and a[0] == "tiene_telegram":
+        tiene_telegram(a[1])
+    elif len(a) == 3 and a[0] == "a_revision":
+        a_revision(a[1], a[2])
+    elif a == ["revisiones"]:
+        revisiones()
+    elif len(a) == 3 and a[0] == "avisar":
+        avisar(a[1], a[2])
+    elif a == ["borradores_en_revision"]:
+        borradores_en_revision()
     elif len(a) == 3 and a[0] == "devolver_enfoque":
         devolver_enfoque(a[1], a[2])
     elif len(a) == 4 and a[0] == "cerrar" and a[2] in ("publicado", "descartado"):

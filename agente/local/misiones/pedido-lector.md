@@ -38,6 +38,15 @@ salga de los datos se publica le guste o no (independencia, NEWSROOM 2 ter).
   tiene que hacerse cargo de lo que dijo. Despues de 3 rondas, o si no contesta en
   24 horas, se investiga con lo ultimo propuesto.
 
+## Fase 3: la vista previa (sin veto)
+
+Editor, 12/10/2026: si el lector sigue su pedido por Telegram, la nota terminada y
+controlada NO se publica enseguida: queda en cola/ (noindex, fuera del panel de la
+portada) y el lector la ve primero, con "Publicar" y "Hay un error". Si marca un
+error, una corrida lo revisa CONTRA LA FUENTE: se corrige si tiene razon con la
+vara de la seccion 3; si no, no se toca. Nunca se cambia un resultado porque no le
+guste. Sin respuesta en 12 horas, se publica igual. No hay boton de "no publicar".
+
 ## Fase 2: la investigacion
 
 Si el archivo trae `enfoque_anterior` aprobado, ese es el alcance. Los

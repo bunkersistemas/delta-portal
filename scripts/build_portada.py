@@ -29,7 +29,9 @@ portal = art["portal"]
 # publicación real). NO se ordena por "hora": ese campo es un rótulo y no siempre es
 # confiable. Así la principal es siempre la última nota publicada.
 articulos = list(art["articulos"])
-borradores = cola.get("borradores", [])
+# Un borrador en vista previa del lector que pidio la investigacion (12/10/2026)
+# no va al panel publico de la cola: lo ve solo esa persona, por su enlace.
+borradores = [b for b in cola.get("borradores", []) if not b.get("revision_lector")]
 
 # ---- helpers -----------------------------------------------------------
 MESES = ["ene","feb","mar","abr","may","jun","jul","ago","sep","oct","nov","dic"]

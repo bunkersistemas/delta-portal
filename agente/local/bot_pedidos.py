@@ -55,7 +55,7 @@ def leer_estado():
     try:
         return json.load(open(ESTADO, encoding="utf-8"))
     except Exception:
-        return {"offset": 0, "esperando": {}, "conv": {}}
+        return {"offset": 0, "esperando": {}, "conv": {}, "revision": {}}
 
 
 def guardar_estado(e):
@@ -76,6 +76,9 @@ ESTADOS = {
     "en_investigacion": "\u2699\ufe0f La redacci\u00f3n est\u00e1 trabajando en tu pedido ahora",
     "enfoque_propuesto": "\u270b Te mandamos el enfoque: esperamos tu respuesta",
     "enfoque_aprobado": "\u23f3 Enfoque aprobado: en la fila para investigar (sale una investigaci\u00f3n por d\u00eda)",
+    "en_revision": "\U0001f4f0 Lista: te mandamos la vista previa para que la mires antes de publicar",
+    "revision_ok": "\U0001f4e4 La aprobaste: se publica en la pr\u00f3xima vuelta de la redacci\u00f3n",
+    "revision_error": "\U0001f50d Revisando contra la fuente lo que nos marcaste; despu\u00e9s se publica",
     "publicado": "\u2705 Publicada",
     "descartado": "\u26d4 Cerrado sin nota",
 }
@@ -124,6 +127,15 @@ def disparar_enfoque():
         anotar("tarea de enfoque disparada")
     except Exception as e:
         anotar("AVISO: no se pudo disparar el enfoque: %s" % e)
+
+
+def disparar_redaccion():
+    """La redaccion publica o corrige la vista previa al empezar su vuelta."""
+    try:
+        subprocess.run(["schtasks", "/run", "/tn", "Con Interes - Redaccion programada"], capture_output=True, timeout=30)
+        anotar("redaccion disparada")
+    except Exception as e:
+        anotar("AVISO: no se pudo disparar la redaccion: %s" % e)
 
 
 def pedir_nueva(est, chat):
@@ -210,6 +222,21 @@ def al_boton(est, q):
     if accion in ("tipo", "detalle", "enviar", "cancelar"):
         al_boton_conversacion(est, q, chat, accion, pid)
         return
+    if accion in ("pub", "err") and pid.isdigit():
+        sacar_botones(q)
+        if accion == "pub":
+            if pl.marcar_revision(pid, chat, True):
+                anotar("pedido %s: el lector aprobo la vista previa" % pid)
+                decir(chat, "\U0001f44d Listo. La publicamos en un rato y te mandamos el link.", teclado=True)
+                disparar_redaccion()
+            else:
+                decir(chat, "Esa vista previa ya no est\u00e1 esperando respuesta.", teclado=True)
+        else:
+            est["revision"][str(chat)] = int(pid)
+            anotar("pedido %s: el lector va a contar un error de la vista previa" % pid)
+            decir(chat, "Contanos qu\u00e9 viste mal o qu\u00e9 falt\u00f3. Si ten\u00e9s la fuente (un link, una "
+                  "resoluci\u00f3n, un documento), pegala: nos ayuda a verificarlo.")
+        return
     if accion not in ("ok", "no") or not pid.isdigit():
         return
     p = pedido_de(pid, chat)
@@ -291,6 +318,8 @@ def al_mensaje(est, m):
         tipo_msg = "pedir"
     elif str(chat) in est["conv"]:
         tipo_msg = "armando pedido"
+    elif str(chat) in est["revision"] and not texto.startswith("/"):
+        tipo_msg = "error de vista previa"
     anotar("mensaje recibido: " + tipo_msg)
     if tipo_msg == "mis pedidos":
         est["esperando"].pop(str(chat), None)
@@ -302,6 +331,16 @@ def al_mensaje(est, m):
         pedir_nueva(est, chat)
         return
     if tipo_msg == "armando pedido" and seguir_conversacion(est, chat, texto):
+        return
+    if tipo_msg == "error de vista previa":
+        pid = est["revision"].pop(str(chat))
+        if pl.marcar_revision(pid, chat, False, texto):
+            anotar("pedido %s: el lector senalo un error en la vista previa" % pid)
+            decir(chat, "Gracias. Lo revisamos contra la fuente: si tiene raz\u00f3n, se corrige antes de "
+                  "publicar. Te contamos qu\u00e9 encontramos.", teclado=True)
+            disparar_redaccion()
+        else:
+            decir(chat, "Esa vista previa ya no est\u00e1 esperando respuesta.", teclado=True)
         return
     if texto.startswith("/start"):
         est["esperando"].pop(str(chat), None)
@@ -332,6 +371,7 @@ def main():
         anotar("AVISO: no se pudo registrar el menu de comandos")
     est = leer_estado()
     est.setdefault("conv", {})
+    est.setdefault("revision", {})
     while True:
         try:
             r = pl.tg("getUpdates", {"offset": est["offset"], "timeout": 50,
