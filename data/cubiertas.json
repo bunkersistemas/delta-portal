@@ -3897,6 +3897,14 @@
       "angulo": "NO TOMADAS en la corrida programada del 12/10/2026 18:30; ganó transferencias a municipios bonaerenses por habitante (primera candidata, APTA)",
       "fecha": "2026-10-12",
       "estado": "descartada"
+    },
+    {
+      "tema": "cuánto generó o costó el fin de semana largo del 12/10/2026 (pedido de lector 88) / PBI corriente INDEC 3T25-2T26 $985,2 billones = $2.699.224 M por día (2025: $850,2 billones, $2,33 billones/día; 2T26 anualizado $3,09 billones/día); VAB por día: industria $352.393 M (15,3%), construcción $96.706 M (4,2%), hoteles y restaurantes $73.629 M (3,2%), transporte y comunicaciones 5,6%; CAME 10-12/10/2026: 1.490.400 turistas (+3,5%), 1,8 días, $116.900 diario (+5% real), $313.610 M (-2,2% real), 8 findes 2026 $3,4 billones y 12.939.094 turistas; oct-25: 1.440.000, 2 noches, $91.190, $262.627 M; UADE-INECO oct-2024: 5 findes US$2.600 M de costo neto",
+      "angulo": "Corrida del pedido de lector 88 (enfoque aprobado por el lector), 12/10/2026 20:30. Ancla por estadística oficial recalculada: (1) cuadro 8 de sh_oferta_demanda_09_26.xls (trimestres en ritmo anual; el total 2025 es el promedio); (2) recálculo propio por día; (3) contraste Banco Mundial NY.GDP.MKTP.CN 2025 $847,6 billones (-0,3%, revisión). CAME como ESTIMACIÓN atribuida, no ancla; coherencia interna verificada (turistas x estadía x gasto = $313.610 M; variaciones cierran con 2025). UADE como estimación de un solo instituto, método no reproducible (solo publica recuperación comercio 35% y restaurantes 0%; el '3 días del año' no surge de su cuadro); reacción de Fedecatur (La Nación 16/10/2024). NO afirmado: saldo neto del feriado; pérdida efectiva de la industria (los $449.100 M son techo); gasto incremental. Achicado respecto del enfoque: los otros findes de 2026 van como acumulado de CAME (los informes por feriado solo se leyeron vía medios); datos oficiales de octubre salen en diciembre (IPI e ISAC 09/12, EMAE 21/12), y octubre de 2025 también tuvo finde largo (Res. JGM 139/2025).",
+      "fecha": "2026-10-12",
+      "estado": "publicada",
+      "articulo_id": "2026-10-12-fin-de-semana-largo-cuanto-genero-economia",
+      "archivo": "cola/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.html"
     }
   ]
 }

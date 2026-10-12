@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-12T18:53:22-03:00",
+    "actualizado": "2026-10-12T20:36:13-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-12-fin-de-semana-largo-cuanto-genero-economia",
+      "titulo": "Un día de actividad en la Argentina vale $2,7 billones; el turismo del fin de semana largo gastó $313.610 millones: por qué el saldo del feriado no se puede medir",
+      "bajada": "La economía argentina produce unos $2,7 billones en un día promedio, según el PBI del INDEC. Del otro lado, CAME estima que 1.490.400 turistas gastaron $313.610 millones en el fin de semana largo del 12 de octubre, con estadías más cortas que en 2025. Las dos columnas de la cuenta, con sus fuentes, y por qué ningún organismo publica el resultado.",
+      "titulo_busqueda": "¿El fin de semana largo le suma o le resta a la economía argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$2,7 billones",
+      "numero_label": "lo que produce la economía argentina en un día promedio: PBI a precios corrientes del INDEC, promedio de 3T-2025 a 2T-2026 ($985,2 billones anuales) dividido por 365 = $2.699.224 millones; frente a $313.610 millones de gasto turístico del fin de semana largo del 10 al 12/10/2026 según CAME (estimación)",
+      "fecha": "2026-10-12",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 8 min",
+      "pedido": 88
+    },
     {
       "id": "2026-10-12-coparticipacion-municipios-bonaerenses-por-habitante",
       "titulo": "La Provincia giró a los municipios 1,7% menos que en 2025, y el reparto por habitante va de $84.253 en Tres de Febrero a $970.220 en Pila",
