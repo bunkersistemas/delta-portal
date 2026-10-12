@@ -97,7 +97,7 @@
       <label class="campo" for="detalle">Contanos un poco más <span class="opc">(opcional)</span></label>
       <textarea id="detalle" maxlength="1500" placeholder="Por qué te interesa, dónde lo viste, qué te gustaría que comparemos..."></textarea>
 
-      <label class="campo" for="correo">Tu correo <span class="opc">(opcional, solo para avisarte cuando salga)</span></label>
+      <label class="campo" for="correo">Tu correo <span class="opc">(opcional: para mostrarte el enfoque antes de investigar y avisarte cuando salga)</span></label>
       <input type="email" id="correo" maxlength="200" autocomplete="email">
 
       <div class="trampa" aria-hidden="true"><label for="web">No completar</label><input type="text" id="web" tabindex="-1" autocomplete="off"></div>
@@ -110,8 +110,10 @@
   <h2>Cómo sigue tu pedido</h2>
   <ol class="pasos">
     <li>Tu pedido entra a la lista de temas que mira la redacción.</li>
-    <li>Cada semana elegimos uno entre los que se pueden contestar con una fuente
-    verificable: un organismo, una ley, un presupuesto, un balance.</li>
+    <li>Si dejaste tu correo, antes de investigar te mostramos <b>qué vamos a contestar y
+    con qué fuentes</b>. Lo aprobás o nos decís qué querías, y lo rehacemos.</li>
+    <li>Investigamos con fuentes verificables: un organismo, una ley, un presupuesto, un
+    balance. Vos elegís qué se investiga; el resultado es el que den los datos.</li>
     <li>Sale como nota, con la misma vara que cualquier otra: cada cifra confirmada contra la
     fuente primaria, y con la marca de que la pidió un lector.</li>
     <li>Si dejaste tu correo, te avisamos cuando se publique.</li>
@@ -177,7 +179,7 @@
       body: JSON.stringify({ titulo: t, tipo: tipo(), detalle: d, correo: c || null, origen: origen })
     }).then(function (r) {
       if (r.ok) {
-        decir("¡Gracias! Recibimos tu pedido. Si dejaste tu correo, te avisamos cuando salga.", true);
+        decir("¡Gracias! Recibimos tu pedido. Si dejaste tu correo, te mostramos el enfoque antes de investigar.", true);
         f.reset(); ct.textContent = "0"; ejemplo();
         return;
       }
