@@ -3829,6 +3829,14 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "ya cubiertas, sin documento primario con la cifra o fuente privada, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto cobra de pensión un medallista olímpico (serie plata-deportistas) / Ley 23.891 art. 3 (oro 3 haberes mínimos, plata 2, bronce 1; art. 4 edad 50, Ley 25.962 paralímpicos 40; art. 5 se actualiza con el haber mínimo; art. 6 ingresos habituales hasta 5 haberes mínimos, compatible; art. 7 cónyuge 75%) + ficha argentina.gob.ar del trámite en ANSES (misma escala); haber mínimo oct-2026 $435.748,51 (Res. ANSES 284/2026, BO 23/09/2026; contraste Elonce) -> oro $1.307.245,53, plata $871.497,02, bronce $435.748,51; tope de ingresos $2.178.742,55; contra CBT hogar 2 ago-26 $1.605.497,35 (81,4% / 54,3% / 27,1%) y adulto $519.578,43 (2,52); ENARD excelencia olímpica sep-26 $1.835.460 (pensión oro = 71,2%); oro suramericano Res. 139/2026 $699.840 (1,87 veces)",
+      "angulo": "Corrida programada del 12/10/2026 11:35, serie en prueba LA PLATA DE LOS DEPORTISTAS, primera candidata probada (APTA). Anatomía de un dato: la plata del medallista después del retiro (ángulo nuevo frente a Leonas/ENARD 30/08, campeón suramericano 25/09 y presupuesto del deporte 10/10, que son becas o gasto general). Verificación: dos fuentes que coinciden (texto de la ley + ficha oficial del trámite) para la escala; Res. 284/2026 + Elonce para el haber mínimo (Cronista/A24 redondean a $435.919,96 con 1,7%: se usa la resolución). Sin cantidad de beneficiarios: el BESS la agrega en 'leyes especiales'. No se dice si cobra bono ni aguinaldo. Sin superlativos. Otras candidatas no probadas: salario básico de convenio de futbolistas de Primera (CCT 557/09; no se encontró homologación 2025-2026 en el Boletín Oficial), premios o becas a los medallistas de Santa Fe 2026 (sin resolución publicada hallada), quién paga el viaje de la delegación a los Juegos Olímpicos de la Juventud Dakar 2026 (sin documento primario con montos), cuánto cobra un árbitro de AFA (sin documento público).",
+      "fecha": "2026-10-12",
+      "estado": "publicada",
+      "articulo_id": "2026-10-12-pension-medallistas-olimpicos-cuanto-cobran",
+      "archivo": "cola/2026-10-12-pension-medallistas-olimpicos-cuanto-cobran.html"
     }
   ]
 }

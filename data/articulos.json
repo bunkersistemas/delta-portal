@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-11T18:47:24-03:00",
+    "actualizado": "2026-10-12T11:46:38-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-12-pension-medallistas-olimpicos-cuanto-cobran",
+      "titulo": "Un campeón olímpico argentino cobra $1.307.245 por mes de pensión desde los 50 años: tres jubilaciones mínimas",
+      "bajada": "Una ley de 1990 le da una pensión vitalicia a cada argentino que ganó una medalla olímpica o paralímpica, medida en jubilaciones mínimas. Con el haber mínimo de octubre, un oro cobra $1.307.245 por mes, una plata $871.497 y un bronce $435.748. Los olímpicos la cobran desde los 50 años y los paralímpicos desde los 40.",
+      "titulo_busqueda": "¿Cuánto cobra de pensión un medallista olímpico argentino?",
+      "seccion": "DEPORTES",
+      "formato": "Anatomía de un dato",
+      "numero": "$1.307.245",
+      "numero_label": "pensión mensual vitalicia de un medallista olímpico de oro, octubre de 2026 (tres haberes mínimos)",
+      "fecha": "2026-10-12",
+      "hora": "12:00",
+      "archivo": "articulos/2026-10-12-pension-medallistas-olimpicos-cuanto-cobran.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min",
+      "serie": "plata-deportistas"
+    },
     {
       "id": "2026-10-11-boleto-colectivo-rosario-cordoba-amba",
       "titulo": "El colectivo cuesta $2.150 en Rosario y en Córdoba: 2,9 veces lo que paga un pasajero de una línea nacional del AMBA",
