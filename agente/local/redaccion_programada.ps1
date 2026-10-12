@@ -315,7 +315,10 @@ if ($Mision -eq 'general') {
   $ultimoPed = $null
   if (Test-Path $ArchivoIntentoPed) { try { $ultimoPed = [datetime]::ParseExact("$(Get-Content $ArchivoIntentoPed -TotalCount 1)".Trim(), 'yyyy-MM-dd HH:mm', $null) } catch { $ultimoPed = $null } }
   $ahora = [datetime]::ParseExact($ahoraAR, 'yyyy-MM-dd HH:mm', $null)
-  if ($ultimoPed -and ($ahora - $ultimoPed).TotalHours -lt ($HorasEntreIA - 0.25)) {
+  # periodo de prueba (editor, 12/10/2026): toda investigacion pedida sale el mismo dia,
+  # sin espera entre pedidos. Para volver a espaciarlas: $HorasEntrePedidos = $HorasEntreIA
+  $HorasEntrePedidos = 0
+  if ($ultimoPed -and ($ahora - $ultimoPed).TotalHours -lt ($HorasEntrePedidos - 0.25)) {
     Anotar ("pedidos: el ultimo intento fue {0}, esta corrida no mira pedidos" -f $ultimoPed.ToString('yyyy-MM-dd HH:mm'))
   } else {
     $ped = @(& $py agente/local/pedidos_lectores.py elegir $Hoy 2>&1)

@@ -256,6 +256,8 @@ def al_boton(est, q):
         r = pl.rpc("enfoque_responder", {"p_id": int(pid), "p_token": p["token"], "p_ok": True, "p_texto": None})
         anotar("pedido %s: enfoque aprobado por Telegram (%s)" % (pid, r))
         decir(chat, T_APROBADO if r == "aprobado" else T_YA_NO)
+        if r == "aprobado":
+            disparar_redaccion()   # periodo de prueba: sale el mismo dia
     else:
         est["esperando"][str(chat)] = int(pid)
         anotar("pedido %s: el lector va a escribir que queria" % pid)

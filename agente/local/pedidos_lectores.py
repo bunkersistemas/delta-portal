@@ -41,6 +41,9 @@ EN_REVISION = ("en_revision", "revision_ok", "revision_error")
 HORAS_COLGADO = 6     # en_investigacion sin borrador en la cola por mas de esto: la corrida se corto
 HORAS_RESPUESTA = 24  # enfoque propuesto sin respuesta del lector: se avanza con lo propuesto
 RONDAS_MAX = 3        # despues de 3 enfoques rechazados se investiga con lo que dijo el lector
+# Editor, 12/10/2026 (periodo de prueba): toda investigacion pedida sale EL MISMO DIA.
+# None = sin cupo diario. Para volver a una por dia: CUPO_DIARIO = 1.
+CUPO_DIARIO = None
 HORAS_REVISION = 12  # vista previa al lector: sin respuesta en 12 h se publica igual (sin veto)
 MAX_INTENTOS = 2      # editor 12/10/2026: toda solicitud termina en nota; si falla se reintenta, a los 2 se avisa
 ENFOQUE = os.path.join(ROOT, "_privado", "enfoque.json")
@@ -178,10 +181,11 @@ def elegir(hoy, modo="investigar"):
     forzado = False
     if os.path.exists(SIN_CUPO):
         forzado = open(SIN_CUPO, encoding="ascii").read().strip() == hoy
-    hoy_salio = any(x.get("pedido") and x.get("fecha") == hoy for x in articulos())
-    if modo != "enfoque" and pedir("GET", "?select=id&estado=in.(%s)" % ",".join(EN_REVISION)):
-        print("GENERAL|hay una investigacion en vista previa del lector: no se empieza otra")
-        return
+    hechas_hoy = sum(1 for x in articulos() if x.get("pedido") and x.get("fecha") == hoy)
+    if CUPO_DIARIO is not None:
+        # con cupo, las que esperan la vista previa del lector cuentan como del dia
+        hechas_hoy += len(pedir("GET", "?select=id&estado=in.(%s)" % ",".join(EN_REVISION)))
+    hoy_salio = CUPO_DIARIO is not None and hechas_hoy >= CUPO_DIARIO
     if modo == "enfoque":
         if not enfocar:
             print("GENERAL|no hay pedidos esperando enfoque")
@@ -189,7 +193,8 @@ def elegir(hoy, modo="investigar"):
         # el mas viejo primero: el que pidio antes recibe antes su enfoque
         p, fase = enfocar[0], "enfoque"
     elif investigar and (not hoy_salio or forzado):
-        p, fase = random.choice(investigar), "investigar"
+        # por orden de llegada: el que pidio antes sale antes
+        p, fase = investigar[0], "investigar"
     elif investigar:
         print("GENERAL|hoy ya salio una nota pedida por un lector (%d listos para investigar)" % len(investigar))
         return
