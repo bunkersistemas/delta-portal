@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-11T16:46:00-03:00",
+    "actualizado": "2026-10-11T18:47:24-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-11-boleto-colectivo-rosario-cordoba-amba",
+      "titulo": "El colectivo cuesta $2.150 en Rosario y en Córdoba: 2,9 veces lo que paga un pasajero de una línea nacional del AMBA",
+      "bajada": "Desde el 5 de octubre el boleto básico de colectivo en Rosario cuesta $2.150, lo mismo que en Córdoba desde julio. Una línea nacional del AMBA cobra $742,81 por un viaje de hasta 3 km con la SUBE registrada: el pasajero del interior paga 2,9 veces más. En noviembre de 2024 la distancia era de 3,2 veces.",
+      "titulo_busqueda": "¿Cuánto cuesta el colectivo en Rosario y Córdoba comparado con el AMBA?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "2,9 veces",
+      "numero_label": "lo que cuesta el boleto básico en Rosario (desde el 05/10/2026, Municipalidad de Rosario) y en Córdoba (desde el 18/07/2026, Municipalidad de Córdoba), $2.150, frente al mínimo de una línea nacional del AMBA, $742,81 (0-3 km, SUBE registrada; argentina.gob.ar y Red SUBE); contraste AAETA vía Infobae 11/10/2026: 2.150, 2.150 y 743",
+      "fecha": "2026-10-11",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-11-boleto-colectivo-rosario-cordoba-amba.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-11-importacion-gasoil-refinerias-record",
       "titulo": "La Argentina importó 65% menos gasoil que en 2025: las refinerías produjeron un récord y lo que viene de afuera cayó a 4 de cada 100 litros vendidos",

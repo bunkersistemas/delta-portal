@@ -3813,6 +3813,22 @@
       "estado": "publicada",
       "articulo_id": "2026-10-11-importacion-gasoil-refinerias-record",
       "archivo": "cola/2026-10-11-importacion-gasoil-refinerias-record.html"
+    },
+    {
+      "tema": "cuánto cuesta el colectivo en Rosario y Córdoba comparado con el AMBA (Infobae 11/10/2026, relevamiento de AAETA: ciudades más caras para viajar en colectivo; Rosario sube 25% el 05/10/2026) / Municipalidad de Rosario: tarifa básica $2.150 desde el 05/10/2026 (antes $1.720 desde el 23/02/2026, La Capital); Municipalidad de Córdoba: $2.150 desde el 18/07/2026 (antes $1.720; nov-2024 $1.200; tarifa técnica mar-26 $2.030; 'más de $250.000 millones' desde la eliminación del Fondo Compensador); AMBA 0-3 km SUBE registrada (argentina.gob.ar y Red SUBE octubre): nacionales $742,81, Ciudad $920,48, provinciales $1.215,09; nov-2024 nacionales $371,13 (Res. ST 25/2024, Chequeado); 2,894 veces; 2,336; 1,769; nov-2024 3,233; Córdoba +79,2%, AMBA nacional +100,1%",
+      "angulo": "Corrida programada del 11/10/2026 18:30, primera candidata probada (pregunta de plata detrás de Infobae). Anatomía de un dato: el mismo viaje corto cuesta 2,9 veces más en Rosario y Córdoba que en una línea nacional del AMBA, y la distancia bajó desde 3,2 en nov-2024. Ángulo nuevo frente a la nota del colectivo porteño del 30/09 (costo y compensación en la Ciudad): comparación interior-AMBA. Verificación: dos fuentes que coinciden (página o comunicado del organismo que fija cada tarifa + relevamiento independiente de la AAETA; para el AMBA, además, dos páginas oficiales: tarifas vigentes y Red SUBE).",
+      "fecha": "2026-10-11",
+      "estado": "publicada",
+      "articulo_id": "2026-10-11-boleto-colectivo-rosario-cordoba-amba",
+      "archivo": "cola/2026-10-11-boleto-colectivo-rosario-cordoba-amba.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 11/10/2026 18:30: Catamarca y las cuatro plantas de litio por US$2.000 M (infobae; Sal de Oro de POSCO publicada el 07/10, litio exportado el 03/10; el resto son anuncios de empresas sin documento ante la CNV), pensiones por invalidez 'casi 60% truchas' (iProfesional; cuántas pensiones se pagan publicada el 27/09, la afirmación de Santiago Caputo no tiene documento), informalidad 45% (La Nación, ámbito, Página12; estudio privado, ya descartada hoy), crédito al consumo en baja en septiembre (ámbito; deuda de las familias descartada el 04/10 por deflactor), expensas en CABA y PBA (iProfesional; precios privados), Día de la Madre en los comercios (infobae; CAME sale después del 18/10), Punta del Este y jubilarse afuera (Cronista; rankings privados), papa León XIV operado y su visita (ámbito, Cronista; sin documento con costo), riesgo país y dólar (infobae, Cronista; mercado), empresas CNV/SEC (Nuevo Continente balance al 31/07 y Camuzzi préstamos del Banco Macro: el visor de la CNV sigue sin documento legible con cifra; ICBC ampliación del programa de ON sin monto colocado; Central Puerto recompras, YPF recompra de ON, IRSA fusión, INVAP, La Anónima, YPF Luz: ya descartadas o publicadas; Genneia parque solar San Juan Sur US$110 M: comunicado de prensa, sin hecho relevante); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 11/10/2026 18:30; ganó el boleto de colectivo en Rosario y Córdoba contra el AMBA (primera candidata, APTA). Cupo de EMPRESAS: regía (última nota de EMPRESAS del 10/10), pero ninguna candidata del bloque tiene documento primario legible con cifra ancla nueva.",
+      "fecha": "2026-10-11",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "ya cubiertas, sin documento primario con la cifra o fuente privada, frente a la candidata elegida"
     }
   ]
 }
