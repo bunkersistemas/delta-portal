@@ -378,6 +378,18 @@ if ($Mision -eq 'enfoque' -and -not (Test-Path $Resultado) -and (Test-Path '_pri
   Anotar '[AVISO] la corrida de enfoque no dejo .corrida.json pero si _privado/enfoque.json: se toma como ENFOQUE'
   '{"veredicto":"ENFOQUE","id":"","motivo":"enfoque escrito (sin .corrida.json)"}' | Set-Content -Path $Resultado -Encoding UTF8
 }
+# Igual para una nota: si no hay .corrida.json pero quedo UN borrador nuevo en la
+# cola (antes de la corrida estaba vacia), se toma como APTA y pasa por los mismos
+# controles. Paso el 12/10/2026 con el pedido 84: borrador listo, sin veredicto,
+# y el repo sucio trababa todas las corridas siguientes.
+if ($Mision -ne 'enfoque' -and -not (Test-Path $Resultado)) {
+  $nuevos = @(Cola)
+  if ($nuevos.Count -eq 1) {
+    Anotar "[AVISO] la redaccion no dejo .corrida.json pero si un borrador en la cola ($($nuevos[0])): se toma como APTA y va a los controles"
+    $auto = [ordered]@{ veredicto = 'APTA'; id = $nuevos[0]; motivo = 'borrador en la cola (sin .corrida.json)' }
+    (New-Object PSObject -Property $auto | ConvertTo-Json -Compress) | Set-Content -Path $Resultado -Encoding UTF8
+  }
+}
 if (-not (Test-Path $Resultado)) { Terminar 1 'falla' '[FALLA] la redaccion no dejo .corrida.json; el repo queda como esta para revisarlo' }
 $r = Get-Content $Resultado -Raw -Encoding UTF8 | ConvertFrom-Json
 Remove-Item $Resultado -ErrorAction SilentlyContinue
