@@ -3861,6 +3861,14 @@
       "estado": "publicada",
       "articulo_id": "2026-10-12-honorarios-minimos-contadores-inflacion",
       "archivo": "cola/2026-10-12-honorarios-minimos-contadores-inflacion.html"
+    },
+    {
+      "tema": "honorarios mínimos sugeridos de los consejos de ciencias económicas de las 24 jurisdicciones: poder de compra desde 2013-2015 y mapa de hoy (pedido de lector 84)",
+      "angulo": "Pedido 84, enfoque aprobado por el lector (todas las provincias). Ángulo nuevo frente a la nota del pedido 76 (solo CABA): relevamiento de los 24 consejos (25 filas con las dos cámaras de Santa Fe). Poder de compra (IPCBA mensual hasta dic-2016 + IPC regional INDEC dic-2016 a ago-2026; valor contra el índice del mes anterior a su vigencia): Formosa MAPRO $144 (may-2014, Res. 17/2014, atado al SMVM) -> $13.000 = -65,6%; Rosario hora $275 (Acordada CS 2/2012, ene-2013) -> $57.445 = -45,4% (arancel $940 -> $194.710, -45,8%); PBA módulo $12,50 (ene-2013, MD 1823) -> $3.834 (CD 4103) = -20,1% (-24% desde los $13,50 de feb-2013); CABA $45,40 -> $15.682 = -10,1%; La Pampa $39 -> $14.600 (API oficial del consejo) = -2,1%; Neuquén UC $40 (Res. 540/2014) -> $10.500 (Res. 781, desde jul-2026) = -1,8%; Tucumán consulta escrita $4.500 (nov-2015) -> $950.000 = +13,9%. Mapa de hoy: DDJJ de Ganancias de persona humana, nivel más bajo, 14 escalas verificadas: de Chubut $173.200 a Entre Ríos $874.540 (x5,05), mediana ~$400.000. Fuera del mapa: Córdoba (anexos con 10 y 3 módulos), San Luis (sin fecha), Salta (escala 2018 no confirmada), Corrientes, San Juan, Santa Cruz y Santa Fe I (solo matriculados), Catamarca, Río Negro, Tucumán y La Rioja. Todavía no se hicieron pedidos formales a los consejos. Verificación: documento oficial leído por separado por investigador y verificador + recálculo módulos x valor + contraste de índices (Nacional/Pampeana cambian menos de 0,5 pp).",
+      "fecha": "2026-10-12",
+      "estado": "publicada",
+      "articulo_id": "2026-10-12-honorarios-minimos-contadores-provincias",
+      "archivo": "cola/2026-10-12-honorarios-minimos-contadores-provincias.html"
     }
   ]
 }
