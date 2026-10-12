@@ -3883,6 +3883,20 @@
       "angulo": "No se probaron: la primera candidata (soldado voluntario) pasó la verificación.",
       "fecha": "2026-10-12",
       "estado": "descartada"
+    },
+    {
+      "tema": "cuánto recibe cada municipio bonaerense de la Provincia (El Cronista 12/10/2026, informe de Alsina: 105 de 135 distritos perdieron en ene-ago) / serie mensual de transferencias a municipios del Ministerio de Economía PBA (catálogo datos.gba, CSV 01/2010-07/2026): feb-jul 2026 $2.884.981 M vs feb-jul 2025 $2.203.580 M (+30,9% nominal, −1,7% real con IPC nacional INDEC); 107 de 135 en baja real; por habitante (Censo 2022) de $84.253 (Tres de Febrero) a $970.220 (Pila); conurbano 62% de la población y 47% de los fondos. Enero excluido: en la serie publicada enero 2025 = enero 2024 peso por peso (fila repetida). Contraste: Alsina (mismas variaciones mensuales feb-jul) y PPA vía La Capital MdP (H1 $2,8 billones, −2,4% real)",
+      "angulo": "ángulo nuevo frente a la coparticipación Nación-provincias del 01/10/2026: el reparto Provincia-municipios y por habitante; reparto por Ley 10.559 (58/37/5)",
+      "fecha": "2026-10-12",
+      "estado": "publicada",
+      "articulo_id": "2026-10-12-coparticipacion-municipios-bonaerenses-por-habitante",
+      "archivo": "cola/2026-10-12-coparticipacion-municipios-bonaerenses-por-habitante.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 12/10/2026 18:30: no se probaron porque la primera candidata (transferencias a municipios bonaerenses) pasó la verificación. En la lista quedaron: Galperin contra la norma del BCRA sobre el costo financiero de los préstamos de la app (infobae), cupo femenino en la construcción (iProfesional; proyecto sin cifra oficial a mano), deudores refinanciados en mora (infobae; estudio privado), FMI y la revisión con US$869 M (infobae, Página12), honorarios de abogados tras fallos de la Corte (Cronista; ya publicada el 12/10), empresas CNV (A3 Mercados HR 09/10 y Nuevo Continente balance al 31/07: visor de la CNV sin cifras, ya descartadas hoy; Central Puerto recompra, IRSA fusión, YPF recompra de ON e ICBC programa: ya descartadas o publicadas), fin de semana largo, Nobel, agro 90 Mt, oro del BCRA (ya descartados hoy); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 12/10/2026 18:30; ganó transferencias a municipios bonaerenses por habitante (primera candidata, APTA)",
+      "fecha": "2026-10-12",
+      "estado": "descartada"
     }
   ]
 }
