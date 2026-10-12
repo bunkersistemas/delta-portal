@@ -3837,6 +3837,22 @@
       "estado": "publicada",
       "articulo_id": "2026-10-12-pension-medallistas-olimpicos-cuanto-cobran",
       "archivo": "cola/2026-10-12-pension-medallistas-olimpicos-cuanto-cobran.html"
+    },
+    {
+      "tema": "cuánto cobra un abogado por un amparo contra la prepaga (El Cronista 12/10/2026 'Qué pasa con los honorarios de los abogados tras los fallos de la Corte') / Ley 27.423 art. 48: mínimo de 20 UMA en amparos sin monto (InfoLEG texto actualizado + BO 22/12/2017; el Decreto 1077/2017 no observó los arts. 16, 48, 58 ni la tabla a del art. 19); UMA $105.991 desde el 1/8/2026 (CSJN novedad 14865, Res. SGA 2372/2026 + tabla CPACF) -> 20 UMA = $2.119.820; otros mínimos: consulta verbal 0,5 ($52.995,50), ejecutivo 6 ($635.946), divorcio/conocimiento 10 ($1.059.910), hábeas data/filiación 25 ($2.649.775); fallos de la Corte 'Puebla' c/ EN-M Salud (Sala II CAF, 20->10 UMA, agosto) y 'Martinuzzi' c/ Omint (Sala I CCF, 22->14 UMA, 03/09/2026), atribuidos a Diario Judicial, Palabras del Derecho y El Cronista; costas al vencido (Ley 16.986 art. 14, CPCCN art. 68); haber mínimo oct-2026 $435.748,51 (4,86 veces); UMA +37,2% ago-25/ago-26 contra IPC 33,5%, en 2026 +21,4% contra 21,3%",
+      "angulo": "Corrida programada del 12/10/2026 12:30, primera candidata probada (pregunta de plata detrás de El Cronista, sección justicia). Anatomía de un dato: el piso del honorario de un amparo en pesos y los dos fallos de la Corte que lo hicieron respetar. Ángulo nuevo frente a la sucesión del 27/09 (escala del art. 21 y tasa de justicia): mínimos de los arts. 48, 19 y 58 y quién paga las costas. Verificación: dos fuentes que coinciden para cada parte de la ancla (ley: InfoLEG + Boletín Oficial; UMA: Corte + CPACF). Sin superlativos. Los fallos se cuentan atribuidos: el PDF de Diario Judicial está detrás de un muro de pago y el visor de la Corte no carga el texto.",
+      "fecha": "2026-10-12",
+      "estado": "publicada",
+      "articulo_id": "2026-10-12-honorario-minimo-abogado-amparo-uma",
+      "archivo": "cola/2026-10-12-honorario-minimo-abogado-amparo-uma.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 12/10/2026 12:30: agro exportó 88,9 Mt en nueve meses 'más que el récord anual de 2021' (infobae; dato de la BCR que compara nueve meses con un año entero, granos ya publicados el 19/07), fin de semana largo con gasto real -2,2% (infobae, ámbito, Página12; relevamiento privado de CAME), oro del BCRA y la pérdida por coberturas (Cronista, Página12, iProfesional; frenado el 10/10), Nobel de Economía a Hall y Woodford (ámbito, La Nación, iProfesional; sin pregunta de plata con documento), informalidad 45% (La Nación, Página12; estudio privado, ya descartada), Presupuesto 2027 en Diputados (ámbito, Cronista; aristas ya publicadas), Pandanés pide la quiebra y la Justicia la rechaza (infobae; expediente no accesible), control de la pesca en el Mar Argentino (infobae; sin documento con cifra), base naval de Ushuaia (Cronista; sin documento con costo), Tecnópolis sin fecha de apertura (Página12; sin pliego con canon hallado), empresas CNV/SEC (Adecoagro y SanCor por US$100 M en La Nación: sin hecho relevante ni 6-K, ese monto aparece en un préstamo de la IFC de 2020; Nuevo Continente balance al 31/07: el visor de la CNV muestra un formulario sin cifras; ICBC, YPF, IRSA, Central Puerto, La Anónima, YPF Luz: ya descartadas o publicadas); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 12/10/2026 12:30; ganó el honorario mínimo de un amparo (primera candidata, APTA). Cupo de EMPRESAS: regía (última nota de EMPRESAS del 10/10), pero ninguna candidata del bloque tiene documento primario legible con cifra ancla nueva.",
+      "fecha": "2026-10-12",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "fuente privada, sin documento primario con la cifra, ya cubiertas o sin pregunta de plata con documento, frente a la candidata elegida"
     }
   ]
 }

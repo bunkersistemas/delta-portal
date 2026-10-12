@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-11",
-  "pregunta": "El presupuesto nacional del deporte pasó de $33.319 millones en 2023 a $61.296 millones en 2026: se multiplicó por 1,84. En el mismo período los precios, medidos por el IPC, se multiplicaron por 5,78. Descontada la inflación, ¿qué le pasó a esa plata?",
+  "fecha": "2026-10-12",
+  "pregunta": "Entre enero y agosto de 2026 la Argentina importó 65% menos gasoil que en el mismo período de 2025, pero cada metro cúbico le costó 47,6% más (US$908 contra US$616). ¿Qué pasó con lo que pagó en total por ese gasoil?",
   "opciones": [
-    "Subió 84%: es lo que creció el monto en pesos",
-    "Bajó 32%: el monto nuevo compra el 32% de lo que compraba antes",
-    "Bajó 68%: el monto nuevo compra menos de un tercio de lo que compraba antes"
+    "Subió: el precio más alto pesa más que la caída de la cantidad",
+    "Bajó 17%: es la caída de la cantidad menos la suba del precio (65 − 47,6)",
+    "Bajó 48%: pagó US$370,9 millones contra US$718,4 millones"
   ],
   "correcta": 2,
-  "explicacion": "Para comparar pesos de años distintos se divide lo que creció el monto por lo que crecieron los precios: 1,84 / 5,78 = 0,32. Los $61.296 millones de 2026 compran el 32% de lo que compraban los $33.319 millones de 2023, así que la caída real es lo que falta para llegar al 100%: 68%. El error común es confundir ese 32% con la caída. Y mirar solo el monto en pesos engaña: con inflación casi todo sube en pesos aunque alcance para menos.",
-  "nota": "articulos/2026-10-10-presupuesto-deporte-nacional-enard-2026.html",
+  "explicacion": "El gasto total es cantidad por precio, así que los cambios se multiplican, no se restan. Comprar 65% menos es quedarse con 0,35 de la cantidad; pagar 47,6% más es multiplicar el precio por 1,476. Juntos: 0,35 × 1,476 = 0,52, una factura de algo más de la mitad: bajó 48%. El error común es restar los porcentajes (65 − 47,6 = 17,4), algo que solo se acerca cuando los cambios son chicos. Y un precio más alto no alcanza a compensar una cantidad que cae a un tercio.",
+  "nota": "articulos/2026-10-11-importacion-gasoil-refinerias-record.html",
   "leccion": ""
 }
