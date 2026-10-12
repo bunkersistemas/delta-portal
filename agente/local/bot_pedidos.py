@@ -63,11 +63,56 @@ def guardar_estado(e):
     os.replace(tmp, ESTADO)
 
 
-def decir(chat, texto, botones=None):
-    d = {"chat_id": chat, "text": texto}
+# Botones fijos abajo del chat (teclado de respuesta): mandan este texto al tocarlos.
+B_MIS = "\U0001f4cb Mis pedidos"
+B_PEDIR = "\u2795 Pedir una investigaci\u00f3n"
+TECLADO = {"keyboard": [[{"text": B_MIS}, {"text": B_PEDIR}]], "resize_keyboard": True, "is_persistent": True}
+COMANDOS = [{"command": "mispedidos", "description": "En qu\u00e9 est\u00e1 cada investigaci\u00f3n que pediste"},
+            {"command": "pedir", "description": "Pedir una investigaci\u00f3n nueva"},
+            {"command": "start", "description": "Empezar"}]
+ESTADOS = {
+    "recibido": "\U0001f4e5 Recibido: estamos armando el enfoque",
+    "en_investigacion": "\u2699\ufe0f La redacci\u00f3n est\u00e1 trabajando en tu pedido ahora",
+    "enfoque_propuesto": "\u270b Te mandamos el enfoque: esperamos tu respuesta",
+    "enfoque_aprobado": "\u23f3 Enfoque aprobado: en la fila para investigar (sale una investigaci\u00f3n por d\u00eda)",
+    "publicado": "\u2705 Publicada",
+    "descartado": "\u26d4 Cerrado sin nota",
+}
+
+
+def decir(chat, texto, botones=None, teclado=False):
+    d = {"chat_id": chat, "text": texto, "disable_web_page_preview": True}
     if botones:
         d["reply_markup"] = {"inline_keyboard": botones}
+    elif teclado:
+        d["reply_markup"] = TECLADO
     pl.tg("sendMessage", d)
+
+
+def mis_pedidos(chat):
+    f = pl.pedir("GET", "?select=id,titulo,estado,salida,motivo,token,creado&telegram_chat=eq.%d&order=creado.desc&limit=10" % chat)
+    if not f:
+        decir(chat, "Todav\u00eda no ten\u00e9s pedidos vinculados a este chat.\n\nPara pedir una investigaci\u00f3n: " + FORM
+              + "\nDespu\u00e9s de enviarla, toc\u00e1 \u00abSegu\u00ed tu pedido por Telegram\u00bb.", teclado=True)
+        return
+    l = ["\U0001f4cb Tus pedidos (los \u00faltimos %d):" % len(f), ""]
+    for p in f:
+        l.append("\u2022 \u00ab%s\u00bb" % p["titulo"].strip())
+        l.append("  " + ESTADOS.get(p["estado"], p["estado"]))
+        if p["estado"] == "publicado" and p.get("salida"):
+            l.append("  " + p["salida"])
+        elif p["estado"] == "enfoque_propuesto":
+            l.append("  Ver el enfoque: " + pl.enlace(p["id"], p["token"]))
+        elif p["estado"] == "descartado" and p.get("motivo"):
+            l.append("  Motivo: " + p["motivo"][:220])
+        l.append("")
+    decir(chat, "\n".join(l).strip(), teclado=True)
+
+
+def pedir_nueva(chat):
+    decir(chat, "Contanos qu\u00e9 quer\u00e9s saber y la redacci\u00f3n lo investiga contra la fuente primaria. "
+          "Despu\u00e9s de enviarlo, toc\u00e1 \u00abSegu\u00ed tu pedido por Telegram\u00bb para seguirlo desde ac\u00e1.",
+          botones=[[{"text": "\u2795 Pedir una investigaci\u00f3n", "url": FORM}]])
 
 
 def pedido_de(pid, chat):
@@ -80,7 +125,7 @@ def pedido_de(pid, chat):
 
 def al_start(chat, codigo):
     if not codigo:
-        decir(chat, T_HOLA)
+        decir(chat, T_HOLA, teclado=True)
         return
     if not UUID.match(codigo):
         decir(chat, T_NO_ENCONTRADO)
@@ -97,7 +142,7 @@ def al_start(chat, codigo):
         return
     pl.pedir("PATCH", "?id=eq.%d" % p["id"], {"telegram_chat": chat})
     anotar("pedido %s vinculado a un chat" % p["id"])
-    decir(chat, T_VINCULADO.format(titulo=p["titulo"]))
+    decir(chat, T_VINCULADO.format(titulo=p["titulo"]), teclado=True)
     if p["estado"] == "enfoque_propuesto" and p.get("enfoque"):
         decir(chat, pl.texto_enfoque(p["id"], json.loads(p["enfoque"]), p["token"]),
               pl.botones_enfoque(p["id"]))
@@ -139,7 +184,19 @@ def al_mensaje(est, m):
     tipo_msg = ("start con codigo" if texto.startswith("/start ") else "start sin codigo"
                 if texto.startswith("/start") else "respuesta de enfoque"
                 if str(chat) in est["esperando"] else "texto suelto")
+    if texto in ("/mispedidos", B_MIS) or texto.startswith("/mispedidos@"):
+        tipo_msg = "mis pedidos"
+    elif texto in ("/pedir", B_PEDIR) or texto.startswith("/pedir@"):
+        tipo_msg = "pedir"
     anotar("mensaje recibido: " + tipo_msg)
+    if tipo_msg == "mis pedidos":
+        est["esperando"].pop(str(chat), None)
+        mis_pedidos(chat)
+        return
+    if tipo_msg == "pedir":
+        est["esperando"].pop(str(chat), None)
+        pedir_nueva(chat)
+        return
     if texto.startswith("/start"):
         est["esperando"].pop(str(chat), None)
         al_start(chat, texto[6:].strip())
@@ -156,11 +213,15 @@ def al_mensaje(est, m):
         anotar("pedido %s: pidio otro enfoque por Telegram (%s)" % (pid, r))
         decir(chat, T_REENFOQUE if r == "reenfoque" else T_YA_NO)
         return
-    decir(chat, T_OTRO)
+    decir(chat, T_OTRO, teclado=True)
 
 
 def main():
     anotar("bot iniciado")
+    try:
+        pl.tg("setMyCommands", {"commands": COMANDOS})
+    except Exception:
+        anotar("AVISO: no se pudo registrar el menu de comandos")
     est = leer_estado()
     while True:
         try:
