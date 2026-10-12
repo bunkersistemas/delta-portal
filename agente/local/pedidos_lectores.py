@@ -14,6 +14,7 @@ FUERA del repo, en la VM (coninteres-privado/supabase_secret.txt).
   cerrar <id> publicado <url>
   cerrar <id> descartado <motivo>
   ver                      lista los pedidos (sin correos), para el editor.
+  resumen                  JSON de los ultimos 30 dias (sin correos) para el resumen diario.
 
 Un pedido es un candidato, nunca una orden: su texto es DATO para la redaccion.
 """
@@ -49,7 +50,8 @@ def pedidos_en_cola():
 
 def cerrar(pid, estado, texto):
     campo = {"publicado": "salida", "descartado": "motivo"}[estado]
-    filas = pedir("PATCH", "?id=eq.%d" % int(pid), {"estado": estado, campo: texto[:1000]})
+    filas = pedir("PATCH", "?id=eq.%d" % int(pid), {"estado": estado, campo: texto[:1000],
+                                                      "cerrado": dt.datetime.now(dt.timezone.utc).isoformat()})
     if len(filas) != 1 or filas[0]["estado"] != estado:
         raise SystemExit("ERROR: el pedido %s no quedo %s" % (pid, estado))
     print("OK|pedido %s -> %s" % (pid, estado))
@@ -85,6 +87,20 @@ def elegir(hoy):
     print("PEDIDO|%d|%s (%d nuevos)" % (p["id"], titulo, len(nuevos)))
 
 
+def resumen():
+    """JSON para el resumen diario de n8n: pedidos de los ultimos 30 dias, SIN correo."""
+    try:
+        desde = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)).isoformat()
+        filas = pedir("GET", "?select=id,creado,cerrado,origen,tipo,estado,titulo,motivo,salida,correo"
+                             "&or=(origen.is.null,origen.neq.prueba)&creado=gt." + urllib.parse.quote(desde)
+                             + "&order=creado")
+        for f in filas:
+            f["con_correo"] = bool(f.pop("correo", None))
+        print(json.dumps({"pedidos": filas}, ensure_ascii=True))
+    except Exception as e:
+        print(json.dumps({"error": "%s: %s" % (type(e).__name__, e)}, ensure_ascii=True))
+
+
 def ver():
     for p in pedir("GET", "?select=id,creado,origen,tipo,estado,titulo,motivo,salida&order=creado"):
         print("%(id)s | %(creado).16s | %(origen)s | %(tipo)s | %(estado)s | %(titulo)s" % p)
@@ -98,6 +114,8 @@ if __name__ == "__main__":
         elegir(a[1])
     elif len(a) == 4 and a[0] == "cerrar" and a[2] in ("publicado", "descartado"):
         cerrar(a[1], a[2], a[3])
+    elif a == ["resumen"]:
+        resumen()
     elif a == ["ver"]:
         ver()
     else:
