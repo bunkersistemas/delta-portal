@@ -10,7 +10,7 @@ FUERA del repo, en la VM (coninteres-privado/supabase_secret.txt).
       Editor 12/10/2026: una nota por dia sobre las preguntas, para probar rapido.
       Le toca si hoy no se publico ninguna nota con "pedido" y hay pedidos nuevos.
       Elige uno AL AZAR, lo pasa a en_investigacion ANTES de trabajar y deja el
-      texto (sin el correo) en coninteres-logs/pedido_actual.json.
+      texto (sin el correo) en _privado/pedido_actual.json (dentro del repo, ignorado por git).
   cerrar <id> publicado <url>
   cerrar <id> descartado <motivo>
   ver                      lista los pedidos (sin correos), para el editor.
@@ -24,7 +24,9 @@ ROOT = os.path.dirname(os.path.dirname(os.path.dirname(os.path.abspath(__file__)
 URL = "https://tgjxivohobemoirrkwrq.supabase.co/rest/v1/pedidos"
 LLAVE = os.path.join(os.path.expanduser("~"), "coninteres-privado", "supabase_secret.txt")
 LOGS = os.path.join(os.path.expanduser("~"), "coninteres-logs")
-ACTUAL = os.path.join(LOGS, "pedido_actual.json")
+# dentro del repo (para que el agente lo pueda leer sin salir de su carpeta) pero en
+# _privado/, que esta en .gitignore: nunca se sube ni se publica (12/10/2026)
+ACTUAL = os.path.join(ROOT, "_privado", "pedido_actual.json")
 HORAS_COLGADO = 6   # en_investigacion sin borrador en la cola por mas de esto: la corrida se corto
 
 
@@ -79,7 +81,7 @@ def elegir(hoy):
     if len(filas) != 1:
         print("GENERAL|el pedido %s cambio de estado mientras se elegia" % p["id"])
         return
-    os.makedirs(LOGS, exist_ok=True)
+    os.makedirs(os.path.dirname(ACTUAL), exist_ok=True)
     with open(ACTUAL, "w", encoding="utf-8") as f:
         json.dump({"id": p["id"], "tipo": p["tipo"], "titulo": p["titulo"], "detalle": p["detalle"]},
                   f, ensure_ascii=False, indent=2)

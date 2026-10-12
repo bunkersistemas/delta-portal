@@ -317,7 +317,7 @@ veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. mo
 "@
 }
 if ($Mision -eq 'pedido') {
-$ArchivoPedido = Join-Path $Logs 'pedido_actual.json'
+$ArchivoPedido = '_privado/pedido_actual.json'  # relativo al repo: fuera de su carpeta el agente no puede leer
 $prompt = @"
 Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
 Fecha y hora de Buenos Aires: $ahoraAR. Usala para todo lo que dependa del dia. La maquina esta en otra zona horaria: no te guies por su reloj.
@@ -332,6 +332,14 @@ AL FINAL escribi el archivo .corrida.json en la raiz del repo: un objeto JSON co
 veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado; si no hubo nota, por que no se pudo contestar el pedido.
 "@
 }
+# 12/10/2026: la primera corrida de un pedido armo "cd /tmp && curl ... | python",
+# se lo rechazaron por el cd, probo PowerShell (tampoco permitido) y abandono sin
+# dejar .corrida.json creyendo que no tenia Bash. Va para todas las misiones.
+$prompt += @"
+
+COMO USAR LOS COMANDOS: Bash acepta SOLO comandos que empiezan con python, py o curl, corridos desde la raiz del repo: sin cd, sin && ni ; y sin rutas fuera del repo (/tmp tampoco). Una tuberia curl ... | python -c ... si anda. PowerShell no esta habilitado. Para calculos o para bajar y procesar series, escribi un script en _privado/ (por ejemplo _privado/calculo.py) con Write y corre python _privado/calculo.py. Si te rechazan un comando, NO quiere decir que no tengas Bash: reformulalo dentro de esas reglas.
+SIEMPRE, pase lo que pase, termina escribiendo .corrida.json, tambien si frenas o si algo fallo.
+"@
 Anotar 'llamando a la redaccion...'
 $salida = & claude -p $prompt --permission-mode dontAsk `
   --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' 2>&1
