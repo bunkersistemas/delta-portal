@@ -3853,6 +3853,14 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "fuente privada, sin documento primario con la cifra, ya cubiertas o sin pregunta de plata con documento, frente a la candidata elegida"
+    },
+    {
+      "tema": "honorarios mínimos sugeridos de los contadores (módulo del CPCECABA) frente a la inflación desde 2013 (pedido de lector 76)",
+      "angulo": "el módulo de los HMS del CPCECABA pasó de $45,40 (ene-2013, Res. C.D. 120/2012) a $15.682 (oct-2026): x345 contra x367,66 del IPCBA (dic-2012 a ago-2026, variaciones dic/dic de los informes anuales 1736 y 1930 + índices del informe 2053) = -6,0%; -10% con IPCBA hasta 2016 e IPC INDEC desde dic-2016 (x122,77). Desde el 1/3/2024 el módulo se ajusta mensual por IPC INDEC con dos meses de rezago (Res. M.D. 20/2024): recálculo 12.570 x IPC dic-25 a ago-26 = 15.681. La pérdida se hizo antes de 2024. Contexto: Córdoba $65.144 y Salta $18.500 desde el 1/10/2026, ambos atados al IPC. Verificación: estadística oficial recalculada con contraste (INDEC).",
+      "fecha": "2026-10-12",
+      "estado": "publicada",
+      "articulo_id": "2026-10-12-honorarios-minimos-contadores-inflacion",
+      "archivo": "cola/2026-10-12-honorarios-minimos-contadores-inflacion.html"
     }
   ]
 }
