@@ -13,6 +13,7 @@ FUERA del repo, en la VM (coninteres-privado/supabase_secret.txt).
       Primero INVESTIGAR (cupo: una nota pedida por dia), si no ENFOCAR (sin cupo).
       Elige AL AZAR, pasa el pedido a en_investigacion ANTES de trabajar y deja el
       texto (sin el correo) en _privado/pedido_actual.json (dentro del repo, ignorado por git).
+  reintentar <id> <motivo> la investigacion no termino en nota: vuelve a la fila (2 intentos).
   guardar_enfoque <id>     guarda _privado/enfoque.json como enfoque propuesto al lector.
   cerrar <id> publicado <url>
   cerrar <id> descartado <motivo>
@@ -33,6 +34,7 @@ ACTUAL = os.path.join(ROOT, "_privado", "pedido_actual.json")
 HORAS_COLGADO = 6     # en_investigacion sin borrador en la cola por mas de esto: la corrida se corto
 HORAS_RESPUESTA = 24  # enfoque propuesto sin respuesta del lector: se avanza con lo propuesto
 RONDAS_MAX = 3        # despues de 3 enfoques rechazados se investiga con lo que dijo el lector
+MAX_INTENTOS = 2      # editor 12/10/2026: toda solicitud termina en nota; si falla se reintenta, a los 2 se avisa
 ENFOQUE = os.path.join(ROOT, "_privado", "enfoque.json")
 # coninteres-logs/pedido_sin_cupo.txt con la fecha de hoy: permite UNA nota pedida
 # mas ese dia (pruebas del editor). Se borra sola al usarse.
@@ -75,8 +77,8 @@ def elegir(hoy):
     en_cola = pedidos_en_cola()
     for p in pedir("GET", "?select=id&estado=eq.en_investigacion&tomado=lt." + urllib.parse.quote(lim)):
         if p["id"] not in en_cola:
-            cerrar(p["id"], "descartado", "la corrida que lo trabajaba se corto")
-    campos = "?select=id,titulo,tipo,detalle,origen,correo,enfoque,enfoque_en,rondas,comentarios,estado"
+            reintentar(p["id"], "la corrida que lo trabajaba se corto")
+    campos = "?select=id,titulo,tipo,detalle,origen,correo,enfoque,enfoque_en,rondas,comentarios,estado,intentos,motivo"
     filtro = "&or=(origen.is.null,origen.neq.prueba)&order=creado"
     # 2. INVESTIGAR: enfoque aprobado; propuesto sin respuesta en HORAS_RESPUESTA (se
     #    avanza con lo propuesto); o recibido sin correo / con RONDAS_MAX rondas (no hay
@@ -118,9 +120,29 @@ def elegir(hoy):
                    "enfoque_aprobado_por_el_lector": p["estado"] == "enfoque_aprobado",
                    "el_lector_no_contesto": p["estado"] == "enfoque_propuesto",
                    "comentarios_del_lector": p.get("comentarios") or "",
-                   "rondas": p["rondas"]}, f, ensure_ascii=False, indent=2)
+                   "rondas": p["rondas"],
+                   "intento_anterior_fallo_por": p.get("motivo") if p.get("intentos") else None},
+                  f, ensure_ascii=False, indent=2)
     titulo = " ".join(p["titulo"].split()).encode("ascii", "replace").decode("ascii")
     print("PEDIDO|%d|%s|%s" % (p["id"], fase, titulo))
+
+
+def reintentar(pid, motivo):
+    """Una investigacion que no termino en nota vuelve a la fila (editor 12/10/2026:
+    toda solicitud termina en una nota). A los MAX_INTENTOS se descarta con aviso."""
+    act = pedir("GET", "?select=intentos&id=eq.%d" % int(pid))
+    if len(act) != 1:
+        raise SystemExit("ERROR: no existe el pedido %s" % pid)
+    n = act[0]["intentos"] + 1
+    if n >= MAX_INTENTOS:
+        pedir("PATCH", "?id=eq.%d" % int(pid), {"intentos": n})
+        cerrar(pid, "descartado", "no termino en nota despues de %d intentos; el ultimo: %s" % (n, motivo))
+        return
+    filas = pedir("PATCH", "?id=eq.%d" % int(pid),
+                  {"estado": "enfoque_aprobado", "intentos": n, "motivo": motivo[:1000]})
+    if len(filas) != 1 or filas[0]["estado"] != "enfoque_aprobado":
+        raise SystemExit("ERROR: el pedido %s no volvio a la fila" % pid)
+    print("OK|pedido %s -> se reintenta (intento %d de %d)" % (pid, n, MAX_INTENTOS))
 
 
 def guardar_enfoque(pid):
@@ -191,6 +213,8 @@ if __name__ == "__main__":
         elegir(a[1])
     elif len(a) == 4 and a[0] == "cerrar" and a[2] in ("publicado", "descartado"):
         cerrar(a[1], a[2], a[3])
+    elif len(a) == 3 and a[0] == "reintentar":
+        reintentar(a[1], a[2])
     elif len(a) == 2 and a[0] == "guardar_enfoque":
         guardar_enfoque(a[1])
     elif a == ["resumen"]:

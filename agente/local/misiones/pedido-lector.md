@@ -44,21 +44,33 @@ Si el archivo trae `enfoque_anterior` aprobado, ese es el alcance. Los
 `comentarios_del_lector` mandan sobre tu criterio para ELEGIR el alcance, nunca
 sobre la vara ni sobre el resultado.
 
+## Toda solicitud termina en una nota (editor, 12/10/2026)
+
+Por ahora no se descarta un pedido por falta de datos:
+- contestable completo: la nota lo contesta;
+- en parte: se publica lo verificado y arriba se dice que falto y por que;
+- sin ningun dato verificable: la nota cuenta que se busco, donde, y por que ese
+  dato no es publico. Eso tambien es informacion.
+La vara de la seccion 3 no cambia para ninguna cifra. Solo se FRENA por las
+lineas rojas (2 bis) y la moderacion de 2 ter. Si una corrida igual no termina en
+nota, el pedido vuelve a la fila; a los 2 intentos se descarta y el editor lo ve.
+
 ## Pasos
 
 1. Lee el pedido. Reescribi la pregunta de plata en una linea, en tus palabras:
    que numero contestaria al lector.
 2. Moderacion (NEWSROOM 2 ter): FRENA con el motivo si apunta a un particular que
    no es figura publica, trae una acusacion penal sin sentencia, pide una
-   recomendacion de inversion o un diagnostico, o no hay ningun dato verificable
-   posible detras.
+   recomendacion de inversion o un diagnostico. (La falta de datos NO es motivo
+   para frenar: ver "Toda solicitud termina en una nota".)
 3. Busca la fuente primaria que la contesta (organismo, ley, presupuesto, balance,
    registro, estadistica oficial). Si la pregunta es amplia, acotala a lo que se
    puede verificar y decilo en la nota. Si ya la cubrimos (`data/cubiertas.json`),
-   busca el angulo nuevo que trae el pedido o FRENA.
+   busca el angulo nuevo que trae el pedido; si no hay, la nota actualiza o amplia
+   lo publicado y lo enlaza.
 4. Investiga y verifica con la vara de la seccion 3: la cifra ancla CONFIRMADO.
-   Solo este pedido: si no se puede contestar con datos verificados, FRENA con el
-   motivo en una linea clara (el lector lo puede llegar a leer).
+   Solo este pedido. Lo que no llegue a CONFIRMADO no se publica como dato: se
+   cuenta como lo que se busco y no se encontro.
 
 ## La nota
 
