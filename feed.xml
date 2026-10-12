@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 12 Oct 2026 20:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 16:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un soldado voluntario cobra $797.085 de haber en octubre: 32% más que hace un año, con un salto de 6,9% en septiembre</title>
+      <link>https://coninteres.com/articulos/2026-10-12-cuanto-cobra-soldado-voluntario-octubre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-12-cuanto-cobra-soldado-voluntario-octubre.html</guid>
+      <pubDate>Mon, 12 Oct 2026 17:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Resolución Conjunta 44/2026 de Economía y Defensa fija en $797.085 el haber de octubre del voluntario de segunda, el grado más bajo de las Fuerzas Armadas. Antes del aumento de 6,9% de septiembre, el haber había subido menos que los precios once meses seguidos: en agosto compraba 8,1% menos que en junio de 2025.</description>
+      <ci:numero>$797.085</ci:numero>
+      <ci:numeroEtiqueta>haber mensual de octubre de 2026 del voluntario de segunda de las Fuerzas Armadas (Resolución Conjunta 44/2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-cuanto-cobra-soldado-voluntario-octubre.png" length="77273" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-cuanto-cobra-soldado-voluntario-octubre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>En seis de los siete consejos de contadores que se pueden medir, el honorario mínimo sugerido compra menos que hace más de una década</title>
       <link>https://coninteres.com/articulos/2026-10-12-honorarios-minimos-contadores-provincias.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>ganancia neta consolidada de La Anónima entre julio de 2025 y junio de 2026, en pesos de junio de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo.png" length="78607" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-la-anonima-balance-incendio-cipolletti-dividendo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los precios regulados subieron 31,1% en nueve meses en la Ciudad y el resto, 22,3%: en 2025 había sido al revés</title>
-      <link>https://coninteres.com/articulos/2026-10-08-inflacion-caba-septiembre-regulados.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-inflacion-caba-septiembre-regulados.html</guid>
-      <pubDate>Thu, 08 Oct 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>La inflación de la Ciudad de Buenos Aires fue 1,8% en septiembre. Detrás del promedio hay un cambio de motor: entre enero y septiembre de 2026 los precios regulados —colegios, prepagas, tarifas de agua, luz y gas, subte y colectivo— subieron 31,1%, y el resto de la canasta, 22,3%. En los mismos meses de 2025 había pasado lo contrario: 21,0% contra 24,1%.</description>
-      <ci:numero>31,1%</ci:numero>
-      <ci:numeroEtiqueta>suba de los precios regulados del IPCBA entre diciembre de 2025 y septiembre de 2026 (IDECBA, informe de resultados 2064, cuadro C.4; índice 3.210,34 / 2.449,34); resto IPCBA 22,3%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-inflacion-caba-septiembre-regulados.png" length="78985" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-inflacion-caba-septiembre-regulados.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

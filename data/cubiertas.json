@@ -3869,6 +3869,20 @@
       "estado": "publicada",
       "articulo_id": "2026-10-12-honorarios-minimos-contadores-provincias",
       "archivo": "cola/2026-10-12-honorarios-minimos-contadores-provincias.html"
+    },
+    {
+      "tema": "cuánto cobra un soldado voluntario en octubre de 2026 (iProfesional 12/10/2026 'Aumento de sueldo para las Fuerzas Armadas en octubre de 2026: cuánto cobra cada rango') / Resolución Conjunta 44/2026 MEcon-Defensa (BO 01/09/2026), anexo I IF-2026-82486455-APN-SSGA#MD: Voluntario 2da./Marinero 2da. sep $782.991, oct $797.085, nov $809.838, dic $821.986 (+6,9%, +1,8%, +1,6%, +1,5%, iguales en los 19 renglones); oct-25 $603.867 (RC 63/2025) -> +32,0%; serie jun-25 a ago-26 con RC 63/2025, 1/2026, 10/2026 y 35/2026: once meses seguidos debajo del IPC (jul-25 a may-26), en pesos de ago-26 $797.367 (jun-25) -> $732.452 (ago-26) = -8,1%; IPC oct-25->ago-26 +27,8%, margen 3,3% para sep+oct; CBT hogar 2 cubierta 50,8% (ago-25) -> 45,6% (ago-26); Gendarme II $912.098,25 (12,6% más); suma fija $50.000 Decreto 695/2026",
+      "angulo": "Corrida programada del 12/10/2026 16:30, primera candidata (pregunta de plata). Ángulo nuevo frente al gendarme del 05/10 (fuerzas de seguridad, Res. MSN 844/2026): las Fuerzas Armadas tienen otra escala y el 6,9% de septiembre después de once meses debajo de la inflación. Verificación: acto oficial (anexo I de la RC 44/2026) + recálculo (sep x 1,018 = 797.084,84) + coherencia con la RC 35/2026 (ago 732.452 x 1,069 = 782.991) en los 19 renglones.",
+      "fecha": "2026-10-12",
+      "estado": "publicada",
+      "articulo_id": "2026-10-12-cuanto-cobra-soldado-voluntario-octubre",
+      "archivo": "cola/2026-10-12-cuanto-cobra-soldado-voluntario-octubre.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 12/10/2026 16:30: empresas CNV (A3 Mercados hecho relevante del 09/10: el visor de la CNV muestra un formulario sin texto ni cifras; Nuevo Continente balance al 31/07: mismo problema, ya descartado tres veces; Central Puerto y YPF recompras, YPF Luz, IRSA fusión, La Anónima dividendos e ICBC programa de ON: ya descartadas o publicadas), Galperin contra la norma del BCRA que obliga a informar el costo financiero de los préstamos de la app (infobae; no investigada en esta corrida), ARCA y las creadoras de OnlyFans (ámbito; sin documento con cifra), quiebra de un aserradero de pallets (infobae, La Nación; expediente no accesible), superávits gemelos tres años seguidos (ámbito), autos importados en el mercado (infobae; datos de cámaras privadas), carne vacuna +10% hasta fin de año (La Nación; proyección), jubilación mínima de noviembre (iProfesional; depende del IPC de septiembre que sale el 13/10), fin de semana largo y Nobel (ya descartados hoy), informalidad 45% (ya descartada); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "No se probaron: la primera candidata (soldado voluntario) pasó la verificación.",
+      "fecha": "2026-10-12",
+      "estado": "descartada"
     }
   ]
 }
