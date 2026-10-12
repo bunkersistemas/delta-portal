@@ -39,6 +39,8 @@ ENFOQUE = os.path.join(ROOT, "_privado", "enfoque.json")
 # coninteres-logs/pedido_sin_cupo.txt con la fecha de hoy: permite UNA nota pedida
 # mas ese dia (pruebas del editor). Se borra sola al usarse.
 SIN_CUPO = os.path.join(LOGS, "pedido_sin_cupo.txt")
+# Avisos al lector por Telegram (@Con_Interes_bot, 12/10/2026): el token vive en la VM.
+TG_TOKEN = os.path.join(os.path.expanduser("~"), "coninteres-privado", "telegram_bot.txt")
 
 
 def pedir(metodo, consulta="", cuerpo=None):
@@ -49,6 +51,61 @@ def pedir(metodo, consulta="", cuerpo=None):
     req = urllib.request.Request(URL + consulta, data=datos, headers=h, method=metodo)
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.loads(r.read().decode("utf-8") or "[]")
+
+
+def rpc(nombre, cuerpo):
+    """Funciones de la base (las mismas que usa enfoque.html), con la llave secreta."""
+    k = open(LLAVE, encoding="ascii").read().strip()
+    h = {"apikey": k, "Authorization": "Bearer " + k, "Content-Type": "application/json"}
+    req = urllib.request.Request(URL.replace("/pedidos", "/rpc/") + nombre,
+                                 data=json.dumps(cuerpo).encode("utf-8"), headers=h, method="POST")
+    with urllib.request.urlopen(req, timeout=30) as r:
+        return json.loads(r.read().decode("utf-8") or "null")
+
+
+def tg(metodo, datos):
+    k = open(TG_TOKEN, encoding="ascii").read().strip()
+    req = urllib.request.Request("https://api.telegram.org/bot%s/%s" % (k, metodo),
+                                 data=json.dumps(datos).encode("utf-8"),
+                                 headers={"Content-Type": "application/json"}, method="POST")
+    with urllib.request.urlopen(req, timeout=60) as r:
+        return json.loads(r.read().decode("utf-8"))
+
+
+def avisar(pid, texto, botones=None):
+    """Le escribe al lector si vinculo su pedido con Telegram. Nunca frena el proceso:
+    un aviso que no sale se anota y sigue (el lector igual tiene su enlace)."""
+    try:
+        f = pedir("GET", "?select=telegram_chat&id=eq.%d" % int(pid))
+        if not f or not f[0].get("telegram_chat"):
+            return False
+        d = {"chat_id": f[0]["telegram_chat"], "text": texto, "disable_web_page_preview": False}
+        if botones:
+            d["reply_markup"] = {"inline_keyboard": botones}
+        tg("sendMessage", d)
+        print("OK|aviso por Telegram al lector del pedido %s" % pid)
+        return True
+    except Exception as e:
+        print("AVISO|no salio el Telegram del pedido %s: %s" % (pid, e))
+        return False
+
+
+def texto_enfoque(pid, e, token):
+    m = e.get("maqueta") or {}
+    l = ["Ya tenemos el enfoque de tu investigaci\u00f3n. As\u00ed se ver\u00eda la nota:", "",
+         m.get("titulo") or e.get("pregunta", ""), ""]
+    if m.get("bajada"):
+        l += [m["bajada"], ""]
+    for sec in (m.get("secciones") or [])[:6]:
+        l.append("- " + sec.get("subtitulo", ""))
+    l += ["", "La maqueta completa, con la tabla y lo que cubre y lo que no:", enlace(pid, token), "",
+          "\u00bfEs lo que quer\u00edas saber? Si no contest\u00e1s en 24 horas, investigamos con este enfoque."]
+    return "\n".join(l)
+
+
+def botones_enfoque(pid):
+    return [[{"text": "\u2705 S\u00ed, es esto. Adelante", "callback_data": "ok:%d" % int(pid)}],
+            [{"text": "\u270f\ufe0f No, quer\u00eda otra cosa", "callback_data": "no:%d" % int(pid)}]]
 
 
 def articulos():
@@ -68,6 +125,16 @@ def cerrar(pid, estado, texto):
     if len(filas) != 1 or filas[0]["estado"] != estado:
         raise SystemExit("ERROR: el pedido %s no quedo %s" % (pid, estado))
     print("OK|pedido %s -> %s" % (pid, estado))
+    if estado == "publicado":
+        avisar(pid, "\u00a1Sali\u00f3 tu investigaci\u00f3n!\n" + texto + "\n\nGracias por pedirla. Si quer\u00e9s pedir otra: "
+               "https://coninteres.com/investigacion.html?de=telegram")
+    else:
+        avisar(pid, "No pudimos convertir tu pedido en una nota. El motivo: " + texto[:600])
+
+
+def contacto(p):
+    """Hay a quien consultarle el enfoque: dejo correo o vinculo Telegram."""
+    return bool(p.get("correo") or p.get("telegram_chat"))
 
 
 def elegir(hoy):
@@ -78,7 +145,7 @@ def elegir(hoy):
     for p in pedir("GET", "?select=id&estado=eq.en_investigacion&tomado=lt." + urllib.parse.quote(lim)):
         if p["id"] not in en_cola:
             reintentar(p["id"], "la corrida que lo trabajaba se corto")
-    campos = "?select=id,titulo,tipo,detalle,origen,correo,enfoque,enfoque_en,rondas,comentarios,estado,intentos,motivo"
+    campos = "?select=id,titulo,tipo,detalle,origen,correo,telegram_chat,enfoque,enfoque_en,rondas,comentarios,estado,intentos,motivo"
     filtro = "&or=(origen.is.null,origen.neq.prueba)&order=creado"
     # 2. INVESTIGAR: enfoque aprobado; propuesto sin respuesta en HORAS_RESPUESTA (se
     #    avanza con lo propuesto); o recibido sin correo / con RONDAS_MAX rondas (no hay
@@ -88,8 +155,8 @@ def elegir(hoy):
     cand = pedir("GET", campos + "&estado=in.(enfoque_aprobado,enfoque_propuesto,recibido)" + filtro)
     investigar = [p for p in cand if p["estado"] == "enfoque_aprobado"
                   or (p["estado"] == "enfoque_propuesto" and (p.get("enfoque_en") or "") < venc)
-                  or (p["estado"] == "recibido" and (not p.get("correo") or p["rondas"] >= RONDAS_MAX))]
-    enfocar = [p for p in cand if p["estado"] == "recibido" and p.get("correo") and p["rondas"] < RONDAS_MAX]
+                  or (p["estado"] == "recibido" and (not contacto(p) or p["rondas"] >= RONDAS_MAX))]
+    enfocar = [p for p in cand if p["estado"] == "recibido" and contacto(p) and p["rondas"] < RONDAS_MAX]
     forzado = False
     if os.path.exists(SIN_CUPO):
         forzado = open(SIN_CUPO, encoding="ascii").read().strip() == hoy
@@ -177,6 +244,7 @@ def guardar_enfoque(pid):
         raise SystemExit("ERROR: el enfoque del pedido %s no quedo propuesto" % pid)
     os.remove(ENFOQUE)
     print("OK|pedido %s -> enfoque_propuesto | %s" % (pid, enlace(pid, actual[0]["token"])))
+    avisar(pid, texto_enfoque(pid, e, actual[0]["token"]), botones_enfoque(pid))
 
 
 def enlace(pid, token):

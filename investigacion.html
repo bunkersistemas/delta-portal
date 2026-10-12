@@ -50,6 +50,11 @@
   button:disabled{opacity:.55;cursor:wait}
   .aviso{margin-top:14px;font-size:15px;padding:12px 14px;border-radius:8px;display:none}
   .aviso.ok{display:block;background:#E6F2F1;color:var(--teal-deep)}
+  .oculto{display:none}
+  .tg{margin-top:14px;border:1px solid #BFDDDA;border-radius:10px;padding:16px;background:#F4FAF9}
+  .tg p{margin:0 0 12px;font-size:15px}
+  .tg-boton{display:block;text-align:center;background:#229ED9;color:#fff;font-weight:600;text-decoration:none;border-radius:8px;padding:12px 18px}
+  .tg .tg-nota{margin:10px 0 0;font-size:13px;color:var(--muted)}
   .aviso.mal{display:block;background:#FBECEA;color:var(--red)}
   .reglas{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 22px;margin:24px 0}
   .reglas h3{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
@@ -104,13 +109,19 @@
 
       <button type="submit" id="b">Enviar pedido</button>
       <div class="aviso" id="aviso" role="status"></div>
+      <div class="tg oculto" id="tg">
+        <p><b>Seguí tu pedido por Telegram.</b> Te mostramos el enfoque antes de investigar
+        (lo aprobás con un botón) y te avisamos cuando sale la nota.</p>
+        <a class="tg-boton" id="tg-link" href="#" target="_blank" rel="noopener">Abrir @Con_Interes_bot</a>
+        <p class="tg-nota">Tocá <b>Iniciar</b> en el chat para vincularlo con este pedido.</p>
+      </div>
     </form>
   </div>
 
   <h2>Cómo sigue tu pedido</h2>
   <ol class="pasos">
     <li>Tu pedido entra a la lista de temas que mira la redacción.</li>
-    <li>Si dejaste tu correo, antes de investigar te mostramos <b>qué vamos a contestar y
+    <li>Si seguís tu pedido por Telegram (o dejaste tu correo), antes de investigar te mostramos <b>qué vamos a contestar y
     con qué fuentes</b>. Lo aprobás o nos decís qué querías, y lo rehacemos.</li>
     <li>Investigamos con fuentes verificables: un organismo, una ley, un presupuesto, un
     balance. Vos elegís qué se investiga; el resultado es el que den los datos.</li>
@@ -158,6 +169,12 @@
       b = document.getElementById("b");
   var origen = (new URLSearchParams(location.search).get("de") || "web").slice(0, 40);
 
+  function nuevoCodigo() {
+    if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
+    var b = new Uint8Array(16); crypto.getRandomValues(b); b[6] = (b[6] & 15) | 64; b[8] = (b[8] & 63) | 128;
+    var h = Array.prototype.map.call(b, function (x) { return (x + 256).toString(16).slice(1); }).join("");
+    return h.slice(0, 8) + "-" + h.slice(8, 12) + "-" + h.slice(12, 16) + "-" + h.slice(16, 20) + "-" + h.slice(20);
+  }
   function tipo() { return f.querySelector("input[name=tipo]:checked").value; }
   function ejemplo() { titulo.placeholder = EJEMPLOS[tipo()]; }
   function decir(texto, ok) { aviso.textContent = texto; aviso.className = "aviso " + (ok ? "ok" : "mal"); }
@@ -172,14 +189,19 @@
         c = document.getElementById("correo").value.trim();
     if (t.length < 5) { decir("Escribí tu pregunta (al menos 5 letras).", false); titulo.focus(); return; }
     if (c && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(c)) { decir("El correo no parece válido. Podés dejarlo vacío.", false); return; }
+    var codigo = nuevoCodigo();
+    document.getElementById("tg").classList.add("oculto");
     b.disabled = true; b.textContent = "Enviando...";
     fetch(URL_PEDIDOS, {
       method: "POST",
       headers: { "apikey": LLAVE, "Content-Type": "application/json", "Prefer": "return=minimal" },
-      body: JSON.stringify({ titulo: t, tipo: tipo(), detalle: d, correo: c || null, origen: origen })
+      body: JSON.stringify({ titulo: t, tipo: tipo(), detalle: d, correo: c || null, origen: origen, codigo_tg: codigo })
     }).then(function (r) {
       if (r.ok) {
-        decir("¡Gracias! Recibimos tu pedido. Si dejaste tu correo, te mostramos el enfoque antes de investigar.", true);
+        decir("¡Gracias! Recibimos tu pedido.", true);
+        // el codigo une este pedido con el chat de Telegram del lector (no se puede leer de vuelta)
+        document.getElementById("tg-link").href = "https://t.me/Con_Interes_bot?start=" + codigo;
+        document.getElementById("tg").classList.remove("oculto");
         f.reset(); ct.textContent = "0"; ejemplo();
         return;
       }
