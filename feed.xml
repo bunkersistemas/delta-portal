@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 12 Oct 2026 14:30:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 12 Oct 2026 20:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En seis de los siete consejos de contadores que se pueden medir, el honorario mínimo sugerido compra menos que hace más de una década</title>
+      <link>https://coninteres.com/articulos/2026-10-12-honorarios-minimos-contadores-provincias.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-12-honorarios-minimos-contadores-provincias.html</guid>
+      <pubDate>Mon, 12 Oct 2026 17:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Relevamos los 24 consejos de ciencias económicas del país. En siete se puede comparar el honorario mínimo sugerido de hoy con el de 2013 a 2015: en seis compra menos, desde un 2% menos en La Pampa y Neuquén hasta un 66% menos en Formosa. Hoy, el piso sugerido para la declaración de Ganancias de una persona va de $173.200 en Chubut a $874.540 en Entre Ríos.</description>
+      <ci:numero>6 de 7</ci:numero>
+      <ci:numeroEtiqueta>consejos de ciencias económicas con un valor publicado de 2013-2015 cuyo honorario mínimo sugerido de octubre de 2026 compra menos que entonces (IPCBA hasta dic-2016 + IPC regional del INDEC hasta ago-2026): Formosa -65,6%, Santa Fe-Rosario -45,4%, Buenos Aires -20,1%, CABA -10,1%, La Pampa -2,1%, Neuquén -1,8%; Tucumán +13,9%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-honorarios-minimos-contadores-provincias.png" length="77531" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-honorarios-minimos-contadores-provincias.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los honorarios mínimos sugeridos de los contadores porteños compran 6% menos que en 2013, aunque desde 2024 siguen a la inflación</title>
       <link>https://coninteres.com/articulos/2026-10-12-honorarios-minimos-contadores-inflacion.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>suba de los precios regulados del IPCBA entre diciembre de 2025 y septiembre de 2026 (IDECBA, informe de resultados 2064, cuadro C.4; índice 3.210,34 / 2.449,34); resto IPCBA 22,3%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-inflacion-caba-septiembre-regulados.png" length="78985" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-inflacion-caba-septiembre-regulados.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Ir y volver a Mar del Plata por la ruta 2 cuesta $34.400 de peaje desde el viernes: la tarifa sube 8,9% justo antes del fin de semana largo</title>
-      <link>https://coninteres.com/articulos/2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre.html</guid>
-      <pubDate>Thu, 08 Oct 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Desde el viernes 9 de octubre, las cabinas de Samborombón y Maipú le cobran $8.600 a un auto que paga en efectivo y $8.507,95 con TelePASE. Son $2.800 más que la semana pasada por una ida y vuelta. Con esta suba, el peaje empató a la inflación del último año: la fórmula que lo actualiza esta vez cargó la suba de los salarios.</description>
-      <ci:numero>$34.400</ci:numero>
-      <ci:numeroEtiqueta>paga de peaje un auto que va y vuelve de Mar del Plata por la ruta 2 en efectivo desde el 09/10/2026: cuatro pasadas por Samborombón y Maipú a $8.600 (Res. 760/2026 del Ministerio de Infraestructura bonaerense, BO 08/10/2026); con TelePASE, $34.031,80</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre.png" length="88145" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-08-peaje-ruta-2-mar-del-plata-aumento-octubre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
