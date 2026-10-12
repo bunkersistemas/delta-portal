@@ -31,6 +31,10 @@ LOGS = os.path.join(os.path.expanduser("~"), "coninteres-logs")
 # dentro del repo (para que el agente lo pueda leer sin salir de su carpeta) pero en
 # _privado/, que esta en .gitignore: nunca se sube ni se publica (12/10/2026)
 ACTUAL = os.path.join(ROOT, "_privado", "pedido_actual.json")
+# el enfoque corre en su propia tarea (12/10/2026), a veces al mismo tiempo que la
+# redaccion: usa archivos propios para no pisarse
+ACTUAL_ENFOQUE = os.path.join(ROOT, "_privado", "enfoque_pedido.json")
+FRENA_ENFOQUE = os.path.join(ROOT, "_privado", "enfoque_frena.txt")
 HORAS_COLGADO = 6     # en_investigacion sin borrador en la cola por mas de esto: la corrida se corto
 HORAS_RESPUESTA = 24  # enfoque propuesto sin respuesta del lector: se avanza con lo propuesto
 RONDAS_MAX = 3        # despues de 3 enfoques rechazados se investiga con lo que dijo el lector
@@ -96,6 +100,14 @@ def texto_enfoque(pid, e, token):
          m.get("titulo") or e.get("pregunta", ""), ""]
     if m.get("bajada"):
         l += [m["bajada"], ""]
+    t = m.get("tabla") or {}
+    if t.get("columnas") and t.get("filas"):
+        l.append(" | ".join(t["columnas"]))
+        for fila in t["filas"][:4]:
+            l.append(" | ".join(str(x) for x in fila))
+        if t.get("faltan"):
+            l.append("(faltan: %s)" % t["faltan"])
+        l.append("")
     for sec in (m.get("secciones") or [])[:6]:
         l.append("- " + sec.get("subtitulo", ""))
     l += ["", "La maqueta completa, con la tabla y lo que cubre y lo que no:", enlace(pid, token), "",
@@ -137,7 +149,9 @@ def contacto(p):
     return bool(p.get("correo") or p.get("telegram_chat"))
 
 
-def elegir(hoy):
+def elegir(hoy, modo="investigar"):
+    """modo investigar: la redaccion programada (cupo de una nota pedida por dia).
+    modo enfoque: la tarea "Con Interes - Enfoque", que dispara el bot al llegar un pedido."""
     ahora = dt.datetime.now(dt.timezone.utc)
     # 1. los que quedaron colgados (corrida cortada) no se reintentan para siempre
     lim = (ahora - dt.timedelta(hours=HORAS_COLGADO)).isoformat()
@@ -161,15 +175,19 @@ def elegir(hoy):
     if os.path.exists(SIN_CUPO):
         forzado = open(SIN_CUPO, encoding="ascii").read().strip() == hoy
     hoy_salio = any(x.get("pedido") and x.get("fecha") == hoy for x in articulos())
-    if investigar and (not hoy_salio or forzado):
+    if modo == "enfoque":
+        if not enfocar:
+            print("GENERAL|no hay pedidos esperando enfoque")
+            return
+        # el mas viejo primero: el que pidio antes recibe antes su enfoque
+        p, fase = enfocar[0], "enfoque"
+    elif investigar and (not hoy_salio or forzado):
         p, fase = random.choice(investigar), "investigar"
-    elif enfocar:
-        p, fase = random.choice(enfocar), "enfoque"
     elif investigar:
         print("GENERAL|hoy ya salio una nota pedida por un lector (%d listos para investigar)" % len(investigar))
         return
     else:
-        print("GENERAL|no hay pedidos para trabajar")
+        print("GENERAL|no hay pedidos para investigar")
         return
     # el estado cambia ANTES de trabajar: un pedido que corta la corrida no se repite
     filas = pedir("PATCH", "?id=eq.%d&estado=eq.%s" % (p["id"], p["estado"]),
@@ -180,7 +198,7 @@ def elegir(hoy):
     if fase == "investigar" and forzado and hoy_salio:
         os.remove(SIN_CUPO)
     os.makedirs(os.path.dirname(ACTUAL), exist_ok=True)
-    with open(ACTUAL, "w", encoding="utf-8") as f:
+    with open(ACTUAL_ENFOQUE if fase == "enfoque" else ACTUAL, "w", encoding="utf-8") as f:
         json.dump({"id": p["id"], "fase": fase, "tipo": p["tipo"], "titulo": p["titulo"],
                    "detalle": p["detalle"],
                    "enfoque_anterior": json.loads(p["enfoque"]) if p.get("enfoque") else None,
@@ -210,6 +228,32 @@ def reintentar(pid, motivo):
     if len(filas) != 1 or filas[0]["estado"] != "enfoque_aprobado":
         raise SystemExit("ERROR: el pedido %s no volvio a la fila" % pid)
     print("OK|pedido %s -> se reintenta (intento %d de %d)" % (pid, n, MAX_INTENTOS))
+
+
+def devolver_enfoque(pid, motivo):
+    """La corrida de enfoque no dejo enfoque: vuelve a esperar uno. A los MAX_INTENTOS
+    se investiga sin consultar (toda solicitud termina en nota)."""
+    act = pedir("GET", "?select=intentos&id=eq.%d" % int(pid))
+    if len(act) != 1:
+        raise SystemExit("ERROR: no existe el pedido %s" % pid)
+    n = act[0]["intentos"] + 1
+    estado = "enfoque_aprobado" if n >= MAX_INTENTOS else "recibido"
+    pedir("PATCH", "?id=eq.%d" % int(pid), {"estado": estado, "intentos": n, "motivo": motivo[:1000]})
+    print("OK|pedido %s -> %s (enfoque fallido %d)" % (pid, estado, n))
+
+
+def en_curso(chat):
+    """Pedidos abiertos de un chat: editor 12/10/2026, una investigacion en curso por persona."""
+    return pedir("GET", "?select=id,titulo,estado&telegram_chat=eq.%d"
+                        "&estado=in.(recibido,en_investigacion,enfoque_propuesto,enfoque_aprobado)" % int(chat))
+
+
+def crear_desde_chat(chat, titulo, tipo, detalle):
+    import uuid
+    filas = pedir("POST", "", {"titulo": titulo, "tipo": tipo, "detalle": detalle or "",
+                               "origen": "telegram", "telegram_chat": int(chat),
+                               "codigo_tg": str(uuid.uuid4())})
+    return filas[0]["id"]
 
 
 def guardar_enfoque(pid):
@@ -279,6 +323,10 @@ if __name__ == "__main__":
     a = sys.argv[1:]
     if len(a) == 2 and a[0] == "elegir":
         elegir(a[1])
+    elif len(a) == 3 and a[0] == "elegir" and a[2] == "enfoque":
+        elegir(a[1], "enfoque")
+    elif len(a) == 3 and a[0] == "devolver_enfoque":
+        devolver_enfoque(a[1], a[2])
     elif len(a) == 4 and a[0] == "cerrar" and a[2] in ("publicado", "descartado"):
         cerrar(a[1], a[2], a[3])
     elif len(a) == 3 and a[0] == "reintentar":

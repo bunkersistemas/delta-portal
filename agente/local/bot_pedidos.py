@@ -13,7 +13,7 @@ El bot NO hace nada mas: no busca, no responde preguntas, no toca el sitio. Lo q
 escribe un lector es DATO: solo se guarda como comentario del enfoque.
 Corre en la VM como tarea "Con Interes - Bot Telegram" (long polling, sin webhook).
 """
-import json, os, re, sys, time, traceback
+import json, os, re, subprocess, sys, time, traceback
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pedidos_lectores as pl
@@ -23,16 +23,17 @@ LOG = os.path.join(pl.LOGS, "bot_telegram.log")
 FORM = "https://coninteres.com/investigacion.html?de=telegram"
 UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
 
-T_HOLA = ("Hola. Soy el bot de Con Inter\u00e9s. Por ac\u00e1 segu\u00eds las investigaciones que "
-          "pediste: te mostramos el enfoque antes de investigar y te avisamos cuando sale la nota.\n\n"
-          "Para pedir una investigaci\u00f3n: " + FORM)
+T_HOLA = ("Hola. Soy el bot de Con Inter\u00e9s. Ac\u00e1 ped\u00eds una investigaci\u00f3n y la "
+          "segu\u00eds de punta a punta: te mostramos el enfoque antes de investigar, lo aprob\u00e1s "
+          "con un bot\u00f3n y te avisamos cuando sale la nota.\n\n"
+          "Toc\u00e1 \u00ab\u2795 Pedir una investigaci\u00f3n\u00bb para empezar.")
 T_VINCULADO = ("Listo, tu pedido qued\u00f3 vinculado:\n\u00ab{titulo}\u00bb\n\n"
                "Ahora lo leemos y armamos el enfoque: qu\u00e9 vamos a contestar y con qu\u00e9 fuentes. "
                "Te lo mandamos por ac\u00e1, suele tardar unas horas.")
 T_NO_ENCONTRADO = ("No encontr\u00e9 ese pedido. Us\u00e1 el bot\u00f3n que aparece despu\u00e9s de "
                    "enviarlo en la p\u00e1gina, o ped\u00ed una investigaci\u00f3n ac\u00e1: " + FORM)
 T_OTRO = ("Por ahora solo te acompa\u00f1o con tus pedidos de investigaci\u00f3n. "
-          "Para pedir una: " + FORM)
+          "Us\u00e1 los botones de abajo: \u00ab\u2795 Pedir una investigaci\u00f3n\u00bb o \u00ab\U0001f4cb Mis pedidos\u00bb.")
 T_APROBADO = ("Listo. Empezamos a investigar con este enfoque. Te avisamos por ac\u00e1 cuando "
               "salga la nota.\n\nVos elegiste qu\u00e9 se investiga; el resultado es el que den los datos.")
 T_CONTAME = ("Contanos en un mensaje qu\u00e9 quer\u00edas saber: otro alcance, otro per\u00edodo, "
@@ -54,7 +55,7 @@ def leer_estado():
     try:
         return json.load(open(ESTADO, encoding="utf-8"))
     except Exception:
-        return {"offset": 0, "esperando": {}}
+        return {"offset": 0, "esperando": {}, "conv": {}}
 
 
 def guardar_estado(e):
@@ -109,10 +110,64 @@ def mis_pedidos(chat):
     decir(chat, "\n".join(l).strip(), teclado=True)
 
 
-def pedir_nueva(chat):
-    decir(chat, "Contanos qu\u00e9 quer\u00e9s saber y la redacci\u00f3n lo investiga contra la fuente primaria. "
-          "Despu\u00e9s de enviarlo, toc\u00e1 \u00abSegu\u00ed tu pedido por Telegram\u00bb para seguirlo desde ac\u00e1.",
-          botones=[[{"text": "\u2795 Pedir una investigaci\u00f3n", "url": FORM}]])
+TIPOS = [("cuanto-cuesta", "\U0001f4b0 \u00bfCu\u00e1nto cuesta? \u00bfQui\u00e9n paga?"),
+         ("verificar-cifra", "\U0001f50e Verificar una cifra que vi"),
+         ("comparar", "\u2696\ufe0f Comparar con otro pa\u00eds u otra \u00e9poca"),
+         ("otro", "\u2753 Otra")]
+
+
+def disparar_enfoque():
+    """La tarea de enfoque corre al toque (si ya esta corriendo, la vuelta en curso
+    lo toma o lo toma la siguiente)."""
+    try:
+        subprocess.run(["schtasks", "/run", "/tn", "Con Interes - Enfoque"], capture_output=True, timeout=30)
+        anotar("tarea de enfoque disparada")
+    except Exception as e:
+        anotar("AVISO: no se pudo disparar el enfoque: %s" % e)
+
+
+def pedir_nueva(est, chat):
+    # editor, 12/10/2026: una investigacion en curso por persona
+    abiertos = pl.en_curso(chat)
+    if abiertos:
+        p = abiertos[0]
+        decir(chat, "Ya ten\u00e9s una investigaci\u00f3n en curso:\n\u00ab%s\u00bb\n%s\n\n"
+              "Para que cada pedido tenga su tiempo, va una por persona. Cuando salga, ped\u00ed la pr\u00f3xima."
+              % (p["titulo"].strip(), ESTADOS.get(p["estado"], p["estado"])), teclado=True)
+        return
+    est["conv"][str(chat)] = {"paso": "titulo"}
+    decir(chat, "\u00bfQu\u00e9 quer\u00e9s saber? Escribilo en una l\u00ednea, como se lo preguntar\u00edas a un amigo.\n\n"
+          "Por ejemplo: \u00ab\u00bfCu\u00e1nto le cuesta a un club de barrio mantener una pileta?\u00bb",
+          botones=[[{"text": "Cancelar", "callback_data": "cancelar"}]])
+
+
+def seguir_conversacion(est, chat, texto):
+    """Devuelve True si el mensaje era parte de un pedido en armado."""
+    c = est["conv"].get(str(chat))
+    if not c:
+        return False
+    if c["paso"] == "titulo":
+        if not (5 <= len(texto) <= 140):
+            decir(chat, "Escribilo en una l\u00ednea, entre 5 y 140 letras.")
+            return True
+        c.update(paso="tipo", titulo=texto)
+        decir(chat, "\u00bfQu\u00e9 tipo de pregunta es?",
+              botones=[[{"text": t, "callback_data": "tipo:" + k}] for k, t in TIPOS])
+        return True
+    if c["paso"] == "detalle":
+        c.update(paso="confirmar", detalle=texto[:1500])
+        confirmar(chat, c)
+        return True
+    decir(chat, "Us\u00e1 los botones del mensaje anterior para seguir, o toc\u00e1 Cancelar.")
+    return True
+
+
+def confirmar(chat, c):
+    tipo = dict(TIPOS).get(c.get("tipo"), "")
+    decir(chat, "As\u00ed queda tu pedido:\n\n\u00ab%s\u00bb\n%s%s\n\n\u00bfLo enviamos?"
+          % (c["titulo"], tipo, ("\n\n" + c["detalle"]) if c.get("detalle") else ""),
+          botones=[[{"text": "\U0001f4e8 Enviar", "callback_data": "enviar"},
+                    {"text": "Cancelar", "callback_data": "cancelar"}]])
 
 
 def pedido_de(pid, chat):
@@ -152,6 +207,9 @@ def al_boton(est, q):
     chat = q["message"]["chat"]["id"]
     accion, _, pid = (q.get("data") or "").partition(":")
     pl.tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+    if accion in ("tipo", "detalle", "enviar", "cancelar"):
+        al_boton_conversacion(est, q, chat, accion, pid)
+        return
     if accion not in ("ok", "no") or not pid.isdigit():
         return
     p = pedido_de(pid, chat)
@@ -177,6 +235,49 @@ def al_boton(est, q):
         decir(chat, T_CONTAME)
 
 
+def sacar_botones(q):
+    try:
+        pl.tg("editMessageReplyMarkup", {"chat_id": q["message"]["chat"]["id"], "message_id": q["message"]["message_id"],
+                                         "reply_markup": {"inline_keyboard": []}})
+    except Exception:
+        pass
+
+
+def al_boton_conversacion(est, q, chat, accion, valor):
+    c = est["conv"].get(str(chat))
+    sacar_botones(q)
+    if accion == "cancelar":
+        est["conv"].pop(str(chat), None)
+        decir(chat, "Listo, no enviamos nada.", teclado=True)
+        return
+    if not c:
+        decir(chat, "Ese pedido ya no est\u00e1 en armado. Toc\u00e1 \u00ab\u2795 Pedir una investigaci\u00f3n\u00bb para empezar otro.", teclado=True)
+        return
+    if accion == "tipo" and c["paso"] == "tipo" and valor in dict(TIPOS):
+        c.update(paso="detalle", tipo=valor)
+        decir(chat, "Contanos un poco m\u00e1s, si quer\u00e9s: por qu\u00e9 te interesa, d\u00f3nde lo viste, "
+              "qu\u00e9 te gustar\u00eda comparar.",
+              botones=[[{"text": "Saltear", "callback_data": "detalle:no"}]])
+        return
+    if accion == "detalle" and c["paso"] == "detalle":
+        c.update(paso="confirmar", detalle="")
+        confirmar(chat, c)
+        return
+    if accion == "enviar" and c["paso"] == "confirmar":
+        est["conv"].pop(str(chat), None)
+        if pl.en_curso(chat):
+            decir(chat, "Ya ten\u00e9s una investigaci\u00f3n en curso: cuando salga, ped\u00ed la pr\u00f3xima.", teclado=True)
+            return
+        pid = pl.crear_desde_chat(chat, c["titulo"], c["tipo"], c.get("detalle", ""))
+        anotar("pedido %s creado desde el chat" % pid)
+        decir(chat, "\U0001f4e8 Recibimos tu pedido.\n\nAhora la redacci\u00f3n lo lee y arma el enfoque: qu\u00e9 vamos "
+              "a contestar, con qu\u00e9 fuentes y c\u00f3mo se va a ver la nota. Te lo mandamos por ac\u00e1 en un rato "
+              "para que lo apruebes.", teclado=True)
+        disparar_enfoque()
+        return
+    decir(chat, "Ese bot\u00f3n ya no corresponde. Segu\u00ed desde el \u00faltimo mensaje.")
+
+
 def al_mensaje(est, m):
     chat = m["chat"]["id"]
     texto = (m.get("text") or "").strip()
@@ -188,14 +289,19 @@ def al_mensaje(est, m):
         tipo_msg = "mis pedidos"
     elif texto in ("/pedir", B_PEDIR) or texto.startswith("/pedir@"):
         tipo_msg = "pedir"
+    elif str(chat) in est["conv"]:
+        tipo_msg = "armando pedido"
     anotar("mensaje recibido: " + tipo_msg)
     if tipo_msg == "mis pedidos":
         est["esperando"].pop(str(chat), None)
+        est["conv"].pop(str(chat), None)
         mis_pedidos(chat)
         return
     if tipo_msg == "pedir":
         est["esperando"].pop(str(chat), None)
-        pedir_nueva(chat)
+        pedir_nueva(est, chat)
+        return
+    if tipo_msg == "armando pedido" and seguir_conversacion(est, chat, texto):
         return
     if texto.startswith("/start"):
         est["esperando"].pop(str(chat), None)
@@ -212,6 +318,8 @@ def al_mensaje(est, m):
                                          "p_texto": texto[:1500]})
         anotar("pedido %s: pidio otro enfoque por Telegram (%s)" % (pid, r))
         decir(chat, T_REENFOQUE if r == "reenfoque" else T_YA_NO)
+        if r == "reenfoque":
+            disparar_enfoque()
         return
     decir(chat, T_OTRO, teclado=True)
 
@@ -223,6 +331,7 @@ def main():
     except Exception:
         anotar("AVISO: no se pudo registrar el menu de comandos")
     est = leer_estado()
+    est.setdefault("conv", {})
     while True:
         try:
             r = pl.tg("getUpdates", {"offset": est["offset"], "timeout": 50,
