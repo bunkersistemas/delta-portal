@@ -131,6 +131,19 @@ def guardar_enfoque(pid):
             raise SystemExit("ERROR: el enfoque no trae '%s'" % k)
     if not isinstance(e["fuentes"], list):
         raise SystemExit("ERROR: 'fuentes' tiene que ser una lista")
+    # maqueta (12/10/2026): como se va a ver la nota. Obligatoria: es lo que el
+    # lector mira para decidir. La tabla es opcional; si viene, tiene que cerrar.
+    m = e.get("maqueta")
+    if not isinstance(m, dict) or not m.get("titulo") or not isinstance(m.get("secciones"), list) or not m["secciones"]:
+        raise SystemExit("ERROR: el enfoque no trae 'maqueta' con titulo y secciones")
+    t = m.get("tabla")
+    if t is not None:
+        cols = t.get("columnas") if isinstance(t, dict) else None
+        filas = t.get("filas") if isinstance(t, dict) else None
+        if not isinstance(cols, list) or not cols or not isinstance(filas, list):
+            raise SystemExit("ERROR: la tabla de la maqueta necesita 'columnas' y 'filas'")
+        if any(not isinstance(f, list) or len(f) != len(cols) for f in filas):
+            raise SystemExit("ERROR: alguna fila de la maqueta no tiene %d celdas" % len(cols))
     actual = pedir("GET", "?select=rondas,estado,token&id=eq.%d" % int(pid))
     if len(actual) != 1 or actual[0]["estado"] != "en_investigacion":
         raise SystemExit("ERROR: el pedido %s no esta en trabajo" % pid)

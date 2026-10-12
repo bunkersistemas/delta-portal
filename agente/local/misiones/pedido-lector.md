@@ -28,7 +28,12 @@ salga de los datos se publica le guste o no (independencia, NEWSROOM 2 ter).
 - Pensa en lo MAS AMPLIO que puede querer el lector ("los consejos" son todos) y
   despues decile con honestidad que se puede cubrir y que no.
 - Escribis `_privado/enfoque.json` (pregunta, alcance, fuentes, limites,
-  alternativas) y el script se lo muestra al lector en `enfoque.html`.
+  alternativas y la MAQUETA) y el script se lo muestra al lector en `enfoque.html`.
+- La maqueta es como se va a VER la nota: titulo tentativo (con X donde va el
+  numero que todavia no tenes), bajada, la tabla con sus columnas y 2 o 3 filas de
+  ejemplo con datos REALES del reconocimiento ("?" donde no hay dato), y los
+  subtitulos. Editor, 12/10/2026: aprobar un texto abstracto llevo tres rondas; la
+  gente reacciona a algo que se ve. Nunca un valor inventado en la maqueta.
 - Si el lector rechaza, el pedido vuelve con sus comentarios: el enfoque nuevo
   tiene que hacerse cargo de lo que dijo. Despues de 3 rondas, o si no contesta en
   24 horas, se investiga con lo ultimo propuesto.
