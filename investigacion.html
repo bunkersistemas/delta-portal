@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Pedí una investigación — Con Interés</title>
+<meta name="description" content="Contanos qué querés saber sobre la economía y la redacción de Con Interés lo investiga contra la fuente primaria.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<!-- piloto (12/10/2026): pagina sin link en el menu y fuera del sitemap; se comparte a mano -->
+<meta name="robots" content="noindex,nofollow">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4;--ink:#16130F;--ink-soft:#3C3833;--teal:#0E7C86;--teal-deep:#0A5C63;
+    --amber:#C4701F;--red:#C0392B;--muted:#6B6560;--faint:#8A847C;--rule:#DCD6CC;--grid:#E7E1D7;
+    --card:#FFFFFF;--card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,serif;--sans:"Inter",system-ui,sans-serif;--mono:"IBM Plex Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.65;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:720px;margin:0 auto;padding:0 16px}
+  a{color:var(--teal-deep)}
+  .masthead{border-bottom:2px solid var(--ink)}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal)}
+  .mh-back{font-family:var(--mono);font-size:12px;color:var(--teal-deep);text-decoration:none}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin:40px 0 14px}
+  h1{font-family:var(--serif);font-weight:700;font-size:36px;line-height:1.15;margin:0 0 10px}
+  .sub{font-family:var(--serif);font-size:19px;line-height:1.5;color:var(--ink-soft);margin:0 0 26px}
+  h2{font-family:var(--serif);font-weight:700;font-size:22px;margin:38px 0 12px}
+  p,li{font-size:16px;color:var(--ink-soft)}
+  .caja{background:var(--card);border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:22px;margin:22px 0}
+  label.campo{display:block;font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin:18px 0 8px}
+  label.campo:first-child{margin-top:0}
+  .opc{font-family:var(--sans);text-transform:none;letter-spacing:0;color:var(--faint);font-weight:400}
+  .tipos{display:flex;flex-wrap:wrap;gap:8px}
+  .tipos input{position:absolute;opacity:0;pointer-events:none}
+  .tipos label{border:1px solid var(--rule);border-radius:999px;padding:8px 14px;font-size:14.5px;cursor:pointer;background:var(--paper);color:var(--ink-soft)}
+  .tipos input:checked+label{background:var(--teal);border-color:var(--teal);color:#fff}
+  .tipos input:focus-visible+label{outline:2px solid var(--amber);outline-offset:2px}
+  input[type=text],input[type=email],textarea{width:100%;font:inherit;font-size:16px;color:var(--ink);background:var(--paper);border:1px solid var(--rule);border-radius:8px;padding:11px 12px}
+  textarea{min-height:120px;resize:vertical}
+  input:focus,textarea:focus{outline:2px solid var(--teal);outline-offset:1px;border-color:var(--teal)}
+  .cuenta{font-family:var(--mono);font-size:11px;color:var(--faint);text-align:right;margin-top:4px}
+  .trampa{position:absolute;left:-9999px;width:1px;height:1px;overflow:hidden}
+  button{margin-top:20px;font:inherit;font-weight:600;font-size:16px;background:var(--ink);color:var(--paper);border:0;border-radius:8px;padding:12px 22px;cursor:pointer;width:100%}
+  button:disabled{opacity:.55;cursor:wait}
+  .aviso{margin-top:14px;font-size:15px;padding:12px 14px;border-radius:8px;display:none}
+  .aviso.ok{display:block;background:#E6F2F1;color:var(--teal-deep)}
+  .aviso.mal{display:block;background:#FBECEA;color:var(--red)}
+  .reglas{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 22px;margin:24px 0}
+  .reglas h3{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .reglas ul{padding-left:20px;margin:0}
+  .reglas li{font-size:15px;margin-bottom:8px}
+  .pasos{list-style:none;padding:0;margin:18px 0 0;counter-reset:p}
+  .pasos li{position:relative;padding-left:40px;margin-bottom:16px;font-size:15.5px}
+  .pasos li::before{counter-increment:p;content:counter(p);position:absolute;left:0;top:1px;width:26px;height:26px;border-radius:50%;background:var(--teal);color:var(--paper);font-family:var(--mono);font-size:13px;font-weight:600;display:flex;align-items:center;justify-content:center}
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:24px 0 60px}
+  footer .wrap{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  footer a{text-decoration:none}
+  @media(max-width:600px){ h1{font-size:29px} .sub{font-size:17px} .caja{padding:18px 16px} }
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="tri">%</span>Con Interés</a>
+    <a href="index.html" class="mh-back">← Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+  <div class="kicker">Con vos</div>
+  <h1>Pedí una investigación</h1>
+  <p class="sub">¿Hay algo de la economía que querés entender y nadie te lo cuenta con números?
+  Contanos qué querés saber. La redacción lo investiga contra la fuente primaria y, si el dato
+  existe, lo publica.</p>
+
+  <div class="caja">
+    <form id="f" novalidate>
+      <label class="campo">¿Qué tipo de pregunta es?</label>
+      <div class="tipos" role="radiogroup">
+        <input type="radio" name="tipo" id="t1" value="cuanto-cuesta" checked><label for="t1">¿Cuánto cuesta? ¿Quién paga?</label>
+        <input type="radio" name="tipo" id="t2" value="verificar-cifra"><label for="t2">Verificar una cifra que vi</label>
+        <input type="radio" name="tipo" id="t3" value="comparar"><label for="t3">Comparar con otro país u otra época</label>
+        <input type="radio" name="tipo" id="t4" value="otro"><label for="t4">Otra</label>
+      </div>
+
+      <label class="campo" for="titulo">Tu pregunta, en una línea</label>
+      <input type="text" id="titulo" maxlength="140" required>
+      <div class="cuenta"><span id="ct">0</span>/140</div>
+
+      <label class="campo" for="detalle">Contanos un poco más <span class="opc">(opcional)</span></label>
+      <textarea id="detalle" maxlength="1500" placeholder="Por qué te interesa, dónde lo viste, qué te gustaría que comparemos..."></textarea>
+
+      <label class="campo" for="correo">Tu correo <span class="opc">(opcional, solo para avisarte cuando salga)</span></label>
+      <input type="email" id="correo" maxlength="200" autocomplete="email">
+
+      <div class="trampa" aria-hidden="true"><label for="web">No completar</label><input type="text" id="web" tabindex="-1" autocomplete="off"></div>
+
+      <button type="submit" id="b">Enviar pedido</button>
+      <div class="aviso" id="aviso" role="status"></div>
+    </form>
+  </div>
+
+  <h2>Cómo sigue tu pedido</h2>
+  <ol class="pasos">
+    <li>Tu pedido entra a la lista de temas que mira la redacción.</li>
+    <li>Cada semana elegimos uno entre los que se pueden contestar con una fuente
+    verificable: un organismo, una ley, un presupuesto, un balance.</li>
+    <li>Sale como nota, con la misma vara que cualquier otra: cada cifra confirmada contra la
+    fuente primaria, y con la marca de que la pidió un lector.</li>
+    <li>Si dejaste tu correo, te avisamos cuando se publique.</li>
+  </ol>
+
+  <div class="reglas">
+    <h3>&#9651; Las reglas</h3>
+    <ul>
+      <li><b>Un pedido es un candidato, nunca una orden.</b> Tu pregunta nos dice qué mirar;
+      qué se publica lo decide la redacción con los criterios de siempre.</li>
+      <li><b>Investigamos números, no personas.</b> Nada sobre particulares que no sean
+      figuras públicas, y ninguna acusación penal sin sentencia.</li>
+      <li><b>Tu correo no se publica</b> ni se comparte: se usa solo para avisarte de tu
+      pedido.</li>
+      <li><b>Si el dato no existe o no se puede verificar, no hay nota.</b> Preferimos no
+      publicar antes que publicar un dato falso.</li>
+      <li><b>No es asesoramiento financiero.</b> Informamos; no decimos qué comprar ni en qué
+      invertir.</li>
+    </ul>
+  </div>
+</div>
+
+<footer><div class="wrap">
+  <div><a href="index.html">Portada</a> &#183; <a href="como-trabajamos.html">Cómo trabajamos</a>
+  &#183; <a href="legal.html">Legal y correcciones</a> &#183; <a href="privacidad.html">Privacidad</a></div>
+</div></footer>
+
+<script>
+(function () {
+  // La llave publica solo permite AGREGAR un pedido: no leer, cambiar ni borrar
+  // (permisos de la tabla en Supabase, probados el 12/10/2026).
+  var URL_PEDIDOS = "https://tgjxivohobemoirrkwrq.supabase.co/rest/v1/pedidos";
+  var LLAVE = "sb_publishable_nBxN5DKUcmBwVhkgqNfs8g_ILB1fplb";
+  var EJEMPLOS = {
+    "cuanto-cuesta": "Ej.: ¿Cuánto le cuesta a un club de barrio mantener una pileta?",
+    "verificar-cifra": "Ej.: ¿Es cierto que el 40% del precio de la nafta son impuestos?",
+    "comparar": "Ej.: ¿Cuántas horas hay que trabajar para comprar un auto, hoy y en 2015?",
+    "otro": "Escribí tu pregunta"
+  };
+  var f = document.getElementById("f"), titulo = document.getElementById("titulo"),
+      ct = document.getElementById("ct"), aviso = document.getElementById("aviso"),
+      b = document.getElementById("b");
+  var origen = (new URLSearchParams(location.search).get("de") || "web").slice(0, 40);
+
+  function tipo() { return f.querySelector("input[name=tipo]:checked").value; }
+  function ejemplo() { titulo.placeholder = EJEMPLOS[tipo()]; }
+  function decir(texto, ok) { aviso.textContent = texto; aviso.className = "aviso " + (ok ? "ok" : "mal"); }
+  f.querySelectorAll("input[name=tipo]").forEach(function (r) { r.addEventListener("change", ejemplo); });
+  titulo.addEventListener("input", function () { ct.textContent = titulo.value.length; });
+  ejemplo();
+
+  f.addEventListener("submit", function (e) {
+    e.preventDefault();
+    if (document.getElementById("web").value) { decir("¡Gracias! Recibimos tu pedido.", true); f.reset(); return; }
+    var t = titulo.value.trim(), d = document.getElementById("detalle").value.trim(),
+        c = document.getElementById("correo").value.trim();
+    if (t.length < 5) { decir("Escribí tu pregunta (al menos 5 letras).", false); titulo.focus(); return; }
+    if (c && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(c)) { decir("El correo no parece válido. Podés dejarlo vacío.", false); return; }
+    b.disabled = true; b.textContent = "Enviando...";
+    fetch(URL_PEDIDOS, {
+      method: "POST",
+      headers: { "apikey": LLAVE, "Content-Type": "application/json", "Prefer": "return=minimal" },
+      body: JSON.stringify({ titulo: t, tipo: tipo(), detalle: d, correo: c || null, origen: origen })
+    }).then(function (r) {
+      if (r.ok) {
+        decir("¡Gracias! Recibimos tu pedido. Si dejaste tu correo, te avisamos cuando salga.", true);
+        f.reset(); ct.textContent = "0"; ejemplo();
+        return;
+      }
+      return r.json().catch(function () { return {}; }).then(function (j) {
+        if (j && j.code === "P0001") decir("Entraron muchos pedidos en la última hora. Probá de nuevo más tarde.", false);
+        else decir("No pudimos guardar tu pedido. Probá de nuevo en un rato.", false);
+      });
+    }).catch(function () {
+      decir("No hay conexión. Probá de nuevo en un rato.", false);
+    }).then(function () { b.disabled = false; b.textContent = "Enviar pedido"; });
+  });
+})();
+</script>
+</body>
+</html>
