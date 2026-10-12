@@ -135,6 +135,11 @@ def al_boton(est, q):
 def al_mensaje(est, m):
     chat = m["chat"]["id"]
     texto = (m.get("text") or "").strip()
+    # se anota QUE llego, nunca el contenido (12/10/2026: un mensaje sin rastro)
+    tipo_msg = ("start con codigo" if texto.startswith("/start ") else "start sin codigo"
+                if texto.startswith("/start") else "respuesta de enfoque"
+                if str(chat) in est["esperando"] else "texto suelto")
+    anotar("mensaje recibido: " + tipo_msg)
     if texto.startswith("/start"):
         est["esperando"].pop(str(chat), None)
         al_start(chat, texto[6:].strip())
