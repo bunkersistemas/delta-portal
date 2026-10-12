@@ -99,6 +99,10 @@ function Subir($mensaje, $nota = '') {
     $n = [regex]::Escape($nota)
     $permitidos = $sitio + '|^articulos/' + $n + '\.html$|^cola/' + $n + '\.html$|^assets/tarjetas/'
   }
+  # los auxiliares que deja el agente (_tmp*.py, 11/10/2026) trababan TODAS las
+  # corridas siguientes: se borran si son nuevos (sin seguimiento) y estan en la raiz
+  git status --porcelain | Where-Object { $_ -match '^\?\? _tmp[^/]*$' } |
+    ForEach-Object { Remove-Item -LiteralPath $_.Substring(3) -Force }
   $tocados = @(git status --porcelain | ForEach-Object { $_.Substring(3).Trim('"') })
   $raros = @($tocados | Where-Object { $_ -notmatch $permitidos })
   if ($raros.Count -gt 0) { Terminar 1 'falla' ('[FALLA] la corrida toco archivos fuera del sitio, no se sube nada: ' + ($raros -join ' | ')) $nota }
