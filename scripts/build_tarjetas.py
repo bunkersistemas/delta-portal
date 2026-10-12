@@ -56,7 +56,7 @@ COLOR = {
 }
 ETIQUETA = {
     "tu-plata": "Tu plata", "el-pais": "El país", "empresas": "Empresas", "los-mercados": "Los mercados",
-    "tu-provincia": "Tu provincia", "el-mundo": "El mundo", "deportes": "Deportes",
+    "tu-provincia": "Tu provincia", "el-mundo": "El mundo", "deportes": "Economía del deporte",
     "ia": "La economía de la IA",
 }
 
