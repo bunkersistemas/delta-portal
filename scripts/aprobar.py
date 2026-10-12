@@ -59,6 +59,10 @@ def main(draft_id):
     # cupo de la serie y medirla. Solo se copia si el borrador la trae.
     if draft.get("serie"):
         entry["serie"] = draft["serie"]
+    # pedido de lector que contesta la nota (piloto 12/10/2026): cuenta el cupo
+    # de una por dia y permite medir las notas pedidas.
+    if draft.get("pedido"):
+        entry["pedido"] = draft["pedido"]
     art["articulos"].insert(0, entry)
     art["portal"]["actualizado"] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat() \
         if os.environ.get("DELTA_NOW") is None else os.environ["DELTA_NOW"]

@@ -226,6 +226,15 @@ son de legalidad, y ninguna nota que las viole puede salir de la cola.
 
 ## 2 ter. Pedidos de lectores — co-creación con reglas ⏸️ SUSPENDIDO
 
+> **PILOTO DESDE EL 12/10/2026 — investigaciones pedidas.** El canal propio ya
+> existe: `investigacion.html` (sin link en el menú, `noindex`) guarda los pedidos
+> en una base privada (Supabase); la página solo puede agregar, y el correo del
+> lector nunca entra al repo. Una nota por día sale de esos pedidos: la elige al
+> azar `agente/local/pedidos_lectores.py` y la trabaja la misión 8
+> (`agente/local/misiones/pedido-lector.md`), con la entrada `"pedido": <id>` en
+> `data/cola.json`. Las reglas de abajo (candidato, nunca orden; moderación; no
+> se publican datos de contacto) rigen igual. `pedidos.html` sigue dado de baja.
+
 > **SUSPENDIDO por decisión del editor (01/09/2026):** la página `pedidos.html`
 > se dio de baja y el link salió del nav. El mecanismo quedó completo pero sin
 > canal de entrada: el único disponible era el correo personal del editor, y
