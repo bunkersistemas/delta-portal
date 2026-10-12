@@ -363,12 +363,21 @@ COMO USAR LOS COMANDOS: Bash acepta SOLO comandos que empiezan con python, py o 
 SIEMPRE, pase lo que pase, termina escribiendo .corrida.json, tambien si frenas o si algo fallo.
 "@
 Anotar 'llamando a la redaccion...'
+# PowerShell se saca de la vista (12/10/2026): el agente lo intentaba, se lo
+# rechazaban y abandonaba creyendo que no tenia comandos.
 $salida = & claude -p $prompt --permission-mode dontAsk `
-  --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' 2>&1
+  --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' `
+  --disallowedTools 'PowerShell' 2>&1
 $codigo = $LASTEXITCODE
 Add-Content -Path $Log -Value ($salida | Out-String) -Encoding UTF8
 Anotar "claude termino con codigo $codigo"
 
+# fase de enfoque: lo que importa es el enfoque escrito; si el agente se olvido de
+# .corrida.json (paso el 12/10/2026, ronda 2 del pedido 84), se toma igual
+if ($Mision -eq 'enfoque' -and -not (Test-Path $Resultado) -and (Test-Path '_privado/enfoque.json')) {
+  Anotar '[AVISO] la corrida de enfoque no dejo .corrida.json pero si _privado/enfoque.json: se toma como ENFOQUE'
+  '{"veredicto":"ENFOQUE","id":"","motivo":"enfoque escrito (sin .corrida.json)"}' | Set-Content -Path $Resultado -Encoding UTF8
+}
 if (-not (Test-Path $Resultado)) { Terminar 1 'falla' '[FALLA] la redaccion no dejo .corrida.json; el repo queda como esta para revisarlo' }
 $r = Get-Content $Resultado -Raw -Encoding UTF8 | ConvertFrom-Json
 Remove-Item $Resultado -ErrorAction SilentlyContinue
