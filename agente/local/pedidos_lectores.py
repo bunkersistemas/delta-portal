@@ -259,7 +259,7 @@ def devolver_enfoque(pid, motivo):
 def en_curso(chat):
     """Pedidos abiertos de un chat: editor 12/10/2026, una investigacion en curso por persona."""
     return pedir("GET", "?select=id,titulo,estado&telegram_chat=eq.%d"
-                        "&estado=in.(recibido,en_investigacion,enfoque_propuesto,enfoque_aprobado,en_revision,revision_ok,revision_error,revision_feedback)" % int(chat))
+                        "&estado=in.(moderacion,recibido,en_investigacion,enfoque_propuesto,enfoque_aprobado,en_revision,revision_ok,revision_error,revision_feedback)" % int(chat))
 
 
 def crear_desde_chat(chat, titulo, tipo, detalle):

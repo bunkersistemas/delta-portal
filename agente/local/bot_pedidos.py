@@ -30,6 +30,8 @@ T_HOLA = ("\U0001f44b \u00a1Hola! Ac\u00e1 miramos los n\u00fameros detr\u00e1s 
 T_VINCULADO = ("Listo, ya tengo tu pedido \U0001f64c\n\u00ab{titulo}\u00bb\n\n"
                "Ahora lo leemos y armamos el enfoque: qu\u00e9 vamos a contestar, con qu\u00e9 fuentes y c\u00f3mo se va "
                "a ver la nota. Te lo mando por ac\u00e1.")
+T_VINCULADO_MODERACION = ("Listo, ya tengo tu pedido \U0001f64c\n\u00ab{titulo}\u00bb\n\n"
+                          "Primero lo revisamos. Si lo tomamos, armamos el enfoque y te lo mando por ac\u00e1.")
 T_NO_ENCONTRADO = ("Mmm, no encuentro ese pedido \U0001f914 Prob\u00e1 con el bot\u00f3n que aparece despu\u00e9s de enviarlo en la "
                    "p\u00e1gina, o contame ac\u00e1 qu\u00e9 quer\u00e9s saber.")
 T_APROBADO = ("\u00a1Vamos! \U0001f50e Arrancamos a investigar con este enfoque. Cuando la nota est\u00e9 lista te la muestro "
@@ -49,6 +51,7 @@ COMANDOS = [{"command": "mispedidos", "description": "En qu\u00e9 est\u00e1 cada
             {"command": "pedir", "description": "Pedir una investigaci\u00f3n nueva"},
             {"command": "start", "description": "Empezar"}]
 ESTADOS = {
+    "moderacion": "\U0001f440 Recibido: lo estamos revisando antes de investigar",
     "recibido": "\U0001f4e5 Recibido: estamos armando el enfoque",
     "en_investigacion": "\u2699\ufe0f La redacci\u00f3n est\u00e1 trabajando en esto ahora",
     "enfoque_propuesto": "\u270b Te mand\u00e9 el enfoque: espero tu respuesta",
@@ -498,7 +501,10 @@ def al_start(chat, codigo):
         return
     pl.pedir("PATCH", "?id=eq.%d" % p["id"], {"telegram_chat": chat})
     anotar("pedido %s vinculado a un chat" % p["id"])
-    decir(chat, T_VINCULADO.format(titulo=p["titulo"]), teclado=True)
+    if p["estado"] == "moderacion":
+        decir(chat, T_VINCULADO_MODERACION.format(titulo=p["titulo"]), teclado=True)
+    else:
+        decir(chat, T_VINCULADO.format(titulo=p["titulo"]), teclado=True)
     if p["estado"] == "enfoque_propuesto" and p.get("enfoque"):
         decir(chat, pl.texto_enfoque(p["id"], json.loads(p["enfoque"]), p["token"]),
               pl.botones_enfoque(p["id"]))
@@ -518,6 +524,9 @@ def al_boton(est, q):
     pl.tg("answerCallbackQuery", {"callback_query_id": q["id"]})
     if accion in ("igpub", "igdes"):
         al_boton_instagram(q, chat, accion, pid)
+        return
+    if accion in ("cqi", "cqp", "cqd", "cpi", "cpd") and pid.isdigit():
+        al_boton_moderacion(q, chat, accion, int(pid))
         return
     if accion == "sug":
         sacar_botones(q)
@@ -605,6 +614,36 @@ def al_boton_instagram(q, chat, accion, nota):
     except SystemExit as e:
         anotar("instagram: fallo la publicacion de %s: %s" % (nota, e))
         decir(chat, "\u26a0\ufe0f No se pudo publicar: %s" % e)
+
+
+def al_boton_moderacion(q, chat, accion, id_):
+    """Moderacion unica (13/10/2026): lo que entra por el portal o por los comentarios de
+    Instagram lo aprueba el editor antes de investigarse o mostrarse. Solo el editor."""
+    import comunidad, instagram_pub as igp
+    try:
+        es_editor = chat == igp.editor()
+    except Exception:
+        es_editor = False
+    if not es_editor:
+        anotar("boton de moderacion desde un chat que no es el del editor: ignorado")
+        return
+    sacar_botones(q)
+    try:
+        if accion.startswith("cq"):
+            r = comunidad.moderar_pregunta(id_, accion)
+        else:
+            r = comunidad.moderar_pedido(id_, accion)
+    except Exception as e:
+        anotar("moderacion %s %s fallo: %s" % (accion, id_, e))
+        decir(chat, "\u26a0\ufe0f No pude registrar la moderaci\u00f3n: %s" % e)
+        return
+    anotar("moderacion %s %s: %s" % (accion, id_, r))
+    decir(chat, r)
+    if accion == "cpi":
+        disparar_enfoque()       # si dejo Telegram, se le arma el enfoque
+        disparar_redaccion()     # si no, se investiga directo (periodo de prueba: el mismo dia)
+    elif accion == "cqi":
+        disparar_redaccion()
 
 
 def al_boton_conversacion(est, q, chat, accion, valor):
