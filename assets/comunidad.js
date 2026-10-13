@@ -150,7 +150,7 @@
       }
       filas.forEach(function (p) {
         var it = el("div", "cm-item");
-        it.appendChild(el("div", "cm-de", "Preguntaron " + (DONDE[p.origen] || "")));
+        it.appendChild(el("div", "cm-de", p.origen === "pedido" ? "Investigación pedida por un lector" : "Preguntaron " + (DONDE[p.origen] || "")));
         it.appendChild(el("p", "cm-txt", p.texto));
         if (p.estado === "respondida" && p.nota_url) {
           var b = el("a", "cm-est ok", "✅ Respondida → leer la nota");

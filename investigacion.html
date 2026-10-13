@@ -167,7 +167,7 @@
       if (!filas || !filas.length) { hist.appendChild(el("p", "vacio", "Todavía no hay preguntas publicadas. ¡Dejá la primera!")); return; }
       filas.forEach(function (p) {
         var it = el("div", "hq");
-        it.appendChild(el("div", "hq-de", "Preguntaron " + (DONDE[p.origen] || "") + " · " + fecha(p.creado)));
+        it.appendChild(el("div", "hq-de", (p.origen === "pedido" ? "Investigación pedida por un lector" : "Preguntaron " + (DONDE[p.origen] || "")) + " · " + fecha(p.creado)));
         it.appendChild(el("p", "hq-txt", p.texto));
         if (p.estado === "respondida" && p.nota_url) {
           var a = el("a", "hq-ok", "✅ Respondida → leer la nota");

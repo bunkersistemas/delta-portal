@@ -148,6 +148,11 @@ def cerrar(pid, estado, texto):
         raise SystemExit("ERROR: el pedido %s no quedo %s" % (pid, estado))
     print("OK|pedido %s -> %s" % (pid, estado))
     if estado == "publicado":
+        try:   # editor 13/10/2026: toda investigacion pedida queda respondida en el panel del portal
+            import comunidad
+            comunidad.desde_pedido(pid, texto)
+        except Exception as e:
+            print("AVISO|el pedido %s no se sumo al panel: %s" % (pid, e))
         avisar(pid, "\u00a1Sali\u00f3 tu investigaci\u00f3n!\n" + texto + "\n\nGracias por pedirla. Cuando quieras pedir otra, "
                "escribime por ac\u00e1.")
     else:

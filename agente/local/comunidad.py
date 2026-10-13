@@ -21,7 +21,13 @@ de mensajes privados, likes ni comentarios en posteos ajenos.
   exportar                   JSON de las preguntas (para el memo de los viernes)
   vincular <pedido> <ids>    esas preguntas dieron origen a ese pedido
   responder <url> <ids>      esas preguntas ya las responde una nota publicada
+  desde_pedidos              suma al panel, como respondidas, las investigaciones pedidas
+                             ya publicadas (lo hace solo pedidos_lectores.cerrar)
   ver                        lista las preguntas
+
+Editor, 13/10/2026: toda investigacion pedida por el bot termina como pregunta RESPONDIDA
+en el panel (origen "pedido"), con la pregunta bien formulada de la nota (titulo_busqueda),
+no con las palabras del lector, y sin su nombre.
 """
 import datetime as dt, json, os, re, sys, unicodedata, urllib.parse, urllib.request
 
@@ -210,6 +216,40 @@ def responder(url, ids):
             print("AVISO|pregunta %d no esta aprobada: no se toca" % i)
 
 
+def pregunta_de_nota(pid, url):
+    """La pregunta publica de la nota (titulo_busqueda); si no esta, el titulo del pedido."""
+    for a in pl.articulos():
+        if str(a.get("pedido")) == str(pid) or url.endswith(a.get("archivo", "@")):
+            t = a.get("titulo_busqueda") or ""
+            if t:
+                return t
+    f = pl.pedir("GET", "?select=titulo&id=eq.%d" % int(pid))
+    return f[0]["titulo"].strip() if f else ""
+
+
+def desde_pedido(pid, url):
+    url = url.strip().split()[0]
+    ya = (sb("GET", "?select=id&pedido_id=eq.%d" % int(pid))
+          or sb("GET", "?select=id&nota_url=eq." + urllib.parse.quote(url, safe="")))
+    if ya:
+        print("NADA|pedido %s: ya esta en el panel (pregunta %s)" % (pid, ya[0]["id"]))
+        return
+    t = " ".join(pregunta_de_nota(pid, url).split())
+    if len(t) > 300:
+        t = t[:297].rsplit(" ", 1)[0] + "..."
+    if len(t) < 10:
+        print("AVISO|pedido %s: sin pregunta para el panel" % pid)
+        return
+    sb("POST", "", {"texto": t, "origen": "pedido", "estado": "respondida", "moderada": ahora(),
+                    "pedido_id": int(pid), "nota_url": url}, prefer="return=minimal")
+    print("OK|pedido %s al panel como respondida" % pid)
+
+
+def desde_pedidos():
+    for p in pl.pedir("GET", "?select=id,salida&estado=eq.publicado&salida=not.is.null&order=id"):
+        desde_pedido(p["id"], p["salida"])
+
+
 def exportar():
     """Para el memo: las aprobadas y respondidas de los ultimos 60 dias (sin ids de Instagram)."""
     try:
@@ -245,6 +285,8 @@ if __name__ == "__main__":
         ciclo()
     elif cmd == "exportar":
         exportar()
+    elif cmd == "desde_pedidos":
+        desde_pedidos()
     elif cmd == "ver":
         ver()
     elif cmd == "vincular" and len(sys.argv) > 3:
