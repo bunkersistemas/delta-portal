@@ -3905,6 +3905,14 @@
       "estado": "publicada",
       "articulo_id": "2026-10-12-fin-de-semana-largo-cuanto-genero-economia",
       "archivo": "cola/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.html"
+    },
+    {
+      "tema": "¿creció la economía con Milei y los trabajadores ganan o pierden? (pedido de lector 89) / PBI desest INDEC IV-23 706.980,2 -> II-26 747.969,9 (+5,80%; piso II-24 691.368,8 -2,21%, +8,19% desde el piso; techo I-26 752.422,5 +6,43%; II-26 vs I-26 -0,59%); EMAE desest nov-23 146,382 -> jul-26 149,648 (+2,23%; jul -2,90% m/m, mayor baja desde abr-2020 -15,64%); PBI por habitante +3,6% estimado (3,1-4,0; proyecciones INDEC base censo 2010); VAB 3T25-2T26 vs 2023: PIB +4,2%, agro +51,4% (base sequía), minas +24,2%, finanzas +23,2%, hoteles +15,4%, industria -8,9%, construcción -13,7%, comercio -3,7%, adm. pública -3,2%; agro+minas+finanzas $123.077 M vs VAB +$77.954 M; salario real nov-23 -> jul-26 (IPC +328,8%): privado registrado -3,4% (piso mar-24 -12,1%, máx ene-25 +0,7%), público provincial -8,8% (piso ene-24 -20,8%), público nacional -35,9% (mín feb-26 -37,2%), público total -15,8%; RIPTE real +1,5% (piso feb-24 -19,2%); SIPA desest nov-23 -> jun-26: asalariados privados -246.312 (-3,9%), públicos -87.629 (-2,5%), casas part. -20.187, monotributo +169.026, monotributo social 653.385 -> 259.193 en dic-24; desocupación 5,7% (IV-23) -> 7,9% (II-26); informalidad ~41,3% (IV-23, cálculo propio cuadro 2.1) -> 45,0%; pobreza 41,7 (2S23) -> 52,9 -> 38,1 -> 31,6 -> 28,2 -> 32,3 (1S26)",
+      "angulo": "Corrida del pedido de lector 89 (enfoque aprobado por el lector, sin comentarios), 12/10/2026 20:36. Ancla +5,8% por estadística oficial recalculada: (1) sh_oferta_demanda_desest_09_26.xls; (2) recálculo + EMAE prom II-26/IV-23 +5,77%; (3) contraste OJF (IGA 2024 -2,9%, 2025 +4,7%, ene-jul 2026 +0,3%; misma dirección, menor magnitud). Salarios por sector: índice de salarios INDEC (csv de niveles + variaciones_salarios_09_26.xls cuadro 3 encadenado, control por acumulados 0,03%) deflactado con IPC nacional; contraste IARAF (BAE Negocios 23/04/2026: nov-23 a feb-26 nacional -37,2, provincial -10,3, privado -3,5, público -18,3, idénticos a nuestra serie) y RIPTE (+1,5% real, diferencia de signo explicada por composición). Salario no registrado NO publicado como dato: rezago de 5 meses y sin contraste independiente (alineado abr-24 -> jul-26 contra IPC nov-23 -> feb-26 daba +41,6%). Pobreza: contraste UTDT nowcast 1S26 31,6 [30,1-33,0]. Cambios contra la maqueta del enfoque: pobreza último dato 32,3 (1S26), no 28,2; salario público nacional -35,9 (no -33,3 de la nota del 27/08, que venía de Cronista). Jubilados afuera, como se acordó. No se atribuyen cifras a medidas del gobierno.",
+      "fecha": "2026-10-12",
+      "estado": "publicada",
+      "articulo_id": "2026-10-12-economia-salarios-desde-milei",
+      "archivo": "cola/2026-10-12-economia-salarios-desde-milei.html"
     }
   ]
 }
