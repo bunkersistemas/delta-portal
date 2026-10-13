@@ -4043,6 +4043,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto cobra un empleado público nacional (paritaria estatal: ATE rechazó y UPCN firmó el acta del 25/08/2026; paro de ATE en El Cronista 13/10/2026) / SINEP planta permanente: UR Decreto 832/2026 Anexo I sep $1.100,12, oct $1.119,92, nov $1.137,84, dic $1.154,91 (aumentos 1,9/1,8/1,6/1,5% + $80.000 en dic); unidades por celda de la escala INDEC ene-2026 (UR $940,81, Decreto 206/2026): F0 516, E0 537, D0 665, C0 765, B0 1.116, A0 1.598, A10 3.310; oct-26 F0 $577.878,72, D0 $744.746,80, A0 $1.789.632,16, A10 $3.707.383,17, Prof A0 $2.505.485,02 (= UPCN, 176 celdas iguales en ene/sep/oct); UR nov-23 $415,00 (Decreto 635/2023) -> ago-26 $1.079,61 (Decreto 552/2026): +160,1% vs IPC +336,0% = -40,3% real (jul-26 -40,5% vs índice de salarios INDEC público nacional -35,9%, nota del 12/10); ene->ago 2026 UR +14,8% vs IPC +17,9% = -2,7%; CBT hogar 2 ago-26 $1.605.497,35: F0 36,0%, D0 46,4%, A0 111,5%; CBT adulto $519.578,43: F0 1,11 veces",
+      "angulo": "Corrida programada del 13/10/2026 14:30. Pregunta de plata detrás del conflicto estatal (ATE contra el acta firmada por UPCN): cuánto cobra un empleado de planta del SINEP en octubre. No repite la nota del 12/10 (salario real público nacional -35,9% del índice de salarios): esta da la escala por nivel y grado y la unidad retributiva, y usa aquel índice como contraste. Verificación: dos fuentes que coinciden (Decreto 832/2026 Anexo I x unidades de la escala oficial del INDEC = escala de UPCN, 176 celdas).",
+      "fecha": "2026-10-13",
+      "estado": "publicada",
+      "articulo_id": "2026-10-13-sueldo-estatales-nacionales-sinep-octubre",
+      "archivo": "cola/2026-10-13-sueldo-estatales-nacionales-sinep-octubre.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 13/10/2026 14:30: no se probaron porque la primera candidata (sueldo de los estatales nacionales del SINEP) pasó la verificación. Lista: IPC, canasta básica y patentamientos de septiembre (INDEC hoy 16:00, todavía no publicados), 150 localidades sin lugar para sacar efectivo (La Nación; candidata con BCRA puntos de acceso, sin probar), liquidación final por renuncia tras la reforma laboral (Cronista; sin probar), jóvenes en el mercado laboral (La Nación; EPH, sin probar), FMI recorta el crecimiento (frenada a las 04:30), Edenor y Edesur con CAMMESA (frenada a las 12:30), comparador de plazo fijo del BCRA y plazo fijo para ganar $100.000 (cuentas de calculadora, plazo fijo cubierto), Galperin y el costo financiero (publicada 12/10), Boca-Vasco (premios publicados 06/10), Yacyretá y el cierre del paso (sin pregunta de plata con documento); EMPRESAS (rige el cupo, hoy no hubo nota de EMPRESAS): Caja de Valores anuncio rectificativo de dividendo 13/10, Nuevo Continente balance al 31/07 y A3 Mercados HR 09/10 (el PDF de la CNV se baja con una clave que pide inicio de sesión: /api/ValetKeyProvider redirige al login de cnvfs; sin documento legible no hay cifra), Central Puerto adquisición de acciones propias (rutina, contada el 29/09); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 13/10/2026 14:30; ganó el sueldo de los estatales del SINEP (primera candidata, APTA). Cupo de EMPRESAS: regía, pero ninguna candidata tenía documento primario legible (CNV detrás de login) ni novedad.",
+      "fecha": "2026-10-13",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
     }
   ]
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-13T12:44:55-03:00",
+    "actualizado": "2026-10-13T15:00:51-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-13-sueldo-estatales-nacionales-sinep-octubre",
+      "titulo": "$577.879 brutos: lo que cobra en octubre el escalón más bajo de la planta del Estado nacional",
+      "bajada": "El sueldo de un empleado de planta de la administración nacional sale de una grilla: seis niveles, once grados y un solo valor que los multiplica, la unidad retributiva. En octubre esa unidad vale $1.119,92 y la escala va de $577.879 a $3.707.383 brutos. Desde noviembre de 2023 la unidad subió 160,1% y los precios 336,0%: compra 40,3% menos.",
+      "titulo_busqueda": "¿Cuánto cobra un empleado público nacional en octubre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$577.879",
+      "numero_label": "sueldo básico bruto de octubre de 2026 del escalón más bajo de la planta permanente del SINEP (nivel F, grado 0, agrupamiento general): 516 unidades retributivas x $1.119,92 (Decreto 832/2026, Anexo I) = $577.878,72, igual a la escala de octubre de UPCN",
+      "fecha": "2026-10-13",
+      "hora": "15:30",
+      "archivo": "articulos/2026-10-13-sueldo-estatales-nacionales-sinep-octubre.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-13-zona-fria-ley-gas-tarifa-plena",
       "titulo": "La ley de Zona Fría salió hoy: un hogar de la zona ampliada con 30% de descuento que no entre al SEF va a pagar 42,9% más por el gas",
