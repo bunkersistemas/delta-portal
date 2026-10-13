@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-13T00:42:20-03:00",
+    "actualizado": "2026-10-13T02:51:42-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-13-becas-deportivas-bonaerenses-cuanto-cobran",
+      "titulo": "Los 2.606 becados del deporte bonaerense cobran como máximo $180.000 por mes: menos que la canasta de indigencia de un adulto",
+      "bajada": "La Provincia de Buenos Aires paga cada mes una beca a deportistas y entrenadores de 126 distritos. En agosto fueron 2.606. La más alta, para quienes tienen proyección internacional, es de $180.000 desde abril: el 76,6% de lo que necesita un adulto para no ser indigente. Cuando se creó el programa, en 2021, esa beca valía $392.877 de hoy. Perdió 54% de su poder de compra.",
+      "titulo_busqueda": "¿Cuánto cobra un deportista becado por la Provincia de Buenos Aires?",
+      "seccion": "DEPORTES",
+      "formato": "Anatomía de un dato",
+      "numero": "$180.000",
+      "numero_label": "beca mensual más alta del programa Becas Deportivas de la Provincia de Buenos Aires (categoría III, desde abril de 2026)",
+      "fecha": "2026-10-13",
+      "hora": "03:30",
+      "archivo": "articulos/2026-10-13-becas-deportivas-bonaerenses-cuanto-cobran.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min",
+      "serie": "plata-deportistas"
+    },
     {
       "id": "2026-10-13-ia-brecha-educativa-experimento-argentina",
       "titulo": "Un experimento de San Andrés y la Di Tella con 1.174 argentinos encontró que la IA achicó 75% la brecha de rendimiento entre los que estudiaron más y los que estudiaron menos",

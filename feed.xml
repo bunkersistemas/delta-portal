@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 00:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 02:51:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los 2.606 becados del deporte bonaerense cobran como máximo $180.000 por mes: menos que la canasta de indigencia de un adulto</title>
+      <link>https://coninteres.com/articulos/2026-10-13-becas-deportivas-bonaerenses-cuanto-cobran.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-becas-deportivas-bonaerenses-cuanto-cobran.html</guid>
+      <pubDate>Tue, 13 Oct 2026 03:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>DEPORTES</category>
+      <description>La Provincia de Buenos Aires paga cada mes una beca a deportistas y entrenadores de 126 distritos. En agosto fueron 2.606. La más alta, para quienes tienen proyección internacional, es de $180.000 desde abril: el 76,6% de lo que necesita un adulto para no ser indigente. Cuando se creó el programa, en 2021, esa beca valía $392.877 de hoy. Perdió 54% de su poder de compra.</description>
+      <ci:numero>$180.000</ci:numero>
+      <ci:numeroEtiqueta>beca mensual más alta del programa Becas Deportivas de la Provincia de Buenos Aires (categoría III, desde abril de 2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-becas-deportivas-bonaerenses-cuanto-cobran.png" length="70711" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-becas-deportivas-bonaerenses-cuanto-cobran.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un experimento de San Andrés y la Di Tella con 1.174 argentinos encontró que la IA achicó 75% la brecha de rendimiento entre los que estudiaron más y los que estudiaron menos</title>
       <link>https://coninteres.com/articulos/2026-10-13-ia-brecha-educativa-experimento-argentina.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>multa por no presentar una declaración jurada para una persona humana desde el 9/10/2026: $220.000 (Ley 27.799, art. 15) menos 25% (Ley 27.826, art. 2°)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-multa-arca-no-presentar-declaracion-jurada.png" length="76394" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-multa-arca-no-presentar-declaracion-jurada.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El RIGI de Tecpetrol en Vaca Muerta suma US$6.432 millones, pero 55 de cada 100 dólares llegan después de 2029</title>
-      <link>https://coninteres.com/articulos/2026-10-09-rigi-tecpetrol-los-toldos-6432-millones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-09-rigi-tecpetrol-los-toldos-6432-millones.html</guid>
-      <pubDate>Fri, 09 Oct 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>El Boletín Oficial publicó la resolución que aprueba el ingreso al RIGI de Los Toldos II Este, de Tecpetrol y GyP. Hasta junio de 2029 son US$2.903 millones para la planta y 107 pozos; los otros US$3.529 millones, para 273 pozos, se reparten entre julio de 2029 y 2054.</description>
-      <ci:numero>US$6.432 M</ci:numero>
-      <ci:numeroEtiqueta>inversión total del plan aprobado para Los Toldos II Este en el RIGI (Resolución 1771/2026 del Ministerio de Economía)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-rigi-tecpetrol-los-toldos-6432-millones.png" length="74621" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-rigi-tecpetrol-los-toldos-6432-millones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
