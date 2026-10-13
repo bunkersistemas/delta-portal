@@ -1,5 +1,24 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-13T08:28:00-03:00",
-  "borradores": []
+  "actualizado": "2026-10-13T10:05:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-10-13-ia-quita-empleo-que-dicen-los-estudios",
+      "titulo": "Seis estudios con registros reales de empleo midieron qué hizo la IA desde 2022: ninguno encontró una caída del empleo total y tres vieron que entran menos jóvenes en los trabajos más expuestos",
+      "titulo_busqueda": "¿La inteligencia artificial quita empleo? Qué encontraron los estudios que midieron trabajo, sueldos y horas reales",
+      "bajada": "Uno de cada cuatro trabajadores del mundo está en un empleo expuesto a la inteligencia artificial generativa, según la OIT. Pero estar expuesto no es perder el trabajo. Los estudios que miraron nóminas, sueldos y horas reales en Estados Unidos, Dinamarca, Noruega y Francia hasta 2026 no encuentran que la IA haya achicado el empleo total; sí encuentran, en tres casos, menos lugar para los que recién empiezan. En la Argentina nadie lo midió todavía.",
+      "seccion": "IA",
+      "formato": "Investigación",
+      "numero": "6",
+      "numero_label": "estudios con registros reales de empleo (EE.UU., Dinamarca, Noruega y Francia, datos hasta 2024-2026) que midieron qué hizo la IA desde la llegada de ChatGPT: ninguno encontró una caída del empleo total, los sueldos o las horas; tres (Stanford, Banco de Francia, Fed de Dallas) vieron menos lugar para los jóvenes en los trabajos más expuestos",
+      "fecha": "2026-10-13",
+      "hora": "10:05",
+      "archivo": "cola/2026-10-13-ia-quita-empleo-que-dicen-los-estudios.html",
+      "verificacion": "verificada",
+      "fuentes": 13,
+      "lectura": "30 seg → 10 min",
+      "pedido": 94,
+      "revision_lector": true
+    }
+  ]
 }

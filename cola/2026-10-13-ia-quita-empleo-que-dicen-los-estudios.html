@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿La inteligencia artificial quita empleo? Qué encontraron los estudios que midieron trabajo, sueldos y horas reales — CON INTERÉS</title>
+<meta name="description" content="Seis estudios con registros reales de empleo en EE.UU., Dinamarca, Noruega y Francia midieron qué hizo la IA desde 2022: ninguno encontró una caída del empleo total y tres vieron que entran menos jóvenes en los trabajos más expuestos. En la Argentina nadie lo midió todavía.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+  .draft-ribbon{background:var(--amber);color:#fff;font-family:var(--mono);font-size:12px;text-align:center;padding:8px 12px;letter-spacing:.04em}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .prose h3.sub{font-family:var(--serif);font-size:24px;font-weight:700;margin:36px 0 14px;line-height:1.25}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:470px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* tabla de estudios */
+  .tabla-wrap{overflow-x:auto}
+  table.estudios{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.45}
+  table.estudios th{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:2px solid var(--ink);padding:8px 8px 6px;font-weight:600}
+  table.estudios td{border-bottom:1px solid var(--grid);padding:9px 8px;vertical-align:top;color:var(--ink-soft)}
+  table.estudios td:first-child{font-weight:600;color:var(--ink)}
+  table.estudios tr.grupo td{background:#F3EFE7;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--teal-deep);font-weight:600}
+  table.estudios tr.falta td{color:var(--muted);font-style:italic}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .lbl{font-family:var(--mono);font-size:12px;fill:var(--teal-deep);font-weight:600}
+</style>
+</head>
+<body data-palette="#B8336A,#0E7C86,#B9AE9C,#6B6560">
+<div class="draft-ribbon">Borrador generado por la redacción de agentes y pendiente de aprobación. No es una nota publicada.</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">LA ECONOMÍA DE LA IA <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <h1>Seis estudios con registros reales de empleo midieron qué hizo la IA desde 2022: ninguno encontró una caída del empleo total y tres vieron que entran menos jóvenes en los trabajos más expuestos</h1>
+
+  <p class="standfirst">Uno de cada cuatro trabajadores del mundo está en un empleo expuesto a la inteligencia artificial generativa, según la OIT. Pero estar expuesto no es perder el trabajo. Los estudios que miraron nóminas, sueldos y horas reales en Estados Unidos, Dinamarca, Noruega y Francia hasta 2026 no encuentran que la IA haya achicado el empleo total; sí encuentran, en tres casos, menos lugar para los que recién empiezan. En la Argentina nadie lo midió todavía.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>13 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 10 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta si la inteligencia artificial ya le está quitando el trabajo a la gente, con los estudios que midieron empleo, sueldos y horas reales en el mundo desde la llegada de ChatGPT, y separa tres cosas: cuántos empleos están expuestos, cuántos se perdieron de verdad hasta hoy y cuántos se perderían o crearían según los pronósticos. Cumple el enfoque que aprobó el lector, con dos ajustes. La OIT da 24% de empleo expuesto, no 25% como decía la maqueta (es el "uno de cada cuatro" redondeado). Y para la Argentina no hay ningún estudio que mida empleos perdidos por la IA, ni siquiera parcial: lo que hay es una estimación oficial de exposición del empleo asalariado privado registrado de 2023, que no incluye a los informales ni a los cuentapropistas, y así se cuenta. De América Latina hay índices de exposición, pero ninguna medición de empleos perdidos.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">1m</span></button>
+      <button data-go="b3">En contexto <span class="t">4m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">3m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">6</div>
+      <div class="cap">Son los <b>estudios con registros reales de empleo</b> —nóminas, sueldos, horas, altas y bajas— que midieron qué pasó desde la llegada de ChatGPT en <b>Estados Unidos, Dinamarca, Noruega y Francia</b>. Ninguno encontró que la IA haya achicado el empleo total, los sueldos o las horas. Tres encontraron menos lugar para los jóvenes en los trabajos más expuestos. Los leímos en el original.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v dn">0 de 6</span><span class="k">encontraron caída del empleo total</span></div>
+        <div class="sr"><span class="v up">3 de 6</span><span class="k">vieron menos lugar para los jóvenes</span></div>
+        <div class="sr"><span class="v">24%</span><span class="k">del empleo mundial, expuesto a la IA (OIT)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">"La inteligencia artificial le quita el trabajo a la gente." La frase circula en cualquier sobremesa, y la pregunta de un lector fue directa: ¿hay estadísticas que la respalden? Fuimos a buscar los estudios que no se quedan en encuestas de opinión ni en anuncios de empresas, sino que miran lo que pasó con el empleo de verdad: registros de sueldos, nóminas y encuestas oficiales.</p>
+    <p>Encontramos seis, en cuatro países, con datos hasta 2026. La respuesta, hasta hoy, tiene dos partes. La primera: <b class="hl">ninguno encontró que la IA haya hecho caer el empleo total</b>, ni los sueldos ni las horas trabajadas. En Dinamarca, con los registros oficiales de 25.000 trabajadores, el efecto sobre sueldos y horas es nulo: los autores descartan cambios mayores al 2% a dos años de la llegada de ChatGPT. En Estados Unidos, el seguimiento mensual de la Universidad de Yale no encuentra una señal clara. En Noruega, el empleo en las ocupaciones más expuestas creció casi igual que en las menos expuestas.</p>
+    <p>La segunda: <b>la puerta de entrada sí muestra algo</b>. En Estados Unidos y en Francia, tres estudios encontraron que entran menos jóvenes en los trabajos más expuestos a la IA. No porque los despidan, sino porque los contratan menos.</p>
+    <p>Así que el hermano del lector tiene razón a medias: hay señales en un grupo puntual, pero los datos todavía no muestran a la IA quitando empleo en general. Y hay una advertencia que vale para todo lo que sigue: la IA generativa masiva tiene menos de cuatro años. Estos estudios miden el arranque, no el final.</p>
+  </div>
+
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Los estudios, uno por uno</div>
+        <h3>Qué mide cada uno y qué encontró</h3>
+        <p class="fig-sub">Tres grupos que conviene no mezclar: lo expuesto (lo que podría cambiar), lo medido (lo que ya pasó) y lo pronosticado.</p>
+      </div>
+      <div class="tabla-wrap">
+      <table class="estudios">
+        <thead><tr><th>Estudio</th><th>Dónde</th><th>Qué mide</th><th>Qué encontró</th></tr></thead>
+        <tbody>
+          <tr class="grupo"><td colspan="4">Lo expuesto</td></tr>
+          <tr><td>OIT (mayo de 2025)</td><td>Mundo</td><td>Empleos en ocupaciones expuestas a la IA generativa</td><td>24% con alguna exposición; 3,3% en la categoría más alta</td></tr>
+          <tr><td>FMI (enero de 2024)</td><td>Mundo</td><td>Empleos expuestos a la IA en general</td><td>Casi 40%; 60% en los países avanzados y 26% en los de bajos ingresos</td></tr>
+          <tr><td>Ministerio de Trabajo (diciembre de 2023)</td><td>Argentina, asalariados privados registrados</td><td>Ocupaciones con la mitad o más de sus tareas alcanzables por la IA</td><td>54%, unos 3 millones de puestos</td></tr>
+          <tr class="grupo"><td colspan="4">Lo medido</td></tr>
+          <tr><td>Humlum y Vestergaard (NBER)</td><td>Dinamarca, 25.000 trabajadores</td><td>Sueldos y horas registrados, hasta diciembre de 2024</td><td>Efecto nulo: descarta cambios mayores al 2% a dos años</td></tr>
+          <tr><td>Yale Budget Lab (septiembre de 2026)</td><td>Estados Unidos</td><td>Mezcla de ocupaciones y desempleo según exposición, hasta agosto de 2026</td><td>Sin evidencia clara de una alteración del mercado laboral por la IA</td></tr>
+          <tr><td>Hernæs y Kostøl (IZA, junio de 2026)</td><td>Noruega, todo el empleo privado</td><td>Empleo según exposición, hasta febrero de 2026</td><td>+0,1% en lo más expuesto y +0,3% en lo menos; en los jóvenes, diferencia de cero, imprecisa</td></tr>
+          <tr><td>Stanford (agosto de 2026)</td><td>Estados Unidos, nóminas de ADP</td><td>Empleo por edad y exposición, hasta junio de 2026</td><td>Sin caída generalizada; los de 22 a 25 años en trabajos expuestos, 19% por debajo del ritmo de sus pares</td></tr>
+          <tr><td>Fed de Dallas (enero de 2026)</td><td>Estados Unidos, encuesta oficial de hogares</td><td>Empleo de 20 a 24 años, hasta septiembre de 2025</td><td>Cae en lo más expuesto; aun todo junto, sumaría como mucho 0,1 punto al desempleo total</td></tr>
+          <tr><td>Banco de Francia (octubre de 2026)</td><td>Francia, registros de altas y bajas</td><td>Contrataciones, hasta marzo de 2026</td><td>Jóvenes de 21 a 29 años: contrataciones fijas 28% abajo en lo más expuesto, 8% en lo menos</td></tr>
+          <tr class="grupo"><td colspan="4">Lo pronosticado</td></tr>
+          <tr><td>Foro Económico Mundial (enero de 2025)</td><td>55 economías, encuesta a más de 1.000 empresas</td><td>Empleos que se crearían y se perderían en 2025-2030, por todas las tendencias, no solo la IA</td><td>170 millones creados y 92 millones desplazados (estimado)</td></tr>
+          <tr class="falta"><td>Falta</td><td>Argentina y América Latina</td><td>Empleos perdidos por la IA</td><td>No hay ningún estudio que lo mida</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <figcaption><b>Fuentes:</b> los documentos originales de cada estudio, enlazados en "Cómo lo sabemos" y al pie. Las cifras de los estudios son hallazgos de sus autores, no estadísticas oficiales; el pronóstico del Foro Económico Mundial es una estimación.</figcaption>
+    </figure>
+
+    <h3 class="sub">Expuesto no es reemplazado</h3>
+    <p>Los números más citados sobre la IA y el empleo no son de puestos perdidos: son de puestos <b>expuestos</b>. La Organización Internacional del Trabajo (OIT) revisó en mayo de 2025, con el instituto nacional de investigación polaco NASK, las tareas de cada ocupación del mundo y calculó que el 24% del empleo mundial —unos 838 millones de puestos— está en ocupaciones con alguna exposición a la IA generativa. En la categoría más alta, la de trabajos donde la máquina puede hacer buena parte de las tareas, hay 3,3%. La exposición crece con el ingreso del país: 34% en los países de ingresos altos y 11% en los de ingresos bajos.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Mundo · empleo en ocupaciones expuestas a la IA generativa</div>
+        <h3>Cuanto más rico el país, más empleo expuesto</h3>
+        <p class="fig-sub">Porcentaje del empleo total con alguna exposición, por grupo de ingreso de los países (clasificación del Banco Mundial).</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 250" role="img" aria-label="Porcentaje del empleo con alguna exposición a la IA generativa según la OIT: mundo, 24%; países de ingresos altos, 34%; ingresos medianos altos, 25%; ingresos medianos bajos, 20%; ingresos bajos, 11%.">
+<line x1="260" y1="0" x2="260" y2="226" class="gg" style="stroke:#9A938A"/>
+<text x="0" y="28" class="cl" style="font-weight:600">Mundo</text><rect x="260" y="12" width="353" height="24" fill="#0E7C86"/><text x="621" y="29" class="lbl">24%</text>
+<text x="0" y="72" class="cl">Ingresos altos</text><rect x="260" y="56" width="500" height="24" fill="#B8336A"/><text x="768" y="73" class="lbl" style="fill:#B8336A">34%</text>
+<text x="0" y="116" class="cl">Ingresos medianos altos</text><rect x="260" y="100" width="368" height="24" fill="#6B6560" opacity="0.6"/><text x="636" y="117" class="cv">25%</text>
+<text x="0" y="160" class="cl">Ingresos medianos bajos</text><rect x="260" y="144" width="294" height="24" fill="#6B6560" opacity="0.6"/><text x="562" y="161" class="cv">20%</text>
+<text x="0" y="204" class="cl">Ingresos bajos</text><rect x="260" y="188" width="162" height="24" fill="#6B6560" opacity="0.6"/><text x="430" y="205" class="cv">11%</text>
+<text x="260" y="244" text-anchor="middle" class="cf">0</text>
+</svg>
+      <figcaption><b>Fuente:</b> OIT, Gmyrek y otros, "Generative AI and Jobs: A Refined Global Index of Occupational Exposure", documento de trabajo 140, mayo de 2025, resumen y gráfico 20. <b>Unidad:</b> porcentaje del empleo.</figcaption>
+    </figure>
+
+    <p>El Fondo Monetario Internacional (FMI) llegó en enero de 2024 a una cifra más alta, casi 40% del empleo mundial, porque mide la exposición a la IA en general y no solo a la generativa: 60% en las economías avanzadas, 40% en las emergentes y 26% en las de bajos ingresos. Y aclara que, en los países avanzados, alrededor de la mitad de esos puestos expuestos podría verse perjudicada y la otra mitad ganar productividad con la IA.</p>
+    <p>La misma OIT lo dice en su documento: sus cifras reflejan exposición, no el impacto real en el empleo. Un trabajo expuesto puede cambiar de tareas sin desaparecer.</p>
+
+    <h3 class="sub">Lo que ya pasó: los datos de sueldos y nóminas</h3>
+    <p><b>Dinamarca.</b> Los economistas Anders Humlum y Emilie Vestergaard encuestaron a unos 25.000 trabajadores de 7.000 lugares de trabajo en once ocupaciones expuestas —contadores, asesores financieros, atención al cliente y docentes, entre otras— y cruzaron las respuestas con los registros oficiales de sueldos y horas hasta diciembre de 2024. Aunque la mayoría de esas empresas ya había adoptado los chatbots, el efecto sobre lo que cobran y lo que trabajan es nulo: según la versión de marzo de 2026 de su documento en la oficina de investigación económica de EE.UU. (NBER), descartan efectos mayores al 2% a dos años de la llegada de ChatGPT. El usuario típico ahorra 2,8% de su tiempo de trabajo y, según los propios trabajadores, solo entre 3% y 7% de ese ahorro se les volvió más sueldo.</p>
+    <p><b>Estados Unidos.</b> El Budget Lab de la Universidad de Yale sigue cada mes la encuesta oficial de empleo de EE.UU. y compara cuánto cambia la mezcla de ocupaciones desde ChatGPT con lo que pasó cuando llegaron las computadoras y la internet. En su última actualización, del 15 de septiembre de 2026 y con datos de agosto, concluye que la mezcla de ocupaciones todavía no cambia de un modo que coincida con la llegada de la IA, y que las medidas de uso de IA no muestran relación con los cambios en el empleo o el desempleo. En su informe base calculó que la mezcla venía cambiando apenas un punto más rápido que en la era de internet, y que esos cambios ya habían empezado en 2021, antes de ChatGPT.</p>
+    <p><b>Noruega.</b> Con los registros de todo el empleo privado del país hasta febrero de 2026, Øystein Hernæs (Centro Frisch) y Andreas Kostøl (BI Norwegian Business School) encontraron que, desde octubre de 2022, el empleo creció 0,1% en las ocupaciones más expuestas y 0,3% en las menos expuestas.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Seis estudios con registros reales · desde fines de 2022</div>
+        <h3>Ninguno ve caer el empleo total; tres ven menos lugar para los jóvenes</h3>
+        <p class="fig-sub">Lo que encontró cada estudio en dos preguntas. "No lo mide": el estudio no separa a los jóvenes.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 330" role="img" aria-label="Resultados de seis estudios. Empleo total, sueldos u horas: ninguno encuentra caída (Dinamarca, Noruega, Yale, Stanford, Fed de Dallas y Banco de Francia). Jóvenes que entran: caída en Stanford, Fed de Dallas y Banco de Francia; sin diferencia clara en Noruega y Yale; Dinamarca no lo mide.">
+<text x="300" y="20" class="cv" style="font-weight:600">Empleo total, sueldos u horas</text>
+<text x="620" y="20" class="cv" style="font-weight:600">Jóvenes que entran</text>
+<line x1="0" y1="32" x2="900" y2="32" class="gg" style="stroke:#9A938A"/>
+<text x="0" y="66" class="cl" style="font-weight:600">Dinamarca</text><text x="0" y="82" class="cf">NBER · hasta dic-2024</text>
+<circle cx="310" cy="66" r="8" fill="#0E7C86"/><text x="326" y="70" class="cl">sin efecto (±2%)</text>
+<circle cx="630" cy="66" r="8" fill="none" stroke="#B9AE9C" stroke-width="2"/><text x="646" y="70" class="cv">no lo mide</text>
+<line x1="0" y1="96" x2="900" y2="96" class="gg"/>
+<text x="0" y="114" class="cl" style="font-weight:600">Noruega</text><text x="0" y="130" class="cf">IZA · hasta feb-2026</text>
+<circle cx="310" cy="114" r="8" fill="#0E7C86"/><text x="326" y="118" class="cl">+0,1% contra +0,3%</text>
+<circle cx="630" cy="114" r="8" fill="#B9AE9C"/><text x="646" y="118" class="cl">cero, impreciso</text>
+<line x1="0" y1="144" x2="900" y2="144" class="gg"/>
+<text x="0" y="162" class="cl" style="font-weight:600">EE.UU. · Yale</text><text x="0" y="178" class="cf">encuesta oficial · hasta ago-2026</text>
+<circle cx="310" cy="162" r="8" fill="#0E7C86"/><text x="326" y="166" class="cl">sin señal clara</text>
+<circle cx="630" cy="162" r="8" fill="#B9AE9C"/><text x="646" y="166" class="cl">sin cambio claro</text>
+<line x1="0" y1="192" x2="900" y2="192" class="gg"/>
+<text x="0" y="210" class="cl" style="font-weight:600">EE.UU. · Stanford</text><text x="0" y="226" class="cf">nóminas ADP · hasta jun-2026</text>
+<circle cx="310" cy="210" r="8" fill="#0E7C86"/><text x="326" y="214" class="cl">sin caída general</text>
+<circle cx="630" cy="210" r="8" fill="#B8336A"/><text x="646" y="214" class="cl" style="fill:#B8336A">19% debajo de sus pares</text>
+<line x1="0" y1="240" x2="900" y2="240" class="gg"/>
+<text x="0" y="258" class="cl" style="font-weight:600">EE.UU. · Fed de Dallas</text><text x="0" y="274" class="cf">encuesta oficial · hasta sep-2025</text>
+<circle cx="310" cy="258" r="8" fill="#0E7C86"/><text x="326" y="262" class="cl">máx. 0,1 punto de desempleo</text>
+<circle cx="630" cy="258" r="8" fill="#B8336A"/><text x="646" y="262" class="cl" style="fill:#B8336A">cae el empleo de 20 a 24</text>
+<line x1="0" y1="288" x2="900" y2="288" class="gg"/>
+<text x="0" y="306" class="cl" style="font-weight:600">Francia</text><text x="0" y="322" class="cf">Banco de Francia · hasta mar-2026</text>
+<circle cx="310" cy="306" r="8" fill="#0E7C86"/><text x="326" y="310" class="cl">empresas con IA: plantel igual</text>
+<circle cx="630" cy="306" r="8" fill="#B8336A"/><text x="646" y="310" class="cl" style="fill:#B8336A">contrataciones −28% vs −8%</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Humlum y Vestergaard, NBER w33777 (revisión de marzo de 2026); Hernæs y Kostøl, IZA DP 18767 (junio de 2026); Yale Budget Lab (15 de septiembre de 2026); Brynjolfsson, Chandar y Chen, Stanford (agosto de 2026); Atkinson y Yamco, Fed de Dallas (6 de enero de 2026); Palladino y otros, Banco de Francia, Eco Notepad 463 (8 de octubre de 2026). Verde: no hay caída. Rojo: caída. Gris: sin diferencia clara.</figcaption>
+    </figure>
+
+    <h3 class="sub">Donde sí aparece un golpe: los que recién empiezan</h3>
+    <p>Los estudios que separan por edad encuentran algo distinto en los jóvenes. Ya lo contamos en detalle en <a href="../articulos/2026-10-11-ia-empleo-jovenes-stanford.html">nuestra nota sobre el estudio de Stanford</a>: con las nóminas de millones de trabajadores, Erik Brynjolfsson, Bharat Chandar y Ruyu Chen encontraron que el empleo de los jóvenes de 22 a 25 años en los trabajos más expuestos a la IA quedó 19% por debajo de donde estaría si hubiera crecido como el de sus pares en trabajos menos expuestos. El Banco de Francia vio lo mismo con otro registro: entre marzo de 2026 y noviembre de 2022, las contrataciones por tiempo indeterminado de jóvenes de 21 a 29 años cayeron 28% en el quinto de ocupaciones más expuesto y 8% en el menos expuesto.</p>
+    <p>La Reserva Federal de Dallas agrega un tercer estudio en la misma dirección, con la encuesta oficial de hogares de EE.UU.: el empleo de los jóvenes de 20 a 24 años en las ocupaciones más expuestas bajó desde noviembre de 2022, y no por más despidos sino porque entran menos jóvenes que venían de afuera del mercado de trabajo. Pero pone la escala: aun si toda esa caída se hubiera convertido en desempleo, sumaría como mucho 0,1 punto porcentual a la tasa de desempleo total del país.</p>
+    <p>Del otro lado, en Noruega la diferencia para los jóvenes se estima en cero, aunque con mucha imprecisión, y Yale no ve que los recién egresados de EE.UU. se hayan alejado del resto en la mezcla de ocupaciones. Los propios autores de Stanford advierten que sus resultados son indicadores descriptivos, no una prueba de que la causa sea la IA. Y el Banco de Francia recuerda que la suba de tasas de interés, el ajuste en las empresas de tecnología y el trabajo remoto golpearon los mismos puestos en el mismo momento.</p>
+
+    <h3 class="sub">Lo que se pronostica</h3>
+    <p>El pronóstico más citado es el del Foro Económico Mundial, que en enero de 2025 encuestó a más de 1.000 empresas que emplean a más de 14 millones de personas en 55 economías. Según lo que esas empresas esperan, entre 2025 y 2030 se crearían 170 millones de empleos y se desplazarían 92 millones, el 8% del empleo actual: un saldo neto de 78 millones más. Dos aclaraciones que suelen perderse. No es una medición sino lo que las empresas dicen que planean, y por eso lo marcamos como estimado. Y esos números no son solo por la IA: suman todas las tendencias que mira el informe, de la tecnología a la transición energética, la demografía y la economía. Sobre la IA en particular, el 40% de las empresas dijo que espera reducir personal donde la IA pueda automatizar tareas, y dos de cada tres, contratar gente con habilidades en IA.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Mundo · pronóstico 2025-2030 (estimado)</div>
+        <h3>Las empresas esperan crear más empleos de los que desplazan</h3>
+        <p class="fig-sub">Millones de empleos, según la encuesta a empresas del Foro Económico Mundial. Incluye todas las tendencias, no solo la IA.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 160" role="img" aria-label="Pronóstico del Foro Económico Mundial para 2025-2030: 170 millones de empleos creados, 92 millones desplazados, saldo neto de 78 millones.">
+<line x1="200" y1="0" x2="200" y2="140" class="gg" style="stroke:#9A938A"/>
+<text x="0" y="28" class="cl">Empleos creados</text><rect x="200" y="12" width="500" height="24" fill="#0E7C86"/><text x="708" y="29" class="lbl">170 millones</text>
+<text x="0" y="72" class="cl">Empleos desplazados</text><rect x="200" y="56" width="271" height="24" fill="#B8336A"/><text x="479" y="73" class="lbl" style="fill:#B8336A">92 millones</text>
+<text x="0" y="116" class="cl" style="font-weight:600">Saldo neto</text><rect x="200" y="100" width="229" height="24" fill="#6B6560" opacity="0.6"/><text x="437" y="117" class="cv">+78 millones</text>
+<text x="200" y="156" text-anchor="middle" class="cf">0</text>
+</svg>
+      <figcaption><b>Fuente:</b> Foro Económico Mundial, "The Future of Jobs Report 2025", enero de 2025, página 18. Es una proyección basada en una encuesta a empresas: <b>estimado</b>. <b>Unidad:</b> millones de empleos.</figcaption>
+    </figure>
+
+    <h3 class="sub">¿Y en la Argentina?</h3>
+    <p>Nadie midió todavía cuántos empleos se perdieron —o se ganaron— por la IA en la Argentina. Buscamos en el INDEC, en las estadísticas laborales del Ministerio de Capital Humano, en el Banco Central y en centros como CEDLAS, Fundar y CEP XXI: todo lo publicado mide exposición o arma escenarios, nada mide puestos perdidos. La razón es de datos: los estudios que encuentran algo usan nóminas mensuales de millones de personas con edad y ocupación, y acá la fuente más cercana es la Encuesta Permanente de Hogares, que pregunta a una muestra de hogares cada trimestre y no alcanza para seguir una ocupación puntual mes a mes.</p>
+    <p>Lo que sí hay es una estimación de exposición. El Ministerio de Trabajo (hoy Secretaría de Trabajo) elaboró en diciembre de 2023 un estudio con los registros del empleo asalariado privado formal del primer trimestre de ese año: el 54%, unos 3 millones de puestos, está en ocupaciones donde al menos la mitad de las tareas podría hacerla la IA generativa. De esos puestos expuestos, según el mismo estudio, en el 71% la IA complementaría el trabajo y en el 22% podría sustituirlo. Los autores aclaran que es el impacto máximo, si la IA se aplicara en todos los procesos, y que ese escenario es improbable en el corto y mediano plazo. La OIT y el Banco Mundial, con la encuesta de hogares de 2021, calcularon 44% de exposición para la Argentina, y advierten que la cifra queda alta porque la encuesta cubre solo las ciudades grandes, donde hay más trabajo de oficina.</p>
+
+    <h3 class="sub">Entonces, ¿la IA quita empleo o no?</h3>
+    <p>Con lo que se midió hasta hoy: en los cuatro países con datos, no aparece una caída del empleo total, ni de los sueldos, ni de las horas, atribuible a la IA. Sí aparece, en Estados Unidos y Francia, menos entrada de jóvenes en los trabajos más expuestos, sin que se pueda decir todavía que la causa sea la IA. Lo que no se sabe es qué va a pasar en diez años: la tecnología tiene menos de cuatro, los datos duros son de países ricos y para América Latina no hay ninguna medición.</p>
+  </div>
+
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación: hallazgos de estudios, con las cinco condiciones de la sección de IA (atribuidos, leídos en el original, con método y límites, con otros estudios al lado y con el dato argentino verificado).</b> El 6 es nuestra cuenta de los estudios que encontramos con registros reales de empleo; cada resultado es de sus autores, no una estadística oficial ni un hecho del mundo, y así lo presentamos.</p>
+      <p><b>1. Los originales.</b> Leímos cada documento, no notas de prensa. <a href="https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf">OIT, documento de trabajo 140</a> (mayo de 2025): 24% y 838 millones de puestos en el gráfico 20 y la conclusión; 3,3% en el resumen; 34% y 11% por ingreso en el resumen. <a href="https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf">FMI, SDN/2024/001</a> (enero de 2024): casi 40%, 60%, 40% y 26% en el resumen ejecutivo. <a href="https://www.nber.org/papers/w33777">Humlum y Vestergaard, NBER w33777</a>: el 2% está en el resumen de la versión de marzo de 2026; la muestra, el período y el 2,8% de tiempo ahorrado, en la <a href="https://www.nber.org/system/files/working_papers/w33777/revisions/w33777.rev1.pdf">revisión de octubre de 2025</a> (la versión de mayo de 2025, con datos hasta junio de 2024, descartaba efectos mayores al 1%; la cifra se amplió al sumar datos). <a href="https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market">Yale Budget Lab</a>, actualización del 15 de septiembre de 2026, y su <a href="https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs">informe base</a>. <a href="https://www.dallasfed.org/research/economics/2026/0106">Fed de Dallas</a>, Tyler Atkinson y Shane Yamco, 6 de enero de 2026. <a href="https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf">Foro Económico Mundial</a>, páginas 6, 8 y 18. Stanford, Banco de Francia y Noruega, como en nuestra nota del 11 de octubre.</p>
+      <p><b>2. Qué midió cada uno y sus límites.</b> Dinamarca mide sueldos y horas, no la cantidad de puestos, y solo en once ocupaciones; sus datos llegan a fines de 2024. Yale mira la economía entera de EE.UU. con la encuesta oficial, que es menos precisa para grupos chicos; no estima un efecto causal, busca si hay una señal. Noruega usa todo el registro de empleo privado. Stanford y el Banco de Francia son correlaciones, no efectos causales medidos, y sus autores lo dicen. La Fed de Dallas usa la encuesta de hogares, con promedios de doce meses. Ninguno de los seis cubre América Latina. La OIT, el FMI y el Ministerio de Trabajo miden exposición, no empleos perdidos: los tres lo aclaran.</p>
+      <p><b>3. Los estudios, uno contra otro.</b> La regla pide al menos otro estudio al lado de cada hallazgo. Sobre el empleo total, los seis van en la misma dirección. Sobre los jóvenes, la literatura está dividida y la nota lo muestra: tres a favor de una caída (Stanford, Banco de Francia, Fed de Dallas) y dos que no la ven (Noruega, Yale). El Banco de Francia advierte que hay que distinguir ocupaciones, formas de ajuste e instituciones de cada país antes de hablar de un único efecto.</p>
+      <p><b>4. El dato argentino.</b> Que no hay un estudio argentino de empleos perdidos por la IA lo afirmamos después de buscar en el INDEC, la Secretaría de Trabajo, el BCRA, CEP XXI, CEDLAS y Fundar; si existe uno que no encontramos, lo agregamos. La exposición del 54% es una estimación oficial de un solo organismo que no se puede recalcular (el ministerio no publica la base por tareas), y por eso no la usamos como cifra principal. Está en el <a href="https://www.argentina.gob.ar/sites/default/files/impacto_de_la_inteligencia_artificial_generativa_en_el_empleo_asalariado_registrado_del_sector_privado_0.pdf">documento del Ministerio de Trabajo</a>, elaborado el 1 de diciembre de 2023 por Gerardo Breard, Victoria Castillo y Diego Schleser, páginas 2 y 4 (en la página 10 dice 53%; usamos el del resumen). El 71% y el 22% son proporciones de los puestos expuestos, no del total (cuadro de la página 8). El contraste independiente es el de la <a href="https://www.ilo.org/sites/default/files/2024-07/WP121_web.pdf">OIT y el Banco Mundial</a> (Gmyrek, Winkler y Garganta, julio de 2024, nota 23): 44%, con otro método y otra base, misma dirección y orden de magnitud. Las dos cifras se presentan atribuidas, como estimaciones de exposición.</p>
+      <p><b>Qué no afirmamos.</b> Que la IA no vaya a quitar empleo: estos estudios miden menos de cuatro años. Que la caída de las contrataciones de jóvenes sea por la IA: los propios autores no lo afirman. Ni que el pronóstico del Foro Económico Mundial sea un dato: es lo que esperan las empresas encuestadas.</p>
+      <div class="meta"><span>Fuentes <b>OIT · FMI · NBER · Yale · IZA · Stanford · Fed de Dallas · Banco de Francia · FEM · Ministerio de Trabajo · OIT-Banco Mundial</b></span><span>Verificación <b>estudios leídos en el original; exposición argentina con contraste independiente</b></span></div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>La discusión sobre la IA y el trabajo suele mezclar tres números que miden cosas distintas: lo expuesto, que es grande (uno de cada cuatro empleos en el mundo, más de la mitad del empleo formal privado argentino); lo medido, que hasta hoy es chico y concentrado en los jóvenes de algunos países; y lo pronosticado, que depende de lo que esperan las empresas. Separarlos es la diferencia entre el miedo y el dato.</p>
+    <p>Lo que sí muestran los estudios es por dónde llega el cambio: primero en las contrataciones, no en los despidos; primero en los que recién empiezan, no en los que ya tienen experiencia. Y en Dinamarca, primero en las tareas: los chatbots ahorran tiempo, aunque casi nada de ese ahorro se haya vuelto más sueldo.</p>
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si ya tenés un trabajo de oficina,</b> los datos de cuatro países no muestran que la IA esté recortando puestos ni sueldos en general. Lo que sí cambia, según el estudio danés, son las tareas: la mayoría de las empresas expuestas ya adoptó estas herramientas.</p>
+      <p data-perfil="trabajador"><b>Si estás por buscar tu primer empleo,</b> es donde aparecen las señales: en EE.UU. y Francia, las empresas contratan menos jóvenes en los puestos más expuestos. Son indicios en dos países, no una regla, y en la Argentina no hay datos para saber si pasa.</p>
+      <p data-perfil="pyme"><b>Si contratás gente,</b> el Banco de Francia encontró que las empresas que usan IA de forma intensiva no achicaron su plantel total, pero tomaron menos jóvenes.</p>
+    </div>
+  </div>
+
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Quiénes están más expuestos, según la OIT <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Las mujeres más que los varones: en el mundo, 4,7% del empleo femenino está en la categoría de exposición más alta, contra 2,4% del masculino. En los países de ingresos altos la diferencia es mayor: 41% del empleo femenino tiene alguna exposición, contra 28% del masculino. En el continente americano, con EE.UU. y Canadá incluidos, la exposición es 29%. La OIT no publica una cifra para la Argentina ni para América Latina por separado en este documento.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Los trabajos que más caerían, según las empresas <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>En la encuesta del Foro Económico Mundial, las empresas esperan las caídas más rápidas en empleados postales, cajeros de banco y operadores de carga de datos, y la mayor caída en cantidad de puestos en los trabajos administrativos y de secretaría, incluidos cajeros y boleteros. Ya contamos en <a href="../articulos/2026-07-20-ia-no-reemplaza-oficios.html">otra nota</a> por qué los oficios manuales están entre lo menos expuesto.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Por qué la Argentina no puede hacer todavía la cuenta <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>La Encuesta Permanente de Hogares del INDEC registra la ocupación de cada persona con el Clasificador Nacional de Ocupaciones, de cinco dígitos, así que se puede calcular cuánto empleo está en ocupaciones expuestas. Lo que no permite es seguir a las mismas personas por ocupación mes a mes, como hacen las nóminas de Stanford o los registros de Francia y Noruega. Y aunque se armara un registro así con el empleo formal, quedaría afuera el 45,0% de los ocupados argentinos que trabaja en la informalidad (INDEC, <a href="https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_2trim26433FCBC5A8.pdf">segundo trimestre de 2026</a>, cuadro 1.3).</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Gmyrek, Berg y otros (OIT y NASK) — <a href="https://www.ilo.org/sites/default/files/2025-05/WP140_web.pdf">Generative AI and Jobs: A Refined Global Index of Occupational Exposure</a>, documento de trabajo 140, mayo de 2025</li>
+        <li>&#8250; Cazzaniga, Jaumotte y otros (FMI) — <a href="https://www.imf.org/en/Publications/Staff-Discussion-Notes/Issues/2024/01/14/Gen-AI-Artificial-Intelligence-and-the-Future-of-Work-542379">Gen-AI: Artificial Intelligence and the Future of Work</a>, SDN/2024/001, enero de 2024 (<a href="https://www.imf.org/-/media/files/publications/sdn/2024/english/sdnea2024001.pdf">PDF</a>)</li>
+        <li>&#8250; Anders Humlum y Emilie Vestergaard — <a href="https://www.nber.org/papers/w33777">Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI</a> (antes "Large Language Models, Small Labor Market Effects"), NBER w33777, revisión de marzo de 2026; <a href="https://www.nber.org/system/files/working_papers/w33777/revisions/w33777.rev1.pdf">revisión de octubre de 2025</a></li>
+        <li>&#8250; Yale Budget Lab — <a href="https://budgetlab.yale.edu/research/tracking-impact-ai-labor-market">Tracking the Impact of AI on the Labor Market</a>, actualización del 15 de septiembre de 2026; <a href="https://budgetlab.yale.edu/research/evaluating-impact-ai-labor-market-current-state-affairs">Evaluating the Impact of AI on the Labor Market: Current State of Affairs</a></li>
+        <li>&#8250; Øystein Hernæs y Andreas R. Kostøl — <a href="https://econpapers.repec.org/paper/izaizadps/dp18767.htm">Has AI Widened Employment Gaps? Tracking Early-Career Employment by Occupational Exposure in Norway</a>, IZA DP 18767, junio de 2026</li>
+        <li>&#8250; Erik Brynjolfsson, Bharat Chandar y Ruyu Chen — <a href="https://digitaleconomy.stanford.edu/app/uploads/2026/08/Canaries_August2026.pdf">Canaries in the Coal Mine? Six Facts about the Recent Employment Effects of Artificial Intelligence</a>, Stanford Digital Economy Lab, agosto de 2026</li>
+        <li>&#8250; Tyler Atkinson y Shane Yamco (Reserva Federal de Dallas) — <a href="https://www.dallasfed.org/research/economics/2026/0106">Young workers' employment drops in occupations with high AI exposure</a>, 6 de enero de 2026</li>
+        <li>&#8250; Marco Guido Palladino, Antonin Bergeaud, Antoine Bertheau, Simon Bunel y Oscar Degos — <a href="https://www.banque-france.fr/system/files/2026-10/Billet_463_EN.pdf">Generative AI: the first changes in the labour market are affecting young people</a>, Banco de Francia, Eco Notepad 463, 8 de octubre de 2026</li>
+        <li>&#8250; Foro Económico Mundial — <a href="https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf">The Future of Jobs Report 2025</a>, enero de 2025</li>
+        <li>&#8250; Gerardo Breard, Victoria Castillo y Diego Schleser (Ministerio de Trabajo, Empleo y Seguridad Social) — <a href="https://www.argentina.gob.ar/sites/default/files/impacto_de_la_inteligencia_artificial_generativa_en_el_empleo_asalariado_registrado_del_sector_privado_0.pdf">Impacto de la inteligencia artificial generativa en el empleo asalariado registrado del sector privado</a>, diciembre de 2023</li>
+        <li>&#8250; Gmyrek, Winkler y Garganta (OIT y Banco Mundial) — <a href="https://www.ilo.org/sites/default/files/2024-07/WP121_web.pdf">Buffer or Bottleneck? Employment Exposure to Generative AI and the Digital Divide in Latin America</a>, documento de trabajo 121, julio de 2024</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/ftp/cuadros/menusuperior/eph/EPH_registro_4T2024.pdf">Encuesta Permanente de Hogares, diseño de registro de la base usuaria</a> (código de ocupación, CNO 2001)</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_2trim26433FCBC5A8.pdf">Mercado de trabajo. Tasas e indicadores socioeconómicos (EPH), segundo trimestre de 2026</a>, cuadro 1.3</li>
+        <li>&#8250; Con Interés — <b>cuenta propia</b> de los estudios con registros reales de empleo, tabla comparativa y gráficos.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Borrador generado por la redacción de agentes y pendiente de aprobación. Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 13/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>

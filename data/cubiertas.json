@@ -4011,6 +4011,14 @@
       "estado": "publicada",
       "articulo_id": "2026-10-13-gasto-social-prestaciones-diez-anos-beneficiarios",
       "archivo": "cola/2026-10-13-gasto-social-prestaciones-diez-anos-beneficiarios.html"
+    },
+    {
+      "tema": "¿la IA quita empleo? qué dicen los estudios con datos reales (pedido de lector 94) / medidos: Humlum-Vestergaard NBER w33777 rev. mar-2026 (Dinamarca, 25.000 trab., 11 ocupaciones, sueldos y horas hasta dic-2024: descarta efectos >2% a dos años; 2,8% tiempo ahorrado; 3-7% a sueldo); Yale Budget Lab 15/09/2026 (datos ago-2026: sin señal clara; mezcla ocupacional ~1 punto sobre la era internet); Hernaes-Kostol IZA DP 18767 (Noruega +0,1% vs +0,3%; jóvenes cero impreciso); Stanford ago-2026 (22-25 años -19% vs pares; sin caída general); Fed Dallas 06/01/2026 (20-24 años cae en lo expuesto; máx 0,1 pp de desempleo total); Banco de Francia 463 (contrataciones 21-29 -28% vs -8%). Exposición: OIT WP140 24% (838 M), 3,3% máxima, altos 34% / bajos 11%; FMI SDN 2024/001 ~40% / 60% / 40% / 26%; MTEySS dic-2023 54% del asalariado privado registrado (71% complemento / 22% sustitución de los expuestos); OIT-BM WP121 Argentina 44%. Pronóstico FEM 2025: 170 M creados, 92 M desplazados, +78 M (todas las tendencias).",
+      "angulo": "Corrida del pedido de lector 94 (enfoque aprobado por el lector, sin comentarios), 13/10/2026 10:05. Ancla: 6 estudios con registros reales de empleo, todos leídos en el original (vara 2 quinquies: atribuidos, método y límites, contraste entre ellos; sobre jóvenes la literatura está dividida y se muestra). Ajustes al enfoque: OIT 24% (no 25%); Argentina sin ningún estudio de empleos perdidos, solo exposición (MTEySS 54%, contraste OIT-BM 44%). No usados: perfil Argentina del FEM (churn 19%, lectura no confirmada) y Dallas 16,4% -> 15,5% (denominador ambiguo). Aviso al editor: la nota 2026-07-20 de oficios atribuye el estudio del MTEySS al Ministerio de Economía y presenta el 71% como del total; revisar. Ángulo nuevo frente a 2026-10-11 Stanford y 2026-07-20 oficios: la síntesis expuesto / medido / pronosticado, sumando Dinamarca, Yale y Dallas.",
+      "fecha": "2026-10-13",
+      "estado": "en_cola",
+      "articulo_id": "2026-10-13-ia-quita-empleo-que-dicen-los-estudios",
+      "archivo": "cola/2026-10-13-ia-quita-empleo-que-dicen-los-estudios.html"
     }
   ]
 }
