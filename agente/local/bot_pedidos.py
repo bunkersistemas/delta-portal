@@ -760,7 +760,7 @@ def main():
         est.setdefault(k, {})
     while True:
         try:
-            r = pl.tg("getUpdates", {"offset": est["offset"], "timeout": 50,
+            r = pl.tg("getUpdates", {"offset": est["offset"], "timeout": 25,
                                      "allowed_updates": ["message", "callback_query"]})
             for u in r.get("result", []):
                 est["offset"] = u["update_id"] + 1
