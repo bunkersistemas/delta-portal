@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-13T12:30",
+  "generado": "2026-10-13T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3579797",
+      "fuente": "CNV",
+      "fecha": "2026-10-13T13:34",
+      "entidad": "CAJA DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO RECTIFICATIVO DE DIVIDENDO PARA PUBLICAR EN CNV 8555",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/13DDBDF6-1F3F-4A01-B358-D84C7424E4E1"
+    },
     {
       "id": "cnv-3579297",
       "fuente": "CNV",
