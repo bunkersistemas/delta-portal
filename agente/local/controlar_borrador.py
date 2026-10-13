@@ -61,7 +61,8 @@ def main(i):
         fallar("falta cola/" + i + ".html")
     if 'name="robots" content="noindex"' not in open(f, encoding="utf-8").read():
         fallar("sin noindex")
-    p = titulares.problemas(b["titulo"], titulares.del_dia(titulares.publicadas(), b.get("fecha") or titulares.hoy_ar()))
+    # una nota pedida por un lector se titula con su pregunta: no entra en el tope de preguntas
+    p = [] if b.get("pedido") else titulares.problemas(b["titulo"], titulares.del_dia(titulares.publicadas(), b.get("fecha") or titulares.hoy_ar()))
     if p:
         fallar("titular en forma de pregunta: " + "; ".join(p), 3)
     rotas, lentas = [], []

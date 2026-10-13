@@ -55,7 +55,9 @@ def publicadas():
 
 def del_dia(arts, fecha):
     """Notas publicadas ese dia, de la mas vieja a la mas nueva."""
-    d = [a for a in arts if a.get("fecha") == fecha]
+    # las notas pedidas por un lector se titulan con su pregunta (editor, 13/10/2026):
+    # no cuentan para el tope de preguntas de las demas
+    d = [a for a in arts if a.get("fecha") == fecha and not a.get("pedido")]
     return sorted(d, key=lambda a: str(a.get("hora", "")))
 
 

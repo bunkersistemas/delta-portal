@@ -91,8 +91,11 @@ nota, el pedido vuelve a la fila; a los 2 intentos se descarta y el editor lo ve
   Debajo, una linea con QUE contesta la nota y que quedo afuera de lo pedido y
   por que. Si el lector aprobo un enfoque, la nota cumple ese enfoque o explica
   en esa linea por que los datos no dieron.
-- Titulo: arranca con el dato; la pregunta del lector como la buscaria la gente va
-  en `titulo_busqueda`. Correr `python scripts/titulares.py "<titulo>"`.
+- Titulo (editor, 13/10/2026): es LA PREGUNTA DEL LECTOR, bien formulada: en forma de
+  pregunta, una sola idea, en lenguaje llano, maximo 150 caracteres, apuntando al
+  FOCO de lo que pregunto (no a un dato lateral). El dato mas fuerte va en la bajada
+  y en la cifra ancla. Las notas pedidas no entran en el tope diario de titulares en
+  forma de pregunta. El sitio les pone la etiqueta "Pregunta de un lector".
 - Registrar en `data/cubiertas.json` como en_cola y correr
   `python scripts/build_portada.py`. Los tres chequeos del editor de cierre.
 

@@ -535,8 +535,8 @@ def al_boton(est, q):
         est["revision"][str(chat)] = {"pid": int(pid), "tipo": "feedback"}
         anotar("pedido %s: el lector va a sugerir cambios" % pid)
         decir(chat, "Dale, contame qu\u00e9 cambiar\u00edas: el t\u00edtulo, el enfoque, qu\u00e9 destacar, algo que no se entiende... "
-              "Con eso la rehacemos y te la muestro de nuevo. (Va una ronda de sugerencias por nota, as\u00ed que "
-              "decime todo junto \U0001f609)")
+              "Con eso la rehacemos y te la muestro de nuevo. (Hay hasta 3 rondas de sugerencias "
+              "por nota.)")
         return
     if accion in ("pub", "err") and pid.isdigit():
         sacar_botones(q)

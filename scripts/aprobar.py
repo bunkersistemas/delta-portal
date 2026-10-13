@@ -43,6 +43,11 @@ def main(draft_id):
         "")
     with open(dst, "w", encoding="utf-8") as f: f.write(html)
     os.remove(src)
+    # investigacion pedida por un lector: etiqueta destacada arriba del titulo (13/10/2026)
+    if draft.get("pedido"):
+        sys.path.insert(0, os.path.join(ROOT, "scripts"))
+        import marcar_pedido
+        marcar_pedido.marcar(dst)
 
     # 2) armar entrada de articulos.json
     entry = {

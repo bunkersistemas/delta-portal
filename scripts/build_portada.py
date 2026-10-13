@@ -72,6 +72,14 @@ def chip_verif(v):
     return f'<span class="verif">{escape(v)}</span>'
 
 # ---- lead + grid -------------------------------------------------------
+# Investigacion pedida por un lector (editor, 13/10/2026): etiqueta en la tarjeta.
+def tag_lector(a):
+    if not a.get("pedido"):
+        return ""
+    return ('<span style="display:inline-block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;'
+            'text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:3px 9px;'
+            'border-radius:999px;margin:0 0 8px">&#128587; Pregunta de un lector</span>')
+
 def card_lead(a):
     sc = SEC_COLOR.get(a["seccion"], "#0E7C86")
     num = a.get('numero','')
@@ -86,7 +94,7 @@ def card_lead(a):
       </div>
       <div class="lead-body">
         <div class="kick" style="color:{sc}">{escape(a['seccion'])} <span>/ {escape(a.get('formato',''))}</span></div>
-        <h2>{escape(a['titulo'])}</h2>
+        {tag_lector(a)}<h2>{escape(a['titulo'])}</h2>
         <p>{escape(a['bajada'])}</p>
         <div class="meta">{chip_verif(a.get('verificacion',''))}<span class="dot"></span>{escape(a.get('lectura',''))}<span class="dot"></span>{fecha_bonita(a['fecha'])}</div>
       </div>
@@ -145,7 +153,7 @@ def card(a, con_kick=False):
     return f"""
     <a class="card" data-sec="{escape(a['seccion'])}" href="{escape(a['archivo'])}" style="--sc:{g['color']}">
       {kick}
-      <h3>{escape(a['titulo'])}</h3>
+      {tag_lector(a)}<h3>{escape(a['titulo'])}</h3>
       <div class="card-num"><b>{escape(a.get('numero',''))}</b> {escape(a.get('numero_label',''))}</div>
       <div class="meta">{chip_verif(a.get('verificacion',''))}<span class="dot"></span>{fecha_bonita(a['fecha'])}</div>
     </a>"""
@@ -161,7 +169,7 @@ def card_lider(a):
     <a class="lider" href="{escape(a['archivo'])}" style="--sc:{g['color']}">
       <div class="l-body">
         <div class="kick" style="color:{g['color']}">{escape(g['label'])} <span>/ {escape(a.get('formato',''))}</span></div>
-        <h3>{escape(a['titulo'])}</h3>
+        {tag_lector(a)}<h3>{escape(a['titulo'])}</h3>
         <p>{escape(a['bajada'])}</p>
         <div class="meta">{chip_verif(a.get('verificacion',''))}<span class="dot"></span>{escape(a.get('lectura',''))}<span class="dot"></span>{fecha_bonita(a['fecha'])}</div>
       </div>

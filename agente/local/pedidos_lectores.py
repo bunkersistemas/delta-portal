@@ -44,6 +44,8 @@ RONDAS_MAX = 3        # despues de 3 enfoques rechazados se investiga con lo que
 # Editor, 12/10/2026 (periodo de prueba): toda investigacion pedida sale EL MISMO DIA.
 # None = sin cupo diario. Para volver a una por dia: CUPO_DIARIO = 1.
 CUPO_DIARIO = None
+# rondas de "Sugerir cambios" por nota (editor, 13/10/2026: una sola era poco)
+RONDAS_FEEDBACK = 3
 HORAS_REVISION = 12  # vista previa al lector: sin respuesta en 12 h se publica igual (sin veto)
 MAX_INTENTOS = 2      # editor 12/10/2026: toda solicitud termina en nota; si falla se reintenta, a los 2 se avisa
 ENFOQUE = os.path.join(ROOT, "_privado", "enfoque.json")
@@ -277,26 +279,29 @@ def botones_revision(pid, rondas):
     """Primera vista previa: Publicar / Sugerir cambios / Error de datos. Despues de rehacerla
     con el feedback (una vez por nota), solo Publicar / Error de datos."""
     b = [[{"text": "\U0001f44d Publicar", "callback_data": "pub:%d" % int(pid)}]]
-    if not rondas:
+    if rondas < RONDAS_FEEDBACK:
         b.append([{"text": "\U0001f4ac Sugerir cambios", "callback_data": "fb:%d" % int(pid)}])
     b.append([{"text": "\U0001f4dd Error de datos", "callback_data": "err:%d" % int(pid)}])
     return b
 
 
 def texto_revision(borrador, rondas, explicacion=""):
+    quedan = RONDAS_FEEDBACK - rondas
     if rondas:
         cab = ("\u270d\ufe0f La rehicimos con lo que nos sugeriste" + (": " + explicacion if explicacion else ".")
                + "\n\nMirala de nuevo:\n")
         pie = ("Si est\u00e1 bien, toc\u00e1 \u00abPublicar\u00bb. Si ves un dato mal, \u00abError de datos\u00bb. "
-               "Si no nos escrib\u00eds en %d horas, sale as\u00ed." % HORAS_REVISION)
+               + ("Si todav\u00eda no es lo que buscabas, \u00abSugerir cambios\u00bb (te %s %d). "
+                  % ("queda" if quedan == 1 else "quedan", quedan) if quedan > 0 else "")
+               + "Si no nos escrib\u00eds en %d horas, sale as\u00ed." % HORAS_REVISION)
     else:
         cab = "\U0001f4f0 Tu investigaci\u00f3n est\u00e1 lista. Antes de publicarla, mirala vos primero:\n"
         pie = ("\u2022 \u00abSugerir cambios\u00bb: el t\u00edtulo, el enfoque del relato, el orden, qu\u00e9 destacar, algo que "
-               "no se entiende. La rehacemos y te la mostramos otra vez (una vez por nota).\n"
+               "no se entiende. La rehacemos y te la mostramos otra vez (hasta %d veces).\n"
                "\u2022 \u00abError de datos\u00bb: un n\u00famero mal o algo que falta de lo que aprobaste; lo revisamos "
                "contra la fuente.\n\n"
                "Lo que no cambia es el resultado: es el que dan los datos. Si no nos escrib\u00eds en %d horas, "
-               "sale as\u00ed." % HORAS_REVISION)
+               "sale as\u00ed." % (RONDAS_FEEDBACK, HORAS_REVISION))
     return cab + "https://coninteres.com/cola/%s.html\n\n" % borrador + pie
 
 
@@ -353,7 +358,7 @@ def marcar_revision(pid, chat, accion, texto=""):
     f = pedir("GET", "?select=estado,telegram_chat,revision_rondas&id=eq.%d" % int(pid))
     if not f or f[0].get("telegram_chat") != chat or f[0]["estado"] != "en_revision":
         return False
-    if accion == "feedback" and f[0].get("revision_rondas"):
+    if accion == "feedback" and (f[0].get("revision_rondas") or 0) >= RONDAS_FEEDBACK:
         return False
     cuerpo = {"ok": {"estado": "revision_ok"},
               "error": {"estado": "revision_error", "revision_comentario": texto[:1500]},
@@ -445,7 +450,9 @@ if __name__ == "__main__":
     elif len(a) == 3 and a[0] == "a_revision":
         a_revision(a[1], a[2])
     elif len(a) == 4 and a[0] == "segunda_vista_previa":
-        a_revision(a[1], a[2], 1, a[3])
+        # una ronda mas de las que ya hubo
+        r = pedir("GET", "?select=revision_rondas&id=eq.%d" % int(a[1]))
+        a_revision(a[1], a[2], ((r[0].get("revision_rondas") or 0) if r else 0) + 1, a[3])
     elif len(a) == 2 and a[0] == "reenviar_vista_previa":
         reenviar_vista_previa(a[1])
     elif a == ["revisiones"]:
