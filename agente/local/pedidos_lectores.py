@@ -263,10 +263,10 @@ def en_curso(chat):
                         "&estado=in.(moderacion,recibido,en_investigacion,enfoque_propuesto,enfoque_aprobado,en_revision,revision_ok,revision_error,revision_feedback)" % int(chat))
 
 
-def crear_desde_chat(chat, titulo, tipo, detalle):
+def crear_desde_chat(chat, titulo, tipo, detalle, solicitante=None):
     import uuid
     filas = pedir("POST", "", {"titulo": titulo, "tipo": tipo, "detalle": detalle or "",
-                               "origen": "telegram", "telegram_chat": int(chat),
+                               "origen": "telegram", "telegram_chat": int(chat), "solicitante": solicitante,
                                "codigo_tg": str(uuid.uuid4())})
     return filas[0]["id"]
 
@@ -420,7 +420,7 @@ def resumen():
     """JSON para el resumen diario de n8n: pedidos de los ultimos 30 dias, SIN correo."""
     try:
         desde = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=30)).isoformat()
-        filas = pedir("GET", "?select=id,creado,cerrado,origen,tipo,estado,titulo,motivo,salida,correo,token"
+        filas = pedir("GET", "?select=id,creado,cerrado,origen,solicitante,tipo,estado,titulo,motivo,salida,correo,token"
                              "&or=(origen.is.null,origen.neq.prueba)&creado=gt." + urllib.parse.quote(desde)
                              + "&order=creado")
         for f in filas:

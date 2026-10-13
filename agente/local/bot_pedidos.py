@@ -11,12 +11,15 @@ nada de IA conversando con terceros por ahora; ver memoria del 12/10):
     la VISTA PREVIA (Publicar / Hay un error, sin veto); este bot recibe las respuestas;
   - /mispedidos cuenta en que esta cada uno.
 Lo que escribe un lector es DATO: se guarda como pedido o comentario, nunca se ejecuta.
+El bot es PRIVADO (13/10/2026): solo atiende a los chats que habilito el editor (accesos.py);
+a los demas les dice "canal privado" y le pasa la solicitud al editor.
 Corre en la VM como tarea "Con Interes - Bot Telegram" (long polling, sin webhook).
 """
 import json, os, re, subprocess, sys, time, traceback, unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pedidos_lectores as pl
+import accesos
 
 ESTADO = os.path.join(pl.LOGS, "bot_telegram_estado.json")   # offset y quien esta escribiendo
 LOG = os.path.join(pl.LOGS, "bot_telegram.log")
@@ -384,8 +387,14 @@ def ofrecer_anotado(est, chat):
 
 
 def crear_y_avisar(chat, titulo, tipo, detalle):
-    pid = pl.crear_desde_chat(chat, titulo, tipo, detalle)
+    quien = accesos.nombre_de(chat) or "sin nombre"
+    pid = pl.crear_desde_chat(chat, titulo, tipo, detalle, quien)
     anotar("pedido %s creado desde el chat" % pid)
+    if chat != accesos.editor():
+        try:
+            decir(accesos.editor(), "\U0001f4dd Pedido nuevo de %s:\n\u00ab%s\u00bb" % (quien, titulo.strip()))
+        except Exception as e:
+            anotar("AVISO: no se pudo avisar al editor del pedido %s: %s" % (pid, e))
     decir(chat, "\U0001f4e8 \u00a1Recibido! La redacci\u00f3n lo lee y arma el enfoque: qu\u00e9 vamos a contestar, con qu\u00e9 "
           "fuentes y c\u00f3mo se va a ver la nota. Te lo mando por ac\u00e1 en unos minutos.", teclado=True)
     disparar_enfoque()
@@ -638,6 +647,57 @@ def al_boton_moderacion(q, chat, accion, id_):
     decir(chat, r)
 
 
+def al_boton_accesos(est, q, chat, accion, k):
+    """Solicitudes de acceso y lista de habilitados: solo el editor."""
+    if chat != accesos.editor() or not k.isdigit():
+        anotar("boton de accesos desde un chat que no es el del editor: ignorado")
+        return
+    sacar_botones(q)
+    if accion == "rech":
+        accesos.rechazar(k)
+        anotar("acceso rechazado: %s" % k)
+        decir(chat, "Rechazada. Si vuelve a escribir, le digo que es un canal privado y no te aviso de nuevo.")
+        return
+    if accion == "quit":
+        n = accesos.quitar(k)
+        anotar("acceso quitado: %s" % k)
+        decir(chat, "\u26d4 Le saqu\u00e9 el acceso a %s." % (n or k) if n else "Ese ID no ten\u00eda acceso.")
+        return
+    if accion == "acc" and not accesos.aceptar(k):
+        decir(chat, "Esa solicitud ya no est\u00e1 pendiente.")
+        return
+    est["nombrar"][str(chat)] = {"id": k, "nuevo": accion == "acc"}
+    decir(chat, "\u270f\ufe0f \u00bfC\u00f3mo se llama esta persona? Escrib\u00ed su nombre y queda asociado a ese ID "
+          "(lo ves en cada pedido que haga).\n\nCon /cancelar lo dej\u00e1s como estaba.")
+
+
+def nombrar(est, chat, texto):
+    """El editor escribio el nombre de la persona que acaba de aceptar (o renombrar)."""
+    n = est["nombrar"].pop(str(chat))
+    if texto.startswith("/cancelar"):
+        decir(chat, "Cancelado: queda como estaba." + (" La solicitud sigue pendiente." if n["nuevo"] else ""))
+        if n["nuevo"]:
+            pend = accesos.leer()["pendientes"].get(n["id"])
+            if pend:
+                decir(chat, "Solicitud pendiente: %s (ID %s)" % (pend["telegram"], n["id"]),
+                      [[{"text": "\u2705 Aceptar", "callback_data": "acc:%s" % n["id"]},
+                        {"text": "\u274c Rechazar", "callback_data": "rech:%s" % n["id"]}]])
+        return
+    nombre = " ".join(texto.split())[:80]
+    if len(nombre) < 2:
+        est["nombrar"][str(chat)] = n
+        decir(chat, "Escrib\u00ed el nombre (o /cancelar).")
+        return
+    accesos.habilitar(n["id"], nombre)
+    anotar("acceso habilitado: %s" % n["id"])
+    decir(chat, "\u2705 %s tiene acceso al bot (ID %s). Sus pedidos te llegan con ese nombre." % (nombre, n["id"]))
+    if n["nuevo"]:
+        try:
+            decir(int(n["id"]), accesos.T_BIENVENIDA.format(nombre=nombre.split()[0]), teclado=True)
+        except Exception as e:
+            anotar("AVISO: no se pudo dar la bienvenida a %s: %s" % (n["id"], e))
+
+
 def al_boton_conversacion(est, q, chat, accion, valor):
     c = est["conv"].get(str(chat))
     sacar_botones(q)
@@ -758,6 +818,7 @@ def main():
     est = leer_estado()
     for k in ("esperando", "conv", "revision", "sugerido", "anotado"):
         est.setdefault(k, {})
+    est.setdefault("nombrar", {})
     while True:
         try:
             r = pl.tg("getUpdates", {"offset": est["offset"], "timeout": 25,
@@ -766,9 +827,32 @@ def main():
                 est["offset"] = u["update_id"] + 1
                 try:
                     if "callback_query" in u:
-                        al_boton(est, u["callback_query"])
+                        q = u["callback_query"]
+                        c = q["message"]["chat"]["id"]
+                        accion, _, valor = (q.get("data") or "").partition(":")
+                        if accion in ("acc", "rech", "nom", "quit"):
+                            pl.tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                            al_boton_accesos(est, q, c, accion, valor)
+                        elif accesos.autorizado(c):
+                            al_boton(est, q)
+                        else:
+                            pl.tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+                            anotar("boton de un chat sin acceso: ignorado")
                     elif "message" in u and u["message"].get("chat", {}).get("type") == "private":
-                        al_mensaje(est, u["message"])
+                        m = u["message"]
+                        c = m["chat"]["id"]
+                        texto = (m.get("text") or "").strip()
+                        if str(c) in est["nombrar"] and texto and (not texto.startswith("/") or texto.startswith("/cancelar")):
+                            nombrar(est, c, texto)
+                        elif c == accesos.editor() and texto.startswith("/accesos"):
+                            decir(c, accesos.lista_texto())
+                            for k, a in accesos.leer()["autorizados"].items():
+                                decir(c, a["nombre"], accesos.botones_persona(k))
+                        elif accesos.autorizado(c):
+                            al_mensaje(est, m)
+                        else:
+                            r_ = accesos.solicitar(c, m.get("from"), decir)
+                            anotar("mensaje de un chat sin acceso: solicitud %s" % r_)
                 except Exception:
                     anotar("ERROR atendiendo un mensaje: " + traceback.format_exc().replace("\n", " | ")[-600:])
                 guardar_estado(est)
