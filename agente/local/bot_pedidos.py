@@ -17,16 +17,18 @@ import json, os, re, subprocess, sys, time, traceback
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pedidos_lectores as pl
+import vigilante
 
 ESTADO = os.path.join(pl.LOGS, "bot_telegram_estado.json")   # offset y quien esta escribiendo
 LOG = os.path.join(pl.LOGS, "bot_telegram.log")
 FORM = "https://coninteres.com/investigacion.html?de=telegram"
 UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
 
-T_HOLA = ("Hola. Soy el bot de Con Inter\u00e9s. Ac\u00e1 ped\u00eds una investigaci\u00f3n y la "
-          "segu\u00eds de punta a punta: te mostramos el enfoque antes de investigar, lo aprob\u00e1s "
-          "con un bot\u00f3n y te avisamos cuando sale la nota.\n\n"
-          "Toc\u00e1 \u00ab\u2795 Pedir una investigaci\u00f3n\u00bb para empezar.")
+T_HOLA = ("\U0001f44b \u00a1Hola! Soy El Vigilante, de Con Inter\u00e9s. Miro los n\u00fameros detr\u00e1s de las "
+          "noticias y te los cuento sin vueltas, sin pol\u00edtica y sin inventar nada.\n\n"
+          "Preguntame lo que te genere curiosidad de la econom\u00eda: si ya lo investigamos, te lo cuento; "
+          "si no, lo investigamos juntos y te aviso cuando est\u00e9.\n\n"
+          "\u00bfPor d\u00f3nde arrancamos?")
 T_VINCULADO = ("Listo, tu pedido qued\u00f3 vinculado:\n\u00ab{titulo}\u00bb\n\n"
                "Ahora lo leemos y armamos el enfoque: qu\u00e9 vamos a contestar y con qu\u00e9 fuentes. "
                "Te lo mandamos por ac\u00e1, suele tardar unas horas.")
@@ -68,6 +70,12 @@ def guardar_estado(e):
 B_MIS = "\U0001f4cb Mis pedidos"
 B_PEDIR = "\u2795 Pedir una investigaci\u00f3n"
 TECLADO = {"keyboard": [[{"text": B_MIS}, {"text": B_PEDIR}]], "resize_keyboard": True, "is_persistent": True}
+PERFIL = {"name": "El Vigilante",
+          "short_description": "El Vigilante, de Con Inter\u00e9s: los n\u00fameros detr\u00e1s de las noticias. "
+                               "Investigo lo que quer\u00e9s saber, con datos y sin pol\u00edtica.",
+          "description": "Soy El Vigilante, de Con Inter\u00e9s (coninteres.com). Miro los n\u00fameros detr\u00e1s de "
+                         "las noticias: te cuento lo que ya investigamos y, si no lo tenemos, lo investigamos "
+                         "para vos. Imparcial, con datos verificados y sin pol\u00edtica."}
 COMANDOS = [{"command": "mispedidos", "description": "En qu\u00e9 est\u00e1 cada investigaci\u00f3n que pediste"},
             {"command": "pedir", "description": "Pedir una investigaci\u00f3n nueva"},
             {"command": "start", "description": "Empezar"}]
@@ -307,6 +315,35 @@ def al_boton_conversacion(est, q, chat, accion, valor):
     decir(chat, "Ese bot\u00f3n ya no corresponde. Segu\u00ed desde el \u00faltimo mensaje.")
 
 
+def conversar(chat, texto):
+    """El Vigilante contesta el texto libre. Si la API falla, el bot sigue: avisa y
+    deja los botones."""
+    try:
+        pl.tg("sendChatAction", {"chat_id": chat, "action": "typing"})
+    except Exception:
+        pass
+    acciones = []
+    try:
+        respuesta = vigilante.responder(chat, texto, acciones=acciones)
+    except Exception as e:
+        anotar("ERROR El Vigilante: %s: %s" % (type(e).__name__, str(e)[:200]))
+        decir(chat, "Uh, se me trab\u00f3 algo de mi lado \U0001f605 Prob\u00e1 en un rato. Mientras tanto, "
+              "los botones de abajo funcionan.", teclado=True)
+        return
+    for nombre, _, res in acciones:
+        anotar("El Vigilante uso %s -> %s" % (nombre, "ok" if not (isinstance(res, dict) and res.get("error")) else "error"))
+        if nombre == "crear_pedido" and isinstance(res, dict) and res.get("ok"):
+            disparar_enfoque()
+        elif nombre == "responder_enfoque" and isinstance(res, dict):
+            if res.get("resultado") == "aprobado":
+                disparar_redaccion()
+            elif res.get("resultado") == "reenfoque":
+                disparar_enfoque()
+        elif nombre == "responder_vista_previa" and isinstance(res, dict) and res.get("ok"):
+            disparar_redaccion()
+    decir(chat, respuesta or "\U0001f914", teclado=True)
+
+
 def al_mensaje(est, m):
     chat = m["chat"]["id"]
     texto = (m.get("text") or "").strip()
@@ -330,7 +367,11 @@ def al_mensaje(est, m):
         return
     if tipo_msg == "pedir":
         est["esperando"].pop(str(chat), None)
-        pedir_nueva(est, chat)
+        abiertos = pl.en_curso(chat)
+        if abiertos:
+            pedir_nueva(est, chat)   # avisa cual tiene en curso, sin gastar
+        else:
+            conversar(chat, "Quiero pedir una investigaci\u00f3n.")
         return
     if tipo_msg == "armando pedido" and seguir_conversacion(est, chat, texto):
         return
@@ -362,13 +403,16 @@ def al_mensaje(est, m):
         if r == "reenfoque":
             disparar_enfoque()
         return
-    decir(chat, T_OTRO, teclado=True)
+    conversar(chat, texto)
 
 
 def main():
     anotar("bot iniciado")
     try:
         pl.tg("setMyCommands", {"commands": COMANDOS})
+        pl.tg("setMyName", {"name": PERFIL["name"]})
+        pl.tg("setMyShortDescription", {"short_description": PERFIL["short_description"]})
+        pl.tg("setMyDescription", {"description": PERFIL["description"]})
     except Exception:
         anotar("AVISO: no se pudo registrar el menu de comandos")
     est = leer_estado()
