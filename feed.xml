@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 04:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 06:45:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Pacífico está 2,16 °C más caliente que lo normal, un récord para julio-septiembre: en los cuatro Niños fuertes desde 1980 el trigo rindió más que el año anterior y la soja, solo dos veces</title>
+      <link>https://coninteres.com/articulos/2026-10-13-el-nino-cosecha-trigo-soja-maiz.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-el-nino-cosecha-trigo-soja-maiz.html</guid>
+      <pubDate>Tue, 13 Oct 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El índice de NOAA que mide El Niño marcó +2,16 °C en julio-septiembre de 2026, el valor más alto para esa época del año desde 1950. En los cuatro Niños fuertes desde 1980, el trigo rindió por hectárea más que en la campaña anterior las cuatro veces; la soja, solo dos, y sus dos grandes saltos llegaron justo después de un año seco, según las estimaciones de la Secretaría de Agricultura.</description>
+      <ci:numero>+2,16 °C</ci:numero>
+      <ci:numeroEtiqueta>anomalía de temperatura del Pacífico ecuatorial en julio-septiembre de 2026 (índice ONI de NOAA): la más alta para ese trimestre desde 1950</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-el-nino-cosecha-trigo-soja-maiz.png" length="79341" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-el-nino-cosecha-trigo-soja-maiz.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La cuenta corriente perdió US$7.788 millones en 2025: hubo superávit fiscal, pero los superávits gemelos solo aparecieron en 2024</title>
       <link>https://coninteres.com/articulos/2026-10-13-superavits-gemelos-cuenta-corriente-2025.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>transferencias del Tesoro a Fabricaciones Militares en 2025 (Presupuesto Abierto y Oficina Nacional de Presupuesto)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-cuanto-le-cuesta-fabricaciones-militares-al-estado.png" length="74596" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-cuanto-le-cuesta-fabricaciones-militares-al-estado.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El microcrédito bonaerense de hasta $10 millones cobra 22,5% anual con la bonificación de la Provincia: la mitad de la tasa normal</title>
-      <link>https://coninteres.com/articulos/2026-10-09-microcredito-provincia-10-millones-tasa-bonificada.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-09-microcredito-provincia-10-millones-tasa-bonificada.html</guid>
-      <pubDate>Fri, 09 Oct 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Es la línea Microcréditos con Bonificación de Tasas, para microempresas de la provincia de Buenos Aires. El Ministerio de Producción paga la mitad de la tasa: la de inversión baja de 45% a 22,5% anual, y la de capital de trabajo, de 50% a 25%. Un crédito de $10 millones a cuatro años queda en una cuota de unos $318.000 por mes, contra unos $452.000 sin la bonificación.</description>
-      <ci:numero>22,5%</ci:numero>
-      <ci:numeroEtiqueta>tasa nominal anual del microcrédito de inversión de Provincia Microcréditos con la bonificación de 50% del Ministerio de Producción bonaerense (sin bonificar: 45%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-microcredito-provincia-10-millones-tasa-bonificada.png" length="70559" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-microcredito-provincia-10-millones-tasa-bonificada.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
