@@ -37,7 +37,7 @@ ACTUAL_ENFOQUE = os.path.join(ROOT, "_privado", "enfoque_pedido.json")
 FRENA_ENFOQUE = os.path.join(ROOT, "_privado", "enfoque_frena.txt")
 # lo que el lector senalo en la vista previa, para la corrida de correccion
 REVISION = os.path.join(ROOT, "_privado", "revision.json")
-EN_REVISION = ("en_revision", "revision_ok", "revision_error")
+EN_REVISION = ("en_revision", "revision_ok", "revision_error", "revision_feedback")
 HORAS_COLGADO = 6     # en_investigacion sin borrador en la cola por mas de esto: la corrida se corto
 HORAS_RESPUESTA = 24  # enfoque propuesto sin respuesta del lector: se avanza con lo propuesto
 RONDAS_MAX = 3        # despues de 3 enfoques rechazados se investiga con lo que dijo el lector
@@ -257,7 +257,7 @@ def devolver_enfoque(pid, motivo):
 def en_curso(chat):
     """Pedidos abiertos de un chat: editor 12/10/2026, una investigacion en curso por persona."""
     return pedir("GET", "?select=id,titulo,estado&telegram_chat=eq.%d"
-                        "&estado=in.(recibido,en_investigacion,enfoque_propuesto,enfoque_aprobado,en_revision,revision_ok,revision_error)" % int(chat))
+                        "&estado=in.(recibido,en_investigacion,enfoque_propuesto,enfoque_aprobado,en_revision,revision_ok,revision_error,revision_feedback)" % int(chat))
 
 
 def crear_desde_chat(chat, titulo, tipo, detalle):
@@ -273,39 +273,62 @@ def tiene_telegram(pid):
     print("SI" if f and f[0].get("telegram_chat") else "NO")
 
 
-def a_revision(pid, borrador):
-    """Editor, 12/10/2026: el lector ve la nota antes de publicarla, SIN VETO. Le llega
-    el borrador con Publicar / Hay un error; sin respuesta en HORAS_REVISION se publica."""
+def botones_revision(pid, rondas):
+    """Primera vista previa: Publicar / Sugerir cambios / Error de datos. Despues de rehacerla
+    con el feedback (una vez por nota), solo Publicar / Error de datos."""
+    b = [[{"text": "\U0001f44d Publicar", "callback_data": "pub:%d" % int(pid)}]]
+    if not rondas:
+        b.append([{"text": "\U0001f4ac Sugerir cambios", "callback_data": "fb:%d" % int(pid)}])
+    b.append([{"text": "\U0001f4dd Error de datos", "callback_data": "err:%d" % int(pid)}])
+    return b
+
+
+def texto_revision(borrador, rondas, explicacion=""):
+    if rondas:
+        cab = ("\u270d\ufe0f La rehicimos con lo que nos sugeriste" + (": " + explicacion if explicacion else ".")
+               + "\n\nMirala de nuevo:\n")
+        pie = ("Si est\u00e1 bien, toc\u00e1 \u00abPublicar\u00bb. Si ves un dato mal, \u00abError de datos\u00bb. "
+               "Si no nos escrib\u00eds en %d horas, sale as\u00ed." % HORAS_REVISION)
+    else:
+        cab = "\U0001f4f0 Tu investigaci\u00f3n est\u00e1 lista. Antes de publicarla, mirala vos primero:\n"
+        pie = ("\u2022 \u00abSugerir cambios\u00bb: el t\u00edtulo, el enfoque del relato, el orden, qu\u00e9 destacar, algo que "
+               "no se entiende. La rehacemos y te la mostramos otra vez (una vez por nota).\n"
+               "\u2022 \u00abError de datos\u00bb: un n\u00famero mal o algo que falta de lo que aprobaste; lo revisamos "
+               "contra la fuente.\n\n"
+               "Lo que no cambia es el resultado: es el que dan los datos. Si no nos escrib\u00eds en %d horas, "
+               "sale as\u00ed." % HORAS_REVISION)
+    return cab + "https://coninteres.com/cola/%s.html\n\n" % borrador + pie
+
+
+def a_revision(pid, borrador, rondas=0, explicacion=""):
+    """Editor, 12-13/10/2026: el lector ve la nota antes de publicarla, SIN VETO."""
     hasta = dt.datetime.now(dt.timezone.utc) + dt.timedelta(hours=HORAS_REVISION)
     filas = pedir("PATCH", "?id=eq.%d" % int(pid), {"estado": "en_revision", "borrador": borrador,
-                                                      "revision_hasta": hasta.isoformat()})
+                                                      "revision_hasta": hasta.isoformat(),
+                                                      "revision_rondas": int(rondas)})
     if len(filas) != 1 or filas[0]["estado"] != "en_revision":
         raise SystemExit("ERROR: el pedido %s no quedo en revision" % pid)
-    print("OK|pedido %s -> en_revision (%s)" % (pid, borrador))
-    avisar(pid, "\U0001f4f0 Tu investigaci\u00f3n est\u00e1 lista. Antes de publicarla, mirala vos primero:\n"
-           "https://coninteres.com/cola/%s.html\n\n"
-           "Si ves un dato mal o algo que qued\u00f3 afuera de lo que aprobaste, toc\u00e1 \u00abHay un error\u00bb "
-           "y contanos (si ten\u00e9s la fuente, mejor). Lo revisamos contra la fuente antes de publicar.\n\n"
-           "Si no nos escrib\u00eds en %d horas, la publicamos as\u00ed. El resultado es el que dan los datos: "
-           "lo que se corrige son los errores." % (borrador, HORAS_REVISION),
-           [[{"text": "\U0001f44d Publicar", "callback_data": "pub:%d" % int(pid)}],
-            [{"text": "\U0001f4dd Hay un error", "callback_data": "err:%d" % int(pid)}]])
+    print("OK|pedido %s -> en_revision (%s, ronda %d)" % (pid, borrador, int(rondas)))
+    avisar(pid, texto_revision(borrador, int(rondas), explicacion), botones_revision(pid, int(rondas)))
 
 
 def revisiones():
-    """Que hacer con las vistas previas: PUBLICAR|pid|borrador o CORREGIR|pid|borrador.
-    Una por llamada (la redaccion publica una por corrida)."""
+    """Que hacer con las vistas previas: CORREGIR (error de datos), REHACER (feedback) o
+    PUBLICAR, |pid|borrador. Una por llamada (la redaccion hace una por corrida)."""
     ahora = dt.datetime.now(dt.timezone.utc).isoformat()
-    f = pedir("GET", "?select=id,estado,borrador,revision_hasta,revision_comentario,titulo"
+    f = pedir("GET", "?select=id,estado,borrador,revision_hasta,revision_comentario,titulo,detalle,enfoque"
                      "&estado=in.(%s)&order=revision_hasta" % ",".join(EN_REVISION))
     for p in f:
-        if p["estado"] == "revision_error":
+        if p["estado"] in ("revision_error", "revision_feedback"):
             os.makedirs(os.path.dirname(REVISION), exist_ok=True)
             with open(REVISION, "w", encoding="utf-8") as h:
-                json.dump({"pedido": p["id"], "borrador": p["borrador"], "titulo": p["titulo"],
-                           "lo_que_senalo_el_lector": p.get("revision_comentario") or ""},
+                json.dump({"pedido": p["id"], "borrador": p["borrador"], "pregunta_del_lector": p["titulo"],
+                           "detalle_del_pedido": p.get("detalle") or "",
+                           "enfoque_aprobado": json.loads(p["enfoque"]) if p.get("enfoque") else None,
+                           "tipo": "error_de_datos" if p["estado"] == "revision_error" else "sugerencia",
+                           "lo_que_dijo_el_lector": p.get("revision_comentario") or ""},
                           h, ensure_ascii=False, indent=2)
-            print("CORREGIR|%d|%s" % (p["id"], p["borrador"]))
+            print("%s|%d|%s" % ("CORREGIR" if p["estado"] == "revision_error" else "REHACER", p["id"], p["borrador"]))
             return
     for p in f:
         if p["estado"] == "revision_ok" or (p["estado"] == "en_revision" and (p.get("revision_hasta") or "") < ahora):
@@ -320,14 +343,32 @@ def borradores_en_revision():
             print(p["borrador"])
 
 
-def marcar_revision(pid, chat, ok, texto=""):
-    """Lo usa el bot: el lector toco Publicar o mando lo que vio mal."""
-    f = pedir("GET", "?select=estado,telegram_chat&id=eq.%d" % int(pid))
+def marcar_revision(pid, chat, accion, texto=""):
+    """Lo usa el bot. accion: True/"ok" (publicar), False/"error" (error de datos) o
+    "feedback" (sugerir cambios, una sola vez por nota)."""
+    if accion is True:
+        accion = "ok"
+    elif accion is False:
+        accion = "error"
+    f = pedir("GET", "?select=estado,telegram_chat,revision_rondas&id=eq.%d" % int(pid))
     if not f or f[0].get("telegram_chat") != chat or f[0]["estado"] != "en_revision":
         return False
-    cuerpo = {"estado": "revision_ok"} if ok else {"estado": "revision_error", "revision_comentario": texto[:1500]}
+    if accion == "feedback" and f[0].get("revision_rondas"):
+        return False
+    cuerpo = {"ok": {"estado": "revision_ok"},
+              "error": {"estado": "revision_error", "revision_comentario": texto[:1500]},
+              "feedback": {"estado": "revision_feedback", "revision_comentario": texto[:1500]}}[accion]
     filas = pedir("PATCH", "?id=eq.%d&estado=eq.en_revision" % int(pid), cuerpo)
     return len(filas) == 1
+
+
+def reenviar_vista_previa(pid):
+    """Vuelve a mandar la vista previa vigente (por ejemplo, con botones nuevos)."""
+    f = pedir("GET", "?select=estado,borrador,revision_rondas&id=eq.%d" % int(pid))
+    if not f or f[0]["estado"] != "en_revision":
+        raise SystemExit("ERROR: el pedido %s no esta en vista previa" % pid)
+    avisar(pid, texto_revision(f[0]["borrador"], f[0].get("revision_rondas") or 0),
+           botones_revision(pid, f[0].get("revision_rondas") or 0))
 
 
 def guardar_enfoque(pid):
@@ -403,6 +444,10 @@ if __name__ == "__main__":
         tiene_telegram(a[1])
     elif len(a) == 3 and a[0] == "a_revision":
         a_revision(a[1], a[2])
+    elif len(a) == 4 and a[0] == "segunda_vista_previa":
+        a_revision(a[1], a[2], 1, a[3])
+    elif len(a) == 2 and a[0] == "reenviar_vista_previa":
+        reenviar_vista_previa(a[1])
     elif a == ["revisiones"]:
         revisiones()
     elif len(a) == 3 and a[0] == "avisar":

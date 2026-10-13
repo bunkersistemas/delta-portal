@@ -55,6 +55,7 @@ ESTADOS = {
     "enfoque_aprobado": "\u23f3 Enfoque aprobado: en la fila para investigar",
     "en_revision": "\U0001f4f0 Lista: te mand\u00e9 la vista previa para que la mires antes de publicar",
     "revision_ok": "\U0001f4e4 La aprobaste: sale en la pr\u00f3xima vuelta de la redacci\u00f3n",
+    "revision_feedback": "\u270d\ufe0f Rehaciendo la nota con tus sugerencias: te la muestro de nuevo",
     "revision_error": "\U0001f50d Revisando contra la fuente lo que marcaste; despu\u00e9s sale",
     "publicado": "\u2705 Publicada",
     "descartado": "\u26d4 Cerrado sin nota",
@@ -529,6 +530,14 @@ def al_boton(est, q):
     if accion in ("tipo", "detalle", "enviar", "cancelar"):
         al_boton_conversacion(est, q, chat, accion, pid)
         return
+    if accion == "fb" and pid.isdigit():
+        sacar_botones(q)
+        est["revision"][str(chat)] = {"pid": int(pid), "tipo": "feedback"}
+        anotar("pedido %s: el lector va a sugerir cambios" % pid)
+        decir(chat, "Dale, contame qu\u00e9 cambiar\u00edas: el t\u00edtulo, el enfoque, qu\u00e9 destacar, algo que no se entiende... "
+              "Con eso la rehacemos y te la muestro de nuevo. (Va una ronda de sugerencias por nota, as\u00ed que "
+              "decime todo junto \U0001f609)")
+        return
     if accion in ("pub", "err") and pid.isdigit():
         sacar_botones(q)
         if accion == "pub":
@@ -539,7 +548,7 @@ def al_boton(est, q):
             else:
                 decir(chat, "Esa vista previa ya no est\u00e1 esperando respuesta.", teclado=True)
         else:
-            est["revision"][str(chat)] = int(pid)
+            est["revision"][str(chat)] = {"pid": int(pid), "tipo": "error"}
             anotar("pedido %s: el lector va a contar un error de la vista previa" % pid)
             decir(chat, "Contame qu\u00e9 viste mal o qu\u00e9 falt\u00f3. Si ten\u00e9s la fuente (un link, una resoluci\u00f3n, "
                   "un documento), pegala: as\u00ed lo verificamos m\u00e1s r\u00e1pido.")
@@ -634,8 +643,20 @@ def al_mensaje(est, m):
     if tipo_msg == "armando pedido" and seguir_conversacion(est, chat, texto):
         return
     if tipo_msg == "error de vista previa":
-        pid = est["revision"].pop(str(chat))
-        if pl.marcar_revision(pid, chat, False, texto):
+        r = est["revision"].pop(str(chat))
+        if not isinstance(r, dict):          # estado viejo (antes del 13/10): era un error de datos
+            r = {"pid": int(r), "tipo": "error"}
+        pid = r["pid"]
+        if r["tipo"] == "feedback":
+            if pl.marcar_revision(pid, chat, "feedback", texto):
+                anotar("pedido %s: el lector sugirio cambios en la vista previa" % pid)
+                decir(chat, "Anotado \u270d\ufe0f La rehacemos con eso y te la muestro de nuevo antes de publicar. "
+                      "Lo que no cambia son los datos: cambia c\u00f3mo se cuenta.", teclado=True)
+                disparar_redaccion()
+            else:
+                decir(chat, "Esa vista previa ya no est\u00e1 esperando sugerencias.", teclado=True)
+            return
+        if pl.marcar_revision(pid, chat, "error", texto):
             anotar("pedido %s: el lector senalo un error en la vista previa" % pid)
             decir(chat, "Gracias \U0001f64f Lo revisamos contra la fuente: si ten\u00e9s raz\u00f3n, se corrige antes de publicar. "
                   "Te cuento qu\u00e9 encontramos.", teclado=True)
