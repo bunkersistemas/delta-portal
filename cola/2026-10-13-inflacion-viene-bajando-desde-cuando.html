@@ -129,6 +129,9 @@
   table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
   table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
   table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+  table.tb td.t{font-family:var(--mono);text-align:right}
+  .tb-scroll{overflow-x:auto;-webkit-overflow-scrolling:touch;margin:6px 0 10px}
+  .tb-scroll table.tb{margin:0}
 
   /* footer */
   footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
@@ -147,6 +150,17 @@
     h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
     .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
     .wrap{padding:0 16px}
+    /* tablas en el celular: la comparativa se apila en tarjetas, la mensual se achica */
+    table.tb-stack,table.tb-stack tbody,table.tb-stack tr,table.tb-stack td{display:block;width:100%}
+    table.tb-stack tr:first-child{display:none}
+    table.tb-stack tr{border:1px solid var(--grid);border-radius:10px;padding:10px 14px;margin:0 0 10px}
+    table.tb-stack td{border:0;padding:4px 0;text-align:left!important;white-space:normal}
+    table.tb-stack td::before{content:attr(data-label);display:block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:1px}
+    table.tb-stack td:first-child{font-weight:600;color:var(--ink);font-size:15px}
+    table.tb-stack td:first-child::before{display:none}
+    table.tb-mes{font-size:13px}
+    table.tb-mes th{font-size:9.5px;letter-spacing:.04em;padding:6px 4px;vertical-align:bottom}
+    table.tb-mes td{padding:6px 4px}
   }
   /* graficos estaticos de esta nota */
   .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
@@ -221,12 +235,12 @@
 
     <h3 class="sub">Lo que dice el Gobierno y lo que mide el INDEC</h3>
     <p>En el mensaje del proyecto de Presupuesto 2027, que envió al Congreso en septiembre, el Ministerio de Economía escribió que "como resultado del equilibrio fiscal y la eliminación de la emisión monetaria para financiar el déficit, se logró frenar la dinámica de aceleración inflacionaria" (página 6), que "a partir de abril, la inflación mensual comenzó nuevamente a reducirse" (página 26) y que proyecta terminar 2026 con "inflación descendente" (página 6). Así se ven esas frases al lado de cada medida:</p>
-    <table class="tb">
+    <table class="tb tb-stack">
       <tr><th>Medida</th><th style="text-align:right">Septiembre de 2026</th><th style="text-align:right">Con qué se compara</th><th>¿Baja?</th></tr>
-      <tr><td>Inflación del mes</td><td class="n">1,9%</td><td class="n">3,4% en marzo de 2026; 2,1% en septiembre de 2025</td><td>Sí, desde marzo, con un rebote en julio (2,1%)</td></tr>
-      <tr><td>Inflación de los últimos 12 meses</td><td class="n">33,4%</td><td class="n">31,3% en octubre de 2025; 31,5% en diciembre de 2025</td><td>No: está más alta que hace un año. Bajó 0,4 puntos desde el 33,8% de julio</td></tr>
-      <tr><td>Acumulada en el año (enero a septiembre)</td><td class="n">23,6%</td><td class="n">22,0% de enero a septiembre de 2025</td><td>No: 2026 va por encima de 2025</td></tr>
-      <tr><td>Núcleo, últimos 12 meses</td><td class="n">31,6%</td><td class="n">34,3% en septiembre de 2025</td><td>Sí, despacio: la más baja desde agosto de 2018</td></tr>
+      <tr><td>Inflación del mes</td><td class="n" data-label="Septiembre de 2026">1,9%</td><td class="t" data-label="Con qué se compara">3,4% en marzo de 2026; 2,1% en septiembre de 2025</td><td data-label="¿Baja?">Sí, desde marzo, con un rebote en julio (2,1%)</td></tr>
+      <tr><td>Inflación de los últimos 12 meses</td><td class="n" data-label="Septiembre de 2026">33,4%</td><td class="t" data-label="Con qué se compara">31,3% en octubre de 2025; 31,5% en diciembre de 2025</td><td data-label="¿Baja?">No: está más alta que hace un año. Bajó 0,4 puntos desde el 33,8% de julio</td></tr>
+      <tr><td>Acumulada en el año (enero a septiembre)</td><td class="n" data-label="Septiembre de 2026">23,6%</td><td class="t" data-label="Con qué se compara">22,0% de enero a septiembre de 2025</td><td data-label="¿Baja?">No: 2026 va por encima de 2025</td></tr>
+      <tr><td>Núcleo, últimos 12 meses</td><td class="n" data-label="Septiembre de 2026">31,6%</td><td class="t" data-label="Con qué se compara">34,3% en septiembre de 2025</td><td data-label="¿Baja?">Sí, despacio: la más baja desde agosto de 2018</td></tr>
     </table>
     <p style="font-size:14px;color:var(--muted)">Fuente: INDEC, IPC nacional, informe de septiembre de 2026 y serie de índices (base diciembre de 2016 = 100). Comparaciones: cálculo propio con la misma serie.</p>
 
@@ -409,7 +423,8 @@
     <p>La inflación de 12 meses es la que más se parece a lo que siente el bolsillo en un año: cuánto más caro está todo que hace un año. Llegó a su piso en <b>octubre de 2025, con 31,3%</b>, la más baja desde julio de 2018 (31,2%). Desde ahí subió hasta <b>33,8% en julio de 2026</b> y en septiembre quedó en 33,4%. Es más alta que el 31,5% con el que cerró 2025, el número que el Presupuesto presenta como "el nivel anual más bajo de los últimos ocho años".</p>
     <p>Esta medida baja solo cuando el mes nuevo es más bajo que el mismo mes del año anterior. Septiembre de 2026 (1,9%) le ganó a septiembre de 2025 (2,1%), y por eso bajó una décima. Los próximos tres meses del año pasado fueron altos: 2,3% en octubre, 2,5% en noviembre y 2,8% en diciembre. Si octubre, noviembre y diciembre de este año salen como esperan los analistas, la de 12 meses va a bajar más rápido (ver "Para ir más profundo").</p>
 
-    <table class="tb">
+    <div class="tb-scroll">
+    <table class="tb tb-mes">
       <tr><th>Mes</th><th style="text-align:right">Inflación del mes</th><th style="text-align:right">Últimos 12 meses</th><th style="text-align:right">Núcleo del mes</th><th style="text-align:right">Núcleo 12 meses</th></tr>
       <tr><td>Oct 2025</td><td class="n">2,3%</td><td class="n">31,3%</td><td class="n">2,2%</td><td class="n">33,4%</td></tr>
       <tr><td>Nov 2025</td><td class="n">2,5%</td><td class="n">31,4%</td><td class="n">2,6%</td><td class="n">33,3%</td></tr>
@@ -424,6 +439,7 @@
       <tr><td>Ago 2026</td><td class="n">1,7%</td><td class="n">33,5%</td><td class="n">1,8%</td><td class="n">31,9%</td></tr>
       <tr><td>Sep 2026</td><td class="n">1,9%</td><td class="n">33,4%</td><td class="n">1,7%</td><td class="n">31,6%</td></tr>
     </table>
+    </div>
     <p style="font-size:14px;color:var(--muted)">Fuente: INDEC, IPC nacional. Las variaciones son las del INDEC, redondeadas a un decimal; las recalculamos con la serie de índices y coinciden en los 12 meses.</p>
 
     <h3 class="sub">Desde el pico de 2023: la baja grande ya ocurrió</h3>
