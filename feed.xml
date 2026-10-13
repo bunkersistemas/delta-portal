@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 09:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 12:11:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Por qué parece que la IA deja gente sin trabajo si los estudios no lo muestran?</title>
+      <link>https://coninteres.com/articulos/2026-10-13-ia-sensacion-empleo-argentina-sectores.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-ia-sensacion-empleo-argentina-sectores.html</guid>
+      <pubDate>Tue, 13 Oct 2026 11:15:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>IA</category>
+      <description>Una parte de la sensación llega de EE.UU.: las empresas de ese país nombraron a la IA en 21 de cada 100 despidos que anunciaron en 2026 hasta septiembre, y pasó a ser la razón que más dan, pero son anuncios, no puestos reemplazados. La otra parte es que en la Argentina sí se perdió empleo: 246 mil asalariados privados registrados menos desde noviembre de 2023, 6 de cada 10 en la industria y la construcción, de los sectores menos expuestos a la IA. Y donde la IA ya se usa mucho, la gente se adapta cambiando lo que hace: en Dinamarca, 85 de cada 100 que usan chatbots dicen que pasan el tiempo que ahorran a otras tareas.</description>
+      <ci:numero>−246 mil</ci:numero>
+      <ci:numeroEtiqueta>asalariados privados registrados menos en la Argentina entre noviembre de 2023 (6.372.692) y junio de 2026 (6.126.380), serie sin estacionalidad del SIPA (Secretaría de Trabajo, cuadro T.2.2): −3,9%; industria y construcción, −151 mil (61%); finanzas y enseñanza, los sectores más expuestos a la IA según el Ministerio de Trabajo, −8 mil (3%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-ia-sensacion-empleo-argentina-sectores.png" length="66157" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-ia-sensacion-empleo-argentina-sectores.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Seis estudios con registros reales de empleo midieron qué hizo la IA desde 2022: ninguno encontró una caída del empleo total y tres vieron que entran menos jóvenes en los trabajos más expuestos</title>
       <link>https://coninteres.com/articulos/2026-10-13-ia-quita-empleo-que-dicen-los-estudios.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>ceros que le quitaron a la moneda argentina entre 1970 y 1992 (Ley 18.188: 2; Ley 22.707: 4; Decreto 1096/85: 3; Decreto 2128/91: 4); $1 de hoy = 10 billones de pesos moneda nacional</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-cuantos-ceros-le-sacaron-al-peso.png" length="71478" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-cuantos-ceros-le-sacaron-al-peso.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La tasa de uso de los aeropuertos para vuelos de cabotaje pasa a US$9 en diciembre: al dólar de hoy son $13.653, 2,4 veces lo que se paga ahora</title>
-      <link>https://coninteres.com/articulos/2026-10-09-tasa-aeropuerto-cabotaje-9-dolares.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-09-tasa-aeropuerto-cabotaje-9-dolares.html</guid>
-      <pubDate>Fri, 09 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El ORSNA pasó a dólares la tarifa que paga cada pasajero que embarca en un vuelo de cabotaje en los aeropuertos de Aeropuertos Argentina. Hoy cuesta $5.685. Los US$9 son el valor más alto en dólares de los cinco que fijó el regulador desde 2021. Los vuelos internacionales no cambian, y los regionales de hasta 1.000 kilómetros pasan a pagar US$25,16 en lugar de US$57.</description>
-      <ci:numero>US$9</ci:numero>
-      <ci:numeroEtiqueta>tasa de uso de aeroestación de cabotaje por pasajero embarcado en los aeropuertos del Grupo A desde el 08/12/2026 (Res. ORSNA 69/2026); hoy $5.685 en categoría I, US$3,75 al dólar A 3500 del 09/10/2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-tasa-aeropuerto-cabotaje-9-dolares.png" length="83911" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-tasa-aeropuerto-cabotaje-9-dolares.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

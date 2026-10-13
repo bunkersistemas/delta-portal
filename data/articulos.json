@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-13T09:50:09-03:00",
+    "actualizado": "2026-10-13T12:11:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-13-ia-sensacion-empleo-argentina-sectores",
+      "titulo": "¿Por qué parece que la IA deja gente sin trabajo si los estudios no lo muestran?",
+      "bajada": "Una parte de la sensación llega de EE.UU.: las empresas de ese país nombraron a la IA en 21 de cada 100 despidos que anunciaron en 2026 hasta septiembre, y pasó a ser la razón que más dan, pero son anuncios, no puestos reemplazados. La otra parte es que en la Argentina sí se perdió empleo: 246 mil asalariados privados registrados menos desde noviembre de 2023, 6 de cada 10 en la industria y la construcción, de los sectores menos expuestos a la IA. Y donde la IA ya se usa mucho, la gente se adapta cambiando lo que hace: en Dinamarca, 85 de cada 100 que usan chatbots dicen que pasan el tiempo que ahorran a otras tareas.",
+      "titulo_busqueda": "¿Por qué parece que la IA deja gente sin trabajo si los estudios no lo muestran?",
+      "seccion": "IA",
+      "formato": "Investigación",
+      "numero": "−246 mil",
+      "numero_label": "asalariados privados registrados menos en la Argentina entre noviembre de 2023 (6.372.692) y junio de 2026 (6.126.380), serie sin estacionalidad del SIPA (Secretaría de Trabajo, cuadro T.2.2): −3,9%; industria y construcción, −151 mil (61%); finanzas y enseñanza, los sectores más expuestos a la IA según el Ministerio de Trabajo, −8 mil (3%)",
+      "fecha": "2026-10-13",
+      "hora": "11:15",
+      "archivo": "articulos/2026-10-13-ia-sensacion-empleo-argentina-sectores.html",
+      "verificacion": "verificada",
+      "fuentes": 16,
+      "lectura": "30 seg → 12 min",
+      "pedido": 95
+    },
     {
       "id": "2026-10-13-ia-quita-empleo-que-dicen-los-estudios",
       "titulo": "Seis estudios con registros reales de empleo midieron qué hizo la IA desde 2022: ninguno encontró una caída del empleo total y tres vieron que entran menos jóvenes en los trabajos más expuestos",
