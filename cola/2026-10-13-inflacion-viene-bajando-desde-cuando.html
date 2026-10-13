@@ -1,0 +1,514 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿La inflación viene bajando, como dice el Gobierno, y desde cuándo? — CON INTERÉS</title>
+<meta name="description" content="Depende de cómo se la mida. Mes a mes, sí: bajó del 3,4% de marzo al 1,9% de septiembre. Pero la de los últimos 12 meses está en 33,4%, arriba del piso de 31,3% de octubre de 2025, y de enero a septiembre los precios subieron 23,6%, más que el 22,0% del mismo tramo de 2025. La gran baja fue entre diciembre de 2023 y mayo de 2025.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .prose h3.sub{font-family:var(--serif);font-size:23px;font-weight:600;margin:34px 0 12px;line-height:1.25}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:470px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column;max-width:190px}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+</style>
+</head>
+<body data-palette="#0E7C86,#C4701F,#C0392B,#2E8B6F">
+<div class="draft-ribbon">Borrador generado por la redacción de agentes y pendiente de aprobación. No publicado.</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">ECONOMÍA <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿La inflación viene bajando, como dice el Gobierno, y desde cuándo?</h1>
+
+  <p class="standfirst">Depende de cómo se la mida. Mes a mes, sí: bajó del 3,4% de marzo al 1,9% de septiembre. Pero la de los últimos 12 meses está en 33,4%, arriba del piso de 31,3% de octubre de 2025, y de enero a septiembre los precios subieron 23,6%, más que el 22,0% del mismo tramo de 2025. La gran baja fue entre diciembre de 2023 y mayo de 2025.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>13 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 10 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta si la inflación viene bajando y desde cuándo, con el índice de precios nacional del INDEC medido de tres maneras (la del mes, la de los últimos 12 meses y la acumulada en el año), la inflación núcleo y el recorrido desde diciembre de 2023, al lado de lo que escribió el Gobierno en el mensaje del Presupuesto 2027. Incluye el dato de septiembre, publicado hoy. Cumple el enfoque que aprobó el lector. Queda afuera, como estaba previsto, por qué sube o baja la inflación: eso es una discusión sobre la política económica, no un dato. Y "contenida" no es un término técnico: mostramos qué dice cada medida, no si la palabra es justa.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">1m</span></button>
+      <button data-go="b3">En contexto <span class="t">5m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">33,4<span class="u">%</span></div>
+      <div class="cap">Es la <b>inflación de los últimos 12 meses</b>, de septiembre de 2025 a septiembre de 2026, según el INDEC. En octubre de 2025 era <b>31,3%</b>, su piso. Medida así, la inflación no baja desde hace casi un año: subió hasta <b>33,8% en julio</b> y en agosto y septiembre bajó apenas.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v dn">1,9%</span><span class="k">la inflación de septiembre; en marzo había sido 3,4%</span></div>
+        <div class="sr"><span class="v up">23,6%</span><span class="k">de enero a septiembre de 2026; en el mismo tramo de 2025, 22,0%</span></div>
+        <div class="sr"><span class="v dn">31,6%</span><span class="k">la núcleo en 12 meses, la más baja desde agosto de 2018</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">El INDEC publicó hoy que los precios subieron <b>1,9% en septiembre</b>. Un lector preguntó si los números acompañan lo que dice el Gobierno: que con la macroeconomía ordenada la inflación viene bajando. ¿Y desde cuándo?</p>
+    <p>La respuesta corta es que <b>depende de qué inflación se mire</b>. La del mes viene bajando desde marzo, que es lo que escribió el Gobierno en el mensaje del Presupuesto 2027: "a partir de abril, la inflación mensual comenzó nuevamente a reducirse". Pasó de 3,4% en marzo a 1,9% en septiembre, con un rebote en julio.</p>
+    <p>Pero esa baja llega después de diez meses de suba. La inflación mensual había tocado <b>1,5% en mayo de 2025</b> y desde ahí trepó hasta 3,4% en marzo de 2026; el propio mensaje del Presupuesto reconoce que en la segunda mitad de 2025 "mostró una tendencia ascendente". Por eso las otras dos medidas todavía no bajan: la de <b class="hl">12 meses está en 33,4%</b>, más alta que el 31,3% de octubre de 2025, y la <b>acumulada del año, 23,6%</b>, va por encima del 22,0% que se había acumulado de enero a septiembre de 2025.</p>
+    <p>La baja grande, la que sí se ve en todas las medidas, ocurrió antes: entre diciembre de 2023, cuando los precios subieron 25,5% en un solo mes, y mayo de 2025. Desde entonces, la inflación se movió entre 1,6% y 3,4% por mes, sin volver a bajar del piso de mayo de 2025.</p>
+  </div>
+
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 class="sub">Lo que dice el Gobierno y lo que mide el INDEC</h3>
+    <p>En el mensaje del proyecto de Presupuesto 2027, que envió al Congreso en septiembre, el Ministerio de Economía escribió que "como resultado del equilibrio fiscal y la eliminación de la emisión monetaria para financiar el déficit, se logró frenar la dinámica de aceleración inflacionaria" (página 6), que "a partir de abril, la inflación mensual comenzó nuevamente a reducirse" (página 26) y que proyecta terminar 2026 con "inflación descendente" (página 6). Así se ven esas frases al lado de cada medida:</p>
+    <table class="tb">
+      <tr><th>Medida</th><th style="text-align:right">Septiembre de 2026</th><th style="text-align:right">Con qué se compara</th><th>¿Baja?</th></tr>
+      <tr><td>Inflación del mes</td><td class="n">1,9%</td><td class="n">3,4% en marzo de 2026; 2,1% en septiembre de 2025</td><td>Sí, desde marzo, con un rebote en julio (2,1%)</td></tr>
+      <tr><td>Inflación de los últimos 12 meses</td><td class="n">33,4%</td><td class="n">31,3% en octubre de 2025; 31,5% en diciembre de 2025</td><td>No: está más alta que hace un año. Bajó 0,4 puntos desde el 33,8% de julio</td></tr>
+      <tr><td>Acumulada en el año (enero a septiembre)</td><td class="n">23,6%</td><td class="n">22,0% de enero a septiembre de 2025</td><td>No: 2026 va por encima de 2025</td></tr>
+      <tr><td>Núcleo, últimos 12 meses</td><td class="n">31,6%</td><td class="n">34,3% en septiembre de 2025</td><td>Sí, despacio: la más baja desde agosto de 2018</td></tr>
+    </table>
+    <p style="font-size:14px;color:var(--muted)">Fuente: INDEC, IPC nacional, informe de septiembre de 2026 y serie de índices (base diciembre de 2016 = 100). Comparaciones: cálculo propio con la misma serie.</p>
+
+    <h3 class="sub">Mes a mes: bajó desde marzo, pero no por debajo de 2025</h3>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">IPC nacional · variación mensual, en %</div>
+        <h3>La inflación mensual subió de 1,5% a 3,4% entre mayo de 2025 y marzo de 2026, y desde ahí volvió a bajar</h3>
+        <p class="fig-sub">Octubre de 2024 a septiembre de 2026. En verde azulado, los últimos 12 meses.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 300" role="img" aria-label="Inflación mensual del IPC nacional de octubre de 2024 a septiembre de 2026: oct 2024 2,7%; nov 2024 2,4%; dic 2024 2,7%; ene 2025 2,2%; feb 2025 2,4%; mar 2025 3,7%; abr 2025 2,8%; may 2025 1,5%; jun 2025 1,6%; jul 2025 1,9%; ago 2025 1,9%; sep 2025 2,1%; oct 2025 2,3%; nov 2025 2,5%; dic 2025 2,8%; ene 2026 2,9%; feb 2026 2,9%; mar 2026 3,4%; abr 2026 2,6%; may 2026 2,1%; jun 2026 1,9%; jul 2026 2,1%; ago 2026 1,7%; sep 2026 1,9%.">
+<line x1="40" y1="250.0" x2="885" y2="250.0" stroke="#B9B3A9" stroke-width="1"/>
+<text x="34" y="254.0" class="cf" text-anchor="end">0%</text>
+<line x1="40" y1="195.0" x2="885" y2="195.0" stroke="#E7E1D7" stroke-dasharray="3 3" stroke-width="1"/>
+<text x="34" y="199.0" class="cf" text-anchor="end">1%</text>
+<line x1="40" y1="140.0" x2="885" y2="140.0" stroke="#E7E1D7" stroke-dasharray="3 3" stroke-width="1"/>
+<text x="34" y="144.0" class="cf" text-anchor="end">2%</text>
+<line x1="40" y1="85.0" x2="885" y2="85.0" stroke="#E7E1D7" stroke-dasharray="3 3" stroke-width="1"/>
+<text x="34" y="89.0" class="cf" text-anchor="end">3%</text>
+<line x1="40" y1="30.0" x2="885" y2="30.0" stroke="#E7E1D7" stroke-dasharray="3 3" stroke-width="1"/>
+<text x="34" y="34.0" class="cf" text-anchor="end">4%</text>
+<rect x="44.0" y="102.0" width="27.2" height="148.0" rx="2" fill="#B9AE9C"><title>oct 2024: 2,7%</title></rect>
+<text x="57.6" y="97.0" class="cv" text-anchor="middle" style="font-size:10.5px">2,7</text>
+<text x="57.6" y="266" class="cf" text-anchor="middle" style="font-size:10px">oct 24</text>
+<rect x="79.2" y="116.5" width="27.2" height="133.5" rx="2" fill="#B9AE9C"><title>nov 2024: 2,4%</title></rect>
+<text x="92.8" y="111.5" class="cv" text-anchor="middle" style="font-size:10.5px">2,4</text>
+<text x="92.8" y="266" class="cf" text-anchor="middle" style="font-size:10px">nov</text>
+<rect x="114.4" y="101.3" width="27.2" height="148.7" rx="2" fill="#B9AE9C"><title>dic 2024: 2,7%</title></rect>
+<text x="128.0" y="96.3" class="cv" text-anchor="middle" style="font-size:10.5px">2,7</text>
+<text x="128.0" y="266" class="cf" text-anchor="middle" style="font-size:10px">dic</text>
+<rect x="149.6" y="128.4" width="27.2" height="121.6" rx="2" fill="#B9AE9C"><title>ene 2025: 2,2%</title></rect>
+<text x="163.2" y="123.4" class="cv" text-anchor="middle" style="font-size:10.5px">2,2</text>
+<text x="163.2" y="266" class="cf" text-anchor="middle" style="font-size:10px">ene 25</text>
+<rect x="184.8" y="117.9" width="27.2" height="132.1" rx="2" fill="#B9AE9C"><title>feb 2025: 2,4%</title></rect>
+<text x="198.4" y="112.9" class="cv" text-anchor="middle" style="font-size:10.5px">2,4</text>
+<text x="198.4" y="266" class="cf" text-anchor="middle" style="font-size:10px">feb</text>
+<rect x="220.0" y="44.9" width="27.2" height="205.1" rx="2" fill="#B9AE9C"><title>mar 2025: 3,7%</title></rect>
+<text x="233.6" y="39.9" class="cv" text-anchor="middle" style="font-size:10.5px">3,7</text>
+<text x="233.6" y="266" class="cf" text-anchor="middle" style="font-size:10px">mar</text>
+<rect x="255.2" y="97.1" width="27.2" height="152.9" rx="2" fill="#B9AE9C"><title>abr 2025: 2,8%</title></rect>
+<text x="268.9" y="92.1" class="cv" text-anchor="middle" style="font-size:10.5px">2,8</text>
+<text x="268.9" y="266" class="cf" text-anchor="middle" style="font-size:10px">abr</text>
+<rect x="290.5" y="167.4" width="27.2" height="82.6" rx="2" fill="#B9AE9C"><title>may 2025: 1,5%</title></rect>
+<text x="304.1" y="162.4" class="cvB" text-anchor="middle" style="font-size:10.5px">1,5</text>
+<text x="304.1" y="266" class="cf" text-anchor="middle" style="font-size:10px">may</text>
+<rect x="325.7" y="161.0" width="27.2" height="89.0" rx="2" fill="#B9AE9C"><title>jun 2025: 1,6%</title></rect>
+<text x="339.3" y="156.0" class="cv" text-anchor="middle" style="font-size:10.5px">1,6</text>
+<text x="339.3" y="266" class="cf" text-anchor="middle" style="font-size:10px">jun</text>
+<rect x="360.9" y="145.4" width="27.2" height="104.6" rx="2" fill="#B9AE9C"><title>jul 2025: 1,9%</title></rect>
+<text x="374.5" y="140.4" class="cv" text-anchor="middle" style="font-size:10.5px">1,9</text>
+<text x="374.5" y="266" class="cf" text-anchor="middle" style="font-size:10px">jul</text>
+<rect x="396.1" y="146.8" width="27.2" height="103.2" rx="2" fill="#B9AE9C"><title>ago 2025: 1,9%</title></rect>
+<text x="409.7" y="141.8" class="cv" text-anchor="middle" style="font-size:10.5px">1,9</text>
+<text x="409.7" y="266" class="cf" text-anchor="middle" style="font-size:10px">ago</text>
+<rect x="431.3" y="135.8" width="27.2" height="114.2" rx="2" fill="#B9AE9C"><title>sep 2025: 2,1%</title></rect>
+<text x="444.9" y="130.8" class="cv" text-anchor="middle" style="font-size:10.5px">2,1</text>
+<text x="444.9" y="266" class="cf" text-anchor="middle" style="font-size:10px">sep</text>
+<rect x="466.5" y="121.2" width="27.2" height="128.8" rx="2" fill="#0E7C86"><title>oct 2025: 2,3%</title></rect>
+<text x="480.1" y="116.2" class="cv" text-anchor="middle" style="font-size:10.5px">2,3</text>
+<text x="480.1" y="266" class="cf" text-anchor="middle" style="font-size:10px">oct</text>
+<rect x="501.7" y="114.0" width="27.2" height="136.0" rx="2" fill="#0E7C86"><title>nov 2025: 2,5%</title></rect>
+<text x="515.3" y="109.0" class="cv" text-anchor="middle" style="font-size:10.5px">2,5</text>
+<text x="515.3" y="266" class="cf" text-anchor="middle" style="font-size:10px">nov</text>
+<rect x="536.9" y="93.5" width="27.2" height="156.5" rx="2" fill="#0E7C86"><title>dic 2025: 2,8%</title></rect>
+<text x="550.5" y="88.5" class="cv" text-anchor="middle" style="font-size:10.5px">2,8</text>
+<text x="550.5" y="266" class="cf" text-anchor="middle" style="font-size:10px">dic</text>
+<rect x="572.1" y="91.5" width="27.2" height="158.5" rx="2" fill="#0E7C86"><title>ene 2026: 2,9%</title></rect>
+<text x="585.7" y="86.5" class="cv" text-anchor="middle" style="font-size:10.5px">2,9</text>
+<text x="585.7" y="266" class="cf" text-anchor="middle" style="font-size:10px">ene 26</text>
+<rect x="607.3" y="90.7" width="27.2" height="159.3" rx="2" fill="#0E7C86"><title>feb 2026: 2,9%</title></rect>
+<text x="620.9" y="85.7" class="cv" text-anchor="middle" style="font-size:10.5px">2,9</text>
+<text x="620.9" y="266" class="cf" text-anchor="middle" style="font-size:10px">feb</text>
+<rect x="642.5" y="64.0" width="27.2" height="186.0" rx="2" fill="#0E7C86"><title>mar 2026: 3,4%</title></rect>
+<text x="656.1" y="59.0" class="cvB" text-anchor="middle" style="font-size:10.5px">3,4</text>
+<text x="656.1" y="266" class="cf" text-anchor="middle" style="font-size:10px">mar</text>
+<rect x="677.8" y="108.0" width="27.2" height="142.0" rx="2" fill="#0E7C86"><title>abr 2026: 2,6%</title></rect>
+<text x="691.4" y="103.0" class="cv" text-anchor="middle" style="font-size:10.5px">2,6</text>
+<text x="691.4" y="266" class="cf" text-anchor="middle" style="font-size:10px">abr</text>
+<rect x="713.0" y="131.8" width="27.2" height="118.2" rx="2" fill="#0E7C86"><title>may 2026: 2,1%</title></rect>
+<text x="726.6" y="126.8" class="cv" text-anchor="middle" style="font-size:10.5px">2,1</text>
+<text x="726.6" y="266" class="cf" text-anchor="middle" style="font-size:10px">may</text>
+<rect x="748.2" y="146.2" width="27.2" height="103.8" rx="2" fill="#0E7C86"><title>jun 2026: 1,9%</title></rect>
+<text x="761.8" y="141.2" class="cv" text-anchor="middle" style="font-size:10.5px">1,9</text>
+<text x="761.8" y="266" class="cf" text-anchor="middle" style="font-size:10px">jun</text>
+<rect x="783.4" y="133.7" width="27.2" height="116.3" rx="2" fill="#0E7C86"><title>jul 2026: 2,1%</title></rect>
+<text x="797.0" y="128.7" class="cv" text-anchor="middle" style="font-size:10.5px">2,1</text>
+<text x="797.0" y="266" class="cf" text-anchor="middle" style="font-size:10px">jul</text>
+<rect x="818.6" y="158.7" width="27.2" height="91.3" rx="2" fill="#0E7C86"><title>ago 2026: 1,7%</title></rect>
+<text x="832.2" y="153.7" class="cvB" text-anchor="middle" style="font-size:10.5px">1,7</text>
+<text x="832.2" y="266" class="cf" text-anchor="middle" style="font-size:10px">ago</text>
+<rect x="853.8" y="143.7" width="27.2" height="106.3" rx="2" fill="#0A5C63"><title>sep 2026: 1,9%</title></rect>
+<text x="867.4" y="138.7" class="cvB" text-anchor="middle" style="font-size:10.5px">1,9</text>
+<text x="867.4" y="266" class="cf" text-anchor="middle" style="font-size:10px">sep</text>
+<line x1="462.5" y1="20" x2="462.5" y2="250" stroke="#6B6560" stroke-width="1" stroke-dasharray="2 3"/>
+<text x="468.5" y="28" class="cf">últimos 12 meses &#8594;</text>
+</svg>
+      <figcaption><b>Fuente:</b> INDEC, IPC nacional (serie de índices por divisiones). Variaciones: cálculo propio, iguales a las que publica el INDEC.</figcaption>
+    </figure>
+    <p>De los últimos 12 meses, <b>9 tuvieron una inflación de 2% o más</b> y 3 quedaron por debajo: junio (1,9%), agosto (1,7%) y septiembre (1,9%). Desde mayo, la inflación promedió <b>1,95% por mes</b>; en los mismos meses de 2025 había promediado 1,79%. El Gobierno dice que entre mayo y julio promedió 2%: la serie del INDEC da 2,05%.</p>
+
+    <h3 class="sub">En 12 meses: no baja desde octubre de 2025</h3>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">IPC nacional · variación de los últimos 12 meses, en %</div>
+        <h3>La inflación de 12 meses tocó piso en octubre de 2025 y desde ahí subió; la núcleo baja despacio</h3>
+        <p class="fig-sub">Junio de 2025 a septiembre de 2026. Nivel general y núcleo (sin precios estacionales ni regulados).</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 300" role="img" aria-label="Inflación de los últimos 12 meses, nivel general y núcleo, de junio de 2025 a septiembre de 2026. Nivel general: jun 2025 39,4%; jul 2025 36,6%; ago 2025 33,6%; sep 2025 31,8%; oct 2025 31,3%; nov 2025 31,4%; dic 2025 31,5%; ene 2026 32,4%; feb 2026 33,1%; mar 2026 32,6%; abr 2026 32,4%; may 2026 33,2%; jun 2026 33,5%; jul 2026 33,8%; ago 2026 33,5%; sep 2026 33,4%. Núcleo: jun 2025 42,0%; jul 2025 38,9%; ago 2025 36,1%; sep 2025 34,3%; oct 2025 33,4%; nov 2025 33,3%; dic 2025 33,1%; ene 2026 33,4%; feb 2026 33,6%; mar 2026 33,6%; abr 2026 32,4%; may 2026 32,0%; jun 2026 31,8%; jul 2026 32,2%; ago 2026 31,9%; sep 2026 31,6%.">
+<line x1="40" y1="250.0" x2="860" y2="250.0" stroke="#E7E1D7" stroke-dasharray="3 3" stroke-width="1"/>
+<text x="34" y="254.0" class="cf" text-anchor="end">28%</text>
+<line x1="40" y1="193.5" x2="860" y2="193.5" stroke="#E7E1D7" stroke-dasharray="3 3" stroke-width="1"/>
+<text x="34" y="197.5" class="cf" text-anchor="end">32%</text>
+<line x1="40" y1="137.0" x2="860" y2="137.0" stroke="#E7E1D7" stroke-dasharray="3 3" stroke-width="1"/>
+<text x="34" y="141.0" class="cf" text-anchor="end">36%</text>
+<line x1="40" y1="80.5" x2="860" y2="80.5" stroke="#E7E1D7" stroke-dasharray="3 3" stroke-width="1"/>
+<text x="34" y="84.5" class="cf" text-anchor="end">40%</text>
+<line x1="40" y1="24.0" x2="860" y2="24.0" stroke="#E7E1D7" stroke-dasharray="3 3" stroke-width="1"/>
+<text x="34" y="28.0" class="cf" text-anchor="end">44%</text>
+<polyline points="40.0,51.7 94.7,96.3 149.3,135.4 204.0,160.8 258.7,173.8 313.3,175.1 368.0,178.1 422.7,173.9 477.3,171.0 532.0,171.1 586.7,188.1 641.3,193.4 696.0,196.1 750.7,190.5 805.3,194.8 860.0,198.8" fill="none" stroke="#C4701F" stroke-width="2.5"/>
+<circle cx="40.0" cy="51.7" r="2.5" fill="#C4701F"><title>Núcleo, jun 2025: 42,0%</title></circle>
+<circle cx="94.7" cy="96.3" r="2.5" fill="#C4701F"><title>Núcleo, jul 2025: 38,9%</title></circle>
+<circle cx="149.3" cy="135.4" r="2.5" fill="#C4701F"><title>Núcleo, ago 2025: 36,1%</title></circle>
+<circle cx="204.0" cy="160.8" r="2.5" fill="#C4701F"><title>Núcleo, sep 2025: 34,3%</title></circle>
+<circle cx="258.7" cy="173.8" r="2.5" fill="#C4701F"><title>Núcleo, oct 2025: 33,4%</title></circle>
+<circle cx="313.3" cy="175.1" r="2.5" fill="#C4701F"><title>Núcleo, nov 2025: 33,3%</title></circle>
+<circle cx="368.0" cy="178.1" r="2.5" fill="#C4701F"><title>Núcleo, dic 2025: 33,1%</title></circle>
+<circle cx="422.7" cy="173.9" r="2.5" fill="#C4701F"><title>Núcleo, ene 2026: 33,4%</title></circle>
+<circle cx="477.3" cy="171.0" r="2.5" fill="#C4701F"><title>Núcleo, feb 2026: 33,6%</title></circle>
+<circle cx="532.0" cy="171.1" r="2.5" fill="#C4701F"><title>Núcleo, mar 2026: 33,6%</title></circle>
+<circle cx="586.7" cy="188.1" r="2.5" fill="#C4701F"><title>Núcleo, abr 2026: 32,4%</title></circle>
+<circle cx="641.3" cy="193.4" r="2.5" fill="#C4701F"><title>Núcleo, may 2026: 32,0%</title></circle>
+<circle cx="696.0" cy="196.1" r="2.5" fill="#C4701F"><title>Núcleo, jun 2026: 31,8%</title></circle>
+<circle cx="750.7" cy="190.5" r="2.5" fill="#C4701F"><title>Núcleo, jul 2026: 32,2%</title></circle>
+<circle cx="805.3" cy="194.8" r="2.5" fill="#C4701F"><title>Núcleo, ago 2026: 31,9%</title></circle>
+<circle cx="860.0" cy="198.8" r="2.5" fill="#C4701F"><title>Núcleo, sep 2026: 31,6%</title></circle>
+<polyline points="40.0,88.7 94.7,129.0 149.3,171.5 204.0,196.9 258.7,203.3 313.3,202.4 368.0,199.9 422.7,187.7 477.3,178.6 532.0,184.9 586.7,188.5 641.3,176.6 696.0,171.6 750.7,167.7 805.3,171.7 860.0,174.4" fill="none" stroke="#0E7C86" stroke-width="2.5"/>
+<circle cx="40.0" cy="88.7" r="2.5" fill="#0E7C86"><title>Nivel general, jun 2025: 39,4%</title></circle>
+<circle cx="94.7" cy="129.0" r="2.5" fill="#0E7C86"><title>Nivel general, jul 2025: 36,6%</title></circle>
+<circle cx="149.3" cy="171.5" r="2.5" fill="#0E7C86"><title>Nivel general, ago 2025: 33,6%</title></circle>
+<circle cx="204.0" cy="196.9" r="2.5" fill="#0E7C86"><title>Nivel general, sep 2025: 31,8%</title></circle>
+<circle cx="258.7" cy="203.3" r="2.5" fill="#0E7C86"><title>Nivel general, oct 2025: 31,3%</title></circle>
+<circle cx="313.3" cy="202.4" r="2.5" fill="#0E7C86"><title>Nivel general, nov 2025: 31,4%</title></circle>
+<circle cx="368.0" cy="199.9" r="2.5" fill="#0E7C86"><title>Nivel general, dic 2025: 31,5%</title></circle>
+<circle cx="422.7" cy="187.7" r="2.5" fill="#0E7C86"><title>Nivel general, ene 2026: 32,4%</title></circle>
+<circle cx="477.3" cy="178.6" r="2.5" fill="#0E7C86"><title>Nivel general, feb 2026: 33,1%</title></circle>
+<circle cx="532.0" cy="184.9" r="2.5" fill="#0E7C86"><title>Nivel general, mar 2026: 32,6%</title></circle>
+<circle cx="586.7" cy="188.5" r="2.5" fill="#0E7C86"><title>Nivel general, abr 2026: 32,4%</title></circle>
+<circle cx="641.3" cy="176.6" r="2.5" fill="#0E7C86"><title>Nivel general, may 2026: 33,2%</title></circle>
+<circle cx="696.0" cy="171.6" r="2.5" fill="#0E7C86"><title>Nivel general, jun 2026: 33,5%</title></circle>
+<circle cx="750.7" cy="167.7" r="2.5" fill="#0E7C86"><title>Nivel general, jul 2026: 33,8%</title></circle>
+<circle cx="805.3" cy="171.7" r="2.5" fill="#0E7C86"><title>Nivel general, ago 2026: 33,5%</title></circle>
+<circle cx="860.0" cy="174.4" r="2.5" fill="#0E7C86"><title>Nivel general, sep 2026: 33,4%</title></circle>
+<text x="40.0" y="266" class="cf" text-anchor="middle" style="font-size:10px">jun</text>
+<text x="94.7" y="266" class="cf" text-anchor="middle" style="font-size:10px">jul</text>
+<text x="149.3" y="266" class="cf" text-anchor="middle" style="font-size:10px">ago</text>
+<text x="204.0" y="266" class="cf" text-anchor="middle" style="font-size:10px">sep</text>
+<text x="258.7" y="266" class="cf" text-anchor="middle" style="font-size:10px">oct</text>
+<text x="313.3" y="266" class="cf" text-anchor="middle" style="font-size:10px">nov</text>
+<text x="368.0" y="266" class="cf" text-anchor="middle" style="font-size:10px">dic</text>
+<text x="422.7" y="266" class="cf" text-anchor="middle" style="font-size:10px">ene 26</text>
+<text x="477.3" y="266" class="cf" text-anchor="middle" style="font-size:10px">feb</text>
+<text x="532.0" y="266" class="cf" text-anchor="middle" style="font-size:10px">mar</text>
+<text x="586.7" y="266" class="cf" text-anchor="middle" style="font-size:10px">abr</text>
+<text x="641.3" y="266" class="cf" text-anchor="middle" style="font-size:10px">may</text>
+<text x="696.0" y="266" class="cf" text-anchor="middle" style="font-size:10px">jun</text>
+<text x="750.7" y="266" class="cf" text-anchor="middle" style="font-size:10px">jul</text>
+<text x="805.3" y="266" class="cf" text-anchor="middle" style="font-size:10px">ago</text>
+<text x="860.0" y="266" class="cf" text-anchor="middle" style="font-size:10px">sep</text>
+<text x="40.0" y="106.7" class="cvB" text-anchor="start" style="font-size:11px">39,4%</text>
+<text x="40.0" y="43.7" class="cvB" text-anchor="start" style="font-size:11px">42,0%</text>
+<text x="258.7" y="221.3" class="cvB" text-anchor="middle" style="font-size:11px">31,3% (piso)</text>
+<text x="750.7" y="157.7" class="cvB" text-anchor="middle" style="font-size:11px">33,8%</text>
+<text x="860.0" y="164.4" class="cvB" text-anchor="end" style="font-size:11px">33,4%</text>
+<text x="860.0" y="216.8" class="cvB" text-anchor="end" style="font-size:11px">núcleo 31,6%</text>
+<text x="700" y="32" class="clB" fill="#0E7C86" style="fill:#0E7C86">— Nivel general</text>
+<text x="700" y="50" class="clB" style="fill:#C4701F">— Núcleo</text>
+</svg>
+      <figcaption><b>Fuente:</b> INDEC, IPC nacional. Variaciones: cálculo propio con la serie de índices, iguales a las que publica el INDEC.</figcaption>
+    </figure>
+    <p>La inflación de 12 meses es la que más se parece a lo que siente el bolsillo en un año: cuánto más caro está todo que hace un año. Llegó a su piso en <b>octubre de 2025, con 31,3%</b>, la más baja desde julio de 2018 (31,2%). Desde ahí subió hasta <b>33,8% en julio de 2026</b> y en septiembre quedó en 33,4%. Es más alta que el 31,5% con el que cerró 2025, el número que el Presupuesto presenta como "el nivel anual más bajo de los últimos ocho años".</p>
+    <p>Esta medida baja solo cuando el mes nuevo es más bajo que el mismo mes del año anterior. Septiembre de 2026 (1,9%) le ganó a septiembre de 2025 (2,1%), y por eso bajó una décima. Los próximos tres meses del año pasado fueron altos: 2,3% en octubre, 2,5% en noviembre y 2,8% en diciembre. Si octubre, noviembre y diciembre de este año salen como esperan los analistas, la de 12 meses va a bajar más rápido (ver "Para ir más profundo").</p>
+
+    <table class="tb">
+      <tr><th>Mes</th><th style="text-align:right">Inflación del mes</th><th style="text-align:right">Últimos 12 meses</th><th style="text-align:right">Núcleo del mes</th><th style="text-align:right">Núcleo 12 meses</th></tr>
+      <tr><td>Oct 2025</td><td class="n">2,3%</td><td class="n">31,3%</td><td class="n">2,2%</td><td class="n">33,4%</td></tr>
+      <tr><td>Nov 2025</td><td class="n">2,5%</td><td class="n">31,4%</td><td class="n">2,6%</td><td class="n">33,3%</td></tr>
+      <tr><td>Dic 2025</td><td class="n">2,8%</td><td class="n">31,5%</td><td class="n">3,0%</td><td class="n">33,1%</td></tr>
+      <tr><td>Ene 2026</td><td class="n">2,9%</td><td class="n">32,4%</td><td class="n">2,6%</td><td class="n">33,4%</td></tr>
+      <tr><td>Feb 2026</td><td class="n">2,9%</td><td class="n">33,1%</td><td class="n">3,1%</td><td class="n">33,6%</td></tr>
+      <tr><td>Mar 2026</td><td class="n">3,4%</td><td class="n">32,6%</td><td class="n">3,2%</td><td class="n">33,6%</td></tr>
+      <tr><td>Abr 2026</td><td class="n">2,6%</td><td class="n">32,4%</td><td class="n">2,3%</td><td class="n">32,4%</td></tr>
+      <tr><td>May 2026</td><td class="n">2,1%</td><td class="n">33,2%</td><td class="n">1,9%</td><td class="n">32,0%</td></tr>
+      <tr><td>Jun 2026</td><td class="n">1,9%</td><td class="n">33,5%</td><td class="n">1,6%</td><td class="n">31,8%</td></tr>
+      <tr><td>Jul 2026</td><td class="n">2,1%</td><td class="n">33,8%</td><td class="n">1,8%</td><td class="n">32,2%</td></tr>
+      <tr><td>Ago 2026</td><td class="n">1,7%</td><td class="n">33,5%</td><td class="n">1,8%</td><td class="n">31,9%</td></tr>
+      <tr><td>Sep 2026</td><td class="n">1,9%</td><td class="n">33,4%</td><td class="n">1,7%</td><td class="n">31,6%</td></tr>
+    </table>
+    <p style="font-size:14px;color:var(--muted)">Fuente: INDEC, IPC nacional. Las variaciones son las del INDEC, redondeadas a un decimal; las recalculamos con la serie de índices y coinciden en los 12 meses.</p>
+
+    <h3 class="sub">Desde el pico de 2023: la baja grande ya ocurrió</h3>
+    <p>En <b>diciembre de 2023</b> los precios subieron <b>25,5% en un mes</b>, y la inflación de 12 meses llegó a su máximo en <b>abril de 2024: 289,4%</b>. Lo que vino después fue una caída muy rápida: la inflación mensual bajó a 4,2% en mayo de 2024, a 2,7% en octubre de ese año y a <b>1,5% en mayo de 2025</b>. Medida de diciembre a diciembre, fue 211,4% en 2023, 117,8% en 2024 y 31,5% en 2025.</p>
+    <p>Esa es la baja que el Gobierno pone en primer lugar, y los números la confirman. Lo que muestran también es que, desde mayo de 2025, la inflación no volvió a bajar de ese piso: <b>lleva 16 meses por encima de ese piso, entre 1,6% y 3,4% por mes</b>. En la cuenta larga, los precios de septiembre de 2026 son 3,5 veces los de diciembre de 2023.</p>
+
+    <h3 class="sub">La inflación de fondo</h3>
+    <p>La <b>inflación núcleo</b> deja afuera los precios que suben por temporada (frutas, verduras, ropa, turismo) y los que fija o autoriza el Estado (luz, gas, transporte, prepagas, combustibles). Muestra mejor la tendencia de fondo, y es la que más claramente baja: <b>1,7% en septiembre</b> y <b>31,6% en 12 meses</b>, la más baja desde agosto de 2018 (31,2%). Hace un año era 34,3%.</p>
+    <p>Medida en el año, la núcleo acumula <b>21,8%</b> de enero a septiembre, <b>menos</b> que el 23,1% de los mismos meses de 2025. Lo que empuja el total para arriba son los otros dos grupos. Los <b>precios regulados</b> subieron <b>31,5%</b> en lo que va del año, contra 23,1% en el mismo tramo de 2025, y en septiembre los movieron el gas, la electricidad y las prepagas, según el INDEC. Los estacionales, 20,3%, contra 12,6%.</p>
+    <p>El contraste con otra medición dice lo mismo. El índice de precios de la Ciudad de Buenos Aires, que hace el instituto de estadística porteño con su propia canasta, dio <b>1,8% en septiembre</b>, <b>23,7%</b> acumulado en el año y <b>32,9%</b> en 12 meses.</p>
+  </div>
+
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación de la cifra ancla: estadística oficial recalculada, con contraste independiente.</b> El IPC nacional lo produce un solo organismo, el INDEC.</p>
+      <p><b>1. El documento.</b> El <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipc_10_268C45A9444C.pdf">informe técnico del IPC de septiembre de 2026</a>, publicado hoy a las 16, da 1,9% mensual, 23,6% acumulado en el año y 33,4% interanual (página 3); núcleo 1,7%, regulados 2,3% y estacionales 2,9% (páginas 3 y 4). En la página 4 trae las variaciones de octubre de 2025 a septiembre de 2026: las mensuales (2,3 a 1,9) y las de 12 meses (31,3 a 33,4).</p>
+      <p><b>2. El recálculo.</b> Con la <a href="https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv">serie de índices del IPC nacional</a> (base diciembre de 2016 = 100): agosto de 2026, 12.276,7660; septiembre, 12.514,1508 (+1,93%); septiembre de 2025, 9.384,0922 (+33,35% en 12 meses); diciembre de 2025, 10.121,3715 (+23,64% en el año). Enero a septiembre de 2025: de 7.694,0075 a 9.384,0922, +21,97%. Los 12 meses de la tabla, y todos los meses desde noviembre de 2023, dan igual que lo publicado. Núcleo: 12.654,4322 en septiembre de 2026 contra 9.614,0254 un año antes (+31,62%); agosto de 2018, +31,16%, y ningún mes entre septiembre de 2018 y agosto de 2026 por debajo de 31,8%. Nivel general: julio de 2018, +31,21%, y ningún mes entre agosto de 2018 y septiembre de 2025 por debajo de 31,3%.</p>
+      <p><b>3. El contraste.</b> El <a href="https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2026/10/ir_2026_2064.pdf">IPCBA de septiembre de 2026</a> (Instituto de Estadística y Censos de la Ciudad, informe 2064, página 3): 1,8% mensual, 23,7% acumulado y 32,9% interanual, 0,4 puntos menos que en agosto. Mide otra canasta, solo en la Ciudad, con otro relevamiento; confirma la dirección y el orden de magnitud.</p>
+      <p><b>4. Lo que dice el Gobierno.</b> Las frases son textuales del <a href="https://www.mecon.gob.ar/onp/documentos/presutexto/proy2027/mensaje/mensaje2027.pdf">mensaje del proyecto de Presupuesto 2027</a> del Ministerio de Economía, páginas 6, 25 y 26. La meta de 29% para 2026 está en el cuadro de supuestos de la página 32.</p>
+      <p><b>5. Lo que esperan los analistas.</b> <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-tablas-2026-09.xlsx">REM del BCRA de septiembre de 2026</a>, cuadro de resultados: mediana de 44 participantes, 1,9% para septiembre, 1,7% para octubre, 1,6% para noviembre y 1,8% para diciembre, y 30,0% para todo 2026. Son proyecciones de analistas privados, no datos: el BCRA aclara que no son sus propias proyecciones.</p>
+      <p><b>Qué no afirmamos.</b> Que la inflación esté o no "contenida": no es una medida. Por qué subió o bajó en cada tramo: eso depende de una discusión sobre la política económica que los datos de precios solos no resuelven. Ni qué va a pasar en los próximos meses.</p>
+      <div class="meta"><span>Fuentes <b>INDEC · IDECBA · Ministerio de Economía · BCRA (REM)</b></span><span>Verificación <b>estadística oficial recalculada + contraste</b></span></div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>Cuando alguien dice "la inflación baja" puede estar hablando de cosas distintas, y las tres son ciertas a la vez: la del mes baja desde marzo, la de fondo baja despacio, y la de 12 meses y la del año todavía están por encima de las de hace un año. Saber cuál se está usando es lo que permite discutir el dato y no la palabra.</p>
+    <p>Para el bolsillo, la que cuenta es la de 12 meses: un ingreso que no subió al menos 33,4% desde septiembre de 2025 compra hoy menos que hace un año. Y la meta que el Gobierno escribió en el Presupuesto, 29% para todo 2026, ya pide que octubre, noviembre y diciembre promedien <b>1,42% por mes</b>; <a href="../articulos/2026-09-25-inflacion-meta-29-ritmo-necesario.html">en septiembre contamos</a> por qué es exigente. El último mes con 1,4% o menos fue noviembre de 2017.</p>
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si estás negociando un aumento,</b> la referencia del último año es 33,4%; la del año calendario, 23,6% hasta septiembre. Con la inflación de septiembre, cada mes sin aumento son casi dos puntos menos de poder de compra.</p>
+      <p data-perfil="jubilado"><b>Si cobrás una jubilación,</b> el haber se ajusta con la inflación de dos meses antes: el 1,93% de septiembre es <a href="../articulos/2026-10-13-jubilacion-minima-noviembre-aumento.html">el aumento de noviembre</a>. Si la inflación mensual sigue bajando, los aumentos que vienen también van a ser más chicos.</p>
+    </div>
+  </div>
+
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Qué esperan los analistas para fin de año <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Los 44 analistas que relevó el BCRA en su encuesta de septiembre esperaban, en la mediana, 1,9% para septiembre, que es lo que dio. Para octubre, noviembre y diciembre esperan 1,7%, 1,6% y 1,8%, y un 2026 que cierre en <b>30,0%</b>. Si eso pasa, la inflación de 12 meses bajaría de 33,4% a alrededor de 30% en diciembre: por debajo de la de hoy, pero todavía por encima del 29% del Presupuesto y 1,5 puntos por debajo del 31,5% de 2025. Son proyecciones: el dato de octubre lo publica el INDEC el 12 de noviembre.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Por qué la de 12 meses tarda en moverse <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>La inflación de 12 meses es el resultado de encadenar los últimos doce datos mensuales. Cada mes entra uno nuevo y sale el del año anterior. Si el que entra es más bajo que el que sale, baja; si es más alto, sube. Entre noviembre de 2025 y julio de 2026, casi todos los meses nuevos fueron más altos que los de un año antes, y por eso subió aunque desde abril la mensual ya venía bajando.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Regulados y estacionales, en números <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>En 12 meses, los regulados suben <b>43,3%</b>, los estacionales 24,9% y la núcleo 31,6%. Un año antes, en septiembre de 2025, eran 35,3%, 11,2% y 34,3%. La núcleo es la única de las tres que hoy está más baja que hace un año.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipc_10_268C45A9444C.pdf">Índice de precios al consumidor, septiembre de 2026</a>, 13 de octubre de 2026</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv">Serie de índices del IPC nacional por divisiones, categorías y bienes y servicios</a> (base diciembre de 2016 = 100)</li>
+        <li>&#8250; Instituto de Estadística y Censos de la Ciudad de Buenos Aires — <a href="https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2026/10/ir_2026_2064.pdf">IPCBA, septiembre de 2026</a>, informe de resultado 2064 (contraste independiente)</li>
+        <li>&#8250; Ministerio de Economía, Oficina Nacional de Presupuesto — <a href="https://www.mecon.gob.ar/onp/documentos/presutexto/proy2027/mensaje/mensaje2027.pdf">Mensaje del proyecto de Presupuesto 2027</a>, páginas 6, 25, 26 y 32</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-tablas-2026-09.xlsx">Relevamiento de Expectativas de Mercado (REM), septiembre de 2026</a>, cuadro de resultados</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario">Calendario de difusión</a> (IPC de octubre: 12 de noviembre de 2026)</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: variaciones mensuales, de 12 meses y acumuladas recalculadas desde la serie de índices, promedios, comparaciones con 2025, lo que hace falta para la meta del Presupuesto y gráficos.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 13/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
