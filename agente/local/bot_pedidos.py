@@ -253,11 +253,22 @@ def responder_pregunta(est, chat, texto):
     if llano in AGRADECE:
         decir(chat, T_GRACIAS, teclado=True)
         return
+    # preguntas por el estado de lo que ya pidio (12/10/2026: "como viene mi investigacion?")
+    if re.search(r"\b(mi|mis) (pedido|investigacion|nota|consulta)|como (viene|va|anda)|en que (esta|anda|va)"
+                 r"|novedad|ya (esta|salio)|cuando sale|falta mucho", llano):
+        mis_pedidos(chat)
+        return
+    # "avisame cuando..." -> se le confirma que el aviso llega solo
+    if re.search(r"\bavis(a|ame|en|ar)\b|\bme (avisas|avisan|escribis)\b|\bespero\b", llano):
+        decir(chat, "\u00a1S\u00ed! Te escribo por ac\u00e1 apenas haya novedades: el enfoque para que lo apruebes, "
+              "la vista previa antes de publicar y el link cuando salga. No ten\u00e9s que hacer nada \U0001f44c",
+              teclado=True)
+        return
     notas = buscar_notas(texto)
     est["sugerido"][str(chat)] = texto[:1500]
     boton = [[{"text": "\U0001f4e8 Pedir esto como investigaci\u00f3n", "callback_data": "sug"}]]
     if notas:
-        l = ["Lo m\u00e1s cercano que encontr\u00e9 entre lo que ya investigamos\U0001f447", ""]
+        l = ["Lo m\u00e1s cercano que encontr\u00e9 entre lo que ya investigamos \U0001f447", ""]
         for a in notas:
             l.append("\u2022 " + a["titulo"])
             l.append("  " + SITIO + a.get("archivo", ""))
