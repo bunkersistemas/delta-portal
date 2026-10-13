@@ -1,8 +1,9 @@
 """
 pedidos_lectores.py -- pedidos de investigacion de los lectores (piloto del 12/10/2026).
 
-Los pedidos entran por investigacion.html a una tabla de Supabase. La pagina solo
-puede AGREGAR; este script lee y cambia el estado con la llave secreta, que vive
+Los pedidos entran por el bot de Telegram (desde el 13/10/2026, el UNICO canal para
+pedir una investigacion; el portal junta preguntas, ver comunidad.py) a una tabla de
+Supabase. Este script lee y cambia el estado con la llave secreta, que vive
 FUERA del repo, en la VM (coninteres-privado/supabase_secret.txt).
 
   elegir <hoy AAAA-MM-DD>
@@ -147,8 +148,8 @@ def cerrar(pid, estado, texto):
         raise SystemExit("ERROR: el pedido %s no quedo %s" % (pid, estado))
     print("OK|pedido %s -> %s" % (pid, estado))
     if estado == "publicado":
-        avisar(pid, "\u00a1Sali\u00f3 tu investigaci\u00f3n!\n" + texto + "\n\nGracias por pedirla. Si quer\u00e9s pedir otra: "
-               "https://coninteres.com/investigacion.html?de=telegram")
+        avisar(pid, "\u00a1Sali\u00f3 tu investigaci\u00f3n!\n" + texto + "\n\nGracias por pedirla. Cuando quieras pedir otra, "
+               "escribime por ac\u00e1.")
     else:
         avisar(pid, "No pudimos convertir tu pedido en una nota. El motivo: " + texto[:600])
 

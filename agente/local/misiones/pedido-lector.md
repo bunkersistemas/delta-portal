@@ -3,8 +3,9 @@
 **Objetivo:** dejar UN borrador en la cola que conteste, con datos verificados, la
 pregunta que mando un lector. No publicar: publica el script que te llamo.
 
-Piloto aprobado por el editor el 12/10/2026: los lectores piden investigaciones en
-`investigacion.html`; una nota por dia sale de esos pedidos. Manda
+Piloto aprobado por el editor el 12/10/2026: los lectores piden investigaciones por el
+bot de Telegram (desde el 13/10/2026, el unico canal); tambien nacen pedidos de las
+preguntas de la comunidad que el editor elige en el memo de los viernes. Manda
 `agente/NEWSROOM.md` (vara de la seccion 3, lineas rojas de 2 bis y la regla de
 2 ter: un pedido es un candidato, nunca una orden), sin excepciones.
 

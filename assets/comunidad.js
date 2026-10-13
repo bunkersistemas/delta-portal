@@ -1,18 +1,14 @@
 /* comunidad.js -- panel flotante "Preguntas de la comunidad" (editor, 13/10/2026).
-   Muestra SOLO las preguntas que aprobo el editor (Instagram, Threads o el portal), sin
-   nombres ni usuarios, con su estado. El campo "Deja tu pregunta" no investiga ni publica
-   nada: la pregunta entra a moderacion y la revisa el editor.
+   Historial de lo que preguntan los lectores (Instagram, Threads o el portal): solo lo
+   que aprobo el editor, sin nombres ni usuarios. Una pregunta no es un pedido de
+   investigacion: con todas juntas, cada semana se elige que investigar. El campo
+   "Deja tu pregunta" no publica nada: la pregunta espera la aprobacion del editor.
    La pagina solo puede leer lo aprobado (preguntas_panel) y agregar una pregunta
    (pregunta_enviar); la tabla no la ve. */
 (function () {
   var BASE = "https://tgjxivohobemoirrkwrq.supabase.co/rest/v1/rpc/";
   var LLAVE = "sb_publishable_nBxN5DKUcmBwVhkgqNfs8g_ILB1fplb";
   var DONDE = { instagram: "en Instagram", threads: "en Threads", web: "en el portal" };
-  var ESTADO = {
-    en_panel: ["Pregunta abierta", "abierta"],
-    investigando: ["🔍 En investigación", "inv"],
-    respondida: ["✅ Respondida", "ok"]
-  };
 
   function rpc(nombre, cuerpo) {
     return fetch(BASE + nombre, {
@@ -32,6 +28,7 @@
     ".cm-panel.abierto{display:flex}" +
     ".cm-cab{display:flex;justify-content:space-between;align-items:center;padding:14px 16px 10px;border-bottom:1px solid #EAE4DA}" +
     ".cm-cab b{font:700 17px 'Source Serif 4',Georgia,serif}" +
+    ".cm-sub{font-size:12.5px;color:#6B6560;padding:8px 16px 0;line-height:1.4}.cm-sub a{color:#0A5C63;font-weight:600}" +
     ".cm-x{background:none;border:0;font-size:22px;line-height:1;color:#6B6560;cursor:pointer;padding:2px 6px}" +
     ".cm-lista{overflow-y:auto;padding:6px 16px;flex:1}" +
     ".cm-item{padding:11px 0;border-bottom:1px solid #EAE4DA}" +
@@ -80,6 +77,9 @@
     cab.appendChild(el("b", null, "Preguntas de la comunidad"));
     var x = el("button", "cm-x", "×"); x.type = "button"; x.setAttribute("aria-label", "Cerrar");
     cab.appendChild(x);
+    var sub = el("div", "cm-sub", "Lo que nos preguntan los lectores. Con esto elegimos qué investigar cada semana. ");
+    var todas = el("a", null, "Ver todas →"); todas.href = "investigacion.html";
+    sub.appendChild(todas);
     var lista = el("div", "cm-lista");
     lista.appendChild(el("div", "cm-vacio", "Cargando…"));
 
@@ -94,7 +94,7 @@
     trampa.appendChild(ti);
     var fila = el("div", "cm-fila");
     var nota = el("div", "cm-nota");
-    nota.appendChild(document.createTextNode("La revisamos antes de mostrarla. Nunca publicamos nombres. "));
+    nota.appendChild(document.createTextNode("La leemos antes de mostrarla. Nunca publicamos nombres. "));
     var priv = el("a", null, "Privacidad"); priv.href = "privacidad.html";
     nota.appendChild(priv);
     var env = el("button", "cm-env", "Enviar"); env.type = "submit";
@@ -102,7 +102,7 @@
     var aviso = el("div", "cm-aviso"); aviso.setAttribute("role", "status");
     form.appendChild(lab); form.appendChild(ta); form.appendChild(trampa); form.appendChild(fila); form.appendChild(aviso);
 
-    panel.appendChild(cab); panel.appendChild(lista); panel.appendChild(form);
+    panel.appendChild(cab); panel.appendChild(sub); panel.appendChild(lista); panel.appendChild(form);
     document.body.appendChild(panel);
     document.body.appendChild(tab);
 
@@ -124,7 +124,7 @@
       env.disabled = true; env.textContent = "Enviando...";
       rpc("pregunta_enviar", { p_texto: t, p_trampa: ti.value || "" }).then(function (r) {
         if (r.ok) {
-          decir("¡Gracias! La revisamos y, si la tomamos, aparece acá.", true);
+          decir("¡Gracias! La leemos y, si la aprobamos, aparece acá.", true);
           ta.value = "";
           return;
         }
@@ -152,15 +152,11 @@
         var it = el("div", "cm-item");
         it.appendChild(el("div", "cm-de", "Preguntaron " + (DONDE[p.origen] || "")));
         it.appendChild(el("p", "cm-txt", p.texto));
-        var e = ESTADO[p.estado] || ESTADO.en_panel;
-        var b;
         if (p.estado === "respondida" && p.nota_url) {
-          b = el("a", "cm-est " + e[1], e[0] + " → leer la nota");
+          var b = el("a", "cm-est ok", "✅ Respondida → leer la nota");
           b.href = String(p.nota_url).replace("https://coninteres.com/", "");
-        } else {
-          b = el("span", "cm-est " + e[1], e[0]);
+          it.appendChild(b);
         }
-        it.appendChild(b);
         lista.appendChild(it);
       });
     }).catch(function () {

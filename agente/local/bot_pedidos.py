@@ -20,7 +20,6 @@ import pedidos_lectores as pl
 
 ESTADO = os.path.join(pl.LOGS, "bot_telegram_estado.json")   # offset y quien esta escribiendo
 LOG = os.path.join(pl.LOGS, "bot_telegram.log")
-FORM = "https://coninteres.com/investigacion.html?de=telegram"
 SITIO = "https://coninteres.com/"
 UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
 
@@ -525,7 +524,7 @@ def al_boton(est, q):
     if accion in ("igpub", "igdes"):
         al_boton_instagram(q, chat, accion, pid)
         return
-    if accion in ("cqi", "cqp", "cqd", "cpi", "cpd") and pid.isdigit():
+    if accion in ("cqa", "cqd") and pid.isdigit():
         al_boton_moderacion(q, chat, accion, int(pid))
         return
     if accion == "sug":
@@ -617,8 +616,9 @@ def al_boton_instagram(q, chat, accion, nota):
 
 
 def al_boton_moderacion(q, chat, accion, id_):
-    """Moderacion unica (13/10/2026): lo que entra por el portal o por los comentarios de
-    Instagram lo aprueba el editor antes de investigarse o mostrarse. Solo el editor."""
+    """Preguntas de los lectores (13/10/2026): lo que entra por el portal o por los comentarios
+    de Instagram lo aprueba el editor antes de mostrarse en el historial del panel. Una
+    pregunta no es un pedido: no dispara ninguna investigacion. Solo el editor."""
     import comunidad, instagram_pub as igp
     try:
         es_editor = chat == igp.editor()
@@ -629,21 +629,13 @@ def al_boton_moderacion(q, chat, accion, id_):
         return
     sacar_botones(q)
     try:
-        if accion.startswith("cq"):
-            r = comunidad.moderar_pregunta(id_, accion)
-        else:
-            r = comunidad.moderar_pedido(id_, accion)
+        r = comunidad.moderar_pregunta(id_, accion)
     except Exception as e:
         anotar("moderacion %s %s fallo: %s" % (accion, id_, e))
         decir(chat, "\u26a0\ufe0f No pude registrar la moderaci\u00f3n: %s" % e)
         return
     anotar("moderacion %s %s: %s" % (accion, id_, r))
     decir(chat, r)
-    if accion == "cpi":
-        disparar_enfoque()       # si dejo Telegram, se le arma el enfoque
-        disparar_redaccion()     # si no, se investiga directo (periodo de prueba: el mismo dia)
-    elif accion == "cqi":
-        disparar_redaccion()
 
 
 def al_boton_conversacion(est, q, chat, accion, valor):

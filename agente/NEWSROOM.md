@@ -227,9 +227,12 @@ son de legalidad, y ninguna nota que las viole puede salir de la cola.
 ## 2 ter. Pedidos de lectores — co-creación con reglas ⏸️ SUSPENDIDO
 
 > **PILOTO DESDE EL 12/10/2026 — investigaciones pedidas.** El canal propio ya
-> existe: `investigacion.html` (sin link en el menú, `noindex`) guarda los pedidos
-> en una base privada (Supabase); la página solo puede agregar, y el correo del
-> lector nunca entra al repo. Una nota por día sale de esos pedidos: la elige al
+> existe: desde el 13/10/2026 las investigaciones se piden SOLO por el bot de
+> Telegram (@Con_Interes_bot) y se guardan en una base privada (Supabase).
+> `investigacion.html` y el panel "Preguntas de la comunidad" ya no crean pedidos:
+> juntan PREGUNTAS de los lectores (y los comentarios de Instagram), que el editor
+> aprueba y que el memo de los viernes agrupa para elegir qué investigar
+> (`agente/local/comunidad.py`). Una nota por día sale de esos pedidos: la elige al
 > azar `agente/local/pedidos_lectores.py` y la trabaja la misión 8
 > (`agente/local/misiones/pedido-lector.md`), con la entrada `"pedido": <id>` en
 > `data/cola.json`. Las reglas de abajo (candidato, nunca orden; moderación; no

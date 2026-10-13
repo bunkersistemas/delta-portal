@@ -705,7 +705,7 @@ HTML = f"""<!DOCTYPE html>
 <script defer src="assets/metrics.js?v=1"></script>
 <script defer src="assets/pregunta.js?v=1"></script>
 <script defer src="assets/portada-pregunta.js?v=1"></script>
-<script defer src="assets/comunidad.js?v=1"></script>
+<script defer src="assets/comunidad.js?v=2"></script>
 {CSS}
 </head>
 <body>

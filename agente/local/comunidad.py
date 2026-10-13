@@ -1,28 +1,29 @@
 """
-comunidad.py -- preguntas de la comunidad y moderacion unica (editor, 13/10/2026).
+comunidad.py -- la voz de los lectores (editor, 13/10/2026).
 
-Todo lo que entra desde afuera pasa por el editor ANTES de investigarse o mostrarse:
-  - comentarios con preguntas en nuestros posteos de Instagram;
-  - preguntas del panel flotante del portal ("Preguntas de la comunidad");
-  - pedidos del formulario del portal (investigacion.html), que la base deja en
-    estado "moderacion" (trigger pedidos_moderacion).
-Lo que se pide desde el chat del bot sigue directo, como hasta ahora.
+Una pregunta NO es un pedido de investigacion: es una senal de lo que le interesa a la
+gente. Las investigaciones se piden SOLO por el bot de Telegram. Lo que llega por el
+portal (panel "Preguntas de la comunidad" e investigacion.html) y por los comentarios de
+Instagram es input:
+  1. al editor le llega cada pregunta por Telegram: Aprobar / Descartar;
+  2. las aprobadas quedan como historial en el panel del portal, sin nombres;
+  3. el memo de los viernes las agrupa por tema y propone que investigar; el editor
+     elige en la sesion y se vinculan las preguntas al pedido (vincular) o a una nota
+     que ya las responde (responder);
+  4. cuando sale la nota, las preguntas quedan "Respondida" con el link y, si vinieron
+     de Instagram, se le contesta al comentario con la nota (la unica respuesta automatica).
 
-Al editor le llega cada una por Telegram:
-  pregunta:  Investigar (nace un pedido) / Mostrar en el panel / Descartar
-  pedido:    Investigar (pasa a recibido) / Descartar
+Reglas (politicas de Meta y ley 25.326): de un comentario se guarda el texto y su id,
+NUNCA el usuario ni el nombre; solo se contesta en NUESTRO posteo, a quien comento; nada
+de mensajes privados, likes ni comentarios en posteos ajenos.
 
-Reglas (dentro de las politicas de Meta y de la ley de datos personales):
-  - de un comentario se guarda el texto y su id, NUNCA el usuario ni el nombre;
-  - solo se le contesta a quien nos comento, en NUESTRO posteo, y solo dos veces:
-    cuando el editor decide investigarla y cuando sale la nota;
-  - nada de mensajes privados, likes ni comentarios en posteos ajenos.
-
-  ciclo     lo corre la tarea "Con Interes - Comunidad" cada 10 minutos:
-            lee comentarios, avisa lo pendiente y cierra lo que ya tiene nota
-  ver       lista las preguntas (prueba)
+  ciclo                      tarea "Con Interes - Comunidad", cada 10 minutos
+  exportar                   JSON de las preguntas (para el memo de los viernes)
+  vincular <pedido> <ids>    esas preguntas dieron origen a ese pedido
+  responder <url> <ids>      esas preguntas ya las responde una nota publicada
+  ver                        lista las preguntas
 """
-import datetime as dt, json, os, re, sys, time, unicodedata, urllib.parse, urllib.request
+import datetime as dt, json, os, re, sys, unicodedata, urllib.parse, urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pedidos_lectores as pl
@@ -34,7 +35,8 @@ POSTEOS_A_MIRAR = 10      # los ultimos posteos: los viejos casi no reciben come
 NUESTRO_USUARIO = "coninteres.ar"
 ORIGEN = {"instagram": "Instagram", "threads": "Threads", "web": "el portal"}
 INTERROGATIVOS = ("que ", "cuant", "como ", "por que", "porque ", "cual", "donde", "cuando", "quien",
-                  "es cierto", "es verdad", "se puede", "hay ")
+                  "es cierto", "es verdad", "se puede", "hay ", "me gustaria", "quisiera", "estaria bueno",
+                  "podrian", "investiguen", "saber ")
 
 
 def sb(metodo, consulta="", cuerpo=None, prefer="return=representation"):
@@ -44,6 +46,10 @@ def sb(metodo, consulta="", cuerpo=None, prefer="return=representation"):
     req = urllib.request.Request(URL_P + consulta, data=datos, headers=h, method=metodo)
     with urllib.request.urlopen(req, timeout=30) as r:
         return json.loads(r.read().decode("utf-8") or "[]")
+
+
+def ahora():
+    return dt.datetime.now(dt.timezone.utc).isoformat()
 
 
 def leer_estado():
@@ -61,8 +67,9 @@ def guardar_estado(e):
 
 
 def es_pregunta(t):
-    """Solo se modera lo que es una pregunta: un "genial" o un emoji no le llegan al editor.
-    Un comentario con links no se toma (suele ser publicidad)."""
+    """Solo se modera lo que es una pregunta o un pedido de tema: un "genial" o un emoji
+    no le llegan al editor. Un comentario con links o menciones no se toma (suele ser
+    publicidad o cadena)."""
     t = " ".join((t or "").split())
     if len(t) < 15 or len(t) > 300 or re.search(r"https?://|www\.|@\w", t):
         return False
@@ -117,33 +124,35 @@ def titulo_nota(nid):
 
 def avisar_pendientes():
     ed = igp.editor()
-    ahora = dt.datetime.now(dt.timezone.utc).isoformat()
     for q in sb("GET", "?select=id,texto,origen,nota_contexto&estado=eq.pendiente&avisada=is.null&order=creado&limit=10"):
-        l = ["\U0001f64b Pregunta de la comunidad (%s):" % ORIGEN.get(q["origen"], q["origen"]), "",
+        l = ["\U0001f64b Pregunta de un lector (%s):" % ORIGEN.get(q["origen"], q["origen"]), "",
              "\u00ab%s\u00bb" % q["texto"]]
         tn = titulo_nota(q.get("nota_contexto"))
         if tn:
             l += ["", "En el posteo de: " + tn]
-        l += ["", "Si la investigamos, nace un pedido y sale con la etiqueta de lector. En el panel se ve sin nombre."]
+        l += ["", "Aprobada, se ve en el historial del panel (sin nombre) y entra al memo de los viernes."]
         pl.tg("sendMessage", {"chat_id": ed, "text": "\n".join(l), "disable_web_page_preview": True,
                               "reply_markup": {"inline_keyboard": [
-                                  [{"text": "\U0001f50d Investigar", "callback_data": "cqi:%d" % q["id"]}],
-                                  [{"text": "\U0001f4cc Mostrar en el panel", "callback_data": "cqp:%d" % q["id"]},
+                                  [{"text": "\u2705 Aprobar", "callback_data": "cqa:%d" % q["id"]},
                                    {"text": "\u274c Descartar", "callback_data": "cqd:%d" % q["id"]}]]}})
-        sb("PATCH", "?id=eq.%d" % q["id"], {"avisada": ahora})
+        sb("PATCH", "?id=eq.%d" % q["id"], {"avisada": ahora()})
         print("OK|pregunta %d al editor" % q["id"])
-    for p in pl.pedir("GET", "?select=id,titulo,tipo,detalle,telegram_chat&estado=eq.moderacion"
-                             "&moderacion_avisada=is.null&or=(origen.is.null,origen.neq.prueba)&order=creado&limit=10"):
-        l = ["\U0001f4dd Pedido de investigaci\u00f3n desde el portal:", "", "\u00ab%s\u00bb" % p["titulo"].strip()]
-        if (p.get("detalle") or "").strip():
-            l += ["", p["detalle"].strip()[:700]]
-        l += ["", "Contacto: " + ("Telegram" if p.get("telegram_chat") else "sin contacto todav\u00eda")]
-        pl.tg("sendMessage", {"chat_id": ed, "text": "\n".join(l), "disable_web_page_preview": True,
-                              "reply_markup": {"inline_keyboard": [
-                                  [{"text": "\U0001f50d Investigar", "callback_data": "cpi:%d" % p["id"]},
-                                   {"text": "\u274c Descartar", "callback_data": "cpd:%d" % p["id"]}]]}})
-        pl.pedir("PATCH", "?id=eq.%d" % p["id"], {"moderacion_avisada": ahora})
-        print("OK|pedido %d al editor" % p["id"])
+
+
+def moderar_pregunta(qid, accion):
+    """Lo llama el bot al tocar un boton. Devuelve el texto para el editor."""
+    f = sb("GET", "?select=id,estado&id=eq.%d" % int(qid))
+    if not f:
+        return "No encuentro esa pregunta."
+    if f[0]["estado"] != "pendiente":
+        return "Esa pregunta ya estaba moderada (%s)." % f[0]["estado"]
+    nuevo = "aprobada" if accion == "cqa" else "descartada"
+    r = sb("PATCH", "?id=eq.%d&estado=eq.pendiente" % int(qid), {"estado": nuevo, "moderada": ahora()})
+    if len(r) != 1:
+        return "No pude registrarla: cambi\u00f3 mientras tanto."
+    if nuevo == "aprobada":
+        return "\u2705 Aprobada: queda en el historial del panel y entra al memo del viernes."
+    return "Descartada: no se muestra en ning\u00fan lado."
 
 
 def responder_ig(q, texto):
@@ -158,81 +167,58 @@ def responder_ig(q, texto):
         return False
 
 
-def titulo_pedido(t):
-    """El pedido tiene un tope de 140: la pregunta entera viaja en el detalle."""
-    t = " ".join(t.split())
-    if len(t) <= 140:
-        return t
-    if "?" in t[:140]:
-        return t[:t.index("?") + 1]
-    return t[:137].rsplit(" ", 1)[0] + "..."
-
-
-def moderar_pregunta(qid, accion):
-    """Lo llama el bot al tocar un boton. Devuelve el texto para el editor."""
-    f = sb("GET", "?select=*&id=eq.%d" % int(qid))
-    if not f:
-        return "No encuentro esa pregunta."
-    q = f[0]
-    if q["estado"] != "pendiente":
-        return "Esa pregunta ya estaba moderada (%s)." % q["estado"]
-    ahora = dt.datetime.now(dt.timezone.utc).isoformat()
-    if accion == "cqd":
-        sb("PATCH", "?id=eq.%d&estado=eq.pendiente" % q["id"], {"estado": "descartada", "moderada": ahora})
-        return "Descartada. No se muestra en ning\u00fan lado."
-    if accion == "cqp":
-        sb("PATCH", "?id=eq.%d&estado=eq.pendiente" % q["id"], {"estado": "en_panel", "moderada": ahora})
-        return "\U0001f4cc Queda en el panel de preguntas del portal, sin nombre."
-    detalle = ("Pregunta de la comunidad, llegada por %s: %s" % (ORIGEN.get(q["origen"], q["origen"]), q["texto"]))
-    if q.get("nota_contexto"):
-        detalle += "\n(La hicieron en el posteo de la nota %s.)" % q["nota_contexto"]
-    p = pl.pedir("POST", "", {"titulo": titulo_pedido(q["texto"]), "tipo": "otro", "detalle": detalle[:1500],
-                              "origen": "comunidad-" + q["origen"]})[0]
-    sb("PATCH", "?id=eq.%d&estado=eq.pendiente" % q["id"],
-       {"estado": "investigando", "moderada": ahora, "pedido_id": p["id"]})
-    contestada = responder_ig(q, "\u00a1Buena pregunta! \U0001f50d La estamos investigando. Cuando salga la nota "
-                                 "te contestamos por ac\u00e1.")
-    return ("\U0001f50d Va a investigaci\u00f3n: es el pedido %d. Sale con la etiqueta de lector.%s"
-            % (p["id"], " Le contestamos el comentario." if contestada else ""))
-
-
-def moderar_pedido(pid, accion):
-    f = pl.pedir("GET", "?select=id,estado,telegram_chat&id=eq.%d" % int(pid))
-    if not f:
-        return "No encuentro ese pedido."
-    p = f[0]
-    if p["estado"] != "moderacion":
-        return "Ese pedido ya estaba moderado (%s)." % p["estado"]
-    if accion == "cpd":
-        pl.pedir("PATCH", "?id=eq.%d&estado=eq.moderacion" % p["id"],
-                 {"estado": "descartado", "motivo": "moderacion: no se investiga",
-                  "cerrado": dt.datetime.now(dt.timezone.utc).isoformat()})
-        pl.avisar(p["id"], "Gracias por tu pedido. Esta vez no lo vamos a investigar, pero pod\u00e9s mandarnos otro "
-                           "cuando quieras.")
-        return "Descartado."
-    pl.pedir("PATCH", "?id=eq.%d&estado=eq.moderacion" % p["id"], {"estado": "recibido"})
-    pl.avisar(p["id"], "\u00a1Tu pedido entr\u00f3 a la redacci\u00f3n! \U0001f64c Ahora armamos el enfoque y te lo "
-                       "mando por ac\u00e1.")
-    return "\U0001f50d Pedido %d a investigaci\u00f3n." % p["id"]
+def marcar_respondida(q, url):
+    cambio = {"estado": "respondida", "nota_url": url}
+    if not q.get("respondida_ig") and responder_ig(
+            q, "\u00a1Gracias por la pregunta! Con lo que nos preguntaron armamos esta nota \U0001f4f0 " + url):
+        cambio["respondida_ig"] = ahora()
+    sb("PATCH", "?id=eq.%d" % q["id"], cambio)
+    print("OK|pregunta %d respondida: %s" % (q["id"], url))
 
 
 def seguimiento():
-    """Las que se estan investigando: si el pedido salio, queda Respondida con su nota y se le
-    contesta al comentario; si se cerro sin nota, vuelve al panel como pregunta."""
-    for q in sb("GET", "?select=*&estado=eq.investigando&pedido_id=not.is.null"):
+    """Las vinculadas a un pedido: cuando el pedido sale publicado, quedan respondidas."""
+    for q in sb("GET", "?select=*&estado=eq.aprobada&pedido_id=not.is.null"):
         f = pl.pedir("GET", "?select=estado,salida&id=eq.%d" % q["pedido_id"])
-        if not f:
-            continue
-        if f[0]["estado"] == "publicado" and f[0].get("salida"):
-            url = f[0]["salida"].strip().split()[0]
-            cambio = {"estado": "respondida", "nota_url": url}
-            if responder_ig(q, "\u00a1Ya est\u00e1 la respuesta a tu pregunta! \U0001f4f0 " + url):
-                cambio["respondida_ig"] = dt.datetime.now(dt.timezone.utc).isoformat()
-            sb("PATCH", "?id=eq.%d" % q["id"], cambio)
-            print("OK|pregunta %d respondida: %s" % (q["id"], url))
-        elif f[0]["estado"] == "descartado":
-            sb("PATCH", "?id=eq.%d" % q["id"], {"estado": "en_panel"})
-            print("OK|pregunta %d: el pedido se cerro sin nota, vuelve al panel" % q["id"])
+        if f and f[0]["estado"] == "publicado" and f[0].get("salida"):
+            marcar_respondida(q, f[0]["salida"].strip().split()[0])
+
+
+def ids_de(args):
+    ids = [int(x) for x in ",".join(args).replace(" ", ",").split(",") if x.strip()]
+    if not ids:
+        raise SystemExit("ERROR: faltan los ids de las preguntas")
+    return ids
+
+
+def vincular(pid, ids):
+    if not pl.pedir("GET", "?select=id&id=eq.%d" % int(pid)):
+        raise SystemExit("ERROR: no existe el pedido %s" % pid)
+    for i in ids:
+        r = sb("PATCH", "?id=eq.%d&estado=eq.aprobada" % i, {"pedido_id": int(pid)})
+        print("OK|pregunta %d -> pedido %s" % (i, pid) if r else "AVISO|pregunta %d no esta aprobada: no se vinculo" % i)
+
+
+def responder(url, ids):
+    if not url.startswith("https://coninteres.com/"):
+        raise SystemExit("ERROR: la nota tiene que ser una URL de coninteres.com")
+    for i in ids:
+        f = sb("GET", "?select=*&id=eq.%d&estado=eq.aprobada" % i)
+        if f:
+            marcar_respondida(f[0], url)
+        else:
+            print("AVISO|pregunta %d no esta aprobada: no se toca" % i)
+
+
+def exportar():
+    """Para el memo: las aprobadas y respondidas de los ultimos 60 dias (sin ids de Instagram)."""
+    try:
+        desde = (dt.datetime.now(dt.timezone.utc) - dt.timedelta(days=60)).isoformat()
+        filas = sb("GET", "?select=id,creado,origen,estado,texto,nota_contexto,pedido_id,nota_url"
+                          "&estado=in.(aprobada,respondida)&creado=gt." + urllib.parse.quote(desde) + "&order=creado")
+        print(json.dumps({"preguntas": filas}, ensure_ascii=False))
+    except Exception as e:
+        print(json.dumps({"error": "%s: %s" % (type(e).__name__, e)}))
 
 
 def ciclo():
@@ -247,7 +233,7 @@ def ciclo():
 
 
 def ver():
-    for q in sb("GET", "?select=id,estado,origen,texto,pedido_id,nota_url&order=creado.desc&limit=30"):
+    for q in sb("GET", "?select=id,estado,origen,texto,pedido_id,nota_url&order=creado.desc&limit=50"):
         print("%(id)s|%(estado)s|%(origen)s|%(pedido_id)s|%(texto)s" % q)
 
 
@@ -257,11 +243,15 @@ if __name__ == "__main__":
     cmd = sys.argv[1]
     if cmd == "ciclo":
         ciclo()
+    elif cmd == "exportar":
+        exportar()
     elif cmd == "ver":
         ver()
-    elif cmd in ("cqi", "cqp", "cqd"):
+    elif cmd == "vincular" and len(sys.argv) > 3:
+        vincular(sys.argv[2], ids_de(sys.argv[3:]))
+    elif cmd == "responder" and len(sys.argv) > 3:
+        responder(sys.argv[2], ids_de(sys.argv[3:]))
+    elif cmd in ("cqa", "cqd") and len(sys.argv) > 2:
         print(moderar_pregunta(sys.argv[2], cmd))
-    elif cmd in ("cpi", "cpd"):
-        print(moderar_pedido(sys.argv[2], cmd))
     else:
         raise SystemExit(__doc__)

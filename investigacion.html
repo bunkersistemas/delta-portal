@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Pedí una investigación — Con Interés</title>
-<meta name="description" content="Contanos qué querés saber sobre la economía y la redacción de Con Interés lo investiga contra la fuente primaria.">
+<title>¿Qué querés que investiguemos? — Con Interés</title>
+<meta name="description" content="Contanos qué te interesa de la economía: leemos todas las preguntas de los lectores y cada semana elegimos qué investigar.">
 <link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
 <!-- piloto (12/10/2026): pagina sin link en el menu y fuera del sitemap; se comparte a mano -->
 <meta name="robots" content="noindex,nofollow">
@@ -67,6 +67,12 @@
   footer .wrap{font-family:var(--mono);font-size:12px;color:var(--muted)}
   footer a{text-decoration:none}
   @media(max-width:600px){ h1{font-size:29px} .sub{font-size:17px} .caja{padding:18px 16px} }
+  .historial{margin:6px 0 10px}
+  .hq{border-bottom:1px solid var(--grid);padding:12px 0}
+  .hq-de{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--faint)}
+  .hq-txt{margin:4px 0 6px;font-size:16px;color:var(--ink)}
+  .hq-ok{display:inline-block;font-size:13px;font-weight:600;background:#E3F2EC;color:var(--teal-deep);border-radius:999px;padding:3px 10px;text-decoration:none}
+  .vacio{color:var(--muted);font-size:15px}
 </style>
 </head>
 <body>
@@ -80,65 +86,44 @@
 
 <div class="wrap">
   <div class="kicker">Con vos</div>
-  <h1>Pedí una investigación</h1>
-  <p class="sub">¿Hay algo de la economía que querés entender y nadie te lo cuenta con números?
-  Contanos qué querés saber. La redacción lo investiga contra la fuente primaria y, si el dato
-  existe, lo publica.</p>
+  <h1>¿Qué querés que investiguemos?</h1>
+  <p class="sub">Contanos qué te interesa de la economía y nadie te lo cuenta con números.
+  Leemos todas las preguntas y, cada semana, elegimos qué investigar según lo que más nos
+  preguntan.</p>
 
   <div class="caja">
     <form id="f" novalidate>
-      <label class="campo">¿Qué tipo de pregunta es?</label>
-      <div class="tipos" role="radiogroup">
-        <input type="radio" name="tipo" id="t1" value="cuanto-cuesta" checked><label for="t1">¿Cuánto cuesta? ¿Quién paga?</label>
-        <input type="radio" name="tipo" id="t2" value="verificar-cifra"><label for="t2">Verificar una cifra que vi</label>
-        <input type="radio" name="tipo" id="t3" value="comparar"><label for="t3">Comparar con otro país u otra época</label>
-        <input type="radio" name="tipo" id="t4" value="otro"><label for="t4">Otra</label>
-      </div>
-
-      <label class="campo" for="titulo">Tu pregunta, en una línea</label>
-      <input type="text" id="titulo" maxlength="140" required>
-      <div class="cuenta"><span id="ct">0</span>/140</div>
-
-      <label class="campo" for="detalle">Contanos un poco más <span class="opc">(opcional)</span></label>
-      <textarea id="detalle" maxlength="1500" placeholder="Por qué te interesa, dónde lo viste, qué te gustaría que comparemos..."></textarea>
-
-      <label class="campo" for="correo">Tu correo <span class="opc">(opcional: para mostrarte el enfoque antes de investigar y avisarte cuando salga)</span></label>
-      <input type="email" id="correo" maxlength="200" autocomplete="email">
+      <label class="campo" for="pregunta">Tu pregunta</label>
+      <textarea id="pregunta" maxlength="300" placeholder="Ej.: ¿Cuánto le cuesta a un club de barrio mantener una pileta?"></textarea>
+      <div class="cuenta"><span id="ct">0</span>/300</div>
 
       <div class="trampa" aria-hidden="true"><label for="web">No completar</label><input type="text" id="web" tabindex="-1" autocomplete="off"></div>
 
-      <button type="submit" id="b">Enviar pedido</button>
+      <button type="submit" id="b">Enviar mi pregunta</button>
       <div class="aviso" id="aviso" role="status"></div>
-      <div class="tg oculto" id="tg">
-        <p><b>Seguí tu pedido por Telegram.</b> Te avisamos si lo tomamos, te mostramos el enfoque antes de investigar
-        (lo aprobás con un botón) y te avisamos cuando sale la nota.</p>
-        <a class="tg-boton" id="tg-link" href="#" target="_blank" rel="noopener">Abrir @Con_Interes_bot</a>
-        <p class="tg-nota">Tocá <b>Iniciar</b> en el chat para vincularlo con este pedido.</p>
-      </div>
     </form>
   </div>
 
-  <h2>Cómo sigue tu pedido</h2>
+  <h2>Qué hacemos con tu pregunta</h2>
   <ol class="pasos">
-    <li>Tu pedido entra a la lista de temas que mira la redacción. Primero lo revisamos: si lo tomamos, te avisamos.</li>
-    <li>Si seguís tu pedido por Telegram (o dejaste tu correo), antes de investigar te mostramos <b>qué vamos a contestar y
-    con qué fuentes</b>. Lo aprobás o nos decís qué querías, y lo rehacemos.</li>
-    <li>Investigamos con fuentes verificables: un organismo, una ley, un presupuesto, un
-    balance. Vos elegís qué se investiga; el resultado es el que den los datos.</li>
-    <li>Sale como nota, con la misma vara que cualquier otra: cada cifra confirmada contra la
-    fuente primaria, y con la marca de que la pidió un lector.</li>
-    <li>Si dejaste tu correo, te avisamos cuando se publique.</li>
+    <li>La leemos. No publicamos insultos, datos personales ni acusaciones contra nadie.</li>
+    <li>Si la aprobamos, aparece abajo, en las preguntas de los lectores, <b>sin tu nombre</b>.</li>
+    <li>Cada semana miramos todas juntas, vemos qué temas se repiten y elegimos qué investigar.</li>
+    <li>Cuando sale una nota que la responde, la marcamos como <b>Respondida</b>, con el link.</li>
   </ol>
+
+  <h2>Lo que preguntaron los lectores</h2>
+  <div id="historial" class="historial"><p class="vacio">Cargando…</p></div>
 
   <div class="reglas">
     <h3>&#9651; Las reglas</h3>
     <ul>
-      <li><b>Un pedido es un candidato, nunca una orden.</b> Tu pregunta nos dice qué mirar;
-      qué se publica lo decide la redacción con los criterios de siempre.</li>
+      <li><b>Una pregunta es una pista, nunca una orden.</b> Nos dice qué les interesa a
+      los lectores; qué se investiga y qué se publica lo decide la redacción con los
+      criterios de siempre.</li>
       <li><b>Investigamos números, no personas.</b> Nada sobre particulares que no sean
       figuras públicas, y ninguna acusación penal sin sentencia.</li>
-      <li><b>Tu correo no se publica</b> ni se comparte: se usa solo para avisarte de tu
-      pedido.</li>
+      <li><b>No te pedimos nombre ni correo.</b> Guardamos solo el texto de la pregunta.</li>
       <li><b>Si el dato no existe o no se puede verificar, no hay nota.</b> Preferimos no
       publicar antes que publicar un dato falso.</li>
       <li><b>No es asesoramiento financiero.</b> Informamos; no decimos qué comprar ni en qué
@@ -154,64 +139,59 @@
 
 <script>
 (function () {
-  // La llave publica solo permite AGREGAR un pedido: no leer, cambiar ni borrar
-  // (permisos de la tabla en Supabase, probados el 12/10/2026).
-  var URL_PEDIDOS = "https://tgjxivohobemoirrkwrq.supabase.co/rest/v1/pedidos";
+  // Editor, 13/10/2026: una pregunta no es un pedido de investigacion. La pagina solo
+  // puede AGREGAR una pregunta (pregunta_enviar: queda pendiente hasta que la apruebe el
+  // editor) y leer las aprobadas (preguntas_panel). La tabla no la ve.
+  var BASE = "https://tgjxivohobemoirrkwrq.supabase.co/rest/v1/rpc/";
   var LLAVE = "sb_publishable_nBxN5DKUcmBwVhkgqNfs8g_ILB1fplb";
-  var EJEMPLOS = {
-    "cuanto-cuesta": "Ej.: ¿Cuánto le cuesta a un club de barrio mantener una pileta?",
-    "verificar-cifra": "Ej.: ¿Es cierto que el 40% del precio de la nafta son impuestos?",
-    "comparar": "Ej.: ¿Cuántas horas hay que trabajar para comprar un auto, hoy y en 2015?",
-    "otro": "Escribí tu pregunta"
-  };
-  var f = document.getElementById("f"), titulo = document.getElementById("titulo"),
+  var DONDE = { instagram: "en Instagram", threads: "en Threads", web: "en el portal" };
+  var f = document.getElementById("f"), q = document.getElementById("pregunta"),
       ct = document.getElementById("ct"), aviso = document.getElementById("aviso"),
-      b = document.getElementById("b");
-  var origen = (new URLSearchParams(location.search).get("de") || "web").slice(0, 40);
+      b = document.getElementById("b"), hist = document.getElementById("historial");
 
-  function nuevoCodigo() {
-    if (window.crypto && crypto.randomUUID) return crypto.randomUUID();
-    var b = new Uint8Array(16); crypto.getRandomValues(b); b[6] = (b[6] & 15) | 64; b[8] = (b[8] & 63) | 128;
-    var h = Array.prototype.map.call(b, function (x) { return (x + 256).toString(16).slice(1); }).join("");
-    return h.slice(0, 8) + "-" + h.slice(8, 12) + "-" + h.slice(12, 16) + "-" + h.slice(16, 20) + "-" + h.slice(20);
+  function rpc(nombre, cuerpo) {
+    return fetch(BASE + nombre, { method: "POST", headers: { "apikey": LLAVE, "Content-Type": "application/json" },
+                                  body: JSON.stringify(cuerpo || {}) });
   }
-  function tipo() { return f.querySelector("input[name=tipo]:checked").value; }
-  function ejemplo() { titulo.placeholder = EJEMPLOS[tipo()]; }
   function decir(texto, ok) { aviso.textContent = texto; aviso.className = "aviso " + (ok ? "ok" : "mal"); }
-  f.querySelectorAll("input[name=tipo]").forEach(function (r) { r.addEventListener("change", ejemplo); });
-  titulo.addEventListener("input", function () { ct.textContent = titulo.value.length; });
-  ejemplo();
+  q.addEventListener("input", function () { ct.textContent = q.value.length; });
+
+  function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
+  function fecha(s) {
+    var d = new Date(s);
+    return isNaN(d) ? "" : d.toLocaleDateString("es-AR", { day: "numeric", month: "long" });
+  }
+  rpc("preguntas_panel").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (filas) {
+      hist.innerHTML = "";
+      if (!filas || !filas.length) { hist.appendChild(el("p", "vacio", "Todavía no hay preguntas publicadas. ¡Dejá la primera!")); return; }
+      filas.forEach(function (p) {
+        var it = el("div", "hq");
+        it.appendChild(el("div", "hq-de", "Preguntaron " + (DONDE[p.origen] || "") + " · " + fecha(p.creado)));
+        it.appendChild(el("p", "hq-txt", p.texto));
+        if (p.estado === "respondida" && p.nota_url) {
+          var a = el("a", "hq-ok", "✅ Respondida → leer la nota");
+          a.href = String(p.nota_url).replace("https://coninteres.com/", "");
+          it.appendChild(a);
+        }
+        hist.appendChild(it);
+      });
+    })
+    .catch(function () { hist.innerHTML = ""; hist.appendChild(el("p", "vacio", "No pudimos cargar las preguntas. Probá de nuevo en un rato.")); });
 
   f.addEventListener("submit", function (e) {
     e.preventDefault();
-    if (document.getElementById("web").value) { decir("¡Gracias! Recibimos tu pedido.", true); f.reset(); return; }
-    var t = titulo.value.trim(), d = document.getElementById("detalle").value.trim(),
-        c = document.getElementById("correo").value.trim();
-    if (t.length < 5) { decir("Escribí tu pregunta (al menos 5 letras).", false); titulo.focus(); return; }
-    if (c && !/^[^@\s]+@[^@\s]+\.[^@\s]+$/.test(c)) { decir("El correo no parece válido. Podés dejarlo vacío.", false); return; }
-    var codigo = nuevoCodigo();
-    document.getElementById("tg").classList.add("oculto");
+    var t = q.value.replace(/\s+/g, " ").trim();
+    if (t.length < 10) { decir("Escribí tu pregunta (al menos 10 letras).", false); q.focus(); return; }
     b.disabled = true; b.textContent = "Enviando...";
-    fetch(URL_PEDIDOS, {
-      method: "POST",
-      headers: { "apikey": LLAVE, "Content-Type": "application/json", "Prefer": "return=minimal" },
-      body: JSON.stringify({ titulo: t, tipo: tipo(), detalle: d, correo: c || null, origen: origen, codigo_tg: codigo })
-    }).then(function (r) {
-      if (r.ok) {
-        decir("¡Gracias! Recibimos tu pedido.", true);
-        // el codigo une este pedido con el chat de Telegram del lector (no se puede leer de vuelta)
-        document.getElementById("tg-link").href = "https://t.me/Con_Interes_bot?start=" + codigo;
-        document.getElementById("tg").classList.remove("oculto");
-        f.reset(); ct.textContent = "0"; ejemplo();
-        return;
-      }
+    rpc("pregunta_enviar", { p_texto: t, p_trampa: document.getElementById("web").value || "" }).then(function (r) {
+      if (r.ok) { decir("¡Gracias! La leemos y, si la aprobamos, aparece en las preguntas de los lectores.", true); f.reset(); ct.textContent = "0"; return; }
       return r.json().catch(function () { return {}; }).then(function (j) {
-        if (j && j.code === "P0001") decir("Entraron muchos pedidos en la última hora. Probá de nuevo más tarde.", false);
-        else decir("No pudimos guardar tu pedido. Probá de nuevo en un rato.", false);
+        decir(j && j.message && /hora/.test(j.message) ? "Llegaron muchas preguntas en la última hora. Probá más tarde."
+                                                       : "No pudimos guardar tu pregunta. Probá de nuevo en un rato.", false);
       });
-    }).catch(function () {
-      decir("No hay conexión. Probá de nuevo en un rato.", false);
-    }).then(function () { b.disabled = false; b.textContent = "Enviar pedido"; });
+    }).catch(function () { decir("No hay conexión. Probá de nuevo en un rato.", false); })
+      .then(function () { b.disabled = false; b.textContent = "Enviar mi pregunta"; });
   });
 })();
 </script>
