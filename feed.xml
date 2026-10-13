@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 17:07:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 17:21:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Ganó o perdió quien sacó un crédito hipotecario UVA en 2018?</title>
+      <link>https://coninteres.com/articulos/2026-10-13-credito-uva-2018-gano-o-perdio.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-credito-uva-2018-gano-o-perdio.html</guid>
+      <pubDate>Tue, 13 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Contra el sueldo, perdió: desde enero de 2018 la UVA, que mueve la cuota y la deuda, se multiplicó por 96,9 y el salario registrado promedio por 73,6. La cuota pesa hoy 31,6% más sobre ese sueldo. Contra los precios, empató, porque la UVA es eso. Y contra el alquiler, la cuota que en 2018 equivalía a un 2 ambientes porteño hoy cuesta 29% más que ese alquiler.</description>
+      <ci:numero>31,6%</ci:numero>
+      <ci:numeroEtiqueta>cuánto más pesa en agosto de 2026 la cuota de un crédito UVA tomado en enero de 2018 sobre el salario promedio registrado: UVA x96,87 (21,64 el 31/01/2018 -&gt; 2.096,27 el 31/08/2026, BCRA) contra RIPTE x73,62 ($26.929,81 -&gt; $1.982.518,19, Seguridad Social); contraste índice de salarios INDEC privado registrado: +28,3% a julio</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-credito-uva-2018-gano-o-perdio.png" length="76183" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-credito-uva-2018-gano-o-perdio.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>¿La inflación viene bajando, como dice el Gobierno, y desde cuándo?</title>
       <link>https://coninteres.com/articulos/2026-10-13-inflacion-viene-bajando-desde-cuando.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>caída real del presupuesto nacional del deporte entre 2023 y 2026 (Presupuesto Abierto, crédito vigente al 07/10/2026): $61.296,0 M en 2026 (programas de deporte $39.896,0 M + ENARD $21.400,0 M) contra $33.319,3 M en 2023, que con el IPC promedio del INDEC son $192.650 M de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-10-presupuesto-deporte-nacional-enard-2026.png" length="84267" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-10-presupuesto-deporte-nacional-enard-2026.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La salud mental tiene $1,47 de cada $100 del presupuesto nacional de salud en 2026, la porción más chica en cuatro años: la ley pide $10</title>
-      <link>https://coninteres.com/articulos/2026-10-10-presupuesto-salud-mental-ley-10-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-10-presupuesto-salud-mental-ley-10-por-ciento.html</guid>
-      <pubDate>Sat, 10 Oct 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Estado nacional tiene asignados $138.292 millones a salud mental y adicciones este año. La Ley 26.657 fija un piso del 10% del presupuesto de salud desde 2013, y para llegar harían falta $942.184 millones: 6,8 veces más. La porción venía de 2,62% en 2023.</description>
-      <ci:numero>1,47%</ci:numero>
-      <ci:numeroEtiqueta>porción del presupuesto nacional de salud 2026 asignada a salud mental y adicciones (Presupuesto Abierto, crédito vigente al 07/10/2026): $138.291,6 M de SEDRONAR, hospitales Ramón Carrillo y Laura Bonaparte y la actividad Apoyo y Promoción de la Salud Mental, sobre $9.421.841,5 M de la función Salud; la Ley 26.657 pide 10%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-10-presupuesto-salud-mental-ley-10-por-ciento.png" length="83081" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-10-presupuesto-salud-mental-ley-10-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

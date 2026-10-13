@@ -4083,6 +4083,14 @@
       "estado": "publicada",
       "articulo_id": "2026-10-13-inflacion-viene-bajando-desde-cuando",
       "archivo": "cola/2026-10-13-inflacion-viene-bajando-desde-cuando.html"
+    },
+    {
+      "tema": "¿ganó o perdió quien sacó un crédito hipotecario UVA en 2018? (pedido de lector 98) / UVA BCRA var 31: 21,64 (31/01/18), 2.096,27 (31/08/26), 2.150,53 (13/10/26); x96,87 ene18-ago26 vs RIPTE x73,62 ($26.929,81 -> $1.982.518,19) => cuota pesa +31,6% (dic-18: +16,9%; ene-abr 18: 31,0-31,9%); pico jun-24 +39,1%; 2019-23 entre +9 y +22%. IPC ene18-ago26 x96,68; salario real RIPTE -23,9%. Caso del lector (2 M, cuota 11.000 = 0,55%): 20 años 2,9% / 25 años 4,4% / 30 años 5,2%; cuota hoy $1,02-1,09 M (créditos ene-abr 18); saldo $120,6-168,7 M; en USD 78-110 mil vs 97-103 mil de origen. Alquiler IDECBA CABA 1T18 -> 2T26: 2 amb $10.279 -> $764.485 (x74,4), 3 amb $16.418 -> $1.174.304 (x71,5); cuota ejemplo 2T26 $986.221 (x89,7; UVA x88,7); INDEC alquiler GBA x80,4; desde jun-20 alquiler INDEC x50,2 vs UVA x38,8",
+      "angulo": "Corrida del pedido de lector 98 (pregunta de la comunidad aprobada por el editor, sin enfoque previo), 13/10/2026. Ancla por estadística oficial recalculada: UVA recalculada con CER (x97,0 vs x96,9), RIPTE planilla oficial = página oficial = serie datos.gob.ar (100 meses al centavo), contraste índice de salarios INDEC privado registrado (cuota +28,3% a julio). Alquileres: niveles IDECBA (misma unidad base 43/70 m2) + clase alquiler de la vivienda IPC INDEC GBA. Decreto 767/2020 (congelamiento 2020, saldo diferido) mencionado como límite. Queda afuera el valor de la vivienda (sin serie oficial nacional) y el sueldo propio del lector. Ángulo nuevo frente a 2026-09-25-cuanto-presta-banco-hipotecario-sueldo-promedio (créditos nuevos), enlazada. Sin consejo de cancelar, refinanciar ni alquilar.",
+      "fecha": "2026-10-13",
+      "estado": "publicada",
+      "articulo_id": "2026-10-13-credito-uva-2018-gano-o-perdio",
+      "archivo": "cola/2026-10-13-credito-uva-2018-gano-o-perdio.html"
     }
   ]
 }

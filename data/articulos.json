@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-13T17:06:58-03:00",
+    "actualizado": "2026-10-13T17:21:50-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-13-credito-uva-2018-gano-o-perdio",
+      "titulo": "¿Ganó o perdió quien sacó un crédito hipotecario UVA en 2018?",
+      "bajada": "Contra el sueldo, perdió: desde enero de 2018 la UVA, que mueve la cuota y la deuda, se multiplicó por 96,9 y el salario registrado promedio por 73,6. La cuota pesa hoy 31,6% más sobre ese sueldo. Contra los precios, empató, porque la UVA es eso. Y contra el alquiler, la cuota que en 2018 equivalía a un 2 ambientes porteño hoy cuesta 29% más que ese alquiler.",
+      "titulo_busqueda": "¿Cuánto subió la cuota de un crédito UVA de 2018 contra el sueldo y el alquiler?",
+      "seccion": "ECONOMÍA",
+      "formato": "Investigación",
+      "numero": "31,6%",
+      "numero_label": "cuánto más pesa en agosto de 2026 la cuota de un crédito UVA tomado en enero de 2018 sobre el salario promedio registrado: UVA x96,87 (21,64 el 31/01/2018 -> 2.096,27 el 31/08/2026, BCRA) contra RIPTE x73,62 ($26.929,81 -> $1.982.518,19, Seguridad Social); contraste índice de salarios INDEC privado registrado: +28,3% a julio",
+      "fecha": "2026-10-13",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-13-credito-uva-2018-gano-o-perdio.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 9 min",
+      "pedido": 98
+    },
     {
       "id": "2026-10-13-inflacion-viene-bajando-desde-cuando",
       "titulo": "¿La inflación viene bajando, como dice el Gobierno, y desde cuándo?",
