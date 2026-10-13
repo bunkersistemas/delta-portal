@@ -1,5 +1,24 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-13T10:05:00-03:00",
-  "borradores": []
+  "actualizado": "2026-10-13T11:15:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-10-13-ia-sensacion-empleo-argentina-sectores",
+      "titulo": "En la Argentina se perdieron 246 mil empleos asalariados privados registrados desde noviembre de 2023 y 6 de cada 10 fueron en la industria y la construcción, de los sectores menos expuestos a la IA; en EE.UU., las empresas nombraron a la IA en 4,5 de cada 100 despidos anunciados en 2025",
+      "titulo_busqueda": "¿La IA está dejando gente sin trabajo en la Argentina? Dónde se perdió el empleo y cómo se adaptan en otros países",
+      "bajada": "Si los estudios no muestran que la inteligencia artificial haya achicado el empleo total, ¿de dónde sale la sensación de que deja gente sin trabajo? Una parte viene de los anuncios de despidos de empresas de EE.UU.: en 2026 la IA ya es la razón que más nombran. En la Argentina, el empleo privado registrado cayó 3,9%, pero la caída se concentró en los sectores donde la IA menos llega. Y en los países donde la IA ya se usa mucho, lo que cambió primero fueron las tareas, no los puestos.",
+      "seccion": "IA",
+      "formato": "Investigación",
+      "numero": "−246 mil",
+      "numero_label": "asalariados privados registrados menos en la Argentina entre noviembre de 2023 (6.372.692) y junio de 2026 (6.126.380), serie sin estacionalidad del SIPA (Secretaría de Trabajo, cuadro T.2.2): −3,9%; industria y construcción, −151 mil (61%); finanzas y enseñanza, los sectores más expuestos a la IA según el Ministerio de Trabajo, −8 mil (3%)",
+      "fecha": "2026-10-13",
+      "hora": "11:15",
+      "archivo": "cola/2026-10-13-ia-sensacion-empleo-argentina-sectores.html",
+      "verificacion": "verificada",
+      "fuentes": 16,
+      "lectura": "30 seg → 12 min",
+      "pedido": 95,
+      "revision_lector": true
+    }
+  ]
 }

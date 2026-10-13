@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿La IA está dejando gente sin trabajo en la Argentina? Dónde se perdió el empleo y cómo se adaptan en otros países — CON INTERÉS</title>
+<meta name="description" content="Desde noviembre de 2023 se perdieron 246 mil empleos asalariados privados registrados en la Argentina; 6 de cada 10 en la industria y la construcción, de los sectores menos expuestos a la IA. En EE.UU., las empresas nombran a la IA en el 21% de los despidos anunciados en 2026. Qué cambió en el trabajo donde la IA ya se usa.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+  .draft-ribbon{background:var(--amber);color:#fff;font-family:var(--mono);font-size:12px;text-align:center;padding:8px 12px;letter-spacing:.04em}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .prose h3.sub{font-family:var(--serif);font-size:24px;font-weight:700;margin:36px 0 14px;line-height:1.25}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:470px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* tabla de estudios */
+  .tabla-wrap{overflow-x:auto}
+  table.estudios{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.45}
+  table.estudios th{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:2px solid var(--ink);padding:8px 8px 6px;font-weight:600}
+  table.estudios td{border-bottom:1px solid var(--grid);padding:9px 8px;vertical-align:top;color:var(--ink-soft)}
+  table.estudios td:first-child{font-weight:600;color:var(--ink)}
+  table.estudios tr.grupo td{background:#F3EFE7;font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--teal-deep);font-weight:600}
+  table.estudios tr.falta td{color:var(--muted);font-style:italic}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .lbl{font-family:var(--mono);font-size:12px;fill:var(--teal-deep);font-weight:600}
+</style>
+</head>
+<body data-palette="#B8336A,#0E7C86,#B9AE9C,#6B6560">
+<div class="draft-ribbon">Borrador generado por la redacción de agentes y pendiente de aprobación. No publicado.</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">LA ECONOMÍA DE LA IA <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <h1>En la Argentina se perdieron 246 mil empleos asalariados privados registrados desde noviembre de 2023 y 6 de cada 10 fueron en la industria y la construcción, de los sectores menos expuestos a la IA; en EE.UU., las empresas nombraron a la IA en 4,5 de cada 100 despidos anunciados en 2025</h1>
+
+  <p class="standfirst">Si los estudios no muestran que la inteligencia artificial haya achicado el empleo total, ¿de dónde sale la sensación de que deja gente sin trabajo? Una parte viene de los anuncios de despidos de empresas de EE.UU.: en 2026 la IA ya es la razón que más nombran. En la Argentina, el empleo privado registrado cayó 3,9%, pero la caída se concentró en los sectores donde la IA menos llega. Y en los países donde la IA ya se usa mucho, lo que cambió primero fueron las tareas, no los puestos.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>13 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 12 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta tres cosas, con datos de los últimos cinco años: de dónde sale la sensación de que la IA deja gente sin trabajo, cuánto empleo registrado perdió la Argentina y en qué sectores, y qué cambió en el trabajo de la gente en los países donde la IA ya se usa mucho, con los programas de recapacitación que midieron resultados. Cumple el enfoque que aprobó el lector, con tres límites que impusieron los datos. La sensación en la Argentina no se puede medir: no encontramos ninguna encuesta argentina con método publicado sobre el miedo a perder el trabajo por la IA, así que las cifras de miedo son de EE.UU. Ningún registro argentino dice por qué se perdió un puesto, así que mostramos dónde se perdió, no la causa. Y la informalidad de la EPH se mide con la definición nueva del INDEC recién desde 2025, así que solo se compara contra un año atrás.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">1m</span></button>
+      <button data-go="b3">En contexto <span class="t">6m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">3m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">&minus;246<span class="u">mil</span></div>
+      <div class="cap">Es lo que cayó el <b>empleo asalariado privado registrado</b> en la Argentina entre noviembre de 2023 y junio de 2026: de 6,37 a 6,13 millones de puestos, <b>&minus;3,9%</b>, según el SIPA. La industria y la construcción explican 151 mil, <b>6 de cada 10</b>. Los dos sectores que el Ministerio de Trabajo identificó como los más expuestos a la IA, finanzas y enseñanza, explican 8 mil: <b>3 de cada 100</b>.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v up">6 de 10</span><span class="k">de los puestos perdidos: industria y construcción</span></div>
+        <div class="sr"><span class="v">3 de 100</span><span class="k">en los dos sectores más expuestos a la IA</span></div>
+        <div class="sr"><span class="v up">21%</span><span class="k">de los despidos anunciados en EE.UU. en 2026 nombran a la IA</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">Esta mañana publicamos que <a href="../articulos/2026-10-13-ia-quita-empleo-que-dicen-los-estudios.html">seis estudios con registros reales de empleo</a> no encontraron que la IA haya achicado el empleo total en Estados Unidos, Dinamarca, Noruega y Francia. Un lector preguntó lo obvio: si es así, ¿por qué en la mesa se siente lo contrario? ¿Puede ser que la Argentina esté perdiendo empleo por otras razones y le echemos la culpa a la IA? ¿Y cómo se adaptaron en otros países?</p>
+    <p>Los datos dan tres respuestas. <b>La sensación tiene de dónde salir:</b> en Estados Unidos, las empresas nombraron a la IA en el 4,5% de los despidos que anunciaron en 2025 y en el 21% de los que anunciaron en 2026 hasta septiembre, según la consultora Challenger, Gray &amp; Christmas. Ese año la IA pasó a ser la primera razón que dan. Pero un anuncio no es un puesto reemplazado, y los estudios que miran los registros de empleo de ese país todavía no encuentran una caída del empleo total por la IA.</p>
+    <p><b>En la Argentina sí se perdió empleo, y mucho, pero no donde la IA más llega.</b> Desde noviembre de 2023 hay <b class="hl">246 mil asalariados privados registrados menos</b>. Seis de cada diez de esos puestos eran de la industria y la construcción, sectores donde la mayoría de los trabajadores tiene tareas físicas que un chatbot no hace. Finanzas y enseñanza, los sectores más expuestos según el Ministerio de Trabajo, perdieron 8 mil. Eso no prueba que la IA no haya tenido nada que ver: ningún registro argentino anota por qué se pierde un puesto. Pero el mapa de la caída se parece mucho más al de una caída de la industria y la construcción que al de una ola de automatización de oficinas.</p>
+    <p><b>Y donde la IA ya se usa mucho, lo que cambió primero fueron las tareas.</b> En Dinamarca, 85% de los que usan chatbots en el trabajo dice que usa el tiempo que ahorra en otras tareas, y los que los adoptaron cambiaron de ocupación más que el resto, sobre todo hacia soporte informático y tareas administrativas. Los gobiernos ponen plata en recapacitación; pocos programas midieron si funciona.</p>
+  </div>
+
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">La respuesta, en una tabla</div>
+        <h3>Lo que se mide, dónde y qué da</h3>
+        <p class="fig-sub">Cada fila sale de un documento original, enlazado en "Cómo lo sabemos" y al pie.</p>
+      </div>
+      <div class="tabla-wrap">
+      <table class="estudios">
+        <thead><tr><th>Qué se mide</th><th>Dónde</th><th>Dato</th><th>Fuente</th></tr></thead>
+        <tbody>
+          <tr class="grupo"><td colspan="4">La sensación</td></tr>
+          <tr><td>Despidos anunciados en 2025 en los que la empresa nombró a la IA</td><td>Estados Unidos</td><td>54.836 de 1.206.374 (4,5%)</td><td>Challenger, Gray &amp; Christmas</td></tr>
+          <tr><td>Despidos anunciados en 2026, hasta septiembre, que nombran a la IA</td><td>Estados Unidos</td><td>120.136 de 573.195 (21%): la primera razón</td><td>Challenger, Gray &amp; Christmas</td></tr>
+          <tr><td>Trabajadores preocupados por el uso futuro de la IA en el trabajo</td><td>Estados Unidos</td><td>52%; 32% cree que tendrá menos oportunidades</td><td>Pew Research Center (encuesta de octubre de 2024)</td></tr>
+          <tr><td>Trabajadores que temen que la tecnología vuelva obsoleto su empleo</td><td>Estados Unidos</td><td>27%, el máximo de la serie</td><td>Gallup (agosto de 2026)</td></tr>
+          <tr class="falta"><td>Miedo a perder el trabajo por la IA</td><td>Argentina</td><td>?</td><td>No encontramos una encuesta con método publicado</td></tr>
+          <tr class="grupo"><td colspan="4">La Argentina</td></tr>
+          <tr><td>Asalariados privados registrados, noviembre de 2023 a junio de 2026 (sin estacionalidad)</td><td>Argentina</td><td>de 6,37 a 6,13 millones (&minus;246 mil, &minus;3,9%)</td><td>SIPA, Secretaría de Trabajo</td></tr>
+          <tr><td>De esa caída, en industria y construcción</td><td>Argentina</td><td>151 mil (61%)</td><td>SIPA, cálculo propio</td></tr>
+          <tr><td>De esa caída, en finanzas y enseñanza, los más expuestos a la IA</td><td>Argentina</td><td>8 mil (3%)</td><td>SIPA y Ministerio de Trabajo, cálculo propio</td></tr>
+          <tr><td>Desocupación, segundo trimestre</td><td>Argentina, 31 aglomerados</td><td>6,2% en 2023 y 7,9% en 2026</td><td>INDEC, EPH</td></tr>
+          <tr class="falta"><td>Empleos perdidos en la Argentina que se pueden atribuir a la IA</td><td>Argentina</td><td>?</td><td>Ningún registro lo mide</td></tr>
+          <tr class="grupo"><td colspan="4">La adaptación</td></tr>
+          <tr><td>Usuarios de chatbots que pasan el tiempo ahorrado a otras tareas</td><td>Dinamarca</td><td>85%</td><td>Humlum y Vestergaard (NBER)</td></tr>
+          <tr><td>Usuarios a los que los chatbots les dieron tareas totalmente nuevas</td><td>Dinamarca</td><td>8%; 18% donde la empresa impulsa su uso</td><td>Humlum y Vestergaard (NBER)</td></tr>
+          <tr><td>Desocupados que consiguieron empleo a seis meses de un curso de reconversión</td><td>Singapur</td><td>55% de casi 4.300</td><td>Ministerio de Educación de Singapur</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <figcaption><b>Fuentes:</b> los documentos originales de cada fila. Los porcentajes de Challenger y la composición de la caída argentina son cálculos de Con Interés con los números de cada fuente.</figcaption>
+    </figure>
+
+    <h3 class="sub">La sensación y los números</h3>
+    <p>La consultora estadounidense Challenger, Gray &amp; Christmas cuenta todos los meses los despidos que las empresas de EE.UU. anuncian, y anota la razón que da cada una. Desde 2023 la lista incluye la inteligencia artificial. En su informe anual de 2025, las empresas anunciaron 1.206.374 recortes y nombraron a la IA en 54.836: el 4,5%, la sexta razón. Adelante estaban los recortes del Departamento de Eficiencia Gubernamental del gobierno federal (293.753), las condiciones del mercado y la economía (253.206) y los cierres (191.480).</p>
+    <p>En 2026 el cuadro cambió. Hasta septiembre, las empresas anunciaron 573.195 recortes, 39% menos que un año antes, y nombraron a la IA en 120.136: alrededor del 21%, la primera razón del año. Desde 2023 suman casi 192 mil anuncios que culpan a la IA. Cuando la razón más citada en los titulares de despidos es la IA, la sensación de la mesa tiene una base concreta.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Estados Unidos · despidos anunciados por las empresas</div>
+        <h3>La IA pasó de 4,5 a 21 de cada 100 despidos anunciados</h3>
+        <p class="fig-sub">Porcentaje de los recortes anunciados en los que la empresa nombró a la inteligencia artificial como razón.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 130" role="img" aria-label="Despidos anunciados en EE.UU. que nombran a la IA: 4,5% en 2025 (54.836 de 1.206.374) y 21% en 2026 hasta septiembre (120.136 de 573.195).">
+<line x1="220" y1="0" x2="220" y2="110" class="gg" style="stroke:#9A938A"/>
+<text x="0" y="30" class="cl">2025</text><text x="0" y="46" class="cf">54.836 de 1.206.374</text><rect x="220" y="14" width="107" height="26" fill="#B9AE9C"/><text x="335" y="32" class="cv">4,5%</text>
+<text x="0" y="86" class="cl" style="font-weight:600">2026, hasta septiembre</text><text x="0" y="102" class="cf">120.136 de 573.195</text><rect x="220" y="70" width="500" height="26" fill="#B8336A"/><text x="728" y="88" class="lbl" style="fill:#B8336A">21%</text>
+<text x="220" y="126" text-anchor="middle" class="cf">0</text>
+</svg>
+      <figcaption><b>Fuente:</b> Challenger, Gray &amp; Christmas, informe de diciembre de 2025 (página 3 y cuadro 4) e informe de septiembre de 2026 (página 3). Porcentaje de 2025: cálculo propio. <b>Son anuncios de planes de despido, no despidos efectivos.</b></figcaption>
+    </figure>
+
+    <p>Hay que leer esos números con dos cuidados. El primero lo da la propia consultora: cuenta <b>anuncios</b> de planes de despido, con la cifra que dio la empresa, aunque se ejecute en varios años o no se ejecute. Que una empresa diga "IA" no significa que una máquina haga hoy el trabajo de esas personas; también puede ser una forma de presentar un recorte que tiene otras causas. El segundo: los estudios que miran los registros de empleo de EE.UU., que contamos en la nota de esta mañana, todavía no encuentran una caída del empleo total atribuible a la IA, y sí menos contrataciones de jóvenes en los trabajos más expuestos.</p>
+    <p>El miedo también se mide. El Pew Research Center encuestó a 5.273 trabajadores de EE.UU. en octubre de 2024: el 52% se dijo preocupado por cómo se usará la IA en su trabajo en el futuro, y el 32% cree que le va a dejar menos oportunidades laborales. Gallup, con otra encuesta y otra pregunta, encontró en agosto de 2026 que el 27% de los trabajadores teme que la tecnología vuelva obsoleto su empleo, el valor más alto de su serie y el doble que en 2017. Para la Argentina no encontramos ninguna encuesta con método publicado que pregunte lo mismo.</p>
+
+    <h3 class="sub">La Argentina: cuánto empleo se perdió y dónde</h3>
+    <p>La pregunta del lector tiene una parte que sí se puede contestar con registros: la Argentina perdió empleo formal. El Sistema Integrado Previsional Argentino (SIPA), donde las empresas declaran a cada trabajador para pagar sus aportes, muestra que el empleo asalariado privado registrado llegó a su máximo en agosto de 2023 —6,41 millones en la serie sin estacionalidad— y desde entonces bajó casi sin pausa. En junio de 2026, el último dato publicado, eran 6,13 millones: <b>246 mil menos que en noviembre de 2023</b>, una caída de 3,9%. La propia Secretaría de Trabajo lo describe en su informe de septiembre como una continuidad del proceso de destrucción del empleo asalariado privado.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Argentina · asalariados privados registrados</div>
+        <h3>Subió hasta mediados de 2023 y cae desde entonces</h3>
+        <p class="fig-sub">Millones de puestos, serie sin estacionalidad, enero de 2021 a junio de 2026.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 300" role="img" aria-label="Asalariados privados registrados, serie sin estacionalidad, de enero de 2021 a junio de 2026: subieron de 5,84 millones a un máximo de 6,41 millones en agosto de 2023 y bajaron a 6,13 millones en junio de 2026.">
+<line x1="60" y1="260.0" x2="880" y2="260.0" class="gg"/><text x="52" y="264.0" text-anchor="end" class="cf">5,8 M</text>
+<line x1="60" y1="225.7" x2="880" y2="225.7" class="gg"/><text x="52" y="229.7" text-anchor="end" class="cf">5,9 M</text>
+<line x1="60" y1="191.4" x2="880" y2="191.4" class="gg"/><text x="52" y="195.4" text-anchor="end" class="cf">6,0 M</text>
+<line x1="60" y1="157.1" x2="880" y2="157.1" class="gg"/><text x="52" y="161.1" text-anchor="end" class="cf">6,1 M</text>
+<line x1="60" y1="122.9" x2="880" y2="122.9" class="gg"/><text x="52" y="126.9" text-anchor="end" class="cf">6,2 M</text>
+<line x1="60" y1="88.6" x2="880" y2="88.6" class="gg"/><text x="52" y="92.6" text-anchor="end" class="cf">6,3 M</text>
+<line x1="60" y1="54.3" x2="880" y2="54.3" class="gg"/><text x="52" y="58.3" text-anchor="end" class="cf">6,4 M</text>
+<line x1="60" y1="20.0" x2="880" y2="20.0" class="gg"/><text x="52" y="24.0" text-anchor="end" class="cf">6,5 M</text>
+<text x="60.0" y="286" text-anchor="middle" class="cf">2021</text>
+<text x="211.4" y="286" text-anchor="middle" class="cf">2022</text>
+<text x="362.8" y="286" text-anchor="middle" class="cf">2023</text>
+<text x="514.2" y="286" text-anchor="middle" class="cf">2024</text>
+<text x="665.5" y="286" text-anchor="middle" class="cf">2025</text>
+<text x="816.9" y="286" text-anchor="middle" class="cf">2026</text>
+<polyline points="60.0,251.5 72.6,247.3 85.2,239.0 97.8,227.3 110.5,226.8 123.1,225.2 135.7,224.8 148.3,220.1 160.9,213.2 173.5,208.3 186.2,200.1 198.8,189.0 211.4,177.0 224.0,170.8 236.6,162.1 249.2,151.7 261.8,143.0 274.5,133.6 287.1,123.0 299.7,120.8 312.3,112.7 324.9,106.4 337.5,100.7 350.2,96.7 362.8,89.0 375.4,84.2 388.0,76.3 400.6,70.9 413.2,64.9 425.8,59.0 438.5,52.6 451.1,51.6 463.7,56.7 476.3,61.0 488.9,63.6 501.5,67.5 514.2,79.4 526.8,88.5 539.4,96.9 552.0,102.6 564.6,105.9 577.2,109.3 589.8,111.4 602.5,110.2 615.1,107.1 627.7,104.5 640.3,103.9 652.9,101.0 665.5,104.0 678.2,100.5 690.8,104.4 703.4,100.5 716.0,99.6 728.6,104.8 741.2,109.0 753.8,112.9 766.5,117.3 779.1,122.6 791.7,128.1 804.3,132.3 816.9,134.8 829.5,135.6 842.2,138.7 854.8,143.0 867.4,146.0 880.0,148.1" fill="none" stroke="#0E7C86" stroke-width="2.5"/>
+<circle cx="488.9" cy="63.6" r="5" fill="#B8336A"/>
+<text x="488.9" y="51.6" text-anchor="middle" class="lbl" style="fill:#B8336A">nov-23: 6,37 M</text>
+<circle cx="880.0" cy="148.1" r="5" fill="#B8336A"/>
+<text x="880.0" y="136.1" text-anchor="end" class="lbl" style="fill:#B8336A">jun-26: 6,13 M</text>
+</svg>
+      <figcaption><b>Fuente:</b> Secretaría de Trabajo, Empleo y Seguridad Social (Ministerio de Capital Humano), "Situación y evolución del trabajo registrado", datos de junio de 2026, anexo estadístico, cuadro T.2.2, sobre la base del SIPA (ARCA). Datos desde septiembre de 2025, provisorios. <b>Unidad:</b> millones de puestos.</figcaption>
+    </figure>
+
+    <p>Mirado a cinco años, como pidió el lector, el saldo todavía es positivo: en junio de 2021 había 5,90 millones de asalariados privados registrados, 225 mil menos que hoy. Pero de los 506 mil puestos que se sumaron entre junio de 2021 y agosto de 2023, más de la mitad se perdió después.</p>
+    <p>La caída no fue pareja. Con el mismo registro, sector por sector, la industria perdió 88 mil puestos (&minus;7,4%) y la construcción, 63 mil (&minus;14,2%): entre las dos, 151 mil, el 61% del total. Les siguen transporte y comunicaciones (&minus;25 mil), las actividades inmobiliarias y de servicios a empresas (&minus;22 mil) y el comercio (&minus;15 mil). Crecieron el agro (+12 mil), la pesca y, apenas, la enseñanza.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Argentina · noviembre de 2023 a junio de 2026</div>
+        <h3>Dónde se perdió el empleo, y qué tan expuesto a la IA está cada sector</h3>
+        <p class="fig-sub">Variación de asalariados privados registrados, en miles. El color marca el grupo de exposición a la IA que asignó el Ministerio de Trabajo en 2023.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 450" role="img" aria-label="Variación de asalariados privados registrados por sector entre noviembre de 2023 y junio de 2026, en miles, serie sin estacionalidad.">
+<line x1="640" y1="0" x2="640" y2="420" class="gg" style="stroke:#9A938A"/>
+<text x="0" y="20" class="cl">Industria</text>
+<rect x="315.5" y="6" width="324.5" height="18" fill="#8A847C"/>
+<text x="648.0" y="20" class="cv">−88,5 mil</text>
+<text x="0" y="50" class="cl">Construcción</text>
+<rect x="410.1" y="36" width="229.9" height="18" fill="#B9AE9C"/>
+<text x="648.0" y="50" class="cv">−62,7 mil</text>
+<text x="0" y="80" class="cl">Transporte y comunicaciones</text>
+<rect x="549.1" y="66" width="90.9" height="18" fill="#8A847C"/>
+<text x="648.0" y="80" class="cv">−24,8 mil</text>
+<text x="0" y="110" class="cl">Inmobiliarias y servicios a empresas</text>
+<rect x="558.9" y="96" width="81.1" height="18" fill="#C9A27E"/>
+<text x="648.0" y="110" class="cv">−22,1 mil</text>
+<text x="0" y="140" class="cl">Comercio</text>
+<rect x="584.3" y="126" width="55.7" height="18" fill="#C9A27E"/>
+<text x="648.0" y="140" class="cv">−15,2 mil</text>
+<text x="0" y="170" class="cl">Servicios comunitarios y personales</text>
+<rect x="591.2" y="156" width="48.8" height="18" fill="#C9A27E"/>
+<text x="648.0" y="170" class="cv">−13,3 mil</text>
+<text x="0" y="200" class="cl">Hoteles y restaurantes</text>
+<rect x="596.2" y="186" width="43.8" height="18" fill="#8A847C"/>
+<text x="648.0" y="200" class="cv">−11,9 mil</text>
+<text x="0" y="230" class="cl">Finanzas</text>
+<rect x="608.8" y="216" width="31.2" height="18" fill="#B8336A"/>
+<text x="648.0" y="230" class="cv">−8,5 mil</text>
+<text x="0" y="260" class="cl">Minas y canteras</text>
+<rect x="611.9" y="246" width="28.1" height="18" fill="#C9A27E"/>
+<text x="648.0" y="260" class="cv">−7,7 mil</text>
+<text x="0" y="290" class="cl">Salud</text>
+<rect x="624.0" y="276" width="16.0" height="18" fill="#C9A27E"/>
+<text x="648.0" y="290" class="cv">−4,4 mil</text>
+<text x="0" y="320" class="cl">Electricidad, gas y agua</text>
+<rect x="637.8" y="306" width="2.2" height="18" fill="#C9A27E"/>
+<text x="648.0" y="320" class="cv">−0,6 mil</text>
+<text x="0" y="350" class="cl">Enseñanza</text>
+<rect x="640.0" y="336" width="1.5" height="18" fill="#B8336A"/>
+<text x="649.3" y="350" class="cv">+0,4 mil</text>
+<text x="0" y="380" class="cl">Pesca</text>
+<rect x="640.0" y="366" width="4.8" height="18" fill="#B9AE9C"/>
+<text x="652.8" y="380" class="cv">+1,3 mil</text>
+<text x="0" y="410" class="cl">Agro</text>
+<rect x="640.0" y="396" width="43.3" height="18" fill="#B9AE9C"/>
+<text x="691.3" y="410" class="cv">+11,8 mil</text>
+</svg>
+      <figcaption><b>Fuentes:</b> variación: SIPA, cuadro A.2.2 (serie sin estacionalidad), cálculo propio. Grupos de exposición: Ministerio de Trabajo, "Impacto de la inteligencia artificial generativa en el empleo asalariado registrado del sector privado", diciembre de 2023, página 6. <b>Rojo:</b> los más expuestos (finanzas, enseñanza). <b>Ocre:</b> exposición elevada (comercio, energía, minas, servicios comunitarios, inmobiliarias, salud). <b>Gris oscuro:</b> entre 42% y 44% del empleo expuesto (industria, hoteles y restaurantes, transporte). <b>Gris claro:</b> los menos expuestos (construcción, pesca, agro). <b>Unidad:</b> miles de puestos.</figcaption>
+    </figure>
+
+    <p>¿Coincide eso con los trabajos más expuestos a la IA? El Ministerio de Trabajo (hoy Secretaría) calculó en diciembre de 2023, con los registros de los trabajadores formales privados, qué parte del empleo de cada sector está en ocupaciones con al menos la mitad de sus tareas alcanzables por la IA generativa. Arriba de todo quedaron <b>finanzas (93%) y enseñanza (92%)</b>; abajo, los sectores de trabajo físico: construcción, pesca y agro. La industria, los hoteles y restaurantes y el transporte quedaron en un tercer grupo, con entre 42% y 44%.</p>
+    <p>Cruzado con la caída, el resultado es claro: <b>finanzas y enseñanza juntas perdieron 8 mil puestos, el 3% del total</b>. Los dos grupos menos expuestos —el tercero y el cuarto del ministerio— explican 175 mil, el 71%. Los sectores con exposición elevada, como el comercio, las inmobiliarias y los servicios a empresas, aportan el 26% restante.</p>
+    <p>Hay un matiz que conviene no esconder. Algunos sectores de oficina también cayeron, y no poco. El registro de la Superintendencia de Riesgos del Trabajo, que clasifica más fino, muestra entre noviembre de 2023 y junio de 2026 una baja de 9,5% en los servicios profesionales, científicos y técnicos y de 6,1% en finanzas, contra 5,1% del total privado. Ningún registro dice si eso fue por la IA, por la recesión o por otra cosa; en información y comunicaciones, donde están el software y las telecomunicaciones, la baja fue de 2,7%, menos que el promedio.</p>
+    <p>Lo que se ve en las encuestas de hogares acompaña. La desocupación del INDEC pasó de 6,2% en el segundo trimestre de 2023 a 7,9% en el de 2026 (en 2021 era 9,6%). Y la informalidad, que el INDEC mide con una definición nueva desde 2025, subió de 43,2% a 45,0% en un año: más gente trabaja sin registrar.</p>
+    <p>Volviendo a la pregunta del lector: con estos datos, la explicación más consistente es que la Argentina perdió empleo formal por razones propias —sobre todo la caída de la industria y de la construcción— y que buena parte de la sensación de que "la IA deja gente sin trabajo" llega de afuera, con los anuncios de las empresas de EE.UU. No es una prueba: es lo que muestra el mapa de la caída.</p>
+
+    <h3 class="sub">Lo que la IA ya cambió: las tareas</h3>
+    <p>En los países donde la IA se usa mucho, el cambio que ya se mide no está en la cantidad de puestos sino en lo que la gente hace en ellos. En Estados Unidos, la encuesta de Alexander Bick, Adam Blandin y David Deming muestra que la proporción de ocupados que usó IA generativa para trabajar en la última semana pasó de 28,2% en el tercer trimestre de 2024 a 39,2% en el segundo de 2026, y que el tiempo de trabajo que dicen ahorrar subió de 1,6% a 2,2% de sus horas.</p>
+    <p>En Dinamarca, Anders Humlum y Emilie Vestergaard cruzaron una encuesta a unos 25.000 trabajadores de once ocupaciones expuestas con los registros oficiales de sueldos y horas. En la versión de marzo de 2026 de su estudio encuentran que cerca del 43% de las empresas ya alienta el uso de chatbots. Lo que hacen los trabajadores con el tiempo que ahorran: el 85% dice que lo pasa a otras tareas de su trabajo, y menos del 10%, a descansar más. A un 8% de los usuarios los chatbots les crearon tareas totalmente nuevas —revisar lo que produce la IA, armar contenidos, integrar las herramientas—, y la proporción sube a alrededor de 18% en los lugares de trabajo que impulsan su uso. También encuentran movimiento: desde la llegada de los chatbots, los que los adoptaron cambiaron de ocupación más que el resto, sobre todo hacia soporte informático y tareas administrativas. Sus sueldos y sus horas, en promedio, no cambiaron.</p>
+
+    <h3 class="sub">Cómo se adaptan en otros países</h3>
+    <p><b>Las empresas.</b> En la encuesta del Foro Económico Mundial a más de 1.000 empresas de 55 economías, publicada en enero de 2025, el 85% de los empleadores dice que va a priorizar la capacitación de su personal y la mitad planea mover gente de puestos que se achican a puestos que crecen. Según esas empresas, si la fuerza de trabajo del mundo fueran 100 personas, 59 necesitarían capacitarse antes de 2030: 29 podrían hacerlo en su puesto actual, 19 serían recolocadas dentro de la misma empresa y 11 probablemente no la recibirían. Son planes declarados, no resultados.</p>
+    <p><b>Los gobiernos.</b> Singapur es el caso más citado. Su sistema SkillsFuture da a cada ciudadano un crédito para cursos y, desde mayo de 2024, uno adicional para los mayores de 40. Según el Ministerio de Educación de Singapur, entre mayo de 2024 y abril de 2025 más de 36 mil ciudadanos usaron ese crédito adicional, y de los casi 4.300 desocupados que pasaron por su programa de reconversión de carrera entre junio de 2022 y diciembre de 2024, alrededor del 55% consiguió empleo dentro de los seis meses. Ese 55% no tiene grupo de comparación: no dice cuántos lo habrían conseguido sin el curso. Y del crédito para mayores de 40, el ministerio dice que va a seguir mirando los resultados de empleo, pero no publicó una evaluación.</p>
+    <p>Dinamarca tiene la evaluación más seria que encontramos, aunque es anterior a la IA generativa. El centro de investigación KORA (hoy VIVE) midió para el Ministerio de Educación, en 2017, qué les pasó a los que empezaron un curso de formación para adultos en 2011: los cursos vocacionales de su sistema público (AMU) mejoraron el sueldo y el empleo de los ocupados que los hicieron; los cursos de certificación y los básicos, no. La lección para el debate de la IA es incómoda: no cualquier curso sirve, y casi ningún programa nuevo pensado para la IA midió todavía si sirve.</p>
+
+    <h3 class="sub">Lo que todavía no se sabe</h3>
+    <p>Para contestar si la IA ya afecta el empleo en la Argentina faltan tres cosas. Una encuesta pública y periódica sobre el uso de la IA en el trabajo, como la de Bick, Blandin y Deming en EE.UU. Un registro que siga a los trabajadores por ocupación mes a mes, como los que usan los estudios de Dinamarca, Noruega o Francia: el SIPA clasifica por sector, no por ocupación, y la Encuesta Permanente de Hogares es una muestra trimestral. Y un dato sobre por qué se pierde cada puesto, que hoy no existe en ningún registro del país. Hasta que eso exista, lo que se puede decir es dónde se perdió el empleo, no por qué.</p>
+  </div>
+
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación de la cifra ancla: estadística oficial recalculada, con contraste independiente.</b> El empleo asalariado privado registrado lo produce un solo organismo, la Secretaría de Trabajo, con los datos del SIPA.</p>
+      <p><b>1. El documento.</b> El <a href="https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2606_informe.pdf">informe "Situación y evolución del trabajo registrado"</a> de septiembre de 2026, con datos de junio, da 6,096 millones de asalariados privados en junio de 2026 en la serie original (página 3 y tabla 1) y describe la tendencia descendente desde septiembre de 2023. No es todavía el de julio: ese anexo no estaba publicado al cerrar esta nota.</p>
+      <p><b>2. El recálculo.</b> Con el <a href="https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2606_estadisticas.xlsx">anexo estadístico</a> del mismo informe: cuadro T.2.2 (serie sin estacionalidad), 6.372.692 asalariados privados en noviembre de 2023 y 6.126.380 en junio de 2026, &minus;246.312 (&minus;3,9%); el máximo es agosto de 2023, con 6.407.826. Cuadro A.2.2, por sector, con la misma serie: las catorce ramas suman la misma caída; industria &minus;88,5 mil y construcción &minus;62,7 mil (&minus;151,2 mil, 61,4%); finanzas &minus;8,5 mil y enseñanza +0,4 mil (&minus;8,1 mil, 3,3%). En la serie original, sin desestacionalizar, la caída es de 6,39 a 6,10 millones (&minus;290 mil); usamos la desestacionalizada porque compara un noviembre con un junio, y la construcción y el agro cambian mucho según la época del año. Junio de 2021: 5.901.497.</p>
+      <p><b>3. El contraste.</b> La <a href="https://www.srt.gob.ar/estadisticas/series/co/up/Serie_historica_Segun_Sector_de_actividad_economica_CIIUrev4%20-%20UP.xlsx">Superintendencia de Riesgos del Trabajo</a> lleva otro registro: los trabajadores cubiertos por una ART (cuadro 2.1). Sin la administración pública, entre junio de 2023 y junio de 2026 bajó de 7.144.675 a 6.840.923 (&minus;4,3%), contra &minus;4,1% del SIPA en los mismos meses; entre noviembre de 2023 y junio de 2026, &minus;5,1%. Es un universo más amplio (incluye, por ejemplo, docentes y médicos estatales y empresas del Estado) y clasifica con otra versión del nomenclador de actividades, pero confirma la dirección, el orden de magnitud y que industria y construcción encabezan la caída (&minus;105 mil y &minus;81 mil en ese registro, la mitad del total).</p>
+      <p><b>4. La exposición a la IA.</b> Los grupos de sectores son los del <a href="https://www.argentina.gob.ar/sites/default/files/impacto_de_la_inteligencia_artificial_generativa_en_el_empleo_asalariado_registrado_del_sector_privado_0.pdf">documento del Ministerio de Trabajo</a> de diciembre de 2023 (Breard, Castillo y Schleser), página 6, que usa el texto y no un valor por sector: el ministerio solo publica los porcentajes de finanzas (93%), enseñanza (92%) y comercio (71%) y el rango del tercer grupo (42% a 44%). En el gráfico de esa página, las actividades inmobiliarias y de servicios a empresas aparecen más abajo que en el texto; si se las contara en el tercer grupo, los dos grupos menos expuestos explicarían el 80% de la caída en vez del 71%. Es una estimación de exposición, no de puestos perdidos: el propio documento lo aclara.</p>
+      <p><b>5. Lo de afuera.</b> Challenger: <a href="https://www.challengergray.com/wp-content/uploads/2026/01/Challenger-Report-December-2025.pdf">informe de diciembre de 2025</a> (página 2: 1.206.374; página 3: 54.836 y 71.825 desde 2023; cuadro 4: las razones) e <a href="https://www.challengergray.com/wp-content/uploads/2026/10/Challenger-Report-September-2026-1.pdf">informe de septiembre de 2026</a> (página 1: 573.195; página 3: 120.136, "aproximadamente 21%", la primera razón del año). Es una sola consultora que cuenta anuncios, y nadie más hace ese conteo: lo presentamos atribuido, nunca como cantidad de despidos reales. Los casi 192 mil desde 2023 son nuestra suma de 71.825 y 120.136. <a href="https://www.pewresearch.org/social-trends/2025/02/25/u-s-workers-are-more-worried-than-hopeful-about-future-ai-use-in-the-workplace/">Pew</a>: 52% y 32% sobre todos los trabajadores encuestados, 5.273, del 7 al 13 de octubre de 2024, margen de error de 1,7 puntos (<a href="https://www.pewresearch.org/social-trends/2025/02/25/ai-and-workers-methodology/">metodología</a>). <a href="https://news.gallup.com/poll/714368/workers-fear-job-losses-technology.aspx">Gallup</a>: 27%, encuesta telefónica del 3 al 24 de agosto de 2026; pregunta por la tecnología, no por la IA en particular. Humlum y Vestergaard, <a href="https://www.nber.org/papers/w33777">NBER w33777</a>, revisión de marzo de 2026: 43% en la página 12, 85% en la 4, 8% y 18% de tareas nuevas en la 16, el cambio de ocupación en la 5 y el efecto nulo sobre sueldos y horas en el resumen. <a href="https://fred.stlouisfed.org/blog/2026/08/does-generative-ai-save-time-at-work/">Bick, Blandin y Deming</a>, en el blog de la Reserva Federal de St. Louis del 27 de agosto de 2026. <a href="https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf">Foro Económico Mundial</a>, hallazgos principales, página 6. <a href="https://www.moe.gov.sg/news/parliamentary-replies/20250925-career-impact-of-skillsfuture-credits-mid-career-training-allowance-and-level-up-programme">Ministerio de Educación de Singapur</a>, respuesta parlamentaria del 25 de septiembre de 2025. <a href="https://vive.dk/da/udgivelser/effektevaluering-af-voksen-og-efteruddannelsesindsatsen-jvn484xm">KORA/VIVE</a>, Bolvig, Kristensen y Skipper, 13 de junio de 2017. Las cifras de estudios y encuestas son hallazgos de sus autores, atribuidos.</p>
+      <p><b>6. La EPH.</b> <a href="https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls">Cuadros de tasas e indicadores del INDEC</a>, cuadro 1.2: desocupación de 9,6% (segundo trimestre de 2021), 6,2% (2023), 7,6% (2025) y 7,9% (2026). Informalidad: <a href="https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_2trim26433FCBC5A8.pdf">informe del segundo trimestre de 2026</a>, páginas 4 y 8: 43,2% en 2025 y 45,0% en 2026; el INDEC señala que la suba de un año es estadísticamente significativa. Es una estadística de un solo organismo, tomada del documento oficial; la dirección coincide con la del SIPA.</p>
+      <p><b>Qué no afirmamos.</b> Que la IA no haya destruido ningún empleo en la Argentina: no hay forma de saberlo con los registros que existen. Que los despidos que las empresas de EE.UU. atribuyen a la IA sean puestos reemplazados por máquinas. Ni qué conviene estudiar o hacer con la carrera de cada uno: los datos no lo dicen.</p>
+      <div class="meta"><span>Fuentes <b>SIPA · SRT · Ministerio de Trabajo · INDEC · Challenger · Pew · Gallup · NBER · St. Louis Fed · FEM · Singapur · KORA/VIVE</b></span><span>Verificación <b>estadística oficial recalculada + contraste; estudios y encuestas atribuidos y leídos en el original</b></span></div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>Si el diagnóstico es "la IA nos está dejando sin trabajo", la respuesta que se busca es frenar la tecnología o prepararse para ella. Si el diagnóstico es "se cayó la industria y se frenó la obra", la discusión es otra: actividad, inversión, crédito. Los datos argentinos de hoy apuntan mucho más a lo segundo. Confundir una cosa con la otra lleva a buscar la solución en el lugar equivocado.</p>
+    <p>Eso no quiere decir que la IA no importe. En los países donde ya se usa mucho, el cambio llega primero a las tareas y a las contrataciones de los que recién empiezan. Lo que se aprende de afuera es que las empresas dicen que van a capacitar, pero solo algunos programas públicos midieron si los cursos sirven, y la evidencia dice que no cualquier curso sirve.</p>
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si perdiste el trabajo o conocés a alguien que lo perdió en estos dos años,</b> lo más probable, según dónde cayó el empleo, es que haya sido por la caída de la actividad: 6 de cada 10 puestos formales perdidos eran de la industria y la construcción.</p>
+      <p data-perfil="trabajador"><b>Si trabajás en una oficina, en un banco o en educación,</b> tu sector es de los más expuestos a la IA según el Ministerio de Trabajo, pero hasta junio de 2026 casi no perdió puestos formales. Lo que muestran los estudios de afuera es que primero cambian las tareas.</p>
+      <p data-perfil="pyme"><b>Si tenés empleados,</b> el estudio danés encontró que el uso y los beneficios de los chatbots son mayores donde la empresa los alienta y da capacitación.</p>
+    </div>
+  </div>
+
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Todo el empleo registrado, no solo el privado <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Entre noviembre de 2023 y junio de 2026, con la serie sin estacionalidad del SIPA, el empleo asalariado público bajó 88 mil (&minus;2,5%) y el de casas particulares, 20 mil (&minus;4,3%). Los monotributistas aumentaron 169 mil (+8,3%): una parte de los que perdieron un empleo en relación de dependencia pudo haber pasado a trabajar por su cuenta, aunque el registro no permite seguir a las personas. El monotributo social, un régimen para trabajadores de bajos ingresos, cayó 408 mil, casi dos de cada tres; no es empleo asalariado, y no lo sumamos a la caída de la que habla esta nota. Todo el trabajo registrado, con esos cambios, pasó de 13,37 a 12,77 millones.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Por qué no alcanza con mirar la desocupación <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>La desocupación del INDEC cuenta a quien no trabajó ni una hora en la semana y buscó empleo. Quien perdió un puesto registrado y ahora hace changas sin aportes figura como ocupado, informal. Por eso la caída del empleo privado registrado (&minus;3,9%) puede convivir con una suba de la desocupación de 1,7 puntos y con más informalidad.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Las otras razones de despido en EE.UU. <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>En 2025, además de la IA, Challenger anotó 20.219 recortes por "actualización tecnológica (posiblemente IA)", que no suma a la cuenta de la IA. Las razones que encabezaron el año fueron los recortes del gobierno federal, las condiciones de mercado y los cierres. En 2026, el total anunciado bajó 39% contra el mismo período del año anterior, pero la parte que se atribuye a la IA creció.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Secretaría de Trabajo, Empleo y Seguridad Social (Ministerio de Capital Humano) — <a href="https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2606_informe.pdf">Situación y evolución del trabajo registrado (SIPA), datos de junio de 2026</a>, septiembre de 2026</li>
+        <li>&#8250; Secretaría de Trabajo, Empleo y Seguridad Social — <a href="https://www.argentina.gob.ar/sites/default/files/trabajoregistrado_2606_estadisticas.xlsx">Anexo estadístico del trabajo registrado, junio de 2026</a> (cuadros T.2.2 y A.2.2)</li>
+        <li>&#8250; Superintendencia de Riesgos del Trabajo — <a href="https://www.srt.gob.ar/estadisticas/series/co/up/Serie_historica_Segun_Sector_de_actividad_economica_CIIUrev4%20-%20UP.xlsx">Personas trabajadoras cubiertas según sector económico, enero de 2019 a junio de 2026</a> (cuadro 2.1)</li>
+        <li>&#8250; Gerardo Breard, Victoria Castillo y Diego Schleser (Ministerio de Trabajo, Empleo y Seguridad Social) — <a href="https://www.argentina.gob.ar/sites/default/files/impacto_de_la_inteligencia_artificial_generativa_en_el_empleo_asalariado_registrado_del_sector_privado_0.pdf">Impacto de la inteligencia artificial generativa en el empleo asalariado registrado del sector privado</a>, diciembre de 2023</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/ftp/cuadros/sociedad/cuadros_tasas_indicadores_eph_09_26.xls">Mercado de trabajo, cuadros de tasas e indicadores (EPH)</a>, cuadro 1.2</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/mercado_trabajo_eph_2trim26433FCBC5A8.pdf">Mercado de trabajo. Tasas e indicadores socioeconómicos (EPH), segundo trimestre de 2026</a></li>
+        <li>&#8250; Challenger, Gray &amp; Christmas — <a href="https://www.challengergray.com/wp-content/uploads/2026/01/Challenger-Report-December-2025.pdf">Job Cut Announcement Report, December 2025</a>, 8 de enero de 2026</li>
+        <li>&#8250; Challenger, Gray &amp; Christmas — <a href="https://www.challengergray.com/wp-content/uploads/2026/10/Challenger-Report-September-2026-1.pdf">Job Cut Announcement Report, September 2026</a>, 1 de octubre de 2026</li>
+        <li>&#8250; Pew Research Center — <a href="https://www.pewresearch.org/social-trends/2025/02/25/u-s-workers-are-more-worried-than-hopeful-about-future-ai-use-in-the-workplace/">U.S. Workers Are More Worried Than Hopeful About Future AI Use in the Workplace</a>, 25 de febrero de 2025</li>
+        <li>&#8250; Pew Research Center — <a href="https://www.pewresearch.org/social-trends/2025/02/25/ai-and-workers-methodology/">AI and workers: methodology</a></li>
+        <li>&#8250; Gallup — <a href="https://news.gallup.com/poll/714368/workers-fear-job-losses-technology.aspx">encuesta Work and Education de agosto de 2026: temor a que la tecnología vuelva obsoleto el empleo</a>, septiembre de 2026</li>
+        <li>&#8250; Anders Humlum y Emilie Vestergaard — <a href="https://www.nber.org/papers/w33777">Still Waters, Rapid Currents: Early Labor Market Transformation under Generative AI</a>, NBER w33777, revisión de marzo de 2026</li>
+        <li>&#8250; Alexander Bick, Adam Blandin y David Deming, en el blog FRED de la Reserva Federal de St. Louis — <a href="https://fred.stlouisfed.org/blog/2026/08/does-generative-ai-save-time-at-work/">Does Generative AI Save Time at Work?</a>, 27 de agosto de 2026</li>
+        <li>&#8250; Foro Económico Mundial — <a href="https://reports.weforum.org/docs/WEF_Future_of_Jobs_Report_2025.pdf">The Future of Jobs Report 2025</a>, enero de 2025</li>
+        <li>&#8250; Ministerio de Educación de Singapur — <a href="https://www.moe.gov.sg/news/parliamentary-replies/20250925-career-impact-of-skillsfuture-credits-mid-career-training-allowance-and-level-up-programme">Career impact of SkillsFuture Credits, Mid-Career Training Allowance and Level-Up Programme</a>, respuesta parlamentaria del 25 de septiembre de 2025</li>
+        <li>&#8250; Iben Bolvig, Nicolai Kristensen y Lars Skipper (KORA, hoy VIVE) — <a href="https://vive.dk/da/udgivelser/effektevaluering-af-voksen-og-efteruddannelsesindsatsen-jvn484xm">Effektevaluering af voksen- og efteruddannelsesindsatsen</a>, 13 de junio de 2017</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: composición sectorial de la caída del SIPA, cruce con los grupos de exposición del Ministerio de Trabajo, contraste con la SRT, porcentajes de Challenger y gráficos.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 13/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
