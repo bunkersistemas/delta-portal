@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 18:55:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 20:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Con la jubilación mínima, el Banco Nación presta como máximo $2,94 millones: ni con el haber máximo se llega a los $40 millones</title>
+      <link>https://coninteres.com/articulos/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.html</guid>
+      <pubDate>Tue, 13 Oct 2026 21:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Los avisos de préstamos para jubilados hablan de $40 millones. Pero el Banco Nación no deja que la cuota pase del 35% del ingreso: con la mínima de octubre y a 72 meses, el préstamo más grande posible es de $2,94 millones. Con el haber máximo del sistema, $19,8 millones.</description>
+      <ci:numero>$2,94 M</ci:numero>
+      <ci:numeroEtiqueta>préstamo máximo de la línea Nación Previsional del Banco Nación para un jubilado con el haber mínimo de octubre de 2026 ($435.748,51, Res. ANSES 284/2026), a 72 meses: primera cuota (capital, interés e IVA) en el tope del 35% del ingreso = $152.511,98 / 0,0518377 = $2.942.106; condiciones (TNA 49%, TEA 61,70%, CFT TEA 78,38%, cuota hasta 35%, $1 M a $50 M, 72 meses) en la página del BNA y en el régimen de transparencia del BCRA; cuadro de cuotas del BNA reproducido al centavo</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.png" length="80405" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El impuesto de emergencia a los premios del Quini 6 se lleva el 27,9%: nació en 1973 para durar diez años y ya está prorrogado hasta 2072</title>
       <link>https://coninteres.com/articulos/2026-10-13-impuesto-premios-quini-6-emergencia-2072.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>por debajo de donde estaría el empleo de los jóvenes de 22 a 25 años en los trabajos más expuestos a la IA si hubiera crecido como el de sus pares menos expuestos (EE.UU., nov-2022 a jun-2026; Brynjolfsson, Chandar y Chen, Stanford, agosto de 2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-11-ia-empleo-jovenes-stanford.png" length="79709" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-11-ia-empleo-jovenes-stanford.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina tiene 14% más capital que en 2016 —casas, rutas, fábricas y máquinas—, pero produce apenas 3,1% más</title>
-      <link>https://coninteres.com/articulos/2026-10-11-stock-de-capital-productividad-indec.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-11-stock-de-capital-productividad-indec.html</guid>
-      <pubDate>Sun, 11 Oct 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El INDEC volvió a medir el stock de capital del país por primera vez desde 2006: todo lo construido y las máquinas valían $2.348 billones en 2025. Que el capital y las horas trabajadas crecieran más que la producción quiere decir que la productividad cayó: en 2025 quedó 7,5% debajo de 2016, aun después de su mayor suba de la serie.</description>
-      <ci:numero>+14%</ci:numero>
-      <ci:numeroEtiqueta>crecimiento del stock de capital de la Argentina entre 2016 y 2025, en volumen (INDEC, Documento de trabajo N.º 52, cuadro 10: 2.127.939 / 1.867.113 millones de pesos de 2004), contra +3,1% del valor agregado y +10,7% de las horas trabajadas (cuadro 12); valor a precios de 2025: $2.348.104.611 millones (cuadro 11)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-11-stock-de-capital-productividad-indec.png" length="81774" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-11-stock-de-capital-productividad-indec.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

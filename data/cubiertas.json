@@ -4107,6 +4107,30 @@
       "estado": "publicada",
       "articulo_id": "2026-10-13-impuesto-premios-quini-6-emergencia-2072",
       "archivo": "cola/2026-10-13-impuesto-premios-quini-6-emergencia-2072.html"
+    },
+    {
+      "tema": "cuánto cobra un empleado de comida rápida en octubre de 2026 (TN 13/10/2026 'Cuánto cobran los empleados de comida rápida en octubre de 2026: la escala salarial completa') / CCT 329/00 Servicios Rápidos, Federación de Pasteleros: escala jul-nov 2026 (pasteleros.org): cajero básico $1.294.387 + no remunerativo oct 7,40% $95.785; nov básico $1.390.172",
+      "angulo": "FRENADA en la corrida programada del 13/10/2026 20:30. La escala solo está publicada por la parte sindical (Federación y Sindicato de Pasteleros): no hay acta firmada con la Cámara Argentina de Establecimientos de Servicios Rápidos ni homologación de 2026 en el Boletín Oficial (la última hallada es de octubre de 2025). La cuenta interna cierra (7,40% sobre julio; noviembre = julio x 1,074), pero no hay segunda fuente independiente: NO_VERIFICADO. Retomable si aparece la homologación o el acta con la firma de la cámara.",
+      "fecha": "2026-10-13",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "cifra ancla con una sola fuente (la escala del gremio), sin acta firmada por la cámara ni homologación"
+    },
+    {
+      "tema": "cuánto le presta el banco a un jubilado que cobra la mínima (TN 13/10/2026 'Quiénes acceden a los préstamos personales de $40.000.000 para jubilados y qué tasas de interés tienen en octubre') / Banco Nación, línea Nación Previsional (página del BNA leída el 13/10/2026 y régimen de transparencia del BCRA, informado 08/09/2026): TNA fija 49%, TEA 61,70%, CFT TNA 59,29%, CFT TEA 78,38%, $1 M a $50 M, hasta 72 meses (36 con e@descuento), cuota hasta 35% de los ingresos netos; cuadro de cuotas BNA ($2 M a 36 m: $107.004,18 + IVA $17.151,88) reproducido al centavo con i mensual 4,0838%; cuota inicial 518 por $10.000 en el BCRA = 518,38 propio; haber mínimo oct $435.748,51 y máximo $2.932.174,85 (Res. ANSES 284/2026) => préstamo máximo 72 m $2.942.106 (36 m $2.456.779), haber máximo $19.797.585; para $40 M hace falta ingreso neto $5.924.308 = 13,6 mínimas = 2,02 haberes máximos; total devuelto 3,56 veces a 72 m; serie 14 BCRA préstamos personales 62,45% TNA el 09/10/2026",
+      "angulo": "Corrida programada del 13/10/2026 20:30. Pregunta de plata detrás de la noticia (TN). Ángulo propio: los medios repiten el monto de $40 millones; la nota hace la cuenta con la regla del 35% del propio banco y muestra que con la jubilación como único ingreso ningún jubilado de la ANSES llega a ese monto. Serie 'cuánto te presta el banco' (hipotecario con el sueldo promedio, 25/09/2026).",
+      "fecha": "2026-10-13",
+      "estado": "publicada",
+      "articulo_id": "2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta",
+      "archivo": "cola/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 13/10/2026 20:30: comida rápida CCT 329/00 (frenada aparte); la primera que pasó fue la segunda candidata (préstamos para jubilados del Banco Nación). No probadas: cuánto gana Boca si llega a la final de la Sudamericana (ida ante Vasco hoy; premios CONMEBOL ya publicados el 06/10), IPC de septiembre 1,9% y canasta básica $1.632.505 (6 portadas; ya cubiertas hoy), BCRA compró US$291 M (5 portadas; serie publicada 08/10), riesgo país cerca de 600 (5), FMI y Caputo-Georgieva (5), marcas de ropa en concurso (ámbito, iProfesional, Página12; expediente no accesible), Yacyretá abre compuertas y baja el costo de la energía (Clarín), patentamientos 3T del INDEC (sin pregunta de plata), empresas CNV: Central Puerto recompras (rutina, ya descartadas), Caja de Valores anuncio rectificativo de dividendo, Nuevo Continente balance al 31/07 y A3 Mercados HR (visor sin cifras, ya descartadas). Cupo de EMPRESAS: regía, pero ninguna candidata del bloque trae cifra ancla legible ni pregunta de plata.",
+      "angulo": "NO TOMADAS en la corrida programada del 13/10/2026 20:30.",
+      "fecha": "2026-10-13",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, ya cubiertas, sin documento primario con la cifra o empresas sin cifra ancla legible"
     }
   ]
 }
