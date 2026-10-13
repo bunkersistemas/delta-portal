@@ -516,6 +516,9 @@ def al_boton(est, q):
     chat = q["message"]["chat"]["id"]
     accion, _, pid = (q.get("data") or "").partition(":")
     pl.tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+    if accion in ("igpub", "igdes"):
+        al_boton_instagram(q, chat, accion, pid)
+        return
     if accion == "sug":
         sacar_botones(q)
         t = est["sugerido"].pop(str(chat), "")
@@ -573,6 +576,35 @@ def al_boton(est, q):
         est["esperando"][str(chat)] = int(pid)
         anotar("pedido %s: el lector va a escribir que queria" % pid)
         decir(chat, T_CONTAME)
+
+
+def al_boton_instagram(q, chat, accion, nota):
+    """Publicar / Descartar un posteo de Instagram (13/10/2026). Solo el editor."""
+    import instagram_pub as igp
+    try:
+        es_editor = chat == igp.editor()
+    except Exception:
+        es_editor = False
+    if not es_editor:
+        anotar("boton de Instagram desde un chat que no es el del editor: ignorado")
+        return
+    sacar_botones(q)
+    if accion == "igdes":
+        anotar("instagram: el editor descarto %s" % nota)
+        decir(chat, "Descartada. Te mando la siguiente \U0001f447")
+        try:
+            igp.descartar(nota)
+        except SystemExit as e:
+            decir(chat, "No pude ofrecer otra: %s" % e)
+        return
+    decir(chat, "Publicando en Instagram... \u23f3")
+    try:
+        r = igp.publicar(nota)
+        anotar("instagram: publicada %s" % nota)
+        decir(chat, "\u2705 Publicada en Instagram:\n" + (r.get("permalink") or "https://www.instagram.com/coninteres.ar/"))
+    except SystemExit as e:
+        anotar("instagram: fallo la publicacion de %s: %s" % (nota, e))
+        decir(chat, "\u26a0\ufe0f No se pudo publicar: %s" % e)
 
 
 def al_boton_conversacion(est, q, chat, accion, valor):

@@ -89,6 +89,8 @@ def main(draft_id):
     for script in ("build_portada.py", "build_tarjetas.py", "inject_meta.py",
                    "build_feed.py"):
         subprocess.run([sys.executable, os.path.join(ROOT, "scripts", script)], check=True)
+    # imagen para Instagram (1080x1350, 13/10/2026): si falla, la nota sale igual
+    subprocess.run([sys.executable, os.path.join(ROOT, "scripts", "build_ig.py"), draft_id])
     print(f"PUBLICADA: {draft['titulo']}")
 
     # 6) mostrar el kit social listo para pegar (X + Telegram), si existe

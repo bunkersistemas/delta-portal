@@ -148,7 +148,7 @@ Anotar '==== redaccion programada: inicio ===='
 
 # Archivos que una corrida puede tocar. Cualquier otro frena la subida.
 # Las notas (articulos/, cola/) solo entran con nombre y apellido: ver Subir.
-$sitio = '^(data/|assets/tarjetas/|index\.html$|hoy\.html$|archivo\.html$|feed\.xml$|sitemap\.xml$|seccion-[a-z0-9-]+\.html$)'
+$sitio = '^(data/|assets/tarjetas/|assets/ig/|index\.html$|hoy\.html$|archivo\.html$|feed\.xml$|sitemap\.xml$|seccion-[a-z0-9-]+\.html$)'
 function Subir($mensaje, $nota = '') {
   $permitidos = $sitio
   if ($nota) {
