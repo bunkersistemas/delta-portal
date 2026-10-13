@@ -82,7 +82,7 @@ def leer_estado():
     try:
         return json.load(open(ESTADO, encoding="utf-8"))
     except Exception:
-        return {"offset": 0, "esperando": {}, "conv": {}, "revision": {}, "sugerido": {}}
+        return {"offset": 0, "esperando": {}, "conv": {}, "revision": {}, "sugerido": {}, "anotado": {}}
 
 
 def guardar_estado(e):
@@ -143,7 +143,7 @@ def buscar_notas(consulta, n=3):
     return [a for p, _, a in hallados if p >= 0.7 * mejor and (clave in docs_de[id(a)] or p >= 0.9 * mejor)][:n]
 
 
-def mis_pedidos(chat):
+def mis_pedidos(chat, est=None):
     f = pl.pedir("GET", "?select=id,titulo,estado,salida,motivo,token,creado&telegram_chat=eq.%d&order=creado.desc&limit=10" % chat)
     if not f:
         decir(chat, "Todav\u00eda no pediste ninguna investigaci\u00f3n por ac\u00e1.\n\nEscribime lo que quer\u00e9s saber, "
@@ -195,6 +195,8 @@ def ya_tiene_una(chat):
 
 
 def pedir_nueva(est, chat, pregunta=""):
+    if ofrecer_anotado(est, chat):
+        return
     if ya_tiene_una(chat):
         return
     pregunta = " ".join((pregunta or "").split())
@@ -220,11 +222,16 @@ def seguir_conversacion(est, chat, texto):
     c = est["conv"].get(str(chat))
     if not c:
         return False
+    if c.get("modo") == "indaga":
+        seguir_indagacion(est, chat, c, texto)
+        return True
     if c["paso"] == "titulo":
-        if not (5 <= len(texto) <= 140):
-            decir(chat, "En una l\u00ednea, entre 5 y 140 letras \U0001f64f")
+        if len(texto) < 5:
+            decir(chat, "Contame un poco m\u00e1s \U0001f64f")
             return True
-        c.update(paso="tipo", titulo=texto)
+        empezar_indagacion(est, chat, texto, buscar_notas(texto))
+        return True
+    if False:
         decir(chat, "\u00bfQu\u00e9 tipo de pregunta es?",
               botones=[[{"text": t, "callback_data": "tipo:" + k}] for k, t in TIPOS])
         return True
@@ -244,6 +251,187 @@ def confirmar(chat, c):
                     {"text": "Cancelar", "callback_data": "cancelar"}]])
 
 
+# ---- charla guiada: indagar hasta tener la pregunta bien armada (editor, 12/10/2026) ----
+DONDE = [("ar", "\U0001f1e6\U0001f1f7 Argentina"), ("mundo", "\U0001f30e El mundo"),
+         ("prov", "\U0001f4cd Una provincia o ciudad"), ("pais", "\U0001f5fa\ufe0f Otro pa\u00eds"),
+         ("igual", "\U0001f937 Da igual")]
+CUANDO = [("hoy", "Hoy"), ("1", "El \u00faltimo a\u00f1o"), ("5", "Los \u00faltimos 5 a\u00f1os"),
+          ("10", "Los \u00faltimos 10 a\u00f1os"), ("20", "Los \u00faltimos 20 a\u00f1os"), ("igual", "Da igual")]
+PROVINCIAS = ("buenos aires", "caba", "ciudad de buenos aires", "cordoba", "santa fe", "rosario", "mendoza",
+              "tucuman", "salta", "jujuy", "chaco", "corrientes", "misiones", "entre rios", "formosa",
+              "santiago del estero", "catamarca", "la rioja", "san juan", "san luis", "la pampa", "neuquen",
+              "rio negro", "chubut", "santa cruz", "tierra del fuego", "provincia", "municipio", "ciudad")
+
+
+def pregunta_por_su_pedido(llano):
+    return bool(re.search(r"\b(mi|mis) (pedido|pedidos|investigacion|investigaciones|consulta)\b", llano)) or llano in (
+        "novedades", "hay novedades", "ya salio", "ya esta", "como viene", "como va", "falta mucho")
+
+
+def detectar(c, texto):
+    """Completa donde/cuando si la persona ya lo dijo, para no volver a preguntarlo."""
+    t = plano(texto)
+    if "donde" not in c:
+        if re.search(r"\b(mundo|mundial|global|internacional|planeta)\b", t):
+            c["donde"] = "El mundo"
+        elif any(re.search(r"\b%s\b" % p, t) for p in PROVINCIAS):
+            c["donde"] = "Una provincia o ciudad"
+        elif re.search(r"\b(argentin\w*|nacional|el pais)\b", t):
+            c["donde"] = "Argentina"
+    if "cuando" not in c:
+        m = re.search(r"\b(\d{1,2}) (anos|decadas)\b", t)
+        d = re.search(r"\bdesde (el )?(19|20)(\d\d)\b", t)
+        if m:
+            c["cuando"] = "Los \u00faltimos %s %s" % (m.group(1), "a\u00f1os" if m.group(2) == "anos" else "d\u00e9cadas")
+        elif d:
+            c["cuando"] = "Desde " + d.group(2) + d.group(3)
+        elif re.search(r"\b(hoy|actual|actualmente|este mes|este ano)\b", t):
+            c["cuando"] = "Hoy"
+
+
+def empezar_indagacion(est, chat, texto, notas):
+    c = {"modo": "indaga", "pregunta": " ".join(texto.split())[:1500], "partes": [], "paso": ""}
+    detectar(c, texto)
+    est["conv"][str(chat)] = c
+    intro = ["Buena pregunta \U0001f9d0"]
+    if notas:
+        intro += ["", "Para ir leyendo mientras tanto, esto ya lo investigamos \U0001f447"]
+        for a in notas:
+            intro += ["\u2022 " + a["titulo"], "  " + SITIO + a.get("archivo", "")]
+    decir(chat, "\n".join(intro))
+    siguiente_pregunta(chat, c)
+
+
+def siguiente_pregunta(chat, c):
+    listo = [{"text": "\u2705 Con eso alcanza", "callback_data": "listo"}]
+    if "donde" not in c:
+        c["paso"] = "donde"
+        decir(chat, "Para investigarla bien, contame un par de cosas. \u00bfD\u00f3nde lo miramos?",
+              botones=[[{"text": t, "callback_data": "dn:" + k}] for k, t in DONDE])
+    elif "cuando" not in c:
+        c["paso"] = "cuando"
+        decir(chat, "\u00bfQu\u00e9 per\u00edodo te interesa?",
+              botones=[[{"text": t, "callback_data": "cu:" + k}] for k, t in CUANDO])
+    elif not c.get("foco_preguntado"):
+        c["paso"] = "foco"
+        c["foco_preguntado"] = True
+        decir(chat, "\u00bfQu\u00e9 es lo que m\u00e1s te interesa saber? Contamelo con tus palabras: cu\u00e1nto, si creci\u00f3 "
+              "o cay\u00f3, comparado con qui\u00e9n, en pesos o en d\u00f3lares, qu\u00e9 te hace dudar...",
+              botones=[listo])
+    else:
+        confirmar_indaga(chat, c)
+
+
+def seguir_indagacion(est, chat, c, texto):
+    if c.get("paso") == "donde_cual":
+        c["donde"] = texto[:120]
+        siguiente_pregunta(chat, c)
+        return
+    if c.get("paso") == "agregar" or texto:
+        c["partes"].append(texto[:800])
+        detectar(c, texto)
+    if c.get("paso") in ("foco", "agregar", "confirmar"):
+        c["foco_preguntado"] = True
+        confirmar_indaga(chat, c)
+    else:
+        siguiente_pregunta(chat, c)
+
+
+def armar_pedido(c):
+    p = c["pregunta"]
+    titulo = p if len(p) <= 140 else p[:137].rsplit(" ", 1)[0] + "..."
+    lineas = []
+    if titulo != p:
+        lineas.append("Pregunta completa: " + p)
+    lineas.append("D\u00f3nde: " + c.get("donde", "sin precisar"))
+    lineas.append("Per\u00edodo: " + c.get("cuando", "sin precisar"))
+    if c["partes"]:
+        lineas.append("Lo que quiere saber: " + " / ".join(c["partes"]))
+    t = plano(p + " " + " ".join(c["partes"]))
+    tipo = ("comparar" if re.search(r"\b(compar\w*|versus|vs|mejor|peor|contra)\b", t) else
+            "verificar-cifra" if re.search(r"\b(es cierto|es verdad|verdad que|chequea\w*|verific\w*)\b", t) else
+            "cuanto-cuesta" if re.search(r"\b(cuanto|cuesta|cobra|paga|gana|vale|sale)\b", t) else "otro")
+    return titulo, tipo, "\n".join(lineas)[:1500]
+
+
+def confirmar_indaga(chat, c):
+    c["paso"] = "confirmar"
+    titulo, _, _ = armar_pedido(c)
+    l = ["As\u00ed la entiendo:", "", "\u00ab%s\u00bb" % titulo,
+         "\U0001f4cd D\u00f3nde: " + c.get("donde", "sin precisar"),
+         "\U0001f5d3\ufe0f Per\u00edodo: " + c.get("cuando", "sin precisar")]
+    if c["partes"]:
+        l.append("\U0001f3af Lo que quer\u00e9s saber: " + " / ".join(c["partes"])[:600])
+    l += ["", "\u00bfLa mandamos a la redacci\u00f3n? Antes de investigar te muestro el enfoque."]
+    decir(chat, "\n".join(l), botones=[[{"text": "\U0001f4e8 Mandar", "callback_data": "mandar"},
+                                         {"text": "\u270f\ufe0f Agregar algo", "callback_data": "agregar"}],
+                                        [{"text": "Cancelar", "callback_data": "cancelar"}]])
+
+
+def ofrecer_anotado(est, chat):
+    """Si dejo una pregunta anotada y ya no tiene nada en curso, se la ofrece."""
+    a = est.setdefault("anotado", {}).get(str(chat))
+    if not a or pl.en_curso(chat):
+        return False
+    decir(chat, "Antes de seguir: ten\u00e9s anotada esta pregunta para cuando terminara la anterior \U0001f4dd\n\n"
+          "\u00ab%s\u00bb\n\n\u00bfLa mandamos ahora?" % a["titulo"],
+          botones=[[{"text": "\U0001f4e8 S\u00ed, mandala", "callback_data": "anot_si"},
+                    {"text": "Descartarla", "callback_data": "anot_no"}]])
+    return True
+
+
+def crear_y_avisar(chat, titulo, tipo, detalle):
+    pid = pl.crear_desde_chat(chat, titulo, tipo, detalle)
+    anotar("pedido %s creado desde el chat" % pid)
+    decir(chat, "\U0001f4e8 \u00a1Recibido! La redacci\u00f3n lo lee y arma el enfoque: qu\u00e9 vamos a contestar, con qu\u00e9 "
+          "fuentes y c\u00f3mo se va a ver la nota. Te lo mando por ac\u00e1 en unos minutos.", teclado=True)
+    disparar_enfoque()
+
+
+def al_boton_indaga(est, q, chat, accion, valor):
+    sacar_botones(q)
+    if accion in ("anot_si", "anot_no"):
+        a = est["anotado"].pop(str(chat), None)
+        if not a:
+            decir(chat, "Ya no tengo nada anotado.", teclado=True)
+        elif accion == "anot_no":
+            decir(chat, "Listo, la descart\u00e9. Cuando quieras, preguntame otra cosa.", teclado=True)
+        elif not ya_tiene_una(chat):
+            crear_y_avisar(chat, a["titulo"], a["tipo"], a["detalle"])
+        return
+    c = est["conv"].get(str(chat))
+    if not c or c.get("modo") != "indaga":
+        decir(chat, "Esa pregunta ya no est\u00e1 en armado. Escribime lo que quer\u00e9s saber y arrancamos.", teclado=True)
+        return
+    if accion == "dn":
+        if valor in ("prov", "pais"):
+            c["paso"] = "donde_cual"
+            decir(chat, "\u00bfCu\u00e1l?" if valor == "pais" else "\u00bfCu\u00e1l? (una provincia, una ciudad, o varias)")
+            return
+        c["donde"] = dict(DONDE).get(valor, "sin precisar").split(" ", 1)[-1] if valor != "igual" else "sin precisar"
+        siguiente_pregunta(chat, c)
+    elif accion == "cu":
+        c["cuando"] = dict(CUANDO).get(valor, "sin precisar") if valor != "igual" else "sin precisar"
+        siguiente_pregunta(chat, c)
+    elif accion == "listo":
+        c["foco_preguntado"] = True
+        confirmar_indaga(chat, c)
+    elif accion == "agregar":
+        c["paso"] = "agregar"
+        decir(chat, "Dale, escribime qu\u00e9 sumar \u270d\ufe0f")
+    elif accion == "mandar":
+        est["conv"].pop(str(chat), None)
+        titulo, tipo, detalle = armar_pedido(c)
+        abiertos = pl.en_curso(chat)
+        if abiertos:
+            est["anotado"][str(chat)] = {"titulo": titulo, "tipo": tipo, "detalle": detalle}
+            decir(chat, "Ya ten\u00e9s una investigaci\u00f3n en marcha (\u00ab%s\u00bb). Esta queda anotada \U0001f4dd y te la "
+                  "ofrezco apenas salga la otra: va una por persona, as\u00ed cada una tiene su tiempo."
+                  % abiertos[0]["titulo"].strip()[:80], teclado=True)
+            return
+        crear_y_avisar(chat, titulo, tipo, detalle)
+
+
 def responder_pregunta(est, chat, texto):
     """Texto suelto: saludo, agradecimiento, o una pregunta que se busca en las notas."""
     llano = plano(texto).strip(" !.?\u00a1\u00bf")
@@ -254,8 +442,7 @@ def responder_pregunta(est, chat, texto):
         decir(chat, T_GRACIAS, teclado=True)
         return
     # preguntas por el estado de lo que ya pidio (12/10/2026: "como viene mi investigacion?")
-    if re.search(r"\b(mi|mis) (pedido|investigacion|nota|consulta)|como (viene|va|anda)|en que (esta|anda|va)"
-                 r"|novedad|ya (esta|salio)|cuando sale|falta mucho", llano):
+    if pregunta_por_su_pedido(llano):
         mis_pedidos(chat)
         return
     # "avisame cuando..." -> se le confirma que el aviso llega solo
@@ -264,6 +451,10 @@ def responder_pregunta(est, chat, texto):
               "la vista previa antes de publicar y el link cuando salga. No ten\u00e9s que hacer nada \U0001f44c",
               teclado=True)
         return
+    if ofrecer_anotado(est, chat):
+        return
+    empezar_indagacion(est, chat, texto, buscar_notas(texto))
+    return
     notas = buscar_notas(texto)
     est["sugerido"][str(chat)] = texto[:1500]
     boton = [[{"text": "\U0001f4e8 Pedir esto como investigaci\u00f3n", "callback_data": "sug"}]]
@@ -326,7 +517,14 @@ def al_boton(est, q):
     pl.tg("answerCallbackQuery", {"callback_query_id": q["id"]})
     if accion == "sug":
         sacar_botones(q)
-        pedir_nueva(est, chat, est["sugerido"].pop(str(chat), ""))
+        t = est["sugerido"].pop(str(chat), "")
+        if t:
+            empezar_indagacion(est, chat, t, [])
+        else:
+            pedir_nueva(est, chat)
+        return
+    if accion in ("dn", "cu", "listo", "mandar", "agregar", "anot_si", "anot_no"):
+        al_boton_indaga(est, q, chat, accion, pid)
         return
     if accion in ("tipo", "detalle", "enviar", "cancelar"):
         al_boton_conversacion(est, q, chat, accion, pid)
@@ -412,6 +610,8 @@ def al_mensaje(est, m):
         tipo_msg = "mis pedidos"
     elif texto in ("/pedir", B_PEDIR) or texto.startswith("/pedir@"):
         tipo_msg = "pedir"
+    elif str(chat) in est["conv"] and not texto.startswith("/") and pregunta_por_su_pedido(plano(texto).strip(" !.?\u00a1\u00bf")):
+        tipo_msg = "estado en medio de la charla"
     elif str(chat) in est["conv"] and not texto.startswith("/"):
         tipo_msg = "armando pedido"
     elif str(chat) in est["revision"] and not texto.startswith("/"):
@@ -426,6 +626,10 @@ def al_mensaje(est, m):
         est["esperando"].pop(str(chat), None)
         est["conv"].pop(str(chat), None)
         pedir_nueva(est, chat)
+        return
+    if tipo_msg == "estado en medio de la charla":
+        mis_pedidos(chat)
+        decir(chat, "Y la pregunta que est\u00e1bamos armando sigue ac\u00e1: seguimos cuando quieras \U0001f44c")
         return
     if tipo_msg == "armando pedido" and seguir_conversacion(est, chat, texto):
         return
@@ -468,7 +672,7 @@ def main():
     except Exception:
         anotar("AVISO: no se pudo registrar el menu de comandos")
     est = leer_estado()
-    for k in ("esperando", "conv", "revision", "sugerido"):
+    for k in ("esperando", "conv", "revision", "sugerido", "anotado"):
         est.setdefault(k, {})
     while True:
         try:
