@@ -170,6 +170,29 @@ def ofrecer(forzar=False):
     print("NADA|no hay notas nuevas con imagen para ofrecer")
 
 
+HORARIOS = ("12:30", "18:30", "21:30")   # hora argentina (editor, 13/10/2026)
+
+
+def turno():
+    """Lo llama la tarea cada 15 minutos: si en la Argentina es la hora de un horario (hasta
+    50 minutos despues) y ese horario no se uso hoy, ofrece una nota. Asi el cambio de hora
+    de la VM (Madrid) no corre los horarios."""
+    ahora = dt.datetime.now(dt.timezone.utc) - dt.timedelta(hours=3)
+    e = leer_estado()
+    hechos = e.setdefault("turnos", {})
+    for h in HORARIOS:
+        hh, mm = map(int, h.split(":"))
+        ini = ahora.replace(hour=hh, minute=mm, second=0, microsecond=0)
+        clave = ahora.date().isoformat() + " " + h
+        if ini <= ahora < ini + dt.timedelta(minutes=50) and clave not in hechos:
+            hechos[clave] = time.time()
+            guardar_estado(e)
+            print("turno %s" % clave)
+            ofrecer()
+            return
+    print("NADA|no es horario de Instagram")
+
+
 def articulo(id_):
     for a in pl.articulos():
         if a["id"].startswith(id_):
@@ -234,7 +257,9 @@ def renovar_token():
 
 if __name__ == "__main__":
     a = sys.argv[1:]
-    if a == ["ofrecer"]:
+    if a == ["turno"]:
+        turno()
+    elif a == ["ofrecer"]:
         ofrecer()
     elif len(a) == 2 and a[0] == "publicar":
         publicar(a[1])
