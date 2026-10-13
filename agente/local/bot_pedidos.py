@@ -1,19 +1,19 @@
 """
-bot_pedidos.py -- @Con_Interes_bot: el lector sigue su pedido de investigacion por Telegram.
+bot_pedidos.py -- @Con_Interes_bot: el lector pide y sigue su investigacion por Telegram.
 
-Editor, 12/10/2026: en vez de mail (todavia no hay remitente), el lector toca "Segui
-tu pedido por Telegram" en investigacion.html, que abre t.me/Con_Interes_bot?start=<codigo>.
-El bot busca el pedido por ese codigo y guarda el chat; desde ahi:
-  - pedidos_lectores.py le manda el ENFOQUE (titulo tentativo, secciones, enlace a la
-    maqueta) con dos botones, y el aviso de nota publicada;
-  - este bot recibe la respuesta: "Si, es esto" aprueba; "No, queria otra cosa" le pide
-    que escriba que queria, y eso vuelve a la redaccion como en enfoque.html.
-
-El bot NO hace nada mas: no busca, no responde preguntas, no toca el sitio. Lo que
-escribe un lector es DATO: solo se guarda como comentario del enfoque.
+Editor, 12/10/2026. Todo desde el chat, sin modelo de lenguaje (decision del editor:
+nada de IA conversando con terceros por ahora; ver memoria del 12/10):
+  - una pregunta suelta se busca por palabras en las notas publicadas y se ofrece
+    pedirla como investigacion con un boton;
+  - /pedir arma el pedido (pregunta, tipo, detalle) y confirma; UNA investigacion en
+    curso por persona;
+  - pedidos_lectores.py manda el ENFOQUE (maqueta) con botones y, con la nota lista,
+    la VISTA PREVIA (Publicar / Hay un error, sin veto); este bot recibe las respuestas;
+  - /mispedidos cuenta en que esta cada uno.
+Lo que escribe un lector es DATO: se guarda como pedido o comentario, nunca se ejecuta.
 Corre en la VM como tarea "Con Interes - Bot Telegram" (long polling, sin webhook).
 """
-import json, os, re, subprocess, sys, time, traceback
+import json, os, re, subprocess, sys, time, traceback, unicodedata
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 import pedidos_lectores as pl
@@ -21,27 +21,54 @@ import pedidos_lectores as pl
 ESTADO = os.path.join(pl.LOGS, "bot_telegram_estado.json")   # offset y quien esta escribiendo
 LOG = os.path.join(pl.LOGS, "bot_telegram.log")
 FORM = "https://coninteres.com/investigacion.html?de=telegram"
+SITIO = "https://coninteres.com/"
 UUID = re.compile(r"^[0-9a-f]{8}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{4}-[0-9a-f]{12}$", re.I)
 
-T_HOLA = ("Hola. Soy el bot de Con Inter\u00e9s. Ac\u00e1 ped\u00eds una investigaci\u00f3n y la "
-          "segu\u00eds de punta a punta: te mostramos el enfoque antes de investigar, lo aprob\u00e1s "
-          "con un bot\u00f3n y te avisamos cuando sale la nota.\n\n"
-          "Toc\u00e1 \u00ab\u2795 Pedir una investigaci\u00f3n\u00bb para empezar.")
-T_VINCULADO = ("Listo, tu pedido qued\u00f3 vinculado:\n\u00ab{titulo}\u00bb\n\n"
-               "Ahora lo leemos y armamos el enfoque: qu\u00e9 vamos a contestar y con qu\u00e9 fuentes. "
-               "Te lo mandamos por ac\u00e1, suele tardar unas horas.")
-T_NO_ENCONTRADO = ("No encontr\u00e9 ese pedido. Us\u00e1 el bot\u00f3n que aparece despu\u00e9s de "
-                   "enviarlo en la p\u00e1gina, o ped\u00ed una investigaci\u00f3n ac\u00e1: " + FORM)
-T_OTRO = ("Por ahora solo te acompa\u00f1o con tus pedidos de investigaci\u00f3n. "
-          "Us\u00e1 los botones de abajo: \u00ab\u2795 Pedir una investigaci\u00f3n\u00bb o \u00ab\U0001f4cb Mis pedidos\u00bb.")
-T_APROBADO = ("Listo. Empezamos a investigar con este enfoque. Te avisamos por ac\u00e1 cuando "
-              "salga la nota.\n\nVos elegiste qu\u00e9 se investiga; el resultado es el que den los datos.")
-T_CONTAME = ("Contanos en un mensaje qu\u00e9 quer\u00edas saber: otro alcance, otro per\u00edodo, "
-             "otras provincias, otra comparaci\u00f3n...")
-T_REENFOQUE = "Gracias. Rehacemos el enfoque con lo que nos dijiste y te lo mandamos por ac\u00e1."
-T_YA_NO = ("Ese enfoque ya no est\u00e1 esperando respuesta (puede que ya est\u00e9 en "
-           "investigaci\u00f3n). Te avisamos por ac\u00e1 cuando haya novedades.")
-T_NO_ES_TUYO = "Ese pedido no est\u00e1 vinculado a este chat."
+T_HOLA = ("\U0001f44b \u00a1Hola! Ac\u00e1 miramos los n\u00fameros detr\u00e1s de las noticias, con datos verificados y sin pol\u00edtica.\n\n"
+          "Escribime lo que te genere curiosidad de la econom\u00eda: si ya lo investigamos, te paso la nota; "
+          "si no, lo investigamos para vos y te aviso cuando est\u00e9.")
+T_VINCULADO = ("Listo, ya tengo tu pedido \U0001f64c\n\u00ab{titulo}\u00bb\n\n"
+               "Ahora lo leemos y armamos el enfoque: qu\u00e9 vamos a contestar, con qu\u00e9 fuentes y c\u00f3mo se va "
+               "a ver la nota. Te lo mando por ac\u00e1.")
+T_NO_ENCONTRADO = ("Mmm, no encuentro ese pedido \U0001f914 Prob\u00e1 con el bot\u00f3n que aparece despu\u00e9s de enviarlo en la "
+                   "p\u00e1gina, o contame ac\u00e1 qu\u00e9 quer\u00e9s saber.")
+T_APROBADO = ("\u00a1Vamos! \U0001f50e Arrancamos a investigar con este enfoque. Cuando la nota est\u00e9 lista te la muestro "
+              "antes de publicarla.\n\nVos elegiste qu\u00e9 se investiga; el resultado es el que den los datos.")
+T_CONTAME = "Dale. Contame en un mensaje qu\u00e9 quer\u00edas: otro alcance, otro per\u00edodo, otras provincias, otra comparaci\u00f3n..."
+T_REENFOQUE = "Anotado \u270d\ufe0f Rehacemos el enfoque con eso y te lo mando por ac\u00e1 en un rato."
+T_YA_NO = ("Ese enfoque ya no est\u00e1 esperando respuesta (puede que ya est\u00e9 en investigaci\u00f3n). "
+           "Te aviso por ac\u00e1 cuando haya novedades.")
+T_NO_ES_TUYO = "Ese pedido no es de este chat \U0001f937"
+T_GRACIAS = "\u00a1De nada! Cuando te pique la curiosidad, escribime \U0001f609"
+
+# Botones fijos abajo del chat (teclado de respuesta): mandan este texto al tocarlos.
+B_MIS = "\U0001f4cb Mis pedidos"
+B_PEDIR = "\u2795 Pedir una investigaci\u00f3n"
+TECLADO = {"keyboard": [[{"text": B_MIS}, {"text": B_PEDIR}]], "resize_keyboard": True, "is_persistent": True}
+COMANDOS = [{"command": "mispedidos", "description": "En qu\u00e9 est\u00e1 cada investigaci\u00f3n que pediste"},
+            {"command": "pedir", "description": "Pedir una investigaci\u00f3n nueva"},
+            {"command": "start", "description": "Empezar"}]
+ESTADOS = {
+    "recibido": "\U0001f4e5 Recibido: estamos armando el enfoque",
+    "en_investigacion": "\u2699\ufe0f La redacci\u00f3n est\u00e1 trabajando en esto ahora",
+    "enfoque_propuesto": "\u270b Te mand\u00e9 el enfoque: espero tu respuesta",
+    "enfoque_aprobado": "\u23f3 Enfoque aprobado: en la fila para investigar",
+    "en_revision": "\U0001f4f0 Lista: te mand\u00e9 la vista previa para que la mires antes de publicar",
+    "revision_ok": "\U0001f4e4 La aprobaste: sale en la pr\u00f3xima vuelta de la redacci\u00f3n",
+    "revision_error": "\U0001f50d Revisando contra la fuente lo que marcaste; despu\u00e9s sale",
+    "publicado": "\u2705 Publicada",
+    "descartado": "\u26d4 Cerrado sin nota",
+}
+TIPOS = [("cuanto-cuesta", "\U0001f4b0 \u00bfCu\u00e1nto cuesta? \u00bfQui\u00e9n paga?"),
+         ("verificar-cifra", "\U0001f50e Verificar una cifra que vi"),
+         ("comparar", "\u2696\ufe0f Comparar con otro pa\u00eds u otra \u00e9poca"),
+         ("otro", "\u2753 Otra")]
+SALUDOS = {"hola", "buenas", "buen dia", "buenos dias", "buenas tardes", "buenas noches", "hey", "holis", "que tal"}
+AGRADECE = {"gracias", "muchas gracias", "genial", "joya", "dale", "ok", "listo", "barbaro", "perfecto", "buenisimo"}
+VACIAS = set("que los las del como cuanto cuanta cuantos cuantas para por con una uno unos unas sus son esta este "
+             "esto eso esa ese hay mas menos tiene tienen fue era ser entre sobre desde hasta cual cuales donde "
+             "cuando quien porque pero sin muy hace hacen les nos ella ellos aca alla todo toda todos todas "
+             "saber quiero queria quisiera podes puede pueden sabes".split())
 
 
 def anotar(t):
@@ -55,33 +82,13 @@ def leer_estado():
     try:
         return json.load(open(ESTADO, encoding="utf-8"))
     except Exception:
-        return {"offset": 0, "esperando": {}, "conv": {}, "revision": {}}
+        return {"offset": 0, "esperando": {}, "conv": {}, "revision": {}, "sugerido": {}}
 
 
 def guardar_estado(e):
     tmp = ESTADO + ".tmp"
     json.dump(e, open(tmp, "w", encoding="utf-8"))
     os.replace(tmp, ESTADO)
-
-
-# Botones fijos abajo del chat (teclado de respuesta): mandan este texto al tocarlos.
-B_MIS = "\U0001f4cb Mis pedidos"
-B_PEDIR = "\u2795 Pedir una investigaci\u00f3n"
-TECLADO = {"keyboard": [[{"text": B_MIS}, {"text": B_PEDIR}]], "resize_keyboard": True, "is_persistent": True}
-COMANDOS = [{"command": "mispedidos", "description": "En qu\u00e9 est\u00e1 cada investigaci\u00f3n que pediste"},
-            {"command": "pedir", "description": "Pedir una investigaci\u00f3n nueva"},
-            {"command": "start", "description": "Empezar"}]
-ESTADOS = {
-    "recibido": "\U0001f4e5 Recibido: estamos armando el enfoque",
-    "en_investigacion": "\u2699\ufe0f La redacci\u00f3n est\u00e1 trabajando en tu pedido ahora",
-    "enfoque_propuesto": "\u270b Te mandamos el enfoque: esperamos tu respuesta",
-    "enfoque_aprobado": "\u23f3 Enfoque aprobado: en la fila para investigar (sale una investigaci\u00f3n por d\u00eda)",
-    "en_revision": "\U0001f4f0 Lista: te mandamos la vista previa para que la mires antes de publicar",
-    "revision_ok": "\U0001f4e4 La aprobaste: se publica en la pr\u00f3xima vuelta de la redacci\u00f3n",
-    "revision_error": "\U0001f50d Revisando contra la fuente lo que nos marcaste; despu\u00e9s se publica",
-    "publicado": "\u2705 Publicada",
-    "descartado": "\u26d4 Cerrado sin nota",
-}
 
 
 def decir(chat, texto, botones=None, teclado=False):
@@ -93,13 +100,56 @@ def decir(chat, texto, botones=None, teclado=False):
     pl.tg("sendMessage", d)
 
 
+def plano(t):
+    t = unicodedata.normalize("NFKD", (t or "").lower())
+    return "".join(c for c in t if not unicodedata.combining(c))
+
+
+def buscar_notas(consulta, n=3):
+    """Notas publicadas que coinciden con la consulta, sin modelo de lenguaje.
+    Cada palabra pesa segun lo rara que es en el archivo (una palabra que aparece en
+    pocas notas, como "contadores", pesa mucho mas que "cobran" o "menos"). Se descartan
+    las notas que quedan muy por debajo de la mejor."""
+    import math
+    raiz = lambda w: w[:6]   # "pension"/"pensiones", "jubilado"/"jubilada": misma raiz
+    palabras = list(dict.fromkeys(raiz(p) for p in re.findall(r"[a-z0-9]+", plano(consulta))
+                                  if len(p) > 2 and p not in VACIAS))
+    if not palabras:
+        return []
+    docs = []
+    for a in pl.articulos():
+        texto = plano(" ".join(str(a.get(k, "")) for k in ("titulo", "titulo_busqueda", "bajada", "numero_label")))
+        docs.append(({raiz(t) for t in re.findall(r"[a-z0-9]+", texto)}, a))   # palabras enteras, no pedazos
+    total = len(docs) or 1
+    peso = {}
+    for w in palabras:
+        df = sum(1 for t, _ in docs if w in t)
+        peso[w] = math.log((total + 1) / (df + 1)) if df else 0.0
+    docs_de = {id(a): t for t, a in docs}
+    hallados = []
+    for t, a in docs:
+        puntos = sum(peso[w] for w in palabras if w in t)
+        if puntos > 0:
+            hallados.append((puntos, a.get("fecha", ""), a))
+    if not hallados:
+        return []
+    hallados.sort(key=lambda x: (x[0], x[1]), reverse=True)
+    mejor = hallados[0][0]
+    # la mejor tiene que coincidir en algo poco comun, y las demas acercarse a ella
+    if mejor < math.log(total / 25.0):
+        return []
+    # todas tienen que traer la palabra mas distintiva de la pregunta (la que mas pesa)
+    clave = max((w for w in palabras if peso[w] > 0), key=lambda w: peso[w])
+    return [a for p, _, a in hallados if p >= 0.7 * mejor and (clave in docs_de[id(a)] or p >= 0.9 * mejor)][:n]
+
+
 def mis_pedidos(chat):
     f = pl.pedir("GET", "?select=id,titulo,estado,salida,motivo,token,creado&telegram_chat=eq.%d&order=creado.desc&limit=10" % chat)
     if not f:
-        decir(chat, "Todav\u00eda no ten\u00e9s pedidos vinculados a este chat.\n\nPara pedir una investigaci\u00f3n: " + FORM
-              + "\nDespu\u00e9s de enviarla, toc\u00e1 \u00abSegu\u00ed tu pedido por Telegram\u00bb.", teclado=True)
+        decir(chat, "Todav\u00eda no pediste ninguna investigaci\u00f3n por ac\u00e1.\n\nEscribime lo que quer\u00e9s saber, "
+              "o toc\u00e1 \u00ab\u2795 Pedir una investigaci\u00f3n\u00bb.", teclado=True)
         return
-    l = ["\U0001f4cb Tus pedidos (los \u00faltimos %d):" % len(f), ""]
+    l = ["\U0001f4cb Tus pedidos:", ""]
     for p in f:
         l.append("\u2022 \u00ab%s\u00bb" % p["titulo"].strip())
         l.append("  " + ESTADOS.get(p["estado"], p["estado"]))
@@ -113,12 +163,6 @@ def mis_pedidos(chat):
     decir(chat, "\n".join(l).strip(), teclado=True)
 
 
-TIPOS = [("cuanto-cuesta", "\U0001f4b0 \u00bfCu\u00e1nto cuesta? \u00bfQui\u00e9n paga?"),
-         ("verificar-cifra", "\U0001f50e Verificar una cifra que vi"),
-         ("comparar", "\u2696\ufe0f Comparar con otro pa\u00eds u otra \u00e9poca"),
-         ("otro", "\u2753 Otra")]
-
-
 def disparar_enfoque():
     """La tarea de enfoque corre al toque (si ya esta corriendo, la vuelta en curso
     lo toma o lo toma la siguiente)."""
@@ -130,7 +174,7 @@ def disparar_enfoque():
 
 
 def disparar_redaccion():
-    """La redaccion publica o corrige la vista previa al empezar su vuelta."""
+    """La redaccion investiga, o publica/corrige la vista previa, al empezar su vuelta."""
     try:
         subprocess.run(["schtasks", "/run", "/tn", "Con Interes - Redaccion programada"], capture_output=True, timeout=30)
         anotar("redaccion disparada")
@@ -138,16 +182,34 @@ def disparar_redaccion():
         anotar("AVISO: no se pudo disparar la redaccion: %s" % e)
 
 
-def pedir_nueva(est, chat):
-    # editor, 12/10/2026: una investigacion en curso por persona
+def ya_tiene_una(chat):
+    """editor, 12/10/2026: una investigacion en curso por persona. Avisa y devuelve True."""
     abiertos = pl.en_curso(chat)
-    if abiertos:
-        p = abiertos[0]
-        decir(chat, "Ya ten\u00e9s una investigaci\u00f3n en curso:\n\u00ab%s\u00bb\n%s\n\n"
-              "Para que cada pedido tenga su tiempo, va una por persona. Cuando salga, ped\u00ed la pr\u00f3xima."
-              % (p["titulo"].strip(), ESTADOS.get(p["estado"], p["estado"])), teclado=True)
+    if not abiertos:
+        return False
+    p = abiertos[0]
+    decir(chat, "Ya ten\u00e9s una investigaci\u00f3n en marcha:\n\u00ab%s\u00bb\n%s\n\nVa una por persona, as\u00ed cada una tiene "
+          "su tiempo. Apenas salga, pedime la pr\u00f3xima \U0001f609" % (p["titulo"].strip(), ESTADOS.get(p["estado"], p["estado"])),
+          teclado=True)
+    return True
+
+
+def pedir_nueva(est, chat, pregunta=""):
+    if ya_tiene_una(chat):
+        return
+    pregunta = " ".join((pregunta or "").split())
+    if 5 <= len(pregunta) <= 140:
+        est["conv"][str(chat)] = {"paso": "tipo", "titulo": pregunta}
+        decir(chat, "Anoto tu pregunta:\n\u00ab%s\u00bb\n\n\u00bfQu\u00e9 tipo de pregunta es?" % pregunta,
+              botones=[[{"text": t, "callback_data": "tipo:" + k}] for k, t in TIPOS]
+              + [[{"text": "Cancelar", "callback_data": "cancelar"}]])
         return
     est["conv"][str(chat)] = {"paso": "titulo"}
+    if pregunta:
+        decir(chat, "Es un poco larga para el t\u00edtulo \U0001f605 \u00bfMe la resum\u00eds en una l\u00ednea? (hasta 140 letras)\n\n"
+              "Lo dem\u00e1s me lo cont\u00e1s en el paso siguiente.",
+              botones=[[{"text": "Cancelar", "callback_data": "cancelar"}]])
+        return
     decir(chat, "\u00bfQu\u00e9 quer\u00e9s saber? Escribilo en una l\u00ednea, como se lo preguntar\u00edas a un amigo.\n\n"
           "Por ejemplo: \u00ab\u00bfCu\u00e1nto le cuesta a un club de barrio mantener una pileta?\u00bb",
           botones=[[{"text": "Cancelar", "callback_data": "cancelar"}]])
@@ -160,7 +222,7 @@ def seguir_conversacion(est, chat, texto):
         return False
     if c["paso"] == "titulo":
         if not (5 <= len(texto) <= 140):
-            decir(chat, "Escribilo en una l\u00ednea, entre 5 y 140 letras.")
+            decir(chat, "En una l\u00ednea, entre 5 y 140 letras \U0001f64f")
             return True
         c.update(paso="tipo", titulo=texto)
         decir(chat, "\u00bfQu\u00e9 tipo de pregunta es?",
@@ -170,16 +232,40 @@ def seguir_conversacion(est, chat, texto):
         c.update(paso="confirmar", detalle=texto[:1500])
         confirmar(chat, c)
         return True
-    decir(chat, "Us\u00e1 los botones del mensaje anterior para seguir, o toc\u00e1 Cancelar.")
+    decir(chat, "Seguimos con los botones del mensaje de arriba, o toc\u00e1 Cancelar.")
     return True
 
 
 def confirmar(chat, c):
     tipo = dict(TIPOS).get(c.get("tipo"), "")
-    decir(chat, "As\u00ed queda tu pedido:\n\n\u00ab%s\u00bb\n%s%s\n\n\u00bfLo enviamos?"
+    decir(chat, "As\u00ed queda:\n\n\u00ab%s\u00bb\n%s%s\n\n\u00bfLo mandamos?"
           % (c["titulo"], tipo, ("\n\n" + c["detalle"]) if c.get("detalle") else ""),
-          botones=[[{"text": "\U0001f4e8 Enviar", "callback_data": "enviar"},
+          botones=[[{"text": "\U0001f4e8 Mandar", "callback_data": "enviar"},
                     {"text": "Cancelar", "callback_data": "cancelar"}]])
+
+
+def responder_pregunta(est, chat, texto):
+    """Texto suelto: saludo, agradecimiento, o una pregunta que se busca en las notas."""
+    llano = plano(texto).strip(" !.?\u00a1\u00bf")
+    if llano in SALUDOS:
+        decir(chat, T_HOLA, teclado=True)
+        return
+    if llano in AGRADECE:
+        decir(chat, T_GRACIAS, teclado=True)
+        return
+    notas = buscar_notas(texto)
+    est["sugerido"][str(chat)] = texto[:1500]
+    boton = [[{"text": "\U0001f4e8 Pedir esto como investigaci\u00f3n", "callback_data": "sug"}]]
+    if notas:
+        l = ["Lo m\u00e1s cercano que encontr\u00e9 entre lo que ya investigamos\U0001f447", ""]
+        for a in notas:
+            l.append("\u2022 " + a["titulo"])
+            l.append("  " + SITIO + a.get("archivo", ""))
+        l += ["", "\u00bfNo es exactamente lo que buscabas? Lo investigamos para vos."]
+        decir(chat, "\n".join(l), botones=boton)
+    else:
+        decir(chat, "Eso todav\u00eda no lo investigamos \U0001f9d0 \u00bfQuer\u00e9s que lo hagamos? Te muestro el enfoque antes de "
+              "arrancar y la nota antes de publicarla.", botones=boton)
 
 
 def pedido_de(pid, chat):
@@ -215,10 +301,22 @@ def al_start(chat, codigo):
               pl.botones_enfoque(p["id"]))
 
 
+def sacar_botones(q):
+    try:
+        pl.tg("editMessageReplyMarkup", {"chat_id": q["message"]["chat"]["id"], "message_id": q["message"]["message_id"],
+                                         "reply_markup": {"inline_keyboard": []}})
+    except Exception:
+        pass
+
+
 def al_boton(est, q):
     chat = q["message"]["chat"]["id"]
     accion, _, pid = (q.get("data") or "").partition(":")
     pl.tg("answerCallbackQuery", {"callback_query_id": q["id"]})
+    if accion == "sug":
+        sacar_botones(q)
+        pedir_nueva(est, chat, est["sugerido"].pop(str(chat), ""))
+        return
     if accion in ("tipo", "detalle", "enviar", "cancelar"):
         al_boton_conversacion(est, q, chat, accion, pid)
         return
@@ -227,15 +325,15 @@ def al_boton(est, q):
         if accion == "pub":
             if pl.marcar_revision(pid, chat, True):
                 anotar("pedido %s: el lector aprobo la vista previa" % pid)
-                decir(chat, "\U0001f44d Listo. La publicamos en un rato y te mandamos el link.", teclado=True)
+                decir(chat, "\U0001f44d \u00a1Sale! La publicamos en un rato y te paso el link.", teclado=True)
                 disparar_redaccion()
             else:
                 decir(chat, "Esa vista previa ya no est\u00e1 esperando respuesta.", teclado=True)
         else:
             est["revision"][str(chat)] = int(pid)
             anotar("pedido %s: el lector va a contar un error de la vista previa" % pid)
-            decir(chat, "Contanos qu\u00e9 viste mal o qu\u00e9 falt\u00f3. Si ten\u00e9s la fuente (un link, una "
-                  "resoluci\u00f3n, un documento), pegala: nos ayuda a verificarlo.")
+            decir(chat, "Contame qu\u00e9 viste mal o qu\u00e9 falt\u00f3. Si ten\u00e9s la fuente (un link, una resoluci\u00f3n, "
+                  "un documento), pegala: as\u00ed lo verificamos m\u00e1s r\u00e1pido.")
         return
     if accion not in ("ok", "no") or not pid.isdigit():
         return
@@ -243,12 +341,7 @@ def al_boton(est, q):
     if not p:
         decir(chat, T_NO_ES_TUYO)
         return
-    # los botones se sacan del mensaje: no se responde dos veces
-    try:
-        pl.tg("editMessageReplyMarkup", {"chat_id": chat, "message_id": q["message"]["message_id"],
-                                         "reply_markup": {"inline_keyboard": []}})
-    except Exception:
-        pass
+    sacar_botones(q)   # no se responde dos veces
     if p["estado"] != "enfoque_propuesto":
         decir(chat, T_YA_NO)
         return
@@ -264,28 +357,19 @@ def al_boton(est, q):
         decir(chat, T_CONTAME)
 
 
-def sacar_botones(q):
-    try:
-        pl.tg("editMessageReplyMarkup", {"chat_id": q["message"]["chat"]["id"], "message_id": q["message"]["message_id"],
-                                         "reply_markup": {"inline_keyboard": []}})
-    except Exception:
-        pass
-
-
 def al_boton_conversacion(est, q, chat, accion, valor):
     c = est["conv"].get(str(chat))
     sacar_botones(q)
     if accion == "cancelar":
         est["conv"].pop(str(chat), None)
-        decir(chat, "Listo, no enviamos nada.", teclado=True)
+        decir(chat, "Listo, no mandamos nada. Cuando quieras, ac\u00e1 estoy.", teclado=True)
         return
     if not c:
-        decir(chat, "Ese pedido ya no est\u00e1 en armado. Toc\u00e1 \u00ab\u2795 Pedir una investigaci\u00f3n\u00bb para empezar otro.", teclado=True)
+        decir(chat, "Ese pedido ya no est\u00e1 en armado. Escribime lo que quer\u00e9s saber y arrancamos de nuevo.", teclado=True)
         return
     if accion == "tipo" and c["paso"] == "tipo" and valor in dict(TIPOS):
         c.update(paso="detalle", tipo=valor)
-        decir(chat, "Contanos un poco m\u00e1s, si quer\u00e9s: por qu\u00e9 te interesa, d\u00f3nde lo viste, "
-              "qu\u00e9 te gustar\u00eda comparar.",
+        decir(chat, "\u00bfMe cont\u00e1s un poco m\u00e1s? Por qu\u00e9 te interesa, d\u00f3nde lo viste, con qu\u00e9 te gustar\u00eda comparar...",
               botones=[[{"text": "Saltear", "callback_data": "detalle:no"}]])
         return
     if accion == "detalle" and c["paso"] == "detalle":
@@ -294,17 +378,16 @@ def al_boton_conversacion(est, q, chat, accion, valor):
         return
     if accion == "enviar" and c["paso"] == "confirmar":
         est["conv"].pop(str(chat), None)
-        if pl.en_curso(chat):
-            decir(chat, "Ya ten\u00e9s una investigaci\u00f3n en curso: cuando salga, ped\u00ed la pr\u00f3xima.", teclado=True)
+        if ya_tiene_una(chat):
             return
         pid = pl.crear_desde_chat(chat, c["titulo"], c["tipo"], c.get("detalle", ""))
         anotar("pedido %s creado desde el chat" % pid)
-        decir(chat, "\U0001f4e8 Recibimos tu pedido.\n\nAhora la redacci\u00f3n lo lee y arma el enfoque: qu\u00e9 vamos "
-              "a contestar, con qu\u00e9 fuentes y c\u00f3mo se va a ver la nota. Te lo mandamos por ac\u00e1 en un rato "
-              "para que lo apruebes.", teclado=True)
+        decir(chat, "\U0001f4e8 \u00a1Recibido! Ahora la redacci\u00f3n lo lee y arma el enfoque: qu\u00e9 vamos a contestar, con qu\u00e9 "
+              "fuentes y c\u00f3mo se va a ver la nota. Te lo mando por ac\u00e1 en unos minutos para que me digas si va.",
+              teclado=True)
         disparar_enfoque()
         return
-    decir(chat, "Ese bot\u00f3n ya no corresponde. Segu\u00ed desde el \u00faltimo mensaje.")
+    decir(chat, "Ese bot\u00f3n ya no corresponde. Seguimos desde el \u00faltimo mensaje.")
 
 
 def al_mensaje(est, m):
@@ -318,7 +401,7 @@ def al_mensaje(est, m):
         tipo_msg = "mis pedidos"
     elif texto in ("/pedir", B_PEDIR) or texto.startswith("/pedir@"):
         tipo_msg = "pedir"
-    elif str(chat) in est["conv"]:
+    elif str(chat) in est["conv"] and not texto.startswith("/"):
         tipo_msg = "armando pedido"
     elif str(chat) in est["revision"] and not texto.startswith("/"):
         tipo_msg = "error de vista previa"
@@ -330,6 +413,7 @@ def al_mensaje(est, m):
         return
     if tipo_msg == "pedir":
         est["esperando"].pop(str(chat), None)
+        est["conv"].pop(str(chat), None)
         pedir_nueva(est, chat)
         return
     if tipo_msg == "armando pedido" and seguir_conversacion(est, chat, texto):
@@ -338,8 +422,8 @@ def al_mensaje(est, m):
         pid = est["revision"].pop(str(chat))
         if pl.marcar_revision(pid, chat, False, texto):
             anotar("pedido %s: el lector senalo un error en la vista previa" % pid)
-            decir(chat, "Gracias. Lo revisamos contra la fuente: si tiene raz\u00f3n, se corrige antes de "
-                  "publicar. Te contamos qu\u00e9 encontramos.", teclado=True)
+            decir(chat, "Gracias \U0001f64f Lo revisamos contra la fuente: si ten\u00e9s raz\u00f3n, se corrige antes de publicar. "
+                  "Te cuento qu\u00e9 encontramos.", teclado=True)
             disparar_redaccion()
         else:
             decir(chat, "Esa vista previa ya no est\u00e1 esperando respuesta.", teclado=True)
@@ -362,7 +446,8 @@ def al_mensaje(est, m):
         if r == "reenfoque":
             disparar_enfoque()
         return
-    decir(chat, T_OTRO, teclado=True)
+    if texto:
+        responder_pregunta(est, chat, texto)
 
 
 def main():
@@ -372,8 +457,8 @@ def main():
     except Exception:
         anotar("AVISO: no se pudo registrar el menu de comandos")
     est = leer_estado()
-    est.setdefault("conv", {})
-    est.setdefault("revision", {})
+    for k in ("esperando", "conv", "revision", "sugerido"):
+        est.setdefault(k, {})
     while True:
         try:
             r = pl.tg("getUpdates", {"offset": est["offset"], "timeout": 50,
