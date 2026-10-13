@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-13T12:11:25-03:00",
+    "actualizado": "2026-10-13T12:44:55-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-13-zona-fria-ley-gas-tarifa-plena",
+      "titulo": "La ley de Zona Fría salió hoy: un hogar de la zona ampliada con 30% de descuento que no entre al SEF va a pagar 42,9% más por el gas",
+      "bajada": "La ley 27.828, publicada hoy en el Boletín Oficial, le quita la base legal a la tarifa diferencial que desde 2021 tenían Buenos Aires, Córdoba, Santa Fe, Cuyo y Salta. En los cuadros oficiales de octubre esa tarifa es exactamente el 70% de la plena. El que la pierde y no entra al régimen de subsidios focalizados vuelve a pagar el 100%.",
+      "titulo_busqueda": "¿Cuánto aumenta el gas si pierdo la Zona Fría?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "42,9%",
+      "numero_label": "lo que sube cada cargo de la tarifa de gas (fijo y por m³) para un hogar de la Zona Fría ampliada que pagaba la tarifa diferencial de 70% (ley 27.637, art. 4, derogado por la ley 27.828 del 13/10/2026) y no entra al SEF: 100/70 = 1,4286; en los cuadros del ENReGE desde el 01/10/2026 la diferencial es exactamente 0,70 de la plena en las diez subzonas de la ampliación",
+      "fecha": "2026-10-13",
+      "hora": "13:30",
+      "archivo": "articulos/2026-10-13-zona-fria-ley-gas-tarifa-plena.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 8 min"
+    },
     {
       "id": "2026-10-13-ia-sensacion-empleo-argentina-sectores",
       "titulo": "¿Por qué parece que la IA deja gente sin trabajo si los estudios no lo muestran?",
