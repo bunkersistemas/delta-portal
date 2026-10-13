@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Cuánta plata le deja a la Argentina la visita del papa León XIV? ¿Y cuánto cuesta? — CON INTERÉS</title>
+<meta name="description" content="Buscamos lo que pone el Estado, lo que cuesta el feriado, lo que traería el turismo y cómo terminaron otras visitas papales. El decreto que organiza la visita no fija un peso, las cifras de US$25 y US$30 millones que circulan no tienen fuente identificada y nadie publicó una estimación de ingresos con método.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* legend */
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;font-size:12px;color:var(--muted);font-family:var(--mono)}
+  .legend .li{display:flex;align-items:center;gap:6px}
+  .legend .sw{width:11px;height:11px;border-radius:3px;flex:0 0 auto}
+
+  /* tablero */
+  .tabla{width:100%;border-collapse:collapse;font-size:14px;line-height:1.45}
+  .tabla th{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;font-weight:600;padding:0 8px 8px 0;border-bottom:1px solid var(--rule);vertical-align:bottom}
+  .tabla td{padding:10px 8px 10px 0;border-bottom:1px solid var(--grid);vertical-align:top;color:var(--ink-soft)}
+  .tabla td b{color:var(--ink);font-weight:600}
+  .tabla .q{font-family:var(--mono);font-size:12px;color:var(--faint)}
+  .dir{font-family:var(--mono);font-size:12px;font-weight:600;white-space:nowrap}
+  .dir.baja{color:var(--red)} .dir.sube{color:var(--teal-deep)} .dir.mixta{color:var(--amber)}
+  .scroll{overflow-x:auto}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+</style>
+</head>
+<body data-palette="#0E7C86,#C4701F,#C0392B,#6B6560">
+<div class="draft-ribbon"><b>BORRADOR</b> &middot; investigación pedida por un lector &middot; pendiente de revisión, no publicado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="borrador"><div class="borrador-in"><b>Borrador en revisión.</b> Esta nota todavía no está publicada: la ve primero el lector que la pidió y la redacción. Los datos están verificados con el método de Con Interés.</div></div>
+
+  <div class="kicker">ECONOMÍA <span class="sep">/</span> <span class="fmt">Anatomía de un dato</span></div>
+
+  <h1>La visita del papa no tiene costo oficial publicado y suma un feriado nacional en una economía que produce $2,7 billones por día: por qué todavía nadie puede decir si deja plata</h1>
+
+  <p class="standfirst">El decreto que organiza la visita de León XIV crea una unidad especial y declara feriado el 9 de noviembre, pero no fija un solo peso. Las cifras de US$25 y US$30 millones que circulan no tienen una fuente identificada. Y nadie publicó, con método, cuánto gastarían los visitantes. Esto es lo que se sabe, lo que falta y lo que se va a poder medir.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>12 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 8 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta, con el enfoque que aprobó el lector, si la visita de León XIV le deja plata a la Argentina o le cuesta más de lo que trae: lo que pone el Estado nacional, lo que cuesta el feriado, lo que traería el turismo y cómo terminaron otras visitas papales. La respuesta es parcial, y lo decimos de entrada. Ningún gobierno publicó cuánto gasta y nadie publicó una estimación de ingresos con método. Por eso no hay un balance para dar. Las cifras de Perú y Chile 2018 que aparecían en el adelanto de esta nota quedaron afuera: cada una la dio un solo vocero, sin documento ni medición posterior, y no llegaron a nuestra vara. En su lugar va Lisboa 2023, el único caso que encontramos con una estimación antes y otra después. Tampoco cubrimos provincia por provincia: Buenos Aires es la única en la que encontramos una norma de gasto, y no tiene montos en pesos.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">4m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">$2,7<span class="u">billones</span></div>
+      <div class="cap">es lo que <b>produce la economía argentina en un día promedio</b>, según las cuentas nacionales del INDEC. Es el tamaño de lo que está en juego con el feriado nacional del lunes 9 de noviembre, no lo que se pierde: una parte se recupera otro día y otra se gasta en turismo.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v">$0</span><span class="k">monto que fija el decreto de la visita: el gasto sale de las partidas que ya tiene la Jefatura de Gabinete</span></div>
+        <div class="sr"><span class="v up">7 millones</span><span class="k">asistentes que espera el Gobierno, sumando los cuatro eventos masivos</span></div>
+        <div class="sr"><span class="v">3</span><span class="k">feriados: uno nacional (9/11) y dos locales (10 y 11/11)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">León XIV tiene previsto visitar la Argentina del 8 al 11 de noviembre, con actividades en Buenos Aires, Córdoba y Luján. Es la primera visita de un papa en 39 años. La pregunta del lector es de plata: ¿deja valor neto o es, sobre todo, un hecho espiritual? La respuesta corta: <b>hoy nadie puede dar ese balance, porque falta el dato de los dos lados de la cuenta.</b></p>
+    <p>Del lado del gasto, el <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928">Decreto 1103/2026</a>, publicado el 28 de septiembre, declara la visita de interés nacional, fija los feriados y crea una unidad especial en la Jefatura de Gabinete para organizarla. Su artículo 16 dice que el gasto se pagará con los créditos que la Jefatura de Gabinete ya tiene en el presupuesto, <b>sin fijar ningún monto</b>. El Gobierno informó el 22 de septiembre que <a href="https://www.argentina.gob.ar/noticias/visita-de-leon-xiv-karina-milei-encabezo-reunion-organizativa-y-anuncio-que-el-9-de">"cada una de las jurisdicciones asume la responsabilidad presupuestaria de sus respectivos eventos"</a>. Hasta el 12 de octubre, ni la Nación, ni la Ciudad, ni Córdoba publicaron un monto. La Provincia de Buenos Aires autorizó gastos por decreto, pero sin una cifra en pesos.</p>
+    <p>Del lado de los ingresos, el Gobierno espera <a href="https://www.casarosada.gob.ar/informacion/conferencias/51372-visita-apostolica-del-santo-padre-leon-xiv-a-la-argentina-anuncio-de-prensa-desde-casa-rosada-21-09-2026">un público de unos 7 millones de personas</a> en cuatro eventos masivos. Pero ningún organismo, cámara ni universidad publicó cuánto gastarían esos visitantes. Y una advertencia que cambia todo: la Santa Sede confirmó que el papa será internado el martes 13 de octubre para operarse de un nódulo pulmonar, y <a href="https://www.infobae.com/politica/2026/10/12/la-operacion-del-papa-leon-xiv-sorprendio-al-gobierno-y-a-la-iglesia-de-argentina-pero-los-preparativos-del-viaje-siguen-sin-cambios/">la gira depende de cómo evolucione</a>. Los preparativos, por ahora, siguen sin cambios.</p>
+  </div>
+
+  <!-- ③ EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <p><b>Lo que pone el Estado.</b> La unidad especial que crea el decreto, llamada "Visita de Su Santidad el Papa León XIV", depende de la Jefatura de Gabinete y dura como máximo doce meses. Su titular tiene rango de secretario y trabaja <i>ad honorem</i>, igual que sus cinco coordinadores. El <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/348229/20260930">Decreto 1127/2026</a> los nombró el 30 de septiembre, y todos conservan sus cargos actuales. La unidad no le suma sueldos al Estado. Lo que sí tiene es poder de gasto: según el artículo 12 del Decreto 1103, su titular puede autorizar contrataciones, adjudicarlas y aprobar los pagos "cualquiera sea su monto". Esas compras siguen el régimen general de contrataciones del Estado. Hasta el 12 de octubre no encontramos en el Boletín Oficial ninguna norma que le asigne una partida propia ni ninguna contratación adjudicada.</p>
+    <p>La Provincia de Buenos Aires es la única jurisdicción en la que encontramos una norma con reglas de gasto. Según <a href="https://www.ambito.com/politica/axel-kicillof-declaro-interes-provincial-la-visita-del-papa-leon-xiv-y-habilito-los-gastos-el-operativo-n6328743">Ámbito</a>, el Decreto 1657 de la Provincia paga los gastos con las partidas de los ministerios de Gobierno y de Seguridad, habilita compras sin licitación y anticipos a proveedores con garantía del 100%, y dice que el gasto superará el tope que obliga a la autorización del gobernador. No pudimos leer el texto en el Boletín Oficial bonaerense, y el decreto no da un monto en pesos.</p>
+    <p><b>La Iglesia también pone.</b> La Conferencia Episcopal Argentina pidió una <a href="https://episcopado.org/assetsweb/cont/4948/cea._colecta_nacional_imperada._070826.pdf">"Colecta Nacional Imperada"</a> en todas las misas del 22 y el 23 de agosto, "destinada a contribuir económicamente para la organización de la visita". No publicó cuánto juntó ni su presupuesto.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Lo que circula y lo que tiene respaldo · al 12/10/2026</div>
+        <h3>Ninguna de las cifras de costo que circulan tiene una fuente con nombre</h3>
+        <p class="fig-sub">Qué dice cada documento o nota, y si llega a nuestra vara.</p>
+      </div>
+      <div class="scroll">
+      <table class="tabla">
+        <thead><tr><th>Qué</th><th>Quién lo dice</th><th>Qué dice sobre la plata</th><th>¿Es dato?</th></tr></thead>
+        <tbody>
+          <tr><td><b>Decreto 1103/2026</b></td><td>Poder Ejecutivo, Boletín Oficial (28/09)</td><td>El gasto se paga con los créditos vigentes de la Jefatura de Gabinete. Sin monto</td><td><span class="dir sube">documento oficial</span></td></tr>
+          <tr><td><b>Anuncio de Casa Rosada</b></td><td>Ministra de Seguridad y canciller (21/09)</td><td>Unos 7 millones de asistentes, 4 eventos masivos y 11 cerrados. Sin costos</td><td><span class="dir sube">documento oficial</span></td></tr>
+          <tr><td><b>Decreto 1657 bonaerense</b></td><td>Gobierno de la Provincia, según Ámbito (01/10)</td><td>Partidas de Gobierno y Seguridad; compras sin licitación. Sin monto en pesos</td><td><span class="dir mixta">norma oficial, leída vía prensa</span></td></tr>
+          <tr><td><b>US$25 millones</b> de costo total</td><td>Infozona (01/09), sin citar a nadie</td><td>"Presupuesto estimado"</td><td><span class="dir baja">sin fuente: no es dato</span></td></tr>
+          <tr><td><b>US$30 millones</b> de costo total</td><td>La Nación (10/10): "en la Iglesia estiman", sin nombre</td><td>La Iglesia pagaría un tercio</td><td><span class="dir baja">sin fuente: no es dato</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+      <figcaption><b>Fuente:</b> Boletín Oficial de la República Argentina (Decretos 1103/2026 y 1127/2026); Casa Rosada, transcripción de la conferencia del 21/09/2026; Ámbito (01/10/2026); Infozona (01/09/2026); La Nación (10/10/2026). Elaboración: Con Interés.</figcaption>
+    </figure>
+
+    <p><b>Lo que cuesta el feriado.</b> El lunes 9 de noviembre es feriado en todo el país, así que hay un fin de semana largo del sábado 7 al lunes 9. En la Ciudad de Buenos Aires y en Córdoba también es feriado el martes 10. En la Provincia de Buenos Aires, el miércoles 11, pero no el martes 10.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Decreto 1103/2026 · artículos 2, 3 y 4</div>
+        <h3>Dónde no se trabaja, día por día</h3>
+        <p class="fig-sub">Noviembre de 2026. El 7 y el 8 son sábado y domingo.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 680 210" role="img" aria-label="Feriados por la visita del papa. Lunes 9 de noviembre: feriado en todo el país. Martes 10: feriado solo en la Ciudad de Buenos Aires y en Córdoba. Miércoles 11: feriado solo en la Provincia de Buenos Aires.">
+<text x="250" y="20" text-anchor="middle" class="cf">sáb 7</text><text x="330" y="20" text-anchor="middle" class="cf">dom 8</text><text x="410" y="20" text-anchor="middle" class="clB">lun 9</text><text x="490" y="20" text-anchor="middle" class="clB">mar 10</text><text x="570" y="20" text-anchor="middle" class="clB">mié 11</text>
+<text x="0" y="57" class="cl">Resto del país</text>
+<rect x="215" y="38" width="70" height="28" rx="4" fill="#E7E1D7"/><rect x="295" y="38" width="70" height="28" rx="4" fill="#E7E1D7"/><rect x="375" y="38" width="70" height="28" rx="4" fill="#0E7C86"/><rect x="455" y="38" width="70" height="28" rx="4" fill="#FFFFFF" stroke="#DCD6CC"/><rect x="535" y="38" width="70" height="28" rx="4" fill="#FFFFFF" stroke="#DCD6CC"/>
+<text x="0" y="97" class="cl">Ciudad de Buenos Aires</text>
+<rect x="215" y="78" width="70" height="28" rx="4" fill="#E7E1D7"/><rect x="295" y="78" width="70" height="28" rx="4" fill="#E7E1D7"/><rect x="375" y="78" width="70" height="28" rx="4" fill="#0E7C86"/><rect x="455" y="78" width="70" height="28" rx="4" fill="#C4701F"/><rect x="535" y="78" width="70" height="28" rx="4" fill="#FFFFFF" stroke="#DCD6CC"/>
+<text x="0" y="137" class="cl">Córdoba</text>
+<rect x="215" y="118" width="70" height="28" rx="4" fill="#E7E1D7"/><rect x="295" y="118" width="70" height="28" rx="4" fill="#E7E1D7"/><rect x="375" y="118" width="70" height="28" rx="4" fill="#0E7C86"/><rect x="455" y="118" width="70" height="28" rx="4" fill="#C4701F"/><rect x="535" y="118" width="70" height="28" rx="4" fill="#FFFFFF" stroke="#DCD6CC"/>
+<text x="0" y="177" class="cl">Provincia de Buenos Aires</text>
+<rect x="215" y="158" width="70" height="28" rx="4" fill="#E7E1D7"/><rect x="295" y="158" width="70" height="28" rx="4" fill="#E7E1D7"/><rect x="375" y="158" width="70" height="28" rx="4" fill="#0E7C86"/><rect x="455" y="158" width="70" height="28" rx="4" fill="#FFFFFF" stroke="#DCD6CC"/><rect x="535" y="158" width="70" height="28" rx="4" fill="#C4701F"/>
+</svg>
+      <div class="legend"><span class="li"><span class="sw" style="background:#0E7C86"></span>Feriado nacional</span><span class="li"><span class="sw" style="background:#C4701F"></span>Feriado local por la visita</span><span class="li"><span class="sw" style="background:#E7E1D7"></span>Fin de semana</span><span class="li"><span class="sw" style="background:#FFFFFF;border:1px solid #DCD6CC"></span>Día hábil</span></div>
+      <figcaption><b>Fuente:</b> Decreto 1103/2026, artículos 2, 3 y 4 (Boletín Oficial, 28/09/2026). Elaboración: Con Interés.</figcaption>
+    </figure>
+
+    <p>¿Cuánto cuesta un feriado? Lo calculamos hoy mismo para otro lector, en <a href="../articulos/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.html">la nota sobre el fin de semana largo del 12 de octubre</a>. La economía argentina produce en promedio <b class="hl">$2,7 billones por día</b>, según las cuentas nacionales del INDEC. Ese es el tamaño de la torta de un día, no lo que se pierde: parte de la producción se recupera otro día, y el comercio y el turismo ganan. Del otro lado, la cámara de comercio CAME estimó que el turismo de aquel fin de semana largo de octubre gastó <a href="https://www.redcame.org.ar/novedades/574311176/a-pesar-del-clima-el-fin-de-semana-del-12-de-octubre-dejo-un-impacto-economico-de--313610-millones">$313.610 millones</a>, con 1.490.400 turistas. Es una estimación de la cámara, no una medición oficial. El único estudio que encontramos que intentó el saldo de los feriados, del <a href="https://uade.edu.ar/media/0eujbuzr/findes-xxl-y-su-impacto-en-la-econom%C3%ADa-vf.pdf">Instituto de Economía de la UADE</a>, calculó que los cinco fines de semana largos de 2024 tuvieron un costo neto de unos US$2.600 millones. Es la estimación de un solo instituto, con un método que no se puede reproducir con los datos que publica.</p>
+
+    <p><b>Lo que traería el turismo.</b> Los 7 millones del Gobierno son la suma del público esperado en cada evento, no personas distintas: alguien que va a dos misas cuenta dos veces. Y nadie publicó cuántos vendrían de afuera, cuántas noches se quedarían ni cuánto gastarían. Para saber si la visita deja plata hay que restar lo que esa gente habría gastado igual en otra cosa. Ese es el gasto que no se puede ver.</p>
+
+    <p><b>Cómo terminaron otras visitas.</b> Buscamos los balances de las visitas de Francisco a Chile y Perú en 2018. En los dos casos encontramos números dichos antes de la visita o en conferencias de prensa, pero no un balance oficial del Estado con documento ni una medición posterior. Por eso no los damos como dato. El caso mejor documentado que encontramos es la Jornada Mundial de la Juventud de Lisboa 2023, con el papa Francisco. Antes del evento, un estudio de PwC con apoyo de la universidad ISEG estimó un impacto de <a href="https://www.vaticannews.va/es/iglesia/news/2023-07/la-jmj-lisboa-tendra-impacto-economico-positivo-en-territorio.html">entre 411 y 564 millones de euros</a> de valor agregado. Diez meses después, el ISEG presentó una evaluación que midió un aumento de la actividad de <a href="https://www.sabado.pt/dinheiro/detalhe/jornada-mundial-da-juventude-aumentou-atividade-economica-em-370-milhoes">"al menos" 370 millones de euros</a>, y aclaró que es el piso de su estimación. La fundación que organizó la jornada cerró 2023 con <a href="https://observador.pt/especiais/jornada-mundial-da-juventude-lucros-da-fundacao-jmj-foram-de-314-milhoes-de-euros-superando-todas-as-previsoes/">un resultado positivo de 31,4 millones de euros</a>. Hasta en el caso mejor estudiado, el número de después no es una medición directa: es otro modelo, con otros supuestos.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>La cifra ancla: estadística oficial recalculada, con contraste independiente.</b> Los $2,7 billones por día salen de la nota del 12 de octubre sobre el fin de semana largo, donde se verificaron con las tres condiciones del método. El PIB a precios corrientes del INDEC entre el tercer trimestre de 2025 y el segundo de 2026 suma $985,2 billones. Dividido por 365 da $2.699.224 millones por día. El contraste es el PIB de 2025 que publica el Banco Mundial, que coincide con el del INDEC con una diferencia de 0,3% por revisión.</p>
+      <p><b>Lo que pone el Estado.</b> Leímos el texto completo de los Decretos 1103/2026 y 1127/2026 en el Boletín Oficial. El "$0" no quiere decir que la visita no cueste: quiere decir que el decreto no fija un monto y paga con lo que la Jefatura de Gabinete ya tenía en el presupuesto. Buscamos en el Boletín Oficial, entre el 28 de septiembre y el 12 de octubre, alguna decisión administrativa o resolución que le asigne crédito a la unidad o alguna contratación adjudicada, y no encontramos ninguna. No pudimos consultar el sistema de compras COMPR.AR. El decreto bonaerense lo conocemos por Ámbito: no pudimos leerlo en el Boletín Oficial de la Provincia, y por eso va atribuido.</p>
+      <p><b>Las cifras que no entran.</b> Los US$25 millones aparecen por primera vez, hasta donde pudimos rastrear, en una nota de Infozona del 1 de septiembre que habla de "presupuesto estimado" y no cita a nadie. Ya el 16 de agosto, <a href="https://www.letrap.com.ar/politica/viene-leon-xiv-el-rompecabezas-del-financiamiento-la-visita-papal-n5425788">Letra P</a> había informado que ni el Gobierno ni las autoridades de la Iglesia habían difundido una cifra. Los US$30 millones de La Nación se atribuyen a "la Iglesia", sin nombre ni documento. Para nuestro método, una cifra sin fuente identificada no se publica como dato. En Perú y Chile 2018, cada monto salió de un solo vocero o de una sola nota periodística, sin el documento detrás.</p>
+      <p><b>Lisboa.</b> La estimación previa de PwC y la evaluación posterior del ISEG las tomamos de lo que informaron Vatican News, la revista Sábado y el diario Observador. Son estimaciones de modelos económicos, no mediciones directas, y no miden exactamente lo mismo. Por eso no decimos que Lisboa haya dejado más o menos de lo prometido.</p>
+      <p><b>Qué no afirmamos.</b> No decimos que la visita cueste más de lo que deja, ni lo contrario. No hay datos para ninguna de las dos cosas.</p>
+      <div class="meta"><span>Fuentes <b>Boletín Oficial · Casa Rosada · INDEC · CEA · CAME · UADE</b></span><span>Verificación <b>estadística oficial recalculada + contraste</b></span></div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>La unidad que organiza la visita puede contratar y pagar "cualquiera sea su monto" con plata del presupuesto nacional, pero nada obliga a publicar un total antes del viaje. La forma de saber cuánto se gastó será seguir las contrataciones de la unidad y la ejecución del presupuesto de la Jefatura de Gabinete. Y del lado de los ingresos, los primeros datos medidos llegan después: el INDEC publica el turismo internacional de noviembre el <a href="https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario">23 de diciembre</a>. Ahí se va a ver si llegaron más extranjeros que en un noviembre normal. Lo que no se va a poder medir nunca es la parte espiritual que menciona el lector, ni el efecto sobre la imagen del país.</p>
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si trabajás en relación de dependencia,</b> el lunes 9 es feriado nacional: si te toca trabajar, se paga doble. El martes 10 (Ciudad y Córdoba) y el miércoles 11 (Provincia de Buenos Aires) son feriados solo en esos distritos.</p>
+      <p data-perfil="pyme"><b>Si tenés un comercio, un hotel o un restaurante en Buenos Aires, Córdoba o Luján,</b> la demanda de esos días depende de un público que el Gobierno estima pero nadie midió. Y la fecha depende de cómo se recupere el papa de su operación.</p>
+      <p data-perfil="trabajador"><b>Si pagás impuestos,</b> el gasto nacional sale del presupuesto de la Jefatura de Gabinete. Hoy no hay un número publicado para controlarlo.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Por qué "gasto turístico" no es "ganancia para el país" <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Las cifras de "impacto económico" que se publican antes de un evento suelen sumar todo lo que gastan los asistentes. Para saber si el país gana hay que descontar tres cosas: lo que los asistentes locales habrían gastado igual en otra cosa, los turistas que no vinieron porque el evento llenó los hoteles, y la producción que no se hizo por el feriado. Por eso dos estudios del mismo evento pueden dar números muy distintos según qué descuentan.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Qué mirar en las próximas semanas <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Si la visita sigue en pie después de la operación del papa. Si el Boletín Oficial publica una partida o contrataciones de la unidad especial. Si la Conferencia Episcopal informa lo que recaudó. Después de la visita: el informe de CAME sobre el fin de semana largo y, el 23 de diciembre, el turismo internacional de noviembre del INDEC. Con esos datos vamos a volver sobre esta pregunta.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Nuestra cobertura previa <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Cuánto vale un día de actividad y qué dejó el fin de semana largo de octubre, en <a href="../articulos/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.html">un día de actividad en la Argentina vale $2,7 billones</a>.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Boletín Oficial — <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/348022/20260928">Decreto 1103/2026, visita de León XIV: interés nacional, feriados y Unidad Ejecutora Especial Temporaria</a> (28/09/2026)</li>
+        <li>&#8250; Boletín Oficial — <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/348229/20260930">Decreto 1127/2026, designaciones en la Unidad Ejecutora</a> (30/09/2026)</li>
+        <li>&#8250; Casa Rosada — <a href="https://www.casarosada.gob.ar/informacion/conferencias/51372-visita-apostolica-del-santo-padre-leon-xiv-a-la-argentina-anuncio-de-prensa-desde-casa-rosada-21-09-2026">Anuncio de prensa de la visita apostólica</a> (21/09/2026)</li>
+        <li>&#8250; Argentina.gob.ar — <a href="https://www.argentina.gob.ar/noticias/visita-de-leon-xiv-karina-milei-encabezo-reunion-organizativa-y-anuncio-que-el-9-de">Reunión organizativa de la visita</a> (22/09/2026)</li>
+        <li>&#8250; Conferencia Episcopal Argentina — <a href="https://episcopado.org/assetsweb/cont/4948/cea._colecta_nacional_imperada._070826.pdf">Prot. CEA N° 114/2026, Colecta Nacional Imperada</a> (07/08/2026)</li>
+        <li>&#8250; Ámbito — <a href="https://www.ambito.com/politica/axel-kicillof-declaro-interes-provincial-la-visita-del-papa-leon-xiv-y-habilito-los-gastos-el-operativo-n6328743">Decreto bonaerense 1657 sobre los gastos de la visita</a> (01/10/2026)</li>
+        <li>&#8250; Cifras sin fuente identificada: <a href="https://www.infozona.com.ar/visita-del-papa-leon-xiv-en-noviembre-confirmaron-el-costo-de-25-millones-de-dolares-y-como-se-financiara/">Infozona</a> (01/09/2026) y <a href="https://www.lanacion.com.ar/politica/a-un-mes-de-la-visita-del-papa-leon-xiv-el-gobierno-prepara-un-megaoperativo-de-seguridad-y-la-nid10102026/">La Nación</a> (10/10/2026); <a href="https://www.letrap.com.ar/politica/viene-leon-xiv-el-rompecabezas-del-financiamiento-la-visita-papal-n5425788">Letra P</a> (16/08/2026)</li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/politica/2026/10/12/la-operacion-del-papa-leon-xiv-sorprendio-al-gobierno-y-a-la-iglesia-de-argentina-pero-los-preparativos-del-viaje-siguen-sin-cambios/">La operación del papa y los preparativos del viaje</a> (11-12/10/2026)</li>
+        <li>&#8250; Con Interés — <a href="../articulos/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.html">Un día de actividad vale $2,7 billones</a>, con la verificación del PIB diario (INDEC, cuentas nacionales)</li>
+        <li>&#8250; CAME — <a href="https://www.redcame.org.ar/novedades/574311176/a-pesar-del-clima-el-fin-de-semana-del-12-de-octubre-dejo-un-impacto-economico-de--313610-millones">Fin de semana largo del 12 de octubre de 2026</a> · UADE, Instituto de Economía — <a href="https://uade.edu.ar/media/0eujbuzr/findes-xxl-y-su-impacto-en-la-econom%C3%ADa-vf.pdf">"Findes XXL y su impacto en la economía"</a> (octubre de 2024)</li>
+        <li>&#8250; Lisboa 2023 — <a href="https://www.vaticannews.va/es/iglesia/news/2023-07/la-jmj-lisboa-tendra-impacto-economico-positivo-en-territorio.html">Vatican News</a> (07/07/2023, estimación previa de PwC), <a href="https://www.sabado.pt/dinheiro/detalhe/jornada-mundial-da-juventude-aumentou-atividade-economica-em-370-milhoes">Sábado</a> y <a href="https://observador.pt/especiais/jornada-mundial-da-juventude-lucros-da-fundacao-jmj-foram-de-314-milhoes-de-euros-superando-todas-as-previsoes/">Observador</a> (31/05/2024, evaluación del ISEG y cuentas de la fundación)</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario">Calendario de difusión</a> (turismo internacional de noviembre: 23/12/2026)</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 12/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
