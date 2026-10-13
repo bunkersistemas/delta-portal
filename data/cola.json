@@ -1,24 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-10-12T23:59:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-10-12-visita-papa-cuanto-cuesta-cuanto-deja",
-      "titulo": "La visita del papa no tiene costo oficial publicado y suma un feriado nacional en una economía que produce $2,7 billones por día: por qué todavía nadie puede decir si deja plata",
-      "titulo_busqueda": "¿Cuánta plata le deja a la Argentina la visita del papa León XIV? ¿Y cuánto cuesta?",
-      "bajada": "El decreto que organiza la visita de León XIV crea una unidad especial y declara feriado el 9 de noviembre, pero no fija un solo peso. Las cifras de US$25 y US$30 millones que circulan no tienen una fuente identificada. Y nadie publicó, con método, cuánto gastarían los visitantes. Esto es lo que se sabe, lo que falta y lo que se va a poder medir.",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "$2,7 billones",
-      "numero_label": "lo que produce la economía argentina en un día promedio (PIB a precios corrientes del INDEC, 3T-2025 a 2T-2026, dividido por 365): el tamaño de un día de feriado como el del 9/11 por la visita del papa, no lo que se pierde",
-      "fecha": "2026-10-12",
-      "hora": "23:59",
-      "archivo": "cola/2026-10-12-visita-papa-cuanto-cuesta-cuanto-deja.html",
-      "verificacion": "verificada",
-      "fuentes": 16,
-      "lectura": "30 seg → 8 min",
-      "pedido": 92,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-12T23:37:51-03:00",
+    "actualizado": "2026-10-13T00:02:54-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-12-visita-papa-cuanto-cuesta-cuanto-deja",
+      "titulo": "La visita del papa no tiene costo oficial publicado y suma un feriado nacional en una economía que produce $2,7 billones por día: por qué todavía nadie puede decir si deja plata",
+      "bajada": "El decreto que organiza la visita de León XIV crea una unidad especial y declara feriado el 9 de noviembre, pero no fija un solo peso. Las cifras de US$25 y US$30 millones que circulan no tienen una fuente identificada. Y nadie publicó, con método, cuánto gastarían los visitantes. Esto es lo que se sabe, lo que falta y lo que se va a poder medir.",
+      "titulo_busqueda": "¿Cuánta plata le deja a la Argentina la visita del papa León XIV? ¿Y cuánto cuesta?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$2,7 billones",
+      "numero_label": "lo que produce la economía argentina en un día promedio (PIB a precios corrientes del INDEC, 3T-2025 a 2T-2026, dividido por 365): el tamaño de un día de feriado como el del 9/11 por la visita del papa, no lo que se pierde",
+      "fecha": "2026-10-12",
+      "hora": "23:59",
+      "archivo": "articulos/2026-10-12-visita-papa-cuanto-cuesta-cuanto-deja.html",
+      "verificacion": "verificada",
+      "fuentes": 16,
+      "lectura": "30 seg → 8 min",
+      "pedido": 92
+    },
     {
       "id": "2026-10-12-indicadores-anticipados-recuperacion-o-caida",
       "titulo": "Una de cada cinco fábricas espera producir menos hasta noviembre y el Índice Líder cayó 1,05% en un año: la recuperación, por ahora, está en lo que esperan analistas y consumidores",
