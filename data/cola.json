@@ -1,24 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-10-13T17:45:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-10-13-inflacion-viene-bajando-desde-cuando",
-      "titulo": "¿La inflación viene bajando, como dice el Gobierno, y desde cuándo?",
-      "titulo_busqueda": "¿Está bajando la inflación en Argentina? ¿Desde cuándo?",
-      "bajada": "Depende de cómo se la mida. Mes a mes, sí: bajó del 3,4% de marzo al 1,9% de septiembre. Pero la de los últimos 12 meses está en 33,4%, arriba del piso de 31,3% de octubre de 2025, y de enero a septiembre los precios subieron 23,6%, más que el 22,0% del mismo tramo de 2025. La gran baja fue entre diciembre de 2023 y mayo de 2025.",
-      "seccion": "ECONOMÍA",
-      "formato": "Investigación",
-      "numero": "33,4%",
-      "numero_label": "inflación de los últimos 12 meses a septiembre de 2026 (IPC nacional, INDEC): por encima del piso de 31,3% de octubre de 2025 y del 31,5% con que cerró 2025; la mensual bajó de 3,4% en marzo a 1,9% en septiembre",
-      "fecha": "2026-10-13",
-      "hora": "17:45",
-      "archivo": "cola/2026-10-13-inflacion-viene-bajando-desde-cuando.html",
-      "verificacion": "verificada",
-      "fuentes": 6,
-      "lectura": "30 seg → 10 min",
-      "pedido": 97,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }
