@@ -3966,6 +3966,28 @@
       "estado": "publicada",
       "articulo_id": "2026-10-13-becas-deportivas-bonaerenses-cuanto-cobran",
       "archivo": "cola/2026-10-13-becas-deportivas-bonaerenses-cuanto-cobran.html"
+    },
+    {
+      "tema": "¿tiene la Argentina superávits gemelos? (ámbito 12/10/2026: 'Superávits gemelos: el Gobierno suma tres años consecutivos e iguala la racha 2006-2008', con balanza comercial de bienes) / cuenta corriente INDEC (bal_09_26, cuadro I.1; cin_II_2026.xls cuadro 1): 2024 +US$5.891,4 M, 2025 −US$7.788,1 M (trimestres −5.157,6 −2.452,2 −2.100,5 +1.922,1), 1T26 −2.411,1 (revisado desde −1.651) y 2T26 +2.214,0 = 1S26 −197,1 (1S25 −7.609,8); componentes 2025: bienes +15.359,0, servicios −11.600,9 (viajes −7.220,7), ingreso primario −14.078,7, secundario +2.532,5; 1S26: bienes +15.632,5, servicios −6.141,3, IP −11.398,5, IS +1.710,2; contraste BCRA balance cambiario 2025 −US$2.223 M (informe dic-2025, suma ene-dic) y FMI WEO oct-2026 −1,1% PIB 2025, +0,6% proyectado 2026; resultado financiero SPN base caja (Hacienda, datos.gob.ar 379.1/379.8/379.9): 2024 +$1.764.785,6 M, 2025 +$1.453.819,1 M, ene-ago 2026 +$2.336.619,8 M; años con superávits gemelos 2003-2008 (CC 2003-2005 serie histórica BCRA 335.1) y 2024",
+      "angulo": "Corrida programada del 13/10/2026 04:30, segunda candidata probada (APTA). Ángulo nuevo frente a la cuenta corriente del 1T26 (23/07/2026): el año 2025 completo, el primer semestre de 2026 y el chequeo de la idea de 'superávits gemelos' con la serie fiscal y externa desde 2003. Ancla por estadística oficial recalculada: (1) cuadro I.1 del informe del INDEC; (2) suma de trimestres y de componentes = −7.788,1; (3) contraste BCRA cambiario (−2.223, base caja, explica la diferencia: devengado vs. percibido y adelanto de cobros de exportaciones de sep-25) y FMI. Superlativo con valor previo: 2024 primer año con las dos cuentas en superávit desde 2008 (2009 CC + y fiscal −7.131; 2010 fiscal +3.068 y CC −1.623; 2020-21 CC + y fiscal −). El mensaje del Presupuesto 2027 no se cita porque economia.gob.ar tenía el certificado vencido el 13/10/2026.",
+      "fecha": "2026-10-13",
+      "estado": "publicada",
+      "articulo_id": "2026-10-13-superavits-gemelos-cuenta-corriente-2025",
+      "archivo": "cola/2026-10-13-superavits-gemelos-cuenta-corriente-2025.html"
+    },
+    {
+      "tema": "cuánto va a crecer la economía en 2026 según el FMI (WEO de octubre de 2026, publicado el 12/10 por la noche en Bangkok: 2,1% en 2026 desde 3,5% en abril, 3,5% en 2027; infobae, La Nación, ámbito, Cronista, Página12) / DataMapper NGDP_RPCH ARG 2026 2,1; REM sep-26 mediana 1,5%; Presupuesto 2027 supone 3,0%",
+      "angulo": "FRENADA en la corrida programada del 13/10/2026 04:30 (primera candidata) por no repetir: 'cuánto va a crecer la economía en 2026' se publicó el 06/10/2026 con el REM (1,5%) y el Banco Mundial (2,1%), y la promesa de crecimiento el 04/10; el FMI solo se alinea con el Banco Mundial, sin ángulo de datos nuevo. Además el PDF del WEO devolvió 429 y solo se leyó el DataMapper.",
+      "fecha": "2026-10-13",
+      "estado": "descartada",
+      "motivo_descarte": "sin ángulo nuevo frente a la nota del 06/10/2026 (REM y Banco Mundial)"
+    },
+    {
+      "tema": "descartes de la corrida programada del 13/10/2026 04:30: FMI recorta el crecimiento a 2,1% (frenada aparte), IPC, canasta básica y patentamientos de septiembre (INDEC, hoy 16:00: todavía no publicados), nafta +23% en dólares en el año (infobae; el archivo de precios promedio del INDEC ya no trae la nafta y el padrón de surtidores se descartó el 25 y el 27/09), crédito hipotecario para un departamento de US$100.000 (infobae; misma cuenta que la nota del 25/09), ley de Zonas Frías promulgada (infobae; sanción y costo ya publicados el 24/09), Galperin y el costo financiero (publicada 12/10), FMI y la revisión por US$869 M (infobae, ámbito, Página12; sin documento nuevo), informalidad 70% en cuentapropistas del conurbano (La Nación, Página12; ya descartada), fila de 2.000 CV en Moreno (iProfesional; sin dato oficial nuevo), aumento a las Fuerzas Armadas (publicada 12/10), municipios bonaerenses (publicada 12/10), fin de semana largo (publicada 12/10), Nobel de Economía (ya descartado), colectiveros en Comodoro Py y subsidios (La Nación; causa penal sin sentencia, línea roja 7), auditorías de la ANDIS (infobae; acusaciones sin sentencia, descartada el 27/09), traslado de presos a Marcos Paz (costo por preso publicado el 08/10), 0 km más baratos (infobae; listas de precios de las automotrices); EMPRESAS (rige el cupo, hoy no hubo nota de EMPRESAS): Nuevo Continente balance al 31/07 (visor de la CNV sin documento ni cifras, quinta vez), A3 Mercados HR 09/10 (visor sin texto), Central Puerto adquisición de acciones propias 09/10 (recompra de rutina, ya contada el 29/09), Genneia Parque Solar San Juan Sur US$110 M (sin hecho relevante en el bloque de la CNV); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 13/10/2026 04:30; ganó el chequeo de los superávits gemelos con la cuenta corriente del INDEC (segunda candidata, APTA).",
+      "fecha": "2026-10-13",
+      "estado": "descartada",
+      "motivo_descarte": "sin documento primario con cifra, ya cubiertas, todavía no publicadas o con riesgo legal, frente a la candidata elegida; empresas sin documento legible con cifra ancla"
     }
   ]
 }

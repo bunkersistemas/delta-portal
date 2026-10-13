@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-12",
-  "pregunta": "Entre enero y agosto de 2026 la Argentina importó 65% menos gasoil que en el mismo período de 2025, pero cada metro cúbico le costó 47,6% más (US$908 contra US$616). ¿Qué pasó con lo que pagó en total por ese gasoil?",
+  "fecha": "2026-10-13",
+  "pregunta": "El préstamo más caro de Mercado Pago tiene una tasa nominal anual (TNA) de 215%, pero su costo financiero total es de 956,5% anual. ¿De dónde sale tanta diferencia?",
   "opciones": [
-    "Subió: el precio más alto pesa más que la caída de la cantidad",
-    "Bajó 17%: es la caída de la cantidad menos la suba del precio (65 − 47,6)",
-    "Bajó 48%: pagó US$370,9 millones contra US$718,4 millones"
+    "De comisiones y seguros: la tasa es 215% y lo demás son cargos aparte",
+    "Del IVA sobre los intereses y de componer la tasa de cada 30 días durante todo el año, interés sobre interés",
+    "De la inflación: el costo financiero total es la tasa nominal más la inflación esperada"
   ],
-  "correcta": 2,
-  "explicacion": "El gasto total es cantidad por precio, así que los cambios se multiplican, no se restan. Comprar 65% menos es quedarse con 0,35 de la cantidad; pagar 47,6% más es multiplicar el precio por 1,476. Juntos: 0,35 × 1,476 = 0,52, una factura de algo más de la mitad: bajó 48%. El error común es restar los porcentajes (65 − 47,6 = 17,4), algo que solo se acerca cuando los cambios son chicos. Y un precio más alto no alcanza a compensar una cantidad que cae a un tercio.",
-  "nota": "articulos/2026-10-11-importacion-gasoil-refinerias-record.html",
+  "correcta": 1,
+  "explicacion": "La TNA es una tasa 'de vidriera': repartida en el año da 215 × 30 / 365 = 17,7% cada 30 días. A eso se le suma el 21% de IVA sobre los intereses, y queda 21,38% cada 30 días. Después esa tasa se compone 365/30 veces, como si la deuda se renovara un año entero sin pagar nada en el medio: 1,2138 elevado a 12,17 da 10,565, un costo de 956,5% anual. La TNA no muestra ni el IVA ni la capitalización; por eso el BCRA obliga a informar el costo financiero total.",
+  "nota": "articulos/2026-10-12-mercado-pago-prestamos-costo-financiero-total.html",
   "leccion": ""
 }
