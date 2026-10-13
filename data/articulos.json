@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-13T17:42:59-03:00",
+    "actualizado": "2026-10-13T18:55:47-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-13-impuesto-premios-quini-6-emergencia-2072",
+      "titulo": "El impuesto de emergencia a los premios del Quini 6 se lleva el 27,9%: nació en 1973 para durar diez años y ya está prorrogado hasta 2072",
+      "bajada": "Los dos apostadores que el domingo se repartieron más de $5.300 millones en el Quini 6 no van a cobrar eso. Una ley nacional de 1973 les retiene el 31% sobre el 90% de cada premio: el 27,9%. Se creó como \"gravamen de emergencia\" por diez años y hoy rige hasta 2072. Y el monto a partir del cual se paga sigue clavado en $1.200 netos desde 2003.",
+      "titulo_busqueda": "¿Cuánto le descuentan de impuestos al que gana el Quini 6?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "27,9%",
+      "numero_label": "parte de cada premio del Quini 6 que retiene el gravamen de emergencia de la Ley 20.630: alícuota de 31% (Ley 24.800) sobre un monto neto de 90% del premio (art. 4) = 27,9%; igual a la retención que informa la Lotería de Santa Fe (31% sobre el 90% para premios de más de $1.333,33)",
+      "fecha": "2026-10-13",
+      "hora": "19:30",
+      "archivo": "articulos/2026-10-13-impuesto-premios-quini-6-emergencia-2072.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-13-empresas-abren-cierran-siguen-30-anios",
       "titulo": "¿Cuántas empresas abren, cuántas cierran y cuántas siguen funcionando en la Argentina en los últimos 30 años?",
