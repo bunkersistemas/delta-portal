@@ -3935,6 +3935,14 @@
       "angulo": "NO TOMADAS en la corrida programada del 12/10/2026 22:30; ganó el costo financiero de los préstamos de Mercado Pago (segunda candidata, APTA, sección EMPRESAS: cubre el cupo del día).",
       "fecha": "2026-10-12",
       "estado": "descartada"
+    },
+    {
+      "tema": "qué dicen los indicadores anticipados de la economía argentina: ¿recuperación o más caída? (pedido de lector 91)",
+      "angulo": "Corrida del pedido de lector 91 (enfoque aprobado por el lector, sin comentarios; el intento de las 21:04 no terminó en nota). Tablero de 5 señales al 12/10/2026. Ancla CONFIRMADA (estadística oficial recalculada + contraste): ETN INDEC industria exp. sep-nov 2026 (21/09/2026, etn_industria_manufacturera_09_261CFB527938): producción aum 15,4 / no var 64,9 / dism 19,7 (balance −4,3); demanda interna 13,8/62,4/23,8 (−10,0); exportaciones 18,2/64,7/17,1 (+1,0); horas 5,8/77,2/17,0 (−11,2); ICE −20,2 = (−4,3 −50,7 −5,6)/3, negativo los 20 meses ene-25 a ago-26; demanda interna insuficiente 53,6%. ETN supermercados sep-nov: situación comercial 19,1/74,2/6,7 (+12,4), pedidos a proveedores 11,2/73,0/15,7 (−4,5), empleo 2,2/84,3/13,5 (−11,2), precios suben 62,9%, ICE 0,0 = (−20,2+12,4+7,9)/3. Índice Líder UTDT ago-26: −0,27% m/m, −1,05% i.a., 122,45 pts; jun 125,62 (−0,09%), jul 124,41 (−0,72%); difusión 60/50/30%; prob. salir de expansión 84/81/82%; suben M1, soja FOB y autos; recesión = 6 caídas seguidas de la TC del EMAE, van 2 (may, jun); seis recesiones desde 2005. ICC UTDT sep-26 41,18 (+2,37% m/m; ago 40,23; +3,44% i.a.; −13,09% desde pico ene-25 47,38; expectativas futuras +3,80%; durables e inmuebles −3,42%). REM sep: 3T −1,0, 4T +1,8, 2026 1,5% (jun 3,0; ago esperaba 3T +1,1). Ya medido: EMAE jul −2,9% m/m, −1,4% i.a.; IPI ago +1,9% m/m, −3,2% i.a.; ISAC ago +0,4% m/m, −4,4% i.a.; PIB 2T −0,6%. Faltó: indicadores provinciales (no existen con método publicado), detalle de componentes del IL (pago), anticipación histórica caso por caso del IL (no publicada). Próximos: ETN oct-dic 20/10, EMAE ago 21/10, REM 05/11.",
+      "fecha": "2026-10-12",
+      "estado": "en_cola",
+      "articulo_id": "2026-10-12-indicadores-anticipados-recuperacion-o-caida",
+      "archivo": "cola/2026-10-12-indicadores-anticipados-recuperacion-o-caida.html"
     }
   ]
 }

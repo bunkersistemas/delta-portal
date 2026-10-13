@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Qué dicen los indicadores que anticipan la economía argentina? ¿Viene una recuperación o más caída? — CON INTERÉS</title>
+<meta name="description" content="Juntamos las cinco señales que se publican con método y fuente: el Índice Líder de Di Tella, la encuesta del INDEC a fábricas y supermercados, el pronóstico de los analistas del BCRA y la confianza del consumidor. Las que miran la producción apuntan a la baja; el rebote, por ahora, está en lo que la gente y los analistas esperan.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* legend */
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;font-size:12px;color:var(--muted);font-family:var(--mono)}
+  .legend .li{display:flex;align-items:center;gap:6px}
+  .legend .sw{width:11px;height:11px;border-radius:3px;flex:0 0 auto}
+
+  /* tablero */
+  .tabla{width:100%;border-collapse:collapse;font-size:14px;line-height:1.45}
+  .tabla th{font-family:var(--mono);font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:var(--muted);text-align:left;font-weight:600;padding:0 8px 8px 0;border-bottom:1px solid var(--rule);vertical-align:bottom}
+  .tabla td{padding:10px 8px 10px 0;border-bottom:1px solid var(--grid);vertical-align:top;color:var(--ink-soft)}
+  .tabla td b{color:var(--ink);font-weight:600}
+  .tabla .q{font-family:var(--mono);font-size:12px;color:var(--faint)}
+  .dir{font-family:var(--mono);font-size:12px;font-weight:600;white-space:nowrap}
+  .dir.baja{color:var(--red)} .dir.sube{color:var(--teal-deep)} .dir.mixta{color:var(--amber)}
+  .scroll{overflow-x:auto}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+</style>
+</head>
+<body data-palette="#0E7C86,#C4701F,#C0392B,#6B6560">
+<div class="draft-ribbon"><b>BORRADOR</b> &middot; investigación pedida por un lector &middot; pendiente de revisión, no publicado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="borrador"><div class="borrador-in"><b>Borrador en revisión.</b> Esta nota todavía no está publicada: la ve primero el lector que la pidió y la redacción. Los datos están verificados con el método de Con Interés.</div></div>
+
+  <div class="kicker">ECONOMÍA <span class="sep">/</span> <span class="fmt">Anatomía de un dato</span></div>
+
+  <h1>Una de cada cinco fábricas espera producir menos hasta noviembre y el Índice Líder cayó 1,05% en un año: la recuperación, por ahora, está en lo que esperan analistas y consumidores</h1>
+
+  <p class="standfirst">Juntamos las cinco señales que se adelantan a la economía y se publican con método y fuente. Las que miran la producción, la encuesta del INDEC a la industria y el Índice Líder de Di Tella, apuntan a la baja. La de los supermercados queda en cero. Las que suben son expectativas: la confianza del consumidor y el rebote de 1,8% que los analistas del BCRA esperan para fin de año.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>12 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 10 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta qué marcan hoy los indicadores anticipados de la economía argentina y si muestran una recuperación o más caída, con el enfoque que aprobó el lector: el Índice Líder de Di Tella, el REM del BCRA, la encuesta de expectativas del INDEC a industria y supermercados, la confianza del consumidor y, como contraste, lo que ya midió el INDEC. Tres cosas quedaron afuera. No hay indicadores anticipados por provincia. Di Tella vende el detalle de los diez componentes del Índice Líder: solo publica cuáles subieron. Y no medimos cuántas veces acertó el índice en las recesiones anteriores, porque el informe no publica la anticipación caso por caso. La semana que viene salen la encuesta de octubre a diciembre (20/10) y el EMAE de agosto (21/10); los vamos a sumar.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">4m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">19,7<span class="u">%</span></div>
+      <div class="cap">de las <b>fábricas espera producir menos</b> entre septiembre y noviembre de 2026; el 15,4% espera producir más, según la encuesta de expectativas del INDEC a la industria. Para el mercado interno es peor: 23,8% espera menos pedidos y 13,8%, más.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v up">−1,05%</span><span class="k">Índice Líder de Di Tella, agosto contra un año antes</span></div>
+        <div class="sr"><span class="v dn">+1,8%</span><span class="k">rebote del PIB que el REM espera para el 4° trimestre</span></div>
+        <div class="sr"><span class="v dn">+2,4%</span><span class="k">confianza del consumidor en septiembre</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">Un indicador anticipado es una serie que suele moverse antes que la economía: la venta de autos, el cemento que sale de las fábricas, la cantidad de dinero en la calle, lo que las empresas planean producir. No adivina el futuro. Da una señal de hacia dónde puede ir la actividad. Con Interés no hace pronósticos propios: muestra qué marcan esas señales hoy y cuánto acertaron antes.</p>
+    <p>La respuesta corta a la pregunta del lector: <b>hoy no hay un dato sólido que muestre una recuperación.</b> Las dos señales que miran la producción apuntan a la baja. En la <a href="https://www.indec.gob.ar/uploads/informesdeprensa/etn_industria_manufacturera_09_261CFB527938.pdf">encuesta del INDEC a la industria</a>, publicada el 21 de septiembre, el <b class="hl">19,7%</b> de las empresas espera producir menos de septiembre a noviembre y el 15,4% espera producir más. El <a href="https://www.utdt.edu/download.php?fname=_178959131390594800.pdf">Índice Líder de la Universidad Di Tella</a> cayó 0,27% en agosto y quedó 1,05% debajo de agosto de 2025. De sus diez componentes, solo tres subieron, y el modelo calcula en <b>82%</b> la probabilidad de que la economía salga de la fase de crecimiento en los próximos meses.</p>
+    <p>Las que suben son expectativas, no producción. Los analistas que consulta el Banco Central estiman, en el <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-2026-09.pdf">REM de septiembre</a>, que el PIB cayó 1,0% en el tercer trimestre y que rebotará 1,8% en el cuarto. La <a href="https://www.utdt.edu/download.php?fname=_178964914755427100.pdf">confianza del consumidor</a> de Di Tella subió 2,4% en septiembre, después de dos meses de baja. Y los supermercados quedan en un empate: esperan que su situación mejore, pero planean pedirles menos mercadería a sus proveedores y tener menos empleados.</p>
+  </div>
+
+  <!-- ③ EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+    <p><b>Lo que marcan hoy, una por una.</b> Las cinco señales, con su último dato publicado. La columna de la derecha resume hacia dónde apunta cada una según su propio número: no es un pronóstico nuestro.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Indicadores anticipados · último dato publicado al 12/10/2026</div>
+        <h3>Las señales que miran la producción bajan; las que suben son expectativas</h3>
+        <p class="fig-sub">Cada fila, con quién la mide y a qué período corresponde.</p>
+      </div>
+      <div class="scroll">
+      <table class="tabla">
+        <thead><tr><th>Señal</th><th>Quién la mide</th><th>Último dato</th><th>Hacia dónde apunta</th></tr></thead>
+        <tbody>
+          <tr><td><b>Índice Líder</b><br><span class="q">resume 10 series</span></td><td>Universidad Di Tella</td><td>Agosto 2026: −0,27% en el mes, −1,05% en un año. Suben 3 de 10 componentes. Probabilidad de salir de la expansión: 82%</td><td><span class="dir baja">&darr; baja</span></td></tr>
+          <tr><td><b>Expectativas de la industria</b></td><td>INDEC (encuesta)</td><td>Sep.-nov. 2026: producción, 15,4% espera más y 19,7% menos (−4,3). Mercado interno: −10,0. Confianza empresarial: −20,2%</td><td><span class="dir baja">&darr; baja</span></td></tr>
+          <tr><td><b>Expectativas de los supermercados</b></td><td>INDEC (encuesta)</td><td>Sep.-nov. 2026: situación comercial +12,4; pedidos a proveedores −4,5; empleo −11,2. Confianza empresarial: 0,0%</td><td><span class="dir mixta">&harr; neutra</span></td></tr>
+          <tr><td><b>Pronóstico de los analistas (REM)</b></td><td>BCRA (encuesta a 44 analistas)</td><td>Sep. 2026: PIB −1,0% en el 3er trimestre y +1,8% en el 4to (sin estacionalidad). 2026: +1,5%</td><td><span class="dir sube">&uarr; rebote a fin de año</span></td></tr>
+          <tr><td><b>Confianza del consumidor</b></td><td>Universidad Di Tella</td><td>Sep. 2026: 41,18 puntos, +2,37% en el mes y +3,44% en un año. Expectativas futuras +3,80%</td><td><span class="dir sube">&uarr; sube</span></td></tr>
+        </tbody>
+      </table>
+      </div>
+      <figcaption><b>Fuente:</b> Centro de Investigación en Finanzas de la UTDT, informes del Índice Líder (agosto de 2026) y del Índice de Confianza del Consumidor (septiembre de 2026); INDEC, Encuesta de Tendencia de Negocios de la industria manufacturera y de supermercados y autoservicios mayoristas, expectativas septiembre-noviembre de 2026 (21/09/2026); BCRA, REM de septiembre de 2026 (06/10/2026). Los números entre paréntesis y los de las filas del INDEC son balances: porcentaje que espera una suba menos porcentaje que espera una baja.</figcaption>
+    </figure>
+
+    <p><b>La industria: más empresas esperan bajar que subir.</b> La encuesta del INDEC les pregunta a las fábricas qué esperan para los próximos tres meses. En casi todas las preguntas ganan las que esperan bajar. La diferencia más grande está en lo que importa para el empleo: el 17,0% espera trabajar menos horas y solo el 5,8%, más. La única pregunta que da positivo, por un punto, es la de exportaciones. Además, el 53,6% de las empresas dice que lo que más le impide producir más es que la demanda interna no alcanza. El indicador de confianza empresarial de la industria, que combina expectativas, pedidos y stock, quedó en <b>−20,2%</b>. Fue negativo en los 20 meses que muestra el informe, desde enero de 2025.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">INDEC · Encuesta de Tendencia de Negocios · próximos tres meses</div>
+        <h3>En la industria ganan los que esperan bajar; en los supermercados, solo el ánimo mejora</h3>
+        <p class="fig-sub">Porcentaje de empresas que espera una baja (izquierda) o una suba (derecha), septiembre a noviembre de 2026. El resto espera que no cambie.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 340" role="img" aria-label="Expectativas de las empresas para septiembre a noviembre de 2026, según el INDEC. Industria: producción, 19,7% espera menos y 15,4% más; pedidos del mercado interno, 23,8% menos y 13,8% más; exportaciones, 17,1% menos y 18,2% más; horas trabajadas, 17,0% menos y 5,8% más. Supermercados: situación comercial, 6,7% espera que empeore y 19,1% que mejore; pedidos a proveedores, 15,7% menos y 11,2% más; personal empleado, 13,5% menos y 2,2% más.">
+<text x="520" y="18" text-anchor="end" class="cf">&larr; espera una baja</text><text x="528" y="18" class="cf">espera una suba &rarr;</text><text x="890" y="18" text-anchor="end" class="cf">balance</text>
+<line x1="520" y1="26" x2="520" y2="320" stroke="#9A938A" stroke-width="1"/>
+<text x="0" y="46" class="clB">Industria</text>
+<text x="0" y="77" class="cl">Producción</text>
+<rect x="283.6" y="62" width="236.4" height="22" fill="#C0392B"/><text x="277.6" y="77" text-anchor="end" class="cv">19,7</text>
+<rect x="520" y="62" width="184.8" height="22" fill="#0E7C86"/><text x="710.8" y="77" class="cv">15,4</text>
+<text x="890" y="77" text-anchor="end" class="cvB">−4,3</text>
+<text x="0" y="111" class="cl">Pedidos del mercado interno</text>
+<rect x="234.4" y="96" width="285.6" height="22" fill="#C0392B"/><text x="228.4" y="111" text-anchor="end" class="cv">23,8</text>
+<rect x="520" y="96" width="165.6" height="22" fill="#0E7C86"/><text x="691.6" y="111" class="cv">13,8</text>
+<text x="890" y="111" text-anchor="end" class="cvB">−10,0</text>
+<text x="0" y="145" class="cl">Exportaciones</text>
+<rect x="314.8" y="130" width="205.2" height="22" fill="#C0392B"/><text x="308.8" y="145" text-anchor="end" class="cv">17,1</text>
+<rect x="520" y="130" width="218.4" height="22" fill="#0E7C86"/><text x="744.4" y="145" class="cv">18,2</text>
+<text x="890" y="145" text-anchor="end" class="cvB">+1,0</text>
+<text x="0" y="179" class="cl">Horas trabajadas</text>
+<rect x="316" y="164" width="204" height="22" fill="#C0392B"/><text x="310" y="179" text-anchor="end" class="cv">17,0</text>
+<rect x="520" y="164" width="69.6" height="22" fill="#0E7C86"/><text x="595.6" y="179" class="cv">5,8</text>
+<text x="890" y="179" text-anchor="end" class="cvB">−11,2</text>
+<line x1="0" y1="200" x2="890" y2="200" class="gg"/>
+<text x="0" y="222" class="clB">Supermercados</text>
+<text x="0" y="253" class="cl">Situación comercial</text>
+<rect x="439.6" y="238" width="80.4" height="22" fill="#C0392B"/><text x="433.6" y="253" text-anchor="end" class="cv">6,7</text>
+<rect x="520" y="238" width="229.2" height="22" fill="#0E7C86"/><text x="755.2" y="253" class="cv">19,1</text>
+<text x="890" y="253" text-anchor="end" class="cvB">+12,4</text>
+<text x="0" y="287" class="cl">Pedidos a proveedores</text>
+<rect x="331.6" y="272" width="188.4" height="22" fill="#C0392B"/><text x="325.6" y="287" text-anchor="end" class="cv">15,7</text>
+<rect x="520" y="272" width="134.4" height="22" fill="#0E7C86"/><text x="660.4" y="287" class="cv">11,2</text>
+<text x="890" y="287" text-anchor="end" class="cvB">−4,5</text>
+<text x="0" y="321" class="cl">Personal empleado</text>
+<rect x="358" y="306" width="162" height="22" fill="#C0392B"/><text x="352" y="321" text-anchor="end" class="cv">13,5</text>
+<rect x="520" y="306" width="26.4" height="22" fill="#0E7C86"/><text x="552.4" y="321" class="cv">2,2</text>
+<text x="890" y="321" text-anchor="end" class="cvB">−11,2</text>
+</svg>
+      <div class="legend"><span class="li"><span class="sw" style="background:#C0392B"></span>Espera una baja (o que empeore)</span><span class="li"><span class="sw" style="background:#0E7C86"></span>Espera una suba (o que mejore)</span></div>
+      <figcaption><b>Fuente:</b> INDEC, Encuesta de Tendencia de Negocios, industria manufacturera (páginas 8 y 9) y supermercados y autoservicios mayoristas (páginas 8 y 9), expectativas septiembre-noviembre de 2026, publicadas el 21/09/2026. Balance: porcentaje que espera una suba menos porcentaje que espera una baja.</figcaption>
+    </figure>
+
+    <p><b>Los supermercados: mejor ánimo, menos compras.</b> El 19,1% espera que su situación comercial mejore y solo el 6,7%, que empeore. Pero cuando la pregunta es concreta, el ánimo no se traduce en compras: el 15,7% planea pedirles menos mercadería a sus proveedores (11,2% más) y el 13,5% espera tener menos personal (2,2% más). El 62,9% espera subir sus precios. Su indicador de confianza empresarial quedó en <b>0,0%</b>: ni optimismo ni pesimismo.</p>
+
+    <p><b>El Índice Líder: tres de diez.</b> Di Tella resume en un solo número diez series que suelen anticipar la actividad: dos índices de la Bolsa, el dinero en circulación (M1), el precio de la soja, la venta de autos a concesionarios, la recaudación de IVA, el despacho de cemento, la confianza del consumidor y la producción de siderurgia y de minerales no metálicos que mide FIEL. En agosto subieron de forma significativa solo tres: <b>el M1, la soja y la venta de autos</b>. El índice cayó tres meses seguidos: −0,09% en junio, −0,72% en julio y −0,27% en agosto, hasta 122,45 puntos (2004 = 100). La probabilidad de salir de la fase de crecimiento fue 84% en junio, 81% en julio y 82% en agosto.</p>
+
+    <p><b>Los analistas y los consumidores: ahí está el rebote.</b> Los 44 analistas del REM esperan que la economía crezca 1,5% en 2026, con un tercer trimestre en baja (−1,0%) y un rebote de 1,8% de octubre a diciembre. La confianza del consumidor subió a 41,18 puntos en septiembre, empujada por la parte que mide lo que la gente espera (+3,80%). Pero el subíndice de compra de bienes durables e inmuebles, el que más se parece a una decisión de gasto, bajó 3,42%. Y el índice sigue 13,09% debajo de su pico de enero de 2025 (47,38 puntos).</p>
+
+    <p><b>Lo que ya pasó.</b> Las señales hay que mirarlas contra lo que ya midió el INDEC. En julio, el <a href="https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls">estimador mensual de actividad</a> cayó <b>2,9%</b> contra junio, sin estacionalidad, la baja más fuerte desde abril de 2020, y quedó 1,4% debajo de julio de 2025. El PIB del segundo trimestre había bajado 0,6%. En agosto hubo un rebote parcial en dos sectores: la <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipi_manufacturero_10_264B0CD91C87.pdf">industria</a> subió 1,9% contra julio pero quedó 3,2% debajo de un año antes, y la <a href="https://www.indec.gob.ar/uploads/informesdeprensa/isac_10_2674E79F6A29.pdf">construcción</a> subió 0,4% en el mes y quedó 4,4% abajo en el año. Ese rebote es el único dato medido, no esperado, que va en la dirección de una mejora. Y no alcanzó para recuperar lo que se perdió en julio.</p>
+
+    <p><b>Cuánto acertaron antes.</b> Las dos series que más se publican en los diarios tienen un historial reciente que conviene conocer:</p>
+    <p><b>El REM llegó tarde a la caída.</b> En junio, los analistas esperaban que la economía creciera 3,0% en 2026. Hoy esperan la mitad. En agosto pronosticaban una suba de 1,1% para el tercer trimestre. En septiembre, ya con la caída de julio a la vista, la cambiaron por una baja de 1,0%. Corrigieron después de ver el dato, no antes. Es una advertencia para el rebote de 1,8% que hoy esperan para fin de año.</p>
+    <p><b>El Índice Líder avisó antes, pero todavía no se confirmó.</b> Su probabilidad estuvo arriba de 80% en junio, julio y agosto, y en julio la actividad tuvo su peor caída mensual desde abril de 2020. Pero el índice tiene su propia definición de recesión: seis caídas mensuales seguidas de la tendencia de la actividad. Según el informe de agosto, esa tendencia recién llevaba dos, en mayo y junio. Un 82% de probabilidad no es una certeza. Di Tella marca en su gráfico seis recesiones desde 2005, pero no publica cuántos meses antes las anticipó cada vez.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación de la cifra ancla: estadística oficial recalculada, con contraste independiente.</b> La encuesta de expectativas a la industria la hace un solo organismo, el INDEC, y nadie más mide lo mismo. Por eso la cifra se confirmó con las tres condiciones del método.</p>
+      <p><b>1. Está en el documento oficial.</b> El <a href="https://www.indec.gob.ar/uploads/informesdeprensa/etn_industria_manufacturera_09_261CFB527938.pdf">informe técnico del INDEC</a> (vol. 10, nº 232, fechado el 21 de septiembre de 2026) dice, en la página 3 y en la página 8, que ante la pregunta por el volumen de producción de septiembre a noviembre de 2026, el 15,4% contestó "aumentará", el 64,9% "no variará" y el 19,7% "disminuirá" (balance −4,3%). Para los pedidos del mercado interno: 13,8%, 62,4% y 23,8% (balance −10,0%).</p>
+      <p><b>2. Se recalcula.</b> Los balances salen de restar las respuestas: 15,4 − 19,7 = −4,3; 13,8 − 23,8 = −10,0. El indicador de confianza empresarial (ICE), según la nota del propio informe, combina las expectativas de producción, la cartera de pedidos y el stock. Recalculado con los balances del informe da (−4,3 − 50,7 − 5,6) / 3 = −20,2, igual que lo publicado. El stock entra con el signo cambiado: tener mercadería de más es una mala señal. En supermercados, (−20,2 + 12,4 + 7,9) / 3 = 0,03, que el INDEC publica como 0,0%. La salvedad: recalculamos desde la composición de respuestas que publica el informe, no desde los microdatos de la encuesta, que el INDEC no publica.</p>
+      <p><b>3. Tiene un contraste independiente.</b> El Índice Líder de Di Tella no usa la encuesta del INDEC. Los dos componentes industriales que toma de FIEL, siderurgia y minerales no metálicos, no estuvieron entre los tres que subieron en agosto. La dirección coincide: industria floja. El dato medido también va en esa dirección: la producción industrial de agosto quedó 3,2% debajo de un año antes, según el INDEC.</p>
+      <p><b>Las demás cifras.</b> El Índice Líder (−0,27%, −1,05%, 122,45 puntos, 30% de difusión, 82%) y la confianza del consumidor (41,18 puntos) están tal cual en los informes del Centro de Investigación en Finanzas de la UTDT. Para la confianza, 41,18 / 40,23 = +2,36%: la diferencia con el +2,37% publicado sale de que los niveles están redondeados. Y 41,18 / 47,38 = −13,09%. Son índices de una universidad privada, no estadísticas oficiales, y los presentamos atribuidos. La probabilidad de 82% es el resultado de un modelo, no una medición. Las cifras del REM, el EMAE, la industria y la construcción ya las verificamos con el mismo método en notas publicadas (ver "Nuestra cobertura previa").</p>
+      <p><b>Qué no afirmamos.</b> No decimos que la Argentina esté o vaya a estar en recesión, ni que se vaya a recuperar. La columna "hacia dónde apunta" resume lo que dice el número de cada señal, no un pronóstico de Con Interés. Las encuestas a empresas miden lo que esperan los que contestan, no lo que va a pasar.</p>
+      <div class="meta"><span>Fuentes <b>INDEC · BCRA · UTDT</b></span><span>Verificación <b>estadística oficial recalculada + contraste</b></span></div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>Lo que una fábrica espera producir decide cuántas horas pide, si renueva contratos y cuánto le compra a sus proveedores. Por eso la pregunta de la encuesta que da peor es la de horas trabajadas: −11,2 en la industria, con el mismo número para el personal de los supermercados. Si esas expectativas se cumplen, la señal llega primero al trabajo y después al consumo.</p>
+    <p>El rebote que esperan los analistas y la mejora del ánimo del consumidor son reales como expectativas. Pero no hay todavía ningún dato de producción que los respalde, salvo el rebote parcial de agosto.</p>
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si trabajás en una fábrica o en un comercio,</b> la señal más directa es la de las horas: en la industria, el 17,0% de las empresas espera trabajar menos horas hasta noviembre y solo el 5,8%, más. Suele notarse primero en horas extra y turnos, antes que en despidos.</p>
+      <p data-perfil="pyme"><b>Si tenés una pyme que le vende a la industria o a supermercados,</b> los dos sectores esperan pedir menos: −10,0 en el mercado interno de las fábricas y −4,5 en las compras de los supermercados a sus proveedores.</p>
+      <p data-perfil="ahorrista"><b>Si seguís estos datos para entender la economía,</b> ninguna señal sola alcanza. El 20 de octubre el INDEC publica la encuesta de octubre a diciembre y el 21, el EMAE de agosto: ahí se ve si el rebote del 4° trimestre empieza a aparecer en algo más que las expectativas.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Qué mirar en las próximas semanas <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p><b>20 de octubre, 16 h:</b> el INDEC publica la encuesta de expectativas de la industria y de los supermercados para octubre a diciembre de 2026. <b>21 de octubre, 16 h:</b> el EMAE de agosto, el primer dato de actividad total después de la caída de julio. <b>5 de noviembre:</b> el REM de octubre del BCRA. <b>24 de noviembre:</b> el EMAE de septiembre, que cierra el tercer trimestre. <b>16 de diciembre:</b> el PIB del tercer trimestre. Di Tella publica cada mes el Índice Líder y la confianza del consumidor; los de septiembre y octubre todavía no salieron.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Qué es un "balance" y por qué no es un porcentaje de caída <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Las encuestas de tendencia no miden cuánto va a producir una empresa: preguntan si espera producir más, igual o menos. El balance es el porcentaje que dice "más" menos el que dice "menos". Un balance de −4,3 no quiere decir que la producción vaya a caer 4,3%: quiere decir que hay 4,3 puntos más de empresas pesimistas que optimistas. La mayoría (64,9%) espera producir lo mismo.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Qué indicadores no incluimos, y por qué <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Dejamos afuera los pronósticos de consultoras privadas que no publican su método, como se acordó con el lector. No hay indicadores anticipados por provincia con método publicado. Y el detalle de cada componente del Índice Líder, mes por mes, Di Tella lo ofrece solo a pedido y pago. Del informe público tomamos el índice, su difusión, la probabilidad y cuáles componentes subieron.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Nuestra cobertura previa <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>El REM de septiembre, en <a href="../articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html">el mercado recortó a 1,5% lo que espera que crezca la economía en 2026</a>. La caída de julio, en <a href="../articulos/2026-09-24-emae-julio-mayor-caida-desde-2020.html">la actividad cayó 2,9% en julio</a>. Cuánto tenía que crecer la economía para que el tercer trimestre no cayera, en <a href="../articulos/2026-09-26-recesion-tecnica-cuanto-tiene-que-crecer.html">la cuenta de la recesión técnica</a>. La industria y la construcción de agosto, en <a href="../articulos/2026-10-07-industria-agosto-tendencia-devolvio-recuperacion.html">la industria produjo en agosto 3,2% menos</a> y <a href="../articulos/2026-10-07-construccion-agosto-debajo-2023-insumos.html">la construcción hizo en agosto 4,4% menos</a>. Y la confianza del consumidor de julio, en <a href="../articulos/2026-07-23-confianza-consumidor-dos-argentinas.html">dos Argentinas en la confianza del consumidor</a>.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/etn_industria_manufacturera_09_261CFB527938.pdf">Encuesta de Tendencia de Negocios, industria manufacturera, expectativas septiembre-noviembre de 2026</a> (21/09/2026)</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/etn_super_mayoristas_09_26F587F8EE6D.pdf">Encuesta de Tendencia de Negocios, supermercados y autoservicios mayoristas, expectativas septiembre-noviembre de 2026</a> (21/09/2026)</li>
+        <li>&#8250; Universidad Torcuato Di Tella, CIF — <a href="https://www.utdt.edu/download.php?fname=_178959131390594800.pdf">Índice Líder, agosto de 2026</a> (<a href="https://www.utdt.edu/ver_contenido.php?id_contenido=3146&amp;id_item_menu=6227">página del índice</a>)</li>
+        <li>&#8250; Universidad Torcuato Di Tella, CIF — <a href="https://www.utdt.edu/download.php?fname=_178964914755427100.pdf">Índice de Confianza del Consumidor, septiembre de 2026</a></li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-2026-09.pdf">Relevamiento de Expectativas de Mercado, septiembre de 2026</a> (06/10/2026)</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/ftp/cuadros/economia/sh_emae_mensual_base2004.xls">serie del EMAE, números índice desestacionalizados</a></li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipi_manufacturero_10_264B0CD91C87.pdf">Índice de producción industrial manufacturero, agosto de 2026</a> y <a href="https://www.indec.gob.ar/uploads/informesdeprensa/isac_10_2674E79F6A29.pdf">Indicador sintético de la actividad de la construcción, agosto de 2026</a> (07/10/2026)</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/pib_09_26065D6A3612.pdf">Informe de avance del nivel de actividad, segundo trimestre de 2026</a></li>
+        <li>&#8250; Con Interés — <b>cálculo propio</b>: balances y confianza empresarial recalculados desde la composición de respuestas del INDEC, y variaciones de la confianza del consumidor desde los niveles de la UTDT.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 12/10/2026 con el último dato publicado de cada serie. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
