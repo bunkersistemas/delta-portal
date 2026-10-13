@@ -4059,6 +4059,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida"
+    },
+    {
+      "tema": "cuánto cobran los jubilados en noviembre de 2026 (IPC de septiembre publicado hoy 16:00: 1,9% mensual, 23,6% acumulado, 33,4% i.a.; infobae, La Nación, ámbito, iProfesional, Cronista, Página12) / movilidad Decreto 274/2024 = IPC de dos meses antes con dos decimales: índice nacional ago-26 12.276,7660 -> sep-26 12.514,1508 = 1,9336% -> 1,93%; haber mínimo oct $435.748,51 (Res. ANSES 284/2026, 1,66% = IPC ago 1,6592%) -> nov $444.158,46 (con 1,9%: $444.027,73, -$130,73); máximo $2.988.765,82, PBU $203.182,22, PUAM $355.326,77; con bono $70.000 (Decreto 1108/2026 oct; nov sin decreto) $514.158,46; i.a. nov-25 $333.085,39 +33,3% (con bono +27,6%); CBT sep $528.318,67 x 0,83 = $438.505: mínima+bono sep 113,7% (sep-25 123,5%), sin bono 97,7% (11 meses debajo); mujer 140,9%, pareja 62,9%",
+      "angulo": "Corrida programada del 13/10/2026 16:30, primera candidata probada (APTA). Pregunta de plata detrás del dato del calendario (IPC de hoy): cuánto cobra un jubilado en noviembre. Ángulo propio: el redondeo (la ANSES aplica 1,93%, no el 1,9% del titular) y la regla validada en 26 meses. No repite la nota del 24/09 (cobertura de agosto, serie de diez años): esta da los montos de noviembre y actualiza la cobertura con la canasta de septiembre. Verificación: estadística oficial recalculada (informe IPC sep + serie_ipc_divisiones.csv: 1,9336%) + regla de la ANSES reproducida al centavo en 26/26 meses (serie MECON y Res. 284/2026) + contraste IPCBA sep 1,8% (IDECBA).",
+      "fecha": "2026-10-13",
+      "estado": "publicada",
+      "articulo_id": "2026-10-13-jubilacion-minima-noviembre-aumento",
+      "archivo": "cola/2026-10-13-jubilacion-minima-noviembre-aumento.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 13/10/2026 16:30: no se probaron porque la primera candidata (jubilación mínima de noviembre) pasó la verificación. Lista: IPC de septiembre 1,9% (6 portadas; dato del día sin ángulo propio, va como contexto), canasta básica de septiembre $1.632.505 (5 portadas; usada en la nota), patentamientos 3T (INDEC, sin pregunta de plata), cuánto se queda el Estado del premio del Quini 6 de $2.651 M por ganador (infobae), Día de la Madre gasto promedio $55.800 (ámbito, iProfesional; estimación de CAME), cruce de deudas Edenor-Edesur (La Nación; sin montos, frenada 12:30), mapa de la morosidad por provincia (infobae), 150 localidades sin cajero (La Nación; estudio privado), empresas CNV: Caja de Valores anuncio rectificativo de dividendo, Central Puerto recompras (08 y 09/10), Nuevo Continente balance al 31/07 y A3 Mercados HR (visor sin cifras)",
+      "angulo": "NO TOMADAS en la corrida programada del 13/10/2026 16:30; ganó la jubilación mínima de noviembre (primera candidata, APTA). Cupo de EMPRESAS: regía (última nota EMPRESAS 12/10), pero las candidatas del bloque son una rectificación de dividendo, recompras de rutina y presentaciones sin cifras legibles; ninguna con una pregunta de plata ni cifra ancla que le gane a la del día.",
+      "fecha": "2026-10-13",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, sin documento primario con la cifra o ya cubiertas, frente a la candidata elegida; empresas sin cifra ancla legible o de rutina"
     }
   ]
 }

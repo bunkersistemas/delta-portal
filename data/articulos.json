@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-13T15:00:51-03:00",
+    "actualizado": "2026-10-13T16:39:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-13-jubilacion-minima-noviembre-aumento",
+      "titulo": "La jubilación mínima de noviembre será de $444.158,46: sube 1,93% por la inflación de septiembre, no 1,9%",
+      "bajada": "El INDEC informó hoy una inflación de 1,9% en septiembre. Pero la ANSES no usa ese número redondeado: aplica la variación del índice con dos decimales, que da 1,93%. Así, la mínima pasa de $435.748,51 a $444.158,46. El bono de $70.000 de noviembre todavía no tiene decreto.",
+      "titulo_busqueda": "¿Cuánto cobran los jubilados en noviembre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$444.158,46",
+      "numero_label": "haber mínimo jubilatorio de noviembre de 2026 que surge de la movilidad de 1,93% (IPC nacional de septiembre, INDEC, con dos decimales: 12.514,1508 / 12.276,7660 - 1 = 1,9336%) sobre los $435.748,51 de octubre (Res. ANSES 284/2026); regla validada al centavo en los 26 aumentos de ago-2024 a oct-2026; falta la resolución de la ANSES",
+      "fecha": "2026-10-13",
+      "hora": "17:00",
+      "archivo": "articulos/2026-10-13-jubilacion-minima-noviembre-aumento.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-13-sueldo-estatales-nacionales-sinep-octubre",
       "titulo": "$577.879 brutos: lo que cobra en octubre el escalón más bajo de la planta del Estado nacional",
