@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Con Interés en Instagram</title>
+<meta name="description" content="Las notas de los posteos de Con Interés en Instagram: tocá la imagen que viste y leé la nota completa, con cada fuente.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<link rel="canonical" href="https://coninteres.com/ig.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:opsz,wght@8..60,600;8..60,700&family=Inter:wght@400;500;600&family=IBM+Plex+Mono:wght@500;600&display=swap" rel="stylesheet">
+<style>
+  :root{--paper:#FAF8F4;--ink:#16130F;--soft:#3C3833;--teal:#2E8B6F;--teal-deep:#0A5C63;--muted:#6B6560;--edge:#EAE4DA;--amber:#C4701F;
+        --serif:"Source Serif 4",Georgia,serif;--sans:"Inter",system-ui,sans-serif;--mono:"IBM Plex Mono",monospace}
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);-webkit-font-smoothing:antialiased}
+  .wrap{max-width:560px;margin:0 auto;padding:0 16px 40px}
+  header{text-align:center;padding:26px 0 10px}
+  .logo{display:inline-flex;align-items:center;justify-content:center;width:64px;height:64px;border-radius:50%;background:#16130F;color:#1FA9B4;font:700 38px Georgia,serif}
+  h1{font-family:var(--serif);font-size:24px;margin:10px 0 4px}
+  .sub{color:var(--soft);font-size:15px;margin:0 0 16px;line-height:1.45}
+  .botones{display:flex;flex-direction:column;gap:10px;margin:0 0 22px}
+  .boton{display:block;text-align:center;text-decoration:none;font-weight:600;font-size:15.5px;border-radius:12px;padding:13px 16px}
+  .boton.prin{background:var(--ink);color:var(--paper)}
+  .boton.sec{background:#fff;color:var(--ink);border:1px solid var(--edge)}
+  .titulo-seccion{font-family:var(--mono);font-size:11.5px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin:6px 0 10px}
+  .grilla{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+  .grilla a{display:block;text-decoration:none;color:var(--ink);background:#fff;border:1px solid var(--edge);border-radius:10px;overflow:hidden}
+  .grilla img{display:block;width:100%;aspect-ratio:4/5;object-fit:cover;background:#EFEAE1}
+  .grilla span{display:block;font-size:12.5px;line-height:1.35;padding:8px 9px 10px;color:var(--soft)}
+  .vacio,.cargando{color:var(--muted);font-size:14px;text-align:center;padding:24px 0}
+  footer{text-align:center;font-family:var(--mono);font-size:11.5px;color:var(--muted);margin-top:28px;line-height:1.7}
+  footer a{color:var(--teal-deep);text-decoration:none}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="logo">%</div>
+    <h1>Con Interés</h1>
+    <p class="sub">Economía con datos verificados.<br>Tocá la imagen que viste en Instagram y leé la nota completa, con cada fuente.</p>
+  </header>
+
+  <div class="botones">
+    <a class="boton prin" href="index.html">Ir a la portada de Con Interés</a>
+    <a class="boton sec" href="https://www.instagram.com/coninteres.ar/" rel="noopener">&#128172; ¿Tenés una pregunta? Dejala en los comentarios</a>
+  </div>
+
+  <div class="titulo-seccion">Las notas de nuestros posteos</div>
+  <div id="grilla" class="grilla"><div class="cargando" style="grid-column:1/-1">Cargando…</div></div>
+
+  <footer>
+    <a href="index.html">coninteres.com</a> · <a href="privacidad.html">Privacidad</a><br>
+    Datos verificados contra la fuente primaria.
+  </footer>
+</div>
+<script>
+(function () {
+  // Los posteos publicados los registra el publicador de la VM; la pagina solo puede
+  // leer esa lista (funcion ig_ultimas), no la tabla.
+  var URL = "https://tgjxivohobemoirrkwrq.supabase.co/rest/v1/rpc/ig_ultimas";
+  var LLAVE = "sb_publishable_nBxN5DKUcmBwVhkgqNfs8g_ILB1fplb";
+  var g = document.getElementById("grilla");
+  function local(u) { return String(u || "").replace("https://coninteres.com/", ""); }
+  fetch(URL, { method: "POST", headers: { "apikey": LLAVE, "Content-Type": "application/json" }, body: "{}" })
+    .then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (filas) {
+      g.innerHTML = "";
+      if (!filas || !filas.length) { g.innerHTML = '<div class="vacio" style="grid-column:1/-1">Pronto, las notas de nuestros posteos.</div>'; return; }
+      filas.forEach(function (p) {
+        var a = document.createElement("a"); a.href = local(p.nota_url);
+        var img = document.createElement("img"); img.src = local(p.imagen_url); img.alt = p.gancho || p.titulo; img.loading = "lazy";
+        var s = document.createElement("span"); s.textContent = p.gancho || p.titulo;
+        a.appendChild(img); a.appendChild(s); g.appendChild(a);
+      });
+    })
+    .catch(function () { g.innerHTML = '<div class="vacio" style="grid-column:1/-1">No pudimos cargar los posteos. <a href="index.html">Andá a la portada</a>.</div>'; });
+})();
+</script>
+</body>
+</html>
