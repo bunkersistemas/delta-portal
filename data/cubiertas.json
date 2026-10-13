@@ -3913,6 +3913,28 @@
       "estado": "publicada",
       "articulo_id": "2026-10-12-economia-salarios-desde-milei",
       "archivo": "cola/2026-10-12-economia-salarios-desde-milei.html"
+    },
+    {
+      "tema": "cuánto cuesta de verdad un préstamo de Mercado Pago (infobae 12/10/2026, 'La dura queja de Marcos Galperin contra la norma del BCRA que obliga a informar el costo financiero de los préstamos de su app'; ámbito) / tabla de tasas vigentes de Mercado Pago (mercadopago.com.ar/ayuda/18691, leída 12/10/2026): préstamos personales y línea de consumo TNA fija 48% (TEA 60,12%, CFTEA 76,36%) a 215% (624,14%, 956,54%), plazos 7 días a 24 meses; tarjeta compensatoria 84,11% (165,76%); fórmula de la planilla (1+TNA*1,21*30/365)^(365/30)-1; copias Internet Archive 14/06/2024 (98%-249%, CFTEA 210,03%-1.375,94%, 1-12 meses), 03/08/2025 (63%-249%), 31/03/2026 (60%-249%); BCRA serie 14 préstamos personales TNA 61,00 (14/06/24), 70,47 (01/08/25), 64,32 (31/03/26), 62,18 (08/10/26); simulación $100.000 en 12 cuotas fijas con IVA: máx $284.386,60 (cuota $23.698,88), mín $133.667,97, bancos $144.579,23; un mes a la máxima $121.382,19",
+      "angulo": "Corrida programada del 12/10/2026 22:30, segunda candidata probada (APTA) tras el costo fiscal del RIGI (frenada). Sección EMPRESAS (cupo: la última nota de EMPRESAS era del 10/10). Ángulo nuevo frente al balance de Mercado Libre del 25/08 (ingresos y cartera): de dónde sale el CFT de 956,5% que critica Galperin, cuánto se devuelve de verdad y cómo bajó la tabla (máxima 249% -> 215%). Verificación por recálculo: documento de la empresa leído en el original + recálculo exacto al centésimo con la fórmula del BCRA (texto ordenado Tasas de interés, 3.3.1 y 3.4.2.7; sección 6 para proveedores no financieros, Com. A 7156) + contraste con tres versiones archivadas y con el ejemplo de la empresa a Infobae ($100.000, TNA 50%, 12 cuotas, 'unos $135.000'; nuestro método da $135.181). No afirmado: tasa promedio de MP (no la publica), el 2% de préstamos a la máxima (dicho por la empresa a Infobae, atribuido), fecha exacta de la baja de la máxima (sin copias entre 31/03 y 12/10; Perfil 18/08 todavía citaba 249%). El ejemplo de Etchebarne (TNA 60%, cuota $1.208,02, CFTEA 102,36%) no se usó: su cuota no se reproduce. La norma no es nueva: versiones de 2018 y alcance a no bancos desde 2021.",
+      "fecha": "2026-10-12",
+      "estado": "publicada",
+      "articulo_id": "2026-10-12-mercado-pago-prestamos-costo-financiero-total",
+      "archivo": "cola/2026-10-12-mercado-pago-prestamos-costo-financiero-total.html"
+    },
+    {
+      "tema": "cuánto le cuesta al Estado el RIGI (iProfesional 12/10/2026: Dal Poggetto estimó un gasto tributario de US$8.500 M; Página12: US$2.624 M anuales; dos años del régimen con US$50.000 M aprobados)",
+      "angulo": "Corrida programada del 12/10/2026 22:30, primera candidata probada: FRENADA. No hay documento oficial con la cifra: el Presupuesto 2027 no estima el gasto tributario del RIGI (el Mensaje dice que los proyectos están en etapa de inversión y que podrá estimarse más adelante, según Perfil). Las estimaciones privadas no coinciden entre sí (CEPA mayo 2026 US$1.069 M anuales con rango 786-1.395; CEPA presupuesto 2027 US$2.888-3.175 M; Dal Poggetto US$8.500 M; diputado Michel US$7.000 M): son proyecciones de una sola fuente cada una, sin dos que coincidan. Retomable si Economía publica la estimación oficial o si la AGN o la OPC (Oficina de Presupuesto del Congreso) publican una con método.",
+      "fecha": "2026-10-12",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "proyecciones privadas que no coinciden; sin estimación oficial en el Presupuesto 2027"
+    },
+    {
+      "tema": "descartes de la corrida programada del 12/10/2026 22:30: costo fiscal del RIGI (frenada aparte), Milei y los US$125.000 M para enfrentar una corrida (infobae, Página12; Broda en infobae: sin desglose oficial de la cifra), deudores refinanciados en mora y jóvenes 63% (infobae; estudio privado), autos extranjeros en el mercado (infobae; ACARA, ya descartada el 10/10), informalidad 45% (La Nación, Página12; ya descartada), fin de semana largo y Nobel (ya publicados o descartados hoy), Caputo en Bangkok y la revisión del FMI por US$869 M (infobae, ámbito, Página12; sin documento nuevo), oro del BCRA y pedido de detención de Caputo y Bausili (infobae, ámbito; sin informe de la AGN), paritaria de la alimentación (ámbito; ya descartada el 11/10), docente universitario, empleadas domésticas y peón rural (iProfesional; ya publicadas), submarinos (iProfesional; sin documento con monto), Genneia Parque Solar San Juan Sur US$110 M (infobae; sin hecho relevante en el bloque de la CNV), Farmacity 300 locales y Pandanés (infobae; sin documento); empresas CNV (Nuevo Continente y A3 Mercados: visor sin cifras; Central Puerto, YPF, YPF Luz, IRSA, La Anónima e ICBC: ya descartadas o publicadas); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 12/10/2026 22:30; ganó el costo financiero de los préstamos de Mercado Pago (segunda candidata, APTA, sección EMPRESAS: cubre el cupo del día).",
+      "fecha": "2026-10-12",
+      "estado": "descartada"
     }
   ]
 }
