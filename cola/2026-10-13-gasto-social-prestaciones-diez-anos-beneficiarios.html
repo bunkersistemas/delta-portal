@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Bajó el gasto social con Milei? ¿Hay más o menos beneficiarios de planes, pensiones y AUH? — CON INTERÉS</title>
+<meta name="description" content="Diez años de prestaciones sociales del Estado nacional, partida por partida, en pesos de hoy y como porcentaje del PBI. El total bajó, pero no parejo: los planes perdieron la mitad, las asignaciones con la AUH subieron 20,8% y las jubilaciones, 3,8% menos. Y del otro lado, cuántos cobran: hay más jubilados, menos pensiones no contributivas y casi los mismos chicos con AUH.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .prose h3.sub{font-family:var(--serif);font-size:23px;font-weight:600;margin:34px 0 12px;line-height:1.25}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:470px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column;max-width:190px}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+</style>
+</head>
+<body data-palette="#0E7C86,#C4701F,#C0392B,#2E8B6F">
+<div class="draft-ribbon"><b>BORRADOR</b> · Borrador generado por la redacción de agentes y pendiente de aprobación. No es una nota publicada.</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<div class="borrador"><div class="borrador-in"><b>Borrador en revisión.</b> Esta investigación todavía no está publicada: la está leyendo el lector que la pidió.</div></div>
+<article>
+  <div class="kicker">ECONOMÍA <span class="sep">/</span> <span class="fmt">Anatomía de un dato</span></div>
+
+  <h1>El gasto nacional en jubilaciones, pensiones, asignaciones y planes cayó 11,5% real entre 2023 y 2025: casi nueve de cada diez pesos del recorte salieron de los planes sociales</h1>
+
+  <p class="standfirst">Diez años de prestaciones sociales del Estado nacional, partida por partida, en pesos de hoy y como porcentaje del PBI. El total bajó, pero no parejo: los planes perdieron la mitad, las asignaciones con la AUH subieron 20,8% y las jubilaciones, 3,8% menos. Y del otro lado, cuántos cobran: hay más jubilados, menos pensiones no contributivas y casi los mismos chicos con AUH.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>13 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 12 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta cuánto gastó el Estado nacional en jubilaciones, pensiones, asignaciones, PAMI y planes sociales desde 2016 hasta agosto de 2026, en pesos de hoy y como porcentaje del PBI, y cuántas personas cobran cada prestación. Cumple el enfoque que aprobó el lector, con tres diferencias. El ajuste por inflación arranca en 2017: en 2016 el INDEC no tiene un índice de precios nacional para el año entero, así que ese año va solo como porcentaje del PBI. De los planes (Potenciar Trabajo, Acompañamiento Social, Progresar y otros) no hay una serie oficial pública de beneficiarios, y Hacienda los informa juntos, en un solo renglón: van sin cantidad de personas y sin separar programa por programa. Y el PAMI no tiene beneficiarios en el boletín de la seguridad social. Provincias, salud y educación quedan afuera, como estaba previsto.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">1m</span></button>
+      <button data-go="b3">En contexto <span class="t">5m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">3m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">-11,5<span class="u">%</span></div>
+      <div class="cap">es lo que <b>cayó, descontada la inflación, el gasto del Estado nacional en prestaciones sociales</b> entre 2023 y 2025: jubilaciones, pensiones, asignaciones, PAMI y planes. En pesos de agosto de 2026, pasó de <b>$126,6 billones a $112,1 billones</b>.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v up">-51,4%</span><span class="k">los planes sociales ("otros programas" de Hacienda), mismo período</span></div>
+        <div class="sr"><span class="v dn">+20,8%</span><span class="k">asignaciones familiares y AUH, la única partida que creció</span></div>
+        <div class="sr"><span class="v">9,65%</span><span class="k">del PBI en 2025, contra 10,51% en 2023 y 11,60% en 2016</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">Sí, el gasto social del Estado nacional bajó con el gobierno de Javier Milei, pero no todo y no parejo. Lo que Hacienda llama "prestaciones sociales" (la plata que el Estado le paga directamente a las personas) sumó <b class="hl">$112,1 billones en 2025</b>, en pesos de agosto de 2026. En 2023 habían sido $126,6 billones: <b>11,5% menos</b>. En lo que va de 2026, de enero a agosto, está 2,1% abajo de los mismos meses de 2025 y 14,4% abajo de 2023.</p>
+    <p>Casi todo el recorte salió de un solo lugar. De los $14,5 billones de diferencia entre 2023 y 2025, <b>$12,8 billones</b> son de "otros programas", el renglón donde Hacienda pone el Potenciar Trabajo y sus sucesores, el Progresar y otros planes: cayó <b>51,4%</b>. Las jubilaciones y pensiones contributivas, que son casi dos tercios del total, bajaron 3,8%. Las pensiones no contributivas, 12,6%. El PAMI quedó casi igual (-0,7%). Y las <b>asignaciones familiares y la AUH subieron 20,8%</b>.</p>
+    <p>Del lado de la gente, los números se mueven distinto que la plata. Hay <b>5,9% más jubilaciones y pensiones</b> del sistema previsional que en 2023, <b>5,1% menos pensiones no contributivas</b> y casi la misma cantidad de chicos con AUH (-2,4%). O sea: en las jubilaciones y en las pensiones no contributivas, el gasto bajó más que la cantidad de beneficiarios, y cada uno cobró en promedio menos en términos reales. En la AUH pasó lo contrario: casi los mismos chicos, y mucha más plata por cada uno.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 class="sub">Qué cuenta como gasto social y qué no</h3>
+    <p>"Inversión social" no es una categoría oficial: cada gobierno la arma con partidas distintas. Usamos la que es igual para todos los años: el renglón <b>"prestaciones sociales"</b> del informe mensual de ingresos y gastos del Sector Público Nacional que publica la Secretaría de Hacienda, en base caja (lo que efectivamente se pagó). Tiene cinco partidas: jubilaciones y pensiones contributivas; asignaciones familiares y AUH; pensiones no contributivas (invalidez, madres de siete hijos, vejez y leyes especiales); prestaciones del PAMI; y "otros programas". Quedan afuera los hospitales, las escuelas y las universidades, que no son pagos a personas, y todo lo que gastan las provincias y los municipios.</p>
+
+    <h3 class="sub">Partida por partida</h3>
+    <table class="tb">
+      <tr><th>Partida</th><th style="text-align:right">2016 (millones de $ de entonces)</th><th style="text-align:right">2025 (millones de $ de entonces)</th><th style="text-align:right">Real 2017-2025</th><th style="text-align:right">Real 2023-2025</th><th style="text-align:right">Ene-ago 2026 vs. 2023</th></tr>
+      <tr><td>Jubilaciones y pensiones contributivas</td><td class="n">654.468</td><td class="n">52.310.313</td><td class="n">-28,6%</td><td class="n">-3,8%</td><td class="n">-7,6%</td></tr>
+      <tr><td>Asignaciones familiares y AUH</td><td class="n">108.159</td><td class="n">8.828.097</td><td class="n">-21,3%</td><td class="n">+20,8%</td><td class="n">+14,5%</td></tr>
+      <tr><td>Pensiones no contributivas</td><td class="n">80.249</td><td class="n">4.362.824</td><td class="n">-45,6%</td><td class="n">-12,6%</td><td class="n">-19,2%</td></tr>
+      <tr><td>PAMI (prestaciones del INSSJP)</td><td class="n">81.408</td><td class="n">7.739.520</td><td class="n">-3,3%</td><td class="n">-0,7%</td><td class="n">+9,2%</td></tr>
+      <tr><td>Otros programas (Progresar, Potenciar y otros)</td><td class="n">30.302</td><td class="n">8.843.493</td><td class="n">+188,6%</td><td class="n">-51,4%</td><td class="n">-59,3%</td></tr>
+      <tr><td><b>Total prestaciones sociales</b></td><td class="n"><b>954.585</b></td><td class="n"><b>82.084.247</b></td><td class="n"><b>-20,7%</b></td><td class="n"><b>-11,5%</b></td><td class="n"><b>-14,4%</b></td></tr>
+    </table>
+    <p style="font-size:14px;color:var(--muted)">Fuente: Secretaría de Hacienda, informe mensual de ingresos y gastos del Sector Público Nacional no financiero, base caja. Variaciones reales: cada mes llevado a pesos de agosto de 2026 con el IPC nacional del INDEC y sumado (cálculo propio). "Ene-ago 2026 vs. 2023": enero a agosto de cada año.</p>
+
+    <h3 class="sub">Diez años de prestaciones sociales, como porcentaje del PBI</h3>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Prestaciones sociales del Sector Público Nacional · % del PBI</div>
+        <h3>El gasto social nacional quedó en 2024 y 2025 en el nivel más bajo de la serie que arranca en 2016</h3>
+        <p class="fig-sub">Jubilaciones, pensiones, asignaciones, PAMI y otros programas, pagado en el año, sobre el PBI a precios corrientes.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 250" role="img" aria-label="Prestaciones sociales del Sector Público Nacional en porcentaje del PBI: 2016 11,60%; 2017 12,24%; 2018 11,29%; 2019 11,31%; 2020 15,06%; 2021 11,75%; 2022 11,29%; 2023 10,51%; 2024 9,47%; 2025 9,65%.">
+<line x1="44" y1="210.0" x2="740" y2="210.0" stroke="#B9B3A9" stroke-width="1"/>
+<text x="38" y="214.0" class="cf" text-anchor="end">0%</text>
+<line x1="44" y1="162.0" x2="740" y2="162.0" stroke="#E7E1D7" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="38" y="166.0" class="cf" text-anchor="end">4%</text>
+<line x1="44" y1="114.0" x2="740" y2="114.0" stroke="#E7E1D7" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="38" y="118.0" class="cf" text-anchor="end">8%</text>
+<line x1="44" y1="66.0" x2="740" y2="66.0" stroke="#E7E1D7" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="38" y="70.0" class="cf" text-anchor="end">12%</text>
+<line x1="44" y1="18.0" x2="740" y2="18.0" stroke="#E7E1D7" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="38" y="22.0" class="cf" text-anchor="end">16%</text>
+<rect x="60" y="70.8" width="44" height="139.2" rx="3" fill="#8FBFC3"><title>2016: 11,60% del PBI</title></rect>
+<text x="82.0" y="63.8" class="cvB" text-anchor="middle">11,60%</text>
+<text x="82.0" y="228" class="cf" text-anchor="middle">2016</text>
+<rect x="128" y="63.1" width="44" height="146.9" rx="3" fill="#8FBFC3"><title>2017: 12,24% del PBI</title></rect>
+<text x="150.0" y="228" class="cf" text-anchor="middle">2017</text>
+<rect x="196" y="74.5" width="44" height="135.5" rx="3" fill="#8FBFC3"><title>2018: 11,29% del PBI</title></rect>
+<text x="218.0" y="228" class="cf" text-anchor="middle">2018</text>
+<rect x="264" y="74.3" width="44" height="135.7" rx="3" fill="#8FBFC3"><title>2019: 11,31% del PBI</title></rect>
+<text x="286.0" y="228" class="cf" text-anchor="middle">2019</text>
+<rect x="332" y="29.3" width="44" height="180.7" rx="3" fill="#8FBFC3"><title>2020: 15,06% del PBI</title></rect>
+<text x="354.0" y="22.3" class="cvB" text-anchor="middle">15,06%</text>
+<text x="354.0" y="228" class="cf" text-anchor="middle">2020</text>
+<rect x="400" y="69.0" width="44" height="141.0" rx="3" fill="#8FBFC3"><title>2021: 11,75% del PBI</title></rect>
+<text x="422.0" y="228" class="cf" text-anchor="middle">2021</text>
+<rect x="468" y="74.5" width="44" height="135.5" rx="3" fill="#8FBFC3"><title>2022: 11,29% del PBI</title></rect>
+<text x="490.0" y="228" class="cf" text-anchor="middle">2022</text>
+<rect x="536" y="83.9" width="44" height="126.1" rx="3" fill="#0A5C63"><title>2023: 10,51% del PBI</title></rect>
+<text x="558.0" y="76.9" class="cvB" text-anchor="middle">10,51%</text>
+<text x="558.0" y="228" class="cf" text-anchor="middle">2023</text>
+<rect x="604" y="96.4" width="44" height="113.6" rx="3" fill="#0E7C86"><title>2024: 9,47% del PBI</title></rect>
+<text x="626.0" y="89.4" class="cvB" text-anchor="middle">9,47%</text>
+<text x="626.0" y="228" class="cf" text-anchor="middle">2024</text>
+<rect x="672" y="94.2" width="44" height="115.8" rx="3" fill="#0E7C86"><title>2025: 9,65% del PBI</title></rect>
+<text x="694.0" y="87.2" class="cvB" text-anchor="middle">9,65%</text>
+<text x="694.0" y="228" class="cf" text-anchor="middle">2025</text>
+</svg>
+      <figcaption><b>Fuente:</b> Secretaría de Hacienda (informe mensual de ingresos y gastos, base caja) e INDEC (PBI a precios corrientes, cuadro 8 de oferta y demanda globales). Porcentajes: cálculo propio. El salto de 2020 es el año de la pandemia.</figcaption>
+    </figure>
+    <p>Medido contra el tamaño de la economía, el gasto en prestaciones sociales fue <b>11,60% del PBI en 2016</b>, tocó 15,06% en 2020, con la pandemia, y bajó a <b>10,51% en 2023</b>. En 2024 cayó a <b>9,47%</b>, el nivel más bajo de los diez años, y en 2025 quedó en 9,65%. Para 2026 todavía no hay un PBI anual.</p>
+    <p>En pesos de hoy, la tendencia a la baja viene de antes. El gasto de 2023 ya era 10,4% menor, descontada la inflación, que el de 2017 ($141,3 billones en pesos de agosto de 2026). Las jubilaciones explican buena parte: entre 2017 y 2023 perdieron 25,8% real, en años de inflación alta en los que los haberes corrieron detrás de los precios. Entre 2017 y 2025, el total cayó 20,7%.</p>
+    <p>Hay un dato que va en la dirección contraria y conviene tenerlo a mano: como el resto del gasto del Estado nacional cayó mucho más (los salarios públicos, la obra pública, los subsidios a la energía y el transporte, las transferencias a provincias), las prestaciones sociales pesan hoy <b>más</b> dentro del gasto. Eran 54,4% del gasto primario en 2023 y 66,5% en 2025; de enero a agosto de 2026, 67,2%. El gasto primario total cayó 27,2% real entre 2023 y 2025; el social, 11,5%.</p>
+
+    <h3 class="sub">2024-2026: qué partidas cayeron, cuáles subieron y cuánto</h3>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Variación real del gasto · 2025 contra 2023</div>
+        <h3>Los planes perdieron la mitad; las asignaciones con la AUH fueron las únicas que crecieron</h3>
+        <p class="fig-sub">Gasto pagado en el año, en pesos de agosto de 2026 (IPC nacional del INDEC, mes por mes).</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 214" role="img" aria-label="Variación real del gasto entre 2023 y 2025, en pesos de agosto de 2026: Otros programas (planes) -51,4%; Pensiones no contributivas -12,6%; Jubilaciones y pensiones contributivas -3,8%; PAMI (prestaciones del INSSJP) -0,7%; Asignaciones familiares y AUH +20,8%; Total prestaciones sociales -11,5%.">
+<text x="0" y="26" class="cl">Otros programas (planes)</text>
+<rect x="232.2" y="10" width="287.8" height="22" rx="3" fill="#C0392B"><title>Otros programas (planes): -51,4%</title></rect>
+<text x="240.2" y="26" class="cvB" text-anchor="start" style="fill:#fff">-51,4%</text>
+<text x="0" y="58" class="cl">Pensiones no contributivas</text>
+<rect x="449.4" y="42" width="70.6" height="22" rx="3" fill="#C0392B"><title>Pensiones no contributivas: -12,6%</title></rect>
+<text x="443.4" y="58" class="cvB" text-anchor="end">-12,6%</text>
+<text x="0" y="90" class="cl">Jubilaciones y pensiones contributivas</text>
+<rect x="498.7" y="74" width="21.3" height="22" rx="3" fill="#C0392B"><title>Jubilaciones y pensiones contributivas: -3,8%</title></rect>
+<text x="492.7" y="90" class="cvB" text-anchor="end">-3,8%</text>
+<text x="0" y="122" class="cl">PAMI (prestaciones del INSSJP)</text>
+<rect x="516.1" y="106" width="3.9" height="22" rx="3" fill="#C0392B"><title>PAMI (prestaciones del INSSJP): -0,7%</title></rect>
+<text x="510.1" y="122" class="cvB" text-anchor="end">-0,7%</text>
+<text x="0" y="154" class="cl">Asignaciones familiares y AUH</text>
+<rect x="520.0" y="138" width="116.5" height="22" rx="3" fill="#2E8B6F"><title>Asignaciones familiares y AUH: +20,8%</title></rect>
+<text x="642.5" y="154" class="cvB" text-anchor="start">+20,8%</text>
+<text x="0" y="196" class="clB">Total prestaciones sociales</text>
+<rect x="455.6" y="180" width="64.4" height="22" rx="3" fill="#7A2E12"><title>Total prestaciones sociales: -11,5%</title></rect>
+<text x="449.6" y="196" class="cvB" text-anchor="end">-11,5%</text>
+<line x1="520" y1="4" x2="520" y2="206" stroke="#16130F" stroke-width="1"/>
+<line x1="0" y1="172" x2="740" y2="172" stroke="#E7E1D7" stroke-width="1"/>
+</svg>
+      <figcaption><b>Fuente:</b> Secretaría de Hacienda, informe mensual de ingresos y gastos del Sector Público Nacional, base caja; INDEC, IPC. Deflactado: cálculo propio.</figcaption>
+    </figure>
+    <p>El año más duro fue 2024: el total cayó 16,4% real contra 2023, y las jubilaciones, 16,4%. En 2025 las jubilaciones recuperaron 15,0% contra 2024 y quedaron 3,8% abajo de 2023; todavía están 19,3% abajo de 2019. Los planes, en cambio, siguieron bajando: -32,5% en 2024 y otra caída en 2025, hasta quedar en la mitad. De enero a agosto de 2026 siguen cayendo: 23,2% menos que en los mismos meses de 2025.</p>
+
+    <h3 class="sub">Menos plata, ¿menos beneficiarios o beneficios más chicos?</h3>
+    <table class="tb">
+      <tr><th>Prestación</th><th style="text-align:right">2023 (promedio mensual)</th><th style="text-align:right">2025 (promedio mensual)</th><th style="text-align:right">Junio de 2026</th><th style="text-align:right">2025 vs. 2023</th></tr>
+      <tr><td>Jubilaciones y pensiones del SIPA (beneficios)</td><td class="n">6.852.539</td><td class="n">7.258.163</td><td class="n">7.273.340</td><td class="n">+5,9%</td></tr>
+      <tr><td>Pensión Universal para el Adulto Mayor (PUAM)</td><td class="n">272.354</td><td class="n">192.152</td><td class="n">218.844</td><td class="n">-29,4%</td></tr>
+      <tr><td>Pensiones no contributivas (no suspendidas)</td><td class="n">1.536.343</td><td class="n">1.458.077</td><td class="n">1.457.513</td><td class="n">-5,1%</td></tr>
+      <tr><td>&nbsp;&nbsp;de ellas, por invalidez</td><td class="n">1.186.340</td><td class="n">1.135.959</td><td class="n">1.137.244</td><td class="n">-4,2%</td></tr>
+      <tr><td>AUH por hijo</td><td class="n">4.137.739</td><td class="n">4.037.983</td><td class="n">4.037.134</td><td class="n">-2,4%</td></tr>
+      <tr><td>AUH por hijo con discapacidad</td><td class="n">56.747</td><td class="n">90.708</td><td class="n">101.943</td><td class="n">+59,8%</td></tr>
+      <tr><td>Asignación por hijo de trabajadores en relación de dependencia</td><td class="n">3.114.954</td><td class="n">2.905.182</td><td class="n">2.732.142</td><td class="n">-6,7%</td></tr>
+      <tr><td>Total de asignaciones por hijo (todas)</td><td class="n">8.946.779</td><td class="n">8.661.226</td><td class="n">8.420.234</td><td class="n">-3,2%</td></tr>
+    </table>
+    <p style="font-size:14px;color:var(--muted)">Fuente: Boletín Estadístico de la Seguridad Social (Secretaría de Trabajo, sobre datos de ANSES), junio de 2026: cuadros 2.3.5 (SIPA), 3.1 y 3.7 (pensiones no contributivas y PUAM) y 6.2 (asignaciones familiares, liquidación mensual). Promedios de 2023 y 2025 de la AUH y las asignaciones: cálculo propio con los datos mensuales.</p>
+    <p><b>Jubilaciones: más gente, menos por cada uno.</b> Hay 5,9% más beneficios que en 2023 y el gasto real es 3,8% menor. Dividiendo una cosa por la otra, cada beneficio costó en promedio alrededor de <b>9% menos</b> en términos reales. El haber medio que publica el boletín, llevado a pesos de hoy, da 6,9% menos ($782.646 en 2023 contra $728.373 en 2025, en pesos de agosto de 2026). Por eso lo damos como un estimado: <b>entre 7% y 9% menos por beneficio</b>, según cómo se mida. La distancia con 2017 es mucho más grande: el haber medio real de 2025 está 31,1% abajo del de 2017. Una parte de la pérdida reciente es el bono de $70.000, que no se actualiza desde marzo de 2024 y pesa más en los que cobran la mínima, como contamos en <a href="../articulos/2026-09-24-jubilacion-minima-linea-pobreza-jubilado.html">esta nota</a>.</p>
+    <p><b>Pensiones no contributivas: menos pensiones y más chicas.</b> Bajaron 5,1% las pensiones y 12,6% el gasto real, así que cada pensión costó en promedio alrededor de 7,9% menos (cálculo propio, dividiendo el gasto por la cantidad). La mayoría son por invalidez: 1.137.244 en junio de 2026, contra un promedio de 1.186.340 en 2023. Las contamos en detalle en <a href="../articulos/2026-09-27-pensiones-invalidez-presupuesto-2027-trabajo-formal.html">esta nota de septiembre</a>.</p>
+    <p><b>AUH: los mismos chicos, mucha más plata.</b> La cantidad de chicos con AUH casi no cambió (-2,4%), pero lo que ANSES liquida por mes en AUH subió <b>67,0% real</b> entre 2023 y 2025, según la masa del boletín (cuadro 6.3, hijo e hijo con discapacidad). Por chico, son alrededor de 70% más en términos reales (cálculo propio). Si se suma el 20% que se retiene y se paga una vez por año contra la libreta, la suba es de 50,9%, porque ese pago llega con atraso y se mueve mucho de un año a otro. Del otro lado, la asignación por hijo de los trabajadores en relación de dependencia hizo el camino opuesto: 6,7% menos chicos y una masa 33,5% menor en términos reales, alrededor de 29% menos por hijo. Esa distancia entre las dos ventanillas la contamos en <a href="../articulos/2026-09-03-asignaciones-familiares-brecha-auh-suaf.html">esta nota</a>. El renglón de Hacienda junta las dos cosas, y por eso da +20,8%.</p>
+    <p><b>PUAM: menos altas.</b> La pensión universal para mayores de 65 sin jubilación pasó de 272.354 titulares en promedio en 2023 a 192.152 en 2025, y volvió a subir a 218.844 en junio de 2026. El boletín la informa aparte de las jubilaciones.</p>
+
+    <h3 class="sub">Los planes: Potenciar, Acompañamiento Social, Progresar</h3>
+    <p>Es la partida que más cayó y la que menos datos públicos tiene. Hacienda la informa en un solo renglón, "otros programas (Progresar, Argentina Trabaja, otros)", sin separar cuánto va a cada plan. En 2023 era 2,13% del PBI; en 2025, 1,04%. En pesos de agosto de 2026, pasó de $25,0 billones a $12,1 billones.</p>
+    <p>Lo que <b>no pudimos contestar</b> es cuántas personas cobran cada plan. Buscamos en el boletín de la seguridad social, en los comunicados y resoluciones del Ministerio de Capital Humano y en el presupuesto: no hay una serie oficial pública y homogénea de titulares del Potenciar Trabajo, del Volver al Trabajo, del Acompañamiento Social ni del Progresar para estos diez años. Las cifras de titulares que circulan en los medios no las pudimos confirmar en un documento oficial, así que no las damos como dato. Lo que sí sabemos con norma en la mano es que la asignación del Acompañamiento Social sigue en $78.000 desde diciembre de 2023 y que no admite inscripciones nuevas: lo contamos en <a href="../articulos/2026-10-04-acompanamiento-social-78000-poder-de-compra.html">esta nota</a>.</p>
+
+    <h3 class="sub">Lo que estos datos no dicen</h3>
+    <p><b>Las provincias y los municipios.</b> También pagan planes y pensiones, pero su gasto consolidado se publica solo hasta 2023, así que no se puede comparar con el gobierno actual. <b>Salud y educación</b> tampoco están: no son pagos a personas. Lo que les pasó a las universidades lo contamos <a href="../articulos/2026-09-30-universidades-transferencias-nueve-meses-2023.html">acá</a>.</p>
+    <p><b>Los datos muestran cuánto se gasta y en cuántos, no si estuvo bien.</b> Esta nota no evalúa si los programas funcionan ni si el recorte o el aumento fue acertado.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>La cifra ancla (-11,5%): estadística oficial recalculada, con contraste.</b> (1) Los montos están en el informe mensual de ingresos y gastos de la Secretaría de Hacienda, que se publica como <a href="https://infra.datos.gob.ar/catalog/sspm/dataset/452/distribution/452.3/download/imig-mensual.csv">serie mensual</a> en el portal de datos del Ministerio de Economía (también por <a href="https://apis.datos.gob.ar/series/api/series/?ids=452.2_JUBILACIONVAS_0_T_36_18,452.2_ASIGNACIONIJO_0_T_26_67,452.2_PENSIONES_VAS_0_T_26_93,452.2_OTROS_PROGMAS_0_T_15_11&amp;limit=1000&amp;format=csv">series</a>): por ejemplo, $11.836.838 millones de jubilaciones en 2023 y $52.310.313 millones en 2025. Las sumas anuales de la serie mensual dan exactamente las de la serie anual de Hacienda, y el resultado primario reconstruido con los ingresos y gastos de la planilla da el publicado. (2) Lo recalculamos: llevamos cada mes a pesos de agosto de 2026 con el <a href="https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv">IPC nacional del INDEC</a> (nivel general 12.276,77 en agosto de 2026) y sumamos: $126.591.485 millones en 2023 y $112.084.313 millones en 2025, -11,5%. (3) Contraste independiente: el <a href="https://centrocepa.com.ar/documentos/informes/740-analisis-de-los-ingresos-gastos-y-resultados-del-sector-publico-nacional-datos-de-diciembre-2025">Centro CEPA, con datos de diciembre de 2025</a> (17/01/2026), calculó la misma caída de las prestaciones sociales de 2025 contra 2023: 11,5%. También coinciden sus números de las pensiones no contributivas (-12,6%) y de "otros programas" (-51,4%). El IARAF, por su lado, calculó que el gasto primario total cayó 27,6% contra 2023 (<a href="https://www.iprofesional.com/economia/446586-gasto-publico-bajo-casi-28-desde-que-asumio-milei-y-alcanzo-minimos-de-seis-anos">iProfesional, 21/01/2026</a>; nosotros, 27,2%) y que las jubilaciones subieron 15% en 2025 contra 2024 y quedaron 19% abajo de 2019 (nosotros: 15,0% y 19,3%). Son dos centros independientes entre sí y de Con Interés, y llegan a los mismos números.</p>
+      <p><b>El porcentaje del PBI.</b> PBI a precios corrientes del INDEC, <a href="https://www.indec.gob.ar/ftp/cuadros/economia/sh_oferta_demanda_09_26.xls">cuadro 8 de oferta y demanda globales</a>: $193,9 billones en 2023 y $850,2 billones en 2025. La misma serie, por la <a href="https://apis.datos.gob.ar/series/api/series/?ids=166.1_PPIB_0_0_3&amp;format=csv">API de datos del Ministerio de Economía</a>, da exactamente lo mismo.</p>
+      <p><b>Por qué la cuenta real arranca en 2017.</b> El IPC nacional del INDEC empieza en diciembre de 2016; antes, el organismo estaba en emergencia estadística y no hay un índice nacional para todo 2016. Ese año va solo como porcentaje del PBI.</p>
+      <p><b>Los beneficiarios.</b> <a href="https://www.argentina.gob.ar/trabajo/seguridadsocial/bess">Boletín Estadístico de la Seguridad Social</a>, junio de 2026: <a href="https://www.argentina.gob.ar/sites/default/files/estadisticas_de_seguridad_social_pasivos_06-2026.xlsx">pasivos</a> (cuadro 2.3.5, beneficios del SIPA, promedio mensual; desde 2019, solo los no suspendidos), <a href="https://www.argentina.gob.ar/sites/default/files/estadisticas_de_seguridad_social_pnc_06-2026.xlsx">pensiones no contributivas</a> (cuadros 3.1 y 3.7) y <a href="https://www.argentina.gob.ar/sites/default/files/estadisticas_de_seguridad_social_aaff_06-2026.xlsx">asignaciones familiares</a> (cuadros 6.2 y 6.3, beneficios y masa mensual, desde agosto de 2019). Los beneficios no son personas: alguien que cobra jubilación y pensión cuenta dos veces.</p>
+      <p><b>Lo que es estimado.</b> El gasto "por beneficio" divide el gasto de Hacienda por la cantidad del boletín, y las dos fuentes no tienen por qué cubrir exactamente el mismo universo (Hacienda mide lo pagado en caja por todo el Sector Público Nacional; el boletín cuenta los beneficios que liquida ANSES). Por eso lo damos como aproximación y, en las jubilaciones, con un rango que usa también el haber medio del boletín. La suba de la AUH por chico sale de la masa y los beneficios del mismo cuadro de ANSES; el CEPA, con el renglón de AUH de Hacienda, calculó 71,2%.</p>
+      <div class="meta">
+        <span><b>Fuente</b> Sec. de Hacienda · INDEC · ANSES / Sec. de Trabajo · CEPA · IARAF</span>
+        <span><b>Período</b> 2016 a agosto de 2026</span>
+        <span><b>Unidad</b> pesos de agosto de 2026 y % del PBI</span>
+        <span><b>Verificación</b> estadística oficial recalculada + contraste</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>"Bajó el gasto social" y "el gasto social nunca pesó tanto en el presupuesto" son las dos ciertas. El Estado nacional gasta menos en prestaciones sociales que en 2023, pero el resto de su gasto cayó todavía más, y hoy dos de cada tres pesos que gasta (sin contar los intereses de la deuda) van a jubilaciones, pensiones, asignaciones, PAMI y planes.</p>
+    <p>Y adentro del gasto social hubo una mudanza: menos planes de trabajo, menos pensiones no contributivas y haberes más bajos en términos reales, y más plata para la AUH. Quién ganó y quién perdió depende de qué ventanilla cobra cada uno.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="jubilado"><b>Si sos jubilado,</b> el sistema paga hoy más beneficios que en 2023, pero en promedio cada uno vale entre 7% y 9% menos en términos reales que ese año, y alrededor de 31% menos que en 2017. Si cobrás la mínima, el bono congelado hace que tu pérdida sea más grande que el promedio.</p>
+      <p><b>Si cobrás la AUH,</b> sos parte de la única prestación que creció: por chico, la AUH paga alrededor de 70% más en términos reales que en 2023.</p>
+      <p data-perfil="trabajador"><b>Si tenés recibo de sueldo y cobrás asignación familiar por tus hijos,</b> te pasó lo contrario: lo que se paga por hijo en esa ventanilla cayó alrededor de 29% real desde 2023.</p>
+      <p><b>Si cobrabas un plan como el Potenciar Trabajo,</b> estás en la partida que más se achicó: la mitad de la plata en dos años. El Acompañamiento Social sigue en $78.000 desde diciembre de 2023.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Las cuentas, paso a paso <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p><b>Total en pesos de agosto de 2026 (billones):</b> 2017 141,3 · 2018 135,1 · 2019 127,6 · 2020 151,8 · 2021 134,4 · 2022 135,2 · 2023 126,6 · 2024 105,9 · 2025 112,1 · enero-agosto de 2026 72,2 (enero-agosto de 2025: 73,7; de 2023: 84,4).</p>
+      <p><b>Por partida, 2023 y 2025 (billones de agosto de 2026):</b> jubilaciones 74,08 y 71,26; asignaciones y AUH 10,04 y 12,12; pensiones no contributivas 6,80 y 5,94; PAMI 10,70 y 10,63; otros programas 24,97 y 12,13. Diferencia total: -14,51, de la que otros programas explica -12,84 (88%).</p>
+      <p><b>Peso de cada partida en el total:</b> en 2016, jubilaciones 68,6%, asignaciones 11,3%, pensiones no contributivas 8,4%, PAMI 8,5%, otros programas 3,2%. En 2023: 58,1 / 7,6 / 5,3 / 8,8 / 20,3. En 2025: 63,7 / 10,8 / 5,3 / 9,4 / 10,8.</p>
+      <p><b>% del PBI:</b> prestaciones sociales 2016 11,60 · 2017 12,24 · 2018 11,29 · 2019 11,31 · 2020 15,06 · 2021 11,75 · 2022 11,29 · 2023 10,51 · 2024 9,47 · 2025 9,65. Gasto primario: 2023 19,33; 2025 14,51.</p>
+      <p><b>Por beneficio:</b> jubilaciones (71,26 / 7.258.163) / (74,08 / 6.852.539) = 0,908. Haber medio SIPA, promedio anual deflactado por el IPC promedio del año: 2017 $1.056.531, 2023 $782.646, 2025 $728.373. Pensiones no contributivas: (5,94 / 1.458.077) / (6,80 / 1.536.343) = 0,921. AUH por chico (hijo e hijo con discapacidad, liquidación mensual): masa real 1,670 / beneficios 0,984 = 1,696. Asignación por hijo de trabajadores en relación de dependencia: masa real 0,665 / beneficios 0,933 = 0,713.</p>
+      <p><b>Lo que viene:</b> el INDEC publica hoy, 13 de octubre a las 16, el IPC de septiembre, y después llegará el gasto de septiembre de Hacienda. Con esos datos, las cifras de 2026 se mueven un poco: todo está medido en pesos de agosto.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Secretaría de Hacienda — <a href="https://infra.datos.gob.ar/catalog/sspm/dataset/452/distribution/452.3/download/imig-mensual.csv">informe mensual de ingresos y gastos del Sector Público Nacional, serie mensual 2016-2026</a> · <a href="https://apis.datos.gob.ar/series/api/series/?ids=452.2_JUBILACIONVAS_0_T_36_18,452.2_ASIGNACIONIJO_0_T_26_67,452.2_PENSIONES_VAS_0_T_26_93,452.2_OTROS_PROGMAS_0_T_15_11&amp;limit=1000&amp;format=csv">series por partida</a></li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv">IPC, serie nacional</a> · <a href="https://www.indec.gob.ar/ftp/cuadros/economia/sh_oferta_demanda_09_26.xls">PBI a precios corrientes (oferta y demanda globales, cuadro 8)</a> · <a href="https://apis.datos.gob.ar/series/api/series/?ids=166.1_PPIB_0_0_3&amp;format=csv">PBI anual, serie del Ministerio de Economía</a></li>
+        <li>&#8250; Boletín Estadístico de la Seguridad Social — <a href="https://www.argentina.gob.ar/trabajo/seguridadsocial/bess">página del boletín</a> · <a href="https://www.argentina.gob.ar/sites/default/files/estadisticas_de_seguridad_social_pasivos_06-2026.xlsx">pasivos, junio de 2026</a> · <a href="https://www.argentina.gob.ar/sites/default/files/estadisticas_de_seguridad_social_pnc_06-2026.xlsx">pensiones no contributivas, junio de 2026</a> · <a href="https://www.argentina.gob.ar/sites/default/files/estadisticas_de_seguridad_social_aaff_06-2026.xlsx">asignaciones familiares, junio de 2026</a></li>
+        <li>&#8250; Contrastes — <a href="https://centrocepa.com.ar/documentos/informes/740-analisis-de-los-ingresos-gastos-y-resultados-del-sector-publico-nacional-datos-de-diciembre-2025">Centro CEPA, ingresos y gastos del Sector Público Nacional, diciembre de 2025</a> · IARAF, <a href="https://www.iaraf.org/index.php/informes-economicos/area-fiscal/700-informe-economico-2026-01-19">cuentas fiscales de 2025</a> y <a href="https://www.iaraf.org/index.php/informes-economicos/area-fiscal/701-informe-economico-2026-01-20">monitor de gasto 2019-2025</a> · <a href="https://www.iprofesional.com/economia/446586-gasto-publico-bajo-casi-28-desde-que-asumio-milei-y-alcanzo-minimos-de-seis-anos">iProfesional sobre el informe del IARAF</a></li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: deflactación mes por mes, porcentajes del PBI y del gasto primario, promedios anuales de beneficiarios, gasto por beneficio y AUH por chico (estimados).</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 13/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
