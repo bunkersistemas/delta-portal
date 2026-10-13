@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 00:03:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 00:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un experimento de San Andrés y la Di Tella con 1.174 argentinos encontró que la IA achicó 75% la brecha de rendimiento entre los que estudiaron más y los que estudiaron menos</title>
+      <link>https://coninteres.com/articulos/2026-10-13-ia-brecha-educativa-experimento-argentina.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-ia-brecha-educativa-experimento-argentina.html</guid>
+      <pubDate>Tue, 13 Oct 2026 00:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>IA</category>
+      <description>Cinco economistas le dieron un problema de trabajo a 1.174 argentinos de 25 a 45 años, a la mitad con un asistente de inteligencia artificial. Sin IA, los que tenían más estudios rindieron bastante mejor; con IA, la diferencia se achicó 75%. Pero cuando les sacaron la herramienta, buena parte de la brecha volvió. En la Argentina, uno de cada tres ocupados terminó el secundario y no siguió estudiando.</description>
+      <ci:numero>75%</ci:numero>
+      <ci:numeroEtiqueta>de la brecha de rendimiento entre participantes con más y con menos estudios que se cerró con un asistente de IA (experimento con 1.174 argentinos de 25 a 45 años, sep-nov 2025; Cruces, Fernández Meijide, Galiani, Gálvez y Lombardi, mayo de 2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-ia-brecha-educativa-experimento-argentina.png" length="80922" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-ia-brecha-educativa-experimento-argentina.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La visita del papa no tiene costo oficial publicado y suma un feriado nacional en una economía que produce $2,7 billones por día: por qué todavía nadie puede decir si deja plata</title>
       <link>https://coninteres.com/articulos/2026-10-12-visita-papa-cuanto-cuesta-cuanto-deja.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>inversión total del plan aprobado para Los Toldos II Este en el RIGI (Resolución 1771/2026 del Ministerio de Economía)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-rigi-tecpetrol-los-toldos-6432-millones.png" length="74621" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-rigi-tecpetrol-los-toldos-6432-millones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La electrónica de Tierra del Fuego empleó 5.091 personas en agosto: 2.627 menos que un año antes y el agosto más bajo desde 2009</title>
-      <link>https://coninteres.com/articulos/2026-10-09-electronica-tierra-del-fuego-empleo-agosto.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-09-electronica-tierra-del-fuego-empleo-agosto.html</guid>
-      <pubDate>Fri, 09 Oct 2026 05:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>En agosto de 2026 las fábricas electrónicas de Tierra del Fuego tenían 5.091 personas trabajando, según el instituto de estadística de la provincia: 34,0% menos que un año antes y el agosto más bajo desde 2009. La electrónica explica el 87% de los puestos que perdió la industria fueguina en el año. El 37,7% de caída que circula compara contra un dato de 2025 que después se corrigió.</description>
-      <ci:numero>5.091</ci:numero>
-      <ci:numeroEtiqueta>personas empleadas en los establecimientos electrónicos de Tierra del Fuego en agosto de 2026 (IPIEC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-09-electronica-tierra-del-fuego-empleo-agosto.png" length="68359" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-09-electronica-tierra-del-fuego-empleo-agosto.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

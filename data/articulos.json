@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-13T00:02:54-03:00",
+    "actualizado": "2026-10-13T00:42:20-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-13-ia-brecha-educativa-experimento-argentina",
+      "titulo": "Un experimento de San Andrés y la Di Tella con 1.174 argentinos encontró que la IA achicó 75% la brecha de rendimiento entre los que estudiaron más y los que estudiaron menos",
+      "bajada": "Cinco economistas le dieron un problema de trabajo a 1.174 argentinos de 25 a 45 años, a la mitad con un asistente de inteligencia artificial. Sin IA, los que tenían más estudios rindieron bastante mejor; con IA, la diferencia se achicó 75%. Pero cuando les sacaron la herramienta, buena parte de la brecha volvió. En la Argentina, uno de cada tres ocupados terminó el secundario y no siguió estudiando.",
+      "titulo_busqueda": "¿La inteligencia artificial empareja a los que estudiaron menos con los que estudiaron más? Lo que encontró un experimento en la Argentina",
+      "seccion": "IA",
+      "formato": "Investigación",
+      "numero": "75%",
+      "numero_label": "de la brecha de rendimiento entre participantes con más y con menos estudios que se cerró con un asistente de IA (experimento con 1.174 argentinos de 25 a 45 años, sep-nov 2025; Cruces, Fernández Meijide, Galiani, Gálvez y Lombardi, mayo de 2026)",
+      "fecha": "2026-10-13",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-13-ia-brecha-educativa-experimento-argentina.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 8 min"
+    },
     {
       "id": "2026-10-12-visita-papa-cuanto-cuesta-cuanto-deja",
       "titulo": "La visita del papa no tiene costo oficial publicado y suma un feriado nacional en una economía que produce $2,7 billones por día: por qué todavía nadie puede decir si deja plata",
