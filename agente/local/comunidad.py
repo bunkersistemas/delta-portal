@@ -19,6 +19,9 @@ de mensajes privados, likes ni comentarios en posteos ajenos.
 
   ciclo                      tarea "Con Interes - Comunidad", cada 10 minutos
   exportar                   JSON de las preguntas (para el memo de los viernes)
+  investigar <id>            la pregunta pasa a ser un pedido de investigacion normal (lo
+                             hace tambien el boton Investigar): el editor recibe el enfoque
+                             y la vista previa por Telegram, como si la hubiera pedido el editor
   vincular <pedido> <ids>    esas preguntas dieron origen a ese pedido
   responder <url> <ids>      esas preguntas ya las responde una nota publicada
   desde_pedidos              suma al panel, como respondidas, las investigaciones pedidas
@@ -136,11 +139,13 @@ def avisar_pendientes():
         tn = titulo_nota(q.get("nota_contexto"))
         if tn:
             l += ["", "En el posteo de: " + tn]
-        l += ["", "Aprobada, se ve en el historial del panel (sin nombre) y entra al memo de los viernes."]
+        l += ["", "\u2705 Aprobar: queda en el historial del panel (sin nombre) y entra al memo de los viernes.",
+              "\U0001f50d Investigar: pasa a ser un pedido normal; te llegan el enfoque y la vista previa."]
         pl.tg("sendMessage", {"chat_id": ed, "text": "\n".join(l), "disable_web_page_preview": True,
                               "reply_markup": {"inline_keyboard": [
                                   [{"text": "\u2705 Aprobar", "callback_data": "cqa:%d" % q["id"]},
-                                   {"text": "\u274c Descartar", "callback_data": "cqd:%d" % q["id"]}]]}})
+                                   {"text": "\U0001f50d Investigar", "callback_data": "cqi:%d" % q["id"]}],
+                                  [{"text": "\u274c Descartar", "callback_data": "cqd:%d" % q["id"]}]]}})
         sb("PATCH", "?id=eq.%d" % q["id"], {"avisada": ahora()})
         print("OK|pregunta %d al editor" % q["id"])
 
@@ -150,6 +155,8 @@ def moderar_pregunta(qid, accion):
     f = sb("GET", "?select=id,estado&id=eq.%d" % int(qid))
     if not f:
         return "No encuentro esa pregunta."
+    if accion == "cqi":
+        return investigar(qid)
     if f[0]["estado"] != "pendiente":
         return "Esa pregunta ya estaba moderada (%s)." % f[0]["estado"]
     nuevo = "aprobada" if accion == "cqa" else "descartada"
@@ -159,6 +166,47 @@ def moderar_pregunta(qid, accion):
     if nuevo == "aprobada":
         return "\u2705 Aprobada: queda en el historial del panel y entra al memo del viernes."
     return "Descartada: no se muestra en ning\u00fan lado."
+
+
+def titulo_pedido(t):
+    """El pedido tiene un tope de 140: la pregunta entera viaja en el detalle."""
+    t = " ".join(t.split())
+    if len(t) <= 140:
+        return t
+    if "?" in t[:140]:
+        return t[:t.index("?") + 1]
+    return t[:137].rsplit(" ", 1)[0] + "..."
+
+
+def investigar(qid):
+    """Editor, 13/10/2026: una pregunta interesante y nueva pasa a ser un pedido de
+    investigacion normal, como si el editor la hubiera pedido por el bot: el pedido queda a
+    nombre del chat del editor, que recibe el enfoque y la vista previa. Sirve para una
+    pendiente (boton Investigar) o una ya aprobada (desde la sesion o el memo)."""
+    import uuid
+    f = sb("GET", "?select=*&id=eq.%d" % int(qid))
+    if not f:
+        return "No encuentro esa pregunta."
+    q = f[0]
+    if q["estado"] not in ("pendiente", "aprobada"):
+        return "Esa pregunta est\u00e1 %s: no se puede investigar." % q["estado"]
+    if q.get("pedido_id"):
+        return "Esa pregunta ya es el pedido %s." % q["pedido_id"]
+    detalle = ("Pregunta de la comunidad, llegada por %s; el editor pidio investigarla. Texto del lector: %s"
+               % (ORIGEN.get(q["origen"], q["origen"]), q["texto"]))
+    if q.get("nota_contexto"):
+        detalle += " (La hicieron en el posteo de la nota %s.)" % q["nota_contexto"]
+    p = pl.pedir("POST", "", {"titulo": titulo_pedido(q["texto"]), "tipo": "otro", "detalle": detalle[:1500],
+                              "origen": "comunidad-" + q["origen"], "telegram_chat": igp.editor(),
+                              "codigo_tg": str(uuid.uuid4()),
+                              "solicitante": "editor (pregunta de la comunidad)"})[0]
+    cambio = {"pedido_id": p["id"]}
+    if q["estado"] == "pendiente":
+        cambio.update({"estado": "aprobada", "moderada": ahora()})
+    sb("PATCH", "?id=eq.%d" % q["id"], cambio)
+    print("OK|pregunta %d -> pedido %s" % (q["id"], p["id"]))
+    return ("\U0001f50d Va a investigaci\u00f3n: es el pedido %s. Te llega el enfoque por ac\u00e1 y despu\u00e9s la vista "
+            "previa. La pregunta ya se ve en el panel y queda respondida cuando salga la nota." % p["id"])
 
 
 def responder_ig(q, texto):
@@ -293,6 +341,8 @@ if __name__ == "__main__":
         vincular(sys.argv[2], ids_de(sys.argv[3:]))
     elif cmd == "responder" and len(sys.argv) > 3:
         responder(sys.argv[2], ids_de(sys.argv[3:]))
+    elif cmd == "investigar" and len(sys.argv) > 2:
+        print(investigar(sys.argv[2]))
     elif cmd in ("cqa", "cqd") and len(sys.argv) > 2:
         print(moderar_pregunta(sys.argv[2], cmd))
     else:

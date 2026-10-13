@@ -533,7 +533,7 @@ def al_boton(est, q):
     if accion in ("igpub", "igdes"):
         al_boton_instagram(q, chat, accion, pid)
         return
-    if accion in ("cqa", "cqd") and pid.isdigit():
+    if accion in ("cqa", "cqd", "cqi") and pid.isdigit():
         al_boton_moderacion(q, chat, accion, int(pid))
         return
     if accion == "sug":
@@ -645,6 +645,8 @@ def al_boton_moderacion(q, chat, accion, id_):
         return
     anotar("moderacion %s %s: %s" % (accion, id_, r))
     decir(chat, r)
+    if accion == "cqi" and r.startswith("\U0001f50d"):
+        disparar_enfoque()     # como cualquier pedido del bot: primero el enfoque, al editor
 
 
 def al_boton_accesos(est, q, chat, accion, k):
