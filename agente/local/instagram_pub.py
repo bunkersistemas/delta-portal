@@ -82,7 +82,10 @@ def imagen_url(a):
 
 def existe(url):
     try:
-        with urllib.request.urlopen(urllib.request.Request(url, method="HEAD"), timeout=20) as r:
+        # Cloudflare le cierra la puerta al "Python-urllib" generico: el publicador se
+        # identifica con su nombre real (13/10/2026)
+        with urllib.request.urlopen(urllib.request.Request(url, method="HEAD", headers={
+                "User-Agent": "ConInteresPublicador/1.0 (+https://coninteres.com)"}), timeout=20) as r:
             return r.status == 200
     except Exception:
         return False
