@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿El BCRA está perdiendo el oro? Cuánto tiene, cuánto vale y dónde está — CON INTERÉS</title>
+<meta name="description" content="No: tiene 1,98 millones de onzas, unas 61,7 toneladas, las mismas que a fines de 2020, y hoy valen US$8.157 millones, más del doble. Lo que sí hubo fue una pérdida con contratos sobre el precio del oro: US$1.023 millones en 2025, según la Auditoría General de la Nación. El BCRA responde que, sumada la suba del metal, ganó US$2.505 millones. Dónde están los lingotes no es público.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .prose h3.sub{font-family:var(--serif);font-size:23px;font-weight:600;margin:34px 0 12px;line-height:1.25}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:470px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column;max-width:190px}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft);vertical-align:top}
+  table.tb td.n{font-family:var(--mono);white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+    table.tb-stack,table.tb-stack tbody,table.tb-stack tr,table.tb-stack td{display:block;width:100%}
+    table.tb-stack tr:first-child{display:none}
+    table.tb-stack tr{border:1px solid var(--grid);border-radius:10px;padding:10px 14px;margin:0 0 10px}
+    table.tb-stack td{border:0;padding:4px 0;text-align:left!important;white-space:normal}
+    table.tb-stack td::before{content:attr(data-label);display:block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:1px}
+    table.tb-stack td:first-child{font-weight:600;color:var(--ink);font-size:15px}
+    table.tb-stack td:first-child::before{display:none}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+</style>
+</head>
+<body data-palette="#0E7C86,#C4701F,#C0392B,#2E8B6F">
+<div class="draft-ribbon">Borrador generado por la redacción de agentes y pendiente de aprobación. No publicado.</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">MERCADOS <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿El Banco Central está perdiendo el oro de sus reservas?</h1>
+
+  <p class="standfirst">No: tiene 1,98 millones de onzas, unas 61,7 toneladas, las mismas que a fines de 2020, y hoy valen US$8.157 millones, más del doble. Lo que sí hubo fue una pérdida con contratos sobre el precio del oro: US$1.023 millones en 2025, según la Auditoría General de la Nación. El BCRA responde que, sumada la suba del metal, ganó US$2.505 millones. Dónde están los lingotes no es público.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>14 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 9 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta las cuatro cosas que puede querer decir “perder el oro”, de 2020 a hoy: cuántas onzas tiene el Banco Central según sus balances, cuánto valen en dólares, qué pasó con los US$1.023 millones que la Auditoría General de la Nación dice que se perdieron en 2025 y qué se dijo oficialmente del oro que salió del país en 2024. Cumple el enfoque que aprobó el lector. Queda afuera, como estaba previsto, dónde está guardado hoy cada lingote: el Banco Central no lo publica y lo trata como información confidencial. Las cifras que circulan sobre cuántas toneladas salieron no tienen un documento oficial atrás, y no las damos.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">1m</span></button>
+      <button data-go="b3">En contexto <span class="t">4m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">1,98<span class="u">millones de onzas</span></div>
+      <div class="cap">de oro tenía el Banco Central al cierre de 2025, unas <b>61,7 toneladas</b>. Es <b>la misma cantidad que a fines de 2020</b>, según sus balances auditados. El balance semanal del 7 de octubre de 2026 da el mismo número. <b>El BCRA no está perdiendo oro: lo que se discute es plata</b>, la que perdió con contratos sobre el precio del metal.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v up">US$8.157 M</span><span class="k">valía el oro del BCRA el 7 de octubre de 2026; a fines de 2020 valía US$3.760 millones</span></div>
+        <div class="sr"><span class="v dn">US$1.023 M</span><span class="k">perdió en 2025 con contratos de cobertura sobre el precio del oro, según la Auditoría General de la Nación</span></div>
+        <div class="sr"><span class="v up">US$2.505 M</span><span class="k">ganó en neto con el oro en 2025, según el BCRA, sumando la suba del precio</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">El 8 de octubre, la Auditoría General de la Nación (AGN) y el Banco Central (BCRA) chocaron en público por el oro. La Auditoría dice, en su <a href="https://agn.ar/informes/Informe-205-2026">informe sobre el balance 2025</a>, que el BCRA perdió US$1.023 millones con contratos financieros atados al precio del oro. El BCRA contestó con un <a href="https://www.bcra.gob.ar/noticias/resultado-neto-positivo-oro-2025/">comunicado</a>: esos contratos eran un seguro y, sumando lo que subió el metal, su posición en oro ganó US$2.505 millones. En redes, la pelea se mezcló con otra historia, la del oro que el BCRA sacó del país en 2024, y se convirtió en “el Banco Central está perdiendo el oro”.</p>
+    <p>Un lector nos pidió separar las cosas. La respuesta corta: <b class="hl">la cantidad de oro no bajó</b>. El BCRA tiene 1.984.960 onzas troy, las mismas que a fines de 2020, y valen más del doble porque el precio del oro se disparó. <b>Lo que sí hubo fue una pérdida de plata con los contratos</b>, que las dos partes reconocen y que se pagó con dólares, no con oro. Y <b>dónde está guardado</b> sigue sin ser público.</p>
+  </div>
+
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 class="sub">Cuánto oro tiene el Banco Central, año por año</h3>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Oro de las reservas del BCRA · diciembre de 2020 a octubre de 2026</div>
+        <h3>Las onzas son las mismas; lo que cambió es cuánto valen</h3>
+        <p class="fig-sub">Valor del oro en millones de dólares, al precio de cada fecha, y cantidad en millones de onzas troy.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 380" role="img" aria-label="Valor en dólares del oro del Banco Central y onzas, de diciembre de 2020 a octubre de 2026: las onzas se mantienen en 1,98 millones salvo a fines de 2021, y el valor pasa de 3.760 a 8.587 millones de dólares.">
+<line x1="60" y1="300.0" x2="880" y2="300.0" stroke="#E6E1D8" stroke-width="1"/>
+<text x="52" y="304.0" class="cl" text-anchor="end">0</text>
+<line x1="60" y1="220.0" x2="880" y2="220.0" stroke="#E6E1D8" stroke-width="1"/>
+<text x="52" y="224.0" class="cl" text-anchor="end">3.000</text>
+<line x1="60" y1="140.0" x2="880" y2="140.0" stroke="#E6E1D8" stroke-width="1"/>
+<text x="52" y="144.0" class="cl" text-anchor="end">6.000</text>
+<line x1="60" y1="60.0" x2="880" y2="60.0" stroke="#E6E1D8" stroke-width="1"/>
+<text x="52" y="64.0" class="cl" text-anchor="end">9.000</text>
+<rect x="81.1" y="199.7" width="75.0" height="100.3" fill="#0E7C86"><title>Dic 2020: US$3.760 millones, 1.984,96 miles de onzas</title></rect>
+<text x="118.6" y="191.7" class="clB" text-anchor="middle">3.760</text>
+<text x="118.6" y="320" class="cl" text-anchor="middle">Dic 2020</text>
+<text x="118.6" y="342" text-anchor="middle" style="font-family:var(--mono);font-size:12px;fill:#5B564F">1,98 M oz</text>
+<rect x="198.2" y="214.2" width="75.0" height="85.8" fill="#C4701F"><title>Dic 2021: US$3.216 millones, 1.760,96 miles de onzas</title></rect>
+<text x="235.7" y="206.2" class="clB" text-anchor="middle">3.216</text>
+<text x="235.7" y="320" class="cl" text-anchor="middle">Dic 2021</text>
+<text x="235.7" y="342" text-anchor="middle" style="font-family:var(--mono);font-size:12px;fill:#C0392B">1,76 M oz</text>
+<rect x="315.4" y="203.5" width="75.0" height="96.5" fill="#0E7C86"><title>Dic 2022: US$3.620 millones, 1.984,96 miles de onzas</title></rect>
+<text x="352.9" y="195.5" class="clB" text-anchor="middle">3.620</text>
+<text x="352.9" y="320" class="cl" text-anchor="middle">Dic 2022</text>
+<text x="352.9" y="342" text-anchor="middle" style="font-family:var(--mono);font-size:12px;fill:#5B564F">1,98 M oz</text>
+<rect x="432.5" y="190.7" width="75.0" height="109.3" fill="#0E7C86"><title>Dic 2023: US$4.098 millones, 1.984,96 miles de onzas</title></rect>
+<text x="470.0" y="182.7" class="clB" text-anchor="middle">4.098</text>
+<text x="470.0" y="320" class="cl" text-anchor="middle">Dic 2023</text>
+<text x="470.0" y="342" text-anchor="middle" style="font-family:var(--mono);font-size:12px;fill:#5B564F">1,98 M oz</text>
+<rect x="549.7" y="161.1" width="75.0" height="138.9" fill="#0E7C86"><title>Dic 2024: US$5.207 millones, 1.984,96 miles de onzas</title></rect>
+<text x="587.1" y="153.1" class="clB" text-anchor="middle">5.207</text>
+<text x="587.1" y="320" class="cl" text-anchor="middle">Dic 2024</text>
+<text x="587.1" y="342" text-anchor="middle" style="font-family:var(--mono);font-size:12px;fill:#5B564F">1,98 M oz</text>
+<rect x="666.8" y="71.0" width="75.0" height="229.0" fill="#0E7C86"><title>Dic 2025: US$8.587 millones, 1.984,96 miles de onzas</title></rect>
+<text x="704.3" y="63.0" class="clB" text-anchor="middle">8.587</text>
+<text x="704.3" y="320" class="cl" text-anchor="middle">Dic 2025</text>
+<text x="704.3" y="342" text-anchor="middle" style="font-family:var(--mono);font-size:12px;fill:#5B564F">1,98 M oz</text>
+<rect x="783.9" y="82.5" width="75.0" height="217.5" fill="#8A847C"><title>7 oct 2026: US$8.157 millones, 1.984,96 miles de onzas</title></rect>
+<text x="821.4" y="74.5" class="clB" text-anchor="middle">8.157</text>
+<text x="821.4" y="320" class="cl" text-anchor="middle">7 oct 2026</text>
+<text x="821.4" y="342" text-anchor="middle" style="font-family:var(--mono);font-size:12px;fill:#5B564F">1,98 M oz</text>
+<line x1="60" y1="300" x2="880" y2="300" stroke="#5B564F" stroke-width="1"/>
+<text x="60" y="30" class="cl">Valor en millones de dólares (barras) y millones de onzas troy (abajo)</text>
+<text x="60" y="372" class="cl">Naranja: 224.000 onzas fuera hasta enero de 2022. Gris: balance semanal, recalculado.</text>
+</svg>
+      <figcaption><b>Fuente:</b> estados contables del BCRA de 2020 a 2025 (nota 4.1.1) y balance semanal del 07/10/2026, con el tipo de cambio de referencia y la cotización del oro del BCRA de ese día. Gráfico y cálculos propios.</figcaption>
+    </figure>
+    <table class="tb tb-stack">
+      <tr><th>Cierre</th><th>Oro (onzas troy)</th><th>Precio por onza (US$)</th><th>Valor (US$ millones)</th><th>Dónde está guardado</th></tr>
+      <tr><td class="n">Dic 2020</td><td data-label="Oro (onzas troy)">1.984.960</td><td data-label="Precio por onza">1.894,36</td><td data-label="Valor (US$ M)">3.760</td><td data-label="Dónde está">No publicado</td></tr>
+      <tr><td class="n">Dic 2021</td><td data-label="Oro (onzas troy)">1.760.960</td><td data-label="Precio por onza">1.826,13</td><td data-label="Valor (US$ M)">3.216</td><td data-label="Dónde está">No publicado</td></tr>
+      <tr><td class="n">Dic 2022</td><td data-label="Oro (onzas troy)">1.984.960</td><td data-label="Precio por onza">1.823,69</td><td data-label="Valor (US$ M)">3.620</td><td data-label="Dónde está">No publicado</td></tr>
+      <tr><td class="n">Dic 2023</td><td data-label="Oro (onzas troy)">1.984.960</td><td data-label="Precio por onza">2.064,45</td><td data-label="Valor (US$ M)">4.098</td><td data-label="Dónde está">No publicado</td></tr>
+      <tr><td class="n">Dic 2024</td><td data-label="Oro (onzas troy)">1.984.960</td><td data-label="Precio por onza">2.623,45</td><td data-label="Valor (US$ M)">5.207</td><td data-label="Dónde está">No publicado</td></tr>
+      <tr><td class="n">Dic 2025</td><td data-label="Oro (onzas troy)">1.984.960</td><td data-label="Precio por onza">4.326,01</td><td data-label="Valor (US$ M)">8.587</td><td data-label="Dónde está">No publicado</td></tr>
+      <tr><td class="n">7 oct 2026</td><td data-label="Oro (onzas troy)">1,98 millones (recalculado)</td><td data-label="Precio por onza">4.110,22</td><td data-label="Valor (US$ M)">8.157</td><td data-label="Dónde está">No publicado</td></tr>
+    </table>
+    <p>Cada balance anual del BCRA dice, en su nota sobre el oro, cuántas onzas tiene y a qué precio las valúa. Desde 2020, el número se repite: <b>1.984.960 onzas troy</b> (los balances lo escriben en miles: 1.984,96). Pasado a peso, son <b>61,7 toneladas</b>.</p>
+    <p>Hubo una sola excepción. A fines de 2021 el balance mostraba 224.000 onzas menos, unas 7 toneladas, el 11% del total. El propio BCRA lo explicó en esa nota: eran operaciones de venta con recompra a plazo, que vencían en enero de 2022, y el oro volvió a su vencimiento. El balance de 2022 ya muestra otra vez las 1.984.960 onzas.</p>
+    <p>Para 2026 todavía no hay balance anual, pero el balance semanal del 7 de octubre valúa el oro en $12,4 billones. Pasado a dólares con el tipo de cambio de referencia de ese día ($1.520,71) da <b>US$8.157 millones</b>, y dividido por el precio del oro que usa el BCRA ese día (US$4.110,22 la onza) da otra vez 1,98 millones de onzas. Es el 16,6% de los US$49.133 millones de reservas brutas de ese día.</p>
+
+    <h3 class="sub">Cuánto vale</h3>
+    <p>Con las mismas onzas, el valor se movió solo con el precio. La onza pasó de US$1.894,36 a fines de 2020 a <b>US$4.326,01 a fines de 2025</b>, un 128% más, y el oro del BCRA pasó de valer US$3.760 millones a <b>US$8.587 millones</b>. Solo en 2025 el precio subió 65% y le agregó US$3.380 millones. Entre fines de 2025 y el 7 de octubre de 2026 el precio bajó 5%, y por eso hoy vale algo menos que en diciembre.</p>
+
+    <h3 class="sub">La pelea por los US$1.023 millones</h3>
+    <p>Durante 2025 el BCRA firmó contratos financieros sobre el precio del oro: opciones que se cobran y se pagan en dólares. No vendió ni entregó oro; el oro era solo la referencia del precio. Al cierre del año ya no quedaba ninguno abierto. Así lo dice la <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/estados-contables-2025.pdf">nota 4.1.5 del balance</a>, que los describe como operaciones “con el fin de cobertura”.</p>
+    <p><b>Lo que dice la Auditoría.</b> En su informe, la AGN aprueba el balance: dice que presenta razonablemente la situación del BCRA. Pero agrega un “párrafo de énfasis”, que no cambia esa opinión, sobre estas operaciones. Según los registros contables del propio BCRA, perdieron <b>$1,47 billones, US$1.023 millones</b>, que salieron en dólares: US$960,2 millones de resultado negativo de las opciones y US$62,8 millones de primas, lo que se paga por contratarlas. El mismo párrafo recuerda que la tenencia de oro ganó $8 billones por la suba del precio.</p>
+    <p><b>Lo que responde el BCRA.</b> En su comunicado del 8 de octubre, el BCRA dice que cubre el 100% de su posición en oro contra una caída del precio. Como todo seguro, cuesta: en un año en que el oro sube, la cobertura pierde y el oro gana, y hay que mirar las dos cosas juntas. Con ese criterio, dice, el resultado neto de 2025 fue de <b>US$2.505 millones</b> a favor. Agrega que hace estas coberturas desde 2007 y que entre 2007 y 2011 pagó, en proporción al valor del oro, casi el doble que en 2025, sin observaciones de la AGN.</p>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">El oro del BCRA en 2025 · millones de dólares</div>
+        <h3>El metal ganó más de lo que perdieron los contratos</h3>
+        <p class="fig-sub">Lo que sumó la suba del precio, lo que perdieron las coberturas y el neto, según cada fuente.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 300" role="img" aria-label="Oro del BCRA en 2025: el precio le sumó 3.380 millones de dólares, los contratos de cobertura perdieron 1.023 millones según la AGN, el neto da 2.357 millones; el BCRA informa 2.505 millones.">
+<text x="280" y="46" class="clB" text-anchor="end">Suba del valor del oro por el precio</text>
+<text x="280" y="64" class="cl" text-anchor="end">balance del BCRA</text>
+<rect x="420.0" y="30" width="405.5" height="38" fill="#2E8B6F"><title>Suba del valor del oro por el precio: US$3.379,5 millones</title></rect>
+<text x="833.5" y="55" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">+3.380</text>
+<text x="280" y="112" class="clB" text-anchor="end">Pérdida de los contratos de cobertura</text>
+<text x="280" y="130" class="cl" text-anchor="end">informe de la AGN</text>
+<rect x="297.2" y="96" width="122.8" height="38" fill="#C0392B"><title>Pérdida de los contratos de cobertura: US$-1.023,0 millones</title></rect>
+<text x="358.6" y="121" text-anchor="middle" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#fff">−1.023</text>
+<text x="280" y="178" class="clB" text-anchor="end">Neto, con esos dos números</text>
+<text x="280" y="196" class="cl" text-anchor="end">cálculo de Con Interés</text>
+<rect x="420.0" y="162" width="282.8" height="38" fill="#0E7C86"><title>Neto, con esos dos números: US$2.356,5 millones</title></rect>
+<text x="710.8" y="187" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">+2.356</text>
+<text x="280" y="244" class="clB" text-anchor="end">Neto, según el BCRA</text>
+<text x="280" y="262" class="cl" text-anchor="end">comunicado del 08/10/2026</text>
+<rect x="420.0" y="228" width="300.6" height="38" fill="#8A847C"><title>Neto, según el BCRA: US$2.505,0 millones</title></rect>
+<text x="728.6" y="253" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">+2.505</text>
+<line x1="420" y1="20" x2="420" y2="286" stroke="#5B564F" stroke-width="1"/>
+</svg>
+      <figcaption><b>Fuente:</b> estados contables 2025 del BCRA (anexo II: oro neto US$5.206,1 millones en 2024 y US$8.585,7 millones en 2025), informe 205/2026 de la AGN y comunicado del BCRA del 08/10/2026. Gráfico y resta propios.</figcaption>
+    </figure>
+    <p><b>Lo que se puede comprobar con los números públicos.</b> Las cifras de la AGN cierran con el balance. Que el renglón de derivados del balance muestre una pérdida menor, $1,03 billones, no es una contradicción: según el informe de la AGN, ese renglón suma todos los derivados del BCRA, y otros contratos dieron ganancia. Las dos partes coinciden en lo central: el oro ganó mucho por el precio, los contratos perdieron, y el saldo del año fue positivo.</p>
+    <p>Lo que no cierra del todo es el neto del BCRA. Si a los US$3.380 millones que ganó el oro por el precio, según su balance, se les restan los US$1.023 millones de la AGN, quedan <b>US$2.357 millones</b>, no 2.505. Hay US$148 millones de diferencia que no podemos explicar con documentos públicos: el BCRA no publicó cómo llegó a su cifra.</p>
+    <p>Lo que queda es una discusión de criterio, no de números: si esa plata fue el costo de un seguro o una apuesta que salió mal. El presidente de la AGN, Juan Manuel Olmos, dijo en declaraciones públicas que el BCRA apostó a una trayectoria del precio y erró, <a href="https://eleconomista.com.ar/economia/el-banco-central-perdio-mas-us-1000-millones-oro-agn-revelo-una-maniobra-inedita-n98723">según El Economista</a>; el informe formal no usa esas palabras. El BCRA respondió que la AGN busca “desprestigiar” a su conducción. Con los documentos publicados no se puede saber qué precio buscaba proteger el BCRA ni cuánto cubrió cada contrato, que es lo que haría falta para dirimirlo.</p>
+
+    <h3 class="sub">El oro que salió del país</h3>
+    <p>A mediados de 2024 el BCRA sacó parte de sus lingotes del país. Lo confirmó el ministro de Economía, Luis Caputo, en una entrevista con LN+ el 19 de julio de 2024: dijo que era una operación “positiva” para maximizar “los retornos de sus activos”, <a href="https://chequeado.com/el-explicador/giro-de-oro-al-exterior-que-se-sabe-sobre-la-decision-que-comunico-luis-caputo/">según reconstruyó Chequeado</a>. El 2 de septiembre de 2024, el BCRA lo dijo a su manera en un <a href="https://www.bcra.gob.ar/noticias/administracion-de-las-reservas-de-oro-del-bcra/">comunicado</a>: “completó exitosamente transferencias de parte de sus reservas en oro entre sus diferentes cuentas”, que pueden ser físicas (barras y lingotes) o electrónicas (cuentas en el exterior), y aclaró que ese “rebalanceo” no alteraba la cantidad total. Los balances siguientes le dan la razón en eso: las onzas son las mismas.</p>
+    <p>Lo que nunca dijo es <b>cuánto oro salió, adónde fue ni para qué se usa</b>. Los balances de 2024 y 2025 solo mencionan que hay barras “depositadas en el BCRA luego de las operaciones de rebalanceo”, sin decir cuántas. El BCRA rechazó en 2024 los pedidos de acceso a la información del diputado y titular de La Bancaria, Sergio Palazzo, con el argumento de la seguridad de los activos. En diciembre de 2025, la Sala V de la Cámara en lo Contencioso Administrativo Federal le ordenó entregar la información o justificar punto por punto por qué no, <a href="https://eleconomista.com.ar/economia/banco-central-mira-justicia-exige-revelar-hizo-oro-n91540">según informó El Economista</a>. No encontramos que lo haya publicado.</p>
+    <p>Por eso, las versiones sobre la ciudad donde está el oro (Londres, Basilea) y sobre cuántas toneladas salieron son reconstrucciones periodísticas: ninguna tiene un documento oficial atrás. Nuestra nota anterior sobre <a href="../articulos/2026-10-08-reservas-bcra-compras-pagos-tesoro.html">las reservas del BCRA</a> cuenta cuántos dólares entraron y salieron este año.</p>
+  </div>
+
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación de la cifra ancla: estadística oficial recalculada, con contraste independiente.</b> Las 1.984,96 miles de onzas figuran en la nota 4.1.1 de los estados contables auditados del BCRA de <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2020FinancialStatements.pdf">2020</a>, <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2022FinancialStatements.pdf">2022</a>, <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2023FinancialStatements.pdf">2023</a>, <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2024FinancialStatements.pdf">2024</a> y <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/estados-contables-2025.pdf">2025</a>; la de <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2021FinancialStatements.pdf">2021</a> da 1.760,96 y explica la diferencia. La recalculamos dos veces. Primero, onzas por precio contra el valor en dólares del anexo II de 2025: 1.984.960 × US$4.326,01 = US$8.587 millones, contra US$8.585,7 millones netos de la previsión por traslado. Segundo, con el <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/summary-balance-assets-liabilities-bcra.pdf">balance semanal del 07/10/2026</a> ($12.404.958.392 miles), el tipo de cambio de referencia ($1.520,7136) y la cotización del oro del BCRA (US$4.110,22) de ese día, ambos de la <a href="https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones?fecha=2026-10-07">API del BCRA</a>: 1,98 millones de onzas. El contraste independiente es la serie del <a href="https://tradingeconomics.com/argentina/gold-reserves">Consejo Mundial del Oro</a>, armada con las estadísticas del FMI: 61,74 toneladas en el segundo trimestre de 2026, sin cambios desde el primero. 1.984.960 onzas × 31,1035 gramos = 61,74 toneladas.</p>
+      <p><b>La pelea AGN-BCRA.</b> Leímos el <a href="https://agn.ar/sites/default/files/informes/2026-205-Informe_0.pdf">informe 205/2026 de la AGN</a>, párrafo de énfasis e): $1.469.155 millones = $1.400.793 millones de opciones + $68.362 millones de primas; US$960,2 + US$62,8 = US$1.023 millones. Cotejamos con las notas 4.1.5, 4.22.4 (oro: $8.002.500 millones de ganancia por cotización) y 4.22.6 (derivados: pérdida neta de $1.026.657 millones) del balance 2025. La ganancia en dólares por el precio, US$3.379,5 millones, sale de 1.984.960 × (4.326,01 − 2.623,45) y coincide al dólar con la diferencia del anexo II (US$8.585,7 − US$5.206,1 millones). Los US$2.505 millones son la cifra del comunicado del BCRA: la damos atribuida, porque no publicó su cálculo.</p>
+      <p><b>Qué no afirmamos.</b> No decimos dónde está el oro ni cuánto salió del país: no hay documento oficial. No decimos si las coberturas fueron una buena o una mala decisión: es una discusión de criterio que los documentos públicos no permiten cerrar. Las declaraciones de Caputo y de Olmos son las que reconstruyeron Chequeado y El Economista; las enlazamos.</p>
+      <div class="meta"><span>Fuentes <b>balances del BCRA · balance semanal · AGN · Consejo Mundial del Oro</b></span><span>Verificación <b>estadística oficial recalculada con contraste</b></span></div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>El oro es una parte chica pero pesada de las reservas: casi uno de cada seis dólares. Y como su valor depende de un precio que se mueve todos los días, en 2025 solo la suba del oro les sumó US$3.380 millones a las reservas. Saber que la cantidad no cambió no cierra todas las preguntas: el BCRA perdió US$1.023 millones con contratos que nadie fuera del banco puede revisar en detalle, y no dice dónde guarda una parte de su oro.</p>
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="ahorrista"><b>Si ahorrás en dólares o seguís las reservas,</b> el oro no se fue: está en el balance con las mismas onzas. Lo que mueve su valor día a día es el precio internacional, que entre diciembre y el 7 de octubre bajó 5%. Y los US$1.023 millones que salieron por los contratos fueron dólares de las reservas.</p>
+      <p data-perfil="trabajador"><b>Si te llegó un mensaje que dice que “se llevaron el oro”,</b> los balances auditados lo desmienten en cuanto a la cantidad. Lo que sí es cierto es que parte del oro salió del país en 2024 y que el BCRA no informa dónde está.</p>
+    </div>
+  </div>
+
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Qué quedó sin contestar, y dónde habría que pedirlo <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p><b>Dónde está cada lingote y quién lo custodia.</b> El BCRA lo considera confidencial desde 2024 y dice que la AGN tiene acceso. La vía para pedirlo es la ley de acceso a la información pública (27.275); el pedido de Palazzo es el que llegó más lejos, con la orden judicial de diciembre de 2025.</p>
+      <p><b>Los contratos de 2025, uno por uno.</b> Qué precio cubrían, cuándo vencían y con qué bancos se firmaron. Ni el balance ni el comunicado lo detallan.</p>
+      <p><b>Cómo calculó el BCRA los US$2.505 millones.</b> Con su propio balance da US$2.357 millones; la diferencia no está explicada.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Qué es una onza troy y qué es una cobertura <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>La onza troy es la unidad con la que se pesa y se cotiza el oro en el mundo: 31,1 gramos. Un lingote de los que usan los bancos centrales pesa unas 400 onzas, alrededor de 12,4 kilos.</p>
+      <p>Una cobertura es un contrato que paga si el precio cae. Si el oro baja, el contrato compensa la pérdida; si sube, el contrato pierde (o se pierde lo que se pagó por él) y el oro gana. En 2025 el oro subió 65%: el metal ganó y los contratos perdieron.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/estados-contables-2025.pdf">Estados contables al 31/12/2025</a> (notas 4.1.1, 4.1.5, 4.22.4 y 4.22.6; anexo II)</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2024FinancialStatements.pdf">Estados contables 2024</a> (nota 4.1.1)</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2023FinancialStatements.pdf">Estados contables 2023</a> (nota 4.1.1)</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2022FinancialStatements.pdf">Estados contables 2022</a> (nota 4.1.1)</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2021FinancialStatements.pdf">Estados contables 2021</a> (nota 4.1.1: las 224.000 onzas de diferencia)</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/i2020FinancialStatements.pdf">Estados contables 2020</a> (nota 4.1.1)</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/summary-balance-assets-liabilities-bcra.pdf">Balance semanal resumido</a> al 07/10/2026</li>
+        <li>&#8250; BCRA — <a href="https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones?fecha=2026-10-07">Cotizaciones del 07/10/2026</a> (oro y dólar) y serie de tipo de cambio de referencia y reservas de la API de estadísticas</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/noticias/resultado-neto-positivo-oro-2025/">BCRA obtuvo en 2025 un resultado neto positivo de USD 2.505 millones por su posición en oro</a>, comunicado del 08/10/2026</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/noticias/administracion-de-las-reservas-de-oro-del-bcra/">Administración de las reservas de oro del BCRA</a>, comunicado del 02/09/2024</li>
+        <li>&#8250; Auditoría General de la Nación — <a href="https://agn.ar/sites/default/files/informes/2026-205-Informe_0.pdf">Informe 205/2026 sobre los estados contables 2025 del BCRA</a> (párrafo de énfasis e); <a href="https://agn.ar/informes/Informe-205-2026">ficha del informe</a></li>
+        <li>&#8250; Consejo Mundial del Oro, vía Trading Economics — <a href="https://tradingeconomics.com/argentina/gold-reserves">Argentina: reservas de oro</a> (61,74 toneladas, segundo trimestre de 2026)</li>
+        <li>&#8250; Chequeado — <a href="https://chequeado.com/el-explicador/giro-de-oro-al-exterior-que-se-sabe-sobre-la-decision-que-comunico-luis-caputo/">Giro de oro al exterior: qué se sabe</a>, 03/09/2024 (declaraciones de Caputo en LN+)</li>
+        <li>&#8250; El Economista — <a href="https://eleconomista.com.ar/economia/el-banco-central-perdio-mas-us-1000-millones-oro-agn-revelo-una-maniobra-inedita-n98723">El Banco Central perdió más de US$ 1.000 millones con el oro</a>, 08/10/2026 (declaraciones de Olmos)</li>
+        <li>&#8250; El Economista — <a href="https://eleconomista.com.ar/economia/banco-central-mira-justicia-exige-revelar-hizo-oro-n91540">La Justicia exige revelar qué hizo con el oro</a>, 24/12/2025</li>
+        <li>&#8250; Ámbito — <a href="https://www.ambito.com/oro-las-reservas-bcra-admitio-giros-al-exterior-pero-omitio-detalles-los-envios-n6055426">Oro de las reservas: BCRA admitió giros al exterior</a>, 02/09/2024 (rechazo de los pedidos de acceso a la información)</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: valor de cada año (onzas × precio), toneladas, onzas implícitas en el balance semanal, ganancia por precio de 2025, resta con la cifra de la AGN y gráficos.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 14/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
