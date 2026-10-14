@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-13T20:41:51-03:00",
+    "actualizado": "2026-10-13T22:53:30-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-13-nobel-economia-premio-cuanto-cobra-pesos",
+      "titulo": "El Nobel de Economía le paga $910 millones a cada uno de sus dos ganadores: lo que cobra un trabajador registrado promedio en 38 años",
+      "bajada": "El premio de 2026 es de 12 millones de coronas suecas, un millón más que el año pasado, y lo pone el banco central de Suecia. Robert Hall y Michael Woodford se lo reparten en partes iguales: 6 millones de coronas cada uno, US$601.710 o $910 millones al tipo de cambio del BCRA del 13 de octubre. En términos reales, igual vale 23% menos que en 2001.",
+      "titulo_busqueda": "¿Cuánto cobra el ganador del Nobel de Economía?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "$910 millones",
+      "numero_label": "lo que recibe cada uno de los dos ganadores del Nobel de Economía 2026: la mitad de 12 millones de coronas suecas (comunicado de la Real Academia Sueca de Ciencias del 12/10/2026 y de la Fundación Nobel del 18/09/2026) a $151,680773 por corona (BCRA, 13/10/2026) = $910.084.638",
+      "fecha": "2026-10-13",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-13-nobel-economia-premio-cuanto-cobra-pesos.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta",
       "titulo": "Con la jubilación mínima, el Banco Nación presta como máximo $2,94 millones: ni con el haber máximo se llega a los $40 millones",

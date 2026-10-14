@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 20:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 13 Oct 2026 22:53:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Nobel de Economía le paga $910 millones a cada uno de sus dos ganadores: lo que cobra un trabajador registrado promedio en 38 años</title>
+      <link>https://coninteres.com/articulos/2026-10-13-nobel-economia-premio-cuanto-cobra-pesos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-nobel-economia-premio-cuanto-cobra-pesos.html</guid>
+      <pubDate>Tue, 13 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>El premio de 2026 es de 12 millones de coronas suecas, un millón más que el año pasado, y lo pone el banco central de Suecia. Robert Hall y Michael Woodford se lo reparten en partes iguales: 6 millones de coronas cada uno, US$601.710 o $910 millones al tipo de cambio del BCRA del 13 de octubre. En términos reales, igual vale 23% menos que en 2001.</description>
+      <ci:numero>$910 millones</ci:numero>
+      <ci:numeroEtiqueta>lo que recibe cada uno de los dos ganadores del Nobel de Economía 2026: la mitad de 12 millones de coronas suecas (comunicado de la Real Academia Sueca de Ciencias del 12/10/2026 y de la Fundación Nobel del 18/09/2026) a $151,680773 por corona (BCRA, 13/10/2026) = $910.084.638</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-nobel-economia-premio-cuanto-cobra-pesos.png" length="80218" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-nobel-economia-premio-cuanto-cobra-pesos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Con la jubilación mínima, el Banco Nación presta como máximo $2,94 millones: ni con el haber máximo se llega a los $40 millones</title>
       <link>https://coninteres.com/articulos/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cobertura mensual por celiaquía que deben pagar obras sociales, prepagas y PAMI desde el 26/04/2026 ($58.560,975, Ministerio de Salud; PAMI $58.560,98): 27,5% de la CBA de marzo de 2026 ($212.949, INDEC) según el art. 9 del anexo del Decreto 218/2023; con la CBA de agosto ($235.103) la regla daría $64.653</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.png" length="96291" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un estudio de Stanford encontró que el empleo de los jóvenes en los trabajos más expuestos a la IA quedó 19% por debajo del ritmo de sus pares en EE.UU.</title>
-      <link>https://coninteres.com/articulos/2026-10-11-ia-empleo-jovenes-stanford.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-11-ia-empleo-jovenes-stanford.html</guid>
-      <pubDate>Sun, 11 Oct 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>IA</category>
-      <description>Con datos de nómina de millones de trabajadores, tres economistas de Stanford encontraron que, desde la llegada de ChatGPT, el empleo de los jóvenes de 22 a 25 años cayó 11% en los trabajos más expuestos a la inteligencia artificial y subió 10% en los menos expuestos. En Francia aparece lo mismo; en Noruega, no. En la Argentina no hay datos para medirlo, pero la puerta de entrada al trabajo ya era angosta: 17,1% de desocupación entre las mujeres jóvenes y 14,1% entre los varones.</description>
-      <ci:numero>19%</ci:numero>
-      <ci:numeroEtiqueta>por debajo de donde estaría el empleo de los jóvenes de 22 a 25 años en los trabajos más expuestos a la IA si hubiera crecido como el de sus pares menos expuestos (EE.UU., nov-2022 a jun-2026; Brynjolfsson, Chandar y Chen, Stanford, agosto de 2026)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-11-ia-empleo-jovenes-stanford.png" length="79709" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-11-ia-empleo-jovenes-stanford.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

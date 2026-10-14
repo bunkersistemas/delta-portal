@@ -4131,6 +4131,21 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, ya cubiertas, sin documento primario con la cifra o empresas sin cifra ancla legible"
+    },
+    {
+      "tema": "cuánto cobra el ganador del Nobel de Economía (Hall y Woodford, anunciado el 12/10/2026; ámbito, La Nación, iProfesional, Página12; RETOMA el Nobel descartado el 12/10 'sin pregunta de plata con documento': el documento es el comunicado de la Academia) / premio 12 M SEK a repartir en partes iguales (KVA 12/10/2026; Fundación Nobel 18/09/2026: +1 M vs 2025, 125 años) = 6 M SEK por ganador x $151,680773 (BCRA Cotizaciones 13/10/2026; pase 0,100285 USD, dólar $1.512,50) = $910.084.638 y US$601.710; contraste BCE 13/10 (11,1698 SEK y 1,1188 USD por euro) 0,100163 USD/SEK, -0,12%; RIPTE ago-26 $1.982.518,19 -> 459 meses (38,3 años); CBT hogar 4 sep-26 $1.632.505 -> 557 meses; serie real Fundación Nobel (SEK dic-2025): máximo 2001 15.547.541, mínimo 1919 3.006.134, 1969 4.023.190, 2025 11.000.000; 2026 nominal 22,8% debajo de 2001",
+      "angulo": "el premio en pesos y en sueldos argentinos, y la serie real del monto desde 1901",
+      "fecha": "2026-10-13",
+      "estado": "publicada",
+      "articulo_id": "2026-10-13-nobel-economia-premio-cuanto-cobra-pesos"
+    },
+    {
+      "tema": "descartes de la corrida programada del 13/10/2026 22:30: no se probaron porque la primera candidata (cuánto cobra el ganador del Nobel de Economía) pasó la verificación. Lista: empresas CNV (Central Puerto adquisición de acciones propias HR 08, 09 y 13/10: recompra de rutina sin cifra ancla nueva, ya descartada; Nuevo Continente balance al 31/07: visor CNV sin cifras, descartado varias veces; Caja de Valores anuncio rectificativo de dividendo: rutina; A3 Mercados HR 09/10: visor sin texto), qué alimentos subieron más en septiembre (infobae, ámbito, iProfesional; INDEC precios promedio, ya usados en huevos y asado/pollo), 150 localidades sin lugar para sacar efectivo (La Nación; estudio privado, BCRA puntos de acceso sin probar), empleo privado registrado 14 meses en baja (La Nación, ámbito; SIPA jul, serie usada el 13/10), Día de la Madre (CAME, estimación privada), Edenor-Edesur (sin montos, frenada 12:30), Nueva Zelanda Working Holiday (publicada 26/09), IPC y canasta (ya cubiertas hoy), choferes de apps (sin dato oficial); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura. Cupo de EMPRESAS: regía, pero ninguna candidata del bloque trae documento con cifra ancla legible.",
+      "angulo": "NO TOMADAS en la corrida programada del 13/10/2026 22:30.",
+      "fecha": "2026-10-13",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, ya cubiertas, sin documento primario con la cifra o empresas sin cifra ancla legible, frente a la candidata elegida"
     }
   ]
 }
