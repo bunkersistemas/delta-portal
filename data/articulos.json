@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-14T18:41:33-03:00",
+    "actualizado": "2026-10-14T20:48:59-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-14-auh-presupuesto-2027-movilidad",
+      "titulo": "El Presupuesto 2027 le quita la movilidad a la AUH, pero le asigna $9,18 billones: alcanzan para seguir actualizándola por inflación si los precios suben 18%",
+      "bajada": "El artículo 17 del proyecto deroga la ley que obliga a aumentar la AUH todos los meses. Pero la plata que el mismo proyecto le reserva alcanza, casi al peso, para que la movilidad siga: cubre alrededor de 99% de lo que costaría actualizarla con la inflación oficial. Lo que se pierde no es la plata, es la garantía: si los precios suben más que 18%, nada obliga a poner la diferencia.",
+      "titulo_busqueda": "¿La AUH va a seguir aumentando con la inflación en 2027? Lo que dice el Presupuesto",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$9,18 billones",
+      "numero_label": "crédito de la AUH, la asignación por embarazo y la ayuda escolar en el proyecto de Presupuesto 2027 (ANSES, programa 19, subprograma 03: $9.184.552 millones)",
+      "fecha": "2026-10-14",
+      "hora": "21:00",
+      "archivo": "articulos/2026-10-14-auh-presupuesto-2027-movilidad.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-14-garrahan-presupuesto-2027",
       "titulo": "El Presupuesto 2027 le asigna al Garrahan $396.035 millones: 11,4% más que este año, con una inflación proyectada de 18%",
