@@ -1,0 +1,516 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Qué dice JP Morgan de la economía argentina? Lo que proyectan los bancos para 2026 — CON INTERÉS</title>
+<meta name="description" content="J.P. Morgan y la mediana de los 44 bancos y consultoras que encuesta el Banco Central esperan ahora que la economía crezca 1,5% en 2026, la mitad del 3% que esperaba ese consenso hace un año. Con la inflación pasó al revés: esperaban 18,7% para todo el año y a septiembre ya va 23,6%. Qué dijo cada banco que se puede verificar, qué dicen el FMI y el Banco Mundial, cuánto acertaron y qué informes son solo para clientes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .prose h3.sub{font-family:var(--serif);font-size:23px;font-weight:600;margin:34px 0 12px;line-height:1.25}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:470px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column;max-width:190px}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft);vertical-align:top}
+  table.tb td.n{font-family:var(--mono);white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+    table.tb-stack,table.tb-stack tbody,table.tb-stack tr,table.tb-stack td{display:block;width:100%}
+    table.tb-stack tr:first-child{display:none}
+    table.tb-stack tr{border:1px solid var(--grid);border-radius:10px;padding:10px 14px;margin:0 0 10px}
+    table.tb-stack td{border:0;padding:4px 0;text-align:left!important;white-space:normal}
+    table.tb-stack td::before{content:attr(data-label);display:block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:1px}
+    table.tb-stack td:first-child{font-weight:600;color:var(--ink);font-size:15px}
+    table.tb-stack td:first-child::before{display:none}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+</style>
+</head>
+<body data-palette="#0E7C86,#C4701F,#C0392B,#2E8B6F">
+<div class="draft-ribbon">Borrador generado por la redacción de agentes y pendiente de aprobación. No publicado.</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">ECONOMÍA <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Qué dicen JP Morgan y los grandes bancos sobre cómo viene la economía argentina?</h1>
+
+  <p class="standfirst">J.P. Morgan y la mediana de los 44 bancos y consultoras que encuesta el Banco Central esperan ahora que la economía crezca 1,5% en 2026, la mitad del 3% que esperaba ese consenso hace un año. Con la inflación pasó al revés: esperaban 18,7% para todo el año y a septiembre ya va 23,6%. Qué dijo cada banco que se puede verificar, qué dicen el FMI y el Banco Mundial, cuánto acertaron y qué informes son solo para clientes.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>14 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 10 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta qué esperan para el crecimiento, la inflación y el dólar de 2026 los grandes bancos y el consenso de bancos y consultoras que releva el Banco Central, cómo cambiaron esos pronósticos desde octubre de 2025 y cuánto acertaron. Cumple el enfoque que aprobó el lector, con un límite: de J.P. Morgan, Goldman Sachs y Morgan Stanley solo damos lo que publicaron al menos dos medios distintos, porque sus informes son para clientes y no los pudimos leer; de Citi, Bank of America y Barclays no encontramos cifras que pasen esa vara, y no las damos. BBVA e Itaú publican sus informes completos, y esos sí los leímos en el original. No incluimos las recomendaciones de compra o venta de bonos y acciones que traen esos informes.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">1m</span></button>
+      <button data-go="b3">En contexto <span class="t">5m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">1,5%<span class="u">de crecimiento en 2026</span></div>
+      <div class="cap">es lo que esperan ahora <b>J.P. Morgan</b> y la <b>mediana de los 44 bancos y consultoras</b> que encuesta el Banco Central. Hace un año, ese mismo consenso esperaba <b>3%</b>: el doble. El FMI y el Banco Mundial bajaron a <b>2,1%</b>. Para 2026, todos esperaban más crecimiento, menos inflación y un dólar más caro de lo que está pasando.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v dn">18,7% &rarr; 30%</span><span class="k">inflación que esperaba el consenso para todo 2026: en octubre de 2025 y en septiembre de 2026. A septiembre ya acumuló 23,6%, según el INDEC</span></div>
+        <div class="sr"><span class="v up">$1.744 &rarr; $1.614</span><span class="k">dólar mayorista esperado para diciembre de 2026, hace un año y ahora. El 13 de octubre cotizó $1.515,85</span></div>
+        <div class="sr"><span class="v dn">4% &rarr; 2,1%</span><span class="k">crecimiento de 2026 que proyectaba el FMI en octubre de 2025 y el que proyecta ahora</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">A fines de septiembre, J.P. Morgan bajó su pronóstico de crecimiento para la Argentina en 2026 de 2,7% a <b>1,5%</b>, según publicaron <a href="https://www.perfil.com/noticias/economia/jp-morgan-cambio-su-pronostico-para-la-argentina-en-apenas-cuatro-dias-y-ahora-anticipa-una-recesion.phtml">Perfil</a> y <a href="https://www.cronica.com.ar/politica/jp-morgan-recorto-su-proyeccion-para-la-economia-argentina-y-aseguro-que-julio-tuvo-el-peor-desempeno-mensual-desde-la-pandemia/">Crónica</a>. Una semana después, el <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-2026-09.pdf">Relevamiento de Expectativas de Mercado (REM)</a> del Banco Central, una encuesta a 44 bancos y consultoras en cuyo listado de habilitados figuran J.P. Morgan, Morgan Stanley, Barclays, BBVA, Santander e Itaú, dio el mismo número como mediana: 1,5%. El 13 de octubre, el FMI recortó su proyección a 2,1%.</p>
+    <p>Un lector nos preguntó qué dicen esos informes. La respuesta corta: <b class="hl">en un año, los pronósticos para 2026 empeoraron en crecimiento y en inflación, y mejoraron en el dólar</b>. Hace un año el consenso esperaba una economía que creciera 3%, una inflación de 18,7% y un dólar de $1.744 en diciembre. Hoy espera 1,5%, 30% y $1.614. Y hay un error que se repite: tanto para 2025 como para 2026, los que pronostican esperaban menos inflación y un dólar más caro de lo que terminó pasando.</p>
+  </div>
+
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 class="sub">Qué esperan para 2026, uno al lado del otro</h3>
+    <table class="tb tb-stack">
+      <tr><th>Qué se proyecta</th><th>Consenso del REM (sep-2026)</th><th>Lo que esperaba el REM hace un año (oct-2025)</th><th>FMI (oct-2026)</th><th>Bancos con nombre (último dato verificado)</th></tr>
+      <tr><td class="n">Crecimiento del PBI 2026</td><td data-label="REM sep-2026"><b>1,5%</b></td><td data-label="REM oct-2025">3,0%</td><td data-label="FMI">2,1%</td><td data-label="Bancos">J.P. Morgan 1,5% · BBVA 3% · Morgan Stanley 2,8% · Goldman Sachs 2,7% (jul.) · Itaú 3,5% (jun.)</td></tr>
+      <tr><td class="n">Inflación 2026 (dic. contra dic.)</td><td data-label="REM sep-2026"><b>30%</b></td><td data-label="REM oct-2025">18,7%</td><td data-label="FMI">29,5%</td><td data-label="Bancos">BBVA 29% · Morgan Stanley 29% · Goldman Sachs cerca de 29% (jul.) · Itaú 30% (jun.)</td></tr>
+      <tr><td class="n">Dólar mayorista, diciembre de 2026</td><td data-label="REM sep-2026"><b>$1.614</b></td><td data-label="REM oct-2025">$1.744</td><td data-label="FMI">No lo publica</td><td data-label="Bancos">BBVA $1.630 · Morgan Stanley $1.671 · Itaú $1.600 (jun.)</td></tr>
+      <tr><td class="n">Crecimiento del PBI 2027</td><td data-label="REM sep-2026"><b>2,5%</b></td><td data-label="REM oct-2025">3,2%</td><td data-label="FMI">3,5%</td><td data-label="Bancos">J.P. Morgan 2,5% · BBVA 3% · Morgan Stanley 2,7% · Itaú 3% (jun.)</td></tr>
+    </table>
+    <p>Las cifras del REM son la <b>mediana</b>: la mitad de los participantes espera más y la otra mitad, menos. El dólar es el promedio de diciembre del tipo de cambio mayorista de referencia del Banco Central. La inflación del FMI es la de diciembre contra diciembre; en promedio anual, el Fondo espera 32,5%. Las cifras de J.P. Morgan, Goldman Sachs y Morgan Stanley son las que publicaron dos medios distintos sobre sus informes; las de BBVA e Itaú salen de sus informes públicos.</p>
+
+    <h3 class="sub">Qué espera el consenso de bancos y consultoras</h3>
+    <p>El REM de septiembre, publicado el 6 de octubre, recogió las respuestas de <b>44 participantes</b>: 33 consultoras y centros de investigación, locales y extranjeros, y 11 entidades financieras. Además de 1,5% de crecimiento, 30% de inflación y $1.614 por dólar, esperan que el PBI haya caído 1% en el tercer trimestre contra el segundo y que la desocupación termine el año en 7,7%. Los diez que mejor pronosticaron en el pasado, el “Top 10”, son más pesimistas con la actividad: 1,2% para 2026.</p>
+    <p>El rango se achicó. En crecimiento, el 10% más optimista espera 2,2% o más y el 10% más pesimista, 0,8% o menos. En inflación, la distancia entre esos dos extremos es de menos de dos puntos: de 29,1% a 30,7%.</p>
+
+    <h3 class="sub">Cómo cambió el pronóstico en un año</h3>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">REM del Banco Central · octubre de 2025 a septiembre de 2026</div>
+        <h3>El crecimiento esperado para 2026 se cortó a la mitad</h3>
+        <p class="fig-sub">Mediana del crecimiento del PBI que esperaban para 2026, en cada encuesta mensual.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 400" role="img" aria-label="Crecimiento del PBI que esperaba para 2026 la mediana del REM del Banco Central, de octubre de 2025 a septiembre de 2026: 3% hace un año, un pico de 3,5% en diciembre y 1,5% en septiembre.">
+<line x1="70" y1="320.0" x2="860" y2="320.0" stroke="#E6E1D8" stroke-width="1"/>
+<text x="60" y="324.0" class="cl" text-anchor="end">0%</text>
+<line x1="70" y1="252.5" x2="860" y2="252.5" stroke="#E6E1D8" stroke-width="1"/>
+<text x="60" y="256.5" class="cl" text-anchor="end">1%</text>
+<line x1="70" y1="185.0" x2="860" y2="185.0" stroke="#E6E1D8" stroke-width="1"/>
+<text x="60" y="189.0" class="cl" text-anchor="end">2%</text>
+<line x1="70" y1="117.5" x2="860" y2="117.5" stroke="#E6E1D8" stroke-width="1"/>
+<text x="60" y="121.5" class="cl" text-anchor="end">3%</text>
+<line x1="70" y1="50.0" x2="860" y2="50.0" stroke="#E6E1D8" stroke-width="1"/>
+<text x="60" y="54.0" class="cl" text-anchor="end">4%</text>
+<polyline points="70.0,117.5 141.8,92.1 213.6,83.8 285.5,101.6 357.3,90.4 429.1,97.2 500.9,131.0 572.7,123.6 644.5,117.5 716.4,141.1 788.2,178.2 860.0,218.8" fill="none" stroke="#0E7C86" stroke-width="3"/>
+<circle cx="70.0" cy="117.5" r="5" fill="#0E7C86"><title>REM de oct-25: 3,0%</title></circle>
+<text x="70.0" y="105.5" class="clB" text-anchor="middle">3,0%</text>
+<text x="70.0" y="342" class="cl" text-anchor="middle">oct-25</text>
+<circle cx="141.8" cy="92.1" r="5" fill="#0E7C86"><title>REM de nov-25: 3,4%</title></circle>
+<text x="141.8" y="342" class="cl" text-anchor="middle">nov-25</text>
+<circle cx="213.6" cy="83.8" r="5" fill="#0E7C86"><title>REM de dic-25: 3,5%</title></circle>
+<text x="213.6" y="71.8" class="clB" text-anchor="middle">3,5%</text>
+<text x="213.6" y="342" class="cl" text-anchor="middle">dic-25</text>
+<circle cx="285.5" cy="101.6" r="5" fill="#0E7C86"><title>REM de ene-26: 3,2%</title></circle>
+<text x="285.5" y="342" class="cl" text-anchor="middle">ene-26</text>
+<circle cx="357.3" cy="90.4" r="5" fill="#0E7C86"><title>REM de feb-26: 3,4%</title></circle>
+<text x="357.3" y="342" class="cl" text-anchor="middle">feb-26</text>
+<circle cx="429.1" cy="97.2" r="5" fill="#0E7C86"><title>REM de mar-26: 3,3%</title></circle>
+<text x="429.1" y="342" class="cl" text-anchor="middle">mar-26</text>
+<circle cx="500.9" cy="131.0" r="5" fill="#0E7C86"><title>REM de abr-26: 2,8%</title></circle>
+<text x="500.9" y="342" class="cl" text-anchor="middle">abr-26</text>
+<circle cx="572.7" cy="123.6" r="5" fill="#0E7C86"><title>REM de may-26: 2,9%</title></circle>
+<text x="572.7" y="342" class="cl" text-anchor="middle">may-26</text>
+<circle cx="644.5" cy="117.5" r="5" fill="#0E7C86"><title>REM de jun-26: 3,0%</title></circle>
+<text x="644.5" y="342" class="cl" text-anchor="middle">jun-26</text>
+<circle cx="716.4" cy="141.1" r="5" fill="#0E7C86"><title>REM de jul-26: 2,7%</title></circle>
+<text x="716.4" y="129.1" class="clB" text-anchor="middle">2,7%</text>
+<text x="716.4" y="342" class="cl" text-anchor="middle">jul-26</text>
+<circle cx="788.2" cy="178.2" r="5" fill="#0E7C86"><title>REM de ago-26: 2,1%</title></circle>
+<text x="788.2" y="166.2" class="clB" text-anchor="middle">2,1%</text>
+<text x="788.2" y="342" class="cl" text-anchor="middle">ago-26</text>
+<circle cx="860.0" cy="218.8" r="5" fill="#0E7C86"><title>REM de sep-26: 1,5%</title></circle>
+<text x="860.0" y="206.8" class="clB" text-anchor="middle">1,5%</text>
+<text x="860.0" y="342" class="cl" text-anchor="middle">sep-26</text>
+<line x1="70" y1="320" x2="860" y2="320" stroke="#5B564F" stroke-width="1"/>
+<text x="70" y="28" class="cl">Crecimiento del PBI esperado para 2026, mediana de cada relevamiento (%)</text>
+<text x="70" y="386" class="cl">Mes en que se hizo la encuesta. Responden entre 40 y 45 bancos y consultoras.</text>
+</svg>
+      <figcaption><b>Fuente:</b> BCRA, base histórica del REM (mediana de cada relevamiento). Gráfico propio.</figcaption>
+    </figure>
+    <p>Hasta marzo, el consenso se movió alrededor de 3,3%, con un pico de 3,5% en diciembre de 2025. El primer recorte fuerte llegó en abril (2,8%), y el derrumbe, en los últimos tres meses: 2,65% en julio, 2,1% en agosto y 1,5% en septiembre, después de que el INDEC informara que la actividad de julio cayó 2,9% en un mes. El recorte de septiembre, de 0,6 puntos, es el mayor de un mes a otro en la serie del pronóstico para 2026; el anterior más grande había sido el de agosto, de 0,55.</p>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Inflación esperada contra inflación real · 2026</div>
+        <h3>Esperaban 18,7% para todo el año; en nueve meses ya fue 23,6%</h3>
+        <p class="fig-sub">Inflación esperada para 2026 en cada encuesta del REM, y la que efectivamente acumuló el año según el INDEC.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 400" role="img" aria-label="Inflación que esperaba para todo 2026 la mediana del REM, de 18,7% en octubre de 2025 a 30% en septiembre de 2026, y la inflación que efectivamente acumuló 2026 según el INDEC, que superó el 18,7% en julio y llegó a 23,6% en septiembre.">
+<line x1="70" y1="320.0" x2="860" y2="320.0" stroke="#E6E1D8" stroke-width="1"/>
+<text x="60" y="324.0" class="cl" text-anchor="end">0%</text>
+<line x1="70" y1="242.9" x2="860" y2="242.9" stroke="#E6E1D8" stroke-width="1"/>
+<text x="60" y="246.9" class="cl" text-anchor="end">10%</text>
+<line x1="70" y1="165.7" x2="860" y2="165.7" stroke="#E6E1D8" stroke-width="1"/>
+<text x="60" y="169.7" class="cl" text-anchor="end">20%</text>
+<line x1="70" y1="88.6" x2="860" y2="88.6" stroke="#E6E1D8" stroke-width="1"/>
+<text x="60" y="92.6" class="cl" text-anchor="end">30%</text>
+<line x1="70" y1="176.1" x2="860" y2="176.1" stroke="#C4701F" stroke-width="1.5" stroke-dasharray="6 5"/>
+<text x="860" y="168.1" class="cl" text-anchor="end" style="fill:#C4701F">lo que esperaban hace un año para todo 2026: 18,7%</text>
+<polyline points="70.0,176.1 141.8,168.6 213.6,164.6 285.5,147.0 357.3,119.0 429.1,95.3 500.9,84.7 572.7,84.7 644.5,88.4 716.4,90.2 788.2,88.6 860.0,88.6" fill="none" stroke="#0E7C86" stroke-width="3"/>
+<circle cx="70.0" cy="176.1" r="5" fill="#0E7C86"><title>REM de oct-25: 18,7% para 2026</title></circle>
+<text x="70.0" y="342" class="cl" text-anchor="middle">oct-25</text>
+<circle cx="141.8" cy="168.6" r="5" fill="#0E7C86"><title>REM de nov-25: 19,6% para 2026</title></circle>
+<text x="141.8" y="342" class="cl" text-anchor="middle">nov-25</text>
+<circle cx="213.6" cy="164.6" r="5" fill="#0E7C86"><title>REM de dic-25: 20,2% para 2026</title></circle>
+<text x="213.6" y="342" class="cl" text-anchor="middle">dic-25</text>
+<circle cx="285.5" cy="147.0" r="5" fill="#0E7C86"><title>REM de ene-26: 22,4% para 2026</title></circle>
+<text x="285.5" y="342" class="cl" text-anchor="middle">ene-26</text>
+<circle cx="357.3" cy="119.0" r="5" fill="#0E7C86"><title>REM de feb-26: 26,1% para 2026</title></circle>
+<text x="357.3" y="342" class="cl" text-anchor="middle">feb-26</text>
+<circle cx="429.1" cy="95.3" r="5" fill="#0E7C86"><title>REM de mar-26: 29,1% para 2026</title></circle>
+<text x="429.1" y="342" class="cl" text-anchor="middle">mar-26</text>
+<circle cx="500.9" cy="84.7" r="5" fill="#0E7C86"><title>REM de abr-26: 30,5% para 2026</title></circle>
+<text x="500.9" y="342" class="cl" text-anchor="middle">abr-26</text>
+<circle cx="572.7" cy="84.7" r="5" fill="#0E7C86"><title>REM de may-26: 30,5% para 2026</title></circle>
+<text x="572.7" y="342" class="cl" text-anchor="middle">may-26</text>
+<circle cx="644.5" cy="88.4" r="5" fill="#0E7C86"><title>REM de jun-26: 30,0% para 2026</title></circle>
+<text x="644.5" y="342" class="cl" text-anchor="middle">jun-26</text>
+<circle cx="716.4" cy="90.2" r="5" fill="#0E7C86"><title>REM de jul-26: 29,8% para 2026</title></circle>
+<text x="716.4" y="342" class="cl" text-anchor="middle">jul-26</text>
+<circle cx="788.2" cy="88.6" r="5" fill="#0E7C86"><title>REM de ago-26: 30,0% para 2026</title></circle>
+<text x="788.2" y="342" class="cl" text-anchor="middle">ago-26</text>
+<circle cx="860.0" cy="88.6" r="5" fill="#0E7C86"><title>REM de sep-26: 30,0% para 2026</title></circle>
+<text x="860.0" y="342" class="cl" text-anchor="middle">sep-26</text>
+<text x="860.0" y="76.6" class="clB" text-anchor="middle">30%</text>
+<polyline points="285.5,297.8 357.3,274.8 429.1,247.2 500.9,225.4 572.7,206.7 644.5,190.0 716.4,171.0 788.2,155.7 860.0,137.6" fill="none" stroke="#C0392B" stroke-width="3"/>
+<circle cx="285.5" cy="297.8" r="4" fill="#C0392B"><title>Inflación acumulada en 2026 hasta ene-26: 2,9%</title></circle>
+<circle cx="357.3" cy="274.8" r="4" fill="#C0392B"><title>Inflación acumulada en 2026 hasta feb-26: 5,9%</title></circle>
+<circle cx="429.1" cy="247.2" r="4" fill="#C0392B"><title>Inflación acumulada en 2026 hasta mar-26: 9,4%</title></circle>
+<circle cx="500.9" cy="225.4" r="4" fill="#C0392B"><title>Inflación acumulada en 2026 hasta abr-26: 12,3%</title></circle>
+<circle cx="572.7" cy="206.7" r="4" fill="#C0392B"><title>Inflación acumulada en 2026 hasta may-26: 14,7%</title></circle>
+<circle cx="644.5" cy="190.0" r="4" fill="#C0392B"><title>Inflación acumulada en 2026 hasta jun-26: 16,8%</title></circle>
+<circle cx="716.4" cy="171.0" r="4" fill="#C0392B"><title>Inflación acumulada en 2026 hasta jul-26: 19,3%</title></circle>
+<circle cx="788.2" cy="155.7" r="4" fill="#C0392B"><title>Inflación acumulada en 2026 hasta ago-26: 21,3%</title></circle>
+<circle cx="860.0" cy="137.6" r="4" fill="#C0392B"><title>Inflación acumulada en 2026 hasta sep-26: 23,6%</title></circle>
+<text x="850.0" y="159.6" class="clB" text-anchor="end" style="fill:#C0392B">23,6% ya acumulado a septiembre</text>
+<line x1="70" y1="320" x2="860" y2="320" stroke="#5B564F" stroke-width="1"/>
+<text x="70" y="28" class="cl">Azul: inflación esperada para todo 2026 (dic. contra dic.), mediana del REM. Rojo: lo que ya acumuló el año (INDEC)</text>
+<text x="70" y="386" class="cl">La línea roja arranca en enero: es la suba de precios desde diciembre de 2025 hasta cada mes.</text>
+</svg>
+      <figcaption><b>Fuente:</b> BCRA, base histórica del REM; INDEC, serie del IPC nacional (nivel general). Gráfico y acumulados propios.</figcaption>
+    </figure>
+    <p>Con la inflación pasó lo contrario. En octubre de 2025 el consenso esperaba que 2026 cerrara con 18,7%, y que la inflación mensual bajara de 1,8% en enero a 1,55% en abril. Pasó otra cosa: enero y febrero dieron 2,9% cada uno y marzo, 3,4%. Entre enero y abril los precios subieron <b>12,3%</b>, contra 7% que implicaban esos pronósticos. El consenso corrigió rápido: en abril ya esperaba 30,5%, y desde entonces se mantiene cerca de 30%. Para cerrar el año en 30% hace falta que octubre, noviembre y diciembre promedien 1,7% por mes; septiembre dio 1,9%.</p>
+    <p>El dólar fue la sorpresa en la otra dirección. Hace un año esperaban $1.744 para diciembre de 2026; ahora esperan $1.614. El tipo de cambio de referencia del Banco Central estaba en $1.515,85 el 13 de octubre, apenas 4,7% arriba del promedio de diciembre de 2025 ($1.447,84), en un año con 23,6% de inflación.</p>
+
+    <h3 class="sub">Qué dijeron J.P. Morgan y los otros bancos</h3>
+    <p><b>J.P. Morgan.</b> Es el banco que calcula el riesgo país y está entre los habilitados para responder el REM. Su informe de fines de septiembre, firmado por Diego Pereira y Lucila Barbeito, bajó el crecimiento de 2026 de 2,7% a 1,5%, anticipó una caída de la actividad en el tercer trimestre y mantuvo 2,5% para 2027, según <a href="https://www.cronica.com.ar/politica/jp-morgan-recorto-su-proyeccion-para-la-economia-argentina-y-aseguro-que-julio-tuvo-el-peor-desempeno-mensual-desde-la-pandemia/">Crónica</a>, <a href="https://www.perfil.com/noticias/economia/jp-morgan-cambio-su-pronostico-para-la-argentina-en-apenas-cuatro-dias-y-ahora-anticipa-una-recesion.phtml">Perfil</a> y <a href="https://www.cfin.com.ar/economia/jp-morgan-recorto-proyeccion-crecimiento-argentina-2026/">CFIN</a>. No encontramos en dos fuentes independientes su pronóstico de inflación ni de dólar para 2026, ni lo que proyectaba hace un año.</p>
+    <p><b>Morgan Stanley.</b> En un informe difundido a principios de septiembre proyectó un dólar oficial de $1.671,10 a fin de 2026 y de $1.983,20 a fin de 2027, una inflación de 29% este año y de 21% el próximo, y un crecimiento de 2,8% en 2026 y 2,7% en 2027, según <a href="https://www.iprofesional.com/finanzas/464152-morgan-stanley-estimo-el-precio-del-dolar-a-fin-de-ano-en-argentina">iProfesional</a> y <a href="https://www.baenegocios.com/economia/morgan-stanley-le-puso-precio-al-dolar-de-fin-de-ano-a-cuanto-estaria/">BAE Negocios</a>. Es anterior al dato de actividad de julio que hizo recortar a casi todos.</p>
+    <p><b>Goldman Sachs.</b> En julio bajó el crecimiento de 2026 de 3% a 2,7% y proyectó una inflación cercana a 29%, según <a href="https://es.mercopress.com/2026/07/25/goldman-sachs-recorta-al-2-7-su-proyeccion-de-crecimiento-para-argentina-y-mira-a-las-elecciones">MercoPress</a> y <a href="https://economis.com.ar/goldman-sachs-recorto-sus-proyecciones-de-crecimiento-para-la-argentina/">Economis</a>. Hubo recortes posteriores informados por un solo medio, con muro de pago: no los damos.</p>
+    <p><b>BBVA Research.</b> Publica su informe completo. El de <a href="https://www.bbvaresearch.com/wp-content/uploads/2026/10/Editorial_Situacion_Argentina_Octubre_2026.pdf">octubre de 2026</a> mantiene 3% de crecimiento para este año, pero dice que el dato de julio le pone “un claro sesgo a la baja”; proyecta 29% de inflación, un dólar de $1.630 al 31 de diciembre y 3% de crecimiento en 2027. En <a href="https://www.bbvaresearch.com/wp-content/uploads/2025/12/Editorial_Situacion_Argentina_Diciembre_2025.pdf">diciembre de 2025</a> esperaba para 2026 el mismo 3% de crecimiento, pero una inflación de <b>14%</b> y un dólar de $1.730.</p>
+    <p><b>Itaú.</b> También publica su escenario. En <a href="https://macroattachment.cloud.itau.com.br/attachments/cb8f2051-ed9d-45b8-a122-65723eff1c93/MacroScenario-ARG_Dec25.pdf">diciembre de 2025</a> subió el crecimiento esperado para 2026 de 2,5% a 3,5%, con una inflación de 20% y un dólar de $1.700. En su último informe público, del <a href="https://macroattachment.cloud.itau.com.br/attachments/55f4f40b-049d-427d-a262-95a2f0f62976/MacroScenario-AR_Jun26.pdf">26 de junio de 2026</a>, mantuvo 3,5% de crecimiento, subió la inflación a 30% y bajó el dólar a $1.600. No encontramos uno posterior.</p>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Crecimiento esperado para 2026 · último dato verificado de cada uno</div>
+        <h3>Los que recortaron después del dato de julio quedaron entre 1,5% y 2,1%</h3>
+        <p class="fig-sub">Crecimiento del PBI de 2026, en %, y fecha del pronóstico.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 470" role="img" aria-label="Crecimiento del PBI que esperan para 2026: Itaú 3,5% (junio), BBVA 3%, Morgan Stanley 2,8%, Goldman Sachs 2,7% (julio), FMI 2,1%, Banco Mundial 2,1%, J.P. Morgan 1,5% y la mediana del REM 1,5%.">
+<text x="330" y="45" class="clB" text-anchor="end">Itaú</text>
+<text x="330" y="62" class="cl" text-anchor="end">informe del 26/06/2026</text>
+<rect x="345" y="30" width="490.0" height="34" fill="#8A847C"><title>Itaú: 3,5%</title></rect>
+<text x="843.0" y="53" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">3,5%</text>
+<text x="330" y="95" class="clB" text-anchor="end">BBVA Research</text>
+<text x="330" y="112" class="cl" text-anchor="end">octubre de 2026, “con sesgo a la baja”</text>
+<rect x="345" y="80" width="420.0" height="34" fill="#0E7C86"><title>BBVA Research: 3,0%</title></rect>
+<text x="773.0" y="103" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">3,0%</text>
+<text x="330" y="145" class="clB" text-anchor="end">Morgan Stanley</text>
+<text x="330" y="162" class="cl" text-anchor="end">según iProfesional y BAE, 09/09/2026</text>
+<rect x="345" y="130" width="392.0" height="34" fill="#8A847C"><title>Morgan Stanley: 2,8%</title></rect>
+<text x="745.0" y="153" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">2,8%</text>
+<text x="330" y="195" class="clB" text-anchor="end">Goldman Sachs</text>
+<text x="330" y="212" class="cl" text-anchor="end">según MercoPress y Economis, 07/2026</text>
+<rect x="345" y="180" width="378.0" height="34" fill="#8A847C"><title>Goldman Sachs: 2,7%</title></rect>
+<text x="731.0" y="203" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">2,7%</text>
+<text x="330" y="245" class="clB" text-anchor="end">FMI</text>
+<text x="330" y="262" class="cl" text-anchor="end">Perspectivas, 13/10/2026</text>
+<rect x="345" y="230" width="294.0" height="34" fill="#C4701F"><title>FMI: 2,1%</title></rect>
+<text x="647.0" y="253" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">2,1%</text>
+<text x="330" y="295" class="clB" text-anchor="end">Banco Mundial</text>
+<text x="330" y="312" class="cl" text-anchor="end">actualización regional, 06/10/2026</text>
+<rect x="345" y="280" width="294.0" height="34" fill="#C4701F"><title>Banco Mundial: 2,1%</title></rect>
+<text x="647.0" y="303" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">2,1%</text>
+<text x="330" y="345" class="clB" text-anchor="end">J.P. Morgan</text>
+<text x="330" y="362" class="cl" text-anchor="end">según Perfil y Crónica, 27-28/09/2026</text>
+<rect x="345" y="330" width="210.0" height="34" fill="#0E7C86"><title>J.P. Morgan: 1,5%</title></rect>
+<text x="563.0" y="353" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">1,5%</text>
+<text x="330" y="395" class="clB" text-anchor="end">Consenso REM (44)</text>
+<text x="330" y="412" class="cl" text-anchor="end">BCRA, relevamiento de septiembre</text>
+<rect x="345" y="380" width="210.0" height="34" fill="#C0392B"><title>Consenso REM (44): 1,5%</title></rect>
+<text x="563.0" y="403" style="font-family:var(--mono);font-size:15px;font-weight:600;fill:#1A1A1A">1,5%</text>
+<line x1="345" y1="20" x2="345" y2="436" stroke="#5B564F" stroke-width="1"/>
+<text x="345" y="460" class="cl">Gris: publicado antes del 24/09/2026, cuando el INDEC informó la caída de la actividad de julio.</text>
+</svg>
+      <figcaption><b>Fuente:</b> BCRA (REM de septiembre de 2026), FMI, Banco Mundial (vía Buenos Aires Times y The Rio Times), informes de BBVA Research e Itaú, y lo publicado por dos medios sobre los informes de J.P. Morgan, Morgan Stanley y Goldman Sachs. Gráfico propio.</figcaption>
+    </figure>
+
+    <h3 class="sub">Lo que dicen el FMI y el Banco Mundial</h3>
+    <p>En su informe de Perspectivas de la Economía Mundial del 13 de octubre, el FMI proyecta para la Argentina un crecimiento de <b>2,1% en 2026</b> y 3,5% en 2027, una inflación de 29,5% de diciembre a diciembre (32,5% en promedio anual) y una desocupación de 7,6%, según su <a href="https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/ARG">base de datos</a> y lo que informó <a href="https://www.infobae.com/economia/2026/10/13/el-fmi-volvio-a-recortar-sus-previsiones-de-crecimiento-para-la-argentina/">Infobae</a>. Hace un año, en octubre de 2025, el Fondo esperaba para 2026 un crecimiento de 4% y una inflación promedio de 16,4%, según <a href="https://batimes.com.ar/news/economy/imf-downgrades-argentina-2025-growth-forecast-to-45.phtml">Buenos Aires Times</a> e Infobae. En abril de 2026 ya lo había bajado a 3,5%.</p>
+    <p>El Banco Mundial bajó el 6 de octubre su proyección para 2026 de 3,6% a <b>2,1%</b> y la de 2027 a 3%, según <a href="https://batimes.com.ar/news/economy/argentinas-economy-to-grow-21-this-year-predicts-world-bank.phtml">Buenos Aires Times</a> y <a href="https://www.riotimesonline.com/world-bank-argentina-growth-forecast-2026/">The Rio Times</a>; el 3,6% de junio todavía figura en su <a href="https://www.worldbank.org/ext/en/country/argentina">página sobre la Argentina</a>. Los dos organismos quedaron 0,6 puntos arriba de J.P. Morgan y del consenso.</p>
+
+    <h3 class="sub">¿Acertaron?</h3>
+    <p><b>Con 2025, que ya se cerró.</b> El REM de octubre de 2025 se hizo cuando faltaban dos meses para terminar el año. Aun así, esperaba un crecimiento de 3,9% y fue de <b>4,5%</b>; una inflación de 29,6% y fue de <b>31,5%</b>; un dólar de $1.500 en diciembre y fue de <b>$1.447,84</b>. Erró por poco: se quedó corto con el crecimiento y con la inflación, y esperaba un dólar más caro del que hubo. Los dos últimos errores se repiten en 2026.</p>
+    <p><b>Con 2026, que todavía no se cerró.</b> La inflación ya pasó el pronóstico de hace un año: 23,6% en nueve meses contra 18,7% para los doce. El dólar está por debajo: $1.515,85 contra $1.744 esperados para diciembre. El crecimiento todavía no se puede juzgar: en el primer semestre la economía estuvo 2,2% arriba del mismo período de 2025, y el año se mide recién en marzo de 2027.</p>
+    <table class="tb tb-stack">
+      <tr><th>Variable</th><th>Esperaba el REM en oct-2025</th><th>Pasó (INDEC y BCRA)</th></tr>
+      <tr><td class="n">Crecimiento 2025</td><td data-label="Esperado">3,9%</td><td data-label="Pasó">4,5%</td></tr>
+      <tr><td class="n">Inflación 2025</td><td data-label="Esperado">29,6%</td><td data-label="Pasó">31,5%</td></tr>
+      <tr><td class="n">Dólar, promedio de diciembre de 2025</td><td data-label="Esperado">$1.500</td><td data-label="Pasó">$1.447,84</td></tr>
+      <tr><td class="n">Inflación 2026</td><td data-label="Esperado">18,7% en el año</td><td data-label="Pasó">23,6% de enero a septiembre</td></tr>
+      <tr><td class="n">Inflación de enero a abril de 2026</td><td data-label="Esperado">7,0%</td><td data-label="Pasó">12,3%</td></tr>
+      <tr><td class="n">Dólar, diciembre de 2026</td><td data-label="Esperado">$1.744</td><td data-label="Pasó">$1.515,85 el 13/10/2026</td></tr>
+    </table>
+    <p><b>¿Y los bancos, uno por uno?</b> El Banco Central no publica qué contestó cada participante del REM, pero sí un <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-ranking.xlsx">ranking mensual</a> con los diez que mejor pronosticaron cada variable en los meses anteriores. Contamos los 12 rankings publicados entre octubre de 2025 y septiembre de 2026, 85 listas en total. J.P. Morgan entró 11 veces entre los diez primeros y salió primero 5 veces, cuatro en exportaciones y una en resultado fiscal; ninguna en inflación ni en dólar. Santander entró 36 veces, Banco Galicia 29, ICBC 26, BBVA 18 e Itaú 4. Morgan Stanley y Barclays, que también están en el listado de participantes, no aparecen en ninguna.</p>
+
+    <h3 class="sub">Qué quedó sin contestar</h3>
+    <p>Los informes de J.P. Morgan, Goldman Sachs, Morgan Stanley, Citi, Bank of America y Barclays son para sus clientes. Lo que circula de ellos son fragmentos que reproducen los diarios. De Citi, Bank of America y Barclays encontramos cifras solo en un medio, o en medios con muro de pago, o en encuestas que agregan muchos pronósticos: no llegan a nuestra vara y no las publicamos como dato. Tampoco sabemos qué contestó cada banco en el REM: el Banco Central publica el promedio, la mediana y el ranking, no las respuestas individuales.</p>
+  </div>
+
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación de la cifra ancla: estadística oficial recalculada, con contraste independiente.</b> El 1,5% figura en el <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-2026-09.pdf">informe del REM de septiembre de 2026</a> (pág. 3: “un nivel de PIB real 1,5% superior al promedio de 2025”, 44 participantes, publicado el 06/10/2026). Lo volvimos a leer en las <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-tablas-2026-09.xlsx">tablas</a> y en la <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-historico.xlsx">base histórica</a> del BCRA (mediana 1,5; percentil 10: 0,833; percentil 90: 2,24; 44 respuestas), de donde sacamos también la serie de los 12 relevamientos. El contraste independiente es J.P. Morgan: 1,5%, según dos medios que no se citan entre sí. El FMI (2,1%) y el Banco Mundial (2,1%) confirman la dirección y el orden de magnitud. Las proyecciones son eso: proyecciones, no hechos.</p>
+      <p><b>Hace un año.</b> Los valores del REM de octubre de 2025 (3,0% de crecimiento, 18,65% de inflación, $1.744,42 por dólar para 2026; 3,9%, 29,6% y $1.500 para 2025) salen de la base histórica del BCRA. El <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/relevamiento-expectativas-mercado-oct-2025.pdf">informe de ese mes</a> (publicado el 07/11/2025) confirma los de 2025, y <a href="https://www.lagaceta.com.ar/nota/1111647/economia/analistas-consultados-bcra-proyectaron-inflacion-octubre-se-ubicaria-torno-al-22porciento.html">La Gaceta</a> publicó ese día el 18,7% para 2026.</p>
+      <p><b>Lo que pasó.</b> Inflación: <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipc_10_268C45A9444C.pdf">informe del IPC de septiembre</a> (1,9% en el mes y 23,6% en el año), recalculado con la <a href="https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv">serie del INDEC</a>: índice nacional 10.121,3715 en dic-25 y 12.514,1508 en sep-26 = 23,64%; dic-24 a dic-25 = 31,55%; ene-abr 2026 = 12,27%, contra 1,018 × 1,017 × 1,0177 × 1,0155 = 7,0% que esperaba el REM de octubre de 2025. Crecimiento: <a href="https://www.indec.gob.ar/ftp/cuadros/economia/sh_oferta_demanda_09_26.xls">cuadro 1 de oferta y demanda del INDEC</a>: 739.728,7 millones de pesos de 2004 en 2025 contra 707.987,9 en 2024 = +4,48% (provisorio); primer semestre de 2026 contra el de 2025 = +2,18%. Dólar: tipo de cambio de referencia del BCRA (<a href="https://api.bcra.gob.ar/estadisticas/v4.0/Monetarias/5">API, variable 5</a>): promedio de diciembre de 2025, $1.447,84 (19 ruedas); 13/10/2026, $1.515,85.</p>
+      <p><b>Los bancos.</b> BBVA e Itaú: leímos sus informes en PDF; el cuadro de BBVA de octubre da 3,0 / 29,0 / 1.630 para 2026 (el texto da $1.615 para el promedio de diciembre). J.P. Morgan, Morgan Stanley y Goldman Sachs: cada cifra aparece igual en dos medios que no se citan entre sí; no damos ninguna que aparezca en uno solo. El <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-listado.pdf">listado de participantes del REM</a> (febrero de 2026, 57 habilitados) incluye a J.P. Morgan, Morgan Stanley, Barclays, BBVA, Itaú y Santander; no dice quién respondió cada mes. El conteo del ranking es propio, sobre las hojas “REM Oct-25” a “REM Sep-26” de la planilla del BCRA, que sigue su <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-metodologia.pdf">metodología</a>.</p>
+      <p><b>Qué no afirmamos.</b> No decimos qué banco tiene razón sobre el futuro. No damos cifras de Citi, Bank of America ni Barclays, ni los recortes de Goldman Sachs de septiembre: ninguno pasa la doble fuente. No incluimos recomendaciones de inversión de ningún informe.</p>
+      <div class="meta"><span>Fuentes <b>REM del BCRA · INDEC · FMI · Banco Mundial · BBVA · Itaú · prensa</b></span><span>Verificación <b>estadística oficial recalculada con contraste</b></span></div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>Estos pronósticos no son solo opiniones de economistas: con ellos se fijan tasas, se negocian salarios y se arman presupuestos. El <a href="https://www.mecon.gob.ar/onp/documentos/presutexto/proy2027/mensaje/mensaje2027.pdf">proyecto de Presupuesto 2027</a> supone 3% de crecimiento para este año, el doble de lo que espera hoy el consenso. Y que el mismo consenso haya tenido que subir en más de 11 puntos su pronóstico de inflación en un año es una advertencia sobre cuánto confiar en el número que circula hoy.</p>
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si negociás sueldo o paritaria,</b> la referencia del consenso es 30% de inflación para todo 2026, y ya va 23,6%. Para llegar a ese 30% los precios tendrían que subir 1,7% por mes hasta diciembre. Hace un año, el mismo consenso decía 18,7%.</p>
+      <p data-perfil="trabajador"><b>Si buscás trabajo,</b> menos crecimiento suele venir con menos empleo: el consenso espera que la desocupación cierre el año en 7,7%, contra 7,1% que esperaba hace un año.</p>
+      <p data-perfil="ahorrista"><b>Si seguís el dólar,</b> la mediana espera $1.614 para diciembre, 6,5% arriba del valor del 13 de octubre. Hace un año esperaba $1.744 y se equivocó. Es una expectativa, no un precio garantizado.</p>
+    </div>
+  </div>
+
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Qué es el REM y quiénes responden <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>El Relevamiento de Expectativas de Mercado es una encuesta que el Banco Central hace todos los meses, los últimos tres días hábiles, y publica a principios del mes siguiente. Pregunta por inflación, tasas, dólar, actividad, desocupación, comercio exterior y resultado fiscal. Responden consultoras, centros de investigación y bancos, locales y extranjeros. En el listado de habilitados de febrero de 2026 figuran, entre otros, J.P. Morgan, Morgan Stanley, Barclays, BNP Paribas, Itaú, BBVA, Santander, ICBC y Capital Economics. Goldman Sachs, Citi y Bank of America no están.</p>
+      <p>Nuestras notas anteriores sobre el REM: <a href="../articulos/2026-10-06-rem-crecimiento-2026-mitad-presupuesto.html">el crecimiento esperado, la mitad del Presupuesto</a> y <a href="../articulos/2026-07-22-rem-bcra-dolar-proyeccion.html">el dólar que proyectaba en julio</a>.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Por qué no publicamos lo que “dijo J.P. Morgan” en cada titular <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Los informes de los grandes bancos se mandan a sus clientes y no están en internet. Cuando un diario dice “J.P. Morgan recortó su proyección”, reproduce un fragmento que le llegó. Para nosotros, una cifra de un banco entra solo si el banco la publicó, si la dijo un economista suyo con nombre o si dos medios que no se citan entre sí la publican igual. Aun así va como proyección, nunca como hecho.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-2026-09.pdf">Relevamiento de Expectativas de Mercado, septiembre de 2026</a> (publicado el 06/10/2026) y sus <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-tablas-2026-09.xlsx">tablas</a></li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/relevamiento-expectativas-mercado-oct-2025.pdf">Relevamiento de Expectativas de Mercado, octubre de 2025</a> (publicado el 07/11/2025)</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-historico.xlsx">REM: base histórica de resultados</a></li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-ranking.xlsx">Rankings del REM</a> (hojas de octubre de 2025 a septiembre de 2026) y su <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-metodologia.pdf">metodología</a></li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/archivos/Pdfs/PublicacionesEstadisticas/informes/relevamiento-expectativas-mercado-listado.pdf">Participantes habilitados del REM</a>, febrero de 2026</li>
+        <li>&#8250; BCRA — <a href="https://api.bcra.gob.ar/estadisticas/v4.0/Monetarias/5">Tipo de cambio de referencia (Com. A 3500)</a>, API de estadísticas</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/ipc_10_268C45A9444C.pdf">Índice de precios al consumidor, septiembre de 2026</a> y <a href="https://www.indec.gob.ar/ftp/cuadros/economia/serie_ipc_divisiones.csv">serie nacional por divisiones</a></li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/ftp/cuadros/economia/sh_oferta_demanda_09_26.xls">Oferta y demanda globales, segundo trimestre de 2026</a> (cuadro 1)</li>
+        <li>&#8250; FMI — <a href="https://www.imf.org/external/datamapper/NGDP_RPCH@WEO/ARG">Perspectivas de la Economía Mundial, octubre de 2026: Argentina</a> (crecimiento, inflación y desocupación)</li>
+        <li>&#8250; Banco Mundial — <a href="https://www.worldbank.org/ext/en/country/argentina">Argentina: panorama general</a> y <a href="https://www.worldbank.org/en/news/press-release/2026/10/06/latin-america-caribbean-economic-update">actualización económica de América Latina, 06/10/2026</a></li>
+        <li>&#8250; BBVA Research — <a href="https://www.bbvaresearch.com/wp-content/uploads/2026/10/Editorial_Situacion_Argentina_Octubre_2026.pdf">Situación Argentina, octubre de 2026</a></li>
+        <li>&#8250; BBVA Research — <a href="https://www.bbvaresearch.com/wp-content/uploads/2025/12/Editorial_Situacion_Argentina_Diciembre_2025.pdf">Situación Argentina, diciembre de 2025</a></li>
+        <li>&#8250; Itaú — <a href="https://macroattachment.cloud.itau.com.br/attachments/55f4f40b-049d-427d-a262-95a2f0f62976/MacroScenario-AR_Jun26.pdf">Macro Scenario Argentina, 26/06/2026</a></li>
+        <li>&#8250; Itaú — <a href="https://macroattachment.cloud.itau.com.br/attachments/cb8f2051-ed9d-45b8-a122-65723eff1c93/MacroScenario-ARG_Dec25.pdf">Macro Scenario Argentina, diciembre de 2025</a></li>
+        <li>&#8250; Ministerio de Economía — <a href="https://www.mecon.gob.ar/onp/documentos/presutexto/proy2027/mensaje/mensaje2027.pdf">Mensaje del proyecto de Presupuesto 2027</a></li>
+        <li>&#8250; Perfil — <a href="https://www.perfil.com/noticias/economia/jp-morgan-cambio-su-pronostico-para-la-argentina-en-apenas-cuatro-dias-y-ahora-anticipa-una-recesion.phtml">JP Morgan cambió su pronóstico para la Argentina</a>, 27/09/2026</li>
+        <li>&#8250; Crónica — <a href="https://www.cronica.com.ar/politica/jp-morgan-recorto-su-proyeccion-para-la-economia-argentina-y-aseguro-que-julio-tuvo-el-peor-desempeno-mensual-desde-la-pandemia/">JP Morgan recortó su proyección para la economía argentina</a>, 28/09/2026</li>
+        <li>&#8250; CFIN — <a href="https://www.cfin.com.ar/economia/jp-morgan-recorto-proyeccion-crecimiento-argentina-2026/">JP Morgan recortó su proyección de crecimiento</a>, 27/09/2026</li>
+        <li>&#8250; iProfesional — <a href="https://www.iprofesional.com/finanzas/464152-morgan-stanley-estimo-el-precio-del-dolar-a-fin-de-ano-en-argentina">Morgan Stanley estimó el precio del dólar a fin de año</a>, 09/09/2026</li>
+        <li>&#8250; BAE Negocios — <a href="https://www.baenegocios.com/economia/morgan-stanley-le-puso-precio-al-dolar-de-fin-de-ano-a-cuanto-estaria/">Morgan Stanley le puso precio al dólar de fin de año</a></li>
+        <li>&#8250; MercoPress — <a href="https://es.mercopress.com/2026/07/25/goldman-sachs-recorta-al-2-7-su-proyeccion-de-crecimiento-para-argentina-y-mira-a-las-elecciones">Goldman Sachs recorta al 2,7% su proyección de crecimiento</a>, 25/07/2026</li>
+        <li>&#8250; Economis — <a href="https://economis.com.ar/goldman-sachs-recorto-sus-proyecciones-de-crecimiento-para-la-argentina/">Goldman Sachs recortó sus proyecciones de crecimiento para la Argentina</a></li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/economia/2026/10/13/el-fmi-volvio-a-recortar-sus-previsiones-de-crecimiento-para-la-argentina/">El FMI volvió a recortar sus previsiones de crecimiento para la Argentina</a>, 13/10/2026</li>
+        <li>&#8250; Buenos Aires Times — <a href="https://batimes.com.ar/news/economy/imf-downgrades-argentina-2025-growth-forecast-to-45.phtml">IMF downgrades Argentina 2025 growth forecast</a>, 14/10/2025</li>
+        <li>&#8250; Buenos Aires Times — <a href="https://batimes.com.ar/news/economy/argentinas-economy-to-grow-21-this-year-predicts-world-bank.phtml">Argentina’s economy to grow 2.1% this year, predicts World Bank</a>, 06/10/2026</li>
+        <li>&#8250; The Rio Times — <a href="https://www.riotimesonline.com/world-bank-argentina-growth-forecast-2026/">World Bank cuts Argentina growth forecast</a>, 06/10/2026</li>
+        <li>&#8250; La Gaceta — <a href="https://www.lagaceta.com.ar/nota/1111647/economia/analistas-consultados-bcra-proyectaron-inflacion-octubre-se-ubicaria-torno-al-22porciento.html">Analistas consultados por el BCRA proyectaron la inflación de octubre</a>, 07/11/2025</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: inflación acumulada, crecimiento anual y semestral, promedios del dólar, conteo de los rankings del REM y gráficos.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 14/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>

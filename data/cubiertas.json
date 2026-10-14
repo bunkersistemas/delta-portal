@@ -4193,6 +4193,14 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
+    },
+    {
+      "tema": "¿qué dicen JP Morgan y los grandes bancos sobre la economía argentina? (pedido de lector 102) / REM BCRA: oct-25 para 2026 PBI 3,0, IPC 18,65, TC dic-26 1.744,42, PBI 2027 3,2, desocup. IV-26 7,13; sep-26 PBI 1,5 (P10 0,833, P90 2,24, n 44), IPC 30,0 (P10 29,07, P90 30,7), TC 1.614,32, PBI 2027 2,47, desocup. 7,7; serie PBI 2026 por relevamiento 3,0/3,38/3,5/3,24/3,40/3,3/2,8/2,91/3,0/2,65/2,1/1,5; IPC 2026 18,65/19,62/20,15/22,42/26,05/29,13/30,5/30,5/30,02/29,79/30,0/30,0. REM oct-25 para 2025: PBI 3,9 (INDEC 4,48), IPC 29,6 (INDEC 31,55), TC dic-25 1.500 (A3500 prom. 1.447,84). IPC ene-sep 2026 23,64% (10.121,3715 -> 12.514,1508), ene-abr 12,27% vs 7,0% esperado; A3500 13/10/2026 1.515,85; PBI 1S-26 +2,18% i.a. FMI WEO oct-26: PBI 2026 2,1, 2027 3,5, IPC fdp 29,5 / prom. 32,5, desocup. 7,6 (oct-25: 4,0 y 16,4 prom.). Banco Mundial 06/10: 2,1 y 3,0 (jun 3,6). J.P. Morgan fines sep-26: PBI 2026 2,7 -> 1,5, 2027 2,5 (Perfil, Crónica, CFIN). Morgan Stanley sep-26: TC 1.671,10 / 1.983,20, IPC 29 / 21, PBI 2,8 / 2,7 (iProfesional, BAE). Goldman jul-26: PBI 3 -> 2,7, IPC ~29 (MercoPress, Economis). BBVA oct-26 (PDF): PBI 3,0 con sesgo a la baja, IPC 29, TC 1.630 (31/12; 1.615 prom. dic), 2027 3,0/20/2.040; dic-25: 3,0/14/1.730. Itaú (PDF) dic-25: 3,5/20/1.700; jun-26: 3,5/30/1.600. Rankings REM oct-25 a sep-26 (85 listas top 10): JP Morgan 11 top 10, 5 primeros (4 exportaciones, 1 fiscal); Santander 36, Galicia 29, ICBC 26, BBVA 18, Itaú 4; Morgan Stanley y Barclays 0.",
+      "angulo": "Corrida del pedido de lector 102 (enfoque aprobado por el lector, sin comentarios), 14/10/2026. Las cuatro capas del enfoque: bancos con nombre (solo PDF propio o dos medios independientes; Citi, BofA y Barclays sin cifras que pasen la vara; recortes de Goldman de septiembre solo en El Cronista con muro), consenso REM con la serie de 12 relevamientos, contraste FMI/Banco Mundial y '¿acertaron?' (2025 cerrado con INDEC/BCRA; 2026 parcial). Hallazgo: el consenso subestimó la inflación y sobreestimó el dólar en 2025 y en 2026; en 2026 además sobreestimó el crecimiento. Ranking del BCRA contado por banco. Ancla por estadística oficial (REM) con contraste independiente (J.P. Morgan vía dos medios). Ángulo nuevo frente a la nota del REM del 06/10 (enlazada): bancos con nombre, FMI de octubre y la comparación con hace un año. Sin recomendaciones de inversión.",
+      "fecha": "2026-10-14",
+      "estado": "en_cola",
+      "articulo_id": "2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina",
+      "archivo": "cola/2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina.html"
     }
   ]
 }

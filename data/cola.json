@@ -1,5 +1,24 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-14T12:30:00-03:00",
-  "borradores": []
+  "actualizado": "2026-10-14T15:30:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina",
+      "titulo": "¿Qué dicen JP Morgan y los grandes bancos sobre cómo viene la economía argentina?",
+      "titulo_busqueda": "¿Qué dice JP Morgan de la economía argentina? Lo que proyectan los bancos para 2026",
+      "bajada": "J.P. Morgan y la mediana de los 44 bancos y consultoras que encuesta el Banco Central esperan ahora que la economía crezca 1,5% en 2026, la mitad del 3% que esperaba ese consenso hace un año. Con la inflación pasó al revés: esperaban 18,7% para todo el año y a septiembre ya va 23,6%. Qué dijo cada banco que se puede verificar, qué dicen el FMI y el Banco Mundial, cuánto acertaron y qué informes son solo para clientes.",
+      "seccion": "ECONOMÍA",
+      "formato": "Investigación",
+      "numero": "1,5%",
+      "numero_label": "crecimiento del PBI que esperan para 2026 la mediana del REM del BCRA de septiembre de 2026 (44 participantes, publicado el 06/10/2026; P10 0,833 y P90 2,24) y J.P. Morgan (informe de fines de septiembre, según Perfil, Crónica y CFIN); hace un año, en el REM de octubre de 2025, el consenso esperaba 3,0%. FMI (13/10/2026) y Banco Mundial (06/10/2026): 2,1%",
+      "fecha": "2026-10-14",
+      "hora": "15:30",
+      "archivo": "cola/2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina.html",
+      "verificacion": "verificada",
+      "fuentes": 28,
+      "lectura": "30 seg → 10 min",
+      "pedido": 102,
+      "revision_lector": true
+    }
+  ]
 }
