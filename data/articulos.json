@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-14T12:39:21-03:00",
+    "actualizado": "2026-10-14T14:56:54-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina",
+      "titulo": "¿Qué dicen JP Morgan y los grandes bancos sobre cómo viene la economía argentina?",
+      "bajada": "Hace un año, los bancos y consultoras que encuesta el Banco Central esperaban que en 2026 la economía creciera 3% y los precios subieran 18,7%. Hoy esperan la mitad de crecimiento, 1,5%, lo mismo que J.P. Morgan, y la inflación ya va 23,6% en nueve meses. Esta es la historia de cómo se dieron vuelta esos pronósticos, mes a mes y banco por banco.",
+      "titulo_busqueda": "¿Qué dice JP Morgan de la economía argentina? Lo que proyectan los bancos para 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Investigación",
+      "numero": "1,5%",
+      "numero_label": "crecimiento del PBI que esperan para 2026 la mediana del REM del BCRA de septiembre de 2026 (44 participantes, publicado el 06/10/2026; P10 0,833 y P90 2,24) y J.P. Morgan (informe de fines de septiembre, según Perfil, Crónica y CFIN); hace un año, en el REM de octubre de 2025, el consenso esperaba 3,0%. FMI (13/10/2026) y Banco Mundial (06/10/2026): 2,1%",
+      "fecha": "2026-10-14",
+      "hora": "15:30",
+      "archivo": "articulos/2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina.html",
+      "verificacion": "verificada",
+      "fuentes": 28,
+      "lectura": "30 seg → 10 min",
+      "pedido": 102
+    },
     {
       "id": "2026-10-14-bid-prestamo-subsidio-gas",
       "titulo": "El BID le presta US$500 millones al Estado para pagar el subsidio al gas: 98,9 de cada 100 dólares van a descuentos en facturas y garrafas",
