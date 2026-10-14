@@ -1,24 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-10-14T14:30:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-10-14-bcra-oro-reservas-perdiendo",
-      "titulo": "¿El Banco Central está perdiendo el oro de sus reservas?",
-      "titulo_busqueda": "¿El BCRA está perdiendo el oro? Cuánto tiene, cuánto vale y dónde está",
-      "bajada": "No: tiene 1,98 millones de onzas, unas 61,7 toneladas, las mismas que a fines de 2020, y hoy valen US$8.157 millones, más del doble. Lo que sí hubo fue una pérdida con contratos sobre el precio del oro: US$1.023 millones en 2025, según la Auditoría General de la Nación. El BCRA responde que, sumada la suba del metal, ganó US$2.505 millones. Dónde están los lingotes no es público.",
-      "seccion": "MERCADOS",
-      "formato": "Investigación",
-      "numero": "1,98 millones de onzas",
-      "numero_label": "oro de las reservas del BCRA al 31/12/2025 (1.984,96 miles de onzas troy, nota 4.1.1 de los estados contables), unas 61,74 toneladas: la misma cantidad que al cierre de 2020, 2022, 2023 y 2024 (en 2021, 1.760,96 por operaciones a plazo que volvieron en enero de 2022). Recalculado con el balance semanal del 07/10/2026 ($12.404.958.392 miles / A3500 1.520,7136 / US$4.110,22 = 1,98 M oz, US$8.157 M) y contrastado con el Consejo Mundial del Oro (61,74 t, 2do trim. 2026)",
-      "fecha": "2026-10-14",
-      "hora": "14:30",
-      "archivo": "cola/2026-10-14-bcra-oro-reservas-perdiendo.html",
-      "verificacion": "verificada",
-      "fuentes": 17,
-      "lectura": "30 seg → 9 min",
-      "pedido": 101,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }

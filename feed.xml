@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 14 Oct 2026 11:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 12:11:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿El Banco Central está perdiendo el oro de sus reservas?</title>
+      <link>https://coninteres.com/articulos/2026-10-14-bcra-oro-reservas-perdiendo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-14-bcra-oro-reservas-perdiendo.html</guid>
+      <pubDate>Wed, 14 Oct 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>No: tiene 1,98 millones de onzas, unas 61,7 toneladas, las mismas que a fines de 2020, y hoy valen US$8.157 millones, más del doble. Lo que sí hubo fue una pérdida con contratos sobre el precio del oro: US$1.023 millones en 2025, según la Auditoría General de la Nación. El BCRA responde que, sumada la suba del metal, ganó US$2.505 millones. Dónde están los lingotes no es público.</description>
+      <ci:numero>1,98 millones de onzas</ci:numero>
+      <ci:numeroEtiqueta>oro de las reservas del BCRA al 31/12/2025 (1.984,96 miles de onzas troy, nota 4.1.1 de los estados contables), unas 61,74 toneladas: la misma cantidad que al cierre de 2020, 2022, 2023 y 2024 (en 2021, 1.760,96 por operaciones a plazo que volvieron en enero de 2022). Recalculado con el balance semanal del 07/10/2026 ($12.404.958.392 miles / A3500 1.520,7136 / US$4.110,22 = 1,98 M oz, US$8.157 M) y contrastado con el Consejo Mundial del Oro (61,74 t, 2do trim. 2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-bcra-oro-reservas-perdiendo.png" length="60634" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-bcra-oro-reservas-perdiendo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>¿Cómo fue la vida económica de Jorge “Locomotora” Castro, del ring a los comedores?</title>
       <link>https://coninteres.com/articulos/2026-10-14-locomotora-castro-vida-economica-boxeo-comedores.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>pensión mensual vitalicia de un medallista olímpico de oro, octubre de 2026 (tres haberes mínimos)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-pension-medallistas-olimpicos-cuanto-cobran.png" length="68957" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-pension-medallistas-olimpicos-cuanto-cobran.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El colectivo cuesta $2.150 en Rosario y en Córdoba: 2,9 veces lo que paga un pasajero de una línea nacional del AMBA</title>
-      <link>https://coninteres.com/articulos/2026-10-11-boleto-colectivo-rosario-cordoba-amba.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-11-boleto-colectivo-rosario-cordoba-amba.html</guid>
-      <pubDate>Sun, 11 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Desde el 5 de octubre el boleto básico de colectivo en Rosario cuesta $2.150, lo mismo que en Córdoba desde julio. Una línea nacional del AMBA cobra $742,81 por un viaje de hasta 3 km con la SUBE registrada: el pasajero del interior paga 2,9 veces más. En noviembre de 2024 la distancia era de 3,2 veces.</description>
-      <ci:numero>2,9 veces</ci:numero>
-      <ci:numeroEtiqueta>lo que cuesta el boleto básico en Rosario (desde el 05/10/2026, Municipalidad de Rosario) y en Córdoba (desde el 18/07/2026, Municipalidad de Córdoba), $2.150, frente al mínimo de una línea nacional del AMBA, $742,81 (0-3 km, SUBE registrada; argentina.gob.ar y Red SUBE); contraste AAETA vía Infobae 11/10/2026: 2.150, 2.150 y 743</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-11-boleto-colectivo-rosario-cordoba-amba.png" length="83537" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-11-boleto-colectivo-rosario-cordoba-amba.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-14T11:41:12-03:00",
+    "actualizado": "2026-10-14T12:11:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-14-bcra-oro-reservas-perdiendo",
+      "titulo": "¿El Banco Central está perdiendo el oro de sus reservas?",
+      "bajada": "No: tiene 1,98 millones de onzas, unas 61,7 toneladas, las mismas que a fines de 2020, y hoy valen US$8.157 millones, más del doble. Lo que sí hubo fue una pérdida con contratos sobre el precio del oro: US$1.023 millones en 2025, según la Auditoría General de la Nación. El BCRA responde que, sumada la suba del metal, ganó US$2.505 millones. Dónde están los lingotes no es público.",
+      "titulo_busqueda": "¿El BCRA está perdiendo el oro? Cuánto tiene, cuánto vale y dónde está",
+      "seccion": "MERCADOS",
+      "formato": "Investigación",
+      "numero": "1,98 millones de onzas",
+      "numero_label": "oro de las reservas del BCRA al 31/12/2025 (1.984,96 miles de onzas troy, nota 4.1.1 de los estados contables), unas 61,74 toneladas: la misma cantidad que al cierre de 2020, 2022, 2023 y 2024 (en 2021, 1.760,96 por operaciones a plazo que volvieron en enero de 2022). Recalculado con el balance semanal del 07/10/2026 ($12.404.958.392 miles / A3500 1.520,7136 / US$4.110,22 = 1,98 M oz, US$8.157 M) y contrastado con el Consejo Mundial del Oro (61,74 t, 2do trim. 2026)",
+      "fecha": "2026-10-14",
+      "hora": "14:30",
+      "archivo": "articulos/2026-10-14-bcra-oro-reservas-perdiendo.html",
+      "verificacion": "verificada",
+      "fuentes": 17,
+      "lectura": "30 seg → 9 min",
+      "pedido": 101
+    },
     {
       "id": "2026-10-14-locomotora-castro-vida-economica-boxeo-comedores",
       "titulo": "¿Cómo fue la vida económica de Jorge “Locomotora” Castro, del ring a los comedores?",
