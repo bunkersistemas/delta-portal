@@ -1,5 +1,24 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-14T01:30:00-03:00",
-  "borradores": []
+  "actualizado": "2026-10-14T12:30:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-10-14-locomotora-castro-vida-economica-boxeo-comedores",
+      "titulo": "¿Cómo fue la vida económica de Jorge “Locomotora” Castro, del ring a los comedores?",
+      "titulo_busqueda": "¿Cuánto ganó Locomotora Castro con el boxeo y quién financiaba sus comedores?",
+      "bajada": "Hizo 144 peleas en 20 años y fue campeón mundial mediano de la AMB entre 1994 y 1995, pero lo que cobró no figura en ningún registro público que hayamos podido consultar: lo que hay son sus propias palabras. Dijo que por su primera defensa del título le pagaron 50.000 dólares, que hoy serían unos 112.500. Sus comedores llegaron a 14, más 9 merenderos; según él, los sostenían la Provincia, fábricas y donantes, y la ayuda de Nación se cortó.",
+      "seccion": "DEPORTES",
+      "formato": "Investigación",
+      "numero": "144 peleas",
+      "numero_label": "peleas profesionales de Jorge Fernando Castro entre 1987 y 2007: 130 ganadas (90 por nocaut), 11 perdidas y 3 empates (tabla de récord de 144 peleas y La Gaceta 14/10/2026; contraste UPI 2002: 119-8-3 antes de Jirov). Campeón mediano AMB 12/08/1994-19/12/1995. Ninguna bolsa en registro público; US$50.000 por la primera defensa es declaración suya (La Nación 19/05/2020): US$112.538 de septiembre de 2026 por CPI-U (149,7 -> 336,940, BLS)",
+      "fecha": "2026-10-14",
+      "hora": "12:30",
+      "archivo": "cola/2026-10-14-locomotora-castro-vida-economica-boxeo-comedores.html",
+      "verificacion": "verificada",
+      "fuentes": 15,
+      "lectura": "30 seg → 8 min",
+      "pedido": 100,
+      "revision_lector": true
+    }
+  ]
 }

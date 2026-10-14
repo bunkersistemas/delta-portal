@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Cuánto ganó Locomotora Castro con el boxeo y quién sostenía sus comedores? — CON INTERÉS</title>
+<meta name="description" content="Jorge 'Locomotora' Castro hizo 144 peleas y fue campeón mundial mediano, pero sus bolsas no figuran en ningún registro público. Lo que se sabe de lo que cobró y de quién sostenía sus comedores.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .prose h3.sub{font-family:var(--serif);font-size:23px;font-weight:600;margin:34px 0 12px;line-height:1.25}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:470px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column;max-width:190px}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft);vertical-align:top}
+  table.tb td.n{font-family:var(--mono);white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+    table.tb-stack,table.tb-stack tbody,table.tb-stack tr,table.tb-stack td{display:block;width:100%}
+    table.tb-stack tr:first-child{display:none}
+    table.tb-stack tr{border:1px solid var(--grid);border-radius:10px;padding:10px 14px;margin:0 0 10px}
+    table.tb-stack td{border:0;padding:4px 0;text-align:left!important;white-space:normal}
+    table.tb-stack td::before{content:attr(data-label);display:block;font-family:var(--mono);font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);margin-bottom:1px}
+    table.tb-stack td:first-child{font-weight:600;color:var(--ink);font-size:15px}
+    table.tb-stack td:first-child::before{display:none}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+</style>
+</head>
+<body data-palette="#0E7C86,#C4701F,#C0392B,#2E8B6F">
+
+<div class="draft-ribbon"><b>BORRADOR</b> · Borrador generado por la redacción de agentes y pendiente de aprobación. No es una nota publicada.</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">DEPORTES <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Cómo fue la vida económica de Jorge “Locomotora” Castro, del ring a los comedores?</h1>
+
+  <p class="standfirst">Hizo 144 peleas en 20 años y fue campeón mundial mediano de la AMB entre 1994 y 1995, pero lo que cobró no figura en ningún registro público que hayamos podido consultar: lo que hay son sus propias palabras. Dijo que por su primera defensa del título le pagaron 50.000 dólares, que hoy serían unos 112.500. Sus comedores llegaron a 14, más 9 merenderos; según él, los sostenían la Provincia, fábricas y donantes, y la ayuda de Nación se cortó.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>14 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 8 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta qué hizo Castro arriba del ring y qué títulos ganó, lo que se sabe de lo que cobró en sus peleas más importantes, pasado a dólares de hoy, y quién sostenía la red de comedores que armó desde 2020. Contesta solo en parte: las bolsas de sus peleas no son públicas, y lo único que hay son cifras que dio él mismo, que contamos como dichos suyos y no como datos verificados. Lo mismo pasa con cuánta gente comía en sus comedores y quién ponía la comida; el registro nacional que podría haberlo mostrado se cerró en 2025. Quedan afuera su patrimonio, su herencia y las causas de su muerte, que se investigan.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">1m</span></button>
+      <button data-go="b3">En contexto <span class="t">4m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">144<span class="u">peleas</span></div>
+      <div class="cap">profesionales hizo Jorge Fernando Castro entre 1987 y 2007: <b>ganó 130, 90 de ellas por nocaut</b>, perdió 11 y empató 3. Fue campeón mundial mediano de la Asociación Mundial de Boxeo (AMB) desde agosto de 1994 hasta diciembre de 1995. <b>Ninguna de sus bolsas figura en un registro público</b> que hayamos podido consultar.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v">5</span><span class="k">peleas por el título mundial AMB como campeón: ganó las primeras 4 y perdió la quinta, en Tokio</span></div>
+        <div class="sr"><span class="v up">US$112.500</span><span class="k">valdrían hoy los US$50.000 que, según él, cobró por su primera defensa, en 1994</span></div>
+        <div class="sr"><span class="v dn">14 + 9</span><span class="k">comedores y merenderos que, según él, sostenía en 2025</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">Jorge Fernando Castro, “Locomotora” o “Roña”, murió en la madrugada de este miércoles 14 de octubre, a los 59 años, después de descompensarse en un bingo de Morón, <a href="https://www.lanacion.com.ar/deportes/boxeo/fallecio-el-excampeon-mundial-de-boxeo-jorge-el-rona-castro-nid14102026/">según informó La Nación</a>. Un lector nos pidió mirar la noticia desde la plata: cuánto ganó con el boxeo y cómo se financiaba la red de comedores que sostenía en el conurbano.</p>
+    <p>La primera mitad de la respuesta es incómoda: <b class="hl">las bolsas del boxeo no son información pública</b>. No figuran en el récord oficial de los boxeadores, y los registros de las comisiones atléticas de Estados Unidos, donde se anotan, no los encontramos en línea para las peleas de Castro. Lo que existe es el récord de su carrera, que sí está documentado, y lo que él contó en entrevistas. La segunda mitad tiene el mismo problema: cuánta gente comía en sus comedores y quién ponía la comida lo sabemos por sus propias palabras, porque no hay un listado oficial público de comedores ni de lo que recibe cada uno.</p>
+  </div>
+
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 class="sub">Veinte años arriba del ring</h3>
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Récord profesional de Jorge Fernando Castro · 1987 a 2007</div>
+        <h3>De 144 peleas, ganó 9 de cada 10, y casi dos de cada tres por nocaut</h3>
+        <p class="fig-sub">Resultado de cada una de sus 144 peleas profesionales, en cantidad de peleas.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 150" role="img" aria-label="Récord profesional de Jorge Castro, 144 peleas: 90 victorias por nocaut, 40 victorias por decisión, 11 derrotas y 3 empates.">
+<rect x="20.0" y="40" width="537.5" height="56" fill="#0E7C86"><title>Ganó por nocaut: 90</title></rect>
+<rect x="557.5" y="40" width="238.9" height="56" fill="#2E8B6F"><title>Ganó por decisión: 40</title></rect>
+<rect x="796.4" y="40" width="65.7" height="56" fill="#C0392B"><title>Perdió: 11</title></rect>
+<rect x="862.1" y="40" width="17.9" height="56" fill="#8A847C"><title>Empató: 3</title></rect>
+<text x="288.8" y="74" fill="#fff" text-anchor="middle" style="font-family:var(--mono);font-size:16px;font-weight:600">90</text>
+<text x="288.8" y="30" class="clB" text-anchor="middle">Ganó por nocaut</text>
+<text x="677.0" y="74" fill="#fff" text-anchor="middle" style="font-family:var(--mono);font-size:16px;font-weight:600">40</text>
+<text x="677.0" y="30" class="clB" text-anchor="middle">Ganó por decisión</text>
+<text x="829.3" y="74" fill="#fff" text-anchor="middle" style="font-family:var(--mono);font-size:14px;font-weight:600">11</text>
+<line x1="829.3" y1="96" x2="829.3" y2="112" stroke="#C0392B" stroke-width="1"/>
+<text x="829.3" y="128" class="clB" text-anchor="end">Perdió: 11</text>
+<line x1="871.0" y1="96" x2="871.0" y2="132" stroke="#8A847C" stroke-width="1"/>
+<text x="880.0" y="146" class="clB" text-anchor="end">Empató: 3</text>
+</svg>
+      <figcaption><b>Fuente:</b> tabla de récord profesional de Jorge Castro (Wikipedia, 144 peleas numeradas) y La Gaceta, 14/10/2026. Gráfico propio. Escala: cada pelea ocupa el mismo ancho.</figcaption>
+    </figure>
+    <p>Castro debutó como profesional el 14 de febrero de 1987 en Caleta Olivia, Santa Cruz, y peleó por última vez el 27 de enero de 2007, cuando le ganó a José Luis Herrera. En el medio fue campeón argentino (1989), sudamericano (1990) y, el 12 de agosto de 1994 en San Miguel de Tucumán, <b>campeón mundial mediano de la AMB</b> al ganarle por decisión dividida a Reggie Johnson. Defendió el título cuatro veces y lo perdió el 19 de diciembre de 1995 en Tokio, ante Shinji Takehara.</p>
+    <p>Su pelea más recordada fue la segunda defensa: el 10 de diciembre de 1994, en Monterrey, iba abajo en las tarjetas y noqueó a John David Jackson en el noveno asalto. La revista The Ring la eligió la pelea del año. Después subió de categoría y peleó tres veces más por títulos mundiales, siempre afuera y siempre con derrota: en Alemania (2000), en Estados Unidos (2002) y en Sudáfrica (2003).</p>
+
+    <h3 class="sub">Lo que cobró en las grandes noches</h3>
+    <p>Buscamos la bolsa de cada una de sus peleas más importantes. Esto es lo que encontramos:</p>
+    <table class="tb tb-stack">
+      <tr><th>Fecha</th><th>Rival y lugar</th><th>Qué estaba en juego</th><th>Bolsa de Castro</th></tr>
+      <tr><td class="n">30/06/1992</td><td data-label="Rival y lugar">Roy Jones Jr., Pensacola (EE.UU.)</td><td data-label="En juego">Pelea a 10 asaltos (perdió)</td><td data-label="Bolsa de Castro">No es pública</td></tr>
+      <tr><td class="n">12/08/1994</td><td data-label="Rival y lugar">Reggie Johnson, San Miguel de Tucumán</td><td data-label="En juego">Título mediano AMB, vacante (ganó)</td><td data-label="Bolsa de Castro">No es pública</td></tr>
+      <tr><td class="n">05/11/1994</td><td data-label="Rival y lugar">Alex Ramos, Caleta Olivia</td><td data-label="En juego">Primera defensa (ganó)</td><td data-label="Bolsa de Castro">US$50.000, <b>según dijo él</b> en 2020</td></tr>
+      <tr><td class="n">10/12/1994</td><td data-label="Rival y lugar">John David Jackson, Monterrey (México)</td><td data-label="En juego">Segunda defensa (ganó)</td><td data-label="Bolsa de Castro">No es pública</td></tr>
+      <tr><td class="n">19/12/1995</td><td data-label="Rival y lugar">Shinji Takehara, Tokio (Japón)</td><td data-label="En juego">Quinta defensa (perdió)</td><td data-label="Bolsa de Castro">No es pública</td></tr>
+      <tr><td class="n">01/02/2002</td><td data-label="Rival y lugar">Vassiliy Jirov, Phoenix (EE.UU.)</td><td data-label="En juego">Título crucero FIB (perdió)</td><td data-label="Bolsa de Castro">No confirmada (ver abajo)</td></tr>
+      <tr><td class="n">12/07/2003</td><td data-label="Rival y lugar">Sebastiaan Rothmann, Brakpan (Sudáfrica)</td><td data-label="En juego">Título crucero OIB (perdió)</td><td data-label="Bolsa de Castro">US$200.000, <b>según dijo él</b> en 2025</td></tr>
+    </table>
+    <p style="font-size:14px;color:var(--muted)">Fuentes: fechas, rivales y títulos, Boxing Title Fights y Wikipedia. Las dos cifras son declaraciones de Castro: a <a href="https://www.lanacion.com.ar/deportes/boxeo/locomotora-castro-sexo-vestuario-antes-de-boxear-nid2367101/">La Nación (19/05/2020)</a> y a <a href="https://bolavip.com/ar/entrevista/paso-de-lustrar-botas-a-hacer-100-peleas-en-7-anos-fue-campeon-mundial-y-hoy-gestiona-14-comedores-nunca-vi-que-un-rico-quiera-que-le-peguen">Bolavip (21/07/2025)</a>. No las pudimos verificar con otra fuente.</p>
+    <p>Las dos únicas cifras que aparecen las dio él. En 2020 le dijo a La Nación: “Por la primera defensa fueron 50.000 dólares, pero pude invertirlo y a mis hijos les dejé 16 casas en Caleta Olivia”. Esa primera defensa fue ante Alex Ramos, en noviembre de 1994. Si la cifra es correcta, pasada por la inflación de Estados Unidos equivale hoy a <b>unos US$112.500</b>: los precios en dólares se multiplicaron por 2,25 desde entonces.</p>
+    <p>En 2025, en una entrevista con Bolavip, contó que en Sudáfrica había firmado un contrato por 50.000 dólares, que después vio que en los papeles decía 250.000 y que terminó cobrando la bolsa: “Fui, cobré, le di 50 mil y me traje los 200 mil dólares”. Su récord registra una sola pelea en ese país, ante Sebastiaan Rothmann, en julio de 2003. Esos 200.000 dólares serían hoy <b>unos US$366.000</b>. Son relatos suyos, de memoria y años después; no encontramos un documento que los respalde ni que los contradiga.</p>
+
+    <h3 class="sub">Lo que hizo con la plata, según él</h3>
+    <p>Castro habló varias veces de qué hizo con lo que ganó, y el relato es parecido. En 2020 dijo que lo invirtió y que les dejó 16 casas a sus hijos en Caleta Olivia. En octubre de 2025, a la revista Gente: “Gané dinero, pero lo supe invertir” y “No soy millonario, pero vivo tranquilo”. A Bolavip le contó que su primera bolsa como profesional equivalió a un mes de lustrar botas, el trabajo que hacía de chico. No hay registros públicos de su patrimonio y no lo investigamos: es información privada que hoy toca a su familia.</p>
+
+    <h3 class="sub">Del gimnasio a la olla popular</h3>
+    <p>La red de comedores empezó en la pandemia. Castro tenía un gimnasio en Temperley, en el partido de Lomas de Zamora, y en 2020, con la cuarentena, empezó a cocinar ollas populares para los vecinos. Lo que siguió lo sabemos por lo que él fue contando, y las cifras crecen con los años:</p>
+    <table class="tb tb-stack">
+      <tr><th>Cuándo lo dijo</th><th>Comedores y merenderos</th><th>Gente que recibía comida</th><th>Dónde</th></tr>
+      <tr><td class="n">Abril de 2022</td><td data-label="Comedores y merenderos">Abastecía 14 comedores y 9 merenderos</td><td data-label="Gente">Unas 250 personas por sábado</td><td data-label="Dónde"><a href="https://www.lanacion.com.ar/deportes/el-rona-castro-cuenta-como-es-su-nueva-vida-da-de-comer-a-250-personas-y-revela-que-le-hubiera-nid15042022/">La Nación</a></td></tr>
+      <tr><td class="n">Mayo de 2024</td><td data-label="Comedores y merenderos">14 comedores y 9 merenderos</td><td data-label="Gente">350 familias los viernes, en la puerta del gimnasio</td><td data-label="Dónde"><a href="https://www.infobae.com/sociedad/2024/05/16/rona-castro-monto-un-comedor-en-su-gimnasio-para-ayudar-a-sus-vecinos-no-quiero-que-pasen-hambre-como-pase-yo/">Infobae</a></td></tr>
+      <tr><td class="n">Julio de 2025</td><td data-label="Comedores y merenderos">14 comedores</td><td data-label="Gente">Unas 1.600 personas por fin de semana; 25.000 kilos de mercadería por mes</td><td data-label="Dónde"><a href="https://bolavip.com/ar/entrevista/paso-de-lustrar-botas-a-hacer-100-peleas-en-7-anos-fue-campeon-mundial-y-hoy-gestiona-14-comedores-nunca-vi-que-un-rico-quiera-que-le-peguen">Bolavip</a></td></tr>
+      <tr><td class="n">Noviembre de 2025</td><td data-label="Comedores y merenderos">14 comedores y 9 merenderos</td><td data-label="Gente">6.400 personas; antes, 2.100</td><td data-label="Dónde"><a href="https://www.c5n.com/politica/rona-castro-javier-milei-dice-que-saco-12-millones-la-pobreza-y-la-gente-va-cada-vez-mas-los-comedores-n221847">C5N</a></td></tr>
+    </table>
+    <p style="font-size:14px;color:var(--muted)">Todas las cifras son declaraciones de Castro en entrevistas. No se pueden comparar entre sí como una serie: cada una cuenta algo distinto (personas por día de reparto, familias, total de asistidos).</p>
+    <p>No todos esos comedores eran suyos. En la cobertura de su muerte, La Nación recordó que él mismo hablaba de <b>cuatro comedores propios en Lomas de Zamora</b> y de otros diez a los que les llevaba mercadería, y de que planeaba abrir uno en Morón.</p>
+
+    <h3 class="sub">Quién ponía la comida</h3>
+    <p>Lo que contestó Castro cada vez que le preguntaron es consistente en una cosa: <b>la ayuda de Nación se cortó y la de la Provincia de Buenos Aires siguió</b>. En mayo de 2024, Infobae contó que la mercadería se la proveía la Provincia, y él agregó que también lo ayudaba la Municipalidad de Lomas de Zamora y que colaboraban fábricas de Quilmes, mayoristas y puesteros del Mercado Central. En esa misma entrevista contó: “Yo trabajo en Desarrollo Social y Deportes en provincia”. En octubre de 2025, a Gente: “Me ayuda el gobierno de la provincia de Buenos Aires y el Cuervo Larroque”, por el ministro de Desarrollo de la Comunidad bonaerense, Andrés Larroque, y agregó: “Antes me ayudaba el ministerio de la Nación, pero ahora no te dan nada”. En noviembre de 2025, a C5N: “El Gobierno nacional nos quitó todas las ayudas”.</p>
+    <p>Ninguna de esas frases trae montos, y no encontramos un documento oficial que diga cuánto recibía cada comedor, ni de la Provincia ni del Municipio. A nivel nacional hay un dato que explica parte del vacío: el <b>Registro Nacional de Comedores y Merenderos Comunitarios (RENACOM)</b>, creado en 2020, se eliminó con la <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/328679/20250722">Resolución 393/2025</a> de la Secretaría Nacional de Niñez, Adolescencia y Familia, publicada en el Boletín Oficial el 22 de julio de 2025. Desde abril de ese año el programa nacional Alimentar Comunidad ya no exigía estar inscripto en ese registro, y la resolución cita un informe de la Sindicatura General de la Nación (SIGEN) que encontró problemas de control y de calidad de los datos. Sin registro, no hay un listado público donde buscar si un comedor recibía alimentos de Nación y cuándo dejó de recibirlos.</p>
+    <p>En las notas sobre su obra se nombran dos organizaciones, la Fundación Locomotora Castro y la Asociación Civil El Roña Castro. No encontramos sus datos de inscripción ni balances en las búsquedas públicas que pudimos hacer, así que no podemos decir si recibían fondos públicos directos.</p>
+  </div>
+
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación de la cifra ancla: dos fuentes que coinciden.</b> Las 144 peleas, con 130 victorias (90 por nocaut), 11 derrotas y 3 empates, figuran en la <a href="https://en.wikipedia.org/wiki/Jorge_Castro_(boxer)">tabla de récord profesional</a> que contamos pelea por pelea (144 filas, de 1987 a 2007) y en la <a href="https://www.lagaceta.com.ar/nota/1157983/deportes/peleas-hicieron-leyenda-al-rona-castro-idolo-hoy-despide-boxeo.html">nota de La Gaceta</a> del 14/10/2026. Como contraste, la <a href="https://www.upi.com/Archives/2002/02/01/Jirov-retains-IBF-title/3311012539600/">crónica de UPI</a> de la pelea con Jirov, en 2002, le da 119-8-3 en ese momento: cierra con el récord final. Las peleas por el título mundial y sus fechas coinciden en <a href="https://www.boxingtitlefights.com/boxer/jorge-fernando-castro">Boxing Title Fights</a> y en Wikipedia.</p>
+      <p><b>Los dólares de hoy.</b> Usamos el índice de precios al consumidor de Estados Unidos (CPI-U, sin desestacionalizar): 149,7 en noviembre de 1994, 183,9 en julio de 2003 y 336,940 en septiembre de 2026, según la <a href="https://www.bls.gov/news.release/cpi.nr0.htm">publicación de la oficina de estadísticas laborales (BLS)</a> del 14/10/2026 y la <a href="https://fred.stlouisfed.org/series/CPIAUCNS">serie de la Reserva Federal de St. Louis</a>. 50.000 × 336,940 / 149,7 = 112.538; 200.000 × 336,940 / 183,9 = 366.438. El cálculo es exacto; lo que no está verificado son las cifras de partida, que dio Castro.</p>
+      <p><b>Qué no afirmamos.</b> No publicamos como dato ninguna bolsa: ninguna llegó a dos fuentes independientes. Una crónica de Página/12 de febrero de 2002 menciona un monto para la pelea con Jirov, pero no encontramos una segunda fuente ni el registro de la comisión atlética de Arizona, así que no lo damos. Las cifras de los comedores, de gente asistida y de quién ayudaba son declaraciones de Castro, atribuidas con su fecha y su medio. La Resolución 393/2025 está en el Boletín Oficial y su contenido coincide con lo que informó <a href="https://www.infobae.com/politica/2025/07/22/eliminaron-el-registro-creado-para-acreditar-la-existencia-de-comedores-y-merenderos-comunitarios-por-fallas-estructurales/">Infobae</a> el mismo día.</p>
+      <div class="meta"><span>Fuentes <b>récord profesional · BLS · Boletín Oficial · entrevistas atribuidas</b></span><span>Verificación <b>dos fuentes que coinciden</b></span></div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>La historia económica de Castro deja ver dos zonas sin datos. La del boxeo profesional, donde lo que cobra un campeón se arregla entre promotores y casi nunca se publica, y la de la asistencia alimentaria, donde desde julio de 2025 no hay un registro nacional público de comedores. En los dos casos, lo que se sabe depende de lo que cuenta el protagonista.</p>
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si colaborás con un comedor o pensás hacerlo,</b> no hay un registro nacional público donde ver si está reconocido o qué ayuda estatal recibe. Lo que podés pedir es el nombre legal de la organización que lo sostiene y su inscripción como asociación civil o fundación.</p>
+      <p><b>Si comés o retirás mercadería en un comedor del conurbano,</b> según lo que contaba Castro, en los últimos dos años la ayuda que llegaba a los suyos venía de la Provincia, de empresas y de donantes, no de Nación. Y desde abril de 2025 el programa nacional Alimentar Comunidad no exige el registro que después se cerró, así que no hay un listado público para saber a qué comedores llega.</p>
+    </div>
+  </div>
+
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Lo que no se pudo saber, y por qué <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p><b>Las bolsas de los años 90.</b> En la Argentina, las bolsas de las peleas no se publican: son contratos privados entre el boxeador, su mánager y el promotor. En Estados Unidos las comisiones atléticas de cada estado registran lo que se paga en cada velada (las de Castro allí fueron en Nueva York en 1989, en Florida en 1992 y 1995, y en Arizona en 2002), pero esos registros de hace más de 20 años no los encontramos en línea. Los diarios de la época tampoco las publicaron en lo que pudimos encontrar.</p>
+      <p><b>El total de su carrera.</b> No hay un registro que sume lo que ganó en 144 peleas. Cualquier total que circule es una estimación o un recuerdo suyo.</p>
+      <p><b>Los fondos de los comedores.</b> No encontramos resoluciones de la Provincia ni del Municipio de Lomas de Zamora que asignen fondos o alimentos con nombre a sus comedores, ni el balance de las dos organizaciones que se nombran en la prensa. El registro nacional que permitía rastrear comedores se eliminó en julio de 2025.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Qué es una bolsa y cómo se reparte <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>La bolsa es lo que cobra el boxeador por una pelea, antes de pagarle al mánager, al entrenador y los gastos. Lo que le queda a él puede ser bastante menos. Por eso, aun cuando se conoce la bolsa, no dice cuánto ganó el boxeador en limpio. El propio relato de Castro sobre Sudáfrica, con un contrato de 50.000 dólares y una bolsa de 250.000, muestra hasta qué punto esas cifras dependen de quién arma el contrato.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Wikipedia — <a href="https://en.wikipedia.org/wiki/Jorge_Castro_(boxer)">Jorge Castro (boxer)</a>, tabla de récord profesional (144 peleas)</li>
+        <li>&#8250; La Gaceta — <a href="https://www.lagaceta.com.ar/nota/1157983/deportes/peleas-hicieron-leyenda-al-rona-castro-idolo-hoy-despide-boxeo.html">Las peleas que hicieron leyenda al “Roña” Castro</a>, 14/10/2026</li>
+        <li>&#8250; Boxing Title Fights — <a href="https://www.boxingtitlefights.com/boxer/jorge-fernando-castro">Jorge Fernando Castro</a>, peleas por títulos mundiales</li>
+        <li>&#8250; UPI — <a href="https://www.upi.com/Archives/2002/02/01/Jirov-retains-IBF-title/3311012539600/">Jirov retains IBF title</a>, 01/02/2002</li>
+        <li>&#8250; La Nación — <a href="https://www.lanacion.com.ar/deportes/boxeo/fallecio-el-excampeon-mundial-de-boxeo-jorge-el-rona-castro-nid14102026/">Murió el excampeón mundial de boxeo Jorge “Locomotora” Castro</a>, 14/10/2026</li>
+        <li>&#8250; La Nación — <a href="https://www.lanacion.com.ar/deportes/boxeo/locomotora-castro-sexo-vestuario-antes-de-boxear-nid2367101/">entrevista a Castro</a>, 19/05/2020 (bolsa de la primera defensa, declaración suya)</li>
+        <li>&#8250; Bolavip — <a href="https://bolavip.com/ar/entrevista/paso-de-lustrar-botas-a-hacer-100-peleas-en-7-anos-fue-campeon-mundial-y-hoy-gestiona-14-comedores-nunca-vi-que-un-rico-quiera-que-le-peguen">entrevista a Castro</a>, 21/07/2025 (pelea en Sudáfrica y comedores, declaración suya)</li>
+        <li>&#8250; Gente — <a href="https://www.revistagente.com/entretenimiento/como-es-hoy-la-vida-del-rona-castro-y-a-que-se-dedica-actualmente-no-soy-millonario-pero-estoy-tranquilo/">Cómo es hoy la vida del Roña Castro</a>, 26/10/2025</li>
+        <li>&#8250; La Nación — <a href="https://www.lanacion.com.ar/deportes/el-rona-castro-cuenta-como-es-su-nueva-vida-da-de-comer-a-250-personas-y-revela-que-le-hubiera-nid15042022/">El Roña Castro cuenta cómo es su nueva vida</a>, 15/04/2022</li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/sociedad/2024/05/16/rona-castro-monto-un-comedor-en-su-gimnasio-para-ayudar-a-sus-vecinos-no-quiero-que-pasen-hambre-como-pase-yo/">“Roña” Castro montó un comedor en su gimnasio</a>, 16/05/2024</li>
+        <li>&#8250; C5N — <a href="https://www.c5n.com/politica/rona-castro-javier-milei-dice-que-saco-12-millones-la-pobreza-y-la-gente-va-cada-vez-mas-los-comedores-n221847">entrevista a Castro</a>, 24/11/2025</li>
+        <li>&#8250; Boletín Oficial — <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/328679/20250722">Resolución 393/2025</a>, Secretaría Nacional de Niñez, Adolescencia y Familia, 22/07/2025 (eliminación del RENACOM)</li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/politica/2025/07/22/eliminaron-el-registro-creado-para-acreditar-la-existencia-de-comedores-y-merenderos-comunitarios-por-fallas-estructurales/">Eliminaron el registro creado para acreditar la existencia de comedores</a>, 22/07/2025</li>
+        <li>&#8250; BLS — <a href="https://www.bls.gov/news.release/cpi.nr0.htm">Consumer Price Index, septiembre de 2026</a>, y Reserva Federal de St. Louis — <a href="https://fred.stlouisfed.org/series/CPIAUCNS">serie CPIAUCNS</a></li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: conversión a dólares de hoy, conteo del récord y gráfico.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 14/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+</body>
+</html>
