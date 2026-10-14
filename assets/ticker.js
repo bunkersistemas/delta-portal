@@ -451,6 +451,22 @@
     });
   }
 
+  // La lupa del buscador va en el encabezado de todas las paginas: como ticker.js ya esta en
+  // todas, lo carga desde aca (un solo archivo que tocar en vez de cientos de paginas).
+  function cargarBuscador() {
+    try {
+      if (window.CIBuscar || document.getElementById("ci-buscador-js")) return;
+      var src = (document.currentScript && document.currentScript.src) ||
+                (document.querySelector('script[src*="assets/ticker.js"]') || {}).src || "";
+      if (!src) return;
+      var s = document.createElement("script");
+      s.id = "ci-buscador-js"; s.async = true;
+      s.src = src.replace(/ticker\.js.*$/, "buscador.js?v=1");
+      document.head.appendChild(s);
+    } catch (e) {}
+  }
+  cargarBuscador();
+
   function init() { renderTicker(); setTimeout(renderSemaforo, 400); }
   if (document.readyState === "loading") document.addEventListener("DOMContentLoaded", init);
   else init();

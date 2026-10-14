@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Buscar — Con Interés</title>
+<meta name="description" content="Buscá en las notas de Con Interés: sueldos, jubilaciones, dólar, inflación, créditos y más.">
+<link rel="icon" type="image/svg+xml" href="assets/favicon.svg">
+<!-- una pagina de resultados de busqueda no se indexa: Google pide que no -->
+<meta name="robots" content="noindex,follow">
+<link rel="canonical" href="https://coninteres.com/buscar.html">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<script defer src="assets/metrics.js?v=1"></script>
+<style>
+  :root{
+    --paper:#FAF8F4;--ink:#16130F;--ink-soft:#3C3833;--teal:#0E7C86;--teal-deep:#0A5C63;
+    --amber:#C4701F;--muted:#6B6560;--faint:#8A847C;--rule:#DCD6CC;--grid:#E7E1D7;
+    --card:#FFFFFF;--card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,serif;--sans:"Inter",system-ui,sans-serif;--mono:"IBM Plex Mono",monospace;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--paper);color:var(--ink);font-family:var(--sans);line-height:1.6;-webkit-font-smoothing:antialiased}
+  .wrap{max-width:760px;margin:0 auto;padding:0 16px}
+  a{color:inherit;text-decoration:none}
+  .masthead{border-bottom:2px solid var(--ink)}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;display:flex;align-items:center;gap:8px;color:var(--ink)}
+  .brand .tri{color:var(--teal)}
+  .mh-back{font-family:var(--mono);font-size:12px;color:var(--teal-deep)}
+  h1{font-family:var(--serif);font-weight:700;font-size:34px;line-height:1.15;margin:36px 0 14px}
+  .caja{position:relative}
+  .caja svg{position:absolute;left:14px;top:50%;transform:translateY(-50%);width:20px;height:20px;color:var(--teal-deep);pointer-events:none}
+  #q{width:100%;font:inherit;font-size:18px;color:var(--ink);background:var(--card);border:2px solid var(--ink);border-radius:10px;padding:13px 14px 13px 44px}
+  #q:focus{outline:3px solid #BFDDDA;border-color:var(--teal)}
+  .priv{font-size:13px;color:var(--faint);margin:8px 2px 0}
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:16px 0 0}
+  .chip{font:500 14px var(--sans);border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);border-radius:999px;padding:7px 13px;cursor:pointer}
+  .chip:hover,.chip:focus-visible{border-color:var(--teal);color:var(--ink)}
+  .chip.on{background:var(--teal);border-color:var(--teal);color:#fff}
+  .chip small{opacity:.7;margin-left:4px}
+  .cuenta{font-family:var(--mono);font-size:12px;color:var(--muted);margin:22px 0 4px;letter-spacing:.04em}
+  .res{border-bottom:1px solid var(--grid);padding:16px 0}
+  .res .k{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);font-weight:600}
+  .res .k i{font-style:normal;color:var(--faint);font-weight:400;letter-spacing:.04em}
+  .res h2{font-family:var(--serif);font-weight:700;font-size:21px;line-height:1.25;margin:4px 0 6px}
+  .res a:hover h2{color:var(--teal-deep);text-decoration:underline}
+  .res p{margin:0;font-size:15px;color:var(--ink-soft)}
+  .mas{display:block;margin:22px auto 0;font:600 15px var(--sans);background:var(--ink);color:var(--paper);border:0;border-radius:8px;padding:11px 22px;cursor:pointer}
+  .vacio{background:var(--card);border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:20px 22px;margin:24px 0}
+  .vacio h2{font-family:var(--serif);font-size:21px;margin:0 0 8px}
+  .vacio p{margin:0 0 12px;color:var(--ink-soft);font-size:15.5px}
+  .vacio .cta{display:inline-block;background:var(--ink);color:var(--paper);font-weight:600;border-radius:8px;padding:11px 18px}
+  .sub{font-family:var(--mono);font-size:11.5px;letter-spacing:.1em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin:30px 0 4px}
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:24px 0 60px}
+  footer .wrap{font-family:var(--mono);font-size:12px;color:var(--muted)}
+  footer a{text-decoration:underline}
+  @media(max-width:600px){h1{font-size:28px}.res h2{font-size:19px}}
+</style>
+</head>
+<body>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="index.html"><span class="tri">%</span>Con Interés</a>
+    <a href="index.html" class="mh-back">← Portada</a>
+  </div>
+</header>
+
+<main class="wrap">
+  <h1>Buscar en las notas</h1>
+  <form class="caja" id="f" role="search" autocomplete="off">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><circle cx="10.5" cy="10.5" r="6.5"/><path d="M15.5 15.5 21 21"/></svg>
+    <input id="q" type="search" placeholder="Probá: cuánto cobra un camionero, jubilación mínima, dólar…" aria-label="Qué querés buscar" maxlength="120" enterkeyhint="search" autofocus>
+  </form>
+  <p class="priv">Lo que escribís acá no sale de tu navegador: no guardamos tus búsquedas.</p>
+
+  <div class="chips" id="sec" hidden></div>
+  <div id="salida" aria-live="polite"></div>
+  <button class="mas" id="mas" type="button" hidden>Ver más notas</button>
+</main>
+
+<footer><div class="wrap">
+  <a href="index.html">Portada</a> &#183; <a href="archivo.html">Archivo</a> &#183; <a href="como-trabajamos.html">Cómo trabajamos</a>
+  &#183; <a href="legal.html">Legal y correcciones</a> &#183; <a href="privacidad.html">Privacidad</a>
+</div></footer>
+
+<script src="assets/buscador.js?v=1"></script>
+<script>
+(function () {
+  "use strict";
+  var q = document.getElementById("q"), salida = document.getElementById("salida"),
+      secs = document.getElementById("sec"), mas = document.getElementById("mas");
+  var TEMAS = ["Cuánto cobra", "Jubilaciones", "Dólar", "Inflación", "Alquileres", "Créditos y deudas", "Inteligencia artificial y empleo", "Economía del deporte"];
+  var NOMBRE = { "DEPORTES": "Economía del deporte", "IA": "La economía de la IA", "ECONOMÍA PROVINCIAL": "Tu provincia", "ECONOMÍA": "Economía", "MERCADOS": "Los mercados", "EMPRESAS": "Empresas", "MUNDO": "El mundo", "TECNOLOGÍA": "Tecnología" };
+  var MESES = ["ene", "feb", "mar", "abr", "may", "jun", "jul", "ago", "sep", "oct", "nov", "dic"];
+  var PAGINA = 15;
+  var indice = null, todas = [], resultados = [], filtro = "", mostrados = 0, ultimo = "";
+
+  function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
+  function nombreSec(s) { return NOMBRE[s] || (s ? s.charAt(0) + s.slice(1).toLowerCase() : ""); }
+  function fecha(f) { var m = /^(\d{4})-(\d\d)-(\d\d)/.exec(f || ""); return m ? (+m[3]) + " " + MESES[+m[2] - 1] + " " + m[1] : ""; }
+  function corto(t, n) { t = String(t || ""); if (t.length <= n) return t; var c = t.slice(0, n); return c.slice(0, c.lastIndexOf(" ")) + "…"; }
+
+  function tarjeta(a) {
+    var box = el("div", "res"), link = el("a"), k = el("div", "k", nombreSec(a.seccion));
+    link.href = a.archivo;
+    var i = el("i", null, "  ·  " + fecha(a.fecha)); k.appendChild(i);
+    link.appendChild(k); link.appendChild(el("h2", null, a.titulo));
+    box.appendChild(link); box.appendChild(el("p", null, corto(a.bajada, 190)));
+    return box;
+  }
+
+  function pintarSecciones(lista) {
+    secs.innerHTML = "";
+    var cuenta = {}; lista.forEach(function (r) { cuenta[r.a.seccion] = (cuenta[r.a.seccion] || 0) + 1; });
+    var claves = Object.keys(cuenta);
+    if (claves.length < 2) { secs.hidden = true; return; }
+    secs.hidden = false;
+    function chip(txt, valor, n) {
+      var b = el("button", "chip" + (filtro === valor ? " on" : ""), txt); b.type = "button";
+      if (n != null) b.appendChild(el("small", null, n));
+      b.addEventListener("click", function () { filtro = valor; dibujar(); });
+      secs.appendChild(b);
+    }
+    chip("Todas", "", lista.length);
+    claves.sort(function (x, y) { return cuenta[y] - cuenta[x]; }).forEach(function (s) { chip(nombreSec(s), s, cuenta[s]); });
+  }
+
+  function dibujar() {
+    var lista = resultados.filter(function (r) { return !filtro || r.a.seccion === filtro; });
+    pintarSecciones(resultados);
+    salida.innerHTML = "";
+    salida.appendChild(el("div", "cuenta", lista.length + (lista.length === 1 ? " nota" : " notas") + " para «" + ultimo + "»"));
+    mostrados = 0; masNotas(lista);
+    mas.onclick = function () { masNotas(lista); };
+  }
+  function masNotas(lista) {
+    lista.slice(mostrados, mostrados + PAGINA).forEach(function (r) { salida.appendChild(tarjeta(r.a)); });
+    mostrados += PAGINA;
+    mas.hidden = mostrados >= lista.length;
+  }
+
+  function sinResultados(texto) {
+    secs.hidden = true; mas.hidden = true; salida.innerHTML = "";
+    var v = el("div", "vacio");
+    v.appendChild(el("h2", null, "Todavía no escribimos sobre eso"));
+    v.appendChild(el("p", null, "No encontramos notas sobre «" + texto + "». Si te interesa, dejanos tu pregunta: leemos todas y cada semana elegimos qué investigar."));
+    var a = el("a", "cta", "Dejar mi pregunta"); a.href = "investigacion.html?q=" + encodeURIComponent(texto);
+    v.appendChild(a); salida.appendChild(v);
+    portada("Mientras tanto, lo último que publicamos");
+  }
+
+  function portada(titulo) {
+    var ultimas = todas.slice().sort(function (x, y) {
+      return String(y.fecha + (y.hora || "")).localeCompare(String(x.fecha + (x.hora || "")));
+    }).slice(0, 6);
+    salida.appendChild(el("div", "sub", titulo));
+    ultimas.forEach(function (a) { salida.appendChild(tarjeta(a)); });
+  }
+
+  function inicio() {
+    secs.hidden = true; mas.hidden = true; salida.innerHTML = "";
+    salida.appendChild(el("div", "sub", "Temas para empezar"));
+    var c = el("div", "chips");
+    TEMAS.forEach(function (t) {
+      var b = el("button", "chip", t); b.type = "button";
+      b.addEventListener("click", function () { q.value = t; correr(true); });
+      c.appendChild(b);
+    });
+    salida.appendChild(c);
+    portada("Lo último");
+  }
+
+  function correr(foco) {
+    var texto = q.value.replace(/\s+/g, " ").trim();
+    try { history.replaceState(null, "", texto ? "?q=" + encodeURIComponent(texto) : location.pathname); } catch (e) {}
+    if (!indice) return;
+    ultimo = texto; filtro = "";
+    if (!window.CIBuscar.tokens(texto, false).length) { inicio(); return; }
+    resultados = window.CIBuscar.buscar(indice, texto);
+    if (!resultados.length) sinResultados(texto); else dibujar();
+    if (foco) q.blur();
+  }
+
+  var espera;
+  q.addEventListener("input", function () { clearTimeout(espera); espera = setTimeout(function () { correr(false); }, 160); });
+  document.getElementById("f").addEventListener("submit", function (e) { e.preventDefault(); correr(true); });
+
+  salida.appendChild(el("div", "cuenta", "Cargando las notas…"));
+  fetch("data/articulos.json").then(function (r) { if (!r.ok) throw new Error(r.status); return r.json(); })
+    .then(function (d) {
+      todas = d.articulos || [];
+      indice = window.CIBuscar.indexar(todas);
+      var p = new URLSearchParams(location.search).get("q");
+      if (p) q.value = p.slice(0, 120);
+      correr(false);
+    })
+    .catch(function () { salida.innerHTML = ""; salida.appendChild(el("div", "cuenta", "No pudimos cargar las notas. Probá de nuevo en un rato.")); });
+})();
+</script>
+</body>
+</html>

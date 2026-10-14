@@ -155,6 +155,11 @@
   }
   function decir(texto, ok) { aviso.textContent = texto; aviso.className = "aviso " + (ok ? "ok" : "mal"); }
   q.addEventListener("input", function () { ct.textContent = q.value.length; });
+  // viene del buscador ("Todavia no escribimos sobre eso"): deja el texto buscado listo para editar
+  try {
+    var previa = new URLSearchParams(location.search).get("q");
+    if (previa) { q.value = previa.slice(0, 300); ct.textContent = q.value.length; }
+  } catch (e) {}
 
   function el(tag, cls, txt) { var e = document.createElement(tag); if (cls) e.className = cls; if (txt != null) e.textContent = txt; return e; }
   function fecha(s) {
