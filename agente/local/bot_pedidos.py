@@ -149,13 +149,26 @@ def buscar_notas(consulta, n=3):
     return [a for p, _, a in hallados if p >= 0.7 * mejor and (clave in docs_de[id(a)] or p >= 0.9 * mejor)][:n]
 
 
+MAX_MIS_PEDIDOS = 5   # editor, 14/10/2026: /mispedidos no puede crecer con el historial
+EN_CURSO = ("moderacion", "recibido", "en_investigacion", "enfoque_propuesto", "enfoque_aprobado",
+            "en_revision", "revision_ok", "revision_error", "revision_feedback")
+
+
 def mis_pedidos(chat, est=None):
-    f = pl.pedir("GET", "?select=id,titulo,estado,salida,motivo,token,creado&telegram_chat=eq.%d&order=creado.desc&limit=10" % chat)
-    if not f:
+    """Lo que esta en curso (todo) y, hasta completar MAX_MIS_PEDIDOS, los ultimos terminados."""
+    f = pl.pedir("GET", "?select=id,titulo,estado,salida,motivo,token,creado&telegram_chat=eq.%d&order=creado.desc&limit=30" % chat)
+    abiertos = [p for p in f if p["estado"] in EN_CURSO]
+    cerrados = [p for p in f if p["estado"] not in EN_CURSO]
+    f = abiertos + cerrados[:max(0, MAX_MIS_PEDIDOS - len(abiertos))]
+    anotada = ((est or {}).get("anotado") or {}).get(str(chat))
+    if not f and not anotada:
         decir(chat, "Todav\u00eda no pediste ninguna investigaci\u00f3n por ac\u00e1.\n\nEscribime lo que quer\u00e9s saber, "
               "o toc\u00e1 \u00ab\u2795 Pedir una investigaci\u00f3n\u00bb.", teclado=True)
         return
-    l = ["\U0001f4cb Tus pedidos:", ""]
+    l = ["\U0001f4cb Tus pedidos (los que est\u00e1n en curso y los \u00faltimos):", ""]
+    if anotada:
+        l += ["\u2022 \u00ab%s\u00bb" % anotada["titulo"].strip(),
+              "  \U0001f4dd Anotada: la mando cuando termine la que est\u00e1 en curso (te la ofrezco sola)", ""]
     for p in f:
         l.append("\u2022 \u00ab%s\u00bb" % p["titulo"].strip())
         l.append("  " + ESTADOS.get(p["estado"], p["estado"]))
@@ -166,6 +179,8 @@ def mis_pedidos(chat, est=None):
         elif p["estado"] == "descartado" and p.get("motivo"):
             l.append("  Motivo: " + p["motivo"][:220])
         l.append("")
+    if len(cerrados) > len(f) - len(abiertos):
+        l.append("Hay %d m\u00e1s antiguos: los ves en el portal, en las preguntas respondidas." % (len(cerrados) - (len(f) - len(abiertos))))
     decir(chat, "\n".join(l).strip(), teclado=True)
 
 
@@ -386,6 +401,24 @@ def ofrecer_anotado(est, chat):
     return True
 
 
+def ofrecer_anotadas(est):
+    """Editor, 14/10/2026: la pregunta anotada se ofrece SOLA, una vez, cuando termina la que estaba en
+    curso: antes solo aparecia si el lector tocaba 'Pedir', y parecia una nota bloqueada."""
+    cambio = False
+    for c, a in list(est.setdefault("anotado", {}).items()):
+        if a.get("ofrecida"):
+            continue
+        try:
+            if ofrecer_anotado(est, int(c)):
+                a["ofrecida"] = True
+                cambio = True
+                anotar("pregunta anotada ofrecida sola al terminar la anterior")
+        except Exception as e:
+            anotar("AVISO: no se pudo ofrecer la pregunta anotada: %s" % e)
+    if cambio:
+        guardar_estado(est)
+
+
 def crear_y_avisar(chat, titulo, tipo, detalle):
     quien = accesos.nombre_de(chat) or "sin nombre"
     pid = pl.crear_desde_chat(chat, titulo, tipo, detalle, quien)
@@ -455,7 +488,7 @@ def responder_pregunta(est, chat, texto):
         return
     # preguntas por el estado de lo que ya pidio (12/10/2026: "como viene mi investigacion?")
     if pregunta_por_su_pedido(llano):
-        mis_pedidos(chat)
+        mis_pedidos(chat, est)
         return
     # "avisame cuando..." -> se le confirma que el aviso llega solo
     if re.search(r"\bavis(a|ame|en|ar)\b|\bme (avisas|avisan|escribis)\b|\bespero\b", llano):
@@ -754,7 +787,7 @@ def al_mensaje(est, m):
     if tipo_msg == "mis pedidos":
         est["esperando"].pop(str(chat), None)
         est["conv"].pop(str(chat), None)
-        mis_pedidos(chat)
+        mis_pedidos(chat, est)
         return
     if tipo_msg == "pedir":
         est["esperando"].pop(str(chat), None)
@@ -762,7 +795,7 @@ def al_mensaje(est, m):
         pedir_nueva(est, chat)
         return
     if tipo_msg == "estado en medio de la charla":
-        mis_pedidos(chat)
+        mis_pedidos(chat, est)
         decir(chat, "Y la pregunta que est\u00e1bamos armando sigue ac\u00e1: seguimos cuando quieras \U0001f44c")
         return
     if tipo_msg == "armando pedido" and seguir_conversacion(est, chat, texto):
@@ -858,6 +891,7 @@ def main():
                 except Exception:
                     anotar("ERROR atendiendo un mensaje: " + traceback.format_exc().replace("\n", " | ")[-600:])
                 guardar_estado(est)
+            ofrecer_anotadas(est)
         except Exception:
             anotar("ERROR en el ciclo: " + traceback.format_exc().replace("\n", " | ")[-400:])
             time.sleep(15)
