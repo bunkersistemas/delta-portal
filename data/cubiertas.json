@@ -4201,6 +4201,22 @@
       "estado": "publicada",
       "articulo_id": "2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina",
       "archivo": "cola/2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina.html"
+    },
+    {
+      "tema": "¿Aluar va a pagar dividendos? qué decidió la asamblea del 14/10/2026 con la ganancia (HR CNV 14/10/2026 16:20, 'Nota decisiones asamblearias', punto cuarto) / ganancia neta ej. 57 $258.691.614.087 (jun-26) = $273.735.291.374 (sep-26); reserva legal 5% $12.934.580.704 = $13.686.764.569; remanente $245.757.033.383 = $260.048.526.805 a Reserva para Futuros Dividendos, total $1.013.930.286.836 (sep-26), sin dividendo nuevo; convalida dividendo de $8.288 M nominales (dir. 22/12/2025, pagado desde 07/01/2026; $9.684.190.385 jun-26). Recalculo: reserva al 30/06/2026 $712.450.661.199 (EECP separado) x 1,0581529 = $753.881.760.031 + 260.048.526.805 = cifra informada al peso; factor = IPC nacional INDEC sep-26 12.514,1508 / jun-26 11.826,4103. Serie de la reserva (jun-26 $): 467.532.734.844 (jun-24) +247.241.282.551 (asamblea 24/10/2024) -9.124.188.083 (dir. 17/12/2024) = 705.649.829.312 (jun-25) +16.485.022.272 (29/10/2025) -9.684.190.385 = 712.450.661.199; tras la asamblea 958.207.694.582. Reserva = 98,9 veces el último dividendo ($10.247 M sep-26), $362,12 por acción; FGS 277.060.578 acciones (9,90%): proporción $100.329 M (no es pago), último dividendo ~$820 M.",
+      "angulo": "Corrida programada del 14/10/2026 16:30. EMPRESAS (cupo vigente: hoy no había nota de empresas), formato Anatomía de un balance. Continúa la nota del 03/10/2026 (ganancia y pedido de la ANSES), que dejó explícitamente abierto qué dividendo aprobaría la asamblea: ahora se sabe que no hubo dividendo nuevo y que todo fue a la reserva, a disposición del directorio. Camino: documentos de la empresa + recálculo + contraste con el IPC del INDEC (el factor de reexpresión coincide al séptimo decimal). No se afirma cómo votó el FGS ni la elección de directores (la nota informa solo el punto cuarto) ni si habrá dividendo en diciembre.",
+      "fecha": "2026-10-14",
+      "estado": "publicada",
+      "articulo_id": "2026-10-14-aluar-asamblea-dividendos-reserva",
+      "archivo": "cola/2026-10-14-aluar-asamblea-dividendos-reserva.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 14/10/2026 16:30: no se probaron porque la primera candidata (asamblea de Aluar, EMPRESAS) pasó la verificación. Lista: empresas: Telecom HR CNV 14/10 sobre condicionamiento del Tribunal de Defensa de la Competencia (el PDF del HR se puede bajar con la API pública de blobs de la CNV; líneas móviles publicada el 10/10), Central Puerto recompras HR 08 y 13/10 (rutina), TGS préstamo de US$1.400 M para Vaca Muerta (La Nación; sin HR todavía); pregunta de plata: San Luis vende su palacio de Recoleta por US$3 M (TN, infobae; sin probar), CABA sube Ingresos Brutos a la compra de 0 km desde 2027 (infobae; sin probar, proyecto de ley tarifaria), crecida del Paraná y 60.000 animales a evacuar de las islas (Clarín, iProfesional, infobae; existencias SENASA sin probar), sueldo de trabajadores avícolas cerca de $2 M y bloqueo en Granja Tres Arroyos (iProfesional; homologación sin probar); portadas: empleo registrado de julio -12.716 (La Nación, Cronista, Página12, Clarín; SIPA usado el 13/10), plan de pagos de ABL y patentes de CABA (infobae, ámbito, Cronista, Clarín, TN; sin cifra ancla), JetSmart Chile autorizada al cabotaje (Cronista, La Nación, Clarín; mercado ANAC publicado el 05/10), riesgo país sobre 600 (6 portadas; serie publicada), Presupuesto 2027 e infancias (infobae, Cronista, Página12; sin probar); calendario: BCRA Boletín Estadístico (hoy), UCII de agosto (mañana).",
+      "angulo": "NO TOMADAS en la corrida programada del 14/10/2026 16:30.",
+      "fecha": "2026-10-14",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
     }
   ]
 }

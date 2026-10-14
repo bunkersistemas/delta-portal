@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-14T12:30",
+  "generado": "2026-10-14T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3580623",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T16:20",
+      "entidad": "ALUAR ALUMINIO ARGENTINO",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2A68C96F-3E77-4781-9A97-A887E3930205"
+    },
     {
       "id": "cnv-3580290",
       "fuente": "CNV",
@@ -634,6 +643,36 @@
       "frase": "oday that it will release its consolidated financial statements for the third quarter of this year on Wednesday, October 28, 2026, after market closes. The Company will present the results through a webcast on Thursday, October 29, 2026, at 8:00 am Mexico City time (10:00 am ET; 11:00 am BAT). The webcast will be a",
       "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526399609/d27684d6k.htm",
       "presentado": "2026-09-23"
+    },
+    {
+      "id": "sec-0001292814-26-004922-2026-11-06",
+      "fuente": "SEC",
+      "fecha": "2026-11-06",
+      "entidad": "Central Puerto",
+      "ticker": "CEPU",
+      "frase": "r the “Company”) (BYMA: CEPU; NYSE: CEPU), one of the largest private power generation companies in Argentina, will release its financial results for the third quarter of 2026 on the first business day following Friday, November 6, 2026, the scheduled date of the Board of Directors meeting at which such results wil",
+      "url": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426004922/cepu20261014_6k.htm",
+      "presentado": "2026-10-14"
+    },
+    {
+      "id": "sec-0001292814-26-004922-2026-11-11",
+      "fuente": "SEC",
+      "fecha": "2026-11-11",
+      "entidad": "Central Puerto",
+      "ticker": "CEPU",
+      "frase": "llowing Friday, November 6, 2026, the scheduled date of the Board of Directors meeting at which such results will be considered. As of the date of this announcement, the results are expected to be released on Wednesday, November 11, 2026 (1) . The Company’s management team will host a conference call to discuss its",
+      "url": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426004922/cepu20261014_6k.htm",
+      "presentado": "2026-10-14"
+    },
+    {
+      "id": "sec-0001292814-26-004922-2026-11-12",
+      "fuente": "SEC",
+      "fecha": "2026-11-12",
+      "entidad": "Central Puerto",
+      "ticker": "CEPU",
+      "frase": "cement, the results are expected to be released on Wednesday, November 11, 2026 (1) . The Company’s management team will host a conference call to discuss its financial results for the third quarter of 2026 on Thursday, November 12, 2026, at 10:00 a.m. ET (12:00 p.m. Buenos Aires time). Audience registration: Regist",
+      "url": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426004922/cepu20261014_6k.htm",
+      "presentado": "2026-10-14"
     }
   ],
   "sec_vistos": {
@@ -666,6 +705,7 @@
     "sec-0001292814-26-004882": "2026-10-09",
     "sec-0001292814-26-004906": "2026-10-13",
     "sec-0001292814-26-004916": "2026-10-14",
+    "sec-0001292814-26-004922": "2026-10-14",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002000": "2026-09-15",
     "sec-0001554855-26-002013": "2026-09-17",

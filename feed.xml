@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 14 Oct 2026 14:56:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 16:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Aluar no repartió su ganancia: la asamblea mandó $260.049 millones a la reserva para dividendos, que ya supera $1 billón</title>
+      <link>https://coninteres.com/articulos/2026-10-14-aluar-asamblea-dividendos-reserva.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-14-aluar-asamblea-dividendos-reserva.html</guid>
+      <pubDate>Wed, 14 Oct 2026 17:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>La asamblea de Aluar del 14 de octubre no aprobó un dividendo nuevo: mandó $260.049 millones, el 95% de la ganancia del ejercicio, a la reserva para futuros dividendos, que llegó a $1.013.930 millones en pesos de septiembre. Es casi 99 veces el último dividendo. El directorio decide si paga y cuándo. La ANSES tiene el 9,90% de la empresa.</description>
+      <ci:numero>$1.013.930 M</ci:numero>
+      <ci:numeroEtiqueta>reserva de Aluar para futuros dividendos tras la asamblea del 14/10/2026, en pesos de septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-aluar-asamblea-dividendos-reserva.png" length="67924" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-aluar-asamblea-dividendos-reserva.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>¿Qué dicen JP Morgan y los grandes bancos sobre cómo viene la economía argentina?</title>
       <link>https://coninteres.com/articulos/2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>consejos de ciencias económicas con un valor publicado de 2013-2015 cuyo honorario mínimo sugerido de octubre de 2026 compra menos que entonces (IPCBA hasta dic-2016 + IPC regional del INDEC hasta ago-2026): Formosa -65,6%, Santa Fe-Rosario -45,4%, Buenos Aires -20,1%, CABA -10,1%, La Pampa -2,1%, Neuquén -1,8%; Tucumán +13,9%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-honorarios-minimos-contadores-provincias.png" length="77531" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-honorarios-minimos-contadores-provincias.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los honorarios mínimos sugeridos de los contadores porteños compran 6% menos que en 2013, aunque desde 2024 siguen a la inflación</title>
-      <link>https://coninteres.com/articulos/2026-10-12-honorarios-minimos-contadores-inflacion.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-12-honorarios-minimos-contadores-inflacion.html</guid>
-      <pubDate>Mon, 12 Oct 2026 14:50:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Consejo Profesional de Ciencias Económicas de la Ciudad expresa sus honorarios mínimos sugeridos en "módulos". El módulo valía $45,40 en enero de 2013 y vale $15.682 desde el 1 de octubre de 2026: se multiplicó por 345, mientras los precios de la Ciudad se multiplicaron por 368. Desde marzo de 2024 se ajusta solo, mes a mes, por el IPC del INDEC: la pérdida se hizo antes.</description>
-      <ci:numero>-6%</ci:numero>
-      <ci:numeroEtiqueta>pérdida de poder de compra del módulo de honorarios mínimos sugeridos del CPCECABA entre enero de 2013 ($45,40, Res. C.D. 120/2012) y octubre de 2026 ($15.682) frente al IPC de la Ciudad (IPCBA, x367,66 dic-2012 a ago-2026); -10% si desde 2017 se usa el IPC nacional del INDEC</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-honorarios-minimos-contadores-inflacion.png" length="76567" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-honorarios-minimos-contadores-inflacion.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

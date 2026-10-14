@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-14T14:56:54-03:00",
+    "actualizado": "2026-10-14T16:41:35-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-14-aluar-asamblea-dividendos-reserva",
+      "titulo": "Aluar no repartió su ganancia: la asamblea mandó $260.049 millones a la reserva para dividendos, que ya supera $1 billón",
+      "bajada": "La asamblea de Aluar del 14 de octubre no aprobó un dividendo nuevo: mandó $260.049 millones, el 95% de la ganancia del ejercicio, a la reserva para futuros dividendos, que llegó a $1.013.930 millones en pesos de septiembre. Es casi 99 veces el último dividendo. El directorio decide si paga y cuándo. La ANSES tiene el 9,90% de la empresa.",
+      "titulo_busqueda": "¿Aluar va a pagar dividendos? Qué decidió la asamblea con su ganancia",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$1.013.930 M",
+      "numero_label": "reserva de Aluar para futuros dividendos tras la asamblea del 14/10/2026, en pesos de septiembre de 2026",
+      "fecha": "2026-10-14",
+      "hora": "17:00",
+      "archivo": "articulos/2026-10-14-aluar-asamblea-dividendos-reserva.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-14-jp-morgan-bancos-pronosticos-economia-argentina",
       "titulo": "¿Qué dicen JP Morgan y los grandes bancos sobre cómo viene la economía argentina?",
