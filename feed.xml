@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 14 Oct 2026 16:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 18:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Presupuesto 2027 le asigna al Garrahan $396.035 millones: 11,4% más que este año, con una inflación proyectada de 18%</title>
+      <link>https://coninteres.com/articulos/2026-10-14-garrahan-presupuesto-2027.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-14-garrahan-presupuesto-2027.html</guid>
+      <pubDate>Wed, 14 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El proyecto que discute Diputados repite para los siete hospitales nacionales la misma cuenta: el crédito con el que arrancaron 2026, multiplicado por 1,72. En el Garrahan esa cuenta no incluye los $124.982 millones que el Gobierno le sumó durante este año. Si la inflación es la que proyecta el propio Presupuesto, en 2027 el hospital recibiría alrededor de 5,6% menos que en 2026, descontada la inflación.</description>
+      <ci:numero>$396.035 M</ci:numero>
+      <ci:numeroEtiqueta>aporte de la Nación al Hospital Garrahan en el proyecto de Presupuesto 2027 (Jurisdicción 80, programa 99, grupo 01 'Funcionamiento Hospital Garrahan')</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-garrahan-presupuesto-2027.png" length="78902" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-garrahan-presupuesto-2027.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Aluar no repartió su ganancia: la asamblea mandó $260.049 millones a la reserva para dividendos, que ya supera $1 billón</title>
       <link>https://coninteres.com/articulos/2026-10-14-aluar-asamblea-dividendos-reserva.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>haber mensual de octubre de 2026 del voluntario de segunda de las Fuerzas Armadas (Resolución Conjunta 44/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-cuanto-cobra-soldado-voluntario-octubre.png" length="77273" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-cuanto-cobra-soldado-voluntario-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>En seis de los siete consejos de contadores que se pueden medir, el honorario mínimo sugerido compra menos que hace más de una década</title>
-      <link>https://coninteres.com/articulos/2026-10-12-honorarios-minimos-contadores-provincias.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-12-honorarios-minimos-contadores-provincias.html</guid>
-      <pubDate>Mon, 12 Oct 2026 17:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Relevamos los 24 consejos de ciencias económicas del país. En siete se puede comparar el honorario mínimo sugerido de hoy con el de 2013 a 2015: en seis compra menos, desde un 2% menos en La Pampa y Neuquén hasta un 66% menos en Formosa. Hoy, el piso sugerido para la declaración de Ganancias de una persona va de $173.200 en Chubut a $874.540 en Entre Ríos.</description>
-      <ci:numero>6 de 7</ci:numero>
-      <ci:numeroEtiqueta>consejos de ciencias económicas con un valor publicado de 2013-2015 cuyo honorario mínimo sugerido de octubre de 2026 compra menos que entonces (IPCBA hasta dic-2016 + IPC regional del INDEC hasta ago-2026): Formosa -65,6%, Santa Fe-Rosario -45,4%, Buenos Aires -20,1%, CABA -10,1%, La Pampa -2,1%, Neuquén -1,8%; Tucumán +13,9%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-honorarios-minimos-contadores-provincias.png" length="77531" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-honorarios-minimos-contadores-provincias.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

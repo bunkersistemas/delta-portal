@@ -4217,6 +4217,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
+    },
+    {
+      "tema": "cuánta plata le da el Estado al Garrahan en 2027 (informe UNICEF-ACIJ en la Comisión de Familias de Diputados, Infobae 14/10/2026: salud de la niñez -13% real 'por menos fondos para vacunas y transferencias al Garrahan'; Presupuesto 2027 e infancias también en Cronista y Página12) / proyecto de Presupuesto 2027, J80 Ministerio de Salud, programa 99 grupo 01 'Funcionamiento Hospital Garrahan': $396.035 M (p. 80-141/142; grupos del programa 99 suman 1.546.213 = total p. 80-13); 2026 Presupuesto Abierto (act. 12/10/2026) servicio 310 prog. 99: inicial 230.401,7, vigente 355.383,4 (+124.981,7, +54,2%), devengado 259.103,1 (72,9%); 2027/vigente +11,4%, 2027/inicial x1,7189 = mismo coeficiente para los 7 hospitales del programa 99 (El Calafate +59,1%, El Cruce +39,5%, Favaloro +16,1%, Cuenca Alta +16,0%, Bicentenario +14,0%, Garrahan +11,4%, Pte. Néstor Kirchner -7,3% contra vigente; total 795.987,8 -> 956.122, +20,1%); IPC 2027 supuesto 18,0% dic/dic (mensaje) -> real -5,6% (ESTIMACIÓN); serie inicial/devengado: 2023 27.158,6/48.084,1; 2024 49.698,4/169.445,8; 2025 169.445,8/206.620,0; en pesos prom. 2025 (IPC INDEC): 218.293 / 240.478 / 206.620; 2026 vigente ~266.968 (estimado, IPC ene-sep); vacunas prog. 20: 2027 523.340 vs vigente 2026 551.120,0 (-5,0%), act. 43 500.807 vs 515.115,2 (-2,8%)",
+      "angulo": "Corrida programada del 14/10/2026 18:30. Pregunta de plata (cuánto le da el Estado al Garrahan) detrás del informe UNICEF-ACIJ sobre el Presupuesto 2027 y la niñez (3 portadas). Ángulo propio: el número de 2027 sale de multiplicar el crédito inicial de 2026 por 1,7189, igual para los siete hospitales, sin las ampliaciones del año; contra el vigente sube 11,4% con inflación proyectada de 18%; el Garrahan siempre terminó con más que el crédito inicial (2023-2026). Camino: documento oficial recalculado (suma de grupos = total del programa; serie de Presupuesto Abierto) + contraste independiente (Chequeado: $169.445 M en 2024/2025 coincide con la base; UNICEF-ACIJ vía Infobae, misma dirección). El informe original de UNICEF-ACIJ no está publicado: su 13% va atribuido. Sin superlativos.",
+      "fecha": "2026-10-14",
+      "estado": "publicada",
+      "articulo_id": "2026-10-14-garrahan-presupuesto-2027",
+      "archivo": "cola/2026-10-14-garrahan-presupuesto-2027.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 14/10/2026 18:30: no se probaron porque la primera candidata (Garrahan en el Presupuesto 2027) pasó la verificación. Lista: pregunta de plata: cuánto paga de impuestos un creador de OnlyFans (La Nación, Cronista 'qué impuestos hay que pagar si ganás dólares en plataformas digitales'; escalas de monotributo de ARCA, sin probar), primera infancia en el Presupuesto 2027 (-16% real según UNICEF-ACIJ; informe original no publicado), sueldo y recibo asistido del servicio doméstico (infobae, La Nación, Página12; escala publicada el 25/09), Quini 6 con dos ganadores de $2.651 M (infobae; impuesto publicado el 13/10); empresas: AES Argentina Generación garantía con IDB Invest (HR CNV 14/10; sin leer), Telecom condicionamiento de Defensa de la Competencia (HR CNV 14/10; líneas móviles publicada el 10/10), TGS préstamo de US$1.400 M (La Nación; sin HR), Zhoue concurso preventivo (iProfesional; expediente sin probar), Algodonera Avellaneda quiebra (Cronista; expediente sin probar); portadas: morosidad empresarial 59.982 firmas (infobae, ámbito, Página12; dato de una consultora privada, sin fuente oficial equivalente probada), empleo registrado de julio (La Nación, Cronista, Página12; SIPA usado el 13/10), riesgo país sobre 600 (5 portadas; serie publicada), plan de pagos de ABL y patentes de CABA (5 portadas; sin cifra ancla), JetSmart Chile (Cronista, La Nación; ANAC publicada el 05/10); calendario: UCII de agosto (mañana 16 h). Cupo de EMPRESAS: no regía (hoy ya salió Aluar, 17:00). Clarín y TN no se pudieron leer.",
+      "angulo": "NO TOMADAS en la corrida programada del 14/10/2026 18:30.",
+      "fecha": "2026-10-14",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
     }
   ]
 }

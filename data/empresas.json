@@ -1,11 +1,65 @@
 {
-  "generado": "2026-10-14T16:30",
+  "generado": "2026-10-14T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3580407",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T18:07",
+      "entidad": "AES ARGENTINA GENERACIÓN S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - CELEBRACIÓN DE ACUERDO DE GARANTÍA CON INTER-AMERICAN INVESTMENT CORPORATION POR PRÉSTAMO TOMADO POR LA SUBSIDIARIA VIENTOS BONAERENSES S.A.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/919113DF-AE3E-4B95-864D-631B998B8132"
+    },
+    {
+      "id": "cnv-3580765",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T17:50",
+      "entidad": "YPF ENERGÍA ELÉCTRICA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - CAMBIO COMPOSICIÓN ACCIONARIA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/72DA8750-E22B-4055-938F-4067290AFBCF"
+    },
+    {
+      "id": "cnv-3580748",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T17:33",
+      "entidad": "YPF S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ADQUISICIÓN DE PARTICIPACIÓN ACCIONARIA EN YPF ENERGÍA ELÉCTRICA S.A. - CIERRE DE LA TRANSACCIÓN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/913D1B4E-B705-4D29-BC95-2E0C3FBA98EB"
+    },
+    {
+      "id": "cnv-3580726",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T17:19",
+      "entidad": "FIPLASTO S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE EN CONEXION CON LA DESIGNACION DE MIEMBROS DEL COMITE DE AUDITORIA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/97CCCCDF-02F3-449E-8B2D-0E1BE9A49304"
+    },
+    {
+      "id": "cnv-3580712",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T17:17",
+      "entidad": "GEOPARK ARGENTINA SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE QUE DA CUENTA DE UNA REUNIÓN DE ASAMBLEA GENERAL DE ACCIONISTAS EN CARÁCTER AUTOCONVOCADA EL 14/10/2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/EC33135D-27AD-4269-A17B-E503077F3835"
+    },
+    {
+      "id": "cnv-3580717",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T17:14",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (14 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4C35F24B-BA63-4B03-974B-7D4581E0D07A"
+    },
     {
       "id": "cnv-3580623",
       "fuente": "CNV",
@@ -706,6 +760,7 @@
     "sec-0001292814-26-004906": "2026-10-13",
     "sec-0001292814-26-004916": "2026-10-14",
     "sec-0001292814-26-004922": "2026-10-14",
+    "sec-0001292814-26-004924": "2026-10-14",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002000": "2026-09-15",
     "sec-0001554855-26-002013": "2026-09-17",
@@ -713,6 +768,7 @@
     "sec-0001554855-26-002042": "2026-09-28",
     "sec-0001554855-26-002070": "2026-10-05",
     "sec-0001554855-26-002088": "2026-10-09",
-    "sec-0001554855-26-002090": "2026-10-09"
+    "sec-0001554855-26-002090": "2026-10-09",
+    "sec-0001554855-26-002124": "2026-10-14"
   }
 }
