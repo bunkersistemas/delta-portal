@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-14T00:30",
+  "generado": "2026-10-14T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3580290",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T09:55",
+      "entidad": "TELECOM ARGENTINA S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - TELECOM ARGENTINA S.A. INFORMA HECHO RELEVANTE SOBRE CONDICIONAMIENTO ESTABLECIDO POR EL TRIBUNAL DE DEFENSA DE LA COMPETENCIA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1103855D-0C22-4F32-9CF0-D457556C42C7"
+    },
     {
       "id": "cnv-3580152",
       "fuente": "CNV",
@@ -637,6 +646,8 @@
     "sec-0001104659-26-108115": "2026-09-16",
     "sec-0001104659-26-109053": "2026-09-21",
     "sec-0001104659-26-111196": "2026-09-28",
+    "sec-0001104659-26-115753": "2026-10-14",
+    "sec-0001104659-26-115765": "2026-10-14",
     "sec-0001114700-26-000083": "2026-09-14",
     "sec-0001193125-26-398099": "2026-09-22",
     "sec-0001292814-26-004574": "2026-09-16",
@@ -654,6 +665,7 @@
     "sec-0001292814-26-004878": "2026-10-09",
     "sec-0001292814-26-004882": "2026-10-09",
     "sec-0001292814-26-004906": "2026-10-13",
+    "sec-0001292814-26-004916": "2026-10-14",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002000": "2026-09-15",
     "sec-0001554855-26-002013": "2026-09-17",

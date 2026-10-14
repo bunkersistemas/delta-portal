@@ -4178,6 +4178,21 @@
       "estado": "publicada",
       "articulo_id": "2026-10-14-bcra-oro-reservas-perdiendo",
       "archivo": "cola/2026-10-14-bcra-oro-reservas-perdiendo.html"
+    },
+    {
+      "tema": "para qué es el préstamo del BID de US$500 millones para el subsidio al gas (Decreto 1178/2026, BO 14/10/2026; ámbito y El Cronista 14/10) / BID 6174/OC-AR (AR-L1428, Resolución DE-70/26 del 05/08/2026): componente 1 bonificaciones US$494,5 M en 4 fases (150/144,5/100/100), componente 2 US$5 M, administración US$0,5 M; 25 años, 5,5 de gracia, SOFR; contexto: BID electricidad US$700 M (Decreto 1052/2024), Banco Mundial gas US$300 M (19/12/2025), reintegro garrafa $9.593 (Disposición 1/2026 SSEEIE); atribuidos al BID: costo gas red 2025 US$1.090 M, 55% llegó a vulnerables, 60.000 inscriptos garrafa a dic-2025, cubre ~15% de la necesidad",
+      "angulo": "qué paga el préstamo, en qué tramos y con qué condiciones; distinto de la nota del 01/10 (descuento del SEF en octubre) y de la del 13/10 (ley de Zona Fría)",
+      "fecha": "2026-10-14",
+      "estado": "publicada",
+      "articulo_id": "2026-10-14-bid-prestamo-subsidio-gas"
+    },
+    {
+      "tema": "descartes de la corrida programada del 14/10/2026 12:30: no se probaron porque la primera candidata (préstamo BID US$500 M para el subsidio al gas) pasó la verificación. Lista: empresas: Telecom HR CNV 14/10 sobre condicionamientos (el visor de la CNV muestra solo el formulario, sin el texto; líneas móviles publicada el 10/10), Central Puerto recompra de acciones propias HR 08 y 13/10 (rutina), Moolec liquidación voluntaria (sin cifra ancla; ver descarte 14/10 00:30), Caja de Valores dividendo rectificativo (rutina); pregunta de plata: San Luis vende su 'palacio embajada' por US$3 M (infobae; sin probar), CABA sube Ingresos Brutos a la compra de 0km desde 2027 (infobae; sin probar), BID US$300 M Transformación del Estado y retiros voluntarios (Decreto 1177/2026; el decreto no menciona retiros), Vacacionar en Brasil 40% más caro (dato de agencias); portadas: paritarias que le ganaron a la inflación (infobae, iProfesional), plan de pagos de ABL y patentes de CABA (ámbito, Cronista), energía para comercios +55% (La Nación), BCRA compró US$15.000 M en el año (La Nación, iProfesional; serie publicada), empleo registrado (SIPA usado el 13/10).",
+      "angulo": "NO TOMADAS en la corrida programada del 14/10/2026 12:30.",
+      "fecha": "2026-10-14",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
     }
   ]
 }
