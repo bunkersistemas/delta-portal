@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 13 Oct 2026 22:53:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 00:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El kilo de papa subió 167% en un año y ya cuesta más que el de arroz: hace un año estaba en su precio real más bajo desde 2016</title>
+      <link>https://coninteres.com/articulos/2026-10-14-precio-papa-kilo-subio-arroz.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-14-precio-papa-kilo-subio-arroz.html</guid>
+      <pubDate>Wed, 14 Oct 2026 01:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En septiembre el kilo de papa costó $2.201,11 en el Gran Buenos Aires, según el INDEC: 2,7 veces los $823 de un año antes, contra una inflación de 33,5%. Pero la cuenta arranca de un piso: en septiembre y octubre de 2025 la papa tocó su precio más bajo en términos reales desde que hay serie. Hoy está 32% por encima de su promedio de casi diez años y 36% por debajo del pico de 2023. La cebolla y el zapallo subieron todavía más.</description>
+      <ci:numero>+167%</ci:numero>
+      <ci:numeroEtiqueta>suba en doce meses del precio promedio del kilo de papa en el GBA: $823,00 en sep-2025 a $2.201,11 en sep-2026 (INDEC, informe del IPC de septiembre de 2026 y planilla sh_ipc_precios_promedio.xls; recálculo propio 167,4%); contraste: Mercado Central (papa Spunta SE Bs.As., modal por kilo, ene-sep 2026 +85,8% contra +82,5% del INDEC, techo en agosto en los dos) y Coninagro (precio al productor +329% interanual en agosto, contra +166,1% del INDEC)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-precio-papa-kilo-subio-arroz.png" length="84429" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-precio-papa-kilo-subio-arroz.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Nobel de Economía le paga $910 millones a cada uno de sus dos ganadores: lo que cobra un trabajador registrado promedio en 38 años</title>
       <link>https://coninteres.com/articulos/2026-10-13-nobel-economia-premio-cuanto-cobra-pesos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>caída del gasoil importado en enero-agosto de 2026 contra 2025: 408.390 m³ contra 1.167.082 (Secretaría de Energía, Res. 1104/2004); contraste INDEC NCM 2710.19.21: 372,0 contra 981,2 millones de kg (−62,1%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-11-importacion-gasoil-refinerias-record.png" length="83948" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-11-importacion-gasoil-refinerias-record.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un celíaco recibe $58.560 por mes de su obra social o del PAMI para comprar harinas sin gluten: con la canasta de agosto, el monto ya cubre 24,9% y no el 27,5% que fija la norma</title>
-      <link>https://coninteres.com/articulos/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.html</guid>
-      <pubDate>Sun, 11 Oct 2026 14:45:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La reglamentación de la ley de celiaquía obliga a obras sociales, prepagas y PAMI a pagar el 27,5% de la canasta básica alimentaria del INDEC, y lo actualiza cada seis meses. Desde el 26 de abril son $58.560,975. Pero la canasta siguió subiendo: con el valor de agosto, la regla ya daría $64.653, y el monto vigente cubre 24,9%.</description>
-      <ci:numero>$58.560</ci:numero>
-      <ci:numeroEtiqueta>cobertura mensual por celiaquía que deben pagar obras sociales, prepagas y PAMI desde el 26/04/2026 ($58.560,975, Ministerio de Salud; PAMI $58.560,98): 27,5% de la CBA de marzo de 2026 ($212.949, INDEC) según el art. 9 del anexo del Decreto 218/2023; con la CBA de agosto ($235.103) la regla daría $64.653</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.png" length="96291" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

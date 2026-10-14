@@ -4146,6 +4146,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, ya cubiertas, sin documento primario con la cifra o empresas sin cifra ancla legible, frente a la candidata elegida"
+    },
+    {
+      "tema": "¿por qué está tan cara la papa y cuánto cuesta el kilo? (La Nación 13/10/2026 'Subió un 151% en cuatro meses. La papa pasó a verde en un semáforo de economías regionales', Clarín 13/10 'Aumento del 329%', semáforo de Coninagro del 13/10) / INDEC precios promedio GBA: papa $823,00 sep-25 -> $2.201,11 sep-26 (+167,4%; IPC GBA +33,54%); ago-26 $2.275,91 (sep -3,3%, figura en el informe IPC); ene-26 $1.205,82; precio real (pesos sep-26, IPC GBA desde dic-2016, 118 meses): mínimo oct-25 $1.081 y sep-25 $1.099 (piso previo dic-21 $1.178), pico sep-23 $3.426 (-35,8%), promedio $1.665 (+32,2%), real interanual +100,3%; supera al arroz ($1.905,45, +9,2%), antes solo oct-22 a mar-23 y jul-sep 23; cebolla +257,9%, zapallo anco +205,4%, papa +167,4% (top 3 de 59 productos); regiones NOA $1.888,29 a Patagonia $3.095,31; contraste Mercado Central (Spunta SE Bs.As. bolsa 18 kg sin cepillar, modal por kilo promedio de días hábiles: ene $492,06, ago $1.091,66, sep $914,14) y Coninagro (productor +329% ia en agosto, bolsa 20 kg $22.163, área -12%, productor 41% del precio final)",
+      "angulo": "Corrida programada del 14/10/2026 00:30. Pregunta de plata detrás del semáforo de Coninagro: la suba de la papa en la verdulería, medida por el INDEC, puesta en serie real de diez años (viene del piso de la serie) y contrastada con el mayorista del Mercado Central y el productor. Camino de verificación: estadística oficial recalculada con contraste.",
+      "fecha": "2026-10-14",
+      "estado": "publicada",
+      "articulo_id": "2026-10-14-precio-papa-kilo-subio-arroz",
+      "archivo": "cola/2026-10-14-precio-papa-kilo-subio-arroz.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 14/10/2026 00:30: no se probaron porque la primera candidata (precio de la papa) pasó la verificación. Lista: empresas: Moolec Science (ex grupo Bioceres) convoca a votar su liquidación voluntaria el 20/10 (6-K SEC 07/10/2026; La Nación 13/10; el 6-K del 02/09 informa US$6,1 M facturados por Linklaters 2023-2025 y un pedido de liquidación judicial por US$2,3 M con audiencia el 03/11; candidata fuerte de EMPRESAS para retomar: falta balance con cifras recientes, el último 20-F es de jun-2025), Central Puerto adquisición de acciones propias HR 08 y 13/10 (rutina), Caja de Valores anuncio rectificativo de dividendo (rutina), Vista Energy balance anunciado para el 28/10 (todavía no); bandas cambiarias: techo de $1.988 a fines de noviembre (TN; dólar contra el techo publicado el 25/09), BCRA compró US$291 M (5 portadas; serie publicada 08/10), empleo privado registrado de julio -12.716 (La Nación, ámbito; SIPA usado el 13/10), 148 localidades sin lugar para sacar efectivo (La Nación; estudio privado), mapa de la morosidad por provincia (infobae; sin probar), Yacyretá abre compuertas y baja el costo de la energía (Clarín; CAMMESA sin probar), oro del BCRA y la AGN (sin informe de la AGN), IPC y canasta (cubiertas el 13/10), Boca-Vasco (premios CONMEBOL publicados el 06/10). Cupo de EMPRESAS: regía; Moolec queda segunda en la lista porque su documento no trae una cifra ancla con la que contestar la pregunta de plata (cuánto pierden los accionistas) sin usar la cotización de mercado.",
+      "angulo": "NO TOMADAS en la corrida programada del 14/10/2026 00:30.",
+      "fecha": "2026-10-14",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
     }
   ]
 }
