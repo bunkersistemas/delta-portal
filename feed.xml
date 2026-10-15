@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 15 Oct 2026 14:53:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 16:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El monotributo deja facturar hasta $126,6 millones al año por servicios: son US$6.966 por mes, el tope en dólares más alto en diez años</title>
+      <link>https://coninteres.com/articulos/2026-10-15-monotributo-tope-servicios-dolares.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-15-monotributo-tope-servicios-dolares.html</guid>
+      <pubDate>Thu, 15 Oct 2026 17:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>ARCA les escribe a creadores de OnlyFans por ingresos de 2022 a 2024, pero el techo del monotributo de esos años no es el de hoy. Desde agosto, el régimen deja facturar hasta $126.610.838,75 al año en la categoría K, también por servicios: al dólar oficial del 14 de octubre, US$83.595 al año, US$6.966 por mes, el tope en dólares más alto en diez años. Entre 2019 y 2023, quien vendía servicios no podía pasar de unos US$27.000 a US$33.000 al año.</description>
+      <ci:numero>US$6.966</ci:numero>
+      <ci:numeroEtiqueta>tope mensual promedio de facturación del monotributo (categoría K, $126.610.838,75 al año desde el 01/08/2026, tabla de ARCA; recalculado al centavo: tope feb-jul 2026 $108.357.084,05 x IPC INDEC jun-26/dic-25 11.826,4103/10.121,3715, art. 52 Ley 24.977) / 12 / dólar mayorista A 3500 del 14/10/2026 $1.514,5655 (BCRA)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-monotributo-tope-servicios-dolares.png" length="84956" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-monotributo-tope-servicios-dolares.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los remedios subieron 2,4% en septiembre, más que la inflación por cuarta vez en cinco meses: cortaron más de dos años de abaratarse</title>
       <link>https://coninteres.com/articulos/2026-10-15-remedios-aumento-septiembre-inflacion.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>anomalía de temperatura del Pacífico ecuatorial en julio-septiembre de 2026 (índice ONI de NOAA): la más alta para ese trimestre desde 1950</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-el-nino-cosecha-trigo-soja-maiz.png" length="79341" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-el-nino-cosecha-trigo-soja-maiz.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La cuenta corriente perdió US$7.788 millones en 2025: hubo superávit fiscal, pero los superávits gemelos solo aparecieron en 2024</title>
-      <link>https://coninteres.com/articulos/2026-10-13-superavits-gemelos-cuenta-corriente-2025.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-superavits-gemelos-cuenta-corriente-2025.html</guid>
-      <pubDate>Tue, 13 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Estado nacional cerró con superávit financiero 2024, 2025 y lo que va de 2026. Las cuentas con el resto del mundo, no: la cuenta corriente terminó 2025 con un rojo de US$7.788 millones y el primer semestre de 2026 con uno de US$197 millones, según el INDEC. Con la definición de manual, el país tuvo superávits gemelos un solo año desde 2008.</description>
-      <ci:numero>−US$7.788 M</ci:numero>
-      <ci:numeroEtiqueta>saldo de la cuenta corriente de la Argentina en 2025 (INDEC, balanza de pagos, dato provisorio): el lado externo que faltó para los superávits gemelos</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-superavits-gemelos-cuenta-corriente-2025.png" length="74932" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-superavits-gemelos-cuenta-corriente-2025.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

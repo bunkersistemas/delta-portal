@@ -1,11 +1,47 @@
 {
-  "generado": "2026-10-15T14:30",
+  "generado": "2026-10-15T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3580544",
+      "fuente": "CNV",
+      "fecha": "2026-10-15T16:27",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6C8A4BD8-8D14-4A67-B8F5-5BBFFD76468D"
+    },
+    {
+      "id": "cnv-3580548",
+      "fuente": "CNV",
+      "fecha": "2026-10-15T16:27",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B4DDB05F-A9D1-43F7-B95A-A74938545881"
+    },
+    {
+      "id": "cnv-3580648",
+      "fuente": "CNV",
+      "fecha": "2026-10-15T16:27",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/321D5EC9-130E-40E3-9D07-FBADFF6206A7"
+    },
+    {
+      "id": "cnv-3580749",
+      "fuente": "CNV",
+      "fecha": "2026-10-15T16:27",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5612825A-F073-41F6-941B-DBD5B881CAB2"
+    },
     {
       "id": "cnv-3580860",
       "fuente": "CNV",
