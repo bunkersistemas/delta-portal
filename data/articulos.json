@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-15T10:50:41-03:00",
+    "actualizado": "2026-10-15T12:54:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-15-vtv-bonaerense-aumento-octubre-inflacion",
+      "titulo": "La VTV bonaerense sube 17,6% y cuesta $114.106 desde hoy: descontada la inflación, queda 2,2% más barata que en enero",
+      "bajada": "Desde el 15 de octubre, la VTV de un auto en la provincia de Buenos Aires cuesta $114.105,99: sube 17,6% y, aun así, en pesos de hoy queda 2,2% abajo de la tarifa de enero. Es el aumento que estuvo congelado 90 días, y llega cuando los precios ya subieron 20,2% desde que se fijó la tarifa anterior. Contra hace un año, en cambio, la VTV subió 43,3%, y la inflación, 33,4%.",
+      "titulo_busqueda": "¿Cuánto cuesta la VTV en provincia de Buenos Aires desde el 15 de octubre?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$114.106",
+      "numero_label": "cuesta la VTV de un auto de hasta 2.500 kilos en la provincia de Buenos Aires desde el 15/10/2026 (tarifa básica, IVA incluido; Res. 361/2026 del Ministerio de Transporte bonaerense)",
+      "fecha": "2026-10-15",
+      "hora": "12:30",
+      "archivo": "articulos/2026-10-15-vtv-bonaerense-aumento-octubre-inflacion.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-15-tesoro-deuda-pesos-despues-elecciones-2027",
       "titulo": "El Tesoro volvió a colocar deuda en pesos que vence después de las elecciones de 2027: el 59% de lo que tomó el 14 de octubre llega hasta 2028 o 2029",

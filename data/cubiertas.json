@@ -4344,6 +4344,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
+    },
+    {
+      "tema": "cuánto cuesta la VTV en provincia de Buenos Aires desde el 15/10/2026 (infobae 15/10 'Aumentó la VTV en la provincia de Buenos Aires') / Res. 361/2026 MTRAGP (BO PBA N° 30.342, 15/10/2026, p. 39; normas.gba.gob.ar 626643): tarifa básica $114.105,99 IVA incl. desde el 15/10 (antes $97.057,65, Res. 369/2025, desde 16/01; +17,57%); API oficial vtv-web-api.transporte.gba.gob.ar/api/tipoVehiculos: hasta 2.500 kg 114.105,99, >2.500 kg 205.390,78, motos 50-200 45.642,40, 200-600 68.463,59, >600 91.284,79, remolques 68.463,59 / 102.695,39 (infobae: ~45.614 y ~205.264, no oficiales); recálculo SMATA-CAVEA abr-jun 2026 $1.630.085,67 x 7% = 114.105,997 (truncado); IPC nacional INDEC jul-25 9.023,973, sep-25 9.384,0922, ene-26 10.413,0309, sep-26 12.514,1508: inflación ene-sep +20,18% -> tarifa real -2,17% vs la de enero (GBA -2,41%); en pesos de sep-26: jul-25 110.443, ene-26 116.642, oct-26 114.106; interanual VTV +43,28% vs IPC +33,35% (real +7,4%); CABA $96.968,19 (+17.137,80 PBA); ahorro del congelamiento $17.048,34; jul-sep 2026 $1.742.235,56 x 7% = 121.956,49 (+6,9%, no es precio fijado)",
+      "angulo": "Corrida programada del 15/10/2026 12:30, primera candidata probada (APTA). Ángulo nuevo frente a la nota del 25/09/2026 (tarifa en pausa, sin precio desde el 15/10): ahora la resolución fija el valor, el cuadro oficial cambió y, con el IPC de septiembre, la tarifa nueva medida en pesos de hoy queda 2,2% bajo la de enero aunque gane 43,3% vs 33,4% interanual. Camino: dos fuentes oficiales que coinciden (Res. 361/2026 en BO y SINDMA + API de costos de la VTV) + recálculo con documento independiente (escala SMATA-CAVEA). Sin superlativos.",
+      "fecha": "2026-10-15",
+      "estado": "publicada",
+      "articulo_id": "2026-10-15-vtv-bonaerense-aumento-octubre-inflacion",
+      "archivo": "cola/2026-10-15-vtv-bonaerense-aumento-octubre-inflacion.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 15/10/2026 12:30: no se probaron porque la primera candidata (VTV bonaerense desde el 15/10, Res. 361/2026) pasó la verificación. Lista: pregunta de plata: remate de departamentos sin herederos en CABA (infobae; precios base de herencias vacantes, sin probar), el Súper Niño y el precio de la energía (infobae, iProfesional, La Nación; ¿baja la luz?, datos de CAMMESA sin probar), creadores de OnlyFans intimados por ARCA por hasta US$300.000 (infobae, La Nación; frenada antes), aumento de maestranza de octubre (iProfesional; sin probar), aumento de la energía para comercios e industrias +55% (La Nación; sin probar); empresas: TGS préstamo de US$1.400 M (La Nación, iProfesional; sin hecho relevante), AES Argentina garantía de IDB Invest (frenada antes: sin costo total), YPF Energía Eléctrica dos hechos relevantes del 14/10 (el visor de la CNV no muestra contenido sin JavaScript y los PDF piden inicio de sesión) y cambio de composición accionaria (compra publicada el 08/10), FOGACH HR 15/10 (sin contenido legible), quiebra de una algodonera vinculada a Vicentin (infobae; expediente sin probar), Zhoue concurso (iProfesional; expediente sin probar); portadas: riesgo país 640 (infobae, La Nación, iProfesional, Página12; serie publicada), licitación del Tesoro (publicada hoy), morosidad de empresas (Página12, infobae; consultora privada), cinco medidas para el crédito en pesos (infobae; sin documento); calendario: UCII de agosto y cuenta de generación del ingreso del 2T (hoy 16 h, todavía no salieron). Cupo de EMPRESAS: regía (hoy no salió ninguna nota de empresas); se descartó porque ninguna candidata del bloque tenía documento legible con cifra ancla nueva. Clarín y TN no se pudieron leer.",
+      "angulo": "NO TOMADAS en la corrida programada del 15/10/2026 12:30.",
+      "fecha": "2026-10-15",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
     }
   ]
 }
