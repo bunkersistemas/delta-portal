@@ -62,6 +62,8 @@ $Registro = Join-Path $Logs 'corridas.jsonl'
 # Borradores que esta redaccion dejo en la cola por una falla transitoria.
 # Vive fuera del repo: es estado de la maquina, no del sitio.
 $ArchivoRetenidos = Join-Path $Logs 'retenidos.txt'
+# Cuantas notas con narrativa aplicada se retienen para que el editor las lea antes de publicar.
+$ArchivoRevNar = Join-Path $Logs 'narrativa_revision.txt'
 $Resultado = Join-Path $Raiz '.corrida.json'
 $Corrida = (HoraAR).ToString('yyyy-MM-ddTHH:mm:ss')
 
@@ -134,6 +136,7 @@ Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del 
     Add-Content -Path $Log -Value ($salidaNar | Out-String) -Encoding UTF8
     $res = @(& $py agente/local/aplicar_narrativa.py $id 2>&1)
     $null = Anotar ("editor de narrativa: " + (($res | Out-String).Trim()))
+    if (("$(($res | Out-String).Trim())") -match '^APLICADA') { return $true }
   } catch {
     $null = Anotar ("[AVISO] el editor de narrativa fallo y se sigue con la redaccion original: " + $_.Exception.Message)
   }
@@ -202,13 +205,23 @@ function Subir($mensaje, $nota = '') {
 
 # Controla un borrador y lo publica. Devuelve el codigo del control si NO se
 # publico (1 definitiva, 2 transitoria) y deja el motivo en $script:motivoControl.
-function Publicar($id) {
+function Publicar($id, $retener = $false) {
   $control = & $py agente/local/controlar_borrador.py $id 2>&1
   $rc = $LASTEXITCODE
   if ($rc -ne 0) { $script:motivoControl = "$control"; return $rc }
   $partes = "$control".Split('|')
   $titulo = $partes[1]
   $null = Anotar "[OK] controles del borrador $id"
+  if ($retener) {
+    # Editor, 15/10/2026: las primeras notas reescritas por el editor de narrativa se leen ANTES de publicar.
+    # El cupo vive en coninteres-logs\narrativa_revision.txt (un numero); la nota queda en la cola (noindex)
+    # y la redaccion espera, como con cualquier borrador. Se publica con: aprobar.py <id>.
+    $quedan = 0
+    try { $quedan = [int]("$(Get-Content $ArchivoRevNar -TotalCount 1)".Trim()) } catch { $quedan = 0 }
+    Set-Content -Path $ArchivoRevNar -Value ([Math]::Max($quedan - 1, 0)) -Encoding ASCII
+    Subir "Redaccion: queda en cola $id para que el editor lea la reescritura de narrativa" $id
+    Terminar 0 'en_espera' "[AL EDITOR] $id queda en la cola: espera tu lectura (editor de narrativa)" $id
+  }
   $numPedido = PedidoDe $id
   & $py scripts/aprobar.py $id 2>&1 | ForEach-Object { Add-Content -Path $Log -Value $_ -Encoding UTF8 }
   if ($LASTEXITCODE -ne 0 -or -not (Test-Path "articulos/$id.html")) { Terminar 1 'falla' "[FALLA] aprobar.py no publico $id" $id }
@@ -581,10 +594,16 @@ if ($Mision -eq 'pedido') {
   if ($pedNota -ne "$PedidoId") { Anotar "[AVISO] la corrida del pedido $PedidoId dejo $id con pedido '${pedNota}': el pedido no se va a cerrar solo" }
 }
 AcortarTitulo $id
-Narrativa $id
+$narApl = Narrativa $id
 $conTg = ''
 if ($Mision -eq 'pedido') { $conTg = "$(& $py agente/local/pedidos_lectores.py tiene_telegram $PedidoId 2>$null)".Trim() }
-if ($conTg -eq 'SI') { $rc = EnviarARevision $id } else { $rc = Publicar $id }
+$retener = $false
+if ($narApl -and $conTg -ne 'SI' -and (Test-Path $ArchivoRevNar)) {
+  $qr = 0
+  try { $qr = [int]("$(Get-Content $ArchivoRevNar -TotalCount 1)".Trim()) } catch { $qr = 0 }
+  if ($qr -gt 0) { $retener = $true }
+}
+if ($conTg -eq 'SI') { $rc = EnviarARevision $id } else { $rc = Publicar $id $retener }
 if ($rc -eq 3) {
   # titular en forma de pregunta con el tope del dia pasado (scripts/titulares.py).
   # La nota esta verificada: no se tira. Se sube a la cola (noindex) y espera al
