@@ -4265,6 +4265,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
+    },
+    {
+      "tema": "cuánta plata tiene el swap con China y si se puede usar para pagar deuda (Caputo a Bloomberg desde Bangkok: si no se refinancian los Bonares se podría usar el swap chino; Bloomberg Línea, ámbito, Página12, infobae 14/10/2026) / comunicado BCRA 05/08/2026 + Banco Popular de China vía Xinhua (China Daily 06/08/2026): ¥130.000 M por 5 años; activación de ¥35.000 M vigente. Tipo de pase BCRA CNY 09/10/2026 0,149383 -> US$19.420 M, 39,07% de reservas brutas US$49.709 M (09/10); activado US$5.228 M (26,9%). Serie swap/reservas: 30/12/22 42,3%, 29/12/23 79,3%, 30/12/24 60,1%, 30/12/25 45,2% (contraste balance 2025: renminbi 45,4% de reservas). Fondos en uso (EC BCRA 2023-2025): dic-22 ¥8.500 M, dic-23 ¥35.000 M, dic-24 ¥21.000 M, dic-25 ¥7.000 M, 14/01/26 ¥4.600 M",
+      "angulo": "Corrida programada del 14/10/2026 23:27, primera candidata probada (APTA). Ángulo nuevo frente a la nota del 22/07 (repago antes de la renovación): ahora el acuerdo está renovado hasta 2031 y el ministro lo propone para 2027; la nota mide su peso en las reservas (serie 2022-2026) y separa la parte activada. Camino: dos fuentes independientes (los dos bancos centrales) para ¥130.000 M; conversión y porcentaje con datos del BCRA; contraste con el balance 2025. No afirma el uso actual (último dato oficial 14/01/2026), ni la tasa, ni condiciones chinas para pagar bonos.",
+      "fecha": "2026-10-14",
+      "estado": "en_cola",
+      "articulo_id": "2026-10-14-swap-china-reservas-bonares-2027",
+      "archivo": "cola/2026-10-14-swap-china-reservas-bonares-2027.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 14/10/2026 23:27: no se probaron porque la primera candidata (swap con China y Bonares 2027) pasó la verificación. Lista: pregunta de plata: cuánto paga el concesionario de Tecnópolis (infobae 14/10: oferta de Figoli favorita; sin acta de apertura con canon hallada), cuánto se paga de impuesto por compras en el exterior sobre la franquicia (ámbito; normativa ARCA sin probar), impuestos de creadores de OnlyFans (La Nación, Cronista; frenada antes), Quinta Marcha Federal Universitaria (Cronista; universidades publicada el 30/09); empresas: Moolec liquidación voluntaria (sin cifra ancla, ver 14/10 00:30), AES Argentina Generación garantía IDB Invest (sin costo total), TGS préstamo US$1.400 M (sin HR), Algodonera Avellaneda quiebra (La Nación; expediente sin probar), Zhoue concurso (iProfesional); portadas: licitación del Tesoro con $1,75 billones extra (5 portadas; licitación publicada el 29/09), riesgo país sobre 600 (5 portadas; serie publicada), morosidad empresarial 59.982 firmas (infobae, ámbito, Página12; consultora privada), plan de pagos de ABL de CABA (infobae, La Nación, Cronista; sin cifra ancla), energía para comercios +55% (La Nación; sin probar), índice de incertidumbre UCA (infobae; índice privado), protocolo comercial con EE.UU. (infobae; comercio publicado el 05/10); calendario: UCII de agosto (mañana 16 h). Cupo de EMPRESAS: no regía (hoy ya salieron Aluar y Metrotel). Clarín y TN no se pudieron leer.",
+      "angulo": "NO TOMADAS en la corrida programada del 14/10/2026 23:27.",
+      "fecha": "2026-10-14",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
     }
   ]
 }

@@ -1,5 +1,22 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-14T22:30:00-03:00",
-  "borradores": []
+  "actualizado": "2026-10-14T23:50:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-10-14-swap-china-reservas-bonares-2027",
+      "titulo": "El swap con China equivale al 39% de las reservas del Banco Central, pero solo US$5.228 millones están activados",
+      "titulo_busqueda": "¿Cuánta plata tiene el swap con China y se puede usar para pagar deuda?",
+      "bajada": "El swap con China equivale al 39% de las reservas brutas del Banco Central, pero la parte activada es algo más de un cuarto del acuerdo: 35.000 millones de yuanes, US$5.228 millones, sobre un total de 130.000 millones de yuanes, US$19.420 millones al tipo de cambio del BCRA del 9 de octubre. Esa parte activada es la que Caputo dijo que podría usar si no logra refinanciar los Bonares de 2027. A fines de 2023 estaba usada entera, y dos años después, en enero de 2026, todavía quedaban 4.600 millones de yuanes por devolver.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "39%",
+      "numero_label": "parte de las reservas brutas del BCRA que es el swap con China: ¥130.000 M (comunicados del BCRA del 05/08/2026 y del Banco Popular de China vía Xinhua del 06/08/2026) = US$19.420 M al tipo de pase del 09/10/2026 (0,149383), sobre reservas de US$49.709 M ese día; tramo activado ¥35.000 M = US$5.228 M",
+      "fecha": "2026-10-14",
+      "hora": "23:50",
+      "archivo": "cola/2026-10-14-swap-china-reservas-bonares-2027.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    }
+  ]
 }
