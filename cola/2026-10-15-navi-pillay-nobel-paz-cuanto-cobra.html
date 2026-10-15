@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿El Nobel de la Paz da un sueldo de por vida? Lo que cobra Navi Pillay — CON INTERÉS</title>
+<meta name="description" content="Navi Pillay se lleva sola el Nobel de la Paz 2026: 12 millones de coronas suecas, $1.820 millones al cambio oficial del BCRA del 13/10/2026. Es un pago único: los estatutos del Nobel no prevén un sueldo de por vida.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+</style>
+</head>
+<body data-palette="#0E7C86,#6B6560,#C4701F,#C0392B">
+<div class="draft-ribbon"><b>BORRADOR</b> · Investigación pedida por un lector · pendiente de publicación</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">MUNDO <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Quién es Navi Pillay, por qué ganó el Nobel de la Paz y cuánta plata le deja?</h1>
+
+  <p class="standfirst">El Nobel de la Paz no paga un sueldo de por vida: los estatutos prevén un pago único. Pero ese solo cheque pesa. La jurista sudafricana Navi Pillay, de 85 años, se lleva sola el premio de 2026: 12 millones de coronas suecas, $1.820 millones al cambio oficial del 13 de octubre, lo que un trabajador registrado promedio cobra en 76 años.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>15 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 7 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Cuenta quién es Navi Pillay y por qué la eligió el comité noruego, según los documentos oficiales del Nobel; cuánto cobra en coronas, dólares y pesos; qué dicen los estatutos sobre un sueldo de por vida, y cuánto se llevaron los ganadores de la Paz de 2022 a 2025. Quedó afuera lo que no es público: qué va a hacer ella con la plata, cuánto le cobra de impuestos Sudáfrica y cuánto cobra de jubilación de la ONU. Tampoco hay todavía un valor del premio de 2026 descontada la inflación sueca: la Fundación Nobel no lo calculó.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">2m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">$1.820<span class="u">millones</span></div>
+      <div class="cap">Es lo que cobra <b>Navi Pillay</b> por el Nobel de la Paz 2026: el premio entero, <b>12 millones de coronas suecas</b>, porque no lo comparte con nadie. Pasado a pesos con la cotización oficial del <b>BCRA</b> del 13/10/2026 ($151,68 por corona). Se paga <b>una sola vez</b>.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v up">12 M</span><span class="k">coronas suecas, premio completo</span></div>
+        <div class="sr"><span class="v">US$1.203.420</span><span class="k">en dólares, al pase del BCRA</span></div>
+        <div class="sr"><span class="v">918</span><span class="k">remuneraciones promedio registradas (RIPTE de agosto)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">El Nobel de la Paz de 2026 no se reparte. El viernes 9 de octubre, el Comité Noruego del Nobel <a href="https://www.nobelprize.org/prizes/peace/2026/press-release/">anunció</a> que el premio de la Paz de 2026 es para <b>Navanethem "Navi" Pillay</b>, "por sus esfuerzos para promover la paz y el derecho internacional". En la <a href="https://www.nobelprize.org/prizes/peace/2026/pillay/facts/">ficha oficial</a> del premio figura con una "parte del premio" de 1/1: no lo comparte.</p>
+    <p>Según el comité, Pillay fue clave para que los crímenes de guerra, los crímenes de lesa humanidad y el genocidio lleguen a juicio. Esa es la razón del premio; la plata viene después.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">De Durban a La Haya</h3>
+    <p>La historia que cuentan los documentos del comité empieza bajo el apartheid. Pillay nació el 23 de septiembre de 1941 en Durban, Sudáfrica, en una familia de origen tamil, de la India. Se recibió de abogada y en 1967 abrió su propio estudio en Durban, desde donde defendió a activistas contra el apartheid; el comité menciona entre ellos a Nelson Mandela. En los años ochenta estudió en la Universidad de Harvard, donde se doctoró en Ciencias Jurídicas en 1988.</p>
+    <p>Después vino la carrera de jueza. En 1995 la nombraron en el Tribunal Superior de Sudáfrica. Cuatro años más tarde pasó a ser jueza y presidenta del Tribunal Penal Internacional para Ruanda, el que juzgó el genocidio de 1994. Luego fue jueza de la Corte Penal Internacional.</p>
+    <p>Después llegaron los cargos en las Naciones Unidas. Entre 2008 y 2014 fue Alta Comisionada de las Naciones Unidas para los Derechos Humanos, y entre 2021 y 2025 presidió la Comisión Internacional Independiente de Investigación de la ONU sobre el Territorio Palestino Ocupado. Desde 2019 es jueza <i>ad hoc</i> de la Corte Internacional de Justicia, en La Haya, en el caso en que Myanmar está acusada de genocidio.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Por qué ganó</h3>
+    <p>El comité destaca dos fallos del tribunal de Ruanda en los que, dice, la influencia de Pillay fue decisiva. En uno se estableció que la violación y la violencia sexual pueden ser crimen de lesa humanidad y también genocidio. En el mismo caso, por primera vez, un acusado enfrentó cargos de incitación al genocidio solo por difundir propaganda.</p>
+    <p>El comité también explica el contexto de la elección: con más guerras que en mucho tiempo y con jueces e instituciones del derecho internacional sancionados y atacados, el comité quiso recordar que la paz depende de que los conflictos se resuelvan con reglas y no por la fuerza.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Cuánta plata es</h3>
+    <p>El monto lo fija la Fundación Nobel, que el 18 de septiembre <a href="https://www.nobelprize.org/press-release/the-nobel-prize-is-increased-by-sek-1-million/">anunció</a> que en 2026, por los 125 años del premio, cada categoría paga <b>12 millones de coronas suecas</b>: un millón más que en 2025. Como Pillay es la única ganadora, se lleva todo. Con la cotización de la corona que publicó el BCRA para el 13 de octubre ($151,680773), son <b class="hl">$1.820.169.276</b>, o <b>US$1.203.420</b>.</p>
+    <p>Queda la pregunta del lector: si ese monto se cobra una vez o todos los años.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">¿Un sueldo de por vida? No</h3>
+    <p>Los <a href="https://www.nobelprize.org/about/statutes-of-the-nobel-foundation/">estatutos de la Fundación Nobel</a> dicen qué recibe un ganador, y es una sola cosa, una sola vez. El artículo 9 establece que el 10 de diciembre, aniversario de la muerte de Alfred Nobel, cada premiado recibe <b>un cheque por el monto del premio, un diploma y una medalla de oro</b> con la imagen de Nobel. No hay ningún pago mensual, anual ni vitalicio. El mismo artículo agrega que si el ganador rechaza el premio, o no cobra el cheque antes del 1 de octubre del año siguiente, la plata vuelve a los fondos de la fundación. Y el artículo 4 pone el techo del reparto: un premio nunca se divide entre más de tres.</p>
+
+    <p>Ese único cheque, medido contra un sueldo argentino, equivale a varias vidas laborales. La remuneración imponible promedio de los trabajadores estables (RIPTE), que calcula la Secretaría de Seguridad Social, fue de <b>$1.982.518,19</b> en agosto. El premio de Pillay equivale a <b>918 de esos sueldos</b>: 76 años y medio de 12 meses, o 70 años si se cuenta el aguinaldo.</p>
+
+    <p>La otra vara es lo que cuesta vivir. Contra la canasta básica total de una familia de cuatro en el Gran Buenos Aires, que el INDEC midió en $1.632.505 para septiembre, son 1.115 meses: casi 93 años.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">El Nobel de la Paz 2026 ($1.820 millones) medido en ingresos argentinos · meses</div>
+        <h3>El premio de Pillay equivale a 76 años de sueldo registrado promedio</h3>
+        <p class="fig-sub">$1.820.169.276 divididos por el RIPTE de agosto de 2026 y por la canasta básica total de septiembre de 2026 (hogar de cuatro, GBA).</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 140" role="img" aria-label="El premio equivale a 918 RIPTE mensuales (76,5 años) y a 1.115 canastas básicas totales de una familia de cuatro (92,9 años).">
+<text x="0" y="22" class="clB">Remuneración promedio registrada (RIPTE, $1.982.518)</text>
+<rect x="0" y="32" width="412" height="26" rx="3" fill="#0E7C86"/>
+<text x="420" y="50" class="cvB">918 meses · 76,5 años</text>
+<text x="0" y="88" class="clB">Canasta básica total, familia de cuatro ($1.632.505)</text>
+<rect x="0" y="98" width="500" height="26" rx="3" fill="#C4701F"/>
+<text x="508" y="116" class="cvB">1.115 meses · 92,9 años</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Fundación Nobel (premio de 12 millones de coronas); BCRA, cotizaciones del 13/10/2026; Secretaría de Seguridad Social, RIPTE de agosto de 2026; INDEC, canasta básica de septiembre de 2026. Cálculo de Con Interés.</figcaption>
+    </figure>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Los últimos cinco premios de la Paz</h3>
+    <p>Que Pillay no comparta el premio hace una diferencia grande. En 2022 el Nobel de la Paz se repartió en tres partes entre el activista bielorruso Ales Bialiatski, la organización rusa Memorial y la ucraniana Center for Civil Liberties: a cada uno le tocaron 3,33 millones de coronas.</p>
+    <p>Para comparar años distintos hay que descontar la inflación sueca. La Fundación Nobel publica <a href="https://www.nobelprize.org/uploads/2026/04/prize-amounts-2025.pdf">la tabla de todos los montos</a> llevados a coronas de diciembre de 2025, lo que permite hacerlo. Medido así, cada tercio de 2022 vale 3,72 millones de coronas de hoy: Pillay cobra <b>3,2 veces</b> lo que cada uno de ellos.</p>
+    <p>Después no hubo reparto: Narges Mohammadi (2023), Nihon Hidankyo (2024) y María Corina Machado (2025) no compartieron el premio, de 11 millones de coronas en esos tres años.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Lo que cobró cada ganador del Nobel de la Paz · millones de pesos al cambio del 13/10/2026</div>
+        <h3>Pillay cobra más que cualquier ganador de la Paz de los últimos cinco años</h3>
+        <p class="fig-sub">Montos de cada ganador en coronas de diciembre de 2025 (Fundación Nobel), pasados a pesos con la corona del BCRA del 13/10/2026. 2026, en coronas corrientes: la fundación todavía no lo ajustó.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 300" role="img" aria-label="Millones de pesos por ganador: 2022 564 (cada uno de tres), 2023 1.716, 2024 1.678, 2025 1.668, 2026 1.820 en coronas corrientes.">
+<line x1="50" y1="200" x2="740" y2="200" class="gg"/><text x="44" y="204" text-anchor="end" class="cf">500</text>
+<line x1="50" y1="150" x2="740" y2="150" class="gg"/><text x="44" y="154" text-anchor="end" class="cf">1.000</text>
+<line x1="50" y1="100" x2="740" y2="100" class="gg"/><text x="44" y="104" text-anchor="end" class="cf">1.500</text>
+<line x1="50" y1="50" x2="740" y2="50" class="gg"/><text x="44" y="54" text-anchor="end" class="cf">2.000</text>
+<line x1="50" y1="250" x2="740" y2="250" stroke="#16130F"/>
+<rect x="75" y="193.6" width="90" height="56.4" fill="#6B6560"/><text x="120" y="187" text-anchor="middle" class="cv">564</text><text x="120" y="268" text-anchor="middle" class="cf">2022</text><text x="120" y="282" text-anchor="middle" class="cf">cada uno de 3</text>
+<rect x="205" y="78.4" width="90" height="171.6" fill="#6B6560"/><text x="250" y="72" text-anchor="middle" class="cv">1.716</text><text x="250" y="268" text-anchor="middle" class="cf">2023</text><text x="250" y="282" text-anchor="middle" class="cf">Mohammadi</text>
+<rect x="335" y="82.2" width="90" height="167.8" fill="#6B6560"/><text x="380" y="76" text-anchor="middle" class="cv">1.678</text><text x="380" y="268" text-anchor="middle" class="cf">2024</text><text x="380" y="282" text-anchor="middle" class="cf">Nihon Hidankyo</text>
+<rect x="465" y="83.2" width="90" height="166.8" fill="#6B6560"/><text x="510" y="77" text-anchor="middle" class="cv">1.668</text><text x="510" y="268" text-anchor="middle" class="cf">2025</text><text x="510" y="282" text-anchor="middle" class="cf">Machado</text>
+<rect x="595" y="68" width="90" height="182" fill="#0E7C86"/><text x="640" y="62" text-anchor="middle" class="cvB">1.820</text><text x="640" y="268" text-anchor="middle" class="cf">2026</text><text x="640" y="282" text-anchor="middle" class="cf">Pillay (corriente)</text>
+</svg>
+      <figcaption><b>Fuentes:</b> NobelPrize.org, fichas de los premios de la Paz 2022 a 2026 (parte del premio de cada ganador); Fundación Nobel, tabla de montos 1901-2025 y comunicado del 18/09/2026; BCRA, cotización de la corona del 13/10/2026. Cálculo de Con Interés.</figcaption>
+    </figure>
+
+    <p>En coronas corrientes, los 12 millones de este año son el monto más alto que pagó el premio en su historia: el anterior era de 11 millones, vigente de 2023 a 2025. Descontada la inflación, en cambio, no es un récord. La prueba está en la misma tabla: el premio de 2001, de 10 millones nominales, equivale a <b>15,55 millones</b> de coronas de hoy, y los 12 millones de Pillay quedan 22,8% por debajo, aun sin descontar la inflación sueca de 2026.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación: dos fuentes que coinciden.</b> El monto del premio no es una estadística: lo decide la Fundación Nobel. Su comunicado del 18/09/2026 dice que el premio de 2026 "will be SEK 12 million per prize category", y la Paz es una de esas categorías. La ficha oficial del premio de 2026 dice que Pillay tiene la parte completa ("Prize share: 1/1"). El contraste independiente es la cobertura del anuncio de <a href="https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay">Al Jazeera</a> del 9/10/2026, que informa un premio de 12 millones de coronas suecas, que se entrega el 10 de diciembre.</p>
+      <p><b>El paso a pesos.</b> Usamos la cotización de la corona sueca que publica el BCRA para el 13/10/2026: $151,680773 por corona (0,100285 dólares por corona, con el dólar a $1.512,50). Es la misma que usamos para el <a href="../articulos/2026-10-13-nobel-economia-premio-cuanto-cobra-pesos.html">Nobel de Economía</a>. Contra los tipos de referencia del Banco Central Europeo del mismo día (11,1698 coronas y 1,1188 dólares por euro), da 0,12% menos: $1.818 millones en lugar de $1.820 millones. La diferencia viene de la hora a la que cada banco toma la cotización.</p>
+      <p><b>La historia de Pillay.</b> Las fechas y los cargos salen del anuncio y de la ficha oficial del Comité Noruego del Nobel, y se cuentan atribuidos a ellos. Intentamos contrastarlos con los sitios de la Oficina del Alto Comisionado de la ONU y de la Corte Internacional de Justicia, pero no permitieron leer sus páginas desde nuestras herramientas.</p>
+      <p><b>Lo que buscamos y no encontramos.</b> En el anuncio, en la ficha oficial y en la cobertura del 9 de octubre no encontramos ninguna declaración pública de Pillay sobre qué va a hacer con el dinero. Cuánto le cobra de impuestos Sudáfrica depende de su situación personal, que no es pública, y no revisamos la ley sudafricana. Lo que cobra de jubilación de la ONU tampoco es un dato público por persona. Por eso no damos ninguna de esas cifras.</p>
+      <p><b>Límites honestos.</b> La tabla de los últimos cinco años usa los montos en coronas de diciembre de 2025 que calcula la Fundación Nobel con su índice de precios, y los pasa a pesos con una sola cotización, la del 13/10/2026: sirve para comparar el poder de compra de cada premio en Suecia, no lo que valía cada año en pesos. El de 2026 todavía no está ajustado y va en coronas corrientes. El RIPTE no mide todos los salarios: es el promedio de las remuneraciones con aportes de los trabajadores con 13 meses o más en su puesto, hasta el tope imponible.</p>
+      <div class="meta">
+        <span><b>Fuente</b> Comité Noruego del Nobel · Fundación Nobel · BCRA · BCE · Seguridad Social · INDEC</span>
+        <span><b>Período</b> premios 2022 a 2026; cotización del 13/10/2026</span>
+        <span><b>Unidad</b> coronas suecas, pesos y dólares</span>
+        <span><b>Verificación</b> dos fuentes que coinciden</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>La respuesta, entonces, es no: el Nobel de la Paz es un premio a una trayectoria, pero su parte económica es un solo cheque, no una renta. Para Pillay, de 85 años, equivale a varias vidas de trabajo en la Argentina; para quienes lo reciben compartido, como en 2022, la parte en dinero se divide entre dos o tres.</p>
+    <p>Y la tabla de la Fundación muestra lo que pasa con cualquier monto fijo en el tiempo: el premio sube cada tanto para no perder valor, pero los 12 millones de este año compran menos en Suecia que los 10 millones de 2001.</p>
+    <p>Lo que la nota no puede decir es cuánto de ese cheque le queda a Pillay después de impuestos ni qué va a hacer con él: ninguno de los dos datos es público.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si cobrás un sueldo en blanco cerca del promedio,</b> el premio de Pillay equivale a unos 76 años de tu sueldo, sin aguinaldos. Con aguinaldo, 70.</p>
+      <p data-perfil="ahorrista"><b>Si ahorrás un monto fijo,</b> la tabla del Nobel muestra lo mismo que le pasa a cualquier ahorro sin actualizar: entre 2001 y 2011 el premio quedó en 10 millones de coronas y perdió 14% de su valor real.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep" open>
+      <summary>Los ganadores de la Paz de 2022 a 2026, y lo que cobró cada uno <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Año</th><th>Ganador</th><th>Parte</th><th style="text-align:right">Cobró (coronas)</th><th style="text-align:right">En coronas de dic-2025</th><th style="text-align:right">En pesos (13/10/2026)</th></tr>
+        <tr><td>2026</td><td>Navi Pillay (Sudáfrica)</td><td>Todo</td><td class="n">12.000.000</td><td class="n">s/d</td><td class="n">$1.820 M*</td></tr>
+        <tr><td>2025</td><td>María Corina Machado (Venezuela)</td><td>Todo</td><td class="n">11.000.000</td><td class="n">11.000.000</td><td class="n">$1.668 M</td></tr>
+        <tr><td>2024</td><td>Nihon Hidankyo (Japón)</td><td>Todo</td><td class="n">11.000.000</td><td class="n">11.060.312</td><td class="n">$1.678 M</td></tr>
+        <tr><td>2023</td><td>Narges Mohammadi (Irán)</td><td>Todo</td><td class="n">11.000.000</td><td class="n">11.314.967</td><td class="n">$1.716 M</td></tr>
+        <tr><td>2022</td><td>Ales Bialiatski (Bielorrusia), Memorial (Rusia) y Center for Civil Liberties (Ucrania)</td><td>Un tercio cada uno</td><td class="n">3.333.333 c/u</td><td class="n">3.720.967 c/u</td><td class="n">$564 M c/u</td></tr>
+      </table>
+      <p>* En coronas corrientes: la Fundación Nobel todavía no ajustó el monto de 2026. Fuentes: NobelPrize.org, fichas de los premios de la Paz de cada año; Fundación Nobel, tabla de montos 1901-2025 y comunicado del 18/09/2026; BCRA, corona sueca del 13/10/2026 ($151,680773). Cálculo de Con Interés.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>La cuenta, paso a paso <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Concepto</th><th style="text-align:right">Premio de Pillay</th></tr>
+        <tr><td>Coronas suecas</td><td class="n">12.000.000</td></tr>
+        <tr><td>Dólares (0,100285 por corona, BCRA)</td><td class="n">US$1.203.420</td></tr>
+        <tr><td>Pesos ($151,680773 por corona, BCRA)</td><td class="n">$1.820.169.276</td></tr>
+        <tr><td>Pesos con el cruce del BCE</td><td class="n">$1.817.957.349</td></tr>
+        <tr><td>Meses de RIPTE de agosto ($1.982.518,19)</td><td class="n">918</td></tr>
+        <tr><td>Meses de canasta básica total, hogar de cuatro ($1.632.505)</td><td class="n">1.115</td></tr>
+      </table>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Comité Noruego del Nobel — <a href="https://www.nobelprize.org/prizes/peace/2026/press-release/">Anuncio del Premio Nobel de la Paz 2026</a>, 09/10/2026</li>
+        <li>&#8250; NobelPrize.org — <a href="https://www.nobelprize.org/prizes/peace/2026/pillay/facts/">Navanethem Pillay, ficha oficial</a> (nacimiento, carrera, parte del premio 1/1)</li>
+        <li>&#8250; Fundación Nobel — <a href="https://www.nobelprize.org/about/statutes-of-the-nobel-foundation/">Estatutos</a> (artículos 4 y 9)</li>
+        <li>&#8250; Fundación Nobel — <a href="https://www.nobelprize.org/press-release/the-nobel-prize-is-increased-by-sek-1-million/">The Nobel Prize is increased by SEK 1 million</a>, 18/09/2026</li>
+        <li>&#8250; Fundación Nobel — <a href="https://www.nobelprize.org/uploads/2026/04/prize-amounts-2025.pdf">Tabla de montos del premio 1901-2025</a>, en coronas corrientes y de diciembre de 2025</li>
+        <li>&#8250; NobelPrize.org — fichas de los premios de la Paz <a href="https://www.nobelprize.org/prizes/peace/2025/summary/">2025</a>, <a href="https://www.nobelprize.org/prizes/peace/2024/summary/">2024</a>, <a href="https://www.nobelprize.org/prizes/peace/2023/summary/">2023</a> y <a href="https://www.nobelprize.org/prizes/peace/2022/summary/">2022</a></li>
+        <li>&#8250; Al Jazeera — <a href="https://www.aljazeera.com/news/2026/10/9/2026-nobel-peace-prize-awarded-to-navi-pillay">2026 Nobel Peace Prize awarded to Navi Pillay</a>, 09/10/2026 (monto del premio, contraste)</li>
+        <li>&#8250; BCRA — <a href="https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones?fecha=2026-10-13">Cotizaciones del 13/10/2026</a> (corona sueca y dólar)</li>
+        <li>&#8250; Banco Central Europeo — <a href="https://data-api.ecb.europa.eu/service/data/EXR/D.SEK+USD.EUR.SP00.A?startPeriod=2026-10-13&amp;endPeriod=2026-10-13&amp;format=csvdata">Tipos de referencia del euro, 13/10/2026</a></li>
+        <li>&#8250; Secretaría de Seguridad Social — <a href="https://www.argentina.gob.ar/trabajo/seguridadsocial/ripte">RIPTE</a>, agosto de 2026: $1.982.518,19</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/canasta_10_26DA5CEEFE06.pdf">Canasta básica alimentaria y total, septiembre de 2026</a> (hogar de cuatro integrantes: $1.632.505)</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: conversión a pesos y dólares, equivalencias en RIPTE y canastas, tabla de los últimos cinco premios.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 15/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>

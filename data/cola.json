@@ -1,5 +1,24 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-15T01:30:00-03:00",
-  "borradores": []
+  "actualizado": "2026-10-15T02:30:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-10-15-navi-pillay-nobel-paz-cuanto-cobra",
+      "titulo": "¿Quién es Navi Pillay, por qué ganó el Nobel de la Paz y cuánta plata le deja?",
+      "titulo_busqueda": "¿El Nobel de la Paz da un sueldo de por vida? Cuánto cobra Navi Pillay",
+      "bajada": "El Nobel de la Paz no paga un sueldo de por vida: los estatutos prevén un pago único. Pero ese solo cheque pesa. La jurista sudafricana Navi Pillay, de 85 años, se lleva sola el premio de 2026: 12 millones de coronas suecas, $1.820 millones al cambio oficial del 13 de octubre, lo que un trabajador registrado promedio cobra en 76 años.",
+      "seccion": "MUNDO",
+      "formato": "Investigación",
+      "numero": "$1.820 millones",
+      "numero_label": "lo que cobra Navi Pillay por el Nobel de la Paz 2026, que no comparte (ficha oficial: parte 1/1): 12 millones de coronas suecas (comunicado de la Fundación Nobel del 18/09/2026; Al Jazeera 09/10/2026) a $151,680773 por corona (BCRA, 13/10/2026) = $1.820.169.276. Pago único: estatutos de la Fundación Nobel, art. 9",
+      "fecha": "2026-10-15",
+      "hora": "02:30",
+      "archivo": "cola/2026-10-15-navi-pillay-nobel-paz-cuanto-cobra.html",
+      "verificacion": "verificada",
+      "fuentes": 14,
+      "lectura": "30 seg → 7 min",
+      "pedido": 103,
+      "revision_lector": true
+    }
+  ]
 }

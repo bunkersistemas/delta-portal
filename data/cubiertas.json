@@ -4305,6 +4305,14 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
+    },
+    {
+      "tema": "pedido de lector 103: quién es Navi Pillay, Nobel de la Paz 2026, por qué ganó y qué plata le deja (pago único o sueldo vitalicio) / Comité Noruego del Nobel, anuncio 09/10/2026 y ficha oficial (nacida 23/09/1941 en Durban, estudio propio 1967, SJD Harvard 1988, Tribunal Superior 1995, TPI Ruanda jueza y presidenta, CPI, Alta Comisionada ONU 2008-2014, comisión de investigación Territorio Palestino Ocupado 2021-2025, jueza ad hoc CIJ Gambia c. Myanmar desde 2019; parte 1/1); Fundación Nobel 18/09/2026: 12 M SEK por categoría; estatutos art. 9 (cheque, diploma y medalla el 10/12; si no cobra antes del 1/10 del año siguiente vuelve a los fondos) y art. 4 (máximo tres); tabla de montos 1901-2025: 2022 10 M (11.162.900 reales, 1/3 c/u 3.720.967), 2023 11 M (11.314.967), 2024 11 M (11.060.312), 2025 11 M; BCRA 13/10/2026 SEK $151,680773 -> $1.820.169.276, US$1.203.420; RIPTE ago $1.982.518,19 (918 meses, 76,5 años); CBT sep $1.632.505 (1.115 meses)",
+      "angulo": "Investigación pedida por un lector (pedido 103), enfoque aprobado por el lector. Ángulo nuevo frente al Nobel de Economía del 13/10 (mismo monto y cotización): la ganadora de la Paz, su historia según los documentos del comité, la respuesta sobre el 'sueldo vitalicio' con los estatutos (no existe) y la tabla de los cinco premios de la Paz 2022-2026. Verificación: dos fuentes que coinciden para el monto (Fundación Nobel + ficha oficial de parte 1/1, contraste Al Jazeera); conversión BCRA contrastada con el BCE (-0,12%). Superlativo con valor previo: 12 M es el máximo nominal (previo 11 M, 2023-2025); en términos reales queda 22,8% bajo 2001 (15.547.541). NO afirmado (no público): destino del dinero, impuestos en Sudáfrica, jubilación de la ONU; valor real 2026 (la Fundación no lo ajustó). Carrera atribuida al comité: OHCHR e ICJ bloquearon la lectura.",
+      "fecha": "2026-10-15",
+      "estado": "en_cola",
+      "articulo_id": "2026-10-15-navi-pillay-nobel-paz-cuanto-cobra",
+      "archivo": "cola/2026-10-15-navi-pillay-nobel-paz-cuanto-cobra.html"
     }
   ]
 }
