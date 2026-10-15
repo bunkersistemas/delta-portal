@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 15 Oct 2026 05:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 08:30:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Qué le deja en plata a Navi Pillay el Nobel de la Paz: un sueldo de por vida o un solo pago?</title>
+      <link>https://coninteres.com/articulos/2026-10-15-navi-pillay-nobel-paz-cuanto-cobra.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-15-navi-pillay-nobel-paz-cuanto-cobra.html</guid>
+      <pubDate>Thu, 15 Oct 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Un solo pago: los estatutos del Nobel prevén un cheque, un diploma y una medalla, y ninguna renta. Pero ese cheque pesa. La jurista sudafricana de 85 años se lleva sola el premio de 2026: 12 millones de coronas suecas, $1.820 millones al cambio oficial del 13 de octubre, lo que un trabajador registrado promedio cobra en 76 años.</description>
+      <ci:numero>$1.820 millones</ci:numero>
+      <ci:numeroEtiqueta>lo que cobra Navi Pillay por el Nobel de la Paz 2026, que no comparte (ficha oficial: parte 1/1): 12 millones de coronas suecas (comunicado de la Fundación Nobel del 18/09/2026; Al Jazeera 09/10/2026) a $151,680773 por corona (BCRA, 13/10/2026) = $1.820.169.276. Pago único: estatutos de la Fundación Nobel, art. 9</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-navi-pillay-nobel-paz-cuanto-cobra.png" length="77687" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-navi-pillay-nobel-paz-cuanto-cobra.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La mitad de los trabajadores privados en blanco cobró menos de $1,69 millones brutos en julio, y ese sueldo perdió 4,2% contra la inflación en un año</title>
       <link>https://coninteres.com/articulos/2026-10-15-sueldo-mediano-privado-registrado-julio.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de las fábricas espera producir menos entre septiembre y noviembre de 2026 y 15,4% espera producir más (balance −4,3), según la Encuesta de Tendencia de Negocios del INDEC del 21/09/2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-indicadores-anticipados-recuperacion-o-caida.png" length="79722" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-indicadores-anticipados-recuperacion-o-caida.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El préstamo más caro de Mercado Pago tiene un costo financiero total de 956,5% anual: es una tasa de 21,4% por mes con IVA, y en marzo era 1.375,9%</title>
-      <link>https://coninteres.com/articulos/2026-10-12-mercado-pago-prestamos-costo-financiero-total.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-12-mercado-pago-prestamos-costo-financiero-total.html</guid>
-      <pubDate>Mon, 12 Oct 2026 23:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>La tabla de tasas que Mercado Pago publica para sus préstamos personales fija una tasa nominal máxima de 215% y un costo financiero total de 956,5% anual. Es una tasa de 21,4% cada 30 días, IVA incluido, capitalizada doce veces. En marzo, la máxima era 249% y el costo, 1.375,9%.</description>
-      <ci:numero>956,5%</ci:numero>
-      <ci:numeroEtiqueta>costo financiero total efectivo anual de la tasa máxima de los préstamos personales de Mercado Pago (TNA 215%), octubre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-mercado-pago-prestamos-costo-financiero-total.png" length="83483" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-mercado-pago-prestamos-costo-financiero-total.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
