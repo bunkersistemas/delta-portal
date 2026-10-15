@@ -1,24 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-10-15T18:00:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-10-15-capacidad-instalada-economia-crece-o-achica",
-      "titulo": "¿Qué dice la capacidad ociosa de la industria sobre si la economía argentina crece o se achica?",
-      "titulo_busqueda": "¿La economía argentina crece o se achica? Qué dice la capacidad instalada de la industria",
-      "bajada": "Que pasan las dos cosas a la vez: en cinco años, la economía creció y la industria se achicó. La economía es 9,8% más grande que en 2021, pero la industria produce 7% menos y en agosto usó el 58,5% de su capacidad, contra 64,0% cinco años antes. Los autos se fabrican como en 2021 y 32% menos que en 2023, mientras China pasó del 2,6% al 23,3% de los dólares que se gastan en autos importados.",
-      "seccion": "ECONOMÍA",
-      "formato": "Investigación",
-      "numero": "58,5%",
-      "numero_label": "uso de la capacidad instalada de la industria en agosto de 2026 (INDEC, UCII, informe y serie del 15/10/2026); 64,0% en agosto de 2021. Segundo agosto más bajo de la serie 2016-2026 (agosto de 2020: 58,4%). Recalculada desde la planilla del INDEC; contraste: FIEL (IPI de julio) y ADEFA (producción de agosto -11,6%)",
-      "fecha": "2026-10-15",
-      "hora": "18:00",
-      "archivo": "cola/2026-10-15-capacidad-instalada-economia-crece-o-achica.html",
-      "verificacion": "verificada",
-      "fuentes": 14,
-      "lectura": "30 seg → 12 min",
-      "pedido": 104,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }
