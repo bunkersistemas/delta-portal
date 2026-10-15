@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 15 Oct 2026 17:12:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 18:40:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los asalariados se llevaron 42,9% de lo que produjo la economía en el segundo trimestre: la porción más chica desde 2022</title>
+      <link>https://coninteres.com/articulos/2026-10-15-participacion-asalariados-ingreso-segundo-trimestre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-15-participacion-asalariados-ingreso-segundo-trimestre.html</guid>
+      <pubDate>Thu, 15 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre abril y junio de 2026 la economía argentina produjo más en pesos de lo que subieron los precios, y aun así la parte de los asalariados se achicó. De cada $100 generados, $42,90 fueron sueldos y contribuciones; un año antes eran $45,40. El excedente de las empresas quedó en $44,70. Lo publicó hoy el INDEC en su cuenta de generación del ingreso. La explicación está en el orden de las subas: las remuneraciones crecieron 29,6% en un año, los precios 33,0% y el valor de todo lo producido 36,9%. La diferencia la explican el campo, el petróleo y la energía, que dan poco empleo.</description>
+      <ci:numero>42,9%</ci:numero>
+      <ci:numeroEtiqueta>parte del valor agregado que fue a remunerar a los asalariados, segundo trimestre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-participacion-asalariados-ingreso-segundo-trimestre.png" length="64048" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-participacion-asalariados-ingreso-segundo-trimestre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>¿Qué dice la capacidad ociosa de la industria sobre si la economía argentina crece o se achica?</title>
       <link>https://coninteres.com/articulos/2026-10-15-capacidad-instalada-economia-crece-o-achica.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>estudios con registros reales de empleo (EE.UU., Dinamarca, Noruega y Francia, datos hasta 2024-2026) que midieron qué hizo la IA desde la llegada de ChatGPT: ninguno encontró una caída del empleo total, los sueldos o las horas; tres (Stanford, Banco de Francia, Fed de Dallas) vieron menos lugar para los jóvenes en los trabajos más expuestos</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-ia-quita-empleo-que-dicen-los-estudios.png" length="84323" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-ia-quita-empleo-que-dicen-los-estudios.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El gasto nacional en jubilaciones, pensiones, asignaciones y planes cayó 11,5% real entre 2023 y 2025: casi nueve de cada diez pesos del recorte salieron de los planes sociales</title>
-      <link>https://coninteres.com/articulos/2026-10-13-gasto-social-prestaciones-diez-anos-beneficiarios.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-gasto-social-prestaciones-diez-anos-beneficiarios.html</guid>
-      <pubDate>Tue, 13 Oct 2026 08:28:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Diez años de prestaciones sociales del Estado nacional, partida por partida, en pesos de hoy y como porcentaje del PBI. El total bajó, pero no parejo: los planes perdieron la mitad, las asignaciones con la AUH subieron 20,8% y las jubilaciones, 3,8% menos. Y del otro lado, cuántos cobran: hay más jubilados, menos pensiones no contributivas y casi los mismos chicos con AUH.</description>
-      <ci:numero>-11,5%</ci:numero>
-      <ci:numeroEtiqueta>caída real del gasto del Sector Público Nacional en prestaciones sociales (jubilaciones, asignaciones y AUH, pensiones no contributivas, PAMI y otros programas) entre 2023 ($126,6 billones) y 2025 ($112,1 billones), en pesos de agosto de 2026: Hacienda, base caja, deflactado con el IPC del INDEC; otros programas -51,4%, asignaciones y AUH +20,8%, jubilaciones -3,8%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-gasto-social-prestaciones-diez-anos-beneficiarios.png" length="85052" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-gasto-social-prestaciones-diez-anos-beneficiarios.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

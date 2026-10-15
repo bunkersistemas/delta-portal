@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-15T17:12:35-03:00",
+    "actualizado": "2026-10-15T18:40:22-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-15-participacion-asalariados-ingreso-segundo-trimestre",
+      "titulo": "Los asalariados se llevaron 42,9% de lo que produjo la economía en el segundo trimestre: la porción más chica desde 2022",
+      "bajada": "Entre abril y junio de 2026 la economía argentina produjo más en pesos de lo que subieron los precios, y aun así la parte de los asalariados se achicó. De cada $100 generados, $42,90 fueron sueldos y contribuciones; un año antes eran $45,40. El excedente de las empresas quedó en $44,70. Lo publicó hoy el INDEC en su cuenta de generación del ingreso. La explicación está en el orden de las subas: las remuneraciones crecieron 29,6% en un año, los precios 33,0% y el valor de todo lo producido 36,9%. La diferencia la explican el campo, el petróleo y la energía, que dan poco empleo.",
+      "titulo_busqueda": "¿Qué parte de lo que produce la Argentina se llevan los trabajadores?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "42,9%",
+      "numero_label": "parte del valor agregado que fue a remunerar a los asalariados, segundo trimestre de 2026",
+      "fecha": "2026-10-15",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-15-participacion-asalariados-ingreso-segundo-trimestre.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-15-capacidad-instalada-economia-crece-o-achica",
       "titulo": "¿Qué dice la capacidad ociosa de la industria sobre si la economía argentina crece o se achica?",

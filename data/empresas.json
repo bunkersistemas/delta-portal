@@ -1,11 +1,38 @@
 {
-  "generado": "2026-10-15T16:30",
+  "generado": "2026-10-15T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3581248",
+      "fuente": "CNV",
+      "fecha": "2026-10-15T18:10",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (15 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/CCD05CFE-B8BB-4AE3-8938-76347399BACD"
+    },
+    {
+      "id": "cnv-3581215",
+      "fuente": "CNV",
+      "fecha": "2026-10-15T17:50",
+      "entidad": "ARCOR SAIC",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - HECHO RELEVANTE DE APLICACION DE FONDOS ON",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B3A98BA4-E6C5-40AA-AFB0-476FC36E641F"
+    },
+    {
+      "id": "cnv-3581209",
+      "fuente": "CNV",
+      "fecha": "2026-10-15T17:50",
+      "entidad": "ARCOR SAIC",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE DEL 15 DE OCTUBRE DEL 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A8CF8069-E8AA-4148-BEA1-4E918F01DBDC"
+    },
     {
       "id": "cnv-3580544",
       "fuente": "CNV",
