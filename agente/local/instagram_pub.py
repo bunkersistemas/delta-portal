@@ -191,7 +191,16 @@ def turno():
             hechos[clave] = time.time()
             guardar_estado(e)
             print("turno %s" % clave)
-            ofrecer()
+            try:
+                ofrecer()
+            except Exception as ex:
+                # si fallo (Telegram sin respuesta, red), el turno NO se da por hecho: la tarea, que corre
+                # cada 15 minutos, lo reintenta mientras dure la ventana de 50 minutos
+                e2 = leer_estado()
+                e2.setdefault("turnos", {}).pop(clave, None)
+                guardar_estado(e2)
+                print("ERROR|el turno %s fallo y se reintenta: %s" % (clave, ex))
+                raise
             return
     print("NADA|no es horario de Instagram")
 
@@ -218,7 +227,14 @@ def publicar(id_):
         time.sleep(3)
     pub = ig("POST", IG_ID + "/media_publish", {"creation_id": cont["id"]})
     link = ig("GET", pub["id"], {"fields": "permalink"}).get("permalink", "")
-    e["publicados"][a["id"]] = {"dia": hoy_ar(), "seccion": a.get("seccion"), "media": pub["id"],
+    # El posteo cuenta para el dia en que se PROPUSO, no para el dia en que el editor lo aprobo (editor,
+    # 15/10/2026): aprobar a la manana la propuesta de las 21:30 de anoche le sacaba al dia siguiente la
+    # propuesta de la noche (el tope de 3 por dia ya estaba cumplido).
+    dia = hoy_ar()
+    pen = e.get("pendiente")
+    if pen and pen.get("id") == a["id"] and pen.get("ts"):
+        dia = (dt.datetime.fromtimestamp(pen["ts"], dt.timezone.utc) - dt.timedelta(hours=3)).date().isoformat()
+    e["publicados"][a["id"]] = {"dia": dia, "seccion": a.get("seccion"), "media": pub["id"],
                                 "permalink": link, "ts": time.time()}
     if e.get("pendiente") and e["pendiente"]["id"] == a["id"]:
         e["pendiente"] = None
