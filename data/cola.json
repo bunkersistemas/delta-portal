@@ -19,6 +19,22 @@
       "lectura": "30 seg → 7 min",
       "pedido": 103,
       "revision_lector": true
+    },
+    {
+      "id": "2026-10-15-universidades-gasto-por-estudiante-2024",
+      "titulo": "La Nación transfirió $1,66 millones por cada estudiante de las universidades nacionales en 2024: en pesos de hoy, 48,6% menos que en 2017",
+      "titulo_busqueda": "¿Cuánto gasta el Estado por cada estudiante universitario?",
+      "bajada": "Entre 2017 y 2024 los estudiantes de las universidades nacionales aumentaron 27,8% y la plata que les transfirió la Nación, descontada la inflación, bajó 34,4%. El resultado es el gasto por estudiante más bajo de la serie: en 2024, el último año con datos completos de plata y de estudiantes, el Estado nacional transfirió $3,29 billones para 1.980.133 estudiantes de pregrado y grado. Son $1,66 millones por estudiante. Llevado a pesos de agosto de 2026, $3,22 millones al año: 27,7% menos que en 2023.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$1,66 millones",
+      "numero_label": "transferencias de la Nación por estudiante de pregrado y grado de las universidades nacionales en 2024: $3.285.291.938.363 (Anuario SPU 2024, cuadro 5.2; recalculado en Presupuesto Abierto: $3.285.291,9 M) / 1.980.133 estudiantes (cuadro 2.1.1) = $1.659.127. En pesos de agosto de 2026 (IPC INDEC 12.276,766 / promedio 2024 6.317,74): $3.224.051, -27,7% vs 2023 y -48,6% vs 2017",
+      "fecha": "2026-10-15",
+      "hora": "02:30",
+      "archivo": "cola/2026-10-15-universidades-gasto-por-estudiante-2024.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
     }
   ]
 }
