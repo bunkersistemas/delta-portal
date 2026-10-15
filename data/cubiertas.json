@@ -4360,6 +4360,22 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
+    },
+    {
+      "tema": "cuánto aumentaron los remedios / medicamentos en septiembre de 2026 (ámbito 15/10/2026 'Los medicamentos volvieron a subir más que la inflación: aumentaron 2,4% en septiembre') / INDEC, IPC septiembre 2026, cuadros 21-23 y planilla sh_ipc_aperturas: grupo productos medicinales, artefactos y equipos para la salud GBA +2,4% m (nivel general GBA 2,0%), 23,8% acumulado (= nivel general), 30,9% i.a. (vs 33,5%); seis regiones por encima de su nivel general en el mes; abr-sep +13,07% vs +10,47%; precio relativo dic-16=100: dic-23 162,5, abr-26 123,1 (mínimo desde mar-23), sep-26 126,0; contraste IPCBA sep-26 (informe 2064): medicamentos +2,1% vs nivel general 1,8%",
+      "angulo": "precio relativo de los remedios: tras el salto de nov-dic 2023 se abarataron más de dos años frente al resto de los precios y desde abril de 2026 vuelven a encarecerse (4 de 5 meses por encima de la inflación del GBA, julio empate); la comparación justa es contra el nivel general del GBA (2,0%), no el nacional (1,9%)",
+      "fecha": "2026-10-15",
+      "estado": "publicada",
+      "articulo_id": "2026-10-15-remedios-aumento-septiembre-inflacion",
+      "archivo": "cola/2026-10-15-remedios-aumento-septiembre-inflacion.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 15/10/2026 14:30: no se probaron porque la primera candidata (remedios +2,4% en septiembre, INDEC con contraste IPCBA) pasó la verificación. Lista: pregunta de plata: cuánto paga de impuestos una creadora de OnlyFans intimada por ARCA (infobae, La Nación; monotributo publicado el 21/07, frenada antes), Nobel de Economía de mañana (La Nación; todavía no se anunció), aumento de las prestaciones por discapacidad de octubre (Cronista; nomenclador publicado el 26/09), jubilados en noviembre y bono de $70.000 (iProfesional; publicada el 13/10); empresas: TGS préstamo de US$1.400 M (La Nación, iProfesional; sin hecho relevante ni 6-K, el último 6-K de TGS es del 07/10), AES Argentina garantía de IDB Invest (frenada antes: sin costo total), YPF Energía Eléctrica hechos relevantes del 14/10 (visor CNV sin contenido legible; compra publicada el 08/10), FOGACH HR 15/10 (sin contenido legible), Central Puerto recompra de acciones (rutina), Caja de Valores anuncio rectificativo de dividendo (sin cifra relevante), Algodonera Avellaneda quiebra (infobae; expediente sin probar); portadas: riesgo país sobre 600 (infobae, La Nación, iProfesional, ámbito; serie publicada), servicios públicos casi el doble que la inflación (infobae; regulados publicados el 08/10), producción de petróleo +14% (La Nación; récord publicado el 31/08), energía para comercios +55% (La Nación; sin probar), mora de 59 mil empresas (Página12; consultora privada), faena vacuna de septiembre (infobae; sin probar); calendario: UCII de agosto y cuenta de generación del ingreso (hoy 16 h, todavía no salieron). Cupo de EMPRESAS: regía (hoy no salió ninguna nota de empresas); se descartó porque ninguna candidata del bloque tenía documento legible con cifra ancla nueva. Clarín y TN no se pudieron leer.",
+      "angulo": "NO TOMADAS en la corrida programada del 15/10/2026 14:30.",
+      "fecha": "2026-10-15",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
     }
   ]
 }

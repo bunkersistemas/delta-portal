@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-15T12:54:36-03:00",
+    "actualizado": "2026-10-15T14:53:20-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-15-remedios-aumento-septiembre-inflacion",
+      "titulo": "Los remedios subieron 2,4% en septiembre, más que la inflación por cuarta vez en cinco meses: cortaron más de dos años de abaratarse",
+      "bajada": "Después de más de dos años de abaratarse frente al resto de los precios, los remedios volvieron a subir más que la inflación. Según el INDEC, los remedios y productos medicinales aumentaron 2,4% en septiembre en el Gran Buenos Aires, contra 2,0% del nivel general de la región, y le ganaron a la inflación en las seis regiones del país. Es la cuarta vez en cinco meses: desde abril suben 13,1%, contra 10,5%. En doce meses todavía suben menos, 30,9% contra 33,5%, pero esa ventaja se viene achicando.",
+      "titulo_busqueda": "¿Cuánto aumentaron los remedios en septiembre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "2,4%",
+      "numero_label": "suba de septiembre de 2026 del grupo 'productos medicinales, artefactos y equipos para la salud' del IPC en el GBA (INDEC, informe técnico del IPC, cuadro 21; recálculo desde la planilla de aperturas: 15.776,3412 / 15.404,0400 = +2,42%), contra 2,0% del nivel general del GBA; contraste: IPCBA septiembre, medicamentos +2,1% y nivel general +1,8% (IDECBA, informe 2064)",
+      "fecha": "2026-10-15",
+      "hora": "15:20",
+      "archivo": "articulos/2026-10-15-remedios-aumento-septiembre-inflacion.html",
+      "verificacion": "verificada",
+      "fuentes": 3,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-15-vtv-bonaerense-aumento-octubre-inflacion",
       "titulo": "La VTV bonaerense sube 17,6% y cuesta $114.106 desde hoy: descontada la inflación, queda 2,2% más barata que en enero",
