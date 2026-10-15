@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 14 Oct 2026 20:49:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 22:53:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Telecom le cede a Metrotel 6 millones de clientes de Movistar por US$450 millones: el 36% de lo que pagó por toda Telefónica, con el uso de su red incluido</title>
+      <link>https://coninteres.com/articulos/2026-10-14-metrotel-telecom-precio-clientes-movistar.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-14-metrotel-telecom-precio-clientes-movistar.html</guid>
+      <pubDate>Wed, 14 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Telecom aceptó la oferta de Metrotel: US$450 millones más IVA por 6.005.425 líneas móviles y 211.566 clientes de internet de Movistar, con espectro, el núcleo de la red y la fibra de Movistar en la Ciudad. Es el 36% de los US$1.245 millones que pagó en 2025 por toda Telefónica Argentina, y el precio incluye un mínimo que Metrotel deberá pagarle durante cinco años por usar su red.</description>
+      <ci:numero>US$450 M</ci:numero>
+      <ci:numeroEtiqueta>precio, sin IVA, que Metrotel pagará por 6.005.425 clientes móviles y 211.566 de internet de Movistar, con espectro, infraestructura y el mínimo garantizado de compartición de red (hecho relevante de Telecom ante la CNV, 14/10/2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-metrotel-telecom-precio-clientes-movistar.png" length="91566" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-metrotel-telecom-precio-clientes-movistar.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Presupuesto 2027 le quita la movilidad a la AUH, pero le asigna $9,18 billones: alcanzan para seguir actualizándola por inflación si los precios suben 18%</title>
       <link>https://coninteres.com/articulos/2026-10-14-auh-presupuesto-2027-movilidad.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que produce la economía argentina en un día promedio: PBI a precios corrientes del INDEC, promedio de 3T-2025 a 2T-2026 ($985,2 billones anuales) dividido por 365 = $2.699.224 millones; frente a $313.610 millones de gasto turístico del fin de semana largo del 10 al 12/10/2026 según CAME (estimación)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.png" length="87577" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Provincia giró a los municipios 1,7% menos que en 2025, y el reparto por habitante va de $84.253 en Tres de Febrero a $970.220 en Pila</title>
-      <link>https://coninteres.com/articulos/2026-10-12-coparticipacion-municipios-bonaerenses-por-habitante.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-12-coparticipacion-municipios-bonaerenses-por-habitante.html</guid>
-      <pubDate>Mon, 12 Oct 2026 19:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Entre febrero y julio de 2026 la Provincia de Buenos Aires transfirió $2,89 billones a sus 135 municipios: 30,9% más que un año antes en pesos, pero 1,7% menos descontada la inflación. Perdieron 107 municipios. Y por cada habitante, el conurbano recibe poco más de la mitad que el interior.</description>
-      <ci:numero>−1,7%</ci:numero>
-      <ci:numeroEtiqueta>variación real de las transferencias de la Provincia de Buenos Aires a sus 135 municipios, febrero a julio de 2026 contra 2025 (Ministerio de Economía PBA, deflactado con el IPC del INDEC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-coparticipacion-municipios-bonaerenses-por-habitante.png" length="80677" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-coparticipacion-municipios-bonaerenses-por-habitante.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

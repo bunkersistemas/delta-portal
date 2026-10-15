@@ -1,11 +1,29 @@
 {
-  "generado": "2026-10-14T20:30",
+  "generado": "2026-10-14T22:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3580831",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T22:21",
+      "entidad": "YPF ENERGÍA ELÉCTRICA S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/83C98FE9-5EF2-4284-9869-86A97F8C1B61"
+    },
+    {
+      "id": "cnv-3580832",
+      "fuente": "CNV",
+      "fecha": "2026-10-14T22:21",
+      "entidad": "YPF ENERGÍA ELÉCTRICA S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7804E13E-D296-40B2-87AB-72460F9AB239"
+    },
     {
       "id": "cnv-3580407",
       "fuente": "CNV",
