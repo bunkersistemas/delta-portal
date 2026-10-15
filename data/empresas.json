@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-14T23:27",
+  "generado": "2026-10-15T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -683,16 +683,6 @@
       "tipo": "balance",
       "descripcion": "6-K EX-1 2 financialstatements2q26e.htm EX-1 financialstatements2q26e LOMA NEGRA COMPAÑÍA INDUSTRIAL ARGENTINA SOCIEDAD ANÓNIMA CONSOLIDATED CONDENSED INTERIM FINANCIAL STATEMENTS AS O",
       "url": "https://www.sec.gov/Archives/edgar/data/1711375/000171137526000046/consolidatedcondensedinter.htm"
-    },
-    {
-      "id": "sec-0001140361-26-036495",
-      "fuente": "SEC",
-      "fecha": "2026-09-14",
-      "entidad": "Mercado Libre",
-      "ticker": "MELI",
-      "tipo": "hecho",
-      "descripcion": "8-K otro hecho",
-      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000114036126036495/ef20081942_8k.htm"
     }
   ],
   "anuncios": [
@@ -759,7 +749,6 @@
     "sec-0001104659-26-111196": "2026-09-28",
     "sec-0001104659-26-115753": "2026-10-14",
     "sec-0001104659-26-115765": "2026-10-14",
-    "sec-0001114700-26-000083": "2026-09-14",
     "sec-0001193125-26-398099": "2026-09-22",
     "sec-0001292814-26-004574": "2026-09-16",
     "sec-0001292814-26-004576": "2026-09-16",

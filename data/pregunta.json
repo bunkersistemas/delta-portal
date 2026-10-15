@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-14",
-  "pregunta": "En noviembre la jubilación mínima sube 1,93% por la inflación de septiembre. En un año, la mínima sin bono aumenta 33,3%, pero la mínima con el bono de $70.000 sube solo 27,6%. ¿Por qué la que incluye el bono sube menos?",
+  "fecha": "2026-10-15",
+  "pregunta": "El swap con China es de 130.000 millones de yuanes, unos US$19.420 millones: equivale al 39% de las reservas brutas del Banco Central. Pero solo 35.000 millones de yuanes, US$5.228 millones, están activados. Si el Gobierno quisiera usar el swap para pagar deuda en 2027, ¿con cuánto podría contar hoy?",
   "opciones": [
-    "Porque el bono paga Ganancias y el haber no",
-    "Porque el bono sigue en $70.000 desde marzo de 2024: no se actualiza con la inflación y cada mes pesa menos en el total",
-    "Porque el bono se ajusta con la inflación de tres meses antes y el haber con la de dos"
+    "Con los US$19.420 millones: el acuerdo entero ya está dentro de las reservas",
+    "Con el tramo activado, US$5.228 millones; y lo que use se convierte en una deuda del Banco Central con el banco chino",
+    "Con nada: el swap solo se puede usar para importar productos chinos"
   ],
   "correcta": 1,
-  "explicacion": "El haber se actualiza cada mes por la inflación de dos meses antes (Decreto 274/2024), así que en un año acompaña a los precios: 33,3% contra 33,4% de inflación. El bono, en cambio, es una suma fija que se renueva por decreto y está en $70.000 desde marzo de 2024. Como una parte del total queda quieta, el total sube menos que la inflación: 27,6% si el bono se renueva en noviembre. Cuanto más dura una suma fija con inflación, más poder de compra pierde quien depende de ella.",
-  "nota": "articulos/2026-10-13-jubilacion-minima-noviembre-aumento.html",
+  "explicacion": "El acuerdo completo engorda las reservas brutas, pero eso no quiere decir que se pueda gastar entero: solo está activado un tramo de 35.000 millones de yuanes, US$5.228 millones al tipo de cambio del 9 de octubre. Y usarlo no es gratis: un swap es un intercambio entre bancos centrales, y lo que se usa pasa a ser una deuda en yuanes que hay que devolver. Ya pasó: a fines de 2023 el tramo activado estaba usado entero y en enero de 2026 todavía quedaba una parte por devolver.",
+  "nota": "articulos/2026-10-14-swap-china-reservas-bonares-2027.html",
   "leccion": ""
 }
