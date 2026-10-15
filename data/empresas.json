@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-15T02:30",
+  "generado": "2026-10-15T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3580860",
+      "fuente": "CNV",
+      "fecha": "2026-10-15T10:21",
+      "entidad": "FOGACH",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FD3AE30F-743B-41D5-8559-A9D78DC77BAA"
+    },
     {
       "id": "cnv-3580831",
       "fuente": "CNV",
