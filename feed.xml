@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 14 Oct 2026 22:53:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 05:16:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El swap con China equivale al 39% de las reservas del Banco Central, pero solo US$5.228 millones están activados</title>
+      <link>https://coninteres.com/articulos/2026-10-14-swap-china-reservas-bonares-2027.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-14-swap-china-reservas-bonares-2027.html</guid>
+      <pubDate>Wed, 14 Oct 2026 23:50:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El swap con China equivale al 39% de las reservas brutas del Banco Central, pero la parte activada es algo más de un cuarto del acuerdo: 35.000 millones de yuanes, US$5.228 millones, sobre un total de 130.000 millones de yuanes, US$19.420 millones al tipo de cambio del BCRA del 9 de octubre. Esa parte activada es la que Caputo dijo que podría usar si no logra refinanciar los Bonares de 2027. A fines de 2023 estaba usada entera, y dos años después, en enero de 2026, todavía quedaban 4.600 millones de yuanes por devolver.</description>
+      <ci:numero>39%</ci:numero>
+      <ci:numeroEtiqueta>parte de las reservas brutas del BCRA que es el swap con China: ¥130.000 M (comunicados del BCRA del 05/08/2026 y del Banco Popular de China vía Xinhua del 06/08/2026) = US$19.420 M al tipo de pase del 09/10/2026 (0,149383), sobre reservas de US$49.709 M ese día; tramo activado ¥35.000 M = US$5.228 M</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-swap-china-reservas-bonares-2027.png" length="91494" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-swap-china-reservas-bonares-2027.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Telecom le cede a Metrotel 6 millones de clientes de Movistar por US$450 millones: el 36% de lo que pagó por toda Telefónica, con el uso de su red incluido</title>
       <link>https://coninteres.com/articulos/2026-10-14-metrotel-telecom-precio-clientes-movistar.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>crecimiento del PBI desestacionalizado del INDEC entre el cuarto trimestre de 2023 (706.980 millones de $ de 2004) y el segundo de 2026 (747.970); en el mismo tramo, salario real nov-23 a jul-26: privado registrado -3,4%, público provincial -8,8%, público nacional -35,9%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-economia-salarios-desde-milei.png" length="92824" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-economia-salarios-desde-milei.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un día de actividad en la Argentina vale $2,7 billones; el turismo del fin de semana largo gastó $313.610 millones: por qué el saldo del feriado no se puede medir</title>
-      <link>https://coninteres.com/articulos/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.html</guid>
-      <pubDate>Mon, 12 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La economía argentina produce unos $2,7 billones en un día promedio, según el PBI del INDEC. Del otro lado, CAME estima que 1.490.400 turistas gastaron $313.610 millones en el fin de semana largo del 12 de octubre, con estadías más cortas que en 2025. Las dos columnas de la cuenta, con sus fuentes, y por qué ningún organismo publica el resultado.</description>
-      <ci:numero>$2,7 billones</ci:numero>
-      <ci:numeroEtiqueta>lo que produce la economía argentina en un día promedio: PBI a precios corrientes del INDEC, promedio de 3T-2025 a 2T-2026 ($985,2 billones anuales) dividido por 365 = $2.699.224 millones; frente a $313.610 millones de gasto turístico del fin de semana largo del 10 al 12/10/2026 según CAME (estimación)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.png" length="87577" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-12-fin-de-semana-largo-cuanto-genero-economia.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

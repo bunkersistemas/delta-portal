@@ -4270,7 +4270,7 @@
       "tema": "cuánta plata tiene el swap con China y si se puede usar para pagar deuda (Caputo a Bloomberg desde Bangkok: si no se refinancian los Bonares se podría usar el swap chino; Bloomberg Línea, ámbito, Página12, infobae 14/10/2026) / comunicado BCRA 05/08/2026 + Banco Popular de China vía Xinhua (China Daily 06/08/2026): ¥130.000 M por 5 años; activación de ¥35.000 M vigente. Tipo de pase BCRA CNY 09/10/2026 0,149383 -> US$19.420 M, 39,07% de reservas brutas US$49.709 M (09/10); activado US$5.228 M (26,9%). Serie swap/reservas: 30/12/22 42,3%, 29/12/23 79,3%, 30/12/24 60,1%, 30/12/25 45,2% (contraste balance 2025: renminbi 45,4% de reservas). Fondos en uso (EC BCRA 2023-2025): dic-22 ¥8.500 M, dic-23 ¥35.000 M, dic-24 ¥21.000 M, dic-25 ¥7.000 M, 14/01/26 ¥4.600 M",
       "angulo": "Corrida programada del 14/10/2026 23:27, primera candidata probada (APTA). Ángulo nuevo frente a la nota del 22/07 (repago antes de la renovación): ahora el acuerdo está renovado hasta 2031 y el ministro lo propone para 2027; la nota mide su peso en las reservas (serie 2022-2026) y separa la parte activada. Camino: dos fuentes independientes (los dos bancos centrales) para ¥130.000 M; conversión y porcentaje con datos del BCRA; contraste con el balance 2025. No afirma el uso actual (último dato oficial 14/01/2026), ni la tasa, ni condiciones chinas para pagar bonos.",
       "fecha": "2026-10-14",
-      "estado": "en_cola",
+      "estado": "publicada",
       "articulo_id": "2026-10-14-swap-china-reservas-bonares-2027",
       "archivo": "cola/2026-10-14-swap-china-reservas-bonares-2027.html"
     },
