@@ -110,6 +110,34 @@ Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del 
   $nuevo = "$(& $py -c "import json,sys;print(max([len(b['titulo']) for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]] or [0]))" $id)".Trim()
   $null = Anotar "titulo de $id : $largo -> $nuevo caracteres"
 }
+# Editor de narrativa (editor, 15/10/2026): un paso que SOLO mejora la redaccion de un borrador ya
+# verificado (agente/local/misiones/narrativa.md). Cambia la forma, nunca los hechos: aplicar_narrativa.py corre
+# controlar_narrativa.py y, si algo no pasa (cifra, cita, link, grafico, afirmacion nueva sin respaldo, titulo),
+# descarta la reescritura y la nota sale con la redaccion original. NUNCA frena una nota.
+# Se apaga sin tocar codigo creando coninteres-logs\narrativa_apagada.txt.
+function Narrativa($id) {
+  try {
+    if (Test-Path (Join-Path $Logs 'narrativa_apagada.txt')) { $null = Anotar 'editor de narrativa apagado (narrativa_apagada.txt)'; return }
+    if (-not (Test-Path "cola/$id.html")) { return }
+    New-Item -ItemType Directory -Force '_privado/narrativa' | Out-Null
+    Remove-Item "_privado/narrativa/$id.html", "_privado/narrativa/$id.narrativa.json" -ErrorAction SilentlyContinue
+    $null = Anotar "editor de narrativa sobre $id ..."
+    $promptNar = @"
+Sos el editor de narrativa de Con Interes. Segui AL PIE DE LA LETRA la mision agente/local/misiones/narrativa.md (leela entera primero).
+Nota a mejorar: cola/$id.html (id $id). Es el borrador de la redaccion, ya verificado: vos solo mejoras la redaccion.
+Deja SOLO _privado/narrativa/$id.html y _privado/narrativa/$id.narrativa.json. En esta corrida automatica EL TITULO NO SE TOCA (h1 y title identicos al original): si lo cambias, tu reescritura se descarta entera. El control es: python agente/local/controlar_narrativa.py cola/$id.html _privado/narrativa/$id.html --informe _privado/narrativa/$id.narrativa.json (tiene que decir OK; lee tus afirmaciones_nuevas).
+PROHIBIDO: git, aprobar.py, rechazar.py, editar cola/, data/ o cualquier otro archivo, buscar en internet. Si no podes mejorar la nota sin tocar un hecho, no escribas nada y listo.
+Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo: sin cd, sin && ni ;. PowerShell no esta habilitado.
+"@
+    $salidaNar = & claude -p $promptNar --permission-mode dontAsk `
+      --allowedTools 'Read' 'Glob' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 2>&1
+    Add-Content -Path $Log -Value ($salidaNar | Out-String) -Encoding UTF8
+    $res = @(& $py agente/local/aplicar_narrativa.py $id 2>&1)
+    $null = Anotar ("editor de narrativa: " + (($res | Out-String).Trim()))
+  } catch {
+    $null = Anotar ("[AVISO] el editor de narrativa fallo y se sigue con la redaccion original: " + $_.Exception.Message)
+  }
+}
 # Borradores en VISTA PREVIA del lector que pidio la investigacion (editor,
 # 12/10/2026): esperan su respuesta hasta 12 h y NO traban la redaccion.
 function EnRevision { @(& $py agente/local/pedidos_lectores.py borradores_en_revision 2>$null | Where-Object { "$_".Trim() }) }
@@ -553,6 +581,7 @@ if ($Mision -eq 'pedido') {
   if ($pedNota -ne "$PedidoId") { Anotar "[AVISO] la corrida del pedido $PedidoId dejo $id con pedido '${pedNota}': el pedido no se va a cerrar solo" }
 }
 AcortarTitulo $id
+Narrativa $id
 $conTg = ''
 if ($Mision -eq 'pedido') { $conTg = "$(& $py agente/local/pedidos_lectores.py tiene_telegram $PedidoId 2>$null)".Trim() }
 if ($conTg -eq 'SI') { $rc = EnviarARevision $id } else { $rc = Publicar $id }

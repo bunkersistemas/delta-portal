@@ -133,6 +133,17 @@ Cada uno tiene un rol acotado: hace una cosa y la hace bien.
 - **Salida:** OK (pasa al Publicador) o DEVUELTA al Redactor con la lista de
   arreglos. Una nota devuelta dos veces se FRENA y se reporta.
 
+### ⑤ ter · Editor de narrativa — *que se lea como un alegato* (desde el 15/10/2026)
+- **Entrada:** el borrador ya verificado en `cola/<id>.html`. **No investiga ni verifica**: solo mejora la redacción.
+- **Tarea:** misión `agente/local/misiones/narrativa.md` (tesis primero, tensión de apertura, una prueba por
+  párrafo, conectores que muestran el razonamiento, sobriedad de abogado, cierre que retoma la tesis).
+  Cambia la forma, nunca los hechos.
+- **Control (`controlar_narrativa.py` + `aplicar_narrativa.py`):** ninguna cifra, cita, link, gráfico, tabla ni
+  conclusión cambia; el título no se toca; toda frase nueva que afirme orden, causa o generalización
+  (primero, único, todos, por eso…) va declarada en el informe con la frase textual del original que la respalda.
+- **Si algo no pasa, la reescritura se descarta entera** y la nota sale con la redacción original: este paso
+  nunca frena una nota. Se apaga creando `coninteres-logs\narrativa_apagada.txt`. Registro: `_privado/narrativa/registro.jsonl`.
+
 ### ⑥ Publicador — *a la cola*
 - **Entrada:** la nota HTML y su metadata.
 - **Tarea:** **NO publica directo** (estamos en modo cola de revisión). Coloca la
