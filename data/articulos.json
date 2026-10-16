@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-16T10:53:29-03:00",
+    "actualizado": "2026-10-16T13:01:58-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-16-monotributistas-aportes-jubilacion-asalariados",
+      "titulo": "Los monotributistas ya son uno de cada cinco aportantes a la jubilación, pero ponen el 1,3% de la plata del sistema",
+      "bajada": "Los monotributistas son cada vez más entre los que aportan a la jubilación, pero su peso en la plata no acompañó. En marzo de 2026 eran 2.159.330, el 20,9% de todas las personas que aportan, y entre todos pusieron $41.491 millones de los $3,15 billones que entraron ese mes. Cada uno aportó en promedio $19.215. Por cada asalariado, entre su aporte y la contribución de su empleador, entraron $428.259: 22 veces más.",
+      "titulo_busqueda": "¿Cuánto aporta un monotributista para la jubilación comparado con un asalariado?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,3%",
+      "numero_label": "parte de los aportes y contribuciones al SIPA que pusieron los monotributistas en marzo de 2026, siendo el 20,9% de los aportantes (Secretaría de Seguridad Social, BESS cap. I, cuadros 1.1.1.a y 1.1.1.c: $41.491.193.895,75 de $3.150.757.052.863,47; 2.159.330 de 10.318.318); aporte promedio $19.215 contra $428.259 por asalariado (aporte $193.911 + contribución estimada $234.348), 22,3 veces; contraste ARCA cuadro de categorías feb-jul 2026 ponderado por el padrón del BESS: $19.432,52 teórico contra $19.551,47 medido (+0,6%)",
+      "fecha": "2026-10-16",
+      "hora": "13:30",
+      "archivo": "articulos/2026-10-16-monotributistas-aportes-jubilacion-asalariados.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-16-tambero-leche-precio-real-piso",
       "titulo": "El litro de leche que cobra el tambero perdió 14,2% contra la inflación en un año y tocó en septiembre su valor más bajo en casi diez años de serie oficial",

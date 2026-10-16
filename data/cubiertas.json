@@ -4535,6 +4535,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "pedido de convenio de Sanidad: cuánto cobra un enfermero de clínica con la paritaria de FATSA hasta enero de 2027 (iProfesional 16/10/2026 'Tras amenaza de paro, Sanidad cerró paritarias hasta 2027'; escala ATSA Buenos Aires CCT 122/75: enfermero de piso sep-26 $1.287.363,64, oct-26 $1.310.536,19, nov $1.349.492,40, dic $1.373.783,26, ene-27 $1.412.489,60 + no remunerativos $80.000/80.000/70.000/70.000/60.000)",
+      "angulo": "FRENADA en la corrida programada del 16/10/2026 12:30 (primera candidata, pregunta de plata). La escala solo está en una placa de ATSA Buenos Aires (filial de FATSA, atsa.org.ar/wp-content/uploads/2026/10/Paritarias2025-122-FB-Y-FEED_Atsa_Octubre_2026_1_1.png), que reproduce iProfesional. No hay acuerdo firmado publicado: la página de FATSA (sanidad.org.ar/accion-gremial) llega hasta el acuerdo de junio de 2026 y ADECRA no publica escalas. Sin segunda fuente independiente ni documento de las cámaras. Retomar cuando FATSA suba el acuerdo (cct122_acuerdo..._2026.pdf) o haya homologación.",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "una sola fuente de parte (placa de ATSA Buenos Aires), sin acuerdo firmado ni copia de la parte empleadora"
+    },
+    {
+      "tema": "¿cuánto aporta un monotributista para la jubilación comparado con un asalariado? (La Nación 16/10/2026 'Polémica por el monotributo: el régimen crece mientras cae el empleo formal'; Perfil/iProfesional sobre el IERAL) / BESS cap. I marzo 2026 (Secretaría de Seguridad Social): monotributistas con aporte SIPA 2.159.330 de 10.318.318 aportantes (20,9%), masa $41.491 M de $3.150.757 M (1,3%); aporte promedio $19.215 vs asalariado $193.911 + contribución $234.348 = $428.259 (22,3 veces; régimen general $418.643, 21,8); serie anual 1999-2025: aportantes 9,2% -> 21,2% (máximo, previo 19,8% en 2024), plata 1,8% -> 1,2% (piso 0,7% en 2016); brecha 5,2 veces en 1999, máximo 30,1 en 2023 (previo 25,8 en 2016)",
+      "angulo": "Corrida programada del 16/10/2026 12:30, segunda candidata probada (APTA) tras frenar la escala de Sanidad. Ángulo nuevo respecto de las notas de monotributo del 21/07 (tope en pesos) y 15/10 (tope en dólares) y de la de trabajo no registrado de hoy (CGI INDEC): cuánta plata pone cada régimen en el SIPA, con aporte + contribución patronal (los medios comparan solo el aporte personal, 9,7 veces) y la serie desde 1999. Camino estadística oficial: (1) BESS cuadro 1.1.1.a; (2) recalculado desde la masa y los aportantes del cuadro 1.1.1.c; (3) contraste ARCA cuadro de categorías feb-jul 2026 ponderado por el padrón del cuadro 1.1.7.b: $19.432,52 teórico vs $19.551,47 medido (+0,6%). ESTIMACIÓN marcada: 70% del impuesto integrado a la Seguridad Social (Ley 24.977 art. 59 inc. a, esquema de distribución de Economía) suma $14.212-$21.995 por mes -> brecha 10 a 13 veces. IERAL citado (mismos datos del BESS, no cuenta como independiente).",
+      "fecha": "2026-10-16",
+      "estado": "publicada",
+      "articulo_id": "2026-10-16-monotributistas-aportes-jubilacion-asalariados"
+    },
+    {
+      "tema": "descartes de la corrida programada del 16/10/2026 12:30: Sanidad (frenada aparte). La segunda candidata (aportes de monotributistas contra asalariados, BESS) pasó la verificación. Lista: pregunta de plata: aumento de bancarios con básicos de casi $2,7 M y bono (iProfesional; grilla de agosto publicada el 29/09, mismo mecanismo de IPC), Banco Ciudad remata inmuebles de herencias vacantes desde US$14.840 (iProfesional; descartada el 26/09 sin ángulo propio), El Niño, represas al tope y energía más barata (iProfesional; datos de CAMMESA sin probar), Diarco cierra su cuarta sucursal (iProfesional; empresa sin documento CNV), clínicas y paro de Sanidad (frenada); empresas: Potenciar SGR HR 16/10 (aviso de pago de la ON PyME Zafra Serie III, rutina), Central Puerto recompras diarias (sin HR del programa), Arcor HR 15/10 (convoca a asamblea, emisión ya publicada), Banco Comafi HR 15/10 (Cedears), YPF Luz cambio de composición (compra publicada el 08/10), AES garantía de IDB Invest (en cola desde el 15/10), Flybondi y sus acreedores (La Nación; sin expediente del concurso), Nissan vende su negocio (infobae; sin documento); portadas: riesgo país seis subas (serie publicada), FMI y subsidios energéticos (subsidios publicados el 28/09), Georgieva y el pago al FMI, deuda bruta de septiembre (publicada el 15/10), Caputo niega la recesión (EMAE sale el 21/10), Vaca Muerta y el millón de barriles (frenada antes), BCRA no informa con quién cubre el oro (oro publicado el 14/10); calendario: SIPM, ICC y canasta de crianza de septiembre (salen hoy a las 16, todavía no publicados). Cupo de EMPRESAS: regía (hoy no salió ninguna nota de la sección); se descartó porque ningún documento del bloque CNV/SEC trae una cifra ancla nueva y las candidatas de empresas de portales no tienen documento primario. Clarín y TN no se pudieron leer.",
+      "angulo": "NO TOMADAS en la corrida programada del 16/10/2026 12:30.",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
     }
   ]
 }

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 16 Oct 2026 10:53:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 13:02:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los monotributistas ya son uno de cada cinco aportantes a la jubilación, pero ponen el 1,3% de la plata del sistema</title>
+      <link>https://coninteres.com/articulos/2026-10-16-monotributistas-aportes-jubilacion-asalariados.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-monotributistas-aportes-jubilacion-asalariados.html</guid>
+      <pubDate>Fri, 16 Oct 2026 13:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Los monotributistas son cada vez más entre los que aportan a la jubilación, pero su peso en la plata no acompañó. En marzo de 2026 eran 2.159.330, el 20,9% de todas las personas que aportan, y entre todos pusieron $41.491 millones de los $3,15 billones que entraron ese mes. Cada uno aportó en promedio $19.215. Por cada asalariado, entre su aporte y la contribución de su empleador, entraron $428.259: 22 veces más.</description>
+      <ci:numero>1,3%</ci:numero>
+      <ci:numeroEtiqueta>parte de los aportes y contribuciones al SIPA que pusieron los monotributistas en marzo de 2026, siendo el 20,9% de los aportantes (Secretaría de Seguridad Social, BESS cap. I, cuadros 1.1.1.a y 1.1.1.c: $41.491.193.895,75 de $3.150.757.052.863,47; 2.159.330 de 10.318.318); aporte promedio $19.215 contra $428.259 por asalariado (aporte $193.911 + contribución estimada $234.348), 22,3 veces; contraste ARCA cuadro de categorías feb-jul 2026 ponderado por el padrón del BESS: $19.432,52 teórico contra $19.551,47 medido (+0,6%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-monotributistas-aportes-jubilacion-asalariados.png" length="79266" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-monotributistas-aportes-jubilacion-asalariados.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El litro de leche que cobra el tambero perdió 14,2% contra la inflación en un año y tocó en septiembre su valor más bajo en casi diez años de serie oficial</title>
       <link>https://coninteres.com/articulos/2026-10-16-tambero-leche-precio-real-piso.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>préstamo máximo de la línea Nación Previsional del Banco Nación para un jubilado con el haber mínimo de octubre de 2026 ($435.748,51, Res. ANSES 284/2026), a 72 meses: primera cuota (capital, interés e IVA) en el tope del 35% del ingreso = $152.511,98 / 0,0518377 = $2.942.106; condiciones (TNA 49%, TEA 61,70%, CFT TEA 78,38%, cuota hasta 35%, $1 M a $50 M, 72 meses) en la página del BNA y en el régimen de transparencia del BCRA; cuadro de cuotas del BNA reproducido al centavo</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.png" length="80405" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El impuesto de emergencia a los premios del Quini 6 se lleva el 27,9%: nació en 1973 para durar diez años y ya está prorrogado hasta 2072</title>
-      <link>https://coninteres.com/articulos/2026-10-13-impuesto-premios-quini-6-emergencia-2072.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-impuesto-premios-quini-6-emergencia-2072.html</guid>
-      <pubDate>Tue, 13 Oct 2026 19:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Los dos apostadores que el domingo se repartieron más de $5.300 millones en el Quini 6 no van a cobrar eso. Una ley nacional de 1973 les retiene el 31% sobre el 90% de cada premio: el 27,9%. Se creó como "gravamen de emergencia" por diez años y hoy rige hasta 2072. Y el monto a partir del cual se paga sigue clavado en $1.200 netos desde 2003.</description>
-      <ci:numero>27,9%</ci:numero>
-      <ci:numeroEtiqueta>parte de cada premio del Quini 6 que retiene el gravamen de emergencia de la Ley 20.630: alícuota de 31% (Ley 24.800) sobre un monto neto de 90% del premio (art. 4) = 27,9%; igual a la retención que informa la Lotería de Santa Fe (31% sobre el 90% para premios de más de $1.333,33)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-impuesto-premios-quini-6-emergencia-2072.png" length="86400" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-impuesto-premios-quini-6-emergencia-2072.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

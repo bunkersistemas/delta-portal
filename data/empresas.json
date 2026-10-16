@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-16T10:30",
+  "generado": "2026-10-16T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3581464",
+      "fuente": "CNV",
+      "fecha": "2026-10-16T12:18",
+      "entidad": "POTENCIAR SGR",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6999C036-1316-470C-BFC7-3754EFDB9F06"
+    },
     {
       "id": "cnv-3581248",
       "fuente": "CNV",
