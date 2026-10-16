@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 15 Oct 2026 23:03:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 00:45:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las tarifas y los precios regulados subieron 31,5% en nueve meses, casi ocho puntos más que la inflación: en el Noreste, la luz y el gas aumentaron 83,1%</title>
+      <link>https://coninteres.com/articulos/2026-10-16-tarifas-regulados-inflacion-noreste.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-tarifas-regulados-inflacion-noreste.html</guid>
+      <pubDate>Fri, 16 Oct 2026 01:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En los primeros nueve meses de 2025, los precios que fija o autoriza el Estado —luz, gas, agua, transporte público, prepagas, colegios, teléfono, combustibles y cigarrillos— habían ido casi a la par de la inflación: 23,1% contra 22,0%. En 2026 se despegaron. Entre diciembre de 2025 y septiembre de 2026 subieron 31,5% en todo el país, según el INDEC; el nivel general, 23,6%, y el resto de la canasta sin estacionales, 21,8%. La diferencia más grande está en el Noreste: ahí los regulados subieron 43,0%, y el rubro electricidad, gas y otros combustibles del hogar, 83,1%.</description>
+      <ci:numero>31,5%</ci:numero>
+      <ci:numeroEtiqueta>suba de los precios regulados del IPC nacional entre diciembre de 2025 y septiembre de 2026 (INDEC, informe técnico del IPC de septiembre, cuadro 14; recálculo desde serie_ipc_divisiones.csv: 13.238,1788 / 10.069,0986 = +31,47%), contra 23,6% del nivel general; contraste: IPCBA regulados 31,1% en el año (IDECBA, informe 2064, cuadro C.4)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-tarifas-regulados-inflacion-noreste.png" length="91853" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-tarifas-regulados-inflacion-noreste.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>US$100 millones de BID Invest y otros prestamistas para que AES casi duplique su parque eólico de Bahía Blanca</title>
       <link>https://coninteres.com/articulos/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>sueldo básico bruto de octubre de 2026 del escalón más bajo de la planta permanente del SINEP (nivel F, grado 0, agrupamiento general): 516 unidades retributivas x $1.119,92 (Decreto 832/2026, Anexo I) = $577.878,72, igual a la escala de octubre de UPCN</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-sueldo-estatales-nacionales-sinep-octubre.png" length="78428" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-sueldo-estatales-nacionales-sinep-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La ley de Zona Fría salió hoy: un hogar de la zona ampliada con 30% de descuento que no entre al SEF va a pagar 42,9% más por el gas</title>
-      <link>https://coninteres.com/articulos/2026-10-13-zona-fria-ley-gas-tarifa-plena.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-zona-fria-ley-gas-tarifa-plena.html</guid>
-      <pubDate>Tue, 13 Oct 2026 13:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La ley 27.828, publicada hoy en el Boletín Oficial, le quita la base legal a la tarifa diferencial que desde 2021 tenían Buenos Aires, Córdoba, Santa Fe, Cuyo y Salta. En los cuadros oficiales de octubre esa tarifa es exactamente el 70% de la plena. El que la pierde y no entra al régimen de subsidios focalizados vuelve a pagar el 100%.</description>
-      <ci:numero>42,9%</ci:numero>
-      <ci:numeroEtiqueta>lo que sube cada cargo de la tarifa de gas (fijo y por m³) para un hogar de la Zona Fría ampliada que pagaba la tarifa diferencial de 70% (ley 27.637, art. 4, derogado por la ley 27.828 del 13/10/2026) y no entra al SEF: 100/70 = 1,4286; en los cuadros del ENReGE desde el 01/10/2026 la diferencial es exactamente 0,70 de la plena en las diez subzonas de la ampliación</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-zona-fria-ley-gas-tarifa-plena.png" length="87132" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-zona-fria-ley-gas-tarifa-plena.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-15T23:03:48-03:00",
+    "actualizado": "2026-10-16T00:45:18-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-16-tarifas-regulados-inflacion-noreste",
+      "titulo": "Las tarifas y los precios regulados subieron 31,5% en nueve meses, casi ocho puntos más que la inflación: en el Noreste, la luz y el gas aumentaron 83,1%",
+      "bajada": "En los primeros nueve meses de 2025, los precios que fija o autoriza el Estado —luz, gas, agua, transporte público, prepagas, colegios, teléfono, combustibles y cigarrillos— habían ido casi a la par de la inflación: 23,1% contra 22,0%. En 2026 se despegaron. Entre diciembre de 2025 y septiembre de 2026 subieron 31,5% en todo el país, según el INDEC; el nivel general, 23,6%, y el resto de la canasta sin estacionales, 21,8%. La diferencia más grande está en el Noreste: ahí los regulados subieron 43,0%, y el rubro electricidad, gas y otros combustibles del hogar, 83,1%.",
+      "titulo_busqueda": "¿Cuánto aumentaron las tarifas en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "31,5%",
+      "numero_label": "suba de los precios regulados del IPC nacional entre diciembre de 2025 y septiembre de 2026 (INDEC, informe técnico del IPC de septiembre, cuadro 14; recálculo desde serie_ipc_divisiones.csv: 13.238,1788 / 10.069,0986 = +31,47%), contra 23,6% del nivel general; contraste: IPCBA regulados 31,1% en el año (IDECBA, informe 2064, cuadro C.4)",
+      "fecha": "2026-10-16",
+      "hora": "01:30",
+      "archivo": "articulos/2026-10-16-tarifas-regulados-inflacion-noreste.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest",
       "titulo": "US$100 millones de BID Invest y otros prestamistas para que AES casi duplique su parque eólico de Bahía Blanca",

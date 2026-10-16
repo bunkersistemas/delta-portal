@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-15",
-  "pregunta": "El swap con China es de 130.000 millones de yuanes, unos US$19.420 millones: equivale al 39% de las reservas brutas del Banco Central. Pero solo 35.000 millones de yuanes, US$5.228 millones, están activados. Si el Gobierno quisiera usar el swap para pagar deuda en 2027, ¿con cuánto podría contar hoy?",
+  "fecha": "2026-10-16",
+  "pregunta": "Entre enero y septiembre de 2026 el Tesoro canceló US$11.338 millones más de deuda de la que tomó. Sin embargo, la deuda del Estado nacional subió US$31.551 millones en el mismo período. ¿Qué la hizo crecer?",
   "opciones": [
-    "Con los US$19.420 millones: el acuerdo entero ya está dentro de las reservas",
-    "Con el tramo activado, US$5.228 millones; y lo que use se convierte en una deuda del Banco Central con el banco chino",
-    "Con nada: el swap solo se puede usar para importar productos chinos"
+    "Que el dólar subió y los bonos en pesos valen más medidos en dólares",
+    "Los intereses que se suman al capital y el ajuste por inflación (CER) de los bonos en pesos: deuda que crece sin pedir plata nueva",
+    "Nuevos desembolsos del FMI que no se cuentan como emisión del Tesoro"
   ],
   "correcta": 1,
-  "explicacion": "El acuerdo completo engorda las reservas brutas, pero eso no quiere decir que se pueda gastar entero: solo está activado un tramo de 35.000 millones de yuanes, US$5.228 millones al tipo de cambio del 9 de octubre. Y usarlo no es gratis: un swap es un intercambio entre bancos centrales, y lo que se usa pasa a ser una deuda en yuanes que hay que devolver. Ya pasó: a fines de 2023 el tramo activado estaba usado entero y en enero de 2026 todavía quedaba una parte por devolver.",
-  "nota": "articulos/2026-10-14-swap-china-reservas-bonares-2027.html",
+  "explicacion": "La deuda puede crecer aunque no se pida un peso nuevo. Según la Secretaría de Finanzas, los ajustes de valuación sumaron US$43.050 millones en nueve meses: US$26.295 millones por intereses que se capitalizan (se suman al capital en vez de pagarse) y US$21.399 millones por el ajuste CER de los bonos atados a la inflación. El tipo de cambio jugó al revés: restó US$4.407 millones. Por eso, para saber si el Estado se endeuda más, no alcanza con mirar cuánto emite y cuánto paga.",
+  "nota": "articulos/2026-10-15-deuda-publica-septiembre-cuanto-debe-argentina.html",
   "leccion": ""
 }
