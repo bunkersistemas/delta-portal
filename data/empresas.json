@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-16T14:30",
+  "generado": "2026-10-16T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3581577",
+      "fuente": "CNV",
+      "fecha": "2026-10-16T15:56",
+      "entidad": "IRSA INVERSIONES Y REPRESENTACIONES S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE – RECOMPRA DE OBLIGACIONES NEGOCIABLES",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/87C0F906-7C52-4851-8D61-ED41CAE7EB45"
+    },
     {
       "id": "cnv-3581512",
       "fuente": "CNV",
@@ -841,6 +850,7 @@
     "sec-0000933267-26-000059": "2026-09-17",
     "sec-0000933267-26-000061": "2026-09-23",
     "sec-0000933267-26-000063": "2026-09-23",
+    "sec-0000933267-26-000065": "2026-10-16",
     "sec-0001034957-26-000069": "2026-09-17",
     "sec-0001104659-26-108004": "2026-09-16",
     "sec-0001104659-26-108115": "2026-09-16",

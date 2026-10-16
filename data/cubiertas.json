@@ -4581,6 +4581,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no tomadas: sin ángulo nuevo, sin documento o fuera de horario"
+    },
+    {
+      "tema": "¿cuánto cuesta criar un hijo y cuánto cubre la AUH? / canasta de crianza de septiembre de 2026 (INDEC, 16/10/2026): 6-12 años $728.850 (bienes $377.231 + cuidado $351.619), <1 $570.832, 1-3 $679.816, 4-5 $579.752; AUH sep-26 $154.031 (Res. ANSES 260/2026, anexo V) + Prestación Alimentar 1 hijo $72.250 (Res. MCH 161/2026, desde may-26; antes $52.250, Res. MCH 181/2024) = $226.281: 6-12 31,0% del total y 60,0% de los bienes; <1 122,4% de los bienes; con el 80% cobrado en el mes $195.474,80 = 51,8% de los bienes 6-12; serie AUH/bienes 6-12 (SSPM 165.1_AAUH_0_0_3): ene-20 29,4%, dic-23 18,0%, jun-25 42,5% (máximo de la serie), sep-26 40,8%; sep-25 a sep-26 AUH +33,8%, AUH+PA +35,2%, bienes +38,7%",
+      "angulo": "Corrida programada del 16/10/2026 16:30, primera candidata (calendario del día + pregunta de plata). Ángulo nuevo respecto de la canasta de crianza de agosto (14/09: el cuidado sube menos que los bienes) y de las notas de AUH (03/09 brecha AUH-SUAF, 03/10 el 20% retenido, 14/10 movilidad en el Presupuesto 2027): cuánto de la canasta cubre lo que paga el Estado por hijo, con serie desde 2020. Camino estadística oficial: (1) informe INDEC del 16/10, cuadro 1; (2) recalculado: CBT GBA sep x coeficiente 0,71402 = $377.231 y 84 h x $4.185,94 = $351.619 (serie del INDEC al centavo); (3) contraste independiente: escala de ARCA de septiembre ($4.185,94 / $529.261,78). AUH en el anexo V de la Res. 260/2026 = ago $150.848 x 1,0211 = serie SSPM. PA en el BO (Res. 161/2026, categoría 1).",
+      "fecha": "2026-10-16",
+      "estado": "publicada",
+      "articulo_id": "2026-10-16-canasta-crianza-auh-prestacion-alimentar"
+    },
+    {
+      "tema": "descartes de la corrida programada del 16/10/2026 16:30: no se probaron porque la primera candidata (canasta de crianza de septiembre contra AUH + Prestación Alimentar, INDEC 16:00) pasó la verificación. Lista: calendario: inflación mayorista 3,2% en septiembre (IPIM; infobae, La Nación, Cronista; dato del día que publican todos a la misma hora, sin ángulo propio todavía), costo de la construcción de septiembre (ICC; publicada la de agosto el 23/09); pregunta de plata: boleto de colectivo en CABA y PBA desde noviembre (TN; sin resolución publicada todavía), cuánto cuesta ir a ver a Colapinto al GP de Brasil (infobae; precios de entradas y agencias, sin documento oficial), vacas en riesgo por la crecida en Santa Fe y el Litoral (infobae; sin dato oficial de SENASA/provincia leído), fondo de cese laboral postergado (Clarín; sin norma publicada); empresas CNV: IRSA recompra de obligaciones negociables (HR 16/10; no leído, queda como primera candidata de empresas para la próxima corrida), FCA y PSA Compañía Financiera (convocan a asamblea, sin cifras), Potenciar SGR y Fogach (avisos de pago, rutina), Central Puerto recompras diarias (contada el 29/09); portadas: superávit fiscal de septiembre (frenado a las 14:30), FMI y subsidios (publicada 28/09), riesgo país (serie publicada), bancarios (descartada 12:30 y 14:30). Empresas no ganó: la canasta de crianza es dato oficial del día con pregunta de plata de búsqueda alta ('cuánto cuesta criar un hijo', 'cuánto cubre la AUH') y documento primario recién salido; IRSA es una recompra de deuda sin pregunta de plata para el lector.",
+      "angulo": "registro de candidatas no probadas",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

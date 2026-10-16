@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-16T15:00:52-03:00",
+    "actualizado": "2026-10-16T16:56:56-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-16-canasta-crianza-auh-prestacion-alimentar",
+      "titulo": "Criar a un chico de 6 a 12 años costó $728.850 en septiembre: la AUH y la Prestación Alimentar cubren el 31%, y sin contar el cuidado, el 60%",
+      "bajada": "Lo que el Estado paga por un hijo a una familia con AUH alcanza para el 60% de lo que consume un chico de 6 a 12 años, y para el 31% si se suma el tiempo de cuidado. La AUH sola cubre más del doble que en diciembre de 2023, pero en el último año perdió terreno: subió 33,8%, y los bienes de la canasta de crianza que el INDEC publicó hoy, 38,7%.",
+      "titulo_busqueda": "¿Cuánto cuesta criar un hijo y cuánto cubre la AUH?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$728.850",
+      "numero_label": "costo mensual de criar a un chico de 6 a 12 años en septiembre de 2026 (INDEC, canasta de crianza, informe del 16/10/2026, cuadro 1): bienes $377.231 (CBT GBA $528.318,67 x 0,71402) + cuidado $351.619 (84 h x $4.185,94, escala ARCA sep-26 / Res. CNTCP 6/2026); AUH sep-26 $154.031 (Res. ANSES 260/2026 anexo V) + Prestación Alimentar 1 hijo $72.250 (Res. MCH 161/2026) = $226.281: 31,0% de la canasta total y 60,0% de los bienes; AUH/bienes 6-12: 18,0% dic-23, 42,5% jun-25 (máximo desde ene-20), 40,8% sep-26; AUH +33,8% i.a. vs bienes +38,7%",
+      "fecha": "2026-10-16",
+      "hora": "17:30",
+      "archivo": "articulos/2026-10-16-canasta-crianza-auh-prestacion-alimentar.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 8 min"
+    },
     {
       "id": "2026-10-16-tasa-hipotecarios-uva-septiembre-bcra",
       "titulo": "Los bancos cobraron 6,81% anual por los hipotecarios UVA que dieron en septiembre: tercera baja seguida, pero apenas 0,21 puntos desde el pico de junio",
