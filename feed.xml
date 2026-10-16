@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 15 Oct 2026 20:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 15 Oct 2026 23:03:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>US$100 millones de BID Invest y otros prestamistas para que AES casi duplique su parque eólico de Bahía Blanca</title>
+      <link>https://coninteres.com/articulos/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.html</guid>
+      <pubDate>Thu, 15 Oct 2026 23:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>El préstamo que recibió el 14 de octubre Vientos Bonaerenses, la subsidiaria de AES Argentina, equivale al 87% de toda la deuda financiera que la empresa tenía el 30 de junio. Son US$100 millones de BID Invest y otros prestamistas internacionales, $148.302 millones al tipo de cambio de junio, para terminar las fases III y IV de su parque eólico, que suman 99,1 MW a los 99,75 MW que ya tiene. AES lo garantiza.</description>
+      <ci:numero>US$100 M</ci:numero>
+      <ci:numeroEtiqueta>préstamo de BID Invest y otros prestamistas a Vientos Bonaerenses, subsidiaria de AES Argentina, para las fases III y IV del parque eólico (hecho relevante de AES ante la CNV, 14/10/2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.png" length="75155" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La deuda del Estado nacional llegó a US$486.628 millones en septiembre: subió US$31.551 millones en el año aunque el Tesoro canceló más deuda de la que tomó</title>
       <link>https://coninteres.com/articulos/2026-10-15-deuda-publica-septiembre-cuanto-debe-argentina.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que sube cada cargo de la tarifa de gas (fijo y por m³) para un hogar de la Zona Fría ampliada que pagaba la tarifa diferencial de 70% (ley 27.637, art. 4, derogado por la ley 27.828 del 13/10/2026) y no entra al SEF: 100/70 = 1,4286; en los cuadros del ENReGE desde el 01/10/2026 la diferencial es exactamente 0,70 de la plena en las diez subzonas de la ampliación</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-zona-fria-ley-gas-tarifa-plena.png" length="87132" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-zona-fria-ley-gas-tarifa-plena.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>¿Por qué parece que la IA deja gente sin trabajo si los estudios no lo muestran?</title>
-      <link>https://coninteres.com/articulos/2026-10-13-ia-sensacion-empleo-argentina-sectores.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-ia-sensacion-empleo-argentina-sectores.html</guid>
-      <pubDate>Tue, 13 Oct 2026 11:15:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>IA</category>
-      <description>Una parte de la sensación llega de EE.UU.: las empresas de ese país nombraron a la IA en 21 de cada 100 despidos que anunciaron en 2026 hasta septiembre, y pasó a ser la razón que más dan, pero son anuncios, no puestos reemplazados. La otra parte es que en la Argentina sí se perdió empleo: 246 mil asalariados privados registrados menos desde noviembre de 2023, 6 de cada 10 en la industria y la construcción, de los sectores menos expuestos a la IA. Y donde la IA ya se usa mucho, la gente se adapta cambiando lo que hace: en Dinamarca, 85 de cada 100 que usan chatbots dicen que pasan el tiempo que ahorran a otras tareas.</description>
-      <ci:numero>−246 mil</ci:numero>
-      <ci:numeroEtiqueta>asalariados privados registrados menos en la Argentina entre noviembre de 2023 (6.372.692) y junio de 2026 (6.126.380), serie sin estacionalidad del SIPA (Secretaría de Trabajo, cuadro T.2.2): −3,9%; industria y construcción, −151 mil (61%); finanzas y enseñanza, los sectores más expuestos a la IA según el Ministerio de Trabajo, −8 mil (3%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-ia-sensacion-empleo-argentina-sectores.png" length="66157" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-ia-sensacion-empleo-argentina-sectores.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
