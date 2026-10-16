@@ -4481,6 +4481,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "ya cubiertas, sin documento primario o de menor prioridad frente a la candidata elegida"
+    },
+    {
+      "tema": "¿cuánto necesita una familia para no ser pobre? / canasta básica total de septiembre de 2026 (INDEC, informe del 13/10/2026; iProfesional 16/10/2026 'La canasta alimentaria volvió a subir menos que la inflación'): hogar 2 $1.632.504,69 (+38,7% i.a.; CBA $738.689,90, +40,0%) contra IPC GBA +33,5% = brecha de 5,2 pp, la mayor desde may-24 (11,8); quinto mes seguido con la CBT i.a. arriba del IPC (may-sep 2026) tras 22 meses abajo (jul-24 a abr-26, piso ene-25 -16,4)",
+      "angulo": "Nuevo frente a las notas que usaron la CBT como deflactor: la vara de la pobreza corre más rápido que los precios desde mayo de 2026. Contraste IDECBA (ir 2065, hogar 1 LP $1.687.299, +34,3% i.a., contra IPCBA 32,9%). Sueldo mediano SIPA jul-26 $1.689.227 (+28,2%) contra CBT hogar 2 jul +36,1%: 1,15 -> 1,08 canastas brutas; neto estimado 95% -> 90%. Coeficiente de Engel inverso 2,23 -> 2,21.",
+      "fecha": "2026-10-16",
+      "estado": "publicada",
+      "articulo_id": "2026-10-16-linea-pobreza-septiembre-familia-tipo"
+    },
+    {
+      "tema": "Ingresos Brutos de los autos y motos 0 km en la Ciudad de Buenos Aires: el proyecto de Código Fiscal y Ley Impositiva 2027 cambia la base (del margen del concesionario al precio de venta sin IVA) y baja la alícuota del 10% al 2,3% (El Cronista 16/10/2026; iProfesional 14-15/10/2026; dolarhoy 14/10)",
+      "angulo": "FRENADA en la corrida programada del 16/10/2026 06:30 (primera candidata, pregunta de plata: cuánto más va a costar un 0 km en CABA). El texto de los proyectos de Código Fiscal y Ley Impositiva 2027 no está publicado: ni en la noticia oficial del GCBA del 05/10/2026 (solo Patentes, ABL, Sellos, Publicidad y Plusvalía) ni en el Boletín Oficial porteño ni en una página de Hacienda; los medios no enlazan ningún documento. La carga efectiva actual (0,91% a 1,30% del precio) es la estimación de un solo contador (SDC Asesores). Retomar cuando el proyecto aparezca en la Legislatura con número de expediente.",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario: el texto del proyecto de Código Fiscal / Ley Impositiva 2027 no está publicado y la carga actual es estimación de una sola fuente"
+    },
+    {
+      "tema": "descartes de la corrida programada del 16/10/2026 06:30: Ingresos Brutos de los 0 km en CABA (frenada aparte). La segunda candidata (línea de pobreza de septiembre, INDEC) pasó la verificación. Lista: pregunta de plata: fondo de acciones de Mercado Pago 'Empresas argentinas' con pérdida desde el lanzamiento (iProfesional 15/10; sin serie CAFCI leída y roza la línea roja de juicio sobre un instrumento), Complemento Leche del Plan 1000 Días $59.063 (ámbito; sin norma citada, evergreen); empresas: YPF Energía Eléctrica e YPF HR CNV 14/10 (el visor de la CNV muestra formularios sin texto; compra del 24,99% ya publicada el 08/10), Central Puerto recompras diarias (sin HR del programa), Banco Comafi HR 15/10 (Cedears, rutina), Arcor HR 15/10 (solo convoca a asamblea), TGS préstamo US$1.400 M y Nissan (sin documento); calendario: BCRA Informe sobre Bancos (el anexo sigue con datos de julio, actualizado 18/09), SIPM, ICC y canasta de crianza (salen hoy a las 16); portadas: riesgo país, reservas, Georgieva y el FMI, Merval cambia de nombre (sin pregunta de plata nueva). Cupo de EMPRESAS: ninguna candidata del bloque tenía documento legible con cifras.",
+      "angulo": "",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la segunda candidata pasó la verificación"
     }
   ]
 }
