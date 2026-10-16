@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-16T09:01:15-03:00",
+    "actualizado": "2026-10-16T10:53:29-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-16-tambero-leche-precio-real-piso",
+      "titulo": "El litro de leche que cobra el tambero perdió 14,2% contra la inflación en un año y tocó en septiembre su valor más bajo en casi diez años de serie oficial",
+      "bajada": "Los tambos cobraron en septiembre $543,01 por litro, según la Secretaría de Agricultura: 14,4% más que un año antes. Pero en el mismo lapso los precios subieron 33,4%. Descontada la inflación, el litro lleva 28 meses seguidos de baja, y desde marzo de 2026 cada mes marca un nuevo piso de la serie, que empieza en 2016.",
+      "titulo_busqueda": "¿Cuánto le pagan al tambero por un litro de leche en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−14,2%",
+      "numero_label": "precio real por litro que cobró el tambero, septiembre 2026 contra septiembre 2025 (Agricultura, SIGLeA, ajustado por IPC del INDEC)",
+      "fecha": "2026-10-16",
+      "hora": "11:00",
+      "archivo": "articulos/2026-10-16-tambero-leche-precio-real-piso.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-16-salario-convenio-comercio-inflacion-gremios",
       "titulo": "El sueldo de convenio de comercio perdió 18% contra la inflación desde noviembre de 2023: entre los 26 gremios grandes, solo los textiles cayeron más",

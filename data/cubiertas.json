@@ -4520,6 +4520,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "cuánto le pagan al tambero por un litro de leche en 2026 / precio real al productor en su piso de la serie (Clarín Rural 16/10/2026 'El más bajo de los últimos 10 años: el precio de la leche pagado a los productores cayó 14% en septiembre'; OCLA 15/10/2026) / SIGLeA (Agricultura, DNL, PR026.xlsx, nacional) sep-26 $543,01 (ago-26 $535,12, +1,5%; sep-25 $474,60, +14,4%) con IPC nacional (serie_ipc_divisiones.csv: 12.514,1508 / 9.384,0922 = +33,4%) -> real -14,2% i.a., -0,5% m/m; en $ de sep-26: mínimo de la serie dic-16/sep-26 (118 meses), nuevo piso cada mes mar-sep 2026 (552,62 / 548,64 / 548,48 / 548,29 / 546,59 / 545,47 / 543,01), piso previo feb-18 $554,30; 28 caídas reales seguidas desde jun-24 (última suba may-24: 761,70 -> 802,16); -32,3% desde may-24; máximo jun-19 $840,61 (-35,4%); septiembres 2017-2026: 599 / 600 / 775 / 688 / 782 / 718 / 643 / 749 / 633 / 543; acumulado 2026 nominal +13,9% vs IPC +23,6%",
+      "angulo": "Corrida programada del 16/10/2026 10:30. Pregunta de plata detrás de Clarín Rural (16/10). Ángulo nuevo respecto de la nota del 29/09 (parte del tambero sobre el sachet, agosto): el nivel real del precio al productor, su piso en la serie oficial, la racha de 28 meses de baja real y el septiembre más bajo en diez años. Camino estadística oficial: (1) planilla de la DNL con $543,01; (2) recálculo con el IPC nacional, 118 meses; (3) contraste IERAL (Garzón y Artusso, 28/05/2026): real 1T-26 ~19% bajo 1T-25 y abril -18% i.a.; nuestro recálculo -19,1% y -18,4%. OCLA (informe de septiembre) dice lo mismo pero usa el dato SIGLeA, no se cuenta como independiente. Superlativo 'más bajo de la serie' con valor previo documentado (feb-18 $554,30). Cierre de 232 tambos (OCLA vía Clarín) NO entra: sin documento oficial leído.",
+      "fecha": "2026-10-16",
+      "estado": "publicada",
+      "articulo_id": "2026-10-16-tambero-leche-precio-real-piso"
+    },
+    {
+      "tema": "descartes de la corrida programada del 16/10/2026 10:30: no se probaron porque la primera candidata (precio real de la leche al tambero, SIGLeA septiembre) pasó la verificación. Lista: empresas: Central Puerto recompras diarias de acciones (HR CNV 13-15/10; sigue faltando el HR del programa con monto máximo; descartada con esa razón en todas las corridas desde el 25/09), Arcor HR 15/10 (solo convoca a asamblea el 13/11) y aplicación de fondos de ON (emisión ya publicada el 02/10), Banco Comafi HR 15/10 (Cedears, rutina), Nissan vende su negocio en la Argentina (Infobae 16/10; sin documento CNV); pregunta de plata: boleto de colectivo de noviembre en CABA y PBA (TN 16/10; las resoluciones todavía no salieron en los boletines oficiales, serían ESTIMACIÓN), morosidad con supermercados y cadenas de electrodomésticos 44,8% (TN, Clarín; cálculo de EcoGo sobre la Central de Deudores, sin serie pública para recalcular; mora ya cubierta varias veces), cuánto cuesta ir a ver a Colapinto a Brasil (Infobae; precios comerciales, sin documento oficial), reservas del BCRA arriba de US$50.000 M (Infobae, Clarín, La Nación; cubierto el 25/08 y el 08/10), pago adelantado al FMI (Georgieva; sin documento, deuda con el FMI publicada el 03/10); calendario: canasta de crianza, ICC y SIPM de septiembre (salen hoy a las 16).",
+      "angulo": "",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación"
     }
   ]
 }
