@@ -4596,6 +4596,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿por qué se aceleró la inflación mayorista en septiembre? / SIPM septiembre de 2026 (INDEC, 16/10/2026; infobae, La Nación, ámbito, iProfesional, Cronista): IPIM 3,2% (3,159% recalculado), la más alta desde abril (5,158%; may-ago 2,51/1,08/0,80/2,14); petróleo crudo y gas +15,0% m/m (mayor desde abril 22,91%), +67,7% i/a, +77,1% acumulado dic-sep (recalc. 77,06%), incidencia 1,43 de 3,16 p.p. (45%); refinados del petróleo +2,2% m/m, +34,2% acum.; IPC GBA clase 07.2.2 combustibles y lubricantes +29,1% dic-sep (8.807,8726 -> 11.375,1286), +0,8% en sep; IPC GBA general +23,8%; IPIM ng +22,8% acum.; contraste: Brent EIA US$62,54 (dic-25) -> US$114,16 (sep-26) +82,5% en USD, A3500 prom. $1.447,84 -> $1.513,89 (+4,6%), +90,9% en pesos",
+      "angulo": "Corrida programada del 16/10/2026 18:30. Dato del calendario (SIPM, hoy 16:00, en cinco portadas) con ángulo propio que los otros medios no tienen: el crudo y el gas contra los refinados mayoristas y contra el surtidor del IPC GBA en 2026 (77,1% / 34,2% / 29,1%), y el traslado mes a mes (mar-abr el surtidor acompañó 7,0% y 11,7%; ago-sep 1,0% y 0,8%). Camino estadística oficial: (1) informe técnico SIPM cuadros 2-5; (2) recálculo desde indice_ipim.csv; (3) contraste Brent (EIA) pasado a pesos con A3500 del BCRA: misma dirección y orden de magnitud, diferencia explicada (gas incluido, precios internos, día 15 vs promedio mensual). Sin predicción de la nafta y sin atribución causal.",
+      "fecha": "2026-10-16",
+      "estado": "publicada",
+      "articulo_id": "2026-10-16-petroleo-mayorista-77-surtidor-29"
+    },
+    {
+      "tema": "descartes de la corrida programada del 16/10/2026 18:30: no se probaron porque la primera candidata (inflación mayorista de septiembre: el crudo y el gas +77,1% en el año contra el surtidor +29,1%, INDEC 16:00) pasó la verificación. Lista: calendario: ICC de septiembre (iProfesional; serie publicada el 23/09, sin ángulo nuevo), Informe sobre Bancos / mora de las familias en agosto con leve baja (infobae, Página12; mora cubierta 20/07, 01/09 y 29/09); empresas CNV: IRSA recompra de obligaciones negociables (HR 16/10; la página pública de la CNV no mostró el texto del documento al leerla, sin cifra primaria; recompra de deuda sin pregunta de plata para el lector), Arcor HR 15/10 (asamblea y aplicación de fondos de ON ya publicadas el 02/10), Central Puerto recompras diarias (contada el 29/09), FCA y PSA Compañía Financiera (convocatorias sin cifras), Banco Comafi (Cedears, rutina); pregunta de plata: cuánto cuesta el Tesla Roadster (infobae; precio comercial, sin documento oficial), Movistar deja de existir y pasa a Tuenti (cubierta 14/10), 900.000 vacas en riesgo por la crecida del Litoral (infobae, La Nación; sin dato oficial leído), aumento de bancarios (descartada 12:30 y 14:30); portadas: superávit fiscal de septiembre (frenado 14:30), riesgo país cerca de 650 (serie publicada), compras del BCRA (cubierta 08/10), FMI y crecimiento (descartado 13/10). Empresas no ganó: la única candidata nueva (IRSA) no tenía el documento legible y no responde una pregunta del lector; la mayorista trae un cruce propio sobre la nafta, que es lo que busca la gente.",
+      "angulo": "",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación"
     }
   ]
 }
