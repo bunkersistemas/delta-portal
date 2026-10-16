@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-16T18:56:22-03:00",
+    "actualizado": "2026-10-16T20:46:27-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-16-transferencias-obras-provincias-94-por-ciento",
+      "titulo": "La Nación les giró a las provincias $241.093 millones para obras en nueve meses: descontada la inflación, 94% menos que en 2023",
+      "bajada": "Entre enero y septiembre, el Estado nacional transfirió a las provincias $241.093 millones para obras y otros gastos de capital, según Hacienda. Descontada la inflación, es 94% menos que en el mismo período de 2023, cuando habían sido $4,31 billones en pesos de hoy. Ocho de cada diez pesos de este año fueron a agua y cloacas; para vivienda, rutas y escuelas quedó casi nada. Y en la parte que se puede seguir provincia por provincia, ocho no recibieron un peso.",
+      "titulo_busqueda": "¿Cuánta plata manda la Nación a las provincias para obra pública?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "−94%",
+      "numero_label": "caída real de las transferencias de capital de la Nación a las provincias, enero-septiembre de 2026 contra enero-septiembre de 2023 ($241.093 M contra $4,31 billones en pesos de septiembre de 2026; Secretaría de Hacienda, SPN base caja; IPC INDEC)",
+      "fecha": "2026-10-16",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-16-transferencias-obras-provincias-94-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-16-petroleo-mayorista-77-surtidor-29",
       "titulo": "El petróleo crudo y el gas subieron 77,1% este año en los precios mayoristas y explicaron casi la mitad del salto de 3,2% de septiembre",
