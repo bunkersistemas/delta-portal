@@ -4504,6 +4504,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la segunda candidata pasó la verificación"
+    },
+    {
+      "tema": "¿qué gremios le ganaron a la inflación desde que asumió Milei? / cuánto perdió el sueldo de convenio de comercio (Clarín 16/10/2026 'La carrera contra la inflación: cómo le fue al salario de cada gremio desde que comenzó la era Milei, según un informe oficial'; Infobae 14/10 'Paritarias: qué sindicatos le ganaron a la inflación y cuáles perdieron'; Rosario3 14/10) / Secretaría de Trabajo, Panorama mensual del trabajo registrado de octubre de 2026 (13/10, pp. 7-9): salario real conformado de 26 CCT nov-23 a ago-26 sin estacionalidad: textil -32%, comercio -18%, transporte de pasajeros -13%, encargados -12,1%; entidades deportivas +15%, gráfica +13,2%, gastronomía y farmacia +11%; promedio CCT -6,9%, SIPA +1,2%; 14 ganan o sostienen, 12 pierden",
+      "angulo": "Corrida programada del 16/10/2026 08:30, primera candidata probada (APTA). Pregunta de plata ('qué gremios le ganaron a la inflación', 'cuánto perdió el sueldo de comercio'). Ángulo propio frente a Clarín e Infobae: recálculo con la serie mensual en pesos del cuadro 8 del boletín de negociación colectiva (comercio $438.467 nov-23 -> $1.533.341 jul-26; habría necesitado $1.880.319 para empatar al IPC, brecha $346.978 por mes), índice real mensual de comercio contra el promedio (comercio perdió 10,3% real entre jul-25 y jul-26; promedio 5,4%), y contraste convenio vs sueldo efectivo del sector (SIPA comercio -3% nov-23 a jun-26, Panorama de septiembre). Distinto de la nota del 12/10 (economía y salarios desde Milei, índice de salarios INDEC agregado, sin convenios) y de la del 25/09 (escala nominal de comercio de octubre). Camino: estadística oficial recalculada (cuadro 8 + IPC INDEC: -18,5% a julio contra -18% oficial a agosto desestacionalizado) + contraste OTES (-17,8%, informe de junio, vía El Resaltador; nuestro recálculo a mayo -17,9%). Diferencias en convenios con aumentos escalonados (gastronomía +17,4% propio a julio vs +11% oficial; construcción -0,9% vs -5 a -9%): la nota grafica solo cifras oficiales y la tabla muestra pesos nominales.",
+      "fecha": "2026-10-16",
+      "estado": "publicada",
+      "articulo_id": "2026-10-16-salario-convenio-comercio-inflacion-gremios",
+      "motivo_descarte": ""
+    },
+    {
+      "tema": "descartes de la corrida programada del 16/10/2026 08:30: no se probaron porque la primera candidata (salario real de convenio por gremio, Secretaría de Trabajo) pasó la verificación. Lista: pregunta de plata: precio de la leche al tambero -14% en septiembre, 'el más bajo en 10 años' (Clarín 16/10; ya publicada la de agosto el 29/09, ángulo posible con el dato de septiembre de SIGLeA), sueldo de maestranza de octubre (iProfesional), indemnización de $62 M por tratamiento estético (Infobae; caso particular, sin pregunta general), donaciones de USD 3,5 M para la visita de León XIV (Infobae; publicada el 12/10); calendario: canasta de crianza, SIPM e ICC de septiembre (salen hoy a las 16), BCRA Informe sobre Bancos; empresas: Nissan vende su negocio en la Argentina (Infobae 16/10; sin documento CNV), Arcor HR de aplicación de fondos de ON (15/10; emisión ya publicada el 02/10), Central Puerto adquisición de acciones propias (13-15/10; recompras diarias sin cifra del programa), Banco Comafi 4 HR (15/10; Cedears, rutina), YPF Luz cambio de composición accionaria (14/10; compra ya publicada el 08/10); portadas: producción de petróleo cerca del millón de barriles (ámbito, La Nación; récord de julio publicado el 31/08), horas trabajadas +11% y producción +3% en diez años (Infobae, ámbito; productividad publicada el 02/10), riesgo país arriba de 600 y FMI (mercado, sin pregunta de plata nueva). Cupo de EMPRESAS: las candidatas del bloque son seguimiento de temas ya publicados o rutina sin cifra nueva; Nissan no tiene documento primario.",
+      "angulo": "",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación"
     }
   ]
 }
