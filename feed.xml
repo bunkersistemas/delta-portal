@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 16 Oct 2026 02:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 05:01:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Presupuesto 2027 autoriza US$3.500 millones de deuda para tres submarinos y dos fragatas: más que todo el presupuesto anual de Defensa</title>
+      <link>https://coninteres.com/articulos/2026-10-16-presupuesto-2027-submarinos-fragatas-deuda.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-presupuesto-2027-submarinos-fragatas-deuda.html</guid>
+      <pubDate>Fri, 16 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El proyecto de Presupuesto 2027 que discute Diputados habilita al Gobierno a pedir prestados US$3.500 millones para la Armada: US$2.300 millones para tres submarinos convencionales y US$1.200 millones para dos fragatas multimisión. Pasado a pesos con el dólar que proyecta el propio Presupuesto, son $6,47 billones: 1,24 veces todo lo que el Ministerio de Defensa tiene para gastar en 2027. No es una compra cerrada ni una partida para gastar: es un permiso para endeudarse.</description>
+      <ci:numero>US$3.500 M</ci:numero>
+      <ci:numeroEtiqueta>deuda que el proyecto de Presupuesto 2027 autoriza para tres submarinos (US$2.300 M) y dos fragatas (US$1.200 M) de la Armada (planilla anexa al artículo 42)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-presupuesto-2027-submarinos-fragatas-deuda.png" length="80228" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-presupuesto-2027-submarinos-fragatas-deuda.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El 34% de los puestos asalariados está en negro: la proporción más alta para un segundo trimestre desde 2016, cuando empieza la serie</title>
       <link>https://coninteres.com/articulos/2026-10-16-trabajo-no-registrado-asalariados-segundo-trimestre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>inflación de los últimos 12 meses a septiembre de 2026 (IPC nacional, INDEC): por encima del piso de 31,3% de octubre de 2025 y del 31,5% con que cerró 2025; la mensual bajó de 3,4% en marzo a 1,9% en septiembre</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-inflacion-viene-bajando-desde-cuando.png" length="63761" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-inflacion-viene-bajando-desde-cuando.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La jubilación mínima de noviembre será de $444.158,46: sube 1,93% por la inflación de septiembre, no 1,9%</title>
-      <link>https://coninteres.com/articulos/2026-10-13-jubilacion-minima-noviembre-aumento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-jubilacion-minima-noviembre-aumento.html</guid>
-      <pubDate>Tue, 13 Oct 2026 17:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El INDEC informó hoy una inflación de 1,9% en septiembre. Pero la ANSES no usa ese número redondeado: aplica la variación del índice con dos decimales, que da 1,93%. Así, la mínima pasa de $435.748,51 a $444.158,46. El bono de $70.000 de noviembre todavía no tiene decreto.</description>
-      <ci:numero>$444.158,46</ci:numero>
-      <ci:numeroEtiqueta>haber mínimo jubilatorio de noviembre de 2026 que surge de la movilidad de 1,93% (IPC nacional de septiembre, INDEC, con dos decimales: 12.514,1508 / 12.276,7660 - 1 = 1,9336%) sobre los $435.748,51 de octubre (Res. ANSES 284/2026); regla validada al centavo en los 26 aumentos de ago-2024 a oct-2026; falta la resolución de la ANSES</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-jubilacion-minima-noviembre-aumento.png" length="88181" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-jubilacion-minima-noviembre-aumento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
