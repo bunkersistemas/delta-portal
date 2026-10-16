@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 16 Oct 2026 13:02:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 15:00:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los bancos cobraron 6,81% anual por los hipotecarios UVA que dieron en septiembre: tercera baja seguida, pero apenas 0,21 puntos desde el pico de junio</title>
+      <link>https://coninteres.com/articulos/2026-10-16-tasa-hipotecarios-uva-septiembre-bcra.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-tasa-hipotecarios-uva-septiembre-bcra.html</guid>
+      <pubDate>Fri, 16 Oct 2026 15:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Desde que llegaron los fondos de la ANSES, los bancos anuncian tasas más bajas para los créditos hipotecarios. Lo que cobraron de verdad bajó menos. Según el Banco Central, la tasa promedio de los hipotecarios en UVA que se dieron en septiembre fue 6,81% anual, apenas 0,21 puntos por debajo del 7,02% de junio, el más alto desde febrero de 2022. En la cuota de un crédito de $100 millones a 20 años, eso son $12.565 por mes.</description>
+      <ci:numero>6,81%</ci:numero>
+      <ci:numeroEtiqueta>tasa promedio nominal anual de los préstamos hipotecarios en UVA otorgados en pesos en septiembre de 2026 (BCRA, Informe Monetario Diario del 15/10/2026, cuadro de tasas de préstamos otorgados, promedios mensuales; = serie 1240 de la API del BCRA); 6,91% en agosto, 6,99% en julio, 7,02% en junio (máximo desde feb-22, 8,10%); -0,21 puntos en tres meses; 6,34% en sep-25; contraste Ofava (vía Infobae 16/10/2026): tasas efectivas de 6,7% a 7,2%, estables</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-tasa-hipotecarios-uva-septiembre-bcra.png" length="90226" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-tasa-hipotecarios-uva-septiembre-bcra.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los monotributistas ya son uno de cada cinco aportantes a la jubilación, pero ponen el 1,3% de la plata del sistema</title>
       <link>https://coninteres.com/articulos/2026-10-16-monotributistas-aportes-jubilacion-asalariados.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que recibe cada uno de los dos ganadores del Nobel de Economía 2026: la mitad de 12 millones de coronas suecas (comunicado de la Real Academia Sueca de Ciencias del 12/10/2026 y de la Fundación Nobel del 18/09/2026) a $151,680773 por corona (BCRA, 13/10/2026) = $910.084.638</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-nobel-economia-premio-cuanto-cobra-pesos.png" length="80218" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-nobel-economia-premio-cuanto-cobra-pesos.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Con la jubilación mínima, el Banco Nación presta como máximo $2,94 millones: ni con el haber máximo se llega a los $40 millones</title>
-      <link>https://coninteres.com/articulos/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.html</guid>
-      <pubDate>Tue, 13 Oct 2026 21:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Los avisos de préstamos para jubilados hablan de $40 millones. Pero el Banco Nación no deja que la cuota pase del 35% del ingreso: con la mínima de octubre y a 72 meses, el préstamo más grande posible es de $2,94 millones. Con el haber máximo del sistema, $19,8 millones.</description>
-      <ci:numero>$2,94 M</ci:numero>
-      <ci:numeroEtiqueta>préstamo máximo de la línea Nación Previsional del Banco Nación para un jubilado con el haber mínimo de octubre de 2026 ($435.748,51, Res. ANSES 284/2026), a 72 meses: primera cuota (capital, interés e IVA) en el tope del 35% del ingreso = $152.511,98 / 0,0518377 = $2.942.106; condiciones (TNA 49%, TEA 61,70%, CFT TEA 78,38%, cuota hasta 35%, $1 M a $50 M, 72 meses) en la página del BNA y en el régimen de transparencia del BCRA; cuadro de cuotas del BNA reproducido al centavo</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.png" length="80405" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-13-prestamo-jubilados-banco-nacion-cuanto-presta.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

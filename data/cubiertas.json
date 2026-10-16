@@ -4558,6 +4558,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "menor prioridad, ya cubiertas, o sin documento primario con cifra ancla"
+    },
+    {
+      "tema": "¿bajaron las tasas de los créditos hipotecarios UVA? (Infobae 16/10/2026 «Tras la inyección de fondos de la Anses, los bancos bajaron las tasas de los créditos hipotecarios», relevamiento del Ofava: tasa ofrecida promedio de 20 bancos 8,7% a principios de julio -> 7,7% el 22/09; efectivas 6,7%-7,2% estables) / tasa promedio de los hipotecarios UVA otorgados, BCRA Informe Monetario Diario 15/10/2026 y serie 1240: sep-26 6,81%, ago 6,91%, jul 6,99%, jun 7,02% (máximo desde feb-22, 8,10%), sep-25 6,34%, dic-24 5,22%, ene-26 5,59%; sep-26 el más bajo desde abr-26 (6,66%); cuota inicial $100 M a 20 años sistema francés: $763.935 (6,81%) vs $776.500 (7,02%), -$12.565; $672.169 con 5,22%; Ofava 8,7%->7,7% = -$62.656; cartera hipotecaria en pesos $9.273.390 M al 09/10/2026, +42,9% en 2026, +70,4% i.a. nominal",
+      "angulo": "Corrida programada del 16/10/2026 14:30, tercera candidata probada (APTA). Pregunta de plata detrás de la noticia de Infobae: cuánto bajó lo que se cobra de verdad, contra la tasa de vidriera. Ángulo nuevo respecto de las notas de hipotecarios del 25/09 (cuánto presta el banco con el sueldo promedio), 02/10 (tope y cuota de los créditos con fondos del FGS) y 13/10 (UVA 2018): la serie de la tasa efectiva del BCRA desde 2016. Camino estadística oficial: (1) Informe Monetario Diario del 15/10; (2) recalculado con la serie 1240 de la API del BCRA (mismos valores; variaciones y superlativos); (3) contraste Ofava vía Infobae (efectivas 6,7%-7,2%). No se atribuye la baja a los fondos de la ANSES. Antes en esta corrida: TUA regional ORSNA 69/2026 descartada (ya incluida en la nota del 09/10), resultado fiscal de septiembre FRENADO (ver entrada aparte), bancarios y servicio doméstico sin ángulo nuevo.",
+      "fecha": "2026-10-16",
+      "estado": "publicada",
+      "articulo_id": "2026-10-16-tasa-hipotecarios-uva-septiembre-bcra"
+    },
+    {
+      "tema": "resultado fiscal de septiembre de 2026 / qué gastos sostienen el superávit (infobae, La Nación, ámbito, Cronista 16/10/2026): Hacienda base caja SPN, IMIG septiembre 2026 (imig_septiembre_2026.xlsx): resultado primario $1.427.640 M (sep-25 $696.965 M), financiero $977.173 M, acumulado ene-sep primario $13.705.324 M; jubilaciones y pensiones contributivas $6.112.071 M, +43,3% i.a. nominal (agosto +30,2%); transferencias a universidades +42,4%",
+      "angulo": "Corrida programada del 16/10/2026 14:30, segunda candidata probada (dato del día en cuatro portadas). FRENADA: el contraste independiente no cierra. La OPC, en base devengado y para la Administración Nacional, informa para septiembre un resultado primario de -$0,3 billones (déficit) contra el superávit de $1,43 billones de Hacienda en base caja; la diferencia no se pudo descomponer porque el PDF del informe de la OPC devuelve HTTP 410. Además, el salto de jubilaciones (+43,3% i.a. en septiembre contra +30,2% en agosto) no tiene explicación documental, y La Nación dice que cayeron en términos reales. Retomable cuando el informe de la OPC sea legible.",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "contraste OPC con signo contrario sin explicación documentada"
+    },
+    {
+      "tema": "descartes de la corrida programada del 16/10/2026 14:30: tasa aeroportuaria regional -56% (infobae; Res. ORSNA 69/2026, el regional US$25,16 hasta 1.000 km ya está en la nota del 09/10), resultado fiscal de septiembre (frenada aparte), aumento de bancarios con básicos de $2.552.560 y bono del Día del Bancario (iProfesional; es la grilla de dic-25 x 1,236, mismo mecanismo y bono publicados el 29/09), sueldo del servicio doméstico «nuevas reglas» (Página12; la nota no trae escala nueva, escala publicada el 25/09), expensas en CABA +4,9% (iProfesional; dato de una plataforma privada, el informe del IPCBA no respondió), FMI y crecimiento (WEO descartado el 13/10), capacidad instalada (publicada 15/10), empleo informal (en cola/publicada hoy), Flybondi acreedores (La Nación; sin expediente), Merval cambia de nombre (La Nación; sin pregunta de plata); calendario: SIPM, ICC y canasta de crianza de septiembre salen a las 16:00, después de la corrida; empresas CNV/SEC: FCA Compañía Financiera y PSA Finance HR 16/10 (convocan a asamblea extraordinaria del 12/11, sin cifras), Potenciar SGR y Fogach (avisos de pago de ON PyME, rutina), Banco Comafi (ampliación de montos de Cedears, rutina), Arcor HR 15/10 (aplicación de fondos de la ON ya publicada el 02/10 y convocatoria), Central Puerto recompras diarias (sin HR del programa, contada el 29/09), YPF/YPF Luz (publicada el 08/10), AES garantía IDB Invest (publicada), Telecom (cubierta el 14/10), Aluar (cubierta el 14/10), GeoPark y Fiplasto (sin cifras); clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "NO TOMADAS en la corrida programada del 16/10/2026 14:30; ganó la tasa de los hipotecarios UVA (tercera candidata probada, APTA). Cupo de EMPRESAS: hoy no hubo nota de empresas, pero ninguna presentación del bloque tiene cifra ancla nueva con documento (asambleas, avisos de pago, Cedears y recompras de rutina).",
+      "fecha": "2026-10-16",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no tomadas: sin ángulo nuevo, sin documento o fuera de horario"
     }
   ]
 }

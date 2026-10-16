@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-16T13:01:58-03:00",
+    "actualizado": "2026-10-16T15:00:52-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-16-tasa-hipotecarios-uva-septiembre-bcra",
+      "titulo": "Los bancos cobraron 6,81% anual por los hipotecarios UVA que dieron en septiembre: tercera baja seguida, pero apenas 0,21 puntos desde el pico de junio",
+      "bajada": "Desde que llegaron los fondos de la ANSES, los bancos anuncian tasas más bajas para los créditos hipotecarios. Lo que cobraron de verdad bajó menos. Según el Banco Central, la tasa promedio de los hipotecarios en UVA que se dieron en septiembre fue 6,81% anual, apenas 0,21 puntos por debajo del 7,02% de junio, el más alto desde febrero de 2022. En la cuota de un crédito de $100 millones a 20 años, eso son $12.565 por mes.",
+      "titulo_busqueda": "¿Bajaron las tasas de los créditos hipotecarios UVA?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "6,81%",
+      "numero_label": "tasa promedio nominal anual de los préstamos hipotecarios en UVA otorgados en pesos en septiembre de 2026 (BCRA, Informe Monetario Diario del 15/10/2026, cuadro de tasas de préstamos otorgados, promedios mensuales; = serie 1240 de la API del BCRA); 6,91% en agosto, 6,99% en julio, 7,02% en junio (máximo desde feb-22, 8,10%); -0,21 puntos en tres meses; 6,34% en sep-25; contraste Ofava (vía Infobae 16/10/2026): tasas efectivas de 6,7% a 7,2%, estables",
+      "fecha": "2026-10-16",
+      "hora": "15:30",
+      "archivo": "articulos/2026-10-16-tasa-hipotecarios-uva-septiembre-bcra.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-16-monotributistas-aportes-jubilacion-asalariados",
       "titulo": "Los monotributistas ya son uno de cada cinco aportantes a la jubilación, pero ponen el 1,3% de la plata del sistema",
