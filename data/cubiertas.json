@@ -4656,6 +4656,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto sale el colectivo en la Ciudad en noviembre de 2026? (TN 16/10/2026 'Cuánto aumentará el boleto de los colectivos que circulan en CABA y PBA desde noviembre') / líneas porteñas (transferidas en 2024), boleto mínimo 0-3 km tarifa plena: dic-25 $593,52 (anexo Res. 199/SECT/25) -> oct-26 $920,48 (anexo Res. 210/SECT/26), +55,1%; serie completa ene 620,07, feb 650,11, mar 681,85, abr 715,24, may 753,74, jun 788,28, jul 820,99, ago 852,90, sep 887,99; fórmula IPC nacional INDEC t-2 + 2% (audiencia 20/01/2026, por doce meses); nov estimado 956,69 (IPC sep 1,934%)",
+      "angulo": "Corrida programada del 17/10/2026 02:30, primera candidata probada (APTA). Pregunta de plata (TN, infobae 01/10). Ángulo propio: la fórmula escrita en las resoluciones y su efecto acumulado (2 puntos sobre la inflación por mes), con la serie oficial de once cuadros tarifarios y el contrafáctico 'solo inflación' (oct $758,71, diferencia $161,77). Ancla por dato oficial recalculado: los diez aumentos dan exacto al centavo con el IPC del INDEC; contraste independiente: IPC GBA 'Transporte público' +38,1% dic-sep contra nivel general GBA +23,8% (dirección), TN 55,08% (coincide). Inflación dic-sep 23,6%; real dic-sep +21,0%. No se miden líneas nacionales ni provinciales (sin resolución leída), ni tarifa social ni Red SUBE. Res. 32/2026 rotula 'IPC de febrero' al de enero (2,88%), dicho en la nota. Sin superlativos históricos. Nunca cubierto antes (ningún tema de colectivo/boleto en cubiertas).",
+      "fecha": "2026-10-17",
+      "estado": "en_cola",
+      "nota": "cola/2026-10-17-colectivo-porteno-subio-55-por-ciento-formula.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 17/10/2026 02:30: no se probaron porque la primera candidata (boleto de colectivo de la Ciudad, fórmula IPC+2) pasó la verificación. Lista: pregunta de plata: cuánto cobra un bancario con el 1,9% de septiembre (TN, ámbito, Cronista, iProfesional; cubierta 29/09 y descartada 16/10), cuánto cuesta una compra de comida de un mes ($200.000 viral, infobae; canasta básica cubierta 16/10), cuánto paga el fondo de cese laboral (Clarín: se posterga un mes; sin norma nueva), expensas CABA +4,9% (iProfesional; fuente privada sin serie oficial); empresas CNV/SEC: Central Puerto recompras diarias (rutina, programa contado 29/09), IRSA recompra de ON (VN chico), AES garantía IDB Invest (cubierta 15/10), Arcor HR 15/10 (ON ya publicada 02/10), Vista Energy balance 28/10 (todavía no presentado); portadas: mora de las familias de agosto 12,8% (infobae, La Nación, Clarín, TN, Página12, iProfesional; cubierta 20/07, 01/09), riesgo país máximo de 2026 (infobae, La Nación, Página12; serie publicada), superávit fiscal de septiembre (frenado 16/10), FMI subsidios (cubierto), economía del conocimiento US$10.000 M (cubierta 19/07), indumentaria en crisis (infobae; candidata con INDEC comercio exterior el 19/10). Hoy ya hubo nota EMPRESAS (Vicuña, 00:30), así que el cupo no regía.",
+      "angulo": "NO TOMADAS en la corrida programada del 17/10/2026 02:30.",
+      "fecha": "2026-10-17",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

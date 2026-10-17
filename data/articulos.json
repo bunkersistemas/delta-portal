@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-17T01:00:05-03:00",
+    "actualizado": "2026-10-17T02:58:55-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-17-colectivo-porteno-subio-55-por-ciento-formula",
+      "titulo": "El colectivo porteño subió 55,1% en 2026, más del doble que la inflación: la fórmula le suma 2 puntos por mes y en noviembre rondaría los $957",
+      "bajada": "El boleto mínimo de las líneas de colectivo que circulan solo dentro de la Ciudad de Buenos Aires subió 55,1% entre diciembre de 2025 y octubre de 2026, más del doble que la inflación del año: pasó de $593,52 a $920,48. La razón está escrita en las resoluciones: cada mes el boleto sube la inflación de dos meses antes más 2 puntos. Con el IPC de septiembre, en noviembre rondaría los $957.",
+      "titulo_busqueda": "¿Cuánto sale el colectivo en la Ciudad en noviembre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+55,1%",
+      "numero_label": "suba del boleto mínimo (0 a 3 km, tarifa plena) de las líneas de colectivo de la Ciudad de Buenos Aires entre diciembre de 2025 ($593,52, anexo Res. 199/SECT/25) y octubre de 2026 ($920,48, anexo Res. 210/SECT/26); los diez aumentos recalculados al centavo con IPC nacional INDEC (t-2) + 2 puntos. Inflación dic-25 a sep-26: 23,6%. Noviembre estimado con la fórmula: $956,69",
+      "fecha": "2026-10-17",
+      "hora": "02:30",
+      "archivo": "articulos/2026-10-17-colectivo-porteno-subio-55-por-ciento-formula.html",
+      "verificacion": "verificada",
+      "fuentes": 14,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-17-vicuna-cobre-san-juan-rigi-cuanto-cuesta",
       "titulo": "Vicuña, la mina de cobre de BHP y Lundin en San Juan, entró al RIGI con US$9.737 millones: 4,6 veces lo que exportó la provincia en 2025",
