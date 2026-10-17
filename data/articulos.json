@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-17T18:48:46-03:00",
+    "actualizado": "2026-10-17T20:44:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre",
+      "titulo": "La VTV porteña subió 52,8% en 2026, más del doble que la inflación, y la ley que deja a cada taller fijar su precio todavía no se aplica",
+      "bajada": "La VTV de un auto en la Ciudad de Buenos Aires subió 52,8% en 2026 y cuesta $96.968,19: más del doble que la inflación de diciembre a septiembre (23,6%). Una ley de julio dice que cada taller podrá fijar su precio. Pero todavía no hay ningún taller nuevo habilitado, y la Ciudad prorrogó por 60 días la concesión de 2015, con sus mismas tarifas.",
+      "titulo_busqueda": "¿Cuánto cuesta la VTV en CABA en octubre de 2026?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "+52,8%",
+      "numero_label": "subió en 2026 la VTV de un auto en la Ciudad de Buenos Aires: de $63.453,61 (Res. 101/SECT/25) a $96.968,19 desde el 27/04/2026 (Res. 79/SECT/26), IVA y oblea incluidos; IPC nacional dic-25 a sep-26 +23,6%",
+      "fecha": "2026-10-17",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-17-fondo-partidario-partidos-politicos-congelado",
       "titulo": "El fondo de los partidos políticos quedó congelado en $401,7 millones en 2023, 2024 y 2025: descontada la inflación, perdió 78%",

@@ -4790,6 +4790,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto cuesta la VTV en CABA? (infobae 17/10/2026 'VTV: la Ciudad extiende las concesiones actuales mientras se demora la apertura a talleres privados') / VTV porteña auto, total con IVA y oblea: Res. 60/SECT/24 $52.878,21 (01/12/2024) -> Res. 101/SECT/25 $63.453,61 (25/06/2025, BO 7148 p.180) -> Res. 26/SECT/26 $75.756,89 (13/02/2026, anexo: +19,4%) -> Res. 79/SECT/26 $96.968,19 (27/04/2026, anexo: servicio 71.279 + oblea 8.860 + IVA); 2026 +52,82% vs IPC dic-25 a sep-26 +23,64%; motos 23.858,78 -> 36.459,72; PBA 97.057,65 -> 114.105,99 (+17,57%); brecha PBA-CABA ene 33.604,04, 27/04-14/10 89,46, hoy 17.137,80; pesos sep-26: 89.669 / 88.480 / 106.791, hoy 96.968 (-9,2% desde abril); desde jun-25 IPC +41,3%; Ley 6.963 art. 11 (precio libre, BO 15/07/2026) de aplicación progresiva; Res. 213/SECT/26 (BO 7465 01/10/2026) prorroga 60 días la concesión (Res. 472/MJGGC/15) porque el alta de talleres no terminó",
+      "angulo": "Corrida programada del 17/10/2026 20:30, primera candidata probada (APTA). Pregunta de plata detrás de la prórroga de la concesión de la VTV porteña. Ángulo nuevo frente a las notas de la VTV bonaerense (25/09 y 15/10, que solo mencionaban la tarifa porteña vigente): la serie de la Ciudad, el +52,8% de 2026 y el precio libre de la Ley 6.963 que todavía no rige. Ancla CONFIRMADA por dos documentos oficiales que coinciden (anexo de la Res. 79/SECT/26 y página del trámite en buenosaires.gob.ar; Res. 101/SECT/25 en el BO) con recálculo (anexo de la 26/SECT/26: +19,4% sobre la 101, 75.756,89/63.453,61 = 1,1939). Superlativos: solo 'el valor más alto en pesos de hoy de las tres tarifas que rigieron desde jun-2025', con los tres valores documentados; se sacó la comparación desde dic-2024 porque la fecha de vigencia de la Res. 60/SECT/24 es ambigua en NormativaBA (01/11 o 01/12/2024). NO afirmado: precio futuro, fecha del precio libre, qué pasa al vencer los 60 días.",
+      "fecha": "2026-10-17",
+      "estado": "publicada",
+      "articulo_id": "2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre"
+    },
+    {
+      "tema": "descartes de la corrida programada del 17/10/2026 20:30: no se probaron porque la primera candidata (VTV porteña +52,8% en 2026 y precio libre de la Ley 6.963, pregunta de plata detrás de la prórroga de la concesión, infobae) pasó la verificación. Lista: pregunta de plata: cuánto le debe la Argentina al Banco Mundial (Caputo explicó el financiamiento del BM para 2027, Cronista; no probada), dieta de legisladores de Santa Fe (Amalia Granata, La Nación; no probada), Malvinas y la delegación al Reino Unido (infobae, La Nación; Malvinas cubierta 18/07, 05/09, 27/09, 01/10 y 08/10), Dibu Martínez operado (sin documento de plata), Boca-Vasco (premios publicados 06/10); portadas: superávit fiscal de septiembre y meta del FMI (infobae, ámbito, iProfesional, Página12; frenada el 16/10 por el contraste de la OPC, sin informe legible nuevo), bancarios 1,7% (cubierta 29/09 y descartada 16-17/10), economía del conocimiento US$10.500 M (La Nación, Cronista; publicada 19/07), riesgo país 648 (cubierto 24/09), granos 105 Mt vendidos (La Nación; exportaciones publicadas 19/07), inflación mayorista 3,2% (publicada 16/10); empresas CNV/SEC: Central Puerto recompras diarias (rutina), IRSA recompra de ON Serie XXV (VN chico), Arcor aplicación de fondos (emisión publicada 02/10), Banco Comafi (Cedears), Aluar HR 14/10 (asamblea publicada), Vista Energy resultados 28/10 (no presentados); hoy ya salió nota de EMPRESAS (Vicuña, 00:30), el cupo no regía. Clarín y TN no se pudieron leer (bloqueados para la herramienta).",
+      "angulo": "NO TOMADAS en la corrida programada del 17/10/2026 20:30; ganó la VTV porteña, primera candidata probada.",
+      "fecha": "2026-10-17",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación"
     }
   ]
 }
