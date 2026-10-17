@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-17T08:58:05-03:00",
+    "actualizado": "2026-10-17T10:54:24-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-17-belgrano-cargas-estado-73-por-ciento-menos",
+      "titulo": "El Estado puso en el Belgrano Cargas 73% menos que en 2023, descontada la inflación: se terminaron las obras del préstamo chino",
+      "bajada": "Descontada la inflación, el Estado nacional puso en el Belgrano Cargas entre enero y septiembre de 2026 un 73,2% menos que en los mismos meses de 2023. Se terminaron las obras financiadas con el préstamo chino y quedaron las transferencias del Tesoro: $78.820 millones en nueve meses, sobre todo para funcionar. La empresa, que se licita el 11 de noviembre, prevé vender en 2026 $74 por cada $100 que gasta en funcionar.",
+      "titulo_busqueda": "¿Cuánta plata le pone el Estado al Belgrano Cargas?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−73,2%",
+      "numero_label": "caída real de la plata del Estado nacional para el Belgrano Cargas, enero-septiembre de 2026 contra enero-septiembre de 2023: Presupuesto Abierto, devengado, subparcial 'Belgrano Cargas y Logística' (Obligaciones a Cargo del Tesoro, 5.5.2 y 5.5.7) más actividades del préstamo chino (CDB) del Ministerio de Transporte; 2026 al 14/10: $78.820,3 M (Tesoro, 0 obras); 2023: $22.167,7 M Tesoro + $23.396,2 M obras; cada mes a pesos de sep-26 con IPC nacional INDEC: 84.810 contra 316.386 M. Tesoro solo: -49,5% vs 2023, -9,6% vs 2025 (+19,8% nominal). Contraste OPC 1S-2026 $40.359 M corrientes + $10.966 M capital (BAE 04/08/2026), nuestras sumas 40.359,3 y 10.966,0; plan Res. ME 412/2026: 78.530 + 30.000",
+      "fecha": "2026-10-17",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-17-belgrano-cargas-estado-73-por-ciento-menos.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-17-arca-umbral-50-millones-inflacion",
       "titulo": "El piso desde el que bancos y billeteras le informan a ARCA tus movimientos sigue en $50 millones desde mayo de 2025: la inflación ya le sacó 30,4%",

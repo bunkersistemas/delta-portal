@@ -4714,6 +4714,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "sin documento primario: bcra.gob.ar con error 502 durante la corrida"
+    },
+    {
+      "tema": "¿cuánta plata le pone el Estado al Belgrano Cargas? (Clarín 17/10/2026 'Polémica por el Belgrano Cargas: el Gobierno salió a responder las críticas por la falta de obras en el Norte'; Salta reclama obras obligatorias en los ramales C14 y C15 en la licitación) / Presupuesto Abierto devengado: transferencias del Tesoro a Belgrano Cargas y Logística ene-sep 2026 $78.820,3 M (corrientes 62.354,3, capital emergencia ferroviaria 16.466,0); obras del préstamo chino (CDB) cero desde 2024 (2023: 30.321,0 anual, 23.396,2 ene-sep); ene-sep a pesos sep-26: 2023 316.386, 2024 97.650, 2025 93.821, 2026 84.810 (-73,2% vs 2023, -9,6% vs 2025); anual pesos 2025: 2019 1.220.479, 2020 306.718, 2021 356.377, 2022 385.964, 2023 300.414, 2024 87.749, 2025 93.522; Res. ME 412/2026 (BO 31/03/2026): ventas 213.673 M, gastos de operación 288.480 M (74,1%), transferencias corrientes AN 78.530, capital AN 30.000, remuneraciones 163.246 (56,6%), dotación 4.233, inversión 53.175 todo maquinaria y equipo, construcciones 0, carga 7.627.834 t; Res. ME 1350/2026 (BO 20/08/2026): licitación de vías, apertura 11/11/2026 10:00; contraste OPC 1S-2026 vía BAE",
+      "angulo": "caída real de la plata del Estado para el Belgrano Cargas desde el fin de las obras del préstamo chino, y dependencia de la empresa del Tesoro en su presupuesto 2026, a semanas de la apertura de ofertas de la privatización",
+      "fecha": "2026-10-17",
+      "estado": "publicada",
+      "articulo_id": "2026-10-17-belgrano-cargas-estado-73-por-ciento-menos"
+    },
+    {
+      "tema": "descartes de la corrida programada del 17/10/2026 10:30: cuánto cobra el secretario general de la ONU (Grossi en carrera, infobae y La Nación 17/10; FRENADA: no se encontró un documento vigente de la ONU con el sueldo, solo un informe de la ACABQ de 1976 y sitios sin fuente); ¿El Niño abarata la luz? (iProfesional, La Nación; FRENADA: la base de generación por tipo de CAMMESA no se pudo descargar, la página de informes se arma con JavaScript). No se probaron porque la tercera candidata (Belgrano Cargas) pasó la verificación. Lista: presión tributaria del Presupuesto 2027 21,06% -> 21,70% del PIB (Cronista/IARAF; mensaje 2027 leído), inundaciones del Litoral y 900.000 vacas en riesgo (infobae; sin documento oficial con stock por zona inundada), Día de la Madre 18/10 (sin documento oficial con montos), costo de la construcción de septiembre (INDEC 16/10; serie publicada el 23/09), superávit fiscal de septiembre (frenado 16/10); empresas CNV/SEC: Central Puerto recompras diarias (HR 13-16/10, rutina), IRSA recompra de ON Serie XXV (VN US$9 M), FCA y PSA Compañía Financiera (convocatorias sin cifras), Vista Energy resultados 28/10 (todavía no presentados) - hoy ya salió nota de EMPRESAS (Vicuña), el cupo no regía; portadas repetidas sin ángulo nuevo: inflación mayorista 3,2% (publicada 16/10), mora de las familias (frenada 08:30 por BCRA caído), paritaria bancaria (publicada 29/09), riesgo país (serie publicada), compras del BCRA (publicada 08/10), economía del conocimiento (publicada 19/07), Movistar-Tuenti (publicada 14/10). Clarín y TN leídos por curl.",
+      "angulo": "",
+      "fecha": "2026-10-17",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "ONU: sin documento oficial vigente del sueldo; El Niño y la luz: serie de CAMMESA no descargable"
     }
   ]
 }
