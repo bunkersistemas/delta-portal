@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-16T20:46:27-03:00",
+    "actualizado": "2026-10-16T22:58:30-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-16-universidades-42-por-ciento-un-solo-mes",
+      "titulo": "Las universidades recibieron en nueve meses 9,5% más que en 2025, descontada la inflación: el 42,4% que destacó el Gobierno es de un solo mes",
+      "bajada": "El Ministerio de Economía dijo el viernes que las transferencias a las universidades subieron 42,4% en septiembre y que eso refleja el cumplimiento de los acuerdos con ellas. El número es correcto, pero es de un solo mes, y en esta partida un mes aislado dice poco. La cuenta que sirve es la de los nueve meses: entre enero y septiembre la Nación les giró $4,14 billones, que descontada la inflación son 9,5% más que en 2025 y 22,5% menos que en 2023. Y medido por lo que se comprometió a gastar y no por lo que pagó, 2026 queda igual que 2025.",
+      "titulo_busqueda": "¿Cuánta plata les giró el Gobierno a las universidades en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+9,5%",
+      "numero_label": "variación real de las transferencias a universidades de enero-septiembre de 2026 contra 2025 (Hacienda, SPN base caja, imig_septiembre_2026.xlsx: $4.136.195,1 M contra $2.835.469,9 M, +45,9% nominal; recalculado con la serie imig-mensual de datos.gob.ar y el IPC nacional INDEC, sep-26 12.514,15). Contra 2023: -22,5%. Devengado (Presupuesto Abierto, inciso 5 pp 6): 0,0% contra 2025 y -30,8% contra 2023",
+      "fecha": "2026-10-16",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-16-universidades-42-por-ciento-un-solo-mes.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-16-transferencias-obras-provincias-94-por-ciento",
       "titulo": "La Nación les giró a las provincias $241.093 millones para obras en nueve meses: descontada la inflación, 94% menos que en 2023",

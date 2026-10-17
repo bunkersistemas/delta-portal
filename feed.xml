@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 16 Oct 2026 20:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 16 Oct 2026 22:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las universidades recibieron en nueve meses 9,5% más que en 2025, descontada la inflación: el 42,4% que destacó el Gobierno es de un solo mes</title>
+      <link>https://coninteres.com/articulos/2026-10-16-universidades-42-por-ciento-un-solo-mes.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-universidades-42-por-ciento-un-solo-mes.html</guid>
+      <pubDate>Fri, 16 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Ministerio de Economía dijo el viernes que las transferencias a las universidades subieron 42,4% en septiembre y que eso refleja el cumplimiento de los acuerdos con ellas. El número es correcto, pero es de un solo mes, y en esta partida un mes aislado dice poco. La cuenta que sirve es la de los nueve meses: entre enero y septiembre la Nación les giró $4,14 billones, que descontada la inflación son 9,5% más que en 2025 y 22,5% menos que en 2023. Y medido por lo que se comprometió a gastar y no por lo que pagó, 2026 queda igual que 2025.</description>
+      <ci:numero>+9,5%</ci:numero>
+      <ci:numeroEtiqueta>variación real de las transferencias a universidades de enero-septiembre de 2026 contra 2025 (Hacienda, SPN base caja, imig_septiembre_2026.xlsx: $4.136.195,1 M contra $2.835.469,9 M, +45,9% nominal; recalculado con la serie imig-mensual de datos.gob.ar y el IPC nacional INDEC, sep-26 12.514,15). Contra 2023: -22,5%. Devengado (Presupuesto Abierto, inciso 5 pp 6): 0,0% contra 2025 y -30,8% contra 2023</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-universidades-42-por-ciento-un-solo-mes.png" length="88399" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-universidades-42-por-ciento-un-solo-mes.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Nación les giró a las provincias $241.093 millones para obras en nueve meses: descontada la inflación, 94% menos que en 2023</title>
       <link>https://coninteres.com/articulos/2026-10-16-transferencias-obras-provincias-94-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>monto máximo del préstamo BID 6174/OC-AR para el subsidio al gas de los hogares del SEF (Decreto 1178/2026, art. 1; BID AR-L1428, Resolución DE-70/26)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-bid-prestamo-subsidio-gas.png" length="82922" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-bid-prestamo-subsidio-gas.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>¿El Banco Central está perdiendo el oro de sus reservas?</title>
-      <link>https://coninteres.com/articulos/2026-10-14-bcra-oro-reservas-perdiendo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-14-bcra-oro-reservas-perdiendo.html</guid>
-      <pubDate>Wed, 14 Oct 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>No: tiene 1,98 millones de onzas, unas 61,7 toneladas, las mismas que a fines de 2020, y hoy valen US$8.157 millones, más del doble. Lo que sí hubo fue una pérdida con contratos sobre el precio del oro: US$1.023 millones en 2025, según la Auditoría General de la Nación. El BCRA responde que, sumada la suba del metal, ganó US$2.505 millones. Dónde están los lingotes no es público.</description>
-      <ci:numero>1,98 millones de onzas</ci:numero>
-      <ci:numeroEtiqueta>oro de las reservas del BCRA al 31/12/2025 (1.984,96 miles de onzas troy, nota 4.1.1 de los estados contables), unas 61,74 toneladas: la misma cantidad que al cierre de 2020, 2022, 2023 y 2024 (en 2021, 1.760,96 por operaciones a plazo que volvieron en enero de 2022). Recalculado con el balance semanal del 07/10/2026 ($12.404.958.392 miles / A3500 1.520,7136 / US$4.110,22 = 1,98 M oz, US$8.157 M) y contrastado con el Consejo Mundial del Oro (61,74 t, 2do trim. 2026)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-bcra-oro-reservas-perdiendo.png" length="60634" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-bcra-oro-reservas-perdiendo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
