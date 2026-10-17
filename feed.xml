@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 17 Oct 2026 07:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 08:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El piso desde el que bancos y billeteras le informan a ARCA tus movimientos sigue en $50 millones desde mayo de 2025: la inflación ya le sacó 30,4%</title>
+      <link>https://coninteres.com/articulos/2026-10-17-arca-umbral-50-millones-inflacion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-17-arca-umbral-50-millones-inflacion.html</guid>
+      <pubDate>Sat, 17 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Según el IPC del INDEC, el piso de $50 millones en el mes desde el que bancos y billeteras virtuales le informan a ARCA los movimientos de una persona hoy vale 30,4% menos que en mayo de 2025, cuando se fijó. La resolución que lo creó decía que se iba a actualizar por inflación; desde enero de 2026 ya no se actualiza. Para valer lo mismo debería estar en $71,8 millones.</description>
+      <ci:numero>−30,4%</ci:numero>
+      <ci:numeroEtiqueta>pérdida real del piso de $50.000.000 mensuales desde el que bancos (RG 4298, art. 2 incs. b, d y f) y billeteras (RG 4614, art. 3) informan a ARCA a una persona humana, fijado por la RG 5699/2025 (BO 23/05/2025) y sin actualización desde la RG 5804/2025 (billeteras) y la RG 5814/2026 (bancos): IPC nacional INDEC may-25 8.714,4871 -&gt; sep-26 12.514,1508 (+43,60%); 50 M / 1,4360 = $34,8 M; equivalente $71,8 M. Contraste IPCBA 2026 23,7% vs INDEC 23,6%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-arca-umbral-50-millones-inflacion.png" length="94173" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-arca-umbral-50-millones-inflacion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Canal 7 llega a sus 75 años con 65% menos plata del Tesoro que en 2023, descontada la inflación: RTA recibió $50.880 millones en nueve meses</title>
       <link>https://coninteres.com/articulos/2026-10-17-canal-7-75-anos-tesoro-rta-65-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>precio, sin IVA, que Metrotel pagará por 6.005.425 clientes móviles y 211.566 de internet de Movistar, con espectro, infraestructura y el mínimo garantizado de compartición de red (hecho relevante de Telecom ante la CNV, 14/10/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-metrotel-telecom-precio-clientes-movistar.png" length="91566" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-metrotel-telecom-precio-clientes-movistar.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Presupuesto 2027 le quita la movilidad a la AUH, pero le asigna $9,18 billones: alcanzan para seguir actualizándola por inflación si los precios suben 18%</title>
-      <link>https://coninteres.com/articulos/2026-10-14-auh-presupuesto-2027-movilidad.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-14-auh-presupuesto-2027-movilidad.html</guid>
-      <pubDate>Wed, 14 Oct 2026 21:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El artículo 17 del proyecto deroga la ley que obliga a aumentar la AUH todos los meses. Pero la plata que el mismo proyecto le reserva alcanza, casi al peso, para que la movilidad siga: cubre alrededor de 99% de lo que costaría actualizarla con la inflación oficial. Lo que se pierde no es la plata, es la garantía: si los precios suben más que 18%, nada obliga a poner la diferencia.</description>
-      <ci:numero>$9,18 billones</ci:numero>
-      <ci:numeroEtiqueta>crédito de la AUH, la asignación por embarazo y la ayuda escolar en el proyecto de Presupuesto 2027 (ANSES, programa 19, subprograma 03: $9.184.552 millones)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-auh-presupuesto-2027-movilidad.png" length="86022" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-auh-presupuesto-2027-movilidad.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

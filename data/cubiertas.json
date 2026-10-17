@@ -4699,6 +4699,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿a partir de qué monto los bancos y las billeteras virtuales informan a ARCA? (El Cronista 17/10/2026 'Transferencias a billeteras y a bancos: cuándo los movimientos dan aviso a ARCA'; iProUP 02/10) / RG 5699/2025 (BO 23/05/2025): bancos acreditaciones, saldo y débito $50 M personas humanas ($30 M jurídicas), extracciones $10 M, plazo fijo $100 M; billeteras ingresos/egresos/saldo $50 M; RG 5804/2025 (BO 24/12/2025) reescribe art. 3 RG 4614 sin cláusula IPC (+ CBU/CVU desde 5% = $2,5 M); RG 5814/2026 (BO 14/01/2026) elimina último párrafo art. 2 RG 4298 (actualización). Tabla ARCA billeteras: $400.000 jun-dic 2024, $600.000 ene-may 2025, $50 M desde jun-25 y desde abr-26. IPC INDEC may-25 8.714,4871, dic-25 10.121,3715, sep-26 12.514,1508: +43,60% -> valor real $34,8 M (-30,4%), equivalente $71,8 M; desde dic-25 -19,1%. RIPTE may-25 $1.428.661,30 (35,0 sueldos) -> ago-26 $1.982.518,19 (25,2 sueldos)",
+      "angulo": "Corrida programada del 17/10/2026 08:30. Primera candidata (mora de las familias de agosto, BCRA Informe sobre Bancos, 5 portales) FRENADA: bcra.gob.ar devolvió 502 en el informe, el anexo XLSX y la página, sin documento no hay ancla; se puede retomar. Segunda candidata APTA: pregunta de plata nunca cubierta (cubiertas sin umbrales del régimen de información). Ángulo propio: los medios dan el monto; la nota mide la erosión del piso congelado. Ancla por estadística oficial recalculada (IPC INDEC: informe + CSV + contraste IPCBA 23,7% vs 23,6% en 2026); el piso de $50 M confirmado en BO + tabla ARCA. Sin superlativos. No se sabe cuántas personas se informan (ARCA no lo publica).",
+      "fecha": "2026-10-17",
+      "estado": "en_cola",
+      "nota": "cola/2026-10-17-arca-umbral-50-millones-inflacion.html"
+    },
+    {
+      "tema": "cuánto deben en mora las familias / irregularidad de préstamos personales y tarjetas, agosto 2026 (BCRA Informe sobre Bancos; infobae, La Nación, Clarín, TN y Página12 16-17/10/2026: 'la mora de las familias tuvo una leve baja en agosto', 12,8% total y 17% en personales)",
+      "angulo": "Corrida programada del 17/10/2026 08:30: FRENADA por falta de documento: www.bcra.gob.ar devolvió HTTP 502 en el informe (informe-bancos-2026-08.pdf), en el anexo (informe-bancos-anexo.xlsx) y en la página del informe. Se puede retomar cuando el sitio responda. Descartes no probados (la segunda candidata pasó): riesgo país en máximos del año (cubierto 24/09 con otro nivel), paritaria bancaria de septiembre (cubierta 29/09 con la grilla de agosto), IRSA recompra de ON y AES-BID Invest garantía (EMPRESAS; ya hubo nota de empresas hoy, Vicuña), Súper Niño evacuados en Corrientes (sin cifra de plata oficial), alquileres de verano en la Costa (sin fuente oficial), plazo fijo en dólares por banco (comparador BCRA caído).",
+      "fecha": "2026-10-17",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento primario: bcra.gob.ar con error 502 durante la corrida"
     }
   ]
 }
