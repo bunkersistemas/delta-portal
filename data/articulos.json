@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-17T02:58:55-03:00",
+    "actualizado": "2026-10-17T04:48:47-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-17-expensas-caba-suben-doble-inflacion",
+      "titulo": "Las expensas en la Ciudad subieron 3,4% en septiembre, casi el doble que la inflación porteña, y ya acumulan 41,2% en un año",
+      "bajada": "Frente al resto de los precios, las expensas de la Ciudad de Buenos Aires nunca estuvieron tan caras desde que arranca la serie, en febrero de 2022. En septiembre subieron 3,4%, casi el doble que el resto de los precios porteños (1,8%), según el índice de precios de la Ciudad (IDECBA). Fue el segundo mes seguido con esa suba, y en un año acumulan 41,2%, contra 32,9% de la inflación porteña.",
+      "titulo_busqueda": "¿Cuánto aumentaron las expensas en CABA en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+3,4%",
+      "numero_label": "suba mensual de las expensas en la Ciudad de Buenos Aires en septiembre de 2026: rubro 'Gastos comunes por la vivienda' del IPCBA (IDECBA, informe 08/10/2026; índice 2.931,85 contra 2.835,80 de agosto, recalculado 3,39% con la planilla de aperturas). Nivel general IPCBA 1,8%. Interanual 41,2% contra 32,9%; acumulado 2026 32,4% contra 23,7%",
+      "fecha": "2026-10-17",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-17-expensas-caba-suben-doble-inflacion.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-17-colectivo-porteno-subio-55-por-ciento-formula",
       "titulo": "El colectivo porteño subió 55,1% en 2026, más del doble que la inflación: la fórmula le suma 2 puntos por mes y en noviembre rondaría los $957",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 17 Oct 2026 02:59:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 04:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las expensas en la Ciudad subieron 3,4% en septiembre, casi el doble que la inflación porteña, y ya acumulan 41,2% en un año</title>
+      <link>https://coninteres.com/articulos/2026-10-17-expensas-caba-suben-doble-inflacion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-17-expensas-caba-suben-doble-inflacion.html</guid>
+      <pubDate>Sat, 17 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Frente al resto de los precios, las expensas de la Ciudad de Buenos Aires nunca estuvieron tan caras desde que arranca la serie, en febrero de 2022. En septiembre subieron 3,4%, casi el doble que el resto de los precios porteños (1,8%), según el índice de precios de la Ciudad (IDECBA). Fue el segundo mes seguido con esa suba, y en un año acumulan 41,2%, contra 32,9% de la inflación porteña.</description>
+      <ci:numero>+3,4%</ci:numero>
+      <ci:numeroEtiqueta>suba mensual de las expensas en la Ciudad de Buenos Aires en septiembre de 2026: rubro 'Gastos comunes por la vivienda' del IPCBA (IDECBA, informe 08/10/2026; índice 2.931,85 contra 2.835,80 de agosto, recalculado 3,39% con la planilla de aperturas). Nivel general IPCBA 1,8%. Interanual 41,2% contra 32,9%; acumulado 2026 32,4% contra 23,7%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-expensas-caba-suben-doble-inflacion.png" length="82050" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-expensas-caba-suben-doble-inflacion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El colectivo porteño subió 55,1% en 2026, más del doble que la inflación: la fórmula le suma 2 puntos por mes y en noviembre rondaría los $957</title>
       <link>https://coninteres.com/articulos/2026-10-17-colectivo-porteno-subio-55-por-ciento-formula.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>aporte de la Nación al Hospital Garrahan en el proyecto de Presupuesto 2027 (Jurisdicción 80, programa 99, grupo 01 'Funcionamiento Hospital Garrahan')</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-garrahan-presupuesto-2027.png" length="78902" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-garrahan-presupuesto-2027.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Aluar no repartió su ganancia: la asamblea mandó $260.049 millones a la reserva para dividendos, que ya supera $1 billón</title>
-      <link>https://coninteres.com/articulos/2026-10-14-aluar-asamblea-dividendos-reserva.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-14-aluar-asamblea-dividendos-reserva.html</guid>
-      <pubDate>Wed, 14 Oct 2026 17:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>La asamblea de Aluar del 14 de octubre no aprobó un dividendo nuevo: mandó $260.049 millones, el 95% de la ganancia del ejercicio, a la reserva para futuros dividendos, que llegó a $1.013.930 millones en pesos de septiembre. Es casi 99 veces el último dividendo. El directorio decide si paga y cuándo. La ANSES tiene el 9,90% de la empresa.</description>
-      <ci:numero>$1.013.930 M</ci:numero>
-      <ci:numeroEtiqueta>reserva de Aluar para futuros dividendos tras la asamblea del 14/10/2026, en pesos de septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-14-aluar-asamblea-dividendos-reserva.png" length="67924" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-14-aluar-asamblea-dividendos-reserva.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -4671,6 +4671,19 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto aumentaron las expensas en CABA? (iProfesional 16/10/2026 'Expensas en CABA: subieron 4,9% en septiembre y superaron los $379.000', ConsorcioAbierto; iProfesional 09/10/2026, Octopus +2,78% nacional) / IPCBA IDECBA sep-26 (informe ir_2026_2064, 08/10/2026; planilla IPCBA_base_2021100-Principales_aperturas_indices.xlsx): 'Gastos comunes por la vivienda' (variedad 'Expensas de la vivienda', metodología IPCBA) índice 2.931,85 sep-26 / 2.835,80 ago-26 = +3,39% (nivel general 1,84%); ago-26 +3,42% (NG 1,69%); acumulado dic-25 32,38% (NG 23,68%); i.a. 41,16% (NG 32,85%); desde nov-23 x6,02 (NG x4,67); relación GC/NG base feb-22 113,72 en sep-26, máximo de la serie (previo ago-26 112,02); 6 de 9 meses de 2026 por encima del NG; feb-26 +7,53%",
+      "angulo": "Corrida programada del 17/10/2026 04:30, primera candidata probada (APTA). Pregunta de plata nunca cubierta (cubiertas sin 'expensas'). Ancla: estadística oficial de un solo organismo (IDECBA): documento + recálculo con la planilla oficial + contraste independiente (ConsorcioAbierto CABA +4,9% sep y Octopus nacional +2,78%, ambos sobre la inflación del mes). El interanual NO coincide con el privado (ConsorcioAbierto 28,6% contra 41,2% IPCBA): se muestra en la nota y se explica por método (índice de precios de mismas expensas contra promedio de facturas de la plataforma); por eso la ancla es la mensual. Montos en pesos solo atribuidos a las plataformas. Superlativo: relación expensas/nivel general máxima desde feb-2022 (previo ago-26). Sin cifras de sueldos de encargados (escala SUTERH sin documento oficial leído).",
+      "fecha": "2026-10-17",
+      "estado": "en_cola",
+      "nota": "cola/2026-10-17-expensas-caba-suben-doble-inflacion.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 17/10/2026 04:30: no se probaron porque la primera candidata (expensas de la Ciudad, IPCBA gastos comunes) pasó la verificación. Lista: pregunta de plata: cuánto cobra un encargado de edificio (SUTERH/FATERYH, escala de septiembre solo en Perfil y calcularsueldo, sin planilla oficial leída), Día de la Madre 18/10 (sin documento oficial con montos), cuánto cuesta mantener un perro o gato (iProfesional; sin fuente oficial); mora de las familias 12,8% en agosto con leve baja (infobae, La Nación, Clarín, Página12, iProfesional; BCRA Informe sobre Bancos, serie ya cubierta el 20/07, 01/09 y 29/09) y mora en cadenas de retail 4 veces la bancaria (Clarín; fuente privada sin leer); riesgo país en máximos del año (infobae, La Nación, Página12; ya cubierto el 24/09 y descartado varias veces); BCRA cerca de US$1.000 M de compras en octubre (infobae, La Nación, Clarín; publicada el 08/10); paritaria bancaria 1,7% de septiembre (ámbito, iProfesional, Cronista; bancario publicado el 29/09); economía del conocimiento US$10.000 M (La Nación, Cronista; publicada el 19/07); empresas: IRSA recompra de ON (HR CNV 16/10) y Central Puerto adquisición de acciones propias (HR 13 a 16/10, rutina) — hoy ya salió nota de EMPRESAS (Vicuña), el cupo no regía.",
+      "angulo": "Registro de la lista de candidatas de la corrida.",
+      "fecha": "2026-10-17",
+      "estado": "descartada"
     }
   ]
 }
