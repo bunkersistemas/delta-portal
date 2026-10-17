@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-17T10:54:24-03:00",
+    "actualizado": "2026-10-17T12:58:29-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-17-colectivos-amba-tesoro-20-por-ciento-menos",
+      "titulo": "El Tesoro les giró a los colectivos nacionales del AMBA $679.382 millones en nueve meses: 20,7% menos que en 2025, descontada la inflación",
+      "bajada": "En pesos, la plata que el Tesoro les giró a los colectivos nacionales del AMBA entre enero y septiembre de 2026 subió 6,8%; descontada la inflación, es 20,7% menos que en los mismos meses de 2025. Fueron $679.382 millones para las líneas de jurisdicción nacional, las que cruzan la General Paz o el Riachuelo, y en enero, mayo y agosto no hubo giros. El Presupuesto 2027 prevé para todo el año $762.320 millones, apenas 12,2% más de lo que ya se giró en nueve meses de 2026. Las cámaras empresarias advierten que van a restringir servicios.",
+      "titulo_busqueda": "¿Cuánto subsidio le da el Gobierno a los colectivos del AMBA?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−20,7%",
+      "numero_label": "caída real de las transferencias del Tesoro para compensar a los colectivos nacionales del AMBA, enero-septiembre de 2026 contra enero-septiembre de 2025: Presupuesto Abierto, programa 54 actividad 18 'Implementación del Régimen de Compensación del Transporte Automotor', subparcial FFSIT, devengado $679.381,9 M (2026, al 14/10) contra $635.945,3 M (2025), cada mes a pesos de sep-26 con IPC nacional INDEC: 725.465 contra 914.264 M. Nominal +6,8%. Contraste IIEP-UBA reporte #42 (al 17/09: -6% nominal, -29% real; nuestro ene-ago -8,2% y -31,1%) y Hacienda IMIG subsidios al transporte ene-sep +17,4% nominal",
+      "fecha": "2026-10-17",
+      "hora": "12:30",
+      "archivo": "articulos/2026-10-17-colectivos-amba-tesoro-20-por-ciento-menos.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-17-belgrano-cargas-estado-73-por-ciento-menos",
       "titulo": "El Estado puso en el Belgrano Cargas 73% menos que en 2023, descontada la inflación: se terminaron las obras del préstamo chino",
