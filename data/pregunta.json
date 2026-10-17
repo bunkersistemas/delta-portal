@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-16",
-  "pregunta": "Entre enero y septiembre de 2026 el Tesoro canceló US$11.338 millones más de deuda de la que tomó. Sin embargo, la deuda del Estado nacional subió US$31.551 millones en el mismo período. ¿Qué la hizo crecer?",
+  "fecha": "2026-10-17",
+  "pregunta": "Hacienda informó que en septiembre de 2026 las transferencias a las universidades subieron 42,4% contra septiembre de 2025. En ese año los precios subieron 33,4%. ¿Cuánto más recibieron las universidades en septiembre, descontada la inflación?",
   "opciones": [
-    "Que el dólar subió y los bonos en pesos valen más medidos en dólares",
-    "Los intereses que se suman al capital y el ajuste por inflación (CER) de los bonos en pesos: deuda que crece sin pedir plata nueva",
-    "Nuevos desembolsos del FMI que no se cuentan como emisión del Tesoro"
+    "42,4%: el porcentaje oficial ya es la mejora",
+    "6,8%: lo que queda después de descontar la suba de precios",
+    "9,0%: la diferencia entre 42,4% y 33,4%"
   ],
   "correcta": 1,
-  "explicacion": "La deuda puede crecer aunque no se pida un peso nuevo. Según la Secretaría de Finanzas, los ajustes de valuación sumaron US$43.050 millones en nueve meses: US$26.295 millones por intereses que se capitalizan (se suman al capital en vez de pagarse) y US$21.399 millones por el ajuste CER de los bonos atados a la inflación. El tipo de cambio jugó al revés: restó US$4.407 millones. Por eso, para saber si el Estado se endeuda más, no alcanza con mirar cuánto emite y cuánto paga.",
-  "nota": "articulos/2026-10-15-deuda-publica-septiembre-cuanto-debe-argentina.html",
+  "explicacion": "Un aumento en pesos no es un aumento de poder de compra: hay que descontar la inflación. Y no se resta, se divide: 1,424 / 1,3335 = 1,068 (con la inflación interanual sin redondear del INDEC, 33,35%), o sea 6,8% real. Restar (42,4 - 33,4 = 9 puntos) da una aproximación que se aleja más cuanto más alta es la inflación. Además, un solo mes puede engañar: estas transferencias se giran a saltos. Sumando enero a septiembre, las universidades recibieron 9,5% más que en 2025, descontada la inflación, y 22,5% menos que en 2023.",
+  "nota": "articulos/2026-10-16-universidades-42-por-ciento-un-solo-mes.html",
   "leccion": ""
 }

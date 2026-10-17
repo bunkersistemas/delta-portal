@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-16T22:58:30-03:00",
+    "actualizado": "2026-10-17T01:00:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-17-vicuna-cobre-san-juan-rigi-cuanto-cuesta",
+      "titulo": "Vicuña, la mina de cobre de BHP y Lundin en San Juan, entró al RIGI con US$9.737 millones: 4,6 veces lo que exportó la provincia en 2025",
+      "bajada": "Vicuña, la mina de cobre, oro y plata que BHP y Lundin Mining quieren construir en San Juan, entró al RIGI con un plan de inversión de US$9.737 millones: 4,6 veces lo que exportó toda la provincia en 2025. Y ese plan es solo la etapa inicial: el estudio de la empresa calcula US$18.100 millones para el proyecto completo, en tres etapas.",
+      "titulo_busqueda": "¿Cuánto cuesta la mina de cobre Vicuña en San Juan?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$9.737 M",
+      "numero_label": "inversión total del plan de Vicuña Argentina SA aprobado en el RIGI (Resolución 1154/2026 del Ministerio de Economía, BO 30/07/2026)",
+      "fecha": "2026-10-17",
+      "hora": "01:30",
+      "archivo": "articulos/2026-10-17-vicuna-cobre-san-juan-rigi-cuanto-cuesta.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-16-universidades-42-por-ciento-un-solo-mes",
       "titulo": "Las universidades recibieron en nueve meses 9,5% más que en 2025, descontada la inflación: el 42,4% que destacó el Gobierno es de un solo mes",
