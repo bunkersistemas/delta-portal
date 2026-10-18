@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 16:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 19:06:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina le vendió US$16.321 millones a los países del Tratado Transpacífico en 2025, y el Reino Unido, que analiza vetar su ingreso, compró el 3,5%</title>
+      <link>https://coninteres.com/articulos/2026-10-18-tipat-exportaciones-reino-unido-veto.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-18-tipat-exportaciones-reino-unido-veto.html</guid>
+      <pubDate>Sun, 18 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Reino Unido, el miembro que según La Nación estudia oponerse a la adhesión argentina por el conflicto petrolero en Malvinas, es un cliente chico de la Argentina: compró US$577,6 millones. Chile, solo, compró casi once veces más. Los doce países juntos se llevaron casi uno de cada cinco dólares que exportó la Argentina el año pasado, según el INDEC.</description>
+      <ci:numero>US$16.321 M</ci:numero>
+      <ci:numeroEtiqueta>exportaciones argentinas de 2025 a los doce miembros del Tratado Transpacífico (CPTPP), 18,7% del total, según la base del INDEC por país de destino; el Reino Unido compró US$577,6 M (3,5% del bloque)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-tipat-exportaciones-reino-unido-veto.png" length="92824" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-tipat-exportaciones-reino-unido-veto.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los consejeros de la Magistratura que eligen los abogados cobran $9.794.107 brutos por mes, lo mismo que un juez de Casación</title>
       <link>https://coninteres.com/articulos/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>variación real del salario conformado del convenio de Comercio entre noviembre de 2023 y agosto de 2026, serie sin estacionalidad (Secretaría de Trabajo, Panorama mensual del trabajo registrado de octubre de 2026, p. 9; textil -32%, promedio de 26 CCT -6,9%, SIPA +1,2%); recálculo desde el cuadro 8 del boletín de negociación colectiva de septiembre de 2026 con IPC nacional INDEC: $438.467 (nov-23) a $1.533.341 (jul-26), +249,7% nominal contra IPC +328,8% = -18,5%; contraste OTES (Córdoba, junio de 2026) -17,8% contra recálculo a mayo -17,9%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-salario-convenio-comercio-inflacion-gremios.png" length="87044" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-salario-convenio-comercio-inflacion-gremios.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Una familia tipo necesitó $1.632.505 en septiembre para no ser pobre: la línea de pobreza subió 38,7% en un año, cinco puntos más que los precios</title>
-      <link>https://coninteres.com/articulos/2026-10-16-linea-pobreza-septiembre-familia-tipo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-linea-pobreza-septiembre-familia-tipo.html</guid>
-      <pubDate>Fri, 16 Oct 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Es la canasta básica total que publicó el INDEC para una pareja con dos hijos de 6 y 8 años. En septiembre subió menos que la inflación del mes, y eso fue lo que se destacó. En doce meses, en cambio, aumentó $455.653, un 38,7%, mientras los precios del Gran Buenos Aires subieron 33,5%. Es la mayor diferencia a favor de la canasta desde mayo de 2024, y ya van cinco meses seguidos en que la vara de la pobreza sube más rápido que la inflación. Entre 2024 y 2025 había pasado lo contrario.</description>
-      <ci:numero>$1.632.505</ci:numero>
-      <ci:numeroEtiqueta>canasta básica total (línea de pobreza) de septiembre de 2026 para el hogar 2 del INDEC (varón de 35, mujer de 31, hijos de 6 y 8; 3,09 adultos equivalentes x $528.318,67), informe de canastas del 13/10/2026, cuadro 2: +38,7% interanual contra IPC GBA +33,5%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-linea-pobreza-septiembre-familia-tipo.png" length="90864" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-linea-pobreza-septiembre-familia-tipo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
