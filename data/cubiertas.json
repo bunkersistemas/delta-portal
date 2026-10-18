@@ -4944,6 +4944,25 @@
       "angulo": "Registro de la lista de la corrida; los temas no probados se pueden retomar.",
       "fecha": "2026-10-18",
       "estado": "descartada"
+    },
+    {
+      "tema": "jóvenes que siguen viviendo con sus padres (El Cronista 18/10/2026 'Cuatro de cada 10 jóvenes no pueden irse de su casa', informe OFAVA sobre EPH 3T-2025: 37%, 2,5 millones de 25 a 35 años)",
+      "angulo": "Corrida programada del 18/10/2026 14:30, primera candidata probada (pregunta de plata). FRENADA: la cifra no figura en ningún documento oficial (el INDEC no publica la proporción de jóvenes que viven como hijos del jefe de hogar), el informe del OFAVA (observatorio de la AEV y la CEDU, cámaras inmobiliarias) no se pudo leer en el original, solo en prensa, y el recálculo propio con los microdatos de la EPH (31 aglomerados, CH03=3, PONDERA) da 34,4% para 25-35 años en el 3T-2025 (1,62 M) y 34,7% en el 1T-2026, no 37%: la diferencia probablemente sea de universo (EPH total urbano del 3T) o de definición, pero no se pudo comprobar. Serie propia lista en _privado/jovenes_eph.py (1T-2017 a 1T-2026: 30,6% a 36,5%; 25-34: 32,1% a 38,1%) por si aparece un documento oficial o la base EPH total urbano. Se puede retomar.",
+      "fecha": "2026-10-18",
+      "estado": "descartada"
+    },
+    {
+      "tema": "¿cuántas acciones propias recompró Central Puerto y cuánto gastó? (avisos de adquisición de acciones en la CNV del 14, 15 y 16/10/2026, bloque EMPRESAS) / programa de hasta US$30 M del 01/09/2026: 5.277.337 acciones al 16/10 (2.077.337 en BYMA por $4.300.976.915 y 320.000 ADR = 3.200.000 acciones por US$4.017.532,13), contra 2.756.000 en todo el programa 2025",
+      "angulo": "Corrida programada del 18/10/2026 14:30, segunda candidata probada (APTA). EMPRESAS con cupo (hoy sin nota de la sección). Ángulo nuevo frente a la nota del 29/09 (venta de AbraSilver y dividendo, donde la recompra era un dato lateral al 3,4% del tope): ahora la recompra es el tema, con el salto a Nueva York vía Proener desde el 28/09 y el ritmo fijo desde el 05/10. Camino: documentos de la empresa ante dos reguladores (20 avisos 6-K = HR CNV, 19 ruedas; el 6-K del 14/10 repite la operación del 09/10 del 6-K del 13/10, contada una vez) + cierre con otro documento (dividendo $247.344.290.288 / $164 = 1.508.196.892 acciones; capital 1.513.770.222 - eso = 5.573.330 = cartera del 20-F 5.055.993 [2.299.993 programa 2023 + 2.756.000 programa 2025] + 517.337 compradas 03-09/09) + contraste de mercado (los 12 precios promedio de NYSE dentro del rango mínimo-máximo diario de CEPU, Yahoo Finance). Inconsistencias declaradas: avisos 28/09-01/10 ponen equivalente 20.000 para 20.000 ADR (con 10 acciones por ADR del 20-F son 200.000; los precios cierran así); monto del 28/09 corregido por la empresa el 30/09 (US$244.595,20). Conversión: pesos al dólar del BCRA de cada día = US$2,84 M, total US$6,85 M = 22,8% del tope; con el cambio implícito BYMA/NYSE (~$1.650) unos US$6,6 M (22%), declarado. Superlativo acotado: más acciones que cada uno de los tres programas previos del 20-F (2022: 252.034; 2023: 2.299.993; 2025: 2.756.000), no más que los tres sumados (5.308.027). Sin juicio sobre la acción; el objetivo de la recompra va atribuido al HR del 01/09. Pendiente: destino de las 2.299.993 acciones del programa 2023, cuyo plazo vencía el 11/10/2026 (sin aviso encontrado).",
+      "fecha": "2026-10-18",
+      "estado": "publicada",
+      "articulo_id": "2026-10-18-central-puerto-recompra-acciones-propias"
+    },
+    {
+      "tema": "descartes de la corrida programada del 18/10/2026 14:30: jóvenes que viven con sus padres (frenada aparte). Ganó la segunda, recompra de Central Puerto (EMPRESAS, cupo vigente). Lista no probada: lobby argentino en Washington (La Nación 18/10 'Negociaciones desconocidas sobre el futuro de la Argentina': US$615.000 de Manzano sin fuente; la API del registro de lobby del Senado de EE.UU. devuelve 403), cuánto cobra un bancario tras el acuerdo de septiembre (ámbito 1,7%, TN 1,9%: las cifras no coinciden; repite en parte la nota del 29/09), riesgo país 641-650 (infobae, La Nación, Página/12, TN; cubierto), superávit fiscal de septiembre (ámbito, Cronista, iProfesional, Página/12; frenado 16/10), feedlots en nivel récord (infobae; superlativo sin valor previo oficial), granos comercializados 105 Mt (La Nación; SAGyP), Diarco cierra su cuarta sucursal (iProfesional; no presenta en la CNV), mascotas (iProfesional; sin fuente oficial), IRSA recompra de ON y Comafi CEDEAR (sin material nuevo, ver 12:30). Calendario: ICA de septiembre mañana 19/10 a las 16. clarin.com no se pudo leer (WebFetch bloqueado, curl sin titulares); tn.com.ar leído por curl.",
+      "angulo": "Registro de la lista de la corrida; los temas no probados se pueden retomar.",
+      "fecha": "2026-10-18",
+      "estado": "descartada"
     }
   ]
 }
