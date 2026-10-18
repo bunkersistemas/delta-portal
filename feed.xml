@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 17 Oct 2026 20:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 17 Oct 2026 22:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>127.613 personas cobraron el seguro de desempleo en septiembre, 27,2% más que hace un año, y la prestación promedio perdió 11,1% contra la inflación</title>
+      <link>https://coninteres.com/articulos/2026-10-17-seguro-desempleo-127-mil-cobran-septiembre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-17-seguro-desempleo-127-mil-cobran-septiembre.html</guid>
+      <pubDate>Sat, 17 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Cobran más personas el seguro de desempleo, y cada una cobra menos. En septiembre de 2026 recibieron la prestación de la ANSES 127.613 personas: 27.269 más que un año antes y el número más alto desde enero de 2024, cuando empieza la serie mensual del boletín oficial. La prestación promedio, en cambio, fue de $325.368: subió 18,6% en un año, contra una inflación de 33,4%. Detrás del aumento hay más altas, 145.004 en nueve meses, y la industria y el comercio explican seis de cada diez de las nuevas.</description>
+      <ci:numero>127.613</ci:numero>
+      <ci:numeroEtiqueta>personas cobraron la prestación por desempleo en septiembre de 2026 (BESS, cuadro 5.1, sobre datos de la ANSES); 100.344 en septiembre de 2025 (+27,2%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-seguro-desempleo-127-mil-cobran-septiembre.png" length="81452" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-seguro-desempleo-127-mil-cobran-septiembre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La VTV porteña subió 52,8% en 2026, más del doble que la inflación, y la ley que deja a cada taller fijar su precio todavía no se aplica</title>
       <link>https://coninteres.com/articulos/2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>suba de septiembre de 2026 del grupo 'productos medicinales, artefactos y equipos para la salud' del IPC en el GBA (INDEC, informe técnico del IPC, cuadro 21; recálculo desde la planilla de aperturas: 15.776,3412 / 15.404,0400 = +2,42%), contra 2,0% del nivel general del GBA; contraste: IPCBA septiembre, medicamentos +2,1% y nivel general +1,8% (IDECBA, informe 2064)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-remedios-aumento-septiembre-inflacion.png" length="80894" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-remedios-aumento-septiembre-inflacion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La VTV bonaerense sube 17,6% y cuesta $114.106 desde hoy: descontada la inflación, queda 2,2% más barata que en enero</title>
-      <link>https://coninteres.com/articulos/2026-10-15-vtv-bonaerense-aumento-octubre-inflacion.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-15-vtv-bonaerense-aumento-octubre-inflacion.html</guid>
-      <pubDate>Thu, 15 Oct 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Desde el 15 de octubre, la VTV de un auto en la provincia de Buenos Aires cuesta $114.105,99: sube 17,6% y, aun así, en pesos de hoy queda 2,2% abajo de la tarifa de enero. Es el aumento que estuvo congelado 90 días, y llega cuando los precios ya subieron 20,2% desde que se fijó la tarifa anterior. Contra hace un año, en cambio, la VTV subió 43,3%, y la inflación, 33,4%.</description>
-      <ci:numero>$114.106</ci:numero>
-      <ci:numeroEtiqueta>cuesta la VTV de un auto de hasta 2.500 kilos en la provincia de Buenos Aires desde el 15/10/2026 (tarifa básica, IVA incluido; Res. 361/2026 del Ministerio de Transporte bonaerense)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-vtv-bonaerense-aumento-octubre-inflacion.png" length="78545" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-vtv-bonaerense-aumento-octubre-inflacion.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
