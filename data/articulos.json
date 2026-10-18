@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-18T02:51:01-03:00",
+    "actualizado": "2026-10-18T04:44:22-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-18-construir-en-dolares-21-por-ciento-mas-caro",
+      "titulo": "Construir en el Gran Buenos Aires cuesta 21,4% más en dólares que hace un año y volvió al nivel de 2017",
+      "bajada": "En pesos, el costo de construir en el Gran Buenos Aires subió 31,3% en doce meses según el INDEC, menos que la inflación de la región (33,5%). En dólares, la cuenta es otra: el dólar oficial subió 8,1% y la obra quedó 21,4% más cara que en septiembre de 2025. Es el nivel más alto desde abril de 2017, sin contar los dos meses previos a la devaluación de diciembre de 2023.",
+      "titulo_busqueda": "¿Está más caro construir en dólares?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "21,4%",
+      "numero_label": "subió en dólares oficiales el costo de construir en el GBA, sep-25 a sep-26 (cálculo propio). ICC INDEC sep-26 (informe 16/10/2026, cuadro 1): 31,3% i.a., 23,9% acum., 1,5% mensual; recalculado desde indice_icc_general_capitulos.csv: 1.355,2112 -> 1.779,7227 (+31,3%). Dólar BCRA Com. A 3500, promedio de días hábiles: sep-25 $1.399,90, sep-26 $1.513,89 (+8,1%). 1,3132/1,0814 = 1,2143. IPC GBA sep-26 33,5% i.a., 23,8% acum. (INDEC, cuadros 3 y 2). Contraste CAMARCO a agosto: 17.187,6 -> 22.945,2 (+33,5%), en dólares 18,3% vs INDEC 18,1%. Serie encadenada desde oct-2015 (sep-26=100): abr-17 100,7 (último mes más caro fuera de cepo previo a devaluación); por encima también oct-15 105,7, nov-15 105,1, oct-23 101,3, nov-23 111,8 (cepo); mínimo sep-19 60,3; sep-25 82,3.",
+      "fecha": "2026-10-18",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-18-construir-en-dolares-21-por-ciento-mas-caro.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-18-ropa-subio-10-por-ciento-precio-relativo-minimo",
       "titulo": "La ropa subió 10,3% en un año, menos de un tercio que la inflación, y quedó en su precio relativo más bajo desde 2016",

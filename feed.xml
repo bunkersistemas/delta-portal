@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 02:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 04:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Construir en el Gran Buenos Aires cuesta 21,4% más en dólares que hace un año y volvió al nivel de 2017</title>
+      <link>https://coninteres.com/articulos/2026-10-18-construir-en-dolares-21-por-ciento-mas-caro.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-18-construir-en-dolares-21-por-ciento-mas-caro.html</guid>
+      <pubDate>Sun, 18 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En pesos, el costo de construir en el Gran Buenos Aires subió 31,3% en doce meses según el INDEC, menos que la inflación de la región (33,5%). En dólares, la cuenta es otra: el dólar oficial subió 8,1% y la obra quedó 21,4% más cara que en septiembre de 2025. Es el nivel más alto desde abril de 2017, sin contar los dos meses previos a la devaluación de diciembre de 2023.</description>
+      <ci:numero>21,4%</ci:numero>
+      <ci:numeroEtiqueta>subió en dólares oficiales el costo de construir en el GBA, sep-25 a sep-26 (cálculo propio). ICC INDEC sep-26 (informe 16/10/2026, cuadro 1): 31,3% i.a., 23,9% acum., 1,5% mensual; recalculado desde indice_icc_general_capitulos.csv: 1.355,2112 -&gt; 1.779,7227 (+31,3%). Dólar BCRA Com. A 3500, promedio de días hábiles: sep-25 $1.399,90, sep-26 $1.513,89 (+8,1%). 1,3132/1,0814 = 1,2143. IPC GBA sep-26 33,5% i.a., 23,8% acum. (INDEC, cuadros 3 y 2). Contraste CAMARCO a agosto: 17.187,6 -&gt; 22.945,2 (+33,5%), en dólares 18,3% vs INDEC 18,1%. Serie encadenada desde oct-2015 (sep-26=100): abr-17 100,7 (último mes más caro fuera de cepo previo a devaluación); por encima también oct-15 105,7, nov-15 105,1, oct-23 101,3, nov-23 111,8 (cepo); mínimo sep-19 60,3; sep-25 82,3.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-construir-en-dolares-21-por-ciento-mas-caro.png" length="82334" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-construir-en-dolares-21-por-ciento-mas-caro.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La ropa subió 10,3% en un año, menos de un tercio que la inflación, y quedó en su precio relativo más bajo desde 2016</title>
       <link>https://coninteres.com/articulos/2026-10-18-ropa-subio-10-por-ciento-precio-relativo-minimo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte del valor agregado que fue a remunerar a los asalariados, segundo trimestre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-participacion-asalariados-ingreso-segundo-trimestre.png" length="64048" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-participacion-asalariados-ingreso-segundo-trimestre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>¿Qué dice la capacidad ociosa de la industria sobre si la economía argentina crece o se achica?</title>
-      <link>https://coninteres.com/articulos/2026-10-15-capacidad-instalada-economia-crece-o-achica.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-15-capacidad-instalada-economia-crece-o-achica.html</guid>
-      <pubDate>Thu, 15 Oct 2026 18:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Que pasan las dos cosas a la vez: en cinco años, la economía creció y la industria se achicó. La economía es 9,8% más grande que en 2021, pero la industria produce 7% menos y en agosto usó el 58,5% de su capacidad, contra 64,0% cinco años antes. Los autos se fabrican como en 2021 y 32% menos que en 2023, mientras China pasó del 2,6% al 23,3% de los dólares que se gastan en autos importados.</description>
-      <ci:numero>58,5%</ci:numero>
-      <ci:numeroEtiqueta>uso de la capacidad instalada de la industria en agosto de 2026 (INDEC, UCII, informe y serie del 15/10/2026); 64,0% en agosto de 2021. Segundo agosto más bajo de la serie 2016-2026 (agosto de 2020: 58,4%). Recalculada desde la planilla del INDEC; contraste: FIEL (IPI de julio) y ADEFA (producción de agosto -11,6%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-capacidad-instalada-economia-crece-o-achica.png" length="78313" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-capacidad-instalada-economia-crece-o-achica.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

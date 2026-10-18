@@ -4875,6 +4875,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la cuarta candidata pasó la verificación; empresas sin cifra ancla nueva"
+    },
+    {
+      "tema": "¿está más caro construir en dólares? (iProfesional 18/10/2026 «Costo de la construcción: se desaceleró en septiembre y subió por debajo del IPC»; ICC INDEC sep-26 del 16/10/2026, calendario oficial sin nota propia) / ICC GBA sep-26 1,5% m., 23,9% acum., 31,3% i.a. vs IPC GBA 33,5% i.a. y 23,8% acum.; dólar A3500 promedio sep-25 $1.399,90 -> sep-26 $1.513,89 (+8,1%); ICC en dólares +21,4% i.a., +18,5% desde dic-25 (TC dic-25 $1.447,84), +18,1% a agosto (CAMARCO 18,3%); capítulos en USD i.a.: materiales 13,6, mano de obra 28,2, gastos generales 23,5; serie encadenada oct-15 a sep-26 (sep-26=100): abr-17 100,7, sep-19 60,3 (mínimo), oct-23 101,3, nov-23 111,8, dic-23 80,5, sep-25 82,3; con los mismos dólares, 17,7% menos obra",
+      "angulo": "Corrida programada del 18/10/2026 04:30, primera candidata probada (APTA). Ángulo nuevo frente a 2026-09-23-costo-construccion-materiales-mano-de-obra (agosto, en pesos, materiales vs mano de obra): septiembre y el costo medido en dólares oficiales con la serie larga desde 2015. Camino estadística oficial recalculada con contraste: (1) informe técnico INDEC; (2) recálculo desde las series CSV del INDEC y la serie diaria A3500 del BCRA; (3) contraste independiente CAMARCO a agosto (septiembre aún no publicado). Superlativo acotado: \"nivel de 2017\" con valor previo abr-17 100,7 y exclusión explícita de los meses de cepo previos a devaluaciones (oct-nov 2015 y oct-nov 2023). NO afirmado: que convenga construir, pronóstico del costo en dólares, costo por m2, sueldos de la UOCRA en dólares.",
+      "fecha": "2026-10-18",
+      "estado": "publicada",
+      "archivo": "cola/2026-10-18-construir-en-dolares-21-por-ciento-mas-caro.html",
+      "articulo_id": "2026-10-18-construir-en-dolares-21-por-ciento-mas-caro"
+    },
+    {
+      "tema": "descartes de la corrida programada del 18/10/2026 04:30: no se probaron porque la primera candidata (costo de la construcción en dólares, ICC INDEC sep-26 + A3500 + CAMARCO) pasó la verificación. Lista: pregunta de plata: cuánto cobra un bancario con el acuerdo de septiembre (infobae, ámbito, iProfesional, Cronista, TN; grilla de agosto publicada 29/09), cuánto cobra un trabajador avícola con el bono de $360.000 (iProfesional; escala publicada 25/09), cuánto cobra un consejero de la Magistratura (elección de abogados, Levene; infobae; no probada), cuánto cuesta un graduado universitario / Argentina vs Chile (Doberti, La Nación; no probada), cuánto gasta la gente en el Día de la Madre (solo CAME); empresas CNV/SEC (hoy no hay nota de EMPRESAS, el cupo regía): build_empresas.py no trajo presentaciones nuevas; las del bloque ya se leyeron a las 00:30 y 02:30 sin cifra ancla nueva (Central Puerto recompras diarias, IRSA recompra de ON de valor nominal chico, Comafi Cedears, FCA y PSA convocatorias, AES en cola 15/10, YPF Luz publicada 08/10, Vista Energy presenta el 28/10); portadas: Caputo y el excedente de dólares (ocho portadas; declaración sin cifra verificable), riesgo país 641-650 (infobae, Página12, TN; sin fuente primaria abierta), colectivos AMBA (publicada 17/10), inflación mayorista 3,2% (publicada 16/10), superávit fiscal (frenado 16/10), granos 105 Mt (La Nación; sin segunda fuente), exportaciones mineras +84% (La Nación; ICA de septiembre sale el 19/10), economía del conocimiento US$10.500 M (Cronista; publicada 19/07), mora de familias (frenada 17/10), ARBA moratoria (frenada 02:30, sin norma), docentes bonaerenses (frenada 02:30, sin escala). Calendario: nada oficial hoy (ICA de septiembre el 19/10). clarin.com y tn.com.ar leídos por curl.",
+      "angulo": "NO TOMADAS en la corrida programada del 18/10/2026 04:30; ganó el costo de la construcción en dólares, primera candidata probada. Cupo de EMPRESAS: regía, pero ninguna presentación del bloque tiene cifra ancla nueva con documento.",
+      "fecha": "2026-10-18",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación; empresas sin cifra ancla nueva"
     }
   ]
 }
