@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-18T10:58:27-03:00",
+    "actualizado": "2026-10-18T12:55:41-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-18-tren-patagonico-pasaje-subio-60-por-ciento",
+      "titulo": "El pasaje del Tren Patagónico de Viedma a Bariloche cuesta $104.900 y subió 60,2% en un año, contra una inflación de 33,4%",
+      "bajada": "Hace un año, el sitio del Tren Patagónico publicaba el pasaje en clase Pullman entre Viedma y Bariloche a $65.500 para los residentes de Río Negro. Hoy cuesta $104.900: subió 60,2%, contra una inflación de 33,4% en el mismo lapso. Camarotes y traslado de autos subieron casi lo mismo, y para quien no vive en la provincia el Pullman cuesta $126.200.",
+      "titulo_busqueda": "¿Cuánto sale el pasaje del Tren Patagónico de Viedma a Bariloche?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$104.900",
+      "numero_label": "cuesta el pasaje Pullman del Tren Patagónico Viedma–Bariloche para residentes de Río Negro, solo ida, para noviembre y diciembre de 2026 (tarifa de Tren Patagónico S.A.); hace un año, $65.500 (+60,2%)",
+      "fecha": "2026-10-18",
+      "hora": "13:30",
+      "archivo": "articulos/2026-10-18-tren-patagonico-pasaje-subio-60-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-18-mujeres-cuidado-trabajo-no-pago-horas",
       "titulo": "Las mujeres que viven con chicos o con alguien que necesita cuidado hacen 8:59 horas diarias de trabajo sin paga, casi el doble que los varones de esos hogares",

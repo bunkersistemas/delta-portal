@@ -4931,6 +4931,19 @@
       "fecha": "2026-10-18",
       "estado": "descartada",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación; empresas sin cifra ancla nueva"
+    },
+    {
+      "tema": "¿cuánto sale el pasaje del Tren Patagónico de Viedma a Bariloche? (La Nación 18/10/2026 «Ya se venden los pasajes para un viaje de 800 km a través de paisajes únicos de la Patagonia: los precios»; venta para nov-dic abierta el 09/10/2026) / Pullman residentes $104.900 contra $65.500 hace un año (+60,2%) vs IPC nacional sep/sep 33,4%",
+      "angulo": "Corrida programada del 18/10/2026 12:30. Pregunta de plata (pasajes del tren, portada de La Nación). Camino de dos documentos oficiales que coinciden: tabla de tarifas del sitio de Tren Patagónico S.A. (vigente 18/10/2026) y anuncio del Gobierno de Río Negro 09/10/2026 (articulo/62048): Pullman 104.900/126.200, camarote 145.900/176.300, autos 176.300/243.900. Precio de hace un año: copias Wayback del sitio de la empresa 31/10/2025 y 13/11/2025 (65.500; camarote 91.000; autos 110.400/151.800), + NoticiasNQN 03/12/2025 (65.500). Escalones: 78.600 desde fines de nov-2025 (Wayback 30/11/2025 + Gob. RN 05/12/2025), 98.500 desde jul-2026 (Wayback 11/07/2026 + Gob. RN 14/06/2026), 104.900 nov-dic 2026. Recalculo: +20,0% x +25,3% x +6,5% = +60,15%. IPC INDEC serie regiones: nacional +33,35%, Patagonia +30,29%, transporte Patagonia +34,01% (sep-25 a sep-26); real +20,1%. Discrepancia declarada: NoticiasNQN dio 65.500 para diciembre cuando el sitio ya mostraba 78.600; el escalón se fecha \"a fines de noviembre\". Fuera de la nota: el aporte del Tesoro provincial (14.225 M / 17.138 M en medios regionales; Ley 5836 no lo desagrega y no se encontró la Res. de Hacienda): queda como ángulo pendiente. Sin superlativos. Tema nuevo (no hay notas previas del Tren Patagónico).",
+      "fecha": "2026-10-18",
+      "estado": "publicada",
+      "articulo_id": "2026-10-18-tren-patagonico-pasaje-subio-60-por-ciento"
+    },
+    {
+      "tema": "descartes de la corrida programada del 18/10/2026 12:30: no se probaron porque la primera candidata (pasaje del Tren Patagónico, pregunta de plata) pasó la verificación. Lista: pregunta de plata: cuánto cobra un bancario tras el 1,7% de septiembre (ámbito, iProfesional; repite en parte la nota del 29/09), feedlots en nivel récord (infobae; SENASA), exportaciones récord de la economía del conocimiento ~US$10.500 M (Cronista; repite el ángulo del 19/07), riesgo país cerca de 650 (infobae, La Nación, Página/12, ámbito; cubierto el 24/09), colectivos del AMBA con menos frecuencias (infobae, Cronista; subsidio en_cola 17/10), expensas CABA (en_cola), morosidad de las familias (descartada 17/10), moratoria de ARBA (descartada hoy). EMPRESAS (hoy no hubo nota de la sección, cupo vigente): IRSA recompró US$9 M de la ON Clase XXV, 18% de la clase, al 100,68% (HR CNV 16/10/2026, leído) y Comafi amplía el monto máximo del CEDEAR de Sandisk (HR CNV 14/10/2026). Razón para no ponerlas primero: el HR de IRSA son tres líneas sin motivo ni contexto (no permite la capa 5 sin especular) y el de Comafi es un trámite de emisión; ninguna responde una pregunta que la gente busque. FCA y PSA Finance (convocatorias a asamblea del 12/11, sin orden del día con cifras) y Arcor HR 15/10 (PDF escaneado) leídos y sin material.",
+      "angulo": "Registro de la lista de la corrida; los temas no probados se pueden retomar.",
+      "fecha": "2026-10-18",
+      "estado": "descartada"
     }
   ]
 }
