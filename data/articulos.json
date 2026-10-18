@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-18T04:44:22-03:00",
+    "actualizado": "2026-10-18T07:07:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-18-asalariado-en-negro-cobra-la-mitad-que-en-blanco",
+      "titulo": "Un asalariado en negro cobra $53 por cada $100 de uno en blanco: la distancia se achicó desde 2024, pero sigue siendo de la mitad",
+      "bajada": "Entre enero y marzo de 2026, un asalariado sin descuento jubilatorio —lo que en la calle se llama trabajar en negro— cobró en promedio $731.150 por mes por su trabajo principal, según el INDEC. Uno con descuento cobró $1.375.143. Son $53 por cada $100; a comienzos de 2024 eran $44. La distancia se achicó porque desde entonces el ingreso en negro subió más que el en blanco. Pero no desapareció: en el segundo trimestre de 2026, el último informado, la cuenta da $49.",
+      "titulo_busqueda": "¿Cuánto gana un trabajador en negro comparado con uno en blanco?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$53",
+      "numero_label": "cobra un asalariado sin descuento jubilatorio por cada $100 de uno con descuento (ingreso medio de la ocupación principal), primer trimestre de 2026: $731.150 contra $1.375.143 (INDEC, Evolución de la distribución del ingreso, cuadro 6.2; recalculado igual desde los microdatos EPH usu_individual_T126). 1T-2024: $197.467/$449.382 = $44. 2T-2026 (informe, provisorio): $706.204/$1.433.794 = $49; 2T-2025 microdatos $565.625/$1.133.377 = $50 (+24,9% y +26,5% reproducen el informe). Contraste IDECBA ETOI 1T-2026 cuadro C.8.A: no registrados $750.677 / registrados $1.645.251 = $46; EPH nacional misma definición $629.293/$1.357.156 = $46.",
+      "fecha": "2026-10-18",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-18-asalariado-en-negro-cobra-la-mitad-que-en-blanco.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-18-construir-en-dolares-21-por-ciento-mas-caro",
       "titulo": "Construir en el Gran Buenos Aires cuesta 21,4% más en dólares que hace un año y volvió al nivel de 2017",
