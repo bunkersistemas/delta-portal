@@ -4989,6 +4989,30 @@
       "angulo": "Registro de la lista de la corrida; los temas no probados se pueden retomar.",
       "fecha": "2026-10-18",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿están aumentando los despidos? / tasa de despidos sin causa de la EIL (infobae 18/10/2026 'Las expectativas de contratación de personal de las empresas se mantienen casi en cero para los próximos tres meses') / Secretaría de Trabajo, EIL agosto 2026 (informe eil_2608 p. 5 y planilla eil_2608_estadisticas.xlsx, tabla 1.7 total aglomerados): ago-26 0,6627 = 0,7 del informe, 'el valor más alto entre los meses de agosto desde el año 2019' (ago-19 0,7439; ago-20 0,1394, 21 0,3522, 22 0,5277, 23 0,5760, 24 0,4910, 25 0,5936; +11,7%); promedio ene-ago 2026 0,6531 vs 2025 0,5814 (+12,3%) y 2019 0,7228, el más alto desde 2019; 7 de 8 meses de 2026 sobre el mismo mes de 2025 (excepción julio 0,5435 vs 0,6448); pico mar-26 0,8451; expectativas (tabla 1.9) aumentar 3,121, disminuir 3,015, neta 0,106 = 0,1, la más baja de un agosto desde 2020 (-1,914); empleo 0,0% m/m, -0,9% i.a.; tasas de entrada y salida 1,8; estimación propia 0,6627% x universo 3.683.072 = 24.408 ('unas 24.000'); contraste BESS cuadro 5.1: beneficiarios del seguro de desempleo ago-26 123.648 vs ago-25 98.542 (+25,5%), altas ene-sep +29,4%",
+      "angulo": "Corrida programada del 18/10/2026 20:30, segunda candidata probada (APTA). Pregunta detrás de la nota de infobae del día. Ángulo propio frente a infobae (que cita el informe): la serie de agostos 2005-2026 recalculada desde la planilla, el promedio de enero a agosto (más alto desde 2019, cálculo propio), la comparación mes a mes contra 2025, la estimación en personas y el contraste con el registro del seguro de desempleo. Camino estadística oficial de un solo organismo: (1) informe de la Secretaría de Trabajo; (2) recálculo desde la planilla de la misma encuesta; (3) contraste independiente: BESS (pagos de la ANSES), misma dirección, magnitud distinta explicada (flujo de una encuesta urbana vs stock nacional de beneficiarios). Superlativo con valor previo (ago-19 0,7439). No repite el seguro de desempleo del 17/10 (otra fuente y otra medida; se usa solo como contraste y se enlaza). NO afirmado: causas de la suba, desocupación, despidos en el sector público o informal.",
+      "fecha": "2026-10-18",
+      "estado": "publicada",
+      "archivo": "cola/2026-10-18-despidos-sin-causa-agosto-mas-alto-desde-2019.html",
+      "articulo_id": "2026-10-18-despidos-sin-causa-agosto-mas-alto-desde-2019"
+    },
+    {
+      "tema": "¿cuánta plata le transfiere el Tesoro a ARSAT? (infobae 18/10/2026: procesaron al extitular de ARSAT Facundo Leal, con USD 2,6 millones en sus casas, por la custodia de bienes de la REFEFO) / Presupuesto Abierto crédito anual, subparcial AR-SAT: devengado 2021 $10.344,6 M, 2022 $4.512,4 M, 2023 $35.719,2 M, 2024 $27.975,5 M, 2025 $25.840,6 M (satélite SG1 $24.020,6 M), 2026 a oct $11.031,9 M (REFEFO BID 5364 $10.545,1 M)",
+      "angulo": "Corrida programada del 18/10/2026 20:30, primera candidata probada (FRENADA).",
+      "fecha": "2026-10-18",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin contraste independiente legible y con huecos en la serie: el Monitor de transferencias a empresas públicas de la OPC es un tablero dinámico que no se puede leer por curl; las cifras de prensa sobre el Monitor (Perfil, infobae) se contradicen entre sí y con el devengado (infobae: ARSAT con cero devengado en 2024 según la OPC; Presupuesto Abierto: $27.975,5 M); la subparcial AR-SAT da cero en 2018-2019 y en 2020 aparece imputada a un programa del Correo, sin explicación. El presupuesto de ARSAT 2025 (Res. 1285/2025) es una proyección, no ejecución. Retomable con el Monitor de la OPC descargado o con los estados contables de ARSAT."
+    },
+    {
+      "tema": "descartes de la corrida programada del 18/10/2026 20:30: ARSAT (frenada aparte). Ganó la segunda, despidos sin causa de la EIL de agosto. Lista no probada: pregunta de plata: cuánto le vende la Argentina a España (viaje de Milei a España y Austria, infobae y La Nación 18/10; mismo método que el TIPAT de las 18:30, posible brecha con DataComex como la de Francia del 30/09), Boca y los premios de la Sudamericana (revancha con Vasco el 20/10; ya publicada el 06/10 con los acumulados de la CONMEBOL), US$70.000 M al FMI en dos décadas (TN; deuda con el FMI publicada el 24/09 y el 03/10); empresas CNV/SEC (ya hubo nota de EMPRESAS hoy, Central Puerto 14:30, sin cupo; build_empresas.py sin presentaciones nuevas): Arcor HR 15/10 de aplicación de fondos de la ON (emisión publicada el 02/10, sin cifra nueva), IRSA recompra de ON 16/10 (HR de un renglón); portadas: Día de la Madre ventas -1,4% (infobae, ámbito, iProfesional, Cronista, TN; solo CAME), dos de cada tres sin plata el 20 (infobae, ámbito, iProfesional, Página12; encuesta privada), moratoria de ARBA (infobae, La Nación, ámbito, iProfesional, Cronista; frenada hoy 02:30, norma sin publicar), Caputo y el excedente de dólares (La Nación, iProfesional, Cronista, TN; declaración), riesgo país 641-650 (infobae, Página12; cubierto), clínicas y PAMI (La Nación; frenada hoy), colectivos del AMBA (infobae, Cronista, TN; en cola 17/10), expensas (infobae; publicada 17/10). Calendario: ICA de septiembre mañana 19/10 a las 16. clarin.com sin titulares por curl; tn.com.ar leído por curl.",
+      "angulo": "NO TOMADAS en la corrida programada del 18/10/2026 20:30.",
+      "fecha": "2026-10-18",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; sin cupo de EMPRESAS (ya hubo nota hoy)"
     }
   ]
 }
