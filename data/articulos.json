@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-18T07:07:49-03:00",
+    "actualizado": "2026-10-18T08:46:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-18-hogares-inquilinos-uno-de-cada-cinco-alquila",
+      "titulo": "Uno de cada cinco hogares alquila la casa donde vive: son 2,09 millones, más que en 2017, y entre los de 45 a 64 años la proporción subió de 12,3% a 14,1%",
+      "bajada": "La proporción de hogares que alquila llegó a 22,0% en 2023 y 2024 y en el último año bajó. Aun así, sigue por encima de 2017: en el segundo semestre de 2025, 2.091.000 hogares de las 31 ciudades que mide el INDEC alquilaban la vivienda donde viven, el 20,5%, contra 18,9% en 2017. Entre los hogares cuyo jefe o jefa tiene de 45 a 64 años, los inquilinos pasaron de 12,3% a 14,1%.",
+      "titulo_busqueda": "¿Cuántos argentinos alquilan la casa donde viven?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "20,5%",
+      "numero_label": "de los hogares de los 31 aglomerados urbanos alquila la vivienda donde vive, segundo semestre de 2025: 2.091.000 de 10.197.000 (INDEC, Indicadores de condiciones de vida de los hogares, gráfico 7 y cuadro 6; recalculado igual desde los microdatos EPH 3T y 4T 2025). Serie oficial cuadro 14: 2S-22 20,7; 1S-23 21,8; 2S-23 22,0; 1S-24 21,1; 2S-24 22,0; 1S-25 20,7; 2S-25 20,5 (todos reproducidos). 2S-17 18,9 (microdatos). Jefe 45-64: 12,3% (2S-17) a 14,1% (2S-25). Contraste IDECBA EAH CABA: 35,1% (2017), 35,3% (2024), 36,2% (2025); EPH CABA promedio 2025 35,3%.",
+      "fecha": "2026-10-18",
+      "hora": "08:30",
+      "archivo": "articulos/2026-10-18-hogares-inquilinos-uno-de-cada-cinco-alquila.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-18-asalariado-en-negro-cobra-la-mitad-que-en-blanco",
       "titulo": "Un asalariado en negro cobra $53 por cada $100 de uno en blanco: la distancia se achicó desde 2024, pero sigue siendo de la mitad",

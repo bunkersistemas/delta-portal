@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 07:07:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 08:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Uno de cada cinco hogares alquila la casa donde vive: son 2,09 millones, más que en 2017, y entre los de 45 a 64 años la proporción subió de 12,3% a 14,1%</title>
+      <link>https://coninteres.com/articulos/2026-10-18-hogares-inquilinos-uno-de-cada-cinco-alquila.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-18-hogares-inquilinos-uno-de-cada-cinco-alquila.html</guid>
+      <pubDate>Sun, 18 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La proporción de hogares que alquila llegó a 22,0% en 2023 y 2024 y en el último año bajó. Aun así, sigue por encima de 2017: en el segundo semestre de 2025, 2.091.000 hogares de las 31 ciudades que mide el INDEC alquilaban la vivienda donde viven, el 20,5%, contra 18,9% en 2017. Entre los hogares cuyo jefe o jefa tiene de 45 a 64 años, los inquilinos pasaron de 12,3% a 14,1%.</description>
+      <ci:numero>20,5%</ci:numero>
+      <ci:numeroEtiqueta>de los hogares de los 31 aglomerados urbanos alquila la vivienda donde vive, segundo semestre de 2025: 2.091.000 de 10.197.000 (INDEC, Indicadores de condiciones de vida de los hogares, gráfico 7 y cuadro 6; recalculado igual desde los microdatos EPH 3T y 4T 2025). Serie oficial cuadro 14: 2S-22 20,7; 1S-23 21,8; 2S-23 22,0; 1S-24 21,1; 2S-24 22,0; 1S-25 20,7; 2S-25 20,5 (todos reproducidos). 2S-17 18,9 (microdatos). Jefe 45-64: 12,3% (2S-17) a 14,1% (2S-25). Contraste IDECBA EAH CABA: 35,1% (2017), 35,3% (2024), 36,2% (2025); EPH CABA promedio 2025 35,3%.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-hogares-inquilinos-uno-de-cada-cinco-alquila.png" length="90656" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-hogares-inquilinos-uno-de-cada-cinco-alquila.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un asalariado en negro cobra $53 por cada $100 de uno en blanco: la distancia se achicó desde 2024, pero sigue siendo de la mitad</title>
       <link>https://coninteres.com/articulos/2026-10-18-asalariado-en-negro-cobra-la-mitad-que-en-blanco.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>préstamo de BID Invest y otros prestamistas a Vientos Bonaerenses, subsidiaria de AES Argentina, para las fases III y IV del parque eólico (hecho relevante de AES ante la CNV, 14/10/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.png" length="75155" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La deuda del Estado nacional llegó a US$486.628 millones en septiembre: subió US$31.551 millones en el año aunque el Tesoro canceló más deuda de la que tomó</title>
-      <link>https://coninteres.com/articulos/2026-10-15-deuda-publica-septiembre-cuanto-debe-argentina.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-15-deuda-publica-septiembre-cuanto-debe-argentina.html</guid>
-      <pubDate>Thu, 15 Oct 2026 21:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y septiembre de 2026 el Tesoro dio de baja US$11.338 millones más de deuda de la que emitió, y aun así la deuda creció. La empujaron dos cosas que no requieren pedir plata nueva: los intereses que se suman al capital y el ajuste por inflación de los bonos en pesos. Repartida entre todos los habitantes, son US$10.473 por persona.</description>
-      <ci:numero>US$486.628 M</ci:numero>
-      <ci:numeroEtiqueta>deuda bruta de la administración central al 30/09/2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-deuda-publica-septiembre-cuanto-debe-argentina.png" length="74539" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-deuda-publica-septiembre-cuanto-debe-argentina.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
