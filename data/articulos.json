@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-18T14:47:42-03:00",
+    "actualizado": "2026-10-18T16:58:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-18-cuanto-cobra-consejero-magistratura-abogados",
+      "titulo": "Los consejeros de la Magistratura que eligen los abogados cobran $9.794.107 brutos por mes, lo mismo que un juez de Casación",
+      "bajada": "Los cuatro consejeros de la Magistratura que eligen los abogados no son jueces ni legisladores, y por eso la ley les fija la misma paga que a un juez de la Cámara de Casación Penal. En agosto de 2026 eso fue $9.794.107 brutos por mes sin antigüedad: el monto más alto de la escala del propio Consejo, y la misma cifra que el Ministerio Público Fiscal paga a un procurador fiscal ante la Corte. En un año subió 37,2%, contra una inflación de 33,5%. El martes 20 de octubre los abogados de la matrícula federal votan esas cuatro bancas.",
+      "titulo_busqueda": "¿Cuánto cobra un consejero de la Magistratura?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$9.794.107",
+      "numero_label": "compensación bruta mensual sin antigüedad de un consejero de la Magistratura que no es juez ni legislador (Ley 24.937 art. 29: igual a un juez de Casación), escala del Consejo de agosto de 2026; igual al procurador fiscal ante la CSJN del MPF",
+      "fecha": "2026-10-18",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-18-central-puerto-recompra-acciones-propias",
       "titulo": "Central Puerto recompró 5,28 millones de acciones propias en seis semanas, casi el doble que en todo su programa de 2025",

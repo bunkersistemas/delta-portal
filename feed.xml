@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 14:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 16:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los consejeros de la Magistratura que eligen los abogados cobran $9.794.107 brutos por mes, lo mismo que un juez de Casación</title>
+      <link>https://coninteres.com/articulos/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.html</guid>
+      <pubDate>Sun, 18 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Los cuatro consejeros de la Magistratura que eligen los abogados no son jueces ni legisladores, y por eso la ley les fija la misma paga que a un juez de la Cámara de Casación Penal. En agosto de 2026 eso fue $9.794.107 brutos por mes sin antigüedad: el monto más alto de la escala del propio Consejo, y la misma cifra que el Ministerio Público Fiscal paga a un procurador fiscal ante la Corte. En un año subió 37,2%, contra una inflación de 33,5%. El martes 20 de octubre los abogados de la matrícula federal votan esas cuatro bancas.</description>
+      <ci:numero>$9.794.107</ci:numero>
+      <ci:numeroEtiqueta>compensación bruta mensual sin antigüedad de un consejero de la Magistratura que no es juez ni legislador (Ley 24.937 art. 29: igual a un juez de Casación), escala del Consejo de agosto de 2026; igual al procurador fiscal ante la CSJN del MPF</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.png" length="78255" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Central Puerto recompró 5,28 millones de acciones propias en seis semanas, casi el doble que en todo su programa de 2025</title>
       <link>https://coninteres.com/articulos/2026-10-18-central-puerto-recompra-acciones-propias.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>canasta básica total (línea de pobreza) de septiembre de 2026 para el hogar 2 del INDEC (varón de 35, mujer de 31, hijos de 6 y 8; 3,09 adultos equivalentes x $528.318,67), informe de canastas del 13/10/2026, cuadro 2: +38,7% interanual contra IPC GBA +33,5%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-linea-pobreza-septiembre-familia-tipo.png" length="90864" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-linea-pobreza-septiembre-familia-tipo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Presupuesto 2027 autoriza US$3.500 millones de deuda para tres submarinos y dos fragatas: más que todo el presupuesto anual de Defensa</title>
-      <link>https://coninteres.com/articulos/2026-10-16-presupuesto-2027-submarinos-fragatas-deuda.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-presupuesto-2027-submarinos-fragatas-deuda.html</guid>
-      <pubDate>Fri, 16 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El proyecto de Presupuesto 2027 que discute Diputados habilita al Gobierno a pedir prestados US$3.500 millones para la Armada: US$2.300 millones para tres submarinos convencionales y US$1.200 millones para dos fragatas multimisión. Pasado a pesos con el dólar que proyecta el propio Presupuesto, son $6,47 billones: 1,24 veces todo lo que el Ministerio de Defensa tiene para gastar en 2027. No es una compra cerrada ni una partida para gastar: es un permiso para endeudarse.</description>
-      <ci:numero>US$3.500 M</ci:numero>
-      <ci:numeroEtiqueta>deuda que el proyecto de Presupuesto 2027 autoriza para tres submarinos (US$2.300 M) y dos fragatas (US$1.200 M) de la Armada (planilla anexa al artículo 42)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-presupuesto-2027-submarinos-fragatas-deuda.png" length="80228" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-presupuesto-2027-submarinos-fragatas-deuda.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

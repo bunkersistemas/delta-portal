@@ -4963,6 +4963,19 @@
       "angulo": "Registro de la lista de la corrida; los temas no probados se pueden retomar.",
       "fecha": "2026-10-18",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto cobra un consejero de la Magistratura? (elección de los abogados de la matrícula federal el martes 20/10/2026, período 2026-2030, 4 titulares y 4 suplentes: CASI; cuatro listas, Levene, bancas de De la Torre, Vázquez, Grau y Maques: Diario Judicial 16/10, Infobae 18/10) / Ley 24.937 art. 29 (texto Ley 26.080): compensación = juez de Cámara Nacional de Casación Penal; escala CM ago-26 (Acordada 25/2026, 1,7%) 01-06 Juez de Cámara de Casación $9.794.107,00 (1.676.900,50 + 2.410.550,10 + 4.821.037,55 + 419.230,21 + 466.388,64) = MPF ago-26 cód. 303 Proc Fiscal CSJN $9.794.107,00; jul-26 $9.630.390,36 x 1,017; ago-25 $7.136.298,36 (+37,24%) vs IPC 9.193,2441 -> 12.276,766 (+33,54%), real +2,77%; nómina CM sep-26: 7 personas con cargo 01-06 (vocalías abogados A-D, PEN, académicos A-B); vocalías de abogados 18 personas (A4 B6 C6 D2), total vocalías 142 de 1.022 personas (1.075 filas); 7 x = $68,6 M/mes; 1,33 x juez 1ra instancia, 5,26 x auxiliar",
+      "angulo": "Corrida programada del 18/10/2026 16:30, primera candidata probada (APTA). Pregunta de plata detrás de la elección de abogados al Consejo (no probada en las corridas del 18/10 04:30 y 10:30). Ángulo nuevo frente a 2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion (juez de 1ra instancia, aumentos = IPC): el cargo de consejero, la regla del art. 29 y su aplicación en la nómina. Camino de dos fuentes oficiales que coinciden (escala CM y escala MPF) + ley + nómina + recálculo. NO afirmado: neto de bolsillo, antigüedad de los consejeros, escala de septiembre (no publicada), opinión sobre listas; sin datos de empleados.",
+      "fecha": "2026-10-18",
+      "estado": "publicada",
+      "articulo_id": "2026-10-18-cuanto-cobra-consejero-magistratura-abogados"
+    },
+    {
+      "tema": "descartes de la corrida programada del 18/10/2026 16:30: no se probaron porque la primera candidata (compensación de los consejeros de la Magistratura, Ley 24.937 art. 29 + escalas CM y MPF) pasó la verificación. Lista: pregunta de plata: cuánto cuesta criar a un bebé el primer año (infobae 18/10; canasta de crianza INDEC, cercana a las notas del 14/09 y 16/10), cuánto piden por las propiedades de Lázaro Báez en subasta (infobae; sin documento judicial a mano), cuánto le paga la Argentina al FMI en 2027 (TN; cronograma ya publicado el 03/10), industria argentina vs Brasil y México (Clarín; cruce IPI/IBGE/INEGI, no probada); empresas CNV/SEC (ya hubo nota de EMPRESAS hoy, Central Puerto 14:30, sin cupo): IRSA recompra de ON Serie XXV (HR de un renglón), Comafi CEDEAR de Sandisk (trámite), FCA y PSA Finance (convocatorias sin cifras), Vista Energy balance el 28/10; portadas: riesgo país 641-650 (infobae, La Nación, Página/12, iProfesional; cubierto), Caputo y el excedente de dólares (La Nación, ámbito, iProfesional, Cronista; declaración), moratoria de ARBA (infobae, La Nación, ámbito; frenada hoy, norma sin publicar), aumento de 6% a estatales bonaerenses (ámbito; frenada hoy, sin escala), dos de cada tres sin plata a fin de mes (infobae, Página/12; encuesta privada), ventas pyme Día de la Madre -1,4% (ámbito; solo CAME), pagos digitales US$5.200 M (infobae; consultora). Calendario: ICA de septiembre mañana 19/10 a las 16. clarin.com y tn.com.ar no se pudieron leer con WebFetch.",
+      "angulo": "Registro de la lista de la corrida; los temas no probados se pueden retomar.",
+      "fecha": "2026-10-18",
+      "estado": "descartada"
     }
   ]
 }
