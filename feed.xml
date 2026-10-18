@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 08:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 10:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las mujeres que viven con chicos o con alguien que necesita cuidado hacen 8:59 horas diarias de trabajo sin paga, casi el doble que los varones de esos hogares</title>
+      <link>https://coninteres.com/articulos/2026-10-18-mujeres-cuidado-trabajo-no-pago-horas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-18-mujeres-cuidado-trabajo-no-pago-horas.html</guid>
+      <pubDate>Sun, 18 Oct 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Cuando en la casa hay un chico de hasta 13 años o alguien que necesita cuidado, el trabajo sin paga de las mujeres pasa de 4 horas 33 minutos a 8 horas 59 por día; el de los varones de esos hogares llega a 4 horas 36. Pagado a la tarifa oficial por hora de casas particulares de octubre de 2026, el trabajo de una de esas mujeres valdría $705.803 por mes; el de un varón, $312.905.</description>
+      <ci:numero>8:59 h</ci:numero>
+      <ci:numeroEtiqueta>horas diarias de trabajo no remunerado de las mujeres de 14+ en hogares con demandantes de cuidado (INDEC, ENUT 2021, cuadro 10, por participante con simultaneidad); varones 4:36; sin demandantes 4:33 y 3:03. Recalculado desde microdatos ENUT 2021 (WPER): 539,3 / 277,0 / 273,7 / 183,5 min; total cuadro 1 6:31 y 3:40 reproducido. Contraste DGEyC CABA UT 2023: cuidado 6:01 vs 3:52 (ENUT 6:07 vs 3:30), doméstico 3:39 vs 2:05 (ENUT 4:06 vs 2:38). Valor mensual (cálculo propio, tiempo social sin simultaneidad x tarifa por hora con retiro oct-26 Res. CNTCP 6/2026 Anexo 3: tareas generales $4.064,08, cuidado $4.337,53, mes 30,42 días): mujeres $705.803 (168,3 h), varones $312.905 (74,7 h).</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-mujeres-cuidado-trabajo-no-pago-horas.png" length="86358" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-mujeres-cuidado-trabajo-no-pago-horas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Uno de cada cinco hogares alquila la casa donde vive: son 2,09 millones, más que en 2017, y entre los de 45 a 64 años la proporción subió de 12,3% a 14,1%</title>
       <link>https://coninteres.com/articulos/2026-10-18-hogares-inquilinos-uno-de-cada-cinco-alquila.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>suba de los precios regulados del IPC nacional entre diciembre de 2025 y septiembre de 2026 (INDEC, informe técnico del IPC de septiembre, cuadro 14; recálculo desde serie_ipc_divisiones.csv: 13.238,1788 / 10.069,0986 = +31,47%), contra 23,6% del nivel general; contraste: IPCBA regulados 31,1% en el año (IDECBA, informe 2064, cuadro C.4)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-tarifas-regulados-inflacion-noreste.png" length="91853" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-tarifas-regulados-inflacion-noreste.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>US$100 millones de BID Invest y otros prestamistas para que AES casi duplique su parque eólico de Bahía Blanca</title>
-      <link>https://coninteres.com/articulos/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.html</guid>
-      <pubDate>Thu, 15 Oct 2026 23:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>El préstamo que recibió el 14 de octubre Vientos Bonaerenses, la subsidiaria de AES Argentina, equivale al 87% de toda la deuda financiera que la empresa tenía el 30 de junio. Son US$100 millones de BID Invest y otros prestamistas internacionales, $148.302 millones al tipo de cambio de junio, para terminar las fases III y IV de su parque eólico, que suman 99,1 MW a los 99,75 MW que ya tiene. AES lo garantiza.</description>
-      <ci:numero>US$100 M</ci:numero>
-      <ci:numeroEtiqueta>préstamo de BID Invest y otros prestamistas a Vientos Bonaerenses, subsidiaria de AES Argentina, para las fases III y IV del parque eólico (hecho relevante de AES ante la CNV, 14/10/2026)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.png" length="75155" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-aes-vientos-bonaerenses-prestamo-bid-invest.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
