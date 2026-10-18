@@ -4835,6 +4835,46 @@
       "fecha": "2026-10-18",
       "estado": "descartada",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación; empresas sin cifra ancla nueva"
+    },
+    {
+      "tema": "¿cuánto aumentó la ropa en el último año? (Día de la Madre 18/10/2026; Infobae 17/10/2026 'La indumentaria en crisis: más ropa importada, menos ventas y una fecha clave') / IPC INDEC sep-26 (informe 13/10/2026): Prendas de vestir y calzado 10,3% i.a. vs nivel general 33,4%, mínima de las 12 divisiones y mínima i.a. de la serie (previa ago-26 11,0%); acumulado 2026 6,0% vs 23,6%; mensual 1,4% vs 1,9% (Restaurantes 1,1% menor); regiones GBA 9,2, Pampeana 10,6, NEA 10,0, NOA 11,7, Cuyo 15,7, Patagonia 12,1; GBA prendas 7,6, calzado 14,7; precio relativo dic-16=100: sep-26 66,6 mínimo (previo ago-26 66,9), pico oct-22 122,6 (-45,7%), dic-23 104,6; contraste IPCBA sep-26 10,5% vs 32,9% (prendas 10,2, calzado 11,6)",
+      "angulo": "Corrida programada del 18/10/2026 02:30, cuarta candidata probada (APTA). Pregunta de plata detrás del Día de la Madre y la crisis de la indumentaria. Ángulo nuevo frente a 2026-09-01-precios-relativos-doce-divisiones-ipc (mapa dic-23/jul-26 de las 12 divisiones): los doce meses a septiembre, la mínima interanual de la serie y el precio relativo en su mínimo desde dic-2016. Camino estadística oficial recalculada con contraste: (1) informe INDEC; (2) recálculo desde la serie CSV; (3) contraste independiente IPCBA del IDECBA (misma distancia; diferencia por universo y ponderación). La CIAI citada por Infobae da el mismo 10,3% del INDEC: no se usó como contraste. NO afirmado: por qué subió poco (importaciones, ventas), precios de prendas puntuales, que haya que comprar.",
+      "fecha": "2026-10-18",
+      "estado": "publicada",
+      "archivo": "cola/2026-10-18-ropa-subio-10-por-ciento-precio-relativo-minimo.html",
+      "articulo_id": "2026-10-18-ropa-subio-10-por-ciento-precio-relativo-minimo"
+    },
+    {
+      "tema": "cuánto cobra un docente bonaerense con el 6% en dos tramos (ámbito 18/10/2026: 3% en octubre y 3% en noviembre sobre la base de septiembre, aprobado por SUTEBA, UDOCBA, AMET y SADOP; comunicado FUDB en suteba.org.ar del 16/10/2026)",
+      "angulo": "Corrida programada del 18/10/2026 02:30, primera candidata probada (FRENADA).",
+      "fecha": "2026-10-18",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin escala salarial oficial: la DGCyE/Economía bonaerense no publica todavía la grilla de octubre-noviembre; la calculadora de haberes de SUTEBA llega a agosto y los montos de bolsillo que circulan (Infobae, diarios locales) son cálculos de prensa que no coinciden entre sí ($973.521 vs $945.980 sin antigüedad). Ya publicada la serie nacional de salario docente del CECE el 06/10/2026. Retomable cuando salga la escala oficial."
+    },
+    {
+      "tema": "cuánto cuestan las PASO / cuánto se ahorró sin primarias en 2025 (TN 17/10/2026: el Gobierno busca los votos para suspender las PASO de 2027) / Presupuesto Abierto, programa 16 actividad 43: 2025 $359.437 M = 2021 $359.483 M en pesos de 2025 (IPC promedio anual); contraste Fundación Éforo sep-2026 (programa del Interior 2025 $361.364 M, GPPyE -3% vs 2021)",
+      "angulo": "Corrida programada del 18/10/2026 02:30, segunda candidata probada (FRENADA por duplicado).",
+      "fecha": "2026-10-18",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "ya publicada: articulos/2026-10-04-elecciones-sin-paso-costo-2025.html tiene la misma cifra ancla ($359.437 M) y el mismo ángulo. El recálculo de hoy reprodujo exacto el informe de Éforo (2023 $489.153 M) y la nota del 04/10; sin ángulo nuevo."
+    },
+    {
+      "tema": "moratoria de ARBA 2026 (infobae y ámbito 18/10/2026: desde el 26/10, descuentos de 40% al contado, 20% en 3 cuotas y 15% en 6 hasta el 13/11, deudas hasta el 31/12/2025)",
+      "angulo": "Corrida programada del 18/10/2026 02:30, tercera candidata probada (FRENADA).",
+      "fecha": "2026-10-18",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin documento oficial: la resolución normativa no está publicada ni en web.arba.gov.ar/noticias ni en el Boletín Oficial bonaerense; las cifras solo están en prensa y no aclaran sobre qué se aplica el descuento (intereses o capital). Retomable cuando se publique la norma (rige desde el 26/10)."
+    },
+    {
+      "tema": "descartes de la corrida programada del 18/10/2026 02:30: docente bonaerense, costo de las PASO y moratoria de ARBA (frenadas aparte); ganó la cuarta, la ropa en el IPC. Lista no probada: empresas CNV/SEC (hoy no hay nota de EMPRESAS, el cupo regía; build_empresas.py no trajo presentaciones nuevas y las del bloque ya se leyeron a las 00:30 sin cifra ancla nueva: Central Puerto recompras diarias, IRSA recompra de ON de valor nominal chico, Comafi Cedears, FCA y PSA convocatorias, AES ya en cola el 15/10, YPF Luz publicada 08/10, Vista Energy presenta el 28/10); granos vendidos 105 Mt (La Nación; dato de la BCR sobre SAGyP, sin segunda fuente independiente); pagos digitales US$5.200 M (infobae; consultora); portadas repetidas: Caputo y el excedente de dólares (infobae, La Nación, ámbito, iProfesional, Cronista, TN; declaración sin cifra verificable), paritaria bancaria (infobae, ámbito, iProfesional, Cronista, TN; publicada 29/09), colectivos del AMBA (infobae, Cronista, TN; publicada 17/10), riesgo país 650 (infobae, Página12, TN; sin fuente primaria abierta), El Niño (infobae, iProfesional; publicada 13/10), inflación mayorista (publicada 16/10), superávit fiscal (frenado 16/10), expensas (publicada 17/10). clarin.com no se pudo leer; tn.com.ar leído por curl.",
+      "angulo": "NO TOMADAS en la corrida programada del 18/10/2026 02:30.",
+      "fecha": "2026-10-18",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la cuarta candidata pasó la verificación; empresas sin cifra ancla nueva"
     }
   ]
 }

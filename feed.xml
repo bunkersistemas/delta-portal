@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 00:59:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 02:51:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La ropa subió 10,3% en un año, menos de un tercio que la inflación, y quedó en su precio relativo más bajo desde 2016</title>
+      <link>https://coninteres.com/articulos/2026-10-18-ropa-subio-10-por-ciento-precio-relativo-minimo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-18-ropa-subio-10-por-ciento-precio-relativo-minimo.html</guid>
+      <pubDate>Sun, 18 Oct 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La ropa y el calzado subieron 10,3% entre septiembre de 2025 y septiembre de 2026, contra 33,4% del nivel general, según el INDEC. Fue la división que menos aumentó de las doce y la suba interanual más baja de la serie. Medida contra el resto de los precios, la ropa nunca estuvo tan barata desde que existe el IPC nacional, en diciembre de 2016: vale 45,7% menos que en su pico de octubre de 2022. El IPC de la Ciudad, con su propio relevamiento, da lo mismo: 10,5% contra 32,9%.</description>
+      <ci:numero>10,3%</ci:numero>
+      <ci:numeroEtiqueta>variación interanual de 'Prendas de vestir y calzado', IPC nacional, septiembre de 2026 (INDEC, informe del 13/10/2026; nivel general 33,4%). Recalculado desde serie_ipc_divisiones.csv: 7.553,7487 -&gt; 8.332,3491 (+10,3%); nivel general 9.384,0922 -&gt; 12.514,1508 (+33,4%). Mínima de las 12 divisiones (siguiente: bebidas alcohólicas y tabaco 22,4%) y mínima interanual de la serie desde dic-2017 (previa: ago-26 11,0%). Precio relativo ropa/nivel general (dic-16=100): sep-26 66,6 (mínimo de la serie; previo ago-26 66,9), pico oct-22 122,6 (-45,7%), dic-23 104,6. Acumulado ene-sep 2026: 6,0% vs 23,6%. Contraste IDECBA, IPCBA sep-26 (08/10/2026): prendas y calzado 10,5% i.a. vs 32,9%; prendas 10,2%, calzado 11,6%.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-ropa-subio-10-por-ciento-precio-relativo-minimo.png" length="88087" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-ropa-subio-10-por-ciento-precio-relativo-minimo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina le debe US$12.692 millones al Banco Mundial, 85% más que a comienzos de 2019, y los intereses que le paga se triplicaron desde 2022</title>
       <link>https://coninteres.com/articulos/2026-10-18-deuda-banco-mundial-12692-millones-intereses.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>uso de la capacidad instalada de la industria en agosto de 2026 (INDEC, UCII, informe y serie del 15/10/2026); 64,0% en agosto de 2021. Segundo agosto más bajo de la serie 2016-2026 (agosto de 2020: 58,4%). Recalculada desde la planilla del INDEC; contraste: FIEL (IPI de julio) y ADEFA (producción de agosto -11,6%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-capacidad-instalada-economia-crece-o-achica.png" length="78313" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-capacidad-instalada-economia-crece-o-achica.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El monotributo deja facturar hasta $126,6 millones al año por servicios: son US$6.966 por mes, el tope en dólares más alto en diez años</title>
-      <link>https://coninteres.com/articulos/2026-10-15-monotributo-tope-servicios-dolares.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-15-monotributo-tope-servicios-dolares.html</guid>
-      <pubDate>Thu, 15 Oct 2026 17:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>ARCA les escribe a creadores de OnlyFans por ingresos de 2022 a 2024, pero el techo del monotributo de esos años no es el de hoy. Desde agosto, el régimen deja facturar hasta $126.610.838,75 al año en la categoría K, también por servicios: al dólar oficial del 14 de octubre, US$83.595 al año, US$6.966 por mes, el tope en dólares más alto en diez años. Entre 2019 y 2023, quien vendía servicios no podía pasar de unos US$27.000 a US$33.000 al año.</description>
-      <ci:numero>US$6.966</ci:numero>
-      <ci:numeroEtiqueta>tope mensual promedio de facturación del monotributo (categoría K, $126.610.838,75 al año desde el 01/08/2026, tabla de ARCA; recalculado al centavo: tope feb-jul 2026 $108.357.084,05 x IPC INDEC jun-26/dic-25 11.826,4103/10.121,3715, art. 52 Ley 24.977) / 12 / dólar mayorista A 3500 del 14/10/2026 $1.514,5655 (BCRA)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-15-monotributo-tope-servicios-dolares.png" length="84956" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-15-monotributo-tope-servicios-dolares.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
