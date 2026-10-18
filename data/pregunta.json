@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-17",
-  "pregunta": "Hacienda informó que en septiembre de 2026 las transferencias a las universidades subieron 42,4% contra septiembre de 2025. En ese año los precios subieron 33,4%. ¿Cuánto más recibieron las universidades en septiembre, descontada la inflación?",
+  "fecha": "2026-10-18",
+  "pregunta": "En septiembre de 2026, 127.613 personas cobraron el seguro de desempleo y la prestación promedio fue de $325.368: 18,6% más que un año antes. En ese año los precios subieron 33,4%. ¿Qué pasó con lo que se puede comprar con esa prestación?",
   "opciones": [
-    "42,4%: el porcentaje oficial ya es la mejora",
-    "6,8%: lo que queda después de descontar la suba de precios",
-    "9,0%: la diferencia entre 42,4% y 33,4%"
+    "Subió 18,6%: el aumento en pesos es la mejora",
+    "Bajó 11,1%: el aumento en pesos fue menor que la suba de precios",
+    "Bajó 14,8%: la diferencia entre 33,4% y 18,6%"
   ],
   "correcta": 1,
-  "explicacion": "Un aumento en pesos no es un aumento de poder de compra: hay que descontar la inflación. Y no se resta, se divide: 1,424 / 1,3335 = 1,068 (con la inflación interanual sin redondear del INDEC, 33,35%), o sea 6,8% real. Restar (42,4 - 33,4 = 9 puntos) da una aproximación que se aleja más cuanto más alta es la inflación. Además, un solo mes puede engañar: estas transferencias se giran a saltos. Sumando enero a septiembre, las universidades recibieron 9,5% más que en 2025, descontada la inflación, y 22,5% menos que en 2023.",
-  "nota": "articulos/2026-10-16-universidades-42-por-ciento-un-solo-mes.html",
+  "explicacion": "Un aumento en pesos no es un aumento de poder de compra: hay que compararlo con la inflación. Y no se resta, se divide: 1,186 / 1,334 = 0,889, o sea 11,1% menos de poder de compra. Restar (33,4 - 18,6 = 14,8 puntos) exagera la pérdida, y el error crece cuanto más alta es la inflación. Además, en septiembre cobraban la prestación 27.269 personas más que un año antes: más gente cobra, y cada una puede comprar menos con lo que recibe.",
+  "nota": "articulos/2026-10-17-seguro-desempleo-127-mil-cobran-septiembre.html",
   "leccion": ""
 }
