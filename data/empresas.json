@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-19T12:30",
+  "generado": "2026-10-19T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3582024",
+      "fuente": "CNV",
+      "fecha": "2026-10-19T13:57",
+      "entidad": "IEB CONSTRUCCIONES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE. DESIGNACIÓN DE CHIEF FINANCIAL OFFICER - CFO Y CHIEF LEGAL OFFICER - CLO",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5BF439AB-EE67-43F2-92E5-2D53E4653DF4"
+    },
     {
       "id": "cnv-3581770",
       "fuente": "CNV",

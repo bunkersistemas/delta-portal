@@ -5151,6 +5151,21 @@
       "angulo": "NO TOMADAS en la corrida programada del 19/10/2026 12:30.",
       "fecha": "2026-10-19",
       "estado": "descartada"
+    },
+    {
+      "tema": "pan francés por región: el kilo cuesta $4.958 en el GBA y $2.605 en el Noreste, 90,4% más (INDEC, precios promedio, hoja Nacional, sep-26; infobae 19/10/2026 'la canasta básica varía hasta 90% entre regiones'); serie GBA/NEA de 1,35 en jun-2017 a 1,93 en ago-2026",
+      "angulo": "Corrida programada del 19/10/2026 14:30, primera candidata probada (FRENADA).",
+      "fecha": "2026-10-19",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin contraste independiente para el Noreste: la estadística de Neuquén (DPEyC, IPC sep-26, cuadro 8: pan francés tipo mignon $4.191,28, +21,2% i.a.) confirma el nivel de la Patagonia del INDEC ($4.263,75, +21,6%), pero en el NEA no hay medición oficial provincial; el precio de referencia del Ahora Pan de Misiones ($3.000, tope en panaderías adheridas) queda por encima del promedio del INDEC ($2.604,69) y las listas de cámaras de panaderos del NOA (Santiago del Estero $4.500, Jujuy $4.700) superan con holgura el promedio NOA del INDEC ($3.012,99). La diferencia no se puede explicar con documentos: se frena. Retomable si aparece una medición oficial de precios del NEA (Corrientes, Chaco, Misiones o Formosa)."
+    },
+    {
+      "tema": "¿cuánto rinde un plazo fijo de $1.000.000 a 30 días? (infobae y ámbito 19/10/2026: tasas de plazo fijo por banco para $1 millón) / comparador de tasas del BCRA (servicio plazos-fijos.php, 19/10/2026): Nación 19,25% TNA = $15.821,92 por $1 M a 30 días (pizarra BNA canal electrónico 30-59 días 19,25% TNA, 21,05% TEA, sin tramos por monto); diez bancos con más depósitos de 16% (Patagonia, $13.151) a 22% (Provincia no clientes, $18.082), ninguno arriba de la inflación de sep-26 (IPC 12.276,766 -> 12.514,1508 = 1,9336%, $19.336, TNA de empate 23,53%); de 29 entidades, 3 arriba (REBA 24%, Comercio y Meridian 23,75%), CMF y Crédito Regional 23,5% a $21; tasa promedio personas BCRA var. 1190 sep-26 19,744% = 1,62% vs 1,93%; ene-sep 2026 +17,4% vs +23,6%, -5,0% de poder de compra; ningún mes de 2026 arriba de la inflación (agosto empate 1,65 vs 1,66)",
+      "angulo": "Corrida programada del 19/10/2026 14:30, segunda candidata (APTA). Retoma el ángulo que dejó anotado el descarte del 01/10/2026 18:30 (cruce banco por banco contra el IPC de septiembre); la nota del 24/09/2026 era la serie mensual enero-agosto con la tasa promedio, sin el ranking por banco ni el IPC de septiembre.",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre"
     }
   ]
 }
