@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-19T08:30",
+  "generado": "2026-10-19T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3581770",
+      "fuente": "CNV",
+      "fecha": "2026-10-19T09:31",
+      "entidad": "AEROPUERTOS ARGENTINA 2000 S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - APROBACIÓN DE TÉRMINOS Y CONDICIONES PARA LA EMISIÓN DE LAS OBLIGACIONES NEGOCIABLES CLASE 12.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/589CEA6A-0027-4CCF-83F3-1D9527CD49C5"
+    },
     {
       "id": "cnv-3581631",
       "fuente": "CNV",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 08:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 10:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los jubilados del Poder Judicial cobran en promedio $9.338.132 brutos por mes, 8,3 veces lo que un jubilado del régimen general sin moratoria</title>
+      <link>https://coninteres.com/articulos/2026-10-19-jubilaciones-poder-judicial-haber-medio.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-jubilaciones-poder-judicial-haber-medio.html</guid>
+      <pubDate>Mon, 19 Oct 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Las 6.576 jubilaciones del régimen especial del Poder Judicial pagaron en septiembre de 2026, en promedio, $9.338.132 brutos por mes: 8,3 veces lo que cobra un jubilado del régimen general que no entró por moratoria y 18,2 veces el de uno que sí. La reforma de 2020 subió los aportes y reescribió la fórmula, y aun así la distancia con el promedio del sistema es la misma desde 2015: entre 11,3 y 12,3 veces. Solo el Servicio Exterior paga más, según el Boletín Estadístico de la Seguridad Social.</description>
+      <ci:numero>$9.338.132</ci:numero>
+      <ci:numeroEtiqueta>haber medio bruto de una jubilación del régimen del Poder Judicial, septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-jubilaciones-poder-judicial-haber-medio.png" length="70891" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-jubilaciones-poder-judicial-haber-medio.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El nuevo retiro voluntario del Estado nacional paga hasta 25 sueldos brutos y llega al tope con 20 años de antigüedad</title>
       <link>https://coninteres.com/articulos/2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>inversión total del plan de Vicuña Argentina SA aprobado en el RIGI (Resolución 1154/2026 del Ministerio de Economía, BO 30/07/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-vicuna-cobre-san-juan-rigi-cuanto-cuesta.png" length="83900" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-vicuna-cobre-san-juan-rigi-cuanto-cuesta.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las universidades recibieron en nueve meses 9,5% más que en 2025, descontada la inflación: el 42,4% que destacó el Gobierno es de un solo mes</title>
-      <link>https://coninteres.com/articulos/2026-10-16-universidades-42-por-ciento-un-solo-mes.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-universidades-42-por-ciento-un-solo-mes.html</guid>
-      <pubDate>Fri, 16 Oct 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Ministerio de Economía dijo el viernes que las transferencias a las universidades subieron 42,4% en septiembre y que eso refleja el cumplimiento de los acuerdos con ellas. El número es correcto, pero es de un solo mes, y en esta partida un mes aislado dice poco. La cuenta que sirve es la de los nueve meses: entre enero y septiembre la Nación les giró $4,14 billones, que descontada la inflación son 9,5% más que en 2025 y 22,5% menos que en 2023. Y medido por lo que se comprometió a gastar y no por lo que pagó, 2026 queda igual que 2025.</description>
-      <ci:numero>+9,5%</ci:numero>
-      <ci:numeroEtiqueta>variación real de las transferencias a universidades de enero-septiembre de 2026 contra 2025 (Hacienda, SPN base caja, imig_septiembre_2026.xlsx: $4.136.195,1 M contra $2.835.469,9 M, +45,9% nominal; recalculado con la serie imig-mensual de datos.gob.ar y el IPC nacional INDEC, sep-26 12.514,15). Contra 2023: -22,5%. Devengado (Presupuesto Abierto, inciso 5 pp 6): 0,0% contra 2025 y -30,8% contra 2023</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-universidades-42-por-ciento-un-solo-mes.png" length="88399" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-universidades-42-por-ciento-un-solo-mes.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

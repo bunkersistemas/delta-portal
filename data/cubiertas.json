@@ -5121,6 +5121,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "No probadas: la primera candidata pasó la verificación. Cupo de empresas: IRSA y Stellantis quedaron detrás porque la recompra de US$9 M de una ON a 12 meses es un hecho menor ya evaluado tres veces hoy y los HR de FCA/PSA no traen cifras; el decreto del retiro voluntario es la pregunta de plata del día con documento oficial completo."
+    },
+    {
+      "tema": "¿cuánto cobra un jubilado del Poder Judicial? (Infobae 19/10/2026 'Jubilaciones y pensiones especiales: cuál es el haber promedio y qué sectores reciben los montos más altos') / BESS Secretaría de Seguridad Social, pasivos sep-2026, cuadro 2.3.8: Poder Judicial 6.576 jubilaciones, masa $61.407.558.205, haber medio $9.338.132 (8,3 veces el general sin moratoria $1.129.043; 18,2 veces con moratoria $512.881); Servicio Exterior $15.731.635 (487); sep-2025 PJ $6.826.594 (+36,8% nominal, +2,6% real con IPC 9.384,0922 -> 12.514,1508); cuadro 2.6.4.a y 2.3.5: PJ / promedio SIPA entre 11,3 y 12,3 veces 2015-2026; régimen 8.541 beneficios (0,12%) y 1,36% de la masa; 7 regímenes especiales 274.557 beneficios (3,8%) y 14,0% de la masa; Ley 24.018 arts. 9, 10 (82% de 120 remuneraciones) y 31 (+7 puntos de aporte) según Ley 27.546",
+      "angulo": "Corrida programada del 19/10/2026 10:30, primera candidata probada (APTA). Pregunta de plata detrás de la nota de Infobae del día. Ángulo propio: la serie 2015-2026 de la proporción contra el promedio del SIPA y la variación real en un año. Ancla por estadística oficial recalculada (masa / beneficios) con contraste independiente (Ley 24.018 + escala salarial de agosto de 2026 del Consejo de la Magistratura: 82% de la escala sin antigüedad entre $4,4 M y $8,0 M, mismo orden de magnitud).",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-jubilaciones-poder-judicial-haber-medio",
+      "archivo": "cola/2026-10-19-jubilaciones-poder-judicial-haber-medio.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/10/2026 10:30: no se probaron porque la primera candidata (haber medio de las jubilaciones del Poder Judicial, pregunta de plata) pasó la verificación. Lista no probada: recorte de medicamentos esenciales de 128 a 6 y reclamo de Córdoba (Página12; sin norma ni monto en la nota, habría que ir a Presupuesto Abierto); EMPRESAS Aeropuertos Argentina 2000, aprobación de términos y condiciones de una emisión de ON (HR CNV 19/10/2026; el documento de la CNV no se pudo leer sin el visor); EMPRESAS IRSA recompra de ON Clase XXV (HR CNV 16/10, VN US$9 M); EMPRESAS Banco Comafi (cuatro HR del 15/10) y FCA/PSA Finance (asambleas del 12/11, sin cifras); RIGI de Pluspetrol y GyP en Vaca Muerta por US$12.200 M (infobae, ámbito, Cronista; el área ya se contó el 02/10/2026); metalúrgica con más máquinas paradas para un septiembre desde 2016 (ámbito, infobae; ADIMRA, una sola cámara, ya cubierta en julio); ICA de septiembre (INDEC hoy 16:00, todavía no publicado); ventas del Día de la Madre -1,4% (CAME, una sola fuente privada); 72% de los menores de 40 sin plata antes del día 20 (encuesta privada; ámbito, Página12, iProfesional, infobae); prórroga del régimen que permite cobrar planes sociales y trabajar en la cosecha (La Nación; decreto sin cifra); clínicas que suspenden la atención al PAMI (La Nación; PAMI publicada hoy)",
+      "angulo": "NO TOMADAS en la corrida programada del 19/10/2026 10:30.",
+      "fecha": "2026-10-19",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "No probadas: la primera candidata pasó la verificación. Cupo de empresas: AA2000, IRSA, Comafi y FCA/PSA quedaron detrás porque el documento de AA2000 no se pudo leer y los otros no traen cifra nueva o ya se evaluaron hoy; la de los jubilados judiciales es la pregunta de plata del día con estadística oficial recalculable y serie de diez años."
     }
   ]
 }

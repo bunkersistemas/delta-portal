@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-19T08:42:42-03:00",
+    "actualizado": "2026-10-19T10:44:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-19-jubilaciones-poder-judicial-haber-medio",
+      "titulo": "Los jubilados del Poder Judicial cobran en promedio $9.338.132 brutos por mes, 8,3 veces lo que un jubilado del régimen general sin moratoria",
+      "bajada": "Las 6.576 jubilaciones del régimen especial del Poder Judicial pagaron en septiembre de 2026, en promedio, $9.338.132 brutos por mes: 8,3 veces lo que cobra un jubilado del régimen general que no entró por moratoria y 18,2 veces el de uno que sí. La reforma de 2020 subió los aportes y reescribió la fórmula, y aun así la distancia con el promedio del sistema es la misma desde 2015: entre 11,3 y 12,3 veces. Solo el Servicio Exterior paga más, según el Boletín Estadístico de la Seguridad Social.",
+      "titulo_busqueda": "¿Cuánto cobra un jubilado del Poder Judicial?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$9.338.132",
+      "numero_label": "haber medio bruto de una jubilación del régimen del Poder Judicial, septiembre de 2026",
+      "fecha": "2026-10-19",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-19-jubilaciones-poder-judicial-haber-medio.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga",
       "titulo": "El nuevo retiro voluntario del Estado nacional paga hasta 25 sueldos brutos y llega al tope con 20 años de antigüedad",
