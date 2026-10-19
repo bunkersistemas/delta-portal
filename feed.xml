@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 18:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 20:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina pagó en junio su cuota de US$15.589.176 a la ONU: entre 2019 y 2024 no la había completado dentro del año ninguna vez</title>
+      <link>https://coninteres.com/articulos/2026-10-19-onu-cuota-argentina-pago-junio.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-onu-cuota-argentina-pago-junio.html</guid>
+      <pubDate>Mon, 19 Oct 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Entre 2019 y 2024 la Argentina no figuró ningún año en la lista de los países que pagaron completa su cuota al presupuesto ordinario de la ONU. En 2026 el Gobierno la terminó de pagar el 22 de junio: US$15.589.176, después de haberla completado el 15 de diciembre en 2025. La cuota es 38,9% más chica que la de 2019, porque a la Argentina le toca una porción menor del presupuesto: 0,490%, la más baja desde 2013-2015.</description>
+      <ci:numero>US$15.589.176</ci:numero>
+      <ci:numeroEtiqueta>cuota neta de la Argentina al presupuesto ordinario de la ONU en 2026 (ONU, lista de pagos completos al 13/10/2026: pagada el 22/06/2026; ST/ADM/SER.B/1096: 0,490% x US$3.456.005.400 = US$16.934.427 brutos - US$1.369.751 crédito del Fondo de Nivelación de Impuestos + US$24.500 (0,098% de US$25 M de consolidación de la paz) = US$15.589.176). Serie neta: 2019 25.512.271, 2020 25.668.818, 2021 26.466.916, 2022 20.654.500, 2023 21.033.093, 2024 22.654.875 (ninguna completada dentro del año: no figura en las listas de fin de año 2019-2024), 2025 16.675.950 (pagada el 15/12/2025, 148.ª de 151). Escala 2025-2027 0,490% (2022-24 0,719; 2019-21 0,915; 2013-15 0,432). Contraste: Presupuesto Abierto, Cancillería, programa Cuotas y Contribuciones a Organismos Internacionales, subparcial ONU: jun-2026 $14.263,9 M devengado y pagado, mar-2026 $5.663,6 M, unos US$13,9 M al A3500 promedio de cada mes vs US$14,1 M de cuota menos crédito 2024 de US$1.464.805; dic-2025 $24.698,3 M = unos US$17,1 M</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-onu-cuota-argentina-pago-junio.png" length="86411" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-onu-cuota-argentina-pago-junio.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Criar a un hijo en la Ciudad cuesta desde $1.041.382 por mes, y en septiembre subió más que la inflación porteña</title>
       <link>https://coninteres.com/articulos/2026-10-19-canasta-crianza-ciudad-septiembre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>caída real de la plata del Estado nacional para el Belgrano Cargas, enero-septiembre de 2026 contra enero-septiembre de 2023: Presupuesto Abierto, devengado, subparcial 'Belgrano Cargas y Logística' (Obligaciones a Cargo del Tesoro, 5.5.2 y 5.5.7) más actividades del préstamo chino (CDB) del Ministerio de Transporte; 2026 al 14/10: $78.820,3 M (Tesoro, 0 obras); 2023: $22.167,7 M Tesoro + $23.396,2 M obras; cada mes a pesos de sep-26 con IPC nacional INDEC: 84.810 contra 316.386 M. Tesoro solo: -49,5% vs 2023, -9,6% vs 2025 (+19,8% nominal). Contraste OPC 1S-2026 $40.359 M corrientes + $10.966 M capital (BAE 04/08/2026), nuestras sumas 40.359,3 y 10.966,0; plan Res. ME 412/2026: 78.530 + 30.000</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-belgrano-cargas-estado-73-por-ciento-menos.png" length="79441" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-belgrano-cargas-estado-73-por-ciento-menos.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El piso desde el que bancos y billeteras le informan a ARCA tus movimientos sigue en $50 millones desde mayo de 2025: la inflación ya le sacó 30,4%</title>
-      <link>https://coninteres.com/articulos/2026-10-17-arca-umbral-50-millones-inflacion.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-17-arca-umbral-50-millones-inflacion.html</guid>
-      <pubDate>Sat, 17 Oct 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Según el IPC del INDEC, el piso de $50 millones en el mes desde el que bancos y billeteras virtuales le informan a ARCA los movimientos de una persona hoy vale 30,4% menos que en mayo de 2025, cuando se fijó. La resolución que lo creó decía que se iba a actualizar por inflación; desde enero de 2026 ya no se actualiza. Para valer lo mismo debería estar en $71,8 millones.</description>
-      <ci:numero>−30,4%</ci:numero>
-      <ci:numeroEtiqueta>pérdida real del piso de $50.000.000 mensuales desde el que bancos (RG 4298, art. 2 incs. b, d y f) y billeteras (RG 4614, art. 3) informan a ARCA a una persona humana, fijado por la RG 5699/2025 (BO 23/05/2025) y sin actualización desde la RG 5804/2025 (billeteras) y la RG 5814/2026 (bancos): IPC nacional INDEC may-25 8.714,4871 -&gt; sep-26 12.514,1508 (+43,60%); 50 M / 1,4360 = $34,8 M; equivalente $71,8 M. Contraste IPCBA 2026 23,7% vs INDEC 23,6%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-arca-umbral-50-millones-inflacion.png" length="94173" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-arca-umbral-50-millones-inflacion.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

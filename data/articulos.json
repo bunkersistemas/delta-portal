@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-19T18:43:45-03:00",
+    "actualizado": "2026-10-19T20:46:18-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-19-onu-cuota-argentina-pago-junio",
+      "titulo": "La Argentina pagó en junio su cuota de US$15.589.176 a la ONU: entre 2019 y 2024 no la había completado dentro del año ninguna vez",
+      "bajada": "Entre 2019 y 2024 la Argentina no figuró ningún año en la lista de los países que pagaron completa su cuota al presupuesto ordinario de la ONU. En 2026 el Gobierno la terminó de pagar el 22 de junio: US$15.589.176, después de haberla completado el 15 de diciembre en 2025. La cuota es 38,9% más chica que la de 2019, porque a la Argentina le toca una porción menor del presupuesto: 0,490%, la más baja desde 2013-2015.",
+      "titulo_busqueda": "¿Cuánto le paga la Argentina a la ONU?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "US$15.589.176",
+      "numero_label": "cuota neta de la Argentina al presupuesto ordinario de la ONU en 2026 (ONU, lista de pagos completos al 13/10/2026: pagada el 22/06/2026; ST/ADM/SER.B/1096: 0,490% x US$3.456.005.400 = US$16.934.427 brutos - US$1.369.751 crédito del Fondo de Nivelación de Impuestos + US$24.500 (0,098% de US$25 M de consolidación de la paz) = US$15.589.176). Serie neta: 2019 25.512.271, 2020 25.668.818, 2021 26.466.916, 2022 20.654.500, 2023 21.033.093, 2024 22.654.875 (ninguna completada dentro del año: no figura en las listas de fin de año 2019-2024), 2025 16.675.950 (pagada el 15/12/2025, 148.ª de 151). Escala 2025-2027 0,490% (2022-24 0,719; 2019-21 0,915; 2013-15 0,432). Contraste: Presupuesto Abierto, Cancillería, programa Cuotas y Contribuciones a Organismos Internacionales, subparcial ONU: jun-2026 $14.263,9 M devengado y pagado, mar-2026 $5.663,6 M, unos US$13,9 M al A3500 promedio de cada mes vs US$14,1 M de cuota menos crédito 2024 de US$1.464.805; dic-2025 $24.698,3 M = unos US$17,1 M",
+      "fecha": "2026-10-19",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-19-onu-cuota-argentina-pago-junio.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-19-canasta-crianza-ciudad-septiembre",
       "titulo": "Criar a un hijo en la Ciudad cuesta desde $1.041.382 por mes, y en septiembre subió más que la inflación porteña",

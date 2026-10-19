@@ -1,11 +1,38 @@
 {
-  "generado": "2026-10-19T18:30",
+  "generado": "2026-10-19T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3582237",
+      "fuente": "CNV",
+      "fecha": "2026-10-19T18:59",
+      "entidad": "INVERSORA JURAMENTO S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ADQUISICIÓN DE INMUEBLE RURAL ESTANCIA LOTE 5",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A81B732C-5669-449D-9821-7F77B196695F"
+    },
+    {
+      "id": "cnv-3582208",
+      "fuente": "CNV",
+      "fecha": "2026-10-19T18:56",
+      "entidad": "LOMA NEGRA CIASA",
+      "tipo": "financiamiento",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - LICITACIÓN OBLIGACIONES NEGOCIABLES CLASE 7",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3644DBFD-CF12-47F5-87C5-6EBD2D9DBD68"
+    },
+    {
+      "id": "cnv-3582235",
+      "fuente": "CNV",
+      "fecha": "2026-10-19T18:34",
+      "entidad": "CIA. INTRODUCTORA DE BS.AS",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE CNV DESTINO RESULTADO EJERCICIO AGOE CIBA 19.10.2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/EA9CA5C3-042C-4795-AACF-B85182C52A4E"
+    },
     {
       "id": "cnv-3582192",
       "fuente": "CNV",
