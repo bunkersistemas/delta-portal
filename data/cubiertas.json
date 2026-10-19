@@ -5036,6 +5036,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; sin cupo de EMPRESAS (ya hubo nota hoy)"
+    },
+    {
+      "tema": "cuánto cobra un entrenador de una selección nacional (serie plata-deportistas) / becas del cuerpo técnico de la Secretaría de Turismo, Ambiente y Deportes: Res. 139/2026 (BO 08/09/2026) anexo III IF-2026-80457009 desde 01/09/2026: DTS 816.480, E.N.SUD A individual y conjunto 699.840, juvenil 583.200, PCAD 583.200, ayudante 583.200, guías B 524.880, ETN desarrollo 466.560, técnico administrativo 466.560 (ayudante juvenil 503.885 = 432.000 x 1,08^2, nadie lo cobra); antes Res. 356/2025 anexo III IF-2025-68577770 (01/08/2025: 756.000 / 648.000 / 540.000 / 486.000 / 432.000), prorrogado por Res. 43/2026 art. 3; nómina de septiembre 981 filas = $525.764.976 (total de la resolución): cuerpo técnico 329 ('oficial'), $201.378.960 (38,3%), promedio 612.094; 25 DTS, 67 E.N.SUD A ind., 19 conjunto, 63 juveniles, 81 PCAD, 15 ayudantes, 9 guías, 33 ETN, 17 TA; 87 mujeres; IPC nacional ago-25 9.193,2441 / sep-26 12.514,1508 (+36,1%): 648.000 = 882.079 de hoy, -20,7%; CBT adulto GBA sep-25 380.858,27 / sep-26 528.318,67: 1,70 -> 1,32 canastas; 59 de 329 debajo de la CBT",
+      "angulo": "Corrida programada del 19/10/2026 00:30, serie en prueba LA PLATA DE LOS DEPORTISTAS, primera candidata probada (APTA). Ángulo nuevo: el cuerpo técnico (entrenadores, profesionales y técnicos); la nota del 25/09 contó a los 652 atletas de la misma nómina y solo mencionó el total de 329 técnicos. Ancla por norma + recálculo (648.000 x 1,08) + registro de pagos (86 entrenadores cobran 699.840 en la nómina), el mismo camino de la nota del 25/09.",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-cuanto-cobra-entrenador-seleccion-beca",
+      "archivo": "cola/2026-10-19-cuanto-cobra-entrenador-seleccion-beca.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/10/2026 00:30 (serie plata-deportistas): no se probaron porque la primera candidata (becas de los entrenadores de las selecciones, Res. 139/2026) pasó la verificación. Lista no probada: becas de $3.000.000 de la Provincia de Santa Fe a 64 atletas suramericanos (solo gacetilla de santafe.gob.ar del 08/09/2026, sin norma citada); cuánto pagan los atletas para integrar la delegación de atletismo (US$450 a 850 según el velocista Bruno Rojas, declaración; faltaría documento de la CADA); becas de los Juegos Deportivos Nacionales Evita y de los juveniles rumbo a los Juegos Olímpicos de la Juventud Dakar 2026; cuánto cobra un árbitro de la AFA (sin escala pública)",
+      "angulo": "NO TOMADAS en la corrida programada del 19/10/2026 00:30.",
+      "fecha": "2026-10-19",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }

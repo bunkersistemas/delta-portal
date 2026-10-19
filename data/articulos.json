@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-18T23:09:29-03:00",
+    "actualizado": "2026-10-19T00:49:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-19-cuanto-cobra-entrenador-seleccion-beca",
+      "titulo": "Un entrenador de selección nacional cobra $699.840 de beca del Estado: con la inflación, 20,7% menos que en agosto de 2025",
+      "bajada": "La beca que el Estado paga al entrenador de un medallista suramericano subió 8% en septiembre, a $699.840, y aun así compra menos que hace un año: estuvo trece meses quieta en $648.000 mientras los precios subían 36,1% desde agosto de 2025. Es lo mismo que cobra el atleta que gana el oro. La Secretaría de Deportes beca a 329 entrenadores, profesionales y técnicos de las selecciones nacionales, y 59 de ellos cobran menos que la línea de pobreza de un adulto.",
+      "titulo_busqueda": "¿Cuánto cobra un entrenador de una selección argentina?",
+      "seccion": "DEPORTES",
+      "formato": "Anatomía de un dato",
+      "numero": "$699.840",
+      "numero_label": "beca mensual del entrenador nacional de nivel suramericano (Resolución 139/2026, desde el 01/09/2026; antes $648.000 desde el 01/08/2025)",
+      "fecha": "2026-10-19",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-19-cuanto-cobra-entrenador-seleccion-beca.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "serie": "plata-deportistas"
+    },
     {
       "id": "2026-10-18-espana-exportaciones-parte-mas-chica",
       "titulo": "España compró el 1,4% de lo que exportó la Argentina en 2025, la parte más chica en al menos 23 años",
