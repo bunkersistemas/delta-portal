@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-19T16:42:17-03:00",
+    "actualizado": "2026-10-19T18:43:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-19-canasta-crianza-ciudad-septiembre",
+      "titulo": "Criar a un hijo en la Ciudad cuesta desde $1.041.382 por mes, y en septiembre subió más que la inflación porteña",
+      "bajada": "En septiembre los precios de la Ciudad subieron 1,8%; la canasta de crianza, entre 2,5% y 2,7%. Esa canasta, que el IDECBA publicó hoy, va de $1.041.382 a $1.684.494 por mes según la edad, y desde mayo le ganó a la inflación porteña todos los meses. La diferencia no está en lo que se compra sino en el cuidado, que se valora con el sueldo de casas particulares: subió 16,3% en cuatro meses.",
+      "titulo_busqueda": "¿Cuánto cuesta criar un hijo en la Ciudad de Buenos Aires?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$1.041.382",
+      "numero_label": "canasta de crianza mínima de la Ciudad de Buenos Aires, septiembre de 2026 (IDECBA, informe de resultados 2067 del 19/10/2026, cuadro C.1, 6-7 años): bienes $657.666,97 + cuidado $383.714,79 (120 h x $3.197,62 = ARCA cuidado de personas con retiro $529.261,78 / 192 x 1,16); máximo $1.684.494,41 (varón 2 años); sep/ago +2,5% a +2,7% vs IPCBA +1,8% (2.596,60 -> 2.644,33); may-sep +11,6% a +13,8% vs IPCBA +8,5%; cuidado +16,3%; contraste INDEC 6-12 sep $728.850 (+2,2%)",
+      "fecha": "2026-10-19",
+      "hora": "18:45",
+      "archivo": "articulos/2026-10-19-canasta-crianza-ciudad-septiembre.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano",
       "titulo": "En nueve meses de 2026 la Argentina juntó un superávit comercial de US$21.198 millones, más que en cualquier año completo desde 1910",
