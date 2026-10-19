@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-18T20:47:45-03:00",
+    "actualizado": "2026-10-18T23:09:29-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-18-espana-exportaciones-parte-mas-chica",
+      "titulo": "España compró el 1,4% de lo que exportó la Argentina en 2025, la parte más chica en al menos 23 años",
+      "bajada": "Javier Milei viaja el lunes a Madrid, y España es un cliente que pesa cada vez menos: en 2025 la Argentina le vendió US$1.225,8 millones, según el INDEC, y casi toda la caída de los últimos tres años está en un solo rubro, el de la harina de soja. En 2002 España se llevaba el 4,4% de las exportaciones y era el cuarto destino; en 2025 fue el decimoquinto.",
+      "titulo_busqueda": "¿Cuánto le vende la Argentina a España?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,4%",
+      "numero_label": "parte de las exportaciones argentinas de 2025 que compró España (US$1.225,8 M de US$87.111 M), la menor de la serie del INDEC que empieza en 2002; mínimo anterior 1,8% en 2024",
+      "fecha": "2026-10-18",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-18-espana-exportaciones-parte-mas-chica.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-18-despidos-sin-causa-agosto-mas-alto-desde-2019",
       "titulo": "Los despidos sin causa llegaron a 0,7 de cada 100 trabajadores en agosto, el nivel más alto para ese mes desde 2019",

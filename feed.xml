@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 18 Oct 2026 20:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 23:09:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>España compró el 1,4% de lo que exportó la Argentina en 2025, la parte más chica en al menos 23 años</title>
+      <link>https://coninteres.com/articulos/2026-10-18-espana-exportaciones-parte-mas-chica.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-18-espana-exportaciones-parte-mas-chica.html</guid>
+      <pubDate>Sun, 18 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Javier Milei viaja el lunes a Madrid, y España es un cliente que pesa cada vez menos: en 2025 la Argentina le vendió US$1.225,8 millones, según el INDEC, y casi toda la caída de los últimos tres años está en un solo rubro, el de la harina de soja. En 2002 España se llevaba el 4,4% de las exportaciones y era el cuarto destino; en 2025 fue el decimoquinto.</description>
+      <ci:numero>1,4%</ci:numero>
+      <ci:numeroEtiqueta>parte de las exportaciones argentinas de 2025 que compró España (US$1.225,8 M de US$87.111 M), la menor de la serie del INDEC que empieza en 2002; mínimo anterior 1,8% en 2024</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-espana-exportaciones-parte-mas-chica.png" length="73388" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-espana-exportaciones-parte-mas-chica.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los despidos sin causa llegaron a 0,7 de cada 100 trabajadores en agosto, el nivel más alto para ese mes desde 2019</title>
       <link>https://coninteres.com/articulos/2026-10-18-despidos-sin-causa-agosto-mas-alto-desde-2019.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte de los aportes y contribuciones al SIPA que pusieron los monotributistas en marzo de 2026, siendo el 20,9% de los aportantes (Secretaría de Seguridad Social, BESS cap. I, cuadros 1.1.1.a y 1.1.1.c: $41.491.193.895,75 de $3.150.757.052.863,47; 2.159.330 de 10.318.318); aporte promedio $19.215 contra $428.259 por asalariado (aporte $193.911 + contribución estimada $234.348), 22,3 veces; contraste ARCA cuadro de categorías feb-jul 2026 ponderado por el padrón del BESS: $19.432,52 teórico contra $19.551,47 medido (+0,6%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-monotributistas-aportes-jubilacion-asalariados.png" length="79266" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-monotributistas-aportes-jubilacion-asalariados.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El litro de leche que cobra el tambero perdió 14,2% contra la inflación en un año y tocó en septiembre su valor más bajo en casi diez años de serie oficial</title>
-      <link>https://coninteres.com/articulos/2026-10-16-tambero-leche-precio-real-piso.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-tambero-leche-precio-real-piso.html</guid>
-      <pubDate>Fri, 16 Oct 2026 11:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Los tambos cobraron en septiembre $543,01 por litro, según la Secretaría de Agricultura: 14,4% más que un año antes. Pero en el mismo lapso los precios subieron 33,4%. Descontada la inflación, el litro lleva 28 meses seguidos de baja, y desde marzo de 2026 cada mes marca un nuevo piso de la serie, que empieza en 2016.</description>
-      <ci:numero>−14,2%</ci:numero>
-      <ci:numeroEtiqueta>precio real por litro que cobró el tambero, septiembre 2026 contra septiembre 2025 (Agricultura, SIGLeA, ajustado por IPC del INDEC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-tambero-leche-precio-real-piso.png" length="73517" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-tambero-leche-precio-real-piso.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

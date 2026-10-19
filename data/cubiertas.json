@@ -5013,6 +5013,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; sin cupo de EMPRESAS (ya hubo nota hoy)"
+    },
+    {
+      "tema": "multa de $290 millones al Colegio Profesional Inmobiliario porteño (ex CUCICBA) por abuso de posición dominante contra corredores de RE/MAX (Clarín 18/10/2026; La Nación 16/10, Forbes, Cronista; resolución de la Autoridad Nacional de la Competencia del 09/10/2026, 200.000 unidades móviles)",
+      "angulo": "pregunta de plata: cuánto es la multa y por qué la pusieron",
+      "fecha": "2026-10-18",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "FRENADA: la resolución de la ANC no está publicada (no aparece en el Boletín Oficial del 01 al 18/10, ni en el sitio ni en el buscador de multas de Defensa de la Competencia); la cifra solo sale del comunicado de RE/MAX que reproducen los medios. Sin documento primario no hay ancla. Retomar si la ANC publica la resolución."
+    },
+    {
+      "tema": "¿cuánto le vende la Argentina a España? (viaje de Milei a Madrid del 19 al 22/10/2026: Fórum Europa, Conferencia de Economía Austríaca en la URJC y reunión con Díaz Ayuso, Infobae 18/10/2026) / exportaciones a España 2025 según la base del INDEC por destino (código 410)",
+      "angulo": "España compró el 1,4% de las exportaciones de 2025 (US$1.225,8 M de 87.111 M), la menor parte de la serie 2002-2025 (mínimo previo 1,82% en 2024; 4,42% en 2002, 4.º destino; 15.º en 2025). El capítulo 23 (harina de soja) explica el 93,7% de la caída 2022-2025 (800,4 a 322,6 M); pescados y mariscos estables (374,1 M en 2025, 30,5%; 0306.17 257,0 M). Impo desde España 1.167,2 M CIF, saldo +58,5 M. Contraste: aduana española vía UN Comtrade 1.402,8 M CIF en 2025 (-10,5% vs 2024). 2026 ene-ago INDEC +61,7% (1.128,8 M) pero España ene-jun +5,3% contra +41,1% del INDEC: diferencia origen vs último destino (langostino), mostrada y no usada como ancla.",
+      "fecha": "2026-10-18",
+      "estado": "publicada",
+      "articulo_id": "2026-10-18-espana-exportaciones-parte-mas-chica"
+    },
+    {
+      "tema": "descartes de la corrida programada del 18/10/2026 22:30: Colegio Inmobiliario (frenada aparte). Ganó la segunda, exportaciones a España (pregunta de plata detrás del viaje de Milei a Madrid). Lista no probada: pregunta de plata: cuánto paga el PAMI a las clínicas que suspenden la atención (La Nación; frenada hoy), cuánto cobra un trabajador avícola con el bono de $360.000 (iProfesional; acuerdo sin homologar a mano), cuánto cuesta la visita de León XIV (infobae; sin documento); empresas CNV/SEC (ya hubo nota de EMPRESAS hoy, Central Puerto, sin cupo; build_empresas.py sin presentaciones nuevas): IRSA recompra de ON (HR de un renglón), Arcor aplicación de fondos de la ON (emisión publicada 02/10), AES garantía de IDB Invest (préstamo del BID a AES en cola 15/10, mismo proyecto), FCA y PSA Compañía Financiera HR 16/10 (sin cifra en la línea), Vista Energy resultados 28/10 (no presentados); portadas: Día de la Madre -1,4% (infobae, ámbito, iProfesional, Cronista, TN; solo CAME), sin plata el día 20 (infobae, ámbito, iProfesional, Página12, TN; encuesta privada), moratoria de ARBA (infobae, La Nación, iProfesional, Cronista, Clarín, TN; frenada hoy), riesgo país ~650 (infobae, Página12, Clarín; cubierto), energía y superávit comercial (infobae; ICA de septiembre sale mañana 19/10 16:00), FMI US$70.000 M (TN; publicada 03/10), colectivos del AMBA (infobae, Cronista; en cola 17/10), morosidad 12,8% (Clarín; descartada 17/10). clarin.com y tn.com.ar leídos por curl.",
+      "angulo": "NO TOMADAS en la corrida programada del 18/10/2026 22:30.",
+      "fecha": "2026-10-18",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; sin cupo de EMPRESAS (ya hubo nota hoy)"
     }
   ]
 }
