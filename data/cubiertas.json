@@ -5137,6 +5137,20 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "No probadas: la primera candidata pasó la verificación. Cupo de empresas: AA2000, IRSA, Comafi y FCA/PSA quedaron detrás porque el documento de AA2000 no se pudo leer y los otros no traen cifra nueva o ya se evaluaron hoy; la de los jubilados judiciales es la pregunta de plata del día con estadística oficial recalculable y serie de diez años."
+    },
+    {
+      "tema": "¿cuánto debe Aeropuertos Argentina 2000? / ON Clase 12 (EMPRESAS, HR CNV 19/10/2026 con acta de directorio N° 402 del 16/10, suplemento de prospecto y aviso de suscripción): hasta US$400 M ampliable a US$600 M, 10 años, tasa fija a licitar, oferta 20-22/10/2026; gastos US$5,59 M (1,4%), neto US$394,41 M; ON en circulación US$487.346.572,54 (acta) = US$487.346.573 (informe trimestral ON CNV al 30/09/2026); internacionales existentes a cancelar antes del 05/02/2027 (Serie 2017, Clase 1 Serie 2020, Clase 1 Serie 2021, Clase 4) US$320.600.960,54, tasa ponderada 8,575%; deuda financiera 30/06/2026 $736.984 M (suplemento = EECC separados en la SEC) = US$497 M a $1.482; garantía: fideicomiso sobre tasas de uso y de carga (Res. ORSNA 74/2026); ingresos aeronáuticos 1S26 US$299 M, TUA internacional US$243 M (82%), total tasas de uso 90%",
+      "angulo": "Corrida programada del 19/10/2026 12:30, primera candidata probada (APTA). Cupo de EMPRESAS (hoy no había nota de la sección). Ángulo nuevo frente a la nota del 28/09 (concesión hasta 2056) y la del 09/10 (TUA de cabotaje): la deuda, para qué se pide y qué la garantiza. Ancla: decisión de la empresa, igual en tres presentaciones ante la CNV; stock de deuda cruzado entre acta, informe trimestral CNV y balance ante la SEC.",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-aeropuertos-argentina-deuda-400-millones-garantia-tasas",
+      "archivo": "cola/2026-10-19-aeropuertos-argentina-deuda-400-millones-garantia-tasas.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/10/2026 12:30: no se probaron porque la primera candidata (ON Clase 12 de Aeropuertos Argentina 2000, EMPRESAS) pasó la verificación. Lista no probada: precio del gasoil, 'el más caro de la región' (TN; el padrón de precios en surtidor de la Res. 314 se actualiza con atraso y la comparación regional pide fuentes oficiales de cada país); prórroga del régimen que permite cobrar planes sociales y trabajar en la cosecha (Decreto 1204/2026, BO 19/10; infobae, La Nación, iProfesional, Clarín; los 120.000 trabajadores son una estimación de RENATRE, sin dato oficial); canon de los bares licitados en 16 parques y plazas porteños (Clarín; sin pliego leído); RIGI de Mindlin y Sielecki en Vaca Muerta por US$3.200 M y de Pluspetrol y GyP por US$12.000 M (Clarín, ámbito, infobae; Pluspetrol contada el 02/10); riesgo país en 675, máximo del año (las ocho portadas; serie ya publicada); metalúrgica ADIMRA, máquinas paradas (ámbito, TN; una sola cámara); ventas del Día de la Madre -1,4% (CAME; ámbito, TN, iProfesional, Cronista; una sola fuente privada); retiro voluntario y seguro de desempleo (publicadas 19/10 y 17/10); deuda de $40.000 M con los colectivos del AMBA (Página12; subsidio en cola 17/10); ICA de septiembre (INDEC hoy 16:00, todavía no publicado); EMPRESAS: IRSA recompra de ON (HR 16/10, VN chico), FCA y PSA Compañía Financiera (asambleas extraordinarias del 12/11, sin cifras), Potenciar SGR (aviso de pago de ON pyme), Banco Comafi (HR 15/10), Arcor (HR 15/10; ON contada el 02/10)",
+      "angulo": "NO TOMADAS en la corrida programada del 19/10/2026 12:30.",
+      "fecha": "2026-10-19",
+      "estado": "descartada"
     }
   ]
 }
