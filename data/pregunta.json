@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-18",
-  "pregunta": "En septiembre de 2026, 127.613 personas cobraron el seguro de desempleo y la prestación promedio fue de $325.368: 18,6% más que un año antes. En ese año los precios subieron 33,4%. ¿Qué pasó con lo que se puede comprar con esa prestación?",
+  "fecha": "2026-10-19",
+  "pregunta": "En agosto de 2026 las empresas privadas despidieron sin causa a 0,66 de cada 100 trabajadores registrados, según la encuesta de la Secretaría de Trabajo. En una empresa de 1.500 empleados, ¿cuántos despidos sin causa en un mes representa esa tasa?",
   "opciones": [
-    "Subió 18,6%: el aumento en pesos es la mejora",
-    "Bajó 11,1%: el aumento en pesos fue menor que la suba de precios",
-    "Bajó 14,8%: la diferencia entre 33,4% y 18,6%"
+    "Unos 10",
+    "Unos 99: es el 6,6% del personal",
+    "Menos de 1: es 0,66 por cada mil"
   ],
-  "correcta": 1,
-  "explicacion": "Un aumento en pesos no es un aumento de poder de compra: hay que compararlo con la inflación. Y no se resta, se divide: 1,186 / 1,334 = 0,889, o sea 11,1% menos de poder de compra. Restar (33,4 - 18,6 = 14,8 puntos) exagera la pérdida, y el error crece cuanto más alta es la inflación. Además, en septiembre cobraban la prestación 27.269 personas más que un año antes: más gente cobra, y cada una puede comprar menos con lo que recibe.",
-  "nota": "articulos/2026-10-17-seguro-desempleo-127-mil-cobran-septiembre.html",
+  "correcta": 0,
+  "explicacion": "Una tasa \"cada 100\" es un porcentaje: 0,66 cada 100 trabajadores es 0,66%. Para 1.500 empleados, 1.500 × 0,66 / 100 = 9,9: unos 10 en un mes. Correr la coma un lugar (6,6%) o leerla como \"por mil\" son los dos errores más comunes con las tasas chicas. Parece poco, pero es por mes: si se repitiera todos los meses, en un año sumaría 7,9 despidos cada 100 puestos. Y la tasa de agosto fue la más alta para ese mes desde 2019, cuando fue 0,74.",
+  "nota": "articulos/2026-10-18-despidos-sin-causa-agosto-mas-alto-desde-2019.html",
   "leccion": ""
 }

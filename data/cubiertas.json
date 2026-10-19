@@ -5052,6 +5052,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "¿cuánta plata le pone el Estado al PAMI? (La Nación 18/10/2026: Capress, Acami, Salud Federal y Clínicas de la Patagonia suspenden la atención a afiliados del PAMI el 21 y 22/10) / asistencia financiera del Tesoro al INSSJP, Presupuesto Abierto servicio 356 prog. 88: ene-sep 2026 $1.216.573,6 M vs ene-sep 2025 $1.218.549 M, real -26,3% (OPC sep-26 igual); ANSES serv. 850 prog. 99 ene-sep 2026 $1.618.803,9 M +2,7% real; aporte financiero reintegrable Res. Conjunta 26/2026 (BO 22/05/2026) $580.270.262.261,46 en LECAP; con él +8,4% real; 2025 Tesoro $1.698.549 M = 50,1% de lo que el PAMI recibió del presupuesto; serie 2017-2025: Tesoro solo en 2020-2021 (pandemia) y desde sep-2024; ANSES real 2017 3,51 -> 2024 2,03 billones de sep-26 (-42,0%); crédito vigente 2026 $1.606.865,2 M, devengado al 18/10 $1.366.573,6 M (85,0%)",
+      "angulo": "Corrida programada del 19/10/2026 02:30, segunda candidata probada (APTA). Pregunta de plata detrás del conflicto de las clínicas con el PAMI. Ángulo nuevo: ninguna nota previa contó las transferencias del Estado al PAMI (la del 11/10 en cola es la cobertura al celíaco). Ancla por estadística oficial recalculada (mensual = anual) + contraste OPC (mismos cuatro números) + Boletín Oficial.",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-pami-tesoro-asistencia-26-por-ciento-menos"
+    },
+    {
+      "tema": "cuánto y cuándo le tiene que pagar la Argentina al FMI (La Nación 18/10/2026: US$70.000 M en dos décadas) / FMI, Financial Position in the Fund de Argentina al 30/09/2026: crédito vigente DEG 41.968,67 M; pagos proyectados DEG 898,65 M (2026), 5.790,01 (2027), 7.132,68 (2028), 7.904,94 (2029), 8.568,11 (2030)",
+      "angulo": "Corrida programada del 19/10/2026 02:30, primera candidata probada.",
+      "fecha": "2026-10-19",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "FRENADA por repetición: la nota publicada del 03/10/2026 (2026-10-03-deuda-fmi-cuanto-debe-argentina-vencimientos) ya contó la deuda con el FMI y los vencimientos de capital de 2027; el cronograma del FMI no agrega un ángulo de datos nuevo suficiente. El sitio del FMI publica solo cinco años, así que el total de dos décadas no se podía recalcular desde la fuente."
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/10/2026 02:30: no se probaron porque la segunda candidata (asistencia del Tesoro al PAMI) pasó la verificación. Lista no probada: EMPRESAS IRSA recompra de ON Clase XXV (HR CNV 16/10/2026: VN US$9.000.000, 18,0% de la clase emitida el 08/06/2026, a 100,68%); EMPRESAS FCA Compañía Financiera y PSA Finance Argentina (Stellantis) convocan asambleas extraordinarias el 12/11/2026 (HR CNV 16/10, el orden del día no está en el hecho relevante); ICA de septiembre (INDEC hoy 16:00, todavía no publicado) y la energía como 45% del superávit comercial (infobae); riesgo país cerca de 650 puntos (infobae, Página/12, iProfesional); ventas del Día de la Madre -1,4% (CAME, una sola fuente privada; cinco portales); dos de cada tres se quedan sin plata el día 20 (encuesta privada; cuatro portales); subasta de bienes de Lázaro Báez (infobae)",
+      "angulo": "NO TOMADAS en la corrida programada del 19/10/2026 02:30.",
+      "fecha": "2026-10-19",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la candidata del PAMI pasó la verificación; tope de una nota por corrida. Las de empresas quedaron detrás porque la de IRSA es una recompra chica (US$9 M) de una empresa con tres notas o descartes en el último mes y las de Stellantis no traen cifra en el documento; la del PAMI es una pregunta de plata con documento primario y contraste del Congreso."
     }
   ]
 }
