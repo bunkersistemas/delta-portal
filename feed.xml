@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 02:54:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 05:05:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Senado bonaerense tiene $156.204 millones de presupuesto para 2026: $3.396 millones por banca, 40% más que cada banca de Diputados</title>
+      <link>https://coninteres.com/articulos/2026-10-19-senado-bonaerense-presupuesto-por-banca.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-senado-bonaerense-presupuesto-por-banca.html</guid>
+      <pubDate>Mon, 19 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>La ley de presupuesto propia del Senado de la provincia de Buenos Aires le fija $156.204 millones para 2026. Con 46 senadores son $3.396 millones por banca por año, contra $2.422 millones en Diputados. Descontada la inflación, la ley de 2026 fija 26,2% menos que la de 2018: el Senado no creció en términos reales, pero cada banca sigue costando más que una de Diputados. Y el monto es el piso, no el techo: la misma ley deja que la presidencia del cuerpo suba la partida de sueldos.</description>
+      <ci:numero>$156.204 M</ci:numero>
+      <ci:numeroEtiqueta>presupuesto 2026 del Senado de la provincia de Buenos Aires: Ley 15.559, art. 1 ($156.204.115.970 = $151.134.718.973 corrientes + $5.069.396.997 de capital), promulgada sin observaciones por el Decreto 2946/2025; 46 bancas = $3.395.741.652 por banca por año; Diputados, Ley 15.560: $222.800.000.000 / 92 = $2.421.739.130; contraste Fundación Libertad (Infobae 21/09/2026): Legislatura bonaerense $379.004 M y $2.746 M por banca (nuestra suma 379.004 M y 2.746,4 M)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-senado-bonaerense-presupuesto-por-banca.png" length="94546" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-senado-bonaerense-presupuesto-por-banca.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>En nueve meses, el Tesoro le giró al PAMI 26,3% menos que en 2025, descontada la inflación, y aparte le prestó $580.270 millones que tiene que devolver</title>
       <link>https://coninteres.com/articulos/2026-10-19-pami-tesoro-asistencia-26-por-ciento-menos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>suba del precio mayorista del petróleo crudo y el gas, diciembre de 2025 a septiembre de 2026 (INDEC, IPIM)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-petroleo-mayorista-77-surtidor-29.png" length="71049" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-petroleo-mayorista-77-surtidor-29.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Criar a un chico de 6 a 12 años costó $728.850 en septiembre: la AUH y la Prestación Alimentar cubren el 31%, y sin contar el cuidado, el 60%</title>
-      <link>https://coninteres.com/articulos/2026-10-16-canasta-crianza-auh-prestacion-alimentar.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-16-canasta-crianza-auh-prestacion-alimentar.html</guid>
-      <pubDate>Fri, 16 Oct 2026 17:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Lo que el Estado paga por un hijo a una familia con AUH alcanza para el 60% de lo que consume un chico de 6 a 12 años, y para el 31% si se suma el tiempo de cuidado. La AUH sola cubre más del doble que en diciembre de 2023, pero en el último año perdió terreno: subió 33,8%, y los bienes de la canasta de crianza que el INDEC publicó hoy, 38,7%.</description>
-      <ci:numero>$728.850</ci:numero>
-      <ci:numeroEtiqueta>costo mensual de criar a un chico de 6 a 12 años en septiembre de 2026 (INDEC, canasta de crianza, informe del 16/10/2026, cuadro 1): bienes $377.231 (CBT GBA $528.318,67 x 0,71402) + cuidado $351.619 (84 h x $4.185,94, escala ARCA sep-26 / Res. CNTCP 6/2026); AUH sep-26 $154.031 (Res. ANSES 260/2026 anexo V) + Prestación Alimentar 1 hijo $72.250 (Res. MCH 161/2026) = $226.281: 31,0% de la canasta total y 60,0% de los bienes; AUH/bienes 6-12: 18,0% dic-23, 42,5% jun-25 (máximo desde ene-20), 40,8% sep-26; AUH +33,8% i.a. vs bienes +38,7%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-16-canasta-crianza-auh-prestacion-alimentar.png" length="96352" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-16-canasta-crianza-auh-prestacion-alimentar.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-19T02:54:33-03:00",
+    "actualizado": "2026-10-19T05:05:14-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-19-senado-bonaerense-presupuesto-por-banca",
+      "titulo": "El Senado bonaerense tiene $156.204 millones de presupuesto para 2026: $3.396 millones por banca, 40% más que cada banca de Diputados",
+      "bajada": "La ley de presupuesto propia del Senado de la provincia de Buenos Aires le fija $156.204 millones para 2026. Con 46 senadores son $3.396 millones por banca por año, contra $2.422 millones en Diputados. Descontada la inflación, la ley de 2026 fija 26,2% menos que la de 2018: el Senado no creció en términos reales, pero cada banca sigue costando más que una de Diputados. Y el monto es el piso, no el techo: la misma ley deja que la presidencia del cuerpo suba la partida de sueldos.",
+      "titulo_busqueda": "¿Cuánto cuesta el Senado bonaerense?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$156.204 M",
+      "numero_label": "presupuesto 2026 del Senado de la provincia de Buenos Aires: Ley 15.559, art. 1 ($156.204.115.970 = $151.134.718.973 corrientes + $5.069.396.997 de capital), promulgada sin observaciones por el Decreto 2946/2025; 46 bancas = $3.395.741.652 por banca por año; Diputados, Ley 15.560: $222.800.000.000 / 92 = $2.421.739.130; contraste Fundación Libertad (Infobae 21/09/2026): Legislatura bonaerense $379.004 M y $2.746 M por banca (nuestra suma 379.004 M y 2.746,4 M)",
+      "fecha": "2026-10-19",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-19-senado-bonaerense-presupuesto-por-banca.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-19-pami-tesoro-asistencia-26-por-ciento-menos",
       "titulo": "En nueve meses, el Tesoro le giró al PAMI 26,3% menos que en 2025, descontada la inflación, y aparte le prestó $580.270 millones que tiene que devolver",

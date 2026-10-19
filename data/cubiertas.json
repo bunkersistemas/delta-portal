@@ -5075,6 +5075,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la candidata del PAMI pasó la verificación; tope de una nota por corrida. Las de empresas quedaron detrás porque la de IRSA es una recompra chica (US$9 M) de una empresa con tres notas o descartes en el último mes y las de Stellantis no traen cifra en el documento; la del PAMI es una pregunta de plata con documento primario y contraste del Congreso."
+    },
+    {
+      "tema": "¿cuánto cuesta el Senado bonaerense? (La Nación 18/10/2026: la Justicia espera un peritaje en la causa por 39 empleados del Senado que entregaban sus sueldos a recaudadores, perjuicio inicial estimado en ~$300 M, peculado) / Ley 15.559 (presupuesto propio del Senado 2026): $156.204.115.970 ($151.134.718.973 corrientes + $5.069.396.997 capital), Decreto 2946/2025 sin observaciones; 46 bancas = $3.396 M por banca/año ($283 M/mes); Diputados Ley 15.560 $222.800 M / 92 = $2.422 M (+40,2% por banca en el Senado); Legislatura $379.004 M = Fundación Libertad (Infobae 21/09/2026); serie de leyes del Senado a pesos de 2026 (IPC nacional prom. anual, 2026 ene-sep): 2018 211.564, 2019 170.935, 2021 166.664, 2022 156.912, 2023 149.901, 2026 156.204 (-26,2% vs 2018, +4,2% vs 2023); sin ley 2020/2024/2025 (art. 7 convalida aumentos 2024/25); art. 3 permite subir la partida de personal; Ley 15.557 art. 5: Min. Economía $70.887 M, Tribunal de Cuentas $36.963 M",
+      "angulo": "Corrida programada del 19/10/2026 04:30, primera candidata probada (APTA). Pregunta de plata detrás de la causa de los empleados del Senado bonaerense. Ángulo nuevo: ninguna nota previa contó el presupuesto de la Legislatura bonaerense (la del 26/09 fue el Congreso nacional). Ancla: documento oficial recalculado (corrientes + capital = total) + contraste independiente (Fundación Libertad, total de la Legislatura al millón).",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-senado-bonaerense-presupuesto-por-banca"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/10/2026 04:30: no se probaron porque la primera candidata (presupuesto del Senado bonaerense) pasó la verificación. Lista no probada: EMPRESAS IRSA recompra de ON Clase XXV (HR CNV 16/10/2026: VN US$9.000.000, 18,0% de la clase de US$50 M emitida el 08/06/2026 al 3,75% a 12 meses, recomprada a 100,68%); EMPRESAS FCA Compañía Financiera y PSA Finance Argentina, asambleas extraordinarias del 12/11/2026 (el hecho relevante no trae orden del día); EMPRESAS Arcor aplicación de fondos de ON (PDF escaneado, sin texto); importación de servicios tecnológicos que iguala a la inversión en maquinaria (infobae); ICA de septiembre (INDEC hoy 16:00, todavía no publicado) y la energía como 45% del superávit comercial (infobae); USD 445 M en armamento en la gestión Milei (infobae); riesgo país cerca de 650 puntos (infobae, Página/12, iProfesional); ventas del Día de la Madre (CAME, una sola fuente privada); 72% de los menores de 40 sin plata antes del día 20 (encuesta privada; ámbito, Página/12, iProfesional).",
+      "angulo": "Registro de la corrida.",
+      "fecha": "2026-10-19",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "No probadas: ganó la primera candidata. IRSA (cupo de empresas) quedó segunda: la recompra de US$9 M de una ON a 12 meses es un hecho menor y la empresa no explica el motivo en el documento; la pregunta de plata sobre el Senado tenía documento oficial completo y la causa judicial como disparador del día."
     }
   ]
 }
