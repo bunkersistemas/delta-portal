@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-19T05:05:14-03:00",
+    "actualizado": "2026-10-19T06:43:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-19-correo-argentino-tesoro-cero-2025-2026",
+      "titulo": "El Correo Argentino no recibió un peso del Tesoro en 2025 ni en lo que va de 2026, después de llevarse $223.684 millones en 2024",
+      "bajada": "En 2025 el Tesoro no le giró nada al Correo Argentino, aunque el plan aprobado por Economía preveía $31.000 millones, y en 2026 el presupuesto ni siquiera tiene la partida. Hasta entonces le había girado todos los años, de 2017 a 2024: en 2024, $223.684 millones, $459.389 millones de hoy. En el medio, el Correo pasó de perder $289.999 millones a ganar $209.634 millones, en un año electoral en el que el Estado también le pagó la logística de las elecciones.",
+      "titulo_busqueda": "¿Cuánta plata le pone el Estado al Correo Argentino?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$0",
+      "numero_label": "transferencias del Tesoro al Correo Oficial de la República Argentina S.A. en 2025 y en 2026 al 18/10/2026: Presupuesto Abierto, devengado, inciso 5, subparcial 752 'Correo Argentino' (2025: crédito $133.918 M corrientes + $1.000 M capital, devengado 0; 2026: sin crédito ni devengado); 2024: $223.684 M (feb-oct; mensual = anual), $459.389 M de sep-2026 con IPC INDEC mes a mes; último giro oct-2024 $5.000 M. Contraste: Memoria y EECC 2025 del Correo ('dejó de requerir asistencia del Tesoro Nacional'); plan 2026 Res. ME 221/2026 sin aportes del Tesoro y con $60.000 M del Correo al Tesoro; plan 2025 Res. ME 1130/2025 preveía $31.000 M; MECON vía iProfesional 08/08/2025: 2024 $223.684 M",
+      "fecha": "2026-10-19",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-19-correo-argentino-tesoro-cero-2025-2026.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-19-senado-bonaerense-presupuesto-por-banca",
       "titulo": "El Senado bonaerense tiene $156.204 millones de presupuesto para 2026: $3.396 millones por banca, 40% más que cada banca de Diputados",

@@ -5090,6 +5090,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "No probadas: ganó la primera candidata. IRSA (cupo de empresas) quedó segunda: la recompra de US$9 M de una ON a 12 meses es un hecho menor y la empresa no explica el motivo en el documento; la pregunta de plata sobre el Senado tenía documento oficial completo y la causa judicial como disparador del día."
+    },
+    {
+      "tema": "¿cuánta plata le pone el Estado al Correo Argentino? (La Nación 19/10/2026 'Enarsa y Correo Argentino dejan atrás el déficit y la ayuda del Tesoro') / transferencias del Tesoro al Correo Oficial de la República Argentina S.A., Presupuesto Abierto inciso 5 subparcial 752: 2017-2024 todos los años (2024 $223.684 M, $459.389 M de sep-26; total 2017-2024 $3,11 billones de hoy; máximo real 2021 $583.370 M, mínimo 2019 $172.803 M), 2025 y 2026 al 18/10 cero; último giro oct-2024 $5.000 M; plan 2025 (Res. ME 1130/2025) preveía $31.000 M; plan 2026 (Res. ME 221/2026) prevé $60.000 M del Correo al Tesoro; Memoria 2025: resultado neto -289.999 (2024) a +209.634 (2025) MM$ de dic-25, plan de reestructuración 2024 $217.171 M, ventas +46,2% con la logística electoral 2025 ($225.113 M según Fundación Éforo)",
+      "angulo": "Corrida programada del 19/10/2026 06:30, primera candidata probada. Ángulo nuevo respecto de 2026-09-28 (Enarsa) y 2026-10-04 (costo de las elecciones): la serie de la asistencia del Tesoro al Correo y su corte a cero.",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-correo-argentino-tesoro-cero-2025-2026"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/10/2026 06:30: no se probaron porque la primera candidata (asistencia del Tesoro al Correo Argentino, pregunta de plata) pasó la verificación. Lista: Día de la Madre ventas -1,4% (CAME; infobae, ámbito, iProfesional, Cronista: una sola cámara y ropa ya publicada el 18/10), 'dos de cada tres se quedan sin plata el día 20' (infobae, ámbito, iProfesional, Página12: encuesta privada sin método publicado), riesgo país cerca de 650 (infobae, Página12, La Nación: cubierto en septiembre y octubre), moratoria de ARBA (infobae, La Nación, Cronista: frenada el 18/10), ICA de septiembre (calendario, sale hoy a las 16, todavía no publicado), balanza energética 45% del superávit comercial (infobae), importación de servicios tecnológicos vs. maquinaria (infobae), MSCI Merval (La Nación), empresas CNV: IRSA recompra de ON (HR 16/10) y Arcor aplicación de fondos de ON (HR 15/10; ON ya cubiertas el 02/10). Cupo de empresas: no se tomó IRSA ni Arcor porque la candidata del Correo, nota sobre una empresa del Estado con documentos de la propia empresa, ganó por el criterio 1 (pregunta que la gente busca).",
+      "angulo": "Corrida programada del 19/10/2026 06:30.",
+      "fecha": "2026-10-19",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "No probadas: la primera candidata pasó la verificación."
     }
   ]
 }
