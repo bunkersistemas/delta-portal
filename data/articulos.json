@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-19T15:06:46-03:00",
+    "actualizado": "2026-10-19T16:42:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano",
+      "titulo": "En nueve meses de 2026 la Argentina juntó un superávit comercial de US$21.198 millones, más que en cualquier año completo desde 1910",
+      "bajada": "Entre enero y septiembre, la Argentina vendió al mundo US$21.198 millones más de lo que le compró, según el INDEC. Es más que el mejor año completo de la serie, que fue 2024 con US$18.928 millones. La energía puso algo más de un tercio. El resto vino sobre todo de más ventas del campo y la industria y de importaciones que cayeron en volumen.",
+      "titulo_busqueda": "¿Cuánto superávit comercial tiene la Argentina en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$21.198 M",
+      "numero_label": "de superávit comercial de bienes en enero-septiembre de 2026 (INDEC, ICA 19/10/2026): más que cualquier año completo de la serie 1910-2025 (máximo anterior 2024, US$18.928 M)",
+      "fecha": "2026-10-19",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre",
       "titulo": "Un plazo fijo de $1.000.000 a 30 días paga $15.822 en el Banco Nación: ninguno de los diez bancos más grandes le gana a la inflación de septiembre",

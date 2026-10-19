@@ -5166,6 +5166,14 @@
       "fecha": "2026-10-19",
       "estado": "publicada",
       "articulo_id": "2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre"
+    },
+    {
+      "tema": "¿cuánto superávit comercial tiene la Argentina en 2026? / ICA septiembre 2026 (INDEC 19/10/2026, calendario; ámbito, Clarín, Cronista, infobae): ene-sep expo US$77.267 M (+21,6%), impo US$56.069 M (-2,5%), saldo US$21.198 M (recalculado 21.198,3 sumando balanmensual.xls) > cualquier año completo de la serie 1910-2025 (2024 US$18.927,6 M; 2009 16.885,8; 2002 16.661,1; 2025 11.320,1); sep expo US$10.036 M, primer mes arriba de US$10.000 M (serie mensual desde 1990; previo may-26 9.577,8), saldo sep 2.976 (mayor septiembre desde 1990, previo 2019 1.744,1); energía cap. 27 ene-sep US$8.000 M (4.503 en 2025) = 37,7% del saldo y 23,1% de la mejora de 15.152; saldo a precios de 2025 US$17.537 M (cantidades 11.491, precios 3.661); contraste BCRA balance cambiario bienes ene-ago 2026 US$23.249 M, máximo desde 2003 (2024 16.729; 2025 11.971) vs INDEC ene-ago 18.222",
+      "angulo": "Corrida programada del 19/10/2026 16:30, primera candidata probada (APTA). Dato del calendario con ángulo propio: ranking histórico contra años completos (serie anual 1910-2025) y cuánto explica la energía y cuánto precios vs cantidades. Distinto de la nota del 31/08 (brecha aduana-cambios) y de la del 13/10 (cuenta corriente). Verificación: estadística oficial recalculada + contraste BCRA.",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano",
+      "archivo": "cola/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.html"
     }
   ]
 }

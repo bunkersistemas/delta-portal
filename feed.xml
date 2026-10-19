@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 19 Oct 2026 15:06:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 19 Oct 2026 16:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En nueve meses de 2026 la Argentina juntó un superávit comercial de US$21.198 millones, más que en cualquier año completo desde 1910</title>
+      <link>https://coninteres.com/articulos/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.html</guid>
+      <pubDate>Mon, 19 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre enero y septiembre, la Argentina vendió al mundo US$21.198 millones más de lo que le compró, según el INDEC. Es más que el mejor año completo de la serie, que fue 2024 con US$18.928 millones. La energía puso algo más de un tercio. El resto vino sobre todo de más ventas del campo y la industria y de importaciones que cayeron en volumen.</description>
+      <ci:numero>US$21.198 M</ci:numero>
+      <ci:numeroEtiqueta>de superávit comercial de bienes en enero-septiembre de 2026 (INDEC, ICA 19/10/2026): más que cualquier año completo de la serie 1910-2025 (máximo anterior 2024, US$18.928 M)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.png" length="86884" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un plazo fijo de $1.000.000 a 30 días paga $15.822 en el Banco Nación: ninguno de los diez bancos más grandes le gana a la inflación de septiembre</title>
       <link>https://coninteres.com/articulos/2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>caída real de las transferencias del Tesoro a Radio y Televisión Argentina (Canal 7 y Radio Nacional), enero-septiembre de 2026 contra enero-septiembre de 2023: Presupuesto Abierto, Obligaciones a Cargo del Tesoro, subparcial 'Radio y Televisión Argentina', devengado $50.880,0 M (2026, al 14/10) contra $21.041,1 M (2023), cada mes a pesos de sep-26 con IPC nacional INDEC: 54.542 contra 157.268 M. Contra 2025 +4,0% real (+39,3% nominal). Contraste OPC 1S-2026 $31.814 M (BAE 04/08/2026) y Chequeado 2023 $34.057 M (nuestras corrientes 34.057,6)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-canal-7-75-anos-tesoro-rta-65-por-ciento.png" length="88432" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-canal-7-75-anos-tesoro-rta-65-por-ciento.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las expensas en la Ciudad subieron 3,4% en septiembre, casi el doble que la inflación porteña, y ya acumulan 41,2% en un año</title>
-      <link>https://coninteres.com/articulos/2026-10-17-expensas-caba-suben-doble-inflacion.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-17-expensas-caba-suben-doble-inflacion.html</guid>
-      <pubDate>Sat, 17 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Frente al resto de los precios, las expensas de la Ciudad de Buenos Aires nunca estuvieron tan caras desde que arranca la serie, en febrero de 2022. En septiembre subieron 3,4%, casi el doble que el resto de los precios porteños (1,8%), según el índice de precios de la Ciudad (IDECBA). Fue el segundo mes seguido con esa suba, y en un año acumulan 41,2%, contra 32,9% de la inflación porteña.</description>
-      <ci:numero>+3,4%</ci:numero>
-      <ci:numeroEtiqueta>suba mensual de las expensas en la Ciudad de Buenos Aires en septiembre de 2026: rubro 'Gastos comunes por la vivienda' del IPCBA (IDECBA, informe 08/10/2026; índice 2.931,85 contra 2.835,80 de agosto, recalculado 3,39% con la planilla de aperturas). Nivel general IPCBA 1,8%. Interanual 41,2% contra 32,9%; acumulado 2026 32,4% contra 23,7%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-expensas-caba-suben-doble-inflacion.png" length="82050" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-expensas-caba-suben-doble-inflacion.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
