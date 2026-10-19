@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-19T06:43:57-03:00",
+    "actualizado": "2026-10-19T08:42:42-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga",
+      "titulo": "El nuevo retiro voluntario del Estado nacional paga hasta 25 sueldos brutos y llega al tope con 20 años de antigüedad",
+      "bajada": "El retiro voluntario que abre el Decreto 1203/2026, publicado hoy, paga hasta 25 sueldos brutos, pero llega a ese máximo recién con 20 años de antigüedad. El de 2018 para la administración nacional, el del Decreto 263, llegaba al suyo con 10. Alcanza a la planta permanente de la administración nacional centralizada: quien tenga hasta 57 años, si es mujer, o hasta 62, si es hombre, cobra un sueldo bruto por año de antigüedad, con un tope de 20, más 4 o 5 de adicional. Se adhiere del 1 al 30 de noviembre, y el Estado puede rechazar el pedido.",
+      "titulo_busqueda": "¿Cuánto cobro si me adhiero al retiro voluntario del Estado nacional?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "25 sueldos",
+      "numero_label": "máximo de la gratificación única del retiro voluntario del Decreto 1203/2026 (BO 19/10/2026), Grupo 3 (mujeres hasta 57, hombres hasta 62): Anexo I IF-2026-100691130-APN-STEYFP#MDYTE art. 8, 1 remuneración bruta por año de antigüedad con tope de 20 + adicional de 5 con 15 o más años en planta permanente (4 si menos); recálculo 20 + 5 = 25; registro InfoLEG id 431314; lectura coincidente de El Cronista 19/10/2026",
+      "fecha": "2026-10-19",
+      "hora": "08:30",
+      "archivo": "articulos/2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-19-correo-argentino-tesoro-cero-2025-2026",
       "titulo": "El Correo Argentino no recibió un peso del Tesoro en 2025 ni en lo que va de 2026, después de llevarse $223.684 millones en 2024",

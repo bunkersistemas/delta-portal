@@ -5105,6 +5105,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "No probadas: la primera candidata pasó la verificación."
+    },
+    {
+      "tema": "¿cuánto cobro si me adhiero al retiro voluntario del Estado nacional? (El Cronista 19/10/2026 'El Gobierno aprobó un nuevo régimen de retiro voluntario para los empleados públicos: cuánto cobro si adhiero') / Decreto 1203/2026 (BO 19/10/2026, firmado 16/10), Anexo I IF-2026-100691130-APN-STEYFP#MDYTE: planta permanente y LCT por tiempo indeterminado de la APN centralizada; Grupo 3 (mujeres hasta 57, hombres hasta 62) 1 sueldo bruto por año, tope 20, + 4 (menos de 15 años en planta) o + 5 (15 o más) = máx. 25; Grupo 2 (58-64 / 63-64 con 30 años de aportes) tope 18 y meses hasta jubilarse + 5; Grupo 1 (sin aportes) 60% mensual hasta 36 meses o tope 18; pago único hasta $20 M, si no cuotas de $20 M hasta 3; adhesión 1 al 30/11/2026 (prórroga hasta 30 días); reingreso prohibido 8 años; comparación: ANSES Etapa 1 (Res. 68/2026) 0,9 por año tope 24; Decreto 263/2018 inc. c) 10+ años 6 + 24 x 70% = 22,8 sueldos NETOS; ejemplo SINEP F0 oct $577.879 x 25 = $14,4 M, tope grilla $3.707.383 x 25 = $92,7 M; INDEC dotación ago-26 centralizada 37.543 (30.445 en convenio)",
+      "angulo": "Corrida programada del 19/10/2026 08:30, primera candidata probada (APTA). Pregunta de plata del día (decreto publicado hoy). Ángulo nuevo respecto de 2026-10-03 (retiro de la ANSES), que decía que el decreto para el resto de la administración todavía no tenía montos: ahora están en la norma. Ancla por norma leída en el original del BO + registro InfoLEG + recálculo; El Cronista como lectura coincidente.",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga",
+      "archivo": "cola/2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/10/2026 08:30: no se probaron porque la primera candidata (retiro voluntario del Decreto 1203/2026, pregunta de plata) pasó la verificación. Lista no probada: Decreto 1205/2026 'Declárase Secreto Militar' y la compra de equipamiento militar clasificada (infobae; sin monto en documento público); EMPRESAS IRSA recompra de ON Clase XXV (HR CNV 16/10/2026, VN US$9 M); EMPRESAS FCA Compañía Financiera y PSA Finance Argentina, asambleas extraordinarias del 12/11 (HR CNV 16/10, sin orden del día con cifras); ICA de septiembre (INDEC hoy 16:00, todavía no publicado) y la energía como 45% del superávit comercial (infobae); importación de servicios tecnológicos que iguala a la inversión en maquinaria (infobae); ventas del Día de la Madre -1,4% (CAME, una sola fuente privada; ámbito, iProfesional, Cronista, infobae); 72% de los menores de 40 sin plata antes del día 20 (encuesta privada; ámbito, Página12, iProfesional); riesgo país cerca de 650 (infobae, Página12, iProfesional); suba salarial de los talleres mecánicos (iProfesional); aguinaldo de diciembre para Reparación Histórica (iProfesional)",
+      "angulo": "NO TOMADAS en la corrida programada del 19/10/2026 08:30.",
+      "fecha": "2026-10-19",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "No probadas: la primera candidata pasó la verificación. Cupo de empresas: IRSA y Stellantis quedaron detrás porque la recompra de US$9 M de una ON a 12 meses es un hecho menor ya evaluado tres veces hoy y los HR de FCA/PSA no traen cifras; el decreto del retiro voluntario es la pregunta de plata del día con documento oficial completo."
     }
   ]
 }
