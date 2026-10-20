@@ -1,5 +1,24 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-20T14:30:00-03:00",
-  "borradores": []
+  "actualizado": "2026-10-20T16:30:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-10-20-u2-river-cuanto-cuesta-entrada",
+      "titulo": "¿Cuánto cuesta ver a U2 en River y cuánta plata mueven sus dos recitales?",
+      "titulo_busqueda": "¿Cuánto salen las entradas de U2 en River 2027? Precios, dólares y salario mínimo",
+      "bajada": "Ninguno de los cinco paquetes que hoy publica la ticketera oficial para ver a U2 en River baja de 1,7 salarios mínimos: van de $680.000 a $1.500.000, más el cargo por servicio, y la Red Zone, de $700.000, equivale a 1,8. Los dos shows, el 23 y el 25 de marzo de 2027, son los únicos en el país. La plata que mueven es otra cuestión: no encontramos ningún organismo que la mida recital por recital, y los hoteles porteños se llenan todos los noviembres, haya o no un recital gigante.",
+      "seccion": "ECONOMÍA",
+      "formato": "Investigación",
+      "numero": "$700.000",
+      "numero_label": "precio del paquete (RED) Zone para ver a U2 en River el 23 o el 25 de marzo de 2027, sin cargo por servicio (All Access, página oficial del evento, 20/10/2026; mismo valor en La Nación 20/10 y Perfil 16/10): 1,79 salarios mínimos de octubre ($391.200, Res. 4/2026) y US$453 al oficial BNA de $1.545. Paquetes de la ticketera: $680.000 a $1.500.000",
+      "fecha": "2026-10-20",
+      "hora": "16:30",
+      "archivo": "cola/2026-10-20-u2-river-cuanto-cuesta-entrada.html",
+      "verificacion": "verificada",
+      "fuentes": 15,
+      "lectura": "30 seg → 8 min",
+      "pedido": 105,
+      "revision_lector": true
+    }
+  ]
 }
