@@ -5291,6 +5291,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "¿cuánto paga el Estado por un tratamiento de adicciones? (infobae 20/10/2026 'El Gobierno aumentó los subsidios y las becas para el abordaje integral de los consumos problemáticos') / Resoluciones MS 1457 a 1460/2026 (BO 20/10/2026, rigen 01/11/2026): Programa de Subsidios para el Abordaje Integral (Res. Sedronar 71/2023), categoría A convivencial alto apoyo $47.385/día (nov-25 $36.450, Res. MS 2924/2025; sep-24 $18.225, Res. Sedronar 410/2024), B $32.040, C $26.073, casa de día $15.683/$21.362, consultorio $6.217/h; becas Ingreso Estímulo A1 $877.500 (nov-25 $675.000; sep-24 $540.000, Res. 402/2024); CAAC MMC $9.897.056; CCC base $12.611.177",
+      "angulo": "Corrida programada del 20/10/2026 08:30, candidata probada en segundo lugar (APTA; la primera, el chequeo de la frase de Milei sobre la inflación núcleo 'en torno al 20%', se frenó aparte). Ángulo propio: nadie lo comparó con la inflación. Factor 1,30 exacto en todas las categorías y programas de 2026 y 2,00 en 2025 (subsidios; becas 1,25). IPC INDEC serie_ipc_divisiones: ago-24 6.883,441, oct-25 9.603,8623, sep-26 12.514,1508 -> 39,5% / 30,3% / 81,8%; subsidio +160% (real +43%), becas +62,5% (real -10,6%), 2026: -0,2% real con octubre todavía sin publicar. Presupuesto Abierto (16/10/2026), servicio 303 programa 52 inciso 5: devengado $53.894 M en 2026 vs $49.798 M en 2025. Infobae publicó como nuevos los valores 2025 de las CCC ($9.700.905); la nota lo aclara. InfoLEG todavía no tenía cargadas las resoluciones de hoy.",
+      "fecha": "2026-10-20",
+      "estado": "publicada",
+      "articulo_id": "2026-10-20-subsidio-tratamiento-adicciones-por-dia"
+    },
+    {
+      "tema": "¿es cierto que la inflación núcleo 'viaja en torno al 20%' anual? / frase de Milei en la apertura de la AOG Patagonia, Neuquén, 19/10/2026 (infobae 20/10/2026 'En torno al 20% anual: qué es la inflación núcleo y por qué el Gobierno la usó para defender la gestión económica'; Clarín 20/10)",
+      "angulo": "Corrida programada del 20/10/2026 08:30, primera candidata probada: FRENADA. La cifra se podía recalcular con el IPC núcleo del INDEC, pero la frase no tiene registro oficial enlazable: casarosada.gob.ar no publicó el discurso del 19/10 (el último en Discursos es del 15/10) y citarla desde infobae es una cita levantada de otro medio (NEWSROOM 1, citas on-the-record). Retomable cuando Casa Rosada publique la transcripción o el video oficial.",
+      "fecha": "2026-10-20",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "la cita de Milei no tiene registro oficial enlazable todavía (Casa Rosada no publicó el discurso)."
+    },
+    {
+      "tema": "descartes de la corrida programada del 20/10/2026 08:30: frenó la primera (inflación núcleo 'en torno al 20%', sin transcripción oficial) y pasó la segunda (subsidios por consumos problemáticos, Res. MS 1458/2026). Lista no probada: EMPRESAS TGS, dos proyectos RIGI por más de US$3.200 M (Clarín, ámbito, iProfesional; sin resolución en el BO del 20/10 ni hecho relevante); EMPRESAS IRSA recompra de ON Clase XXV (HR CNV 16/10, VN US$9 M); EMPRESAS Pluspetrol HR de aprobación RIGI Bajo del Choique (19/10; área contada el 02/10); EMPRESAS Vista Energy, resultados del 3T el 28/10 (todavía no presentados) — sin cupo de empresas: hoy ya salieron Loma Negra y CIBA; cuánto gana Boca si pasa a la final de la Sudamericana (vuelta con Vasco hoy; infobae, TN, Clarín; premios CONMEBOL publicados el 06/10); Base Naval Integrada Ushuaia, licitación de galpones con certificación de $7.638 M (Res. Defensa 733/2026, BO 20/10); préstamo BID de US$60 M a Río Negro para salud digital (Decreto 1227/2026, BO 20/10); 'una de cada cuatro transferencias al exterior va a España' (Clarín; dato de una sola fintech, Global66); riesgo país 675, máximo en un año (todas; serie publicada); exportaciones récord de septiembre (todas; publicada el 19/10); colectivos del AMBA recortan servicios nocturnos (infobae, TN, Página12; subsidio en cola el 17/10); FAL postergado (infobae, TN, Cronista; Decreto 1228/2026; FAL publicado el 24/09)",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-20",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }

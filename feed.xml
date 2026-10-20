@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 20 Oct 2026 06:54:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 08:59:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Estado paga hasta $47.385 por día por cada persona en tratamiento residencial por adicciones: 160% más que en 2024, con una inflación de 81,8%</title>
+      <link>https://coninteres.com/articulos/2026-10-20-subsidio-tratamiento-adicciones-por-dia.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-20-subsidio-tratamiento-adicciones-por-dia.html</guid>
+      <pubDate>Tue, 20 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Desde el 1 de noviembre, el Estado nacional reconoce hasta $47.385 por día por cada persona sin cobertura médica en un tratamiento residencial de alto apoyo por consumo problemático de drogas: 160% más que en septiembre de 2024, contra una inflación de 81,8% entre agosto de 2024 y septiembre de 2026. Esa ventaja viene de la duplicación de noviembre de 2025; la suba de este año, de 30%, apenas acompaña a los precios. Las becas de quienes trabajan en los dispositivos subieron 62,5% en el mismo lapso y quedaron 10,6% abajo de la inflación.</description>
+      <ci:numero>$47.385</ci:numero>
+      <ci:numeroEtiqueta>subsidio máximo por día de tratamiento convivencial de alto nivel de apoyo del Programa de Subsidios para el Abordaje Integral de Personas con Consumo Problemático, desde el 01/11/2026 (Resolución MS 1458/2026, BO 20/10/2026, anexo IF-2026-80381644-APN-SSAYAMD#MS); $36.450 desde nov-2025 (Res. MS 2924/2025) y $18.225 desde sep-2024 (Res. Sedronar 410/2024)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-20-subsidio-tratamiento-adicciones-por-dia.png" length="88169" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-20-subsidio-tratamiento-adicciones-por-dia.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La dueña de la sal Dos Anclas ganó $1,11 por cada $100 que vendió en su último ejercicio, menos de la mitad que un año antes</title>
       <link>https://coninteres.com/articulos/2026-10-20-dos-anclas-ciba-ganancia-balance.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>personas cobraron la prestación por desempleo en septiembre de 2026 (BESS, cuadro 5.1, sobre datos de la ANSES); 100.344 en septiembre de 2025 (+27,2%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-seguro-desempleo-127-mil-cobran-septiembre.png" length="81452" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-seguro-desempleo-127-mil-cobran-septiembre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La VTV porteña subió 52,8% en 2026, más del doble que la inflación, y la ley que deja a cada taller fijar su precio todavía no se aplica</title>
-      <link>https://coninteres.com/articulos/2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre.html</guid>
-      <pubDate>Sat, 17 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>La VTV de un auto en la Ciudad de Buenos Aires subió 52,8% en 2026 y cuesta $96.968,19: más del doble que la inflación de diciembre a septiembre (23,6%). Una ley de julio dice que cada taller podrá fijar su precio. Pero todavía no hay ningún taller nuevo habilitado, y la Ciudad prorrogó por 60 días la concesión de 2015, con sus mismas tarifas.</description>
-      <ci:numero>+52,8%</ci:numero>
-      <ci:numeroEtiqueta>subió en 2026 la VTV de un auto en la Ciudad de Buenos Aires: de $63.453,61 (Res. 101/SECT/25) a $96.968,19 desde el 27/04/2026 (Res. 79/SECT/26), IVA y oblea incluidos; IPC nacional dic-25 a sep-26 +23,6%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre.png" length="81343" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
