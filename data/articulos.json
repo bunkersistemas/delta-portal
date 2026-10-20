@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-20T12:51:56-03:00",
+    "actualizado": "2026-10-20T14:43:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-20-argentina-economia-puesto-24-mundo-fmi",
+      "titulo": "La Argentina es la economía número 24 del mundo según el FMI, que proyecta que caiga al puesto 28 en 2031",
+      "bajada": "Con un PBI de US$683.589 millones en 2025, la Argentina es la economía número 24 del mundo según la base del FMI de octubre de 2026, y el propio Fondo proyecta que siga 24 este año y baje al puesto 28 en 2031. Hoy es tercera de América Latina, detrás de Brasil y México, y está apenas por encima de Irlanda y Suecia. Fue la 16 en 1998 y cayó a la 38 en 2002.",
+      "titulo_busqueda": "¿Qué puesto ocupa la economía argentina en el mundo?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "24°",
+      "numero_label": "puesto de la Argentina entre las 195 economías por PBI en dólares corrientes en 2025 (FMI, DataMapper NGDPD, WEO de octubre de 2026: US$683.589 millones); recalculado con INDEC (PBI 2025 $850.239.798 millones) y el tipo de cambio A 3500 promedio del BCRA ($1.244,26): US$683.330 millones; contraste Banco Mundial: US$683.098 millones, puesto 24 entre 186 países (sin Taiwán)",
+      "fecha": "2026-10-20",
+      "hora": "15:00",
+      "archivo": "articulos/2026-10-20-argentina-economia-puesto-24-mundo-fmi.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-20-subte-cuantos-viajes-por-dia-paro",
       "titulo": "Un día hábil normal el subte registra 765.035 viajes: 40% menos que en 2019, y más de un tercio ya no se paga con la SUBE",

@@ -5344,6 +5344,21 @@
       "angulo": "",
       "fecha": "2026-10-20",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿qué puesto ocupa la economía argentina en el mundo? (ámbito 20/10/2026 'Brasil volverá al top 10 de las economías más grandes del mundo', WEO de octubre de 2026) / FMI DataMapper NGDPD (WEO oct-2026, last-modified 08/10/2026): ARG 2025 US$683,589 mil M, puesto 24 de 195 economías (23 Bélgica 725,056; 25 Irlanda 680,362; 26 Suecia 676,540; Taiwán 22 con 920,585); 2024 puesto 24 (637,744), 2023 23, 2022 24, 2020-21 30, 2017 21 (643,861), 2002 38 (112,458; 2001 300,421, -62,6%), 1998 16 (334,244, mejor desde 1990); proyección 2026 24 (768,206; Bélgica 772,699; Brasil 10), 2027 26, 2028 27, 2029-2031 28 (855,399 en 2031). América Latina: 3° tras Brasil 2.279,918 (11°) y México 1.835,039 (15°). Recálculo INDEC cuadro 8 oferta y demanda (sh_oferta_demanda_09_26): PIB 2025 $850.239.798 M / A3500 promedio 2025 $1.244,2597 (240 días) = US$683.330 M; 2024 $584.377.011 M / 916,2543 = US$637.789 M. Contraste Banco Mundial NY.GDP.MKTP.CD (act. 08/10/2026): ARG 2025 683.098, puesto 24 de 186 (sin Taiwán; Irlanda 721.701 arriba); historia BM: mejor 16 en 2000, peor 40 en 2002; antes de 1990 las bases divergen (1980: FMI 10°, BM 22°).",
+      "angulo": "Corrida programada del 20/10/2026 14:30, primera candidata probada (APTA). Pregunta de plata detrás del ranking del FMI que publicó ámbito sobre Brasil: nadie dijo dónde queda la Argentina. Ángulo propio: ranking calculado sobre las 195 economías, serie 1990-2031 del puesto, fragilidad del 24 (Irlanda a US$3.227 M) y por qué el puesto depende del dólar (2002). Camino: estadística oficial (FMI) + recálculo INDEC/BCRA + contraste Banco Mundial; diferencia de lista explicada en ④ (Taiwán, Irlanda). Proyecciones 2026-2031 marcadas como estimaciones.",
+      "fecha": "2026-10-20",
+      "estado": "publicada",
+      "articulo_id": "2026-10-20-argentina-economia-puesto-24-mundo-fmi"
+    },
+    {
+      "tema": "descartes de la corrida programada del 20/10/2026 14:30: no se probaron porque la primera candidata (puesto de la Argentina en el ranking mundial de PBI, FMI WEO oct-2026) pasó la verificación. Lista no probada: flujos de empresas del 1T-2026 (La Nación, Clarín; Secretaría de Trabajo; ángulo: la pérdida viene de las que achican); vacas a evacuar de las islas del Delta por la crecida del Paraná (Clarín, La Nación; existencias SENASA por partido); boleto de colectivo 'a $2.500 sin subsidios' y 'tarifa de las más caras en relación al salario mínimo' (infobae, TN, Página12; subsidio a colectivos publicado el 17/10; la comparación regional pide fuentes oficiales de cada país); petróleo a US$111, máximo en cinco meses (TN; EIA); fila de 10 cuadras por 40 puestos en Ezeiza (infobae); encuesta de tendencia de negocios, expectativas oct-dic (INDEC hoy 16:00, todavía no publicada); EMPRESAS IRSA recompra de ON (HR CNV 16/10), FCA y PSA Finance HR 16/10, Pluspetrol RIGI Bajo del Choique (HR 19/10; área publicada el 02/10), Vista Energy resultados 3T (anunciados para el 28/10) — sin cupo de empresas: hoy ya salieron Loma Negra y CIBA; riesgo país arriba de 700 (todas; serie publicada); exportaciones récord de septiembre (todas; publicada el 19/10); FAL postergado a diciembre (todas; FAL publicado el 24/09); juicio YPF, Preska (Clarín, TN, Cronista; honorarios ya frenados).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-20",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }
