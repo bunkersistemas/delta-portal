@@ -5314,6 +5314,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "¿cuántos impuestos paga un pasaje de avión al exterior? (La Nación 19/10/2026 'Pasajes aéreos: el ranking de los países que más impuestos cobran y dónde quedó la Argentina', relevamiento de ALTA en su AGM de Ciudad de México: Argentina 37% de la tarifa en pasajes internacionales emitidos en el país, Ecuador 20, Colombia 19, Perú y Rep. Dominicana 18; 107% en 2022) / RG ARCA 5617/2024 (InfoLEG norma-407430, texto actualizado; modificada solo por RG 5672 y 5677/2025): percepción 30% sobre el precio neto de impuestos y tasas de los pasajes al exterior (art. 1 inc. e, art. 6 inc. b), solo en la proporción pagada en pesos, excluye Malvinas y terrestre a limítrofes; pago a cuenta de Ganancias o de Bienes Personales (monotributistas y no responsables de Ganancias), saldo a favor como ingreso directo, devolución desde el año siguiente (arts. 7-12) + Ley 25.997 art. 24 inc. b: 7% del precio de los pasajes aéreos al exterior (Decreto 4/2025, Fondo Nacional de Turismo hasta 31/12/2027; resolución de la Secretaría de Turismo con el calendario 2026 de depósito; Res. ST 877/94 normas de percepción). TUA internacional ORSNA US$57 categoría I, regional US$25,16",
+      "angulo": "Corrida programada del 20/10/2026 10:30, primera candidata probada (APTA). Ángulo propio: nadie separó los 37 puntos en lo que se recupera (30, percepción a cuenta) y lo que no (7, impuesto), ni dijo que pagando con dólares propios solo queda el 7%. Ancla: suma de dos normas vigentes, confirmada de forma independiente por el 37% de ALTA. Bases parecidas pero no idénticas (percepción: precio neto de impuestos y tasas; 7%: precio del pasaje): la nota habla de 37% sobre la tarifa. No se usó el US$77 de ALTA para extranjeros (sin estudio publicado) ni se rehizo el 107% de 2022 (atribuido a ALTA).",
+      "fecha": "2026-10-20",
+      "estado": "publicada",
+      "articulo_id": "2026-10-20-pasaje-exterior-37-por-ciento-recargos",
+      "archivo": "cola/2026-10-20-pasaje-exterior-37-por-ciento-recargos.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 20/10/2026 10:30: no se probaron porque la primera candidata (recargos sobre pasajes al exterior, RG 5617 + Ley 25.997) pasó la verificación. Lista no probada: flujos de empresas del 1T-2026 de la Secretaría de Trabajo (La Nación 19/10 '4287 menos': 14.405 aperturas, 18.692 cierres, 71.652 empresas que redujeron 230.305 puestos; Clarín 'se perdieron puestos en el 15,6% de las empresas'; flujos 4T-2025 ya publicados el 13/10 y SRT el 27/09 y 09/10, ángulo nuevo posible: la pérdida viene de las que achican, no de las que cierran); Brasil vuelve al top 10 de economías / puesto de la Argentina en el PBI en dólares (ámbito; FMI WEO oct-2026 y Banco Mundial); exportaciones pyme en máximo de 13 años (ámbito; fuente a identificar); encuesta de tendencia de negocios de supermercados e industria, expectativas oct-dic (INDEC hoy 16:00, calendario); EMPRESAS IRSA recompra de ON (HR CNV 16/10); EMPRESAS FCA Compañía Financiera y PSA Finance HR del 16/10 (sin leer) — sin cupo de empresas: hoy ya salieron Loma Negra y CIBA; paro sorpresivo del subte (Página12, Cronista; subte ya publicado el 29/09); préstamos de $30 M para jubilados (TN; publicado el 13/10); riesgo país arriba de 700 (todas; serie publicada); exportaciones récord de septiembre (todas; publicada el 19/10); RIGI de TGS y Vaca Muerta (Clarín, ámbito, iProfesional; sin resolución en el BO)",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-20",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }

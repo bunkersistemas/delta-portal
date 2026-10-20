@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-20T08:30",
+  "generado": "2026-10-20T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -896,6 +896,16 @@
       "presentado": "2026-09-23"
     },
     {
+      "id": "sec-0001193125-26-425856-2026-10-29",
+      "fuente": "SEC",
+      "fecha": "2026-10-29",
+      "entidad": "Vista Energy",
+      "ticker": "VIST",
+      "frase": "ctober 20, 2026 — Vista Energy, S.A.B. de C.V. (“Vista” or the “Company”) (NYSE: VIST; BMV: VISTA) announced today that the webcast to present the Company’s third quarter 2026 results, originally scheduled for Thursday, October 29, 2026, at 8:00 am Mexico City time (10:00 am ET; 11:00 am BAT), has been rescheduled",
+      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526425856/d163226d6k.htm",
+      "presentado": "2026-10-20"
+    },
+    {
       "id": "sec-0001292814-26-004922-2026-11-06",
       "fuente": "SEC",
       "fecha": "2026-11-06",
@@ -937,6 +947,7 @@
     "sec-0001104659-26-115765": "2026-10-14",
     "sec-0001104659-26-116442": "2026-10-16",
     "sec-0001193125-26-398099": "2026-09-22",
+    "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001292814-26-004691": "2026-09-24",
     "sec-0001292814-26-004710": "2026-09-25",
     "sec-0001292814-26-004732": "2026-09-29",
