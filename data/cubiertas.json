@@ -5366,6 +5366,13 @@
       "fecha": "2026-10-20",
       "estado": "en_cola",
       "articulo_id": "2026-10-20-u2-river-cuanto-cuesta-entrada"
+    },
+    {
+      "tema": "pedido 106 de un lector: cuántos conductores de Uber Moto / DiDi Moto hay en la Argentina y cómo creció en el último año / Uber: lanzamiento 30/01/2023 GBA; 29/02/2024 (publicado en la web el 18/04/2024) más de 31.000 que generaron ganancias desde feb-2023, 24 ciudades; 17/10/2024 más de 32.000, 29 ciudades; ACA Comunicado 22 (26/09/2025) más de 50.000 'conecta', datos abr-jun 2025, más de 30 ciudades; Pase para Conductores 14/07/2026: 37 zonas Moto. DiDi Moto: inscripción 13/10/2022 AMBA; dic-2023 CABA, La Plata y 28 localidades; nunca publicó conductores de moto; 2026 'más de 500.000 entre auto y moto' (El Economista 14/10 como hecho, Mobile Time 28/08 como estimación). ACARA motos ene-sep 2026 668.077 vs 474.836 (+40,7%), sep 80.113 vs 59.313 (+35,1%). Mendoza 7.305 vehículos en plataformas (sin separar motos).",
+      "angulo": "Pedido de lector con enfoque aprobado. Respuesta parcial: el crecimiento del último año no se puede medir (sin cifra de Uber 2026, DiDi sin dato de motos, sin registro nacional). Ancla = declaración de Uber leída en el documento original (PDF del ACA firmado con Uber), atribuida. La cifra de 45.000 de medios tucumanos (jun-2026) sin fuente: no usada.",
+      "fecha": "2026-10-20",
+      "estado": "en_cola",
+      "articulo_id": "2026-10-20-uber-didi-moto-cuantos-conductores"
     }
   ]
 }

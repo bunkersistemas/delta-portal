@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Cuántos conductores de Uber Moto y DiDi Moto hay en la Argentina y cuánto crecieron? — CON INTERÉS</title>
+<meta name="description" content="El último número público es de Uber: más de 50.000 conductores de Uber Moto entre abril y junio de 2025, contra más de 31.000 en febrero de 2024. No hay dato de 2026, DiDi nunca separó a sus motos y ningún registro oficial los cuenta. Los patentamientos de motos crecen 40,7%.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+</style>
+</head>
+<body data-palette="#0E7C86,#6B6560,#C4701F,#C0392B">
+
+<div class="draft-ribbon"><b>BORRADOR</b> · pendiente de aprobación editorial · no indexado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">ECONOMÍA <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Cuántas personas manejan una moto para Uber o DiDi en la Argentina, y cuánto creció ese número en el último año?</h1>
+
+  <p class="standfirst">El último número público es de Uber: más de 50.000 conductores de Uber Moto entre abril y junio de 2025, contra más de 31.000 que había informado en febrero de 2024. Del último año, que es lo que se pregunta, no hay dato: Uber no publicó una cifra de 2026, DiDi nunca separó a los conductores de moto de los de auto y ningún registro oficial los cuenta. Lo que sí está medido es la venta de motos: entre enero y septiembre se patentaron 40,7% más que en 2025.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>20 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 8 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta cuántos conductores de moto informó cada aplicación desde que existe el servicio, qué cuenta cada número y en cuántas ciudades funciona. Lo que no pudimos contestar es lo que más importaba: cuánto creció en el último año. Uber dio su último número a mediados de 2025, DiDi nunca publicó cuántos conductores de moto tiene y no existe un registro oficial nacional. Como marco, sumamos los patentamientos de motos, que sí se miden mes a mes.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">2m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">50.000</div>
+      <div class="cap">Son los conductores que, <b>según Uber</b>, conectaba Uber Moto en la Argentina entre abril y junio de 2025 ("más de 50 mil"). Es <b>el último número público</b> de conductores de moto por aplicación en el país. Lo dio la empresa y nadie lo audita.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v">31.000</span><span class="k">lo que informó Uber en febrero de 2024</span></div>
+        <div class="sr"><span class="v">sin dato</span><span class="k">Uber en 2026 y DiDi Moto, nunca</span></div>
+        <div class="sr"><span class="v up">+40,7%</span><span class="k">motos patentadas, enero-septiembre de 2026 contra 2025</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Cuántos son: lo que dicen las aplicaciones, número por número</h3>
+    <p class="lead">El único número disponible de conductores de moto por aplicación lo da Uber, y el último es de mediados de 2025. DiDi nunca publicó el suyo. Esta capa reúne, número por número, lo que dijo cada empresa.</p>
+    <p>Llevar pasajeros en moto por aplicación es un negocio nuevo en la Argentina. <b>DiDi</b> abrió la inscripción de conductores para DiDi Moto el 13 de octubre de 2022, en el AMBA, <a href="https://www.lanacion.com.ar/autos/tendencias/se-podra-pedir-una-moto-en-vez-de-un-auto-a-traves-de-una-app-nid13102022/">según La Nación</a>. <b>Uber</b> lanzó Uber Moto el <a href="https://www.uber.com/ar/es/newsroom/uber-moto-la-nueva-opcion-de-uber-para-moverse-por-el-gran-buenos-aires/">30 de enero de 2023</a>, en los municipios del Gran Buenos Aires.</p>
+    <p>Desde entonces, Uber dio tres veces un número de conductores. En un <a href="https://www.uber.com/es-AR/newsroom/8-de-cada-10-de-los-usuarios-que-elige-la-opcion-de-moto-lo-hace-para-evitar-el-trafico">comunicado del 29 de febrero de 2024</a> dijo que más de 31.000 socios conductores de moto habían generado ganancias desde febrero de 2023. En <a href="https://www.uber.com/es-AR/newsroom/uber-refuerza-su-compromiso-con-la-seguridad-vial-de-la-mano-de-ovilam-en-la-plata">octubre de 2024</a> habló de más de 32.000 personas que generan ganancias, aunque repitió los mismos 640.000 usuarios que en febrero.</p>
+    <p>El tercero es de 2025. En un <a href="https://www.aca.org.ar/prensa/ACA-22-26092025.pdf">comunicado conjunto con el Automóvil Club Argentino</a> del 26 de septiembre de 2025 dijo que Uber Moto "ya conecta a más de 50 mil socios conductores", con datos de abril a junio de 2025. Son tres números, pero, como se verá en la capa siguiente, no cuentan lo mismo.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Conductores de Uber Moto según Uber · cada número cuenta algo distinto</div>
+        <h3>Uber dio tres números en 2024 y 2025. De 2026 no hay ninguno</h3>
+        <p class="fig-sub">Cifras informadas por la empresa, en la fecha del comunicado. Todas son pisos ("más de").</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 240" role="img" aria-label="Conductores de Uber Moto según Uber: febrero de 2024, más de 31.000; octubre de 2024, más de 32.000; septiembre de 2025, con datos de abril a junio, más de 50.000; 2026, sin dato publicado.">
+<text x="0" y="22" class="clB">Febrero de 2024 · generaron ganancias desde feb-2023</text>
+<rect x="0" y="30" width="347" height="18" rx="3" fill="#6B6560"/><text x="355" y="44" class="cvB">31.000</text>
+<text x="0" y="78" class="clB">Octubre de 2024 · "generan ganancias"</text>
+<rect x="0" y="86" width="358" height="18" rx="3" fill="#6B6560"/><text x="366" y="100" class="cvB">32.000</text>
+<text x="0" y="134" class="clB">Abril-junio de 2025 · "conecta" (comunicado con el ACA)</text>
+<rect x="0" y="142" width="560" height="18" rx="3" fill="#0E7C86"/><text x="568" y="156" class="cvB">50.000</text>
+<text x="0" y="190" class="clB">2026</text>
+<rect x="0" y="198" width="560" height="18" rx="3" fill="none" stroke="#C4701F" stroke-dasharray="5 4"/><text x="12" y="212" class="cv" fill="#C4701F">sin dato publicado</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Uber Argentina, sala de prensa (comunicados del 29/02/2024 y de octubre de 2024); Automóvil Club Argentino, Comunicado N° 22 (26/09/2025). <b>Unidad:</b> socios conductores de moto, según la definición de cada comunicado.</figcaption>
+    </figure>
+
+    <p>De <b>DiDi Moto</b> no hay ningún número de conductores. En el lanzamiento, la empresa habló de 250.000 conductores registrados en toda su aplicación, sin separar motos. En diciembre de 2023, <a href="https://www.lanacion.com.ar/autos/el-servicio-de-viajes-que-empezo-hace-un-ano-y-usan-mas-mujeres-que-hombres-nid09122023/">en el primer aniversario del servicio</a>, dio porcentajes (que los viajes trimestrales habían crecido 43% en el AMBA y que seis de cada diez usuarios eran mujeres), pero no cuántos conductores tenía.</p>
+    <p>El dato más reciente de DiDi también mezcla autos y motos. Según <a href="https://eleconomista.com.ar/economia/conductores-apps-argentina-crecen-25-plena-crisis-empleo-formal-n98837">El Economista</a> (14/10/2026), la empresa informó que más de medio millón de personas, "entre auto y moto", empezaron a generar ingresos con la aplicación en el último año, 25% más. <a href="https://mobiletime.la/noticias/28/08/2026/didi-invertira-en-argentina/">Mobile Time</a> (28/08/2026) contó el mismo número como una meta: que DiDi "estima que durante 2026 alcanzará más de 500.000 conductores". Es una cifra de la empresa, contada de dos maneras distintas, y no dice cuántos de esos conductores van en moto.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Cuánto creció, y por qué cada cifra cuenta algo distinto</h3>
+    <p>Entre el comunicado de octubre de 2024 y el de septiembre de 2025, la cifra que da Uber pasó de "más de 32.000" a "más de 50.000": 18.000 conductores más en once meses. Parece un crecimiento fuerte, pero no se puede medir con esos dos números, por tres razones.</p>
+    <p>La primera es que no cuentan lo mismo. El de febrero de 2024 suma a <b>todos los que alguna vez cobraron</b> desde el lanzamiento. El de 2025 habla de conductores que la aplicación "conecta", con datos de un trimestre, y no aclara si son activos en ese período o inscriptos. La segunda es que son pisos: "más de 31 mil" puede ser 31.000 o 39.000. La tercera es que nadie fuera de la empresa los revisa.</p>
+    <p>Para el último año, de mediados de 2025 a hoy, no hay ningún número. En junio de 2026 circuló en medios de Tucumán una "red superior a los 45.000 socios conductores", pero <a href="https://www.contextotucuman.com/nota/387400/ya-hay-entre-3-000-y-5-000-conductores-de-uber-moto-solo-en-la-capital-tucumana-cuanto-ganan.html">la nota</a> la atribuye a "estimaciones del sector", sin nombre. No la usamos.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Dónde funciona: de 24 ciudades a 37</h3>
+    <p>Lo que sí tiene un dato de 2026 es el mapa. Uber Moto estaba en 24 ciudades en febrero de 2024, en 29 en octubre de 2024 y en "más de 30" en septiembre de 2025. En julio de 2026, cuando Uber lanzó su <a href="https://www.uber.com/ar/es/blog/pase-para-conductores-ar/">Pase para Conductores</a>, publicó la lista de lugares donde rige para la categoría Moto: son <b>37</b>, de Río Gallegos a San Salvador de Jujuy. Algunos son ciudades y otros, zonas ("Costa Atlántica", "La Pampa"), así que es un piso: la lista es del pase, no de todo el servicio.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Ciudades o zonas con Uber Moto, según Uber</div>
+        <h3>El servicio se expandió por todo el país: 37 lugares en julio de 2026</h3>
+        <p class="fig-sub">Ciudades informadas en cada comunicado. Septiembre de 2025: "más de 30". Julio de 2026: zonas donde rige el Pase para Conductores en la categoría Moto.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 200" role="img" aria-label="Ciudades con Uber Moto: febrero de 2024, 24; octubre de 2024, 29; septiembre de 2025, más de 30; julio de 2026, 37 zonas del Pase para Conductores.">
+<text x="0" y="22" class="clB">Febrero de 2024</text>
+<rect x="0" y="30" width="360" height="18" rx="3" fill="#6B6560"/><text x="368" y="44" class="cvB">24</text>
+<text x="0" y="70" class="clB">Octubre de 2024</text>
+<rect x="0" y="78" width="435" height="18" rx="3" fill="#6B6560"/><text x="443" y="92" class="cvB">29</text>
+<text x="0" y="118" class="clB">Septiembre de 2025</text>
+<rect x="0" y="126" width="450" height="18" rx="3" fill="#6B6560"/><text x="458" y="140" class="cvB">más de 30</text>
+<text x="0" y="166" class="clB">Julio de 2026 · lista del Pase para Conductores</text>
+<rect x="0" y="174" width="555" height="18" rx="3" fill="#0E7C86"/><text x="563" y="188" class="cvB">37</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Uber Argentina, sala de prensa (comunicados del 29/02/2024 y de octubre de 2024) y blog del Pase para Conductores (14/07/2026); Automóvil Club Argentino, Comunicado N° 22 (26/09/2025).</figcaption>
+    </figure>
+
+    <p>DiDi Moto empezó en el AMBA. En diciembre de 2023 funcionaba en la Ciudad de Buenos Aires, La Plata y 28 localidades del conurbano, según la empresa. Hoy DiDi dice estar en 23 provincias y más de 350 ciudades, pero ese número es de toda la aplicación, no de las motos.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Lo que el Estado sabe: casi nada</h3>
+    <p>No existe un registro oficial nacional de conductores de aplicaciones. La reforma laboral los definió como prestadores independientes y el <a href="https://www.iprofesional.com/legales/456112-reforma-laboral-gobierno-definio-quien-controlara-a-uber-rappi-y-cabify">Decreto 407/2026</a> puso el régimen bajo la Secretaría de Transporte. No encontramos ninguna publicación de esa secretaría con la cantidad de conductores.</p>
+    <p>Los registros que existen son provinciales o municipales y cuentan otra cosa. El de Mendoza, por ejemplo, tenía 7.305 vehículos inscriptos en plataformas de transporte a fines de septiembre, según la Subsecretaría de Transporte provincial citada por <a href="https://diariosanrafael.com.ar/en-mendoza-ya-hay-mas-de-7-300-autos-registrados-en-las-plataformas-de-movilidad/">Diario San Rafael</a>: 3.220 de Uber, 2.998 de Cabify, 945 de Maxim y el resto de aplicaciones chicas. No separa motos de autos.</p>
+    <p>La Municipalidad de Córdoba abrió su <a href="https://cordoba.gob.ar/la-municipalidad-de-cordoba-habilito-a-uber-y-viaja-ya-se-abre-la-inscripcion-para-automoviles-y-choferes/">registro digital</a> para "automóviles y choferes" y tampoco publica un conteo de motos. Ninguno de los dos registros, entonces, dice cuántas motos llevan pasajeros por aplicación.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">El marco: se patentan 40,7% más motos que en 2025</h3>
+    <p>Lo que sí se mide todos los meses es cuántas motos nuevas salen a la calle. Entre enero y septiembre de 2026 se patentaron <b>668.077 motos</b>, contra 474.836 en el mismo período de 2025: <b>40,7% más</b>, según la División Motovehículos de ACARA.</p>
+    <p>Solo en septiembre fueron 80.113, 35,1% más que un año antes. Los cinco modelos más patentados de septiembre fueron motos chicas, como las que usan las aplicaciones: Honda Wave 110S, Gilera Smash, Keller KN 110-8, Motomel B110 y Corven Energy 110. Pero una moto patentada no es un conductor de aplicación. Se compra para ir a trabajar, para hacer repartos o para dejar el colectivo. Ningún dato público dice cuántas terminan llevando pasajeros.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Qué confirmamos: lo que dijo la empresa.</b> Los números de conductores no son una estadística: son declaraciones de Uber sobre su propio negocio, sin auditoría externa. Lo que verificamos es que la empresa los dio, con qué palabras y en qué fecha. Los de 2024 los leímos en la sala de prensa de Uber Argentina. El de 2025 lo leímos en el PDF del Comunicado N° 22 del Automóvil Club Argentino, firmado junto con Uber ("según datos entre abril y junio de 2025"), y figura igual en la reproducción de <a href="https://lamoto.com.ar/noticias/uber-refuerza-su-compromiso-con-la-seguridad-vial-de-la-mano-del-automovil-club-argentino/">La Moto</a> (29/09/2025). Por eso en esta nota cada cifra va con "según Uber".</p>
+      <p><b>Lo que buscamos y no encontramos.</b> Un número de conductores de Uber Moto de 2026: revisamos los comunicados de Uber y la cobertura de los talleres de seguridad vial que hizo con el ACA en Salta, el 7 de octubre, y ninguno trae una cifra nacional. Un número de conductores de DiDi Moto: la empresa no lo publicó nunca, ni en el lanzamiento ni en el aniversario ni en los anuncios de inversión de 2026. Un registro oficial: no hay uno nacional, y los provinciales que encontramos no separan motos.</p>
+      <p><b>Una cifra de DiDi contada de dos maneras.</b> Los "más de 500.000" conductores de auto y moto aparecen como un hecho en El Economista (14/10/2026: "empezaron a generar ingresos... en el último año") y como una estimación para 2026 en Mobile Time (28/08/2026). No pudimos leer el comunicado original, así que no la tomamos como dato propio: la contamos atribuida, con las dos versiones.</p>
+      <p><b>Los patentamientos.</b> Salen del informe mensual de la División Motovehículos de ACARA, que registra cada moto inscripta en los Registros del Automotor. Tomamos los niveles de septiembre y del acumulado de <a href="https://www.motonews.com.ar/patentamientos-de-motovehiculos-septiembre-finalizo-con-80-113-unidades-000019346/">MotoNews</a> y <a href="https://gentedemoto.com/patentamientos-motos-septiembre-2026-acara/">Gente de Moto</a>, que coinciden, y recalculamos las variaciones: 668.077 / 474.836 = +40,7% y 80.113 / 59.313 = +35,1%. ACARA corrige sus cifras de un informe a otro: agosto de 2026, que en el informe de ese mes figuraba con 73.566 motos, aparece con 74.828 en el de septiembre.</p>
+      <div class="meta">
+        <span><b>Fuente</b> Uber Argentina · Automóvil Club Argentino · DiDi (vía La Nación, El Economista y Mobile Time) · ACARA · Subsecretaría de Transporte de Mendoza</span>
+        <span><b>Período</b> octubre de 2022 a octubre de 2026</span>
+        <span><b>Unidad</b> conductores, ciudades, motos patentadas</span>
+        <span><b>Verificación</b> declaraciones de empresa leídas en el documento original y atribuidas · registro de patentamientos con variaciones recalculadas</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>Llevar pasajeros en moto se volvió un trabajo para decenas de miles de personas en menos de cuatro años, y el país no tiene forma de contarlas. El único número disponible lo da la empresa más grande del rubro, cuando quiere y con la definición que elige; la segunda no lo da nunca.</p>
+    <p>Sin ese número no se puede saber cuánta gente vive de este trabajo, cuántos necesitan un seguro ni cómo cambió en el último año. Con la reforma laboral, la Secretaría de Transporte quedó a cargo del régimen de plataformas. Si alguna vez publica un registro, este es el número que debería contestar.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si pensás manejar una moto con una aplicación,</b> la competencia es grande y crece: Uber dice tener más de 50.000 conductores de moto y el servicio está en al menos 37 ciudades o zonas. Las motos nuevas, además, se venden 40,7% más que el año pasado.</p>
+      <p><b>Si viajás en moto por aplicación,</b> el seguro depende de cada empresa. Uber informa cobertura de Galicia Seguros para accidentes personales y responsabilidad civil en Uber Moto, según el comunicado con el ACA.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep" open>
+      <summary>Todo lo que dijeron las aplicaciones sobre sus motos, fecha por fecha <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Fecha del dato</th><th>Aplicación</th><th style="text-align:right">Conductores de moto</th><th>Qué cuenta ese número</th><th style="text-align:right">Ciudades</th><th>Quién lo informa</th></tr>
+        <tr><td>Octubre de 2022</td><td>DiDi Moto</td><td class="n">sin dato</td><td>250.000 registrados en toda DiDi, sin separar motos</td><td class="n">AMBA</td><td>DiDi, vía La Nación</td></tr>
+        <tr><td>Enero de 2023</td><td>Uber Moto</td><td class="n">—</td><td>Lanzamiento</td><td class="n">Gran Buenos Aires</td><td>Uber (sala de prensa)</td></tr>
+        <tr><td>Diciembre de 2023</td><td>DiDi Moto</td><td class="n">sin dato</td><td>Solo porcentajes de viajes y usuarios</td><td class="n">CABA, La Plata y 28 localidades</td><td>DiDi, vía La Nación</td></tr>
+        <tr><td>Febrero de 2024</td><td>Uber Moto</td><td class="n">más de 31.000</td><td>Generaron ganancias desde febrero de 2023</td><td class="n">24</td><td>Uber (sala de prensa)</td></tr>
+        <tr><td>Octubre de 2024</td><td>Uber Moto</td><td class="n">más de 32.000</td><td>"Generan ganancias"</td><td class="n">29</td><td>Uber (sala de prensa)</td></tr>
+        <tr><td>Abril-junio de 2025</td><td>Uber Moto</td><td class="n">más de 50.000</td><td>"Conecta", con datos del trimestre</td><td class="n">más de 30</td><td>Uber, en comunicado con el ACA</td></tr>
+        <tr><td>Julio de 2026</td><td>Uber Moto</td><td class="n">sin dato</td><td>—</td><td class="n">37 zonas (lista del Pase)</td><td>Uber (blog)</td></tr>
+        <tr><td>2026</td><td>DiDi Moto</td><td class="n">sin dato</td><td>Más de 500.000 entre auto y moto, sin separar</td><td class="n">350 ciudades (toda DiDi)</td><td>DiDi, vía El Economista y Mobile Time</td></tr>
+      </table>
+      <p>Todas las cifras de conductores son de las empresas y ninguna tiene auditoría externa. "Más de" quiere decir que es un piso.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Las 37 zonas con Pase para Conductores en la categoría Moto (julio de 2026) <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Bahía Blanca, Buenos Aires, Ciudad de Santa Fe, Concordia, Córdoba, Corrientes, Costa Atlántica, Formosa, Gualeguaychú, La Pampa, La Rioja, Mar del Plata, Mendoza, Necochea, Olavarría, Paraná, Pergamino, Posadas, Presidencia Roque Sáenz Peña, Puerto Iguazú, Puerto Madryn, Reconquista, Resistencia, Río Cuarto, Río Gallegos, Rosario, Salta, San Fernando del Valle de Catamarca, San Juan, San Luis, San Rafael, San Salvador de Jujuy, Santiago del Estero, Tandil, Tucumán, Villa María y Villa Mercedes.</p>
+      <p>Fuente: Uber Argentina, "Conocé el Pase para Conductores" (14/07/2026). Es la lista del pase, no necesariamente la de todos los lugares donde funciona Uber Moto.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Patentamientos de motos, 2025 y 2026 <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Período</th><th style="text-align:right">2025</th><th style="text-align:right">2026</th><th style="text-align:right">Variación</th></tr>
+        <tr><td>Septiembre</td><td class="n">59.313</td><td class="n">80.113</td><td class="n">+35,1%</td></tr>
+        <tr><td>Enero-septiembre</td><td class="n">474.836</td><td class="n">668.077</td><td class="n">+40,7%</td></tr>
+      </table>
+      <p>Unidades patentadas, todos los motovehículos. Fuente: ACARA, División Motovehículos, informe de septiembre de 2026 (vía MotoNews y Gente de Moto). Variaciones recalculadas por Con Interés.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Uber Argentina — <a href="https://web.archive.org/web/20241008213310/https://www.uber.com/es-AR/newsroom/uber-moto-la-nueva-opcion-de-uber-para-moverse-por-el-gran-buenos-aires/">Uber Moto: la nueva opción de Uber para moverse por el Gran Buenos Aires</a>, 30/01/2023 (copia de archive.org)</li>
+        <li>&#8250; Uber Argentina — <a href="https://web.archive.org/web/20240805031932/https://www.uber.com/es-AR/newsroom/8-de-cada-10-de-los-usuarios-que-elige-la-opcion-de-moto-lo-hace-para-evitar-el-trafico/">8 de cada 10 de los usuarios que elige la opción de moto lo hace para evitar el tráfico</a>, comunicado del 29/02/2024 publicado en la sala de prensa el 18/04/2024 (copia de archive.org: la página de Uber rechaza los verificadores automáticos)</li>
+        <li>&#8250; Uber Argentina — <a href="https://web.archive.org/web/20250323141458/https://www.uber.com/es-AR/newsroom/uber-refuerza-su-compromiso-con-la-seguridad-vial-de-la-mano-de-ovilam-en-la-plata/">Uber refuerza su compromiso con la Seguridad Vial de la mano de OVILAM en La Plata</a>, octubre de 2024 (copia de archive.org)</li>
+        <li>&#8250; Automóvil Club Argentino — <a href="https://www.aca.org.ar/prensa/ACA-22-26092025.pdf">Comunicado N° 22: Uber refuerza su compromiso con la Seguridad Vial de la mano del ACA</a>, 26/09/2025</li>
+        <li>&#8250; La Moto — <a href="https://lamoto.com.ar/noticias/uber-refuerza-su-compromiso-con-la-seguridad-vial-de-la-mano-del-automovil-club-argentino/">Uber refuerza su compromiso con la seguridad vial de la mano del ACA</a>, 29/09/2025</li>
+        <li>&#8250; Uber Argentina — <a href="https://www.uber.com/ar/es/blog/pase-para-conductores-ar/">Conocé el Pase para Conductores</a>, 14/07/2026</li>
+        <li>&#8250; La Nación — <a href="https://www.lanacion.com.ar/autos/tendencias/se-podra-pedir-una-moto-en-vez-de-un-auto-a-traves-de-una-app-nid13102022/">Se podrá pedir una moto en vez de un auto a través de una app</a>, 13/10/2022</li>
+        <li>&#8250; La Nación — <a href="https://www.lanacion.com.ar/autos/el-servicio-de-viajes-que-empezo-hace-un-ano-y-usan-mas-mujeres-que-hombres-nid09122023/">El servicio de viajes que empezó hace un año y usan más mujeres que hombres</a>, 09/12/2023</li>
+        <li>&#8250; El Economista — <a href="https://eleconomista.com.ar/economia/conductores-apps-argentina-crecen-25-plena-crisis-empleo-formal-n98837">Conductores de apps en Argentina: por qué crecen 25% en plena crisis del empleo formal</a>, 14/10/2026</li>
+        <li>&#8250; Mobile Time — <a href="https://mobiletime.la/noticias/28/08/2026/didi-invertira-en-argentina/">DiDi invertirá más de US$200 millones en Argentina</a>, 28/08/2026</li>
+        <li>&#8250; Contexto Tucumán — <a href="https://www.contextotucuman.com/nota/387400/ya-hay-entre-3-000-y-5-000-conductores-de-uber-moto-solo-en-la-capital-tucumana-cuanto-ganan.html">Ya hay entre 3.000 y 5.000 conductores de Uber Moto solo en la capital tucumana</a>, 02/06/2026 (cifra sin fuente, no usada como dato)</li>
+        <li>&#8250; iProfesional — <a href="https://www.iprofesional.com/legales/456112-reforma-laboral-gobierno-definio-quien-controlara-a-uber-rappi-y-cabify">Reforma laboral: el Gobierno definió quién controlará a Uber, Rappi y Cabify</a> (Decreto 407/2026)</li>
+        <li>&#8250; Diario San Rafael — <a href="https://diariosanrafael.com.ar/en-mendoza-ya-hay-mas-de-7-300-autos-registrados-en-las-plataformas-de-movilidad/">En Mendoza ya hay más de 7.300 autos registrados en las plataformas de movilidad</a>, 27/09/2026 (datos de la Subsecretaría de Transporte)</li>
+        <li>&#8250; Municipalidad de Córdoba — <a href="https://cordoba.gob.ar/la-municipalidad-de-cordoba-habilito-a-uber-y-viaja-ya-se-abre-la-inscripcion-para-automoviles-y-choferes/">Habilitación de Uber y Viajá Ya: inscripción para automóviles y choferes</a></li>
+        <li>&#8250; MotoNews — <a href="https://www.motonews.com.ar/patentamientos-de-motovehiculos-septiembre-finalizo-con-80-113-unidades-000019346/">Patentamientos de motovehículos: septiembre finalizó con 80.113 unidades</a> (datos de ACARA), 01/10/2026</li>
+        <li>&#8250; Gente de Moto — <a href="https://gentedemoto.com/patentamientos-motos-septiembre-2026-acara/">El patentamiento de motos mantiene la tendencia positiva</a> (datos de ACARA), 05/10/2026</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: variaciones de patentamientos, diferencias entre cifras de Uber, conteo de la lista de zonas.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 20/10/2026. Las cifras de conductores son declaraciones de las propias empresas, sin auditoría externa. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>

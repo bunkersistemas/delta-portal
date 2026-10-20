@@ -19,6 +19,24 @@
       "lectura": "30 seg → 8 min",
       "pedido": 105,
       "revision_lector": true
+    },
+    {
+      "id": "2026-10-20-uber-didi-moto-cuantos-conductores",
+      "titulo": "¿Cuántas personas manejan una moto para Uber o DiDi en la Argentina, y cuánto creció ese número en el último año?",
+      "titulo_busqueda": "¿Cuántos conductores de Uber Moto y DiDi Moto hay en Argentina y cuánto crecieron?",
+      "bajada": "El último número público es de Uber: más de 50.000 conductores de Uber Moto entre abril y junio de 2025, contra más de 31.000 que había informado en febrero de 2024. Del último año, que es lo que se pregunta, no hay dato: Uber no publicó una cifra de 2026, DiDi nunca separó a los conductores de moto de los de auto y ningún registro oficial los cuenta. Lo que sí está medido es la venta de motos: entre enero y septiembre se patentaron 40,7% más que en 2025.",
+      "seccion": "ECONOMÍA",
+      "formato": "Investigación",
+      "numero": "50.000",
+      "numero_label": "más de 50.000 socios conductores que Uber Moto dice conectar en la Argentina, con datos de abril a junio de 2025 (Uber, Comunicado N° 22 del ACA, 26/09/2025): último número público de conductores de moto por aplicación. Febrero de 2024: más de 31.000. No hay cifra de 2026 ni de DiDi Moto",
+      "fecha": "2026-10-20",
+      "hora": "16:30",
+      "archivo": "cola/2026-10-20-uber-didi-moto-cuantos-conductores.html",
+      "verificacion": "verificada",
+      "fuentes": 16,
+      "lectura": "30 seg → 8 min",
+      "pedido": 106,
+      "revision_lector": true
     }
   ]
 }
