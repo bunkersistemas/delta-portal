@@ -5330,6 +5330,20 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "¿cuántas personas viajan en subte por día? (paro sorpresivo de subte del 20/10/2026 tras la detención de delegados de la AGTSyP: ámbito, El Cronista, Clarín) / OMSV Seguimiento Movilidad agosto 2026: 765.035 viajes por día hábil con Premetro (B 181.378, D 162.749, A 141.067, C 102.436, H 88.974, E 82.019, PM 6.412; +9,8% m/m, -2,9% i.a., -40,2% vs ago-2019), 298.672 tarjetas SUBE únicas; julio 696.557. Recalculado con molinetes SBASE (BA Data): A a H 757.659 (E 81.056, PM no está en el archivo de agosto), julio 696.554, ago-2019 1.278.058. Medio de pago (columna origen, solo agosto 2026): SUBE 64,0%, TAPS 23,6%, MP 11,6%, VQR 0,7%; franquicias 75.802 (10,0%). SUBE Nación (datos.transporte) A-H 486.059 vs 485.148 en molinetes; proporción SUBE 77,9% ene-25 → 64,2% ago-26; octubre 1-16 SUBE -4,1% vs agosto (estimado 720.000-745.000 viajes por día hábil). Perfil horario: pico 17 h 78.428, 8 h 66.519; 27,3% entra antes de las 10. Paro general 19/02/2026: 13 entradas.",
+      "angulo": "Corrida programada del 20/10/2026 12:30, primera candidata probada (APTA). Ángulo propio: los portales cuentan el paro pero ninguno dice cuánta gente mueve el subte; además, la caída de la SUBE como medio de pago (36% entra con otros medios) que deja cortas las cuentas hechas solo con SUBE. Distinto de la nota del 29/09 (tarifa y costo por viaje). Camino de verificación: estadística oficial recalculada (OMSV desde molinetes SBASE) con contraste independiente (SUBE del Ministerio de Transporte). No se dice cuántos viajes se perdieron hoy ni qué son TAPS/MP/VQR.",
+      "fecha": "2026-10-20",
+      "estado": "publicada",
+      "articulo_id": "2026-10-20-subte-cuantos-viajes-por-dia-paro",
+      "archivo": "cola/2026-10-20-subte-cuantos-viajes-por-dia-paro.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 20/10/2026 12:30: no se probaron porque la primera candidata (viajes por día en el subte, OMSV + molinetes SBASE + SUBE) pasó la verificación. Lista no probada: vacas que hay que sacar de las islas del Delta por la crecida del Paraná (Clarín, La Nación; existencias SENASA por partido); EMPRESAS Zhoue en concurso preventivo con deudas por $5.939 M y 702 cheques rechazados (La Nación, El Cronista; BCRA Central de Deudores por CUIT); EMPRESAS IRSA recompra de ON (HR CNV 16/10) — sin cupo de empresas: hoy ya salieron Loma Negra y CIBA; petróleo arriba de US$110, máximo en cinco meses (TN; EIA); nuevos vuelos a EE.UU. y ruta Ezeiza-Orlando (Clarín, La Nación; ETI de INDEC por destino, turismo publicado el 25/09); prórroga del programa que complementa planes sociales con trabajo rural (Clarín; decreto); FATE condenada a pagar $1.200 M de sueldos (Clarín; expediente); fila de 10 cuadras por 40 puestos en Ezeiza (infobae); Brasil vuelve al top 10 de economías (ámbito; FMI WEO); encuesta de tendencia de negocios, expectativas oct-dic (INDEC hoy 16:00, calendario, todavía no salió); riesgo país arriba de 700 (todas; serie publicada); FAL postergado a diciembre (todas; FAL publicado el 24/09); juicio YPF, Preska formalizó la anulación (Clarín, TN, Cronista; honorarios ya frenados)",
+      "angulo": "",
+      "fecha": "2026-10-20",
+      "estado": "descartada"
     }
   ]
 }
