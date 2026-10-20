@@ -5222,6 +5222,20 @@
       "angulo": "Registro de candidatas de la corrida.",
       "fecha": "2026-10-19",
       "estado": "descartada"
+    },
+    {
+      "tema": "IA y productividad de los programadores: ¿la IA les va a sacar el trabajo a los programadores? / Demirer, Musolff y Yang, 'Writing Code vs. Shipping Code', MIT-Wharton, NBER WP 35275 (may-2026, rev. sep-2026; >500.000 desarrolladores de GitHub + telemetría de Microsoft, 2022-mediados de 2026): commits +30% autocompletado, ~180% con agentes sync, ~240% con async; agentes sync: líneas +958% (957,5), PRs +86%, repos +47%, versiones +20% (19,8; cuadro 6 pág. 33); apps nuevas x2 sin más uso; elasticidad 0,23. Contraste METR (Becker y otros 2025, RCT 16 devs, 246 tareas): +19% de tiempo con IA. Argentina: OEDE serie trimestral nacional, rama 722 (software) 1T-26 84.402 vs 1T-25 85.105 (máx. desde 1996) = -0,83%; 1T-15 48.579 -> 1T-22 77.391 (+59,3%, 6,9%/año); 1T-23 82.049 -> 1T-26 (+2,9%); rama 72 156.501 (+0,39%; máx. 4T-25 156.932); contraste EPH 2025 CAES 62 asal. reg. ~90.576 (320 casos) vs OEDE 722 prom. 84.809",
+      "angulo": "Corrida de La economía de la IA del 20/10/2026 00:30, primera candidata probada: pasó las cinco condiciones de NEWSROOM 2 quinquies (atribuida; leída en el original, págs. 1-4, 27-35, 47-48, cuadros 5 y 6; método y límites: observacional, solo código abierto, Microsoft provee datos y dos autores son consultores pagos de Microsoft, sin referato; estudio al lado METR leído en el original, en contra; dato argentino como estadística oficial recalculada (planilla OEDE, variaciones iguales a las de la planilla) con contraste EPH (microdatos 2025, mismo orden de magnitud). Ángulo nuevo respecto de 2026-07-20 (oficios), 10-05 (energía), 10-11 (jóvenes Stanford), 10-13 (brecha educativa, seis estudios de empleo y sensación): productividad de la programación y empleo del software argentino. No se usó: exportaciones de servicios de informática del INDEC (1Ab09 1S-26 US$1.640,6 M, +17,0%) por falta de contraste independiente para 2025-2026 (Eurostat espejo solo hasta 2024).",
+      "fecha": "2026-10-20",
+      "estado": "publicada",
+      "articulo_id": "2026-10-20-ia-programadores-codigo-software-mit",
+      "archivo": "cola/2026-10-20-ia-programadores-codigo-software-mit.html"
+    },
+    {
+      "tema": "candidatas de la corrida de La economía de la IA del 20/10/2026 00:30, no probadas porque pasó la primera (agentes de IA y programadores, NBER WP 35275): demanda de freelancers tras ChatGPT (Teutloff y otros, JEBO 2025; Demirci y otros) con exportaciones de servicios del INDEC; adopción de IA en EE.UU. (Allen, FEDS Notes, Fed, 03/04/2026) con la Encuesta Nacional de Adopción de IA de CEPE-Di Tella y Fundar (ago-sep 2025, 1.589 casos online); informe del BID sobre productividad, informalidad e IA (ago-2026; exposición de 5% a 35% en diez años es proyección); libros nuevos en Amazon triplicados con IA (Reimers y Waldfogel 2026, citado por NBER WP 35275, no leído) con registros de ISBN; modelo de IA y empleo informal (DSGE, red UNComahue/UNC, jul-2026)",
+      "angulo": "Registro de candidatas de la corrida (rastreo: NBER, Fed, BIS, FMI, BID, CEPAL, Fundar, CEPE-Di Tella, CIPPEC, CEDLAS, METR, arXiv).",
+      "fecha": "2026-10-20",
+      "estado": "descartada"
     }
   ]
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-19T22:43:09-03:00",
+    "actualizado": "2026-10-20T01:00:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-20-ia-programadores-codigo-software-mit",
+      "titulo": "Los agentes de IA multiplican el código que escriben los programadores, pero el software que publican sube solo 20%",
+      "bajada": "Los agentes de IA multiplican el código que se escribe, pero el software que efectivamente se publica sube mucho menos: 958% más líneas de código, 20% más versiones publicadas. Es lo que encontraron economistas del MIT y de Wharton con datos de más de 500.000 desarrolladores. En la Argentina, el empleo registrado en las empresas de software dejó de crecer: 84.402 puestos en el primer trimestre de 2026, 0,8% menos que un año antes.",
+      "titulo_busqueda": "¿La inteligencia artificial les va a sacar el trabajo a los programadores? Lo que encontró un estudio del MIT y Wharton",
+      "seccion": "IA",
+      "formato": "Investigación",
+      "numero": "20%",
+      "numero_label": "más versiones de software publicadas por los programadores que adoptaron agentes de IA, contra 958% más líneas de código (GitHub, semanas 21 a 30 tras la adopción; Demirer, Musolff y Yang, MIT-Wharton, NBER WP 35275, cuadro 6)",
+      "fecha": "2026-10-20",
+      "hora": "01:30",
+      "archivo": "articulos/2026-10-20-ia-programadores-codigo-software-mit.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 8 min"
+    },
     {
       "id": "2026-10-19-intereses-deuda-estados-unidos-1-billon",
       "titulo": "Estados Unidos gastó US$1,14 billones en intereses de su deuda en el año fiscal 2026: 11% más que en 2025 y más de lo que destinó a defensa",
