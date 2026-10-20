@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-20T01:00:25-03:00",
+    "actualizado": "2026-10-20T02:57:38-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-20-cuanto-cobra-deportista-paralimpico-beca",
+      "titulo": "Doce deportistas paralímpicos cobran la beca más alta de la Secretaría de Deportes, de $864.000: son 12 de los 15 que la tienen",
+      "bajada": "Entre los becados por la Nación, los deportistas paralímpicos son minoría; en la beca más alta de la Secretaría de Deportes, son mayoría. La Excelencia Sudamericana paga $864.000 por mes desde septiembre, y 12 de los 15 atletas que la cobran juegan al básquet adaptado. No es un caso aislado: los 187 deportistas paralímpicos becados por la Secretaría cobran en promedio $575.968, un 23,6% más que los 465 convencionales, y en el ENARD tienen 23 de las 46 becas de excelencia, de $1.835.460. La diferencia no sale de los montos, que son los mismos para todos, sino de cómo se arma cada grupo: casi la mitad de los paralímpicos juega en equipos con medalla suramericana y solo uno de cada diez cobra una beca juvenil.",
+      "titulo_busqueda": "¿Cuánto cobra un deportista paralímpico en la Argentina?",
+      "seccion": "DEPORTES",
+      "formato": "Anatomía de un dato",
+      "numero": "$864.000",
+      "numero_label": "beca mensual de Excelencia Sudamericana, la más alta de la Secretaría de Deportes (Resolución 139/2026, desde el 01/09/2026; $800.000 desde el 01/04/2026 por la Res. 43/2026): 12 de los 15 que la cobran en septiembre son paralímpicos",
+      "fecha": "2026-10-20",
+      "hora": "03:30",
+      "archivo": "articulos/2026-10-20-cuanto-cobra-deportista-paralimpico-beca.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min",
+      "serie": "plata-deportistas"
+    },
     {
       "id": "2026-10-20-ia-programadores-codigo-software-mit",
       "titulo": "Los agentes de IA multiplican el código que escriben los programadores, pero el software que publican sube solo 20%",
