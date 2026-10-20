@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 20 Oct 2026 04:59:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 20 Oct 2026 06:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La dueña de la sal Dos Anclas ganó $1,11 por cada $100 que vendió en su último ejercicio, menos de la mitad que un año antes</title>
+      <link>https://coninteres.com/articulos/2026-10-20-dos-anclas-ciba-ganancia-balance.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-20-dos-anclas-ciba-ganancia-balance.html</guid>
+      <pubDate>Tue, 20 Oct 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>La Compañía Introductora de Buenos Aires vendió en su ejercicio a junio de 2026 un 14,4% menos en moneda constante y ganó $958 millones: $1,11 por cada $100 vendidos, contra $2,39 un año antes. En el mismo ejercicio terminó de cobrar el seguro por el incendio de su planta de San Luis, salvo US$4,66 millones que no le pagó una aseguradora en liquidación, y la reconstruyó mientras su deuda financiera se multiplicaba por 1,7.</description>
+      <ci:numero>$1,11</ci:numero>
+      <ci:numeroEtiqueta>ganancia neta consolidada de la Compañía Introductora de Buenos Aires (sal Dos Anclas) por cada $100 de ventas en el ejercicio jul-2025/jun-2026: $958.208.835 sobre $86.408.305.903 (formulario de estados contables y memoria ante la CNV, 08/09/2026); $2,39 en 2024/25</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-20-dos-anclas-ciba-ganancia-balance.png" length="77679" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-20-dos-anclas-ciba-ganancia-balance.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Loma Negra salió a buscar US$70 millones y colocó US$150 millones a 6,25% anual en dólares por tres años</title>
       <link>https://coninteres.com/articulos/2026-10-20-loma-negra-obligacion-negociable-150-millones-tasa.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>subió en 2026 la VTV de un auto en la Ciudad de Buenos Aires: de $63.453,61 (Res. 101/SECT/25) a $96.968,19 desde el 27/04/2026 (Res. 79/SECT/26), IVA y oblea incluidos; IPC nacional dic-25 a sep-26 +23,6%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre.png" length="81343" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-vtv-caba-subio-52-por-ciento-precio-libre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El fondo de los partidos políticos quedó congelado en $401,7 millones en 2023, 2024 y 2025: descontada la inflación, perdió 78%</title>
-      <link>https://coninteres.com/articulos/2026-10-17-fondo-partidario-partidos-politicos-congelado.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-17-fondo-partidario-partidos-politicos-congelado.html</guid>
-      <pubDate>Sat, 17 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Fondo Partidario Permanente tuvo asignados $401.664.000 en 2023, en 2024 y en 2025, y descontada la inflación el de 2025 vale 78,0% menos que el de 2023 y 94,3% menos que el de 2017. Es la plata con la que el Estado sostiene el funcionamiento de los partidos fuera de las campañas, y el número no cambió porque el presupuesto de 2023 se prorrogó dos veces. Con multas y sobrantes, en 2025 se repartieron $648,3 millones entre 557 partidos y ramas partidarias; el que más recibió fue el Justicialista, $106,8 millones.</description>
-      <ci:numero>$401,7 M</ci:numero>
-      <ci:numeroEtiqueta>crédito presupuestado del Fondo Partidario Permanente en 2023, 2024 y 2025 ($401.664.000 cada año): Dirección Nacional Electoral, Res. 13/2023 (BO 18/05/2023), Disp. 16/2024 (BO 17/07/2024) y Disp. 1/2025 (BO 23/05/2025), presupuesto 2023 prorrogado (Dtos. 88/2023 y 1131/2024); Presupuesto Abierto, Vicejefatura de Gabinete del Interior, programa 16, actividad 2 'Administración del Fondo Partidario Permanente', devengado 401,664 M en 2023, 2024 y 2025 (mensual = anual). A pesos de sep-26 con IPC INDEC promedio anual: 2017 9.791,9; 2023 2.545,0; 2024 795,6; 2025 560,6 (-78,0% vs 2023; -94,3% vs 2017); crédito 2026 $462,0 M (501,0; -80,3% vs 2023), devengado al 14/10 $116,9 M. Reparto 2025: $648.264.488,84 (suma del Anexo I, 557 líneas: 648.264.488,68); sanciones $208.187.107,72 (32,1%); 20% igualitario $129.652.897,77 = 510 x $254.221,37; PJ $106,8 M (16,5%), PRO 59,5, UCR 49,4, LLA 6,4</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-17-fondo-partidario-partidos-politicos-congelado.png" length="83481" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-17-fondo-partidario-partidos-politicos-congelado.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

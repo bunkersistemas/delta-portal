@@ -5275,6 +5275,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "¿cuánto gana la empresa de la sal Dos Anclas? / Compañía Introductora de Buenos Aires (CIBA), balance consolidado al 30/06/2026 (formulario AIF y memoria ante la CNV del 08/09/2026; hecho relevante de destino del resultado, asamblea del 19/10/2026): ventas $86.408.305.903 (-14,4% real; 2024/25 $75.613.953.337 x IPC 1,33548 = $100.981 M), ganancia neta $958.208.835 = 1,11% de ventas (2,39% en 2024/25, -0,2% en 2023/24), atribuible $740.305.836; ganancia operativa $4.656 M (-62,6% real), RECPAM -$9.775 M, resultado extraordinario $3.888 M (implícito en la memoria; sin él -$3.544 M antes de impuestos), impuesto +$614 M; seguro del incendio de Salinas del Bebedero (12/08/2023): US$15.524.600 fijados, US$10.867.220 cobrados, Boston Seguros no pagó US$4.657.380; planta reinaugurada 12/08/2026; PP&E x2,6 y deuda financiera x1,7 reales; sin dividendos por segundo año",
+      "angulo": "Corrida programada del 20/10/2026 06:30, primera candidata probada (APTA). EMPRESAS sin cupo (ya salió Loma Negra hoy), elegida como pregunta de plata con documento primario. Ancla igual en el formulario AIF y en la memoria (1,11%); ventas -14,43% recalculado con IPC INDEC = 14,4% de la memoria; el HR de la asamblea cierra al peso: 740.305.836 x 12.514,1508/11.826,4103 = 783.356.795 = 39.167.840 + 744.188.955. El HR dice por error 'ejercicio cerrado el 30.6.2025' y la memoria un IPC 'aproximado del 39%' (INDEC: 33,55%); la nota lo aclara. Ganancia bruta difiere entre memoria y formulario: no se usa. EEFF en PDF escaneado: origen del extraordinario no leído.",
+      "fecha": "2026-10-20",
+      "estado": "publicada",
+      "articulo_id": "2026-10-20-dos-anclas-ciba-ganancia-balance",
+      "archivo": "cola/2026-10-20-dos-anclas-ciba-ganancia-balance.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 20/10/2026 06:30: no se probaron porque la primera candidata (balance de CIBA, sal Dos Anclas) pasó la verificación. Lista no probada: EMPRESAS IRSA recompra de ON (HR CNV 16/10); FCA Compañía Financiera y PSA Finance HR del 16/10 (sin leer); pregunta de plata: cuánto cuesta vacunar contra la aftosa con la libre elección de veterinarios (La Nación); cuántas vacas hay que sacar de las islas del Delta por la crecida (La Nación, Clarín; existencias SENASA por partido); cuánto le pagó la Argentina a sus abogados del juicio por YPF (Preska cerró el caso: infobae, Clarín, Cronista, TN, La Nación; sin documento oficial, ya frenado 04:30); colectivos del AMBA recortan servicios nocturnos (infobae, TN, Página12; subsidio ya en cola el 17/10); riesgo país 675 (todas; serie publicada); exportaciones récord de septiembre (todas; ICA publicado el 19/10); RIGI Vaca Muerta US$15.400 M (La Nación, Clarín; Pluspetrol ya publicada el 02/10); gasoil más caro de la región (TN; ya frenado); presupuesto universitario según los gremios (TN; ya publicadas); UOCRA octubre (infobae; escala publicada el 25/09)",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-20",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }
