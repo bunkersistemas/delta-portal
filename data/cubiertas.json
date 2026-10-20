@@ -5202,6 +5202,26 @@
       "angulo": "Registro de candidatas de la corrida.",
       "fecha": "2026-10-19",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto paga Estados Unidos de intereses por su deuda? (ámbito 19/10/2026 'Cifra récord: el costo de los intereses de la deuda de EEUU superó el u$s1 billón') / intereses de la deuda en manos del público año fiscal 2026: US$1.142.282.505.932 (MTS tabla 5: interés bruto 1.359.953 M - fondos fiduciarios 217.671 M), +11,1% vs 1.028.067 M; CBO MBR sep-2026 1.143 vs 1.028 (+11%); 21,1% de la recaudación; más que defensa desde 2024; función interés neto 1.051.754 M (+8,4%) debajo de Medicare",
+      "angulo": "Corrida programada del 19/10/2026 22:30, segunda candidata probada (APTA). Pregunta de plata del día en MUNDO con dos fuentes oficiales independientes (Tesoro y CBO) más recálculo mensual. Distinta de la nota del 24/09 (tasa de los bonos de EE.UU.) y de la del 27/09 (intereses de la deuda argentina): acá el costo total de los intereses de EE.UU., su serie desde 2015 y su peso contra defensa, Medicare y la recaudación.",
+      "fecha": "2026-10-19",
+      "estado": "publicada",
+      "articulo_id": "2026-10-19-intereses-deuda-estados-unidos-1-billon",
+      "archivo": "cola/2026-10-19-intereses-deuda-estados-unidos-1-billon.html"
+    },
+    {
+      "tema": "retención de Ingresos Brutos en billeteras virtuales / SIRCUPA (RG Comisión Arbitral 9/2022): supermercados (ASU) piden que CABA, Santa Fe y La Pampa adhieran (La Nación 19/10/2026; iProfesional 19/10/2026, dos notas)",
+      "angulo": "Corrida programada del 19/10/2026 22:30, primera candidata probada: FRENADA. No hay cifra ancla en documento oficial: la Comisión Arbitral no publica recaudación del SIRCUPA ni un listado fechado de adhesiones; las alícuotas dependen del padrón de cada provincia y contribuyente. Retomable si COMARB publica recaudación por jurisdicción o si una provincia publica la norma de adhesión con alícuotas.",
+      "fecha": "2026-10-19",
+      "estado": "descartada"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/10/2026 22:30: frenó la primera (retención de IIBB en billeteras, sin cifra oficial) y pasó la segunda (intereses de la deuda de EE.UU.). Lista no probada: EMPRESAS Loma Negra ON Clase 7 (HR 19/10) e Inversora Juramento compra de estancia (HR 19/10) — sin cupo de empresas: ya salió hoy Aeropuertos Argentina 2000; cuánto deben Racing e Independiente (clásico 19/10, Perfil; balances de los clubes); exportaciones pyme en máximo de 13 años (ámbito; fuente a identificar); 4287 empresas menos (La Nación; SRT ya publicada el 27/09 y 09/10); metalurgia septiembre (ámbito; una sola cámara); U2 en River 2027 (Perfil; precio de entradas sin documento oficial); costo de un preso federal (ya publicada el 08/10); riesgo país en máximo del año (serie ya publicada)",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-19",
+      "estado": "descartada"
     }
   ]
 }

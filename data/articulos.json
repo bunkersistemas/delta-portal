@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-19T20:46:18-03:00",
+    "actualizado": "2026-10-19T22:43:09-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-19-intereses-deuda-estados-unidos-1-billon",
+      "titulo": "Estados Unidos gastó US$1,14 billones en intereses de su deuda en el año fiscal 2026: 11% más que en 2025 y más de lo que destinó a defensa",
+      "bajada": "Por segundo año seguido, Estados Unidos gastó más de un billón de dólares en intereses de su deuda, y la cuenta sigue subiendo. En el año fiscal que cerró el 30 de septiembre fueron US$1.142.282 millones de intereses de la deuda en manos del público: unos US$3.130 millones por día y 21 de cada 100 dólares que recaudó, la proporción más alta desde al menos 2015. Es casi tres veces lo de 2021, por dos razones: la deuda creció 45,5% y la tasa promedio que paga pasó de 1,6% a 3,5%.",
+      "titulo_busqueda": "¿Cuánto paga Estados Unidos de intereses por su deuda?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "US$1,14 billones",
+      "numero_label": "intereses de la deuda en manos del público de EE.UU. en el año fiscal 2026 (oct-2025 a sep-2026). Tesoro, Monthly Treasury Statement tabla 5 al 30/09/2026: Total--Interest on the Public Debt US$1.359.953.253.417 - Total--Interest Received by Trust Funds US$217.670.747.485 = US$1.142.282.505.932 (suma de los 12 meses igual al centavo); FY2025 1.215.613.829.754 - 187.547.096.990 = 1.028.066.732.764 (+11,1%). CBO Monthly Budget Review sep-2026, tabla 3: Net Interest on the Public Debt 1.143 vs 1.028 miles de millones (+115, +11%). Serie desde 2015 (2015 260,39; 2021 412,81; 2023 710,16; 2024 949,21; 2025 1.028,07): máximo de la serie. 21,1% de la recaudación (US$5.403.327 M; 2025 19,6%). Defensa nacional (tabla 9) 965.160 M; CBO DoD militar 916.000 M. Función interés neto (tabla 9) 1.051.754 M (+8,4%, la cifra de ámbito), debajo de Medicare 1.072.626 M. Deuda en manos del público 32,43 billones (sep-21 22,28, +45,5%); tasa promedio 3,531% (sep-21 1,605%).",
+      "fecha": "2026-10-19",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-19-intereses-deuda-estados-unidos-1-billon.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-19-onu-cuota-argentina-pago-junio",
       "titulo": "La Argentina pagó en junio su cuota de US$15.589.176 a la ONU: entre 2019 y 2024 no la había completado dentro del año ninguna vez",
