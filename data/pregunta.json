@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-19",
-  "pregunta": "En agosto de 2026 las empresas privadas despidieron sin causa a 0,66 de cada 100 trabajadores registrados, según la encuesta de la Secretaría de Trabajo. En una empresa de 1.500 empleados, ¿cuántos despidos sin causa en un mes representa esa tasa?",
+  "fecha": "2026-10-20",
+  "pregunta": "El 19 de octubre de 2026 el Banco Nación pagaba 19,25% de tasa nominal anual (TNA) por un plazo fijo electrónico a 30 días. Si ponés $1.000.000, ¿cuánto cobrás de interés al cabo de esos 30 días?",
   "opciones": [
-    "Unos 10",
-    "Unos 99: es el 6,6% del personal",
-    "Menos de 1: es 0,66 por cada mil"
+    "$15.822",
+    "$16.042: es 19,25% dividido 12 meses",
+    "$192.500: es el 19,25% del capital"
   ],
   "correcta": 0,
-  "explicacion": "Una tasa \"cada 100\" es un porcentaje: 0,66 cada 100 trabajadores es 0,66%. Para 1.500 empleados, 1.500 × 0,66 / 100 = 9,9: unos 10 en un mes. Correr la coma un lugar (6,6%) o leerla como \"por mil\" son los dos errores más comunes con las tasas chicas. Parece poco, pero es por mes: si se repitiera todos los meses, en un año sumaría 7,9 despidos cada 100 puestos. Y la tasa de agosto fue la más alta para ese mes desde 2019, cuando fue 0,74.",
-  "nota": "articulos/2026-10-18-despidos-sin-causa-agosto-mas-alto-desde-2019.html",
-  "leccion": ""
+  "explicacion": "La TNA es una tasa anual y se cobra en proporción a los días: $1.000.000 × 19,25% × 30 / 365 = $15.822. Dividirla por 12 da un poco más ($16.042) porque supone meses de 30,4 días; tomar el 19,25% entero es cobrar el interés de un año en un mes. Para comparar con la inflación hay que hacer la misma cuenta: con la inflación de septiembre (1,93%, INDEC), empatarle hubiera requerido $19.336, y ninguno de los diez bancos más grandes pagaba eso.",
+  "nota": "articulos/2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre.html",
+  "leccion": "lecciones/tasa-real.html"
 }

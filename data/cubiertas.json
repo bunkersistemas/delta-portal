@@ -5252,6 +5252,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "¿cuánto pagó Inversora Juramento (familia Brito) por un campo en Salta? / Estancia Lote 5, Anta: US$22,8 M por 10.800 ha con 4.000 cabezas Brangus (hecho relevante CNV 19/10/2026; La Nación e iProfesional 19/10/2026)",
+      "angulo": "Corrida programada del 20/10/2026 04:30, primera candidata probada (EMPRESAS con cupo): FRENADA. El precio figura en un solo documento (hecho relevante de la compradora, financiado con aporte irrevocable de los controlantes); no hay vendedor identificado, escritura, balance posterior ni otro regulador que lo documente, y los medios reproducen el mismo hecho relevante. Derivado no publicado: US$2.111 por hectárea con hacienda incluida. Retomable cuando el balance de Juramento muestre el aporte y el inmueble, o si aparece un segundo documento.",
+      "fecha": "2026-10-20",
+      "estado": "descartada",
+      "motivo_descarte": "cifra ancla de un solo documento de la empresa, sin segunda presentación ni contraste"
+    },
+    {
+      "tema": "¿a qué tasa se endeuda Loma Negra en dólares? / ON Clase 7 (EMPRESAS, hecho relevante, aviso de resultados y formulario AIF ante la CNV del 19/10/2026; suplemento del 14/10/2026): US$150.000.000 a 6,25% fijo, 36 meses (22/10/2026-22/10/2029), ofrecía hasta US$70 M ampliables; 10.562 órdenes (10.306 adjudicadas) por US$169.995.139; efectivo US$142.896.981 y canje de Clase 5 US$7.103.019 (102,58 por 100; ~US$6,9 M de Clase 5); prorrateo 51,5894%; FIX AAA(arg) 13/10. Serie del programa: C1 feb-23 pesos US$133,3 M equiv.; C2 jun-23 US$71,7 M 6,50%; C3 sep-23 US$55 M 7,49%; C4 nov-23 US$10 M 6% (exterior); C5 jul-25 US$112,9 M 8%; C6 ene-26 US$60 M 6,5% (3,53x demanda); deuda 30/06/2026 $302.506 M (87% US$), ON C5+C6 US$172,9 M -> ~US$316 M; deuda neta US$185 M, 1,30x EBITDA ajustado",
+      "angulo": "Corrida programada del 20/10/2026 04:30, segunda candidata probada (APTA). EMPRESAS con cupo (hoy no había nota de la sección). Ángulo nuevo frente a la nota del 25/09 (balance del semestre): la deuda y su costo, con la serie de siete ON desde 2023. Ancla: resultado de la licitación de la empresa, igual en tres presentaciones ante la CNV; serie C2-C6 cruzada con el 20-F 2025 ante la SEC y con el cuadro de endeudamiento del suplemento (balance al 30/06/2026; saldos en pesos a $1.483,02 = US$116,3 M y 61,3 M con intereses). Superlativos: 'la más grande de las siete' (valor previo C1 US$133,3 M equiv.); 'segunda tasa más baja en dólares' (solo C4 6%). Los ~US$316 M son estimación propia y la nota lo aclara (puede usar los fondos para refinanciar hasta el 100%).",
+      "fecha": "2026-10-20",
+      "estado": "publicada",
+      "articulo_id": "2026-10-20-loma-negra-obligacion-negociable-150-millones-tasa",
+      "archivo": "cola/2026-10-20-loma-negra-obligacion-negociable-150-millones-tasa.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 20/10/2026 04:30: frenó la primera (Inversora Juramento, compra de campo, un solo documento) y pasó la segunda (Loma Negra ON Clase 7). Lista no probada: TGS, dos proyectos RIGI de líquidos del gas por más de US$3.200 M (Clarín, La Nación, ámbito: aprobación del Comité Evaluador anunciada por el Gobierno; sin resolución en el Boletín Oficial ni hecho relevante de TGS en CNV/SEC todavía; retomable cuando salgan); cuánto le pagó la Argentina a sus abogados del juicio por YPF (Preska cerró el caso; infobae, Clarín, Cronista, TN, La Nación; los honorarios de Sullivan & Cromwell solo aparecen en medios, sin documento oficial hallado); gasoil más caro de la región (TN; padrón de precios en surtidor de la SE desactualizado, ya frenado el 25 y 27/09); FATE condenada a pagar $1.200 M de sueldos (Clarín; expediente judicial); colectivos del AMBA recortan servicios nocturnos (infobae, Página12; subsidio ya en cola el 17/10); préstamos de $30 M para jubilados (TN); riesgo país en máximo del año (todas; serie ya publicada); exportaciones récord de septiembre (todas; ICA publicado el 19/10); presupuesto universitario según los gremios (TN; ya publicadas 30/09, 15/10 y 16/10)",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-20",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }
