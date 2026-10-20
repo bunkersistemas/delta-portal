@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Cuándo llega Messi a los 1.000 goles? Cuántos le faltan y en cuántos partidos — CON INTERÉS</title>
+<meta name="description" content="Messi lleva 936 goles oficiales en 1.181 partidos: le faltan 64. Al ritmo del último año con el Inter Miami, 35 goles en 38 partidos, necesitaría unos 70 partidos más y llegaría a mediados de 2028, la última temporada de su contrato.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+</style>
+</head>
+<body data-palette="#0E7C86,#6B6560,#C4701F,#C0392B">
+
+<div class="draft-ribbon"><b>BORRADOR</b> · pendiente de aprobación editorial · no indexado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">DEPORTES <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>Si Messi sigue haciendo goles al ritmo del último año, ¿cuándo llegaría a los 1.000?</h1>
+
+  <p class="standfirst">En ninguno de los tres escenarios que calculamos Messi llega a los 1.000 goles en 2027. Lleva 936 goles oficiales en 1.181 partidos: le faltan 64. En los últimos doce meses hizo 47 goles en 51 partidos, pero 12 fueron con la Selección, y ya no juega en ella. Todo lo que falta tiene que salir del Inter Miami, donde hizo 35 goles en 38 partidos. A ese ritmo necesitaría unos 70 partidos más: llegaría hacia agosto de 2028, a los 41 años y en la última temporada de su contrato.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>20 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 7 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta cuántos goles lleva Messi contados partido por partido, cuál fue su ritmo entre el 20 de octubre de 2025 y el 19 de octubre de 2026, y en cuántos partidos y en qué momento llegaría a los 1.000 en tres escenarios. La fecha es una estimación, no un pronóstico: el calendario de 2027 y 2028 del Inter Miami todavía no se publicó, así que suponemos que juega tantos partidos por año como en el último. Tampoco puede anticipar lesiones, un retiro ni un cambio de club.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">2m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">64</div>
+      <div class="cap">Son los <b>goles que le faltan a Messi para llegar a 1.000</b>. Lleva 936 en partidos oficiales con el Barcelona, el PSG, el Inter Miami y la Selección. Si mantiene el ritmo que tuvo con su club en el último año, <b>le alcanzan unos 70 partidos</b>.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v">47 en 51</span><span class="k">goles y partidos en los últimos 12 meses</span></div>
+        <div class="sr"><span class="v">35 en 38</span><span class="k">solo con el Inter Miami, que es lo que queda</span></div>
+        <div class="sr"><span class="v up">2028</span><span class="k">el año en que llegaría en los tres escenarios (estimado)</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Cuántos goles lleva, contados uno por uno</h3>
+    <p class="lead">Messi lleva 936 goles oficiales: le faltan 64 para los 1.000. El último par lo hizo el sábado 17 de octubre, en el 3 a 1 del Inter Miami en Atlanta: los goles 935 y 936, a los 56 y a los 60 minutos, según la crónica de <a href="https://www.diariolasamericas.com/deportes/messi-llega-los-936-goles-su-carrera-doblete-el-inter-miami-n5403848">Diario Las Américas</a> y el registro de <a href="https://www.messistat.com/en/latest-goal">MessiStat</a>.</p>
+    <p>No hay un organismo que lleve la cuenta oficial de la carrera de un jugador, así que la armamos nosotros, equipo por equipo. El Barcelona y el PSG son capítulos cerrados. La Selección también: Messi se despidió el 6 de octubre ante Benín, con su partido 208 y su gol 126. El Inter Miami informó que el gol a Cruz Azul del 16 de septiembre fue el 100 con el club, en 115 partidos. Desde entonces jugó cinco partidos más e hizo seis goles. Sumados los cuatro equipos, dan los 936 de la tabla.</p>
+
+    <table class="tb">
+      <tr><th>Equipo</th><th>Años</th><th style="text-align:right">Partidos</th><th style="text-align:right">Goles</th><th style="text-align:right">Goles por partido</th></tr>
+      <tr><td>Barcelona</td><td>2004-2021</td><td class="n">778</td><td class="n">672</td><td class="n">0,86</td></tr>
+      <tr><td>Selección argentina</td><td>2005-2026</td><td class="n">208</td><td class="n">126</td><td class="n">0,61</td></tr>
+      <tr><td>Inter Miami</td><td>2023-2026</td><td class="n">120</td><td class="n">106</td><td class="n">0,88</td></tr>
+      <tr><td>PSG</td><td>2021-2023</td><td class="n">75</td><td class="n">32</td><td class="n">0,43</td></tr>
+      <tr><td><b>Total</b></td><td></td><td class="n"><b>1.181</b></td><td class="n"><b>936</b></td><td class="n"><b>0,79</b></td></tr>
+    </table>
+    <p style="font-size:14px;color:var(--muted)">Partidos oficiales de clubes y de la Selección mayor, hasta el 19/10/2026. No incluye amistosos de pretemporada de los clubes ni los partidos del Barcelona B. Fuentes en la capa 4.</p>
+
+    <p>En estos días circularon otras dos cifras. <a href="https://bolavip.com/en/soccer/lionel-messi-hits-934-career-goals-where-does-cristiano-ronaldo-stand-in-the-race-to-1000">Bolavip</a> publicó 934 el 11 de octubre, pero contaba hasta el partido con D.C. United, antes del doblete en Atlanta. <a href="https://sports.yahoo.com/articles/messi-becomes-third-player-reach-093900707.html">Yahoo Sports</a> publicó 942 el 20 de octubre, sin explicar qué suma. La diferencia, seis goles, es justo la cantidad que Messi hizo con el Barcelona B en la temporada 2004-05, según el propio club. Puede ser la explicación, pero no lo pudimos confirmar.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Su ritmo en el último año: 47 goles en 51 partidos</h3>
+    <p>Entre el 20 de octubre de 2025 y el 19 de octubre de 2026 Messi jugó 51 partidos oficiales e hizo 47 goles: <b>0,92 por partido</b>, casi cuatro por mes. Fue un año completo: los playoffs que terminaron con el Inter Miami campeón de la MLS, un Mundial con la Selección y otra temporada en Estados Unidos.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Goles de Messi por mes · 20/10/2025 al 19/10/2026</div>
+        <h3>De sus 47 goles, 35 fueron con el Inter Miami y 12 con la Selección</h3>
+        <p class="fig-sub">Goles en partidos oficiales. Octubre de 2025 cuenta desde el día 20; octubre de 2026, hasta el 19.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 270" role="img" aria-label="Goles de Messi por mes entre octubre de 2025 y octubre de 2026. Octubre de 2025: 2 con el club. Noviembre: 4 con el club y 1 con la Selección. Diciembre, enero y febrero: ninguno. Marzo: 5 con el club y 1 con la Selección. Abril: 3. Mayo: 5. Junio: 7 con la Selección. Julio: 2 con la Selección. Agosto: 8 con el club. Septiembre: 4. Octubre de 2026: 4 con el club y 1 con la Selección.">
+<line x1="14" y1="200" x2="740" y2="200" class="gg"/>
+<line x1="14" y1="120" x2="740" y2="120" class="gg" stroke-dasharray="3 4"/>
+<line x1="14" y1="40" x2="740" y2="40" class="gg" stroke-dasharray="3 4"/>
+<text x="740" y="116" class="cf" text-anchor="end">4 goles</text>
+<text x="740" y="36" class="cf" text-anchor="end">8 goles</text>
+<rect x="24" y="160" width="34" height="40" fill="#0E7C86"/><text x="41" y="154" class="cvB" text-anchor="middle">2</text>
+<rect x="80" y="120" width="34" height="80" fill="#0E7C86"/><rect x="80" y="100" width="34" height="20" fill="#C4701F"/><text x="97" y="94" class="cvB" text-anchor="middle">5</text>
+<text x="153" y="194" class="cv" text-anchor="middle">0</text>
+<text x="209" y="194" class="cf" text-anchor="middle">–</text>
+<text x="265" y="194" class="cv" text-anchor="middle">0</text>
+<rect x="304" y="100" width="34" height="100" fill="#0E7C86"/><rect x="304" y="80" width="34" height="20" fill="#C4701F"/><text x="321" y="74" class="cvB" text-anchor="middle">6</text>
+<rect x="360" y="140" width="34" height="60" fill="#0E7C86"/><text x="377" y="134" class="cvB" text-anchor="middle">3</text>
+<rect x="416" y="100" width="34" height="100" fill="#0E7C86"/><text x="433" y="94" class="cvB" text-anchor="middle">5</text>
+<rect x="472" y="60" width="34" height="140" fill="#C4701F"/><text x="489" y="54" class="cvB" text-anchor="middle">7</text>
+<rect x="528" y="160" width="34" height="40" fill="#C4701F"/><text x="545" y="154" class="cvB" text-anchor="middle">2</text>
+<rect x="584" y="40" width="34" height="160" fill="#0E7C86"/><text x="601" y="34" class="cvB" text-anchor="middle">8</text>
+<rect x="640" y="120" width="34" height="80" fill="#0E7C86"/><text x="657" y="114" class="cvB" text-anchor="middle">4</text>
+<rect x="696" y="120" width="34" height="80" fill="#0E7C86"/><rect x="696" y="100" width="34" height="20" fill="#C4701F"/><text x="713" y="94" class="cvB" text-anchor="middle">5</text>
+<text x="41" y="218" class="cl" text-anchor="middle">oct</text><text x="97" y="218" class="cl" text-anchor="middle">nov</text><text x="153" y="218" class="cl" text-anchor="middle">dic</text><text x="209" y="218" class="cl" text-anchor="middle">ene</text><text x="265" y="218" class="cl" text-anchor="middle">feb</text><text x="321" y="218" class="cl" text-anchor="middle">mar</text><text x="377" y="218" class="cl" text-anchor="middle">abr</text><text x="433" y="218" class="cl" text-anchor="middle">may</text><text x="489" y="218" class="cl" text-anchor="middle">jun</text><text x="545" y="218" class="cl" text-anchor="middle">jul</text><text x="601" y="218" class="cl" text-anchor="middle">ago</text><text x="657" y="218" class="cl" text-anchor="middle">sep</text><text x="713" y="218" class="cl" text-anchor="middle">oct</text>
+<text x="69" y="236" class="cf" text-anchor="middle">2025</text><text x="489" y="236" class="cf" text-anchor="middle">2026</text>
+<rect x="24" y="252" width="12" height="12" fill="#0E7C86"/><text x="42" y="262" class="cl">Inter Miami</text>
+<rect x="140" y="252" width="12" height="12" fill="#C4701F"/><text x="158" y="262" class="cl">Selección (Mundial y amistosos)</text>
+<text x="420" y="262" class="cf">enero: sin partidos oficiales</text>
+</svg>
+      <figcaption><b>Fuentes:</b> ESPN, registro de partidos de la MLS 2026 y seguimiento de Messi en 2026; Inter Miami CF (playoffs 2025 y gol 100); Cadena 3 (Angola, 14/11/2025). Conteo y agrupación por mes: Con Interés. <b>Unidad:</b> goles en partidos oficiales.</figcaption>
+    </figure>
+
+    <p>El mes con más goles fue agosto de 2026, con ocho, cuatro de ellos en el 7 a 1 a CF Montréal. Los de junio y julio son de la Selección: Messi hizo ocho goles en el Mundial, que la Argentina perdió en la final con España. Ese ritmo tiene una trampa para la cuenta que viene: 12 de los 47 goles fueron con la Selección, y esa cuenta quedó cerrada con la despedida ante Benín.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Cuándo llegaría a los 1.000: tres escenarios</h3>
+    <p>Sin la Selección, la cuenta hay que hacerla con el club. En los últimos doce meses Messi jugó 38 partidos oficiales con el Inter Miami e hizo 35 goles. Es el mismo ritmo por partido que el total (0,92), pero con menos partidos: 35 goles por año en lugar de 47.</p>
+    <p>Con eso calculamos cuántos partidos le faltan para hacer 64 goles en tres escenarios. Para pasar de partidos a fechas suponemos que juega 38 partidos por año con el club, como en el último. Son estimaciones: dicen qué pasa si el ritmo se mantiene, no que se vaya a mantener.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Partidos que le faltan para los 1.000 goles · estimación</div>
+        <h3>Entre 62 y 81 partidos: en todos los casos, el gol 1.000 cae en 2028</h3>
+        <p class="fig-sub">Partidos necesarios para hacer 64 goles, según el ritmo de cada período. Redondeado hacia arriba.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 200" role="img" aria-label="Partidos que le faltan a Messi para llegar a 1.000 goles. Al ritmo de su temporada más goleadora en la MLS, la de 2025, con 1,04 goles por partido: 62 partidos, hacia junio de 2028. Al ritmo del último año con el Inter Miami, 0,92 por partido: 70 partidos, hacia agosto de 2028. Al ritmo de toda su carrera, 0,79 por partido: 81 partidos, hacia diciembre de 2028.">
+<text x="0" y="22" class="clB">Ritmo de la MLS 2025 · 29 goles en 28 partidos (1,04)</text>
+<rect x="0" y="30" width="428" height="20" rx="3" fill="#6B6560"/><text x="436" y="45" class="cvB">62 partidos · hacia junio de 2028</text>
+<text x="0" y="84" class="clB">Ritmo del último año con el Inter Miami · 35 en 38 (0,92)</text>
+<rect x="0" y="92" width="483" height="20" rx="3" fill="#0E7C86"/><text x="491" y="107" class="cvB">70 partidos · hacia agosto de 2028</text>
+<text x="0" y="146" class="clB">Ritmo de toda la carrera · 936 en 1.181 (0,79)</text>
+<rect x="0" y="154" width="559" height="20" rx="3" fill="#6B6560"/><text x="567" y="169" class="cvB">81 · hacia diciembre de 2028</text>
+<text x="0" y="196" class="cf">Fechas: suponiendo 38 partidos por año con el club, como entre octubre de 2025 y octubre de 2026. Su contrato vence al final de la temporada 2028.</text>
+</svg>
+      <figcaption><b>Fuentes:</b> conteo de Con Interés con datos de ESPN, MessiStat, Inter Miami CF y Al Jazeera (temporada 2025). <b>Cálculo:</b> 64 goles divididos por los goles por partido de cada período. Es una <b>estimación</b>, no un pronóstico.</figcaption>
+    </figure>
+
+    <p>El escenario central es el del último año con el club: <b>70 partidos, hacia agosto de 2028</b>.</p>
+    <p>El más rápido supone que repite su temporada más goleadora en la MLS, la de 2025, cuando hizo 29 goles en 28 partidos (en 2024 había hecho 20) y fue el goleador de la liga. Le alcanzarían 62 partidos, y llegaría hacia junio de 2028.</p>
+    <p>El más lento es el de toda su carrera: necesitaría 81 partidos, y la cuenta se va a diciembre de 2028, justo cuando vence su contrato. Los tres escenarios caen en el mismo año, y la razón está en el calendario que le queda.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Por qué 2027 no alcanza</h3>
+    <p>A la temporada 2026 del Inter Miami le quedan cuatro partidos: Red Bull New York el 24 de octubre, FC Cincinnati el 28, New England a principios de noviembre y Charlotte el 7 de noviembre, el último día de la fase regular. Después vienen los playoffs, que van del 18 de noviembre a la final del 18 de diciembre. Si el equipo llega a la final, son seis partidos más como máximo.</p>
+    <p>Con entre 6 y 10 partidos por delante y 0,92 goles por partido, Messi terminaría 2026 con unos 941 a 945 goles. Un 2027 con 38 partidos al mismo ritmo suma unos 35 más: cerraría el año cerca de 980. Aun en el escenario más rápido, y aun si jugara 45 partidos en 2027 porque no hay Mundial que corte la temporada, quedaría por debajo de 1.000. Por eso los tres escenarios terminan en 2028.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Lo que puede cambiar la cuenta</h3>
+    <p>Esa cuenta supone que el ritmo y la cantidad de partidos se mantienen. Hay tres cosas que pueden moverla.</p>
+    <p><b>La edad.</b> Messi cumplió 39 en junio. En el escenario central, el gol 1.000 llegaría a los 41. Su ritmo del último año es mejor que el de toda su carrera, pero nada garantiza que se sostenga.</p>
+    <p><b>El contrato.</b> El Inter Miami anunció el 23 de octubre de 2025 que lo extendía <a href="https://www.espn.com/soccer/story/_/id/45570212">hasta el final de la temporada 2028 de la MLS</a>. Los tres escenarios caen dentro de ese plazo, pero el de la carrera llega con lo justo: unos pocos partidos sin jugar lo dejarían afuera.</p>
+    <p><b>Los partidos que juegue.</b> La cantidad de partidos por año pesa tanto como los goles. En el último año jugó 38 con el club porque el Mundial lo sacó del Inter Miami entre fines de mayo y fines de julio. En 2027 no hay Mundial y podría jugar más, lo que adelantaría la fecha. Una lesión la atrasaría.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>El total, por dos caminos que coinciden.</b> El primero es la suma por equipo. Partimos del desglose que publicó <a href="https://www.beinsports.com/es-us/football/mls/articles/la-radiograf%C3%ADa-de-los-900-goles-de-lionel-messi-2026-03-19">beIN Sports</a> cuando Messi llegó a 900 goles, el 18 de marzo: 900 en 1.142 partidos (Barcelona 672 en 778, Selección 115 en 196, PSG 32 en 75 e Inter Miami 81 en 93). Le sumamos lo que vino después. Con la Selección llegó a 126 goles en 208 partidos, según el <a href="https://www.espn.com/soccer/story/_/id/47978642/lionel-messi-2026-tracker-inter-miami-argentina-games-goals-assists-stats">seguimiento de ESPN</a>. Con el Inter Miami, el club informó el <a href="https://www.intermiamicf.com/news/leo-messi-reaches-100-goals-for-inter-miami-cf">gol 100 en 115 partidos</a>, y el <a href="https://www.espn.com/soccer/player/gamelog/_/id/45843/lionel-messi">registro de partidos de ESPN</a> muestra seis goles más en los cinco partidos siguientes: 106 en 120. Total: 936 en 1.181, lo mismo que publica <a href="https://www.messistat.com/en">MessiStat</a> (actualizado el 20/10).</p>
+      <p>El segundo camino es por año. <a href="https://espndeportes.espn.com/futbol/nota/_/id/16137354/lionel-messi-900-goles-superara-a-cristiano-ronaldo">ESPN</a> informó que Messi cerró 2025 con 896 goles, y <a href="https://sports.yahoo.com/articles/messi-becomes-third-player-reach-093900707.html">Yahoo Sports</a> contó 40 goles en 44 partidos en 2026 (29 con el club y 11 con la Selección). 896 + 40 = 936. Los partidos también cierran: 1.142 al llegar a 900, que fue su quinto partido de 2026, más los 39 que jugó después, dan 1.181.</p>
+      <p><b>El último año.</b> Sumamos partido por partido desde el 20 de octubre de 2025. Del Inter Miami: los seis partidos de los playoffs de 2025, con seis goles según el <a href="https://www.intermiamicf.com/news/road-to-glory-mls-cup-champions-historic-2025-season-in-review">balance de temporada del club</a>, y los 32 partidos de 2026 (27 de la MLS, dos de la Leagues Cup, dos de la Copa de Campeones de la Concacaf y la Campeones Cup), con 29 goles. De la Selección: el amistoso con Angola del 14 de noviembre de 2025, con un gol (<a href="https://www.cadena3.com/noticia/mundo/argentina-cierra-el-ano-con-triunfo-ante-angola-con-gol-y-asistencia-de-messi_486608">Cadena 3</a>), y los 12 partidos de 2026, con 11 goles. Total: 51 partidos y 47 goles. Contraste: 936 menos 47 da 889 goles al 19 de octubre de 2025, y sumando los siete goles de fines de 2025 se llega a los 896 con que cerró el año.</p>
+      <p><b>La proyección es aritmética.</b> 64 goles divididos por el promedio de cada período: 64 / (35/38) = 69,5; 64 / (936/1.181) = 80,8; 64 / (29/28) = 61,8. Redondeamos hacia arriba. La temporada 2025 de la MLS (29 goles en 28 partidos) sale de <a href="https://www.aljazeera.com/sports/2025/10/19/messi-scores-three-goals-secures-golden-boot-as-miami-beat-nashville">Al Jazeera</a> y del Inter Miami. El calendario que le queda a 2026 sale de <a href="https://www.nbcmiami.com/news/sports/inter-miami/what-to-know-going-into-the-next-chapter-of-inter-miami-cfsseason/3842839/">NBC Miami</a> y las fechas de los playoffs, de <a href="https://www.si.com/soccer/mls-official-2026-playoffs-schedule">Sports Illustrated</a>. El de 2027 y 2028 no está publicado.</p>
+      <div class="meta">
+        <span><b>Fuente</b> Inter Miami CF · ESPN · MessiStat · beIN Sports · Yahoo Sports · Diario Las Américas · FC Barcelona</span>
+        <span><b>Período</b> 2004 al 19/10/2026; ritmo del 20/10/2025 al 19/10/2026</span>
+        <span><b>Unidad</b> goles y partidos oficiales</span>
+        <span><b>Verificación</b> total confirmado por dos caminos independientes que coinciden · proyecciones marcadas como estimación</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>La carrera de Messi hacia los 1.000 goles depende ahora de una sola cosa: cuánto juegue con el Inter Miami. Al ritmo del último año, 2026 y 2027 lo dejan cerca de 980, y lo que falta tiene que salir de la temporada 2028, la última de su contrato.</p>
+    <p>La cuenta muestra también algo menos obvio. A los 39 años, Messi hizo más goles por partido en el último año (0,92) que en el promedio de su carrera (0,79). Lo que lo frena no es la puntería sino el calendario: sin la Selección, juega menos partidos por año. Y cuántos partidos juegue en 2027 y 2028 es justamente lo que todavía no se sabe: ese calendario del Inter Miami no se publicó.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p><b>Si querés estar en la cancha el día del gol 1.000,</b> la cuenta apunta a la temporada 2028 de la MLS, en Estados Unidos. En la Argentina ya no hay partidos de Messi con la Selección para esperarlo.</p>
+      <p><b>Si ves una fecha "exacta" del gol 1.000 en algún lado,</b> desconfiá: depende de cuántos partidos juegue, y el calendario de 2027 y 2028 todavía no existe. Esta cuenta tampoco sirve para apostar: es aritmética, no un pronóstico.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep" open>
+      <summary>Los tres escenarios, en números <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Ritmo</th><th style="text-align:right">Goles</th><th style="text-align:right">Partidos</th><th style="text-align:right">Por partido</th><th style="text-align:right">Partidos para 64 goles</th><th>Cuándo (estimado)</th></tr>
+        <tr><td>MLS 2025, temporada regular</td><td class="n">29</td><td class="n">28</td><td class="n">1,04</td><td class="n">62</td><td>hacia junio de 2028</td></tr>
+        <tr><td>Último año, solo Inter Miami</td><td class="n">35</td><td class="n">38</td><td class="n">0,92</td><td class="n">70</td><td>hacia agosto de 2028</td></tr>
+        <tr><td>Toda la carrera</td><td class="n">936</td><td class="n">1.181</td><td class="n">0,79</td><td class="n">81</td><td>hacia diciembre de 2028</td></tr>
+        <tr><td>Último año, club y Selección</td><td class="n">47</td><td class="n">51</td><td class="n">0,92</td><td class="n">70</td><td>no aplica: ya no juega en la Selección</td></tr>
+      </table>
+      <p>Fechas calculadas desde el 20/10/2026 con 38 partidos por año con el club. Son estimaciones, no pronósticos.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Los 51 partidos del último año, mes por mes <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Mes</th><th style="text-align:right">Partidos</th><th style="text-align:right">Goles club</th><th style="text-align:right">Goles Selección</th><th>Qué jugó</th></tr>
+        <tr><td>Oct 2025 (desde el 20)</td><td class="n">1</td><td class="n">2</td><td class="n">0</td><td>Playoffs MLS: Nashville</td></tr>
+        <tr><td>Nov 2025</td><td class="n">5</td><td class="n">4</td><td class="n">1</td><td>Playoffs: Nashville (2), Cincinnati, NYCFC; amistoso con Angola</td></tr>
+        <tr><td>Dic 2025</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td>Final de la MLS con Vancouver</td></tr>
+        <tr><td>Ene 2026</td><td class="n">0</td><td class="n">0</td><td class="n">0</td><td>Receso</td></tr>
+        <tr><td>Feb 2026</td><td class="n">1</td><td class="n">0</td><td class="n">0</td><td>MLS: LAFC</td></tr>
+        <tr><td>Mar 2026</td><td class="n">7</td><td class="n">5</td><td class="n">1</td><td>MLS, Concacaf (Nashville, dos partidos), amistosos con Mauritania y Zambia</td></tr>
+        <tr><td>Abr 2026</td><td class="n">5</td><td class="n">3</td><td class="n">0</td><td>MLS</td></tr>
+        <tr><td>May 2026</td><td class="n">5</td><td class="n">5</td><td class="n">0</td><td>MLS</td></tr>
+        <tr><td>Jun 2026</td><td class="n">4</td><td class="n">0</td><td class="n">7</td><td>Amistoso con Islandia; Mundial: Argelia, Austria, Jordania</td></tr>
+        <tr><td>Jul 2026</td><td class="n">5</td><td class="n">0</td><td class="n">2</td><td>Mundial: Cabo Verde, Egipto, Suiza, Inglaterra, España</td></tr>
+        <tr><td>Ago 2026</td><td class="n">7</td><td class="n">8</td><td class="n">0</td><td>MLS y Leagues Cup</td></tr>
+        <tr><td>Sep 2026</td><td class="n">6</td><td class="n">4</td><td class="n">0</td><td>MLS y Campeones Cup (Cruz Azul)</td></tr>
+        <tr><td>Oct 2026 (hasta el 19)</td><td class="n">4</td><td class="n">4</td><td class="n">1</td><td>Despedida con Benín; MLS</td></tr>
+        <tr><td><b>Total</b></td><td class="n"><b>51</b></td><td class="n"><b>35</b></td><td class="n"><b>12</b></td><td></td></tr>
+      </table>
+      <p>Fuentes: ESPN (registro de partidos de la MLS 2026 y seguimiento de 2026), Inter Miami CF (playoffs 2025) y Cadena 3 (Angola). Conteo de Con Interés.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Antes, en Con Interés <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p><a href="../articulos/2026-08-31-messi-seleccion-numeros-finanzas.html">La carrera de Messi en la Selección, en números y en dinero</a> (31/08/2026) y <a href="../articulos/2026-09-25-despedida-messi-cuanto-cuesta-entrada.html">cuánto costaba ir a su despedida con Benín</a> (25/09/2026).</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Inter Miami CF — <a href="https://www.intermiamicf.com/news/leo-messi-reaches-100-goals-for-inter-miami-cf">Leo Messi Reaches 100 Goals for Inter Miami CF</a>, 16/09/2026</li>
+        <li>&#8250; Inter Miami CF — <a href="https://www.intermiamicf.com/news/road-to-glory-mls-cup-champions-historic-2025-season-in-review">Road to Glory: MLS Cup Champions' historic 2025 season in review</a></li>
+        <li>&#8250; ESPN — <a href="https://www.espn.com/soccer/player/gamelog/_/id/45843/lionel-messi">Lionel Messi, registro de partidos de la MLS 2026</a></li>
+        <li>&#8250; ESPN — <a href="https://www.espn.com/soccer/story/_/id/47978642/lionel-messi-2026-tracker-inter-miami-argentina-games-goals-assists-stats">Messi tracker: all goals, assists for Miami, Argentina in 2026</a></li>
+        <li>&#8250; ESPN Deportes — <a href="https://espndeportes.espn.com/futbol/nota/_/id/16137354/lionel-messi-900-goles-superara-a-cristiano-ronaldo">Messi y los 900 goles</a>, 01/01/2026 (896 goles al cierre de 2025)</li>
+        <li>&#8250; ESPN — <a href="https://www.espn.com/soccer/story/_/id/45570212">Lionel Messi extends Inter Miami contract through 2028</a>, 23/10/2025</li>
+        <li>&#8250; MessiStat — <a href="https://www.messistat.com/en">Lionel Messi stats</a>, actualizado al 20/10/2026, y <a href="https://www.messistat.com/en/latest-goal">último gol</a></li>
+        <li>&#8250; beIN Sports — <a href="https://www.beinsports.com/es-us/football/mls/articles/la-radiograf%C3%ADa-de-los-900-goles-de-lionel-messi-2026-03-19">La radiografía de los 900 goles de Lionel Messi</a>, 19/03/2026</li>
+        <li>&#8250; Yahoo Sports — <a href="https://sports.yahoo.com/articles/messi-becomes-third-player-reach-093900707.html">Messi becomes the third player to reach 40 goals in 2026</a>, 20/10/2026</li>
+        <li>&#8250; Diario Las Américas —<a href="https://www.diariolasamericas.com/deportes/messi-llega-los-936-goles-su-carrera-doblete-el-inter-miami-n5403848">Messi llega a los 936 goles en su carrera con doblete para el Inter Miami</a>, 18/10/2026</li>
+        <li>&#8250; Bolavip — <a href="https://bolavip.com/en/soccer/lionel-messi-hits-934-career-goals-where-does-cristiano-ronaldo-stand-in-the-race-to-1000">Lionel Messi hits 934 career goals</a>, 11/10/2026</li>
+        <li>&#8250; Cadena 3 — <a href="https://www.cadena3.com/noticia/mundo/argentina-cierra-el-ano-con-triunfo-ante-angola-con-gol-y-asistencia-de-messi_486608">Argentina cierra el año con triunfo ante Angola</a>, 14/11/2025</li>
+        <li>&#8250; Al Jazeera — <a href="https://www.aljazeera.com/sports/2025/10/19/messi-scores-three-goals-secures-golden-boot-as-miami-beat-nashville">Messi scores hat-trick, secures Golden Boot as Miami beat Nashville</a>, 19/10/2025</li>
+        <li>&#8250; ESPN — <a href="https://global.espn.com/football/story/_/id/42796224/miami-star-lionel-messi-named-mls-mvp-sets-goalscoring-mark">Miami star Lionel Messi named MLS MVP</a>, 06/12/2024 (20 goles en la temporada 2024)</li>
+        <li>&#8250; NBC Miami —<a href="https://www.nbcmiami.com/news/sports/inter-miami/what-to-know-going-into-the-next-chapter-of-inter-miami-cfsseason/3842839/">Inter Miami's remaining schedule for 2026</a>, 06/08/2026</li>
+        <li>&#8250; Sports Illustrated — <a href="https://www.si.com/soccer/mls-official-2026-playoffs-schedule">MLS announces official 2026 playoffs schedule</a></li>
+        <li>&#8250; FC Barcelona — <a href="https://www.fcbarcelona.es/es/noticias/1692969/los-datos-definitivos-de-messi-en-las-categorias-inferiores">Los datos definitivos de Messi en las categorías inferiores</a>, 24/06/2020</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: suma por equipo, conteo del último año partido por partido, promedios y proyecciones.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 20/10/2026. No hay un registro oficial único de los goles de la carrera de un jugador: el total es una reconstrucción de Con Interés con fuentes que coinciden. Las fechas del gol 1.000 son estimaciones aritméticas, no pronósticos. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
