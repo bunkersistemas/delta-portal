@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-20T20:30:14-03:00",
+    "actualizado": "2026-10-20T23:00:42-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-20-turistas-estados-unidos-canada-2025",
+      "titulo": "En 2025 viajaron a Estados Unidos y Canadá 581.613 argentinos por Ezeiza y Aeroparque, 23% menos que en 2017, en el año con más salidas desde 2010",
+      "bajada": "En 2025 salieron por Ezeiza y Aeroparque más turistas que en cualquier año desde 2010, pero a Estados Unidos y Canadá viajaron menos que en 2017. De los 4.091.077 turistas que viven en la Argentina, solo el 14,2% tuvo ese destino principal, la proporción más baja de la serie. El aumento se lo llevó Brasil, con 458.766 viajeros más que en 2017. Los registros de llegadas de Estados Unidos muestran una caída parecida: 22,4%.",
+      "titulo_busqueda": "¿Cuántos argentinos viajan a Estados Unidos? Los datos del INDEC y de EE.UU.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−23,3%",
+      "numero_label": "caída de los turistas residentes que salieron por Ezeiza y Aeroparque con destino principal EE.UU. y Canadá entre 2017 y 2025: 758.752 a 581.613 (INDEC, ETI serie trimestral 2010-2026, Emisivo_serie_3b; suma de trimestres recalculada). Contraste NTTO I-94, llegadas a EE.UU. de residentes en la Argentina: 1.018.177 a 789.942 (−22,4%). Proporción 14,2% en 2025, la más baja desde 2010 (anterior mínima 17,7% en 2024)",
+      "fecha": "2026-10-20",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-20-turistas-estados-unidos-canada-2025.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-20-messi-1000-goles-cuando",
       "titulo": "Si Messi sigue haciendo goles al ritmo del último año, ¿cuándo llegaría a los 1.000?",

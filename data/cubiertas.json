@@ -5393,6 +5393,19 @@
       "angulo": "Registro de candidatas no probadas, para retomarlas en otra corrida.",
       "fecha": "2026-10-20",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuántos argentinos viajan a Estados Unidos? (pregunta de plata detrás del vuelo directo Ezeiza-Orlando que negocia el aeropuerto de Orlando, Clarín 20/10/2026) / INDEC ETI Ezeiza y Aeroparque, serie trimestral 2010-2026 (eti26_serie_cuadros.xls, Emisivo_serie_3b): salidas a EE.UU. y Canadá 758.752 (2017), 697.853 (2019), 530.717 (2024), 581.613 (2025; -23,3% vs 2017, +9,6% vs 2024); total salidas 3.729.739 (2017) y 4.091.077 (2025, máximo desde 2010); proporción 20,3% -> 14,2% (mínimo anual de la serie; anterior 17,7% en 2024); Brasil 803.678 -> 1.262.444 (+57,1%); 1S-2026 326.567 (+2,9%, 14,3%). Contraste NTTO I-94: 1.018.177 (2017), 687.444 (2024), 789.942 (2025; -22,4% y +14,9%); 1S-2026 +1,9%. Brasil MinTur vía aérea 1.148.044 -> 1.574.078 (+37,1%)",
+      "angulo": "Estadística oficial recalculada con contraste independiente (NTTO, relación estable 1,34-1,36). Gasto por viajero de la ETI (US$1.876 en 2025, EE.UU. y Canadá) queda AFUERA por no tener contraste independiente; Visit Orlando 220.000 (vía Clarín) solo atribuido. Sin causas.",
+      "fecha": "2026-10-20",
+      "estado": "publicada",
+      "articulo_id": "2026-10-20-turistas-estados-unidos-canada-2025"
+    },
+    {
+      "tema": "descartes de la corrida programada del 20/10/2026 22:30: no se probaron porque la primera candidata (turistas a EE.UU. y Canadá, INDEC ETI + NTTO) pasó la verificación. Lista no probada: TGS, dos proyectos RIGI por más de US$3.200 M (iProfesional 20/10; sin resolución del MEcon ni hecho relevante, el último 6-K de TGS es del 06/10); Argentina LNG, YPF pone fecha para firmar (ámbito, iProfesional); IRSA recompra de ON (HR CNV 16/10); Pluspetrol, aprobación RIGI de Bajo del Choique (HR CNV 19/10; anuncio ya cubierto el 02/10) — sin cupo de empresas: hoy ya salieron Loma Negra y CIBA; cuánto impuesto paga un auto de lujo (Cadillac desembarca, infobae); cuánto pollo le vende la Argentina a México (Newcastle en Brasil, La Nación); neumáticos importados detrás del fallo de FATE (iProfesional, Clarín); desocupación en el conurbano detrás de la fila de 10 cuadras en Ezeiza (infobae, iProfesional); canasta de servicios del AMBA $267.000 (IIEP, ámbito, infobae, TN, Página12; ya listada el 20/10 18:30); expectativas de industria y supermercados (calendario, sin ángulo propio); riesgo país arriba de 700 (cubierto).",
+      "angulo": "Registro de candidatas no probadas, para retomarlas en otra corrida.",
+      "fecha": "2026-10-20",
+      "estado": "descartada"
     }
   ]
 }
