@@ -1,6 +1,6 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-20T22:30:00-03:00",
+  "actualizado": "2026-10-21T00:50:00-03:00",
   "borradores": [
     {
       "id": "2026-10-20-u2-river-cuanto-cuesta-entrada",
@@ -18,6 +18,24 @@
       "fuentes": 15,
       "lectura": "30 seg → 8 min",
       "pedido": 105,
+      "revision_lector": true
+    },
+    {
+      "id": "2026-10-21-boca-final-sudamericana-cuanta-plata",
+      "titulo": "¿Cuánta plata le deja a Boca llegar a la final de la Sudamericana, y cuánto pesa eso en sus cuentas?",
+      "titulo_busqueda": "¿Cuánto cobra Boca si gana la Copa Sudamericana 2026? Premios de la final y finanzas del club",
+      "bajada": "Para las cuentas de Boca, la final de la Sudamericana es un ingreso grande pero no decisivo. Si gana el 21 de noviembre en Barranquilla, la CONMEBOL le paga US$10 millones y su campaña en esta copa suma US$12,6 millones; si pierde, cobra US$2,5 millones y suma US$5,1 millones. El premio al campeón equivale al 5,8% de lo que el club presupuestó ingresar entre julio de 2026 y junio de 2027, y al 5% de lo que ingresó en su último balance aprobado.",
+      "seccion": "DEPORTES",
+      "formato": "Investigación",
+      "numero": "US$10 M",
+      "numero_label": "premio de la CONMEBOL al campeón de la Sudamericana 2026 (anuncio 19/03/2026 y balance de semifinalistas 24/09/2026; contraste Infobae y Primicias); subcampeón US$2,5 M. Boca lleva US$2,6 M en la copa: US$12,6 M si gana, US$5,1 M si pierde. Equivale al 5,8% de los ingresos del presupuesto 2026/27 ($239.392 M de abril 2026 = US$173,3 M al A3500 promedio de abril, $1.381,45) y al 5,0% de los del balance 2024/25 ($237.615 M = US$199,0 M al A3500 del 30/06/2025, $1.194,08)",
+      "fecha": "2026-10-21",
+      "hora": "00:50",
+      "archivo": "cola/2026-10-21-boca-final-sudamericana-cuanta-plata.html",
+      "verificacion": "verificada",
+      "fuentes": 21,
+      "lectura": "30 seg → 8 min",
+      "pedido": 108,
       "revision_lector": true
     }
   ]
