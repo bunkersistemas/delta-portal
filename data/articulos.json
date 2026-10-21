@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-20T23:00:42-03:00",
+    "actualizado": "2026-10-21T04:30:08-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-20-u2-river-cuanto-cuesta-entrada",
+      "titulo": "¿Cuánto cuesta ver a U2 en River y cuánta plata mueven sus dos recitales?",
+      "bajada": "Ninguno de los cinco paquetes que hoy publica la ticketera oficial para ver a U2 en River baja de 1,7 salarios mínimos: van de $680.000 a $1.500.000, más el cargo por servicio, y la Red Zone, de $700.000, equivale a 1,8. Los dos shows, el 23 y el 25 de marzo de 2027, son los únicos en el país. La plata que mueven es otra cuestión: no encontramos ningún organismo que la mida recital por recital, y los hoteles porteños se llenan todos los noviembres, haya o no un recital gigante.",
+      "titulo_busqueda": "¿Cuánto salen las entradas de U2 en River 2027? Precios, dólares y salario mínimo",
+      "seccion": "ECONOMÍA",
+      "formato": "Investigación",
+      "numero": "$700.000",
+      "numero_label": "precio del paquete (RED) Zone para ver a U2 en River el 23 o el 25 de marzo de 2027, sin cargo por servicio (All Access, página oficial del evento, 20/10/2026; mismo valor en La Nación 20/10 y Perfil 16/10): 1,79 salarios mínimos de octubre ($391.200, Res. 4/2026) y US$453 al oficial BNA de $1.545. Paquetes de la ticketera: $680.000 a $1.500.000",
+      "fecha": "2026-10-20",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-20-u2-river-cuanto-cuesta-entrada.html",
+      "verificacion": "verificada",
+      "fuentes": 15,
+      "lectura": "30 seg → 8 min",
+      "pedido": 105
+    },
     {
       "id": "2026-10-20-turistas-estados-unidos-canada-2025",
       "titulo": "En 2025 viajaron a Estados Unidos y Canadá 581.613 argentinos por Ezeiza y Aeroparque, 23% menos que en 2017, en el año con más salidas desde 2010",
