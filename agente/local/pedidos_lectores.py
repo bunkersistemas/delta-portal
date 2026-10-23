@@ -438,6 +438,59 @@ def resumen():
         print(json.dumps({"error": "%s: %s" % (type(e).__name__, e)}, ensure_ascii=True))
 
 
+# Editor, 23/10/2026: la redaccion estuvo 64 h sin publicar (21-23/10) y nadie se entero.
+# Cada corrida que falla, o que termina sin nota cuando ya van HORAS_SIN_NOTA sin publicar,
+# le escribe al editor por este mismo bot. Como la redaccion corre cada 2 h, insiste cada
+# 2 h hasta que vuelva a salir una nota; ahi avisa que se destrabo.
+HORAS_SIN_NOTA = 6
+ALARMA = os.path.join(LOGS, "alarma_redaccion.txt")   # cuantos avisos van (si existe, esta bloqueada)
+EDITOR_TG = os.path.join(os.path.expanduser("~"), "coninteres-privado", "editor_telegram.txt")
+
+
+def alarma_editor(resultado, motivo):
+    ahora = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) - dt.timedelta(hours=3)   # corridas.jsonl esta en hora AR
+    ultima = None
+    with open(os.path.join(LOGS, "corridas.jsonl"), encoding="utf-8") as h:
+        for l in h:
+            try:
+                r = json.loads(l)
+            except ValueError:
+                continue
+            if r.get("evento") == "fin" and r.get("resultado") == "publicada":
+                ultima = r["hora"]
+    horas = (ahora - dt.datetime.fromisoformat(ultima)).total_seconds() / 3600 if ultima else 999
+    ed = int(open(EDITOR_TG, encoding="ascii").read().strip())
+    if resultado == "publicada":
+        if os.path.exists(ALARMA):
+            os.remove(ALARMA)
+            tg("sendMessage", {"chat_id": ed, "text": "\u2705 La redacci\u00f3n de Con Inter\u00e9s se destrab\u00f3: "
+                               "volvi\u00f3 a publicar. Corto los avisos."})
+            print("OK|alarma: destrabada")
+        return
+    if resultado not in ("falla", "bloqueada") and horas < HORAS_SIN_NOTA:
+        return
+    n = 1
+    if os.path.exists(ALARMA):
+        try:
+            n = int(open(ALARMA, encoding="ascii").read().strip() or 0) + 1
+        except ValueError:
+            n = 1
+    with open(ALARMA, "w", encoding="ascii") as h:   # se anota antes de mandar
+        h.write(str(n))
+    falla = resultado in ("falla", "bloqueada")
+    for _ in range(2):
+        tg("sendMessage", {"chat_id": ed, "text": "\U0001f6a8\U0001f6a8\U0001f6a8 HORACIO \U0001f6a8\U0001f6a8\U0001f6a8"})
+    l = ["\U0001f6a8 HORACIO, NECESITO TU AYUDA PARA DESBLOQUEAR LA REDACCI\u00d3N \U0001f6a8", "",
+         ("La \u00faltima corrida FALL\u00d3." if falla else "La redacci\u00f3n est\u00e1 FRENADA."),
+         ("Hace %.0f horas que no sale una nota (la \u00faltima: %s)." % (horas, ultima[8:10] + "/" + ultima[5:7] + " " + ultima[11:16])
+          if ultima else "No encuentro ninguna nota publicada en el registro."),
+         "", "Qu\u00e9 pas\u00f3: " + (motivo or "(sin detalle)")[:600], "",
+         "Aviso n\u00b0 %d. Te vuelvo a escribir en 2 horas, y as\u00ed hasta que se resuelva." % n,
+         "Para destrabarla: abr\u00ed Claude Code y decime \u00abdestrab\u00e1 la redacci\u00f3n\u00bb."]
+    tg("sendMessage", {"chat_id": ed, "text": "\n".join(l), "disable_web_page_preview": True})
+    print("OK|alarma %d al editor" % n)
+
+
 def ver():
     for p in pedir("GET", "?select=id,creado,origen,tipo,estado,titulo,motivo,salida&order=creado"):
         print("%(id)s | %(creado).16s | %(origen)s | %(tipo)s | %(estado)s | %(titulo)s" % p)
@@ -467,6 +520,8 @@ if __name__ == "__main__":
         avisar(a[1], a[2])
     elif a == ["borradores_en_revision"]:
         borradores_en_revision()
+    elif len(a) in (2, 3) and a[0] == "alarma":   # PowerShell 5.1 se come el argumento vacio
+        alarma_editor(a[1], a[2] if len(a) == 3 else "")
     elif len(a) == 3 and a[0] == "devolver_enfoque":
         devolver_enfoque(a[1], a[2])
     elif len(a) == 4 and a[0] == "cerrar" and a[2] in ("publicado", "descartado"):

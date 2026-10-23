@@ -83,6 +83,14 @@ function Terminar($codigo, $resultado, $t, $id = '') {
   Anotar $t
   Set-Content -Path $Latido -Value ((HoraAR).ToString('yyyy-MM-dd HH:mm:ss') + ' AR  ' + $t) -Encoding ASCII
   Registrar 'fin' $resultado $id $t
+  # Editor, 23/10/2026: falla, o sin nota hace 6 h -> aviso al editor por Telegram (pedidos_lectores.alarma_editor).
+  # Va aunque la corrida haya cortado antes de encontrar python.
+  try {
+    $pyA = $py
+    if (-not $pyA) { foreach ($c in @('python','py')) { if (Get-Command $c -ErrorAction SilentlyContinue) { $pyA = $c; break } } }
+    $oA = @(& $pyA (Join-Path $PSScriptRoot 'pedidos_lectores.py') alarma $resultado ("$t".Replace([string][char]34, "'")) 2>&1)
+    if ($oA) { Add-Content -Path $Log -Value ($oA -join ' | ') -Encoding UTF8 }
+  } catch { Add-Content -Path $Log -Value ('[AVISO] no salio la alarma al editor: ' + $_.Exception.Message) -Encoding UTF8 }
   exit $codigo
 }
 function LeerRetenidos { if (Test-Path $ArchivoRetenidos) { @(Get-Content $ArchivoRetenidos | Where-Object { $_.Trim() }) } else { @() } }
@@ -155,12 +163,14 @@ function EnviarARevision($id) {
   & $py -c "import json,sys;p='data/cola.json';c=json.load(open(p,encoding='utf-8'));[b.__setitem__('revision_lector',True) for b in c['borradores'] if b['id']==sys.argv[1]];json.dump(c,open(p,'w',encoding='utf-8'),ensure_ascii=False,indent=2)" $id
   & $py scripts/build_portada.py 2>&1 | Out-Null
   & $py scripts/marcar_pedido.py "cola/$id.html" 2>&1 | Out-Null   # etiqueta "Pregunta de un lector"
-  Subir "Redaccion: borrador del pedido $numP en vista previa del lector" $id
+  # 23/10/2026: el pedido pasa a revision ANTES de subir. Al reves, un push fallido (21/10)
+  # dejo el borrador en la cola sin pedido en revision: nadie lo publicaba y freno 64 h la redaccion.
   $o = @(& $py agente/local/pedidos_lectores.py a_revision $numP $id 2>&1)
   if ($LASTEXITCODE -ne 0) {
     $null = Anotar ('[AVISO] no se pudo pasar a vista previa, se publica directo: ' + ($o -join ' | '))
     return (Publicar $id)
   }
+  Subir "Redaccion: borrador del pedido $numP en vista previa del lector" $id
   Terminar 0 'en_revision' ("[VISTA PREVIA] $id esperando al lector (hasta 12 h): " + ($o -join ' ')) $id
 }
 # Pedido de lector que contesta un borrador de la cola (campo "pedido"), o vacio.
