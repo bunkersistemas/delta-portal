@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 23 Oct 2026 15:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 16:21:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La asignación por hijo de los trabajadores en blanco vale 44% menos que en 2016, descontada la inflación, y la AUH vale 12% más</title>
+      <link>https://coninteres.com/articulos/2026-10-23-asignacion-por-hijo-trabajadores-en-blanco-valor-real-2016.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-23-asignacion-por-hijo-trabajadores-en-blanco-valor-real-2016.html</guid>
+      <pubDate>Fri, 23 Oct 2026 17:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En diciembre de 2016, el hijo de un trabajador registrado de ingresos bajos y el de una familia con AUH cobraban lo mismo: $1.103. Hoy, descontada la inflación del INDEC, la asignación del trabajador en blanco del tramo más bajo vale 44,2% menos, y la AUH, 11,6% más: en octubre son $78.304 y $156.588. Casi toda la pérdida ocurrió antes de 2024. Y el límite de ingresos para cobrar el monto más alto se achicó en la misma proporción: hoy queda debajo de la línea de pobreza de una familia de cuatro.</description>
+      <ci:numero>−44,2%</ci:numero>
+      <ci:numeroEtiqueta>pérdida real de la asignación por hijo de un trabajador registrado del tramo 1 (valor general) entre diciembre de 2016 ($1.103, Res. ANSES 299/2016) y septiembre de 2026 ($77.025, Res. ANSES 260/2026), deflactada con el IPC nacional del INDEC (x125,14). AUH en el mismo período: $1.103 a $154.031, +11,6%. Octubre de 2026 (Res. 283/2026): $78.304 y $156.588. Contraste: ODSA-UCA, -45% y +9% (vía Infobae y Noticias Argentinas); cobertura de la CBA de dos hijos 40,4% y 20,9% (UCA: 40% y 20,8%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-23-asignacion-por-hijo-trabajadores-en-blanco-valor-real-2016.png" length="85769" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-23-asignacion-por-hijo-trabajadores-en-blanco-valor-real-2016.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>¿Cuánta plata le deja a Boca llegar a la final de la Sudamericana, y cuánto pesa eso en sus cuentas?</title>
       <link>https://coninteres.com/articulos/2026-10-21-boca-final-sudamericana-cuanta-plata.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>exportaciones argentinas de 2025 a los doce miembros del Tratado Transpacífico (CPTPP), 18,7% del total, según la base del INDEC por país de destino; el Reino Unido compró US$577,6 M (3,5% del bloque)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-tipat-exportaciones-reino-unido-veto.png" length="92824" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-tipat-exportaciones-reino-unido-veto.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los consejeros de la Magistratura que eligen los abogados cobran $9.794.107 brutos por mes, lo mismo que un juez de Casación</title>
-      <link>https://coninteres.com/articulos/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.html</guid>
-      <pubDate>Sun, 18 Oct 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Los cuatro consejeros de la Magistratura que eligen los abogados no son jueces ni legisladores, y por eso la ley les fija la misma paga que a un juez de la Cámara de Casación Penal. En agosto de 2026 eso fue $9.794.107 brutos por mes sin antigüedad: el monto más alto de la escala del propio Consejo, y la misma cifra que el Ministerio Público Fiscal paga a un procurador fiscal ante la Corte. En un año subió 37,2%, contra una inflación de 33,5%. El martes 20 de octubre los abogados de la matrícula federal votan esas cuatro bancas.</description>
-      <ci:numero>$9.794.107</ci:numero>
-      <ci:numeroEtiqueta>compensación bruta mensual sin antigüedad de un consejero de la Magistratura que no es juez ni legislador (Ley 24.937 art. 29: igual a un juez de Casación), escala del Consejo de agosto de 2026; igual al procurador fiscal ante la CSJN del MPF</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.png" length="78255" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-cuanto-cobra-consejero-magistratura-abogados.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

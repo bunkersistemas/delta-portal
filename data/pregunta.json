@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-20",
-  "pregunta": "El 19 de octubre de 2026 el Banco Nación pagaba 19,25% de tasa nominal anual (TNA) por un plazo fijo electrónico a 30 días. Si ponés $1.000.000, ¿cuánto cobrás de interés al cabo de esos 30 días?",
+  "fecha": "2026-10-23",
+  "pregunta": "Si Boca gana la final de la Sudamericana, la CONMEBOL le paga US$10 millones. El presupuesto del club para julio de 2026 a junio de 2027 prevé ingresos por unos US$173 millones. ¿Qué parte de esos ingresos representa el premio?",
   "opciones": [
-    "$15.822",
-    "$16.042: es 19,25% dividido 12 meses",
-    "$192.500: es el 19,25% del capital"
+    "Alrededor del 6%",
+    "Alrededor del 17%: es 173 dividido 10",
+    "Alrededor del 1,7%"
   ],
   "correcta": 0,
-  "explicacion": "La TNA es una tasa anual y se cobra en proporción a los días: $1.000.000 × 19,25% × 30 / 365 = $15.822. Dividirla por 12 da un poco más ($16.042) porque supone meses de 30,4 días; tomar el 19,25% entero es cobrar el interés de un año en un mes. Para comparar con la inflación hay que hacer la misma cuenta: con la inflación de septiembre (1,93%, INDEC), empatarle hubiera requerido $19.336, y ninguno de los diez bancos más grandes pagaba eso.",
-  "nota": "articulos/2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre.html",
-  "leccion": "lecciones/tasa-real.html"
+  "explicacion": "Para saber qué parte de un total es un número, se divide la parte por el total: 10 / 173,3 = 0,058, es decir, 5,8%. Dividir al revés (173 / 10 = 17,3) no da un porcentaje: dice que los ingresos del año son 17 veces el premio. Y 1,7% es correr mal la coma. El premio es grande para cualquier club, pero para las cuentas de Boca es un ingreso importante, no decisivo: equivale a unas tres semanas de lo que el club espera ingresar en el año.",
+  "nota": "articulos/2026-10-21-boca-final-sudamericana-cuanta-plata.html",
+  "leccion": ""
 }

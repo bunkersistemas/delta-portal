@@ -5413,6 +5413,19 @@
       "fecha": "2026-10-21",
       "estado": "publicada",
       "articulo_id": "2026-10-21-boca-final-sudamericana-cuanta-plata"
+    },
+    {
+      "tema": "¿cuánto cobra de asignación por hijo un trabajador en blanco y cuánto perdió desde 2016? (Infobae 23/10/2026 'La asignación por hijo de los empleados en blanco vale casi la mitad que en 2016, según la UCA', ODSA-UCA) / SUAF tramo 1 valor general: $1.103 dic-2016 (Res. ANSES 299/2016), $20.661 dic-2023 (Res. 223/2023), $26.277 mar-2024 (Res. 40/2024), $77.025 sep-2026 (Res. 260/2026), $78.304 oct-2026 (Res. 283/2026); AUH $1.103, $20.661, $52.554, $154.031, $156.588",
+      "angulo": "Valor real con el IPC nacional INDEC (dic-2016=100, sep-2026 12.514,15): SUAF tramo 1 -44,2%, AUH +11,6%; dic-2023 las dos -47,0%; dic-2023 a sep-2026 SUAF +5,3% y AUH +110,5%. Tope del tramo 1 en canastas básicas totales del hogar 2 INDEC: 1,30 (dic-2016) a 0,73 (sep-2026). Cobertura CBA de dos hijos 40,4% a 20,9% (UCA 40% y 20,8%). Ángulo nuevo frente a la nota del 03/09/2026 (brecha AUH-SUAF desde el Decreto 117/2023): la serie real desde 2016 y el tope contra la línea de pobreza. Camino estadística oficial recalculada + contraste ODSA-UCA (vía prensa; el informe original no se pudo leer).",
+      "fecha": "2026-10-23",
+      "estado": "publicada",
+      "articulo_id": "2026-10-23-asignacion-por-hijo-trabajadores-en-blanco-valor-real-2016"
+    },
+    {
+      "tema": "descartes de la corrida programada del 23/10/2026 16:04: no se probaron porque la primera candidata (valor real de la asignación por hijo SUAF desde 2016, pregunta de plata) pasó la verificación. Lista no probada: EMPRESAS Aluar habilitación comercial del Parque Eólico La Fecha (HR CNV 21/10; La Nación, Clarín, TN, infobae; Aluar ya tuvo tres notas en octubre); peaje municipal de hasta $62.000 a camiones por 5 km en un municipio bonaerense (La Nación, infobae, Clarín; falta la ordenanza); cuánto rinden las cuentas remuneradas y billeteras tras la nueva norma del BCRA de informar el rendimiento a 7 días (infobae, iProfesional, Página12, Clarín, TN); EMPRESAS IRSA y Cresud pago de dividendos en efectivo y en especie (HR CNV 22/10); cuánto cobra una cuidadora por hora en noviembre (infobae); EMPRESAS GeoPark adjudicación del bloque Corralera Noreste (HR CNV 21/10); petróleo arriba de US$115 y precio de la nafta (TN, Clarín); riesgo país arriba de 700, máximo en 12 meses (5 portadas; cubierto); consumo masivo de septiembre (consultoras privadas, sin dato oficial); Financial Times sobre el plan económico (opinión, sin dato).",
+      "angulo": "Registro de candidatas no probadas, para retomarlas en otra corrida.",
+      "fecha": "2026-10-23",
+      "estado": "descartada"
     }
   ]
 }

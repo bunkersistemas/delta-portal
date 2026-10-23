@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-23T15:41:24-03:00",
+    "actualizado": "2026-10-23T16:21:24-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-23-asignacion-por-hijo-trabajadores-en-blanco-valor-real-2016",
+      "titulo": "La asignación por hijo de los trabajadores en blanco vale 44% menos que en 2016, descontada la inflación, y la AUH vale 12% más",
+      "bajada": "En diciembre de 2016, el hijo de un trabajador registrado de ingresos bajos y el de una familia con AUH cobraban lo mismo: $1.103. Hoy, descontada la inflación del INDEC, la asignación del trabajador en blanco del tramo más bajo vale 44,2% menos, y la AUH, 11,6% más: en octubre son $78.304 y $156.588. Casi toda la pérdida ocurrió antes de 2024. Y el límite de ingresos para cobrar el monto más alto se achicó en la misma proporción: hoy queda debajo de la línea de pobreza de una familia de cuatro.",
+      "titulo_busqueda": "¿Cuánto cobra de asignación por hijo un trabajador en blanco? Lo que perdió desde 2016",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−44,2%",
+      "numero_label": "pérdida real de la asignación por hijo de un trabajador registrado del tramo 1 (valor general) entre diciembre de 2016 ($1.103, Res. ANSES 299/2016) y septiembre de 2026 ($77.025, Res. ANSES 260/2026), deflactada con el IPC nacional del INDEC (x125,14). AUH en el mismo período: $1.103 a $154.031, +11,6%. Octubre de 2026 (Res. 283/2026): $78.304 y $156.588. Contraste: ODSA-UCA, -45% y +9% (vía Infobae y Noticias Argentinas); cobertura de la CBA de dos hijos 40,4% y 20,9% (UCA: 40% y 20,8%)",
+      "fecha": "2026-10-23",
+      "hora": "17:30",
+      "archivo": "articulos/2026-10-23-asignacion-por-hijo-trabajadores-en-blanco-valor-real-2016.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-21-boca-final-sudamericana-cuanta-plata",
       "titulo": "¿Cuánta plata le deja a Boca llegar a la final de la Sudamericana, y cuánto pesa eso en sus cuentas?",
