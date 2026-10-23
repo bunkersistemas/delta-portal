@@ -5453,6 +5453,32 @@
       "angulo": "FRENADA (primera candidata probada): peaje municipal de Ramallo a camiones, hasta $37.000 por pesaje dinámico más $25.000 por ingreso a predios (La Nación 23/10/2026, infobae, Clarín): en el SIBOM de Ramallo están la licitación 03/25 (decretos 009/2026 y 127/2026) pero no la ordenanza tarifaria con los montos ni la del 19/10 que crea el Sigtp; las cifras salen solo de la prensa. NO PROBADAS a fondo: cuánto rinden las cuentas remuneradas con la nueva norma del BCRA (no se encontró la comunicación; los rendimientos de billeteras son de la CAFCI y cambian a diario); Manaos, procesamiento confirmado (sin resolución judicial accesible, montos de prensa); declaración jurada simplificada de Ganancias (Decreto 1253/2026, BO 23/10/2026: discrepancia significativa 15%, rectificación del período 2025; los topes son de la Ley 27.826 y la Inocencia Fiscal II ya se cubrió el 27/08); paritaria de Alimentación (sin escala oficial publicada); YPF rescate anticipado de la ON Clase XXXVII (US$135.065.631 al 7%, 11/11/2026; HR CNV 23/10); Consultatio boleto de compraventa de Soldado de la Independencia 615 (HR sin montos); Stellantis frena Córdoba siete semanas (sin documento con cifras); riesgo país en 707 (cubierto). Cupo de empresas: no regía (GeoPark publicada hoy).",
       "fecha": "2026-10-23",
       "estado": "descartada"
+    },
+    {
+      "tema": "cuánto es la multa por sacar la basura fuera de horario en CABA (TN 23/10/2026 'Multas de hasta $4,3 millones en CABA por sacar la basura fuera del horario permitido': 643 consorcios con faja de infracción entre mayo y octubre, multas de $1,5 M y $4,3 M) / Ley 451, art. 1.3.9: 50 a 700 UF; consorcios y comercios 700 a 5.500 UF y/o clausura",
+      "angulo": "Corrida programada del 23/10/2026 20:30, primera candidata probada (pregunta de plata). FRENADA: la cifra ancla en pesos depende del valor de la unidad fija ($1.173,08 desde el 02/09/2026 según La Nación, ámbito, El Destape, TN), que no se encontró en ningún documento oficial. Desde el Decreto 64/22 (BOCBA 21/02/2022) el valor ya no sale por resolución de la SSJUS sino 'de acuerdo a lo informado por la Dirección General de Estadística y Censos' cada semestre, y esa publicación no aparece en el sitio del IDECBA ni en el BOCBA. Los montos en UF de la Ley 451 sí están confirmados (juristeca.jusbaires.gob.ar). Retomable si se consigue el valor oficial de la UF.",
+      "fecha": "2026-10-23",
+      "estado": "descartada"
+    },
+    {
+      "tema": "¿a qué tasa se endeudó Aeropuertos Argentina 2000? / resultado de la ON Clase 12 (La Nación 23/10/2026 'Aeropuertos Argentina consiguió US$400 millones': 8% a 2036, ofertas por US$1.000 M), contra la tasa ponderada de 8,575% de las ON internacionales a cancelar (nota del 19/10/2026)",
+      "angulo": "Corrida programada del 23/10/2026 20:30, segunda candidata probada (EMPRESAS, sin cupo: ya hubo dos notas de la sección hoy). FRENADA: la tasa y el monto colocado salen solo de la prensa, atribuidos a la empresa; la CNV (aif2.cnv.gov.ar y www.cnv.gov.ar) no respondió en toda la corrida y CAAP no presentó un 6-K ante la SEC después del 16/10. Línea roja 1 de NEWSROOM 2 quater: la cifra ancla de una nota de empresas solo sale de un documento de la empresa o de un regulador. Retomable apenas se pueda leer el aviso de resultados.",
+      "fecha": "2026-10-23",
+      "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto cuesta una cuidadora para un adulto mayor? (infobae 23/10/2026 'Cuánto cobrarán los cuidadores de adultos por hora en noviembre 2026') / asistencia y cuidado de personas oct-26 $548.429,23 con retiro y $605.050,00 sin retiro, $4.337,53 y $4.801,52 la hora (CNTCP Res. 6/2026 Anexo 3); nov-26 $562.284,09 y $619.810,80 (Res. 7/2026, Anexo 4 corregido: infobae usó el anexo original, $562.837,52 y $620.420,85); jubilación mínima oct-26 $435.748,51 (Res. ANSES 284/2026) + bono $70.000 (Decreto 1108/2026)",
+      "angulo": "Corrida programada del 23/10/2026 20:30, tercera candidata probada (APTA). Ángulo nuevo frente a la nota del 25/09/2026 (sueldo de tareas generales y su poder de compra) y la del 18/10/2026 (valor del trabajo no remunerado): la cuidadora contra la jubilación mínima. Brecha con retiro $42.680,72 en oct-26 contra $20.187,25 en oct-25 (cuidadora $416.485,63, Res. 1/2025 Anexo III; mínima $326.298,38, Res. ANSES 317/2025, + bono $70.000, Decreto 700/2025): x2,11. Haber +33,5%, cuidadora +31,7%, mínima con bono +27,6%: el bono quieto da vuelta la comparación. Camino: documento oficial recalculado al centavo desde la tabla de septiembre de la UPACP (contraste).",
+      "fecha": "2026-10-23",
+      "estado": "publicada",
+      "articulo_id": "2026-10-23-cuidadora-adultos-mayores-cuanto-cuesta-jubilacion-minima",
+      "archivo": "cola/2026-10-23-cuidadora-adultos-mayores-cuanto-cuesta-jubilacion-minima.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 23/10/2026 20:30",
+      "angulo": "Frenaron la primera (multa por sacar la basura fuera de horario en CABA: el valor de la UF no está en un documento oficial) y la segunda (tasa de la ON Clase 12 de Aeropuertos Argentina: CNV caída, sin aviso de resultados ni 6-K); pasó la tercera (cuidadora de adultos mayores contra la jubilación mínima). NO PROBADAS: cuánto dinero recibe Messi con el Premio Princesa de Asturias (infobae; dotación de la Fundación, una sola fuente y poco contexto); subsidios energéticos en su mínimo anual (iProfesional; serie ya publicada el 28/09); BCRA compró más de US$1.200 M en octubre (infobae; serie ya publicada); bancos esperan más demanda de crédito pese a la mora récord (infobae, La Nación; mora descartada el 17/10); acuerdo automotriz con México (infobae; sin norma publicada); megaproyecto de cobre en Salta que pedirá el RIGI por US$4.200 M (La Nación; todavía no presentado); YPF rescate de la ON Clase XXXVII (HR CNV 23/10; CNV caída); Tarjeta Naranja ON LXVIII (CNV 22/10; CNV caída); subastas de ARCA (infobae; sin cifras); Electrolux cierra Rosario (publicada el 26/09); riesgo país arriba de 700 (cubierto).",
+      "fecha": "2026-10-23",
+      "estado": "descartada"
     }
   ]
 }

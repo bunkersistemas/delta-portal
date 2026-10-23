@@ -1,10 +1,12 @@
 {
-  "generado": "2026-10-23T18:30",
+  "generado": "2026-10-23T20:31",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
-  "incompleto": [],
+  "incompleto": [
+    "CNV: <urlopen error [WinError 10060] Se produjo un error durante el intento de conexión ya que la parte conectada no respondió adecuadamente tras un periodo de tiempo, o bien se produjo un error en la conexión establecida ya que el host conectado no ha podido responder>"
+  ],
   "hechos": [
     {
       "id": "cnv-3583679",

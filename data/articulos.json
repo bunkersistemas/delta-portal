@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-23T19:00:35-03:00",
+    "actualizado": "2026-10-23T20:50:32-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-23-cuidadora-adultos-mayores-cuanto-cuesta-jubilacion-minima",
+      "titulo": "Una cuidadora de adultos mayores cuesta como mínimo $548.429 por mes: la jubilación mínima con bono no alcanza por $42.681, más del doble que hace un año",
+      "bajada": "Una jubilación mínima con el bono no alcanza para pagar el sueldo mínimo de una cuidadora de personas con retiro: en octubre suma $505.748,51, y el sueldo, según la escala oficial, es de $548.429,23. Le faltan $42.680,72; en octubre de 2025 le faltaban $20.187,25. La brecha no se explica por el haber, que subió más que el sueldo de la cuidadora. Lo que no se movió es el bono: sigue en $70.000.",
+      "titulo_busqueda": "¿Cuánto cuesta una cuidadora para un adulto mayor? $548.429 por mes, más que una jubilación mínima con bono",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$548.429",
+      "numero_label": "sueldo mínimo mensual de asistencia y cuidado de personas con retiro, octubre de 2026 ($548.429,23; sin retiro $605.050,00; CNTCP Res. 6/2026 Anexo 3, BO 03/09/2026), recalculado al centavo desde la escala de septiembre de la UPACP: ($529.261,78 + $10.000) x 1,017. Jubilación mínima de octubre $435.748,51 (Res. ANSES 284/2026) + bono $70.000 (Decreto 1108/2026) = $505.748,51: brecha $42.680,72. Oct-25: cuidadora $416.485,63 (Res. 1/2025 Anexo III), mínima $326.298,38 (Res. ANSES 317/2025) + bono $70.000 (Decreto 700/2025) = $396.298,38: brecha $20.187,25 (x2,11)",
+      "fecha": "2026-10-23",
+      "hora": "21:30",
+      "archivo": "articulos/2026-10-23-cuidadora-adultos-mayores-cuanto-cuesta-jubilacion-minima.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-23-irsa-dividendo-cresud-anses",
       "titulo": "IRSA reparte $211.000 millones de dividendos y a Cresud le tocan unos $116.340 millones: casi exactamente lo que Cresud les paga a sus propios accionistas",
