@@ -5439,6 +5439,20 @@
       "angulo": "Registro de candidatas no probadas, para retomarlas en otra corrida.",
       "fecha": "2026-10-23",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto cobran de dividendos los accionistas de IRSA y Cresud? (EMPRESAS, hechos relevantes CNV del 22/10/2026) / IRSA dividendo en efectivo $211.000 M ($249,410459 por acción, 845.994.994 acciones; 6-K SEC 22/10/2026); Cresud $116.000 M ($81.199.999.730 en efectivo, $114,49 por acción, y 15.097.614 acciones de IRSA a $2.305 = $34.800.000.270); Cresud tiene 466.459.045 acciones de IRSA (55,1%, 20-F al 30/06/2026) = unos $116.340 M; ANSES 5,7% de IRSA ($12.029 M) y 5,0% de Cresud ($4.034 M en efectivo)",
+      "angulo": "Corrida programada del 23/10/2026 18:30. La cadena de dividendos: lo que Cresud cobra de IRSA (cálculo con la tenencia al 30/06 de los dos 20-F) es el 100,3% de lo que Cresud reparte; quién cobra el dividendo de IRSA (Cresud, Helikon, ANSES, directores, resto; las tenencias suman exacto las acciones con derecho); lo que cobran el FGS y las acciones atribuidas a Elsztain; IRSA reparte el 50,6% de la ganancia reexpresada del acta y su dividendo cae al menos 3,7% real contra nov-2025 ($219.018 M de jun-26 en el 20-F). Distinto de la nota del 25/09 (honorarios del directorio de IRSA). Camino: documentos de la empresa ante dos reguladores (CNV y SEC) + recálculo.",
+      "fecha": "2026-10-23",
+      "estado": "publicada",
+      "articulo_id": "2026-10-23-irsa-dividendo-cresud-anses",
+      "archivo": "cola/2026-10-23-irsa-dividendo-cresud-anses.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 23/10/2026 18:30",
+      "angulo": "FRENADA (primera candidata probada): peaje municipal de Ramallo a camiones, hasta $37.000 por pesaje dinámico más $25.000 por ingreso a predios (La Nación 23/10/2026, infobae, Clarín): en el SIBOM de Ramallo están la licitación 03/25 (decretos 009/2026 y 127/2026) pero no la ordenanza tarifaria con los montos ni la del 19/10 que crea el Sigtp; las cifras salen solo de la prensa. NO PROBADAS a fondo: cuánto rinden las cuentas remuneradas con la nueva norma del BCRA (no se encontró la comunicación; los rendimientos de billeteras son de la CAFCI y cambian a diario); Manaos, procesamiento confirmado (sin resolución judicial accesible, montos de prensa); declaración jurada simplificada de Ganancias (Decreto 1253/2026, BO 23/10/2026: discrepancia significativa 15%, rectificación del período 2025; los topes son de la Ley 27.826 y la Inocencia Fiscal II ya se cubrió el 27/08); paritaria de Alimentación (sin escala oficial publicada); YPF rescate anticipado de la ON Clase XXXVII (US$135.065.631 al 7%, 11/11/2026; HR CNV 23/10); Consultatio boleto de compraventa de Soldado de la Independencia 615 (HR sin montos); Stellantis frena Córdoba siete semanas (sin documento con cifras); riesgo país en 707 (cubierto). Cupo de empresas: no regía (GeoPark publicada hoy).",
+      "fecha": "2026-10-23",
+      "estado": "descartada"
     }
   ]
 }
