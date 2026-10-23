@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-23T16:21:24-03:00",
+    "actualizado": "2026-10-23T16:40:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-23-geopark-vaca-muerta-bono-acceso-60-millones",
+      "titulo": "GeoPark pagará US$60,5 millones solo por el derecho a explorar un bloque de Vaca Muerta: un tercio de todos los bonos de la ronda de Neuquén",
+      "bajada": "Antes de perforar un solo pozo, GeoPark le va a pagar a la provincia del Neuquén un bono de acceso de US$60,5 millones por el bloque Corralera Noreste. Es un tercio de los US$180,7 millones en bonos que dejó la Ronda 1/2026, en la que se adjudicaron ocho áreas, y casi el doble del segundo bono más alto. De cada dólar que GeoPark se comprometió a poner, 64 centavos son la entrada y 36, los pozos.",
+      "titulo_busqueda": "¿Cuánto paga una petrolera por un bloque de Vaca Muerta?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$60,5 M",
+      "numero_label": "bono de acceso por única vez que GeoPark Argentina pagará a la provincia del Neuquén por el bloque Corralera Noreste (Ronda 1/2026 de GyP, adjudicada el 21/10/2026; hecho relevante ante la CNV del 21/10/2026 y comunicado del Gobierno del Neuquén del 22/10/2026); 33,5% de los US$180,7 M en bonos de las ocho áreas; más US$34 M de inversión en dos pozos horizontales",
+      "fecha": "2026-10-23",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-23-geopark-vaca-muerta-bono-acceso-60-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-23-asignacion-por-hijo-trabajadores-en-blanco-valor-real-2016",
       "titulo": "La asignación por hijo de los trabajadores en blanco vale 44% menos que en 2016, descontada la inflación, y la AUH vale 12% más",

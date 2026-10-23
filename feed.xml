@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 23 Oct 2026 16:21:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 23 Oct 2026 16:40:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>GeoPark pagará US$60,5 millones solo por el derecho a explorar un bloque de Vaca Muerta: un tercio de todos los bonos de la ronda de Neuquén</title>
+      <link>https://coninteres.com/articulos/2026-10-23-geopark-vaca-muerta-bono-acceso-60-millones.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-23-geopark-vaca-muerta-bono-acceso-60-millones.html</guid>
+      <pubDate>Fri, 23 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Antes de perforar un solo pozo, GeoPark le va a pagar a la provincia del Neuquén un bono de acceso de US$60,5 millones por el bloque Corralera Noreste. Es un tercio de los US$180,7 millones en bonos que dejó la Ronda 1/2026, en la que se adjudicaron ocho áreas, y casi el doble del segundo bono más alto. De cada dólar que GeoPark se comprometió a poner, 64 centavos son la entrada y 36, los pozos.</description>
+      <ci:numero>US$60,5 M</ci:numero>
+      <ci:numeroEtiqueta>bono de acceso por única vez que GeoPark Argentina pagará a la provincia del Neuquén por el bloque Corralera Noreste (Ronda 1/2026 de GyP, adjudicada el 21/10/2026; hecho relevante ante la CNV del 21/10/2026 y comunicado del Gobierno del Neuquén del 22/10/2026); 33,5% de los US$180,7 M en bonos de las ocho áreas; más US$34 M de inversión en dos pozos horizontales</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-23-geopark-vaca-muerta-bono-acceso-60-millones.png" length="87691" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-23-geopark-vaca-muerta-bono-acceso-60-millones.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La asignación por hijo de los trabajadores en blanco vale 44% menos que en 2016, descontada la inflación, y la AUH vale 12% más</title>
       <link>https://coninteres.com/articulos/2026-10-23-asignacion-por-hijo-trabajadores-en-blanco-valor-real-2016.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>despidos sin causa cada 100 trabajadores registrados en agosto de 2026 (0,6627 en la planilla), Encuesta de Indicadores Laborales de la Secretaría de Trabajo: el agosto más alto desde 2019 (0,7439); agosto de 2025, 0,5936</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-despidos-sin-causa-agosto-mas-alto-desde-2019.png" length="71262" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-despidos-sin-causa-agosto-mas-alto-desde-2019.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina le vendió US$16.321 millones a los países del Tratado Transpacífico en 2025, y el Reino Unido, que analiza vetar su ingreso, compró el 3,5%</title>
-      <link>https://coninteres.com/articulos/2026-10-18-tipat-exportaciones-reino-unido-veto.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-18-tipat-exportaciones-reino-unido-veto.html</guid>
-      <pubDate>Sun, 18 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Reino Unido, el miembro que según La Nación estudia oponerse a la adhesión argentina por el conflicto petrolero en Malvinas, es un cliente chico de la Argentina: compró US$577,6 millones. Chile, solo, compró casi once veces más. Los doce países juntos se llevaron casi uno de cada cinco dólares que exportó la Argentina el año pasado, según el INDEC.</description>
-      <ci:numero>US$16.321 M</ci:numero>
-      <ci:numeroEtiqueta>exportaciones argentinas de 2025 a los doce miembros del Tratado Transpacífico (CPTPP), 18,7% del total, según la base del INDEC por país de destino; el Reino Unido compró US$577,6 M (3,5% del bloque)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-18-tipat-exportaciones-reino-unido-veto.png" length="92824" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-18-tipat-exportaciones-reino-unido-veto.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
