@@ -5479,6 +5479,20 @@
       "angulo": "Frenaron la primera (multa por sacar la basura fuera de horario en CABA: el valor de la UF no está en un documento oficial) y la segunda (tasa de la ON Clase 12 de Aeropuertos Argentina: CNV caída, sin aviso de resultados ni 6-K); pasó la tercera (cuidadora de adultos mayores contra la jubilación mínima). NO PROBADAS: cuánto dinero recibe Messi con el Premio Princesa de Asturias (infobae; dotación de la Fundación, una sola fuente y poco contexto); subsidios energéticos en su mínimo anual (iProfesional; serie ya publicada el 28/09); BCRA compró más de US$1.200 M en octubre (infobae; serie ya publicada); bancos esperan más demanda de crédito pese a la mora récord (infobae, La Nación; mora descartada el 17/10); acuerdo automotriz con México (infobae; sin norma publicada); megaproyecto de cobre en Salta que pedirá el RIGI por US$4.200 M (La Nación; todavía no presentado); YPF rescate de la ON Clase XXXVII (HR CNV 23/10; CNV caída); Tarjeta Naranja ON LXVIII (CNV 22/10; CNV caída); subastas de ARCA (infobae; sin cifras); Electrolux cierra Rosario (publicada el 26/09); riesgo país arriba de 700 (cubierto).",
       "fecha": "2026-10-23",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto trigo le compra Brasil a la Argentina? (Clarín Rural 23/10/2026: 'Es ahora o nunca: Brasil necesitará importar un volumen récord de trigo', Abitrigo 9 Mt o más; 'Semana negra para el trigo') / INDEC base exportaciones NCM 1001.99.00 ene-sep 2026: Brasil 3.252.940 t, US$733,34 M (-19,0% t, -22,0% US$) de 13.422.462 t y US$2.904,77 M (= ICA sep-26 cuadro 31, +33,7%): 25,2% del valor (2025 43,3%; mínimo previo 2022 29,0%, serie 2002-2026); Vietnam 486,2, Indonesia 341,6, Bangladesh 282,6, Tailandia 188,8 = 44,7%; ComexStat: Brasil importó de AR 3.212.502 t y US$734,34 M (dif. 1,3%), total 4.364.214 t (-16,8%), AR 73,6% (79,3%), Paraguay 567.012 t, Rusia 316.740 t; USDA PSD oct-26: AR 2025/26 producción 27,9 Mt y expo 19,1 Mt (máximos desde 1960), Brasil 2026/27 importaciones 7,5 Mt (estimado)",
+      "angulo": "Corrida programada del 23/10/2026 22:30, primera candidata probada (pregunta de plata detrás de la noticia del trigo y Brasil). APTA: cifra de Brasil por dos aduanas independientes (INDEC y ComexStat); total oficial del ICA recalculado exacto desde la base (también 2022 y 2024); contraste USDA. Ángulo nuevo: las notas previas de Brasil (27/09, 07/10) cubrieron el intercambio total y el cerdo, no el trigo.",
+      "fecha": "2026-10-23",
+      "estado": "publicada",
+      "articulo_id": "2026-10-23-trigo-brasil-menor-parte-asia",
+      "archivo": "cola/2026-10-23-trigo-brasil-menor-parte-asia.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 23/10/2026 22:30",
+      "angulo": "No se probaron porque la primera candidata (trigo argentino a Brasil, INDEC + ComexStat) pasó la verificación. Lista no probada: EMPRESAS Aluar habilitación comercial del Parque Eólico La Fecha (HR CNV 21/10; TN; la CNV sigue sin responder, aif2.cnv.gov.ar con error de DNS, y Aluar ya tuvo tres notas en octubre); EMPRESAS YPF rescate de la ON Clase XXXVII y Tarjeta Naranja ON LXVIII (CNV caída); cuánto deben las familias con la tarjeta (ámbito y TN, informe privado; serie BCRA no probada); petróleo arriba de US$115 y la nafta (TN, Clarín; el padrón de precios en surtidor llega con atraso); 210 hipotecas del Banco Nación con fondos del FGS (infobae, iProfesional; dato de la empresa, plan cubierto el 26/08); costo de construir una casa de 100 m2 (ámbito; solo fuentes privadas que no miden lo mismo); Stellantis para Córdoba siete semanas (infobae, La Nación; sin documento con cifras); Mercado Libre en Mendoza US$9,7 M (La Nación, Clarín; comunicado de la empresa); riesgo país arriba de 700 (cubierto). Cupo de empresas: no regía (IRSA y GeoPark publicadas hoy).",
+      "fecha": "2026-10-23",
+      "estado": "descartada"
     }
   ]
 }

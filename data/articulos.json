@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-23T20:50:32-03:00",
+    "actualizado": "2026-10-23T23:07:59-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-23-trigo-brasil-menor-parte-asia",
+      "titulo": "Brasil se llevó solo 25 de cada 100 dólares del trigo que exportó la Argentina en nueve meses, la menor parte desde 2002: cuatro países de Asia compraron 44,7%",
+      "bajada": "Entre enero y septiembre la Argentina vendió trigo al mundo por US$2.904,8 millones, 33,7% más que un año antes, según el INDEC. Brasil, el comprador de siempre, se llevó US$733,3 millones: el 25,2%, cuando hace un año era el 43,3%. Le compró 3,25 millones de toneladas, 19% menos. La diferencia la pusieron Vietnam, Indonesia, Bangladesh y Tailandia.",
+      "titulo_busqueda": "¿Cuánto trigo le compra Brasil a la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "25,2%",
+      "numero_label": "parte de Brasil en el valor FOB del trigo (NCM 1001.99.00) que exportó la Argentina en enero-septiembre de 2026: US$733,34 M de US$2.904,77 M (INDEC, base de comercio exterior; total = ICA sep-26 cuadro 31). Brasil: 3.252.940 t INDEC vs 3.212.502 t y US$734,34 M ComexStat (dif. 1,3% y 0,1%). 2025: 43,3% (US$940,04 M de 2.172,99 M). Mínimo previo desde 2002: 2022, 29,0%",
+      "fecha": "2026-10-23",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-23-trigo-brasil-menor-parte-asia.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-23-cuidadora-adultos-mayores-cuanto-cuesta-jubilacion-minima",
       "titulo": "Una cuidadora de adultos mayores cuesta como mínimo $548.429 por mes: la jubilación mínima con bono no alcanza por $42.681, más del doble que hace un año",
