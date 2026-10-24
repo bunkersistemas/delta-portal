@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 07:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 09:10:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los depósitos en dólares tocaron US$42.535 millones, el máximo de la serie diaria del BCRA, que empieza en 2002</title>
+      <link>https://coninteres.com/articulos/2026-10-24-depositos-dolares-record-serie-bcra.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-depositos-dolares-record-serie-bcra.html</guid>
+      <pubDate>Sat, 24 Oct 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Los depósitos en dólares de personas y empresas llegaron a US$42.535 millones el 19 de octubre, el nivel más alto de la serie diaria del BCRA, que empieza en 2002, y suben 15% en 2026. Con las presidenciales de 2027 en el horizonte, el récord abre otra pregunta: qué hicieron esos dólares en cada elección. En las 12 nacionales desde 2003, en ocho los depósitos subieron o quedaron iguales y en cuatro bajaron. La peor fue 2019: 42,5% menos entre las PASO y fin de año.</description>
+      <ci:numero>US$42.535 M</ci:numero>
+      <ci:numeroEtiqueta>depósitos en dólares del sector privado (personas y empresas) el 19/10/2026, máximo de la serie diaria del BCRA que empieza el 31/12/2002 (previo: US$36.986 M el 30/12/2025; pico de 2019: US$32.492 M el 09/08/2019). BCRA series.xlsm hoja DEPOSITOS = API variable 108; IMM sep-26: US$41.911 M al 30/09, 'nuevo máximo histórico'</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-depositos-dolares-record-serie-bcra.png" length="80040" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-depositos-dolares-record-serie-bcra.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Al dólar le falta 27,2% para tocar el techo de la banda: más que hace un mes, pese a seis subas seguidas</title>
       <link>https://coninteres.com/articulos/2026-10-24-dolar-seis-subas-techo-banda-mas-lejos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>monto de la obligación negociable Clase 12 de Aeropuertos Argentina 2000, a diez años, ampliable a US$600 M (oferta del 20 al 22/10/2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-aeropuertos-argentina-deuda-400-millones-garantia-tasas.png" length="71186" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-aeropuertos-argentina-deuda-400-millones-garantia-tasas.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los jubilados del Poder Judicial cobran en promedio $9.338.132 brutos por mes, 8,3 veces lo que un jubilado del régimen general sin moratoria</title>
-      <link>https://coninteres.com/articulos/2026-10-19-jubilaciones-poder-judicial-haber-medio.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-jubilaciones-poder-judicial-haber-medio.html</guid>
-      <pubDate>Mon, 19 Oct 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Las 6.576 jubilaciones del régimen especial del Poder Judicial pagaron en septiembre de 2026, en promedio, $9.338.132 brutos por mes: 8,3 veces lo que cobra un jubilado del régimen general que no entró por moratoria y 18,2 veces el de uno que sí. La reforma de 2020 subió los aportes y reescribió la fórmula, y aun así la distancia con el promedio del sistema es la misma desde 2015: entre 11,3 y 12,3 veces. Solo el Servicio Exterior paga más, según el Boletín Estadístico de la Seguridad Social.</description>
-      <ci:numero>$9.338.132</ci:numero>
-      <ci:numeroEtiqueta>haber medio bruto de una jubilación del régimen del Poder Judicial, septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-jubilaciones-poder-judicial-haber-medio.png" length="70891" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-jubilaciones-poder-judicial-haber-medio.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
