@@ -5618,6 +5618,26 @@
       "angulo": "No se probaron porque pasó la primera candidata (atún en lata importado, INDEC + ComexStat + UN Comtrade). Lista no probada: caballa en Mar del Plata con zafra -90% (Clarín; desembarques de magyp.gob.ar con 403, retomable si vuelve la lectura), petróleo arriba de US$115 (TN; exportaciones de crudo cubiertas 05/10), Belgrano Cargas venta de talleres y locomotoras (Clarín; aportes del Tesoro cubiertos 17/10), Boca a Barranquilla y búsquedas +800% (TN; sin documento oficial; premios cubiertos 21/10), Mercado Libre centro logístico en Mendoza (Clarín; sin monto en documento), Ezeiza con restricciones 18 días (infobae; sin documento con vuelos), riesgo país sobre 700 (seis portadas; sin fuente primaria abierta), balotaje de Brasil y empresas argentinas expuestas (Clarín, iProfesional; comercio con Brasil cubierto 05/10, 08/10 y 23/10), peaje de Ramallo (frenada 08:30 sin ordenanza), subsidios energéticos en mínimo (iProfesional; repite 28/09). EMPRESAS: cupo no regía (IRSA publicada hoy 02:30); Aluar parque eólico La Fecha, Consultatio, YPF rescate ON XXXVII, Tarjeta Naranja ON LXVIII y Petroquímica Comodoro Rivadavia sin leer: CNV con error de DNS (build_empresas.py y aif2.cnv.gov.ar); SEC sin presentaciones nuevas. clarin.com y tn.com.ar no accesibles por WebFetch (leídos por curl).",
       "fecha": "2026-10-24",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto cobra el presidente de Brasil? (pregunta de plata detrás del balotaje del 25/10/2026 Lula-Flávio Bolsonaro: Página12 'Lula alcanzó a Bolsonaro en la última encuesta previa al balotaje', El Cronista, ámbito 24/10/2026) / Decreto Legislativo 172/2022 art. 1: R$46.366,19 desde 01/02/2025 (escalones R$39.293,32 ene-23, R$41.650,92 abr-23, R$44.008,52 feb-24) para presidente, vice, ministros y legisladores; DL 277/2014 R$30.934,70 desde 01/01/2015; IPCA SIDRA 1737: ene-15 4.110,20, dic-22 6.474,09, feb-25 7.205,03, sep-26 7.695,82 -> 2015 = R$57.921 a precios de sep-26 (-19,95%); dic-22 R$36.772 (-36,5%); salario mínimo R$1.621 (Decreto 12.797/2025) = 28,6 veces, 2015 R$788 (Decreto 8.381/2014) = 39,3; PTAX 23/10 R$5,0377 = US$9.204; BCRA real $305,43 = $14.161.609",
+      "angulo": "Corrida programada del 24/10/2026 16:30. Segunda candidata probada (la primera, Consultatio, frenó). Camino de dos fuentes: la norma (base de legislación de la Cámara de Diputados de Brasil) + la sección de transparencia del Senado, que informa el mismo monto pagado a los senadores desde 01/02/2025; inflación recalculada desde la API del IBGE. El Portal da Transparência (pago al presidente) no se pudo leer por captcha. No compara con el sueldo de Milei (sin escala oficial vigente, ver descarte del 05/10/2026), no afirma el sueldo desde 2027 ni montos netos.",
+      "fecha": "2026-10-24",
+      "estado": "en_cola",
+      "archivo": "cola/2026-10-24-sueldo-presidente-brasil.html"
+    },
+    {
+      "tema": "Consultatio: boleto de compraventa del inmueble de Soldado de la Independencia 615, CABA (HR CNV 23/10/2026)",
+      "angulo": "FRENADA en la corrida programada del 24/10/2026 16:30 (primera candidata, EMPRESAS; cupo no regía, IRSA publicada hoy 02:30). El hecho relevante (PDF leído por la API de la CNV) solo dice que el boleto está sujeto a condiciones suspensivas y que se pagará en especie con unidades funcionales: no hay precio, superficie ni cantidad de unidades. Sin cifra ancla.",
+      "fecha": "2026-10-24",
+      "estado": "descartada",
+      "motivo_descarte": "sin cifra en el documento"
+    },
+    {
+      "tema": "descartes de la corrida programada del 24/10/2026 16:30",
+      "angulo": "Frenó la primera (Consultatio, sin cifra) y pasó la segunda (sueldo del presidente de Brasil, pregunta de plata del balotaje). Lista no probada: Aluar habilitación comercial del Parque Eólico La Flecha (HR CNV 21/10/2026, leído: 336 MW, 56 Goldwind GW165 de 6 MW, total renovable propio 582 MW; el ENRE dio acceso por 312 MW en la Res. 148/2025 y no hay registro de CAMMESA leído para el superlativo 'el mayor parque de una sola etapa'; retomable con CAMMESA), PCR tres áreas en Neuquén (misma Ronda 1/2026 cubierta el 23/10 con GeoPark), YPF rescate ON Clase XXXVII y Tarjeta Naranja ON LXVIII (sin angulo de lector), coches nuevos del subte desde China (Página12; sin documento con cantidad ni precio), FAL (cubierto 24/09), cuentas remuneradas (Com. A 8497 cubierta), subsidio eléctrico del 75% (iProfesional; Res. SE 272 cubierta 01/10), feriados bancarios por la visita del Papa (sin cifra), riesgo país sobre 700 (seis portadas; sin ángulo propio), hipotecarios del FGS en el Banco Nación (cubiertos 02/10, 06/10 y 16/10), subastas de ARCA (un solo catálogo). clarin.com y tn.com.ar no accesibles por WebFetch.",
+      "fecha": "2026-10-24",
+      "estado": "descartada"
     }
   ]
 }

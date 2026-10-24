@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-24T14:58:59-03:00",
+    "actualizado": "2026-10-24T16:44:50-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-24-sueldo-presidente-brasil",
+      "titulo": "El presidente de Brasil cobra R$46.366 por mes, unos US$9.200: descontada la inflación, 20% menos que en 2015",
+      "bajada": "En reales, el sueldo del presidente de Brasil subió desde 2015; descontada la inflación, vale 20% menos. Son R$46.366,19 brutos por mes desde febrero de 2025, unos US$9.200 o $14,2 millones, y equivalen a 28,6 salarios mínimos, cuando hace once años eran 39,3. Lo fija el Congreso por decreto: el que gane el balotaje de este domingo va a asumir con ese número, salvo que el Congreso fije otro.",
+      "titulo_busqueda": "¿Cuánto cobra el presidente de Brasil?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "R$46.366",
+      "numero_label": "subsidio mensual bruto del presidente de Brasil desde el 01/02/2025 (R$46.366,19, Decreto Legislativo 172/2022, art. 1 inc. IV; mismo monto para vicepresidente, ministros, diputados y senadores; confirmado por la sección de transparencia del Senado). = US$9.204 (PTAX venta 23/10/2026 R$5,0377; con el tipo de pase BCRA 0,199692 US$9.259) = $14.161.609 (BCRA, real $305,43 al 23/10/2026). En 2015 R$30.934,70 (DL 277/2014) = R$57.921 a precios de sep-2026 (IPCA 4.110,20 -> 7.695,82): -19,95%. 28,6 salarios mínimos (R$1.621, Decreto 12.797/2025) contra 39,3 en 2015 (R$788, Decreto 8.381/2014)",
+      "fecha": "2026-10-24",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-24-sueldo-presidente-brasil.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-24-atun-en-lata-importado-ecuador",
       "titulo": "La Argentina importó 17.115 toneladas de atún en lata en nueve meses, ocho veces más que en 2002: 78 de cada 100 kilos vienen de Ecuador",

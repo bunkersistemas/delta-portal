@@ -1,12 +1,10 @@
 {
-  "generado": "2026-10-24T14:30",
+  "generado": "2026-10-24T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
-  "incompleto": [
-    "CNV: <urlopen error [Errno 11002] getaddrinfo failed>"
-  ],
+  "incompleto": [],
   "hechos": [
     {
       "id": "cnv-3583679",

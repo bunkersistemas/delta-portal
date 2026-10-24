@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 14:59:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 16:45:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El presidente de Brasil cobra R$46.366 por mes, unos US$9.200: descontada la inflación, 20% menos que en 2015</title>
+      <link>https://coninteres.com/articulos/2026-10-24-sueldo-presidente-brasil.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-sueldo-presidente-brasil.html</guid>
+      <pubDate>Sat, 24 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>En reales, el sueldo del presidente de Brasil subió desde 2015; descontada la inflación, vale 20% menos. Son R$46.366,19 brutos por mes desde febrero de 2025, unos US$9.200 o $14,2 millones, y equivalen a 28,6 salarios mínimos, cuando hace once años eran 39,3. Lo fija el Congreso por decreto: el que gane el balotaje de este domingo va a asumir con ese número, salvo que el Congreso fije otro.</description>
+      <ci:numero>R$46.366</ci:numero>
+      <ci:numeroEtiqueta>subsidio mensual bruto del presidente de Brasil desde el 01/02/2025 (R$46.366,19, Decreto Legislativo 172/2022, art. 1 inc. IV; mismo monto para vicepresidente, ministros, diputados y senadores; confirmado por la sección de transparencia del Senado). = US$9.204 (PTAX venta 23/10/2026 R$5,0377; con el tipo de pase BCRA 0,199692 US$9.259) = $14.161.609 (BCRA, real $305,43 al 23/10/2026). En 2015 R$30.934,70 (DL 277/2014) = R$57.921 a precios de sep-2026 (IPCA 4.110,20 -&gt; 7.695,82): -19,95%. 28,6 salarios mínimos (R$1.621, Decreto 12.797/2025) contra 39,3 en 2015 (R$788, Decreto 8.381/2014)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-sueldo-presidente-brasil.png" length="84896" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-sueldo-presidente-brasil.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina importó 17.115 toneladas de atún en lata en nueve meses, ocho veces más que en 2002: 78 de cada 100 kilos vienen de Ecuador</title>
       <link>https://coninteres.com/articulos/2026-10-24-atun-en-lata-importado-ecuador.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>intereses de la deuda en manos del público de EE.UU. en el año fiscal 2026 (oct-2025 a sep-2026). Tesoro, Monthly Treasury Statement tabla 5 al 30/09/2026: Total--Interest on the Public Debt US$1.359.953.253.417 - Total--Interest Received by Trust Funds US$217.670.747.485 = US$1.142.282.505.932 (suma de los 12 meses igual al centavo); FY2025 1.215.613.829.754 - 187.547.096.990 = 1.028.066.732.764 (+11,1%). CBO Monthly Budget Review sep-2026, tabla 3: Net Interest on the Public Debt 1.143 vs 1.028 miles de millones (+115, +11%). Serie desde 2015 (2015 260,39; 2021 412,81; 2023 710,16; 2024 949,21; 2025 1.028,07): máximo de la serie. 21,1% de la recaudación (US$5.403.327 M; 2025 19,6%). Defensa nacional (tabla 9) 965.160 M; CBO DoD militar 916.000 M. Función interés neto (tabla 9) 1.051.754 M (+8,4%, la cifra de ámbito), debajo de Medicare 1.072.626 M. Deuda en manos del público 32,43 billones (sep-21 22,28, +45,5%); tasa promedio 3,531% (sep-21 1,605%).</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-intereses-deuda-estados-unidos-1-billon.png" length="82804" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-intereses-deuda-estados-unidos-1-billon.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina pagó en junio su cuota de US$15.589.176 a la ONU: entre 2019 y 2024 no la había completado dentro del año ninguna vez</title>
-      <link>https://coninteres.com/articulos/2026-10-19-onu-cuota-argentina-pago-junio.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-onu-cuota-argentina-pago-junio.html</guid>
-      <pubDate>Mon, 19 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Entre 2019 y 2024 la Argentina no figuró ningún año en la lista de los países que pagaron completa su cuota al presupuesto ordinario de la ONU. En 2026 el Gobierno la terminó de pagar el 22 de junio: US$15.589.176, después de haberla completado el 15 de diciembre en 2025. La cuota es 38,9% más chica que la de 2019, porque a la Argentina le toca una porción menor del presupuesto: 0,490%, la más baja desde 2013-2015.</description>
-      <ci:numero>US$15.589.176</ci:numero>
-      <ci:numeroEtiqueta>cuota neta de la Argentina al presupuesto ordinario de la ONU en 2026 (ONU, lista de pagos completos al 13/10/2026: pagada el 22/06/2026; ST/ADM/SER.B/1096: 0,490% x US$3.456.005.400 = US$16.934.427 brutos - US$1.369.751 crédito del Fondo de Nivelación de Impuestos + US$24.500 (0,098% de US$25 M de consolidación de la paz) = US$15.589.176). Serie neta: 2019 25.512.271, 2020 25.668.818, 2021 26.466.916, 2022 20.654.500, 2023 21.033.093, 2024 22.654.875 (ninguna completada dentro del año: no figura en las listas de fin de año 2019-2024), 2025 16.675.950 (pagada el 15/12/2025, 148.ª de 151). Escala 2025-2027 0,490% (2022-24 0,719; 2019-21 0,915; 2013-15 0,432). Contraste: Presupuesto Abierto, Cancillería, programa Cuotas y Contribuciones a Organismos Internacionales, subparcial ONU: jun-2026 $14.263,9 M devengado y pagado, mar-2026 $5.663,6 M, unos US$13,9 M al A3500 promedio de cada mes vs US$14,1 M de cuota menos crédito 2024 de US$1.464.805; dic-2025 $24.698,3 M = unos US$17,1 M</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-onu-cuota-argentina-pago-junio.png" length="86411" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-onu-cuota-argentina-pago-junio.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
