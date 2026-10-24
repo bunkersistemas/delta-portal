@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 18:59:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 20:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La multa por no votar sigue en $500 desde 2012: entonces eran US$111 y hoy no llegan a 33 centavos de dólar</title>
+      <link>https://coninteres.com/articulos/2026-10-24-multa-no-votar-500-pesos-dolares.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-multa-no-votar-500-pesos-dolares.html</guid>
+      <pubDate>Sat, 24 Oct 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Código Electoral castiga al que no vota y no se justifica con una multa de $50 a $500, y ese monto no se actualizó desde junio de 2012. La ley no cambió; cambió el valor del peso. Cuando se fijó, $500 eran US$111 al dólar oficial; hoy son US$0,327, menos que un boleto de colectivo porteño. Para valer lo mismo que entonces, la multa máxima tendría que ser de unos $170.000 medida en dólares, o $205.000 con los precios de la Ciudad. Desde 2021 hubo tres proyectos para actualizarla; ninguno llegó a ser ley.</description>
+      <ci:numero>$500</ci:numero>
+      <ci:numeroEtiqueta>multa máxima por no votar en una elección nacional sin justificarse (Código Electoral Nacional, Ley 19.945, art. 125: 'multa de pesos cincuenta ($ 50) a pesos quinientos ($ 500)'), fijada por la Ley 26.744 art. 6 (BO 11/06/2012) y reescrita sin cambiar los montos por la Ley 26.774 art. 3 (BO 02/11/2012). Dos fuentes: InfoLEG texto actualizado y Registro de Infractores de la Cámara Nacional Electoral ('Legislación vigente'). Al dólar A3500: $4,489 el 11/06/2012 = US$111,38; $1.528,263 el 23/10/2026 = US$0,327 (x340,4). Para los mismos dólares de 2012: $170.223. IPCBA jul-2012 -&gt; sep-2026 x410,8: $205.420. IPC INDEC dic-2016 -&gt; sep-2026 x125,1: $62.571. Proyectos 1576-D-2021 y 0013-D-2025 (50-300 módulos) y 3622-D-2023 (100-500), sin sanción</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-multa-no-votar-500-pesos-dolares.png" length="85087" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-multa-no-votar-500-pesos-dolares.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El descuento de 40% de ARBA no toca el capital: en una deuda de 2026 llega como mucho a 22,7%</title>
       <link>https://coninteres.com/articulos/2026-10-24-arba-moratoria-descuento-real-capital.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>tasa fija anual en dólares de la obligación negociable Clase 7 de Loma Negra: US$150.000.000 a 36 meses (emisión 22/10/2026, vence 22/10/2029), licitada el 19/10/2026 (hecho relevante, aviso de resultados y formulario AIF ante la CNV); ofrecía hasta US$70 M ampliables; 10.562 órdenes por US$169.995.139</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-20-loma-negra-obligacion-negociable-150-millones-tasa.png" length="90136" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-20-loma-negra-obligacion-negociable-150-millones-tasa.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Doce deportistas paralímpicos cobran la beca más alta de la Secretaría de Deportes, de $864.000: son 12 de los 15 que la tienen</title>
-      <link>https://coninteres.com/articulos/2026-10-20-cuanto-cobra-deportista-paralimpico-beca.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-20-cuanto-cobra-deportista-paralimpico-beca.html</guid>
-      <pubDate>Tue, 20 Oct 2026 03:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>DEPORTES</category>
-      <description>Entre los becados por la Nación, los deportistas paralímpicos son minoría; en la beca más alta de la Secretaría de Deportes, son mayoría. La Excelencia Sudamericana paga $864.000 por mes desde septiembre, y 12 de los 15 atletas que la cobran juegan al básquet adaptado. No es un caso aislado: los 187 deportistas paralímpicos becados por la Secretaría cobran en promedio $575.968, un 23,6% más que los 465 convencionales, y en el ENARD tienen 23 de las 46 becas de excelencia, de $1.835.460. La diferencia no sale de los montos, que son los mismos para todos, sino de cómo se arma cada grupo: casi la mitad de los paralímpicos juega en equipos con medalla suramericana y solo uno de cada diez cobra una beca juvenil.</description>
-      <ci:numero>$864.000</ci:numero>
-      <ci:numeroEtiqueta>beca mensual de Excelencia Sudamericana, la más alta de la Secretaría de Deportes (Resolución 139/2026, desde el 01/09/2026; $800.000 desde el 01/04/2026 por la Res. 43/2026): 12 de los 15 que la cobran en septiembre son paralímpicos</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-20-cuanto-cobra-deportista-paralimpico-beca.png" length="81160" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-20-cuanto-cobra-deportista-paralimpico-beca.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
