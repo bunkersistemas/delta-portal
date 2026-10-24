@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-24T13:03:47-03:00",
+    "actualizado": "2026-10-24T14:58:59-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-24-atun-en-lata-importado-ecuador",
+      "titulo": "La Argentina importó 17.115 toneladas de atún en lata en nueve meses, ocho veces más que en 2002: 78 de cada 100 kilos vienen de Ecuador",
+      "bajada": "El atún en lata que se vende en la Argentina viene casi siempre de afuera, ya enlatado y de un solo proveedor principal. Entre enero y septiembre de 2026 el país compró 17.115 toneladas de atún en conserva por US$83,8 millones, según el INDEC: la mayor cantidad para esos nueve meses en una serie que empieza en 2002, cuando habían sido 2.124 toneladas. Ecuador mandó 78 de cada 100 kilos y Brasil, casi 19. Sin enlatar entraron apenas 90 toneladas.",
+      "titulo_busqueda": "¿De dónde viene el atún en lata que se vende en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "17.115 t",
+      "numero_label": "toneladas de atún en conserva (NCM 1604.14) importadas en enero-septiembre de 2026, US$83.818.802 CIF, según la base de comercio exterior del INDEC (17.114.586 kg; sin filas confidenciales). Ene-sep 2002: 2.124 t (x8,1); ene-sep 2025: 16.856 t (+1,5%, máximo previo). Ecuador 13.302 t (77,7%), Brasil 3.216 t (18,8%), Tailandia 595 t (3,5%). Contraste: ComexStat (Brasil) 3.214,0 t exportadas a la Argentina ene-sep 2026; UN Comtrade, Ecuador declaró 15.552 t en 2025 contra 16.684 t del INDEC",
+      "fecha": "2026-10-24",
+      "hora": "14:30",
+      "archivo": "articulos/2026-10-24-atun-en-lata-importado-ecuador.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-24-carne-equina-caballo-burro-exportaciones",
       "titulo": "La Argentina exportó 10.461 toneladas de carne de caballo y burro en nueve meses, 58% menos que en 2002: Bélgica es su primer comprador",
