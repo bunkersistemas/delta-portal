@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-23T22:30",
+  "generado": "2026-10-24T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -982,34 +982,6 @@
       "tipo": "judicial",
       "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - PECOM - HR - SENTENCIA CASO SKANSKA",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1C66FC7B-8597-4802-9EE9-DDE1A019F00E"
-    },
-    {
-      "id": "cnv-3572700",
-      "fuente": "CNV",
-      "fecha": "2026-09-23T15:48",
-      "entidad": "BANCO COMAFI S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5F5FF266-A6A9-4075-A0A7-701C4E230D52"
-    },
-    {
-      "id": "cnv-3572465",
-      "fuente": "CNV",
-      "fecha": "2026-09-23T08:29",
-      "entidad": "SURCOS SOCIEDAD ANONIMA",
-      "tipo": "judicial",
-      "descripcion": "INFORMACIÓN JUDICIAL - INFORMACIÓN JUDICIAL - HECHO RELEVANTE – CONCURSO PREVENTIVO - EVOLUCIÓN DEL PROCESO CONCURSAL.",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2B88D297-CFE7-483A-A3AE-CBB22109E0CA"
-    },
-    {
-      "id": "sec-0001193125-26-399609",
-      "fuente": "SEC",
-      "fecha": "2026-09-23",
-      "entidad": "Vista Energy",
-      "ticker": "VIST",
-      "tipo": "balance",
-      "descripcion": "6-K Advance Notice of 3rd Quarter of 2026 Results Mexico City, September 23, 2026 — Vista Energy, S.A.B. de C.V. (“Vista” or the “Company”) (NYSE: VIST; BMV: VISTA) announced today tha",
-      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526399609/d27684d6k.htm"
     }
   ],
   "anuncios": [
@@ -1076,8 +1048,6 @@
   ],
   "sec_vistos": {
     "sec-0000931427-26-000012": "2026-10-07",
-    "sec-0000933267-26-000061": "2026-09-23",
-    "sec-0000933267-26-000063": "2026-09-23",
     "sec-0000933267-26-000065": "2026-10-16",
     "sec-0000933267-26-000067": "2026-10-22",
     "sec-0000933267-26-000069": "2026-10-22",

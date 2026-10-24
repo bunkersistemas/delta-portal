@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-23",
-  "pregunta": "Si Boca gana la final de la Sudamericana, la CONMEBOL le paga US$10 millones. El presupuesto del club para julio de 2026 a junio de 2027 prevé ingresos por unos US$173 millones. ¿Qué parte de esos ingresos representa el premio?",
+  "fecha": "2026-10-24",
+  "pregunta": "Entre enero y septiembre de 2026 la Argentina exportó trigo por US$2.904,8 millones, y Brasil le compró US$733,3 millones. Un año antes, Brasil se había llevado el 43,3%. ¿Qué parte del valor del trigo exportado se llevó Brasil en 2026?",
   "opciones": [
-    "Alrededor del 6%",
-    "Alrededor del 17%: es 173 dividido 10",
-    "Alrededor del 1,7%"
+    "Alrededor del 25%",
+    "Alrededor del 43%, como siempre: Brasil es el comprador de siempre",
+    "Alrededor del 4%: es 2.904,8 dividido 733,3"
   ],
   "correcta": 0,
-  "explicacion": "Para saber qué parte de un total es un número, se divide la parte por el total: 10 / 173,3 = 0,058, es decir, 5,8%. Dividir al revés (173 / 10 = 17,3) no da un porcentaje: dice que los ingresos del año son 17 veces el premio. Y 1,7% es correr mal la coma. El premio es grande para cualquier club, pero para las cuentas de Boca es un ingreso importante, no decisivo: equivale a unas tres semanas de lo que el club espera ingresar en el año.",
-  "nota": "articulos/2026-10-21-boca-final-sudamericana-cuanta-plata.html",
+  "explicacion": "La parte de un total se calcula dividiendo la parte por el total: 733,3 / 2.904,8 = 0,252, o sea 25,2%. Dividir al revés (2.904,8 / 733,3 = 3,96) no da un porcentaje: dice que el total es casi cuatro veces lo que compró Brasil. Y suponer que la parte no cambió es el error de mirar el comprador y no la cuenta: las exportaciones totales crecieron 33,7% mientras Brasil compró menos (US$733,3 millones contra US$940 millones un año antes), por eso su parte cayó de 43,3% a 25,2%. La diferencia la pusieron compradores de Asia.",
+  "nota": "articulos/2026-10-23-trigo-brasil-menor-parte-asia.html",
   "leccion": ""
 }

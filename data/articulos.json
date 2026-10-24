@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-23T23:07:59-03:00",
+    "actualizado": "2026-10-24T01:08:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-24-arca-interes-pagar-tarde-impuestos",
+      "titulo": "Pagar tarde un impuesto cuesta 2,75% por mes: en un año suma 33%, casi lo mismo que subieron los precios",
+      "bajada": "Pagar tarde un impuesto le cuesta al contribuyente 2,75% por mes de interés, y ARCA lo cobra por día. Doce meses suman 33%: casi lo mismo que subieron los precios en el último año, 33,4% según el INDEC. A fines de 2023 era al revés: la tasa era 5,91% y la inflación llegó a 25,5% en un mes. El plan especial para pymes y monotributistas cobra la misma tasa y cierra el 30 de octubre.",
+      "titulo_busqueda": "¿Cuánto interés cobra ARCA por pagar tarde los impuestos?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "2,75%",
+      "numero_label": "interés resarcitorio mensual de ARCA por deudas impositivas en pesos (art. 37 Ley 11.683), vigente desde el 01/07/2025: Res. ME 823/2025 art. 1 (BO 25/06/2025) = tabla ARCA 'Tasas vigentes desde el 01/07/2025' (2,75% mensual, 0,091667 diario; última tabla del listado al 24/10/2026) = RG ARCA 5875/2026 art. 5 (tasa del plan = resarcitorio vigente, BO 14/07/2026). 12 meses = 33% (365 días 33,46%); IPC INDEC sep-26/sep-25 = 12.514,1508/9.384,0922 = 33,4% (IPCBA 32,9%). Mínimo de la serie ARCA desde sep-2022 (previo 4,00% mar-jun 2025). Dic-23: tasa 5,91% vs IPC 25,5%",
+      "fecha": "2026-10-24",
+      "hora": "01:30",
+      "archivo": "articulos/2026-10-24-arca-interes-pagar-tarde-impuestos.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-23-trigo-brasil-menor-parte-asia",
       "titulo": "Brasil se llevó solo 25 de cada 100 dólares del trigo que exportó la Argentina en nueve meses, la menor parte desde 2002: cuatro países de Asia compraron 44,7%",

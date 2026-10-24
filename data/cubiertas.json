@@ -5493,6 +5493,18 @@
       "angulo": "No se probaron porque la primera candidata (trigo argentino a Brasil, INDEC + ComexStat) pasó la verificación. Lista no probada: EMPRESAS Aluar habilitación comercial del Parque Eólico La Fecha (HR CNV 21/10; TN; la CNV sigue sin responder, aif2.cnv.gov.ar con error de DNS, y Aluar ya tuvo tres notas en octubre); EMPRESAS YPF rescate de la ON Clase XXXVII y Tarjeta Naranja ON LXVIII (CNV caída); cuánto deben las familias con la tarjeta (ámbito y TN, informe privado; serie BCRA no probada); petróleo arriba de US$115 y la nafta (TN, Clarín; el padrón de precios en surtidor llega con atraso); 210 hipotecas del Banco Nación con fondos del FGS (infobae, iProfesional; dato de la empresa, plan cubierto el 26/08); costo de construir una casa de 100 m2 (ámbito; solo fuentes privadas que no miden lo mismo); Stellantis para Córdoba siete semanas (infobae, La Nación; sin documento con cifras); Mercado Libre en Mendoza US$9,7 M (La Nación, Clarín; comunicado de la empresa); riesgo país arriba de 700 (cubierto). Cupo de empresas: no regía (IRSA y GeoPark publicadas hoy).",
       "fecha": "2026-10-23",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto interés cobra ARCA por pagar tarde los impuestos? (El Cronista 23/10/2026 'Deudas de Monotributo: qué pasa con los intereses y cómo regularizar en cuotas', sin la tasa; cierre del régimen especial RG 5875/2026 el 30/10/2026) / interés resarcitorio 2,75% mensual (Res. ME 823/2025) contra inflación INDEC 33,4% interanual sep-26; serie de tasas ARCA sep-2022 a oct-2026; devoluciones 0,50%",
+      "angulo": "la tasa de ARCA pasó de perder contra la inflación (5,91% vs 25,5% en dic-23) a castigar (7,47% vs 2,2% en ene-25) y hoy corre pareja: 12 meses = 33% vs precios 33,4%",
+      "fecha": "2026-10-24",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida programada del 24/10/2026 00:30: no se probaron porque pasó la primera candidata (interés de ARCA por pagar tarde). Quedaron en la lista: Cresud 20-F (balance anual, SEC; empresas), IRSA 20-F (centros comerciales, SEC; empresas), Aluar habilitación del parque eólico La Fecha y Consultatio boleto de compraventa (HR CNV 21 y 23/10: la CNV no respondió, error de DNS), paritaria de Alimentación cerrada (sin escala homologada), subsidios energéticos en mínimo anual (iProfesional; repite 28/09), riesgo país sobre 700 (5 portadas; dato del día), créditos hipotecarios del BNA con el FGS (210 créditos), Stellantis para la planta de Córdoba siete semanas",
+      "angulo": "cupo de empresas: no se tomó porque la candidata de ARCA es una pregunta de plata con fecha límite (30/10) que ninguna portada contestó con la tasa, y la CNV no respondió en esta corrida; Cresud/IRSA tuvieron nota el 23/10",
+      "fecha": "2026-10-24",
+      "estado": "descartada"
     }
   ]
 }
