@@ -5505,6 +5505,18 @@
       "angulo": "cupo de empresas: no se tomó porque la candidata de ARCA es una pregunta de plata con fecha límite (30/10) que ninguna portada contestó con la tasa, y la CNV no respondió en esta corrida; Cresud/IRSA tuvieron nota el 23/10",
       "fecha": "2026-10-24",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto venden los shoppings de IRSA? (EMPRESAS, 20-F de IRSA y Cresud ante la SEC del 21/10/2026; consumo en baja: Cronista 24/10 'El consumo no arranca', ámbito 'almacenes de barrio') / ventas de los locatarios FY2026 $3.739.833 M vs $4.090.433 M (−8,6% real, $ jun-26), −10,3% sin Terrazas de Mayo; ropa y calzado −12,5% (79,9% de la caída), electro −18,4%, gastronomía +2,7%; ingresos del segmento +2,1% (alquiler base +22.433, contingente −22.306); contraste INDEC centros de compras −3,3% constante / −11,4% con IPC general",
+      "angulo": "los comercios de los shoppings de IRSA vendieron 8,6% menos en términos reales (segundo año en baja, sobre todo ropa) y el dueño facturó 2,1% más: el alquiler fijo compensó la caída del alquiler por porcentaje; $9,86 por cada $100 vendidos vs $8,83",
+      "fecha": "2026-10-24",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida programada del 24/10/2026 02:30: no se probaron porque pasó la primera candidata (ventas de los shoppings de IRSA, 20-F, EMPRESAS). Quedaron en la lista: billete de $200 cumple diez años y cuánto vale hoy (infobae; IPC INDEC + IPCBA), mora de las familias y demanda de crédito (infobae, La Nación; BCRA), Decreto 1253/2026 de la declaración simplificada de Ganancias (La Nación, Cronista, ámbito; discrepancia significativa 15% o monto del art. 1 del Régimen Penal Tributario; sin cifra ancla nueva frente a la nota del 27/08), Cresud 20-F (balance anual; mismo grupo que la nota del 23/10), megaproyecto de cobre en Salta que pedirá el RIGI por US$4.200 M (La Nación; sin documento presentado), riesgo país sobre 700 (5 portadas; dato del día), subsidios energéticos en mínimo anual (iProfesional; repite 28/09), Stellantis para Córdoba siete semanas (infobae; frenada el 10/10), nuevos coches del subte (Página12; sin monto en documento), Aquarium de Mar del Plata y los pingüinos por US$40.000 (ámbito; sin documento oficial). CNV sin respuesta (error de DNS): YPF rescate de ON Clase XXXVII, Tarjeta Naranja ON LXVIII, Aluar parque eólico La Fecha y Consultatio sin leer. clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "angulo": "lista de candidatas no probadas",
+      "fecha": "2026-10-24",
+      "estado": "descartada"
     }
   ]
 }
