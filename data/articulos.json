@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-24T04:52:17-03:00",
+    "actualizado": "2026-10-24T06:59:58-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-24-dolar-seis-subas-techo-banda-mas-lejos",
+      "titulo": "Al dólar le falta 27,2% para tocar el techo de la banda: más que hace un mes, pese a seis subas seguidas",
+      "bajada": "El dólar mayorista subió seis días seguidos y aun así está más lejos del techo de la banda que hace un mes: le falta 27,2% para tocarlo, contra 25,9% el 24 de septiembre. Cerró el 23 de octubre en $1.528,26, a 49 centavos de su máximo del año. Pero el techo del BCRA, que sube con la inflación, avanzó más. En noviembre sube otro 1,9%.",
+      "titulo_busqueda": "¿Cuánto le falta al dólar para llegar al techo de la banda?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "27,2%",
+      "numero_label": "lo que tendría que subir el dólar mayorista ($1.528,2630, Com. A 3500, 23/10/2026) para tocar el techo de la banda cambiaria del BCRA ($1.943,56 ese día); 24/09/2026: 25,86%. Techo recalculado con el IPC INDEC (30/09 $1.919,40 x 1,017^(23/31) = $1.943,56). Contraste BNA divisa venta $1.529,50 (27,07%)",
+      "fecha": "2026-10-24",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-24-dolar-seis-subas-techo-banda-mas-lejos.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-24-billete-200-diez-anos-cuanto-vale-hoy",
       "titulo": "Lo que en 2016 se compraba con un billete de $200 hoy cuesta $25.757: no alcanza ni con uno de $20.000",

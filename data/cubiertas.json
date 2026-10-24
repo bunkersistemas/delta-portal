@@ -5531,6 +5531,26 @@
       "angulo": "No se probaron porque pasó la primera candidata (billete de $200 y cuánto vale hoy, IPC INDEC). Quedaron en la lista: Banco Nación 210 hipotecarios con fondos del FGS (infobae, iProfesional; dato de la empresa), bancos y billeteras deberán informar cuánto rinden las cuentas remuneradas (Página12; norma BCRA no leída), Decreto de la declaración simplificada de Ganancias (La Nación, Cronista, Página12, ámbito; sin cifra ancla nueva), riesgo país sobre 700 (infobae, La Nación; dato del día), subsidios energéticos en mínimo anual (iProfesional; repite 28/09), peaje de un municipio bonaerense a la industria (infobae, La Nación; sin ordenanza leída), Stellantis Córdoba siete semanas (frenada 10/10), PCR tres áreas de Vaca Muerta (infobae; misma ronda que GeoPark del 23/10), feriados bancarios por la visita del Papa (iProfesional; visita cubierta 12/10). EMPRESAS: cupo no regía (IRSA publicada hoy); YPF rescate ON Clase XXXVII, Tarjeta Naranja ON LXVIII, Consultatio y Aluar sin leer: CNV con error de DNS en build_empresas.py. clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
       "fecha": "2026-10-24",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto le falta al dólar para llegar al techo de la banda? (infobae 23/10/2026 'El dólar terminó la semana con nuevo récord nominal tras seis alzas consecutivas'; iProfesional 'bazuka de dólares'; ámbito '¿Más presión para el dólar?'; TN, La Nación) / BCRA A3500 23/10/2026 $1.528,2630 (6 subas desde 15/10 $1.513,9308; máximo 2026 28/09 $1.528,7563) contra techo $1.943,56: 27,17% (24/09 25,86%; máximo 2026 27,84% el 16/10, previo 26,48% el 30/09); mes: dólar +$9,52 (+0,63%), techo +$32,12 (+1,68%); año: dólar +3,99%, techo +27,11%, IPC dic-25/sep-26 23,64%; techo 30/10 $1.950,97, 30/11 $1.989,12 (sep 1,9%); BNA divisa $1.529,50",
+      "angulo": "Corrida programada del 24/10/2026 06:30, segunda candidata probada (pregunta de plata detrás de la racha del dólar). APTA por el camino de estadística oficial: serie BCRA + recálculo exacto del techo con el IPC INDEC (23/10, 30/10 y 30/11) + contraste Banco Nación. Ángulo nuevo frente a la nota del 25/09 (25,9%): un mes después, seis subas seguidas y casi récord del mayorista, la distancia es mayor (27,2%) porque el techo subió $32,12 y el dólar $9,52; la distancia máxima del año fue el 16/10 y en noviembre el techo sube 1,9%.",
+      "fecha": "2026-10-24",
+      "estado": "publicada",
+      "articulo_id": "2026-10-24-dolar-seis-subas-techo-banda-mas-lejos",
+      "archivo": "cola/2026-10-24-dolar-seis-subas-techo-banda-mas-lejos.html"
+    },
+    {
+      "tema": "¿cuánto rinde la plata en una billetera virtual? (Comunicación A 8497 del BCRA, 22/10/2026, rige 01/11/2026: TNA neta de honorarios de la variación de la cuotaparte de 7 días corridos; TN, Página12, infobae, La Nación, El Cronista, iProfesional 22-23/10/2026)",
+      "angulo": "FRENADA en la corrida programada del 24/10/2026 06:30 (primera candidata): la norma se leyó en el original, pero la cifra ancla (cuánto rinden hoy los fondos money market de las billeteras) no tiene fuente oficial: el BCRA no publica esas tasas, la API de CAFCI respondió 403/Unauthorized y la CNV no responde (error de DNS en aif2.cnv.gov.ar). Las tasas de 14% a 24% de TN salen de un comparador privado. Retomable desde el 01/11 con las cuotapartes publicadas por las propias billeteras o con la CNV de nuevo en línea.",
+      "fecha": "2026-10-24",
+      "estado": "descartada"
+    },
+    {
+      "tema": "descartes de la corrida programada del 24/10/2026 06:30",
+      "angulo": "Frenó la primera (rendimiento de las billeteras, Com. A 8497: sin fuente oficial de tasas) y pasó la segunda (dólar contra el techo de la banda). Lista no probada: tasa de Ramallo a los camiones en el Acceso Sánchez (La Nación, infobae; ordenanza del 19/10 no hallada), acuerdo automotriz con México (infobae; sin norma firmada y autos de México cubiertos el 26/09), Encuesta de Condiciones Crediticias del BCRA (infobae, La Nación; no es pregunta de plata), riesgo país sobre 720 (5 portadas; dato del día sin fuente primaria abierta), subsidios energéticos en mínimo anual (iProfesional; repite 28/09), Banco Nación 210 hipotecarios del FGS (dato de la empresa), multas por sacar la basura en CABA (TN; frenada el 23/10 por la unidad fija), PCR áreas en Neuquén (misma ronda que GeoPark 23/10). EMPRESAS: cupo no regía (IRSA publicada hoy); Aluar parque eólico La Fecha, Consultatio, YPF rescate ON XXXVII y Tarjeta Naranja ON LXVIII sin leer: CNV con error de DNS. clarin.com no accesible.",
+      "fecha": "2026-10-24",
+      "estado": "descartada"
     }
   ]
 }

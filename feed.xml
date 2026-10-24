@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 04:52:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 07:00:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Al dólar le falta 27,2% para tocar el techo de la banda: más que hace un mes, pese a seis subas seguidas</title>
+      <link>https://coninteres.com/articulos/2026-10-24-dolar-seis-subas-techo-banda-mas-lejos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-dolar-seis-subas-techo-banda-mas-lejos.html</guid>
+      <pubDate>Sat, 24 Oct 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>El dólar mayorista subió seis días seguidos y aun así está más lejos del techo de la banda que hace un mes: le falta 27,2% para tocarlo, contra 25,9% el 24 de septiembre. Cerró el 23 de octubre en $1.528,26, a 49 centavos de su máximo del año. Pero el techo del BCRA, que sube con la inflación, avanzó más. En noviembre sube otro 1,9%.</description>
+      <ci:numero>27,2%</ci:numero>
+      <ci:numeroEtiqueta>lo que tendría que subir el dólar mayorista ($1.528,2630, Com. A 3500, 23/10/2026) para tocar el techo de la banda cambiaria del BCRA ($1.943,56 ese día); 24/09/2026: 25,86%. Techo recalculado con el IPC INDEC (30/09 $1.919,40 x 1,017^(23/31) = $1.943,56). Contraste BNA divisa venta $1.529,50 (27,07%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-dolar-seis-subas-techo-banda-mas-lejos.png" length="85074" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-dolar-seis-subas-techo-banda-mas-lejos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Lo que en 2016 se compraba con un billete de $200 hoy cuesta $25.757: no alcanza ni con uno de $20.000</title>
       <link>https://coninteres.com/articulos/2026-10-24-billete-200-diez-anos-cuanto-vale-hoy.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>haber medio bruto de una jubilación del régimen del Poder Judicial, septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-jubilaciones-poder-judicial-haber-medio.png" length="70891" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-jubilaciones-poder-judicial-haber-medio.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El nuevo retiro voluntario del Estado nacional paga hasta 25 sueldos brutos y llega al tope con 20 años de antigüedad</title>
-      <link>https://coninteres.com/articulos/2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga.html</guid>
-      <pubDate>Mon, 19 Oct 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El retiro voluntario que abre el Decreto 1203/2026, publicado hoy, paga hasta 25 sueldos brutos, pero llega a ese máximo recién con 20 años de antigüedad. El de 2018 para la administración nacional, el del Decreto 263, llegaba al suyo con 10. Alcanza a la planta permanente de la administración nacional centralizada: quien tenga hasta 57 años, si es mujer, o hasta 62, si es hombre, cobra un sueldo bruto por año de antigüedad, con un tope de 20, más 4 o 5 de adicional. Se adhiere del 1 al 30 de noviembre, y el Estado puede rechazar el pedido.</description>
-      <ci:numero>25 sueldos</ci:numero>
-      <ci:numeroEtiqueta>máximo de la gratificación única del retiro voluntario del Decreto 1203/2026 (BO 19/10/2026), Grupo 3 (mujeres hasta 57, hombres hasta 62): Anexo I IF-2026-100691130-APN-STEYFP#MDYTE art. 8, 1 remuneración bruta por año de antigüedad con tope de 20 + adicional de 5 con 15 o más años en planta permanente (4 si menos); recálculo 20 + 5 = 25; registro InfoLEG id 431314; lectura coincidente de El Cronista 19/10/2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga.png" length="77941" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-retiro-voluntario-estado-nacional-cuanto-paga.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
