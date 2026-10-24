@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 12:01:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 13:03:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina exportó 10.461 toneladas de carne de caballo y burro en nueve meses, 58% menos que en 2002: Bélgica es su primer comprador</title>
+      <link>https://coninteres.com/articulos/2026-10-24-carne-equina-caballo-burro-exportaciones.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-carne-equina-caballo-burro-exportaciones.html</guid>
+      <pubDate>Sat, 24 Oct 2026 13:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Argentina exporta carne de caballo, burro y mula, y menos de la mitad que hace dos décadas: entre enero y septiembre de 2026 vendió al exterior 10.461 toneladas por US$44,2 millones, según el INDEC, contra 24.821 toneladas en los mismos meses de 2002. También cambió quién la compra. Rusia, que en 2011 se llevaba 58 de cada 100 kilos, casi desapareció como comprador; hoy el primero es Bélgica. Y el negocio es chico: por cada kilo de carne equina, la Argentina exporta más de 52 de carne vacuna.</description>
+      <ci:numero>10.461 t</ci:numero>
+      <ci:numeroEtiqueta>toneladas de carne equina (NCM 0205.00.00: caballo, burro y mula) exportadas en enero-septiembre de 2026, US$44.213.648 FOB, según la base de comercio exterior del INDEC (incluye la fila confidencial 999 del archivo por NCM; total de control etotnm26 cierra). Ene-sep 2002: 24.821 t (-57,9%); ene-sep 2025: 9.555 t (+9,5%). Contraste: UN Comtrade, importaciones declaradas por 14 países en 2025: US$57,48 M CIF y 9.472 t contra INDEC US$46,06 M FOB y 12.903 t</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-carne-equina-caballo-burro-exportaciones.png" length="87048" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-carne-equina-caballo-burro-exportaciones.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>¿Qué es el Premio Princesa de Asturias y por qué es tan importante que lo haya ganado Messi?</title>
       <link>https://coninteres.com/articulos/2026-10-24-premio-princesa-asturias-messi-que-es.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>canasta de crianza mínima de la Ciudad de Buenos Aires, septiembre de 2026 (IDECBA, informe de resultados 2067 del 19/10/2026, cuadro C.1, 6-7 años): bienes $657.666,97 + cuidado $383.714,79 (120 h x $3.197,62 = ARCA cuidado de personas con retiro $529.261,78 / 192 x 1,16); máximo $1.684.494,41 (varón 2 años); sep/ago +2,5% a +2,7% vs IPCBA +1,8% (2.596,60 -&gt; 2.644,33); may-sep +11,6% a +13,8% vs IPCBA +8,5%; cuidado +16,3%; contraste INDEC 6-12 sep $728.850 (+2,2%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-canasta-crianza-ciudad-septiembre.png" length="79935" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-canasta-crianza-ciudad-septiembre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>En nueve meses de 2026 la Argentina juntó un superávit comercial de US$21.198 millones, más que en cualquier año completo desde 1910</title>
-      <link>https://coninteres.com/articulos/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.html</guid>
-      <pubDate>Mon, 19 Oct 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y septiembre, la Argentina vendió al mundo US$21.198 millones más de lo que le compró, según el INDEC. Es más que el mejor año completo de la serie, que fue 2024 con US$18.928 millones. La energía puso algo más de un tercio. El resto vino sobre todo de más ventas del campo y la industria y de importaciones que cayeron en volumen.</description>
-      <ci:numero>US$21.198 M</ci:numero>
-      <ci:numeroEtiqueta>de superávit comercial de bienes en enero-septiembre de 2026 (INDEC, ICA 19/10/2026): más que cualquier año completo de la serie 1910-2025 (máximo anterior 2024, US$18.928 M)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.png" length="86884" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-24T12:01:28-03:00",
+    "actualizado": "2026-10-24T13:03:47-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-24-carne-equina-caballo-burro-exportaciones",
+      "titulo": "La Argentina exportó 10.461 toneladas de carne de caballo y burro en nueve meses, 58% menos que en 2002: Bélgica es su primer comprador",
+      "bajada": "La Argentina exporta carne de caballo, burro y mula, y menos de la mitad que hace dos décadas: entre enero y septiembre de 2026 vendió al exterior 10.461 toneladas por US$44,2 millones, según el INDEC, contra 24.821 toneladas en los mismos meses de 2002. También cambió quién la compra. Rusia, que en 2011 se llevaba 58 de cada 100 kilos, casi desapareció como comprador; hoy el primero es Bélgica. Y el negocio es chico: por cada kilo de carne equina, la Argentina exporta más de 52 de carne vacuna.",
+      "titulo_busqueda": "¿Los argentinos comen carne de burro? Cuánta carne de caballo y burro exporta la Argentina",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "10.461 t",
+      "numero_label": "toneladas de carne equina (NCM 0205.00.00: caballo, burro y mula) exportadas en enero-septiembre de 2026, US$44.213.648 FOB, según la base de comercio exterior del INDEC (incluye la fila confidencial 999 del archivo por NCM; total de control etotnm26 cierra). Ene-sep 2002: 24.821 t (-57,9%); ene-sep 2025: 9.555 t (+9,5%). Contraste: UN Comtrade, importaciones declaradas por 14 países en 2025: US$57,48 M CIF y 9.472 t contra INDEC US$46,06 M FOB y 12.903 t",
+      "fecha": "2026-10-24",
+      "hora": "13:30",
+      "archivo": "articulos/2026-10-24-carne-equina-caballo-burro-exportaciones.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-24-premio-princesa-asturias-messi-que-es",
       "titulo": "¿Qué es el Premio Princesa de Asturias y por qué es tan importante que lo haya ganado Messi?",

@@ -5592,6 +5592,19 @@
       "fecha": "2026-10-24",
       "estado": "en_cola",
       "archivo": "cola/2026-10-24-premio-princesa-asturias-messi-que-es.html"
+    },
+    {
+      "tema": "¿los argentinos comen carne de burro? / cuánta carne de caballo y burro exporta la Argentina (Lula en el debate de TV Globo del 23/10/2026 y respuesta de Milei, El Cronista 24/10/2026; video del PT del 15/09/2026, InfoMoney) / INDEC comex NCM 0205.00.00 ene-sep 2026 10.461.084 kg y US$44.213.648 FOB (2025 9.555.395 kg y US$32.514.238; 2002 24.820.912 kg); US$4,23/kg máximo de la serie ene-sep (previo 2011 US$4,15); 2025 mínimo de toneladas ene-sep (9.555; previo 2023 10.040); Rusia 58,0% de las t en 2011 -> 5,3% en 2025; Bélgica 2025 5.056 t y US$20,07 M; contraste UN Comtrade 2025 14 importadores US$57,48 M CIF y 9.472 t; carne vacuna 0201+0202 ene-sep 2026 549.617 t (52,5 veces)",
+      "angulo": "pregunta de plata detrás de la pelea Lula-Milei: la carne equina es un producto de exportación, con la serie 2002-2026 del INDEC recalculada (incluida la fila confidencial) y el espejo de los importadores. No afirma consumo interno ni cuánto es burro (la posición no separa especies). La suba de 2026 no se destaca: el espejo del primer semestre da +13,1% en dólares contra +42,8% del INDEC. El Tablero Equinos del Ministerio de Agricultura (faena) devolvió 403 a la lectura y no se usó.",
+      "fecha": "2026-10-24",
+      "estado": "publicada",
+      "articulo_id": "2026-10-24-carne-equina-caballo-burro-exportaciones"
+    },
+    {
+      "tema": "descartes de la corrida programada del 24/10/2026 12:30",
+      "angulo": "No se probaron porque pasó la primera candidata (carne de caballo y burro exportada, pregunta de plata detrás de Lula-Milei; INDEC + UN Comtrade). Lista no probada: sueldo de empleadas domésticas de noviembre con bono (iProfesional; escala CNTCP publicada el 25/09 con los tramos), Ezeiza con una sola pista 18 días (infobae; sin documento con vuelos afectados), renuncia de Daniel González en Energía y Minería (La Nación, Cronista; sin cifra), riesgo país sobre 700 (infobae, La Nación, Página12; sin fuente primaria abierta), megaproyecto de cobre en Salta por US$4.200 M al RIGI (La Nación; sin presentación), gasto en alimentos de la clase media por provincia (Cronista; informe no leído), cuotas UVA impagas (ámbito; sin dato nuevo), Ganancias simplificada (La Nación; sin cifra ancla nueva). EMPRESAS: cupo no regía (IRSA publicada hoy 02:30); YPF rescate de la ON Clase XXXVII, Aluar parque eólico La Fecha, Consultatio, Tarjeta Naranja ON LXVIII y Petroquímica Comodoro Rivadavia sin leer: CNV con error de DNS en build_empresas.py y en aif2.cnv.gov.ar. clarin.com y tn.com.ar no accesibles por WebFetch.",
+      "fecha": "2026-10-24",
+      "estado": "descartada"
     }
   ]
 }
