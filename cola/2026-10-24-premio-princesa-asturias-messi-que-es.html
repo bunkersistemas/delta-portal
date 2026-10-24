@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Qué es el Premio Princesa de Asturias y por qué es importante para Messi? — CON INTERÉS</title>
+<meta name="description" content="La Fundación Princesa de Asturias entrega ocho premios por año, cada uno con una escultura de Miró y 50.000 euros (unos $85,6 millones). En Deportes hubo 40 premiados desde 1987: cuatro del fútbol, y Messi es el primer futbolista que lo gana solo y el primer argentino en la categoría.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+</style>
+</head>
+<body data-palette="#0E7C86,#6B6560,#C4701F,#C0392B">
+<div class="draft-ribbon"><b>BORRADOR</b> · pendiente de aprobación · no publicado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">DEPORTES <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+<div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Qué es el Premio Princesa de Asturias y por qué es tan importante que lo haya ganado Messi?</h1>
+
+  <p class="standfirst">Messi es el primer futbolista que gana el Premio Princesa de Asturias de los Deportes sin compartirlo y el primer argentino en esa categoría. En 40 premiados desde 1987, solo cuatro venían del fútbol, y los tres anteriores fueron dos selecciones y una dupla de jugadores. La Fundación Princesa de Asturias entrega sus premios desde 1981 y hoy reparte ocho por año, cada uno con una escultura de Joan Miró y 50.000 euros: unos $85,6 millones. El jurado lo eligió entre 27 candidaturas de 12 nacionalidades.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>24 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 6 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta qué son los Premios Princesa de Asturias, qué recibe cada premiado, por qué el jurado eligió a Messi, quiénes ganaron en Deportes en los últimos cinco años y qué lugar ocupa Messi en la lista completa desde 1987. Cuánto le importa el premio a Messi solo lo puede decir él: citamos lo que dijo en público y no le atribuimos nada más. Tampoco comparamos este premio con el Balón de Oro: el prestigio no se mide con un dato público.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">2m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">1m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">4<span class="u">de 40</span></div>
+      <div class="cap">De los <b>40 premios de los Deportes</b> que entregó la Fundación Princesa de Asturias desde 1987, <b>cuatro fueron para el fútbol</b>. Los tres anteriores los recibieron dos selecciones y una dupla de jugadores. <b>Messi es el primer futbolista que lo gana solo.</b></div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v">50.000 €</span><span class="k">el premio en efectivo: unos $85,6 millones</span></div>
+        <div class="sr"><span class="v">27</span><span class="k">candidaturas de 12 nacionalidades compitieron</span></div>
+        <div class="sr"><span class="v up">1°</span><span class="k">argentino en la categoría Deportes</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Qué son los Premios Princesa de Asturias</h3>
+    <p class="lead">Messi recibió ayer, viernes 23 de octubre, el Premio Princesa de Asturias de los Deportes 2026 en el Teatro Campoamor de Oviedo, en la ceremonia presidida por los reyes de España. Es el primer futbolista que lo gana sin compartirlo. No dio un discurso: la Fundación había anunciado que hablarían otros cuatro premiados, y <a href="https://www.infobae.com/espana/deportes/2026/10/23/messi-recibio-el-premio-princesa-de-asturias-de-los-deportes-2026-de-manos-de-la-princesa-leonor/">las crónicas de la ceremonia</a> confirmaron que no habló.</p>
+    <p>Los premios los entrega la <b>Fundación Princesa de Asturias</b>, una institución privada con sede en Oviedo, en el norte de España. Llevan el nombre del título de la heredera al trono, hoy la princesa Leonor, que los entrega cada octubre. Antes, cuando el heredero era el actual rey Felipe VI, se llamaban Premios Príncipe de Asturias. La <a href="https://www.fpa.es/es/premios-princesa-de-asturias/lista-completa-de-premiados/">lista oficial de premiados</a> arranca en 1981.</p>
+    <p>Hoy son <b>ocho categorías</b>, según el <a href="https://www.fpa.es/es/premios-princesa-de-asturias/reglamento/">reglamento</a>: Artes, Ciencias Sociales, Comunicación y Humanidades, Concordia, Cooperación Internacional, Deportes, Investigación Científica y Técnica, y Letras. No nacieron todas juntas: Deportes se entrega desde 1987.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Qué recibe cada premiado</h3>
+    <p>El artículo 2 del reglamento fija cuatro cosas: una escultura de Joan Miró, que es el símbolo de los premios; un diploma; una insignia; y <b>50.000 euros</b>. Si el premio es compartido, la plata se divide en partes iguales. Messi no la comparte.</p>
+    <p>Al tipo de cambio de referencia del viernes 23 de octubre, 50.000 euros son <b>US$55.965</b> (1,1193 dólares por euro, el mismo valor en el Banco Central Europeo y en el BCRA) y <b>unos $85,6 millones</b> (a $1.711,97 por euro, según el BCRA).</p>
+    <p>La plata, sin embargo, no es lo que pesa en este premio. Lo que explica por qué fue para Messi está en el acta del jurado.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Por qué se lo dieron a Messi</h3>
+    <p>El jurado anunció el fallo en Oviedo el 3 de junio. Según el <a href="https://www.fpa.es/es/premios-princesa-de-asturias/premiados/2026-leo-messi/?texto=acta">acta</a>, el premio reconoce tres cosas: su "deslumbrante talento", su "excepcional trayectoria deportiva" y su "formidable y continuada labor solidaria" para promover el acceso a la educación y a la salud de los chicos más desfavorecidos. También destaca su comportamiento en la cancha, su humildad y su compromiso con el juego colectivo.</p>
+    <p>En el <a href="https://www.fpa.es/es/area-de-comunicacion-y-prensa/notas-de-prensa/leo-messi-premio-princesa-de-asturias-de-los-deportes-2026/">comunicado del fallo</a>, la Fundación lo presenta como el futbolista más exitoso de todos los tiempos, con 47 títulos. Ese es el conteo de la Fundación, no uno propio.</p>
+    <p>Messi no se postuló. Al premio llegan <b>candidaturas</b> que presentan personas e instituciones habilitadas por el reglamento, entre ellas premiados anteriores y representaciones diplomáticas. La de Messi la presentó David González Alonso, presidente de un club de triatlón de Oviedo, el Vetusta Universidad.</p>
+    <p>Esa candidatura compitió con otras 26: en total fueron <b>27 candidaturas de 12 nacionalidades</b>, según la Fundación. El jurado lo presidió Teresa Perales, la nadadora paralímpica que había ganado este mismo premio en 2021.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Los premiados de los últimos cinco años</h3>
+    <p>Antes de Messi, el premio llevaba cinco años lejos del fútbol. Entre 2021 y 2025 el premio de los Deportes fue a una nadadora, a un equipo, a un maratonista, a una jugadora de bádminton y a una tenista. Ninguno era del fútbol.</p>
+    <table class="tb">
+      <tr><th>Año</th><th>Premio de los Deportes</th><th>Disciplina</th><th>País</th></tr>
+      <tr><td><b>2026</b></td><td><b>Leo Messi</b></td><td>Fútbol</td><td>Argentina</td></tr>
+      <tr><td>2025</td><td>Serena Williams</td><td>Tenis</td><td>Estados Unidos</td></tr>
+      <tr><td>2024</td><td>Carolina Marín</td><td>Bádminton</td><td>España</td></tr>
+      <tr><td>2023</td><td>Eliud Kipchoge</td><td>Atletismo (maratón)</td><td>Kenia</td></tr>
+      <tr><td>2022</td><td>Fundación Olímpica para los Refugiados y Equipo Olímpico de Refugiados</td><td>Olimpismo</td><td>–</td></tr>
+      <tr><td>2021</td><td>Teresa Perales</td><td>Natación paralímpica</td><td>España</td></tr>
+    </table>
+    <p style="font-size:14px;color:var(--muted)">Fuente: Fundación Princesa de Asturias, lista completa de premiados. Disciplina y país: Wikipedia, cotejado con la ficha de cada premiado.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Messi en la lista desde 1987</h3>
+    <p>En 40 ediciones, el atletismo se llevó once premios, el tenis cinco y el fútbol cuatro. Los cuatro del fútbol fueron la <b>selección de Brasil</b> en 2002, la <b>selección de España</b> en 2010, <b>Iker Casillas y Xavi Hernández</b>, juntos, en 2012, y <b>Messi</b> en 2026. Entre el premio de 2012 y el de Messi pasaron catorce años. Y es la primera vez que el premio del fútbol va a un solo futbolista.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Premios Princesa de Asturias de los Deportes · 1987-2026</div>
+        <h3>En 40 años, el fútbol ganó cuatro veces; el atletismo, once</h3>
+        <p class="fig-sub">Premios de los Deportes por disciplina del premiado.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 300" role="img" aria-label="Premios Princesa de Asturias de los Deportes por disciplina, de 1987 a 2026. Atletismo: 11. Tenis: 5. Fútbol: 4. Automovilismo y motociclismo: 4. Ciclismo: 3. Golf: 2. Básquet: 2. Otras nueve disciplinas, con un premio cada una: 9.">
+<text x="230" y="24" class="cl" text-anchor="end">Atletismo</text><rect x="240" y="10" width="440" height="20" rx="3" fill="#6B6560"/><text x="688" y="25" class="cvB">11</text>
+<text x="230" y="58" class="cl" text-anchor="end">Tenis</text><rect x="240" y="44" width="200" height="20" rx="3" fill="#6B6560"/><text x="448" y="59" class="cvB">5</text>
+<text x="230" y="92" class="clB" text-anchor="end">Fútbol</text><rect x="240" y="78" width="160" height="20" rx="3" fill="#C4701F"/><text x="408" y="93" class="cvB">4 · Brasil, España, Casillas y Xavi, Messi</text>
+<text x="230" y="126" class="cl" text-anchor="end">Automovilismo y motos</text><rect x="240" y="112" width="160" height="20" rx="3" fill="#6B6560"/><text x="408" y="127" class="cvB">4</text>
+<text x="230" y="160" class="cl" text-anchor="end">Ciclismo</text><rect x="240" y="146" width="120" height="20" rx="3" fill="#6B6560"/><text x="368" y="161" class="cvB">3</text>
+<text x="230" y="194" class="cl" text-anchor="end">Golf</text><rect x="240" y="180" width="80" height="20" rx="3" fill="#6B6560"/><text x="328" y="195" class="cvB">2</text>
+<text x="230" y="228" class="cl" text-anchor="end">Básquet</text><rect x="240" y="214" width="80" height="20" rx="3" fill="#6B6560"/><text x="328" y="229" class="cvB">2</text>
+<text x="230" y="262" class="cl" text-anchor="end">Otras, una vez cada una</text><rect x="240" y="248" width="360" height="20" rx="3" fill="#0E7C86"/><text x="608" y="263" class="cvB">9</text>
+<text x="0" y="294" class="cf">Otras: waterpolo, rugby, triatlón, alpinismo, esquí, natación paralímpica, bádminton, olimpismo y un dirigente (Samaranch).</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Fundación Princesa de Asturias, lista completa de premiados; disciplinas cotejadas con Wikipedia. Atletismo incluye al equipo español de maratón (1997) y al Maratón de Nueva York (2014); ciclismo incluye al Tour de Francia (2003). Clasificación: Con Interés. <b>Unidad:</b> premios.</figcaption>
+    </figure>
+
+    <p>La lista también muestra de dónde vienen los premiados. Dieciocho de los 40 fueron para deportistas o equipos de España. De América Latina hubo solo tres: el cubano Javier Sotomayor en 1993, la selección de Brasil en 2002 y Messi. <b>Ningún argentino lo había ganado en Deportes.</b></p>
+    <p>En las otras categorías, en cambio, la Argentina ya estaba. Con nombre argentino o nacidos en la Argentina aparecen al menos seis premiados anteriores. Entre ellos, el filósofo Mario Bunge (Comunicación y Humanidades, 1982), el expresidente Raúl Alfonsín (Cooperación Internacional, 1985) y el músico Daniel Barenboim (Concordia, 2002, compartido con Edward Said).</p>
+    <p>También están Quino (Comunicación y Humanidades, 2014), Les Luthiers (Comunicación y Humanidades, 2017) y la ecóloga Sandra Myrna Díaz (Investigación Científica y Técnica, 2019, compartido con Joanne Chory). La lista oficial no indica nacionalidades: la identificación es nuestra. Lo que faltaba era un argentino en Deportes.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Qué dijo Messi</h3>
+    <p>Messi no dio conferencia de prensa en Oviedo: no figuraba en el <a href="https://www.fpa.es/es/area-de-comunicacion-y-prensa/notas-de-prensa/calendario-de-ruedas-de-prensa-y-llegadas-de-los-galardonados-a-asturias-2026/">calendario de ruedas de prensa</a> de la Fundación. Su declaración pública sobre el premio es la que dio el 3 de junio, desde Kansas City, y que la Fundación <a href="https://www.fpa.es/es/premios-princesa-de-asturias/premiados/2026-leo-messi/?texto=declaraciones">publica en su ficha</a>. Ahí dijo que el reconocimiento es para él "un orgullo enorme" y explicó por qué: "España y Catalunya son parte de mi vida: ahí crecí como futbolista, viví muchísimos años y nacieron mis hijos". Y agregó: "Siempre sentí mucho cariño de la gente, y por eso este premio tiene un valor muy especial para mí".</p>
+    <p>En la ceremonia del viernes, la princesa Leonor le dedicó una parte de su <a href="https://www.fpa.es/es/sar-la-princesa-de-asturias/discursos/2026/">discurso</a>: "Por eso tiene sentido mirar hoy a Messi y a su trayectoria irrepetible". Para describirlo, citó a un exjugador del Sporting de Gijón, según el cual Messi "convirtió lo extraordinario en rutina".</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>La cifra ancla, por dos caminos que coinciden.</b> Contamos los 40 premios de los Deportes en la <a href="https://www.fpa.es/es/premios-princesa-de-asturias/lista-completa-de-premiados/">lista completa de premiados</a> de la Fundación y los cotejamos con la <a href="https://es.wikipedia.org/wiki/Premio_Princesa_de_Asturias_de_los_Deportes">tabla de Wikipedia</a>, que además da disciplina y país de cada uno. Las dos listas coinciden año por año, y las dos marcan los mismos cuatro premios del fútbol: 2002, 2010, 2012 y 2026. Que Messi sea el primer futbolista premiado solo y el primer argentino en Deportes sale de esa misma lista: los otros tres premios del fútbol fueron para dos selecciones y para dos jugadores juntos.</p>
+      <p><b>El premio y el fallo.</b> Los 50.000 euros y la escultura de Miró salen del artículo 2 del <a href="https://www.fpa.es/es/premios-princesa-de-asturias/reglamento/">reglamento</a> y se repiten en el comunicado del fallo. Las 27 candidaturas de 12 nacionalidades figuran en dos comunicados de la Fundación: el de la <a href="https://www.fpa.es/es/area-de-comunicacion-y-prensa/notas-de-prensa/reunion-del-jurado-del-premio-princesa-de-asturias-de-los-deportes-2026/">reunión del jurado</a> (29 de mayo) y el del fallo (3 de junio). El acta, la declaración de Messi y el discurso de la princesa están en el sitio de la Fundación.</p>
+      <p><b>La conversión.</b> Usamos el tipo de cambio del 23 de octubre de 2026. El euro valía 1,1193 dólares tanto en la <a href="https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml">referencia del Banco Central Europeo</a> como en las <a href="https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/EUR?fechadesde=2026-10-23&amp;fechahasta=2026-10-23">cotizaciones del BCRA</a>, que lo daba a $1.711,97. 50.000 × 1,1193 = US$55.965; 50.000 × 1.711,97 = $85.598.468.</p>
+      <p><b>Lo que no está.</b> La lista oficial no dice la nacionalidad de cada premiado; los argentinos de otras categorías los identificamos nosotros por nombre, por eso decimos "al menos". La Fundación no publica cuáles fueron las otras 26 candidaturas. Y cuánto le importa el premio a Messi no se mide: solo citamos lo que dijo.</p>
+      <div class="meta">
+        <span><b>Fuente</b> Fundación Princesa de Asturias · Wikipedia · BCE · BCRA · Infobae</span>
+        <span><b>Período</b> 1981-2026</span>
+        <span><b>Unidad</b> premios · euros, dólares y pesos</span>
+        <span><b>Verificación</b> lista oficial cotejada con una fuente independiente · tipo de cambio por dos bancos centrales</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>El Princesa de Asturias no es un premio del fútbol: lo deciden jurados que comparan atletas, tenistas, pilotos y equipos de todo el mundo, y cada año se entrega en la misma ceremonia que los de ciencia, letras o artes. Eso es lo que lo distingue de los trofeos que Messi ya tenía. En 40 años, ese jurado eligió al fútbol cuatro veces, y nunca antes a un futbolista solo.</p>
+    <p>La plata no es lo que pesa: 50.000 euros es el mismo monto para todas las categorías y, en el caso de Messi, una parte mínima de lo que gana (<a href="../articulos/2026-08-31-messi-empresario-balances.html">publicamos los balances de sus empresas</a>). Lo que el premio dice está en el acta: el jurado no premió solo los títulos, también su trabajo solidario con chicos. Y lo que significa para él, en sus palabras, tiene que ver con España, donde se formó y donde nacieron sus hijos.</p>
+    <p>La lista prueba lo que el premio tiene de nuevo: en 40 años, ningún futbolista lo había ganado solo y ningún argentino lo había ganado en Deportes. Lo que la lista no puede decir es cuánto le importa a Messi. El prestigio no se mide con un dato público, y lo que él dijo en público es lo que citamos arriba.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p><b>Si querés proponer a alguien para el premio,</b> no alcanza con ser fan: el reglamento solo acepta candidaturas de premiados anteriores, representaciones diplomáticas y personas o instituciones "de reconocido prestigio", con un formulario oficial. La de Messi la presentó un club de triatlón de Oviedo.</p>
+      <p><b>Si ves el premio en dólares o en pesos con otra cifra,</b> casi seguro es la conversión de los 50.000 euros con el tipo de cambio de otro día. Al del 23 de octubre son US$55.965, unos $85,6 millones; el monto en euros no cambia.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Los 40 premios de los Deportes, de 1987 a 2026 <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Año</th><th>Premiado</th><th>Disciplina</th><th>País</th></tr>
+        <tr><td>1987</td><td>Sebastian Coe</td><td>Atletismo</td><td>Reino Unido</td></tr>
+        <tr><td>1988</td><td>Juan Antonio Samaranch</td><td>Dirigente (COI)</td><td>España</td></tr>
+        <tr><td>1989</td><td>Severiano Ballesteros</td><td>Golf</td><td>España</td></tr>
+        <tr><td>1990</td><td>Sito Pons</td><td>Motociclismo</td><td>España</td></tr>
+        <tr><td>1991</td><td>Sergey Bubka</td><td>Atletismo</td><td>Ucrania</td></tr>
+        <tr><td>1992</td><td>Miguel Induráin</td><td>Ciclismo</td><td>España</td></tr>
+        <tr><td>1993</td><td>Javier Sotomayor</td><td>Atletismo</td><td>Cuba</td></tr>
+        <tr><td>1994</td><td>Martina Navratilova</td><td>Tenis</td><td>República Checa</td></tr>
+        <tr><td>1995</td><td>Hassiba Boulmerka</td><td>Atletismo</td><td>Argelia</td></tr>
+        <tr><td>1996</td><td>Carl Lewis</td><td>Atletismo</td><td>Estados Unidos</td></tr>
+        <tr><td>1997</td><td>Equipo español de maratón</td><td>Atletismo</td><td>España</td></tr>
+        <tr><td>1998</td><td>Arantxa Sánchez Vicario</td><td>Tenis</td><td>España</td></tr>
+        <tr><td>1999</td><td>Steffi Graf</td><td>Tenis</td><td>Alemania</td></tr>
+        <tr><td>2000</td><td>Lance Armstrong</td><td>Ciclismo</td><td>Estados Unidos</td></tr>
+        <tr><td>2001</td><td>Manuel Estiarte</td><td>Waterpolo</td><td>España</td></tr>
+        <tr><td><b>2002</b></td><td><b>Selección de fútbol de Brasil</b></td><td><b>Fútbol</b></td><td>Brasil</td></tr>
+        <tr><td>2003</td><td>Tour de Francia</td><td>Ciclismo</td><td>Francia</td></tr>
+        <tr><td>2004</td><td>Hicham El Guerrouj</td><td>Atletismo</td><td>Marruecos</td></tr>
+        <tr><td>2005</td><td>Fernando Alonso</td><td>Automovilismo</td><td>España</td></tr>
+        <tr><td>2006</td><td>Selección española de básquet</td><td>Básquet</td><td>España</td></tr>
+        <tr><td>2007</td><td>Michael Schumacher</td><td>Automovilismo</td><td>Alemania</td></tr>
+        <tr><td>2008</td><td>Rafael Nadal</td><td>Tenis</td><td>España</td></tr>
+        <tr><td>2009</td><td>Yelena Isinbayeva</td><td>Atletismo</td><td>Rusia</td></tr>
+        <tr><td><b>2010</b></td><td><b>Selección española de fútbol</b></td><td><b>Fútbol</b></td><td>España</td></tr>
+        <tr><td>2011</td><td>Haile Gebrselassie</td><td>Atletismo</td><td>Etiopía</td></tr>
+        <tr><td><b>2012</b></td><td><b>Iker Casillas y Xavi Hernández</b></td><td><b>Fútbol</b></td><td>España</td></tr>
+        <tr><td>2013</td><td>José María Olazábal</td><td>Golf</td><td>España</td></tr>
+        <tr><td>2014</td><td>Maratón de Nueva York</td><td>Atletismo</td><td>Estados Unidos</td></tr>
+        <tr><td>2015</td><td>Pau y Marc Gasol</td><td>Básquet</td><td>España</td></tr>
+        <tr><td>2016</td><td>Javier Gómez Noya</td><td>Triatlón</td><td>España</td></tr>
+        <tr><td>2017</td><td>All Blacks</td><td>Rugby</td><td>Nueva Zelanda</td></tr>
+        <tr><td>2018</td><td>Reinhold Messner y Krzysztof Wielicki</td><td>Alpinismo</td><td>Italia y Polonia</td></tr>
+        <tr><td>2019</td><td>Lindsey Vonn</td><td>Esquí</td><td>Estados Unidos</td></tr>
+        <tr><td>2020</td><td>Carlos Sainz</td><td>Automovilismo (rally)</td><td>España</td></tr>
+        <tr><td>2021</td><td>Teresa Perales</td><td>Natación paralímpica</td><td>España</td></tr>
+        <tr><td>2022</td><td>Fundación Olímpica para los Refugiados y Equipo Olímpico de Refugiados</td><td>Olimpismo</td><td>–</td></tr>
+        <tr><td>2023</td><td>Eliud Kipchoge</td><td>Atletismo</td><td>Kenia</td></tr>
+        <tr><td>2024</td><td>Carolina Marín</td><td>Bádminton</td><td>España</td></tr>
+        <tr><td>2025</td><td>Serena Williams</td><td>Tenis</td><td>Estados Unidos</td></tr>
+        <tr><td><b>2026</b></td><td><b>Leo Messi</b></td><td><b>Fútbol</b></td><td>Argentina</td></tr>
+      </table>
+      <p>Fuente: Fundación Princesa de Asturias (nombres y años) y Wikipedia (disciplina y país).</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Antes, en Con Interés <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p><a href="../articulos/2026-10-20-messi-1000-goles-cuando.html">Cuándo llegaría Messi a los 1.000 goles</a> (20/10/2026), <a href="../articulos/2026-08-31-messi-seleccion-numeros-finanzas.html">su carrera en la Selección, en números y en dinero</a> (31/08/2026) y <a href="../articulos/2026-08-31-messi-empresario-balances.html">los balances de sus empresas</a> (31/08/2026).</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Fundación Princesa de Asturias — <a href="https://www.fpa.es/es/premios-princesa-de-asturias/premiados/2026-leo-messi/">Leo Messi, Premio Princesa de Asturias de los Deportes 2026</a>: <a href="https://www.fpa.es/es/premios-princesa-de-asturias/premiados/2026-leo-messi/?texto=acta">acta del jurado</a> (03/06/2026) y <a href="https://www.fpa.es/es/premios-princesa-de-asturias/premiados/2026-leo-messi/?texto=declaraciones">declaraciones</a></li>
+        <li>&#8250; Fundación Princesa de Asturias — <a href="https://www.fpa.es/es/area-de-comunicacion-y-prensa/notas-de-prensa/leo-messi-premio-princesa-de-asturias-de-los-deportes-2026/">Leo Messi, Premio Princesa de Asturias de los Deportes 2026</a>, comunicado del 03/06/2026</li>
+        <li>&#8250; Fundación Princesa de Asturias — <a href="https://www.fpa.es/es/area-de-comunicacion-y-prensa/notas-de-prensa/reunion-del-jurado-del-premio-princesa-de-asturias-de-los-deportes-2026/">Reunión del jurado del Premio Princesa de Asturias de los Deportes 2026</a>, 29/05/2026</li>
+        <li>&#8250; Fundación Princesa de Asturias — <a href="https://www.fpa.es/es/premios-princesa-de-asturias/reglamento/">Reglamento de los Premios Princesa de Asturias</a></li>
+        <li>&#8250; Fundación Princesa de Asturias — <a href="https://www.fpa.es/es/premios-princesa-de-asturias/lista-completa-de-premiados/">Lista completa de premiados</a></li>
+        <li>&#8250; Fundación Princesa de Asturias — <a href="https://www.fpa.es/es/area-de-comunicacion-y-prensa/notas-de-prensa/calendario-de-ruedas-de-prensa-y-llegadas-de-los-galardonados-a-asturias-2026/">Calendario de ruedas de prensa y llegadas de los galardonados a Asturias</a>, 13/10/2026</li>
+        <li>&#8250; Fundación Princesa de Asturias — <a href="https://www.fpa.es/julian-barnes-christina-koch-timothy-garton-ash-y-patti-smith-pronunciaran-discursos-en-la-ceremonia-de-entrega-de-los-premios-princesa-de-asturias-2026/">Julian Barnes, Christina Koch, Timothy Garton Ash y Patti Smith pronunciarán discursos en la ceremonia</a></li>
+        <li>&#8250; Fundación Princesa de Asturias — <a href="https://www.fpa.es/es/sar-la-princesa-de-asturias/discursos/2026/">Palabras de S.A.R. la Princesa de Asturias</a>, 23/10/2026</li>
+        <li>&#8250; Wikipedia — <a href="https://es.wikipedia.org/wiki/Premio_Princesa_de_Asturias_de_los_Deportes">Premio Princesa de Asturias de los Deportes</a> (disciplina y país de cada premiado)</li>
+        <li>&#8250; Banco Central Europeo — <a href="https://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml">Tipos de cambio de referencia del euro</a>, 23/10/2026</li>
+        <li>&#8250; BCRA — <a href="https://api.bcra.gob.ar/estadisticascambiarias/v1.0/Cotizaciones/EUR?fechadesde=2026-10-23&amp;fechahasta=2026-10-23">Cotizaciones del euro</a>, 23/10/2026</li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/espana/deportes/2026/10/23/messi-recibio-el-premio-princesa-de-asturias-de-los-deportes-2026-de-manos-de-la-princesa-leonor/">Leo Messi recibió el Premio Princesa de Asturias de los Deportes 2026 de manos de la princesa Leonor</a>, 23/10/2026</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: conteo por disciplina y país, conversión a dólares y pesos.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 24/10/2026. La clasificación por disciplina y la identificación de premiados argentinos son de Con Interés. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
