@@ -1,24 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-10-24T17:55:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-10-24-ia-ingenieria-materiales-que-logra",
-      "titulo": "¿Qué está logrando de verdad la inteligencia artificial en la ingeniería de materiales?",
-      "titulo_busqueda": "¿Qué logró la inteligencia artificial en el descubrimiento de materiales nuevos?",
-      "bajada": "La inteligencia artificial multiplicó lo que se puede calcular en ciencia de materiales, pero del cálculo al laboratorio la distancia sigue siendo grande. La IA de Google DeepMind calculó en 2023 que 381.000 materiales nuevos serían estables: ninguno tiene todavía un uso demostrado, y dos químicos que revisaron la lista no encontraron ninguno \"llamativamente nuevo\". El laboratorio robótico que fabricó una parte tuvo que corregir su resultado en 2026: logró 36 compuestos de 57, y no eran necesariamente nuevos para la ciencia. Lo que sí cambió es cómo se investiga: en arXiv, los trabajos de ciencia de materiales que nombran a la IA pasaron de 3 de cada 100 en 2019 a casi 13 en 2025.",
-      "seccion": "IA",
-      "formato": "Investigación",
-      "numero": "381.000",
-      "numero_label": "materiales nuevos estables según los cálculos de GNoME (Merchant y otros, Google DeepMind, Nature 624, 80-85, 29/11/2023: 381.000 nuevos en la lista final de estables, 421.000 en total; antes se conocían 48.000); son predicciones por DFT, sin síntesis propia: 736 coincidían con materiales ya fabricados por otros (ICSD). Contraste: Cheetham y Seshadri (Chem. Mater. 36, 3490, 2024): 10 de 10 al azar con estructura ya conocida en la ICSD. A-Lab (Nature 2023) corregido el 19/01/2026: 36 de 57, no necesariamente nuevos para la ciencia",
-      "fecha": "2026-10-24",
-      "hora": "17:55",
-      "archivo": "cola/2026-10-24-ia-ingenieria-materiales-que-logra.html",
-      "verificacion": "verificada",
-      "fuentes": 15,
-      "lectura": "30 seg → 10 min",
-      "pedido": 110,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }

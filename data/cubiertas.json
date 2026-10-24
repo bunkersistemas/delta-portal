@@ -5643,7 +5643,7 @@
       "tema": "IA en la ingeniería de materiales: qué predijo y qué se fabricó (pedido 110)",
       "angulo": "Pregunta de un lector, enfoque aprobado. GNoME (381.000 estables predichos, 736 ya fabricados por otros), A-Lab (41 de 58 corregido a 36 de 57 en ene-2026), MatterGen (1 de 4 fabricado; Juelsholt 2026: ya conocido desde 1971), electrolito Microsoft-PNNL (JACS 2024); críticas de Cheetham-Seshadri y Leeman et al.; conteo propio arXiv cond-mat.mtrl-sci 3,2% (2019) a 12,6% (2025) con contraste OpenAlex (x6 en ambos); grupos argentinos INTEMA y Mendoza. Sin inversión privada ni productos en venta (no verificables).",
       "fecha": "2026-10-24",
-      "estado": "en_cola",
+      "estado": "publicada",
       "articulo_id": "2026-10-24-ia-ingenieria-materiales-que-logra"
     }
   ]

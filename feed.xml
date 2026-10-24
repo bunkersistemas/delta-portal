@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 16:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 17:33:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Qué está logrando de verdad la inteligencia artificial en la ingeniería de materiales?</title>
+      <link>https://coninteres.com/articulos/2026-10-24-ia-ingenieria-materiales-que-logra.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-ia-ingenieria-materiales-que-logra.html</guid>
+      <pubDate>Sat, 24 Oct 2026 17:55:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>IA</category>
+      <description>La inteligencia artificial multiplicó lo que se puede calcular en ciencia de materiales, pero del cálculo al laboratorio la distancia sigue siendo grande. La IA de Google DeepMind calculó en 2023 que 381.000 materiales nuevos serían estables: ninguno tiene todavía un uso demostrado, y dos químicos que revisaron la lista no encontraron ninguno "llamativamente nuevo". El laboratorio robótico que fabricó una parte tuvo que corregir su resultado en 2026: logró 36 compuestos de 57, y no eran necesariamente nuevos para la ciencia. Lo que sí cambió es cómo se investiga: en arXiv, los trabajos de ciencia de materiales que nombran a la IA pasaron de 3 de cada 100 en 2019 a casi 13 en 2025.</description>
+      <ci:numero>381.000</ci:numero>
+      <ci:numeroEtiqueta>materiales nuevos estables según los cálculos de GNoME (Merchant y otros, Google DeepMind, Nature 624, 80-85, 29/11/2023: 381.000 nuevos en la lista final de estables, 421.000 en total; antes se conocían 48.000); son predicciones por DFT, sin síntesis propia: 736 coincidían con materiales ya fabricados por otros (ICSD). Contraste: Cheetham y Seshadri (Chem. Mater. 36, 3490, 2024): 10 de 10 al azar con estructura ya conocida en la ICSD. A-Lab (Nature 2023) corregido el 19/01/2026: 36 de 57, no necesariamente nuevos para la ciencia</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-ia-ingenieria-materiales-que-logra.png" length="71759" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-ia-ingenieria-materiales-que-logra.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El presidente de Brasil cobra R$46.366 por mes, unos US$9.200: descontada la inflación, 20% menos que en 2015</title>
       <link>https://coninteres.com/articulos/2026-10-24-sueldo-presidente-brasil.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>más versiones de software publicadas por los programadores que adoptaron agentes de IA, contra 958% más líneas de código (GitHub, semanas 21 a 30 tras la adopción; Demirer, Musolff y Yang, MIT-Wharton, NBER WP 35275, cuadro 6)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-20-ia-programadores-codigo-software-mit.png" length="81891" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-20-ia-programadores-codigo-software-mit.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Estados Unidos gastó US$1,14 billones en intereses de su deuda en el año fiscal 2026: 11% más que en 2025 y más de lo que destinó a defensa</title>
-      <link>https://coninteres.com/articulos/2026-10-19-intereses-deuda-estados-unidos-1-billon.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-intereses-deuda-estados-unidos-1-billon.html</guid>
-      <pubDate>Mon, 19 Oct 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Por segundo año seguido, Estados Unidos gastó más de un billón de dólares en intereses de su deuda, y la cuenta sigue subiendo. En el año fiscal que cerró el 30 de septiembre fueron US$1.142.282 millones de intereses de la deuda en manos del público: unos US$3.130 millones por día y 21 de cada 100 dólares que recaudó, la proporción más alta desde al menos 2015. Es casi tres veces lo de 2021, por dos razones: la deuda creció 45,5% y la tasa promedio que paga pasó de 1,6% a 3,5%.</description>
-      <ci:numero>US$1,14 billones</ci:numero>
-      <ci:numeroEtiqueta>intereses de la deuda en manos del público de EE.UU. en el año fiscal 2026 (oct-2025 a sep-2026). Tesoro, Monthly Treasury Statement tabla 5 al 30/09/2026: Total--Interest on the Public Debt US$1.359.953.253.417 - Total--Interest Received by Trust Funds US$217.670.747.485 = US$1.142.282.505.932 (suma de los 12 meses igual al centavo); FY2025 1.215.613.829.754 - 187.547.096.990 = 1.028.066.732.764 (+11,1%). CBO Monthly Budget Review sep-2026, tabla 3: Net Interest on the Public Debt 1.143 vs 1.028 miles de millones (+115, +11%). Serie desde 2015 (2015 260,39; 2021 412,81; 2023 710,16; 2024 949,21; 2025 1.028,07): máximo de la serie. 21,1% de la recaudación (US$5.403.327 M; 2025 19,6%). Defensa nacional (tabla 9) 965.160 M; CBO DoD militar 916.000 M. Función interés neto (tabla 9) 1.051.754 M (+8,4%, la cifra de ámbito), debajo de Medicare 1.072.626 M. Deuda en manos del público 32,43 billones (sep-21 22,28, +45,5%); tasa promedio 3,531% (sep-21 1,605%).</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-intereses-deuda-estados-unidos-1-billon.png" length="82804" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-intereses-deuda-estados-unidos-1-billon.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
