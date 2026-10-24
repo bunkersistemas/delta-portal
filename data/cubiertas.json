@@ -5645,6 +5645,18 @@
       "fecha": "2026-10-24",
       "estado": "publicada",
       "articulo_id": "2026-10-24-ia-ingenieria-materiales-que-logra"
+    },
+    {
+      "tema": "¿cuánto descuento da la moratoria de ARBA? (retomada: frenada el 18/10/2026 porque la norma no estaba publicada; infobae y Página12 24/10/2026 'desde el lunes se puede acceder a la moratoria bonaerense', 'ARBA lanzó un plan con descuentos de hasta 40%') / RN 23/2026 (21/10/2026, rige 26/10-31/12): 40/20/15% hasta el 13/11, 35/15/10 hasta el 27/11, 30/10/5 hasta el 11/12, 30 al contado hasta el 31/12, sin disminuir el capital; descuento real de una deuda vencida el 01/01/2026 22,7% (índice 1,294193, Disp. SERYC 3647/26); 40% completo solo hasta vencimientos del 11/07/2025; ejemplos por $1.000.000: mar-24 $2.968.579 -> $1.781.147, ene-25 $2.168.579 -> $1.301.147, jul-25 $1.689.031 -> $1.013.419; plan 2024 (RN 27/2024) máximo 30%",
+      "angulo": "Corrida programada del 24/10/2026 18:30, primera candidata probada (APTA). Pregunta de plata que la gente busca ('moratoria ARBA 2026') y nadie contesta con la cuenta: los medios y el propio comunicado de ARBA ('las bonificaciones no podrán superar el monto del capital adeudado') no explican que la resolución prohíbe disminuir el capital, así que la quita se topa en los intereses. Camino: documento oficial (RN 23/2026, PDF en la biblioteca legal de ARBA, coincide con el comunicado del 19/10/2026) + recálculo propio de los índices oficiales con las tasas de RN 10/2024, 17/2025 y 33/2025. Sin multas; deudas en juicio y planes caducos fuera de los ejemplos.",
+      "fecha": "2026-10-24",
+      "estado": "publicada",
+      "articulo_id": "2026-10-24-arba-moratoria-descuento-real-capital"
+    },
+    {
+      "tema": "descartes de la corrida programada del 24/10/2026 18:30: no se probaron porque pasó la primera candidata (descuento real de la moratoria de ARBA, RN 23/2026). Quedaron en la lista: renuncia de Daniel González en Energía y Minería (La Nación, Página12, Cronista; sueldo de funcionarios sin escala oficial vigente, frenado 05/10), compras puerta a puerta 2026 ya superan todo 2025 por US$66 M (Página12; courier sin contraste independiente, frenado 24/09), Encuesta de Condiciones Crediticias del BCRA: bancos esperan más demanda pese a mora récord (La Nación, infobae), Tarjeta Naranja ON clase LXVIII y YPF rescate de ON clase XXXVII (EMPRESAS, CNV; cupo no regía: IRSA publicada hoy 02:30), Aluar habilitación del parque eólico La Fecha (EMPRESAS), A3 Mercados programa de recompra (EMPRESAS), PCR tres áreas en Vaca Muerta (ronda de Neuquén cubierta el 23/10), riesgo país sobre 700 (cinco portadas; dato del día sin ángulo propio), hipotecarios del FGS en el Banco Nación (cubiertos), subsidio eléctrico del 75% (Res. SE 272 cubierta 01/10), Colapinto en el GP de Estados Unidos (sin documento oficial con montos). clarin.com y tn.com.ar no accesibles por WebFetch.",
+      "fecha": "2026-10-24",
+      "estado": "descartada"
     }
   ]
 }

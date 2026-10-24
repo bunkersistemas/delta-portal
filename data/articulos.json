@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-24T17:32:50-03:00",
+    "actualizado": "2026-10-24T18:59:35-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-24-arba-moratoria-descuento-real-capital",
+      "titulo": "El descuento de 40% de ARBA no toca el capital: en una deuda de 2026 llega como mucho a 22,7%",
+      "bajada": "ARBA ofrece desde el lunes 26 de octubre hasta 40% de descuento para cancelar deudas de Inmobiliario, Automotor, Ingresos Brutos y Sellos. Pero la resolución dice que la quita nunca puede tocar el capital: solo baja intereses. En una deuda vencida el 1 de enero de 2026, los intereses suman 29,4% del capital; el descuento real es entonces 22,7%, y se paga el capital justo. El 40% entero solo llega a las deudas vencidas hasta el 11 de julio de 2025.",
+      "titulo_busqueda": "¿Cuánto descuento da la moratoria de ARBA?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "22,7%",
+      "numero_label": "descuento real máximo para una deuda con ARBA de 2026 cancelada al contado el 26/10/2026 (vencida el 01/01/2026): índice de liquidación 1,294193 (Disp. Delegada SERYC 3647/26, prejudicial predeterminado; igual en autodeterminado) = capital + 29,42%; la quita de 40% del total (RN 23/2026 art. 2 A.1) no puede disminuir el capital, así que se topa en los intereses: 0,294193/1,294193 = 22,73%. Recálculo propio con RN 10/2024 (8%), RN 17/2025 (6,6%) y RN 33/2025 (3%) prorrateadas por días: 29,42%, diferencia máxima con el índice oficial <0,2 pp desde mar-2024. Umbral del 40% completo: índice >= 5/3, último vencimiento 11/07/2025 pagando el 26/10 (1,667741) y 19/07/2025 pagando el 13/11. Plan 2024 (RN 27/2024): máximo 30%",
+      "fecha": "2026-10-24",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-24-arba-moratoria-descuento-real-capital.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-24-ia-ingenieria-materiales-que-logra",
       "titulo": "¿Qué está logrando de verdad la inteligencia artificial en la ingeniería de materiales?",
