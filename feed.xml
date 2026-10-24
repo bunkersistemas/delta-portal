@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 24 Oct 2026 11:02:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 24 Oct 2026 12:01:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Qué es el Premio Princesa de Asturias y por qué es tan importante que lo haya ganado Messi?</title>
+      <link>https://coninteres.com/articulos/2026-10-24-premio-princesa-asturias-messi-que-es.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-premio-princesa-asturias-messi-que-es.html</guid>
+      <pubDate>Sat, 24 Oct 2026 12:40:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>DEPORTES</category>
+      <description>Messi es el primer futbolista que gana el Premio Princesa de Asturias de los Deportes sin compartirlo y el primer argentino en esa categoría. En 40 premiados desde 1987, solo cuatro venían del fútbol, y los tres anteriores fueron dos selecciones y una dupla de jugadores. La Fundación Princesa de Asturias entrega sus premios desde 1981 y hoy reparte ocho por año, cada uno con una escultura de Joan Miró y 50.000 euros: unos $85,6 millones. El jurado lo eligió entre 27 candidaturas de 12 nacionalidades.</description>
+      <ci:numero>4 de 40</ci:numero>
+      <ci:numeroEtiqueta>premios Princesa de Asturias de los Deportes que fueron al fútbol sobre 40 entregados desde 1987 (selección de Brasil 2002, selección de España 2010, Casillas y Xavi 2012, Messi 2026); lista oficial de la Fundación cotejada con Wikipedia. Messi es el primer futbolista premiado solo y el primer argentino de la categoría. Dotación: 50.000 € (reglamento, art. 2) = US$55.965 y $85,6 millones al 23/10/2026 (BCE y BCRA: 1,1193 US$/€; $1.711,97/€)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-premio-princesa-asturias-messi-que-es.png" length="75833" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-premio-princesa-asturias-messi-que-es.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El kilo de nalga cuesta US$14,47 en el Gran Buenos Aires: 39% más en dólares que hace un año y dos tercios de lo que vale en Estados Unidos</title>
       <link>https://coninteres.com/articulos/2026-10-24-carne-en-dolares-nalga-mas-cara-serie.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de superávit comercial de bienes en enero-septiembre de 2026 (INDEC, ICA 19/10/2026): más que cualquier año completo de la serie 1910-2025 (máximo anterior 2024, US$18.928 M)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.png" length="86884" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-superavit-comercial-nueve-meses-mayor-que-cualquier-ano.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un plazo fijo de $1.000.000 a 30 días paga $15.822 en el Banco Nación: ninguno de los diez bancos más grandes le gana a la inflación de septiembre</title>
-      <link>https://coninteres.com/articulos/2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre.html</guid>
-      <pubDate>Mon, 19 Oct 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Para empatarle a la suba de precios de septiembre, un millón de pesos a 30 días tenía que dejar $19.336 de interés. Con las tasas que los bancos le informaron hoy al BCRA, los diez bancos con más depósitos pagan entre $13.151 y $18.082: ninguno llega. Solo tres de las 29 entidades del comparador oficial pagan más que eso.</description>
-      <ci:numero>$15.822</ci:numero>
-      <ci:numeroEtiqueta>de interés paga el Banco Nación por $1.000.000 en un plazo fijo electrónico a 30 días (19,25% TNA, pizarra BNA y comparador del BCRA, 19/10/2026), contra $19.336 que hacían falta para empatarle a la inflación de septiembre (1,93%, INDEC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre.png" length="93821" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-19-plazo-fijo-un-millon-30-dias-bancos-inflacion-septiembre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -1,24 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-10-24T12:40:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-10-24-premio-princesa-asturias-messi-que-es",
-      "titulo": "¿Qué es el Premio Princesa de Asturias y por qué es tan importante que lo haya ganado Messi?",
-      "titulo_busqueda": "¿Qué es el Premio Princesa de Asturias y por qué es importante para Messi?",
-      "bajada": "Messi es el primer futbolista que gana el Premio Princesa de Asturias de los Deportes sin compartirlo y el primer argentino en esa categoría. En 40 premiados desde 1987, solo cuatro venían del fútbol, y los tres anteriores fueron dos selecciones y una dupla de jugadores. La Fundación Princesa de Asturias entrega sus premios desde 1981 y hoy reparte ocho por año, cada uno con una escultura de Joan Miró y 50.000 euros: unos $85,6 millones. El jurado lo eligió entre 27 candidaturas de 12 nacionalidades.",
-      "seccion": "DEPORTES",
-      "formato": "Investigación",
-      "numero": "4 de 40",
-      "numero_label": "premios Princesa de Asturias de los Deportes que fueron al fútbol sobre 40 entregados desde 1987 (selección de Brasil 2002, selección de España 2010, Casillas y Xavi 2012, Messi 2026); lista oficial de la Fundación cotejada con Wikipedia. Messi es el primer futbolista premiado solo y el primer argentino de la categoría. Dotación: 50.000 € (reglamento, art. 2) = US$55.965 y $85,6 millones al 23/10/2026 (BCE y BCRA: 1,1193 US$/€; $1.711,97/€)",
-      "fecha": "2026-10-24",
-      "hora": "12:40",
-      "archivo": "cola/2026-10-24-premio-princesa-asturias-messi-que-es.html",
-      "verificacion": "verificada",
-      "fuentes": 13,
-      "lectura": "30 seg → 6 min",
-      "pedido": 109,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }
