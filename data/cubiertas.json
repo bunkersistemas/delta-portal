@@ -5638,6 +5638,13 @@
       "angulo": "Frenó la primera (Consultatio, sin cifra) y pasó la segunda (sueldo del presidente de Brasil, pregunta de plata del balotaje). Lista no probada: Aluar habilitación comercial del Parque Eólico La Flecha (HR CNV 21/10/2026, leído: 336 MW, 56 Goldwind GW165 de 6 MW, total renovable propio 582 MW; el ENRE dio acceso por 312 MW en la Res. 148/2025 y no hay registro de CAMMESA leído para el superlativo 'el mayor parque de una sola etapa'; retomable con CAMMESA), PCR tres áreas en Neuquén (misma Ronda 1/2026 cubierta el 23/10 con GeoPark), YPF rescate ON Clase XXXVII y Tarjeta Naranja ON LXVIII (sin angulo de lector), coches nuevos del subte desde China (Página12; sin documento con cantidad ni precio), FAL (cubierto 24/09), cuentas remuneradas (Com. A 8497 cubierta), subsidio eléctrico del 75% (iProfesional; Res. SE 272 cubierta 01/10), feriados bancarios por la visita del Papa (sin cifra), riesgo país sobre 700 (seis portadas; sin ángulo propio), hipotecarios del FGS en el Banco Nación (cubiertos 02/10, 06/10 y 16/10), subastas de ARCA (un solo catálogo). clarin.com y tn.com.ar no accesibles por WebFetch.",
       "fecha": "2026-10-24",
       "estado": "descartada"
+    },
+    {
+      "tema": "IA en la ingeniería de materiales: qué predijo y qué se fabricó (pedido 110)",
+      "angulo": "Pregunta de un lector, enfoque aprobado. GNoME (381.000 estables predichos, 736 ya fabricados por otros), A-Lab (41 de 58 corregido a 36 de 57 en ene-2026), MatterGen (1 de 4 fabricado; Juelsholt 2026: ya conocido desde 1971), electrolito Microsoft-PNNL (JACS 2024); críticas de Cheetham-Seshadri y Leeman et al.; conteo propio arXiv cond-mat.mtrl-sci 3,2% (2019) a 12,6% (2025) con contraste OpenAlex (x6 en ambos); grupos argentinos INTEMA y Mendoza. Sin inversión privada ni productos en venta (no verificables).",
+      "fecha": "2026-10-24",
+      "estado": "en_cola",
+      "articulo_id": "2026-10-24-ia-ingenieria-materiales-que-logra"
     }
   ]
 }

@@ -1,0 +1,375 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Qué está logrando de verdad la inteligencia artificial en la ingeniería de materiales? — CON INTERÉS</title>
+<meta name="description" content="La IA de Google DeepMind calculó en 2023 que 381.000 materiales nuevos serían estables, pero ninguno tiene todavía un uso demostrado. El laboratorio robótico que fabricó una parte corrigió en 2026 su resultado: 36 compuestos de 57, no necesariamente nuevos para la ciencia. Lo que sí cambió es cómo se investiga.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .prose h3.sub{font-family:var(--serif);font-size:24px;font-weight:700;margin:36px 0 14px;line-height:1.25}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:470px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em;max-width:180px}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* tabla */
+  .tabla-wrap{overflow-x:auto}
+  table.estudios{width:100%;border-collapse:collapse;font-size:13.5px;line-height:1.45}
+  table.estudios th{font-family:var(--mono);font-size:10.5px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:2px solid var(--ink);padding:8px 8px 6px;font-weight:600}
+  table.estudios td{border-bottom:1px solid var(--grid);padding:9px 8px;vertical-align:top;color:var(--ink-soft)}
+  table.estudios td:first-child{font-weight:600;color:var(--ink)}
+  table.estudios tr.falta td{color:var(--muted);font-style:italic}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .lbl{font-family:var(--mono);font-size:12px;fill:var(--teal-deep);font-weight:600}
+</style>
+</head>
+<body data-palette="#B8336A,#0E7C86,#B9AE9C,#6B6560">
+<div class="draft-ribbon"><b>BORRADOR</b> · pendiente de aprobación · no publicado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="kicker">LA ECONOMÍA DE LA IA <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+<div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Qué está logrando de verdad la inteligencia artificial en la ingeniería de materiales?</h1>
+
+  <p class="standfirst">La inteligencia artificial multiplicó lo que se puede calcular en ciencia de materiales, pero del cálculo al laboratorio la distancia sigue siendo grande. La IA de Google DeepMind calculó en 2023 que 381.000 materiales nuevos serían estables: ninguno tiene todavía un uso demostrado, y dos químicos que revisaron la lista no encontraron ninguno "llamativamente nuevo". El laboratorio robótico que fabricó una parte tuvo que corregir su resultado en 2026: logró 36 compuestos de 57, y no eran necesariamente nuevos para la ciencia. Lo que sí cambió es cómo se investiga: en arXiv, los trabajos de ciencia de materiales que nombran a la IA pasaron de 3 de cada 100 en 2019 a casi 13 en 2025.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>24 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 10 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta lo que aprobó el lector: en los avances publicados en las grandes revistas científicas desde 2023, qué predijo la IA y qué se fabricó en un laboratorio; para qué usos; cuánto pesa la IA en los trabajos de ciencia de materiales desde 2019, y qué se investiga en la Argentina. Como avisamos, quedan afuera cuánta plata ponen las empresas privadas y qué productos en venta usan materiales "hechos con IA": no hay un registro que lo confirme. La parte argentina quedó corta: no hay una estadística oficial, así que mostramos trabajos publicados que se pueden identificar, y no encontramos ninguno que use IA para buscar materiales de baterías.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">1m</span></button>
+      <button data-go="b3">En contexto <span class="t">5m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">381.000</div>
+      <div class="cap">Son los <b>materiales nuevos que serían estables</b> según los cálculos de GNoME, la IA de Google DeepMind, publicados en <i>Nature</i> en 2023. Antes se conocían unos 48.000. Son predicciones hechas en una computadora: <b>ninguno tiene todavía un uso demostrado</b>, y en el momento de la publicación 736 de esas estructuras coincidían con materiales que otros laboratorios ya habían fabricado por su cuenta.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v up">36 de 57</span><span class="k">compuestos que logró el laboratorio robótico, según su corrección de 2026</span></div>
+        <div class="sr"><span class="v up">1 de 4</span><span class="k">materiales de MatterGen (Microsoft) que se pudieron fabricar; una crítica dice que ya existía desde 1971</span></div>
+        <div class="sr"><span class="v dn">&times;6</span><span class="k">trabajos de ciencia de materiales que nombran a la IA en arXiv, de 2019 a 2025</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <p class="lead">La inteligencia artificial aceleró la parte más barata de buscar materiales, la de calcular; la parte cara, la de fabricar y probar, sigue al ritmo de siempre. Buscar un material nuevo era, hasta hace poco, un trabajo de años: imaginar una combinación de átomos, calcular si se sostiene, intentar hacerla en un horno y analizar qué salió. La IA promete acortar el primer tramo: un modelo entrenado con todos los cristales conocidos predice cuáles combinaciones nuevas serían estables y con qué propiedades, sin probarlas una por una. Un lector nos preguntó qué está logrando eso de verdad.</p>
+    <p>Los datos dan una respuesta en dos partes. <b>Primero, la IA multiplicó lo que se puede calcular.</b> En 2023, GNoME, de Google DeepMind, propuso <b class="hl">381.000 materiales nuevos estables</b>, casi ocho veces los 48.000 que se conocían. En 2025, MatterGen, de Microsoft, mostró que puede generar materiales a pedido, con la propiedad que se le indica. Y en ciencia de materiales, la parte de los trabajos que nombran a la IA se cuadruplicó en seis años.</p>
+    <p><b>Después, del cálculo al laboratorio la distancia sigue siendo grande, y dos de los resultados que publicó <i>Nature</i> se achicaron cuando otros científicos los revisaron.</b> El laboratorio robótico de Berkeley anunció en 2023 que había hecho 41 compuestos nuevos de 58 que buscaba; en enero de 2026 corrigió el trabajo: fueron 36 de 57, y "nuevos" quería decir nuevos para la computadora, no necesariamente para la ciencia.</p>
+    <p>El segundo es MatterGen: el único material que Microsoft fabricó con ese modelo, según un químico de la Universidad Humboldt de Berlín, ya se conocía desde 1971 y estaba en los datos con los que se entrenó. Y el avance más concreto que encontramos, un electrolito sólido para baterías que reemplaza parte del litio por sodio, se fabricó y se midió, pero como candidato: no hay un producto a la venta.</p>
+  </div>
+
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">La respuesta, en una tabla</div>
+        <h3>Lo que predijo la IA y lo que se comprobó en un laboratorio</h3>
+        <p class="fig-sub">Cada fila sale del trabajo original publicado con revisión de pares, enlazado en "Cómo lo sabemos" y al pie.</p>
+      </div>
+      <div class="tabla-wrap">
+      <table class="estudios">
+        <thead><tr><th>Avance</th><th>Quién y cuándo</th><th>Qué predijo o hizo la IA</th><th>Qué se comprobó en un laboratorio</th><th>Qué dijeron otros científicos</th></tr></thead>
+        <tbody>
+          <tr><td>GNoME</td><td>Google DeepMind, <i>Nature</i>, noviembre de 2023</td><td>2,2 millones de estructuras cristalinas; 381.000 quedaron como materiales nuevos estables (antes se conocían 48.000)</td><td>Ninguna fabricada por el proyecto; 736 coincidían con materiales que otros laboratorios ya habían hecho por su cuenta</td><td>Cheetham y Seshadri (Universidad de California, 2024): los 10 que eligieron al azar ya tenían una estructura conocida</td></tr>
+          <tr><td>A-Lab, laboratorio robótico</td><td>Lawrence Berkeley National Laboratory y Universidad de California, <i>Nature</i>, noviembre de 2023</td><td>Planificó las recetas e interpretó los resultados solo, en 17 días seguidos</td><td>Anunció 41 compuestos nuevos de 58; corregido en enero de 2026: 36 de 57, "nuevos para la plataforma, no necesariamente para la ciencia"</td><td>Leeman y otros (Princeton y University College London, 2024): ninguno era un material nuevo</td></tr>
+          <tr><td>MatterGen</td><td>Microsoft Research, <i>Nature</i>, enero de 2025</td><td>Genera materiales con la propiedad que se le pide; más del doble de probabilidad de que sean nuevos y estables que los modelos anteriores</td><td>Se intentaron 4; salió 1. Dureza buscada: 200 GPa; medida: hasta 169 GPa</td><td>Juelsholt (Universidad Humboldt de Berlín, 2026): ese material se conocía desde 1971 y estaba en los datos de entrenamiento</td></tr>
+          <tr><td>Electrolito sólido para baterías</td><td>Microsoft y Pacific Northwest National Laboratory, <i>Journal of the American Chemical Society</i>, 2024</td><td>Revisó más de 32 millones de candidatos, estimó medio millón estables y eligió 18 para baterías</td><td>Fabricó y midió la familia de cloruros de sodio, litio e itrio que encabezaba la lista: sirven como electrolito sólido</td><td>No encontramos una crítica publicada</td></tr>
+          <tr><td>En la Argentina</td><td>INTEMA (Universidad Nacional de Mar del Plata y CONICET) y grupos de la Universidad Nacional de Cuyo y el CONICET en Mendoza, 2024 y 2025</td><td>Modelos que estiman propiedades de polímeros y vidrios moleculares, y la magnetización de nanopartículas de hierro y níquel</td><td>Son predicciones de propiedades de materiales conocidos, no búsqueda de materiales nuevos</td><td>&mdash;</td></tr>
+          <tr class="falta"><td>Materiales "hechos con IA" en productos que se venden</td><td>&mdash;</td><td>?</td><td>?</td><td>Las empresas no lo informan de forma verificable</td></tr>
+        </tbody>
+      </table>
+      </div>
+      <figcaption><b>Fuentes:</b> los trabajos originales de cada fila y sus críticas, enlazados al pie. GPa: gigapascales, la unidad del módulo volumétrico, que mide cuánto resiste un material a ser comprimido.</figcaption>
+    </figure>
+
+    <h3 class="sub">Qué hace la IA en un laboratorio de materiales</h3>
+    <p>Un material es una forma de ordenar átomos. Si el orden es estable, el material se puede fabricar y dura; si no, se desarma en otra cosa. Hace décadas que los científicos calculan esa estabilidad con un método de la física cuántica, la teoría del funcional de la densidad, pero cada cálculo es caro, y hacerlo para millones de combinaciones posibles no es práctico. Lo que hace la IA es aprender de los cálculos ya hechos y predecir, en una fracción de segundo, cuáles combinaciones vale la pena calcular en serio. En GNoME, ese filtro y el cálculo clásico se alimentaron uno al otro en seis rondas.</p>
+    <p>El punto clave es que todo eso pasa en una computadora. "Estable" quiere decir que el cálculo dice que ese orden de átomos tiene menos energía que las alternativas conocidas. No dice si se puede hacer en un horno, cuánto cuesta ni para qué sirve. Esa es la distancia que mide la tabla.</p>
+
+    <h3 class="sub">Lo que se predijo y lo que se fabricó</h3>
+    <p>GNoME encontró 2,2 millones de estructuras más estables que las de la base pública de materiales del Departamento de Energía de EE.UU., el Materials Project. Como esos materiales compiten entre sí, al ordenarlos quedaron 381.000 nuevos en la lista final de estables, que suma 421.000 con los ya conocidos. Para comprobar que el método funcionaba, los autores buscaron cuáles de sus predicciones ya figuraban en la gran base de cristales fabricados, la ICSD: encontraron 736, y 184 de ellos se habían publicado mientras el proyecto estaba en marcha. Esos 736 no los hizo DeepMind; los hicieron otros laboratorios por su cuenta, y sirven como prueba de que el modelo acierta en algunos casos. Lo que el trabajo no responde es qué hay en el resto de la lista.</p>
+    <p>Anthony Cheetham y Ram Seshadri, químicos de la Universidad de California en Santa Bárbara con décadas fabricando materiales, revisaron la lista en la revista <i>Chemistry of Materials</i> en 2024. Eligieron 10 compuestos al azar de los 384.870 de la base de estables: los diez tenían una estructura que ya figuraba en la ICSD, casi siempre con un orden de átomos más simétrico que el que proponía la IA.</p>
+    <p>Contaron además más de 41.000 compuestos con elementos muy radiactivos, como el tecnecio, el neptunio o el plutonio. Escriben que todavía no encontraron ningún compuesto "llamativamente nuevo" en las listas, aunque esperan que haya alguno. Su conclusión es que el trabajo "no reporta materiales nuevos sino una lista de compuestos propuestos": para ellos, un compuesto es un material recién cuando se le demuestra una utilidad. Aun así, escriben que el método parece prometedor y que las composiciones que propone son creíbles. De esas listas eligió sus materiales un laboratorio robótico.</p>
+    <p>El mismo día que GNoME, <i>Nature</i> publicó el trabajo del A-Lab, un laboratorio con brazos robóticos del Lawrence Berkeley National Laboratory que eligió materiales de esas listas, propuso recetas con modelos de lenguaje entrenados con la literatura científica, los cocinó y analizó el resultado sin intervención humana. Anunció 41 compuestos nuevos de 58 buscados en 17 días.</p>
+    <p>En marzo de 2024, un grupo de Princeton y del University College London encabezado por Josh Leeman, Leslie Schoop y Robert Palgrave revisó uno por uno los productos en <i>PRX Energy</i>: concluyó que ninguno era un material nuevo y que dos tercios eran, probablemente, versiones desordenadas de compuestos ya conocidos.</p>
+    <p>En enero de 2026, los autores publicaron una corrección en <i>Nature</i>: reanalizaron los datos y confirmaron 36 de los 40 éxitos que quedaban (4 resultaron dudosos y uno se sacó porque estaba en los datos de entrenamiento), y aclararon que "nuevos" quería decir nuevos para la plataforma, "no necesariamente nuevos para la ciencia".</p>
+    <p>MatterGen, de Microsoft, cambió la pregunta: en vez de revisar millones de combinaciones, genera directamente materiales con la propiedad que se le pide. Según su trabajo en <i>Nature</i>, sus estructuras tienen más del doble de probabilidad de ser nuevas y estables que las de los modelos anteriores. Para probarlo, le pidieron un material con un módulo volumétrico de 200 GPa, eligieron cuatro candidatos y lograron fabricar uno, un óxido de tantalio y cromo, con un valor medido de hasta 169 GPa: a 16% del objetivo.</p>
+    <p>En abril de 2026, Mikkel Juelsholt, de la Universidad Humboldt de Berlín, mostró en <i>Materials Horizons</i> que ese óxido, en la forma en que se fabricó, es idéntico a uno descripto en 1971 que figuraba en los datos con los que se entrenó MatterGen. No encontramos una respuesta publicada de los autores.</p>
+
+    <h3 class="sub">Para qué sirve: baterías, chips, catalizadores</h3>
+    <p>Los trabajos dicen para qué buscan. GNoME filtró sus resultados para dos usos: unos 52.000 materiales en capas, del tipo que se usa en electrónica y en almacenamiento de energía (antes se conocían unos 1.000), y 528 candidatos a conductores de iones de litio, la pieza que mueve la carga dentro de una batería. MatterGen se presenta para almacenamiento de energía, catálisis y captura de carbono. Todos son, por ahora, candidatos calculados. El caso que llegó más lejos también es un material para baterías.</p>
+    <p>De los casos que encontramos, ese es el de Microsoft con el Pacific Northwest National Laboratory, publicado en 2024 en el <i>Journal of the American Chemical Society</i>. Combinaron modelos de IA con cálculos clásicos en la nube para revisar más de 32 millones de candidatos, estimaron alrededor de medio millón estables y se quedaron con 18 de composición nueva para electrolitos sólidos, la pieza de las baterías de estado sólido que ocupa el lugar del electrolito líquido. Fabricaron la familia que encabezaba la lista, cloruros de itrio con proporciones variables de sodio y litio, y midieron que conduce los iones. Es un paso más que el resto, pero sigue siendo un material de laboratorio: el propio trabajo lo presenta como un candidato con potencial.</p>
+
+    <h3 class="sub">Cuánto pesa la IA en la ciencia de materiales</h3>
+    <p>Para medirlo contamos, en arXiv, el repositorio donde los físicos y químicos suben sus trabajos, cuántos de la categoría de ciencia de materiales mencionan en su resumen el aprendizaje automático, el aprendizaje profundo, las redes neuronales o la inteligencia artificial. En 2019 eran 180 de 5.683: 3 de cada 100. En 2025 fueron 1.112 de 8.839: casi 13 de cada 100, seis veces más trabajos en números absolutos.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">arXiv · ciencia de materiales (cond-mat.mtrl-sci)</div>
+        <h3>De 3 a casi 13 de cada 100 trabajos nombran a la IA</h3>
+        <p class="fig-sub">Porcentaje de los trabajos de cada año cuyo resumen menciona aprendizaje automático, aprendizaje profundo, redes neuronales o inteligencia artificial.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 250" role="img" aria-label="Porcentaje de trabajos de ciencia de materiales en arXiv que nombran a la IA: 3,2% en 2019, 4,2% en 2020, 5,9% en 2021, 7,6% en 2022, 8,8% en 2023, 10,4% en 2024 y 12,6% en 2025.">
+<line x1="60" y1="220" x2="880" y2="220" class="gg" style="stroke:#9A938A"/><text x="52" y="224" text-anchor="end" class="cf">0%</text>
+<line x1="60" y1="148.6" x2="880" y2="148.6" class="gg"/><text x="52" y="152.6" text-anchor="end" class="cf">5%</text>
+<line x1="60" y1="77.1" x2="880" y2="77.1" class="gg"/><text x="52" y="81.1" text-anchor="end" class="cf">10%</text>
+<rect x="78" y="174.3" width="80" height="45.7" fill="#B9AE9C"/><text x="118" y="166.3" text-anchor="middle" class="cv">3,2%</text><text x="118" y="240" text-anchor="middle" class="cf">2019</text>
+<rect x="195" y="160" width="80" height="60" fill="#B9AE9C"/><text x="235" y="152" text-anchor="middle" class="cv">4,2%</text><text x="235" y="240" text-anchor="middle" class="cf">2020</text>
+<rect x="312" y="135.7" width="80" height="84.3" fill="#B9AE9C"/><text x="352" y="127.7" text-anchor="middle" class="cv">5,9%</text><text x="352" y="240" text-anchor="middle" class="cf">2021</text>
+<rect x="429" y="111.4" width="80" height="108.6" fill="#B9AE9C"/><text x="469" y="103.4" text-anchor="middle" class="cv">7,6%</text><text x="469" y="240" text-anchor="middle" class="cf">2022</text>
+<rect x="546" y="94.3" width="80" height="125.7" fill="#B9AE9C"/><text x="586" y="86.3" text-anchor="middle" class="cv">8,8%</text><text x="586" y="240" text-anchor="middle" class="cf">2023</text>
+<rect x="663" y="71.4" width="80" height="148.6" fill="#B9AE9C"/><text x="703" y="63.4" text-anchor="middle" class="cv">10,4%</text><text x="703" y="240" text-anchor="middle" class="cf">2024</text>
+<rect x="780" y="40" width="80" height="180" fill="#B8336A"/><text x="820" y="32" text-anchor="middle" class="lbl" style="fill:#B8336A">12,6%</text><text x="820" y="240" text-anchor="middle" class="cf">2025</text>
+</svg>
+      <figcaption><b>Fuente:</b> cálculo de Con Interés con la API de arXiv, consultada el 24/10/2026: trabajos de la categoría cond-mat.mtrl-sci enviados en cada año calendario. Numeradores: 180, 287, 397, 494, 624, 792 y 1.112. Denominadores: 5.683, 6.812, 6.743, 6.505, 7.098, 7.613 y 8.839. <b>Es un conteo por palabras del resumen: aproxima, no clasifica cada trabajo a mano.</b></figcaption>
+    </figure>
+
+    <p>Lo contrastamos con otra base, OpenAlex, que reúne artículos de revistas de todo el mundo y los clasifica por disciplina. Con la misma búsqueda, los artículos de ciencia de materiales que nombran a la IA pasaron de 1.204 en 2019 a 7.716 en 2025: también seis veces más. Ahí pesan menos, de 0,7% a 4,1% del total, porque OpenAlex incluye toda la investigación aplicada y de laboratorio, mientras que arXiv concentra la parte más teórica y computacional. Las dos bases coinciden en lo importante: en seis años la IA pasó de rareza a herramienta habitual.</p>
+
+    <h3 class="sub">Y la Argentina</h3>
+    <p>No hay una estadística oficial argentina de investigación con IA en materiales. Lo que se puede hacer es buscar trabajos publicados por grupos del país, y aparecen. Luis Miccio, investigador del CONICET en el INTEMA, el instituto de materiales de la Universidad Nacional de Mar del Plata y el CONICET, publicó en 2024 (con colegas del País Vasco) y en 2025 en <i>Computational Materials Science</i> modelos de IA que estiman la temperatura a la que un polímero o un vidrio molecular pasa de rígido a blando, un dato clave para fabricar plásticos, incluso cuando hay pocos datos para entrenar.</p>
+    <p>En Mendoza, investigadores de la Universidad Nacional de Cuyo, la Universidad de Mendoza y el CONICET, con Eduardo M. Bringa entre los autores, entrenaron en 2024 modelos con más de 1.600 nanopartículas simuladas de hierro y níquel para predecir su magnetización.</p>
+    <p>Son trabajos que usan la IA para predecir propiedades de materiales conocidos, no para buscar materiales nuevos como GNoME o MatterGen. Y en nuestra búsqueda no encontramos ningún trabajo argentino publicado que use IA para buscar materiales de baterías, aunque la Argentina produce y exporta litio. El cruce con el litio existe en el mundo, no todavía acá: el electrolito de Microsoft y el laboratorio PNNL reemplaza parte del litio por sodio, y las 528 candidatas de GNoME son conductores de litio. Es una pista de hacia dónde va la demanda, no un dato sobre cuánto litio se va a vender; lo que exporta hoy la Argentina lo contamos en <a href="../articulos/2026-10-03-litio-exportaciones-semestre-supera-2025.html">esta nota</a>.</p>
+
+    <h3 class="sub">Lo que todavía es promesa</h3>
+    <p>Cuánto invierten las empresas en IA para materiales no se puede verificar: los montos de las empresas nuevas del sector los anuncian ellas mismas y no hay un registro oficial. Tampoco hay forma de saber si algún producto que se vende hoy lleva un material encontrado por una IA: las empresas no lo informan de manera que se pueda comprobar.</p>
+    <p>Y la discusión científica sigue abierta. Las críticas que citamos no dicen que la IA no sirva: dicen que todavía confunde materiales desordenados conocidos con materiales nuevos ordenados, y que cada predicción necesita la revisión de alguien que sepa de cristales. Las tres revisiones, la de los robots de Berkeley, la de GNoME y la de MatterGen, llegan a esa misma conclusión. Por eso la respuesta tiene las dos partes del principio: la IA multiplicó lo que se puede calcular, y del cálculo al laboratorio la distancia sigue siendo grande. Lo que estos trabajos dejan abierto es cuántos de esos candidatos calculados se van a poder fabricar y probar.</p>
+  </div>
+
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación de la cifra ancla: la vara para un estudio de la sección de IA.</b> Los 381.000 materiales son un hallazgo de un estudio, no un hecho del mundo, y así se presentan: atribuidos a sus autores, leídos en el original, con su método y sus límites, y con otro estudio al lado que los discute.</p>
+      <p><b>1. El original.</b> Merchant y otros (Google DeepMind), <a href="https://www.nature.com/articles/s41586-023-06735-9">"Scaling deep learning for materials discovery"</a>, <i>Nature</i> 624, 80–85, publicado el 29 de noviembre de 2023, acceso abierto. Resumen: 48.000 estables previos, 2,2 millones de estructuras y 736 realizadas experimentalmente. Sección "Discovered stable crystals": 381.000 nuevos en la lista final, 421.000 en total. Métodos: 736 coincidencias con la ICSD, 184 publicadas durante el proyecto; los autores las consideran un piso. Aplicaciones: unos 52.000 materiales en capas contra unos 1.000 y 528 conductores de litio.</p>
+      <p><b>2. El método y sus límites.</b> La estabilidad es la que calcula la teoría del funcional de la densidad, a temperatura cero y con los átomos ordenados. Los autores advierten que futuros descubrimientos pueden sacar materiales de la lista. No hubo síntesis propia: los 736 los fabricaron otros.</p>
+      <p><b>3. Los estudios al lado.</b> Cheetham y Seshadri, <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11044265/">"Artificial Intelligence Driving Materials Discovery?"</a>, <i>Chemistry of Materials</i> 36, 3490–3495, abril de 2024: la muestra de 10 al azar (cuadro 2), 18.138 compuestos con prometio, actinio o protactinio y otros 23.529 con tecnecio, neptunio o plutonio sobre 384.870, y las frases sobre los compuestos "llamativamente nuevos" y los "compuestos propuestos". Szymanski y otros, <a href="https://www.nature.com/articles/s41586-023-06734-w">A-Lab</a>, <i>Nature</i> 624, 86–91: el resumen original de 2023, con 41 de 58, figura en <a href="https://pubmed.ncbi.nlm.nih.gov/38030721/">PubMed</a>; la versión vigente dice 36 de 57; la <a href="https://www.nature.com/articles/s41586-025-09992-y">corrección del 19 de enero de 2026</a> explica el cambio. Leeman y otros, <a href="https://journals.aps.org/prxenergy/abstract/10.1103/PRXEnergy.3.011002">PRX Energy 3, 011002</a>, 7 de marzo de 2024. Zeni y otros, <a href="https://www.nature.com/articles/s41586-025-08628-5">MatterGen</a>, <i>Nature</i>, 16 de enero de 2025: resumen y figura 6 (cuatro candidatos, uno fabricado, objetivo de 200 GPa, 222 GPa calculados, hasta 169 GPa medidos con cuatro mediciones). Juelsholt, <a href="https://edoc.hu-berlin.de/18452/38430">Materials Horizons 13, 5672–5679</a>, 2026, leído en el PDF del repositorio de la Universidad Humboldt. Chen y otros, <a href="https://arxiv.org/abs/2401.04070">electrolitos sólidos</a>, <i>Journal of the American Chemical Society</i> 146, 2024: resumen.</p>
+      <p><b>4. El conteo de trabajos.</b> Es un cálculo propio, reproducible: la <a href="http://export.arxiv.org/api/query?search_query=cat:cond-mat.mtrl-sci%20AND%20submittedDate:%5B202501010000%20TO%20202512312359%5D&amp;max_results=1">API de arXiv</a> con la categoría cond-mat.mtrl-sci y la fecha de envío, con y sin las cuatro expresiones en el resumen. Los totales coinciden con los listados anuales de arXiv (5.671 en 2019, 8.856 en 2025; la diferencia es menor a 0,3%). Contraste en <a href="https://api.openalex.org/works?filter=primary_topic.field.id:fields/25,publication_year:2025,type:article">OpenAlex</a>, campo Ciencia de Materiales, artículos: 174.573 en 2019 y 189.317 en 2025. Es una aproximación: un trabajo que menciona la IA de pasada cuenta igual, y uno que la usa sin nombrarla en el resumen no cuenta. Por eso mostramos la tendencia, que coincide en las dos bases, y no la presentamos como cifra exacta del peso de la IA.</p>
+      <p><b>5. La Argentina.</b> Los trabajos argentinos se ubicaron con OpenAlex (país de los autores: Argentina) y se confirmaron en Crossref: <a href="https://doi.org/10.1016/j.commatsci.2024.112931">Borredon, Miccio y Schwartz, 2024</a>; <a href="https://doi.org/10.1016/j.commatsci.2025.114092">Miccio, 2025</a>; <a href="https://doi.org/10.1016/j.jmrt.2024.10.142">Williamson y otros, 2024</a>. No publicamos una cantidad de trabajos argentinos: la clasificación por disciplina de OpenAlex mezcla trabajos de otras áreas, y con tan pocos casos el error pesa demasiado.</p>
+      <p><b>Qué no afirmamos.</b> Que la IA no sirva para descubrir materiales, ni que sí: la discusión está abierta y no la laudamos. Cuánta plata se invierte, ni qué productos usan estos materiales. Ni que alguna empresa o acción vaya a ganar con esto: no es una recomendación de inversión.</p>
+      <div class="meta"><span>Fuentes <b>Nature · Chemistry of Materials · PRX Energy · Materials Horizons · JACS · arXiv · OpenAlex · Crossref</b></span><span>Verificación <b>estudios leídos en el original, atribuidos y contrastados con sus críticas; conteo propio con contraste</b></span></div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>Las baterías, los paneles solares, los chips y los catalizadores de la industria dependen de materiales que suelen tardar años en pasar del laboratorio a la fábrica. Si la IA acorta ese camino, cambia qué materias primas se van a demandar y cuánto. Para un país que exporta litio, eso no es abstracto. Pero lo que muestran los datos de hoy es que la IA aceleró la parte más barata, la de calcular, y que la parte cara, la de fabricar y probar, sigue al ritmo de siempre.</p>
+    <p>La otra lección es de método, y vale para cualquier titular sobre IA: los resultados que <i>Nature</i> publicó en 2023 y 2025 sobre el A-Lab y MatterGen se achicaron cuando otros científicos los revisaron, y una corrección publicada dos años después llega a mucha menos gente que el anuncio original.</p>
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si estudiás o trabajás en química, física o ingeniería de materiales,</b> casi 13 de cada 100 trabajos del área en arXiv ya nombran a la IA, y en el país hay grupos del CONICET que la usan. Lo que las críticas piden es justamente lo que da la formación clásica: saber leer un cristal.</p>
+      <p data-perfil="pyme"><b>Si tenés una empresa que usa materiales,</b> no hay hoy un material "hecho con IA" que se pueda comprar con esa garantía; lo que sí existe son bases abiertas, como el Materials Project, donde están los cálculos.</p>
+      <p><b>Si leés un titular sobre "millones de materiales nuevos",</b> la pregunta útil es cuántos se fabricaron y quién lo comprobó.</p>
+    </div>
+  </div>
+
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Por qué el "desorden" engaña a la IA <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>En muchos cristales reales, dos elementos se reparten un mismo lugar al azar: un sitio puede tener tantalio o cromo, sin un patrón fijo. Los cálculos que entrenan a la IA, en cambio, necesitan poner cada átomo en un lugar preciso. Entonces la IA propone una versión "ordenada" que parece nueva, pero cuando se la fabrica sale la versión desordenada, que ya se conocía. Es el error que señalan Leeman y otros para el A-Lab y Juelsholt para MatterGen.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Qué cambió en el trabajo del laboratorio robótico <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>La corrección de enero de 2026 hizo tres cambios: sacó un compuesto que estaba en los datos de entrenamiento (lo que dejó 57 buscados y 40 éxitos), reanalizó a mano los patrones de difracción de rayos X y confirmó 36 de esos 40, y cambió el título del trabajo: donde decía "materiales novedosos" ahora dice "materiales inorgánicos". El reanálisis tuvo revisión de pares después de la publicación.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Amil Merchant y otros (Google DeepMind) — <a href="https://www.nature.com/articles/s41586-023-06735-9">Scaling deep learning for materials discovery</a>, <i>Nature</i>, 29 de noviembre de 2023</li>
+        <li>&#8250; Nathan J. Szymanski y otros (Lawrence Berkeley National Laboratory y Universidad de California, Berkeley) — <a href="https://www.nature.com/articles/s41586-023-06734-w">An autonomous laboratory for the accelerated synthesis of inorganic materials</a>, <i>Nature</i>, 29 de noviembre de 2023</li>
+        <li>&#8250; Nathan J. Szymanski y otros — <a href="https://www.nature.com/articles/s41586-025-09992-y">Author Correction</a>, <i>Nature</i>, 19 de enero de 2026</li>
+        <li>&#8250; PubMed — <a href="https://pubmed.ncbi.nlm.nih.gov/38030721/">resumen original del trabajo del A-Lab</a> (PMID 38030721)</li>
+        <li>&#8250; Claudio Zeni y otros (Microsoft Research) — <a href="https://www.nature.com/articles/s41586-025-08628-5">A generative model for inorganic materials design</a>, <i>Nature</i>, 16 de enero de 2025</li>
+        <li>&#8250; Anthony K. Cheetham y Ram Seshadri (Universidad de California, Santa Bárbara) — <a href="https://pmc.ncbi.nlm.nih.gov/articles/PMC11044265/">Artificial Intelligence Driving Materials Discovery? Perspective on the Article: Scaling Deep Learning for Materials Discovery</a>, <i>Chemistry of Materials</i>, abril de 2024</li>
+        <li>&#8250; Josh Leeman y otros (Princeton University y University College London) — <a href="https://journals.aps.org/prxenergy/abstract/10.1103/PRXEnergy.3.011002">Challenges in High-Throughput Inorganic Materials Prediction and Autonomous Synthesis</a>, <i>PRX Energy</i>, 7 de marzo de 2024</li>
+        <li>&#8250; Mikkel Juelsholt (Universidad Humboldt de Berlín) — <a href="https://edoc.hu-berlin.de/18452/38430">Continued challenges in high-throughput materials predictions: MatterGen predicts compounds from the training dataset</a>, <i>Materials Horizons</i>, 2026</li>
+        <li>&#8250; Chi Chen y otros (Microsoft y Pacific Northwest National Laboratory) — <a href="https://arxiv.org/abs/2401.04070">Accelerating Computational Materials Discovery with Machine Learning and Cloud High-Performance Computing</a>, <i>Journal of the American Chemical Society</i>, 2024</li>
+        <li>&#8250; arXiv — <a href="http://export.arxiv.org/api/query?search_query=cat:cond-mat.mtrl-sci%20AND%20submittedDate:%5B202501010000%20TO%20202512312359%5D&amp;max_results=1">API de consulta, categoría cond-mat.mtrl-sci</a>, consultada el 24 de octubre de 2026</li>
+        <li>&#8250; OpenAlex — <a href="https://api.openalex.org/works?filter=primary_topic.field.id:fields/25,publication_year:2025,type:article">artículos del campo Ciencia de Materiales</a>, consultado el 24 de octubre de 2026</li>
+        <li>&#8250; Leandro Borredon, Luis A. Miccio y Gustavo A. Schwartz — <a href="https://doi.org/10.1016/j.commatsci.2024.112931">Transfer learning-driven artificial intelligence model for glass transition temperature estimation of molecular glass formers</a>, <i>Computational Materials Science</i>, 2024</li>
+        <li>&#8250; Luis A. Miccio — <a href="https://doi.org/10.1016/j.commatsci.2025.114092">Machine learning-driven property prediction for materials in data-scarcity scenarios</a>, <i>Computational Materials Science</i>, 2025</li>
+        <li>&#8250; Williamson y otros (Universidad Nacional de Cuyo y CONICET, entre otros) — <a href="https://doi.org/10.1016/j.jmrt.2024.10.142">Machine learning-based prediction of FeNi nanoparticle magnetization</a>, <i>Journal of Materials Research and Technology</i>, 2024</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: conteo de trabajos en arXiv y OpenAlex, porcentajes, suma de compuestos radiactivos de Cheetham y Seshadri, distancia al objetivo de MatterGen y gráficos.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 24/10/2026. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
