@@ -5517,6 +5517,20 @@
       "angulo": "lista de candidatas no probadas",
       "fecha": "2026-10-24",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto valen hoy 200 pesos de 2016? (infobae 24/10/2026 'El billete de $200 cumple diez años: qué se podía comprar cuando salió y para qué alcanza hoy', con precios de productos) / IPC INDEC GBA oct-16 97,2428 -> sep-26 12.523,1733: $200 = $25.757 (x128,78); oct-25 $19.750; contraste IPCBA $24.723; dólar A3500 x100,6 (US$13,15 -> US$0,13; la canasta de $200 hoy US$16,84)",
+      "angulo": "Corrida programada del 24/10/2026 04:30, primera candidata probada (pregunta de plata). APTA por el camino de estadística oficial: informes INDEC 2016 + recálculo desde la serie + contraste IPCBA. Ángulo distinto al de infobae (precios por producto): la cifra en pesos de hoy, el cruce del billete de $20.000 y la comparación con el dólar.",
+      "fecha": "2026-10-24",
+      "estado": "publicada",
+      "articulo_id": "2026-10-24-billete-200-diez-anos-cuanto-vale-hoy",
+      "archivo": "cola/2026-10-24-billete-200-diez-anos-cuanto-vale-hoy.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 24/10/2026 04:30",
+      "angulo": "No se probaron porque pasó la primera candidata (billete de $200 y cuánto vale hoy, IPC INDEC). Quedaron en la lista: Banco Nación 210 hipotecarios con fondos del FGS (infobae, iProfesional; dato de la empresa), bancos y billeteras deberán informar cuánto rinden las cuentas remuneradas (Página12; norma BCRA no leída), Decreto de la declaración simplificada de Ganancias (La Nación, Cronista, Página12, ámbito; sin cifra ancla nueva), riesgo país sobre 700 (infobae, La Nación; dato del día), subsidios energéticos en mínimo anual (iProfesional; repite 28/09), peaje de un municipio bonaerense a la industria (infobae, La Nación; sin ordenanza leída), Stellantis Córdoba siete semanas (frenada 10/10), PCR tres áreas de Vaca Muerta (infobae; misma ronda que GeoPark del 23/10), feriados bancarios por la visita del Papa (iProfesional; visita cubierta 12/10). EMPRESAS: cupo no regía (IRSA publicada hoy); YPF rescate ON Clase XXXVII, Tarjeta Naranja ON LXVIII, Consultatio y Aluar sin leer: CNV con error de DNS en build_empresas.py. clarin.com y tn.com.ar no accesibles desde la herramienta de lectura",
+      "fecha": "2026-10-24",
+      "estado": "descartada"
     }
   ]
 }

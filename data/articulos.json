@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-24T02:48:58-03:00",
+    "actualizado": "2026-10-24T04:52:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-24-billete-200-diez-anos-cuanto-vale-hoy",
+      "titulo": "Lo que en 2016 se compraba con un billete de $200 hoy cuesta $25.757: no alcanza ni con uno de $20.000",
+      "bajada": "Lo que en octubre de 2016 se compraba con un billete de $200 hoy cuesta $25.757, según el índice de precios del INDEC para el Gran Buenos Aires: los precios se multiplicaron por 128,8. Hace un año todavía alcanzaba con un billete de $20.000; desde este año, ya no. El billete de la ballena franca austral empezó a circular el 26 de octubre de 2016.",
+      "titulo_busqueda": "¿Cuánto valen hoy 200 pesos de 2016?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$25.757",
+      "numero_label": "pesos necesarios en septiembre de 2026 para comprar lo que compraba $200 en octubre de 2016, mes en que el BCRA puso en circulación el billete de $200 (26/10/2016, Com. A 6087). IPC INDEC Gran Buenos Aires: 97,2428 (oct-16, serie base dic-16 empalmada desde abr-16) y 12.523,1733 (sep-26, serie_ipc_divisiones.csv); factor 128,78. Recalculado con las variaciones de los informes INDEC oct/nov/dic-2016 (2,4/1,6/1,2%): $25.752. Contraste IPCBA (IDECBA): $24.723. Oct-2025: $19.750. Dólar A3500 $15,205 (26/10/16) y $1.529,50 (23/10/26)",
+      "fecha": "2026-10-24",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-24-billete-200-diez-anos-cuanto-vale-hoy.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-24-irsa-shoppings-ventas-locales-caen",
       "titulo": "Los locales de los shoppings de IRSA vendieron 8,6% menos en un año, pero IRSA facturó 2,1% más por esos shoppings",
