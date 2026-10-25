@@ -5732,6 +5732,13 @@
       "fecha": "2026-10-25",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "Balotaje en Brasil, cobertura especial turno 1 (brasil-2026-1): qué está en juego. Programas de gobierno registrados ante el TSE de Lula (PT, 2026BR280002542548) y Flávio Bolsonaro (PL, 2026BR280002551544) en seis temas (impuestos, regla fiscal, Estado, comercio exterior, Mercosur, gas) / INDEC ICA sep-26: intercambio con Brasil ene-sep US$21.794 M (expo 9.789 +4,5%, impo 12.005 -17,0%, saldo -2.216 vs -5.108), primer socio sobre China 20.193 (2025: 23.834 vs 19.612); Brasil compra 64,9% del material de transporte terrestre exportado, 62,3% plásticos, 50,2% lácteos, 38,5% molinería; VA importados de Brasil 2.189 (-30,2%), China 1.007 (+206,1%); Brasil: PIB 2T26 +2,0% i.a., desocupación 5,3% jun-ago, IPCA 12m 4,58% sep, Selic 13,75% desde 17/09, PTAX 5,0377 (23/10)",
+      "angulo": "Corrida de la cobertura especial del 25/10/2026 10:30, turno 1. Ángulo nuevo frente a 2026-09-27 (déficit ene-ago) y 2026-10-07 (Secex septiembre): acá el ancla es el intercambio total ene-sep con el ranking de socios, y el eje es la comparación de los dos programas con la misma tabla de seis renglones. Camino: estadística oficial recalculada (cuadro 38 = suma del cuadro 22) + contraste independiente Secex/Comex Stat (-1,2%; misma dirección -9,3%). Sin encuestas ni resultados. El TSE (tse.jus.br) bloquea la lectura automática de sus noticias; se usaron los datos abiertos del TSE (cdn y dadosabertos) y Agencia Senado.",
+      "fecha": "2026-10-25",
+      "estado": "publicada",
+      "articulo_id": "2026-10-25-brasil-balotaje-lula-flavio-programas-argentina"
     }
   ]
 }

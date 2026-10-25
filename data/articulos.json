@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-25T06:57:37-03:00",
+    "actualizado": "2026-10-25T11:10:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-25-brasil-balotaje-lula-flavio-programas-argentina",
+      "titulo": "La Argentina y Brasil comerciaron US$21.794 millones en nueve meses: qué proponen Lula y Flávio Bolsonaro para el principal socio",
+      "bajada": "Brasil sigue siendo el primer socio comercial de la Argentina, aunque con menos margen sobre China que hace un año: entre enero y septiembre de 2026 le compró US$9.789 millones y le vendió US$12.005 millones, según el INDEC. Hoy elige presidente entre Lula (PT) y Flávio Bolsonaro (PL), y sus programas registrados ante el TSE van por caminos distintos en impuestos, regla fiscal, Estado y comercio. Lula promete consolidar el Mercosur; Flávio Bolsonaro, revertir lo que describe como un deterioro de la relación con la Argentina.",
+      "titulo_busqueda": "¿Qué cambia para la Argentina si gana Lula o Flávio Bolsonaro en Brasil?",
+      "seccion": "MUNDO",
+      "formato": "Balotaje en Brasil · lo que está en juego",
+      "numero": "US$21.794 M",
+      "numero_label": "intercambio comercial de bienes Argentina-Brasil en enero-septiembre de 2026: exportaciones US$9.788,8 M + importaciones US$12.005,0 M (INDEC, ICA septiembre 2026, cuadro 38, provisorio; recalculado sumando el cuadro 22 mes por mes). Primer socio, por delante de China (US$20.193 M). -8,56% contra ene-sep 2025 (US$23.834 M). Contraste Secex/MDIC (Comex Stat): Brasil exportó a la Argentina US$11.583,6 M e importó US$9.952,1 M = US$21.535,7 M (-1,2%, diferencia CIF/FOB y desfase de registro)",
+      "fecha": "2026-10-25",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-25-brasil-balotaje-lula-flavio-programas-argentina.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "cobertura": "brasil-2026-1"
+    },
     {
       "id": "2026-10-25-europa-mas-barata-argentinos-euro-tipo-cambio-real",
       "titulo": "Europa está 17% más barata para los argentinos que hace un año, pero 8% más cara que a comienzos de 2025",
