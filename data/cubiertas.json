@@ -5702,6 +5702,36 @@
       "fecha": "2026-10-25",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "cuánto deben en mora las familias a los bancos, agosto 2026 (RETOMADA del 17/10, frenada entonces por bcra.gob.ar caído; Página12 25/10 'El endeudamiento familiar, síntoma de época', ámbito 25/10 encuesta Brain Network, Cronista gastos hormiga) / BCRA Informe sobre Bancos ago-26 (publicado 16/10/2026): familias 12,81% (jul 12,94, máximo del anexo desde 2010; previo pre-2025 5,06% jul-21), personales 17,04%, tarjetas 12,22%; irregular $9.246.526 M (cálculo ratio x saldo); nota 3: baja de agosto explicada en parte por pasaje de cartera irregular a cuentas fuera de balance; BBVA 6-K 2T26 cartera minorista 10,19% vs 4,04%",
+      "angulo": "Corrida programada del 25/10/2026 06:30, primera candidata probada. Documento, recálculo (ponderado por líneas = 12,8146 exacto) y contraste (BBVA, SEC) cerraban, pero FRENADA POR REPETIDA: el tema ya está publicado tres veces (2026-07-20 'mora de las familias llegó a 12,1%', 2026-09-01 'la mora de las familias se frenó', 2026-09-26 BBVA 10,2%) y agosto es una actualización sin ángulo nuevo suficiente. El único ángulo distinto, que la baja de agosto la explican en parte los pasajes a fuera de balance (nota 3 del informe), no se puede cuantificar con el anexo. Retomable si el informe de septiembre trae un cambio de tendencia o el monto de lo dado de baja. Lección de proceso: buscar también en los títulos de data/articulos.json, no solo en cubiertas.json.",
+      "fecha": "2026-10-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "repetida: ya publicada el 20/07, el 01/09 y (BBVA) el 26/09 sin ángulo nuevo cuantificable"
+    },
+    {
+      "tema": "Aluar habilitó el parque eólico La Flecha (EMPRESAS, HR CNV 21/10/2026): +336 MW (56 aerogeneradores Goldwind GW165 de 6 MW) sobre 246 MW, total 582 MW renovables para autoconsumo; ~1 millón de t de CO2 evitadas por año según la empresa / cuánta de la electricidad que usa Aluar sale del viento",
+      "angulo": "Corrida programada del 25/10/2026 06:30, segunda candidata probada. FRENADA sin cifra de contexto verificable: la Memoria y los estados contables al 30/06/2026 de Aluar en la CNV son PDF escaneados sin texto (no se pudo leer el consumo ni la generación propia), y no se encontró un dato accesible de CAMMESA o la Secretaría de Energía con la potencia eólica total del país para comparar. Los 582 MW solos son una capacidad sin serie ni comparación. Cupo de empresas no regía: hoy ya se publicó Cresud (04:30).",
+      "fecha": "2026-10-25",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin contexto verificable: documentos de la empresa escaneados y sin dato oficial accesible de potencia eólica nacional"
+    },
+    {
+      "tema": "¿está más barato viajar a Europa? (pregunta de plata detrás de Infobae 24/10/2026 'Es argentino, vive en Europa hace siete años y mostró cuánto gastó en un mes de visita en Buenos Aires') / BCRA ITCRB Zona Euro, promedios mensuales: sep-25 113,46 -> sep-26 94,19 (-16,98%; para un europeo la Argentina +20,45%); feb-25 87,13 (+8,10% hasta sep-26), prom. 2017 84,13 (+11,95%), prom. 2020 128,2, sep-18 144,2; euro en pesos (A3500 x EURUSD BCE, días comunes) $1.642,53 -> $1.742,93 (+6,11%), oct-26 hasta el 23 $1.705,83; IPC INDEC 9.384,0922 -> 12.514,1508 (+33,35%); HICP zona euro Eurostat prc_hicp_minr I15 129,42 -> 134,31 (+3,78%); recálculo -17,42%; Big Mac (The Economist) AR/zona euro en euros ene-25 116,8%, jul-25 74,1%, ene-26 79,5%, jul-26 83,4% (+12,57% vs BCRA jul-25 105,99 -> jul-26 93,44 = +13,44%); ponderador zona euro 18,44% ago-26",
+      "angulo": "Corrida programada del 25/10/2026 06:30, tercera candidata probada (APTA). Pregunta de plata: si Europa está más barata para un argentino. Ángulo nuevo frente a 2026-07-23 (súper peso, ITCRM multilateral) y 2026-10-05 (Brasil, ITCRB Brasil): acá es el bilateral con la zona euro, con su descomposición (euro +6,1%, precios AR +33,4%, zona euro +3,8%) y el ejemplo de una noche de €100. Camino: estadística oficial recalculada (BCRA -16,98%, recálculo con promedios mensuales -17,42%; diferencia por cálculo diario e interpolación del BCRA y datos provisorios) + contraste independiente (Big Mac jul-25/jul-26 +12,6% contra +13,4% del BCRA). Sin superlativos: comparaciones con valores de la misma serie. No afirma nada sobre pasajes, hoteles ni tipo de cambio con tarjeta.",
+      "fecha": "2026-10-25",
+      "estado": "publicada",
+      "articulo_id": "2026-10-25-europa-mas-barata-argentinos-euro-tipo-cambio-real"
+    },
+    {
+      "tema": "descartes de la corrida programada del 25/10/2026 06:30: frenaron la primera (mora de las familias, repetida) y la segunda (Aluar La Flecha, sin contexto verificable); pasó la tercera (euro y tipo de cambio real con la zona euro)",
+      "angulo": "Lista no probada: Petroquímica Comodoro Rivadavia desembarca en Neuquén con tres áreas de la Ronda 1/2026 (EMPRESAS, HR CNV 22/10; el HR no trae montos, el bono de acceso estaría en GyP; Ronda ya cubierta el 23/10 con GeoPark); A3 Mercados programa de recompra (EMPRESAS, CNV 22/10; sin ángulo de lector); Tarjeta Naranja ON LXVIII (subasta 27/10, sin tasa); YPF rescate ON XXXVII (sin ángulo de lector); cuántos créditos hipotecarios nuevos se dan (BCRA Informe sobre Bancos ago-26: 3.042 altas estimadas en agosto, 32.476 en 12 meses; es estimación sin serie cruda publicada para recalcular; ámbito BNA 210 créditos con fondos ANSES, Clarín 'al alcance de pocos'); subsidio eléctrico del 75% hasta 200 kWh (iProfesional; Res. SE 272/2026 ya publicada el 01/10); subsidios energéticos en mínimo anual (iProfesional; informe privado de RICSA); empleada doméstica en noviembre (iProfesional; misma escala ya publicada el 25/09 y el 23/10); salario mínimo de noviembre (Cronista; publicado el 01/09 contra la canasta); petróleo primer producto de exportación (TN; cubierto el 05/10); megaproyecto de cobre de US$4.200 M en Salta al RIGI (La Nación; sin documento); extracciones en cajeros a la mitad (infobae 25/10; frenada el 25/09 por contraste que no acompaña); riesgo país sobre 700 (cinco portadas; dato del día); Brasil elige hoy (cubierto: presidente de Brasil en cola, multa por no votar, comercio, trigo, ITCRB Brasil); Colapinto y Antonelli en Austin (sin documento con montos). Turismo internacional de septiembre sale mañana 26/10 16:00 (INDEC). clarin.com y tn.com.ar leídos por curl.",
+      "fecha": "2026-10-25",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }
