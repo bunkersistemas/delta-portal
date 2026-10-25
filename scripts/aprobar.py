@@ -64,6 +64,10 @@ def main(draft_id):
     # cupo de la serie y medirla. Solo se copia si el borrador la trae.
     if draft.get("serie"):
         entry["serie"] = draft["serie"]
+    # turno de una cobertura especial (ej. "brasil-2026-1", 24/10/2026): marca
+    # el turno como hecho (agente/local/cobertura_especial.py).
+    if draft.get("cobertura"):
+        entry["cobertura"] = draft["cobertura"]
     # pedido de lector que contesta la nota (piloto 12/10/2026): cuenta el cupo
     # de una por dia y permite medir las notas pedidas.
     if draft.get("pedido"):

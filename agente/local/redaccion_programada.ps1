@@ -355,6 +355,15 @@ if (-not (Get-Command claude -ErrorAction SilentlyContinue)) { Terminar 1 'falla
 Remove-Item $Resultado -ErrorAction SilentlyContinue
 $ahoraAR = (HoraAR).ToString('yyyy-MM-dd HH:mm')
 
+# Cobertura especial (editor, 24/10/2026: segunda vuelta en Brasil, 25/10). Va
+# antes que todo: si hay un turno debido, esta corrida es de ese turno; ese dia,
+# sin turno debido, la redaccion general no corre (cobertura_especial.py).
+$CobTurno = ''
+$CobLinea = "$(@(& $py agente/local/cobertura_especial.py $ahoraAR 2>&1) | Select-Object -First 1)"
+if ($LASTEXITCODE -ne 0) { Anotar ('[AVISO] cobertura_especial.py fallo, sigue sin cobertura: ' + $CobLinea) }
+elseif ($CobLinea.StartsWith('PAUSA|')) { Terminar 0 'sin_tema' ('[OK] ' + $CobLinea.Substring(6) + ': la redaccion general no corre') }
+elseif ($CobLinea.StartsWith('COBERTURA|')) { $CobTurno = $CobLinea.Split('|')[1] }
+
 # Mision: la seccion "La economia de la IA" publica una nota por semana, los
 # martes (NEWSROOM.md 2 quinquies, editor 11/10/2026). Si en la semana (martes
 # a lunes) no salio ninguna, esta corrida es de IA. Si frena, la siguiente de
@@ -370,7 +379,7 @@ $sem = @(& $py agente/local/semana_ia.py $Hoy $forzada 2>&1)
 if ($LASTEXITCODE -ne 0) { Terminar 1 'falla' ('[FALLA] semana_ia.py: ' + ($sem -join ' | ')) }
 if ($sem -contains 'BORRAR_FORZADA') { Remove-Item $ArchivoForzadaIA -ErrorAction SilentlyContinue; Anotar 'entrega IA adelantada ya cumplida: se borra ia_forzada.txt' }
 $Mision = 'general'
-if ("$($sem[0])".StartsWith('IA|')) {
+if (-not $CobTurno -and "$($sem[0])".StartsWith('IA|')) {
   $ultimoIA = $null
   if (Test-Path $ArchivoIntentoIA) { try { $ultimoIA = [datetime]::ParseExact("$(Get-Content $ArchivoIntentoIA -TotalCount 1)".Trim(), 'yyyy-MM-dd HH:mm', $null) } catch { $ultimoIA = $null } }
   $ahora = [datetime]::ParseExact($ahoraAR, 'yyyy-MM-dd HH:mm', $null)
@@ -386,6 +395,7 @@ if ("$($sem[0])".StartsWith('IA|')) {
 # del 12 al 25/10). Va despues de IA y con el mismo freno: si frena, el proximo
 # intento espera $HorasEntreIA horas y en el medio corren las generales.
 $motivoMision = "$($sem[0])"
+if ($CobTurno) { $Mision = 'cobertura'; $motivoMision = $CobLinea }
 if ($Mision -eq 'general') {
   $dep = @(& $py agente/local/serie_deportistas.py $Hoy 2>&1)
   if ($LASTEXITCODE -ne 0) { Anotar ('[AVISO] serie_deportistas.py fallo, la corrida es general: ' + ($dep -join ' | ')) }
@@ -489,6 +499,21 @@ Antes de terminar, corre vos los tres chequeos del editor de cierre (URLs 200, s
 PROHIBIDO: correr aprobar.py o rechazar.py, usar git, tocar notas ya publicadas, poner credenciales en ningun lado. La publicacion la hace el script que te llamo, despues de controlar tu trabajo.
 AL FINAL escribi el archivo .corrida.json en la raiz del repo: un objeto JSON con tres claves de texto.
 veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado; si no hubo nota, nombra cada candidata que probaste y por que freno.
+"@
+}
+if ($Mision -eq 'cobertura') {
+$CobPartes = $CobLinea.Split('|')
+$prompt = @"
+Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
+Fecha y hora de Buenos Aires: $ahoraAR. Usala para todo lo que dependa del dia. La maquina esta en otra zona horaria: no te guies por su reloj.
+Esta corrida es de la COBERTURA ESPECIAL de la segunda vuelta en Brasil: la nota del TURNO $CobTurno ($($CobPartes[2]) hs): $($CobPartes[3]). Turnos ya publicados: $($CobPartes[4]). Segui agente/local/misiones/cobertura-especial.md (leela entera primero) y agente/NEWSROOM.md (secciones 1, 2 bis y 3) al pie de la letra (python, no python3).
+Equilibrio estricto entre los dos candidatos, solo fuentes oficiales para los hechos electorales, ninguna encuesta como dato y todo resultado parcial con porcentaje escrutado y hora del corte del TSE. El resultado se publica atribuido al TSE; la cifra ancla tiene que llegar a CONFIRMADO por alguno de los dos caminos de NEWSROOM.md seccion 3. Si no llega, FRENA: es preferible no publicar a publicar un dato falso.
+En data/cola.json la entrada lleva "seccion": "MUNDO" y "cobertura": "brasil-2026-$CobTurno" (obligatorio: es lo que marca el turno como hecho). El titulo arranca con el dato o el hecho; la pregunta como la buscaria la gente va en "titulo_busqueda". Corre python scripts/titulares.py "<titulo>": si dice NO ENTRA, reescribilo.
+Como maximo UNA nota. Dejala en cola/ con noindex, agregala a data/cola.json, registrala en data/cubiertas.json como en_cola y corre python scripts/build_portada.py.
+Antes de terminar, corre vos los tres chequeos del editor de cierre (URLs 200, superlativos con valor previo, coherencia copete-graficos-cuerpo-manifiesto). Sin kit social. No toques data/pregunta.json.
+PROHIBIDO: correr aprobar.py o rechazar.py, usar git, tocar notas ya publicadas, poner credenciales en ningun lado. La publicacion la hace el script que te llamo, despues de controlar tu trabajo.
+AL FINAL escribi el archivo .corrida.json en la raiz del repo: un objeto JSON con tres claves de texto.
+veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado; si no hubo nota, por que freno.
 "@
 }
 if ($Mision -eq 'pedido') {
@@ -598,6 +623,10 @@ if ($Mision -eq 'ia') {
 if ($Mision -eq 'deportistas') {
   $serie = "$(& $py -c "import json,sys;print(','.join(b.get('serie','') for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]))" $id)".Trim()
   if ($serie -ne 'plata-deportistas') { Anotar "[AVISO] la corrida de la serie dejo $id con serie '${serie}': no cuenta para el cupo de la serie" }
+}
+if ($Mision -eq 'cobertura') {
+  $cob = "$(& $py -c "import json,sys;print(','.join(str(b.get('cobertura','')) for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]))" $id)".Trim()
+  if ($cob -ne "brasil-2026-$CobTurno") { Anotar "[AVISO] la corrida del turno $CobTurno dejo $id con cobertura '${cob}': el turno no queda marcado y se repite" }
 }
 if ($Mision -eq 'pedido') {
   $pedNota = PedidoDe $id
