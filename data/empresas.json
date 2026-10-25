@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-24T22:30",
+  "generado": "2026-10-25T04:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -953,33 +953,6 @@
       "tipo": "hecho",
       "descripcion": "HECHO RELEVANTE",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/586CDDBC-8A51-4BB7-B24F-B6939912DAAF"
-    },
-    {
-      "id": "cnv-3573191",
-      "fuente": "CNV",
-      "fecha": "2026-09-24T19:00",
-      "entidad": "MOLINOS AGRO S.A",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - MOLINOS AGRO - HECHO RELEVANTE - INVERSIÓN CONJUNTA MOA - ACA - ACUERDOS DE IMPLEMENTACIÓN",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A1D95102-8F1B-4B1A-AD4B-A96C916F04D7"
-    },
-    {
-      "id": "cnv-3573114",
-      "fuente": "CNV",
-      "fecha": "2026-09-24T17:31",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (24 09 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6835BC5D-1EBC-4B44-9712-B1F2A7E84D36"
-    },
-    {
-      "id": "cnv-3572979",
-      "fuente": "CNV",
-      "fecha": "2026-09-24T14:41",
-      "entidad": "PECOM SERVICIOS ENERGIA S.A.U",
-      "tipo": "judicial",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - PECOM - HR - SENTENCIA CASO SKANSKA",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1C66FC7B-8597-4802-9EE9-DDE1A019F00E"
     }
   ],
   "anuncios": [
@@ -1058,7 +1031,6 @@
     "sec-0001104659-26-115765": "2026-10-14",
     "sec-0001104659-26-116442": "2026-10-16",
     "sec-0001193125-26-425856": "2026-10-20",
-    "sec-0001292814-26-004691": "2026-09-24",
     "sec-0001292814-26-004710": "2026-09-25",
     "sec-0001292814-26-004732": "2026-09-29",
     "sec-0001292814-26-004750": "2026-09-30",

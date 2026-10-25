@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-24T23:01:44-03:00",
+    "actualizado": "2026-10-25T04:51:58-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-25-cresud-negocio-agropecuario-perdida",
+      "titulo": "Cresud cosechó 32% más granos y aun así su negocio agropecuario perdió $26.784 millones en el último ejercicio",
+      "bajada": "Cresud cosechó 914.781 toneladas de granos entre julio de 2025 y junio de 2026, 32% más que un año antes, y aun así su negocio agropecuario cerró con una pérdida neta de $26.784 millones, cuando un año antes había ganado $30.858 millones. La empresa, dueña de 581.983 hectáreas en cuatro países y controlante de IRSA, casi no vendió campos, los granos dejaron menos margen que lo que costó venderlos y administrarlos, y la caña de azúcar de Brasil sufrió heladas e incendios. La ganancia del grupo, $372.280 millones, la pusieron los inmuebles urbanos.",
+      "titulo_busqueda": "¿Cuánto gana Cresud con el campo?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "−$26.784 M",
+      "numero_label": "resultado neto del negocio agropecuario de Cresud en el ejercicio jul-2025/jun-2026, en $ de junio de 2026 (NIC 29): Memoria 2026 (CNV, 09/09/2026, 'Resultado Neto 2026 vs 2025') = 20-F (SEC, 21/10/2026, 'a loss of ARS 26,784 million was attributable to the Agribusiness segment'). Recalculado: -26.784 + 399.064 (urbano) = 372.280 = resultado del ejercicio consolidado auditado (PwC, 07/09/2026) y formulario CNV; 2025: 30.858 + 268.777 = 299.635. Segmento agro (con asociadas) -15.129 vs +63.505: granos -27.225 (vs -6.985), caña -6.082 (vs +11.928), venta de tierras -7.719 (vs +74.690; venta de campos $633 M vs $56.079 M), hacienda +6.481, alquileres +8.346, otros +16.846, corporativo -5.776; Memoria da resultado operativo -15.441 (diferencia = asociadas 312). Granos 914.781 t vs 691.021 (2025) y 763.918 (2024), +32,4%, en ambos documentos",
+      "fecha": "2026-10-25",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-25-cresud-negocio-agropecuario-perdida.html",
+      "verificacion": "verificada",
+      "fuentes": 3,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-24-maiz-exportaciones-record-nueve-meses-precio",
       "titulo": "La Argentina exportó 33,2 millones de toneladas de maíz en nueve meses, la mayor cantidad desde 2002, pero cobró 19% menos por tonelada que en 2022",

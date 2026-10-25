@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-24",
-  "pregunta": "Entre enero y septiembre de 2026 la Argentina exportó trigo por US$2.904,8 millones, y Brasil le compró US$733,3 millones. Un año antes, Brasil se había llevado el 43,3%. ¿Qué parte del valor del trigo exportado se llevó Brasil en 2026?",
+  "fecha": "2026-10-25",
+  "pregunta": "Entre enero y septiembre de 2026 la Argentina exportó 33,17 millones de toneladas de maíz, la mayor cantidad para esos meses desde 2002, y cobró US$6.877 millones. En los mismos meses de 2022 cada tonelada se había vendido a US$257. ¿A cuánto se vendió, en promedio, cada tonelada en 2026?",
   "opciones": [
-    "Alrededor del 25%",
-    "Alrededor del 43%, como siempre: Brasil es el comprador de siempre",
-    "Alrededor del 4%: es 2.904,8 dividido 733,3"
+    "A más de US$257: si se vendió más que nunca, el precio también tuvo que ser mejor",
+    "A unos US$207, 19% menos que en 2022",
+    "A unos US$4,8: es 33,17 dividido 6.877"
   ],
-  "correcta": 0,
-  "explicacion": "La parte de un total se calcula dividiendo la parte por el total: 733,3 / 2.904,8 = 0,252, o sea 25,2%. Dividir al revés (2.904,8 / 733,3 = 3,96) no da un porcentaje: dice que el total es casi cuatro veces lo que compró Brasil. Y suponer que la parte no cambió es el error de mirar el comprador y no la cuenta: las exportaciones totales crecieron 33,7% mientras Brasil compró menos (US$733,3 millones contra US$940 millones un año antes), por eso su parte cayó de 43,3% a 25,2%. La diferencia la pusieron compradores de Asia.",
-  "nota": "articulos/2026-10-23-trigo-brasil-menor-parte-asia.html",
+  "correcta": 1,
+  "explicacion": "El precio promedio sale de dividir lo que se cobró por lo que se vendió: US$6.877 millones / 33,17 millones de toneladas = US$207 por tonelada, contra US$257 en 2022, o sea 19% menos. Dividir al revés (33,17 / 6.877) da toneladas por cada dólar, no un precio. Y vender más no garantiza vender más caro: la cantidad y el precio se mueven por separado. Por eso 2026 tiene el récord de toneladas pero no el de dólares: el valor de una exportación es cantidad por precio, y si el precio cae, hace falta mucha más cantidad para cobrar lo mismo.",
+  "nota": "articulos/2026-10-24-maiz-exportaciones-record-nueve-meses-precio.html",
   "leccion": ""
 }

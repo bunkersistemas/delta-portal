@@ -5688,6 +5688,20 @@
       "tema": "descartes de la corrida programada del 24/10/2026 22:30: no se probaron porque pasó la primera candidata (exportaciones de maíz, INDEC + BCR + USDA). Lista no probada: ventas en supermercados de agosto por provincia (TN; INDEC, dato ya publicado sin ángulo propio), Tarjeta Naranja ON LXVIII e YPF rescate de ON XXXVII (EMPRESAS, CNV; cupo no regía: IRSA publicada hoy 02:30; sin ángulo de lector), Aluar parque eólico La Fecha (EMPRESAS; falta CAMMESA), Moolec liquidación aprobada con 98,4% (La Nación; sin cifra ancla, ya frenada), YPF ganancias 'récord' anticipadas por Marín (ámbito, TN; sin balance presentado), concesiones en discapacidad y Presupuesto 2027 (infobae; sin documento con el costo), inundaciones en Chaco (TN; FONEDA en cola), riesgo país sobre 700 (cinco portadas; dato del día). clarin.com y tn.com.ar: clarin no accesible, tn leído por curl.",
       "fecha": "2026-10-24",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto gana Cresud con el campo? (EMPRESAS, 20-F de Cresud ante la SEC del 21/10/2026 y Memoria/EEFF ante la CNV del 09/09/2026; campo en las portadas: La Nación y Clarín 'semana negra para el trigo', ámbito 'caen los precios internacionales del agro') / negocio agropecuario: pérdida neta $26.784 M en el ejercicio jul-25/jun-26 contra ganancia de $30.858 M, con 914.781 t de granos (+32,4%); urbano +$399.064 M; total $372.280 M",
+      "angulo": "Corrida programada del 25/10/2026 04:30. Cupo de empresas (agenda.py: HOY NO HAY NOTA DE EMPRESAS). Ángulo nuevo respecto de 2026-10-23 (dividendos de IRSA y Cresud) y 2026-10-24 (ventas de los shoppings de IRSA): acá es el negocio agropecuario de Cresud, que no se había cubierto. Camino: dos documentos de la empresa ante dos reguladores (Memoria CNV y 20-F SEC, mismas cifras) + recálculo (suma por negocio = resultado consolidado auditado; actividades = segmento; diferencia Memoria/20-F = asociadas). Superlativo evitado: la producción se dice 'la mayor de los tres ejercicios que informa' (691.021 y 763.918 t), no 'récord'; el '1 millón de toneladas récord' de la carta a los accionistas no se usa porque no cierra con el cuadro (914.781 t sin Agro-Uranga). No se afirma resultado por país.",
+      "fecha": "2026-10-25",
+      "estado": "publicada",
+      "articulo_id": "2026-10-25-cresud-negocio-agropecuario-perdida"
+    },
+    {
+      "tema": "descartes de la corrida programada del 25/10/2026 04:30: no se probaron porque pasó la primera candidata (negocio agropecuario de Cresud, EMPRESAS)",
+      "angulo": "Lista no probada: Tarjeta Naranja ON clase LXVIII (EMPRESAS, CNV 22/10; el HR solo aprueba hasta US$50 M ampliable a US$200 M, la subasta es el 27/10: sin tasa todavía, retomable con el aviso de resultados); YPF rescate de ON clase XXXVII (EMPRESAS, CNV 23/10; sin ángulo de lector); A3 Mercados programa de recompra (EMPRESAS); Aluar parque eólico La Fecha (EMPRESAS; falta CAMMESA); salario mínimo de noviembre 2026 por la Res. 4/2026 (Cronista; montos ya usados el 26/09, ángulo de poder de compra largo pendiente); extracciones en cajeros cayeron a la mitad en dos años (infobae 25/10; frenada el 25/09 por contraste que no acompaña, retomable con explicación documentada); petróleo a US$115 y presión sobre la nafta (TN, Clarín, Cronista; el impuesto por litro sigue sin documento con montos, frenado 25/09 y 01/10); garantía de US$200 M para una obra eléctrica del AMBA (Clarín; sin documento leído); endeudamiento con tarjeta (ámbito, Página12; encuestas privadas); riesgo país sobre 700 (cinco portadas; dato del día); Colapinto y Antonelli en Austin (sin documento con montos). Turismo internacional de septiembre sale mañana 26/10 (INDEC). clarin.com y tn.com.ar leídos por curl.",
+      "fecha": "2026-10-25",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }
