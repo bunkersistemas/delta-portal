@@ -1,5 +1,23 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-24T22:30:00-03:00",
-  "borradores": []
+  "actualizado": "2026-10-25T01:40:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-10-25-elecciones-estados-unidos-2028-cuando-quienes",
+      "titulo": "¿Cuándo se elige al próximo presidente de Estados Unidos y quiénes están en carrera?",
+      "titulo_busqueda": "¿Cuándo son las elecciones presidenciales de Estados Unidos 2028 y quiénes son los candidatos?",
+      "bajada": "La fecha ya está escrita en la ley; los candidatos, todavía no. La elección es el martes 7 de noviembre de 2028 y el ganador asume el 20 de enero de 2029. Los partidos no tienen candidatos: ante la autoridad electoral hay 486 inscripciones para presidente en 2028, pero ninguna es de un gobernador, de un legislador nacional ni del vicepresidente, y la que más recaudó juntó US$314.000. Donald Trump no puede volver a presentarse: la Constitución prohíbe que alguien sea elegido presidente más de dos veces.",
+      "seccion": "MUNDO",
+      "formato": "Investigación",
+      "numero": "486",
+      "numero_label": "registros de candidatura a presidente para 2028 ante la Comisión Federal Electoral (FEC, base de candidatos, cargo P, elección 2028, consultada el 25/10/2026; último registro 23/10): 126 republicanos, 105 demócratas, 255 independientes u otros; algunas personas figuran más de una vez. Contraste: WhoFundsMyRep, 479 al 20/10/2026, sin legisladores nacionales, gobernadores ni miembros del gabinete. Solo 14 recaudaron US$5.000 o más; la que más, Phyllis Jager (R), US$314.000 al 30/09/2026. Vance, Newsom y Trump no figuran. Elección general 7/11/2028 (3 U.S.C. §21), electores 19/12/2028 (§7), recuento 6/1/2029 (§15), asunción 20/1/2029 (enmienda 20)",
+      "fecha": "2026-10-25",
+      "hora": "01:40",
+      "archivo": "cola/2026-10-25-elecciones-estados-unidos-2028-cuando-quienes.html",
+      "verificacion": "verificada",
+      "fuentes": 16,
+      "lectura": "30 seg → 8 min",
+      "pedido": 111
+    }
+  ]
 }
