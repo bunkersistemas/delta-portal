@@ -5739,6 +5739,13 @@
       "fecha": "2026-10-25",
       "estado": "publicada",
       "articulo_id": "2026-10-25-brasil-balotaje-lula-flavio-programas-argentina"
+    },
+    {
+      "tema": "Balotaje en Brasil, cobertura especial turno 2 (brasil-2026-2): cómo vota Brasil. Padrón TSE 158.745.463 (perfil_eleitorado_2026, 14/07/2026; sistema de resultados 6258: 158.745.502, 499.248 secciones), exterior 918.876, 16-17 años 1.634.244, SP 34,1 M, SP+MG+RJ 39,9%; 1ª vuelta TSE (6257, 100%): Flávio 56.104.503 (47,03%), Lula 53.879.538 (45,16%), otros 7,81%, blancos 2.300.798, nulos 3.674.249, comparecencia 78,92%, abstención 33.469.244 (21,08%); IBGE proyección rev. 2024: 16+ en 2026 170,3 M (padrón en Brasil = 92,7%), 16-17 5,8 M (28,2% inscriptos); 900 urnas cambiadas hasta el mediodía (0,18%, Agencia Brasil), 1.904 en la 1ª vuelta; multa base R$3,51; resultado esperado 20.30-21 (presidente del TSE, TV Senado)",
+      "angulo": "Corrida de la cobertura especial del 25/10/2026 14:30, turno 2. Avanza sobre el turno 1 (programas y comercio): acá el padrón, las reglas del voto, la primera vuelta en datos oficiales y lo que informó el TSE en la mañana. Camino: estadística oficial recalculada (suma de microdatos del TSE = 158.745.463; 39 electores de diferencia con el sistema de resultados, declarada) + contraste independiente IBGE (92,7% de la población de 16+). Sin encuestas, sin resultados de la 2ª vuelta. tse.jus.br devuelve 403 a la lectura automática: comunicados del día vía Agencia Brasil y Senado.",
+      "fecha": "2026-10-25",
+      "estado": "publicada",
+      "articulo_id": "2026-10-25-brasil-como-vota-padron-tse-segunda-vuelta"
     }
   ]
 }
