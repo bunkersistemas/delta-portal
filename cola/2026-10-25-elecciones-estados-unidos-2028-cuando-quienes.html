@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Cuándo se elige al próximo presidente de Estados Unidos y quiénes están en carrera? — CON INTERÉS</title>
+<meta name="description" content="La elección es el martes 7 de noviembre de 2028 y el ganador asume el 20 de enero de 2029. Hoy no hay candidatos de los partidos: hay 486 inscripciones ante la autoridad electoral, ninguna de un gobernador, un legislador nacional o el vicepresidente, y Donald Trump no puede volver a presentarse.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft);vertical-align:top}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+</style>
+</head>
+<body data-palette="#0E7C86,#6B6560,#C4701F,#C0392B">
+<div class="draft-ribbon"><b>BORRADOR</b> · en la cola de revisión · todavía no está publicado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+  <div class="borrador">
+    <div class="borrador-in"><b>Borrador para revisión.</b> Nota pedida por un lector (pedido 111). Registros de la FEC consultados el 25/10/2026; recaudación según los informes al 30/09/2026.</div>
+  </div>
+
+  <div class="kicker">MUNDO <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+<div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Cuándo se elige al próximo presidente de Estados Unidos y quiénes están en carrera?</h1>
+
+  <p class="standfirst">La fecha ya está escrita en la ley; los candidatos, todavía no. La elección es el martes 7 de noviembre de 2028 y el ganador asume el 20 de enero de 2029. Los partidos no tienen candidatos. Ante la autoridad electoral hay 486 inscripciones para presidente en 2028, pero ninguna es de un gobernador, de un legislador nacional ni del vicepresidente, y la que más recaudó juntó US$314.000. Donald Trump no puede volver a presentarse: la Constitución prohíbe que alguien sea elegido presidente más de dos veces.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>25 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 8 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta el calendario completo, de las elecciones de medio término de noviembre de 2026 a la asunción de enero de 2029, cada fecha con la norma o la resolución partidaria que la fija; por qué Trump no puede ser candidato; y quiénes se inscribieron ante la Comisión Federal Electoral y cuánto recaudaron. No hacemos un ranking de favoritos ni pronósticos: hoy no hay candidatos oficiales, y las encuestas y las apuestas no son un registro. Quedan sin fecha las primarias republicanas y las de la mayoría de los estados; la convención republicana no tiene fecha publicada y la demócrata todavía no tiene ciudad: lo decimos donde corresponde.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">3m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">1m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">486<span class="u">inscriptos</span></div>
+      <div class="cap">Son los registros de candidatura a <b>presidente para 2028</b> ante la Comisión Federal Electoral de Estados Unidos (FEC). <b>Ninguno es de un gobernador, un legislador nacional o el vicepresidente</b>: los candidatos de los partidos recién se definen en las primarias de 2028.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v">7/11/2028</span><span class="k">la elección general, dentro de 744 días</span></div>
+        <div class="sr"><span class="v up">270</span><span class="k">electores de 538 hacen falta para ganar</span></div>
+        <div class="sr"><span class="v">US$314.000</span><span class="k">lo que juntó la inscripta que más recaudó</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">El calendario completo, de 2026 a 2029</h3>
+    <p class="lead">En el camino a 2028, lo que fija la ley ya tiene fecha; lo que fija cada partido todavía tiene huecos. El próximo presidente de Estados Unidos se elige el <b>martes 7 de noviembre de 2028</b>, y esa fecha no la decide nadie en particular: la fija la ley. El <a href="https://www.law.cornell.edu/uscode/text/3/21">título 3 del Código de Estados Unidos</a> define el día de la elección como "el martes siguiente al primer lunes de noviembre", cada cuatro años. En 2028, el primer lunes de noviembre cae el 6, así que se vota el 7.</p>
+    <p>Ese día no se elige al presidente directamente. Lo que vota cada estado es su lista de <b>electores</b>, según el <a href="https://www.law.cornell.edu/uscode/text/3/1">artículo 1 de ese título</a>. Los electores votan después, el <b>19 de diciembre de 2028</b>: la ley, reformada en 2022, los convoca "el primer martes posterior al segundo miércoles de diciembre" (<a href="https://www.law.cornell.edu/uscode/text/3/7">3 U.S.C. §7</a>).</p>
+    <p>De ahí en adelante, el resto también está escrito. El Congreso cuenta esos votos en sesión conjunta el <b>6 de enero de 2029</b>, a la una de la tarde (<a href="https://www.law.cornell.edu/uscode/text/3/15">3 U.S.C. §15</a>). Y el nuevo presidente asume el <b>20 de enero de 2029 al mediodía</b>, como ordena la <a href="https://www.archives.gov/founding-docs/amendments-11-27">enmienda 20 de la Constitución</a>. Ninguna de esas fechas depende de lo que decidan los partidos.</p>
+    <p>Antes viene todo lo demás. La primera parada no elige presidente: son las <b>elecciones de medio término del martes 3 de noviembre de 2026</b>, dentro de nueve días, en las que se renueva toda la Cámara de Representantes y un tercio del Senado (<a href="https://www.law.cornell.edu/uscode/text/2/7">2 U.S.C. §7</a> y artículo I de la Constitución).</p>
+    <p>Después, entre enero y junio de 2028, cada partido elige a su candidato en primarias y asambleas estado por estado, y lo proclama en una convención en el verano. Esa parte ya no la fija la ley sino cada partido, y es la que todavía tiene huecos.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Estados Unidos · el camino a la presidencia 2026-2029</div>
+        <h3>De las urnas de 2026 a la asunción de 2029: siete paradas, cinco fijadas por ley</h3>
+        <p class="fig-sub">Fechas confirmadas y lo que todavía no tiene fecha. En gris, lo que fijan los partidos; en verde azulado, lo que fija la ley.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 430" role="img" aria-label="Línea de tiempo: 3 de noviembre de 2026, elecciones de medio término; 22 de enero de 2028, primaria demócrata de Carolina del Sur, primera del calendario demócrata; republicanos con fecha a definir, Iowa primero; 7 al 10 de agosto de 2028, convención demócrata, ciudad a definir; convención republicana en Houston, fecha a definir; 7 de noviembre de 2028, elección general; 19 de diciembre de 2028, votan los electores; 6 de enero de 2029, el Congreso cuenta los votos; 20 de enero de 2029, asume el nuevo presidente.">
+<line x1="40" y1="20" x2="40" y2="410" stroke="#DCD6CC" stroke-width="2"/>
+<circle cx="40" cy="30" r="8" fill="#0E7C86"/><text x="62" y="27" class="cvB">3/11/2026</text><text x="62" y="45" class="cl">Medio término: toda la Cámara de Representantes y un tercio del Senado</text><text x="740" y="27" class="cf" text-anchor="end">2 U.S.C. §7</text>
+<circle cx="40" cy="85" r="8" fill="#6B6560"/><text x="62" y="82" class="cvB">22/1/2028</text><text x="62" y="100" class="cl">Primera primaria demócrata: Carolina del Sur (seis estados antes de marzo)</text><text x="740" y="82" class="cf" text-anchor="end">DNC, agosto 2026</text>
+<circle cx="40" cy="140" r="8" fill="#fff" stroke="#6B6560" stroke-width="2"/><text x="62" y="137" class="cvB">¿?</text><text x="62" y="155" class="cl">Primeras republicanas: Iowa, New Hampshire, Nevada y Carolina del Sur, sin fecha</text><text x="740" y="137" class="cf" text-anchor="end">RNC, sept. 2026</text>
+<circle cx="40" cy="195" r="8" fill="#6B6560"/><text x="62" y="192" class="cvB">7 a 10/8/2028</text><text x="62" y="210" class="cl">Convención demócrata: la ciudad todavía no se eligió</text><text x="740" y="192" class="cf" text-anchor="end">DNC</text>
+<circle cx="40" cy="250" r="8" fill="#fff" stroke="#6B6560" stroke-width="2"/><text x="62" y="247" class="cvB">¿? · Houston</text><text x="62" y="265" class="cl">Convención republicana: ciudad elegida en 2023, sin fecha publicada</text><text x="740" y="247" class="cf" text-anchor="end">RNC</text>
+<circle cx="40" cy="305" r="10" fill="#C4701F"/><text x="62" y="302" class="clB">7/11/2028</text><text x="62" y="320" class="cl">Elección general: cada estado elige a sus electores</text><text x="740" y="302" class="cf" text-anchor="end">3 U.S.C. §1 y §21</text>
+<circle cx="40" cy="350" r="8" fill="#0E7C86"/><text x="62" y="347" class="cvB">19/12/2028</text><text x="62" y="365" class="cl">Votan los 538 electores; ganan 270</text><text x="740" y="347" class="cf" text-anchor="end">3 U.S.C. §7</text>
+<circle cx="40" cy="395" r="8" fill="#0E7C86"/><text x="62" y="392" class="cvB">6/1/2029 · 20/1/2029</text><text x="62" y="410" class="cl">El Congreso cuenta los votos · asume el presidente, al mediodía</text><text x="740" y="392" class="cf" text-anchor="end">3 U.S.C. §15 · enm. 20</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Código de Estados Unidos (títulos 2 y 3, Cornell LII), enmienda 20 (Archivos Nacionales), DNC (resolución del comité de reglas, 24/07/2026, aprobada por el plenario en agosto), RNC (votación del 10/09/2026 según el Partido Republicano de Iowa), convenciones según Spectrum News y la elección de Houston de 2023. Fechas legales recalculadas por Con Interés. <b>Unidad:</b> fechas.</figcaption>
+    </figure>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Quiénes se anotaron</h3>
+    <p>La parte de "quiénes son los candidatos" tiene una respuesta corta: <b>todavía no hay candidatos de los partidos</b>. Los nombres que se mencionan en Estados Unidos son, por ahora, eso: nombres. Ninguno de los que más suenan formalizó nada ante la autoridad electoral. En el registro no figuran, por ejemplo, el vicepresidente <b>JD Vance</b> ni el gobernador de California, <b>Gavin Newsom</b>.</p>
+    <p>Lo que sí hay es un registro público, el de la <a href="https://www.fec.gov/help-candidates-and-committees/registering-candidate/">Comisión Federal Electoral (FEC)</a>. La ley obliga a anotarse a cualquiera que recaude o gaste más de US$5.000 para su campaña, y también se puede anotar quien no juntó nada. Anotarse es fácil.</p>
+    <p>Al 25 de octubre, la base de la FEC tenía <b>486 registros de candidatura a presidente para 2028</b>: 126 con la etiqueta del Partido Republicano, 105 con la del Demócrata y 255 independientes o de partidos chicos. Algunas personas aparecen más de una vez, con distintos números de candidato.</p>
+    <p>Ponerse la etiqueta de un partido en el formulario no lo convierte a uno en su candidato. Y el dinero muestra la distancia con una campaña real: solo <b>14 de los 486 declararon haber recaudado US$5.000 o más</b>.</p>
+    <p>Aun entre esos 14, los montos marcan esa distancia. La que más juntó, según sus informes al 30 de septiembre, es <b>Phyllis Jager</b>, inscripta como republicana, con US$314.000. Le siguen Diane Sare, sin partido, con US$148.561, y el republicano Dan Greaney, con US$78.023.</p>
+    <p>Entre los inscriptos, dos son nombres conocidos fuera del registro. <b>Dan Greaney</b>, guionista de <i>Los Simpson</i>, lanzó su campaña como republicano en junio. <b>Royce White</b>, exjugador de la NBA, presentó sus papeles el 21 de septiembre, también como republicano. Ninguno de los dos es legislador nacional, gobernador ni funcionario del gabinete. Los candidatos de los partidos, en cambio, se van a definir por otra vía: las primarias.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">FEC · inscripciones para presidente en 2028</div>
+        <h3>Más de la mitad de los inscriptos no son de ninguno de los dos grandes partidos</h3>
+        <p class="fig-sub">Registros de candidatura a presidente para 2028, por partido declarado en el formulario.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 150" role="img" aria-label="Registros de candidatura a presidente 2028 ante la FEC: independientes y otros partidos, 255; Partido Republicano, 126; Partido Demócrata, 105. Total, 486.">
+<text x="200" y="30" class="cl" text-anchor="end">Independientes y otros</text><rect x="210" y="14" width="440" height="24" rx="3" fill="#6B6560"/><text x="658" y="31" class="cvB">255</text>
+<text x="200" y="76" class="cl" text-anchor="end">Partido Republicano</text><rect x="210" y="60" width="217" height="24" rx="3" fill="#C0392B"/><text x="435" y="77" class="cvB">126</text>
+<text x="200" y="122" class="cl" text-anchor="end">Partido Demócrata</text><rect x="210" y="106" width="181" height="24" rx="3" fill="#0E7C86"/><text x="399" y="123" class="cvB">105</text>
+</svg>
+      <figcaption><b>Fuente:</b> FEC, base de candidatos (fec.gov/data), cargo P, elección 2028, consultada el 25/10/2026. La etiqueta de partido la elige cada inscripto: no implica aval partidario. <b>Unidad:</b> registros de candidatura.</figcaption>
+    </figure>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Las primarias: quién vota primero</h3>
+    <p>Los candidatos de verdad salen de las primarias, y ahí cada partido arma su propio orden. Los demócratas ya lo tienen. Su comité de reglas propuso el 24 de julio <a href="https://democrats.org/dnc-rules-and-bylaws-committee-proposes-early-states-for-2028-democratic-presidential-nominating-calendar/">seis estados</a> para votar antes del "supermartes" de marzo, y el plenario del Comité Nacional Demócrata lo aprobó en su reunión de agosto.</p>
+    <p>El orden es este: <b>Carolina del Sur el 22 de enero de 2028</b>, Nevada el 1 de febrero, New Hampshire el 8, Nuevo México el 15, Michigan el 22 y Virginia el 29. Iowa, que durante décadas abrió la carrera, quedó afuera de ese grupo.</p>
+    <table class="tb">
+      <tr><th>Fecha (2028)</th><th>Estado</th><th>Partido</th></tr>
+      <tr><td class="n">22/1</td><td>Carolina del Sur</td><td>Demócrata</td></tr>
+      <tr><td class="n">1/2</td><td>Nevada</td><td>Demócrata</td></tr>
+      <tr><td class="n">8/2</td><td>New Hampshire</td><td>Demócrata</td></tr>
+      <tr><td class="n">15/2</td><td>Nuevo México</td><td>Demócrata</td></tr>
+      <tr><td class="n">22/2</td><td>Michigan</td><td>Demócrata</td></tr>
+      <tr><td class="n">29/2</td><td>Virginia</td><td>Demócrata</td></tr>
+      <tr><td class="n">¿?</td><td>Iowa, New Hampshire, Nevada y Carolina del Sur, en ese orden</td><td>Republicano</td></tr>
+    </table>
+    <p style="font-size:14px;color:var(--muted)">Fuentes: DNC (24/07/2026) y Ballotpedia (31/07/2026) para las fechas demócratas; Partido Republicano de Iowa y South Carolina Public Radio para el orden republicano.</p>
+    <p>El calendario demócrata tiene un punto débil, y es New Hampshire. Una ley de ese estado le exige hacer su primaria al menos siete días antes que cualquier otra, según <a href="https://news.ballotpedia.org/2026/07/31/democratic-national-committee-announces-proposed-early-states-for-2028-democratic-presidential-calendar/">Ballotpedia</a>. En 2024 ya votó primero sin el aval del partido, y el partido no le reconoció delegados por esa votación. Para 2028, las reglas demócratas prevén quitarle delegados al estado que no respete el orden.</p>
+    <p>Los republicanos votaron su calendario el 10 de septiembre, en su convención de mitad de mandato en Texas, y dejaron todo como estaba: <a href="https://iowagop.org/national-republicans-double-down-on-iowas-first-in-the-nation-status/">Iowa primero</a>, después New Hampshire, Nevada y Carolina del Sur. Pero <a href="https://www.southcarolinapublicradio.org/sc-news/2026-09-14/south-carolina-keeps-first-in-the-south-slot-on-gop-2028-presidential-calendar">no fijaron las fechas</a>: se espera que lo hagan el año que viene.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Por qué Trump no puede ser candidato</h3>
+    <p>La <a href="https://www.archives.gov/founding-docs/amendments-11-27">enmienda 22</a>, ratificada en 1951, empieza así: "Nadie podrá ser elegido para el cargo de presidente más de dos veces". Donald Trump ganó las elecciones de 2016 y de 2024. Ya usó las dos.</p>
+    <p>La misma enmienda pone otro límite, menos conocido: quien haya ejercido la presidencia más de dos años de un mandato ajeno, por ejemplo un vicepresidente que reemplaza al presidente, solo puede ser elegido una vez más. El vicepresidente Vance no está alcanzado por ninguna de las dos reglas: nunca ejerció la presidencia, así que puede presentarse. Y quien gane en 2028 no lo define el voto total del país, sino una cuenta de electores.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Cómo se gana: el Colegio Electoral</h3>
+    <p>Gana quien sume <b>270 de los 538 electores</b>, la mayoría absoluta, según los <a href="https://www.archives.gov/electoral-college/allocation">Archivos Nacionales</a>. Cada estado tiene tantos electores como legisladores nacionales, y el reparto vigente, basado en el censo de 2020, vale para 2024 y 2028: California tiene 54, Texas 40, Florida 30, y los estados más chicos y el distrito de Washington tienen 3 cada uno.</p>
+    <p>En 48 de los 50 estados, y en Washington, el que gana el voto popular del estado se lleva todos sus electores; Maine y Nebraska los reparten. Por eso, explican los <a href="https://www.archives.gov/electoral-college/faq">Archivos Nacionales</a>, se puede ganar la presidencia con menos votos que el rival en todo el país: pasó en 2000 y en 2016. Si nadie llega a 270, decide la Cámara de Representantes, con un voto por estado.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>La cifra ancla es un registro oficial, recontado y contrastado.</b> Los 486 salen de la <a href="https://www.fec.gov/data/candidates/?election_year=2028&amp;office=P">base de candidatos de la FEC</a> (cargo: presidente; elección: 2028), consultada el 25 de octubre de 2026; el último registro es del 23 de octubre. Filtrando la misma base por partido salen 126 republicanos y 105 demócratas; el resto, 255, son independientes o de otros partidos. El contraste independiente es el seguimiento de <a href="https://whofundsmyrep.com/2028">WhoFundsMyRep</a>, que contó 479 inscriptos al 20 de octubre y tampoco encontró entre ellos a ningún legislador nacional, gobernador ni miembro actual o anterior del gabinete. La diferencia, siete, se explica casi entera por las seis inscripciones que la FEC fechó después del 20.</p>
+      <p><b>Cuánto recaudaron.</b> Sale de los <a href="https://www.fec.gov/data/candidates/president/?election_year=2028&amp;sort=-receipts">totales por candidato de la FEC</a>, armados con los informes que presenta cada comité; la mayoría cubre hasta el 30 de septiembre de 2026. Que Vance, Newsom y Trump no figuren lo comprobamos buscando sus nombres en la misma base. Que Greaney y White estén inscriptos, también; los datos de su biografía y anuncio salen de la página de <a href="https://en.wikipedia.org/wiki/2028_Republican_Party_presidential_primaries">Wikipedia de las primarias republicanas</a>.</p>
+      <p><b>Las fechas.</b> Las de la ley las leímos en el texto del Código (<a href="https://www.law.cornell.edu/uscode/text/3/21">3 U.S.C. §21</a>, §1, §7 y §15; <a href="https://www.law.cornell.edu/uscode/text/2/7">2 U.S.C. §7</a>) y en las enmiendas 20 y 22, y las recalculamos con el calendario: 7 de noviembre de 2028, 19 de diciembre de 2028 y 3 de noviembre de 2026. El calendario demócrata sale de la resolución del propio partido y coincide con Ballotpedia; el republicano, del comunicado del Partido Republicano de Iowa y de South Carolina Public Radio. La fecha de la convención demócrata y las ciudades finalistas son de <a href="https://spectrumlocalnews.com/us/snplus/politics/2026/08/20/democratic-national-convention-finalists-cities-boston-denver-philadelphia">Spectrum News</a>, con declaraciones del presidente del partido, Ken Martin.</p>
+      <p><b>Lo que no está.</b> Un registro de la FEC no es una candidatura partidaria: los partidos eligen a su candidato en las primarias. Por eso no armamos un ranking con encuestas ni con mercados de apuestas, y no damos pronósticos. Tampoco listamos a quienes "están pensando" en presentarse: eso no deja rastro en ningún registro.</p>
+      <div class="meta">
+        <span><b>Fuente</b> FEC · Código de EE.UU. · Constitución · Archivos Nacionales · DNC · RNC</span>
+        <span><b>Período</b> nov. 2026 – ene. 2029</span>
+        <span><b>Unidad</b> registros · dólares · fechas</span>
+        <span><b>Verificación</b> registro oficial recontado, con contraste independiente · fechas legales recalculadas</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>La pregunta tiene dos respuestas de distinto tipo. Lo que sí está escrito son las reglas y las fechas: la ley fija cuándo se vota y cuándo se asume, y los partidos ya decidieron en qué estados empieza cada interna. La respuesta a "quiénes son los candidatos" es, hoy, que no hay: la carrera de 2028 todavía no empezó en ningún registro oficial. Los 486 inscriptos muestran lo fácil que es anotarse; los 14 que juntaron algo de plata, lo lejos que están de una campaña presidencial. Lo que queda abierto es quién saldrá de las primarias, y cuándo votarán los republicanos, que todavía no fijaron sus fechas.</p>
+    <p>El primer movimiento grande viene en nueve días. Las elecciones de medio término del 3 de noviembre no eligen presidente, pero definen quién controla el Congreso los dos últimos años del mandato de Trump.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p><b>Si seguís la política de Estados Unidos por lo que le puede pasar a la Argentina,</b> la fecha más cercana es el 3 de noviembre de 2026, no 2028: el Congreso que salga de ahí es el que aprueba presupuestos, aranceles y tratados hasta enero de 2029.</p>
+      <p><b>Si ves una nota que presenta a alguien como "candidato a presidente de 2028",</b> fijate si ya se inscribió ante la FEC y con cuánta plata. Inscribirse no cuesta nada: hoy hay 486 registros, y la primera votación partidaria es recién el 22 de enero de 2028.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep">
+      <summary>Los 14 inscriptos que recaudaron US$5.000 o más <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Inscripto</th><th>Partido declarado</th><th style="text-align:right">Recaudado (US$)</th></tr>
+        <tr><td>Phyllis Jager</td><td>Republicano</td><td class="n">314.000</td></tr>
+        <tr><td>Diane Sare</td><td>Sin partido</td><td class="n">148.561</td></tr>
+        <tr><td>Daniel John Greaney</td><td>Republicano</td><td class="n">78.023</td></tr>
+        <tr><td>Wayne Anthony Pope Sr.</td><td>Demócrata</td><td class="n">44.060</td></tr>
+        <tr><td>Shiva Ayyadurai</td><td>Independiente</td><td class="n">22.487</td></tr>
+        <tr><td>Jo Jorgensen</td><td>Libertario</td><td class="n">11.766</td></tr>
+        <tr><td>Lance A. Williams</td><td>Independiente</td><td class="n">11.570</td></tr>
+        <tr><td>Timothy Villari</td><td>Republicano</td><td class="n">8.228</td></tr>
+        <tr><td>Willie Felix Carter</td><td>Demócrata</td><td class="n">7.951</td></tr>
+        <tr><td>James Trainor</td><td>Demócrata</td><td class="n">7.646</td></tr>
+        <tr><td>Todd Neal Clifton</td><td>Independiente</td><td class="n">5.746</td></tr>
+        <tr><td>Jacqueline Renee Arechiga</td><td>Independiente</td><td class="n">5.261</td></tr>
+        <tr><td>Vincent Dean Cordova Jr.</td><td>Sin partido</td><td class="n">5.000</td></tr>
+        <tr><td>James Robert Antonik</td><td>Voto escrito</td><td class="n">5.000</td></tr>
+      </table>
+      <p>Fuente: FEC, totales por candidato, elección 2028. La mayoría de los informes cubre hasta el 30/09/2026; el de Pope, hasta el 15/07/2026, el de Williams hasta el 11/08/2026 y el de Villari hasta el 30/09/2025. Montos redondeados al dólar.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Los electores de los diez estados más grandes <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Estado</th><th style="text-align:right">Electores</th></tr>
+        <tr><td>California</td><td class="n">54</td></tr>
+        <tr><td>Texas</td><td class="n">40</td></tr>
+        <tr><td>Florida</td><td class="n">30</td></tr>
+        <tr><td>Nueva York</td><td class="n">28</td></tr>
+        <tr><td>Illinois</td><td class="n">19</td></tr>
+        <tr><td>Pensilvania</td><td class="n">19</td></tr>
+        <tr><td>Ohio</td><td class="n">17</td></tr>
+        <tr><td>Georgia</td><td class="n">16</td></tr>
+        <tr><td>Carolina del Norte</td><td class="n">16</td></tr>
+        <tr><td>Michigan</td><td class="n">15</td></tr>
+      </table>
+      <p>Fuente: Archivos Nacionales de EE.UU., reparto según el censo de 2020, vigente para 2024 y 2028. Entre los diez suman 254 electores, 16 menos de los 270 que hacen falta.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Antes, en Con Interés <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p><a href="../articulos/2026-09-28-cuanto-cuestan-elecciones-2027-presupuesto.html">Cuánto cuestan las elecciones argentinas de 2027</a> (28/09/2026) y <a href="../articulos/2026-10-24-multa-no-votar-500-pesos-dolares.html">la multa por no votar en la Argentina</a> (24/10/2026).</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Comisión Federal Electoral (FEC) — <a href="https://www.fec.gov/data/candidates/?election_year=2028&amp;office=P">Base de candidatos a presidente, elección 2028</a>, consultada el 25/10/2026</li>
+        <li>&#8250; Comisión Federal Electoral (FEC) — <a href="https://www.fec.gov/data/candidates/president/?election_year=2028&amp;sort=-receipts">Totales financieros por candidato, elección 2028</a></li>
+        <li>&#8250; Comisión Federal Electoral (FEC) — <a href="https://www.fec.gov/help-candidates-and-committees/registering-candidate/">Registering as a candidate</a></li>
+        <li>&#8250; Código de EE.UU. (Cornell LII) — <a href="https://www.law.cornell.edu/uscode/text/3/21">3 U.S.C. §21</a>, <a href="https://www.law.cornell.edu/uscode/text/3/1">§1</a>, <a href="https://www.law.cornell.edu/uscode/text/3/7">§7</a> y <a href="https://www.law.cornell.edu/uscode/text/3/15">§15</a>; <a href="https://www.law.cornell.edu/uscode/text/2/7">2 U.S.C. §7</a></li>
+        <li>&#8250; Archivos Nacionales de EE.UU. — <a href="https://www.archives.gov/founding-docs/amendments-11-27">Enmiendas XI a XXVII de la Constitución</a> (enmiendas 20 y 22)</li>
+        <li>&#8250; Archivos Nacionales de EE.UU. — <a href="https://www.archives.gov/electoral-college/allocation">Distribución de electores</a> y <a href="https://www.archives.gov/electoral-college/faq">preguntas frecuentes sobre el Colegio Electoral</a></li>
+        <li>&#8250; Comité Nacional Demócrata — <a href="https://democrats.org/dnc-rules-and-bylaws-committee-proposes-early-states-for-2028-democratic-presidential-nominating-calendar/">DNC Rules and Bylaws Committee Proposes Early States for 2028</a>, 24/07/2026</li>
+        <li>&#8250; Ballotpedia News — <a href="https://news.ballotpedia.org/2026/07/31/democratic-national-committee-announces-proposed-early-states-for-2028-democratic-presidential-calendar/">Democratic National Committee announces proposed early states for 2028</a>, 31/07/2026</li>
+        <li>&#8250; Partido Republicano de Iowa — <a href="https://iowagop.org/national-republicans-double-down-on-iowas-first-in-the-nation-status/">National Republicans Double Down on Iowa's First in the Nation Status</a>, 10/09/2026</li>
+        <li>&#8250; South Carolina Public Radio — <a href="https://www.southcarolinapublicradio.org/sc-news/2026-09-14/south-carolina-keeps-first-in-the-south-slot-on-gop-2028-presidential-calendar">South Carolina keeps 'first in the South' slot on GOP 2028 presidential calendar</a>, 14/09/2026</li>
+        <li>&#8250; Spectrum News — <a href="https://spectrumlocalnews.com/us/snplus/politics/2026/08/20/democratic-national-convention-finalists-cities-boston-denver-philadelphia">Democratic National Convention finalist cities</a>, 20/08/2026</li>
+        <li>&#8250; Wikipedia — <a href="https://en.wikipedia.org/wiki/2028_Republican_National_Convention">2028 Republican National Convention</a> (Houston, elegida el 25/08/2023) y <a href="https://en.wikipedia.org/wiki/2028_Republican_Party_presidential_primaries">2028 Republican Party presidential primaries</a> (Greaney y White)</li>
+        <li>&#8250; WhoFundsMyRep — <a href="https://whofundsmyrep.com/2028">Who Is Running for President in 2028?</a> (contraste del conteo de la FEC)</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: fechas legales, conteo por partido, días hasta la elección.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 25/10/2026. Con Interés no hace pronósticos electorales ni recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
