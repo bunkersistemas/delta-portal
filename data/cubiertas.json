@@ -5746,6 +5746,13 @@
       "fecha": "2026-10-25",
       "estado": "publicada",
       "articulo_id": "2026-10-25-brasil-como-vota-padron-tse-segunda-vuelta"
+    },
+    {
+      "tema": "Balotaje en Brasil, cobertura especial turno 3 (brasil-2026-3): primeros resultados. TSE suspendió la totalización a las 17:06 con 1.225 de 499.248 secciones (0,25%) tras la orden de Zanin (STF) de extender la votación hasta las 19 (pedido de la coalición de Lula por transporte; la campaña de Flávio pidió lo mismo por lluvias en SP, MG, PR, SC, RS); aclarado a las 18:08 (Zanin) y 18:15 (Nunes Marques): solo secciones aún abiertas. Corte parcial: Lula 193.574 (57,66%), Flávio 142.169 (42,34%), válidos 335.743, emitidos 345.054; estados 214 secciones (PA 179, MA 19, BA 6, GO 6, CE 4); según Radioagência Nacional, gran mayoría del exterior. Sin cambios en el archivo a las 18.30",
+      "angulo": "Corrida de la cobertura especial del 25/10/2026 18:30, turno 3. Avanza sobre el turno 2 (padrón y primera vuelta): el primer corte del escrutinio y la suspensión. Camino: estadística oficial recalculada (1.225/499.248 = 0,245%; suma de votos; suma de los 27 archivos estatales = 214) + contraste Agencia Brasil y TV Senado (mismo corte). No se anuncia ganador ni se compara el corte con la primera vuelta como tendencia. tse.jus.br devuelve 403; la decisión del STF no figura en su sitio: decisiones vía Agencia Brasil.",
+      "fecha": "2026-10-25",
+      "estado": "publicada",
+      "articulo_id": "2026-10-25-brasil-conteo-frenado-tse-025-escrutado"
     }
   ]
 }

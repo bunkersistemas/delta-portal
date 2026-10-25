@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-25T14:55:20-03:00",
+    "actualizado": "2026-10-25T18:53:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-25-brasil-conteo-frenado-tse-025-escrutado",
+      "titulo": "El TSE frenó el conteo de Brasil con el 0,25% de las secciones escrutadas, después de que el Supremo ordenara extender la votación hasta las 19",
+      "bajada": "El Tribunal Superior Electoral (TSE) detuvo a las 17:06 el conteo de la segunda vuelta entre Lula (PT) y Flávio Bolsonaro (PL) con 1.225 de las 499.248 secciones escrutadas, y a las 18.30 no lo había retomado. Fue después de que el ministro Cristiano Zanin, del Supremo Tribunal Federal, ordenara extender la votación hasta las 19, a pedido de la campaña de Lula, que denunció falta de transporte; la de Flávio había pedido lo mismo por las lluvias en cinco estados. En ese corte parcial Lula tenía el 57,66% de los votos válidos y Flávio, el 42,34%. No anticipa el resultado: según la Radioagência Nacional, esos votos son en su gran mayoría del exterior.",
+      "titulo_busqueda": "¿Por qué se frenó el conteo de votos en Brasil y cuándo se conoce el resultado?",
+      "seccion": "MUNDO",
+      "formato": "Balotaje en Brasil · primeros resultados",
+      "numero": "0,25%",
+      "numero_label": "secciones escrutadas por el TSE en la segunda vuelta de Brasil al corte parcial de las 17:06 del 25/10/2026, cuando suspendió la totalización: 1.225 de 499.248 (archivo de resultados elección 6258, nivel nacional, generado 17:06:31; sin cambios a las 18.30; recalculado 0,245%). Votos válidos 335.743: Lula 193.574 (57,66%), Flávio Bolsonaro 142.169 (42,34%); blancos 4.158, nulos 5.153, emitidos 345.054. Archivos estatales: 214 secciones (PA 179, MA 19, BA 6, GO 6, CE 4). Contraste: Agencia Brasil (EBC) y TV Senado informan el mismo corte",
+      "fecha": "2026-10-25",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-25-brasil-conteo-frenado-tse-025-escrutado.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "cobertura": "brasil-2026-3"
+    },
     {
       "id": "2026-10-25-brasil-como-vota-padron-tse-segunda-vuelta",
       "titulo": "Brasil vota con 158,7 millones de electores habilitados, y en la primera vuelta no fue a votar uno de cada cinco",
