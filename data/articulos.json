@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-26T02:48:50-03:00",
+    "actualizado": "2026-10-26T05:00:10-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-26-presupuesto-2027-acompanamiento-social-volver-al-trabajo",
+      "titulo": "El Presupuesto 2027 alcanza justo para pagar $78.000 por mes del Acompañamiento Social, el monto de 2023, y no tiene un peso para Volver al Trabajo",
+      "bajada": "Lo que el proyecto le da al Acompañamiento Social alcanza exacto para el monto que se paga desde diciembre de 2023, y no para un aumento: $187.200 millones para 200.000 titulares, divididos por doce meses, son $78.000 por persona. Volver al Trabajo, el plan más grande de los dos, costó $891.478 millones en 2025, se pagó hasta junio de 2026 y en 2027 no figura.",
+      "titulo_busqueda": "¿Cuánto van a cobrar el Acompañamiento Social y el Volver al Trabajo en 2027? Lo que dice el Presupuesto",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$78.000",
+      "numero_label": "monto mensual por titular que financia el proyecto de Presupuesto 2027 para el Acompañamiento Social: $187.200 M (P27J88, programa 38, p. 88-37) / 200.000 titulares activos (p. 88-36 y mensaje p. 97) / 12 = $78.000,00 exactos; igual a la asignación de la Res. MCH 90/2026 (BO 14/04/2026), sin cláusula de actualización. Contraste: devengado oct-26 $14.952,37 M (Presupuesto Abierto, act. 23/10/2026) = 191.697 titulares a $78.000, mensaje p. 10 'más de 195.000'. Volver al Trabajo: sin actividad ni meta en el programa 16 de 2027 (p. 88-61/62); 2026 actividad 17 $300.018 M y meta 950.000 (P26J88 p. 88-65/66); devengado 2025 $891.478,5 M, 2026 ene-jun $72.131-72.764 M/mes, jul $3,8 M, desde ago nada",
+      "fecha": "2026-10-26",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-26-presupuesto-2027-acompanamiento-social-volver-al-trabajo.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-26-ypf-rescata-on-7-por-ciento-refinancia-6",
       "titulo": "YPF devuelve seis meses antes US$135 millones que le costaban 7%, y el bono con que juntó la mitad le salió 6%, medio punto más que en agosto",
