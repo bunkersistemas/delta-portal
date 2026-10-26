@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-26T08:58:29-03:00",
+    "actualizado": "2026-10-26T10:21:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-26-cuanto-gana-maestro-ciudad-buenos-aires",
+      "titulo": "¿Cuánto gana un maestro en la Ciudad de Buenos Aires?",
+      "bajada": "Un maestro de grado porteño con diez años de antigüedad cobró en junio $1.137.748 de bolsillo por una jornada simple, el último dato oficial: alcanza para el 72,1% de la línea de pobreza de una familia de cuatro en la Ciudad. La Ciudad está 11.ª entre las 24 jurisdicciones, 4,7% arriba del promedio del país y 20,6% arriba de un maestro bonaerense. Aun así, descontada la inflación porteña, ese sueldo compra 10,6% menos que en junio de 2023. En el último año quedó igual.",
+      "titulo_busqueda": "¿Cuánto gana un maestro en la Ciudad de Buenos Aires en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Investigación",
+      "numero": "$1.137.748",
+      "numero_label": "sueldo de bolsillo de un maestro de grado porteño, jornada simple, 10 años de antigüedad, junio de 2026 (último dato oficial): CECE/Ministerio de Capital Humano, act. 04/08/2026, provisorio ($1.137.747,77; bruto $1.394.542,46; básico $302.316,33). Fuente independiente: grilla UTE junio 2026 (1.135 puntos x $266,358; 10 años $1.330.542,46 + sumas no remunerativas $30.000 y $34.000 = bruto oficial); descuentos 19,3% (Ademys: 6% obra social, 11%+2% jubilación, 0,3% fondo compensador): 1.330.542,46 x 0,807 + 64.000 = 1.137.747,77. Máxima antigüedad (120%, tope de la Res. 5147/SSPIE/26): $1.440.071 (= UTE). Real jun-23/jun-26: -10,6% con IPCBA (347,38 -> 2.480,63), -7,7% con IPC INDEC; jun-25/jun-26 -0,1% / -0,8%; dic-16 -22,2%. 72,1% de la LP del hogar 1 IDECBA jun-26 ($1.577.314); 57,0% de la CT ($1.994.870); 74,3% CBT INDEC hogar 2. Puesto 11 de 24; +4,7% vs promedio ($1.087.013); +20,6% vs Buenos Aires ($943.608). Octubre: sin norma oficial hallada.",
+      "fecha": "2026-10-26",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-26-cuanto-gana-maestro-ciudad-buenos-aires.html",
+      "verificacion": "verificada",
+      "fuentes": 14,
+      "lectura": "30 seg → 8 min",
+      "pedido": 112
+    },
     {
       "id": "2026-10-26-zapallo-anco-precio-mercado-central-octubre",
       "titulo": "El cajón de zapallo anco pasó de $37.000 a $62.000 en un mes en el Mercado Central, mientras el tomate bajó 35,1%",
