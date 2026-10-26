@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<meta name="description" content="Un maestro de grado porteño con diez años de antigüedad cobró en junio de 2026 $1.137.748 de bolsillo por una jornada simple, el último dato oficial: el 72,1% de la línea de pobreza de una familia de cuatro en la Ciudad. Descontada la inflación porteña, compra 10,6% menos que en junio de 2023. Está 11.º entre 24 jurisdicciones.">
+<title>¿Cuánto gana un maestro en la Ciudad de Buenos Aires en 2026? — CON INTERÉS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:44px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .cvDato{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .bSal{fill:#8FB9BD} .bHoy{fill:var(--teal)}
+  .cInd{fill:#B9AE9C} .cSal{fill:var(--teal)} .cRef{fill:var(--amber)} .cOtro{fill:#8FB9BD}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+  .prose h2{font-family:var(--serif);font-size:24px;line-height:1.25;margin:34px 0 14px}
+  table.tabla{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 8px;background:var(--card);border:1px solid var(--card-edge)}
+  table.tabla th{font-family:var(--mono);font-size:11px;letter-spacing:.06em;text-transform:uppercase;color:var(--muted);text-align:right;padding:9px 10px;border-bottom:2px solid var(--rule);font-weight:600}
+  table.tabla th:first-child,table.tabla td:first-child{text-align:left}
+  table.tabla td{padding:9px 10px;border-bottom:1px solid var(--grid);text-align:right;font-family:var(--mono);font-size:13px}
+  table.tabla td:first-child{font-family:var(--sans);font-size:14px}
+  .tabla-nota{font-family:var(--mono);font-size:12px !important;color:var(--faint);line-height:1.5 !important;margin:0 0 24px !important}
+  details{border-top:1px solid var(--rule);padding:12px 0}
+  details summary{cursor:pointer;font-weight:600}
+  details p{font-size:15px;line-height:1.6;color:var(--ink-soft)}
+</style>
+</head>
+<body data-palette="#0E7C86,#C4701F,#8FB9BD,#6B6560">
+<div class="draft-ribbon"><b>BORRADOR</b> · esperando revisión · no publicado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+
+  <div class="kicker">TU PLATA <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+  <div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Cuánto gana un maestro en la Ciudad de Buenos Aires?</h1>
+
+  <p class="standfirst">Un maestro de grado porteño con diez años de antigüedad cobró en junio $1.137.748 de bolsillo por una jornada simple, el último dato oficial: alcanza para el 72,1% de la línea de pobreza de una familia de cuatro en la Ciudad. La Ciudad está 11.ª entre las 24 jurisdicciones, 4,7% arriba del promedio del país y 20,6% arriba de un maestro bonaerense. Aun así, descontada la inflación porteña, ese sueldo compra 10,6% menos que en junio de 2023. En el último año quedó igual.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>26 de octubre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 8 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta cuánto cobra un maestro de grado de primaria, jornada simple, en una escuela pública porteña: el básico, el bruto y el de bolsillo con diez años de antigüedad y con la máxima, cuánto de la canasta cubre, cómo le fue contra la inflación desde 2016 y en qué puesto está la Ciudad en el país. Faltan dos cosas que se habían propuesto: el sueldo de octubre, porque los aumentos posteriores a junio no tienen una norma oficial que hayamos podido encontrar, y el de un maestro que recién empieza, porque depende de un mínimo garantizado cuyo valor de junio no figura en ningún documento oficial disponible. Lo explicamos abajo.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La respuesta <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">3m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">$1.137.748</div>
+      <div class="cap">Es lo que cobró <b>de bolsillo</b> en <b>junio de 2026</b> un <b>maestro de grado</b> de una escuela pública porteña, con <b>diez años de antigüedad</b> y un solo cargo de jornada simple. Bruto: <b>$1.394.542</b>.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v up">&minus;10,6%</span><span class="k">poder de compra contra junio de 2023 (inflación porteña)</span></div>
+        <div class="sr"><span class="v up">72,1%</span><span class="k">de la línea de pobreza de una familia de cuatro en la Ciudad</span></div>
+        <div class="sr"><span class="v">11.º de 24</span><span class="k">entre las jurisdicciones del país</span></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La respuesta</span><span class="rule"></span></div>
+    <p class="lead">Un maestro de primaria de la Ciudad de Buenos Aires con diez años de antigüedad cobró en junio <b>$1.137.748 en la mano</b> por un cargo de jornada simple. Es el último mes con dato oficial: lo publica el Ministerio de Capital Humano en su <a href="https://www.argentina.gob.ar/capital-humano/educacion/informacion-y-evaluacion-educativa/series-salario-docente">serie de salarios docentes</a>, actualizada el 4 de agosto, que arma con las normas salariales de cada jurisdicción. El cargo que usa como testigo en todo el país es justamente ese: maestro de grado, jornada simple, diez años de antigüedad.</p>
+    <p>Ese sueldo se arma así. El <b>básico</b> fue de <b>$302.316</b>: el cargo vale 1.135 puntos y cada punto, $266,358. Encima del básico se suman una suma fija, un adicional por material didáctico, un adicional salarial y la antigüedad, que a los diez años agrega 60% sobre el básico y la suma fija. Todo eso da un <b>bruto de $1.394.542</b>. Le descuentan el 19,3% de la parte remunerativa (jubilación, obra social y un fondo compensador) y queda el sueldo de bolsillo.</p>
+
+    <table class="tabla">
+      <thead><tr><th>Maestro de grado, jornada simple, un cargo</th><th>Junio 2025</th><th>Junio 2026</th><th>Octubre 2026</th></tr></thead>
+      <tbody>
+        <tr><td>Sueldo básico</td><td>$203.698</td><td>$302.316</td><td>sin norma oficial</td></tr>
+        <tr><td>Bruto, 10 años de antigüedad</td><td>$1.049.296</td><td>$1.394.542</td><td>sin norma oficial</td></tr>
+        <tr><td><b>De bolsillo, 10 años de antigüedad</b></td><td>$859.134</td><td><b>$1.137.748</b></td><td>sin norma oficial</td></tr>
+        <tr><td>De bolsillo, máxima antigüedad</td><td>&mdash;</td><td>$1.440.071</td><td>sin norma oficial</td></tr>
+      </tbody>
+    </table>
+    <p class="tabla-nota">Junio de 2025 y junio de 2026: Ministerio de Capital Humano (CECE), datos provisorios. Máxima antigüedad: cálculo propio con los componentes de junio, igual al que publicó el gremio UTE. Sin cargas de familia, otros cargos ni descuentos personales.</p>
+
+    <p>Con la <b>máxima antigüedad</b>, cuando la antigüedad suma 120%, el mismo cargo pagó en junio $1.769.169 brutos y <b>$1.440.071 de bolsillo</b>: 26,6% más que con diez años.</p>
+    <p>Para un maestro que <b>recién empieza</b>, en cambio, no podemos darte un número de junio verificado. Sin antigüedad entra a jugar un piso que fija la Ciudad, el «sueldo mínimo garantizado». Su valor de junio no figura en ningún documento oficial que hayamos encontrado; la última norma que lo trae es de abril, y en el apartado 6 contamos qué dice.</p>
+    <p><b>¿Y hoy, en octubre?</b> Después de junio hubo al menos un aumento más. El gremio UTE publicó una <a href="https://ute.org.ar/wp-content/uploads/2026/09/2026-agosto.pdf">grilla de agosto</a>. El 20 de octubre <a href="https://ute.org.ar/mesa-salarial-octubre-2026/">informó</a> que el Gobierno porteño ofreció un 5% para noviembre, sobre los sueldos de septiembre, para cerrar la discusión de 2026, y que todavía no lo aceptó. No encontramos en el Boletín Oficial porteño la norma que fije los sueldos de julio a octubre: su buscador devolvía error al momento de esta nota. Por eso el número más reciente que te podemos dar como dato es el de junio. Y con ese número se puede medir lo que importa: qué alcanza a comprar.</p>
+  </div>
+
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h2>Cuánto de la canasta cubre ese sueldo</h2>
+    <p>El Instituto de Estadística de la Ciudad (IDECBA) calcula cada mes cuánto necesita un hogar porteño para no ser pobre y para vivir con el estándar de consumo de la Ciudad. Para una familia de cuatro, una pareja de 35 años con dos hijos de 9 y 6, propietaria de su vivienda, la <a href="https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2026/07/ir_2026_2043.pdf">línea de pobreza de junio</a> fue de $1.577.314. El sueldo de un maestro con diez años de antigüedad cubre el <b>72,1%</b>: si fuera el único ingreso del hogar, esa familia quedaría debajo de la línea de pobreza.</p>
+    <p>La canasta total de esa familia, la que marca el piso de la clase media, era de $1.994.870: el sueldo cubre el <b>57,0%</b>.</p>
+    <p>Hace un año la proporción era casi la misma: en junio de 2025 el sueldo cubría el 72,0% de la línea de pobreza porteña. Medido con la canasta del INDEC para el Gran Buenos Aires, la cobertura de junio da 74,3%. Con cualquiera de las dos varas, el resultado es el mismo: un sueldo no alcanza para esa familia.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Junio de 2026 · sueldo de bolsillo, 10 años de antigüedad: $1.137.748</div>
+        <h3>Si fuera el único ingreso, una familia de cuatro quedaría debajo de la línea de pobreza</h3>
+        <p class="fig-sub">Parte de cada canasta que cubre un solo sueldo de maestro, si fuera el único ingreso del hogar, en %.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 190" role="img" aria-label="Qué parte de cada canasta de junio de 2026 cubre el sueldo de bolsillo de un maestro porteño con 10 años de antigüedad, $1.137.748: Una persona sola, propietaria: canasta total: 109,5% ($1.039.194); Pareja de 25 años que alquila: línea de pobreza: 103,9% ($1.094.635); Familia de cuatro: línea de pobreza (INDEC, GBA): 74,3% ($1.531.473); Familia de cuatro: línea de pobreza (Ciudad): 72,1% ($1.577.314); Familia de cuatro: canasta total (Ciudad): 57,0% ($1.994.870)">
+<text x="0" y="24" class="cl">Una persona sola, propietaria: canasta total</text>
+<rect x="400" y="10" width="383.2" height="18" class="bHoy"/>
+<text x="791.2" y="24" class="cvDato">109,5%</text>
+<text x="0" y="58" class="cl">Pareja de 25 años que alquila: línea de pobreza</text>
+<rect x="400" y="44" width="363.8" height="18" class="bHoy"/>
+<text x="771.8" y="58" class="cvDato">103,9%</text>
+<text x="0" y="92" class="cl">Familia de cuatro: línea de pobreza (INDEC, GBA)</text>
+<rect x="400" y="78" width="260.0" height="18" class="cSal"/>
+<text x="668.0" y="92" class="cvDato">74,3%</text>
+<text x="0" y="126" class="cl">Familia de cuatro: línea de pobreza (Ciudad)</text>
+<rect x="400" y="112" width="252.5" height="18" class="cSal"/>
+<text x="660.5" y="126" class="cvDato">72,1%</text>
+<text x="0" y="160" class="cl">Familia de cuatro: canasta total (Ciudad)</text>
+<rect x="400" y="146" width="199.6" height="18" class="cSal"/>
+<text x="607.6" y="160" class="cvDato">57,0%</text>
+<line x1="750.0" y1="2" x2="750.0" y2="176" stroke="#16130F" stroke-width="1" stroke-dasharray="3 3"/>
+<text x="750.0" y="188" class="cf" text-anchor="middle">100%: la cubre entera</text>
+</svg>
+      <figcaption><b>Fuente:</b> IDECBA, Líneas de pobreza y canastas de consumo para la Ciudad de Buenos Aires, junio de 2026 (informe 2043): hogar unipersonal de un varón de 25 años propietario, canasta total $1.039.194; pareja de 25 años inquilina, ambos activos, línea de pobreza $1.094.635; hogar 1, línea de pobreza $1.577.314 y canasta total $1.994.870. INDEC, canasta básica total del hogar 2, Gran Buenos Aires: $1.531.472,91. Ministerio de Capital Humano (CECE), sueldo de bolsillo. <b>Cálculo propio.</b></figcaption>
+    </figure>
+
+    <h2>¿Le ganó a la inflación?</h2>
+    <p>En el último año, no le ganó ni le perdió. Entre junio de 2025 y junio de 2026 el sueldo de bolsillo subió 32,4% y los precios de la Ciudad, 32,6%: <b>&minus;0,1% en términos reales</b>.</p>
+    <p>La pérdida está antes. Contra junio de 2023, el sueldo de bolsillo <b>compra 10,6% menos</b>. Con el índice de precios nacional del INDEC la pérdida da 7,7%.</p>
+    <p>Esa pérdida de bolsillo es más grande que la del bruto, y tiene una explicación. Entre junio de 2023 y junio de 2026 el bruto perdió solo 3,5% contra la inflación porteña. La diferencia está en qué parte del sueldo paga aportes.</p>
+    <p>En junio de 2023, solo el 67,8% del bruto pagaba aportes: el resto eran sumas «no remunerativas», que llegan enteras al bolsillo pero no cuentan para la jubilación. En diciembre de 2023 la parte con aportes saltó al 90,2% del bruto, y hoy es el 95,4%. Por eso el maestro cobra menos en la mano, pero aporta más para su jubilación.</p>
+    <p>Mirado más atrás, el sueldo de bolsillo de junio vale <b>22,2% menos que en diciembre de 2016</b>, el primer mes con índice de precios nacional. El punto más bajo de toda esa serie fue junio de 2021: $999.879 en pesos de hoy.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Maestro de grado, jornada simple, 10 años de antigüedad · en pesos de junio de 2026</div>
+        <h3>El maestro porteño cobra menos que en 2016, pero desde fines de 2023 está arriba del promedio del país</h3>
+        <p class="fig-sub">Sueldo de bolsillo mensual, en millones de pesos de junio de 2026, ajustado por el IPC nacional del INDEC. Junio de cada año, más diciembre de 2016 y de 2023.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 300" role="img" aria-label="Sueldo de bolsillo de un maestro de grado con 10 años de antigüedad, en millones de pesos de junio de 2026: dic-16, Ciudad 1,46 y promedio 1,45; jun-17, Ciudad 1,37 y promedio 1,42; jun-18, Ciudad 1,25 y promedio 1,35; jun-19, Ciudad 1,24 y promedio 1,26; jun-20, Ciudad 1,20 y promedio 1,23; jun-21, Ciudad 1,00 y promedio 1,11; jun-22, Ciudad 1,06 y promedio 1,18; jun-23, Ciudad 1,23 y promedio 1,31; dic-23, Ciudad 1,19 y promedio 1,04; jun-24, Ciudad 1,15 y promedio 0,98; jun-25, Ciudad 1,15 y promedio 1,08; jun-26, Ciudad 1,14 y promedio 1,09">
+<line x1="70" y1="250.0" x2="880" y2="250.0" class="gg"/>
+<text x="64" y="254.0" class="cv" text-anchor="end">$0,0 M</text>
+<line x1="70" y1="195.0" x2="880" y2="195.0" class="gg"/>
+<text x="64" y="199.0" class="cv" text-anchor="end">$0,4 M</text>
+<line x1="70" y1="140.0" x2="880" y2="140.0" class="gg"/>
+<text x="64" y="144.0" class="cv" text-anchor="end">$0,8 M</text>
+<line x1="70" y1="85.0" x2="880" y2="85.0" class="gg"/>
+<text x="64" y="89.0" class="cv" text-anchor="end">$1,2 M</text>
+<line x1="70" y1="30.0" x2="880" y2="30.0" class="gg"/>
+<text x="64" y="34.0" class="cv" text-anchor="end">$1,6 M</text>
+<rect x="79.5" y="48.8" width="24.3" height="201.2" class="cSal"/>
+<rect x="103.8" y="50.0" width="24.3" height="200.0" class="cInd"/>
+<text x="91.6" y="42.8" class="cv" text-anchor="middle" style="font-size:10px">1,46</text>
+<text x="103.8" y="268" class="cf" text-anchor="middle">dic-16</text>
+<rect x="146.9" y="61.0" width="24.3" height="189.0" class="cSal"/>
+<rect x="171.2" y="55.2" width="24.3" height="194.8" class="cInd"/>
+<text x="159.1" y="55.0" class="cv" text-anchor="middle" style="font-size:10px">1,37</text>
+<text x="171.2" y="268" class="cf" text-anchor="middle">jun-17</text>
+<rect x="214.4" y="77.6" width="24.3" height="172.4" class="cSal"/>
+<rect x="238.8" y="64.7" width="24.3" height="185.3" class="cInd"/>
+<text x="226.6" y="71.6" class="cv" text-anchor="middle" style="font-size:10px">1,25</text>
+<text x="238.8" y="268" class="cf" text-anchor="middle">jun-18</text>
+<rect x="281.9" y="79.9" width="24.3" height="170.1" class="cSal"/>
+<rect x="306.2" y="76.8" width="24.3" height="173.2" class="cInd"/>
+<text x="294.1" y="73.9" class="cv" text-anchor="middle" style="font-size:10px">1,24</text>
+<text x="306.2" y="268" class="cf" text-anchor="middle">jun-19</text>
+<rect x="349.4" y="84.3" width="24.3" height="165.7" class="cSal"/>
+<rect x="373.8" y="81.4" width="24.3" height="168.6" class="cInd"/>
+<text x="361.6" y="78.3" class="cv" text-anchor="middle" style="font-size:10px">1,20</text>
+<text x="373.8" y="268" class="cf" text-anchor="middle">jun-20</text>
+<rect x="416.9" y="112.5" width="24.3" height="137.5" class="cSal"/>
+<rect x="441.2" y="97.7" width="24.3" height="152.3" class="cInd"/>
+<text x="429.1" y="106.5" class="cv" text-anchor="middle" style="font-size:10px">1,00</text>
+<text x="441.2" y="268" class="cf" text-anchor="middle">jun-21</text>
+<rect x="484.4" y="104.5" width="24.3" height="145.5" class="cSal"/>
+<rect x="508.8" y="88.0" width="24.3" height="162.0" class="cInd"/>
+<text x="496.6" y="98.5" class="cv" text-anchor="middle" style="font-size:10px">1,06</text>
+<text x="508.8" y="268" class="cf" text-anchor="middle">jun-22</text>
+<rect x="552.0" y="80.5" width="24.3" height="169.5" class="cSal"/>
+<rect x="576.2" y="70.3" width="24.3" height="179.7" class="cInd"/>
+<text x="564.1" y="74.5" class="cv" text-anchor="middle" style="font-size:10px">1,23</text>
+<text x="576.2" y="268" class="cf" text-anchor="middle">jun-23</text>
+<rect x="619.5" y="86.9" width="24.3" height="163.1" class="cSal"/>
+<rect x="643.8" y="106.7" width="24.3" height="143.3" class="cInd"/>
+<text x="631.6" y="80.9" class="cv" text-anchor="middle" style="font-size:10px">1,19</text>
+<text x="643.8" y="268" class="cf" text-anchor="middle">dic-23</text>
+<rect x="687.0" y="92.3" width="24.3" height="157.7" class="cSal"/>
+<rect x="711.2" y="115.2" width="24.3" height="134.8" class="cInd"/>
+<text x="699.1" y="86.3" class="cv" text-anchor="middle" style="font-size:10px">1,15</text>
+<text x="711.2" y="268" class="cf" text-anchor="middle">jun-24</text>
+<rect x="754.5" y="92.2" width="24.3" height="157.8" class="cSal"/>
+<rect x="778.8" y="101.3" width="24.3" height="148.7" class="cInd"/>
+<text x="766.6" y="86.2" class="cv" text-anchor="middle" style="font-size:10px">1,15</text>
+<text x="778.8" y="268" class="cf" text-anchor="middle">jun-25</text>
+<rect x="822.0" y="93.6" width="24.3" height="156.4" class="bHoy"/>
+<rect x="846.2" y="100.5" width="24.3" height="149.5" class="cInd"/>
+<text x="834.1" y="87.6" class="cvDato" text-anchor="middle" style="font-size:10px">1,14</text>
+<text x="846.2" y="268" class="cf" text-anchor="middle">jun-26</text>
+<rect x="70" y="276" width="12" height="12" class="cSal"/><text x="88" y="286" class="cl">Ciudad de Buenos Aires</text>
+<rect x="290" y="276" width="12" height="12" class="cInd"/><text x="308" y="286" class="cl">Promedio del país</text>
+</svg>
+      <figcaption><b>Fuente:</b> Ministerio de Capital Humano, Secretaría de Educación (CECE), serie «Salario de bolsillo, maestro de grado con 10 años de antigüedad», Ciudad de Buenos Aires y promedio ponderado, actualizada el 04/08/2026 (datos provisorios); INDEC, IPC nacional. <b>Cálculo propio</b> del ajuste por inflación. Se usa el IPC nacional porque el índice porteño publicado en la planilla consultada empieza en 2022.</figcaption>
+    </figure>
+
+    <h2>La Ciudad frente al resto del país</h2>
+    <p>Cada provincia paga a sus maestros con su propia escala. En junio, la Ciudad quedó <b>11.ª entre 24</b>: $1.137.748, un 4,7% más que el promedio del país ($1.087.013) y <b>un 20,6% más que un maestro bonaerense</b> ($943.608).</p>
+    <p>Esa posición la deja lejos de la punta. Cuatro de las cinco que más pagan son patagónicas, donde el sueldo suma un adicional por zona; Neuquén, la primera, paga $1.856.209. Hace tres años la Ciudad estaba 15.ª; en junio de 2025, 10.ª.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Junio de 2026 · las 24 jurisdicciones</div>
+        <h3>La Ciudad está en la mitad de arriba, lejos de las que más pagan</h3>
+        <p class="fig-sub">Sueldo de bolsillo mensual de un maestro de grado, jornada simple, 10 años de antigüedad, en pesos.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 900 650" role="img" aria-label="Sueldo de bolsillo de un maestro de grado con diez años de antigüedad, junio de 2026: Neuquén $1.856.209; Santiago del Estero $1.730.000; Santa Cruz $1.497.539; Río Negro $1.357.663; Tierra del Fuego $1.330.015; Córdoba $1.325.205; La Pampa $1.248.000; Salta $1.193.089; San Juan $1.184.323; Corrientes $1.143.495; Ciudad de Buenos Aires $1.137.748; Santa Fe $1.118.873; Promedio del país $1.087.013; Jujuy $1.082.369; Chaco $1.036.951; Tucumán $1.016.560; San Luis $1.012.511; Formosa $1.000.000; Chubut $969.801; Buenos Aires $943.608; La Rioja $896.689; Catamarca $870.000; Entre Ríos $864.310; Mendoza $822.870; Misiones $808.715. Línea de pobreza porteña de una familia de cuatro: $1.577.314">
+<text x="182" y="23" class="cl" text-anchor="end">1. Neuquén</text>
+<rect x="190" y="10" width="508.0" height="16" class="cOtro"/>
+<text x="704.0" y="23" class="cv">$1.856.209</text>
+<text x="182" y="47" class="cl" text-anchor="end">2. Santiago del Estero</text>
+<rect x="190" y="34" width="473.5" height="16" class="cOtro"/>
+<text x="669.5" y="47" class="cv">$1.730.000</text>
+<text x="182" y="71" class="cl" text-anchor="end">3. Santa Cruz</text>
+<rect x="190" y="58" width="409.9" height="16" class="cOtro"/>
+<text x="605.9" y="71" class="cv">$1.497.539</text>
+<text x="182" y="95" class="cl" text-anchor="end">4. Río Negro</text>
+<rect x="190" y="82" width="371.6" height="16" class="cOtro"/>
+<text x="567.6" y="95" class="cv">$1.357.663</text>
+<text x="182" y="119" class="cl" text-anchor="end">5. Tierra del Fuego</text>
+<rect x="190" y="106" width="364.0" height="16" class="cOtro"/>
+<text x="560.0" y="119" class="cv">$1.330.015</text>
+<text x="182" y="143" class="cl" text-anchor="end">6. Córdoba</text>
+<rect x="190" y="130" width="362.7" height="16" class="cOtro"/>
+<text x="558.7" y="143" class="cv">$1.325.205</text>
+<text x="182" y="167" class="cl" text-anchor="end">7. La Pampa</text>
+<rect x="190" y="154" width="341.6" height="16" class="cOtro"/>
+<text x="537.6" y="167" class="cv">$1.248.000</text>
+<text x="182" y="191" class="cl" text-anchor="end">8. Salta</text>
+<rect x="190" y="178" width="326.5" height="16" class="cOtro"/>
+<text x="522.5" y="191" class="cv">$1.193.089</text>
+<text x="182" y="215" class="cl" text-anchor="end">9. San Juan</text>
+<rect x="190" y="202" width="324.1" height="16" class="cOtro"/>
+<text x="520.1" y="215" class="cv">$1.184.323</text>
+<text x="182" y="239" class="cl" text-anchor="end">10. Corrientes</text>
+<rect x="190" y="226" width="313.0" height="16" class="cOtro"/>
+<text x="509.0" y="239" class="cv">$1.143.495</text>
+<text x="182" y="263" class="cl" text-anchor="end" style="font-weight:600;fill:#16130F">11. Ciudad de Buenos Aires</text>
+<rect x="190" y="250" width="311.4" height="16" class="bHoy"/>
+<text x="507.4" y="263" class="cvDato">$1.137.748</text>
+<text x="182" y="287" class="cl" text-anchor="end">12. Santa Fe</text>
+<rect x="190" y="274" width="306.2" height="16" class="cOtro"/>
+<text x="502.2" y="287" class="cv">$1.118.873</text>
+<text x="182" y="311" class="cl" text-anchor="end">Promedio del país</text>
+<rect x="190" y="298" width="297.5" height="16" class="cRef"/>
+<text x="493.5" y="311" class="cvDato">$1.087.013</text>
+<text x="182" y="335" class="cl" text-anchor="end">13. Jujuy</text>
+<rect x="190" y="322" width="296.2" height="16" class="cOtro"/>
+<text x="492.2" y="335" class="cv">$1.082.369</text>
+<text x="182" y="359" class="cl" text-anchor="end">14. Chaco</text>
+<rect x="190" y="346" width="283.8" height="16" class="cOtro"/>
+<text x="479.8" y="359" class="cv">$1.036.951</text>
+<text x="182" y="383" class="cl" text-anchor="end">15. Tucumán</text>
+<rect x="190" y="370" width="278.2" height="16" class="cOtro"/>
+<text x="474.2" y="383" class="cv">$1.016.560</text>
+<text x="182" y="407" class="cl" text-anchor="end">16. San Luis</text>
+<rect x="190" y="394" width="277.1" height="16" class="cOtro"/>
+<text x="473.1" y="407" class="cv">$1.012.511</text>
+<text x="182" y="431" class="cl" text-anchor="end">17. Formosa</text>
+<rect x="190" y="418" width="273.7" height="16" class="cOtro"/>
+<text x="469.7" y="431" class="cv">$1.000.000</text>
+<text x="182" y="455" class="cl" text-anchor="end">18. Chubut</text>
+<rect x="190" y="442" width="265.4" height="16" class="cOtro"/>
+<text x="461.4" y="455" class="cv">$969.801</text>
+<text x="182" y="479" class="cl" text-anchor="end">19. Buenos Aires</text>
+<rect x="190" y="466" width="258.3" height="16" class="cOtro"/>
+<text x="454.3" y="479" class="cv">$943.608</text>
+<text x="182" y="503" class="cl" text-anchor="end">20. La Rioja</text>
+<rect x="190" y="490" width="245.4" height="16" class="cOtro"/>
+<text x="441.4" y="503" class="cv">$896.689</text>
+<text x="182" y="527" class="cl" text-anchor="end">21. Catamarca</text>
+<rect x="190" y="514" width="238.1" height="16" class="cOtro"/>
+<text x="434.1" y="527" class="cv">$870.000</text>
+<text x="182" y="551" class="cl" text-anchor="end">22. Entre Ríos</text>
+<rect x="190" y="538" width="236.5" height="16" class="cOtro"/>
+<text x="432.5" y="551" class="cv">$864.310</text>
+<text x="182" y="575" class="cl" text-anchor="end">23. Mendoza</text>
+<rect x="190" y="562" width="225.2" height="16" class="cOtro"/>
+<text x="421.2" y="575" class="cv">$822.870</text>
+<text x="182" y="599" class="cl" text-anchor="end">24. Misiones</text>
+<rect x="190" y="586" width="221.3" height="16" class="cOtro"/>
+<text x="417.3" y="599" class="cv">$808.715</text>
+<line x1="621.7" y1="4" x2="621.7" y2="612" stroke="#16130F" stroke-width="1.2" stroke-dasharray="4 3"/>
+<text x="621.7" y="630" class="cf" text-anchor="middle">línea de pobreza porteña, familia de cuatro (IDECBA): $1.577.314</text>
+</svg>
+      <figcaption><b>Fuente:</b> Ministerio de Capital Humano (CECE), serie «Salario de bolsillo, maestro de grado con 10 años de antigüedad», junio de 2026, datos provisorios. Incluye las sumas extraordinarias que pagó cada jurisdicción ese mes (Santiago del Estero, por ejemplo); en Chubut, Corrientes, Chaco, Formosa, Mendoza, Neuquén, Río Negro, San Juan, Santa Cruz, Tierra del Fuego y Tucumán, también el adicional por zona. IDECBA, línea de pobreza del hogar 1, junio de 2026.</figcaption>
+    </figure>
+  </div>
+
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>El camino de verificación: dos fuentes independientes que coinciden.</b> El sueldo de junio sale de dos documentos que no se citan entre sí. Uno es la serie oficial del Ministerio; el otro, la grilla salarial que publica un gremio docente porteño. Coinciden al peso.</p>
+
+      <p><b>La fuente oficial.</b> Las planillas de la Coordinación de Evaluación de Costos Educativos (CECE) de la Secretaría de Educación, actualizadas el 04/08/2026: <a href="https://www.argentina.gob.ar/sites/default/files/2._salario_de_bolsillo_mg10_1.xlsx">salario de bolsillo</a> ($1.137.747,77 en junio de 2026), <a href="https://www.argentina.gob.ar/sites/default/files/1._salario_bruto_mg10.xlsx">salario bruto</a> ($1.394.542,46), <a href="https://www.argentina.gob.ar/sites/default/files/3._sueldo_basico.xlsx">sueldo básico</a> ($302.316,33) y <a href="https://www.argentina.gob.ar/sites/default/files/4._porcentaje_de_componentes_remunerativos_sobre_el_salario_bruto_provincial_del_mg10_1.xlsx">parte remunerativa del bruto</a> (95,41%). Todos los valores están marcados como provisorios.</p>
+
+      <p><b>La fuente independiente.</b> La <a href="https://ute.org.ar/wp-content/uploads/2026/06/Grilla-salarial-junio-2026.pdf">grilla salarial de junio de 2026 de UTE</a> da, para el maestro de grado de jornada simple, 1.135 puntos por un valor índice de $266,358 (básico $302.316,33). A eso le suma la suma fija de $322.061, el material didáctico de $269.101 y el adicional salarial de $62.437,73. Con diez años de antigüedad da $1.330.542,46, sin las dos sumas fijas no remunerativas de $30.000 y $34.000. Con ellas: <b>$1.394.542,46, igual al bruto oficial</b>.</p>
+
+      <p><b>Lo que recalculamos.</b> Los descuentos obligatorios de un docente porteño suman 19,3% de la parte remunerativa: 6% de obra social, 11% más 2% de jubilación (régimen docente) y 0,3% de fondo compensador, según la <a href="https://www.ademys.org.ar/v2/wp-content/uploads/2019/03/C%C3%B3mo-leer-el-recibo-2019-abril-Ademys.pdf">guía del recibo docente de Ademys</a>. Entonces: $1.330.542,46 &times; 0,807 + $64.000 = <b>$1.137.747,77</b>, el sueldo de bolsillo oficial. La máxima antigüedad sale con la misma cuenta, con 120% de antigüedad. Ese tope figura en la norma oficial de abril. Da $1.705.168,86 remunerativos: &times; 0,807 + $64.000 = $1.440.071, el mismo monto que <a href="https://ute.org.ar/mesa-salarial-junio-2026/">informó UTE</a> para junio.</p>
+
+      <p><b>La norma oficial porteña.</b> La última que encontramos es la <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/852051">Resolución 5147/SSPIE/26</a> (Boletín Oficial del 04/05/2026), que instrumenta el Acta Salarial 2/2026 con los aumentos de enero, febrero y abril. Su <a href="https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-RES-MEDGC-SSPIE-5147-26-ANX-1.pdf">anexo de especificaciones técnicas</a> confirma la estructura de la cuenta: la suma fija de $322.061 para jornada simple (y que desde abril ya no recibe aumentos), las sumas no remunerativas de $30.000 y $34.000 y las escalas de antigüedad de 0% a 120%. El acta que fija los aumentos de junio y agosto no la pudimos leer. El buscador del Boletín Oficial porteño devolvía error 500 el 26/10/2026. Por eso los valores posteriores a junio quedan afuera.</p>
+
+      <p><b>La inflación y las canastas.</b> IPC de la Ciudad (IDECBA, <a href="https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2026/08/IPCBA_base_2021100-Principales_aperturas_indices.xlsx">nivel general, base 2021 = 100</a>): 347,38 en junio de 2023, 1.870,43 en junio de 2025 y 2.480,63 en junio de 2026. El sueldo subió 6,386 veces en tres años y los precios porteños, 7,141: 6,386 / 7,141 = 0,894, <b>&minus;10,6%</b>. Contra junio de 2025: 1,3243 / 1,3262 = &minus;0,1%. Como contraste, el <a href="https://apis.datos.gob.ar/series/api/series/?ids=148.3_INIVELNAL_DICI_M_26&amp;start_date=2016-12-01&amp;format=csv">IPC nacional del INDEC</a> (1.709,6115; 8.855,5681; 11.826,4103) da &minus;7,7% y &minus;0,8%: misma dirección y mismo orden; la diferencia es que los precios porteños subieron más que los nacionales en esos tres años. Las canastas: <a href="https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2026/07/ir_2026_2043.pdf">IDECBA, informe 2043</a> (publicado el 08/07/2026) y <a href="https://www.indec.gob.ar/ftp/cuadros/sociedad/serie_cba_cbt.xls">INDEC, canasta básica total</a>.</p>
+
+      <p><b>Qué no afirmamos.</b> Es el sueldo de un caso tipo: un solo cargo de jornada simple, sin cargas de familia ni descuentos personales, ni impuesto a las ganancias. Un maestro con doble cargo o de jornada completa cobra más; un profesor de secundaria cobra por hora cátedra. Tampoco es el promedio de todos los docentes porteños: ese dato no se publica. No damos el sueldo de octubre ni el de un maestro que recién empieza, por las razones de arriba.</p>
+
+      <div class="meta">
+        <span><b>Fuentes</b> Ministerio de Capital Humano (CECE) · UTE · Ademys · Boletín Oficial CABA · IDECBA · INDEC</span>
+        <span><b>Verificación</b> dos fuentes independientes, recalculado</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+
+    <p>La respuesta corta a la pregunta es que un maestro porteño con diez años de carrera cobra algo más de un millón cien mil pesos por un cargo, y que eso no alcanza para que una familia de cuatro salga de la pobreza si es el único ingreso. La Ciudad paga más que 13 de las otras 23 jurisdicciones, pero lejos de las que más pagan.</p>
+    <p>La respuesta larga es que el sueldo dejó de caer, pero no recuperó. Desde junio de 2024, descontada la inflación nacional, se movió menos de 1%, y quedó por debajo de lo que valía en 2016 y en 2023.</p>
+    <p>Para un dato tan seguido como este hay un problema extra: el Gobierno porteño publica las actas salariales en el Boletín Oficial, pero el último sueldo que se puede reconstruir con documentos oficiales tiene cuatro meses. Queda abierta la pregunta de cuánto cobra hoy ese maestro, que depende de normas que no encontramos y de una oferta para noviembre que el gremio todavía no aceptó.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si sos maestro de grado en una escuela pública porteña</b>, podés comparar tu recibo de junio con esta cuenta. Al básico ($302.316) sumale la suma fija ($322.061) y la antigüedad sobre esos dos. Después, el material didáctico ($269.101 desde el 50% de antigüedad) y el adicional del 10%. Descontá el 19,3% de esa parte y sumá $64.000. Si te da distinto, puede ser por otros cargos, por descuentos personales o por el adicional que te corresponde.</p>
+      <p data-perfil="trabajador"><b>Si tu familia vive de un solo sueldo docente</b>, en junio ese sueldo cubría el 72,1% de la línea de pobreza porteña de una pareja con dos hijos. Con dos sueldos de ese nivel, la familia supera esa línea y queda arriba de la canasta total de la Ciudad ($2.275.496 contra $1.994.870).</p>
+    </div>
+  </div>
+
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+
+    <details>
+      <summary>La serie de la Ciudad, en pesos de cada momento</summary>
+      <p>Sueldo de bolsillo, maestro de grado, jornada simple, 10 años de antigüedad, Ciudad de Buenos Aires. dic-16 $12.372 &#183; jun-17 $13.000 &#183; jun-18 $15.355 &#183; jun-19 $23.592 &#183; jun-20 $32.800 &#183; jun-21 $40.887 &#183; jun-22 $70.956 &#183; jun-23 $178.157 &#183; dic-23 $354.419 &#183; jun-24 $615.862 &#183; jun-25 $859.134 &#183; jun-26 <b>$1.137.748</b>. En pesos de junio de 2026: de $1.463.221 en diciembre de 2016 a $1.137.748 hoy.</p>
+    </details>
+
+    <details>
+      <summary>Qué decía la última norma oficial sobre el maestro que recién empieza</summary>
+      <p>El anexo de la <a href="https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-RES-MEDGC-SSPIE-5147-26-ANX-1.pdf">Resolución 5147/SSPIE/26</a> fija para abril de 2026 un «sueldo mínimo garantizado» no remunerativo, con un tope de $871.407 para un cargo de jornada simple y de $1.742.814 para jornada completa. El valor de junio no figura en ningún documento oficial que hayamos encontrado. Por eso no lo damos como el sueldo de hoy de un maestro que empieza.</p>
+    </details>
+
+    <details>
+      <summary>Esta nota y la del promedio del país</summary>
+      <p>El 6 de octubre publicamos <a href="2026-10-06-cuanto-cobra-maestro-sueldo-docente-inflacion.html">cuánto cobra un maestro en todo el país</a>, con la misma serie oficial: $1.087.013 de bolsillo en junio, 16,8% menos que en junio de 2023. El maestro porteño perdió menos en esos tres años (7,7% con el mismo índice nacional). Por eso pasó del puesto 15 al 11 y desde diciembre de 2023 cobra más que el promedio.</p>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Ministerio de Capital Humano, Secretaría de Educación (CECE) — <a href="https://www.argentina.gob.ar/capital-humano/educacion/informacion-y-evaluacion-educativa/series-salario-docente">Series de salario docente</a>: <a href="https://www.argentina.gob.ar/sites/default/files/2._salario_de_bolsillo_mg10_1.xlsx">salario de bolsillo</a>, <a href="https://www.argentina.gob.ar/sites/default/files/1._salario_bruto_mg10.xlsx">salario bruto</a>, <a href="https://www.argentina.gob.ar/sites/default/files/3._sueldo_basico.xlsx">sueldo básico</a> y <a href="https://www.argentina.gob.ar/sites/default/files/4._porcentaje_de_componentes_remunerativos_sobre_el_salario_bruto_provincial_del_mg10_1.xlsx">parte remunerativa</a> del maestro de grado, actualizadas el 04/08/2026 (datos provisorios)</li>
+        <li>&#8250; Boletín Oficial de la Ciudad de Buenos Aires — <a href="https://boletinoficial.buenosaires.gob.ar/normativaba/norma/852051">Resolución 5147/SSPIE/26</a>, Acta Salarial 2/2026, y su <a href="https://documentosboletinoficial.buenosaires.gob.ar/publico/PE-RES-MEDGC-SSPIE-5147-26-ANX-1.pdf">anexo de especificaciones técnicas</a> (04/05/2026)</li>
+        <li>&#8250; UTE (Unión de Trabajadores de la Educación) — <a href="https://ute.org.ar/wp-content/uploads/2026/06/Grilla-salarial-junio-2026.pdf">grilla salarial de junio de 2026</a>; <a href="https://ute.org.ar/wp-content/uploads/2026/09/2026-agosto.pdf">grilla de agosto de 2026</a>; <a href="https://ute.org.ar/mesa-salarial-junio-2026/">mesa salarial de junio</a> (16/06/2026) y <a href="https://ute.org.ar/mesa-salarial-octubre-2026/">de octubre</a> (20/10/2026)</li>
+        <li>&#8250; Ademys — <a href="https://www.ademys.org.ar/v2/wp-content/uploads/2019/03/C%C3%B3mo-leer-el-recibo-2019-abril-Ademys.pdf">Cómo leer el recibo docente</a> (descuentos obligatorios: 19,3%)</li>
+        <li>&#8250; IDECBA — <a href="https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2026/07/ir_2026_2043.pdf">Líneas de pobreza y canastas de consumo, junio de 2026</a> (informe 2043); <a href="https://www.estadisticaciudad.gob.ar/eyc/wp-content/uploads/2026/08/IPCBA_base_2021100-Principales_aperturas_indices.xlsx">IPCBA, nivel general</a></li>
+        <li>&#8250; INDEC — <a href="https://apis.datos.gob.ar/series/api/series/?ids=148.3_INIVELNAL_DICI_M_26&amp;start_date=2016-12-01&amp;format=csv">IPC nacional en datos.gob.ar</a>; <a href="https://www.indec.gob.ar/ftp/cuadros/sociedad/serie_cba_cbt.xls">canasta básica total</a> (hogar 2, junio de 2026: $1.531.472,91)</li>
+        <li>&#8250; Con Interés — <b>cálculo propio</b>: el sueldo de bolsillo desde la grilla, la máxima antigüedad, el ajuste por inflación, el puesto entre jurisdicciones y la cobertura de las canastas. Se puede rehacer con las fuentes de arriba.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Prototipo editorial. Los datos provienen de fuentes públicas citadas y fueron consolidados el 26/10/2026. Es el sueldo de un cargo testigo según la serie oficial, con datos provisorios. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
