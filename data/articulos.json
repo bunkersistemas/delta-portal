@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-26T19:05:29-03:00",
+    "actualizado": "2026-10-26T20:44:47-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-26-chapadmalal-hoteles-concesion-canon-199-millones",
+      "titulo": "Los seis hoteles de Chapadmalal salen a concesión con un canon base de $199 millones por mes, y quien se quede con todos empieza a pagar en el sexto año",
+      "bajada": "La concesión de los hoteles 1 a 6 de la Unidad Turística Chapadmalal es por 30 años, pero si un solo oferente gana los seis, el primer pago llega en el mes 61. El piso lo fija el pliego del concurso que abrió la AABE el 22 de octubre: 94.682,87 UVA por mes, $199 millones al valor de la UVA que usó el Tribunal de Tasaciones y $205,3 millones al de hoy.",
+      "titulo_busqueda": "¿Cuánto va a pagar el que se quede con los hoteles de Chapadmalal?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$199 M",
+      "numero_label": "canon base mensual de los hoteles 1 a 6 de la Unidad Turística Chapadmalal (Concurso Público AABE 392-0005-CPU26, BO 22/10/2026; pliego PLIEG-2026-97074544-APN-DCCYS#AABE, art. 8, cuadro del Tribunal de Tasaciones): $199.014.000 = 94.682,87 UVA (14.439,31 + 11.023,35 + 12.443,02 + 19.434,79 + 23.231,36 + 14.111,04). Recalculado: pesos/UVA = $2.101,90 en los seis renglones = UVA BCRA 02/09/2026; x360 = $71.645.040.000. Contraste COMPR.AR: garantías de oferta = 12 x canon de cada renglón; impugnación $716.450.400 = 1% del total; UVA $2.142,08 del 05/10 = BCRA. UVA 26/10 $2.168,29: $205,3 M/mes; A3500 26/10 $1.540,4751: US$133.271/mes, US$48,0 M en 360 meses. Art. 22: diferimiento 60 meses si un solo concesionario (300 cuotas desde el mes 61 = 113.619,44 UVA, $246,4 M hoy) o 36 por renglón (324 cuotas desde el mes 37).",
+      "fecha": "2026-10-26",
+      "hora": "21:30",
+      "archivo": "articulos/2026-10-26-chapadmalal-hoteles-concesion-canon-199-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores",
       "titulo": "La ART Productores de Frutas cubría a 34.895 trabajadores y sus contratos terminan el 1 de noviembre: en julio cobró 13 de cada 100 pesos pactados",
