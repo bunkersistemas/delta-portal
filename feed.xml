@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 26 Oct 2026 14:54:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 17:02:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Cada argentino que viajó al exterior gastó US$1.631 sin contar el pasaje en el tercer trimestre, 14,5% más que un año antes</title>
+      <link>https://coninteres.com/articulos/2026-10-26-gasto-por-viajero-exterior-tercer-trimestre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-26-gasto-por-viajero-exterior-tercer-trimestre.html</guid>
+      <pubDate>Mon, 26 Oct 2026 17:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Viajaron 7% menos personas, pero cada una gastó más. Entre julio y septiembre, cada turista que salió por Ezeiza y Aeroparque gastó en promedio US$1.631 afuera, sin contar el pasaje internacional, según el INDEC: 14,5% más que un año antes y el gasto por viajero más alto para un tercer trimestre en la serie comparable, que empieza en 2016. La explicación está en dos números: se quedaron más noches y gastaron más por día. Entre todos dejaron US$1.558,9 millones.</description>
+      <ci:numero>US$1.631</ci:numero>
+      <ci:numeroEtiqueta>gasto promedio por viajero, sin transporte internacional, de los turistas residentes que salieron por Ezeiza y Aeroparque en el 3er trimestre de 2026 (INDEC ETI, informe del 26/10/2026, cuadros 17, 18 y 21; serie eti26_serie_cuadros.xls hoja Emisivo_serie_4: US$1.630,85 contra US$1.424,63 en 3T-2025, +14,5%). Recalculado: US$1.558,9 M / 955,9 mil = 1.630,8; 103,8 x 15,7 = 1.629,7. Récord previo de un 3er trimestre: 2018, US$1.545,63 (serie comparable desde 2016; 2020-21 sin dato). Contraste BCRA (anexo balance cambiario, estimación de egresos por viajes y pasajes): jul-ago 2026 US$1.844,5 M contra US$1.795,0 M (+2,8%) con turistas emisivos de todas las vías -17,8%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-gasto-por-viajero-exterior-tercer-trimestre.png" length="78331" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-gasto-por-viajero-exterior-tercer-trimestre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina pagará US$234.000 por la muerte de Cristina Brítez Arce en la Maternidad Sardá, dos años y nueve meses después del plazo de la Corte Interamericana</title>
       <link>https://coninteres.com/articulos/2026-10-26-corte-interamericana-britez-arce-234-mil-dolares.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>interés resarcitorio mensual de ARCA por deudas impositivas en pesos (art. 37 Ley 11.683), vigente desde el 01/07/2025: Res. ME 823/2025 art. 1 (BO 25/06/2025) = tabla ARCA 'Tasas vigentes desde el 01/07/2025' (2,75% mensual, 0,091667 diario; última tabla del listado al 24/10/2026) = RG ARCA 5875/2026 art. 5 (tasa del plan = resarcitorio vigente, BO 14/07/2026). 12 meses = 33% (365 días 33,46%); IPC INDEC sep-26/sep-25 = 12.514,1508/9.384,0922 = 33,4% (IPCBA 32,9%). Mínimo de la serie ARCA desde sep-2022 (previo 4,00% mar-jun 2025). Dic-23: tasa 5,91% vs IPC 25,5%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-arca-interes-pagar-tarde-impuestos.png" length="86233" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-arca-interes-pagar-tarde-impuestos.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Brasil se llevó solo 25 de cada 100 dólares del trigo que exportó la Argentina en nueve meses, la menor parte desde 2002: cuatro países de Asia compraron 44,7%</title>
-      <link>https://coninteres.com/articulos/2026-10-23-trigo-brasil-menor-parte-asia.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-23-trigo-brasil-menor-parte-asia.html</guid>
-      <pubDate>Fri, 23 Oct 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y septiembre la Argentina vendió trigo al mundo por US$2.904,8 millones, 33,7% más que un año antes, según el INDEC. Brasil, el comprador de siempre, se llevó US$733,3 millones: el 25,2%, cuando hace un año era el 43,3%. Le compró 3,25 millones de toneladas, 19% menos. La diferencia la pusieron Vietnam, Indonesia, Bangladesh y Tailandia.</description>
-      <ci:numero>25,2%</ci:numero>
-      <ci:numeroEtiqueta>parte de Brasil en el valor FOB del trigo (NCM 1001.99.00) que exportó la Argentina en enero-septiembre de 2026: US$733,34 M de US$2.904,77 M (INDEC, base de comercio exterior; total = ICA sep-26 cuadro 31). Brasil: 3.252.940 t INDEC vs 3.212.502 t y US$734,34 M ComexStat (dif. 1,3% y 0,1%). 2025: 43,3% (US$940,04 M de 2.172,99 M). Mínimo previo desde 2002: 2022, 29,0%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-23-trigo-brasil-menor-parte-asia.png" length="94027" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-23-trigo-brasil-menor-parte-asia.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-26T14:53:51-03:00",
+    "actualizado": "2026-10-26T17:01:59-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-26-gasto-por-viajero-exterior-tercer-trimestre",
+      "titulo": "Cada argentino que viajó al exterior gastó US$1.631 sin contar el pasaje en el tercer trimestre, 14,5% más que un año antes",
+      "bajada": "Viajaron 7% menos personas, pero cada una gastó más. Entre julio y septiembre, cada turista que salió por Ezeiza y Aeroparque gastó en promedio US$1.631 afuera, sin contar el pasaje internacional, según el INDEC: 14,5% más que un año antes y el gasto por viajero más alto para un tercer trimestre en la serie comparable, que empieza en 2016. La explicación está en dos números: se quedaron más noches y gastaron más por día. Entre todos dejaron US$1.558,9 millones.",
+      "titulo_busqueda": "¿Cuánto gasta un argentino en un viaje al exterior?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$1.631",
+      "numero_label": "gasto promedio por viajero, sin transporte internacional, de los turistas residentes que salieron por Ezeiza y Aeroparque en el 3er trimestre de 2026 (INDEC ETI, informe del 26/10/2026, cuadros 17, 18 y 21; serie eti26_serie_cuadros.xls hoja Emisivo_serie_4: US$1.630,85 contra US$1.424,63 en 3T-2025, +14,5%). Recalculado: US$1.558,9 M / 955,9 mil = 1.630,8; 103,8 x 15,7 = 1.629,7. Récord previo de un 3er trimestre: 2018, US$1.545,63 (serie comparable desde 2016; 2020-21 sin dato). Contraste BCRA (anexo balance cambiario, estimación de egresos por viajes y pasajes): jul-ago 2026 US$1.844,5 M contra US$1.795,0 M (+2,8%) con turistas emisivos de todas las vías -17,8%",
+      "fecha": "2026-10-26",
+      "hora": "17:30",
+      "archivo": "articulos/2026-10-26-gasto-por-viajero-exterior-tercer-trimestre.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-26-corte-interamericana-britez-arce-234-mil-dolares",
       "titulo": "La Argentina pagará US$234.000 por la muerte de Cristina Brítez Arce en la Maternidad Sardá, dos años y nueve meses después del plazo de la Corte Interamericana",
