@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 26 Oct 2026 05:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 06:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las represas generaron 32% más en septiembre y los hogares pagaron el 74% de lo que costó generar su luz, la parte más alta del año</title>
+      <link>https://coninteres.com/articulos/2026-10-26-represas-luz-hogares-74-por-ciento-costo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-26-represas-luz-hogares-74-por-ciento-costo.html</guid>
+      <pubDate>Mon, 26 Oct 2026 07:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En septiembre, generar la energía de los hogares costó 20,4% menos que en agosto, y lo que pagan los hogares casi no cambió. Así cubrieron el 74% de ese costo, según CAMMESA: la proporción más alta de 2026. El Estado puso el 26% restante, contra 43% en agosto. La baja vino del agua: con el río Paraná crecido, las centrales hidroeléctricas grandes generaron 3.508 GWh, 31,8% más que un año antes, y las térmicas, que queman gas, 11,6% menos.</description>
+      <ci:numero>+32%</ci:numero>
+      <ci:numeroEtiqueta>creció la generación de las centrales hidroeléctricas de más de 50 MW en septiembre de 2026 contra septiembre de 2025: de 2.662 a 3.508 GWh (CAMMESA, informe mensual de septiembre 2026, publicado el 19/10/2026; recálculo propio desde la base del informe, máquina por máquina: 2.661.781,5 -&gt; 3.508.488,8 MWh, +31,81%; Yacyretá 1.038.099 -&gt; 1.624.650 MWh, +56,5%). Contraste independiente: Entidad Binacional Yacyretá, caudal afluente de septiembre 37% sobre el promedio del mes (12.339 m3/s, serie 1971-2025). Apoyo: los hogares cubrieron el 73,8% (CAMMESA: 74%) del costo de su energía, $84.288 sobre $114.280 por MWh, contra 56,7% en agosto; máximo previo de 2026: abril, 69,2%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-represas-luz-hogares-74-por-ciento-costo.png" length="87324" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-represas-luz-hogares-74-por-ciento-costo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Presupuesto 2027 alcanza justo para pagar $78.000 por mes del Acompañamiento Social, el monto de 2023, y no tiene un peso para Volver al Trabajo</title>
       <link>https://coninteres.com/articulos/2026-10-26-presupuesto-2027-acompanamiento-social-volver-al-trabajo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>premio de la CONMEBOL al campeón de la Sudamericana 2026 (anuncio 19/03/2026 y balance de semifinalistas 24/09/2026; contraste Infobae y Primicias); subcampeón US$2,5 M. Boca lleva US$2,6 M en la copa: US$12,6 M si gana, US$5,1 M si pierde. Equivale al 5,8% de los ingresos del presupuesto 2026/27 ($239.392 M de abril 2026 = US$173,3 M al A3500 promedio de abril, $1.381,45) y al 5,0% de los del balance 2024/25 ($237.615 M = US$199,0 M al A3500 del 30/06/2025, $1.194,08)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-21-boca-final-sudamericana-cuanta-plata.png" length="80559" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-21-boca-final-sudamericana-cuanta-plata.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Ver a U2 en River cuesta desde $120.000: el campo general sale medio salario mínimo, lo mismo que Taylor Swift en 2023</title>
-      <link>https://coninteres.com/articulos/2026-10-20-u2-river-cuanto-cuesta-entrada.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-20-u2-river-cuanto-cuesta-entrada.html</guid>
-      <pubDate>Tue, 20 Oct 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Los dos shows, el 23 y el 25 de marzo de 2027 en River, son los únicos en el país. La productora anunció precios de $120.000 a $700.000 más el cargo por servicio, y el campo general, a $185.000, equivale a 0,47 salarios mínimos. Es casi lo mismo que costaba el campo de Taylor Swift cuando salió a la venta, en junio de 2023: 0,45. Lo que no tiene número es la plata que mueven los recitales: ningún organismo la mide show por show, y los hoteles porteños se llenan todos los noviembres, haya o no un recital gigante.</description>
-      <ci:numero>$185.000</ci:numero>
-      <ci:numeroEtiqueta>precio de la entrada de campo general para ver a U2 en River el 23 o el 25 de marzo de 2027, sin cargo por servicio (anuncio de DF Entertainment publicado igual por La Nación, La Capital y Crónica; se confirma en All Access el 22/10): 0,47 salarios mínimos de octubre ($391.200, Res. 4/2026), 14 días de salario mínimo y US$120 al oficial BNA de $1.545. Taylor Swift 2023, campo trasero: 0,45 salarios mínimos</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-20-u2-river-cuanto-cuesta-entrada.png" length="79465" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-20-u2-river-cuanto-cuesta-entrada.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

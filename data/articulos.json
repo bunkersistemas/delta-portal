@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-26T05:00:10-03:00",
+    "actualizado": "2026-10-26T06:47:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-26-represas-luz-hogares-74-por-ciento-costo",
+      "titulo": "Las represas generaron 32% más en septiembre y los hogares pagaron el 74% de lo que costó generar su luz, la parte más alta del año",
+      "bajada": "En septiembre, generar la energía de los hogares costó 20,4% menos que en agosto, y lo que pagan los hogares casi no cambió. Así cubrieron el 74% de ese costo, según CAMMESA: la proporción más alta de 2026. El Estado puso el 26% restante, contra 43% en agosto. La baja vino del agua: con el río Paraná crecido, las centrales hidroeléctricas grandes generaron 3.508 GWh, 31,8% más que un año antes, y las térmicas, que queman gas, 11,6% menos.",
+      "titulo_busqueda": "¿Cuánto de la factura de luz paga el Estado?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+32%",
+      "numero_label": "creció la generación de las centrales hidroeléctricas de más de 50 MW en septiembre de 2026 contra septiembre de 2025: de 2.662 a 3.508 GWh (CAMMESA, informe mensual de septiembre 2026, publicado el 19/10/2026; recálculo propio desde la base del informe, máquina por máquina: 2.661.781,5 -> 3.508.488,8 MWh, +31,81%; Yacyretá 1.038.099 -> 1.624.650 MWh, +56,5%). Contraste independiente: Entidad Binacional Yacyretá, caudal afluente de septiembre 37% sobre el promedio del mes (12.339 m3/s, serie 1971-2025). Apoyo: los hogares cubrieron el 73,8% (CAMMESA: 74%) del costo de su energía, $84.288 sobre $114.280 por MWh, contra 56,7% en agosto; máximo previo de 2026: abril, 69,2%",
+      "fecha": "2026-10-26",
+      "hora": "07:30",
+      "archivo": "articulos/2026-10-26-represas-luz-hogares-74-por-ciento-costo.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-26-presupuesto-2027-acompanamiento-social-volver-al-trabajo",
       "titulo": "El Presupuesto 2027 alcanza justo para pagar $78.000 por mes del Acompañamiento Social, el monto de 2023, y no tiene un peso para Volver al Trabajo",
