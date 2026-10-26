@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-26T10:51:06-03:00",
+    "actualizado": "2026-10-26T13:31:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-26-dolar-brasil-sube-9-por-ciento-lula-mas-barato-en-dolares",
+      "titulo": "El dólar subió 9,2% en Brasil el día después de la reelección de Lula, la mayor suba en un día desde 2008",
+      "bajada": "La cotización oficial del Banco Central do Brasil pasó de 5,0377 a 5,5007 reales por dólar. Para un argentino que viaja con dólares, lo que allá cuesta R$100 bajó de US$19,85 a US$18,18: 8,4% menos que el viernes. Pero el salto devolvió al real al nivel de fin de 2025, y los precios brasileños siguieron subiendo: con los de septiembre, Brasil en dólares queda casi igual que en el verano pasado y 18,5% más caro que en el de 2025.",
+      "titulo_busqueda": "¿Está más barato Brasil después de la elección? Cuánto subió el dólar y cuánto vale el real hoy",
+      "seccion": "MERCADOS",
+      "formato": "El número del día",
+      "numero": "+9,2%",
+      "numero_label": "suba del dólar en reales el 26/10/2026, PTAX de cierre del Banco Central do Brasil contra el viernes",
+      "fecha": "2026-10-26",
+      "hora": "13:30",
+      "archivo": "articulos/2026-10-26-dolar-brasil-sube-9-por-ciento-lula-mas-barato-en-dolares.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-26-colectivo-bonaerense-boleto-120-por-ciento-en-un-ano",
       "titulo": "El boleto mínimo de los colectivos bonaerenses cuesta $1.215,09, 120,8% más que hace un año, contra una inflación de 33,5% en el Gran Buenos Aires",
