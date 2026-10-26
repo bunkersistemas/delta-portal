@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-25T18:53:36-03:00",
+    "actualizado": "2026-10-25T22:55:20-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-25-brasil-lula-reelecto-tse-que-significa-argentina",
+      "titulo": "Lula fue reelecto en Brasil con el 51,78% de los votos válidos, según el TSE: qué dice su programa sobre el Mercosur, el gas y los autos",
+      "bajada": "Lula llegó segundo a la primera vuelta y ganó la segunda: según la Agência Senado, es la primera vez que un candidato a presidente da vuelta el resultado entre las dos vueltas. Con el 99,99% de las secciones totalizadas, al corte de las 22:33, el Tribunal Superior Electoral (TSE) da a Luiz Inácio Lula da Silva (PT) 64,25 millones de votos, el 51,78% de los válidos, y a Flávio Bolsonaro (PL) 59,82 millones, el 48,22%. Su programa de gobierno no nombra a la Argentina, pero pone al Mercosur como plataforma principal y promete integrar el gas de la región: dos rubros, con los autos, en los que Brasil pesa mucho para la Argentina.",
+      "titulo_busqueda": "¿Quién ganó las elecciones en Brasil y qué significa para la Argentina?",
+      "seccion": "MUNDO",
+      "formato": "Balotaje en Brasil · el resultado",
+      "numero": "51,78%",
+      "numero_label": "de los votos válidos para Lula en la segunda vuelta de Brasil, según el TSE (99,99% de las secciones, corte de las 22:33)",
+      "fecha": "2026-10-25",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-25-brasil-lula-reelecto-tse-que-significa-argentina.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "cobertura": "brasil-2026-4"
+    },
     {
       "id": "2026-10-25-brasil-conteo-frenado-tse-025-escrutado",
       "titulo": "El TSE frenó el conteo de Brasil con el 0,25% de las secciones escrutadas, después de que el Supremo ordenara extender la votación hasta las 19",
