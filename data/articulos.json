@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-26T10:21:00-03:00",
+    "actualizado": "2026-10-26T10:51:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-26-colectivo-bonaerense-boleto-120-por-ciento-en-un-ano",
+      "titulo": "El boleto mínimo de los colectivos bonaerenses cuesta $1.215,09, 120,8% más que hace un año, contra una inflación de 33,5% en el Gran Buenos Aires",
+      "bajada": "El boleto mínimo de las líneas de colectivo de la Provincia en el conurbano subió 120,8% en un año, de $550,30 en octubre de 2025 a $1.215,09 en octubre de 2026, mientras la inflación del Gran Buenos Aires fue de 33,5%. La diferencia no es un desvío de la regla: al ajuste mensual por inflación más 2 puntos, la Provincia le sumó dos subas extraordinarias de 10% y, en mayo, un 8,29% por el combustible. Los viajes largos subieron más: el de más de 27 km, 184%.",
+      "titulo_busqueda": "¿Cuánto sale el colectivo en la provincia de Buenos Aires?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$1.215,09",
+      "numero_label": "boleto mínimo (0 a 3 km, tarifa plena con SUBE registrada) de las líneas provinciales urbanas del Gran Buenos Aires desde el 01/10/2026: anexo I del aviso del Ministerio de Transporte PBA, BO n.° 30.331 (29/09/2026, IF-2026-34079281-GDEBA-DAETMTRAGP) = tabla Red SUBE argentina.gob.ar. Octubre 2025: $550,30 (BO n.° 30.088, 29/09/2025) -> +120,8%. IPC GBA INDEC sep-25 a sep-26: 33,5%. Subas extraordinarias: Res. 342/2025 (+10%, dic-25), Res. 66/2026 (+10%, mar-26), Res. 122/2026 (+8,29% combustible, tramos nuevos, SUBE sin nominar = tarifa técnica, may-26)",
+      "fecha": "2026-10-26",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-26-colectivo-bonaerense-boleto-120-por-ciento-en-un-ano.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-26-cuanto-gana-maestro-ciudad-buenos-aires",
       "titulo": "¿Cuánto gana un maestro en la Ciudad de Buenos Aires?",
