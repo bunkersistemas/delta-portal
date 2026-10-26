@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 25 Oct 2026 22:55:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 02:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>YPF devuelve seis meses antes US$135 millones que le costaban 7%, y el bono con que juntó la mitad le salió 6%, medio punto más que en agosto</title>
+      <link>https://coninteres.com/articulos/2026-10-26-ypf-rescata-on-7-por-ciento-refinancia-6.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-26-ypf-rescata-on-7-por-ciento-refinancia-6.html</guid>
+      <pubDate>Mon, 26 Oct 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>YPF va a devolver antes de tiempo una deuda en dólares que le cobraba 7% anual, y la mitad de esa plata la consiguió a 6%: menos de lo que cancela, pero medio punto más de lo que pagó por el mismo bono en abril y agosto, cuando salió a 5,5%. Lo anunció ante la Comisión Nacional de Valores: el 11 de noviembre devuelve entera una obligación negociable que vencía en mayo de 2027, US$135 millones de capital más US$2,5 millones de intereses. Para juntar la plata volvió a ofrecer su bono local a 2030, y le prestaron US$72 millones.</description>
+      <ci:numero>US$135 M</ci:numero>
+      <ci:numeroEtiqueta>capital de la ON Clase XXXVII de YPF (7% fija, emitida el 07/05/2025 por US$139.501.701, vencía el 07/05/2027) que la empresa rescata el 11/11/2026 a la par: US$135.065.631 tras el canje de US$4.436.070 por la Clase XLIII. Igual en el hecho relevante (CNV, 23/10/2026), el 6-K (SEC, 23/10/2026) y el aviso de resultados complementario de la Clase XLIII (CNV, 23/10/2026, punto 4). Intereses del rescate US$0,0184109589 por US$1 (96 días al 7%/365) = US$2,49 M. Bono nuevo: Clase XLIII 3.er tramo, 21/10/2026, US$72.371.072 a 101,39% (precio con intereses desde el 14/04/2026, act/365, según el suplemento), US$67.995.854 en efectivo, 3.997 órdenes, US$127.892.893 ofertados; rendimiento propio 6,09% efectivo = 6,0% semestral (mismo método da 5,5% en agosto, a 101,72%, igual a lo informado por YPF en su nota del 2T26); abril a la par 5,5%. Circulación XLIII US$365.869.105 = 122.146.525 + 171.351.508 + 72.371.072</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-ypf-rescata-on-7-por-ciento-refinancia-6.png" length="92201" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-ypf-rescata-on-7-por-ciento-refinancia-6.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Lula fue reelecto en Brasil con el 51,78% de los votos válidos, según el TSE: qué dice su programa sobre el Mercosur, el gas y los autos</title>
       <link>https://coninteres.com/articulos/2026-10-25-brasil-lula-reelecto-tse-que-significa-argentina.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>caída de los turistas residentes que salieron por Ezeiza y Aeroparque con destino principal EE.UU. y Canadá entre 2017 y 2025: 758.752 a 581.613 (INDEC, ETI serie trimestral 2010-2026, Emisivo_serie_3b; suma de trimestres recalculada). Contraste NTTO I-94, llegadas a EE.UU. de residentes en la Argentina: 1.018.177 a 789.942 (−22,4%). Proporción 14,2% en 2025, la más baja desde 2010 (anterior mínima 17,7% en 2024)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-20-turistas-estados-unidos-canada-2025.png" length="90348" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-20-turistas-estados-unidos-canada-2025.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Si Messi sigue haciendo goles al ritmo del último año, ¿cuándo llegaría a los 1.000?</title>
-      <link>https://coninteres.com/articulos/2026-10-20-messi-1000-goles-cuando.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-20-messi-1000-goles-cuando.html</guid>
-      <pubDate>Tue, 20 Oct 2026 17:50:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>DEPORTES</category>
-      <description>En ninguno de los tres escenarios que calculamos Messi llega a los 1.000 goles en 2027. Lleva 936 goles oficiales en 1.181 partidos: le faltan 64. En los últimos doce meses hizo 47 goles en 51 partidos, pero 12 fueron con la Selección, y ya no juega en ella. Todo lo que falta tiene que salir del Inter Miami, donde hizo 35 goles en 38 partidos. A ese ritmo necesitaría unos 70 partidos más: llegaría hacia agosto de 2028, a los 41 años y en la última temporada de su contrato.</description>
-      <ci:numero>64</ci:numero>
-      <ci:numeroEtiqueta>goles que le faltan a Messi para llegar a 1.000: lleva 936 oficiales en 1.181 partidos al 19/10/2026 (suma por equipo: Barcelona 672, Selección 126, Inter Miami 106, PSG 32; coincide con MessiStat y con 896 al cierre de 2025 según ESPN + 40 en 2026 según Yahoo Sports). Último año: 47 goles en 51 partidos; solo Inter Miami, 35 en 38. Al ritmo del club, unos 70 partidos (estimado)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-20-messi-1000-goles-cuando.png" length="76232" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-20-messi-1000-goles-cuando.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

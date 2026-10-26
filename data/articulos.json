@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-25T22:55:20-03:00",
+    "actualizado": "2026-10-26T02:48:50-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-26-ypf-rescata-on-7-por-ciento-refinancia-6",
+      "titulo": "YPF devuelve seis meses antes US$135 millones que le costaban 7%, y el bono con que juntó la mitad le salió 6%, medio punto más que en agosto",
+      "bajada": "YPF va a devolver antes de tiempo una deuda en dólares que le cobraba 7% anual, y la mitad de esa plata la consiguió a 6%: menos de lo que cancela, pero medio punto más de lo que pagó por el mismo bono en abril y agosto, cuando salió a 5,5%. Lo anunció ante la Comisión Nacional de Valores: el 11 de noviembre devuelve entera una obligación negociable que vencía en mayo de 2027, US$135 millones de capital más US$2,5 millones de intereses. Para juntar la plata volvió a ofrecer su bono local a 2030, y le prestaron US$72 millones.",
+      "titulo_busqueda": "¿A qué tasa se endeuda YPF en dólares?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$135 M",
+      "numero_label": "capital de la ON Clase XXXVII de YPF (7% fija, emitida el 07/05/2025 por US$139.501.701, vencía el 07/05/2027) que la empresa rescata el 11/11/2026 a la par: US$135.065.631 tras el canje de US$4.436.070 por la Clase XLIII. Igual en el hecho relevante (CNV, 23/10/2026), el 6-K (SEC, 23/10/2026) y el aviso de resultados complementario de la Clase XLIII (CNV, 23/10/2026, punto 4). Intereses del rescate US$0,0184109589 por US$1 (96 días al 7%/365) = US$2,49 M. Bono nuevo: Clase XLIII 3.er tramo, 21/10/2026, US$72.371.072 a 101,39% (precio con intereses desde el 14/04/2026, act/365, según el suplemento), US$67.995.854 en efectivo, 3.997 órdenes, US$127.892.893 ofertados; rendimiento propio 6,09% efectivo = 6,0% semestral (mismo método da 5,5% en agosto, a 101,72%, igual a lo informado por YPF en su nota del 2T26); abril a la par 5,5%. Circulación XLIII US$365.869.105 = 122.146.525 + 171.351.508 + 72.371.072",
+      "fecha": "2026-10-26",
+      "hora": "02:30",
+      "archivo": "articulos/2026-10-26-ypf-rescata-on-7-por-ciento-refinancia-6.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-25-brasil-lula-reelecto-tse-que-significa-argentina",
       "titulo": "Lula fue reelecto en Brasil con el 51,78% de los votos válidos, según el TSE: qué dice su programa sobre el Mercosur, el gas y los autos",

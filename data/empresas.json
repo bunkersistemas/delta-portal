@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-25T06:30",
+  "generado": "2026-10-26T02:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -899,60 +899,6 @@
       "tipo": "hecho",
       "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - APROBACIÓN DE ACTA ACUERDO DE READECUACIÓN CONTRACTUAL ENTRE AEROPUERTOS ARGENTINA 2000 S.A. Y EL ORGANISMO REGULADOR DEL SISTEMA NACIONAL DE AEROPUERTOS.",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B09A31D5-15A6-473E-9755-30BD6467D998"
-    },
-    {
-      "id": "cnv-3573631",
-      "fuente": "CNV",
-      "fecha": "2026-09-25T21:32",
-      "entidad": "MSU GREEN ENERGY S.A",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - COMPROMISO PREVIO DE FUSIÓN ENTRE MSU GREEN ENERGY S.A. Y BML INVERSORA S.A.U.",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2C5E03DB-D32D-44C6-BF35-8E2D7EF9ABBB"
-    },
-    {
-      "id": "cnv-3573628",
-      "fuente": "CNV",
-      "fecha": "2026-09-25T19:33",
-      "entidad": "YPF S.A",
-      "tipo": "financiamiento",
-      "descripcion": "INFORMACIÓN FINANCIERA - INFORME DE RECOMPRA DE OBLIGACIONES NEGOCIABLES",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E7268DCA-0510-4375-91F9-E3D94C2626F2"
-    },
-    {
-      "id": "cnv-3573440",
-      "fuente": "CNV",
-      "fecha": "2026-09-25T17:45",
-      "entidad": "BANCO VOII S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE DE CAMBIO DE SEDE SOCIAL BANCO VOII S.A.",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3511E34F-B214-49E4-8598-5272F719EDAD"
-    },
-    {
-      "id": "cnv-3573566",
-      "fuente": "CNV",
-      "fecha": "2026-09-25T17:27",
-      "entidad": "A3 MERCADOS S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/89991678-038C-4FD1-B97D-D440EF7BE0FE"
-    },
-    {
-      "id": "cnv-3573564",
-      "fuente": "CNV",
-      "fecha": "2026-09-25T17:26",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (25 09 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/02675A5F-DDAC-49AE-A2DB-2FAB011D583B"
-    },
-    {
-      "id": "cnv-3556168",
-      "fuente": "CNV",
-      "fecha": "2026-09-25T17:22",
-      "entidad": "A3 MERCADOS S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/586CDDBC-8A51-4BB7-B24F-B6939912DAAF"
     }
   ],
   "anuncios": [
@@ -1031,7 +977,6 @@
     "sec-0001104659-26-115765": "2026-10-14",
     "sec-0001104659-26-116442": "2026-10-16",
     "sec-0001193125-26-425856": "2026-10-20",
-    "sec-0001292814-26-004710": "2026-09-25",
     "sec-0001292814-26-004732": "2026-09-29",
     "sec-0001292814-26-004750": "2026-09-30",
     "sec-0001292814-26-004758": "2026-10-01",

@@ -5768,6 +5768,21 @@
       "estado": "en_cola",
       "archivo": "cola/2026-10-26-cuanto-gana-maestro-ciudad-buenos-aires.html",
       "articulo_id": "2026-10-26-cuanto-gana-maestro-ciudad-buenos-aires"
+    },
+    {
+      "tema": "¿a qué tasa se endeuda YPF en dólares? (EMPRESAS, hecho relevante CNV y 6-K SEC del 23/10/2026: rescate anticipado de la ON Clase XXXVII) / US$135.065.631 a 7% (emitida 07/05/2025 por US$139.501.701, vencía 07/05/2027) se rescatan a la par el 11/11/2026 con intereses de US$0,0184109589 por US$1; refinanciación parcial con el 3.er tramo de la Clase XLIII (21/10/2026: US$72.371.072 a 101,39%, US$67.995.854 en efectivo, 3.997 órdenes): rendimiento propio 6,0% contra 5,5% en abril y agosto",
+      "angulo": "Corrida programada del 26/10/2026 02:30, primera candidata probada (cupo de EMPRESAS: regía, última nota de EMPRESAS 25/10). Ángulo de datos: el bono con que se paga la deuda al 7% salió medio punto más caro que dos meses antes (precio de octubre con intereses corridos según el suplemento: limpio 98,44%). Camino: documentos de la empresa ante dos reguladores (HR CNV = 6-K SEC = aviso complementario CNV) + recálculo del rendimiento validado con el tramo de agosto (5,5%, igual al informe del 2T26). Contexto: deuda total US$10.128 M y caja US$2.474 M al 30/06/2026 (nota de resultados 2T26). NO afirmado: por qué subió el costo (ni la empresa ni el suplemento lo explican), riesgo país.",
+      "fecha": "2026-10-26",
+      "estado": "publicada",
+      "archivo": "cola/2026-10-26-ypf-rescata-on-7-por-ciento-refinancia-6.html",
+      "articulo_id": "2026-10-26-ypf-rescata-on-7-por-ciento-refinancia-6"
+    },
+    {
+      "tema": "descartes de la corrida programada del 26/10/2026 02:30: no se probaron porque pasó la primera candidata (rescate de la ON Clase XXXVII de YPF y costo del bono nuevo, EMPRESAS)",
+      "angulo": "Lista no probada: Tarjeta Naranja ON LXVIII (EMPRESAS, CNV 22/10; subasta el 27/10, sin tasa todavía); A3 Mercados recompra de acciones (EMPRESAS, CNV 22/10: 27.123 acciones por $75,4 M en un día; sin ángulo de lector); Petroquímica Comodoro Rivadavia (EMPRESAS, HR 22/10 sin montos; Ronda 1 cubierta el 23/10); Fiat y Peugeot con vacaciones adelantadas y suspensiones (Clarín; sin estadística por terminal, frenada el 10/10); planes sociales en el Presupuesto 2027 (iProfesional; pregunta de plata, sin leer el proyecto); cuánto cuesta ir a ver a Boca a la final de la Sudamericana en Barranquilla (ámbito, iProfesional; pregunta de plata, la Conmebol no publicó precios de entradas); nuevo esquema de tarifas de AySA en audiencia (infobae, La Nación, Cronista; la propuesta de coeficientes zonales ya publicada el 01/10); pymes con 62 obligaciones tributarias (La Nación, ámbito, infobae; estudio privado); ventas de combustibles en alza tras siete meses (infobae; Secretaría de Energía, sin pregunta de plata); generación hidroeléctrica +1/3 y costo de la energía -43% (infobae; CAMMESA no leída); exportaciones de 12 meses sobre US$100.000 M (infobae, ámbito; superávit de nueve meses publicado el 19/10); jubilación mínima de noviembre (Cronista; publicada el 13/10); boleto bonaerense contra la inflación (infobae; boleto cubierto); riesgo país sobre 700 tras el triunfo de Lula (cinco portadas; dato del día). Turismo internacional de septiembre sale hoy a las 16 (INDEC). clarin.com y tn.com.ar leídos por curl.",
+      "fecha": "2026-10-26",
+      "estado": "descartada",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-25",
-  "pregunta": "Entre enero y septiembre de 2026 la Argentina exportó 33,17 millones de toneladas de maíz, la mayor cantidad para esos meses desde 2002, y cobró US$6.877 millones. En los mismos meses de 2022 cada tonelada se había vendido a US$257. ¿A cuánto se vendió, en promedio, cada tonelada en 2026?",
+  "fecha": "2026-10-26",
+  "pregunta": "Lula ganó la segunda vuelta de Brasil con el 51,78% de los votos válidos, según el Tribunal Superior Electoral: 64,25 millones de votos. En el padrón había 158,7 millones de electores habilitados. ¿Lo votó más de la mitad de los brasileños que podían votar?",
   "opciones": [
-    "A más de US$257: si se vendió más que nunca, el precio también tuvo que ser mejor",
-    "A unos US$207, 19% menos que en 2022",
-    "A unos US$4,8: es 33,17 dividido 6.877"
+    "Sí: 51,78% es más de la mitad, así que lo eligió la mayoría de los habilitados",
+    "No: 64,25 millones sobre 158,7 millones son unos 4 de cada 10 habilitados",
+    "No se puede saber, porque el voto es secreto"
   ],
   "correcta": 1,
-  "explicacion": "El precio promedio sale de dividir lo que se cobró por lo que se vendió: US$6.877 millones / 33,17 millones de toneladas = US$207 por tonelada, contra US$257 en 2022, o sea 19% menos. Dividir al revés (33,17 / 6.877) da toneladas por cada dólar, no un precio. Y vender más no garantiza vender más caro: la cantidad y el precio se mueven por separado. Por eso 2026 tiene el récord de toneladas pero no el de dólares: el valor de una exportación es cantidad por precio, y si el precio cae, hace falta mucha más cantidad para cobrar lo mismo.",
-  "nota": "articulos/2026-10-24-maiz-exportaciones-record-nueve-meses-precio.html",
+  "explicacion": "El 51,78% se calcula sobre los votos válidos: los que fueron a un candidato. Quedan afuera los que no fueron a votar y los votos en blanco y nulos. Si se divide 64,25 millones por los 158,7 millones del padrón, da 40,5%: unos 4 de cada 10 habilitados. Las dos cuentas son correctas, pero responden preguntas distintas: quién ganó entre los que eligieron a alguien, y cuánto del padrón lo eligió. El voto es secreto para cada persona, no para el total: los resultados por candidato son públicos.",
+  "nota": "articulos/2026-10-25-brasil-lula-reelecto-tse-que-significa-argentina.html",
   "leccion": ""
 }
