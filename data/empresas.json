@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-26T16:30",
+  "generado": "2026-10-26T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3584197",
+      "fuente": "CNV",
+      "fecha": "2026-10-26T17:48",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/61D72542-13A7-4BA0-B607-A35541ED253A"
+    },
     {
       "id": "cnv-3583679",
       "fuente": "CNV",
@@ -999,6 +1008,7 @@
     "sec-0001292814-26-004966": "2026-10-21",
     "sec-0001292814-26-004990": "2026-10-23",
     "sec-0001292814-26-005002": "2026-10-23",
+    "sec-0001292814-26-005008": "2026-10-26",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002042": "2026-09-28",
     "sec-0001554855-26-002070": "2026-10-05",

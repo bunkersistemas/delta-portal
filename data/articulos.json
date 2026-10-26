@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-26T17:01:59-03:00",
+    "actualizado": "2026-10-26T19:05:29-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores",
+      "titulo": "La ART Productores de Frutas cubría a 34.895 trabajadores y sus contratos terminan el 1 de noviembre: en julio cobró 13 de cada 100 pesos pactados",
+      "bajada": "El final de Productores de Frutas Argentinas estaba anunciado en sus propias cuentas. Los registros de la Superintendencia de Riesgos del Trabajo muestran que en ningún mes con datos desde enero de 2025 recaudó más de 27 de cada 100 pesos de cuotas pactadas: en julio, 13 de cada 100, cuando en todo el sistema la morosidad fue de 9,51%. Ahora la Justicia ordenó liquidar a esta cooperativa de seguros, que funcionaba como aseguradora de riesgos del trabajo desde 1996, y la SRT dispuso que todos sus contratos terminen el 1 de noviembre. En julio cubría a 34.895 trabajadores de 150 empresas y organismos, más de la mitad en el transporte.",
+      "titulo_busqueda": "¿Qué pasa si cierra mi ART y quién paga un accidente de trabajo?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "34.895",
+      "numero_label": "trabajadores en unidades productivas (empresas y organismos) cubiertos por Productores de Frutas ART en julio de 2026 (SRT, Boletín estadístico mensual por ART, cuadro 1; 150 empleadores; más 187 trabajadores de casas particulares de 172 hogares). Camino estadística oficial: (1) boletín SRT; (2) recálculo: suma de 21 sectores (cuadro 1.1) = 34.895 y suma de 24 jurisdicciones (cuadro 2.1, declaración nominativa) = 34.895; (3) contraste SSN: balances de la cooperativa (datos abiertos, 1T-2026, entidad 348) primas y recargos de Rs. del Trabajo jul-25 a mar-26 $8.379.095.145 contra cuota pactada SRT de esos nueve meses $7.958.845.869 (+5,3%). Morosidad jul-26 86,9% = 1 - 317.139.206 / 2.423.219.898 (sistema 9,51%). Rescisión 01/11/2026 por Res. SRT 56/2026 (BO 26/10/2026); revocación por Res. SSN 443/2026 (14/10/2026, BO 15/10/2026); liquidación dispuesta por el Juzgado Comercial N° 30 el 07/10/2026.",
+      "fecha": "2026-10-26",
+      "hora": "18:30",
+      "archivo": "articulos/2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-26-gasto-por-viajero-exterior-tercer-trimestre",
       "titulo": "Cada argentino que viajó al exterior gastó US$1.631 sin contar el pasaje en el tercer trimestre, 14,5% más que un año antes",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 26 Oct 2026 17:02:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 26 Oct 2026 19:05:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La ART Productores de Frutas cubría a 34.895 trabajadores y sus contratos terminan el 1 de noviembre: en julio cobró 13 de cada 100 pesos pactados</title>
+      <link>https://coninteres.com/articulos/2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores.html</guid>
+      <pubDate>Mon, 26 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>El final de Productores de Frutas Argentinas estaba anunciado en sus propias cuentas. Los registros de la Superintendencia de Riesgos del Trabajo muestran que en ningún mes con datos desde enero de 2025 recaudó más de 27 de cada 100 pesos de cuotas pactadas: en julio, 13 de cada 100, cuando en todo el sistema la morosidad fue de 9,51%. Ahora la Justicia ordenó liquidar a esta cooperativa de seguros, que funcionaba como aseguradora de riesgos del trabajo desde 1996, y la SRT dispuso que todos sus contratos terminen el 1 de noviembre. En julio cubría a 34.895 trabajadores de 150 empresas y organismos, más de la mitad en el transporte.</description>
+      <ci:numero>34.895</ci:numero>
+      <ci:numeroEtiqueta>trabajadores en unidades productivas (empresas y organismos) cubiertos por Productores de Frutas ART en julio de 2026 (SRT, Boletín estadístico mensual por ART, cuadro 1; 150 empleadores; más 187 trabajadores de casas particulares de 172 hogares). Camino estadística oficial: (1) boletín SRT; (2) recálculo: suma de 21 sectores (cuadro 1.1) = 34.895 y suma de 24 jurisdicciones (cuadro 2.1, declaración nominativa) = 34.895; (3) contraste SSN: balances de la cooperativa (datos abiertos, 1T-2026, entidad 348) primas y recargos de Rs. del Trabajo jul-25 a mar-26 $8.379.095.145 contra cuota pactada SRT de esos nueve meses $7.958.845.869 (+5,3%). Morosidad jul-26 86,9% = 1 - 317.139.206 / 2.423.219.898 (sistema 9,51%). Rescisión 01/11/2026 por Res. SRT 56/2026 (BO 26/10/2026); revocación por Res. SSN 443/2026 (14/10/2026, BO 15/10/2026); liquidación dispuesta por el Juzgado Comercial N° 30 el 07/10/2026.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores.png" length="86882" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Cada argentino que viajó al exterior gastó US$1.631 sin contar el pasaje en el tercer trimestre, 14,5% más que un año antes</title>
       <link>https://coninteres.com/articulos/2026-10-26-gasto-por-viajero-exterior-tercer-trimestre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>variación real de las ventas de los locatarios de los 15 shoppings de IRSA, ejercicio jul-2025/jun-2026 contra jul-2024/jun-2025, en $ de junio de 2026 (NIC 29): $3.739.833 M vs $4.090.433 M (20-F IRSA, SEC 21/10/2026, Item 4; mismas cifras en el 20-F de Cresud). Recalculado: suma por shopping y por rubro = totales; cociente −8,57%. FY2024 $4.209.099 M (dos años −11,1%). Contraste INDEC centros de compras jul25-jun26: −3,3% a precios constantes (deflactor implícito +21,6%) y −11,4% deflactando las ventas corrientes por el IPC general. Ingresos del segmento shoppings $361.288 M → $368.822 M (+2,1%): alquiler base +$22.433 M, contingente −$22.306 M</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-irsa-shoppings-ventas-locales-caen.png" length="87820" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-irsa-shoppings-ventas-locales-caen.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Pagar tarde un impuesto cuesta 2,75% por mes: en un año suma 33%, casi lo mismo que subieron los precios</title>
-      <link>https://coninteres.com/articulos/2026-10-24-arca-interes-pagar-tarde-impuestos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-arca-interes-pagar-tarde-impuestos.html</guid>
-      <pubDate>Sat, 24 Oct 2026 01:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Pagar tarde un impuesto le cuesta al contribuyente 2,75% por mes de interés, y ARCA lo cobra por día. Doce meses suman 33%: casi lo mismo que subieron los precios en el último año, 33,4% según el INDEC. A fines de 2023 era al revés: la tasa era 5,91% y la inflación llegó a 25,5% en un mes. El plan especial para pymes y monotributistas cobra la misma tasa y cierra el 30 de octubre.</description>
-      <ci:numero>2,75%</ci:numero>
-      <ci:numeroEtiqueta>interés resarcitorio mensual de ARCA por deudas impositivas en pesos (art. 37 Ley 11.683), vigente desde el 01/07/2025: Res. ME 823/2025 art. 1 (BO 25/06/2025) = tabla ARCA 'Tasas vigentes desde el 01/07/2025' (2,75% mensual, 0,091667 diario; última tabla del listado al 24/10/2026) = RG ARCA 5875/2026 art. 5 (tasa del plan = resarcitorio vigente, BO 14/07/2026). 12 meses = 33% (365 días 33,46%); IPC INDEC sep-26/sep-25 = 12.514,1508/9.384,0922 = 33,4% (IPCBA 32,9%). Mínimo de la serie ARCA desde sep-2022 (previo 4,00% mar-jun 2025). Dic-23: tasa 5,91% vs IPC 25,5%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-arca-interes-pagar-tarde-impuestos.png" length="86233" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-arca-interes-pagar-tarde-impuestos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
