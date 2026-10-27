@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 16:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 19:02:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina importó 370.375 toneladas de bananas en nueve meses, la cifra más alta desde 2002: seis de cada diez llegaron de Ecuador</title>
+      <link>https://coninteres.com/articulos/2026-10-27-bananas-importadas-370-mil-toneladas-ecuador.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-bananas-importadas-370-mil-toneladas-ecuador.html</guid>
+      <pubDate>Tue, 27 Oct 2026 19:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Mientras productores de Formosa regalaban bananas en la ruta para mostrar que no les cierran los números, la Argentina importaba más bananas que en cualquier enero-septiembre desde 2002. Entraron 370.375 toneladas, según el INDEC. El 60,9% vino de Ecuador, y el kilo ecuatoriano llegó 8% más barato en dólares que un año antes.</description>
+      <ci:numero>370.375 t</ci:numero>
+      <ci:numeroEtiqueta>toneladas de bananas y plátanos importadas (NCM 0803), enero-septiembre de 2026 (INDEC, base de importaciones 2026 provisoria: 370.374.820 kg, US$230.774.853 CIF; 0803.10 3.007 t + 0803.90 367.368 t). Máximo ene-sep desde 2002; valor previo 2023: 368.449 t. 2025 ene-sep 367.288 t (+0,8%), US$240,75 M CIF (-4,1%). Ecuador 225.667 t (60,9%; 55,8% en 2025), CIF/kg 0,842 -&gt; 0,774 (-8,0%). Año 2025 completo 501.537 t, máximo anual (previo 2017: 489.519). Contraste UN Comtrade (exportador): Bolivia 2025 103.465 t vs INDEC 101.174 (+2,3%), Paraguay 70.364 vs 70.086 (+0,4%); 2024 -1,7% y +0,9%; Ecuador 2025 258.641 vs 295.925 (-12,6%), misma dirección 2024-&gt;2025 (+19,3% vs +20,2%) y mismo FOB/kg (0,625 vs 0,632); Ecuador 1T26 68.107 vs 82.682. Precio GBA banana kg sep-26 $3.239,46 vs sep-25 $2.627,06 (+23,3%; IPC GBA +33,5%; real -7,7%).</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-bananas-importadas-370-mil-toneladas-ecuador.png" length="82230" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-bananas-importadas-370-mil-toneladas-ecuador.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina importó 9,8% menos fertilizantes que en 2025 y pagó 6,5% más: la tonelada llegó 18% más cara</title>
       <link>https://coninteres.com/articulos/2026-10-27-fertilizantes-importados-tonelada-18-mas-cara.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>descuento real máximo para una deuda con ARBA de 2026 cancelada al contado el 26/10/2026 (vencida el 01/01/2026): índice de liquidación 1,294193 (Disp. Delegada SERYC 3647/26, prejudicial predeterminado; igual en autodeterminado) = capital + 29,42%; la quita de 40% del total (RN 23/2026 art. 2 A.1) no puede disminuir el capital, así que se topa en los intereses: 0,294193/1,294193 = 22,73%. Recálculo propio con RN 10/2024 (8%), RN 17/2025 (6,6%) y RN 33/2025 (3%) prorrateadas por días: 29,42%, diferencia máxima con el índice oficial &lt;0,2 pp desde mar-2024. Umbral del 40% completo: índice &gt;= 5/3, último vencimiento 11/07/2025 pagando el 26/10 (1,667741) y 19/07/2025 pagando el 13/11. Plan 2024 (RN 27/2024): máximo 30%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-arba-moratoria-descuento-real-capital.png" length="80996" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-arba-moratoria-descuento-real-capital.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>¿Qué está logrando de verdad la inteligencia artificial en la ingeniería de materiales?</title>
-      <link>https://coninteres.com/articulos/2026-10-24-ia-ingenieria-materiales-que-logra.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-ia-ingenieria-materiales-que-logra.html</guid>
-      <pubDate>Sat, 24 Oct 2026 17:55:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>IA</category>
-      <description>La inteligencia artificial multiplicó lo que se puede calcular en ciencia de materiales, pero del cálculo al laboratorio la distancia sigue siendo grande. La IA de Google DeepMind calculó en 2023 que 381.000 materiales nuevos serían estables: ninguno tiene todavía un uso demostrado, y dos químicos que revisaron la lista no encontraron ninguno "llamativamente nuevo". El laboratorio robótico que fabricó una parte tuvo que corregir su resultado en 2026: logró 36 compuestos de 57, y no eran necesariamente nuevos para la ciencia. Lo que sí cambió es cómo se investiga: en arXiv, los trabajos de ciencia de materiales que nombran a la IA pasaron de 3 de cada 100 en 2019 a casi 13 en 2025.</description>
-      <ci:numero>381.000</ci:numero>
-      <ci:numeroEtiqueta>materiales nuevos estables según los cálculos de GNoME (Merchant y otros, Google DeepMind, Nature 624, 80-85, 29/11/2023: 381.000 nuevos en la lista final de estables, 421.000 en total; antes se conocían 48.000); son predicciones por DFT, sin síntesis propia: 736 coincidían con materiales ya fabricados por otros (ICSD). Contraste: Cheetham y Seshadri (Chem. Mater. 36, 3490, 2024): 10 de 10 al azar con estructura ya conocida en la ICSD. A-Lab (Nature 2023) corregido el 19/01/2026: 36 de 57, no necesariamente nuevos para la ciencia</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-ia-ingenieria-materiales-que-logra.png" length="71759" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-ia-ingenieria-materiales-que-logra.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

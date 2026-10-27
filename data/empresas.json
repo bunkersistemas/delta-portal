@@ -1,11 +1,38 @@
 {
-  "generado": "2026-10-27T16:30",
+  "generado": "2026-10-27T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3584417",
+      "fuente": "CNV",
+      "fecha": "2026-10-27T18:03",
+      "entidad": "LOMA NEGRA CIASA",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6EFCAD9C-9E54-432B-AA9E-9FF323348BA8"
+    },
+    {
+      "id": "cnv-3584567",
+      "fuente": "CNV",
+      "fecha": "2026-10-27T17:31",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (27 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/29A8A64F-AFF7-4AC5-9CC1-05902F6C5C65"
+    },
+    {
+      "id": "cnv-3584548",
+      "fuente": "CNV",
+      "fecha": "2026-10-27T17:13",
+      "entidad": "YPF ENERGÍA ELÉCTRICA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE - NOTA DE RESULTADOS 3T26",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A8B0ADE2-2C99-4F48-8C26-1E52315A07F1"
+    },
     {
       "id": "cnv-3584197",
       "fuente": "CNV",
@@ -1016,6 +1043,7 @@
     "sec-0001554855-26-002090": "2026-10-09",
     "sec-0001554855-26-002124": "2026-10-14",
     "sec-0001554855-26-002169": "2026-10-23",
-    "sec-0001711375-26-000047": "2026-10-20"
+    "sec-0001711375-26-000047": "2026-10-20",
+    "sec-0001711375-26-000049": "2026-10-27"
   }
 }
