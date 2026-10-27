@@ -6008,6 +6008,18 @@
       "angulo": "Lista no probada: cuánto cobra un policía federal con el aumento de noviembre (ámbito), cuánto cobra un cajero de supermercado en noviembre (ámbito), deuda corporativa de casi US$2.700 M en septiembre (Clarín, ámbito), evasión de US$120 M en pagos a plataformas investigada por ARCA (Clarín), hipotecarios del Banco Nación con fondos de ANSES/FAL (ámbito, Clarín), EMPRESAS: Central Puerto HR CNV 26/10 (otro aviso de recompra, ya cubierta el 18/10) y Consultatio (descartada el 24/10); Vista Energy presenta balance el 28/10. Cupo de empresas: no hay candidata nueva con documento primario que no esté cubierta o descartada; la pregunta de plata del día tenía más demanda.",
       "fecha": "2026-10-27",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto cuesta contratar un policía adicional de la Policía Federal? (pregunta de plata detrás de iProfesional 27/10/2026 'Nuevo aumento para efectivos de la Policía Federal: cuánto cobrarán en noviembre 2026'; ángulo nuevo frente al gendarme del 05/10 y el soldado del 12/10: no el haber sino la tarifa del servicio adicional)",
+      "angulo": "Res. MSN 844/2026 (BO 31/08/2026) anexo III IF-2026-82352531-APN-SCA#MSG: valor a abonar por empresas requirentes, servicio continuo, nov-26 $26.831,63 (oct $26.409,08 x1,016; sep $25.942,12; dic $27.234,10); valor a percibir por el personal nov-26 $23.097,72 (86,1%). Nov-25 $15.856,21 (Res. 944/2025 anexo III) -> +69,2%; haber agente $878.108,49 -> $1.143.015,94 (+30,2%); IPC sep/sep 33,4%. Unidad: módulo de 4 horas, confirmada por la Res. Rectoral UNLa 151/2026 (Contratación Directa 230/25: $15.856,21 x 6 x 365 x 2 = $69.450.199,80; ene-may 2026 $16.577,67 a $17.838,63 según nota PFA sobre Res. 268/2026, no hallada en BO). Salto may->sep 2026 +45,4%; Res. 630/2026 (08/07) citada pero no hallada en BO, sin valores jun-ago. Contraste: Policía de la Ciudad, Res. 838/2026 MSEGC anexo I desde 01/07/2026, módulo 4 hs continuo $34.033 / $29.268 (86,0%); PFA 21,2% por debajo. Puesto 24 h = 6 módulos: $4.829.693 en 30 días (4,2 haberes de agente).",
+      "fecha": "2026-10-27",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida programada del 27/10/2026 10:30: no se probaron porque pasó la primera candidata (policía adicional de la PFA, Res. 844/2026 + Res. 944/2025 + contrato UNLa + Res. 838/2026 CABA)",
+      "angulo": "Lista no probada: EMPRESAS (cupo vigente; descartadas con razón): Central Puerto CNV 26/10 (la presentación es una declaración de compensaciones sin montos, y la recompra ya está cubierta el 18/10), Vista Energy 3T (se presenta el 28/10, todavía no hay documento), YPF rescate ON XXXVII (cubierta 26/10), Consultatio (descartada 24/10, sin montos), Sinteplast US$44 M (infobae; no es emisora CNV, sin documento primario). Pregunta de plata: cajero de Coto/Carrefour en noviembre (iProfesional; sin homologación leída, comercio cubierto 16/10), costo de la visita del Papa (cubierta 12/10), AySA +11% (La Nación, ámbito, Página12; cubierta 01/10). Portadas: Lula y el real (todas; cubierto 26/10), riesgo país 765 (dato de mercado), déficit turístico 3T (cubierto 26/10), Inocencia Fiscal II discrepancia significativa (Cronista; RG 5916/2026, cubierta en parte 09/10), deuda corporativa US$2.700 M (ámbito), empleo privado 14 meses (cubierto). clarin.com y tn.com.ar no accesibles por WebFetch. pregunta.json ya era de hoy.",
+      "fecha": "2026-10-27",
+      "estado": "descartada"
     }
   ]
 }

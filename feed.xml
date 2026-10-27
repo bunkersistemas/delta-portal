@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 08:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 11:04:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Contratar un policía federal adicional cuesta $26.832 por cuatro horas desde noviembre: 69% más que hace un año</title>
+      <link>https://coninteres.com/articulos/2026-10-27-policia-adicional-pfa-cuanto-cuesta-noviembre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-policia-adicional-pfa-cuanto-cuesta-noviembre.html</guid>
+      <pubDate>Tue, 27 Oct 2026 11:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Contratar a un policía federal fuera de su horario se encareció más del doble que el sueldo del propio policía. Desde noviembre, la Resolución 844/2026 del Ministerio de Seguridad Nacional fija en $26.831,63 el módulo de cuatro horas de policía adicional; hace un año era $15.856,21. En el mismo año, el haber mensual del agente subió 30,2%. De cada módulo, el policía que hace el servicio cobra $23.097,72.</description>
+      <ci:numero>$26.832</ci:numero>
+      <ci:numeroEtiqueta>módulo de cuatro horas de policía adicional de la PFA, desde noviembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-policia-adicional-pfa-cuanto-cuesta-noviembre.png" length="70661" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-policia-adicional-pfa-cuanto-cuesta-noviembre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Entró 29% menos calzado importado que en 2025, y las fábricas argentinas también produjeron 25% menos</title>
       <link>https://coninteres.com/articulos/2026-10-27-calzado-importado-cae-29-fabricas-producen-25-menos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>toneladas de atún en conserva (NCM 1604.14) importadas en enero-septiembre de 2026, US$83.818.802 CIF, según la base de comercio exterior del INDEC (17.114.586 kg; sin filas confidenciales). Ene-sep 2002: 2.124 t (x8,1); ene-sep 2025: 16.856 t (+1,5%, máximo previo). Ecuador 13.302 t (77,7%), Brasil 3.216 t (18,8%), Tailandia 595 t (3,5%). Contraste: ComexStat (Brasil) 3.214,0 t exportadas a la Argentina ene-sep 2026; UN Comtrade, Ecuador declaró 15.552 t en 2025 contra 16.684 t del INDEC</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-atun-en-lata-importado-ecuador.png" length="80081" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-atun-en-lata-importado-ecuador.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina exportó 10.461 toneladas de carne de caballo y burro en nueve meses, 58% menos que en 2002: Bélgica es su primer comprador</title>
-      <link>https://coninteres.com/articulos/2026-10-24-carne-equina-caballo-burro-exportaciones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-carne-equina-caballo-burro-exportaciones.html</guid>
-      <pubDate>Sat, 24 Oct 2026 13:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La Argentina exporta carne de caballo, burro y mula, y menos de la mitad que hace dos décadas: entre enero y septiembre de 2026 vendió al exterior 10.461 toneladas por US$44,2 millones, según el INDEC, contra 24.821 toneladas en los mismos meses de 2002. También cambió quién la compra. Rusia, que en 2011 se llevaba 58 de cada 100 kilos, casi desapareció como comprador; hoy el primero es Bélgica. Y el negocio es chico: por cada kilo de carne equina, la Argentina exporta más de 52 de carne vacuna.</description>
-      <ci:numero>10.461 t</ci:numero>
-      <ci:numeroEtiqueta>toneladas de carne equina (NCM 0205.00.00: caballo, burro y mula) exportadas en enero-septiembre de 2026, US$44.213.648 FOB, según la base de comercio exterior del INDEC (incluye la fila confidencial 999 del archivo por NCM; total de control etotnm26 cierra). Ene-sep 2002: 24.821 t (-57,9%); ene-sep 2025: 9.555 t (+9,5%). Contraste: UN Comtrade, importaciones declaradas por 14 países en 2025: US$57,48 M CIF y 9.472 t contra INDEC US$46,06 M FOB y 12.903 t</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-carne-equina-caballo-burro-exportaciones.png" length="87048" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-carne-equina-caballo-burro-exportaciones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
