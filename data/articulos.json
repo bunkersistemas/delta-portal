@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-27T04:51:44-03:00",
+    "actualizado": "2026-10-27T07:05:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-27-gas-argentina-brasil-6-millones-chile-74-veces",
+      "titulo": "La Argentina le vendió a Brasil US$6,4 millones de gas en nueve meses: Chile le compró 74 veces más",
+      "bajada": "Entre enero y septiembre de 2026, la Argentina le vendió a Brasil US$6,4 millones de gas natural por gasoducto: el 1,2% de lo que exportó de ese gas. Chile le compró US$478 millones. Según el INDEC, todo lo de Brasil salió entre enero y abril. En octubre, los medidores de la Secretaría de Energía muestran que el gas volvió a salir hacia el norte; a quién se le vendió, todavía no se sabe.",
+      "titulo_busqueda": "¿Cuánto gas le vende la Argentina a Brasil?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$6,4 M",
+      "numero_label": "exportaciones argentinas de gas natural en estado gaseoso (NCM 2711.21.00) a Brasil, enero-septiembre de 2026: US$6,43 M y 19.080 t, todas entre enero y abril (INDEC, base de exportaciones 2026, provisoria). Chile US$478,13 M (74 veces), Uruguay 30,29, total 514,85 (Brasil 1,2%). Contrastes: Secretaría de Energía, mediciones de Madrejones 28,27 MMm3 ene-abr y ~0 may-sep; MDIC Brasil, importaciones de Argentina US$4,15 M y 25.246 t ene-jun (0,6% de 644,58; Bolivia 99,4%)",
+      "fecha": "2026-10-27",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-27-gas-argentina-brasil-6-millones-chile-74-veces.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-27-zona-fria-sef-descuento-gas-94-por-ciento",
       "titulo": "94,25% de descuento en el precio del gas de octubre: es lo que les toca a los hogares con subsidio de la Zona Fría fuera de la Patagonia",
