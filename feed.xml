@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 11:04:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 15:02:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Sumadas la Nación y las provincias, el Estado argentino cerró 2025 con un rojo de $1,33 billones: el FMI lo cuenta como déficit de 0,2% del PIB</title>
+      <link>https://coninteres.com/articulos/2026-10-27-nacion-provincias-deficit-2025-fmi-superavit.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-nacion-provincias-deficit-2025-fmi-superavit.html</guid>
+      <pubDate>Tue, 27 Oct 2026 15:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El superávit de la Nación no alcanzó a cubrir el rojo de las provincias. La Nación terminó 2025 con un superávit financiero de $1,45 billones; las 23 provincias con datos sumaron un déficit de $2,78 billones. Juntas dan −$1,33 billones, 0,16% del PIB, y el FMI, que mide al gobierno general, llega a la misma conclusión: −0,2% para ese año. Para 2026 proyecta +0,4%: la Argentina queda como una de las 15 economías grandes del mundo con superávit, y la única de América Latina.</description>
+      <ci:numero>−$1,33 billones</ci:numero>
+      <ci:numeroEtiqueta>resultado financiero de 2025 de la Nación y las 23 provincias con datos, sumados</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-nacion-provincias-deficit-2025-fmi-superavit.png" length="74824" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-nacion-provincias-deficit-2025-fmi-superavit.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Contratar un policía federal adicional cuesta $26.832 por cuatro horas desde noviembre: 69% más que hace un año</title>
       <link>https://coninteres.com/articulos/2026-10-27-policia-adicional-pfa-cuanto-cuesta-noviembre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>subsidio mensual bruto del presidente de Brasil desde el 01/02/2025 (R$46.366,19, Decreto Legislativo 172/2022, art. 1 inc. IV; mismo monto para vicepresidente, ministros, diputados y senadores; confirmado por la sección de transparencia del Senado). = US$9.204 (PTAX venta 23/10/2026 R$5,0377; con el tipo de pase BCRA 0,199692 US$9.259) = $14.161.609 (BCRA, real $305,43 al 23/10/2026). En 2015 R$30.934,70 (DL 277/2014) = R$57.921 a precios de sep-2026 (IPCA 4.110,20 -&gt; 7.695,82): -19,95%. 28,6 salarios mínimos (R$1.621, Decreto 12.797/2025) contra 39,3 en 2015 (R$788, Decreto 8.381/2014)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-sueldo-presidente-brasil.png" length="84896" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-sueldo-presidente-brasil.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina importó 17.115 toneladas de atún en lata en nueve meses, ocho veces más que en 2002: 78 de cada 100 kilos vienen de Ecuador</title>
-      <link>https://coninteres.com/articulos/2026-10-24-atun-en-lata-importado-ecuador.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-atun-en-lata-importado-ecuador.html</guid>
-      <pubDate>Sat, 24 Oct 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El atún en lata que se vende en la Argentina viene casi siempre de afuera, ya enlatado y de un solo proveedor principal. Entre enero y septiembre de 2026 el país compró 17.115 toneladas de atún en conserva por US$83,8 millones, según el INDEC: la mayor cantidad para esos nueve meses en una serie que empieza en 2002, cuando habían sido 2.124 toneladas. Ecuador mandó 78 de cada 100 kilos y Brasil, casi 19. Sin enlatar entraron apenas 90 toneladas.</description>
-      <ci:numero>17.115 t</ci:numero>
-      <ci:numeroEtiqueta>toneladas de atún en conserva (NCM 1604.14) importadas en enero-septiembre de 2026, US$83.818.802 CIF, según la base de comercio exterior del INDEC (17.114.586 kg; sin filas confidenciales). Ene-sep 2002: 2.124 t (x8,1); ene-sep 2025: 16.856 t (+1,5%, máximo previo). Ecuador 13.302 t (77,7%), Brasil 3.216 t (18,8%), Tailandia 595 t (3,5%). Contraste: ComexStat (Brasil) 3.214,0 t exportadas a la Argentina ene-sep 2026; UN Comtrade, Ecuador declaró 15.552 t en 2025 contra 16.684 t del INDEC</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-atun-en-lata-importado-ecuador.png" length="80081" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-atun-en-lata-importado-ecuador.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
