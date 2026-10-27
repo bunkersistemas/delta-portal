@@ -6025,9 +6025,10 @@
       "tema": "¿cuántos autos le vende la Argentina a Brasil? (pregunta de plata detrás de Stellantis frena El Palomar hasta el 18/01/2027 por la caída de la demanda y las exportaciones, infobae 27/10/2026, y del real barato tras la reelección de Lula: iProfesional 'qué sectores ganan y pierden', Cronista 'Mercosur y exportaciones a Brasil') / MDIC IMP_2025-2026: autos 8703 desde Argentina ene-sep 60.408 -> 49.404 (-18,2%), China 170.586 -> 436.319, pickups 8704 74.863 -> 87.317 (+16,6%)",
       "angulo": "Corrida programada del 27/10/2026 12:30, primera candidata probada (APTA). Ángulo nuevo frente a 2026-09-27 (déficit con Brasil ene-ago, autos IMPORTADOS desde Brasil) y 2026-10-07 (Secex septiembre, lo que Brasil le vende a la Argentina): acá lo que Brasil le COMPRA a la Argentina en vehículos, por partida y contra China. Camino: estadística oficial recalculada (CSV del MDIC, suma de QT_ESTAT por NCM 8703*, país 063) + contraste INDEC (misma dirección; destino 999 confidencial y diferencias de partida explicadas con el instructivo de la base) + ADEFA (Brasil 63,1% de las exportaciones). La API de ComexStat devolvía 503: se usó la base bruta. Sin atribuir caídas a marcas ni modelos.",
       "fecha": "2026-10-27",
-      "estado": "en_cola",
+      "estado": "descartada",
       "articulo_id": "2026-10-27-brasil-autos-argentinos-18-menos-china-nueve-por-uno",
-      "archivo": "cola/2026-10-27-brasil-autos-argentinos-18-menos-china-nueve-por-uno.html"
+      "archivo": "cola/2026-10-27-brasil-autos-argentinos-18-menos-china-nueve-por-uno.html",
+      "motivo_descarte": "no paso el control por segunda vez: fuentes que no respondieron (se reintenta): https://balanca.economia.gov.br/balanca/bd/comexstat-bd/ncm/IMP_2025.csv (<urlopen error ('Un certificado requerido no se encuentra dentro del periodo de ) | https://balanca.economia.gov.br/balanca/bd/comexstat-bd/ncm/IMP_2026.csv (<urlopen error ('Un certificado requerido no se encuentra dentro del periodo de )"
     },
     {
       "tema": "descartes de la corrida programada del 27/10/2026 12:30: no se probaron porque pasó la primera candidata (autos argentinos a Brasil, MDIC + INDEC + ADEFA)",
