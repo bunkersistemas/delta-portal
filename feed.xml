@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 02:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 04:51:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>94,25% de descuento en el precio del gas de octubre: es lo que les toca a los hogares con subsidio de la Zona Fría fuera de la Patagonia</title>
+      <link>https://coninteres.com/articulos/2026-10-27-zona-fria-sef-descuento-gas-94-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-zona-fria-sef-descuento-gas-94-por-ciento.html</guid>
+      <pubDate>Tue, 27 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Secretaría de Energía fijó hoy cuánto vale la nueva Zona Fría. Fuera de la Patagonia, Malargüe y la Puna, el resultado es un descuento más grande que el de la ley anterior, pero sobre una porción menor de la factura y solo para los hogares inscriptos en el SEF: un 20% extra sobre el precio del gas de su consumo base, que se suma al 74,25% que ya tenían en octubre. Pagan $5,75 de cada $100 de ese gas, en vez de $25,75. En la Patagonia, Malargüe y la Puna, el descuento es de 50% del precio del gas. Ninguno de los dos alcanza al cargo fijo ni al transporte y la distribución.</description>
+      <ci:numero>94,25%</ci:numero>
+      <ci:numeroEtiqueta>descuento total sobre el PAU del consumo base de gas en octubre de 2026 para los hogares del SEF de las subzonas IIIa, IVa-IVd, V y VI fuera de la Patagonia, Malargüe y la Puna: 50% general (Res. SE 272/2026 art. 2) + 24,25% extraordinaria (art. 3) + 20% adicional por Zona Fría (Res. SE 299/2026 art. 3, BO 27/10/2026, consumos desde el 13/10/2026); Decreto 943/2025 arts. 7 y 8 (base PAU, la extraordinaria se adiciona). Pagan 5,75 de cada 100 (25,75 sin Zona Fría). Patagonia/Malargüe/Puna: 50% del precio del gas (art. 1). Noviembre con el cronograma del Decreto 943 (Anexo II): 0 + 2,27 + 20 = 22,27%. Contraste: infobae 27/10/2026 (50% y 20% del PAU complementario al SEF)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-zona-fria-sef-descuento-gas-94-por-ciento.png" length="85462" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-zona-fria-sef-descuento-gas-94-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>500 kWh de luz con descuento por mes, de noviembre a abril: es el nuevo bloque de los hogares con subsidio de las zonas muy cálidas</title>
       <link>https://coninteres.com/articulos/2026-10-27-luz-subsidio-zonas-calidas-500-kwh.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>precio del kilo de nalga en el Gran Buenos Aires en septiembre de 2026, en dólares: INDEC precios promedio GBA (sh_ipc_precios_promedio.xls) $21.914,04 / A3500 promedio sep-26 $1.513,887 (igual al promedio mensual que publica el BCRA en com3500.xls) = US$14,475. Sep-25: $14.598,47 / $1.399,898 = US$10,43 (+38,8%); pesos +50,1%, IPC nacional +33,4%, dólar +8,1%. Los 9 meses de 2026 son los 9 más caros de 126 (abr-16 a sep-26); máximo previo dic-25 US$12,702, pico abr-26 US$15,89. Contraste IPCVA AMBA sep-26: nalga $21.784 (+47,5% i.a.), promedio carne +49,8%. EE.UU. BLS round steak US$9,838/lb = US$21,69/kg (66,7%; sep-25 50,5%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-carne-en-dolares-nalga-mas-cara-serie.png" length="89553" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-carne-en-dolares-nalga-mas-cara-serie.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los depósitos en dólares tocaron US$42.535 millones, el máximo de la serie diaria del BCRA, que empieza en 2002</title>
-      <link>https://coninteres.com/articulos/2026-10-24-depositos-dolares-record-serie-bcra.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-depositos-dolares-record-serie-bcra.html</guid>
-      <pubDate>Sat, 24 Oct 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Los depósitos en dólares de personas y empresas llegaron a US$42.535 millones el 19 de octubre, el nivel más alto de la serie diaria del BCRA, que empieza en 2002, y suben 15% en 2026. Con las presidenciales de 2027 en el horizonte, el récord abre otra pregunta: qué hicieron esos dólares en cada elección. En las 12 nacionales desde 2003, en ocho los depósitos subieron o quedaron iguales y en cuatro bajaron. La peor fue 2019: 42,5% menos entre las PASO y fin de año.</description>
-      <ci:numero>US$42.535 M</ci:numero>
-      <ci:numeroEtiqueta>depósitos en dólares del sector privado (personas y empresas) el 19/10/2026, máximo de la serie diaria del BCRA que empieza el 31/12/2002 (previo: US$36.986 M el 30/12/2025; pico de 2019: US$32.492 M el 09/08/2019). BCRA series.xlsm hoja DEPOSITOS = API variable 108; IMM sep-26: US$41.911 M al 30/09, 'nuevo máximo histórico'</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-depositos-dolares-record-serie-bcra.png" length="80040" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-depositos-dolares-record-serie-bcra.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
