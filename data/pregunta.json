@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-26",
-  "pregunta": "Lula ganó la segunda vuelta de Brasil con el 51,78% de los votos válidos, según el Tribunal Superior Electoral: 64,25 millones de votos. En el padrón había 158,7 millones de electores habilitados. ¿Lo votó más de la mitad de los brasileños que podían votar?",
+  "fecha": "2026-10-27",
+  "pregunta": "El boleto mínimo de los colectivos provinciales del conurbano bonaerense costaba $550,30 en octubre de 2025 y cuesta $1.215,09 en octubre de 2026. La inflación del Gran Buenos Aires en ese año fue 33,5%. Si el boleto hubiera subido igual que la inflación, ¿cuánto costaría hoy?",
   "opciones": [
-    "Sí: 51,78% es más de la mitad, así que lo eligió la mayoría de los habilitados",
-    "No: 64,25 millones sobre 158,7 millones son unos 4 de cada 10 habilitados",
-    "No se puede saber, porque el voto es secreto"
+    "Unos $735",
+    "Unos $910",
+    "Unos $808"
   ],
-  "correcta": 1,
-  "explicacion": "El 51,78% se calcula sobre los votos válidos: los que fueron a un candidato. Quedan afuera los que no fueron a votar y los votos en blanco y nulos. Si se divide 64,25 millones por los 158,7 millones del padrón, da 40,5%: unos 4 de cada 10 habilitados. Las dos cuentas son correctas, pero responden preguntas distintas: quién ganó entre los que eligieron a alguien, y cuánto del padrón lo eligió. El voto es secreto para cada persona, no para el total: los resultados por candidato son públicos.",
-  "nota": "articulos/2026-10-25-brasil-lula-reelecto-tse-que-significa-argentina.html",
-  "leccion": ""
+  "correcta": 0,
+  "explicacion": "Para llevar un precio de hace un año a hoy con la inflación, se multiplica el precio viejo por 1,335: $550,30 × 1,335 da unos $735. Los $910 salen de dividir el precio de hoy por 1,335: es el boleto de hoy medido en pesos de hace un año, una cuenta válida pero para otra pregunta. Los $808 salen de restarle 33,5% al precio de hoy, y eso no deshace una suba de 33,5%: los porcentajes no son simétricos. El boleto real, $1.215,09, cuesta 65% más que si hubiera seguido a la inflación.",
+  "nota": "articulos/2026-10-26-colectivo-bonaerense-boleto-120-por-ciento-en-un-ano.html",
+  "leccion": "lecciones/inflacion.html"
 }

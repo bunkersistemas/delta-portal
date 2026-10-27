@@ -5946,6 +5946,20 @@
       "fecha": "2026-10-27",
       "estado": "en_cola",
       "archivo": "cola/2026-10-27-ia-avisos-empleo-paises-ricos-banco-mundial.html"
+    },
+    {
+      "tema": "¿cuántos kWh de luz tienen subsidio en las zonas cálidas? (RETOMADA del 05/10/2026, frenada porque la resolución no estaba publicada) / Res. SE 300/2026 (BO 27/10/2026, firmada 26/10), Anexo I IF-2026-103966122-APN-SSEEIE#MEC: Muy cálido (Ia, Ib) nov/mar/abr 500, dic-feb 500, may-ago 300, sep-oct 300 kWh; Cálido (IIa, IIb) 300 / 370 / 300 / 300; Resto sin cambios (300 verano y may-ago, 200 sep-oct 2026, 150 mar/abr/nov). Antes: Anexo I Res. 272/2026 (IF-2026-94364059, BO 01/10) 550/370/300 verano, 300 may-ago, 200 sep-oct 2026, 150 mar/abr/nov en las tres; Res. 13/2026 original igual con 150 en sep-oct. Temporada nov-abr 2.100 -> 3.000 (+42,9%) muy cálido; 1.560 -> 2.010 (+28,8%) cálido",
+      "angulo": "Corrida programada del 27/10/2026 02:30, primera candidata probada (APTA). Tema hallado leyendo el Boletín Oficial del día, antes que los portales. Ángulo propio: la comparación mes a mes con la tabla anterior muestra que el verano de las zonas muy cálidas BAJA de 550 a 500 kWh, cosa que el acuerdo con los gobernadores del Norte Grande (Contexto Tucumán, 18/08/2026) no mencionaba; nueva frente a la nota del 01/10 (bonificaciones de octubre, 200 kWh para todas las zonas). Camino normativo: Res. 300 y su anexo + anexos anteriores de las Res. 272 y 13 (coinciden) + recálculo (_privado/zc_calc.py) + contraste de prensa previo (500 kWh nov-abr coincide; cálidas '300 todo el año' vs 370 en verano: vale la norma). No afirmado: departamentos de cada zona (IRAM 11603 paga, sin listado oficial), pesos (bonificación de noviembre sin publicar), cantidad de hogares del SEF en esas zonas, aplicación al consumo de octubre en curso.",
+      "fecha": "2026-10-27",
+      "estado": "publicada",
+      "articulo_id": "2026-10-27-luz-subsidio-zonas-calidas-500-kwh",
+      "archivo": "cola/2026-10-27-luz-subsidio-zonas-calidas-500-kwh.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 27/10/2026 02:30: no se probaron porque pasó la primera candidata (consumo base de luz en zonas cálidas, Res. SE 300/2026)",
+      "angulo": "Lista no probada: Zona Fría, Res. SE 299/2026 (BO 27/10/2026): bonificación de 50% del PRECIO DEL GAS para Patagonia, Malargüe y Puna (los cuadros ENReGE de octubre dan 'Diferenciales 50%' = 0,50 de la plena en TODOS los cargos, incluido el fijo: ver si los cuadros nuevos cambian eso) y adicional por Zona Fría de 20% del PAU sobre el consumo base para hogares del SEF en subzonas IIIa a VI, complementario del SEF (octubre 50% + 24,25%); rige para consumos desde el 13/10. CANDIDATA FUERTE para retomar (la frenada del 26/10 22:30 pedía justamente esta resolución); falta la tabla de consumos base de gas por subzona (Res. SE 686/2022 y 91/2024) para llevarlo a pesos. EMPRESAS (cupo vigente: hoy no hubo nota de EMPRESAS; descartadas con razón): Central Puerto HR CNV 26/10 adquisición de acciones propias (rutina, recompra cubierta el 18/10, sin cifra nueva), Tarjeta Naranja ON LXVIII (subasta el 27/10, sin tasa a las 02:30; retomar con el aviso de resultados), Vista Energy resultados 3T anunciados para el 28/10 (no presentados), Consultatio boleto (descartado 24/10, sin montos). Otras: Res. ME 1854/2026 y Res. SM 89/2026 (BO 27/10, RIGI; no leídas completas) y La Nación 26/10 sobre RIGI con más de US$4.000 M comprometidos y desembolsos bajos; 20 disposiciones DNRYRT de homologación de convenios en el BO 27/10 (no leídas: posible 'cuánto cobra'); cajero de Coto y Carrefour en noviembre (iProfesional; sin acuerdo homologado leído); turistas extranjeros +15% en septiembre (ámbito, TN; ETI cubierta el 26/10); licitación del Tesoro por casi $11 billones (ámbito; llamado sin leer); riesgo país 765 tras Lula (infobae, La Nación, ámbito, TN, iProfesional; sin serie primaria abierta); AySA tarifas (cubierta 01/10); colegios privados de CABA (DGEGP define el 27/10; frenada el 26/10 sin documento).",
+      "fecha": "2026-10-27",
+      "estado": "descartada"
     }
   ]
 }
