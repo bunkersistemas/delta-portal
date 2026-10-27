@@ -5994,6 +5994,20 @@
       "angulo": "Lista no probada: EMPRESAS (cupo vigente; descartadas con razón): Central Puerto HR CNV 26/10 (leído: adquisición de acciones propias, rutina; recompra cubierta 18/10), Tarjeta Naranja ON LXVIII (subasta 27/10, sin resultados a las 06:30), Vista Energy 3T (se presenta el 28/10), Consultatio boleto (sin montos), dividendos de IRSA y Cresud (cubiertos 23/10), Rincón Mining Res. SM 89/2026 (solo cambia la lista de importaciones). BO 27/10: 19 disposiciones DNRYRT de homologación (acuerdos de 2024-2025: UTEDYC, panaderos, juegos de azar, hielo, papeleros, La Fraternidad, peluqueros; escalas viejas), Res. ST 76/2026 y SE 740/2026 sin cifras; Tren del Valle a Río Negro (Res. ME 1853/2026, BO 26/10; sin cifras). Pregunta de plata: costo de la visita del Papa (6-11/11; colecta de la CEA, sin presupuesto oficial publicado), cajero de Coto/Carrefour y telefónicos (sin homologación leída), colegios privados bonaerenses +3% (frenada el 26/10 sin documento). Portadas: riesgo país 765 y dólar tras Lula (infobae, La Nación, ámbito, Cronista, iProfesional, Página12; dato de mercado), BCRA sin compras (infobae, La Nación, ámbito), déficit turístico 3T (La Nación, Cronista; cubierto 26/10), AySA (La Nación, ámbito, Página12; cubierto 01/10), empleo privado 14 meses (cubierto), ARBA plan de pagos (cubierto 24/10), Inocencia Fiscal II reglamentada (cubierta), deuda corporativa u$s2.700 M (ámbito; informe CNV sin contraste a mano), licitación del Tesoro ~$11 billones (ámbito; llamado ya cubierto el 14/10), Granja Tres Arroyos concurso (sin expediente), Diarco (sin documento), Banco Santa Fe hipotecario 4,2% (producto de un banco). pregunta.json ya era de hoy. clarin.com y tn.com.ar no accesibles por WebFetch.",
       "fecha": "2026-10-27",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto calzado importa la Argentina? (pregunta de plata detrás del 'zapatazo' de Zapateros Unidos en Plaza de Mayo, TN 27/10/2026: UTICRA y cámaras denuncian aumento de importaciones, contrabando y caída de ventas)",
+      "angulo": "INDEC base impo capítulo 64 ene-sep CIF: 2026 US$454,44 M, 2025 643,09 M (-29,3%; máximo de la serie 2002-2025, previo 2023 548,5), 2024 470,39; mínimo ene-sep desde 2021 (296,3); kg 22,70 / 30,14 / 18,47 M; US$/kg 20,02 / 21,33 / 25,47; Brasil 162,79 -> 78,57 (-51,7%; parte 34,5% 2024, 25,3% 2025, 17,3% 2026), Vietnam 195,41 -> 139,03, Indonesia 134,30 -> 131,62, China 100,93 -> 60,78; cinco asiáticos 77,4%. Sección XII recalculada 505,07 = ICA cuadro 30 (-27,28%). MDIC EXP: Brasil a Argentina cap. 64 FOB 158,63 -> 77,30 (-51,3%) vs INDEC FOB 159,18 -> 76,63 (-51,9%). IPI calzado y sus partes, promedio ene-ago: 2026 96,6, 2025 128,5 (-24,8%), 2024 139,8, 2023 164,5; mínimo desde 2020 (79,3). Courier fuera del capítulo (rubro 'resto'); contrabando y '200 fábricas cerradas' no verificados.",
+      "fecha": "2026-10-27",
+      "estado": "publicada",
+      "articulo_id": "2026-10-27-calzado-importado-cae-29-fabricas-producen-25-menos",
+      "archivo": "cola/2026-10-27-calzado-importado-cae-29-fabricas-producen-25-menos.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 27/10/2026 08:30: no se probaron porque pasó la primera candidata (importaciones de calzado, INDEC + MDIC + IPI)",
+      "angulo": "Lista no probada: cuánto cobra un policía federal con el aumento de noviembre (ámbito), cuánto cobra un cajero de supermercado en noviembre (ámbito), deuda corporativa de casi US$2.700 M en septiembre (Clarín, ámbito), evasión de US$120 M en pagos a plataformas investigada por ARCA (Clarín), hipotecarios del Banco Nación con fondos de ANSES/FAL (ámbito, Clarín), EMPRESAS: Central Puerto HR CNV 26/10 (otro aviso de recompra, ya cubierta el 18/10) y Consultatio (descartada el 24/10); Vista Energy presenta balance el 28/10. Cupo de empresas: no hay candidata nueva con documento primario que no esté cubierta o descartada; la pregunta de plata del día tenía más demanda.",
+      "fecha": "2026-10-27",
+      "estado": "descartada"
     }
   ]
 }
