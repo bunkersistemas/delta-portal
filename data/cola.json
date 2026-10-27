@@ -1,5 +1,22 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-10-27T11:30:00-03:00",
-  "borradores": []
+  "actualizado": "2026-10-27T13:30:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-10-27-brasil-autos-argentinos-18-menos-china-nueve-por-uno",
+      "titulo": "Brasil compró 18% menos autos argentinos en nueve meses: a China le compró casi nueve por cada uno",
+      "titulo_busqueda": "¿Cuántos autos le vende la Argentina a Brasil?",
+      "bajada": "Brasil casi duplicó sus compras de autos importados, y aun así a la Argentina le compró menos: 49.404 autos entre enero y septiembre de 2026, 18,2% menos que un año antes, según su aduana. El lugar lo ocupó China, con 436.319: casi nueve por cada auto argentino. Las pickups y utilitarios argentinos, en cambio, subieron 16,6%. Los datos son de antes del balotaje y de la suba del dólar en Brasil.",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−18,2%",
+      "numero_label": "autos argentinos (posición 8703) importados por Brasil, enero-septiembre 2026 contra 2025: 49.404 contra 60.408 unidades (US$1.067,3 M contra 1.261,0 M, -15,4%), MDIC bases IMP_2025 e IMP_2026 (act. 06/10/2026), país 063. China 436.319 (170.586 en 2025; 8,83 por cada auto argentino, 2,82 en 2025); total importado por Brasil 555.821 (+92,4%); parte argentina 20,9% -> 8,9%. Vehículos de carga 8704 desde Argentina 74.863 -> 87.317 (+16,6%; US$ +19,6%). Contraste INDEC (exportaciones a Brasil con destino abierto): 8703 US$762,4 M -> 445,3 M (-41,6%), 8704 2.057,4 -> 2.472,5 (+20,2%); confidencial 999 813,9 -> 942,5. ADEFA: Brasil 128.042 de 203.072 exportados (63,1%)",
+      "fecha": "2026-10-27",
+      "hora": "13:30",
+      "archivo": "cola/2026-10-27-brasil-autos-argentinos-18-menos-china-nueve-por-uno.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min"
+    }
+  ]
 }
