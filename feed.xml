@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 15:02:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 16:45:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina importó 9,8% menos fertilizantes que en 2025 y pagó 6,5% más: la tonelada llegó 18% más cara</title>
+      <link>https://coninteres.com/articulos/2026-10-27-fertilizantes-importados-tonelada-18-mas-cara.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-fertilizantes-importados-tonelada-18-mas-cara.html</guid>
+      <pubDate>Tue, 27 Oct 2026 17:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Argentina compró menos fertilizantes y pagó más por ellos. Entre enero y septiembre de 2026 entraron 2,43 millones de toneladas, contra 2,69 millones un año antes, según el INDEC; aun así, la cuenta subió de US$1.498 millones a US$1.595 millones. La urea, el fertilizante que más se compra, llegó 19% más cara. El dato aparece el día en que se conoció que Bunge deja de fabricar insumos para fertilizantes en Campana.</description>
+      <ci:numero>+18%</ci:numero>
+      <ci:numeroEtiqueta>precio promedio CIF por tonelada de los fertilizantes importados (NCM capítulo 31), enero-septiembre de 2026 contra 2025: US$657,1 contra US$556,8 (+18,0%) = US$1.595,34 M / 2.427.715 t contra US$1.498,08 M / 2.690.725 t (INDEC, base de importaciones; 2026 provisoria). Valor igual al cuadro 30 del ICA del 19/10/2026 (31-Abonos US$1.595,34 M, +6,49%); urea 3102.10.10 US$413,95 M (+5,2%, cuadro 32), 535,2 contra 448,6 US$/t (+19,3%). Contraste: Banco Mundial Pink Sheet, promedio ene-sep urea f.o.b. Medio Oriente 430,6 -&gt; 543,4 (+26,2%), DAP f.o.b. Golfo EE.UU. 681,4 -&gt; 728,7 (+6,9%); urea FOB importada 2026 US$484,1/t contra WB ponderado por toneladas mensuales US$483,5</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-fertilizantes-importados-tonelada-18-mas-cara.png" length="93315" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-fertilizantes-importados-tonelada-18-mas-cara.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Sumadas la Nación y las provincias, el Estado argentino cerró 2025 con un rojo de $1,33 billones: el FMI lo cuenta como déficit de 0,2% del PIB</title>
       <link>https://coninteres.com/articulos/2026-10-27-nacion-provincias-deficit-2025-fmi-superavit.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>materiales nuevos estables según los cálculos de GNoME (Merchant y otros, Google DeepMind, Nature 624, 80-85, 29/11/2023: 381.000 nuevos en la lista final de estables, 421.000 en total; antes se conocían 48.000); son predicciones por DFT, sin síntesis propia: 736 coincidían con materiales ya fabricados por otros (ICSD). Contraste: Cheetham y Seshadri (Chem. Mater. 36, 3490, 2024): 10 de 10 al azar con estructura ya conocida en la ICSD. A-Lab (Nature 2023) corregido el 19/01/2026: 36 de 57, no necesariamente nuevos para la ciencia</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-ia-ingenieria-materiales-que-logra.png" length="71759" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-ia-ingenieria-materiales-que-logra.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El presidente de Brasil cobra R$46.366 por mes, unos US$9.200: descontada la inflación, 20% menos que en 2015</title>
-      <link>https://coninteres.com/articulos/2026-10-24-sueldo-presidente-brasil.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-sueldo-presidente-brasil.html</guid>
-      <pubDate>Sat, 24 Oct 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>En reales, el sueldo del presidente de Brasil subió desde 2015; descontada la inflación, vale 20% menos. Son R$46.366,19 brutos por mes desde febrero de 2025, unos US$9.200 o $14,2 millones, y equivalen a 28,6 salarios mínimos, cuando hace once años eran 39,3. Lo fija el Congreso por decreto: el que gane el balotaje de este domingo va a asumir con ese número, salvo que el Congreso fije otro.</description>
-      <ci:numero>R$46.366</ci:numero>
-      <ci:numeroEtiqueta>subsidio mensual bruto del presidente de Brasil desde el 01/02/2025 (R$46.366,19, Decreto Legislativo 172/2022, art. 1 inc. IV; mismo monto para vicepresidente, ministros, diputados y senadores; confirmado por la sección de transparencia del Senado). = US$9.204 (PTAX venta 23/10/2026 R$5,0377; con el tipo de pase BCRA 0,199692 US$9.259) = $14.161.609 (BCRA, real $305,43 al 23/10/2026). En 2015 R$30.934,70 (DL 277/2014) = R$57.921 a precios de sep-2026 (IPCA 4.110,20 -&gt; 7.695,82): -19,95%. 28,6 salarios mínimos (R$1.621, Decreto 12.797/2025) contra 39,3 en 2015 (R$788, Decreto 8.381/2014)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-sueldo-presidente-brasil.png" length="84896" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-sueldo-presidente-brasil.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
