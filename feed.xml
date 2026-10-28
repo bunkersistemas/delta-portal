@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 28 Oct 2026 02:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 04:51:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Gobierno vuelve a suspender 21.812 pensiones por invalidez que había restablecido por orden judicial en 2025</title>
+      <link>https://coninteres.com/articulos/2026-10-28-pensiones-invalidez-21812-suspendidas-otra-vez.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-pensiones-invalidez-21812-suspendidas-otra-vez.html</guid>
+      <pubDate>Wed, 28 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>21.812 personas habían vuelto a cobrar la pensión por invalidez porque un juez lo ordenó, y ahora la pierden otra vez. La Secretaría Nacional de Discapacidad dejó sin efecto, para ellas, la resolución con la que en octubre de 2025 había vuelto a pagarles para cumplir una medida cautelar. Casi todas habían sido suspendidas entre junio y agosto de 2025, en las auditorías. Son el 1,9% de las pensiones por invalidez que se pagaban en septiembre, y tienen 60 días para pedir la rehabilitación con documentación médica nueva.</description>
+      <ci:numero>21.812</ci:numero>
+      <ci:numeroEtiqueta>personas del anexo I de la Res. SND 3695/2026 (BO 28/10/2026, IF-2026-103572421-APN-DNGYAA#MS, 590 págs.) para las que queda sin efecto la restitución de la pensión por invalidez de la Res. ANDIS 13.901/25: conteo propio de filas, 21.812 documentos distintos; 21.630 (99,2%) con acto de suspensión de jun-ago 2025; 1,93% de las 1.131.784 pensiones por invalidez pagadas en sep-2026 (BESS cuadro 3.1); contraste de escala: Infobae 28/10 'más de 20 mil registros', BESS suspendidas 2025 44.347 promedio y sep-26 5.030</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-pensiones-invalidez-21812-suspendidas-otra-vez.png" length="84230" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-pensiones-invalidez-21812-suspendidas-otra-vez.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El cargo fijo del gas se duplica en la Patagonia con la nueva Zona Fría: en Neuquén pasa de $3.432 a $6.865 por mes</title>
       <link>https://coninteres.com/articulos/2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>bajó el tipo de cambio real con la zona euro del BCRA entre septiembre de 2025 (113,46) y septiembre de 2026 (94,19), promedios mensuales: Europa, más barata para un argentino medida contra los precios de acá (recálculo propio con A3500, BCE, INDEC y Eurostat: 17,4%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-25-europa-mas-barata-argentinos-euro-tipo-cambio-real.png" length="79001" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-25-europa-mas-barata-argentinos-euro-tipo-cambio-real.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Cresud cosechó 32% más granos y aun así su negocio agropecuario perdió $26.784 millones en el último ejercicio</title>
-      <link>https://coninteres.com/articulos/2026-10-25-cresud-negocio-agropecuario-perdida.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-25-cresud-negocio-agropecuario-perdida.html</guid>
-      <pubDate>Sun, 25 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Cresud cosechó 914.781 toneladas de granos entre julio de 2025 y junio de 2026, 32% más que un año antes, y aun así su negocio agropecuario cerró con una pérdida neta de $26.784 millones, cuando un año antes había ganado $30.858 millones. La empresa, dueña de 581.983 hectáreas en cuatro países y controlante de IRSA, casi no vendió campos, los granos dejaron menos margen que lo que costó venderlos y administrarlos, y la caña de azúcar de Brasil sufrió heladas e incendios. La ganancia del grupo, $372.280 millones, la pusieron los inmuebles urbanos.</description>
-      <ci:numero>−$26.784 M</ci:numero>
-      <ci:numeroEtiqueta>resultado neto del negocio agropecuario de Cresud en el ejercicio jul-2025/jun-2026, en $ de junio de 2026 (NIC 29): Memoria 2026 (CNV, 09/09/2026, 'Resultado Neto 2026 vs 2025') = 20-F (SEC, 21/10/2026, 'a loss of ARS 26,784 million was attributable to the Agribusiness segment'). Recalculado: -26.784 + 399.064 (urbano) = 372.280 = resultado del ejercicio consolidado auditado (PwC, 07/09/2026) y formulario CNV; 2025: 30.858 + 268.777 = 299.635. Segmento agro (con asociadas) -15.129 vs +63.505: granos -27.225 (vs -6.985), caña -6.082 (vs +11.928), venta de tierras -7.719 (vs +74.690; venta de campos $633 M vs $56.079 M), hacienda +6.481, alquileres +8.346, otros +16.846, corporativo -5.776; Memoria da resultado operativo -15.441 (diferencia = asociadas 312). Granos 914.781 t vs 691.021 (2025) y 763.918 (2024), +32,4%, en ambos documentos</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-25-cresud-negocio-agropecuario-perdida.png" length="86217" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-25-cresud-negocio-agropecuario-perdida.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-28T02:58:54-03:00",
+    "actualizado": "2026-10-28T04:51:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-28-pensiones-invalidez-21812-suspendidas-otra-vez",
+      "titulo": "El Gobierno vuelve a suspender 21.812 pensiones por invalidez que había restablecido por orden judicial en 2025",
+      "bajada": "21.812 personas habían vuelto a cobrar la pensión por invalidez porque un juez lo ordenó, y ahora la pierden otra vez. La Secretaría Nacional de Discapacidad dejó sin efecto, para ellas, la resolución con la que en octubre de 2025 había vuelto a pagarles para cumplir una medida cautelar. Casi todas habían sido suspendidas entre junio y agosto de 2025, en las auditorías. Son el 1,9% de las pensiones por invalidez que se pagaban en septiembre, y tienen 60 días para pedir la rehabilitación con documentación médica nueva.",
+      "titulo_busqueda": "¿A cuántas personas les volvieron a suspender la pensión por invalidez?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "21.812",
+      "numero_label": "personas del anexo I de la Res. SND 3695/2026 (BO 28/10/2026, IF-2026-103572421-APN-DNGYAA#MS, 590 págs.) para las que queda sin efecto la restitución de la pensión por invalidez de la Res. ANDIS 13.901/25: conteo propio de filas, 21.812 documentos distintos; 21.630 (99,2%) con acto de suspensión de jun-ago 2025; 1,93% de las 1.131.784 pensiones por invalidez pagadas en sep-2026 (BESS cuadro 3.1); contraste de escala: Infobae 28/10 'más de 20 mil registros', BESS suspendidas 2025 44.347 promedio y sep-26 5.030",
+      "fecha": "2026-10-28",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-28-pensiones-invalidez-21812-suspendidas-otra-vez.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica",
       "titulo": "El cargo fijo del gas se duplica en la Patagonia con la nueva Zona Fría: en Neuquén pasa de $3.432 a $6.865 por mes",
