@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-28T14:48:05-03:00",
+    "actualizado": "2026-10-28T16:53:08-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-28-estado-gasto-combustible-101296-millones",
+      "titulo": "El Estado nacional gastó $101.296 millones en combustible en 2025: 32% menos que en 2024, descontada la inflación",
+      "bajada": "En 2025 el Estado nacional gastó menos pesos en combustible que en 2024, con los combustibles 30% más caros: la Administración Nacional devengó $101.296 millones en combustibles y lubricantes, contra $105.363 millones, según la Cuenta de Inversión. Ocho de cada diez pesos los gastaron Defensa y Seguridad. Con ese punto de partida, este miércoles el Gobierno eligió a YPF y a Pan American Energy para venderle combustible los próximos dos años.",
+      "titulo_busqueda": "¿Cuánto gasta el Estado en combustible y a quién se lo compra?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$101.296 M",
+      "numero_label": "gasto corriente de la Administración Nacional en combustibles y lubricantes en 2025 (partida 2.5.6, clasificación económica 2.1.2.2, devengado): $101.295,72 M según la Cuenta de Inversión 2025 Tomo I (CGN) y la suma propia de Presupuesto Abierto crédito anual y mensual 2025; 2024 $105.362,72 M (Cuenta de Inversión 2024 = Presupuesto Abierto); -3,9% nominal y -32,3% real (IPC nacional promedio anual, $ ago-26: 204.743 -> 138.697, el menor desde 2020: 133.859); contraste INDEC IPC GBA combustibles y lubricantes para vehículos +30,3% promedio 2025; Defensa 57.846,41 (57,1%) + Seguridad 22.469,65 (22,2%); ene-sep 2026 $82.075,22 M vs $63.483,03 M (+29,3%), combustibles sep/sep +46,2%; Res. MDYTE 116/2026 (BO 28/10/2026) adjudica el acuerdo marco 999-0002-LPU26 a YPF y PAE",
+      "fecha": "2026-10-28",
+      "hora": "17:30",
+      "archivo": "articulos/2026-10-28-estado-gasto-combustible-101296-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-28-richmond-ventas-oncologicos-tercer-trimestre",
       "titulo": "Laboratorios Richmond vendió $8.103 millones en remedios oncológicos en el tercer trimestre: 24% más que un año antes, descontada la inflación",
