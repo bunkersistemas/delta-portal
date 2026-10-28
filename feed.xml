@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 28 Oct 2026 18:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 20:45:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La asignación por nacimiento sube a $93.035 en noviembre: es el 16% de lo que cuesta un mes de crianza de un bebé, y la ANSES paga más por un casamiento</title>
+      <link>https://coninteres.com/articulos/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.html</guid>
+      <pubDate>Wed, 28 Oct 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La asignación por nacimiento de noviembre, $93.035, alcanza para el 16,3% de lo que el INDEC calcula que cuesta criar a un bebé durante un mes, según la última canasta de crianza, la de septiembre. Es más que a fines de 2023, cuando cubría el 12,2%, pero la mejora no vino de que el pago le ganara a la inflación por mucho: vino de que la canasta subió menos que los precios. La ANSES fijó el monto en el Boletín Oficial: pasa de $91.273 a $93.035, 1,93% más, lo mismo que subieron los precios en septiembre. Y la asignación por matrimonio sigue pagando $139.300, una vez y media lo que paga un nacimiento.</description>
+      <ci:numero>$93.035</ci:numero>
+      <ci:numeroEtiqueta>asignación por nacimiento de la ANSES desde noviembre de 2026, valor general, pago único (Res. ANSES 303/2026, BO 28/10/2026, anexo I; mismo monto en anexos II, IV, V y VII; el anexo VI de monotributistas no la incluye). Recálculo: oct-26 $91.273 (Res. 283/2026) x 1,0193 = 93.034,57, redondeo al peso siguiente (art. 3) = 93.035; $91.273 = sep-26 $89.782 (Res. 260/2026) x 1,0166. Contraste independiente: IPC nacional INDEC sep-26 12.514,1508 / ago-26 12.276,766 = +1,934%. Cobertura: 93.035 / canasta de crianza &lt;1 año sep-26 $570.832 (INDEC 16/10/2026) = 16,3%; mismo mes: sep-26 15,7%, sep-25 15,4% (67.079 / 436.988, Res. 297/2025), dic-23 12,2% (24.083 / 197.046, Res. 223/2023). Matrimonio $139.300, adopción $556.217. Camino: monto oficial recalculado con contraste.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.png" length="94005" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>YPF ganó US$2.810 millones en nueve meses, después de perder US$150 millones en el mismo período de 2025: cobró 28% más por cada barril</title>
       <link>https://coninteres.com/articulos/2026-10-28-ypf-ganancia-nueve-meses-2026.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>creció la generación de las centrales hidroeléctricas de más de 50 MW en septiembre de 2026 contra septiembre de 2025: de 2.662 a 3.508 GWh (CAMMESA, informe mensual de septiembre 2026, publicado el 19/10/2026; recálculo propio desde la base del informe, máquina por máquina: 2.661.781,5 -&gt; 3.508.488,8 MWh, +31,81%; Yacyretá 1.038.099 -&gt; 1.624.650 MWh, +56,5%). Contraste independiente: Entidad Binacional Yacyretá, caudal afluente de septiembre 37% sobre el promedio del mes (12.339 m3/s, serie 1971-2025). Apoyo: los hogares cubrieron el 73,8% (CAMMESA: 74%) del costo de su energía, $84.288 sobre $114.280 por MWh, contra 56,7% en agosto; máximo previo de 2026: abril, 69,2%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-represas-luz-hogares-74-por-ciento-costo.png" length="87324" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-represas-luz-hogares-74-por-ciento-costo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Presupuesto 2027 alcanza justo para pagar $78.000 por mes del Acompañamiento Social, el monto de 2023, y no tiene un peso para Volver al Trabajo</title>
-      <link>https://coninteres.com/articulos/2026-10-26-presupuesto-2027-acompanamiento-social-volver-al-trabajo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-26-presupuesto-2027-acompanamiento-social-volver-al-trabajo.html</guid>
-      <pubDate>Mon, 26 Oct 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Lo que el proyecto le da al Acompañamiento Social alcanza exacto para el monto que se paga desde diciembre de 2023, y no para un aumento: $187.200 millones para 200.000 titulares, divididos por doce meses, son $78.000 por persona. Volver al Trabajo, el plan más grande de los dos, costó $891.478 millones en 2025, se pagó hasta junio de 2026 y en 2027 no figura.</description>
-      <ci:numero>$78.000</ci:numero>
-      <ci:numeroEtiqueta>monto mensual por titular que financia el proyecto de Presupuesto 2027 para el Acompañamiento Social: $187.200 M (P27J88, programa 38, p. 88-37) / 200.000 titulares activos (p. 88-36 y mensaje p. 97) / 12 = $78.000,00 exactos; igual a la asignación de la Res. MCH 90/2026 (BO 14/04/2026), sin cláusula de actualización. Contraste: devengado oct-26 $14.952,37 M (Presupuesto Abierto, act. 23/10/2026) = 191.697 titulares a $78.000, mensaje p. 10 'más de 195.000'. Volver al Trabajo: sin actividad ni meta en el programa 16 de 2027 (p. 88-61/62); 2026 actividad 17 $300.018 M y meta 950.000 (P26J88 p. 88-65/66); devengado 2025 $891.478,5 M, 2026 ene-jun $72.131-72.764 M/mes, jul $3,8 M, desde ago nada</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-presupuesto-2027-acompanamiento-social-volver-al-trabajo.png" length="90808" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-presupuesto-2027-acompanamiento-social-volver-al-trabajo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

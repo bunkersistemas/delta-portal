@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-28T18:44:16-03:00",
+    "actualizado": "2026-10-28T20:44:53-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza",
+      "titulo": "La asignación por nacimiento sube a $93.035 en noviembre: es el 16% de lo que cuesta un mes de crianza de un bebé, y la ANSES paga más por un casamiento",
+      "bajada": "La asignación por nacimiento de noviembre, $93.035, alcanza para el 16,3% de lo que el INDEC calcula que cuesta criar a un bebé durante un mes, según la última canasta de crianza, la de septiembre. Es más que a fines de 2023, cuando cubría el 12,2%, pero la mejora no vino de que el pago le ganara a la inflación por mucho: vino de que la canasta subió menos que los precios. La ANSES fijó el monto en el Boletín Oficial: pasa de $91.273 a $93.035, 1,93% más, lo mismo que subieron los precios en septiembre. Y la asignación por matrimonio sigue pagando $139.300, una vez y media lo que paga un nacimiento.",
+      "titulo_busqueda": "¿Cuánto paga la ANSES por nacimiento en noviembre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$93.035",
+      "numero_label": "asignación por nacimiento de la ANSES desde noviembre de 2026, valor general, pago único (Res. ANSES 303/2026, BO 28/10/2026, anexo I; mismo monto en anexos II, IV, V y VII; el anexo VI de monotributistas no la incluye). Recálculo: oct-26 $91.273 (Res. 283/2026) x 1,0193 = 93.034,57, redondeo al peso siguiente (art. 3) = 93.035; $91.273 = sep-26 $89.782 (Res. 260/2026) x 1,0166. Contraste independiente: IPC nacional INDEC sep-26 12.514,1508 / ago-26 12.276,766 = +1,934%. Cobertura: 93.035 / canasta de crianza <1 año sep-26 $570.832 (INDEC 16/10/2026) = 16,3%; mismo mes: sep-26 15,7%, sep-25 15,4% (67.079 / 436.988, Res. 297/2025), dic-23 12,2% (24.083 / 197.046, Res. 223/2023). Matrimonio $139.300, adopción $556.217. Camino: monto oficial recalculado con contraste.",
+      "fecha": "2026-10-28",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-28-ypf-ganancia-nueve-meses-2026",
       "titulo": "YPF ganó US$2.810 millones en nueve meses, después de perder US$150 millones en el mismo período de 2025: cobró 28% más por cada barril",

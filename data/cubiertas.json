@@ -6290,6 +6290,18 @@
       "angulo": "Lista no probada: Vista Energy 3T26 (usada como par en la nota de YPF), BCRA sin compras por tercer día (infobae, La Nación, Clarín; serie diaria), 36% de asalariados del Banco Provincia sin saldo el día 10 (estudio de un solo banco, frenada antes), multa por no ceder el paso a peatones con quita de 5 puntos (El Cronista; pregunta de plata, valor de la unidad fija), Fed mantiene la tasa (iProfesional, TN; sin ángulo local con dato propio), licitación del Tesoro (TN, ámbito), consumo de septiembre y UIA -3,4% (Página12; datos privados), empleo formal 14 meses en baja (Página12; SIPA), RIGI de litio en Catamarca (cubierto), BID US$1.150 M (publicada hoy).",
       "fecha": "2026-10-28",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto paga la ANSES por nacimiento en noviembre de 2026? (iProfesional 28/10 'ANSES pagaría $93.035 por nacimiento en noviembre'; TN 28/10, nuevas escalas de asignaciones) / Res. ANSES 303/2026 (BO 28/10/2026), anexo I: nacimiento $93.035, matrimonio $139.300, adopción $556.217; canasta de crianza <1 año INDEC sep-26 $570.832",
+      "angulo": "Corrida programada del 28/10/2026 20:30, primera candidata probada (APTA). Ángulo propio: el pago único medido en canasta de crianza de un bebé (16,3% con la canasta de septiembre; serie del mismo mes 12,2% dic-23, 15,4% sep-25, 15,7% sep-26), por qué subió (la canasta, con dos tercios de cuidado valorado a sueldo de casas particulares, subió 189,7% contra IPC 254,2% y asignación 272,8%), matrimonio paga 1,5 veces nacimiento, AUH la cobra (anexo V) y monotributistas no (anexo VI). Distinta de la del 16/10 (AUH mensual + Prestación Alimentar contra la canasta de 6 a 12). Verificación: monto oficial recalculado (283/2026 x 1,93%, art. 3) + contraste IPC INDEC sep-26 1,934%.",
+      "fecha": "2026-10-28",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida programada del 28/10/2026 20:30: no se probaron porque pasó la primera candidata (asignación por nacimiento de noviembre contra la canasta de crianza, ANSES Res. 303/2026 + INDEC)",
+      "angulo": "Lista no probada. EMPRESAS (hoy ya salieron Richmond y YPF, el cupo está cubierto): Vista Energy 3T26 (infobae, La Nación, Clarín; 6-K SEC del 28/10, usada como par en la nota de YPF de hoy), Molinos-Grupo Ayudín (frenada a las 18:30, sin precio), Sinteplast US$44 M (infobae; sin documento ante la CNV), Fiplasto venta de inmueble (HR CNV 28/10, menor). Pregunta de plata: Caputo y el informe ante la SEC (El Cronista; documento de la República sin ubicar todavía), IOSFA disuelta por decreto (ámbito, Página12; frenada dos veces), feria de empleo de la Ciudad con 14.000 asistentes y 2.500 vacantes (La Nación, iProfesional; sin pregunta de plata con documento), UOCRA de noviembre (iProfesional, Cronista; publicada el 25/09 con el tramo de noviembre), comercio 5,7% y bono de $50.000 (TN; frenada el 27/10 sin acta homologada), Balón de Oro y votación paga (Clarín; sin documento oficial). Portada: BCRA sin compras por tercer día (infobae, La Nación, Clarín), 36% sin saldo el día 10 según el Banco Provincia (cinco portadas; estudio de un solo banco, frenada antes), Fed mantiene la tasa (iProfesional, TN), licitación del Tesoro (infobae, La Nación, TN), riesgo país 763 (Página12), Flávio Bolsonaro (sin pregunta de plata).",
+      "fecha": "2026-10-28",
+      "estado": "descartada"
     }
   ]
 }
