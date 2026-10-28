@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-27",
-  "pregunta": "El boleto mínimo de los colectivos provinciales del conurbano bonaerense costaba $550,30 en octubre de 2025 y cuesta $1.215,09 en octubre de 2026. La inflación del Gran Buenos Aires en ese año fue 33,5%. Si el boleto hubiera subido igual que la inflación, ¿cuánto costaría hoy?",
+  "fecha": "2026-10-28",
+  "pregunta": "Entre enero y septiembre de 2026 la Argentina importó 9,8% menos toneladas de fertilizantes que un año antes, pero pagó 6,5% más en total. ¿Cuánto más cara llegó, en promedio, cada tonelada?",
   "opciones": [
-    "Unos $735",
-    "Unos $910",
-    "Unos $808"
+    "Un 16,3% más cara",
+    "Un 18% más cara",
+    "Un 3,3% más barata"
   ],
-  "correcta": 0,
-  "explicacion": "Para llevar un precio de hace un año a hoy con la inflación, se multiplica el precio viejo por 1,335: $550,30 × 1,335 da unos $735. Los $910 salen de dividir el precio de hoy por 1,335: es el boleto de hoy medido en pesos de hace un año, una cuenta válida pero para otra pregunta. Los $808 salen de restarle 33,5% al precio de hoy, y eso no deshace una suba de 33,5%: los porcentajes no son simétricos. El boleto real, $1.215,09, cuesta 65% más que si hubiera seguido a la inflación.",
-  "nota": "articulos/2026-10-26-colectivo-bonaerense-boleto-120-por-ciento-en-un-ano.html",
+  "correcta": 1,
+  "explicacion": "El precio promedio es lo que se pagó dividido por las toneladas. Si el total vale 1,065 veces lo de antes y las toneladas son 0,902 veces, el precio por tonelada es 1,065 ÷ 0,902 = 1,18: un 18% más. Sumar 6,5 + 9,8 = 16,3% es un atajo que solo anda con variaciones chicas; con caídas de casi 10% se queda corto. Y restar 6,5 − 9,8 confunde el signo: si se compra menos y se paga más, cada unidad salió más cara, no más barata. Según el INDEC, la tonelada pasó de US$556,8 a US$657,1.",
+  "nota": "articulos/2026-10-27-fertilizantes-importados-tonelada-18-mas-cara.html",
   "leccion": "lecciones/inflacion.html"
 }

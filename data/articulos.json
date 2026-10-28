@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-27T21:10:58-03:00",
+    "actualizado": "2026-10-28T00:46:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-28-deuda-bid-18628-millones-mayor-deudor",
+      "titulo": "La Argentina le debe US$18.628 millones al BID, más que cualquier otro país, y el Gobierno aprobó dos préstamos nuevos por US$1.150 millones",
+      "bajada": "Al 30 de septiembre la Argentina le debía US$18.628 millones al Banco Interamericano de Desarrollo, una deuda que el propio BID anota como la más grande de toda su cartera. Sobre ese saldo, el Boletín Oficial de hoy trae dos decretos por hasta US$1.150 millones más, para las provincias y para las fuerzas federales. Y esa deuda ya cuesta: en nueve meses de 2026 la Argentina le pagó US$1.680 millones.",
+      "titulo_busqueda": "¿Cuánto le debe la Argentina al BID en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$18.628 M",
+      "numero_label": "deuda de la administración central con el BID al 30/09/2026 según la Secretaría de Finanzas (boletín mensual, hoja A.1: 18.628,2; recalculada desde los flujos de la hoja A.4 a jun-26: 18.809,2 vs 18.806,0 publicado); contraste del acreedor: BID ante la SEC, cartera con garantía soberana en la Argentina US$18.683 M al 30/06/2026, la mayor por país (Brasil 15.514)",
+      "fecha": "2026-10-28",
+      "hora": "01:30",
+      "archivo": "articulos/2026-10-28-deuda-bid-18628-millones-mayor-deudor.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-27-bancos-408-sucursales-menos-galicia-macro",
       "titulo": "Los bancos tienen 408 sucursales menos que a fines de 2023, y 253 de esas bajas son de Galicia y Macro, que absorbieron a HSBC e Itaú",
