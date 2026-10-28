@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 28 Oct 2026 08:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 11:08:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Enarsa, la empresa a privatizar con más superávit, recibió $549.757 millones del Tesoro en el semestre: casi seis veces lo que le sobró</title>
+      <link>https://coninteres.com/articulos/2026-10-28-empresas-a-privatizar-superavit-transferencias-tesoro.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-empresas-a-privatizar-superavit-transferencias-tesoro.html</guid>
+      <pubDate>Wed, 28 Oct 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Cinco de las ocho empresas que la Ley Bases declaró sujetas a privatización cerraron la primera mitad de 2026 con superávit financiero, según la Secretaría de Hacienda. Pero entre las ocho recibieron $1,36 billones del Tesoro, y si se resta esa plata, solo AySA e Intercargo quedan en positivo.</description>
+      <ci:numero>$549.757 M</ci:numero>
+      <ci:numeroEtiqueta>transferencias corrientes del Tesoro a Enarsa en enero-junio de 2026, la empresa sujeta a privatización con mayor superávit financiero ($96.435,6 M). ONP, ejecución de empresas públicas al 30/06/2026 (planilla 2dotrim26, base devengado, provisoria); recálculo: Presupuesto Abierto crédito mensual 2026 (act. 26/10/2026), devengado ene-jun destino Energía Argentina S.A. = 549.757,0; contraste: OPC, transferencias a empresas públicas acumulado a abril 2026, Enarsa $0,28 billones (PA ene-abr 284.757). Las ocho (Ley 27.742 Anexo I + arts. 8 y 9): resultado 89.497,7; transferencias 1.358.166,3; sin transferencias -1.268.668,6; superávit sin transferencias solo AySA (20.909,8) e Intercargo (12.695,8)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-empresas-a-privatizar-superavit-transferencias-tesoro.png" length="81545" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-empresas-a-privatizar-superavit-transferencias-tesoro.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Fondo Hídrico destinó a obras $29 de cada $100 que recibió desde 2024: entre 2020 y 2023 gastaba más de lo que le entraba</title>
       <link>https://coninteres.com/articulos/2026-10-28-fondo-hidrico-obras-29-de-cada-100.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>electores habilitados para la segunda vuelta en Brasil, según el TSE</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-25-brasil-como-vota-padron-tse-segunda-vuelta.png" length="61576" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-25-brasil-como-vota-padron-tse-segunda-vuelta.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>¿Cuándo se elige al próximo presidente de Estados Unidos y quiénes están en carrera?</title>
-      <link>https://coninteres.com/articulos/2026-10-25-elecciones-estados-unidos-2028-cuando-quienes.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-25-elecciones-estados-unidos-2028-cuando-quienes.html</guid>
-      <pubDate>Sun, 25 Oct 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>La fecha ya está escrita en la ley; los candidatos, todavía no. La elección es el martes 7 de noviembre de 2028 y el ganador asume el 20 de enero de 2029. Los partidos no tienen candidatos. Ante la autoridad electoral hay 486 inscripciones para presidente en 2028, pero ninguna es de un gobernador, de un legislador nacional ni del vicepresidente, y la que más recaudó juntó US$314.000. Donald Trump no puede volver a presentarse: la Constitución prohíbe que alguien sea elegido presidente más de dos veces.</description>
-      <ci:numero>486</ci:numero>
-      <ci:numeroEtiqueta>registros de candidatura a presidente para 2028 ante la Comisión Federal Electoral (FEC, base de candidatos, cargo P, elección 2028, consultada el 25/10/2026; último registro 23/10): 126 republicanos, 105 demócratas, 255 independientes u otros; algunas personas figuran más de una vez. Contraste: WhoFundsMyRep, 479 al 20/10/2026, sin legisladores nacionales, gobernadores ni miembros del gabinete. Solo 14 recaudaron US$5.000 o más; la que más, Phyllis Jager (R), US$314.000 al 30/09/2026. Vance, Newsom y Trump no figuran. Elección general 7/11/2028 (3 U.S.C. §21), electores 19/12/2028 (§7), recuento 6/1/2029 (§15), asunción 20/1/2029 (enmienda 20)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-25-elecciones-estados-unidos-2028-cuando-quienes.png" length="75050" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-25-elecciones-estados-unidos-2028-cuando-quienes.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
