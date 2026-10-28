@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-27T19:02:09-03:00",
+    "actualizado": "2026-10-27T21:10:58-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-27-bancos-408-sucursales-menos-galicia-macro",
+      "titulo": "Los bancos tienen 408 sucursales menos que a fines de 2023, y 253 de esas bajas son de Galicia y Macro, que absorbieron a HSBC e Itaú",
+      "bajada": "Entre diciembre de 2023 y julio de 2026 los bancos pasaron de 4.322 a 3.914 sucursales, según el Banco Central. Seis de cada diez de esas bajas están en dos bancos, Galicia y Macro, que compraron y absorbieron a HSBC e Itaú. Pero el ajuste no termina en esas dos fusiones: el resto de los bancos también achicó su red, a junio el sistema tenía 11.781 empleados menos y la Ciudad de Buenos Aires perdió casi una de cada cinco sucursales.",
+      "titulo_busqueda": "¿Cuántas sucursales de bancos cerraron en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "408",
+      "numero_label": "sucursales plenas menos de los bancos entre diciembre de 2023 (4.322) y julio de 2026 (3.914), -9,4% (BCRA, Información de Entidades Financieras, cuadro 'Bancos - Localización en el país'). Recalculado: suma de los cuadros por entidad = 3.944 y 4.414 del sistema; bancos 3.914 y 4.322. Contraste: BBVA 243 (20-F 2023) -> 223 (2T26, SEC) y Supervielle 137 (20-F 2023) -> 117 (2T26, SEC), iguales al BCRA. Galicia + ex HSBC 402 -> 271 (-131), Macro + ex Itaú 519 -> 397 (-122): 253 de 408 (62,0%); resto 3.401 -> 3.246 (-155, -4,6%). CABA 725 -> 590 (-18,6%), PBA 1.384 -> 1.286 (-7,1%), resto 2.213 -> 2.038 (-7,9%). Empleados de los bancos dic-23 97.488 -> jun-26 85.707 (-11.781, -12,1%), mínimo desde por lo menos 2015 (105.779); contraste SIPA servicios financieros privados 151.763 -> 143.064 (-8.699, -5,7%) contra bancos privados BCRA 58.513 -> 50.561 (-7.952, -13,6%). Cajeros 18.497 -> 17.677 (-820, -4,4%). Dic-2019: 4.530 sucursales.",
+      "fecha": "2026-10-27",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-27-bancos-408-sucursales-menos-galicia-macro.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-27-bananas-importadas-370-mil-toneladas-ecuador",
       "titulo": "La Argentina importó 370.375 toneladas de bananas en nueve meses, la cifra más alta desde 2002: seis de cada diez llegaron de Ecuador",

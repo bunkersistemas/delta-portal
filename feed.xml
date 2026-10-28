@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 27 Oct 2026 19:02:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 21:11:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los bancos tienen 408 sucursales menos que a fines de 2023, y 253 de esas bajas son de Galicia y Macro, que absorbieron a HSBC e Itaú</title>
+      <link>https://coninteres.com/articulos/2026-10-27-bancos-408-sucursales-menos-galicia-macro.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-bancos-408-sucursales-menos-galicia-macro.html</guid>
+      <pubDate>Tue, 27 Oct 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre diciembre de 2023 y julio de 2026 los bancos pasaron de 4.322 a 3.914 sucursales, según el Banco Central. Seis de cada diez de esas bajas están en dos bancos, Galicia y Macro, que compraron y absorbieron a HSBC e Itaú. Pero el ajuste no termina en esas dos fusiones: el resto de los bancos también achicó su red, a junio el sistema tenía 11.781 empleados menos y la Ciudad de Buenos Aires perdió casi una de cada cinco sucursales.</description>
+      <ci:numero>408</ci:numero>
+      <ci:numeroEtiqueta>sucursales plenas menos de los bancos entre diciembre de 2023 (4.322) y julio de 2026 (3.914), -9,4% (BCRA, Información de Entidades Financieras, cuadro 'Bancos - Localización en el país'). Recalculado: suma de los cuadros por entidad = 3.944 y 4.414 del sistema; bancos 3.914 y 4.322. Contraste: BBVA 243 (20-F 2023) -&gt; 223 (2T26, SEC) y Supervielle 137 (20-F 2023) -&gt; 117 (2T26, SEC), iguales al BCRA. Galicia + ex HSBC 402 -&gt; 271 (-131), Macro + ex Itaú 519 -&gt; 397 (-122): 253 de 408 (62,0%); resto 3.401 -&gt; 3.246 (-155, -4,6%). CABA 725 -&gt; 590 (-18,6%), PBA 1.384 -&gt; 1.286 (-7,1%), resto 2.213 -&gt; 2.038 (-7,9%). Empleados de los bancos dic-23 97.488 -&gt; jun-26 85.707 (-11.781, -12,1%), mínimo desde por lo menos 2015 (105.779); contraste SIPA servicios financieros privados 151.763 -&gt; 143.064 (-8.699, -5,7%) contra bancos privados BCRA 58.513 -&gt; 50.561 (-7.952, -13,6%). Cajeros 18.497 -&gt; 17.677 (-820, -4,4%). Dic-2019: 4.530 sucursales.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-bancos-408-sucursales-menos-galicia-macro.png" length="87361" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-bancos-408-sucursales-menos-galicia-macro.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina importó 370.375 toneladas de bananas en nueve meses, la cifra más alta desde 2002: seis de cada diez llegaron de Ecuador</title>
       <link>https://coninteres.com/articulos/2026-10-27-bananas-importadas-370-mil-toneladas-ecuador.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>multa máxima por no votar en una elección nacional sin justificarse (Código Electoral Nacional, Ley 19.945, art. 125: 'multa de pesos cincuenta ($ 50) a pesos quinientos ($ 500)'), fijada por la Ley 26.744 art. 6 (BO 11/06/2012) y reescrita sin cambiar los montos por la Ley 26.774 art. 3 (BO 02/11/2012). Dos fuentes: InfoLEG texto actualizado y Registro de Infractores de la Cámara Nacional Electoral ('Legislación vigente'). Al dólar A3500: $4,489 el 11/06/2012 = US$111,38; $1.528,263 el 23/10/2026 = US$0,327 (x340,4). Para los mismos dólares de 2012: $170.223. IPCBA jul-2012 -&gt; sep-2026 x410,8: $205.420. IPC INDEC dic-2016 -&gt; sep-2026 x125,1: $62.571. Proyectos 1576-D-2021 y 0013-D-2025 (50-300 módulos) y 3622-D-2023 (100-500), sin sanción</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-multa-no-votar-500-pesos-dolares.png" length="85087" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-multa-no-votar-500-pesos-dolares.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El descuento de 40% de ARBA no toca el capital: en una deuda de 2026 llega como mucho a 22,7%</title>
-      <link>https://coninteres.com/articulos/2026-10-24-arba-moratoria-descuento-real-capital.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-arba-moratoria-descuento-real-capital.html</guid>
-      <pubDate>Sat, 24 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>ARBA ofrece desde el lunes 26 de octubre hasta 40% de descuento para cancelar deudas de Inmobiliario, Automotor, Ingresos Brutos y Sellos. Pero la resolución dice que la quita nunca puede tocar el capital: solo baja intereses. En una deuda vencida el 1 de enero de 2026, los intereses suman 29,4% del capital; el descuento real es entonces 22,7%, y se paga el capital justo. El 40% entero solo llega a las deudas vencidas hasta el 11 de julio de 2025.</description>
-      <ci:numero>22,7%</ci:numero>
-      <ci:numeroEtiqueta>descuento real máximo para una deuda con ARBA de 2026 cancelada al contado el 26/10/2026 (vencida el 01/01/2026): índice de liquidación 1,294193 (Disp. Delegada SERYC 3647/26, prejudicial predeterminado; igual en autodeterminado) = capital + 29,42%; la quita de 40% del total (RN 23/2026 art. 2 A.1) no puede disminuir el capital, así que se topa en los intereses: 0,294193/1,294193 = 22,73%. Recálculo propio con RN 10/2024 (8%), RN 17/2025 (6,6%) y RN 33/2025 (3%) prorrateadas por días: 29,42%, diferencia máxima con el índice oficial &lt;0,2 pp desde mar-2024. Umbral del 40% completo: índice &gt;= 5/3, último vencimiento 11/07/2025 pagando el 26/10 (1,667741) y 19/07/2025 pagando el 13/11. Plan 2024 (RN 27/2024): máximo 30%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-arba-moratoria-descuento-real-capital.png" length="80996" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-arba-moratoria-descuento-real-capital.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
