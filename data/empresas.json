@@ -1,11 +1,47 @@
 {
-  "generado": "2026-10-28T16:30",
+  "generado": "2026-10-28T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3584972",
+      "fuente": "CNV",
+      "fecha": "2026-10-28T17:45",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - HR - ADQUISICIÓN DE ACCIONES PROPIAS.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/AE0BEF8E-805E-4DB2-89D7-162864A30DCD"
+    },
+    {
+      "id": "cnv-3584978",
+      "fuente": "CNV",
+      "fecha": "2026-10-28T17:27",
+      "entidad": "FIPLASTO S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN COMERCIAL - HECHO RELEVANTE COMPLEMENTARIO EN CONEXION CON LA VENTA DE UN INMUEBLE DE LA SOCIEDAD",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/73605F3C-7D13-42C5-B592-D3D5E040352D"
+    },
+    {
+      "id": "cnv-3584958",
+      "fuente": "CNV",
+      "fecha": "2026-10-28T17:10",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (28 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3CDB11FB-2AA0-4365-A22E-0DFC5C59EA59"
+    },
+    {
+      "id": "cnv-3584933",
+      "fuente": "CNV",
+      "fecha": "2026-10-28T16:59",
+      "entidad": "MOLINOS RÍO DE LA PLATA S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ADQUISICIÓN GRUPO AYUDÍN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2468161B-79C9-473A-B297-8C0D0838F0B9"
+    },
     {
       "id": "cnv-3584837",
       "fuente": "CNV",
@@ -14,6 +50,26 @@
       "tipo": "hecho",
       "descripcion": "INFORMACIÓN COMERCIAL - HECHO RELEVANTE - CERTIFICACIÓN DE VENTAS Q3 2026 - ON SIII - CNV",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5080CD8E-4F38-4E30-8F75-2502D3E66757"
+    },
+    {
+      "id": "sec-0001554855-26-002239",
+      "fuente": "SEC",
+      "fecha": "2026-10-28",
+      "entidad": "YPF",
+      "ticker": "YPF",
+      "tipo": "balance",
+      "descripcion": "6-K Financial Statements as of 09/30/2026 Dear Sirs: In order to comply with the requirements of Article No. 63, of the ByMA Listing Regulations, we inform you that the Board of Direc",
+      "url": "https://www.sec.gov/Archives/edgar/data/904851/000155485526002239/MainDocument.htm"
+    },
+    {
+      "id": "sec-0001193125-26-436174",
+      "fuente": "SEC",
+      "fecha": "2026-10-28",
+      "entidad": "Vista Energy",
+      "ticker": "VIST",
+      "tipo": "balance",
+      "descripcion": "6-K Contents of this Form 6-K This Form 6-K for Vista Energy, S.A.B. de C.V. (“Vista” or the “Company”) contains the following exhibit: Exhibit 1 : Third Quarter of 2026 Results Forwar",
+      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526436174/d167189d6k.htm"
     },
     {
       "id": "cnv-3584417",
@@ -978,6 +1034,16 @@
       "presentado": "2026-10-20"
     },
     {
+      "id": "sec-0001193125-26-436174-2026-10-29",
+      "fuente": "SEC",
+      "fecha": "2026-10-29",
+      "entidad": "Vista Energy",
+      "ticker": "VIST",
+      "frase": "n-operated working interest in the Bandurria Sur block, of which 25.1% is attributable to Vista. For further details, see the table on page 14. The Company will present its Q3 2026 results through a webcast on Thursday, October 29, 2026, at 9:00 am Mexico City time (11:00 am ET; 12:00 pm BAT). Q3 2026 highlights: •",
+      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526436174/d167189d6k.htm",
+      "presentado": "2026-10-28"
+    },
+    {
       "id": "sec-0001292814-26-004922-2026-11-06",
       "fuente": "SEC",
       "fecha": "2026-11-06",
@@ -1022,7 +1088,9 @@
     "sec-0001104659-26-115765": "2026-10-14",
     "sec-0001104659-26-116442": "2026-10-16",
     "sec-0001104659-26-118637": "2026-10-26",
+    "sec-0001104659-26-119660": "2026-10-28",
     "sec-0001193125-26-425856": "2026-10-20",
+    "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001292814-26-004732": "2026-09-29",
     "sec-0001292814-26-004750": "2026-09-30",
     "sec-0001292814-26-004758": "2026-10-01",
@@ -1053,6 +1121,7 @@
     "sec-0001554855-26-002090": "2026-10-09",
     "sec-0001554855-26-002124": "2026-10-14",
     "sec-0001554855-26-002169": "2026-10-23",
+    "sec-0001554855-26-002241": "2026-10-28",
     "sec-0001711375-26-000047": "2026-10-20",
     "sec-0001711375-26-000049": "2026-10-27"
   }

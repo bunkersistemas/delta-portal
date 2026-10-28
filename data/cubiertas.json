@@ -6272,6 +6272,24 @@
       "angulo": "Lista no probada. EMPRESAS (hoy ya salió Richmond, el cupo está cubierto): YPF Luz 3T26 (sin estados financieros en la CNV, frenada el 27/10), Loma Negra HR 27/10 (cancelación parcial de la ON Clase 5 en especie, menor), Central Puerto HR 26-27/10 (recompra de acciones, cubierta el 18/10), Vista Energy 3T26 (resultados después del cierre de hoy), Shell con nueva operadora / Signar Energy de Manzano (La Nación y Clarín; sin documento ante la CNV). Pregunta de plata: feria de empleo de la Ciudad con 35.000 inscriptos y 2.500 vacantes (La Nación), 36% de los asalariados del Banco Provincia sin saldo el día 10 (infobae, Clarín, ámbito; estudio de un solo banco, sin serie oficial), asignación por nacimiento de $93.035 (iProfesional), IOSFA disuelta (ámbito; frenada dos veces en septiembre-octubre). Portada: RIGI primer proyecto inaugurado en Catamarca (litio cubierto el 03, 05 y 07/10), Cavallo y el dólar (opinión), Flávio Bolsonaro (sin pregunta de plata), FMI acuerdo técnico (frenado a las 10:30).",
       "fecha": "2026-10-28",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto pagó Molinos por Grupo Ayudín? (EMPRESAS, hecho relevante CNV 28/10/2026 2468161B y acta de directorio 2353; La Nación y Clarín 28/10)",
+      "angulo": "FRENADA en la corrida programada del 28/10/2026 18:30: el hecho relevante y el acta informan la compra del 100% de Grupo Ayudín Argentina, Uruguay y Paraguay (Ayudín, Poett, Trenet, Mortimer, Selton) a Gibsonhill Spain S.L. y SB Platform LLC, sujeta a condiciones y a Defensa de la Competencia, pero no dicen el precio ni ninguna cifra del negocio comprado. Sin cifra ancla. Retomable si la empresa informa el precio o en el balance al 30/09.",
+      "fecha": "2026-10-28",
+      "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto ganó YPF en 2026? / resultados 3T26 de YPF (EMPRESAS, hecho relevante CNV y 6-K SEC del 28/10/2026; infobae, El Cronista): resultado neto 9M26 US$2.810 M contra (150) en 9M25 y 2.677 en 9M24; 3T26 1.196 vs (198); precio crudo 80,3 vs 62,6 US$/bbl; lifting 8,4 vs 12,1; sin importación de combustibles",
+      "angulo": "Corrida programada del 28/10/2026 18:30, segunda candidata probada (APTA). Ángulo propio: los medios contaron el EBITDA del trimestre; la nota cuenta el resultado neto de nueve meses contra la pérdida de 2025 y lo descompone en precio, costo e importaciones, con Vista como par y el Brent como contraste. Distinta de la del 30/09 (impuesto a las ganancias 1S26) y de la del 26/10 (rescate de la ON XXXVII). Cruce en pesos con la carta del art. 63 (-0,75% con A3500 promedio).",
+      "fecha": "2026-10-28",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida programada del 28/10/2026 18:30: frenó la primera (precio de Grupo Ayudín, no informado por Molinos) y pasó la segunda (resultados de nueve meses de YPF, EMPRESAS)",
+      "angulo": "Lista no probada: Vista Energy 3T26 (usada como par en la nota de YPF), BCRA sin compras por tercer día (infobae, La Nación, Clarín; serie diaria), 36% de asalariados del Banco Provincia sin saldo el día 10 (estudio de un solo banco, frenada antes), multa por no ceder el paso a peatones con quita de 5 puntos (El Cronista; pregunta de plata, valor de la unidad fija), Fed mantiene la tasa (iProfesional, TN; sin ángulo local con dato propio), licitación del Tesoro (TN, ámbito), consumo de septiembre y UIA -3,4% (Página12; datos privados), empleo formal 14 meses en baja (Página12; SIPA), RIGI de litio en Catamarca (cubierto), BID US$1.150 M (publicada hoy).",
+      "fecha": "2026-10-28",
+      "estado": "descartada"
     }
   ]
 }
