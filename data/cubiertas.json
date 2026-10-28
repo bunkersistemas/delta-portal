@@ -6111,6 +6111,36 @@
       "angulo": "EMPRESAS (cupo vigente; descartadas con razón): YPF Luz 3T26 (sigue sin estados financieros al 30/09/2026 en la CNV a las 20:30; solo la nota de resultados, frenada a las 18:30), Vista Energy 3T (se presenta el 28/10 después del cierre), Loma Negra HR 27/10 (rutina, ON Clase 7 cubierta el 20/10), Central Puerto adquisición de acciones 23 y 27/10 (recompra cubierta el 18/10), Consultatio (frenada 24/10, sin montos), Class Life concurso preventivo (TN e infobae; no está en la CNV, sin expediente accesible). Pregunta de plata: cuánto impuesto se paga por Netflix y Shein (Clarín, ARCA investiga US$120 M; no probada), canasta de Halloween (sin fuente oficial), cuánto cobra un empleado de comercio en noviembre (FAECYS 5,7%; sin escala publicada), albañil UOCRA (sin escala homologada). Portadas: FMI tercera revisión US$870-900 M (cinco portales; directorio no aprobó, cifras dispares), BCRA sin compras por segunda rueda (dato de mercado; compras cubiertas 25/09 y 08/10), industria cayó en septiembre (índices privados; IPI INDEC 06/11), RIGI Catamarca US$6.393 M (frenado 06:30), empresas emitieron US$2.722 M en septiembre (La Nación, Clarín; informe CNV, no probada), ventas de combustibles cortaron siete meses de caída (iProfesional; Secretaría de Energía, no probada), dólar real más barato en una década (iProfesional; ITCRM cubierto 23/07 y frenado 04/10). clarin.com y tn.com.ar leídos con curl. pregunta.json ya era de hoy.",
       "fecha": "2026-10-27",
       "estado": "descartada"
+    },
+    {
+      "tema": "cuántas patentes se piden en la Argentina y cuántas son de argentinos (pregunta de plata detrás del Tratado de Cooperación en materia de Patentes, PCT, que espera al Senado; Cronista 27/10/2026)",
+      "angulo": "FRENADA en la corrida programada del 27/10/2026 22:30, primera candidata probada. La serie llega solo a 2024 y sus dos compilaciones salen del mismo registro (INPI), así que no son independientes, y además no coinciden: MinCyT, indicadores_producto_2002-2024.xlsx (datos INPI a marzo de 2026): 3.642 solicitudes en 2024 (445 de residentes, 3.197 de no residentes; 1.377 concedidas); perfil de país de la OMPI (wipo.int/edocs/statistics-country-profile/es/ar.pdf): 3.591 (445 y 3.146; 1.465 concedidas). Coinciden los 445 de residentes; la diferencia en no residentes y concedidas no tiene explicación publicada. 'Cuánto cuesta patentar' exige el valor vigente de la UMAPI (Res. INPI 75/2026 y 78/2026, se ajusta por IPC cada mes), que no se encontró publicado para octubre. Retomable con un informe estadístico propio del INPI o con el valor de la UMAPI.",
+      "fecha": "2026-10-27",
+      "estado": "descartada"
+    },
+    {
+      "tema": "cuánta deuda colocaron las empresas en septiembre de 2026 (Clarín y La Nación 27/10/2026: ON por US$2.722 millones, la segunda cifra mensual más alta desde 2015; YPF US$1.200 M al 7,85%, Tecpetrol US$450 M, Vista US$400 M)",
+      "angulo": "FRENADA en la corrida programada del 27/10/2026 22:30, segunda candidata probada. La cifra ancla y el 'segundo más alto de la serie' salen de un único informe privado (62° informe de Mercado de Capitales de PwC, citado por Clarín). La CNV ya no publica el informe mensual de financiamiento: en argentina.gob.ar/cnv/informes-del-mercado-de-capitales solo están los anuales 2024 y 2025, y cnv.gov.ar/sitioWeb/Informes termina en 2022. Sumar a mano las emisiones del registro de la CNV no da un total comparable con la serie. Retomable cuando salga el Informe de Evolución del Mercado de Cambios del BCRA (30/10) como contraste, o con el anual de la CNV.",
+      "fecha": "2026-10-27",
+      "estado": "descartada"
+    },
+    {
+      "tema": "en qué se gastaron los $2,3 billones del plan bonaerense para El Niño (Clarín 27/10/2026: productores rurales recurrieron a la Justicia para conocer el destino; inundaciones en Buenos Aires, Corrientes y Chaco; gacetilla gba.gob.ar del 26/08/2026)",
+      "angulo": "FRENADA en la corrida programada del 27/10/2026 22:30, tercera candidata probada. La gacetilla del 26/08/2026 da el total ('más de $2,3 billones') sin desglose por obra ni programa, y no se encontró ejecución presupuestaria 2026 de la Provincia por programa (Dirección Provincial de Hidráulica) en fuentes abiertas: el catálogo datos.gba.gob.ar no devuelve conjuntos de presupuesto y la Contaduría no publica ejecución por programa del ejercicio en curso. Sin documento del gasto no hay ancla. El fondo hídrico nacional ya se había frenado el 06/10 (no se identifica en Presupuesto Abierto).",
+      "fecha": "2026-10-27",
+      "estado": "descartada"
+    },
+    {
+      "tema": "cuánto combustible se vendió en septiembre de 2026 (iProfesional 27/10/2026: las ventas cortaron siete meses de caída)",
+      "angulo": "FRENADA en la corrida programada del 27/10/2026 22:30, cuarta candidata probada. La tabla oficial de la Secretaría de Energía (TD_Ventas_mercado.xlsx, archivo del 23/10/2026, datos.gob.ar 'Refinación y Comercialización ... Tablas Dinámicas') llega a julio de 2026: el dato de septiembre que citan los portales viene de una fuente privada (surtidores), sin documento oficial ni segunda fuente. Retomable cuando la Secretaría cargue septiembre; ángulo nuevo frente a la nota del 23/07 (mayo).",
+      "fecha": "2026-10-27",
+      "estado": "descartada"
+    },
+    {
+      "tema": "descartes de la corrida programada del 27/10/2026 22:30: frenaron las cuatro candidatas probadas (patentes y PCT, deuda de empresas de septiembre, plan bonaerense para El Niño, venta de combustibles de septiembre); sin nota",
+      "angulo": "EMPRESAS (cupo vigente: hoy no hubo nota de EMPRESAS; descartadas con razón): YPF Luz 3T26 (a las 22:30 sigue sin estados financieros al 30/09/2026 en la CNV; solo la nota de resultados, frenada a las 18:30), Telecom inversión de US$1.400 M para 2027 (La Nación; ningún hecho relevante en la CNV en octubre salvo el condicionamiento de Defensa de la Competencia del 14/10), Vista Energy 3T (se presenta el 28/10 después del cierre), Loma Negra HR 27/10 (rutina, ON Clase 7 cubierta el 20/10), Central Puerto adquisición de acciones 23 y 27/10 (recompra cubierta el 18/10), Consultatio (frenada 24/10, sin montos), Class Life concurso preventivo (infobae, La Nación, Clarín, TN; no es emisora CNV, sin expediente accesible), Bunge Campana (sin documento). Pregunta de plata no probada: impuestos de Netflix y Shein (Clarín; la cifra de US$120 M es una investigación de ARCA, una sola fuente), canasta de Halloween (sin fuente oficial), árbitro y operativo del Superclásico (sin documento oficial de honorarios), sueldo de Colapinto y de los Pumas (contratos privados), empleo doméstico de noviembre (cubierta), comercio FAECYS (sin escala publicada). Portadas: FMI tercera revisión (6 de 6; directorio no aprobó, frenada el 30/09 por montos dispares), Lula y riesgo país (cubierto), dólar y BCRA sin compras (dato de mercado del día), industria de septiembre (el IPI del INDEC sale el 06/11), sucursales bancarias (publicada hoy), turismo (cubierto el 26/10), Zona Fría (publicada hoy).",
+      "fecha": "2026-10-27",
+      "estado": "descartada"
     }
   ]
 }
