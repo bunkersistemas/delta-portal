@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-28T12:30",
+  "generado": "2026-10-28T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3584837",
+      "fuente": "CNV",
+      "fecha": "2026-10-28T13:40",
+      "entidad": "LABORATORIOS RICHMOND SOCIEDAD ANONIMA, COMERCIAL,",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN COMERCIAL - HECHO RELEVANTE - CERTIFICACIÓN DE VENTAS Q3 2026 - ON SIII - CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5080CD8E-4F38-4E30-8F75-2502D3E66757"
+    },
     {
       "id": "cnv-3584417",
       "fuente": "CNV",
