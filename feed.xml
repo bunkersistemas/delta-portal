@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 28 Oct 2026 00:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 02:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El cargo fijo del gas se duplica en la Patagonia con la nueva Zona Fría: en Neuquén pasa de $3.432 a $6.865 por mes</title>
+      <link>https://coninteres.com/articulos/2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica.html</guid>
+      <pubDate>Wed, 28 Oct 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La ley 27.828 dejó a la Patagonia con el mismo 50% de descuento de la Zona Fría, pero los cuadros tarifarios que el ente regulador del gas publicó hoy muestran que ese 50% ya no alcanza al cargo fijo. En las nueve subzonas de Camuzzi Gas del Sur, el cargo fijo de todas las categorías residenciales pasa a la tarifa plena: el doble que en octubre. El descuento queda solo sobre el precio del gas, y por eso el metro cúbico casi no baja. Con 100 m³ en un mes, la factura sin impuestos de un hogar de la categoría más baja sube 25,9% en Neuquén y 48,9% en Tierra del Fuego.</description>
+      <ci:numero>+100%</ci:numero>
+      <ci:numeroEtiqueta>suba del cargo fijo mensual del gas residencial en las nueve subzonas de Camuzzi Gas del Sur con los cuadros de la ley 27.828 (Res. ENReGE 822/2026, BO 28/10/2026) contra el cuadro "Diferenciales 50%" de octubre (ENReGE, tarifas-gn-20261001.xlsx): 81 de 81 cargos fijos iguales a la tarifa plena, que no cambió; Neuquén R1 $3.432,42 -&gt; $6.864,84, Tierra del Fuego R1 $8.357,76 -&gt; $16.715,52</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica.png" length="82611" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina le debe US$18.628 millones al BID, más que cualquier otro país, y el Gobierno aprobó dos préstamos nuevos por US$1.150 millones</title>
       <link>https://coninteres.com/articulos/2026-10-28-deuda-bid-18628-millones-mayor-deudor.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>resultado neto del negocio agropecuario de Cresud en el ejercicio jul-2025/jun-2026, en $ de junio de 2026 (NIC 29): Memoria 2026 (CNV, 09/09/2026, 'Resultado Neto 2026 vs 2025') = 20-F (SEC, 21/10/2026, 'a loss of ARS 26,784 million was attributable to the Agribusiness segment'). Recalculado: -26.784 + 399.064 (urbano) = 372.280 = resultado del ejercicio consolidado auditado (PwC, 07/09/2026) y formulario CNV; 2025: 30.858 + 268.777 = 299.635. Segmento agro (con asociadas) -15.129 vs +63.505: granos -27.225 (vs -6.985), caña -6.082 (vs +11.928), venta de tierras -7.719 (vs +74.690; venta de campos $633 M vs $56.079 M), hacienda +6.481, alquileres +8.346, otros +16.846, corporativo -5.776; Memoria da resultado operativo -15.441 (diferencia = asociadas 312). Granos 914.781 t vs 691.021 (2025) y 763.918 (2024), +32,4%, en ambos documentos</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-25-cresud-negocio-agropecuario-perdida.png" length="86217" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-25-cresud-negocio-agropecuario-perdida.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina exportó 33,2 millones de toneladas de maíz en nueve meses, la mayor cantidad desde 2002, pero cobró 19% menos por tonelada que en 2022</title>
-      <link>https://coninteres.com/articulos/2026-10-24-maiz-exportaciones-record-nueve-meses-precio.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-24-maiz-exportaciones-record-nueve-meses-precio.html</guid>
-      <pubDate>Sat, 24 Oct 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La Argentina nunca había exportado tanto maíz entre enero y septiembre, al menos desde 2002, y aun así no cobró lo máximo. Salieron 33,17 millones de toneladas en grano, según el INDEC: 24,9% más que un año antes y 69% más que lo que exportó Brasil en los mismos meses. Dejaron US$6.877 millones, pero la tonelada se vendió a US$207, contra US$257 en 2022, y por eso en dólares 2026 queda tercero.</description>
-      <ci:numero>33,2 millones de t</ci:numero>
-      <ci:numeroEtiqueta>toneladas de maíz en grano exportadas entre enero y septiembre de 2026 (INDEC), la mayor cantidad para esos meses desde 2002</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-24-maiz-exportaciones-record-nueve-meses-precio.png" length="77116" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-24-maiz-exportaciones-record-nueve-meses-precio.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
