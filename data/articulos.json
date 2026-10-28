@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-28T07:14:39-03:00",
+    "actualizado": "2026-10-28T08:47:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-28-fondo-hidrico-obras-29-de-cada-100",
+      "titulo": "El Fondo Hídrico destinó a obras $29 de cada $100 que recibió desde 2024: entre 2020 y 2023 gastaba más de lo que le entraba",
+      "bajada": "Entre 2020 y 2023, el Fondo Fiduciario de Infraestructura Hídrica gastó en obras más de lo que le ingresaba. Desde 2024 la relación se dio vuelta: entre enero de 2024 y junio de 2026 le entraron $498.933 millones y destinó a obras $143.727 millones, el 28,8%. En el primer semestre de 2026 la proporción subió al 53,5%.",
+      "titulo_busqueda": "¿Cuánta plata tiene el Fondo Hídrico y cuánto se gastó en obras contra inundaciones?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "28,8%",
+      "numero_label": "parte de los ingresos del Fondo Fiduciario de Infraestructura Hídrica que fue a gastos de capital (transferencias para obras) entre enero de 2024 y junio de 2026: $143.727,2 M sobre $498.933,2 M de ingresos corrientes (ONP, informes de ejecución de fondos fiduciarios 4T25 y 2T26: 2024 98.538,5/12.709,0 base caja; 2025 235.945,1/43.069,9; 1S26 164.449,6/87.948,3); resultado financiero acumulado $347.556,7 M; recálculo de identidades en 8 períodos 2019-1S26; solo impuesto 35,8% ($401.236,1 M); contraste Chequeado 12/08/2026 (acceso a la información, ene-24 a may-26: $375.400 M recaudados, $116.000 M ejecutados, 30,9%)",
+      "fecha": "2026-10-28",
+      "hora": "08:30",
+      "archivo": "articulos/2026-10-28-fondo-hidrico-obras-29-de-cada-100.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-28-prepagas-aumento-noviembre-superintendencia",
       "titulo": "Las prepagas suben 2,31% en noviembre en promedio por afiliado: más que en octubre y 0,4 puntos por encima de la inflación de septiembre",
