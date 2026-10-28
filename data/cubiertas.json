@@ -6227,6 +6227,25 @@
       "angulo": "Lista no probada. EMPRESAS (cupo vigente; descartadas con razón): YPF Luz 3T26 (sigue sin estados financieros en la CNV, solo la nota de resultados, ya frenada el 27/10), Loma Negra HR 27/10 (cancelación parcial de la ON Clase 5 por canje en la Clase 7, cubierta el 20/10), Central Puerto HR 26-27/10 (recompra de acciones, cubierta el 18/10). Pregunta de plata: concurso de Class Life por $1.580 M (sin expediente), impuestos a Netflix y Shein tras la investigación de ARCA por US$120 M (Clarín), cuánto se gasta en Halloween (sin dato oficial). Portada: morosidad de microempresas 18% (ámbito), licitación del Tesoro por casi $11 billones (resultado a la tarde), barrios populares 57 km2 (infobae), Mercado Libre centro logístico US$115 M (anuncio de la empresa).",
       "fecha": "2026-10-28",
       "estado": "descartada"
+    },
+    {
+      "tema": "cuántos nuevos jubilados hay y cuántos sin moratoria (La Nación 28/10/2026 'Cae a la mitad la cantidad de nuevos jubilados y por primera vez en una década y media son mayoría' los que no usan moratoria) / BESS pasivos sep-2026 cuadro 2.4.1 (corte 14/09/2026): altas ene-sep 2026 151.707, con moratoria 65.891, sin moratoria 85.816 (56,6%), primera vez desde 2010 con mayoría sin moratoria (máximo previo 43,7% en 2013); 2025 337.479; cuadro 2.8.2.c haber medio dic-25 de altas 2025: privado sin moratoria $1.164.870,71, con moratoria $503.627,75",
+      "angulo": "FRENADA en la corrida programada del 28/10/2026 12:30: la ancla es una estadística de un solo organismo (DNPSS sobre datos de ANSES); está en el documento y se recalcula, pero no se encontró contraste independiente (los datos abiertos de ANSES devuelven 403; las demás fuentes, Econoblog e INDEC Dosier, reproducen el BESS). Además La Nación ya publicó el ángulo central el mismo día. Retomable con un contraste independiente o con el ángulo del haber de las altas por sector.",
+      "fecha": "2026-10-28",
+      "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto es el bono del Día del Bancario 2026? (pregunta de plata detrás de iProfesional 28/10/2026 'Día del Bancario: el bono de $2,2 millones y fecha de cobro') / acta CCT 18/75 del 16/10/2026 (Asociación Bancaria con ABA, ADEBA, ABE, ABAPPRA), cláusula 2.2: compensación no remunerativa hasta el 06/11/2026 + ajuste de octubre con sueldos de noviembre; planilla rama administrativa: inicial $264.420,03 + $2.011.099,22 = $2.275.519,25; 35 años $2.584.890,69; subgerente deptal. 1a. $3.304.113,18. Serie: sep-24 $1.295.892,40, sep-25 $1.708.032,46, oct-25 $1.747.233,21; siempre 89,15% del salario inicial; en $ sep-26 constante (~$2,276 M).",
+      "angulo": "Corrida programada del 28/10/2026 12:30, segunda candidata probada (APTA). Ángulo nuevo frente a la nota del 29/09 (que daba el Día del Bancario provisorio de la escala de agosto, $2.233.175,44): el monto firmado de septiembre, la planilla por categoría y la proporción fija de 89,15% del salario que lo deja constante en términos reales desde 2024. Verificación: acta y planilla firmadas + comunicado coinciden; recálculo con IPC INDEC sep-26 (sh_ipc_divisiones.xls).",
+      "fecha": "2026-10-28",
+      "estado": "publicada",
+      "articulo_id": "2026-10-28-dia-del-bancario-bono-cuanto-se-cobra"
+    },
+    {
+      "tema": "descartes de la corrida programada del 28/10/2026 12:30: frenó la primera (altas de jubilación con y sin moratoria, BESS sin contraste independiente) y pasó la segunda (Día del Bancario 2026, acta firmada + IPC)",
+      "angulo": "Lista no probada. EMPRESAS (cupo vigente; descartadas con razón): YPF Luz 3T26 (sigue sin estados financieros en la CNV, solo la nota de resultados sin auditar, frenada el 27/10), Loma Negra HR 27/10 (cancelación parcial de la ON Clase 5 por US$6.919.639 recibidos en especie en la Clase 7; quedan US$105.958.495; la Clase 7 ya se cubrió el 20/10 y el canje es menor), Central Puerto HR 26-27/10 (recompra de acciones, cubierta el 18/10), Vista Energy 3T26 (resultados recién después del cierre de hoy). Pregunta de plata: asignación por nacimiento de $93.035 en noviembre (iProfesional), cuánto vale un Patacón (infobae; sin dato oficial). Portada: morosidad de microempresas cerca de 18% (ámbito), Mercado Libre centro logístico US$115 M (anuncio de la empresa, sin documento CNV), pago de US$800 M al FMI (FMI frenado en la corrida de las 10:30), Fed y tasas.",
+      "fecha": "2026-10-28",
+      "estado": "descartada"
     }
   ]
 }
