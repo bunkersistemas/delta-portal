@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 28 Oct 2026 20:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 28 Oct 2026 22:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un vendedor de comercio cobra $1.422.511 en noviembre con el nuevo acuerdo, y la escala firmada no trae otra suba después de diciembre</title>
+      <link>https://coninteres.com/articulos/2026-10-28-vendedor-comercio-noviembre-nuevo-acuerdo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-vendedor-comercio-noviembre-nuevo-acuerdo.html</guid>
+      <pubDate>Wed, 28 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El nuevo acuerdo de comercio sube el sueldo hasta diciembre y después lo deja quieto: las planillas firmadas repiten el mismo total hasta mayo de 2027. Un vendedor B cobra $1.422.511 en noviembre, con la cuota del bono, y $1.423.091 desde diciembre. El aumento llega a un sueldo que en septiembre compraba 8,5% menos que un año antes, y solo alcanza para no perder más si la inflación de octubre a diciembre promedia menos de 1,87% por mes. En el último año eso pasó una sola vez, en agosto.</description>
+      <ci:numero>$1.422.511</ci:numero>
+      <ci:numeroEtiqueta>sueldo de convenio de noviembre de 2026 de un vendedor B de comercio (CCT 130/75), con la segunda cuota del bono: básico $1.277.511 + $120.000 de sumas fijas + $25.000 (planillas firmadas de la CAC, 'Vendedores B, noviembre de 2026', fila inicial). Acta FAECYS-CAC-CAME-UDECA del 27/10/2026: 1,9% en oct, nov y dic sobre básico de sep + sumas no remunerativas. Recálculo desde la escala homologada (DI-2026-964-APN-DNRYRT#MCH): 1,9% x ($1.226.349 + $120.000) = $25.581; 1.226.349 + 2 x 25.581 = 1.277.511; dic $1.423.091 (= planilla); 21 categorías con diferencia máxima de $2. Método probado contra la escala de julio (vendedor B jun $1.153.746: 1.177.947 / 1.202.148 / 1.226.349). IPC nacional sep-25 9.384,0922 -&gt; sep-26 12.514,1508 (+33,4%); sueldo sep/sep +22,1% (1.103.080 -&gt; 1.346.349), real -8,5%; inflación mensual de empate oct-dic 1,87%. Camino: dos documentos de las partes recalculados desde la escala homologada; acuerdo aún sin homologar.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-vendedor-comercio-noviembre-nuevo-acuerdo.png" length="75706" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-vendedor-comercio-noviembre-nuevo-acuerdo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La asignación por nacimiento sube a $93.035 en noviembre: es el 16% de lo que cuesta un mes de crianza de un bebé, y la ANSES paga más por un casamiento</title>
       <link>https://coninteres.com/articulos/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>suba en un mes del cajón de 20 kg de zapallo anco de Salta (1.a, mediano) en el Mercado Central de Buenos Aires: precio modal $37.000 el 23/09/2026 (parte RH230926: máx. $40.000, mín. $36.000; $1.850/kg) y $62.000 el 23/10/2026 (parte RH231026: máx. $65.000, mín. $60.000; $3.100/kg). Recalculo: 62.000/37.000 = 1,6757; promedio mensual de esa línea $1.794/kg sep -&gt; $2.940/kg oct (+63,9%); anco todas las procedencias $1.757,6 -&gt; $3.019,3 (+71,8%; 22 y 15 días hábiles, oct del 1 al 23 sin el 15). Contraste independiente INDEC precios promedio GBA zapallo anco: jun $1.192,04 -&gt; sep $2.816,26 (+136,3%; sep +12,4%), mayorista anco jun $544 -&gt; sep $1.758 (+223%), misma dirección; LCG verduras +7,9% en cuatro semanas (iProfesional 26/10). Superlativos: mayor suba jun-sep de la serie GBA 2016-2026 (previa 2016: $14,78 -&gt; $29,80, +101,6%); más caro en pesos de sep-26 desde ene-23 ($2.839 vs $2.816, IPC GBA). Octubre MC (Prom.Esp. por kg, oct vs sep): zapallo +72,0%, zapallito +48,8%, papa +28,6%, pimiento +24,5%, cebolla +2,4%, acelga -2,4%, lechuga -2,6%, zanahoria -11,0%, tomate -35,1%.</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-zapallo-anco-precio-mercado-central-octubre.png" length="82922" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-zapallo-anco-precio-mercado-central-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las represas generaron 32% más en septiembre y los hogares pagaron el 74% de lo que costó generar su luz, la parte más alta del año</title>
-      <link>https://coninteres.com/articulos/2026-10-26-represas-luz-hogares-74-por-ciento-costo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-26-represas-luz-hogares-74-por-ciento-costo.html</guid>
-      <pubDate>Mon, 26 Oct 2026 07:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En septiembre, generar la energía de los hogares costó 20,4% menos que en agosto, y lo que pagan los hogares casi no cambió. Así cubrieron el 74% de ese costo, según CAMMESA: la proporción más alta de 2026. El Estado puso el 26% restante, contra 43% en agosto. La baja vino del agua: con el río Paraná crecido, las centrales hidroeléctricas grandes generaron 3.508 GWh, 31,8% más que un año antes, y las térmicas, que queman gas, 11,6% menos.</description>
-      <ci:numero>+32%</ci:numero>
-      <ci:numeroEtiqueta>creció la generación de las centrales hidroeléctricas de más de 50 MW en septiembre de 2026 contra septiembre de 2025: de 2.662 a 3.508 GWh (CAMMESA, informe mensual de septiembre 2026, publicado el 19/10/2026; recálculo propio desde la base del informe, máquina por máquina: 2.661.781,5 -&gt; 3.508.488,8 MWh, +31,81%; Yacyretá 1.038.099 -&gt; 1.624.650 MWh, +56,5%). Contraste independiente: Entidad Binacional Yacyretá, caudal afluente de septiembre 37% sobre el promedio del mes (12.339 m3/s, serie 1971-2025). Apoyo: los hogares cubrieron el 73,8% (CAMMESA: 74%) del costo de su energía, $84.288 sobre $114.280 por MWh, contra 56,7% en agosto; máximo previo de 2026: abril, 69,2%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-represas-luz-hogares-74-por-ciento-costo.png" length="87324" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-represas-luz-hogares-74-por-ciento-costo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
