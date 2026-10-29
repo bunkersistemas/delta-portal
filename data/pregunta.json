@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-28",
-  "pregunta": "Entre enero y septiembre de 2026 la Argentina importó 9,8% menos toneladas de fertilizantes que un año antes, pero pagó 6,5% más en total. ¿Cuánto más cara llegó, en promedio, cada tonelada?",
+  "fecha": "2026-10-29",
+  "pregunta": "En noviembre la ANSES paga $93.035 por nacimiento, y según el INDEC criar a un bebé de menos de un año costó $570.832 en septiembre. ¿Qué parte de un mes de crianza cubre la asignación?",
   "opciones": [
-    "Un 16,3% más cara",
-    "Un 18% más cara",
-    "Un 3,3% más barata"
+    "Cerca del 16%",
+    "Cerca del 61%",
+    "Alcanza para unos seis meses"
   ],
-  "correcta": 1,
-  "explicacion": "El precio promedio es lo que se pagó dividido por las toneladas. Si el total vale 1,065 veces lo de antes y las toneladas son 0,902 veces, el precio por tonelada es 1,065 ÷ 0,902 = 1,18: un 18% más. Sumar 6,5 + 9,8 = 16,3% es un atajo que solo anda con variaciones chicas; con caídas de casi 10% se queda corto. Y restar 6,5 − 9,8 confunde el signo: si se compra menos y se paga más, cada unidad salió más cara, no más barata. Según el INDEC, la tonelada pasó de US$556,8 a US$657,1.",
-  "nota": "articulos/2026-10-27-fertilizantes-importados-tonelada-18-mas-cara.html",
-  "leccion": "lecciones/inflacion.html"
+  "correcta": 0,
+  "explicacion": "Para saber qué parte cubre, se divide lo que se cobra por lo que cuesta: 93.035 ÷ 570.832 = 0,163, o sea 16,3% de un mes. El 61% sale de correr mal la coma. Y los 'seis meses' invierten la cuenta: 570.832 ÷ 93.035 = 6,1 dice que un mes de crianza cuesta seis veces la asignación, no que la asignación alcance para seis meses. Es un pago único: la ANSES lo paga una sola vez por cada hijo que nace.",
+  "nota": "articulos/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.html",
+  "leccion": "lecciones/inflacion-bolsillo.html"
 }

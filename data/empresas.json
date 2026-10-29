@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-28T22:30",
+  "generado": "2026-10-29T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -964,42 +964,6 @@
       "tipo": "hecho",
       "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE DEL 29 DE SEPTIEMBRE DE 2026.-",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/BF037680-F741-4C59-BB94-7D8C408F030A"
-    },
-    {
-      "id": "cnv-3574163",
-      "fuente": "CNV",
-      "fecha": "2026-09-28T19:20",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (28 09 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/915AC78F-4513-4813-BB2E-A0D08940B1CE"
-    },
-    {
-      "id": "cnv-3574051",
-      "fuente": "CNV",
-      "fecha": "2026-09-28T17:39",
-      "entidad": "ARCOR SAIC",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - HECHO RELEVANTE DE LA EMISIÓN DE ON CLASE 7 Y CLASE 8",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/67A77BC6-0A82-42C4-A40E-91BB95D25ABB"
-    },
-    {
-      "id": "cnv-3574028",
-      "fuente": "CNV",
-      "fecha": "2026-09-28T17:37",
-      "entidad": "ARCOR SAIC",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - APROBACIÓN COMPROMISO PREVIO DE FUSIÓN",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6247EDF0-1E8F-41DC-819E-9FC2CA4694DC"
-    },
-    {
-      "id": "cnv-3573681",
-      "fuente": "CNV",
-      "fecha": "2026-09-28T09:46",
-      "entidad": "AEROPUERTOS ARGENTINA 2000 S.A",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - APROBACIÓN DE ACTA ACUERDO DE READECUACIÓN CONTRACTUAL ENTRE AEROPUERTOS ARGENTINA 2000 S.A. Y EL ORGANISMO REGULADOR DEL SISTEMA NACIONAL DE AEROPUERTOS.",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B09A31D5-15A6-473E-9755-30BD6467D998"
     }
   ],
   "anuncios": [
@@ -1083,7 +1047,6 @@
     "sec-0001034957-26-000071": "2026-10-22",
     "sec-0001034957-26-000073": "2026-10-22",
     "sec-0001034957-26-000075": "2026-10-23",
-    "sec-0001104659-26-111196": "2026-09-28",
     "sec-0001104659-26-115753": "2026-10-14",
     "sec-0001104659-26-115765": "2026-10-14",
     "sec-0001104659-26-116442": "2026-10-16",
@@ -1115,7 +1078,6 @@
     "sec-0001292814-26-005008": "2026-10-26",
     "sec-0001292814-26-005026": "2026-10-28",
     "sec-0001342874-26-000048": "2026-10-08",
-    "sec-0001554855-26-002042": "2026-09-28",
     "sec-0001554855-26-002070": "2026-10-05",
     "sec-0001554855-26-002088": "2026-10-09",
     "sec-0001554855-26-002090": "2026-10-09",

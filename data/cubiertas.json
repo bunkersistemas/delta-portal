@@ -6316,6 +6316,20 @@
       "angulo": "Lista no probada. EMPRESAS (hoy ya salieron Richmond y YPF, el cupo está cubierto): Vista Energy 3T26 (infobae, La Nación, Clarín: producción récord de 169.000 barriles diarios y 70% exportado; 6-K SEC del 28/10; usada como par en la nota de YPF de hoy), Molinos-Grupo Ayudín (frenada a las 18:30, sin precio), Fiplasto venta de inmueble (HR CNV 28/10, menor), Grupo Octubre compra Mandarina y Bondi (infobae; sin documento ante la CNV), Sinteplast US$44 M (sin documento ante la CNV). Pregunta de plata: cuánto cobra una maestra rural en Corrientes (detrás del caso Nancy Godoy, Clarín; CGECSE, no probada), cuánto vale un Patacón (infobae; sin documento oficial de precios), departamentos de herencia vacante desde US$23.000 (El Cronista; frenada el 26/09), Balón de Oro con votación paga (Clarín; sin documento), costo del FAL para la ANSES equivalente a 744.300 jubilaciones mínimas (iProfesional; FAL cubierto el 24/09, estudio privado). Portadas: riesgo país cerca del máximo del año (infobae, ámbito), BCRA sin compras por tercer día (infobae, La Nación, Clarín), licitación del Tesoro con rollover completo (infobae, La Nación, TN), Fed mantiene la tasa (iProfesional, TN, ámbito), 36% sin saldo el día 10 según el Banco Provincia (cinco portadas; estudio de un solo banco), construcción -1,8% según Ferreres (ámbito; privado, ISAC INDEC 06/11), feria de empleo de la Ciudad (La Nación, iProfesional), Flávio Bolsonaro (sin pregunta de plata con documento). clarin.com y tn.com.ar leídos con curl. pregunta.json ya era de hoy.",
       "fecha": "2026-10-28",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto petróleo produce Vista y cuánto de su crecimiento es comprado? (EMPRESAS, 6-K SEC 28/10/2026, resultados 3T26; infobae y La Nación 28/10 'Vista alcanzó una producción récord de 169.000 barriles') / petróleo 147.126 bbl/d (+34,1%), sin Bandurria Sur y Bajo del Toro (compra a Equinor) 126.155 (+15,0%) vs país +14,1% (Secretaría de Energía Cap. IV); participación 13,3% -> 15,6%",
+      "angulo": "Anatomía de un balance con eje en producción: separar crecimiento orgánico de compras y compararlo con el país. Distinto de la nota del 25/09 (lifting cost 2T) y de la de YPF del 28/10 (que solo mencionó la ganancia de Vista). Cupo de EMPRESAS: hoy no había nota de la sección. Verificación: cifra de la empresa + DDJJ de producción por pozo ante la Secretaría de Energía, coincidencia 0,09% en shale; gas no usado (registro menor que el informe en áreas operadas).",
+      "fecha": "2026-10-29",
+      "estado": "publicada",
+      "articulo_id": "2026-10-29-vista-petroleo-tercer-trimestre-compra-equinor",
+      "archivo": "cola/2026-10-29-vista-petroleo-tercer-trimestre-compra-equinor.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 29/10/2026 00:30: no se probaron porque pasó la primera candidata (producción de Vista 3T26, SEC + Secretaría de Energía). Lista no probada: empresas: Sinteplast inversión US$44 M en cinco países (sin documento CNV), YPF Luz y Molinos-Ayudín (ya frenadas 27 y 28/10), Central Puerto y Banco Macro recompras de rutina, Fiplasto venta de inmueble; pregunta de plata: cuánto cobra un obrero de la UOCRA en noviembre (iProfesional y Cronista 28/10; publicada el 25/09 con el tramo de noviembre), cuántos clientes se quedan sin sueldo antes del día 10 (Banco Provincia, infobae, La Nación y ámbito 28/10; dato de un solo banco), cuánto cobra Catamarca de regalías del litio (visita de Milei y Caputo), cuántos se anotaron en la feria de empleo porteña (14.000 por 2.500 vacantes, La Nación e iProfesional), cuánto bajó el real y cuánto cuestan las vacaciones en Brasil (infobae, iProfesional), cuánto pierde la ANSES con el FAL (iProfesional); calendario: deuda externa privada BCRA (hoy, sin hora), dotación de la administración pública INDEC (30/10)",
+      "angulo": "registro de candidatas no probadas",
+      "fecha": "2026-10-29",
+      "estado": "descartada"
     }
   ]
 }

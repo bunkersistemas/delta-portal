@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-28T22:58:21-03:00",
+    "actualizado": "2026-10-29T00:51:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-29-vista-petroleo-tercer-trimestre-compra-equinor",
+      "titulo": "Vista sacó 147.126 barriles de petróleo por día, 34% más que un año antes: sin las áreas que le compró a Equinor, creció 15%, al ritmo del país",
+      "bajada": "El salto de producción de Vista Energy tiene dos partes, y solo una son barriles nuevos. La empresa, una de las petroleras de Vaca Muerta que cotizan en Nueva York, produjo 147.126 barriles de petróleo por día entre julio y septiembre de 2026, 34% más que un año antes, según el informe que presentó el 28 de octubre ante la SEC. Pero 20.971 de esos barriles salen de dos áreas que le compró a Equinor en mayo. Sin ellas, su producción creció 15%: casi lo mismo que la de todo el país, que subió 14,1%.",
+      "titulo_busqueda": "¿Cuánto petróleo produce Vista en Vaca Muerta?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "147.126",
+      "numero_label": "barriles de petróleo por día que produjo Vista Energy en el 3T-2026 (participación neta), sin auditar: informe de resultados 3T26, 6-K SEC 0001193125-26-436174 (28/10/2026), cuadro 'Average net daily production' y detalle por área; 3T-2025 109.677 (+34,1%). Compras a Equinor (cierre 07/05/2026): Bandurria Sur 25,1% 17.931 + Bajo del Toro 35% 3.040 = 20.971; sin ellas 126.155 (+15,0%). En boe: 169.023 vs 126.752 (+33%: 13 orgánico, 20 compras, según la empresa; recálculo 12,85 y 20,5). Contraste: Secretaría de Energía, producción por pozo Capítulo IV 2026, jul-sep/92 días x 6,2898: operadas 82.809 (informe 82.827), LACh 50% 41.927 (41.972), BS 25,1% 17.926 (17.931), BDT+BDT Norte 35% 2.971 (3.040); shale 145.633 vs 145.764 (-0,09%). País jul-sep: 942.894 bbl/d 2026 vs 826.504 2025 (+14,1%); participación de Vista 13,3% -> 15,6%. Apoyo: ingresos netos US$1.234,1 M (+75%), precio US$84,2/bbl (+30%), 73% exportado, resultado neto US$293,5 M vs 315,3 (2025 con ganancia de US$288,1 M por La Amarga Chica), ganancias corriente 246,9 vs 3,1. Camino: documento de la empresa + registro del regulador recalculado.",
+      "fecha": "2026-10-29",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-29-vista-petroleo-tercer-trimestre-compra-equinor.html",
+      "verificacion": "verificada",
+      "fuentes": 3,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-28-vendedor-comercio-noviembre-nuevo-acuerdo",
       "titulo": "Un vendedor de comercio cobra $1.422.511 en noviembre con el nuevo acuerdo, y la escala firmada no trae otra suba después de diciembre",
