@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 29 Oct 2026 10:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 12:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Christine Lagarde cobró €492.204 de sueldo básico en 2025 como presidenta del BCE: $70,5 millones por mes, casi tres años de un sueldo registrado promedio</title>
+      <link>https://coninteres.com/articulos/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.html</guid>
+      <pubDate>Thu, 29 Oct 2026 12:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Un mes del sueldo básico de Christine Lagarde equivale a lo que un trabajador registrado promedio de la Argentina cobra en casi tres años. Según las cuentas auditadas del Banco Central Europeo, en 2025 la presidenta cobró un básico de €492.204, 5,6% más que en 2024: €41.017 por mes, $70,5 millones al tipo de cambio del BCRA. Encima de eso recibe una asignación de representación de 21% y una residencia oficial. Hoy anunció que deja el cargo el 7 de febrero de 2027.</description>
+      <ci:numero>€492.204</ci:numero>
+      <ci:numeroEtiqueta>sueldo básico bruto de Christine Lagarde como presidenta del BCE en 2025, según las cuentas anuales 2025 del BCE (nota 28 "Staff costs", auditadas por Forvis Mazars, 17/02/2026); 2024 €466.092 (+5,6%), 2023 €444.984, 2022 €427.560 (+15,1% en tres años). Representación 21% = €103.363 (total €595.567) más residencia sin valor publicado. Coherencia: 2024 igual en cuentas 2024 y 2025, 2023 igual en cuentas 2023 y 2024; suma del Comité Ejecutivo 492.204+421.908+4x351.576 = €2.320.416 = total publicado (2024: €2.197.332). Carta de Lagarde a eurodiputados 20/02/2026: componentes públicos en cuentas e informe anual; BIS CHF 130.457 en 2025 (≈€139.224 al promedio 2025 del BCE 0,93703). Pesos: BCRA 28/10/2026 EUR $1.717,788 (pase 1,114; BCE 1,1133, -0,06%): básico anual $845.502.125, mensual €41.017 = $70.458.510 = 35,5 RIPTE de agosto ($1.982.518,19). Renuncia: comunicado BCE 29/10/2026 (deja el cargo el 07/02/2027). Camino: documento auditado de quien paga + recálculo + carta de la titular; prensa (Bloomberg) solo reproduce.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.png" length="93197" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina pagó US$867 millones por el gas licuado que importó en 2026, 43% más que en todo 2025 aunque trajo 2,5% menos: cada tonelada costó 46% más</title>
       <link>https://coninteres.com/articulos/2026-10-29-gnl-importado-867-millones-tonelada-mas-cara.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>canon base mensual de los hoteles 1 a 6 de la Unidad Turística Chapadmalal (Concurso Público AABE 392-0005-CPU26, BO 22/10/2026; pliego PLIEG-2026-97074544-APN-DCCYS#AABE, art. 8, cuadro del Tribunal de Tasaciones): $199.014.000 = 94.682,87 UVA (14.439,31 + 11.023,35 + 12.443,02 + 19.434,79 + 23.231,36 + 14.111,04). Recalculado: pesos/UVA = $2.101,90 en los seis renglones = UVA BCRA 02/09/2026; x360 = $71.645.040.000. Contraste COMPR.AR: garantías de oferta = 12 x canon de cada renglón; impugnación $716.450.400 = 1% del total; UVA $2.142,08 del 05/10 = BCRA. UVA 26/10 $2.168,29: $205,3 M/mes; A3500 26/10 $1.540,4751: US$133.271/mes, US$48,0 M en 360 meses. Art. 22: diferimiento 60 meses si un solo concesionario (300 cuotas desde el mes 61 = 113.619,44 UVA, $246,4 M hoy) o 36 por renglón (324 cuotas desde el mes 37).</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-chapadmalal-hoteles-concesion-canon-199-millones.png" length="86826" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-chapadmalal-hoteles-concesion-canon-199-millones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La ART Productores de Frutas cubría a 34.895 trabajadores y sus contratos terminan el 1 de noviembre: en julio cobró 13 de cada 100 pesos pactados</title>
-      <link>https://coninteres.com/articulos/2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores.html</guid>
-      <pubDate>Mon, 26 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>El final de Productores de Frutas Argentinas estaba anunciado en sus propias cuentas. Los registros de la Superintendencia de Riesgos del Trabajo muestran que en ningún mes con datos desde enero de 2025 recaudó más de 27 de cada 100 pesos de cuotas pactadas: en julio, 13 de cada 100, cuando en todo el sistema la morosidad fue de 9,51%. Ahora la Justicia ordenó liquidar a esta cooperativa de seguros, que funcionaba como aseguradora de riesgos del trabajo desde 1996, y la SRT dispuso que todos sus contratos terminen el 1 de noviembre. En julio cubría a 34.895 trabajadores de 150 empresas y organismos, más de la mitad en el transporte.</description>
-      <ci:numero>34.895</ci:numero>
-      <ci:numeroEtiqueta>trabajadores en unidades productivas (empresas y organismos) cubiertos por Productores de Frutas ART en julio de 2026 (SRT, Boletín estadístico mensual por ART, cuadro 1; 150 empleadores; más 187 trabajadores de casas particulares de 172 hogares). Camino estadística oficial: (1) boletín SRT; (2) recálculo: suma de 21 sectores (cuadro 1.1) = 34.895 y suma de 24 jurisdicciones (cuadro 2.1, declaración nominativa) = 34.895; (3) contraste SSN: balances de la cooperativa (datos abiertos, 1T-2026, entidad 348) primas y recargos de Rs. del Trabajo jul-25 a mar-26 $8.379.095.145 contra cuota pactada SRT de esos nueve meses $7.958.845.869 (+5,3%). Morosidad jul-26 86,9% = 1 - 317.139.206 / 2.423.219.898 (sistema 9,51%). Rescisión 01/11/2026 por Res. SRT 56/2026 (BO 26/10/2026); revocación por Res. SSN 443/2026 (14/10/2026, BO 15/10/2026); liquidación dispuesta por el Juzgado Comercial N° 30 el 07/10/2026.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores.png" length="86882" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-art-productores-de-frutas-liquidacion-34895-trabajadores.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

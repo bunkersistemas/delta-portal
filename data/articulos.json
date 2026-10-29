@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-29T10:45:12-03:00",
+    "actualizado": "2026-10-29T12:45:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-29-lagarde-sueldo-bce-cuanto-cobra",
+      "titulo": "Christine Lagarde cobró €492.204 de sueldo básico en 2025 como presidenta del BCE: $70,5 millones por mes, casi tres años de un sueldo registrado promedio",
+      "bajada": "Un mes del sueldo básico de Christine Lagarde equivale a lo que un trabajador registrado promedio de la Argentina cobra en casi tres años. Según las cuentas auditadas del Banco Central Europeo, en 2025 la presidenta cobró un básico de €492.204, 5,6% más que en 2024: €41.017 por mes, $70,5 millones al tipo de cambio del BCRA. Encima de eso recibe una asignación de representación de 21% y una residencia oficial. Hoy anunció que deja el cargo el 7 de febrero de 2027.",
+      "titulo_busqueda": "¿Cuánto cobra Christine Lagarde como presidenta del BCE?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "€492.204",
+      "numero_label": "sueldo básico bruto de Christine Lagarde como presidenta del BCE en 2025, según las cuentas anuales 2025 del BCE (nota 28 \"Staff costs\", auditadas por Forvis Mazars, 17/02/2026); 2024 €466.092 (+5,6%), 2023 €444.984, 2022 €427.560 (+15,1% en tres años). Representación 21% = €103.363 (total €595.567) más residencia sin valor publicado. Coherencia: 2024 igual en cuentas 2024 y 2025, 2023 igual en cuentas 2023 y 2024; suma del Comité Ejecutivo 492.204+421.908+4x351.576 = €2.320.416 = total publicado (2024: €2.197.332). Carta de Lagarde a eurodiputados 20/02/2026: componentes públicos en cuentas e informe anual; BIS CHF 130.457 en 2025 (≈€139.224 al promedio 2025 del BCE 0,93703). Pesos: BCRA 28/10/2026 EUR $1.717,788 (pase 1,114; BCE 1,1133, -0,06%): básico anual $845.502.125, mensual €41.017 = $70.458.510 = 35,5 RIPTE de agosto ($1.982.518,19). Renuncia: comunicado BCE 29/10/2026 (deja el cargo el 07/02/2027). Camino: documento auditado de quien paga + recálculo + carta de la titular; prensa (Bloomberg) solo reproduce.",
+      "fecha": "2026-10-29",
+      "hora": "12:30",
+      "archivo": "articulos/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-29-gnl-importado-867-millones-tonelada-mas-cara",
       "titulo": "La Argentina pagó US$867 millones por el gas licuado que importó en 2026, 43% más que en todo 2025 aunque trajo 2,5% menos: cada tonelada costó 46% más",
