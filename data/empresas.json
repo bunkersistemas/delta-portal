@@ -1,13 +1,56 @@
 {
-  "generado": "2026-10-29T18:31",
+  "generado": "2026-10-29T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
-  "incompleto": [
-    "CNV: la solapa EMPRESAS vino sin filas: cambio la pagina"
-  ],
+  "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3586530",
+      "fuente": "CNV",
+      "fecha": "2026-10-29T18:04",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FA0A7E20-0C14-46E1-8733-B85FE375004F"
+    },
+    {
+      "id": "cnv-3586524",
+      "fuente": "CNV",
+      "fecha": "2026-10-29T17:51",
+      "entidad": "BANCO DEL SOL SA",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F9F01353-EB2B-40F6-A8D4-8B30D7C16A66"
+    },
+    {
+      "id": "cnv-3586504",
+      "fuente": "CNV",
+      "fecha": "2026-10-29T17:27",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (29 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/03D96D42-235B-45B6-A111-6ED199EC01A2"
+    },
+    {
+      "id": "cnv-3586497",
+      "fuente": "CNV",
+      "fecha": "2026-10-29T17:21",
+      "entidad": "IRSA INVERSIONES Y REPRESENTACIONES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - TIPO DE CAMBIO APLICABLE AL PAGO DE DIVIDENDO EN EFECTIVO PARA LOS ACCIONISTAS DEL EXTERIOR QUE EJERCIERON LA OPCIÓN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3AFD00CA-995D-4F1B-A9EE-4AF1C3CC6DAF"
+    },
+    {
+      "id": "cnv-3585111",
+      "fuente": "CNV",
+      "fecha": "2026-10-29T11:03",
+      "entidad": "CAJA DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV 8571",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/DDC59A07-DA7F-47F8-BFE9-199FBABBC36C"
+    },
     {
       "id": "cnv-3584972",
       "fuente": "CNV",

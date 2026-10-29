@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-29T19:02:07-03:00",
+    "actualizado": "2026-10-29T20:59:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-29-provincias-deficit-primer-semestre-santa-fe",
+      "titulo": "Seis provincias gastaron más de lo que les entró en el primer semestre, y Santa Fe sola explica 57% de ese rojo",
+      "bajada": "Hay menos provincias en rojo que hace un año, y aun así el conjunto ahorró menos. De las 23 con datos, seis cerraron el primer semestre de 2026 con déficit primario: gastaron más de lo que les entró aun antes de pagar intereses. Un año antes eran diez. La explicación es que el rojo se concentró: Santa Fe sumó $710.875 millones, 57% del déficit de las seis, y el superávit del conjunto quedó en 1,8% de sus ingresos, el más bajo para un primer semestre desde 2017.",
+      "titulo_busqueda": "¿Qué provincias tienen déficit fiscal en 2026?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "6 de 23",
+      "numero_label": "provincias con déficit primario en el primer semestre de 2026 (DNAP, Ministerio de Economía; sin La Pampa)",
+      "fecha": "2026-10-29",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-29-provincias-deficit-primer-semestre-santa-fe.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-29-oro-exportaciones-4041-millones-nueve-meses",
       "titulo": "La Argentina exportó US$4.041 millones de oro en nueve meses, casi lo mismo que en todo 2025 y más que toda la carne vacuna",

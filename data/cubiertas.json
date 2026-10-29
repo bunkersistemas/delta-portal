@@ -6475,6 +6475,19 @@
       "angulo": "Registro de candidatas no probadas.",
       "fecha": "2026-10-29",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿qué provincias tienen déficit fiscal en 2026? (pregunta de plata detrás de ámbito 29/10/2026 «Las provincias mantienen el superávit fiscal conjunto», informe de Empiria) / DNAP ejecución provisoria APNF II trim. 2026 (acumulado ene-jun, sin La Pampa): 6 de 23 con déficit primario (Buenos Aires -142.619, Catamarca -18.740, Santa Cruz -130.134, Santa Fe -710.875, Tucumán -142.617, Tierra del Fuego -108.239; $ millones); 1S2025: 10. Santa Fe 57% del rojo de las seis ($1.253.224 M), x11,8 vs -60.146 en 1S25; gasto primario +45,1% (+9,2% real), personal +47,9%, inversión real directa +72,3%. Consolidado +1.427.198 = 1,82% de ingresos (1S25 2,49%; 1S24 12,62%; 1S17 -0,30%): el más bajo desde 2017; real -27,8%. Sin Santa Fe 2,97% vs 2,82%. Financiero -79.992 vs +572.053.",
+      "angulo": "Corrida programada del 29/10/2026 20:30, primera candidata probada (APTA). Ángulo nuevo frente a las notas del 27/09 (provincias en déficit en 2025, cierre anual) y del 27/10 (Nación+provincias 2025): primer semestre de 2026, menos provincias en rojo pero el rojo concentrado en Santa Fe y el superávit conjunto en el mínimo desde 2017. Camino: estadística oficial recalculada (X = VI - VIII en las 23; suma = columna Total) + contraste Empiria vía ámbito (17 superávit / 6 déficit, 'peor primer semestre desde 2017') y registro propio de Santa Fe (remuneraciones +47,91%, $3,110 billones vs DNAP 3,089). Superlativo: serie de planillas II trim. 2017-2026; valor previo más bajo 2017 (-0,30%). Deflactor IPC nacional INDEC promedio ene-jun (1,3287).",
+      "fecha": "2026-10-29",
+      "estado": "publicada",
+      "articulo_id": "2026-10-29-provincias-deficit-primer-semestre-santa-fe"
+    },
+    {
+      "tema": "descartes de la corrida programada del 29/10/2026 20:30: no se probaron porque pasó la primera candidata (provincias con déficit en el primer semestre de 2026, DNAP + Empiria + Gobierno de Santa Fe). Lista no probada: pregunta de plata: boleto de colectivo de las 104 líneas nacionales congelado en $742 con más subsidios desde el 01/11 (Clarín 29/10; la resolución sale recién el 30/10 en el Boletín Oficial y el tema se cubrió el 11/10, 17/10 y 26/10: retomar con la norma publicada), cuánto se cobra por trabajar los feriados del 9, 10 y 11/11 por la visita del papa (Decreto 1103/2026 y Com. BCRA C 102390; sin cifra ancla propia más allá del doble de la LCT), cosecha de uva 2026 (INV: 18.391.299 qq en el informe final de mayo y 18.613.527 qq en el anual según Bichos de Campo; versiones que no cierran entre sí y sin el documento del INV leído), multa de River por no ir a la conferencia del Superclásico (Clarín; sin reglamento de la LPF con monto a mano), cuánta plata del Fondo Solidario de Redistribución retiene el Gobierno (infobae; cifra de parte); calendario: deuda externa privada BCRA (hoy), inclusión financiera, pagos minoristas y balance cambiario BCRA y dotación APN INDEC (30/10); empresas: ya hubo nota EMPRESAS hoy (Vista 00:30), Banco Macro y Central Puerto recompras de rutina, Molinos-Ayudín sin precio (frenada 28/10), Fiplasto venta de inmueble, IRSA tipo de cambio del dividendo, Banco Comafi y Banco del Sol hechos relevantes sin leer, Caja de Valores dividendo; portadas: oro del BCRA y la AGN (infobae, La Nación, Clarín, TN, iProfesional; publicada 14/10 y frenada 08-10/10), Mercado Pago licencia bancaria (infobae, La Nación, iProfesional, Cronista; sin documento público), RIGI (5 portales; frenada 29/10 14:30), FMI (5 portales), mora de las familias en baja (Clarín, ámbito; publicada tres veces), bono de $70.000 (cubierto), Lagarde (publicada hoy). clarin.com y tn.com.ar leídos con curl. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas no probadas.",
+      "fecha": "2026-10-29",
+      "estado": "descartada"
     }
   ]
 }
