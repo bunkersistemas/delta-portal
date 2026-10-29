@@ -6449,6 +6449,19 @@
       "angulo": "Lista no probada. Pregunta de plata: nuevas jubilaciones -43% (infobae; descartada 28/10 por falta de contraste del BESS), sueldo de un obrero de la construcción en noviembre (iProfesional; UOCRA cubierta 25/09 con noviembre), multas por acosar animales en playas de Mar del Plata (ordenanza sin texto publicado), vacuna contra la meningitis por el brote de Mendoza (sin precio oficial). EMPRESAS (cupo cubierto por Vista a las 00:30): Banco Macro adquisición de acciones propias (HR CNV 28/10, rutina), Fiplasto venta de inmueble (HR complementario 28/10), Loma Negra hecho relevante 27/10 (sin leer). Calendario: BCRA Informe de deuda externa privada (hoy; deuda de empresas cubierta el 30/09 con INDEC). Portadas: Caputo y el RIGI (5 portales), FMI y crecimiento (infobae, La Nación, ámbito, Página12), BCRA sin compras (La Nación, iProfesional), Fed (iProfesional), Comercio noviembre (cubierta 28/10), helicópteros Bell 407GXi (iProfesional, sin precio).",
       "fecha": "2026-10-29",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto está el riesgo país y cuánto le cuesta a la Argentina endeudarse? (Página12 29/10/2026 'Crece la preocupación por el alza del riesgo país: 763 puntos'; ámbito, iProfesional e infobae 28-29/10: FMI, bonos y la Fed) / EMBI JP Morgan vía Rava + ArgentinaDatos: 28/10/2026 763 (27/10 753, 26/10 765, 23/10 707; 23/09 566, +197, +34,8%); más alto desde 24/10/2025 (1.081, viernes antes de las legislativas); máximo intermedio AD 708 (27/10/2025), Rava nov-25 665 y pico 2026 637 (30/03); día después de las elecciones Rava 652 / AD 708 (discrepan), 763 supera a ambos; jueves 29 a media tarde 741 sin cierre. Tesoro EE.UU. 10 años (planilla oficial): 10/07 4,56, 23/09 5,11, 05/10 5,31, 28/10 5,05. Costo aproximado: 8,58% / 10,77% / 12,68%; desde el 23/09 +1,91 = EE.UU. -0,06 + riesgo país +1,97. Por US$1.000 M: US$126,8 M/año (+19,1 vs sep, +41,0 vs jul)",
+      "angulo": "Corrida programada del 29/10/2026 16:30, primera candidata probada (APTA). Ángulo nuevo frente a 2026-09-24 (566, ocho subas): el nivel más alto en un año, la comparación con el día después de las elecciones de 2025 y que esta vez la tasa de EE.UU. bajó, así que toda la suba del costo es de los bonos argentinos. Camino: dos compilaciones del EMBI que coinciden (Rava y ArgentinaDatos) + Tesoro de EE.UU. oficial. No se afirma causa ni máximo histórico; el 741 del 29/10 se marca como dato de rueda en curso.",
+      "fecha": "2026-10-29",
+      "estado": "publicada",
+      "articulo_id": "2026-10-29-riesgo-pais-763-mas-alto-en-un-ano"
+    },
+    {
+      "tema": "descartes de la corrida programada del 29/10/2026 16:30: no se probaron porque pasó la primera candidata (riesgo país 763, Rava + ArgentinaDatos + Tesoro de EE.UU.). Lista no probada: pregunta de plata: cuánto vale el terreno del Parque de la Costa (La Nación 29/10, Res. ME 1852/2026 del 26/10 suma 9.247 m² a los 51.563 m² de la Res. 1328/2025; la AABE no fijó precio base ni fecha de subasta: probablemente frena), multa por manejar con la licencia vencida (El Cronista; unidad fija sin documento oficial en CABA), cuánto pagó la Argentina por los helicópteros del Ejército y la Fuerza Aérea (iProfesional 29/10; frenada el 29/09 por falta de documento con monto); calendario: deuda externa privada del BCRA (hoy, informe no localizado; ángulo cercano a la nota del 30/09); licitación del Tesoro de fin de octubre (La Nación; ya cubierta la del 15/10); empresas: Fiplasto venta de inmueble y Loma Negra hecho relevante del 27/10 (CNV caída por timeout en build_empresas), Central Puerto y Banco Macro recompras de rutina; ya hubo nota EMPRESAS hoy (Vista 00:30); otras: crisis de una fábrica de tractores (infobae, sin documento), costo fiscal del FAL $8 billones (El Cronista, proyección de una sola fuente)",
+      "angulo": "Registro de candidatas no probadas.",
+      "fecha": "2026-10-29",
+      "estado": "descartada"
     }
   ]
 }

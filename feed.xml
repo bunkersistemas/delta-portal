@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 29 Oct 2026 15:05:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 16:50:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El riesgo país cerró en 763 puntos, más alto que al día siguiente de las elecciones de 2025</title>
+      <link>https://coninteres.com/articulos/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.html</guid>
+      <pubDate>Thu, 29 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Un año después de las elecciones legislativas de 2025, el riesgo país quedó por encima del nivel con el que el mercado recibió el resultado. El índice de JP Morgan subió 197 puntos desde el 23 de septiembre y el lunes 26 tocó 765, el cierre más alto desde la víspera de aquellas elecciones. Esta vez la tasa del Tesoro de EE.UU. bajó: la suba del costo de endeudarse en dólares, de 10,77% a 12,68% anual en una cuenta aproximada, es toda de los bonos argentinos.</description>
+      <ci:numero>763</ci:numero>
+      <ci:numeroEtiqueta>puntos básicos de riesgo país al cierre del 28/10/2026, el más alto desde el 24/10/2025 salvo el 765 del 26/10</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.png" length="61829" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un argentino come 45,8 kilos de carne vacuna por año, 5 kilos menos que hace un año y menos de la mitad que en 1956</title>
       <link>https://coninteres.com/articulos/2026-10-29-carne-vacuna-consumo-45-kilos-por-habitante.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>consumo base mensual de electricidad con descuento de noviembre a abril para los hogares del SEF de la zona bioambiental 'Muy cálido' (IRAM Ia y Ib): Res. SE 300/2026, BO 27/10/2026, Anexo I IF-2026-103966122-APN-SSEEIE#MEC, tabla A. Antes (Anexo I de la Res. SE 272/2026, IF-2026-94364059, BO 01/10/2026 = Anexo I de la Res. 13/2026, BO 16/01/2026): 150 kWh en noviembre, marzo y abril (x3,33) y 550 en diciembre-febrero (-50). Cálido: 150 -&gt; 300 en nov/mar/abr, 370 en verano. Temporada nov-abr: 2.100 -&gt; 3.000 kWh (+42,9%) y 1.560 -&gt; 2.010 (+28,8%). Contraste: Contexto Tucumán 18/08/2026, acuerdo con el Norte Grande, 500 kWh nov-abr en zonas muy cálidas</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-luz-subsidio-zonas-calidas-500-kwh.png" length="81832" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-luz-subsidio-zonas-calidas-500-kwh.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>En los países ricos, los avisos para los trabajos más reemplazables por la IA cayeron 5,8% más que el resto desde ChatGPT, según el Banco Mundial</title>
-      <link>https://coninteres.com/articulos/2026-10-27-ia-avisos-empleo-paises-ricos-banco-mundial.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-ia-avisos-empleo-paises-ricos-banco-mundial.html</guid>
-      <pubDate>Tue, 27 Oct 2026 01:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>IA</category>
-      <description>La inteligencia artificial ya se nota en la búsqueda de empleados de los países ricos, pero todavía no en el grupo donde está la Argentina. Economistas del Banco Mundial compararon 555 millones de avisos de empleo de 84 países antes y después de ChatGPT: en los de ingreso alto, los avisos para los trabajos más reemplazables por la IA cayeron 5,8% frente al resto, y 8,9% al tercer año; en los de ingreso medio y bajo, la baja fue de 1,5% y no se distingue del azar. Y esos avisos solo miran el empleo formal: en la Argentina, menos de la mitad de los puestos de trabajo, 48,2%, son asalariados registrados.</description>
-      <ci:numero>5,8%</ci:numero>
-      <ci:numeroEtiqueta>menos avisos de empleo para las ocupaciones más reemplazables por la IA frente a las menos reemplazables, en 42 países de ingreso alto, desde ChatGPT (2022T4-2025T2); en los 42 de ingreso medio y bajo, donde está la Argentina, -1,5%, no significativo (Huang, Liu, Wang y Yu, Banco Mundial, 2026, cuadro 1)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-ia-avisos-empleo-paises-ricos-banco-mundial.png" length="90274" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-ia-avisos-empleo-paises-ricos-banco-mundial.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

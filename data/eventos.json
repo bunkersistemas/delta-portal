@@ -1,69 +1,74 @@
 {
- "descripcion": "Eventos anotados en los gráficos de las fichas de indicadores. La redacción agrega una entrada cuando publica una nota que explica un movimiento del indicador.",
- "eventos": {
-  "dolar-oficial": [
-   {
-    "fecha": "2026-07-31",
-    "titulo": "Las personas compraron US$2.916 M netos en dólar billete en julio, el mayor monto desde octubre de 2025",
-    "nota": "../articulos/2026-08-30-dolares-personas-humanas-julio.html"
-   },
-   {
-    "fecha": "2026-07-14",
-    "titulo": "El BCRA compró US$532 millones en un día, récord de la era Milei",
-    "nota": "../articulos/2026-07-19-bcra-compra-record-dolares.html"
-   }
-  ],
-  "dolar-blue": [
-   {
-    "fecha": "2026-07-22",
-    "titulo": "El dólar blue tocó un récord nominal de $1.555, pero la brecha con el oficial casi desapareció (~3%)",
-    "nota": "../articulos/2026-07-23-brecha-cambiaria-dolar-blue.html"
-   },
-   {
-    "fecha": "2026-07-13",
-    "titulo": "Los depósitos privados en dólares tocaron su nivel más alto en 26 años",
-    "nota": "../articulos/2026-07-18-depositos-dolares-record.html"
-   }
-  ],
-  "dolar-mep": [],
-  "riesgo-pais": [
-   {
-    "fecha": "2026-09-23",
-    "titulo": "El riesgo país subió ocho ruedas seguidas y volvió a 566 puntos",
-    "nota": "../articulos/2026-09-24-riesgo-pais-566-ocho-subas.html"
-   },
-   {
-    "fecha": "2026-07-20",
-    "titulo": "La deuda pública bajó por segundo mes seguido",
-    "nota": "../articulos/2026-07-20-deuda-publica-dos-lecturas.html"
-   }
-  ],
-  "inflacion": [
-   {
-    "fecha": "2026-09-30",
-    "titulo": "Los regulados subieron 31,5% en nueve meses, contra 23,6% de la inflación; en el Noreste, 43,0%",
-    "nota": "../articulos/2026-10-16-tarifas-regulados-inflacion-noreste.html"
-   },
-   {
-    "fecha": "2026-09-01",
-    "titulo": "La inflación mayorista saltó a 3,2% en septiembre: el crudo y el gas pusieron 1,43 puntos",
-    "nota": "../articulos/2026-10-16-petroleo-mayorista-77-surtidor-29.html"
-   },
-   {
-    "fecha": "2026-08-31",
-    "titulo": "La inflación bajó a 1,7% en agosto, pero la núcleo siguió en 1,8%",
-    "nota": "../articulos/2026-09-23-inflacion-agosto-nucleo-no-bajo.html"
-   },
-   {
-    "fecha": "2026-06-30",
-    "titulo": "La inflación bajó a 1,9%: por qué los números buenos todavía no se sienten en la calle",
-    "nota": "../articulos/2026-07-18-inflacion-argentina.html"
-   },
-   {
-    "fecha": "2026-06-01",
-    "titulo": "La inflación mayorista bajó a 1,1% en junio",
-    "nota": "../articulos/2026-07-20-inflacion-mayorista-junio.html"
-   }
-  ]
- }
+  "descripcion": "Eventos anotados en los gráficos de las fichas de indicadores. La redacción agrega una entrada cuando publica una nota que explica un movimiento del indicador.",
+  "eventos": {
+    "dolar-oficial": [
+      {
+        "fecha": "2026-07-31",
+        "titulo": "Las personas compraron US$2.916 M netos en dólar billete en julio, el mayor monto desde octubre de 2025",
+        "nota": "../articulos/2026-08-30-dolares-personas-humanas-julio.html"
+      },
+      {
+        "fecha": "2026-07-14",
+        "titulo": "El BCRA compró US$532 millones en un día, récord de la era Milei",
+        "nota": "../articulos/2026-07-19-bcra-compra-record-dolares.html"
+      }
+    ],
+    "dolar-blue": [
+      {
+        "fecha": "2026-07-22",
+        "titulo": "El dólar blue tocó un récord nominal de $1.555, pero la brecha con el oficial casi desapareció (~3%)",
+        "nota": "../articulos/2026-07-23-brecha-cambiaria-dolar-blue.html"
+      },
+      {
+        "fecha": "2026-07-13",
+        "titulo": "Los depósitos privados en dólares tocaron su nivel más alto en 26 años",
+        "nota": "../articulos/2026-07-18-depositos-dolares-record.html"
+      }
+    ],
+    "dolar-mep": [],
+    "riesgo-pais": [
+      {
+        "fecha": "2026-09-23",
+        "titulo": "El riesgo país subió ocho ruedas seguidas y volvió a 566 puntos",
+        "nota": "../articulos/2026-09-24-riesgo-pais-566-ocho-subas.html"
+      },
+      {
+        "fecha": "2026-07-20",
+        "titulo": "La deuda pública bajó por segundo mes seguido",
+        "nota": "../articulos/2026-07-20-deuda-publica-dos-lecturas.html"
+      },
+      {
+        "fecha": "2026-10-28",
+        "titulo": "El riesgo país cerró en 763 puntos, el más alto desde la víspera de las elecciones de 2025",
+        "nota": "../articulos/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.html"
+      }
+    ],
+    "inflacion": [
+      {
+        "fecha": "2026-09-30",
+        "titulo": "Los regulados subieron 31,5% en nueve meses, contra 23,6% de la inflación; en el Noreste, 43,0%",
+        "nota": "../articulos/2026-10-16-tarifas-regulados-inflacion-noreste.html"
+      },
+      {
+        "fecha": "2026-09-01",
+        "titulo": "La inflación mayorista saltó a 3,2% en septiembre: el crudo y el gas pusieron 1,43 puntos",
+        "nota": "../articulos/2026-10-16-petroleo-mayorista-77-surtidor-29.html"
+      },
+      {
+        "fecha": "2026-08-31",
+        "titulo": "La inflación bajó a 1,7% en agosto, pero la núcleo siguió en 1,8%",
+        "nota": "../articulos/2026-09-23-inflacion-agosto-nucleo-no-bajo.html"
+      },
+      {
+        "fecha": "2026-06-30",
+        "titulo": "La inflación bajó a 1,9%: por qué los números buenos todavía no se sienten en la calle",
+        "nota": "../articulos/2026-07-18-inflacion-argentina.html"
+      },
+      {
+        "fecha": "2026-06-01",
+        "titulo": "La inflación mayorista bajó a 1,1% en junio",
+        "nota": "../articulos/2026-07-20-inflacion-mayorista-junio.html"
+      }
+    ]
+  }
 }

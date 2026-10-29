@@ -1,11 +1,11 @@
 {
-  "generado": "2026-10-29T14:30",
+  "generado": "2026-10-29T16:31",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [
-    "CNV: la solapa EMPRESAS vino sin filas: cambio la pagina"
+    "CNV: The read operation timed out"
   ],
   "hechos": [
     {
@@ -1080,6 +1080,7 @@
     "sec-0001292814-26-005002": "2026-10-23",
     "sec-0001292814-26-005008": "2026-10-26",
     "sec-0001292814-26-005026": "2026-10-28",
+    "sec-0001292814-26-005042": "2026-10-29",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002070": "2026-10-05",
     "sec-0001554855-26-002088": "2026-10-09",
