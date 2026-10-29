@@ -6330,6 +6330,25 @@
       "angulo": "registro de candidatas no probadas",
       "fecha": "2026-10-29",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto cobra Catamarca de regalías por el litio? (pregunta de plata detrás de la visita de Milei, Karina Milei, Santilli y Caputo a la expansión del proyecto Fénix en el salar del Hombre Muerto; infobae, La Nación y ámbito 28/10/2026: \"Caputo se apunó en la visita a una mina de litio\")",
+      "angulo": "FRENADA en la corrida programada del 29/10/2026 02:30. No hay serie oficial accesible de regalías mineras cobradas en 2025-2026: la Ley 5898 de Presupuesto 2025 solo proyecta $17.015.303.989 (Ley 5.642); la Contaduría General de Catamarca no tiene datos abiertos de ejecución de recursos en línea; la DNAP del Ministerio de Economía no respondió (economia.gob.ar caído, argentina.gob.ar sin planillas); SIACAM solo tiene exportaciones por provincia, sin regalías. Las cifras que circulan ($17.900 M jul-25/jun-26, US$26 M) son de diputados provinciales, sin documento. Retomar si ARCAT o la Contaduría publican la ejecución, o con el informe EITI Argentina.",
+      "fecha": "2026-10-29",
+      "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto rinde un plazo fijo en dólares? (ámbito 28/10/2026 \"Plazo fijo en dólares: ¿cuánto rinde invertir u$d5.000 a 30 días en los principales bancos?\"; la Fed mantuvo la tasa, iProfesional, TN y ámbito 28-29/10) / BCRA Series.xlsm y var 1194: personas humanas, promedio 1-27/10/2026 1,36% TNA (US$5,60 por US$5.000 a 30 días) vs enero 2,19% (máximo mensual desde ene-2016), -38%; Fed subió a 3,75-4% el 16/09; BNA 1,25% online / 0,75% sucursal",
+      "angulo": "Distinto de la nota del 19/10 (plazo fijo en PESOS, comparador del BCRA contra la inflación) y de la del 24/10 (stock de depósitos en dólares en máximo). Eje: la tasa en dólares bajó todo 2026 mientras la Fed subió; 60 -> 35 centavos por dólar de tasa de referencia; queda debajo del CPI de EE.UU. (3,7%). Verificación: estadística oficial recalculada desde la serie diaria del BCRA + contraste con la pizarra del Banco Nación. Sin causa atribuida a la baja; solo la regla de Política de crédito 2.1 (a quién se prestan los dólares).",
+      "fecha": "2026-10-29",
+      "estado": "publicada",
+      "articulo_id": "2026-10-29-plazo-fijo-dolares-tasa-cae-fed-sube"
+    },
+    {
+      "tema": "descartes de la corrida programada del 29/10/2026 02:30: frenó la primera (regalías del litio de Catamarca, sin serie oficial accesible) y pasó la segunda (plazo fijo en dólares, BCRA + Banco Nación + Fed)",
+      "angulo": "Lista no probada. EMPRESAS (hoy ya salió Vista a las 00:30, el cupo está cubierto): Molinos-Grupo Ayudín (frenada el 28/10 sin precio), YPF Luz 3T26 (frenada el 27/10, sin auditar), Fiplasto venta de inmueble (HR CNV 28/10, menor), Central Puerto y Banco Macro recompras de acciones (rutina). Pregunta de plata: feria de empleo porteña (14.000 por 2.500 vacantes, La Nación e iProfesional; sin registro oficial de vacantes), 36% sin saldo el día 10 (Banco Provincia, cinco portadas; un solo banco), premio de la Copa Argentina con Platense finalista (infobae; premios cubiertos el 27/09). Portadas: BCRA sin compras por tercer día y dólar en máximo nominal (infobae, La Nación, ámbito), riesgo país 763 (infobae, ámbito, Página12; EMBI de JP Morgan, sin fuente abierta), licitación del Tesoro con rollover (infobae, La Nación, iProfesional), RIGI proveedores (ámbito, Cronista). Calendario: deuda externa privada del BCRA (hoy, sin publicar a las 02:30), dotación de la administración pública INDEC (30/10). clarin.com y tn.com.ar no se pudieron leer. pregunta.json ya era de hoy.",
+      "fecha": "2026-10-29",
+      "estado": "descartada"
     }
   ]
 }

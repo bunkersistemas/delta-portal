@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 29 Oct 2026 00:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 02:59:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un plazo fijo en dólares paga 1,36% anual: US$5.000 a 30 días dejan US$5,60, y la tasa cayó 38% desde enero aunque la Fed subió la suya</title>
+      <link>https://coninteres.com/articulos/2026-10-29-plazo-fijo-dolares-tasa-cae-fed-sube.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-plazo-fijo-dolares-tasa-cae-fed-sube.html</guid>
+      <pubDate>Thu, 29 Oct 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Reserva Federal de Estados Unidos subió su tasa en septiembre; la que pagan los bancos argentinos por un plazo fijo en dólares bajó 38% desde enero. En octubre, según el BCRA, el promedio para las personas fue 1,36% anual: US$5.000 a 30 días dejan US$5,60 de interés. En enero pagaban 2,19%, la tasa más alta en diez años.</description>
+      <ci:numero>1,36%</ci:numero>
+      <ci:numeroEtiqueta>tasa nominal anual promedio de los plazos fijos en dólares de personas humanas, 1 al 27 de octubre de 2026 (18 días hábiles): BCRA planilla Series.xlsm, hoja TASAS DE MERCADO, columna Plazos fijos - Total general en dólares - Personas humanas - TNA (al 28/10/2026, provisorio), recalculado 1,3623%; API var 1194 da 1,36. Enero 2026 2,1872% (-37,7%); máximo mensual desde ene-2016 (2,62%); octubre el más bajo desde may-2025 (1,31%). US$5.000 x TNA x 30/365 = US$5,60 (enero US$8,99). Contraste: Banco Nación, tasas vigentes 29/10/2026, personas canal electrónico 30-59 días 1,25% (US$5,14), sucursal 0,75%. Fed: suba a 3,75-4% el 16/09/2026, mantenida el 28/10 (10-2); EFFR NY Fed ene 3,64 / oct 3,88 (60 y 35 centavos por dólar). CPI-U BLS sep-26/sep-25 336,940/324,800 = +3,7%. Camino: estadística oficial recalculada + contraste.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-plazo-fijo-dolares-tasa-cae-fed-sube.png" length="93245" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-plazo-fijo-dolares-tasa-cae-fed-sube.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Vista sacó 147.126 barriles de petróleo por día, 34% más que un año antes: sin las áreas que le compró a Equinor, creció 15%, al ritmo del país</title>
       <link>https://coninteres.com/articulos/2026-10-29-vista-petroleo-tercer-trimestre-compra-equinor.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>boleto mínimo (0 a 3 km, tarifa plena con SUBE registrada) de las líneas provinciales urbanas del Gran Buenos Aires desde el 01/10/2026: anexo I del aviso del Ministerio de Transporte PBA, BO n.° 30.331 (29/09/2026, IF-2026-34079281-GDEBA-DAETMTRAGP) = tabla Red SUBE argentina.gob.ar. Octubre 2025: $550,30 (BO n.° 30.088, 29/09/2025) -&gt; +120,8%. IPC GBA INDEC sep-25 a sep-26: 33,5%. Subas extraordinarias: Res. 342/2025 (+10%, dic-25), Res. 66/2026 (+10%, mar-26), Res. 122/2026 (+8,29% combustible, tramos nuevos, SUBE sin nominar = tarifa técnica, may-26)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-colectivo-bonaerense-boleto-120-por-ciento-en-un-ano.png" length="87569" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-colectivo-bonaerense-boleto-120-por-ciento-en-un-ano.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>¿Cuánto gana un maestro en la Ciudad de Buenos Aires?</title>
-      <link>https://coninteres.com/articulos/2026-10-26-cuanto-gana-maestro-ciudad-buenos-aires.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-26-cuanto-gana-maestro-ciudad-buenos-aires.html</guid>
-      <pubDate>Mon, 26 Oct 2026 00:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Un maestro de grado porteño con diez años de antigüedad cobró en junio $1.137.748 de bolsillo por una jornada simple, el último dato oficial: alcanza para el 72,1% de la línea de pobreza de una familia de cuatro en la Ciudad. La Ciudad está 11.ª entre las 24 jurisdicciones, 4,7% arriba del promedio del país y 20,6% arriba de un maestro bonaerense. Aun así, descontada la inflación porteña, ese sueldo compra 10,6% menos que en junio de 2023. En el último año quedó igual.</description>
-      <ci:numero>$1.137.748</ci:numero>
-      <ci:numeroEtiqueta>sueldo de bolsillo de un maestro de grado porteño, jornada simple, 10 años de antigüedad, junio de 2026 (último dato oficial): CECE/Ministerio de Capital Humano, act. 04/08/2026, provisorio ($1.137.747,77; bruto $1.394.542,46; básico $302.316,33). Fuente independiente: grilla UTE junio 2026 (1.135 puntos x $266,358; 10 años $1.330.542,46 + sumas no remunerativas $30.000 y $34.000 = bruto oficial); descuentos 19,3% (Ademys: 6% obra social, 11%+2% jubilación, 0,3% fondo compensador): 1.330.542,46 x 0,807 + 64.000 = 1.137.747,77. Máxima antigüedad (120%, tope de la Res. 5147/SSPIE/26): $1.440.071 (= UTE). Real jun-23/jun-26: -10,6% con IPCBA (347,38 -&gt; 2.480,63), -7,7% con IPC INDEC; jun-25/jun-26 -0,1% / -0,8%; dic-16 -22,2%. 72,1% de la LP del hogar 1 IDECBA jun-26 ($1.577.314); 57,0% de la CT ($1.994.870); 74,3% CBT INDEC hogar 2. Puesto 11 de 24; +4,7% vs promedio ($1.087.013); +20,6% vs Buenos Aires ($943.608). Octubre: sin norma oficial hallada.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-cuanto-gana-maestro-ciudad-buenos-aires.png" length="63759" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-cuanto-gana-maestro-ciudad-buenos-aires.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
