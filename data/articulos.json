@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-29T07:01:40-03:00",
+    "actualizado": "2026-10-29T09:09:12-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-29-acero-china-mitad-manufacturas-importadas",
+      "titulo": "China vendió la mitad de los caños, estructuras y tornillos de acero que importó la Argentina en 2025, la mayor proporción desde 2002, y en 2026 ya llega al 53%",
+      "bajada": "China ya vende más de la mitad de las manufacturas de hierro y acero que importa la Argentina —caños, estructuras, tornillos, accesorios—. En 2025 fueron 165.564 de 322.308 toneladas: el 51,4%, la mayor proporción en una serie del INDEC que empieza en 2002. Entre enero y septiembre de 2026 ya son el 53,1%: China vendió 23,1% más toneladas que un año antes, y lo que llegó del resto del mundo bajó 7,4%.",
+      "titulo_busqueda": "¿Cuánto acero importa la Argentina de China?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "51,4%",
+      "numero_label": "parte de China en las toneladas de manufacturas de hierro y acero (capítulo 73 de la NCM) importadas en 2025, según la base de comercio exterior del INDEC (165.564.427 kg sobre 322.307.853; máximo previo de la serie 2002-2025: 2015, 47,9%; 2024: 44,5%; 2023: 30,3%). Ene-sep 2026: 53,1% (134.250.307 kg sobre 252.867.990; China +23,1%, resto -7,4%). Contraste: UN Comtrade, China declaró exportaciones del capítulo 73 a la Argentina por US$316,4 M FOB en 2025 contra US$213,7 M en 2024 (+48,1%; INDEC FOB origen China +33,4%); en kilos, partida 7318 INDEC 25.675 t vs China 26.251 t (2025 +62,2% y +80,0%; 2024 -19,3% y -22,1%) y 7308 misma dirección en 2024 y 2025",
+      "fecha": "2026-10-29",
+      "hora": "09:30",
+      "archivo": "articulos/2026-10-29-acero-china-mitad-manufacturas-importadas.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-29-sueldo-basico-maestro-corrientes",
       "titulo": "El sueldo básico de un maestro de Corrientes es $232.690, el 16% de lo que cobra: la suba del último año llegó por una suma fija",
