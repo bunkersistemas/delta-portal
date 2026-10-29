@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-29T04:47:38-03:00",
+    "actualizado": "2026-10-29T07:01:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-29-sueldo-basico-maestro-corrientes",
+      "titulo": "El sueldo básico de un maestro de Corrientes es $232.690, el 16% de lo que cobra: la suba del último año llegó por una suma fija",
+      "bajada": "En un año, el sueldo de bolsillo de un maestro de grado de Corrientes subió 46,7%, la segunda suba del país. Su sueldo básico, en cambio, perdió 4,0% contra la inflación del Nordeste. En junio de 2026, el último dato oficial, el básico fue de $232.690: el 15,8% de un bruto de $1.468.200 con diez años de antigüedad. El resto son sumas fijas, zona y adicionales. Contra junio de 2023, el básico compra 30,0% menos.",
+      "titulo_busqueda": "¿Cuánto cobra un maestro en Corrientes?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$232.690",
+      "numero_label": "sueldo básico de un maestro de grado de Corrientes, jornada simple, junio de 2026 (último dato oficial): CECE/Ministerio de Capital Humano, planilla Sueldo básico act. 04/08/2026, provisorio ($232.690,425); bruto MG10 $1.468.200 (Informe indicativo jun-26, p. 17 y anexo p. 35); básico/bruto 15,8% (informe: 16%). Recalculo: mar-26 $211.536,75 x 1,10 = $232.690,43 (informe: básico +10% en el trimestre); dic-25 $199.536,75 -> mar-26 +$12.000,00 (6,0%). Contraste independiente: SUTECO, 6% = 'unos 12 mil pesos' al básico (Perfil 09/03/2026) y '10% anunciado' decretado en junio (Perfil 01/06/2026). Real con IPC NEA INDEC: jun-25/jun-26 -4,0% (básico +31,1%, IPC +36,5%), jun-23/jun-26 -30,0% (x4,697 vs x6,712); bruto +56,8% (+14,9% real), bolsillo $1.143.495 +46,7% (+7,5% real; 2.º del país tras Santiago del Estero 116,3%). Bruto 7.º de 24; participación del básico 6.ª más baja (promedio 24,5%). MG0 jun-26 $1.351.855 (MG10 +9%).",
+      "fecha": "2026-10-29",
+      "hora": "07:30",
+      "archivo": "articulos/2026-10-29-sueldo-basico-maestro-corrientes.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-29-cotillon-halloween-importado-china",
       "titulo": "La Argentina importó 4.274 toneladas de cotillón y artículos de fiesta en 2025, el doble que en 2024: 99 de cada 100 kilos llegan de China",

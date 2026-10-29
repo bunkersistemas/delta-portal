@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 29 Oct 2026 04:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 29 Oct 2026 07:01:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El sueldo básico de un maestro de Corrientes es $232.690, el 16% de lo que cobra: la suba del último año llegó por una suma fija</title>
+      <link>https://coninteres.com/articulos/2026-10-29-sueldo-basico-maestro-corrientes.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-sueldo-basico-maestro-corrientes.html</guid>
+      <pubDate>Thu, 29 Oct 2026 07:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En un año, el sueldo de bolsillo de un maestro de grado de Corrientes subió 46,7%, la segunda suba del país. Su sueldo básico, en cambio, perdió 4,0% contra la inflación del Nordeste. En junio de 2026, el último dato oficial, el básico fue de $232.690: el 15,8% de un bruto de $1.468.200 con diez años de antigüedad. El resto son sumas fijas, zona y adicionales. Contra junio de 2023, el básico compra 30,0% menos.</description>
+      <ci:numero>$232.690</ci:numero>
+      <ci:numeroEtiqueta>sueldo básico de un maestro de grado de Corrientes, jornada simple, junio de 2026 (último dato oficial): CECE/Ministerio de Capital Humano, planilla Sueldo básico act. 04/08/2026, provisorio ($232.690,425); bruto MG10 $1.468.200 (Informe indicativo jun-26, p. 17 y anexo p. 35); básico/bruto 15,8% (informe: 16%). Recalculo: mar-26 $211.536,75 x 1,10 = $232.690,43 (informe: básico +10% en el trimestre); dic-25 $199.536,75 -&gt; mar-26 +$12.000,00 (6,0%). Contraste independiente: SUTECO, 6% = 'unos 12 mil pesos' al básico (Perfil 09/03/2026) y '10% anunciado' decretado en junio (Perfil 01/06/2026). Real con IPC NEA INDEC: jun-25/jun-26 -4,0% (básico +31,1%, IPC +36,5%), jun-23/jun-26 -30,0% (x4,697 vs x6,712); bruto +56,8% (+14,9% real), bolsillo $1.143.495 +46,7% (+7,5% real; 2.º del país tras Santiago del Estero 116,3%). Bruto 7.º de 24; participación del básico 6.ª más baja (promedio 24,5%). MG0 jun-26 $1.351.855 (MG10 +9%).</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-sueldo-basico-maestro-corrientes.png" length="89599" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-sueldo-basico-maestro-corrientes.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina importó 4.274 toneladas de cotillón y artículos de fiesta en 2025, el doble que en 2024: 99 de cada 100 kilos llegan de China</title>
       <link>https://coninteres.com/articulos/2026-10-29-cotillon-halloween-importado-china.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>pago que ordena el Decreto 1255/2026 (BO 26/10/2026, firmado 23/10/2026) por la sentencia de la Corte IDH del 16/11/2022, caso Brítez Arce y otros vs. Argentina (Serie C 474). Dos fuentes: sentencia (párr. 104: 2 x US$5.000; 124: US$64.000; 125: US$60.000 + 2 x US$25.000; 130: US$20.000 + 2 x US$15.000 = US$234.000, recalculado) y decreto (total US$234.000). Notificación 18/01/2023; plazo vencido el 19/01/2024 (supervisión Corte IDH 30/04/2024). 45 meses (1.374 días) entre notificación y decreto, contra 16 (Julien Grisonas, Dto 239/2023, US$861.860,98), 21 (Boleso, Dto 337/2025, US$12.000) y 21 (Álvarez, Dto 577/2025, US$11.000). A3500 23/10/2026 $1.528,263: $357,6 M</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-corte-interamericana-britez-arce-234-mil-dolares.png" length="88515" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-corte-interamericana-britez-arce-234-mil-dolares.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El dólar subió 9,2% en Brasil el día después de la reelección de Lula, la mayor suba en un día desde 2008</title>
-      <link>https://coninteres.com/articulos/2026-10-26-dolar-brasil-sube-9-por-ciento-lula-mas-barato-en-dolares.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-26-dolar-brasil-sube-9-por-ciento-lula-mas-barato-en-dolares.html</guid>
-      <pubDate>Mon, 26 Oct 2026 13:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>La cotización oficial del Banco Central do Brasil pasó de 5,0377 a 5,5007 reales por dólar. Para un argentino que viaja con dólares, lo que allá cuesta R$100 bajó de US$19,85 a US$18,18: 8,4% menos que el viernes. Pero el salto devolvió al real al nivel de fin de 2025, y los precios brasileños siguieron subiendo: con los de septiembre, Brasil en dólares queda casi igual que en el verano pasado y 18,5% más caro que en el de 2025.</description>
-      <ci:numero>+9,2%</ci:numero>
-      <ci:numeroEtiqueta>suba del dólar en reales el 26/10/2026, PTAX de cierre del Banco Central do Brasil contra el viernes</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-26-dolar-brasil-sube-9-por-ciento-lula-mas-barato-en-dolares.png" length="67180" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-26-dolar-brasil-sube-9-por-ciento-lula-mas-barato-en-dolares.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
