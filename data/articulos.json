@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-29T09:09:12-03:00",
+    "actualizado": "2026-10-29T10:45:12-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-29-gnl-importado-867-millones-tonelada-mas-cara",
+      "titulo": "La Argentina pagó US$867 millones por el gas licuado que importó en 2026, 43% más que en todo 2025 aunque trajo 2,5% menos: cada tonelada costó 46% más",
+      "bajada": "En 2026 la Argentina trajo menos gas natural licuado que en 2025 y lo pagó más caro. Entre enero y septiembre importó 946.044 toneladas por US$867,4 millones con flete y seguro, según la base de comercio exterior del INDEC: 42,6% más que en todo 2025, con 2,5% menos gas. La diferencia la hizo el precio: la tonelada costó US$916,9, 46,4% más que un año antes. El gasto y el precio son los más altos desde 2023. Al precio de 2025, la cuenta habría sido US$274,8 millones menor.",
+      "titulo_busqueda": "¿Cuánto gastó la Argentina en importar gas licuado (GNL) en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$867 M",
+      "numero_label": "lo que pagó la Argentina, con flete y seguro (CIF), por el gas natural licuado importado entre enero y septiembre de 2026 (NCM 2711.11.00, base de comercio exterior del INDEC: 946.044.403 kg, US$867.424.794 CIF, US$815.041.634 FOB). 2025 completo: 970.782.576 kg, US$608.085.378 CIF (+42,6%; kg -2,5%); US$/t CIF 916,9 vs 626,4 (+46,4%); máximo previo comparable: 2023 US$1.799,9 M y US$950,2/t. Contrastes: EIA, exportaciones de GNL de EE.UU. a la Argentina 2025 -51,1% (INDEC origen EE.UU. -45,5%), abr-jul 2026 vs 2025 -41,0% (INDEC -39,4%); Banco Mundial, gas natural Europa jun-ago 2026 vs 2025 +54,6% (INDEC US$/t CIF jun-ago +48,5%)",
+      "fecha": "2026-10-29",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-29-gnl-importado-867-millones-tonelada-mas-cara.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-29-acero-china-mitad-manufacturas-importadas",
       "titulo": "China vendió la mitad de los caños, estructuras y tornillos de acero que importó la Argentina en 2025, la mayor proporción desde 2002, y en 2026 ya llega al 53%",
