@@ -1,11 +1,65 @@
 {
-  "generado": "2026-10-30T16:30",
+  "generado": "2026-10-30T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3587032",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T18:14",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 30.10.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3A4955F7-3300-4AB4-BAE4-980C184B174C"
+    },
+    {
+      "id": "cnv-3587029",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T18:07",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICION DE ACCIONES PROPIAS EN LOS TERMINOS DEL ARTICULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/CA2AEE2A-9FAA-4E6D-B107-8C827006209C"
+    },
+    {
+      "id": "cnv-3587001",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T17:40",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICIÓN DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6CE43549-30B0-4780-A96C-6F23EFA338BA"
+    },
+    {
+      "id": "cnv-3586974",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T17:23",
+      "entidad": "CRESUD SACIF Y A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - TIPO DE CAMBIO APLICABLE AL PAGO DE DIVIDENDO EN EFECTIVO PARA LOS ACCIONISTAS DEL EXTERIOR QUE EJERCIERON LA OPCIÓN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5636D332-395D-45FA-A46F-66BF67B7D3A2"
+    },
+    {
+      "id": "cnv-3586922",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T16:46",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (30 10 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3B88FA4E-6361-49F7-8B67-6DD66233FD3B"
+    },
+    {
+      "id": "cnv-3586889",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T16:27",
+      "entidad": "AGROINDUSTRIAS LA ESPAÑOLA S A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - AVISO ART. 10 LON OFERTA DE OBLIGACIONES NEGOCIABLES CON AUTORIZACIÓN AUTOMÁTICA - BAJO IMPACTO",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E6AB1EDB-AAE5-47F8-892C-5982EF8AD7F1"
+    },
     {
       "id": "cnv-3586869",
       "fuente": "CNV",
@@ -59,6 +113,16 @@
       "tipo": "hecho",
       "descripcion": "HECHO RELEVANTE",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/72336B00-3EA4-44F1-9D82-6223B5B46D9D"
+    },
+    {
+      "id": "sec-0001104659-26-120726",
+      "fuente": "SEC",
+      "fecha": "2026-10-30",
+      "entidad": "Bioceres",
+      "ticker": "BIOX",
+      "tipo": "balance",
+      "descripcion": "20-F memoria y balance anual",
+      "url": "https://www.sec.gov/Archives/edgar/data/1769484/000110465926120726/biox-20260630x20f.htm"
     },
     {
       "id": "cnv-3586530",
@@ -1114,12 +1178,14 @@
     "sec-0001034957-26-000071": "2026-10-22",
     "sec-0001034957-26-000073": "2026-10-22",
     "sec-0001034957-26-000075": "2026-10-23",
+    "sec-0001034957-26-000077": "2026-10-30",
     "sec-0001104659-26-115753": "2026-10-14",
     "sec-0001104659-26-115765": "2026-10-14",
     "sec-0001104659-26-116442": "2026-10-16",
     "sec-0001104659-26-118637": "2026-10-26",
     "sec-0001104659-26-119660": "2026-10-28",
     "sec-0001104659-26-120214": "2026-10-29",
+    "sec-0001104659-26-120635": "2026-10-30",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
@@ -1147,6 +1213,7 @@
     "sec-0001292814-26-005026": "2026-10-28",
     "sec-0001292814-26-005042": "2026-10-29",
     "sec-0001292814-26-005068": "2026-10-30",
+    "sec-0001292814-26-005072": "2026-10-30",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002070": "2026-10-05",
     "sec-0001554855-26-002088": "2026-10-09",

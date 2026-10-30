@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 16:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 19:03:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Ley Brisa ya usó el 98,7% de su presupuesto 2026: le quedan $122 millones, y un mes de pagos a los 1.710 chicos que prevé cuesta $759,5 millones</title>
+      <link>https://coninteres.com/articulos/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.html</guid>
+      <pubDate>Fri, 30 Oct 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La partida que paga la reparación de la Ley Brisa a los hijos de víctimas de femicidio ya devengó el 98,7% de su presupuesto 2026, y quedan dos meses de pagos por delante. Tenía $9.511 millones para todo el año; al 28 de octubre se habían devengado $9.388 millones. Quedan $122 millones, y pagarle un solo mes a los 1.710 chicos que prevé el presupuesto cuesta $759,5 millones con el monto de noviembre, $444.158 por chico.</description>
+      <ci:numero>98,7%</ci:numero>
+      <ci:numeroEtiqueta>parte del crédito 2026 de la Ley Brisa devengada al 28/10/2026: Presupuesto Abierto, servicio 311, programa 44, actividad 5, inciso 5.1.4: devengado $9.388,4 M sobre crédito inicial = vigente $9.510,8 M (mensual = anual: ene 913,9, feb 857,6, mar 519,9, abr 670,8, may 1.181,6, jun 573,0, jul -0,3, ago 0, sep 3.519,1, oct 1.152,8); quedan $122,4 M. Contraste: distribución ley de presupuesto 2026 J88 (D26J88) actividad 05 $9.510.798.826, meta 1.710 personas; Ley 27.452 art. 3 (haber mínimo); Res. ANSES 304/2026 haber mínimo nov $444.158,46; 1.710 x 444.158,46 = $759,5 M (16% cubierto). 2025: ini 6.393,5 vig 7.403,7 dev 7.114,7 (ene-oct 5.810,2; 2026 +61,6%); 2024: 1.754,5 / 6.393,5 / 5.192,5; proyecto 2027 P27J88 $18.227 M, meta 1.810</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.png" length="99027" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los argentinos compraron US$2.471 millones en dólar billete en septiembre y ya pasaron los US$20.000 millones en 2026</title>
       <link>https://coninteres.com/articulos/2026-10-30-dolares-personas-humanas-septiembre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte de los ingresos del Fondo Fiduciario de Infraestructura Hídrica que fue a gastos de capital (transferencias para obras) entre enero de 2024 y junio de 2026: $143.727,2 M sobre $498.933,2 M de ingresos corrientes (ONP, informes de ejecución de fondos fiduciarios 4T25 y 2T26: 2024 98.538,5/12.709,0 base caja; 2025 235.945,1/43.069,9; 1S26 164.449,6/87.948,3); resultado financiero acumulado $347.556,7 M; recálculo de identidades en 8 períodos 2019-1S26; solo impuesto 35,8% ($401.236,1 M); contraste Chequeado 12/08/2026 (acceso a la información, ene-24 a may-26: $375.400 M recaudados, $116.000 M ejecutados, 30,9%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-fondo-hidrico-obras-29-de-cada-100.png" length="87215" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-fondo-hidrico-obras-29-de-cada-100.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las prepagas suben 2,31% en noviembre en promedio por afiliado: más que en octubre y 0,4 puntos por encima de la inflación de septiembre</title>
-      <link>https://coninteres.com/articulos/2026-10-28-prepagas-aumento-noviembre-superintendencia.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-prepagas-aumento-noviembre-superintendencia.html</guid>
-      <pubDate>Wed, 28 Oct 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Las prepagas suben en noviembre más que en octubre y más que la última inflación: 2,31% en promedio por afiliado, según los cuadros que 35 empresas ya declararon ante la Superintendencia de Servicios de Salud. Esas mismas empresas habían subido 1,94% en octubre, y el último IPC que conocían al fijarlo, el de septiembre, fue 1,9%. Nueve de cada diez afiliados tienen un aumento mayor que la inflación.</description>
-      <ci:numero>2,31%</ci:numero>
-      <ci:numeroEtiqueta>aumento de la cuota de las prepagas en noviembre de 2026, promedio ponderado por afiliados: base de cuadros tarifarios SSS (Res. SSS 645/2025), período 202611 consultado el 28/10/2026, 7.607 renglones de 35 entidades, 3.659.991 cápitas; tasa declarada 2,3057%; recálculo valor nov/oct en 7.535 renglones emparejados 2,3085% contra 2,3087% declarado; las mismas 34 entidades en octubre 1,94%; IPC nacional sep-26 1,9% (INDEC); contraste BAE Negocios y Minutouno 27/10/2026 (OSDE 1,7-2,2%, Sancor 2,88%, Omint 2,75%, Galeno 2,2%, Italiano 2,3%, Swiss 2,3%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-prepagas-aumento-noviembre-superintendencia.png" length="87294" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-prepagas-aumento-noviembre-superintendencia.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -6624,6 +6624,20 @@
       "fecha": "2026-10-30",
       "estado": "descartada",
       "motivo_descarte": "combustibles: monto por litro no reconstruible con fuente doble; Molinos-Ayudín: sin precio; Ternium: sin EEFF ni comparativo"
+    },
+    {
+      "tema": "¿cuánto cobra un hijo de víctima de femicidio por la Ley Brisa y cuánta plata le queda al Estado? (pregunta de plata detrás de los femicidios en portada: Infobae 30/10/2026, Nancy Godoy) / Presupuesto Abierto servicio 311 prog. 44 act. 5 (Ley Brisa): crédito 2026 $9.510,8 M sin modificaciones, devengado al 28/10 $9.388,4 M = 98,7%, quedan $122,4 M; mensual = anual (jul -0,3, ago 0, sep 3.519,1); D26J88 meta 1.710 personas; Res. ANSES 304/2026 haber mínimo nov $444.158,46 -> un mes a 1.710 = $759,5 M; 2024 ini 1.754,5 -> vig 6.393,5; 2025 ini 6.393,5 -> vig 7.403,7 (dev 7.114,7); ene-oct 2026 vs 2025 +61,6% nominal; proyecto 2027 $18.227 M para 1.810",
+      "angulo": "Corrida programada del 30/10/2026 18:30, primera candidata probada (APTA). Tema nuevo: no había nota de Ley Brisa. Ángulo propio: la partida está a 1,3% de agotarse con dos meses por delante y el saldo no paga ni un mes a la meta del propio presupuesto; los dos años anteriores el crédito se amplió en el camino. Camino: registro oficial recalculado (PA anual = suma mensual) + contraste con la distribución de la ley de presupuesto, la Ley 27.452, la Res. ANSES 304/2026 y el proyecto 2027. No se afirma cantidad actual de beneficiarios (1.404 del informe JGM no leído en el original).",
+      "fecha": "2026-10-30",
+      "estado": "publicada",
+      "articulo_id": "2026-10-30-ley-brisa-presupuesto-2026-casi-agotado"
+    },
+    {
+      "tema": "descartes de la corrida programada del 30/10/2026 18:30: no se probaron porque pasó la primera candidata (Ley Brisa, presupuesto 2026 casi agotado). Lista no probada: empresas (cupo cubierto por YPF Luz 30/10 08:30): Bioceres Crop Solutions 20-F del año fiscal a jun-26 presentado hoy en la SEC (ingresos US$237,8 M vs 287,7 M, pérdida de operaciones continuas US$82,4 M y discontinuadas US$181,5 M por la ejecución de Pro Farm, duda sustancial sobre continuidad; un solo documento, sin comunicado de resultados ni EEFF en CNV: retomable con el contraste de Rizobacter en la CNV), Ternium Argentina 9M26 (solo carta Art. 63, 6-K de Ternium S.A. del 3T todavía no está en la SEC), Banco Macro recompra (programa sin compras), Pluspetrol fusión por absorción (sin cifras), Supermercados DIA venta (infobae; sin documento CNV); calendario: dotación APN de septiembre del INDEC (publicada hoy; serie cubierta 30/09 y usada en FADEA), inclusión financiera BCRA (listado sin el informe nuevo localizable); pregunta de plata: costo de la visita del papa (descartada 25/09 y 28/09), salarios en Vaca Muerta (infobae; publicada 25/09), jubilación mínima de noviembre (Res. ANSES 304/2026; usada en esta nota, bono sin decreto), viajes presidenciales a España (sin partida identificable), Piñeyro y ARCA (fallo no localizado), cuota de la Argentina a la ONU por Grossi (publicada 19/10); portadas: riesgo país 787-790 (publicada 29/10), Binance (sin dato argentino), recesión e inversión (EMAE publicado 29/10), prórrogas de ARCA (sin cifra), subsidio a colectivos (cubierto). clarin.com y tn.com.ar no se pudieron leer con WebFetch; iProfesional economía dio 502 (se usó su portada). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-30",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }
