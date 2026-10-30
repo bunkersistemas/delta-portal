@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-29T20:59:49-03:00",
+    "actualizado": "2026-10-29T22:55:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6",
+      "titulo": "La actividad tendría que crecer 8,6% en septiembre para que el tercer trimestre no caiga: pasó una sola vez desde 2004",
+      "bajada": "Para que el tercer trimestre empate al segundo, que ya cayó 0,6%, la actividad tendría que crecer 8,6% en septiembre: una suba mensual que hubo una sola vez desde 2004, en mayo de 2020. El punto de partida es julio, que cayó 2,8%, y agosto, que creció apenas 0,1%. El BCRA ya escribe \"la caída desestacionalizada del tercer trimestre\".",
+      "titulo_busqueda": "¿Argentina está en recesión técnica? Lo que dicen el dato de agosto del INDEC y el Banco Central",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "8,6%",
+      "numero_label": "lo que tendría que crecer la actividad en septiembre frente a agosto para que el tercer trimestre no caiga (cálculo propio, EMAE desestacionalizado del INDEC)",
+      "fecha": "2026-10-29",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-29-provincias-deficit-primer-semestre-santa-fe",
       "titulo": "Seis provincias gastaron más de lo que les entró en el primer semestre, y Santa Fe sola explica 57% de ese rojo",

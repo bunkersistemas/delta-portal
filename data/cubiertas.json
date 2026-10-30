@@ -6488,6 +6488,19 @@
       "angulo": "Registro de candidatas no probadas.",
       "fecha": "2026-10-29",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿Argentina está en recesión técnica? (pregunta detrás de Página12 29/10/2026 'Dos trimestres seguidos en caída' y 'La economía se hunde como en las peores crisis', El Cronista 'La economía, a punto de cruzar un umbral que no pisaba desde 2024', y del IPOM 3T26 del BCRA del 29/10 en infobae, La Nación, Clarín, ámbito y TN) / EMAE agosto INDEC (21/10/2026): +0,1% s.e. (0,066%), julio revisado -2,8% (-2,81%), -1,7% i.a., acum. ene-ago +1,2%. Desest: abr 154,652, may 153,660, jun 154,117 (prom. 2T 154,143; 2T vs 1T -0,62%; PIB -0,59%), jul 149,792, ago 149,891 (prom. jul-ago -2,79% vs 2T; nivel más bajo desde mar-25 149,43). Septiembre necesario 162,747 = +8,58% vs ago, +3,81% sobre el máximo mar-26 156,778. Única suba mensual > 8,6% desde 2004: may-20 10,54% (jun-20 5,84, ene-10 3,19, dic-21 3,09). Escenarios 3T vs 2T: sep=ago -2,78%; sep=jun -1,87%; sep=máx -1,29%. Contraste: BCRA presentación IPOM 29/10 'caída desestacionalizada del tercer trimestre' y párrafo 10 del IPOM (factores transitorios; septiembre con sectores cíclicos recuperándose); FIEL IPI 21/10: sep -0,85% s.e. (139,875 -> 138,684), 3T -4,3% vs 2T, 2T -1,4%; REM sep-26 mediana 3T -1,0%.",
+      "angulo": "Corrida programada del 29/10/2026 22:30, primera candidata probada (APTA). Ángulo nuevo frente a la nota del 26/09 (con julio solo hacían falta +3% en agosto y +3% en septiembre): el EMAE de agosto (21/10, no cubierto) dio +0,1% y ahora septiembre necesita +8,6%, más que cualquier mes salvo mayo de 2020 y por encima del récord; el BCRA ya habla de caída del 3T en el IPOM del día. Camino: estadística oficial recalculada (planilla EMAE = informe técnico; variaciones mensuales coinciden) + contraste independiente (BCRA IPOM, FIEL IPI, REM). No se afirma que haya recesión técnica: se sabrá con el PIB del 3T (16/12).",
+      "fecha": "2026-10-29",
+      "estado": "publicada",
+      "articulo_id": "2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6"
+    },
+    {
+      "tema": "descartes de la corrida programada del 29/10/2026 22:30: no se probaron porque pasó la primera candidata (recesión técnica / EMAE de agosto + IPOM del BCRA). Lista no probada: pregunta de plata: boleto de las líneas nacionales congelado con más subsidios desde el domingo 01/11 (infobae, Clarín, TN, iProfesional 29/10; la resolución todavía no está en el Boletín Oficial a las 22:30 y el tema se cubrió 11/10, 17/10 y 26/10), cuánto vale el terreno del Parque de la Costa (La Nación 29/10, 60.000 m²; la AABE no fijó precio base), multa de River por no ir a la conferencia del Superclásico (Clarín; sin reglamento con monto), pensiones no contributivas de noviembre (TN; montos ya cubiertos con el bono), cuánto cobran gerentes según PwC (iProfesional; encuesta privada); calendario: deuda externa privada BCRA (hoy), balance cambiario, inclusión financiera y pagos minoristas BCRA y dotación APN INDEC (30/10); empresas: ya hubo nota EMPRESAS hoy (Vista 00:30); Banco Macro recompra hasta $160.000 M (infobae, La Nación; rutina), Central Puerto recompras diarias, Molinos-Ayudín sin precio (frenada 28/10), YPF Luz 3T26 (descartada 27/10), Banco Comafi y Banco del Sol hechos relevantes sin leer, IRSA tipo de cambio del dividendo; portadas: Mercado Pago licencia bancaria (infobae, La Nación, ámbito, iProfesional, Cronista; sin documento público de la aprobación), oro del BCRA y la AGN (cubierto 14/10), RIGI US$210.000 M (frenada 29/10 14:30), FMI medidas acordadas (frenada 28/10), mora de las familias (publicada tres veces), Binance hackeo (sin dato argentino), US$30.000 M de EE.UU. para proyectos (La Nación; sin documento). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas no probadas.",
+      "fecha": "2026-10-29",
+      "estado": "descartada"
     }
   ]
 }
