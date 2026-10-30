@@ -1,11 +1,29 @@
 {
-  "generado": "2026-10-30T10:30",
+  "generado": "2026-10-30T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3586648",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T10:55",
+      "entidad": "CELULOSA ARGENTINA",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN JUDICIAL - NOS DIRIGIMOS A USTEDES CON RELACIÓN AL HECHO RELEVANTE DE FECHA 2 DE JULIO DE 2026, MEDIANTE EL CUAL SE INFORMÓ LA INTERVENCIÓN PLENA DE LA SOCIEDAD CONTROLADA FORESTADORA TAPEBICUÁ S.A.U., ORDENADA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E63B3E39-720B-446E-A5A2-3741AF14F4F7"
+    },
+    {
+      "id": "cnv-3586460",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T10:46",
+      "entidad": "PLUSPETROL SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - PLUSPETROL S.A. - APROBACIÓN DEL ACUERDO PRELIMINAR DE FUSIÓN POR ABSORCIÓN DE PNB Y PCN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9205317E-73EE-4BB3-922D-5E1842390C69"
+    },
     {
       "id": "cnv-3586624",
       "fuente": "CNV",
