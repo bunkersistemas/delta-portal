@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-30T19:03:54-03:00",
+    "actualizado": "2026-10-30T20:41:09-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-30-bioceres-perdida-balance-auditado-20f",
+      "titulo": "Bioceres perdió US$263,9 millones en su año fiscal, US$30 millones más de lo que había anunciado en septiembre antes de la auditoría",
+      "bajada": "En septiembre, Bioceres Crop Solutions, la empresa rosarina del trigo HB4, anunció resultados sin auditar. El balance auditado que presentó el 30 de octubre ante la SEC muestra una pérdida neta de US$263,9 millones en su año fiscal a junio de 2026: unos US$30 millones más. La mayor parte es la ejecución de su negocio en Estados Unidos por los acreedores; lo nuevo son deterioros de activos, entre ellos la tecnología HB4. Su patrimonio cayó 96% en el año y su auditor advierte una «duda sustancial» sobre su capacidad de seguir funcionando.",
+      "titulo_busqueda": "¿Cuánto perdió Bioceres?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$263,9 M",
+      "numero_label": "pérdida neta de Bioceres Crop Solutions en el año fiscal a jun-2026: US$263.942.996 (20-F SEC 30/10/2026, estado de resultados integrales auditado por Price Waterhouse & Co.) = 82.438.029 operaciones que continúan + 181.504.967 discontinuadas (Pro Farm; pérdida por ejecución 181.305.248); FY25 (58,8), FY24 +7,3. Anuncio sin auditar 6-K 16/09/2026 ex99-1: continuas (54,4) y discontinuadas (179,4) = (233,8); resultado integral (231,4) vs (261,4) auditado = US$30,0 M. Diferencia continuas 28,0: otros egresos -0,7 -> -24,2 (deterioro intangibles HB4/semillas/llave 15,58; créditos Moolec y Trigall 7,67; contingencias 3,50), impuesto -3,4 -> -7,0 (baja de quebrantos 13,3), financiero -50,9 -> -52,1, bruto 82,9 -> 83,2, gastos 82,3 -> 82,2. Ventas 237,8 en ambos (FY25 287,7, -17,3%). Patrimonio controlante 265,4 (jun-25) -> 39,1 anuncio -> 10,7 auditado (-96,0%). Duda sustancial sobre empresa en marcha (informe del auditor y nota 2); pasivo corriente supera al activo corriente en 54,9; secured notes 122,0; empleados 562/620/819. Camino: dos documentos de la empresa ante la SEC + recálculo de renglones.",
+      "fecha": "2026-10-30",
+      "hora": "20:30",
+      "archivo": "articulos/2026-10-30-bioceres-perdida-balance-auditado-20f.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-30-ley-brisa-presupuesto-2026-casi-agotado",
       "titulo": "La Ley Brisa ya usó el 98,7% de su presupuesto 2026: le quedan $122 millones, y un mes de pagos a los 1.710 chicos que prevé cuesta $759,5 millones",

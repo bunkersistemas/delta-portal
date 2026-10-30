@@ -6638,6 +6638,19 @@
       "fecha": "2026-10-30",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto perdió Bioceres? (EMPRESAS, 20-F de Bioceres Crop Solutions ante la SEC del 30/10/2026, retomada de la lista no probada de las 18:30 con el contraste del anuncio 6-K del 16/09/2026) / pérdida neta FY jun-26 US$263,9 M (continuas 82,4 + Pro Farm 181,5) contra el anuncio sin auditar (54,4 + 179,4): resultado integral 261,4 vs 231,4 = US$30,0 M más; deterioro HB4 y llave 15,6, créditos Moolec/Trigall 7,7, contingencias 3,5, impuesto 7,0 vs 3,4; patrimonio controlante 265,4 -> 10,7 (-96%); duda sustancial de PwC sobre empresa en marcha",
+      "angulo": "Anatomía de un balance: lo que el balance auditado agregó al anuncio de septiembre, renglón por renglón.",
+      "fecha": "2026-10-30",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida programada del 30/10/2026 20:30: no se probaron porque pasó la primera candidata (Bioceres 20-F vs anuncio 6-K, EMPRESAS; el cupo EMPRESAS ya estaba cubierto por YPF Luz, ganó por ser una pregunta que nadie contestó con datos y por tener documento primario auditado). Lista no probada: empresas: Banco Macro recompra hasta $160.000 M (infobae; programa sin compras), Pluspetrol fusión por absorción (sin cifras), YPF RIGI Vaca Muerta norte US$8.729 M (infobae, iProfesional, Cronista; solicitud sin documento de la empresa ni resolución, RIGI frenado el 27 y 29/10 por montos sin segunda fuente), Celulosa Argentina información judicial; pregunta de plata: cupo de 50.000 autos sin arancel repartido 25.000/25.000 (Res. SICyPyME 438/2026, BO 30/10; La Nación; cuántos se usaron no tiene fuente pública), coparticipación de octubre por provincia (ámbito; DNAP, misma serie publicada el 01/10 para septiembre), hacienda de cría +61% (infobae; sin fuente oficial de precios), costo de la visita del papa (descartada tres veces), precio de la pelota del Superclásico (ámbito; sin fuente oficial); calendario: compras del BCRA en octubre US$1.395 M (La Nación, iProfesional; descartada el 01/10 para septiembre por falta de contraste), inclusión financiera BCRA (sin informe localizable); portadas: riesgo país 790 (publicada 29/10), Binance (sin dato argentino), dólar ahorro de septiembre (publicada 30/10), tarifas de noviembre (publicadas). clarin.com y tn.com.ar no se pudieron leer con WebFetch; pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-30",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }
