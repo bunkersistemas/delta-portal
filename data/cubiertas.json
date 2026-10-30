@@ -6501,6 +6501,26 @@
       "angulo": "Registro de candidatas no probadas.",
       "fecha": "2026-10-29",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto debe Fiplasto y cuánto vale su campo de Timbúes? / venta de inmueble rural con potencial portuario en Timbúes, Lote 7, 383,77 ha por US$22.362.500 (US$58.270/ha) con anticipo US$2,5 M, US$2,5 M a la escritura y US$17.362.500 en ocho cuotas semestrales (EMPRESAS, hecho relevante CNV 28/10/2026 73605F3C; antecedentes propios: Andino 317 ha a US$11.475/ha, jul-26; Ramallo 493 ha a US$6.500/ha, feb-26; dos predios de Timbúes en 2023 por US$12.808.320 según iProfesional)",
+      "angulo": "Corrida programada del 30/10/2026 00:30, primera candidata probada (EMPRESAS con cupo vigente: la última nota EMPRESAS fue Vista el 29/10). FRENADA con el mismo criterio que Inversora Juramento el 20/10: el precio figura en un solo documento de la vendedora; el comprador no está identificado, no hay escritura, balance posterior ni otro regulador que lo documente, y iProfesional reproduce el mismo hecho relevante. Retomable cuando el balance trimestral de Fiplasto registre el anticipo o aparezca el documento del comprador.",
+      "fecha": "2026-10-30",
+      "estado": "descartada",
+      "motivo_descarte": "cifra ancla de un solo documento de la empresa, sin segunda presentación ni contraste"
+    },
+    {
+      "tema": "¿cuántos tractores importados se venden en la Argentina? (pregunta de plata detrás de Clarín 29/10/2026 'Una de las principales fábricas de tractores nacionales, en problemas', Pauny; La Nación 29/10) / INDEC maquinaria agrícola 2T26 (28/08/2026, cuadro 5.1 y planilla cuadro 3.1): 1S26 2.404 tractores (−26,6%), nacionales 1.721 vs 2.741 (−37,2%), importados 683 vs 533 (+28,1%), parte importada 28,4% vs 16,3%; 2T26 1.048 nac (−34,2%) y 419 imp (+31,3%) = 28,6%; 2T24 7,2%; anual 2017-2019 32,2/32,9/36,7%, 4T19 46,7%, 2021 5,4%, 2025 17,4%; 1S nacionales más bajo entre años con dato (previo 1.891 en 2019; 2022-2024 sin apertura del 1T); precio prom. 2T26 nac $157,7 M imp $211,5 M; importados 33,5% de la facturación 1S. Contraste ACARA/DNRPA ene-sep: 3.999 tractores (−1,4%), Otros 320→758 (+136,9%, 7,9%→19,0%), Pauny 439→316 (−28,0%); ene-jun ACARA 2.544 vs 2.620. BCRA Central de Deudores (30/10) Pauny S.A. CUIT 30618855631: deuda sep-26 $29.910.756 miles (BNA $21.590.024 miles, sit. 2), 153 cheques sin fondos $1.117.251.534,65 rechazados 13-26/10.",
+      "angulo": "Corrida programada del 30/10/2026 00:30, segunda candidata probada (APTA). Tema nuevo: no había nota de maquinaria agrícola (la del 29/10 de cheques de Pauny se había descartado como candidata EMPRESAS por falta de contraste; acá Pauny es caso ilustrativo y el ancla es la estadística del INDEC). Camino: estadística oficial recalculada (planilla cuadro 3.1) + contraste independiente ACARA/DNRPA, con la diferencia de totales explicada por universo (panel de 40+ empresas vs. todas las inscripciones).",
+      "fecha": "2026-10-30",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida programada del 30/10/2026 00:30: frenó la primera (Fiplasto, venta del campo de Timbúes, un solo documento) y pasó la segunda (tractores importados vs nacionales, INDEC + ACARA + BCRA). Lista no probada: empresas: Loma Negra cancelación parcial de la ON Clase 5 por US$6.919.639 integrados en especie en la Clase 7 (HR 27/10; ya cubierta la Clase 7 el 20/10), Banco Macro recompra hasta $160.000 M (HR CNV 28/10; infobae, La Nación; rutina), Central Puerto recompras diarias, Banco Comafi aviso de pago de Cedear MRVL y Banco del Sol informe de comisión fiscalizadora (rutina), IRSA tipo de cambio del dividendo, Caja de Valores dividendo; pregunta de plata: boleto de las líneas nacionales con más subsidios desde el 01/11 (infobae, Clarín, TN, iProfesional; ya cubierto 11/10, 17/10 y 26/10, resolución pendiente), precio de los toros reproductores +60% a $9,8 M (Clarín; remates privados), bono de jubilados 15,7% del haber mínimo (Clarín; ángulo publicado el 20/07), tríplex de Ricardo Fort (ámbito; sin dato oficial del inmueble), cosecha de uva segunda peor de la década (Clarín; INV, versiones que no cierran), Superclásico: multa de River (sin reglamento con monto); portadas: Mercado Pago licencia bancaria (infobae, La Nación, iProfesional; sin documento público), oro del BCRA (cubierto 14/10), mora de las familias bajó en septiembre (infobae, ámbito, Clarín; descartada por repetida el 25/10), Fondo de Asistencia Laboral $8 billones (Cronista; proyección), comercio ilegal 5% del PIB (La Nación; una consultora), RIGI y Trump US$30.000 M (frenadas/ sin documento); calendario: balance cambiario, inclusión financiera y pagos minoristas BCRA y dotación APN INDEC (30/10, todavía sin publicar a las 00:30).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-30",
+      "estado": "descartada",
+      "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }

@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-29",
-  "pregunta": "En noviembre la ANSES paga $93.035 por nacimiento, y según el INDEC criar a un bebé de menos de un año costó $570.832 en septiembre. ¿Qué parte de un mes de crianza cubre la asignación?",
+  "fecha": "2026-10-30",
+  "pregunta": "Julio y agosto de 2026 promediaron 149,8 puntos en el EMAE desestacionalizado, y el segundo trimestre promedió 154,1. Si septiembre volviera exactamente al nivel de junio (154,1), ¿el tercer trimestre quedaría por encima o por debajo del segundo?",
   "opciones": [
-    "Cerca del 16%",
-    "Cerca del 61%",
-    "Alcanza para unos seis meses"
+    "Por debajo: cae cerca de 2%",
+    "Empata: si septiembre vuelve a 154,1, el trimestre también",
+    "Por encima, porque septiembre crecería casi 3% en un mes"
   ],
   "correcta": 0,
-  "explicacion": "Para saber qué parte cubre, se divide lo que se cobra por lo que cuesta: 93.035 ÷ 570.832 = 0,163, o sea 16,3% de un mes. El 61% sale de correr mal la coma. Y los 'seis meses' invierten la cuenta: 570.832 ÷ 93.035 = 6,1 dice que un mes de crianza cuesta seis veces la asignación, no que la asignación alcance para seis meses. Es un pago único: la ANSES lo paga una sola vez por cada hijo que nace.",
-  "nota": "articulos/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.html",
-  "leccion": "lecciones/inflacion-bolsillo.html"
+  "explicacion": "Un trimestre se compara por el promedio de sus tres meses, no por cómo termina. Con julio en 149,8, agosto en 149,9 y septiembre en 154,1, el promedio da 151,3, casi 2% menos que 154,1 (con la planilla completa del INDEC, 1,9%). Que septiembre crezca mucho en un mes no borra lo que se perdió en julio y agosto: para empatar, septiembre tendría que llegar a 162,7, un salto de 8,6%. Por eso un mes malo pesa en todo el trimestre aunque después haya rebote.",
+  "nota": "articulos/2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6.html",
+  "leccion": ""
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-29T22:55:36-03:00",
+    "actualizado": "2026-10-30T00:46:43-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-30-tractores-importados-nacionales-caen-37",
+      "titulo": "Los tractores importados ya son 28% de las ventas y los nacionales cayeron 37% en el semestre",
+      "bajada": "El mercado de tractores se achicó y la caída la pusieron los fabricados en el país. En el primer semestre de 2026 se vendieron 1.721 tractores nacionales, 37,2% menos que un año antes, mientras los importados subieron 28,1%, a 683, según el INDEC. Con eso pasaron de 16,3% a 28,4% del total. Los patentamientos que publica ACARA muestran el mismo giro: las marcas nuevas más que duplicaron sus unidades y Pauny, la fábrica cordobesa que en dos semanas de octubre acumuló 153 cheques rechazados, patentó 28% menos tractores.",
+      "titulo_busqueda": "¿Cuántos tractores importados se venden en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−37,2%",
+      "numero_label": "tractores nacionales vendidos en el primer semestre de 2026 contra el de 2025 (INDEC)",
+      "fecha": "2026-10-30",
+      "hora": "00:30",
+      "archivo": "articulos/2026-10-30-tractores-importados-nacionales-caen-37.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6",
       "titulo": "La actividad tendría que crecer 8,6% en septiembre para que el tercer trimestre no caiga: pasó una sola vez desde 2004",

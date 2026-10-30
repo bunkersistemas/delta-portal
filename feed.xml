@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 29 Oct 2026 22:55:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 00:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los tractores importados ya son 28% de las ventas y los nacionales cayeron 37% en el semestre</title>
+      <link>https://coninteres.com/articulos/2026-10-30-tractores-importados-nacionales-caen-37.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-tractores-importados-nacionales-caen-37.html</guid>
+      <pubDate>Fri, 30 Oct 2026 00:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El mercado de tractores se achicó y la caída la pusieron los fabricados en el país. En el primer semestre de 2026 se vendieron 1.721 tractores nacionales, 37,2% menos que un año antes, mientras los importados subieron 28,1%, a 683, según el INDEC. Con eso pasaron de 16,3% a 28,4% del total. Los patentamientos que publica ACARA muestran el mismo giro: las marcas nuevas más que duplicaron sus unidades y Pauny, la fábrica cordobesa que en dos semanas de octubre acumuló 153 cheques rechazados, patentó 28% menos tractores.</description>
+      <ci:numero>−37,2%</ci:numero>
+      <ci:numeroEtiqueta>tractores nacionales vendidos en el primer semestre de 2026 contra el de 2025 (INDEC)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-tractores-importados-nacionales-caen-37.png" length="61695" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-tractores-importados-nacionales-caen-37.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La actividad tendría que crecer 8,6% en septiembre para que el tercer trimestre no caiga: pasó una sola vez desde 2004</title>
       <link>https://coninteres.com/articulos/2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>módulo de cuatro horas de policía adicional de la PFA, desde noviembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-policia-adicional-pfa-cuanto-cuesta-noviembre.png" length="70661" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-policia-adicional-pfa-cuanto-cuesta-noviembre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Entró 29% menos calzado importado que en 2025, y las fábricas argentinas también produjeron 25% menos</title>
-      <link>https://coninteres.com/articulos/2026-10-27-calzado-importado-cae-29-fabricas-producen-25-menos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-calzado-importado-cae-29-fabricas-producen-25-menos.html</guid>
-      <pubDate>Tue, 27 Oct 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y septiembre de 2026, la Argentina importó US$454 millones en calzado, 29,3% menos que en el mismo período de 2025, según el INDEC. Ese lugar no lo ganaron las fábricas del país: entre enero y agosto produjeron 24,8% menos que un año antes. Entre los grandes proveedores, el que más cayó fue Brasil, que despachó la mitad. Los fabricantes protestan hoy en Plaza de Mayo.</description>
-      <ci:numero>-29,3%</ci:numero>
-      <ci:numeroEtiqueta>importaciones de calzado (NCM capítulo 64), enero-septiembre de 2026 contra 2025: US$454,44 M contra US$643,09 M CIF (INDEC, base de importaciones; 2026 provisoria); kilos 22,70 M contra 30,14 M (-24,7%). Base cerrada con el cuadro 30 del ICA del 19/10/2026 (sección XII US$505,07 M, -27,28%). Contraste: MDIC Brasil, exportaciones de calzado a la Argentina US$158,6 M -&gt; 77,3 M FOB (-51,3%) contra INDEC 159,2 -&gt; 76,6 (-51,9%). Producción: IPI manufacturero calzado y sus partes, promedio ene-ago 96,6 contra 128,5 (-24,8%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-calzado-importado-cae-29-fabricas-producen-25-menos.png" length="90464" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-calzado-importado-cae-29-fabricas-producen-25-menos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

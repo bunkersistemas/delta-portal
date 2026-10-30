@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-29T22:30",
+  "generado": "2026-10-30T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -973,42 +973,6 @@
       "tipo": "hecho",
       "descripcion": "INFORMACIÓN SOCIETARIA - SUSCRIPCIÓN DE COMPROMISO PREVIO DE FUSIÓN",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/024FB450-E97E-45B0-B5DE-823DC296D675"
-    },
-    {
-      "id": "cnv-3574580",
-      "fuente": "CNV",
-      "fecha": "2026-09-29T19:16",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (29 09 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/0332A253-C06A-4F8C-84AF-183EDD30232F"
-    },
-    {
-      "id": "cnv-3574568",
-      "fuente": "CNV",
-      "fecha": "2026-09-29T18:20",
-      "entidad": "BANCO DE VALORES S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9247B55B-240F-4AD9-827F-67A34BA5251A"
-    },
-    {
-      "id": "cnv-3574504",
-      "fuente": "CNV",
-      "fecha": "2026-09-29T17:12",
-      "entidad": "BANCO DE VALORES S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - ACUERDO VALO-ROSVAL. CESION DE POSICIONES CONTRACTUALES CON AGENTES DE NEGOCIACIÓN",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9E2E405B-6E00-4AC4-9F25-B174934D760E"
-    },
-    {
-      "id": "cnv-3574410",
-      "fuente": "CNV",
-      "fecha": "2026-09-29T16:07",
-      "entidad": "MASTELLONE HERMANOS S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE DEL 29 DE SEPTIEMBRE DE 2026.-",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/BF037680-F741-4C59-BB94-7D8C408F030A"
     }
   ],
   "anuncios": [
@@ -1105,7 +1069,6 @@
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
-    "sec-0001292814-26-004732": "2026-09-29",
     "sec-0001292814-26-004750": "2026-09-30",
     "sec-0001292814-26-004758": "2026-10-01",
     "sec-0001292814-26-004834": "2026-10-02",
