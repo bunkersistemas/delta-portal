@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-30T05:03:42-03:00",
+    "actualizado": "2026-10-30T07:00:23-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-30-plazo-fijo-uva-vs-tradicional-2026",
+      "titulo": "El plazo fijo UVA subió 25,2% en nueve meses y el tradicional, 17,4%: la inflación fue 23,6%",
+      "bajada": "En los primeros nueve meses de 2026 el plazo fijo UVA le ganó a la inflación y el tradicional perdió contra ella. La razón no es una tasa generosa: la UVA sigue a los precios con atraso, y este año la inflación venía bajando. Un millón de pesos puesto a fines de diciembre valía a fines de septiembre unos $1.252.200 en UVA por el ajuste, más de lo que pedían los precios; en un plazo fijo tradicional renovado cada mes, unos $1.174.400. Aun así, de cada $100 que el sector privado tiene a plazo, menos de $2 están en UVA.",
+      "titulo_busqueda": "¿Cuánto rindió el plazo fijo UVA en 2026 contra el tradicional?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "25,2%",
+      "numero_label": "ajuste de la UVA entre el 31/12/2025 y el 30/09/2026 (BCRA), contra 17,4% del plazo fijo tradicional y 23,6% de inflación (INDEC)",
+      "fecha": "2026-10-30",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-30-plazo-fijo-uva-vs-tradicional-2026.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-10-30-billeteras-virtuales-seguro-depositos-mercado-pago",
       "titulo": "La plata en Mercado Pago y en las billeteras virtuales no tiene el seguro de hasta $50 millones que cubre los depósitos en un banco",
