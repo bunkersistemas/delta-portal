@@ -1,24 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-10-30T15:30:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-10-30-vedia-historia-personalidades-destacadas",
-      "titulo": "¿Cómo nació Vedia, en la provincia de Buenos Aires, y qué artistas y personalidades destacadas salieron de ahí?",
-      "titulo_busqueda": "Historia de Vedia (Buenos Aires): cómo nació y qué personajes famosos nacieron ahí",
-      "bajada": "Vedia creció alrededor de una estación de tren levantada en tierras que donó Joaquín Quinteros, y lleva el nombre del general Julio de Vedia. De ahí salieron Víctor Galíndez, campeón mundial de boxeo y miembro del Salón Internacional de la Fama, y Ricardo Ferrari, guionista de Nippur de Lagash. Y aun así no encontramos ninguna distinción provincial publicada que nombre a Vedia o a esas figuras. El partido del que es cabecera cumplió 108 años el 28 de octubre y entre 2010 y 2022 sumó apenas 467 habitantes: 2,8%, contra 12,2% de toda la provincia.",
-      "seccion": "ECONOMÍA PROVINCIAL",
-      "formato": "Investigación",
-      "numero": "+2,8%",
-      "numero_label": "crecimiento de la población del partido de Leandro N. Alem (cabecera: Vedia) entre los censos de 2010 (16.799) y 2022 (17.266), INDEC según la Dirección Provincial de Estadística (datos abiertos GBA), la Suprema Corte bonaerense (2022) y citypopulation.de; provincia +12,2% (15.625.084 -> 17.523.996); el menor de los 8 partidos de la sede Junín de la SCBA (Lincoln +8,8%, Rojas +9,4%, Gral. Arenales +9,7%, Gral. Pinto +14,9%, Junín +14,9%, F. Ameghino +21,7%, Gral. Viamonte +25,3%). Historia: Ley 13.721 (BO 20/09/2007, estación; fundamentos: tierras donadas por Joaquín Quinteros, nombre del general Julio de Vedia, primer tren 15/02/1886, Res. HCD 306/06); Ley 15.451 (BO 09/05/2023, Escuela N.º 1 Banbury Perkins, 1938); partido 1918, aniversario 28/10 (despacho D-316/22-23). Fundación: 23/05/1885 celebrada (prensa), 1913 (Wikipedia en inglés, sin fuente), ninguna en documento oficial. Personas con dos fuentes: Víctor Galíndez (campeón mundial AMB 1974-78 y 1979, Salón Internacional de la Fama 2002), Ricardo Ferrari (guionista, Salón de la Fama Cinder), Agustín García Basso (futbolista). Sin distinción provincial que nombre a Vedia en el compendio de la HCD (mayo 2026); municipio sin boletines en SIBOM. Población de Vedia como localidad: no confirmada.",
-      "fecha": "2026-10-30",
-      "hora": "15:30",
-      "archivo": "cola/2026-10-30-vedia-historia-personalidades-destacadas.html",
-      "verificacion": "verificada",
-      "fuentes": 17,
-      "lectura": "30 seg → 8 min",
-      "pedido": 113,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }

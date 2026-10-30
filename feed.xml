@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 13:10:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 14:53:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Cómo nació Vedia, en la provincia de Buenos Aires, y qué artistas y personalidades destacadas salieron de ahí?</title>
+      <link>https://coninteres.com/articulos/2026-10-30-vedia-historia-personalidades-destacadas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-vedia-historia-personalidades-destacadas.html</guid>
+      <pubDate>Fri, 30 Oct 2026 15:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Vedia creció alrededor de una estación de tren levantada en tierras que donó Joaquín Quinteros, y lleva el nombre del general Julio de Vedia. De ahí salieron Víctor Galíndez, campeón mundial de boxeo y miembro del Salón Internacional de la Fama, y Ricardo Ferrari, guionista de Nippur de Lagash. Y aun así no encontramos ninguna distinción provincial publicada que nombre a Vedia o a esas figuras. El partido del que es cabecera cumplió 108 años el 28 de octubre y entre 2010 y 2022 sumó apenas 467 habitantes: 2,8%, contra 12,2% de toda la provincia.</description>
+      <ci:numero>+2,8%</ci:numero>
+      <ci:numeroEtiqueta>crecimiento de la población del partido de Leandro N. Alem (cabecera: Vedia) entre los censos de 2010 (16.799) y 2022 (17.266), INDEC según la Dirección Provincial de Estadística (datos abiertos GBA), la Suprema Corte bonaerense (2022) y citypopulation.de; provincia +12,2% (15.625.084 -&gt; 17.523.996); el menor de los 8 partidos de la sede Junín de la SCBA (Lincoln +8,8%, Rojas +9,4%, Gral. Arenales +9,7%, Gral. Pinto +14,9%, Junín +14,9%, F. Ameghino +21,7%, Gral. Viamonte +25,3%). Historia: Ley 13.721 (BO 20/09/2007, estación; fundamentos: tierras donadas por Joaquín Quinteros, nombre del general Julio de Vedia, primer tren 15/02/1886, Res. HCD 306/06); Ley 15.451 (BO 09/05/2023, Escuela N.º 1 Banbury Perkins, 1938); partido 1918, aniversario 28/10 (despacho D-316/22-23). Fundación: 23/05/1885 celebrada (prensa), 1913 (Wikipedia en inglés, sin fuente), ninguna en documento oficial. Personas con dos fuentes: Víctor Galíndez (campeón mundial AMB 1974-78 y 1979, Salón Internacional de la Fama 2002), Ricardo Ferrari (guionista, Salón de la Fama Cinder), Agustín García Basso (futbolista). Sin distinción provincial que nombre a Vedia en el compendio de la HCD (mayo 2026); municipio sin boletines en SIBOM. Población de Vedia como localidad: no confirmada.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-vedia-historia-personalidades-destacadas.png" length="79772" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-vedia-historia-personalidades-destacadas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Tesoro ya le giró a FADEA $21.475 millones este año, 44,6% más de lo que la fábrica de aviones preveía recibir en todo 2026</title>
       <link>https://coninteres.com/articulos/2026-10-30-fadea-tesoro-giro-mas-que-el-plan-con-menos-empleados.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>personas del anexo I de la Res. SND 3695/2026 (BO 28/10/2026, IF-2026-103572421-APN-DNGYAA#MS, 590 págs.) para las que queda sin efecto la restitución de la pensión por invalidez de la Res. ANDIS 13.901/25: conteo propio de filas, 21.812 documentos distintos; 21.630 (99,2%) con acto de suspensión de jun-ago 2025; 1,93% de las 1.131.784 pensiones por invalidez pagadas en sep-2026 (BESS cuadro 3.1); contraste de escala: Infobae 28/10 'más de 20 mil registros', BESS suspendidas 2025 44.347 promedio y sep-26 5.030</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-pensiones-invalidez-21812-suspendidas-otra-vez.png" length="84230" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-pensiones-invalidez-21812-suspendidas-otra-vez.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El cargo fijo del gas se duplica en la Patagonia con la nueva Zona Fría: en Neuquén pasa de $3.432 a $6.865 por mes</title>
-      <link>https://coninteres.com/articulos/2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica.html</guid>
-      <pubDate>Wed, 28 Oct 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La ley 27.828 dejó a la Patagonia con el mismo 50% de descuento de la Zona Fría, pero los cuadros tarifarios que el ente regulador del gas publicó hoy muestran que ese 50% ya no alcanza al cargo fijo. En las nueve subzonas de Camuzzi Gas del Sur, el cargo fijo de todas las categorías residenciales pasa a la tarifa plena: el doble que en octubre. El descuento queda solo sobre el precio del gas, y por eso el metro cúbico casi no baja. Con 100 m³ en un mes, la factura sin impuestos de un hogar de la categoría más baja sube 25,9% en Neuquén y 48,9% en Tierra del Fuego.</description>
-      <ci:numero>+100%</ci:numero>
-      <ci:numeroEtiqueta>suba del cargo fijo mensual del gas residencial en las nueve subzonas de Camuzzi Gas del Sur con los cuadros de la ley 27.828 (Res. ENReGE 822/2026, BO 28/10/2026) contra el cuadro "Diferenciales 50%" de octubre (ENReGE, tarifas-gn-20261001.xlsx): 81 de 81 cargos fijos iguales a la tarifa plena, que no cambió; Neuquén R1 $3.432,42 -&gt; $6.864,84, Tierra del Fuego R1 $8.357,76 -&gt; $16.715,52</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica.png" length="82611" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-zona-fria-patagonia-cargo-fijo-gas-se-duplica.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
