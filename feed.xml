@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 02:55:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 05:03:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La plata en Mercado Pago y en las billeteras virtuales no tiene el seguro de hasta $50 millones que cubre los depósitos en un banco</title>
+      <link>https://coninteres.com/articulos/2026-10-30-billeteras-virtuales-seguro-depositos-mercado-pago.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-billeteras-virtuales-seguro-depositos-mercado-pago.html</guid>
+      <pubDate>Fri, 30 Oct 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Mucha gente usa la billetera virtual como si fuera una cuenta bancaria, pero la plata que deja ahí no tiene la garantía de hasta $50 millones por persona que cubre, desde abril, a un depósito en un banco si la entidad cae. Lo dice la propia norma del Banco Central, que obliga a las billeteras a avisar que sus fondos no son depósitos. En julio sumaban $9,8 billones, y nueve de cada diez de esos pesos estaban en fondos de dinero, que tampoco son depósitos.</description>
+      <ci:numero>$50 millones</ci:numero>
+      <ci:numeroEtiqueta>tope por persona de la garantía de los depósitos bancarios desde el 01/04/2026 (BCRA, Com. A 8407); no alcanza a las billeteras virtuales</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-billeteras-virtuales-seguro-depositos-mercado-pago.png" length="72386" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-billeteras-virtuales-seguro-depositos-mercado-pago.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La luz de Edenor sube 5,7% en noviembre para los hogares con subsidio y 2,9% para los que no lo tienen</title>
       <link>https://coninteres.com/articulos/2026-10-30-luz-edenor-edesur-noviembre-subsidio.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>precio promedio CIF por tonelada de los fertilizantes importados (NCM capítulo 31), enero-septiembre de 2026 contra 2025: US$657,1 contra US$556,8 (+18,0%) = US$1.595,34 M / 2.427.715 t contra US$1.498,08 M / 2.690.725 t (INDEC, base de importaciones; 2026 provisoria). Valor igual al cuadro 30 del ICA del 19/10/2026 (31-Abonos US$1.595,34 M, +6,49%); urea 3102.10.10 US$413,95 M (+5,2%, cuadro 32), 535,2 contra 448,6 US$/t (+19,3%). Contraste: Banco Mundial Pink Sheet, promedio ene-sep urea f.o.b. Medio Oriente 430,6 -&gt; 543,4 (+26,2%), DAP f.o.b. Golfo EE.UU. 681,4 -&gt; 728,7 (+6,9%); urea FOB importada 2026 US$484,1/t contra WB ponderado por toneladas mensuales US$483,5</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-fertilizantes-importados-tonelada-18-mas-cara.png" length="93315" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-fertilizantes-importados-tonelada-18-mas-cara.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Sumadas la Nación y las provincias, el Estado argentino cerró 2025 con un rojo de $1,33 billones: el FMI lo cuenta como déficit de 0,2% del PIB</title>
-      <link>https://coninteres.com/articulos/2026-10-27-nacion-provincias-deficit-2025-fmi-superavit.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-nacion-provincias-deficit-2025-fmi-superavit.html</guid>
-      <pubDate>Tue, 27 Oct 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El superávit de la Nación no alcanzó a cubrir el rojo de las provincias. La Nación terminó 2025 con un superávit financiero de $1,45 billones; las 23 provincias con datos sumaron un déficit de $2,78 billones. Juntas dan −$1,33 billones, 0,16% del PIB, y el FMI, que mide al gobierno general, llega a la misma conclusión: −0,2% para ese año. Para 2026 proyecta +0,4%: la Argentina queda como una de las 15 economías grandes del mundo con superávit, y la única de América Latina.</description>
-      <ci:numero>−$1,33 billones</ci:numero>
-      <ci:numeroEtiqueta>resultado financiero de 2025 de la Nación y las 23 provincias con datos, sumados</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-nacion-provincias-deficit-2025-fmi-superavit.png" length="74824" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-nacion-provincias-deficit-2025-fmi-superavit.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
