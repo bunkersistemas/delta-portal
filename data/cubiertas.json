@@ -6610,6 +6610,20 @@
       "fecha": "2026-10-30",
       "estado": "publicada",
       "articulo_id": "2026-10-30-vedia-historia-personalidades-destacadas"
+    },
+    {
+      "tema": "cuántos dólares compraron los argentinos en septiembre de 2026 (calendario: BCRA Informe de Evolución del Mercado de Cambios y Balance Cambiario, 30/10/2026; serie mensual propia jul/ago) / personas humanas, billetes sin fines específicos: neto USD 2.471 M (anexo: 2.896,0 brutas - 425,0 ventas = 2.470,9), 1,6 M compradores, 758 mil vendedores; ago 2.463,5 (+0,3%); sep-25 4.505,7 (-45,2%); ene-sep 2026 20.015,5; abr-25 a sep-26 42.805,0; promedio bruto por comprador ~US$1.810 (1.755-1.868) vs ago ~1.680 (1.630-1.729); destinos estimados BCRA ~2.400: 800 tarjetas / 800 depósitos / 800 activos externos (ago 900/1.100/700); contraste depósitos USD privados (API var. 108) 40.888 (31/08) -> 41.896 (30/09) +1.008; BCRA compró 474 (var. 78: 473,5; ene-sep 14.580,9); reservas -2.167 a 46.092; agro 3.313; A3500 1.509,47 -> 1.517,52",
+      "angulo": "el monto casi igual a agosto, pero con menos compradores que pusieron más cada uno (rangos de redondeo que no se tocan) y menos de lo comprado quedando en bancos; el acumulado del año pasa los US$20.000 M; la mitad que septiembre de 2025",
+      "fecha": "2026-10-30",
+      "estado": "publicada",
+      "articulo_id": "2026-10-30-dolares-personas-humanas-septiembre"
+    },
+    {
+      "tema": "descartes de la corrida programada del 30/10/2026 16:30: frenaron la primera (impuesto a los combustibles por litro tras el Decreto 1305/2026, BO 30/10, que vuelve a postergar al 1/12 el remanente: el decreto solo cambia fechas y el monto vigente por litro exige reconstruir la cadena de 15 decretos desde el 617/2025 con incrementos parciales sobre montos ARCA, sin segunda fuente que lo publique), la segunda (EMPRESAS Molinos compra Grupo Ayudín, HR y acta de directorio 2353 del 28/10 en CNV: no informan precio ni ninguna cifra) y la tercera (EMPRESAS Ternium Argentina 9M26: solo la carta Art. 63 del 30/10, ganancia atribuible $511.671 M y PN $7.524.420 M, sin estados financieros ni comparativo; el 6-K de Ternium S.A. del 3T26 todavía no está en la SEC); pasó la cuarta (balance cambiario de septiembre del BCRA). Lista no probada: INDEC dotación APN de septiembre (16:00, serie cubierta 30/09 con agosto), PAMI tope del subsidio social de noviembre, visita del papa León XIV (descartada 25/09 y 28/09), represas de Santa Cruz Res. SOP 274/2026 (un solo documento), Banco Macro recompra hasta $160.000 M, Pluspetrol fusión, Binance hackeo (sin dato argentino), Plantium cierre (sin fuente primaria), nuevas jubilaciones -43% (frenada 28/10). Portadas: clarin.com y tn.com.ar no se pudieron leer con WebFetch; cupo EMPRESAS ya cubierto por YPF Luz (30/10 08:30); pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-30",
+      "estado": "descartada",
+      "motivo_descarte": "combustibles: monto por litro no reconstruible con fuente doble; Molinos-Ayudín: sin precio; Ternium: sin EEFF ni comparativo"
     }
   ]
 }

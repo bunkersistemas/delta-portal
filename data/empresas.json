@@ -1,11 +1,38 @@
 {
-  "generado": "2026-10-30T12:30",
+  "generado": "2026-10-30T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3586869",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T15:47",
+      "entidad": "B-GAMING SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - INFORMA ALCANCE DE CONTROL: HABIÉNDOSE LIQUIDADO EN EL DÍA DE LA FECHA LA OFERTA PÚBLICA DE ADQUISICIÓN VOLUNTARIA Y DE CANJE VOLUNTARIO SOBRE LAS ACCIONES DE BOLDT S.A., PROMOVIDA POR EL SR. ANTONIO",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B8FD44C6-D3B0-47E0-97E7-6F76E1CF21B9"
+    },
+    {
+      "id": "cnv-3586724",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T13:05",
+      "entidad": "TERNIUM ARGENTINA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - INFORMACIÓN RELEVANTE - CUMPLIMIENTO ART. 72 LEY 26.831 CONTRATO CON PARTE RELACIONADA.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7465F8C3-0DD3-4BD9-B929-045EBEADC248"
+    },
+    {
+      "id": "cnv-3586729",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T13:03",
+      "entidad": "TERNIUM ARGENTINA S.A",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - INFORMACIÓN RELEVANTE - CUMPLIMIENTO ART. 63 REGLAMENTO LISTADO BYMA RESULTADOS DEL TRIMESTRE AL 30 DE SEPTIEMBRE DE 2026.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/56CF5D04-8758-4DC7-AAA3-5D4DEA207948"
+    },
     {
       "id": "cnv-3586648",
       "fuente": "CNV",

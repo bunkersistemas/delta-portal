@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-30T14:53:27-03:00",
+    "actualizado": "2026-10-30T16:57:37-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-30-dolares-personas-humanas-septiembre",
+      "titulo": "Los argentinos compraron US$2.471 millones en dólar billete en septiembre y ya pasaron los US$20.000 millones en 2026",
+      "bajada": "Septiembre se pareció a agosto en el total, pero no en la forma. Según el informe cambiario que el Banco Central publicó hoy, compraron billetes menos personas, 1,6 millones contra 1,7 millones, y cada una puso en promedio más: unos US$1.810, contra unos US$1.680. En nueve meses, la compra neta de las personas suma US$20.015 millones.",
+      "titulo_busqueda": "¿Cuántos dólares compraron los argentinos en septiembre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$2.471 M",
+      "numero_label": "compra neta de dólar billete de las personas humanas en septiembre de 2026 (BCRA)",
+      "fecha": "2026-10-30",
+      "hora": "16:30",
+      "archivo": "articulos/2026-10-30-dolares-personas-humanas-septiembre.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 10 min"
+    },
     {
       "id": "2026-10-30-vedia-historia-personalidades-destacadas",
       "titulo": "¿Cómo nació Vedia, en la provincia de Buenos Aires, y qué artistas y personalidades destacadas salieron de ahí?",
