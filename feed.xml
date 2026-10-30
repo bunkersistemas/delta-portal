@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 08:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 30 Oct 2026 11:01:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los viajes en colectivo cayeron 11,2% en un año en el AMBA: 15,9% en las líneas bonaerenses y 6,9% en las nacionales, las del boleto más barato</title>
+      <link>https://coninteres.com/articulos/2026-10-30-colectivo-amba-viajes-caen-11-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-colectivo-amba-viajes-caen-11-por-ciento.html</guid>
+      <pubDate>Fri, 30 Oct 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El colectivo del AMBA perdió en un año 26,2 millones de viajes, y la caída se concentró donde el boleto es más caro. En septiembre se hicieron 206,9 millones de viajes con la SUBE, según los datos abiertos de SUBE. De cada 100 viajes perdidos, 73 fueron de líneas provinciales y municipales del conurbano, donde el boleto mínimo costaba $1.164,47. En las nacionales, que cobraban $742,81 y a las que el Gobierno decidió no subirles el boleto en noviembre, la caída fue de 6,9%.</description>
+      <ci:numero>−11,2%</ci:numero>
+      <ci:numeroEtiqueta>caída de los viajes en colectivo con SUBE en el AMBA, sep-25 a sep-26: 233.057.558 -&gt; 206.897.112 usos (Secretaría de Transporte, datos abiertos 'SUBE - Cantidad de transacciones (usos) por fecha', suma propia por línea y día, campo AMBA=SI, TIPO_TRANSPORTE=COLECTIVO). Contraste independiente: AAETA Índice Bondi sep-26, 200,9 M vs 225.379.000 (-10,88%). Por jurisdicción: municipales -17,30%, provinciales -14,88%, nacionales -6,93%, Ciudad -3,42%; prov+muni -15,87% = 19,1 de los 26,2 M perdidos (73%). BCRA Pagos Minoristas sep-26: SUBE julio 292,7 M (-15,1%), misma dirección.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-colectivo-amba-viajes-caen-11-por-ciento.png" length="88173" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-colectivo-amba-viajes-caen-11-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>YPF Luz facturó 88,5% más con menos energía vendida: ahora compra su propio combustible y casi la mitad de lo que cobra se va en eso</title>
       <link>https://coninteres.com/articulos/2026-10-30-ypf-luz-ingresos-combustible-nueve-meses.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>deuda de la administración central con el BID al 30/09/2026 según la Secretaría de Finanzas (boletín mensual, hoja A.1: 18.628,2; recalculada desde los flujos de la hoja A.4 a jun-26: 18.809,2 vs 18.806,0 publicado); contraste del acreedor: BID ante la SEC, cartera con garantía soberana en la Argentina US$18.683 M al 30/06/2026, la mayor por país (Brasil 15.514)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-deuda-bid-18628-millones-mayor-deudor.png" length="92469" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-deuda-bid-18628-millones-mayor-deudor.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los bancos tienen 408 sucursales menos que a fines de 2023, y 253 de esas bajas son de Galicia y Macro, que absorbieron a HSBC e Itaú</title>
-      <link>https://coninteres.com/articulos/2026-10-27-bancos-408-sucursales-menos-galicia-macro.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-27-bancos-408-sucursales-menos-galicia-macro.html</guid>
-      <pubDate>Tue, 27 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre diciembre de 2023 y julio de 2026 los bancos pasaron de 4.322 a 3.914 sucursales, según el Banco Central. Seis de cada diez de esas bajas están en dos bancos, Galicia y Macro, que compraron y absorbieron a HSBC e Itaú. Pero el ajuste no termina en esas dos fusiones: el resto de los bancos también achicó su red, a junio el sistema tenía 11.781 empleados menos y la Ciudad de Buenos Aires perdió casi una de cada cinco sucursales.</description>
-      <ci:numero>408</ci:numero>
-      <ci:numeroEtiqueta>sucursales plenas menos de los bancos entre diciembre de 2023 (4.322) y julio de 2026 (3.914), -9,4% (BCRA, Información de Entidades Financieras, cuadro 'Bancos - Localización en el país'). Recalculado: suma de los cuadros por entidad = 3.944 y 4.414 del sistema; bancos 3.914 y 4.322. Contraste: BBVA 243 (20-F 2023) -&gt; 223 (2T26, SEC) y Supervielle 137 (20-F 2023) -&gt; 117 (2T26, SEC), iguales al BCRA. Galicia + ex HSBC 402 -&gt; 271 (-131), Macro + ex Itaú 519 -&gt; 397 (-122): 253 de 408 (62,0%); resto 3.401 -&gt; 3.246 (-155, -4,6%). CABA 725 -&gt; 590 (-18,6%), PBA 1.384 -&gt; 1.286 (-7,1%), resto 2.213 -&gt; 2.038 (-7,9%). Empleados de los bancos dic-23 97.488 -&gt; jun-26 85.707 (-11.781, -12,1%), mínimo desde por lo menos 2015 (105.779); contraste SIPA servicios financieros privados 151.763 -&gt; 143.064 (-8.699, -5,7%) contra bancos privados BCRA 58.513 -&gt; 50.561 (-7.952, -13,6%). Cajeros 18.497 -&gt; 17.677 (-820, -4,4%). Dic-2019: 4.530 sucursales.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-27-bancos-408-sucursales-menos-galicia-macro.png" length="87361" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-27-bancos-408-sucursales-menos-galicia-macro.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

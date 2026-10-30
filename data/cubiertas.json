@@ -6575,6 +6575,20 @@
       "fecha": "2026-10-30",
       "estado": "descartada",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "¿cuánta gente dejó de viajar en colectivo en el AMBA? (pregunta de plata detrás de 'el Gobierno dará más subsidios a las 104 líneas nacionales para no subir el boleto en noviembre': infobae, Clarín, El Cronista, iProfesional, TN 29-30/10/2026) / Secretaría de Transporte, datos abiertos de usos de SUBE por línea y día: colectivos AMBA sep-26 206.897.112 vs sep-25 233.057.558 (-11,22%, -26.160.446); municipales -17,30%, provinciales -14,88%, nacionales -6,93%, Ciudad -3,42%; sep-23 264.979.449 (-21,92%), sep-24 245.718.174 (-15,80%); ene-sep -11,29%; resto del país -8,05%; contraste AAETA Índice Bondi sep-26 -10,88% (200,9 M vs 225.379.000); boleto mínimo sep-26: provincial $1.164,47, Ciudad $887,99, nacional $742,81",
+      "angulo": "Corrida programada del 30/10/2026 10:30, primera candidata probada (APTA). Ángulo nuevo frente a las notas de colectivos del 30/09, 11/10, 17/10 (boleto porteño y subsidio del Tesoro) y 26/10 (boleto bonaerense): ninguna midió pasajeros. El dato agregado de AMBA (-11%) ya lo había publicado Tiempo Argentino el 14/10 desde la AAETA; lo propio es el corte por jurisdicción desde la serie cruda oficial (las líneas bonaerenses, con el boleto más caro, explican 73% de los viajes perdidos) y la serie 2023-2026.",
+      "fecha": "2026-10-30",
+      "estado": "publicada",
+      "articulo_id": "2026-10-30-colectivo-amba-viajes-caen-11-por-ciento"
+    },
+    {
+      "tema": "descartes de la corrida programada del 30/10/2026 10:30: no se probaron porque pasó la primera candidata (viajes en colectivo del AMBA por jurisdicción, datos abiertos de SUBE + AAETA + BCRA). Lista no probada: calendario: balance cambiario de septiembre del BCRA (PDF 2026-09 todavía 404 a las 10:30), dotación APN del INDEC (16:00), inclusión financiera BCRA; pagos minoristas de septiembre (BCRA, publicado hoy: transferencias 791,6 M +21,9%, tarjetas de crédito -18,1% con cambio de metodología desde ago-26, cheques rechazados 1,7% sin cambios: ángulos cubiertos o con serie rota); empresas (cupo cubierto por YPF Luz 30/10): Banco Macro recompra (programa sin compras), Banco Comafi HR 30/10 (pantalla de la CNV sin contenido, rutina), Central Puerto recompras diarias, Molinos-Ayudín sin precio, Fiplasto (frenada 00:30); pregunta de plata: devolución de $9.377 M de ARCA a Enrique Piñeyro por Bienes Personales (infobae, La Nación; fallo no localizado), multa de $50 M de la AFA a Estudiantes (Clarín; solo boletín AFA), 25 días de clase perdidos en la Provincia (Clarín; sin cifra de plata nueva, sueldo docente cubierto), RIMI/régimen de medianas inversiones aprobado en el Senado (texto no publicado), mercado de carbono (sin montos), Binance (sin dato argentino); portadas: subsidio a colectivos (usado como gancho), Ganancias sexta prórroga (RG 5918, sin cifra), oro del BCRA (cubierto 14/10), Mercado Pago banco (publicada 30/10), mora de las familias (repetida), RIGI (frenada 29/10). clarin.com y tn.com.ar leídos con curl; pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-30",
+      "estado": "descartada",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }

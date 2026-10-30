@@ -1,11 +1,20 @@
 {
-  "generado": "2026-10-30T08:30",
+  "generado": "2026-10-30T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3586624",
+      "fuente": "CNV",
+      "fecha": "2026-10-30T10:18",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/72336B00-3EA4-44F1-9D82-6223B5B46D9D"
+    },
     {
       "id": "cnv-3586530",
       "fuente": "CNV",
@@ -1092,6 +1101,7 @@
     "sec-0001292814-26-005008": "2026-10-26",
     "sec-0001292814-26-005026": "2026-10-28",
     "sec-0001292814-26-005042": "2026-10-29",
+    "sec-0001292814-26-005068": "2026-10-30",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002070": "2026-10-05",
     "sec-0001554855-26-002088": "2026-10-09",
