@@ -6521,6 +6521,20 @@
       "fecha": "2026-10-30",
       "estado": "descartada",
       "motivo_descarte": "no probadas: la segunda candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "¿cuánto aumenta la luz en noviembre de 2026? (pregunta de plata detrás de los cuadros tarifarios del ENREGE publicados en el BO del 30/10/2026; la nota del 01/10 de luz de octubre se había descartado porque no se encontraron los cuadros, que sí estaban: Res. ENREGE BO 01/10 avisos 348321/348322) / Edenor R2 nov-26: fijo $3.989,51 (oct $3.866,44, +3,18% = CPD), variable sin subsidio $164,279 (oct $159,788, +2,81%), con subsidio $65,754 (oct $61,743, +6,50%); descuento por kWh $98,045 -> $98,525 (+0,49%). Factura 200 kWh sin impuestos: sin subsidio $35.824,04 -> $36.845,31 (+2,85%), con subsidio $16.215,04 -> $17.140,31 (+5,71%). Edesur: +2,63% y +5,31% (CPD +3,12%). A/a sin subsidio 200 kWh (nov-25 Nivel 1, BO 03/11/2025): Edenor +47,85%, Edesur +45,70% vs IPC sep/sep 33,4%. SE 305/2026 PEE residencial resto $86.474 -> $86.528/MWh (+0,06%; SE 222/2026); no residencial +5,6%; T1-G1 Edenor +5,2%. SE 304/2026: bloque Resto nov 200 kWh (Res. 300 lo dejaba en 150) y extraordinaria 25% (igual que oct, Res. 272); contrafáctico 150 kWh: $22.066,56 (+$4.926,25, +28,7%).",
+      "angulo": "Corrida programada del 30/10/2026 02:30, primera candidata probada (APTA). Ángulo propio: el descuento del SEF es un monto en pesos por kWh atado al precio mayorista, que casi no se movió; el aumento de distribución (fórmula 67% IPIM + 33% IPC) cae casi entero sobre la parte que paga el hogar con subsidio, y en porcentaje le sube el doble. Camino: documento oficial (anexos BO 30/10) + documentos anteriores (BO 01/10/2026 y 03/11/2025) + recálculo (facturas; CPD 0,67x3,16+0,33x1,93=2,754% y x1,0042 = 3,18%, igual al cargo fijo) + contraste (PEE de las Res. SE 222 y 305; IPC e IPIM del INDEC). Retoma lo que la nota del 27/10 (zonas cálidas) dejaba abierto: cuánto vale en pesos el kWh con descuento de noviembre.",
+      "fecha": "2026-10-30",
+      "estado": "publicada",
+      "articulo_id": "2026-10-30-luz-edenor-edesur-noviembre-subsidio"
+    },
+    {
+      "tema": "descartes de la corrida programada del 30/10/2026 02:30: no se probaron porque pasó la primera candidata (aumento de la luz de noviembre, Edenor y Edesur, BO 30/10). Lista no probada: empresas: YPF Luz resultados 3T26 (HR CNV 27/10; ya descartada el 27/10), Banco Macro recompra hasta $160.000 M (HR CNV 28/10; infobae, La Nación, rutina), Central Puerto recompras diarias (cubierto 18/10), Loma Negra HR 27/10 (ON Clase 5, cubierta la Clase 7), IRSA tipo de cambio del dividendo (cubierto 23/10); pregunta de plata: gas de noviembre (ENREGE, mismo BO 30/10, serie cubierta el 01/10 y 28/10), impuesto a los combustibles postergado otra vez al 01/12 (Decreto 1305/2026, BO 30/10; el decreto no trae montos, descartada ya el 01/10), subsidio extra a los colectivos (infobae, iProfesional, Clarín, TN; resolución no publicada), bono de $70.000 a jubilados (TN, iProfesional; ángulo publicado el 20/07), terreno del Estado en Tigre (La Nación; sin pliego ni tasación a la vista), Banco Provincia: 36% de los asalariados sin saldo el día 10 (Clarín; una sola fuente), Ganancias: sexta prórroga de la DDJJ (RG ARCA 5918/2026, BO 30/10; sin cifra); portadas: Mercado Pago licencia bancaria (sin documento público), oro del BCRA (cubierto 14/10), mora de las familias (descartada por repetida), contrabando US$2.300 M (una consultora), pymes industriales 14 trimestres en caída (encuesta), RIGI US$210.000 M (frenado 29/10); calendario: balance cambiario BCRA, inclusión financiera, pagos minoristas y dotación APN del INDEC (30/10, sin publicar a las 02:30).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-30",
+      "estado": "descartada",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }
