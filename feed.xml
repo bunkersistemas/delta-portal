@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 14:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 17:01:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina le vendió a China 335.671 toneladas de carne en nueve meses, dos tercios de su cupo de 2026: 8% menos que en 2025, pero cobró 14% más</title>
+      <link>https://coninteres.com/articulos/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.html</guid>
+      <pubDate>Sat, 31 Oct 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre enero y septiembre la Argentina le embarcó a China 335.671 toneladas de carne vacuna, según el INDEC: 8,0% menos que un año antes. Pero cobró US$1.543 millones, 13,8% más, porque cada tonelada se pagó 23,6% más cara. Y usó el 65,7% del cupo de 511.000 toneladas que China le fijó para 2026, por encima del cual se paga 55% de arancel extra. Brasil y Australia ya agotaron sus cupos; la Argentina, no.</description>
+      <ci:numero>335.671 t</ci:numero>
+      <ci:numeroEtiqueta>toneladas de carne vacuna fresca y congelada (NCM 0201+0202) exportadas a China en enero-septiembre de 2026, 65,7% del cupo de 511.000 t. INDEC exports_2026_M.zip (idéntico al publicado el 31/10/2026, md5 37225c1e) recalculado: 335.671.208 kg y US$1.543.329.493 FOB (ene-sep 2025: 364.779.939 kg y US$1.356.768.279; -7,98% t, +13,75% US$, US$/t 3.719 -&gt; 4.598, +23,6%). Cupo: MOFCOM anuncio 87/2025, anexo 2 (Argentina 51,1/52,1/53,2 万吨 2026-2028; 55% los tres años; sin traslado de saldo). Contraste independiente: Aduana de China vía Rosgan/BCR (210.857 t al 31/05, 239.500 t 1S, 343.825 t a sep = +2,4% vs INDEC, desfase de tránsito; INDEC nov25-may26 248.530 t) y aviso MOFCOM n.º 7 (50% el 05/08/2026). Rosgan embarques ene-sep 336.150 t (+0,1%). Camino: estadística oficial recalculada + contraste.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.png" length="89633" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La bajada de bandera del taxi porteño pasa de $1.920 a $2.550 tras dos años congelada: sube 32,8%, menos de la mitad que la inflación</title>
       <link>https://coninteres.com/articulos/2026-10-31-taxi-porteno-bajada-de-bandera-noviembre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>sueldo básico de un maestro de grado de Corrientes, jornada simple, junio de 2026 (último dato oficial): CECE/Ministerio de Capital Humano, planilla Sueldo básico act. 04/08/2026, provisorio ($232.690,425); bruto MG10 $1.468.200 (Informe indicativo jun-26, p. 17 y anexo p. 35); básico/bruto 15,8% (informe: 16%). Recalculo: mar-26 $211.536,75 x 1,10 = $232.690,43 (informe: básico +10% en el trimestre); dic-25 $199.536,75 -&gt; mar-26 +$12.000,00 (6,0%). Contraste independiente: SUTECO, 6% = 'unos 12 mil pesos' al básico (Perfil 09/03/2026) y '10% anunciado' decretado en junio (Perfil 01/06/2026). Real con IPC NEA INDEC: jun-25/jun-26 -4,0% (básico +31,1%, IPC +36,5%), jun-23/jun-26 -30,0% (x4,697 vs x6,712); bruto +56,8% (+14,9% real), bolsillo $1.143.495 +46,7% (+7,5% real; 2.º del país tras Santiago del Estero 116,3%). Bruto 7.º de 24; participación del básico 6.ª más baja (promedio 24,5%). MG0 jun-26 $1.351.855 (MG10 +9%).</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-sueldo-basico-maestro-corrientes.png" length="89599" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-sueldo-basico-maestro-corrientes.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina importó 4.274 toneladas de cotillón y artículos de fiesta en 2025, el doble que en 2024: 99 de cada 100 kilos llegan de China</title>
-      <link>https://coninteres.com/articulos/2026-10-29-cotillon-halloween-importado-china.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-cotillon-halloween-importado-china.html</guid>
-      <pubDate>Thu, 29 Oct 2026 05:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En 2025 la Argentina importó 4.274 toneladas de artículos de fiesta, según el INDEC: 2,2 veces lo de 2024 y la mayor cantidad en una serie que empieza en 2002. En esa partida de aduana entran las calabazas, las telarañas y las máscaras de Halloween, junto con el cotillón de cumpleaños y el de carnaval. Entre enero y septiembre de 2026 ya entraron 3.445, 18% más que un año antes y más que en cualquier año completo anterior a 2025. China mandó 99 de cada 100 kilos.</description>
-      <ci:numero>4.274 t</ci:numero>
-      <ci:numeroEtiqueta>toneladas de artículos para fiestas, carnaval u otras diversiones (NCM 9505.90, excepto Navidad) importadas en 2025 según la base de comercio exterior del INDEC (4.274.015 kg; 2024: 1.962.153 kg, x2,18; máximo previo 2022: 2.949.774 kg). Ene-sep 2026: 3.445.191 kg (+17,8% contra 2.924.040). China 98,9% de los kilos en 2025 y 99,3% en 2026. Contraste: UN Comtrade, China declaró 2.733.525 kg exportados a la Argentina en 2025 contra 1.225.122 en 2024 (+123%; INDEC origen China +117%), misma dirección en las siete variaciones 2018-2025, con brecha de nivel estable (41%-69% de los kilos del INDEC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-cotillon-halloween-importado-china.png" length="84303" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-cotillon-halloween-importado-china.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

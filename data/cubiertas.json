@@ -6829,6 +6829,37 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la tercera candidata"
+    },
+    {
+      "tema": "¿cuánto cobra un empleado de concesionaria en noviembre de 2026? (pregunta de plata detrás de ámbito 31/10/2026 'Paritarias en concesionarias: Smata acordó un aumento trimestral del 5,06%', CCT 499/23)",
+      "angulo": "Corrida programada del 31/10/2026 16:30, primera candidata probada. FRENADA: no hay acta SMATA-ACARA de octubre-diciembre publicada (ni ACARA, ni SMATA, ni Boletín Oficial, ni homologación); los básicos que da el medio (vendedor $1.073.088,67 oct-nov) no cierran con la escala de agosto-septiembre que otros medios informaron ($1.301.741 a $2.093.800). Retomable con el acta o la homologación.",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin acta ni homologación publicada; básicos del medio inconsistentes con la escala anterior"
+    },
+    {
+      "tema": "Ternium Argentina, resultados 9M26 (EMPRESAS, carta Art. 63 en la CNV del 30/10/2026: resultado del período atribuible $511.671 millones, patrimonio $7.524.420 millones)",
+      "angulo": "Corrida programada del 31/10/2026 16:30, segunda candidata probada (cupo de empresas ya cubierto hoy por Boldt). FRENADA: los estados financieros al 30/09/2026 todavía no están en la CNV (lista por CUIT 30516888241: solo Art. 62/63); sin comparativo homogéneo ni explicación de la empresa no hay Anatomía de un balance. Retomable cuando se presenten los EEFF (en el 2T llegaron cuatro días después de la carta).",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "sin estados financieros ni comparativo; solo la síntesis Art. 63"
+    },
+    {
+      "tema": "¿cuánta carne le puede vender la Argentina a China? (pregunta de plata detrás de Infobae Revista Chacra 31/10/2026 'Cuotas chinas: la carne argentina enfrenta un nuevo tablero comercial para 2027', Agrofy 28/10 con Rosgan, y del agotamiento del cupo de Brasil el 29/09) / INDEC exportaciones 0201+0202 a China ene-sep 2026: 335.671 t (-8,0%), US$1.543,3 M (+13,8%), US$4.598/t (+23,6%); 65,7% del cupo de 511.000 t (MOFCOM anuncio 87/2025, anexo 2; 2027 521.000, 2028 532.000; 55% adicional los tres años); Aduana china vía Rosgan 343.825 t a sep (67%, saldo 167.175, 55.725 t/mes para completarlo); MOFCOM aviso 7: 50% el 05/08; EE.UU. 29.067 -> 83.124 t; China 69,9% -> 61,1% del volumen; serie anual 2017-2025 (2023 542.707, 2024 572.186, 2025 497.820)",
+      "angulo": "Corrida programada del 31/10/2026 16:30, tercera candidata probada; APTA. Pregunta de plata con documento oficial chino que los medios no citan (anexo 2) y que desmiente el '45% en 2027' que circuló. Camino estadística oficial recalculada: INDEC base comex (recalculado de los zips) + contraste Aduana de China (Rosgan/BCR, desfase de tránsito explicado) + aviso oficial MOFCOM. Superlativo: mes más alto de embarques a China desde 2017 = mayo 2023, 56.133 t (serie propia 2017-2026). NO afirmado: que la Argentina no complete el cupo (atribuido a Rosgan); Australia en junio atribuido a Rosgan/BCR 26/06. Descartados SAGyP tablero de exportación (universo distinto: precio China 5.561 US$/t no reproducible) y Comtrade (China no reporta mensual 2026).",
+      "fecha": "2026-10-31",
+      "estado": "publicada",
+      "articulo_id": "2026-10-31-carne-china-cupo-dos-tercios-nueve-meses"
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 16:30: frenaron la primera (sueldo de concesionarias SMATA, sin acta) y la segunda (Ternium Argentina 9M26, sin EEFF), se salteó por repetida la dotación de empleados de empresas del Estado (infobae 31/10 '23.400 personas', publicada 30/09 con el mismo ángulo por entidad) y pasó la tercera (cupo chino de carne). Lista no probada: empresas: Banco Macro, recompra de hasta $160.000 M y 20 M de acciones a $10.700 máx. (HR CNV 28/10; primer día 30/10: 503.318 acciones a $9.956,20, $5.011 M) -> retomable, documento primario completo; YPF RIGI norte de Vaca Muerta US$8.729 M (iProfesional, Infobae, El Cronista; sin resolución publicada); portadas: compras del BCRA de octubre US$1.395 M (infobae, La Nación, iProfesional); Binance hackeo US$6.300 M (sin documento argentino); Plantium-Gentec despidos (sin documento); patentamientos de octubre (sin estadística oficial); pregunta de plata: cuánto cuesta la pelota del superclásico (sin documento oficial), multas por alcohol al volante en PBA (unidad fija sin documento).",
+      "angulo": "Registro de la corrida. Clarín y TN se leyeron por RSS y HTML directo (WebFetch bloqueado).",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la tercera candidata"
     }
   ]
 }
