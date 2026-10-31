@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 01:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 02:41:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Antonio Tabanelli se quedó con el 93% de Boldt, la empresa de bplay: pagó cada acción 60% más que su promedio en la Bolsa y su hermana pasó a controlar B-Gaming</title>
+      <link>https://coninteres.com/articulos/2026-10-31-boldt-tabanelli-opa-93-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-boldt-tabanelli-opa-93-por-ciento.html</guid>
+      <pubDate>Sat, 31 Oct 2026 03:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Boldt, la empresa de casinos y del juego online bplay, dejó de tener dos dueños parejos. Antonio Tabanelli terminó de comprarle a su hermana Rosana su mitad, otros 230 accionistas se sumaron, y quedó con el 93,08% de Boldt; Rosana, con el 93,03% de B-Gaming. Pagó $70 por acción, 60% más que el promedio de la Bolsa en el semestre previo al anuncio: en dólares a quienes eligieron efectivo y con acciones de B-Gaming a quienes eligieron canje.</description>
+      <ci:numero>93,08%</ci:numero>
+      <ci:numeroEtiqueta>participación de Antonio Eduardo Tabanelli en Boldt S.A. tras liquidarse su OPA voluntaria y de canje el 30/10/2026: 2.293.880.938 de 2.464.483.243 acciones = 93,0776% (HR Boldt CNV 30/10/2026, cifras finales de Caja de Valores). Recálculo: 1.131.357.737 previas (45,9065%, prospecto 08/10) + 353.315.110 compradas en efectivo a $70 (US$0,044871794872 por acción a $1.560 BNA según aviso; $24.732 M, US$15,85 M) + 809.208.091 canjeadas por 157.345.993 acciones de B-Gaming (relación 0,194444444 = 70/360; canje sobresuscripto 812.765.837, prorrateo 0,99562271). Aviso de resultados 26/10: 231 aceptantes (229 personas humanas, 2 jurídicas, ningún institucional). Contraste de otro emisor: HR B-Gaming 30/10, Rosana Tabanelli recibió 156.657.274 acciones y quedó con 316.292.668 = 93,0273% de 340.000.000. Rosana tenía 46,3624% de Boldt y aceptó (HR 15/10). Precio $70 vs promedio semestre previo al anuncio del 13/08 $43,775 (+59,9%), cotización 06/10 $49,92, promedio semestre al 30/10 $52,73; MAP Capital Latam (encargado por el oferente): Boldt US$115,2 M por DCF = $70,59/acción (rango 64,84-77,61), EV/EBITDA $70,32; B-Gaming US$81,1 M (75,4-87,8) = $360/acción a $1.510. Patrimonio controlante 31/07/2026 $52.279,8 M = $21,21/acción. 9M a jul-26 (moneda homogénea): ventas 140.467 M (+5,0%), resultado operativo 3.314 M (-73%), neto controladora 4.177 M vs -4.322 M. OPA obligatoria pendiente por 170.602.305 acciones (6,92%); piso art. 88 LMC = mayor entre $70 y $52,73. Camino: documentos de tres partes (oferente, Boldt, B-Gaming) + recálculo.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-boldt-tabanelli-opa-93-por-ciento.png" length="104430" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-boldt-tabanelli-opa-93-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La ART cuesta 3,16% de los sueldos, un nivel que no se veía desde 2017, y casi el doble a quien tiene un solo empleado</title>
       <link>https://coninteres.com/articulos/2026-10-31-cuanto-cuesta-la-art-de-un-empleado.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>gasto corriente de la Administración Nacional en combustibles y lubricantes en 2025 (partida 2.5.6, clasificación económica 2.1.2.2, devengado): $101.295,72 M según la Cuenta de Inversión 2025 Tomo I (CGN) y la suma propia de Presupuesto Abierto crédito anual y mensual 2025; 2024 $105.362,72 M (Cuenta de Inversión 2024 = Presupuesto Abierto); -3,9% nominal y -32,3% real (IPC nacional promedio anual, $ ago-26: 204.743 -&gt; 138.697, el menor desde 2020: 133.859); contraste INDEC IPC GBA combustibles y lubricantes para vehículos +30,3% promedio 2025; Defensa 57.846,41 (57,1%) + Seguridad 22.469,65 (22,2%); ene-sep 2026 $82.075,22 M vs $63.483,03 M (+29,3%), combustibles sep/sep +46,2%; Res. MDYTE 116/2026 (BO 28/10/2026) adjudica el acuerdo marco 999-0002-LPU26 a YPF y PAE</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-estado-gasto-combustible-101296-millones.png" length="81564" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-estado-gasto-combustible-101296-millones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Laboratorios Richmond vendió $8.103 millones en remedios oncológicos en el tercer trimestre: 24% más que un año antes, descontada la inflación</title>
-      <link>https://coninteres.com/articulos/2026-10-28-richmond-ventas-oncologicos-tercer-trimestre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-richmond-ventas-oncologicos-tercer-trimestre.html</guid>
-      <pubDate>Wed, 28 Oct 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Entre julio y septiembre de 2026, Laboratorios Richmond vendió $8.103 millones de nueve medicamentos, casi todos oncológicos: 65,4% más que un año antes y 24,1% más descontada la inflación, el trimestre más alto en términos reales desde 2022. El dato no sale de un balance, sino de una declaración jurada ante la Comisión Nacional de Valores. La empresa la presenta porque de esas ventas depende un bono que emitió en 2020: ya les devolvió el 98% del capital a los que le prestaron, y aun así de cada $100 que vende, $11,66 son para ellos.</description>
-      <ci:numero>$8.103 M</ci:numero>
-      <ci:numeroEtiqueta>ventas computables de Laboratorios Richmond entre el 01/07 y el 30/09/2026 (capecitabina, dasatinib, trifluridina+tipiracilo, abiraterona, imatinib, cladribina, bevacizumab, pazopanib y cabozantinib): $8.103.280.763 = 2.422.603.292 (jul) + 3.944.113.298 (ago) + 1.736.564.173 (sep). Declaración jurada del 26/10/2026 con certificación contable de Becher y Asociados S.R.L. (BDO), hecho relevante CNV del 28/10/2026 (ON Serie III). Camino: documento de la empresa ante el regulador + certificación de contador independiente (cotejo con Libro IVA Ventas) + recálculo de la suma + serie coherente: en los 9 trimestres con aviso de pago (n.º 15 a 23) las ventas en pesos del aviso son idénticas a las de la certificación y la fórmula del suplemento (0,000154% x 75.738,23 = 11,6637%) reproduce los ingresos netos con diferencia &lt; 0,0002%. 3T-2025: $4.900.148.149,22 (+65,4%). Real con IPC nacional INDEC mes a mes a $ de sep-26 (12.514,1508): 8.267 M contra 6.660 M (+24,1%); máximo desde 1T-2022 (las 5 certificaciones 4T-2020 a 4T-2021 son escaneadas): anterior 4T-2024 7.998 M (+3,4%). Bono: VN US$7.573.823 (13/11/2020, 5%, vence 13/11/2030), residual US$151.476,46 (2%) desde el pago 20 (nov-25, amortización 29,2078%); pagos 21-23 en US$: 424.453,96 + 354.088,68 + 413.296,55 = 1.191.839,19.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-richmond-ventas-oncologicos-tercer-trimestre.png" length="87861" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-richmond-ventas-oncologicos-tercer-trimestre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

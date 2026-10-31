@@ -6679,6 +6679,20 @@
       "fecha": "2026-10-31",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿quién es el dueño de Boldt y cuánto pagó? (EMPRESAS, OPA voluntaria y de canje de Antonio Tabanelli sobre Boldt, liquidada el 30/10/2026; HR Boldt 26/10 y 30/10, HR B-Gaming 30/10, prospecto 08/10, informes MAP 08/09) / Antonio queda con 93,08% de Boldt (45,91% antes), Rosana con 93,03% de B-Gaming; $70 por acción (+59,9% vs promedio $43,775 del semestre previo al anuncio), 353,3 M acciones en efectivo (US$15,85 M) y 809,2 M por canje (157,3 M de B-Gaming a $360); OPA obligatoria pendiente por el 6,92%",
+      "angulo": "Corrida programada del 31/10/2026 02:30, primera candidata (cupo EMPRESAS: HOY NO HAY NOTA DE EMPRESAS). Borrador cola/2026-10-31-boldt-tabanelli-opa-93-por-ciento.html. Camino: documentos de tres partes (oferente, Boldt, B-Gaming) que cierran entre sí + recálculo de la tenencia.",
+      "fecha": "2026-10-31",
+      "estado": "en_cola",
+      "motivo_descarte": ""
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 02:30: no se probaron porque pasó la primera candidata (OPA de Antonio Tabanelli sobre Boldt, EMPRESAS). Lista no probada: empresas: Ternium Argentina 9M26 (sigue siendo solo la carta Art. 63), Banco Comafi prospecto de 6 CEDEAR de ETFs (sin cifra de negocio), Agroindustrias La Española aviso de ON (sin resultado de colocación), Banco del Sol informe de comisión fiscalizadora (sin cifras), Molinos-Ayudín (frenada 28/10, precio no informado); pregunta de plata: muertos y costo de los siniestros viales (Página12 30/10 «El costo humano y material del desastre vial»; ANSV + DEIS, no probada, buena para retomar), cuánto cobran los petroleros de Vaca Muerta (infobae; publicada 25/09), precio de la pelota del Superclásico (ámbito; sin fuente oficial), nuevas jubilaciones -43% (iProfesional; frenada 28/10 sin contraste), Piñeyro y la donación al Garrahan (Cronista; fallo no localizado); calendario: comercio exterior ICA 3T y EPH (03 y 04/11, todavía no publicados); portadas: riesgo país 790-800 (infobae, La Nación, ámbito, Página12; publicada 29/10), compras del BCRA en octubre US$1.395 M (La Nación, iProfesional; sin contraste), dólar ahorro de septiembre (La Nación, ámbito, iProfesional, infobae; publicada 30/10), YPF RIGI norte US$8.729 M (infobae, iProfesional, Cronista; solicitud sin resolución), hackeo a Binance (sin dato argentino), aumentos de noviembre (publicados). clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json ya era de hoy.",
+      "angulo": "",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }
