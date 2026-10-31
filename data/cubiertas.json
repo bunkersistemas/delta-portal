@@ -6797,6 +6797,38 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánto sale el taxi en la Ciudad en noviembre de 2026? (pregunta de plata detrás de Página12 31/10/2026 'Noviembre arranca con aumentos en el transporte' e iProfesional 11/09 'La Ciudad prepara fuerte suba en los taxis') / Decreto 373/26 (BO CABA 7485, 30/10/2026): bajada de bandera diurna $1.920 -> $2.550 (+32,8%) desde 01/11/2026, ficha $192 -> $255; $3.100 desde 01/02/2027; tarifa anterior vigente desde 01/11/2024 (Decreto 278/24): IPC INDEC oct-24/sep-26 +71,1%, IPCBA +73,7%",
+      "angulo": "Corrida programada del 31/10/2026 14:30, tercera candidata probada (APTA). Ángulo: la tarifa del taxi estuvo congelada dos años exactos (01/11/2024-31/10/2026) mientras el colectivo, el subte y los peajes suben por fórmula mensual; la suba de 32,8% es menos de la mitad de la inflación del período y ni el paso de febrero ($3.100) llega a los $3.285 que empatarían. Hallazgo propio: el decreto salió en el BO del 30/10 y no estaba en las portadas. Verificación: documento oficial (anexo imagen, recalculado) + contraste independiente del Ente regulador para la tarifa anterior; inflación recalculada de la serie INDEC + contraste IPCBA.",
+      "fecha": "2026-10-31",
+      "estado": "publicada",
+      "articulo_id": "2026-10-31-taxi-porteno-bajada-de-bandera-noviembre",
+      "motivo_descarte": ""
+    },
+    {
+      "tema": "¿cuánto cuesta el peaje de las autopistas porteñas (AUSA) en noviembre de 2026? (Página12 31/10/2026 'Noviembre arranca con aumentos en el transporte': autopistas más caras) / Decreto 84/26 CABA (BO 27/02/2026), Anexo I: cuadro desde 01/03/2026 (25 de Mayo livianos no pico $3.982,45, pico $5.643,78) + actualización mensual 2% + IPC nacional de dos meses antes por doce meses; Ente regulador: $4.610,98 / $6.534,52 'vigencia desde 01/08/2026'; ausa.com.ar/telepase/tarifas sin fecha: $4.787,85 / $6.785,16; prensa para noviembre $4.974,59 / $7.049,78",
+      "angulo": "Corrida programada del 31/10/2026 14:30, primera candidata probada. FRENADA: el cuadro de noviembre no tiene documento oficial (las actualizaciones mensuales no se publican en el BO; AUSA las publica en su sitio sin fecha de vigencia) y los valores publicados no siguen la fórmula del Decreto 84/26: aplicada mes a mes desde marzo daría $5.376 en octubre para la 25 de Mayo no pico, contra $4.787,85 en el sitio de AUSA (+20,2% desde marzo contra ~+35% de la fórmula). Ningún documento explica la diferencia. Retomable si aparece una resolución con los cuadros mensuales o una explicación de AUSA.",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla sin documento oficial y valores publicados que no cierran con la fórmula del Decreto 84/26"
+    },
+    {
+      "tema": "¿es cierto que el BCRA lleva 723 días sin emitir pesos para el Tesoro? (frase atribuida a Bausili, Clarín 30-31/10/2026, en la lista no probada de las corridas anteriores)",
+      "angulo": "Corrida programada del 31/10/2026 14:30, segunda candidata probada. FRENADA: no se encontró el registro on-the-record de la frase (ni comunicado ni transcripción del BCRA) y clarin.com no se puede leer; sin la cita enlazable no hay chequeo posible (§2 bis, regla 5). Retomable con la fuente de la frase y la serie de factores de explicación de la base monetaria del BCRA.",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cita sin registro oficial enlazable"
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 14:30: frenaron la primera (peaje AUSA de noviembre, sin documento y fuera de la fórmula del Decreto 84/26) y la segunda (Bausili '723 días sin emitir', cita sin registro) y pasó la tercera (taxi porteño, Decreto 373/26, hallazgo del BO CABA del 30/10). Lista no probada: pregunta de plata: cuánto se cobra si se trabaja el feriado del papa del 9/11 (Decreto 1103/2026; LCT art. 166, el valor del día para mensualizados se divide distinto según el criterio), subte de noviembre (sin resolución de SBASE en los BO del 29 y 30/10), fiscalización de la pesca (Página12 30/10: 64 inspectores para 7.400 mareas; informe de una sola fuente sin identificar), bioetanol (Clarín 30/10; precio mínimo de octubre caña $1.083,222 y maíz $992,806, sin pregunta de plata fuerte), papamóvil de industria argentina (Clarín 31/10, sin precio); empresas (cupo cubierto hoy por Boldt): Ternium Argentina 9M26 (solo carta Art. 63 en formulario), Banco Macro recompra (sin pregunta de plata), Banco Comafi (prospecto de 6 Cedears de ETF y aviso de pago MRVL), Banco del Sol (informe de comisión fiscalizadora sobre libros digitales), Loma Negra (cancelación parcial de la ON Clase 5), Pluspetrol fusión (sin cifras), Molinos-Ayudín (precio no informado); portadas: riesgo país 790 (publicada 29/10), compras del BCRA de octubre US$1.395 M (sin contraste), dólar ahorro y cuenta corriente de septiembre (publicada 30/10), patentamientos de octubre (sin estadística oficial del mes), Binance (sin dato argentino), YPF RIGI norte (solicitud sin resolución), despidos de Plantium-Gentec (sin documento), CATL (sin cifras; litio publicado 03/10); calendario: comercio exterior ICA 3T y EPH (03 y 04/11, no publicados). clarin.com y tn.com.ar no se pudieron leer con WebFetch; se leyeron por RSS y curl. pregunta.json ya era de hoy.",
+      "angulo": "",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la tercera candidata"
     }
   ]
 }
