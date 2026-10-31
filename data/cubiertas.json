@@ -6693,6 +6693,22 @@
       "fecha": "2026-10-31",
       "estado": "descartada",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánto gasta el Estado en ciencia? (pregunta de plata detrás de La Nación 30/10/2026 'Renunció el subsecretario de Ciencia y Tecnología con una carta explosiva contra la jefa del área') / función Ciencia, Tecnología e Innovación (3.5) de la Administración Nacional, devengado ene-sep (Presupuesto Abierto, crédito mensual, 2026 act. 28/10/2026): 2026 $1.364.263,4 M nominal; en $ de sep-26 (IPC INDEC mes a mes) 2023 2.617.351,0 / 2024 1.771.279,2 / 2025 1.456.139,3 / 2026 1.469.520,3 = −43,9% vs 2023, +0,9% vs 2025; Agencia I+D+i −89,8%, CONICET −35,7%, INTI −48,7%, CNEA −38,3%, INTA −29,9%, Malbrán −29,8%, CONAE −26,1%; personal 52,4% -> 64,2% del gasto, transferencias −90,7%, becas CONICET −42,8%; porción del total APN 1,49% -> 1,18%",
+      "angulo": "Corrida programada del 31/10/2026 04:30, primera candidata probada (APTA). Ángulo propio: los medios cuentan la renuncia y la interna; nadie dice cuánto gasta hoy la Nación en ciencia con el dato de ejecución a septiembre (los informes del Grupo EPC citados en prensa llegan a junio). Camino: estadística oficial recalculada (sumas mensuales = base anual; deflactado mes a mes) + contraste Grupo EPC (anuales y por organismo coinciden; total 1S −2,7 vs +1,2 propio mostrado y no explicado, por eso no se afirma suba en 2026). No se usa la meta de la Ley 27.614 (texto no verificado en esta corrida). Distinto de salud mental (10/10) y universidades (30/09).",
+      "fecha": "2026-10-31",
+      "estado": "publicada",
+      "articulo_id": "2026-10-31-cuanto-gasta-el-estado-en-ciencia",
+      "archivo": "cola/2026-10-31-cuanto-gasta-el-estado-en-ciencia.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 04:30: no se probaron porque pasó la primera candidata (gasto en ciencia, Presupuesto Abierto + Grupo EPC). Lista no probada: pregunta de plata: impuesto a los combustibles de noviembre (Decreto 1305/2026, BO 30/10: vuelve a postergar al 01/12/2026 sin fijar montos por litro, mismo motivo que el freno del 01/10; TN), muertes en siniestros viales y su costo (ANSV preliminar 2025: 4.060 víctimas, ya muy difundido; Página12), cuánto cobra un investigador del CONICET (frenada 28/09, sin escala), visita del papa (descartada varias veces), Juegos Olímpicos de la Juventud Dakar 2026 (becas publicadas 25/09); empresas (cupo cubierto hoy por Boldt): Ternium Argentina 9M26 (solo carta Art. 63), Banco Macro recompra hasta $160.000 M (programa sin compras), Pluspetrol fusión (sin cifras), Molinos-Ayudín (precio no informado), YPF RIGI norte US$8.729 M (solicitud sin resolución); calendario: comercio exterior ICA 3T y EPH (03 y 04/11, no publicados); portadas: riesgo país 790 (publicada 29/10), compras del BCRA de octubre (sin contraste), dólar ahorro (publicada 30/10), tarifas de noviembre (publicadas), Binance (sin dato argentino), Res. SE 305/2026 programación estacional de verano (luz de noviembre publicada 30/10). clarin.com y tn.com.ar no se pudieron leer con WebFetch; se leyeron con curl.",
+      "angulo": "",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }

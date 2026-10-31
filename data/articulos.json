@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-31T02:41:32-03:00",
+    "actualizado": "2026-10-31T05:01:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-31-cuanto-gasta-el-estado-en-ciencia",
+      "titulo": "El Estado gastó en ciencia 43,9% menos que en 2023 entre enero y septiembre, y la agencia que financia los proyectos de investigación, 89,8% menos",
+      "bajada": "En nueve meses de 2026 la Nación gastó $1,36 billones en ciencia, tecnología e innovación: descontada la inflación, 43,9% menos que en 2023 y casi lo mismo que en 2025. El recorte de 2024 y 2025 no se revirtió. De cada $100 que gasta el Estado nacional, $1,18 van a ciencia; en 2023 eran $1,49.",
+      "titulo_busqueda": "¿Cuánto gasta el Estado en ciencia?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−43,9%",
+      "numero_label": "variación real del gasto devengado de la función Ciencia, Tecnología e Innovación (finalidad 3, función 5) de la Administración Nacional, enero-septiembre de 2026 contra enero-septiembre de 2023. Presupuesto Abierto, bases de crédito mensual 2023 (act. 30/06/2024) y 2026 (act. 28/10/2026): nominal $357.657,9 M y $1.364.263,4 M; cada mes a pesos de sep-26 con IPC nacional INDEC (sep-26 12.514,1508): $2.617.351,0 M y $1.469.520,3 M = 0,5615 (−43,85%). Sumas mensuales = base anual (2023 $577.409,1 M; 2026 al 28/10 $1.499.905,9 M). Apoyo: Agencia I+D+i 114.336,0 -> 11.700,8 (−89,8%); CONICET 885.045,0 -> 568.698,0 (−35,7%); 2024 −32,3% y 2025 −17,8% en ene-sep; 2026 vs 2025 +0,9%; años completos 2024 −31,4%, 2025 −15,9%; porción del gasto devengado total de la APN 1,491% -> 1,178% (total APN real −30,5%); personal −31,2% (52,4% -> 64,2% del gasto); transferencias −90,7%; becas CONICET −42,8%. Contraste Grupo EPC (El Diario y La Capital, 09/07/2026): 2024 −29,7%, 2025 −16,5%, 2023-2026 proyectado −46,5%; 1S-26 vs 1S-25 CONICET −7 (propio −7,2), Agencia −37,5 (−36,8), CONAE −41,8 (−41,8), INTI −7,1 (−7,2), CNEA −5,9 (−6,2), Agencia vs 2023 −88,6 (−87,5), personal 68,3% (68,3%); total 1S −2,7 contra +1,2 propio, diferencia mostrada en la nota y no explicada (corte de datos o deflactor), por eso no se afirma suba en 2026.",
+      "fecha": "2026-10-31",
+      "hora": "05:00",
+      "archivo": "articulos/2026-10-31-cuanto-gasta-el-estado-en-ciencia.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-31-boldt-tabanelli-opa-93-por-ciento",
       "titulo": "Antonio Tabanelli se quedó con el 93% de Boldt, la empresa de bplay: pagó cada acción 60% más que su promedio en la Bolsa y su hermana pasó a controlar B-Gaming",
