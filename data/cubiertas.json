@@ -6709,6 +6709,38 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánta coparticipación recibió cada provincia en octubre de 2026? (ámbito 30/10/2026 'Coparticipación: los envíos a las provincias repuntaron levemente en octubre, impulsados por Ganancias') / DNAP montos diarios internet_diario_oct26_25.xls: 24 jurisdicciones $7.286.987,6 M, +33,3% nominal vs oct-25 ($5.467.342,7 M); menores subas Buenos Aires +32,1% y Tucumán +32,3%, mayores Tierra del Fuego +34,4% y Santa Cruz +34,3% (coincide con el orden de Politikon/IARAF citado por ámbito)",
+      "angulo": "Corrida programada del 31/10/2026 06:30, primera candidata probada. FRENADA por repetida: la coparticipación por provincia y por habitante ya se publicó el 01/10/2026 (2026-10-01-coparticipacion-provincias-por-habitante) y octubre es solo la actualización mensual que ya dio ámbito; además el IPC de octubre recién sale el 12/11, así que la variación real sería estimada. Retomable con el IPC de octubre o con el acumulado anual si trae un ángulo propio.",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "repetida sin ángulo nuevo (publicada 01/10/2026); variación real de octubre aún sin IPC"
+    },
+    {
+      "tema": "¿está más barato Brasil después de la devaluación del real? (TN 31/10/2026 'La devaluación del real despierta el interés de los argentinos por Brasil'; infobae 'efecto Brasil')",
+      "angulo": "Corrida programada del 31/10/2026 06:30, segunda candidata. FRENADA por repetida: la nota del 26/10/2026 (2026-10-26-dolar-brasil-sube-9-por-ciento-lula-mas-barato-en-dolares) ya contesta cuánto se abarató Brasil en dólares tras la reelección de Lula, con titulo_busqueda '¿Está más barato Brasil después de la elección?', y la del 05/10 el tipo de cambio real bilateral. Sin dato nuevo de precios hasta el IPCA y el ITCRM de octubre.",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "repetida: publicada 26/10/2026 y 05/10/2026"
+    },
+    {
+      "tema": "¿cuánto le paga la Argentina al FMI de intereses? (pregunta de plata detrás de iProfesional 30/10/2026 'El FMI elogia a Caputo pero le cobra cada vez más caros los dólares', con estimaciones de Eco Go) / intereses pagados al FMI ene-sep 2026 US$2.352,6 M (Finanzas, boletín mensual 30/09/2026, cuadro A.5: feb 784,9, may 762,9, ago 804,8) = 1.714,75 M DEG de cargos pagados (FMI extrans1), US$1,3720/DEG dentro del rango del DEG en los meses de pago (1,3652-1,3807); deuda 41.968,67 M DEG = 1.316,75% de la cuota (3.187,3 M); 77,2% de la deuda sobre el umbral de 300% paga sobrecargo de 2 puntos (PR 24/385 y FAQ del FMI); tasa DEG 3,127% (26/10-01/11/2026); cuota de noviembre estimada 648,65 M DEG = US$882 M (Eco Go 880); 2026 estimado 2.363 M DEG, sobre el máximo de la serie desde 1984 (2024: 2.329,7 M DEG); 2027 proyectado 2.540,01 M DEG = US$3.454 M (Eco Go 3.457); intereses 2019-sep 2026 US$16.821,5 M",
+      "angulo": "Corrida programada del 31/10/2026 06:30, tercera candidata probada (APTA). Ángulo nuevo frente a la nota del 03/10 (stock y capital, que excluyó a propósito los intereses futuros) y a la del 24/09 (primera cuota de capital): cuánto cuesta la deuda, la cuota de noviembre y el sobrecargo. Camino: dos fuentes independientes que coinciden (deudor: Secretaría de Finanzas en dólares; acreedor: FMI en DEG, convertido con las cotizaciones oficiales del DEG). Estimaciones (noviembre, total 2026, 2027, peso del sobrecargo) marcadas como tales, con contraste de Eco Go vía iProfesional.",
+      "fecha": "2026-10-31",
+      "estado": "publicada",
+      "articulo_id": "2026-10-31-intereses-fmi-sobrecargo-77-por-ciento",
+      "archivo": "cola/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 06:30: frenaron las dos primeras (coparticipación de octubre por provincia, repetida del 01/10; Brasil más barato tras la devaluación del real, repetida del 26/10) y pasó la tercera (intereses al FMI). Lista no probada: pregunta de plata: exportaciones de carne vacuna récord en nueve meses (Clarín 30/10; el total de 9M ya salió en la nota del oro del 29/10), precio del bioetanol que lleva la nafta (Clarín 30/10, industria pide ley propia; resoluciones de la SE), muertes y costo de los siniestros viales (Página12 30/10; ANSV ya muy difundido), Piñeyro y la donación al Garrahan (Cronista; fallo no localizado), pelota del Superclásico (ámbito; sin fuente oficial); empresas (cupo cubierto hoy por Boldt): Celulosa Argentina, prórroga de la intervención de Forestadora Tapebicuá en su concurso preventivo (HR CNV 30/10, sin cifras), Tango Energy cambio de auditor PwC por Pistrelli (HR 30/10, sin cifras), Ternium Argentina 9M26 (solo carta Art. 63), Pluspetrol fusión (sin cifras), Molinos-Ayudín (precio no informado), Banco Macro recompra (programa sin compras); calendario: comercio exterior ICA 3T y EPH (03 y 04/11, no publicados); portadas: riesgo país 790-800 (infobae, La Nación, ámbito, Página12, Clarín, TN; publicada 29/10), compras del BCRA en octubre US$1.395 M (La Nación, iProfesional; sin contraste), dólar ahorro (publicada 30/10), YPF RIGI norte US$8.729 M (solicitud sin resolución), Binance (sin dato argentino), Bausili '723 días sin imprimir pesos' (Clarín; candidata para chequeo con la base monetaria del BCRA, no probada). clarin.com y tn.com.ar no se pudieron leer con WebFetch; se leyeron con curl. pregunta.json ya era de hoy.",
+      "angulo": "",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la tercera candidata"
     }
   ]
 }

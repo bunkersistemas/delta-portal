@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-31T05:01:49-03:00",
+    "actualizado": "2026-10-31T07:02:41-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-31-intereses-fmi-sobrecargo-77-por-ciento",
+      "titulo": "La Argentina le pagó al FMI US$2.353 millones de intereses en nueve meses, y por 77 de cada 100 dólares que debe paga dos puntos de sobrecargo",
+      "bajada": "En nueve meses, la Argentina le pagó al FMI más intereses que en cualquier año entero entre 2019 y 2022. Entre enero y septiembre de 2026 el Tesoro le giró al Fondo US$2.352,6 millones solo en intereses, según la Secretaría de Finanzas; el FMI anota lo mismo en su moneda: 1.714,75 millones de DEG. En noviembre vence otra cuota, que según la proyección del propio Fondo rondará los US$882 millones.",
+      "titulo_busqueda": "¿Cuánto le paga la Argentina al FMI de intereses? US$2.352,6 millones en nueve meses de 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$2.352,6 M",
+      "numero_label": "intereses pagados al FMI entre enero y septiembre de 2026 (Secretaría de Finanzas, boletín mensual, cuadro A.5); el FMI registra 1.714,75 millones de DEG de cargos cobrados, lo mismo a US$1,372 por DEG",
+      "fecha": "2026-10-31",
+      "hora": "06:30",
+      "archivo": "articulos/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-31-cuanto-gasta-el-estado-en-ciencia",
       "titulo": "El Estado gastó en ciencia 43,9% menos que en 2023 entre enero y septiembre, y la agencia que financia los proyectos de investigación, 89,8% menos",

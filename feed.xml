@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 05:01:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 07:02:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina le pagó al FMI US$2.353 millones de intereses en nueve meses, y por 77 de cada 100 dólares que debe paga dos puntos de sobrecargo</title>
+      <link>https://coninteres.com/articulos/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.html</guid>
+      <pubDate>Sat, 31 Oct 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En nueve meses, la Argentina le pagó al FMI más intereses que en cualquier año entero entre 2019 y 2022. Entre enero y septiembre de 2026 el Tesoro le giró al Fondo US$2.352,6 millones solo en intereses, según la Secretaría de Finanzas; el FMI anota lo mismo en su moneda: 1.714,75 millones de DEG. En noviembre vence otra cuota, que según la proyección del propio Fondo rondará los US$882 millones.</description>
+      <ci:numero>US$2.352,6 M</ci:numero>
+      <ci:numeroEtiqueta>intereses pagados al FMI entre enero y septiembre de 2026 (Secretaría de Finanzas, boletín mensual, cuadro A.5); el FMI registra 1.714,75 millones de DEG de cargos cobrados, lo mismo a US$1,372 por DEG</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.png" length="86944" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Estado gastó en ciencia 43,9% menos que en 2023 entre enero y septiembre, y la agencia que financia los proyectos de investigación, 89,8% menos</title>
       <link>https://coninteres.com/articulos/2026-10-31-cuanto-gasta-el-estado-en-ciencia.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>asignación por nacimiento de la ANSES desde noviembre de 2026, valor general, pago único (Res. ANSES 303/2026, BO 28/10/2026, anexo I; mismo monto en anexos II, IV, V y VII; el anexo VI de monotributistas no la incluye). Recálculo: oct-26 $91.273 (Res. 283/2026) x 1,0193 = 93.034,57, redondeo al peso siguiente (art. 3) = 93.035; $91.273 = sep-26 $89.782 (Res. 260/2026) x 1,0166. Contraste independiente: IPC nacional INDEC sep-26 12.514,1508 / ago-26 12.276,766 = +1,934%. Cobertura: 93.035 / canasta de crianza &lt;1 año sep-26 $570.832 (INDEC 16/10/2026) = 16,3%; mismo mes: sep-26 15,7%, sep-25 15,4% (67.079 / 436.988, Res. 297/2025), dic-23 12,2% (24.083 / 197.046, Res. 223/2023). Matrimonio $139.300, adopción $556.217. Camino: monto oficial recalculado con contraste.</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.png" length="94005" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>YPF ganó US$2.810 millones en nueve meses, después de perder US$150 millones en el mismo período de 2025: cobró 28% más por cada barril</title>
-      <link>https://coninteres.com/articulos/2026-10-28-ypf-ganancia-nueve-meses-2026.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-ypf-ganancia-nueve-meses-2026.html</guid>
-      <pubDate>Wed, 28 Oct 2026 19:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>En los primeros nueve meses de 2025, YPF había perdido US$150 millones. En los mismos nueve meses de 2026 ganó US$2.810 millones, según el informe de resultados que presentó el 28 de octubre ante la CNV y la SEC. Entre un período y otro, cobró 28% más por cada barril de petróleo, gastó 31% menos por barril para sacarlo de la tierra y no tuvo que importar nafta ni gasoil.</description>
-      <ci:numero>US$2.810 M</ci:numero>
-      <ci:numeroEtiqueta>resultado neto consolidado de YPF entre el 01/01 y el 30/09/2026, en US$ (moneda funcional), sin auditar: informe de resultados 3T26, hecho relevante CNV 28/10/2026 (2ba1fb27) y 6-K SEC 0001554855-26-002241. Trimestres: 1T26 409 (por diferencia), 2T26 1.205, 3T26 1.196. 9M25 (150) y 9M24 2.677 (informe 3T25, 6-K SEC 07/11/2025). Cruce con la carta art. 63 (CNV 18a8c0fa / 6-K 0001554855-26-002239): ganancia neta total $4.105.435 M (controlante 4.069.032 + minoritarios 36.403); recálculo con promedio trimestral A3500 BCRA (1.418,61 / 1.411,14 / 1.500,11) = $4.074.770 M (-0,75%). 9M25 en pesos: (181.638) M (art. 63, 07/11/2025). Contraste: precio realizado crudo 3T 60,0 -&gt; 81,4 (+35,6%) vs Brent EIA/FRED DCOILBRENTEU 69,03 -&gt; 96,30 (+39,5%) y Vista 84,2 (+30%). Apoyo: ingresos 13.892 -&gt; 18.077; lifting 12,1 -&gt; 8,4 US$/boe; importados 222 -&gt; 0 mil m3; precio neto local 648 -&gt; 836 US$/m3; ganancias (667) -&gt; (1.467); deuda neta 9.595 -&gt; 6.596. Camino: documentos de la empresa ante dos reguladores + recálculo en pesos + contraste independiente.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-ypf-ganancia-nueve-meses-2026.png" length="96448" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-ypf-ganancia-nueve-meses-2026.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
