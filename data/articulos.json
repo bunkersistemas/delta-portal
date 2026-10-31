@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-31T07:02:41-03:00",
+    "actualizado": "2026-10-31T09:07:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-31-gas-metrogas-noviembre-factura-1-8",
+      "titulo": "El gas de Metrogas sube 2,95% en el cargo fijo pero 1,2% en el metro cúbico: con 30 m³, la factura de noviembre aumenta 1,8%",
+      "bajada": "El 2,95% que circuló como \"el aumento\" del gas de noviembre es el del cargo fijo de Metrogas, no el de la factura. Desde el 1 de noviembre, un hogar sin subsidio paga $328,26 por metro cúbico, antes de impuestos: 1,2% más que en octubre. Como el metro cúbico pesa más en la factura, un hogar de la categoría más baja de la Ciudad que consume 30 m³ pasa de $14.263,89 a $14.516,35: 1,8% más. En un año, esa misma factura subió 46,9%.",
+      "titulo_busqueda": "¿Cuánto aumenta el gas en noviembre de 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,8%",
+      "numero_label": "suba de noviembre de la factura de gas de un hogar R1 sin subsidio de Metrogas en la Ciudad con 30 m3, sin impuestos: $14.263,89 -> $14.516,35 (+1,77%). ENREGE Res. 851/2026 (BO 30/10/2026, aviso 349838, anexo IF-2026-105105755): m3 $328,26 (oct $324,31, Res. 720/2026, +1,22%) = PIST 206,89 + DDA 4,03 + retenido 10,08 + transporte 107,26; cargo fijo R1 $4.668,55 (oct $4.534,59, +2,95%; conurbano 5.236,71 -> 5.391,41, +2,95%; todas las categorías +2,95%). Base de octubre confirmada al centavo con la planilla ENREGE tarifas-gn-20261001.xlsx. PIST recalculado: US$3,696/MMBTU (Res. SE 23/2026) x A3500 1-15/10 $1.518,52 / 27,10473 = $207,07 (0,09%). Contraste: Infobae 30/10 'Metrogas CABA 2,95%' = cargo fijo; el 3,65% del conurbano de los medios no aparece en el cuadro. Nov-25 (ENARGAS Res. 821/2025): m3 $217,96, CF R1 $3.344,38, factura 30 m3 $9.883,18 -> +46,9% contra IPC 33,4% a sep-26. SEF: 74,25% sobre PAU $206,89 (Res. SE 304/2026) -> m3 base $174,64 vs $171,41 (+1,9%), cálculo propio.",
+      "fecha": "2026-10-31",
+      "hora": "09:30",
+      "archivo": "articulos/2026-10-31-gas-metrogas-noviembre-factura-1-8.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-31-intereses-fmi-sobrecargo-77-por-ciento",
       "titulo": "La Argentina le pagó al FMI US$2.353 millones de intereses en nueve meses, y por 77 de cada 100 dólares que debe paga dos puntos de sobrecargo",

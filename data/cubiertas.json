@@ -6741,6 +6741,30 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la tercera candidata"
+    },
+    {
+      "tema": "¿cuánto cobra un petrolero en Vaca Muerta? (pregunta de plata detrás de infobae 31/10/2026 'Salarios en Vaca Muerta: cuánto cobran los petroleros y otros trabajadores de Neuquén') / OEDE-SIPA remuneraciones mensuales por provincia, rama 11 Neuquén mayo 2026 $8.794.703",
+      "angulo": "Corrida programada del 31/10/2026 08:30, primera candidata probada. FRENADA por repetida: la nota publicada el 25/09/2026 (2026-09-25-cuanto-cobra-petrolero-vaca-muerta) ya tiene la misma cifra ancla (rama 11 Neuquén, mayo 2026, $8.794.703, 2,1 veces el promedio provincial). La serie del OEDE no se actualizó desde entonces (último mes publicado: junio 2026, con aguinaldo). Se verificó igual: serie anual 2025 = promedio de los 12 meses exacto ($7.081.729); reconstrucción desde 4 dígitos 1110/1120 ponderada con el empleo del 1T26 a 0,02-0,11%; EPH 1T26 Neuquén-Plottier petróleo/total 1,9 veces. Ángulo posible para cuando salga julio 2026: operadoras $12,7 M vs servicios $7,9 M y empleo de la rama -4,9% interanual en el 1T26 (26.443 -> 25.154).",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "repetida: publicada 25/09/2026 con la misma cifra; sin dato nuevo del OEDE"
+    },
+    {
+      "tema": "¿cuánto aumenta el gas en noviembre de 2026? (pregunta de plata detrás de La Nación 30/10/2026 'Uno a uno, todos los aumentos que llegan en noviembre', Página12 'En AMBA... el gas, 3,65', infobae 30/10 'Metrogas CABA 2,95%, conurbano 3,65%, Naturgy 2,96%') / Metrogas, ENREGE Res. 851/2026 (BO 30/10/2026): m3 sin SEF $328,26 (oct $324,31, +1,22%), cargo fijo R1 CABA $4.668,55 (+2,95%), factura R1 30 m3 $14.516,35 (+1,77%); nov-25 +46,9%",
+      "angulo": "Corrida programada del 31/10/2026 08:30, segunda candidata probada (APTA). Ángulo nuevo frente a la nota del gas de octubre (01/10) y a la de la luz de noviembre (30/10): el cuadro de noviembre, y que el 2,95% que publicaron los medios es el cargo fijo; el metro cúbico sube 1,22% y la factura típica, 1,6-2,0%. El 3,65% del conurbano no aparece en el cuadro oficial (cargos fijos +2,95% y m3 +1,22%, igual que en la Ciudad). Camino: documento oficial + planilla del regulador para la base de octubre + recálculo (suma de renglones exacta; PIST desde PAU x A3500 a 0,09%) + contraste de prensa en el 2,95%.",
+      "fecha": "2026-10-31",
+      "estado": "publicada",
+      "articulo_id": "2026-10-31-gas-metrogas-noviembre-factura-1-8",
+      "archivo": "cola/2026-10-31-gas-metrogas-noviembre-factura-1-8.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 08:30: frenó la primera (cuánto cobra un petrolero en Vaca Muerta, repetida del 25/09) y pasó la segunda (gas de Metrogas en noviembre). Empresas (cupo cubierto hoy por Boldt): Banco Macro, programa de recompra de hasta 20 M de acciones por hasta $160.000 M a un máximo de $10.700 (HR CNV 28/10/2026 y 6-K SEC 28/10; primera compra 30/10: 503.318 acciones a $9.956,20, $5.011 M) -> no probada: el cupo ya estaba cubierto y la nota quedaba sin pregunta de plata; Ternium Argentina 9M26 (carta Art. 63 del 30/10: resultado neto atribuible $511.671 M, PN $7.524.418 M) -> sin EEFF completos ni 6-K de Ternium S.A. del 3T todavía. Pregunta de plata no probadas: Premio Papa Francisco (sin monto en las bases), pelota del Superclásico (sin fuente oficial), Aldosivi descendido (sin documento). Portadas: riesgo país 790 (publicada 29/10), dólar ahorro (publicada 30/10), compras del BCRA en octubre US$1.395 M (La Nación, iProfesional; sin contraste), patentamientos de octubre -12,8% (infobae, La Nación; sin estadística oficial del mes), YPF RIGI norte (solicitud sin resolución), Binance (sin dato argentino), recaudación de octubre (ámbito; ARCA publica el 02/11). clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json ya era de hoy.",
+      "angulo": "",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la segunda candidata"
     }
   ]
 }

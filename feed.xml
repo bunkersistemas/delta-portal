@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 07:02:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 09:07:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El gas de Metrogas sube 2,95% en el cargo fijo pero 1,2% en el metro cúbico: con 30 m³, la factura de noviembre aumenta 1,8%</title>
+      <link>https://coninteres.com/articulos/2026-10-31-gas-metrogas-noviembre-factura-1-8.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-gas-metrogas-noviembre-factura-1-8.html</guid>
+      <pubDate>Sat, 31 Oct 2026 09:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El 2,95% que circuló como "el aumento" del gas de noviembre es el del cargo fijo de Metrogas, no el de la factura. Desde el 1 de noviembre, un hogar sin subsidio paga $328,26 por metro cúbico, antes de impuestos: 1,2% más que en octubre. Como el metro cúbico pesa más en la factura, un hogar de la categoría más baja de la Ciudad que consume 30 m³ pasa de $14.263,89 a $14.516,35: 1,8% más. En un año, esa misma factura subió 46,9%.</description>
+      <ci:numero>1,8%</ci:numero>
+      <ci:numeroEtiqueta>suba de noviembre de la factura de gas de un hogar R1 sin subsidio de Metrogas en la Ciudad con 30 m3, sin impuestos: $14.263,89 -&gt; $14.516,35 (+1,77%). ENREGE Res. 851/2026 (BO 30/10/2026, aviso 349838, anexo IF-2026-105105755): m3 $328,26 (oct $324,31, Res. 720/2026, +1,22%) = PIST 206,89 + DDA 4,03 + retenido 10,08 + transporte 107,26; cargo fijo R1 $4.668,55 (oct $4.534,59, +2,95%; conurbano 5.236,71 -&gt; 5.391,41, +2,95%; todas las categorías +2,95%). Base de octubre confirmada al centavo con la planilla ENREGE tarifas-gn-20261001.xlsx. PIST recalculado: US$3,696/MMBTU (Res. SE 23/2026) x A3500 1-15/10 $1.518,52 / 27,10473 = $207,07 (0,09%). Contraste: Infobae 30/10 'Metrogas CABA 2,95%' = cargo fijo; el 3,65% del conurbano de los medios no aparece en el cuadro. Nov-25 (ENARGAS Res. 821/2025): m3 $217,96, CF R1 $3.344,38, factura 30 m3 $9.883,18 -&gt; +46,9% contra IPC 33,4% a sep-26. SEF: 74,25% sobre PAU $206,89 (Res. SE 304/2026) -&gt; m3 base $174,64 vs $171,41 (+1,9%), cálculo propio.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-gas-metrogas-noviembre-factura-1-8.png" length="92072" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-gas-metrogas-noviembre-factura-1-8.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina le pagó al FMI US$2.353 millones de intereses en nueve meses, y por 77 de cada 100 dólares que debe paga dos puntos de sobrecargo</title>
       <link>https://coninteres.com/articulos/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>sueldo de convenio de noviembre de 2026 de un vendedor B de comercio (CCT 130/75), con la segunda cuota del bono: básico $1.277.511 + $120.000 de sumas fijas + $25.000 (planillas firmadas de la CAC, 'Vendedores B, noviembre de 2026', fila inicial). Acta FAECYS-CAC-CAME-UDECA del 27/10/2026: 1,9% en oct, nov y dic sobre básico de sep + sumas no remunerativas. Recálculo desde la escala homologada (DI-2026-964-APN-DNRYRT#MCH): 1,9% x ($1.226.349 + $120.000) = $25.581; 1.226.349 + 2 x 25.581 = 1.277.511; dic $1.423.091 (= planilla); 21 categorías con diferencia máxima de $2. Método probado contra la escala de julio (vendedor B jun $1.153.746: 1.177.947 / 1.202.148 / 1.226.349). IPC nacional sep-25 9.384,0922 -&gt; sep-26 12.514,1508 (+33,4%); sueldo sep/sep +22,1% (1.103.080 -&gt; 1.346.349), real -8,5%; inflación mensual de empate oct-dic 1,87%. Camino: dos documentos de las partes recalculados desde la escala homologada; acuerdo aún sin homologar.</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-vendedor-comercio-noviembre-nuevo-acuerdo.png" length="75706" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-vendedor-comercio-noviembre-nuevo-acuerdo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La asignación por nacimiento sube a $93.035 en noviembre: es el 16% de lo que cuesta un mes de crianza de un bebé, y la ANSES paga más por un casamiento</title>
-      <link>https://coninteres.com/articulos/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.html</guid>
-      <pubDate>Wed, 28 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La asignación por nacimiento de noviembre, $93.035, alcanza para el 16,3% de lo que el INDEC calcula que cuesta criar a un bebé durante un mes, según la última canasta de crianza, la de septiembre. Es más que a fines de 2023, cuando cubría el 12,2%, pero la mejora no vino de que el pago le ganara a la inflación por mucho: vino de que la canasta subió menos que los precios. La ANSES fijó el monto en el Boletín Oficial: pasa de $91.273 a $93.035, 1,93% más, lo mismo que subieron los precios en septiembre. Y la asignación por matrimonio sigue pagando $139.300, una vez y media lo que paga un nacimiento.</description>
-      <ci:numero>$93.035</ci:numero>
-      <ci:numeroEtiqueta>asignación por nacimiento de la ANSES desde noviembre de 2026, valor general, pago único (Res. ANSES 303/2026, BO 28/10/2026, anexo I; mismo monto en anexos II, IV, V y VII; el anexo VI de monotributistas no la incluye). Recálculo: oct-26 $91.273 (Res. 283/2026) x 1,0193 = 93.034,57, redondeo al peso siguiente (art. 3) = 93.035; $91.273 = sep-26 $89.782 (Res. 260/2026) x 1,0166. Contraste independiente: IPC nacional INDEC sep-26 12.514,1508 / ago-26 12.276,766 = +1,934%. Cobertura: 93.035 / canasta de crianza &lt;1 año sep-26 $570.832 (INDEC 16/10/2026) = 16,3%; mismo mes: sep-26 15,7%, sep-25 15,4% (67.079 / 436.988, Res. 297/2025), dic-23 12,2% (24.083 / 197.046, Res. 223/2023). Matrimonio $139.300, adopción $556.217. Camino: monto oficial recalculado con contraste.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.png" length="94005" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-asignacion-nacimiento-noviembre-canasta-crianza.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
