@@ -6860,6 +6860,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la tercera candidata"
+    },
+    {
+      "tema": "¿cuánto sale el subte en noviembre de 2026? (pregunta de plata detrás de La Nación 31/10/2026 «Cómo queda el boleto de colectivos y subte a partir del 1° de noviembre», Página12 31/10 «Suben el subte y los colectivos», El Cronista 31/10) / Res. 253/SBASE/26 (BO CABA 7480, 23/10/2026), Anexo II: $1.887 con SUBE registrada (oct $1.817, +3,9% = IPC sep 1,9% + 2%; recalculado 1.887,86 truncado); nov-25 $1.157 (Res. 108/25): +63,1% contra IPC nacional sep-25/sep-26 +33,4%; 40 viajes $66.045; sin registrar $2.541,10. Ángulo nuevo frente a la nota del 29/09 (costo del viaje en octubre): la suba en un año contra la inflación y el gasto mensual del pasajero frecuente",
+      "angulo": "Corrida programada del 31/10/2026 18:30, primera candidata probada: tarifa de noviembre con SUBE registrada, suba en un año contra el IPC nacional y gasto mensual por cantidad de viajes",
+      "fecha": "2026-10-31",
+      "estado": "publicada",
+      "articulo_id": "2026-10-31-subte-noviembre-1887-sube-63-por-ciento"
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 18:30: pasó la primera candidata probada (subte de noviembre, Res. 253/SBASE/26). Descartadas sin investigar a fondo: venta del predio del Parque de la Costa (La Nación 29/10, laplata1 31/10; AABE sin precio base ni fecha publicados), Celulosa Argentina hecho relevante judicial (CNV 30/10: prórroga de la interventora en el concurso de Forestadora Tapebicuá, sin montos). Lista no probada: compras del BCRA en octubre US$1.395 M (infobae, La Nación, ámbito, iProfesional; sin contraste independiente), producción de gas ene-sep 2026 147,7 MMm3/d (infobae con BCR; récord ya cubierto en julio), extracciones de efectivo en mínimo (Informe de Inclusión Financiera BCRA; una sola fuente), feriados del papa y si se cobra doble (DNU 1103/2026; sin cifra propia), Banco Macro recompra hasta $160.000 M (CNV; cupo de empresas ya cubierto hoy por Boldt), YPF RIGI norte de Vaca Muerta US$8.729 M (sin resolución), petróleo a US$117 por Ormuz (sin cruce argentino oficial nuevo). tn.com.ar y clarin.com leídos por curl; pregunta.json ya era de hoy.",
+      "angulo": "Registro de la corrida. clarin.com y tn.com.ar se leyeron por curl (WebFetch los rechaza).",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }
