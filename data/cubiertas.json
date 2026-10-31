@@ -6665,6 +6665,20 @@
       "fecha": "2026-10-30",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto cuesta la ART de un empleado? (pregunta de plata detrás de El Cronista 30/10/2026 «El Gobierno busca modificar el régimen de ART»: Sturzenegger anuncia facilitar el autoseguro y dice que podría bajar el costo) / SRT cuota pactada como % de la masa salarial jul-26 3,16% (jun-26 3,18%, más alto desde nov-17 3,19%; jul-25 2,84%, jul-24 2,58%); por tamaño: 1 trabajador 6,14% vs más de 5.000 1,88%; $ por trabajador jun-26 70.720 vs 42.772; 7 autoasegurados con 905.394 trabajadores (5 Estados + ExxonMobil + Coop. Portuaria San Martín); contraste SSN primas RT jul-25/mar-26 $4.165,1 mil M vs SRT 4.458,8 (-6,6%)",
+      "angulo": "Corrida programada del 31/10/2026 00:30, primera candidata probada (APTA). Ángulo propio: los medios cuentan el anuncio del autoseguro, nadie dice cuánto cuesta hoy la ART ni que la cuota relativa de un empleador con un trabajador triplica la de una gran empresa. Camino: estadística oficial recalculada (cuota/masa sin autoasegurados = 3,1607%) + contraste SSN.",
+      "fecha": "2026-10-31",
+      "estado": "publicada",
+      "articulo_id": "2026-10-31-cuanto-cuesta-la-art-de-un-empleado"
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 00:30: no se probaron porque pasó la primera candidata (costo de la ART por tamaño de empresa, SRT + SSN). Lista no probada: empresas (HOY NO HAY NOTA DE EMPRESAS; se descartaron con razón): Ternium Argentina 9M26 (carta Art. 63: resultado atribuible $511.671 M, resultado integral $835.609 M, patrimonio $7.524.420 M; sigue siendo un solo documento: sin EEFF completos en la CNV y sin 6-K del 3T de Ternium S.A. en la SEC), Ternium Argentina contrato con parte relacionada Siat (Art. 72, sin monto en la descripción), Celulosa Argentina (prórroga de la intervención informante en el concurso preventivo de Forestadora Tapebicuá hasta el 07/04/2027, sin cifras), Tango Energy (cambio de auditor PwC por Pistrelli/EY, sin cifras), Banco Macro recompra hasta $160.000 M (infobae; programa sin compras), Pluspetrol fusión por absorción (sin cifras), Molinos-Ayudín (frenada 28/10, precio no informado); pregunta de plata: cuánto donará Piñeyro al Garrahan (Cronista; fallo no localizado), patentamientos de octubre -8,4% (infobae; dato privado de ACARA, serie publicada), Plantium-Gentec despidos y maquinaria agrícola (La Nación, iProfesional; tractores publicada 30/10), precio de la pelota del Superclásico (ámbito; sin fuente oficial), visita del papa (descartada varias veces), SMATA concesionarias 5,06% (ámbito; sin acuerdo homologado); calendario: comercio exterior y EPH (03 y 04/11, todavía no publicados); portadas: riesgo país 787-800 (publicada 29/10), hackeo a Binance US$6.300 M (sin dato argentino), dólar ahorro de septiembre (publicada 30/10), compras del BCRA en octubre US$1.395 M (La Nación, iProfesional; sin contraste, como el 01/10), coparticipación de octubre (ámbito; misma serie que el 01/10), aumentos de noviembre (publicados), YPF RIGI norte US$8.729 M (solicitud sin resolución). clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json actualizada (primera corrida del día).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

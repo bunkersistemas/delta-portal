@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-10-30",
-  "pregunta": "Julio y agosto de 2026 promediaron 149,8 puntos en el EMAE desestacionalizado, y el segundo trimestre promedió 154,1. Si septiembre volviera exactamente al nivel de junio (154,1), ¿el tercer trimestre quedaría por encima o por debajo del segundo?",
+  "fecha": "2026-10-31",
+  "pregunta": "El tope de ingresos para tener los remedios gratis del PAMI por subsidio social es 1,5 haberes mínimos. En noviembre el haber mínimo sube 1,93%, igual que todas las jubilaciones. Si en septiembre el 44,4% de los jubilados y pensionados del SIPA cobraba más que el tope, ¿qué pasa con esa proporción en noviembre?",
   "opciones": [
-    "Por debajo: cae cerca de 2%",
-    "Empata: si septiembre vuelve a 154,1, el trimestre también",
-    "Por encima, porque septiembre crecería casi 3% en un mes"
+    "Casi no cambia: el tope y los haberes suben en la misma proporción",
+    "Baja, porque con el aumento el tope queda más alto y entran más jubilados",
+    "Sube, porque con el aumento más jubilados pasan a cobrar más que el tope"
   ],
   "correcta": 0,
-  "explicacion": "Un trimestre se compara por el promedio de sus tres meses, no por cómo termina. Con julio en 149,8, agosto en 149,9 y septiembre en 154,1, el promedio da 151,3, casi 2% menos que 154,1 (con la planilla completa del INDEC, 1,9%). Que septiembre crezca mucho en un mes no borra lo que se perdió en julio y agosto: para empatar, septiembre tendría que llegar a 162,7, un salto de 8,6%. Por eso un mes malo pesa en todo el trimestre aunque después haya rebote.",
-  "nota": "articulos/2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6.html",
+  "explicacion": "Cuando un tope está atado al haber mínimo y todos los haberes se actualizan por el mismo porcentaje, la raya se mueve junto con lo que cobra cada uno. El que estaba debajo sigue debajo y el que estaba arriba sigue arriba, aunque todos los montos en pesos sean más altos. Por eso, en un año, la proporción por encima del tope apenas pasó de 43,2% a 44,4%. Un umbral fijo en pesos, en cambio, sí deja afuera a más gente cada mes con inflación.",
+  "nota": "articulos/2026-10-30-pami-remedios-gratis-tope-ingresos-noviembre.html",
   "leccion": ""
 }

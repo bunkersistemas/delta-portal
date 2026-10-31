@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 30 Oct 2026 22:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 01:00:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La ART cuesta 3,16% de los sueldos, un nivel que no se veía desde 2017, y casi el doble a quien tiene un solo empleado</title>
+      <link>https://coninteres.com/articulos/2026-10-31-cuanto-cuesta-la-art-de-un-empleado.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-cuanto-cuesta-la-art-de-un-empleado.html</guid>
+      <pubDate>Sat, 31 Oct 2026 01:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La ART volvió a costar lo que costaba en 2017, y no le cuesta lo mismo a todos. Según la Superintendencia de Riesgos del Trabajo, en julio de 2026 la cuota que el empleador paga todos los meses fue en promedio el 3,16% de la masa salarial. Ese promedio esconde una brecha: el que tiene un solo empleado paga 6,14%; una empresa de más de 5.000, 1,88%.</description>
+      <ci:numero>3,16%</ci:numero>
+      <ci:numeroEtiqueta>cuota pactada con la ART como % de la masa salarial, promedio de los empleadores asegurados (unidades productivas, sin autoasegurados), julio de 2026. SRT últimos datos de cobertura y financiación: 3,16%, $96.305,8 por trabajador. Recálculo serie histórica según ART (cuadros 1.3/1.4): cuota $819.964.085.324 / masa de las 23 ART y mutuales $25.942.273.963.660 = 3,1607%; con masa total $28.268.655.211.849 (incluye 7 autoasegurados, 905.394 trabajadores) = 2,90%; cuota/8.514.168 trabajadores = $96.305,8. Por tamaño (cuadros 4.3/4.4/4.6): 1 trabajador 6,137% (recalculado igual), más de 5.000 1,88%; ratio 3,27. Serie: jul-24 2,575; jul-25 2,839; jun-26 3,177; último mes &gt;= 3,16 antes de jun-26: nov-2017 3,187 (dic-2017 3,152; máximo de la serie ene-2016 3,521). Contraste independiente SSN datos abiertos, balance a mar-26 (acumulado jul-25 a mar-26), subramos Rs. del Trabajo, cuenta 5.01.01.01.01.01.01.00 primas seguros directos, 22 aseguradoras: $4.165,1 mil M vs SRT cuota pactada UP mismos 9 meses $4.458,8 mil M (-6,6%; con casas particulares 4.511,7, -7,7%).</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-cuanto-cuesta-la-art-de-un-empleado.png" length="82887" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-cuanto-cuesta-la-art-de-un-empleado.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El tope para tener los remedios gratis del PAMI es $666.237 en noviembre, y más de 2,6 millones de jubilados y pensionados cobran más que eso</title>
       <link>https://coninteres.com/articulos/2026-10-30-pami-remedios-gratis-tope-ingresos-noviembre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>ventas computables de Laboratorios Richmond entre el 01/07 y el 30/09/2026 (capecitabina, dasatinib, trifluridina+tipiracilo, abiraterona, imatinib, cladribina, bevacizumab, pazopanib y cabozantinib): $8.103.280.763 = 2.422.603.292 (jul) + 3.944.113.298 (ago) + 1.736.564.173 (sep). Declaración jurada del 26/10/2026 con certificación contable de Becher y Asociados S.R.L. (BDO), hecho relevante CNV del 28/10/2026 (ON Serie III). Camino: documento de la empresa ante el regulador + certificación de contador independiente (cotejo con Libro IVA Ventas) + recálculo de la suma + serie coherente: en los 9 trimestres con aviso de pago (n.º 15 a 23) las ventas en pesos del aviso son idénticas a las de la certificación y la fórmula del suplemento (0,000154% x 75.738,23 = 11,6637%) reproduce los ingresos netos con diferencia &lt; 0,0002%. 3T-2025: $4.900.148.149,22 (+65,4%). Real con IPC nacional INDEC mes a mes a $ de sep-26 (12.514,1508): 8.267 M contra 6.660 M (+24,1%); máximo desde 1T-2022 (las 5 certificaciones 4T-2020 a 4T-2021 son escaneadas): anterior 4T-2024 7.998 M (+3,4%). Bono: VN US$7.573.823 (13/11/2020, 5%, vence 13/11/2030), residual US$151.476,46 (2%) desde el pago 20 (nov-25, amortización 29,2078%); pagos 21-23 en US$: 424.453,96 + 354.088,68 + 413.296,55 = 1.191.839,19.</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-richmond-ventas-oncologicos-tercer-trimestre.png" length="87861" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-richmond-ventas-oncologicos-tercer-trimestre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El Día del Bancario paga como mínimo $2.275.519 este año: es el 89% de un sueldo inicial, la misma proporción que en 2024 y 2025</title>
-      <link>https://coninteres.com/articulos/2026-10-28-dia-del-bancario-bono-cuanto-se-cobra.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-28-dia-del-bancario-bono-cuanto-se-cobra.html</guid>
-      <pubDate>Wed, 28 Oct 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Medido en pesos de hoy, el Día del Bancario de 2026 es lo mismo que se cobró en 2024 y en 2025: el mínimo para la categoría inicial es $2.275.519,25, el 89,1% del salario inicial de septiembre. Lo firmaron el 16 de octubre la Asociación Bancaria y las cámaras de bancos. Se paga hasta el 6 de noviembre, y con el sueldo de noviembre llega un ajuste por la inflación de octubre.</description>
-      <ci:numero>$2.275.519</ci:numero>
-      <ci:numeroEtiqueta>Día del Bancario 2026, monto mínimo de la categoría inicial (CCT 18/75, rama administrativa), a pagar hasta el 06/11/2026. Planilla firmada anexa al acta del 16/10/2026 (Asociación Bancaria, ABA, ADEBA, ABE, ABAPPRA): $264.420,03 + suma fija $2.011.099,22 = $2.275.519,25; comunicado La Bancaria 16/10/2026 igual. Recálculo con IPC INDEC: acumulado dic-25/sep-26 23,64% -&gt; 1,236; Día de agosto $2.233.175,44 x 1,236/1,213 = $2.275.519,24; salario inicial dic-25 $2.065.178,27 x 1,236 = $2.552.560,34. Proporción Día/salario 0,8915 en sep-24, sep-25, oct-25 y sep-26; en $ de sep-26: 2.276.951 (2024), 2.277.746 (2025), 2.275.519 (2026). +33,2% i.a. contra IPC +33,4%. Falta el ajuste de octubre (en 2025: +2,3%, a $1.747.233,21).</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-28-dia-del-bancario-bono-cuanto-se-cobra.png" length="79073" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-28-dia-del-bancario-bono-cuanto-se-cobra.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
