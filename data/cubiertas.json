@@ -6651,6 +6651,20 @@
       "fecha": "2026-10-30",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto tengo que cobrar para tener los remedios gratis del PAMI en noviembre y a cuántos deja afuera el tope? (pregunta de plata detrás de El Cronista 30/10/2026 'medicamentos gratis del PAMI: desde noviembre los abuelos que ganen más que esta cantidad ya no podrán acceder al subsidio social'; retomada de la lista no probada de las 12:30 con el ángulo de la distribución de haberes) / tope 1,5 haberes mínimos (PAMI, página del trámite) x $444.158,46 (Res. ANSES 304/2026) = $666.237,69; CUD $1.332.475,38; BESS sep-26 cuadro 2.2.6: 2.686.603 de 6.049.974 titulares del SIPA (44,4%) por encima del tope de septiembre ($642.949,80); jubilación + pensión 99,8% arriba; jubilación con moratoria sola 9,7%; sep-25 43,2%; contraste EPH 1T-2026 46,8%",
+      "angulo": "Corrida programada del 30/10/2026 22:30, primera candidata probada (APTA). Ángulo propio: los medios publican el monto del tope todos los meses, nadie dice a cuánta gente deja afuera. Se cuenta con el cuadro 2.2.6 del BESS (personas, no beneficios) y se muestra que la raya separa a los que cobran jubilación y pensión (casi todos arriba) de los jubilados con moratoria (casi todos abajo). Camino: tope = dos documentos oficiales de organismos distintos; proporción = estadística oficial recalculada (filas = total) + contraste EPH. No se afirma cuántos afiliados tienen el subsidio (PAMI no lo publica).",
+      "fecha": "2026-10-30",
+      "estado": "publicada",
+      "articulo_id": "2026-10-30-pami-remedios-gratis-tope-ingresos-noviembre"
+    },
+    {
+      "tema": "descartes de la corrida programada del 30/10/2026 22:30: no se probaron porque pasó la primera candidata (tope de ingresos del subsidio social de PAMI de noviembre y cuántos jubilados quedan por encima, PAMI + Res. ANSES 304/2026 + BESS cuadro 2.2.6 + EPH). Lista no probada: pregunta de plata: costo de la inspección de las represas de Santa Cruz (infobae 30/10; Res. SOP 274/2026, un solo documento), cuánto cobra un empleado de concesionaria con el 5,06% trimestral de SMATA (ámbito; sin acuerdo homologado localizado), multa y suspensión por alcohol al volante con la ley bonaerense 13.927 (página12/infobae; sin valor de la UF en el texto), Piñeyro y la donación al Garrahan (fallo no localizado); empresas (cupo cubierto hoy por YPF Luz y Bioceres): Ternium Argentina 9M26 (solo carta Art. 63; 6-K de Ternium S.A. del 3T no localizado), Banco Macro recompra hasta $160.000 M (programa sin compras), Pluspetrol fusión por absorción (sin cifras), YPF RIGI Vaca Muerta norte US$8.729 M (infobae, iProfesional, Cronista; solicitud sin resolución); calendario: dotación APN de septiembre del INDEC (serie cubierta 30/09), inclusión financiera del BCRA (sin informe localizable); portadas: pesca exporta más con 25% menos de inspecciones (página12; pesca publicada 06/10), producción electrónica -36% (iProfesional; Tierra del Fuego publicada 09/10), riesgo país 790 (publicada 29/10), Binance (sin dato argentino). clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-10-30",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

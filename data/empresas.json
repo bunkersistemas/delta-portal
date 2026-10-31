@@ -1,5 +1,5 @@
 {
-  "generado": "2026-10-30T20:30",
+  "generado": "2026-10-30T22:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -11,8 +11,8 @@
       "fuente": "CNV",
       "fecha": "2026-10-30T20:19",
       "entidad": "TANGO ENERGY ARGENTINA S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
+      "tipo": "balance",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - MEDIANTE LA ASAMBLEA GENERAL EXTRAORDINARIA DEL 30 DE OCTUBRE DE 2026 SE RESOLVIÓ LA REMOCIÓN SIN CAUSA DE PRICE WATERHOUSE & CO. S.R.L., COMO AUDITOR EXTERNO DE LOS ESTADOS FINANCIEROS CORRESPONDIENT",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4A62714C-B54A-460F-AE46-B97D4957E842"
     },
     {
