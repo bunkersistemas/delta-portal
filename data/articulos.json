@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-31T11:01:03-03:00",
+    "actualizado": "2026-10-31T12:56:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra",
+      "titulo": "Un congresista de Estados Unidos cobra US$174.000 por año desde 2009: descontada la inflación es 35% menos, y sus empleados pueden ganar hasta US$228.000",
+      "bajada": "Quienes ganen el martes 3 de noviembre una banca en el Congreso de Estados Unidos van a cobrar lo mismo que los legisladores de 2009: US$174.000 por año, según el Servicio de Investigación del Congreso y la Secretaría de la Cámara. La ley prevé un ajuste automático cada enero, pero el Congreso vota cada año para no aumentarse. Con la inflación acumulada desde 2009, ese monto compra 35,4% menos, y el tope de sueldo de su propio personal ya lo supera: US$228.000.",
+      "titulo_busqueda": "¿Cuánto cobra un congresista de Estados Unidos?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "US$174.000",
+      "numero_label": "sueldo bruto anual de un representante o senador de EE.UU. en 2026, igual desde enero de 2009 (último aumento 2,8%). Fuentes: CRS RL30064 (10/09/2026, cuadro 1: Speaker US$223.500, líderes y presidente pro tempore US$193.400, demás US$174.000, tope personal US$228.000 = nivel II EX) + Clerk de la Cámara, Salary.pdf (01/10/2026) + Radio-TV Gallery House Data Salaries; CRS 97-1011 (06/05/2026): último aumento ene-2009, ajuste potencial 2026 3,2% (US$5.600, limitado a 1% GS), sin congelamientos US$223.800 en 2026 (+28,6%); RL30064: P.L. 119-103 (02/09/2026) congela hasta 11/12/2026, potencial 2027 2,8% (+US$4.900). Recálculo IPC-U BLS CUUR0000SA0: prom 2009 214,537; prom 2025 321,943 (oficial, 11 meses) -> -33,4% (CRS: \"aprox. 33%\"); prom ene-sep 2026 332,243 -> -35,4%, US$112.356 de 2009, inflación +54,9%, haría falta US$269.465; sep-26 336,940 -> -36,3%. Pesos: A3500 30/10/2026 $1.537,3487 -> US$14.500/mes = $22.291.556 = 11,2 RIPTE ago ($1.982.518,19). Camino: dos fuentes oficiales que coinciden + recálculo propio.",
+      "fecha": "2026-10-31",
+      "hora": "12:30",
+      "archivo": "articulos/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-10-31-pension-madres-siete-hijos-noviembre",
       "titulo": "La pensión para madres de siete hijos paga $444.158 en noviembre, lo mismo que la jubilación mínima, y la cobran 231.019 mujeres",

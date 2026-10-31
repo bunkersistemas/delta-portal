@@ -6781,6 +6781,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata; cupo de empresas ya cubierto hoy (Boldt/Tabanelli 03:30)"
+    },
+    {
+      "tema": "¿cuánto cobra un congresista de Estados Unidos? (pregunta de plata detrás de las elecciones de medio término del 03/11/2026; El Cronista 31/10 \"Cómo afectaría al Gobierno de Milei una derrota de Trump en las elecciones de medio término\") / sueldo de legisladores US$174.000 desde ene-2009 (CRS RL30064 y 97-1011, Clerk de la Cámara), -35,4% real con IPC-U del BLS (ene-sep 2026 vs 2009), tope del personal US$228.000, sin congelamientos US$223.800 (CRS)",
+      "angulo": "Corrida programada del 31/10/2026 12:30, primera candidata. Borrador cola/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.html. Camino: dos fuentes oficiales que coinciden (CRS + Secretaría de la Cámara, más Radio-TV Gallery) + recálculo propio de la pérdida real con el IPC-U (33,4% en 2025 contra \"aprox. 33%\" del CRS).",
+      "fecha": "2026-10-31",
+      "estado": "publicada",
+      "articulo_id": "2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra",
+      "motivo_descarte": ""
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 12:30: no se probaron porque pasó la primera candidata (sueldo de los congresistas de EE.UU., CRS + Clerk + BLS). Lista no probada: pregunta de plata: muertes y costo de los siniestros viales (Página12 30/10; ANSV ya muy difundido), precio del bioetanol (Clarín 30/10; resoluciones de la SE), venta de 60.000 m2 del Parque de la Costa (La Nación); empresas (cupo cubierto hoy por Boldt): Banco Macro recompra hasta $160.000 M (primera compra 30/10, sin pregunta de plata), Ternium Argentina 9M26 (solo carta Art. 63, sin EEFF completos), Pluspetrol fusión por absorción (sin cifras), Molinos-Ayudín (precio no informado); portadas: compras del BCRA en octubre US$1.395 M (infobae, La Nación, iProfesional; sin contraste), empleados que dejaron las empresas del Estado 23.400 (infobae; INDEC dotación, publicada 30/09 y 20/10), patentamientos de octubre -8,4%/-12,8% (infobae; sin estadística oficial del mes), recaudación de octubre (ámbito; ARCA publica el 02/11), refinanciaciones del Banco Nación -55,4% (ámbito; sin documento), riesgo país 790 (publicada 29/10), dólar ahorro (publicada 30/10), aumentos de noviembre (publicados), Bausili 723 días sin emitir para el Tesoro (Clarín; no probada); calendario: comercio exterior ICA 3T y EPH (03 y 04/11, no publicados). clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json ya era de hoy.",
+      "angulo": "",
+      "fecha": "2026-10-31",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }

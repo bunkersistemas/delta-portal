@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 11:01:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 12:56:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un congresista de Estados Unidos cobra US$174.000 por año desde 2009: descontada la inflación es 35% menos, y sus empleados pueden ganar hasta US$228.000</title>
+      <link>https://coninteres.com/articulos/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.html</guid>
+      <pubDate>Sat, 31 Oct 2026 12:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Quienes ganen el martes 3 de noviembre una banca en el Congreso de Estados Unidos van a cobrar lo mismo que los legisladores de 2009: US$174.000 por año, según el Servicio de Investigación del Congreso y la Secretaría de la Cámara. La ley prevé un ajuste automático cada enero, pero el Congreso vota cada año para no aumentarse. Con la inflación acumulada desde 2009, ese monto compra 35,4% menos, y el tope de sueldo de su propio personal ya lo supera: US$228.000.</description>
+      <ci:numero>US$174.000</ci:numero>
+      <ci:numeroEtiqueta>sueldo bruto anual de un representante o senador de EE.UU. en 2026, igual desde enero de 2009 (último aumento 2,8%). Fuentes: CRS RL30064 (10/09/2026, cuadro 1: Speaker US$223.500, líderes y presidente pro tempore US$193.400, demás US$174.000, tope personal US$228.000 = nivel II EX) + Clerk de la Cámara, Salary.pdf (01/10/2026) + Radio-TV Gallery House Data Salaries; CRS 97-1011 (06/05/2026): último aumento ene-2009, ajuste potencial 2026 3,2% (US$5.600, limitado a 1% GS), sin congelamientos US$223.800 en 2026 (+28,6%); RL30064: P.L. 119-103 (02/09/2026) congela hasta 11/12/2026, potencial 2027 2,8% (+US$4.900). Recálculo IPC-U BLS CUUR0000SA0: prom 2009 214,537; prom 2025 321,943 (oficial, 11 meses) -&gt; -33,4% (CRS: "aprox. 33%"); prom ene-sep 2026 332,243 -&gt; -35,4%, US$112.356 de 2009, inflación +54,9%, haría falta US$269.465; sep-26 336,940 -&gt; -36,3%. Pesos: A3500 30/10/2026 $1.537,3487 -&gt; US$14.500/mes = $22.291.556 = 11,2 RIPTE ago ($1.982.518,19). Camino: dos fuentes oficiales que coinciden + recálculo propio.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.png" length="93766" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La pensión para madres de siete hijos paga $444.158 en noviembre, lo mismo que la jubilación mínima, y la cobran 231.019 mujeres</title>
       <link>https://coninteres.com/articulos/2026-10-31-pension-madres-siete-hijos-noviembre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>tasa nominal anual promedio de los plazos fijos en dólares de personas humanas, 1 al 27 de octubre de 2026 (18 días hábiles): BCRA planilla Series.xlsm, hoja TASAS DE MERCADO, columna Plazos fijos - Total general en dólares - Personas humanas - TNA (al 28/10/2026, provisorio), recalculado 1,3623%; API var 1194 da 1,36. Enero 2026 2,1872% (-37,7%); máximo mensual desde ene-2016 (2,62%); octubre el más bajo desde may-2025 (1,31%). US$5.000 x TNA x 30/365 = US$5,60 (enero US$8,99). Contraste: Banco Nación, tasas vigentes 29/10/2026, personas canal electrónico 30-59 días 1,25% (US$5,14), sucursal 0,75%. Fed: suba a 3,75-4% el 16/09/2026, mantenida el 28/10 (10-2); EFFR NY Fed ene 3,64 / oct 3,88 (60 y 35 centavos por dólar). CPI-U BLS sep-26/sep-25 336,940/324,800 = +3,7%. Camino: estadística oficial recalculada + contraste.</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-plazo-fijo-dolares-tasa-cae-fed-sube.png" length="93245" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-plazo-fijo-dolares-tasa-cae-fed-sube.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Vista sacó 147.126 barriles de petróleo por día, 34% más que un año antes: sin las áreas que le compró a Equinor, creció 15%, al ritmo del país</title>
-      <link>https://coninteres.com/articulos/2026-10-29-vista-petroleo-tercer-trimestre-compra-equinor.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-vista-petroleo-tercer-trimestre-compra-equinor.html</guid>
-      <pubDate>Thu, 29 Oct 2026 00:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>El salto de producción de Vista Energy tiene dos partes, y solo una son barriles nuevos. La empresa, una de las petroleras de Vaca Muerta que cotizan en Nueva York, produjo 147.126 barriles de petróleo por día entre julio y septiembre de 2026, 34% más que un año antes, según el informe que presentó el 28 de octubre ante la SEC. Pero 20.971 de esos barriles salen de dos áreas que le compró a Equinor en mayo. Sin ellas, su producción creció 15%: casi lo mismo que la de todo el país, que subió 14,1%.</description>
-      <ci:numero>147.126</ci:numero>
-      <ci:numeroEtiqueta>barriles de petróleo por día que produjo Vista Energy en el 3T-2026 (participación neta), sin auditar: informe de resultados 3T26, 6-K SEC 0001193125-26-436174 (28/10/2026), cuadro 'Average net daily production' y detalle por área; 3T-2025 109.677 (+34,1%). Compras a Equinor (cierre 07/05/2026): Bandurria Sur 25,1% 17.931 + Bajo del Toro 35% 3.040 = 20.971; sin ellas 126.155 (+15,0%). En boe: 169.023 vs 126.752 (+33%: 13 orgánico, 20 compras, según la empresa; recálculo 12,85 y 20,5). Contraste: Secretaría de Energía, producción por pozo Capítulo IV 2026, jul-sep/92 días x 6,2898: operadas 82.809 (informe 82.827), LACh 50% 41.927 (41.972), BS 25,1% 17.926 (17.931), BDT+BDT Norte 35% 2.971 (3.040); shale 145.633 vs 145.764 (-0,09%). País jul-sep: 942.894 bbl/d 2026 vs 826.504 2025 (+14,1%); participación de Vista 13,3% -&gt; 15,6%. Apoyo: ingresos netos US$1.234,1 M (+75%), precio US$84,2/bbl (+30%), 73% exportado, resultado neto US$293,5 M vs 315,3 (2025 con ganancia de US$288,1 M por La Amarga Chica), ganancias corriente 246,9 vs 3,1. Camino: documento de la empresa + registro del regulador recalculado.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-vista-petroleo-tercer-trimestre-compra-equinor.png" length="91382" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-vista-petroleo-tercer-trimestre-compra-equinor.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
