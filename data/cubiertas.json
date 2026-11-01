@@ -6989,6 +6989,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuántas vacas tiene la Argentina? (pregunta de plata detrás de La Nación 01/11/2026, columna de opinión «Perdimos un 36% del rodeo vacuno y nadie se hace cargo», de Dante Garciandía: el 36% es del partido de Carlos Tejedor, 401.954 cabezas en 2006 contra 255.280 en 2026) / stock bovino nacional al 31/12/2025: 50.920.790 cabezas (Ministerio de Agricultura, informe de cierre y serie por provincia 2007-2025; suma de 23 provincias recalculada igual), -1,36% contra 2024 (51.624.909), -13,4% contra 2007 (58.777.906, estimado), el menor desde 2011 (50.714.153); vacas 21.559.623",
+      "angulo": "Corrida programada del 01/11/2026 20:30, candidata 1. Stock nacional y el caso del partido de la columna.",
+      "fecha": "2026-11-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla sin contraste independiente: el USDA (PSD, actualización oct-2026) repite exactamente la cifra oficial (ending stocks 2025 = 50.920 mil cabezas) y el CNA 2018 del INDEC mide otro universo; además el dato es de diciembre de 2025 y el 2026 de la columna (vacunación de SENASA) no está publicado por partido"
+    },
+    {
+      "tema": "¿usa la Argentina las medidas antidumping contra China? (pregunta detrás de La Nación y Clarín 01/11/2026, entrevistas a Martín Rappallini, UIA: «Si hay dumping de China, tenemos que utilizar los instrumentos y actuar») / OMC, estadísticas antidumping 1995-2025 (AD_MeasuresByRepMem, AD_InitiationsByRepMem, AD_MeasuresRepMemVsExp): la Argentina impuso 308 medidas, 105 contra China (34%), y abrió 425 investigaciones, 140 contra China; en 2024 impuso 4 y abrió 1, y en 2025 la OMC no registra ninguna medida ni investigación nueva de la Argentina (primera vez desde 1995; el mínimo previo era 1 medida en 2004 y 2016)",
+      "angulo": "Corrida programada del 01/11/2026 20:30, candidata 2. Serie propia de la OMC con el corte por China.",
+      "fecha": "2026-11-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "cifra ancla sin contraste independiente: el cero de 2025 sale de la compilación de la OMC, que se arma con las notificaciones de la propia Argentina; el informe anual de la CNCE llega hasta 2023 y el Boletín Oficial no permite listar por texto las resoluciones antidumping de 2025 para confirmar que fueron solo exámenes y bajas (retomar si se consigue el informe CNCE 2025 o un listado oficial de medidas vigentes)"
+    },
+    {
+      "tema": "¿a qué tasa se endeuda Pampa Energía en dólares? (EMPRESAS, aviso de resultados y formulario AIF ante la CNV del 28/10/2026, ON Clase 29; registro de emisiones de la CNV) / US$220.215.000 a 6,5% anual fija, 48 meses (02/11/2026 a 02/11/2030), 7.537 órdenes por US$221.044.000; Clase 28 del 19/08/2026: US$138.387.000 a 5,5%, mismo plazo; riesgo país 517 -> 763 entre las dos licitaciones (Rava y ArgentinaDatos); la tasa más alta y el monto más grande de sus cuatro ON con dólares locales desde oct-2024 (C22 5,75%, C27 5,49%, C28 5,5%)",
+      "angulo": "Corrida programada del 01/11/2026 20:30, candidata 3 (APTA). Ángulo propio: la serie de tasas de las ON locales de Pampa contra el riesgo país del día de cada licitación; un punto más en dos meses con +246 puntos de riesgo país, y la demanda más justa (1,004 veces).",
+      "fecha": "2026-11-01",
+      "estado": "publicada",
+      "articulo_id": "2026-11-01-pampa-energia-obligacion-negociable-220-millones-tasa"
     }
   ]
 }

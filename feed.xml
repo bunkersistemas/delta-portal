@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 01 Nov 2026 18:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 20:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Pampa Energía colocó US$220 millones a 6,5% anual en dólares hasta 2030: un punto más que lo que pagó en agosto por el mismo plazo</title>
+      <link>https://coninteres.com/articulos/2026-11-01-pampa-energia-obligacion-negociable-220-millones-tasa.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-01-pampa-energia-obligacion-negociable-220-millones-tasa.html</guid>
+      <pubDate>Sun, 01 Nov 2026 21:45:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>De las cuatro obligaciones negociables que Pampa Energía colocó desde octubre de 2024 con dólares dentro de la Argentina, la del 28 de octubre es la del monto más grande y la de la tasa más alta, y esta vez la demanda apenas alcanzó. Colocó US$220,2 millones a cuatro años, con una tasa fija de 6,5% anual en dólares, y le ofrecieron US$221 millones. En agosto había pagado 5,5% por el mismo plazo. Entre las dos licitaciones el riesgo país subió de 517 a 763 puntos.</description>
+      <ci:numero>6,5%</ci:numero>
+      <ci:numeroEtiqueta>tasa fija anual en dólares de la obligación negociable Clase 29 de Pampa Energía: US$220.215.000 a 48 meses (emisión 02/11/2026, vence 02/11/2030), licitada el 28/10/2026 (aviso de resultados y formulario AIF ante la CNV; registro de emisiones de la CNV); ofrecía hasta US$200 M ampliables a US$300 M; 7.537 órdenes por US$221.044.000 (7.445 adjudicadas). Clase 28 (19/08/2026, 48 meses): US$138.387.000 a 5,5%. Otras locales: Clase 22 (02/10/2024) US$83.977.835 a 5,75%, 48 m; Clase 25 (30/07/2025, dólares en el exterior) US$104.633.623 a 7,25%, 36 m; Clase 27 (30/03/2026) US$200.000.000 a 5,49%, 36 m, ofertas US$425.348.000. Riesgo país (Rava y ArgentinaDatos coinciden): 1.276 (02/10/2024), 637 (30/03/2026), 517 (19/08/2026), 763 (28/10/2026). Cálculos propios: intereses 220.215.000 x 6,5% = US$14.313.975 por año; +US$2.202.150 contra 5,5%; cobertura 1,004 (C27: 2,127); promedio por orden US$29.328. Camino: documentos de la empresa ante el regulador, cruzados entre sí.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-pampa-energia-obligacion-negociable-220-millones-tasa.png" length="90497" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-pampa-energia-obligacion-negociable-220-millones-tasa.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Casarse con el Registro Civil fuera de sus sedes cuesta $472.690 en la Ciudad: subió 30,1% en un año y el último salto, en octubre, fue de 8,7%</title>
       <link>https://coninteres.com/articulos/2026-11-01-casarse-registro-civil-ciudad-cuanto-cuesta.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>tope por persona de la garantía de los depósitos bancarios desde el 01/04/2026 (BCRA, Com. A 8407); no alcanza a las billeteras virtuales</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-billeteras-virtuales-seguro-depositos-mercado-pago.png" length="72386" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-billeteras-virtuales-seguro-depositos-mercado-pago.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La luz de Edenor sube 5,7% en noviembre para los hogares con subsidio y 2,9% para los que no lo tienen</title>
-      <link>https://coninteres.com/articulos/2026-10-30-luz-edenor-edesur-noviembre-subsidio.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-luz-edenor-edesur-noviembre-subsidio.html</guid>
-      <pubDate>Fri, 30 Oct 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En noviembre, la factura de luz de Edenor sube el doble para el hogar con subsidio que para el que no lo tiene: 5,7% contra 2,9%, con un consumo de 200 kWh y antes de impuestos. La diferencia tiene una sola explicación: el descuento del Estado quedó casi igual en pesos, $98,53 por cada kWh, y casi todo el aumento de la distribuidora cayó sobre la parte que paga el hogar. En Edesur pasa lo mismo: 5,3% contra 2,6%.</description>
-      <ci:numero>5,7%</ci:numero>
-      <ci:numeroEtiqueta>suba de noviembre de la factura de luz de un hogar con subsidio de Edenor con 200 kWh, sin impuestos (ENREGE)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-luz-edenor-edesur-noviembre-subsidio.png" length="63405" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-luz-edenor-edesur-noviembre-subsidio.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

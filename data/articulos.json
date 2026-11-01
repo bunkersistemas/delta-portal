@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-01T18:57:40-03:00",
+    "actualizado": "2026-11-01T20:58:32-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-01-pampa-energia-obligacion-negociable-220-millones-tasa",
+      "titulo": "Pampa Energía colocó US$220 millones a 6,5% anual en dólares hasta 2030: un punto más que lo que pagó en agosto por el mismo plazo",
+      "bajada": "De las cuatro obligaciones negociables que Pampa Energía colocó desde octubre de 2024 con dólares dentro de la Argentina, la del 28 de octubre es la del monto más grande y la de la tasa más alta, y esta vez la demanda apenas alcanzó. Colocó US$220,2 millones a cuatro años, con una tasa fija de 6,5% anual en dólares, y le ofrecieron US$221 millones. En agosto había pagado 5,5% por el mismo plazo. Entre las dos licitaciones el riesgo país subió de 517 a 763 puntos.",
+      "titulo_busqueda": "¿A qué tasa se endeuda Pampa Energía en dólares?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "6,5%",
+      "numero_label": "tasa fija anual en dólares de la obligación negociable Clase 29 de Pampa Energía: US$220.215.000 a 48 meses (emisión 02/11/2026, vence 02/11/2030), licitada el 28/10/2026 (aviso de resultados y formulario AIF ante la CNV; registro de emisiones de la CNV); ofrecía hasta US$200 M ampliables a US$300 M; 7.537 órdenes por US$221.044.000 (7.445 adjudicadas). Clase 28 (19/08/2026, 48 meses): US$138.387.000 a 5,5%. Otras locales: Clase 22 (02/10/2024) US$83.977.835 a 5,75%, 48 m; Clase 25 (30/07/2025, dólares en el exterior) US$104.633.623 a 7,25%, 36 m; Clase 27 (30/03/2026) US$200.000.000 a 5,49%, 36 m, ofertas US$425.348.000. Riesgo país (Rava y ArgentinaDatos coinciden): 1.276 (02/10/2024), 637 (30/03/2026), 517 (19/08/2026), 763 (28/10/2026). Cálculos propios: intereses 220.215.000 x 6,5% = US$14.313.975 por año; +US$2.202.150 contra 5,5%; cobertura 1,004 (C27: 2,127); promedio por orden US$29.328. Camino: documentos de la empresa ante el regulador, cruzados entre sí.",
+      "fecha": "2026-11-01",
+      "hora": "21:45",
+      "archivo": "articulos/2026-11-01-pampa-energia-obligacion-negociable-220-millones-tasa.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-11-01-casarse-registro-civil-ciudad-cuanto-cuesta",
       "titulo": "Casarse con el Registro Civil fuera de sus sedes cuesta $472.690 en la Ciudad: subió 30,1% en un año y el último salto, en octubre, fue de 8,7%",
