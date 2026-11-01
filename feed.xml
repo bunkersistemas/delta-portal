@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 01 Nov 2026 03:04:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 04:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El petróleo subió 82,5% en 2026 y los combustibles, 29,1%: desde mayo aumentaron menos que la inflación</title>
+      <link>https://coninteres.com/articulos/2026-11-01-petroleo-subio-82-combustibles-29.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-01-petroleo-subio-82-combustibles-29.html</guid>
+      <pubDate>Sun, 01 Nov 2026 05:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El petróleo casi se duplicó en 2026 y en el surtidor se sintió uno solo de sus dos saltos. El barril de Brent promedió US$114,16 en septiembre, 82,5% más que en diciembre de 2025, y en octubre US$124,83. En el índice de precios del INDEC, los combustibles del Gran Buenos Aires subieron 29,1% en esos nueve meses, casi todo en marzo y abril. De mayo a septiembre subieron 6,0%, contra 10,5% del resto de los precios. Queda una pieza con fecha: el Gobierno volvió a postergar, ahora al 1 de diciembre, la suba pendiente del impuesto a los combustibles.</description>
+      <ci:numero>29,1%</ci:numero>
+      <ci:numeroEtiqueta>suba de los combustibles en el GBA entre diciembre de 2025 y septiembre de 2026 (IPC INDEC); el Brent subió 82,5%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-petroleo-subio-82-combustibles-29.png" length="73337" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-petroleo-subio-82-combustibles-29.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina sacó más gas que nunca en nueve meses, pero apenas 0,7% más que en 2025: el no convencional creció 7,3% y el convencional cayó 11,1%</title>
       <link>https://coninteres.com/articulos/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>exportaciones de oro de la Argentina entre enero y septiembre de 2026, en dólares FOB (INDEC)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-oro-exportaciones-4041-millones-nueve-meses.png" length="70209" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-oro-exportaciones-4041-millones-nueve-meses.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El riesgo país cerró en 763 puntos, más alto que al día siguiente de las elecciones de 2025</title>
-      <link>https://coninteres.com/articulos/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.html</guid>
-      <pubDate>Thu, 29 Oct 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>Un año después de las elecciones legislativas de 2025, el riesgo país quedó por encima del nivel con el que el mercado recibió el resultado. El índice de JP Morgan subió 197 puntos desde el 23 de septiembre y el lunes 26 tocó 765, el cierre más alto desde la víspera de aquellas elecciones. Esta vez la tasa del Tesoro de EE.UU. bajó: la suba del costo de endeudarse en dólares, de 10,77% a 12,68% anual en una cuenta aproximada, es toda de los bonos argentinos.</description>
-      <ci:numero>763</ci:numero>
-      <ci:numeroEtiqueta>puntos básicos de riesgo país al cierre del 28/10/2026, el más alto desde el 24/10/2025 salvo el 765 del 26/10</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.png" length="61829" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

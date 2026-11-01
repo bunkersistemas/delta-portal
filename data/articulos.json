@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-01T03:04:09-03:00",
+    "actualizado": "2026-11-01T04:57:43-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-01-petroleo-subio-82-combustibles-29",
+      "titulo": "El petróleo subió 82,5% en 2026 y los combustibles, 29,1%: desde mayo aumentaron menos que la inflación",
+      "bajada": "El petróleo casi se duplicó en 2026 y en el surtidor se sintió uno solo de sus dos saltos. El barril de Brent promedió US$114,16 en septiembre, 82,5% más que en diciembre de 2025, y en octubre US$124,83. En el índice de precios del INDEC, los combustibles del Gran Buenos Aires subieron 29,1% en esos nueve meses, casi todo en marzo y abril. De mayo a septiembre subieron 6,0%, contra 10,5% del resto de los precios. Queda una pieza con fecha: el Gobierno volvió a postergar, ahora al 1 de diciembre, la suba pendiente del impuesto a los combustibles.",
+      "titulo_busqueda": "¿Va a subir la nafta? Cuánto subió el petróleo y cuánto los combustibles en 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "29,1%",
+      "numero_label": "suba de los combustibles en el GBA entre diciembre de 2025 y septiembre de 2026 (IPC INDEC); el Brent subió 82,5%",
+      "fecha": "2026-11-01",
+      "hora": "05:30",
+      "archivo": "articulos/2026-11-01-petroleo-subio-82-combustibles-29.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-11-01-produccion-gas-record-nueve-meses-convencional-cae",
       "titulo": "La Argentina sacó más gas que nunca en nueve meses, pero apenas 0,7% más que en 2025: el no convencional creció 7,3% y el convencional cayó 11,1%",
