@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-01T00:52:17-03:00",
+    "actualizado": "2026-11-01T03:04:09-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-01-produccion-gas-record-nueve-meses-convencional-cae",
+      "titulo": "La Argentina sacó más gas que nunca en nueve meses, pero apenas 0,7% más que en 2025: el no convencional creció 7,3% y el convencional cayó 11,1%",
+      "bajada": "Entre enero y septiembre de 2026 la Argentina produjo 40.275 millones de metros cúbicos de gas, el máximo para esos nueve meses en la serie oficial. Pero es un récord por poco, apenas 0,7% más que en 2025, porque dos fuerzas se cancelan: el gas no convencional subió 7,3% y el convencional cayó 11,1%. El récord anual sigue siendo de 2004.",
+      "titulo_busqueda": "¿Cuánto gas produce la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "40.275 M m³",
+      "numero_label": "producción de gas de enero-septiembre de 2026 en millones de m³ (147,5 millones por día), máximo para esos nueve meses en la serie oficial; +0,7% contra 40.001 en 2025 (Secretaría de Energía, SESCO a sep-26; recalculado por pozo: 40.238; contraste ENARGAS ene-ago +0,8%)",
+      "fecha": "2026-11-01",
+      "hora": "04:00",
+      "archivo": "articulos/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-11-01-banco-macro-recompra-acciones-160000-millones",
       "titulo": "Banco Macro sale a recomprar acciones propias por hasta $160.000 millones y en el primer día compró casi 22 veces más que en todo su programa de 2025",

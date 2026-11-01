@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 01 Nov 2026 00:52:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 03:04:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina sacó más gas que nunca en nueve meses, pero apenas 0,7% más que en 2025: el no convencional creció 7,3% y el convencional cayó 11,1%</title>
+      <link>https://coninteres.com/articulos/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.html</guid>
+      <pubDate>Sun, 01 Nov 2026 04:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre enero y septiembre de 2026 la Argentina produjo 40.275 millones de metros cúbicos de gas, el máximo para esos nueve meses en la serie oficial. Pero es un récord por poco, apenas 0,7% más que en 2025, porque dos fuerzas se cancelan: el gas no convencional subió 7,3% y el convencional cayó 11,1%. El récord anual sigue siendo de 2004.</description>
+      <ci:numero>40.275 M m³</ci:numero>
+      <ci:numeroEtiqueta>producción de gas de enero-septiembre de 2026 en millones de m³ (147,5 millones por día), máximo para esos nueve meses en la serie oficial; +0,7% contra 40.001 en 2025 (Secretaría de Energía, SESCO a sep-26; recalculado por pozo: 40.238; contraste ENARGAS ene-ago +0,8%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.png" length="85531" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Banco Macro sale a recomprar acciones propias por hasta $160.000 millones y en el primer día compró casi 22 veces más que en todo su programa de 2025</title>
       <link>https://coninteres.com/articulos/2026-11-01-banco-macro-recompra-acciones-160000-millones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>puntos básicos de riesgo país al cierre del 28/10/2026, el más alto desde el 24/10/2025 salvo el 765 del 26/10</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.png" length="61829" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-riesgo-pais-763-mas-alto-en-un-ano.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un argentino come 45,8 kilos de carne vacuna por año, 5 kilos menos que hace un año y menos de la mitad que en 1956</title>
-      <link>https://coninteres.com/articulos/2026-10-29-carne-vacuna-consumo-45-kilos-por-habitante.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-carne-vacuna-consumo-45-kilos-por-habitante.html</guid>
-      <pubDate>Thu, 29 Oct 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El consumo de carne vacuna en la Argentina lleva quince bajas seguidas y ya está en el valor más bajo de la tabla oficial. En los doce meses que terminaron en septiembre de 2026, cada habitante consumió en promedio 45,81 kilos, según la Secretaría de Agricultura: 5 kilos y 9,8% menos que un año antes, y menos de la mitad que en 1956, el máximo de la serie que arranca en 1914. Es lo más bajo de los 33 meses de su tabla actual y del mismo mes desde 2017. La cámara de la industria, CICCRA, mide lo mismo por su cuenta: 46,0 kilos a agosto.</description>
-      <ci:numero>45,8 kg</ci:numero>
-      <ci:numeroEtiqueta>consumo de carne vacuna por habitante, promedio de los doce meses octubre 2025-septiembre 2026, según la Secretaría de Agricultura, Ganadería y Pesca (Principales indicadores del sector bovino, septiembre de 2026): 45,81 kg/hab/año; sep-25 50,81 (-5,00 kg, -9,84%). Recalculado: promedio de los 12 valores mensuales anualizados oct-25 a sep-26 = 45,81 (diferencia máxima con el promedio publicado en 21 meses: 0,005). Segunda fuente independiente: CICCRA, Informe N° 307 (agosto 2026), 46,0 kg a agosto, -9,5% (Secretaría a agosto 46,19, -9,18%); anuales CICCRA 2024 48,7 y 2025 49,9 vs Secretaría 48,49 y 49,92. Superlativos: más bajo de los 33 meses ene-24 a sep-26 (previo 46,19 ago-26; antes de 2026, 47,52 nov-24); más bajo para septiembre en 2017-2026 (previo 47,9 sep-24); CICCRA, más bajo para agosto en 2005-2026 (previo 48,5 ago-24); máximo 1914-2025: 1956, 100,80 kg (gráfico anual de la Secretaría). "Más bajo de la historia" (ámbito) NO confirmado: la serie 1914-2025 solo se publica como gráfico y la población se recalculó con el Censo 2022.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-carne-vacuna-consumo-45-kilos-por-habitante.png" length="83164" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-carne-vacuna-consumo-45-kilos-por-habitante.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

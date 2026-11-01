@@ -6914,6 +6914,20 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánto gas produce la Argentina? (pregunta detrás de Infobae 31/10/2026 «La producción de gas alcanzó un récord histórico en 2026 por la explotación no convencional de Vaca Muerta», con datos de la BCR) / Secretaría de Energía SESCO (tablas hasta 2008, 2009-2018 y desde 2019 con datos a sep-26), gas de alta+media+baja presión: ene-sep 2026 40.275.101 miles de m³ (147,53 MMm³/d) vs 2025 40.001 (+0,69%), 2004 39.588 (máximo previo antes de 2025), 2014 31.033 (piso); base por pozo 2026 (31/10) 40.237.681 (-0,09%); no convencional 27.459 (68,2%; por pozo 68,4% = shale 59,4 + tight 8,8; BCR 67%), +7,3% vs 25.580; convencional 12.816, -11,1% vs 14.421 y -39,9% vs 2019 (21.319; bajó 6 de 7 años, +2,1% en 2025); cuencas ene-sep: Neuquina 30.295 (+5,1%, 75,2%), Austral 6.975 (-8,1%), GSJ 2.253 (-16,6%), Noroeste 727 (-15,8%); sep-26 142,8 MMm³/d vs 138,6 (+3,0%); jun-ago 14.519 vs 14.665 (-1,0%); anual: récord 2004 52.157, 2006 51.646, 2025 51.595; faltan 11.882 en oct-dic (129,2 MMm³/d, +2,5% vs oct-dic 2025 11.594); serie anual desde 1950: 1998 38.630; contraste ENARGAS GRT (gas recibido de productores de cuencas argentinas, 9.300 kcal) ene-ago 31.774 vs 31.514 (+0,8%) contra SE ene-ago +0,4%",
+      "angulo": "Corrida programada del 01/11/2026 02:30, primera candidata probada (APTA). Ángulo nuevo frente a 2026-07-21 (récord de Neuquén en mayo y GNL): acá es el total nacional de nueve meses en serie desde 1999, el récord por un pelo (+0,7%), la pinza no convencional/convencional, el reparto por cuenca y lo que falta para el récord anual de 2004. Camino: estadística oficial recalculada (SESCO = total de la planilla; base por pozo -0,09%) + contraste independiente (ENARGAS, gasoductos). NO afirmado: que 2026 vaya a ser récord anual (la proyección de la BCR no se usó), importaciones de GNL (la columna Otros Orígenes de ENARGAS no se usó), precios.",
+      "fecha": "2026-11-01",
+      "estado": "publicada",
+      "articulo_id": "2026-11-01-produccion-gas-record-nueve-meses-convencional-cae",
+      "archivo": "cola/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 01/11/2026 02:30: no se probaron porque pasó la primera candidata (producción de gas ene-sep 2026, SESCO + ENARGAS). Lista no probada: empresas (ya hubo nota EMPRESAS hoy, Banco Macro; sin cupo): Ternium Argentina venta de acero a SIAT para 2027 (HR Art. 72 del 30/10, sin montos), Tango Energy cambio de auditor de PwC a Pistrelli (HR 30/10, sin cifras), Celulosa Argentina / Forestadora Tapebicuá prórroga de la intervención en su concurso preventivo (HR 30/10, sin cifras), Banco Comafi seis nuevos CEDEAR de ETF (prospecto 29/10; riesgo de leerse como recomendación), Agroindustrias La Española ON (aviso de suscripción, sin resultado); YPF RIGI por US$8.729 M (iProfesional, El Cronista; sin hecho relevante ni resolución). Pregunta de plata: cuánto factura River contra Boca en el día del Superclásico (River pasó a ejercicio calendario y Boca cierra en junio: períodos no comparables, balance de River no localizado), cuánto se cobra si se trabaja el feriado del papa del 09/11 (DNU 1103/2026; sin escala homologada a mano), working holiday con sueldos en dólares (La Nación; NZ cubierta el 26/09). Portadas: Binance hackeado (sin dato argentino), dotación de empresas del Estado -23.400 (infobae; repetida de 30/09 y 20/10), extracciones de efectivo en mínimo (frenada el 25/09 y el 27/10), recaudación de octubre (ARCA publica el 02/11), BCRA compró US$1.395 M en octubre (sin contraste), patentamientos de octubre (sin estadística oficial del mes), Plantium-Gentec 100 despidos (sin documento; tractores en cola del 30/10), colectivos y subte de noviembre (subte publicado 31/10), jubilados de noviembre (cubierta 13/10). clarin.com y tn.com.ar leídos por curl. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-01",
+      "estado": "descartada"
     }
   ]
 }
