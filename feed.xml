@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 18:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 21:09:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Cámara de Diputados gastó $6.026 millones en pasajes en el primer semestre, y 97 de sus 257 diputados eligieron menos pasajes a cambio de dinero</title>
+      <link>https://coninteres.com/articulos/2026-10-31-diputados-pasajes-6026-millones-semestre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-diputados-pasajes-6026-millones-semestre.html</guid>
+      <pubDate>Sat, 31 Oct 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Cámara de Diputados devengó $6.026 millones en pasajes y viáticos entre enero y junio de 2026, según su propia ejecución presupuestaria y Presupuesto Abierto: 28,9% más que en el mismo semestre de 2025, pero menos que la inflación. A nombre de los diputados se emitieron 5.713 tramos. Y 97 de los 257 eligieron de antemano menos pasajes a cambio de una suma mensual de dinero por movilidad, de hasta $1.192.982 en junio.</description>
+      <ci:numero>$6.026 millones</ci:numero>
+      <ci:numeroEtiqueta>pasajes y viáticos devengados por la Cámara de Diputados, enero a junio de 2026. HCDN datos abiertos, ejecución presupuestaria 2do trimestre acumulado 2026, PP 7 "Pasajes y viáticos": devengado consumido $6.026.509.880,84, crédito vigente $8.547.339.999. Segunda fuente: Presupuesto Abierto crédito mensual 2026 (act. 14/10/2026), servicio 313, inciso 3, principal 7, meses 1-6: $6.029,04 M (pasajes 6.024,85 + viáticos 4,20); dif 0,04%. 2025: HCDN 4.676.236.628,47 / PA 4.680,73; 2024: HCDN 3.036.074.773,24 / PA 3.039,01. Var 1S26/1S25 +28,88%; IPC INDEC nacional promedio ene-jun 2026 11.166,94 vs 2025 8.404,35 = +32,87%. Real (PA deflactado mes a mes, pesos jun-26): 2024 6.532,2; 2025 6.608,1; 2026 6.424,7 (-2,8% vs 2025; -1,6% vs 2024). Opciones2026.pdf (07/04/2026): 257 diputados, op1 160, op2 40, op3 15, op4 24, op5 18 (97 con dinero; 2025: 162/41/13/28/13 = 95). FAQ pasajes jun-2026 (RP 59/2025): op2 $262.194,04, op3 $655.485,09, op4 $917.679,13, op5 $1.192.982,87; suma mensual a esos montos $63.818.028,73. Viajes nacionales 1S26 CSV: 5.713 tramos (5.409 aéreos, 304 terrestres), 217 diputados, prom 26,3; 1S25 5.504 (+3,8%); máx Chica Muñoz 52, Quintar 51, González G. 50; Aeroparque-Córdoba 305+282=587; 40 diputados sin tramos (18 op5, todos con 0); máx op4 46 (tope 60 nominados). PA ene-sep 2026 $8.662,85 M = 96,7% del vigente $8.957,48 M. Camino: dos fuentes que coinciden.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-diputados-pasajes-6026-millones-semestre.png" length="88161" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-diputados-pasajes-6026-millones-semestre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El subte cuesta $1.887 en noviembre, 63% más que hace un año y casi el doble que la inflación: 40 viajes en el mes salen $66.045</title>
       <link>https://coninteres.com/articulos/2026-10-31-subte-noviembre-1887-sube-63-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que pagó la Argentina, con flete y seguro (CIF), por el gas natural licuado importado entre enero y septiembre de 2026 (NCM 2711.11.00, base de comercio exterior del INDEC: 946.044.403 kg, US$867.424.794 CIF, US$815.041.634 FOB). 2025 completo: 970.782.576 kg, US$608.085.378 CIF (+42,6%; kg -2,5%); US$/t CIF 916,9 vs 626,4 (+46,4%); máximo previo comparable: 2023 US$1.799,9 M y US$950,2/t. Contrastes: EIA, exportaciones de GNL de EE.UU. a la Argentina 2025 -51,1% (INDEC origen EE.UU. -45,5%), abr-jul 2026 vs 2025 -41,0% (INDEC -39,4%); Banco Mundial, gas natural Europa jun-ago 2026 vs 2025 +54,6% (INDEC US$/t CIF jun-ago +48,5%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-gnl-importado-867-millones-tonelada-mas-cara.png" length="100757" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-gnl-importado-867-millones-tonelada-mas-cara.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>China vendió la mitad de los caños, estructuras y tornillos de acero que importó la Argentina en 2025, la mayor proporción desde 2002, y en 2026 ya llega al 53%</title>
-      <link>https://coninteres.com/articulos/2026-10-29-acero-china-mitad-manufacturas-importadas.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-acero-china-mitad-manufacturas-importadas.html</guid>
-      <pubDate>Thu, 29 Oct 2026 09:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>China ya vende más de la mitad de las manufacturas de hierro y acero que importa la Argentina —caños, estructuras, tornillos, accesorios—. En 2025 fueron 165.564 de 322.308 toneladas: el 51,4%, la mayor proporción en una serie del INDEC que empieza en 2002. Entre enero y septiembre de 2026 ya son el 53,1%: China vendió 23,1% más toneladas que un año antes, y lo que llegó del resto del mundo bajó 7,4%.</description>
-      <ci:numero>51,4%</ci:numero>
-      <ci:numeroEtiqueta>parte de China en las toneladas de manufacturas de hierro y acero (capítulo 73 de la NCM) importadas en 2025, según la base de comercio exterior del INDEC (165.564.427 kg sobre 322.307.853; máximo previo de la serie 2002-2025: 2015, 47,9%; 2024: 44,5%; 2023: 30,3%). Ene-sep 2026: 53,1% (134.250.307 kg sobre 252.867.990; China +23,1%, resto -7,4%). Contraste: UN Comtrade, China declaró exportaciones del capítulo 73 a la Argentina por US$316,4 M FOB en 2025 contra US$213,7 M en 2024 (+48,1%; INDEC FOB origen China +33,4%); en kilos, partida 7318 INDEC 25.675 t vs China 26.251 t (2025 +62,2% y +80,0%; 2024 -19,3% y -22,1%) y 7308 misma dirección en 2024 y 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-acero-china-mitad-manufacturas-importadas.png" length="92429" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-acero-china-mitad-manufacturas-importadas.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

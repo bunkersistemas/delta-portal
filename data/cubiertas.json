@@ -6875,6 +6875,18 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuántos pasajes tienen los diputados y cuánto gasta la Cámara en viajes? (pregunta de plata detrás de El Cronista 31/10/2026 «Votos, discursos y pasajes: la web de la UBA que muestra una radiografía del Congreso» y del Presupuesto 2027 trabado en Diputados, infobae 31/10) / HCDN ejecución presupuestaria 2T acumulado 2026, PP 7 pasajes y viáticos: devengado $6.026.509.880,84 (PA servicio 313: $6.029,04 M); 1S25 $4.676,2 M (+28,9%; IPC prom +32,9%; real -2,8%); opciones 2026 RP 59/2025: 160/40/15/24/18, 97 con suma de movilidad (op5 $1.192.982,87 en jun-26); viajes nacionales 1S26: 5.713 tramos nominados a 217 diputados",
+      "angulo": "gasto en pasajes de Diputados con dos fuentes (ejecución propia + Presupuesto Abierto), en términos reales, y régimen de cinco opciones con dinero por movilidad; cruce de la planilla de opciones con la de tramos emitidos",
+      "fecha": "2026-10-31",
+      "estado": "en_cola",
+      "id": "2026-10-31-diputados-pasajes-6026-millones-semestre"
+    },
+    {
+      "tema": "descartes de la corrida programada del 31/10/2026 20:30: no se probaron porque pasó la primera candidata (pasajes de la Cámara de Diputados, HCDN + Presupuesto Abierto). Lista no probada: pregunta de plata: pasajes del Senado (PA servicio 312: 1S26 $4.014 M vs 1S25 $2.681 M, +49,7%, real +12,7%; sin segunda fuente propia del Senado buscada todavía, buena para retomar), cuánto se cobra si se trabaja el feriado del papa del 9/11 (DNU 1103/2026; LCT art. 166, divisor del día sin criterio único), premios de la final de la Libertadores para Estudiantes (CONMEBOL; tabla publicada el 06/10, ángulo club no probado), costo de los siniestros viales (ANSV, muy difundido); empresas (cupo cubierto hoy por Boldt): Banco Macro recompra hasta $160.000 M (HR CNV 28/10; sin pregunta de plata), Ternium Argentina 9M26 (solo carta Art. 63), Pluspetrol fusión (sin cifras), Molinos-Ayudín (precio no informado), YPF RIGI norte US$8.729 M (sin resolución); portadas: compras del BCRA en octubre US$1.395 M (infobae, La Nación, ámbito, iProfesional; sin contraste), riesgo país 790 (publicada 29/10), patentamientos de octubre -12,8% (sin estadística oficial del mes), Plantium-Gentec (sin documento), Binance (sin dato argentino), recaudación de octubre (ARCA publica el 02/11); calendario: comercio exterior ICA 3T y EPH (03 y 04/11). clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json ya era de hoy.",
+      "fecha": "2026-10-31",
+      "estado": "descartada"
     }
   ]
 }
