@@ -6942,6 +6942,22 @@
       "fecha": "2026-11-01",
       "estado": "publicada",
       "articulo_id": "2026-11-01-empresas-estado-empleados-correo"
+    },
+    {
+      "tema": "¿cuánto cobra un encargado de edificio? (pregunta de plata detrás de ámbito 01/11/2026 «Salarios de noviembre: qué gremios reciben aumentos...» —encargados mantienen la escala de octubre— e iProfesional «Sueldos de encargados de edificios: cuánto cobrarán en noviembre») / CCT 589/10, planillas SUTERH: oct-26 encargado permanente con vivienda 1.ª $1.316.343 (4.ª $1.096.952), sin vivienda $1.504.674, adicional remunerativo $65.000 (4.ª; x1,2 en 1.ª); básico + suma fija 1.ª con vivienda sep-25 $918.341 -> sep-26 $1.369.799 (+49,2%; 4.ª 765.284 -> 1.141.499, igual), oct-25 932.933 -> oct-26 1.394.343 (+49,5%); IPC INDEC sep-25 9.384,0922 -> sep-26 12.514,1508 (+33,4%), poder de compra +11,9%; dic-25 946.900 -> ene-26 1.109.838 (+17,2%: suma fija de $120.000 + 2%); IPCBA sep-26 gastos comunes por la vivienda +3,4% m, +32,4% acum., +41,2% i.a. (nivel general 32,9%); ago-26 gastos comunes +40,6%",
+      "angulo": "Corrida programada del 01/11/2026 14:30, primera candidata probada (APTA). Ángulo propio: los medios listan la tabla; acá, el año contra la inflación con básico y suma fija juntos (la suma fija se fue absorbiendo en el básico), el salto de enero y el contraste con las expensas del IPCBA. Ancla por documento de las partes + recálculo + contraste independiente: planillas SUTERH/FATERYH y acta del 04/09/2026 (FATERYH, UADI, CAPHyAI, AIERH; acuerdos dicen que se liquida según las escalas publicadas en la web del sindicato); chequeo contra el BO: la escala de mayo de 2025 del anexo de la Disp. 709/2026 (BO 21/10/2026) es idéntica a la planilla SUTERH de mayo de 2025; recálculo de los aumentos de las actas al peso (oct-25 x1,016 = nov; +60.000 = dic; dic 4.ª x1,02 x1,2 = ene) y ratio 1.ª/4.ª = 1,2; contraste IDECBA IPCBA gastos comunes +41,2% (misma dirección y orden de magnitud; diferencia por composición de las expensas y universo CABA). NO afirmado: sueldo en mano, peso del sueldo en las expensas, escala de noviembre (no publicada; acuerdo hasta feb-27), comparación con nov-23 (planillas sin las sumas fijas de entonces). Acuerdo 2026 sin homologación publicada (se aclara).",
+      "fecha": "2026-11-01",
+      "estado": "en_cola",
+      "id": "2026-11-01-encargados-edificio-sueldo-sube-49-por-ciento",
+      "archivo": "cola/2026-11-01-encargados-edificio-sueldo-sube-49-por-ciento.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 01/11/2026 14:30: no se probaron porque pasó la primera candidata (sueldo de convenio de los encargados de edificio, SUTERH + BO + IPCBA). Lista no probada: pregunta de plata: cuánto cobra un aceitero (ámbito 01/11: peón $2.719.040; acuerdo FTCIODyARA-CIARA de junio, sin homologación hallada), básicos de farmacéuticos SAFYB $2,5-3,75 M (ámbito; sin escala leída), cuánto cuesta ver el Superclásico / cuánto factura River contra Boca (descartada antes, balances no comparables), beca de Cecilia Dieleke tras el oro en Dakar 2026 (menor de edad: no se toma); empresas (sin cupo: Banco Macro ya publicada hoy): BYMA recompra de acciones propias hasta $10.000 M a $250 máximo (HR CNV 30/10, 02034afa; segunda recompra del día tras Macro), Banco Comafi seis CEDEAR de ETF (prospecto 29/10; riesgo de leerse como recomendación), Banco del Sol (informe de comisión fiscalizadora sobre libros digitales, sin cifras); portadas: cheques rechazados de septiembre (BCRA; descartada el 27/09 sin ángulo), crédito al sector privado en % del PBI (Clarín 'el crédito sigue siendo un lujo'), stock bovino 2025 (SENASA 50.920.790, -1,36%; dato de marzo), liquidación del agro de octubre (CIARA-CEC aún no publicada), fiscalización pesquera -25% (Página12), Binance (sin dato argentino), aumentos de noviembre (luz, gas, colectivo, subte, taxi, prepagas ya publicados; peajes AUSA y colegios frenados). clarin.com y tn.com.ar no se pudieron leer con WebFetch; se leyeron con curl. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }
