@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-10-31T23:02:46-03:00",
+    "actualizado": "2026-11-01T00:52:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-01-banco-macro-recompra-acciones-160000-millones",
+      "titulo": "Banco Macro sale a recomprar acciones propias por hasta $160.000 millones y en el primer día compró casi 22 veces más que en todo su programa de 2025",
+      "bajada": "El programa de recompra de acciones propias que Banco Macro aprobó en 2025 era más grande en el papel y casi no se usó: compró 23.107 acciones en total. El que su directorio aprobó el 28 de octubre, por hasta $160.000 millones y hasta 20 millones de acciones, a no más de $10.700 cada una y en 45 días, arrancó de otra forma: el viernes 30 compró 503.318 por $5.011 millones, casi 22 veces más. El tope en pesos es más que los $147.101 millones que repartió en dividendos este año.",
+      "titulo_busqueda": "¿Cuánto gasta Banco Macro en recomprar sus propias acciones?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "$160.000 M",
+      "numero_label": "tope del programa de recompra de acciones propias que aprobó el directorio de Banco Macro el 28/10/2026 (hecho relevante ante la CNV y 6-K ante la SEC); hasta 20.000.000 de acciones a no más de $10.700, en 45 días",
+      "fecha": "2026-11-01",
+      "hora": "01:30",
+      "archivo": "articulos/2026-11-01-banco-macro-recompra-acciones-160000-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min"
+    },
     {
       "id": "2026-10-31-senado-pasajes-4014-millones-semestre",
       "titulo": "El Senado gastó $4.014 millones en pasajes y viáticos en el primer semestre, 49,7% más que en 2025 y por encima de la inflación, mientras Diputados subió 28,9%",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 23:02:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 00:52:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Banco Macro sale a recomprar acciones propias por hasta $160.000 millones y en el primer día compró casi 22 veces más que en todo su programa de 2025</title>
+      <link>https://coninteres.com/articulos/2026-11-01-banco-macro-recompra-acciones-160000-millones.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-01-banco-macro-recompra-acciones-160000-millones.html</guid>
+      <pubDate>Sun, 01 Nov 2026 01:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>El programa de recompra de acciones propias que Banco Macro aprobó en 2025 era más grande en el papel y casi no se usó: compró 23.107 acciones en total. El que su directorio aprobó el 28 de octubre, por hasta $160.000 millones y hasta 20 millones de acciones, a no más de $10.700 cada una y en 45 días, arrancó de otra forma: el viernes 30 compró 503.318 por $5.011 millones, casi 22 veces más. El tope en pesos es más que los $147.101 millones que repartió en dividendos este año.</description>
+      <ci:numero>$160.000 M</ci:numero>
+      <ci:numeroEtiqueta>tope del programa de recompra de acciones propias que aprobó el directorio de Banco Macro el 28/10/2026 (hecho relevante ante la CNV y 6-K ante la SEC); hasta 20.000.000 de acciones a no más de $10.700, en 45 días</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-banco-macro-recompra-acciones-160000-millones.png" length="84058" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-banco-macro-recompra-acciones-160000-millones.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Senado gastó $4.014 millones en pasajes y viáticos en el primer semestre, 49,7% más que en 2025 y por encima de la inflación, mientras Diputados subió 28,9%</title>
       <link>https://coninteres.com/articulos/2026-10-31-senado-pasajes-4014-millones-semestre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>consumo de carne vacuna por habitante, promedio de los doce meses octubre 2025-septiembre 2026, según la Secretaría de Agricultura, Ganadería y Pesca (Principales indicadores del sector bovino, septiembre de 2026): 45,81 kg/hab/año; sep-25 50,81 (-5,00 kg, -9,84%). Recalculado: promedio de los 12 valores mensuales anualizados oct-25 a sep-26 = 45,81 (diferencia máxima con el promedio publicado en 21 meses: 0,005). Segunda fuente independiente: CICCRA, Informe N° 307 (agosto 2026), 46,0 kg a agosto, -9,5% (Secretaría a agosto 46,19, -9,18%); anuales CICCRA 2024 48,7 y 2025 49,9 vs Secretaría 48,49 y 49,92. Superlativos: más bajo de los 33 meses ene-24 a sep-26 (previo 46,19 ago-26; antes de 2026, 47,52 nov-24); más bajo para septiembre en 2017-2026 (previo 47,9 sep-24); CICCRA, más bajo para agosto en 2005-2026 (previo 48,5 ago-24); máximo 1914-2025: 1956, 100,80 kg (gráfico anual de la Secretaría). "Más bajo de la historia" (ámbito) NO confirmado: la serie 1914-2025 solo se publica como gráfico y la población se recalculó con el Censo 2022.</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-carne-vacuna-consumo-45-kilos-por-habitante.png" length="83164" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-carne-vacuna-consumo-45-kilos-por-habitante.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Christine Lagarde cobró €492.204 de sueldo básico en 2025 como presidenta del BCE: $70,5 millones por mes, casi tres años de un sueldo registrado promedio</title>
-      <link>https://coninteres.com/articulos/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.html</guid>
-      <pubDate>Thu, 29 Oct 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Un mes del sueldo básico de Christine Lagarde equivale a lo que un trabajador registrado promedio de la Argentina cobra en casi tres años. Según las cuentas auditadas del Banco Central Europeo, en 2025 la presidenta cobró un básico de €492.204, 5,6% más que en 2024: €41.017 por mes, $70,5 millones al tipo de cambio del BCRA. Encima de eso recibe una asignación de representación de 21% y una residencia oficial. Hoy anunció que deja el cargo el 7 de febrero de 2027.</description>
-      <ci:numero>€492.204</ci:numero>
-      <ci:numeroEtiqueta>sueldo básico bruto de Christine Lagarde como presidenta del BCE en 2025, según las cuentas anuales 2025 del BCE (nota 28 "Staff costs", auditadas por Forvis Mazars, 17/02/2026); 2024 €466.092 (+5,6%), 2023 €444.984, 2022 €427.560 (+15,1% en tres años). Representación 21% = €103.363 (total €595.567) más residencia sin valor publicado. Coherencia: 2024 igual en cuentas 2024 y 2025, 2023 igual en cuentas 2023 y 2024; suma del Comité Ejecutivo 492.204+421.908+4x351.576 = €2.320.416 = total publicado (2024: €2.197.332). Carta de Lagarde a eurodiputados 20/02/2026: componentes públicos en cuentas e informe anual; BIS CHF 130.457 en 2025 (≈€139.224 al promedio 2025 del BCE 0,93703). Pesos: BCRA 28/10/2026 EUR $1.717,788 (pase 1,114; BCE 1,1133, -0,06%): básico anual $845.502.125, mensual €41.017 = $70.458.510 = 35,5 RIPTE de agosto ($1.982.518,19). Renuncia: comunicado BCE 29/10/2026 (deja el cargo el 07/02/2027). Camino: documento auditado de quien paga + recálculo + carta de la titular; prensa (Bloomberg) solo reproduce.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.png" length="93197" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

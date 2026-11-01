@@ -6899,6 +6899,21 @@
       "tema": "descartes de la corrida programada del 31/10/2026 22:30: no se probaron porque pasó la primera candidata (pasajes del Senado, Presupuesto Abierto + ejecución propia del Senado + listas de viajes). Lista no probada: pregunta de plata: cuánto se cobra si se trabaja el feriado del papa del 9/11 (DNU 1103/2026; sin cifra propia), premios de la Libertadores para un club argentino (CONMEBOL, ángulo club no probado), cuánto costó el papamóvil de fabricación argentina (Clarín 31/10; sin documento oficial), costo de los siniestros viales (ANSV); empresas (cupo cubierto hoy por Boldt): Banco Macro recompra hasta $160.000 M (HR CNV 28/10 y 30/10; documento completo, sin pregunta de plata), Ternium Argentina 9M26 (solo carta Art. 63), Pluspetrol fusión (sin cifras), Molinos-Ayudín (sin precio), Tango Energy asamblea extraordinaria (CNV 30/10, sin leer); portadas: compras del BCRA en octubre US$1.395 M (infobae, La Nación; sin contraste), refinanciaciones del Banco Nación -55,4% en octubre (La Nación, ámbito; una sola fuente), extracciones de efectivo en mínimo (infobae; una sola fuente), recaudación de octubre (ARCA publica el 02/11), Binance (sin dato argentino), pago de casi US$900 M al FMI en noviembre (TN; cubierto el 31/10 06:30); calendario: comercio exterior ICA 3T (03/11) y EPH (04/11). clarin.com y tn.com.ar leídos por curl; pregunta.json ya era de hoy.",
       "fecha": "2026-10-31",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto gasta Banco Macro en recomprar sus propias acciones? (EMPRESAS, hechos relevantes CNV del 28/10/2026 AE0BEF8E y del 30/10/2026 CA2AEE2A; 6-K SEC del 28/10; infobae 30-31/10 «Banco Macro anunció una recompra de acciones propias por hasta 160.000 millones de pesos») / programa del 28/10/2026: hasta $160.000.000.000, 20.000.000 acciones clase B (3,13% de 639.413.408), precio máximo $10.700, 45 días; 30/10: 503.318 acciones a $9.956,2011 = $5.011.135.210 (3,1% del tope; rango BYMA del día 9.825-10.140, Yahoo); programa del 08/10/2025 (20-F 2025, ítem 16.E y nota 41): tope $225.000 M, 30 M acciones, $7.500, compró 23.107 por $171.727.150 (x21,8); dividendo 2026 3 cuotas de $49.033.753.984,66 = $147.101 M; ganancia 2T26 $206.800 M (moneda jun-26); exceso de capital $4,10 billones; FGS-ANSES 29,76%",
+      "angulo": "Corrida programada del 01/11/2026 00:30, primera candidata probada (cupo de empresas: hoy no había nota de EMPRESAS): tamaño del programa contra el de 2025, contra el dividendo y la ganancia, y cuál de los dos topes manda",
+      "fecha": "2026-11-01",
+      "estado": "en_cola",
+      "id": "2026-11-01-banco-macro-recompra-acciones-160000-millones"
+    },
+    {
+      "tema": "descartes de la corrida programada del 01/11/2026 00:30: no se probaron porque pasó la primera candidata (Banco Macro, recompra de hasta $160.000 M). Lista no probada: empresas: YPF pidió el RIGI para el norte de Vaca Muerta por US$8.729 M (infobae, iProfesional, El Cronista; sin resolución publicada), Pluspetrol fusión por absorción (CNV 30/10, sin cifras), Molinos-Ayudín (precio no informado, ya descartada 28/10); pregunta de plata: cuánto cuesta la pelota del Superclásico (ámbito; precio comercial, sin documento oficial), cuánto se cobra si se trabaja el feriado del papa del 9/11 (sin cifra propia); portadas: compras del BCRA en octubre US$1.395 M (infobae, iProfesional; sin contraste), recaudación de octubre (ámbito; ARCA publica el 02/11), patentamientos de octubre -12,8% (infobae; sin estadística oficial del mes), Plantium-Gentec cierra planta (infobae, La Nación, iProfesional; sin documento), 23.400 empleados menos en empresas del Estado (infobae; fuente no localizada), extracciones de efectivo en mínimo (una sola fuente), Binance (sin dato argentino); calendario: comercio exterior ICA 3T (03/11) y EPH (04/11). clarin.com y tn.com.ar no se pudieron leer con WebFetch.",
+      "angulo": "Registro de la corrida.",
+      "fecha": "2026-11-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }
