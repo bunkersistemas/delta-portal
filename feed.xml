@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 01 Nov 2026 14:52:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 01 Nov 2026 16:59:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los alquileres que se ajustan por ICL suben 31,4% en noviembre: la suba anual más baja desde que existe el índice, y menos que la inflación</title>
+      <link>https://coninteres.com/articulos/2026-11-01-alquileres-icl-noviembre-31-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-01-alquileres-icl-noviembre-31-por-ciento.html</guid>
+      <pubDate>Sun, 01 Nov 2026 17:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Los alquileres que se ajustan por ICL suben este mes menos que los precios. Un contrato que se actualiza una vez por año con el Índice para Contratos de Locación (ICL) del Banco Central y vence su año el 1 de noviembre sube 31,4%; la inflación fue de 33,4% en los doce meses a septiembre. Es además la variación anual más baja del índice desde que se puede medir, en julio de 2021. La razón está en la fórmula: la mitad del ICL son salarios, y los salarios subieron menos que los precios. Un alquiler de $500.000 pasa a $657.188.</description>
+      <ci:numero>+31,4%</ci:numero>
+      <ci:numeroEtiqueta>variación anual del Índice para Contratos de Locación (ICL, BCRA) entre el 01/11/2025 (28,31) y el 01/11/2026 (37,21): suba de un alquiler con ajuste anual por ICL que cumple año el 1 de noviembre; recalculado con la Com. A 7096 desde IPC INDEC y RIPTE: +31,45%; IPC INDEC sep-25 -&gt; sep-26 +33,4%; RIPTE ago-25 -&gt; ago-26 +29,6%; contraste IPCBA alquiler de la vivienda +30,9% i.a. sep-26; menor variación anual del ICL desde jul-2021 (valor previo 31,52% el 01/08/2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-alquileres-icl-noviembre-31-por-ciento.png" length="82083" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-alquileres-icl-noviembre-31-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El sueldo de convenio de un encargado de edificio subió 49,2% en un año, 15,8 puntos más que la inflación: en octubre el básico llega a $1.316.343</title>
       <link>https://coninteres.com/articulos/2026-11-01-encargados-edificio-sueldo-sube-49-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>tractores nacionales vendidos en el primer semestre de 2026 contra el de 2025 (INDEC)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-tractores-importados-nacionales-caen-37.png" length="61695" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-tractores-importados-nacionales-caen-37.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La actividad tendría que crecer 8,6% en septiembre para que el tercer trimestre no caiga: pasó una sola vez desde 2004</title>
-      <link>https://coninteres.com/articulos/2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6.html</guid>
-      <pubDate>Thu, 29 Oct 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Para que el tercer trimestre empate al segundo, que ya cayó 0,6%, la actividad tendría que crecer 8,6% en septiembre: una suba mensual que hubo una sola vez desde 2004, en mayo de 2020. El punto de partida es julio, que cayó 2,8%, y agosto, que creció apenas 0,1%. El BCRA ya escribe "la caída desestacionalizada del tercer trimestre".</description>
-      <ci:numero>8,6%</ci:numero>
-      <ci:numeroEtiqueta>lo que tendría que crecer la actividad en septiembre frente a agosto para que el tercer trimestre no caiga (cálculo propio, EMAE desestacionalizado del INDEC)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6.png" length="70219" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-recesion-tecnica-septiembre-tendria-que-crecer-8-6.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

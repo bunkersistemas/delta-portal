@@ -6958,6 +6958,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánto aumenta el alquiler en noviembre de 2026 con el ICL? (pregunta de plata detrás de las listas de aumentos de noviembre: Clarín 01/11/2026 «Los aumentos que se vienen en noviembre: suben colectivos, prepagas, alquileres...», TN 01/11 «Del transporte público a los peajes...», iProfesional y La Nación) / ICL BCRA (API v4 var. 40, dos decimales): 01/11/2025 28,31 -> 01/11/2026 37,21 (+31,44%); 01/11/2024 19,89 (+42,33% a nov-25), 01/11/2023 6,08 (+227,1% a nov-24); mínimo de la variación anual al día 1 desde jul-2021 (previo 01/08/2026 31,52%; jul-2021 41,0%; pico 01/08/2024 247,6%; 01/01/2025 190,7%); trimestral 6,3% (35,01), cuatrimestral 8,7% (34,24), semestral 15,8% (32,13), mensual 1,8% (36,54); $500.000 -> $657.188; IPC INDEC sep 33,4%, ago 33,5%; RIPTE ago 29,6% ($1.530.297,32 -> $1.982.518,19); IPCBA alquiler de la vivienda sep-26 1,5% m, 23,0% acum., 30,9% i.a.; Decreto 70/2023 art. 249 deroga la Ley 27.551",
+      "angulo": "Corrida programada del 01/11/2026 16:30, primera candidata probada (APTA). Ángulo propio: los medios dan el porcentaje suelto; acá, el piso histórico del índice, por qué queda debajo de la inflación (la mitad es RIPTE) y la tabla por frecuencia de ajuste. Camino estadística oficial recalculada con contraste: (1) serie diaria del BCRA; (2) recálculo día por día con el método de la Com. A 7096 (factor diario ((IPC j-2/j-3) x 0,5 + (RIPTE j-2/j-3) x 0,5)^(1/k) del 17 al 16) con IPC INDEC sh_ipc_divisiones y RIPTE de la SSS: 1,31453 vs 1,31438 publicado (0,015 pp, redondeo), 37,214 vs 37,21; año previo 42,35% vs 42,33% (_privado/icl/exacto.py); (3) contraste independiente IPCBA alquiler de la vivienda 30,9% i.a. NO afirmado: cuántos contratos usan el ICL (optativo desde el DNU 70/2023, sin registro), que la Ley 27.551 lo hiciera obligatorio (infoleg no respondió con el texto), suba de contratos por IPC u otros índices.",
+      "fecha": "2026-11-01",
+      "estado": "en_cola",
+      "id": "2026-11-01-alquileres-icl-noviembre-31-por-ciento",
+      "archivo": "cola/2026-11-01-alquileres-icl-noviembre-31-por-ciento.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 01/11/2026 16:30: no se probaron porque pasó la primera candidata (alquileres por ICL en noviembre, BCRA + Com. A 7096 + IPCBA). Lista no probada: pregunta de plata: pensión no contributiva por invalidez en noviembre (ámbito 01/11; cubierta 27/09 y 28/10, solo cambia el monto), costo del operativo de seguridad del Superclásico Boca-River de hoy (sin documento con cantidad de efectivos ni costo), cuánto se cobra si se trabaja el feriado del papa (TN; regla de la LCT sin cifra ancla nueva, frenada el 10/10), ranking de municipios para abrir un negocio (El Cronista 01/11; índice FÁCIL de IDESA-BID, un solo estudio sin método publicado a mano); calendario: nada hoy (domingo; próximo: ICA trimestral el 03/11); empresas (sin cupo: Banco Macro ya publicada hoy): Pluspetrol acuerdo preliminar de fusión por absorción (CNV 30/10), Tango Energy asamblea extraordinaria (CNV 30/10), Agroindustrias La Española aviso de ON (CNV 30/10), Celulosa Argentina información judicial (CNV 30/10); portadas: exportaciones de carne récord en nueve meses (Clarín, ámbito; carne cubierta 20/07, 29/10 y 31/10), ventas de autos en baja por séptimo mes (Clarín, infobae; ACARA y DNRPA no independientes), inmobiliario rural para infraestructura (Clarín; el anuncio hallado de Frigerio es de enero de 2025), FMI US$900 M (TN; cubierta 31/10), Binance (sin dato argentino). clarin.com y tn.com.ar leídos con curl; pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }
