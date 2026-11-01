@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 31 Oct 2026 21:09:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 23:02:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Senado gastó $4.014 millones en pasajes y viáticos en el primer semestre, 49,7% más que en 2025 y por encima de la inflación, mientras Diputados subió 28,9%</title>
+      <link>https://coninteres.com/articulos/2026-10-31-senado-pasajes-4014-millones-semestre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-senado-pasajes-4014-millones-semestre.html</guid>
+      <pubDate>Sat, 31 Oct 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El gasto del Senado en viajes subió más que los precios; el de Diputados, menos. Entre enero y junio de 2026 el Senado devengó $4.014 millones en pasajes y viáticos, según Presupuesto Abierto: 49,7% más que en el mismo semestre de 2025, cuando los precios subieron 32,9%. Descontada la inflación, 13,7% más, aunque todavía por debajo de 2023 y 2024. En marzo su crédito para pasajes ya había pasado de $5.220 a $7.620 millones. Y los tramos aéreos a nombre de los senadores casi no cambiaron: 2.050 contra 2.018.</description>
+      <ci:numero>$4.014 millones</ci:numero>
+      <ci:numeroEtiqueta>pasajes y viáticos devengados por el Senado de la Nación, enero a junio de 2026. Presupuesto Abierto crédito mensual 2026 (act. 14/10/2026), servicio 312, inciso 3, principal 7, meses 1-6: $4.013,96 M (pasajes 3.817,86 + viáticos 196,10); 1S25 $2.680,68 M (+49,74%). Recalculo: crédito anual 2026 (act. 12/10) pasajes devengado ene-sep 6.162,02 = suma mensual. Contraste: ejecución propia del Senado (Dirección de Contaduría) 1T26 pasajes y viáticos $2.153.775.596 (pasajes 2.036.286.319, viáticos 117.489.277) = PA ene-mar al peso; 1S23 552.634.955, 1S24 2.057.771.088, 1S25 2.680.683.118 y pasajes 2025 6.495.859.139 coinciden al peso con PA; 1T25 1.055.326.380. 2T26 del Senado no publicado al 31/10/2026. Crédito pasajes 2026: inicial 5.220.000.000, vigente 7.620.000.000 (+46%) en ambas fuentes. IPC INDEC nacional promedio ene-jun 2026/2025 +32,87%. Real (pesos jun-26): 2023 4.567,6; 2024 4.349,4; 2025 3.731,3; 2026 4.241,8 (+13,7% vs 2025; -2,5% vs 2024; -7,1% vs 2023). Diputados (HCDN propia) 6.026,51 vs 4.676,24 = +28,9%. Por banca: 55,7 M (72) vs 23,4 M (257). Viajes nacionales Senado 1S26: 2.050 tramos (1S25 2.018, +1,6%), 65 de 72 senadores actuales con tramos + 1 ex senador; máx Espínola 58, Rojas Decut 55, Arce y Cervi 51; BUE-NQN 191; 7 sin BUE. Ene-sep pasajes 6.162,02 = 80,9% del vigente y 94,9% de 2025. Camino: estadística oficial recalculada con contraste; dos fuentes coinciden en todo período publicado por ambas.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-senado-pasajes-4014-millones-semestre.png" length="95562" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-senado-pasajes-4014-millones-semestre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Cámara de Diputados gastó $6.026 millones en pasajes en el primer semestre, y 97 de sus 257 diputados eligieron menos pasajes a cambio de dinero</title>
       <link>https://coninteres.com/articulos/2026-10-31-diputados-pasajes-6026-millones-semestre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>sueldo básico bruto de Christine Lagarde como presidenta del BCE en 2025, según las cuentas anuales 2025 del BCE (nota 28 "Staff costs", auditadas por Forvis Mazars, 17/02/2026); 2024 €466.092 (+5,6%), 2023 €444.984, 2022 €427.560 (+15,1% en tres años). Representación 21% = €103.363 (total €595.567) más residencia sin valor publicado. Coherencia: 2024 igual en cuentas 2024 y 2025, 2023 igual en cuentas 2023 y 2024; suma del Comité Ejecutivo 492.204+421.908+4x351.576 = €2.320.416 = total publicado (2024: €2.197.332). Carta de Lagarde a eurodiputados 20/02/2026: componentes públicos en cuentas e informe anual; BIS CHF 130.457 en 2025 (≈€139.224 al promedio 2025 del BCE 0,93703). Pesos: BCRA 28/10/2026 EUR $1.717,788 (pase 1,114; BCE 1,1133, -0,06%): básico anual $845.502.125, mensual €41.017 = $70.458.510 = 35,5 RIPTE de agosto ($1.982.518,19). Renuncia: comunicado BCE 29/10/2026 (deja el cargo el 07/02/2027). Camino: documento auditado de quien paga + recálculo + carta de la titular; prensa (Bloomberg) solo reproduce.</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.png" length="93197" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-lagarde-sueldo-bce-cuanto-cobra.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina pagó US$867 millones por el gas licuado que importó en 2026, 43% más que en todo 2025 aunque trajo 2,5% menos: cada tonelada costó 46% más</title>
-      <link>https://coninteres.com/articulos/2026-10-29-gnl-importado-867-millones-tonelada-mas-cara.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-29-gnl-importado-867-millones-tonelada-mas-cara.html</guid>
-      <pubDate>Thu, 29 Oct 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En 2026 la Argentina trajo menos gas natural licuado que en 2025 y lo pagó más caro. Entre enero y septiembre importó 946.044 toneladas por US$867,4 millones con flete y seguro, según la base de comercio exterior del INDEC: 42,6% más que en todo 2025, con 2,5% menos gas. La diferencia la hizo el precio: la tonelada costó US$916,9, 46,4% más que un año antes. El gasto y el precio son los más altos desde 2023. Al precio de 2025, la cuenta habría sido US$274,8 millones menor.</description>
-      <ci:numero>US$867 M</ci:numero>
-      <ci:numeroEtiqueta>lo que pagó la Argentina, con flete y seguro (CIF), por el gas natural licuado importado entre enero y septiembre de 2026 (NCM 2711.11.00, base de comercio exterior del INDEC: 946.044.403 kg, US$867.424.794 CIF, US$815.041.634 FOB). 2025 completo: 970.782.576 kg, US$608.085.378 CIF (+42,6%; kg -2,5%); US$/t CIF 916,9 vs 626,4 (+46,4%); máximo previo comparable: 2023 US$1.799,9 M y US$950,2/t. Contrastes: EIA, exportaciones de GNL de EE.UU. a la Argentina 2025 -51,1% (INDEC origen EE.UU. -45,5%), abr-jul 2026 vs 2025 -41,0% (INDEC -39,4%); Banco Mundial, gas natural Europa jun-ago 2026 vs 2025 +54,6% (INDEC US$/t CIF jun-ago +48,5%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-29-gnl-importado-867-millones-tonelada-mas-cara.png" length="100757" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-29-gnl-importado-867-millones-tonelada-mas-cara.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
