@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-01T16:59:57-03:00",
+    "actualizado": "2026-11-01T18:57:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-01-casarse-registro-civil-ciudad-cuanto-cuesta",
+      "titulo": "Casarse con el Registro Civil fuera de sus sedes cuesta $472.690 en la Ciudad: subió 30,1% en un año y el último salto, en octubre, fue de 8,7%",
+      "bajada": "En un año, la ceremonia de casamiento que el Registro Civil porteño hace fuera de sus sedes subió 30,1%, un poco menos que la inflación de 33,4%. Pero en octubre dio el salto más grande de las seis actualizaciones desde julio de 2025: 8,7%. Desde el 1 de octubre de 2026, casarse en un domicilio o en un lugar emblemático de la Ciudad cuesta $472.690, son 480 unidades tarifarias de la ley tarifaria porteña. Hace un año costaba $363.206.",
+      "titulo_busqueda": "¿Cuánto cuesta casarse por civil en la Ciudad de Buenos Aires?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$472.690",
+      "numero_label": "ceremonia de matrimonio fuera de las sedes del Registro Civil porteño (domicilio privado o lugar emblemático), oct-dic 2026. Ley 6.928 (arancelaria 2026, separata BO CABA 7269), anexo art. 5 punto 1.5.3: 480 UT; punto 1.4 testigos no obligatorios 20,93 UT. Res. Conj. 3/SSHA/26 (BO 24/09/2026) art. 1: UT $984,77 oct-dic 2026. 480 x 984,77 = 472.689,60; 20,93 x 984,77 = 20.611,24. Contraste: páginas oficiales de los trámites de domicilios privados y lugares emblemáticos cobran $472.690 y $20.610 (redondeo a la decena); versión del 28/09/2025 en el Internet Archive: $344.630 y $15.030 = 480 y 20,93 x UT jul-sep 2025 $717,98 (344.630,40 y 15.027,32). Ley 6.806 (2025): mismas 480 y 20,93 UT. Serie UT: 670,95 (abr-jun 25, Res. 1/SSHA/25 citada en Res. 2/SSHA/25), 717,98 (Res. 2/SSHA/25), 756,68 (Res. 3/SSHA/25), 807,23 (Res. 4/SSHA/25), 858,32 (Res. 1/SSHA/26), 906,12 (Res. 2/SSHA/26), 984,77. Variaciones: +7,01, +5,39, +6,68, +6,33, +5,57, +8,68% (la mayor de las seis desde jul-25). Anual oct-dic 25 -> oct-dic 26: 363.206,40 -> 472.689,60 = +30,14%. IPC INDEC nacional (serie_ipc_divisiones.csv) sep-25 9.384,0922 -> sep-26 12.514,1508 = +33,35%; jun-26 11.826,4103 -> sep-26 = +5,82%; ceremonia actualizada por IPC = 484.353,69 (estimado, ~$11.660 más). Camino: documento oficial recalculado con contraste.",
+      "fecha": "2026-11-01",
+      "hora": "19:00",
+      "archivo": "articulos/2026-11-01-casarse-registro-civil-ciudad-cuanto-cuesta.html",
+      "verificacion": "verificada",
+      "fuentes": 14,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-11-01-alquileres-icl-noviembre-31-por-ciento",
       "titulo": "Los alquileres que se ajustan por ICL suben 31,4% en noviembre: la suba anual más baja desde que existe el índice, y menos que la inflación",

@@ -6974,6 +6974,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánto cuesta casarse por civil en la Ciudad de Buenos Aires? (pregunta de plata detrás de iProfesional 01/11/2026 «Cuánto cuesta casarse en Argentina y por qué el valor inicial puede quedarse corto») / ceremonia fuera de las sedes del Registro Civil porteño: 480 UT de la Ley 6.928 x UT $984,77 (Res. 3/SSHA/26) = $472.690 en oct-dic 2026; +30,1% contra oct-dic 2025 ($363.206), IPC INDEC sep/sep 33,4%; salto trimestral de octubre 8,7%, el mayor de las seis actualizaciones desde jul-2025; testigo adicional 20,93 UT = $20.610; en las sedes la ley no fija arancel",
+      "angulo": "Corrida programada del 01/11/2026 18:30, primera candidata probada (APTA). Ángulo propio: los medios hablan de la fiesta; acá, el arancel oficial exacto, de qué norma sale, la serie trimestral de la UT y la comparación con la inflación. Camino documento oficial recalculado con contraste: ley tarifaria x resolución de la UT = precio de las dos páginas oficiales de trámite, y la misma regla cierra con la página de sep-2025 en el Internet Archive.",
+      "fecha": "2026-11-01",
+      "estado": "publicada",
+      "articulo_id": "2026-11-01-casarse-registro-civil-ciudad-cuanto-cuesta"
+    },
+    {
+      "tema": "descartes de la corrida programada del 01/11/2026 18:30: no se probaron porque pasó la primera candidata (casarse por civil en la Ciudad, Ley 6.928 + Res. 3/SSHA/26). Lista no probada: pregunta de plata: empleadas domésticas en noviembre (iProfesional; escala cubierta 25/09, solo cambia el mes), paritaria de empleados de concesionarias (iProfesional; sin acta homologada a mano), pensión no contributiva por discapacidad en noviembre (ámbito; cubierta 27/09 y 28/10), costo del operativo de la visita del papa en Luján (Clarín/Cronista; cubierta 12/10 y 30/10, sin documento nuevo); empresas (sin cupo: Banco Macro ya publicada hoy): Pluspetrol acuerdo preliminar de fusión por absorción de PNB y PCN (CNV 29/10; reorganización interna sin montos, efectos 01/01/2027), Celulosa Argentina información judicial (CNV 30/10; prórroga de la intervención en el concurso de Forestadora Tapebicuá, sin cifras), Banco del Sol (informe de comisión fiscalizadora, rutina); calendario: nada hoy (domingo; próximo ICA trimestral el 03/11); portadas: Binance (sin dato argentino), Brasil y el real (sin documento propio), ventas de autos en baja (frenada antes, ACARA y DNRPA no independientes), aumentos de noviembre (colectivo, subte, taxi, luz, gas, prepagas, alquileres ya cubiertos). clarin.com y tn.com.ar leídos con curl; pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-01",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }
