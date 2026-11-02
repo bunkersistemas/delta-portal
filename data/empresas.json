@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-02T18:30",
+  "generado": "2026-11-02T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3588018",
+      "fuente": "CNV",
+      "fecha": "2026-11-02T18:47",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICIÓN DE ACCIONES PROPIAS EN LOS TÉRMINOS DEL ART. 84 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/982271D0-3ED1-443C-986E-F8631DA966C9"
+    },
     {
       "id": "cnv-3587931",
       "fuente": "CNV",
@@ -1124,6 +1133,7 @@
     "sec-0001104659-26-120214": "2026-10-29",
     "sec-0001104659-26-120635": "2026-10-30",
     "sec-0001104659-26-120754": "2026-11-02",
+    "sec-0001104659-26-121483": "2026-11-02",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
@@ -1150,6 +1160,10 @@
     "sec-0001292814-26-005068": "2026-10-30",
     "sec-0001292814-26-005072": "2026-10-30",
     "sec-0001292814-26-005114": "2026-11-02",
+    "sec-0001292814-26-005118": "2026-11-02",
+    "sec-0001292814-26-005120": "2026-11-02",
+    "sec-0001292814-26-005122": "2026-11-02",
+    "sec-0001292814-26-005124": "2026-11-02",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002070": "2026-10-05",
     "sec-0001554855-26-002088": "2026-10-09",

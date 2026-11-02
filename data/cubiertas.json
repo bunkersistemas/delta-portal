@@ -7177,6 +7177,20 @@
       "fecha": "2026-11-02",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "¿cuánto puede cobrar un jubilado para viajar gratis en el subte? (pregunta de plata detrás de infobae, TN y El Cronista 02/11/2026: desde hoy los jubilados porteños validan el subte gratis con el DNI, Ley 6.966 que modifica la 6.817) / tope nov-26 2,5 x $444.158,46 (Res. ANSES 304/2026) = $1.110.396,15; la prensa cita ~$1.087.000; BESS sep-26 cuadro 2.2.6: 77,0% del SIPA debajo del tope de sep ($1.071.583), jub sin moratoria sola 47,1%, jub+pension 59,0%; EPH 1T-2026 75,3%",
+      "angulo": "Corrida programada del 02/11/2026 20:30, primera candidata probada (APTA). Ángulo propio: los medios dan el trámite y un monto desactualizado; acá el tope de noviembre y a cuántos deja adentro, con la diferencia frente al tope de PAMI (1,5 mínimos, nota del 30/10): jubilación + pensión mínimas entran al subte y no al PAMI. Distinta de la nota del subte del 31/10 (tarifa de noviembre). Camino: dos documentos oficiales (Ley 6.817/6.966 + Res. ANSES 304/2026) + estadística oficial recalculada (BESS) con contraste (EPH). Cupo de empresas: ya hubo nota de EMPRESAS hoy (Pampa 19:30).",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-subte-gratis-jubilados-tope-noviembre"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 20:30: no se probaron porque pasó la primera candidata (tope del subte gratis para jubilados porteños). Lista no probada: pregunta de plata: créditos para autos nacionales (plan sin norma publicada; Clarín, TN), aguinaldo de diciembre (La Nación; sin dato nuevo), paritaria de concesionarias (iProfesional; descartada el 31/10); calendario/portales: recaudación de octubre +0,7% real (infobae, La Nación, ámbito, Cronista, Página12, Clarín, TN; dato del día sin ángulo propio), liquidación del agro de octubre US$2.880 M (CIARA-CEC; Clarín, TN, iProfesional, La Nación; superlativo de 25 años sin serie verificada), contrabando US$3.000 M (una sola fuente privada), Benetton-Adecoagro (sin documento ni precio), riesgo país sobre 800 (mercado diario); empresas (ya hubo nota de EMPRESAS hoy): Molinos cierre de venta del acopio y compra de planta (CNV 02/11, sin precio), Newsan fusión (CNV 02/11, sin cifras). pregunta.json ya era de hoy.",
+      "angulo": "registro de candidatas no probadas",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }
