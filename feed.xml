@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 08:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 10:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La vacuna séxtuple que entra al calendario cuesta US$21,12 por dosis en la lista de la OPS: el esquema de un bebé pasa a US$84, entre 6 y 9 veces el actual</title>
+      <link>https://coninteres.com/articulos/2026-11-02-vacuna-sextuple-precio-ops-calendario.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-vacuna-sextuple-precio-ops-calendario.html</guid>
+      <pubDate>Mon, 02 Nov 2026 11:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Ministerio de Salud sumó al Calendario Nacional la vacuna séxtuple acelular, que en una sola inyección reemplaza a la pentavalente y a la antipolio inactivada (IPV) y baja de ocho a cuatro los pinchazos de esas vacunas. La resolución no dice cuánto cuesta. En la lista de precios 2026 del fondo de compras de la OPS, la dosis de séxtuple vale US$21,12 y la de pentavalente, entre US$1,26 y US$1,38. Con los 413.135 nacimientos de 2024, el cambio costaría alrededor de US$30 millones más por año solo en vacunas, según un cálculo estimado de Con Interés. Rige para los nacidos desde el 1 de enero de 2028.</description>
+      <ci:numero>US$21,12</ci:numero>
+      <ci:numeroEtiqueta>precio por dosis de la vacuna séxtuple acelular en la lista 2026 del Fondo Rotatorio de la OPS</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-vacuna-sextuple-precio-ops-calendario.png" length="76700" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-vacuna-sextuple-precio-ops-calendario.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El desempleo rural sube a $420.000 desde noviembre: por el tope, a un peón despedido le paga un tercio de su sueldo y no el 60%</title>
       <link>https://coninteres.com/articulos/2026-11-02-desempleo-rural-renatre-420000-noviembre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte del crédito 2026 de la Ley Brisa devengada al 28/10/2026: Presupuesto Abierto, servicio 311, programa 44, actividad 5, inciso 5.1.4: devengado $9.388,4 M sobre crédito inicial = vigente $9.510,8 M (mensual = anual: ene 913,9, feb 857,6, mar 519,9, abr 670,8, may 1.181,6, jun 573,0, jul -0,3, ago 0, sep 3.519,1, oct 1.152,8); quedan $122,4 M. Contraste: distribución ley de presupuesto 2026 J88 (D26J88) actividad 05 $9.510.798.826, meta 1.710 personas; Ley 27.452 art. 3 (haber mínimo); Res. ANSES 304/2026 haber mínimo nov $444.158,46; 1.710 x 444.158,46 = $759,5 M (16% cubierto). 2025: ini 6.393,5 vig 7.403,7 dev 7.114,7 (ene-oct 5.810,2; 2026 +61,6%); 2024: 1.754,5 / 6.393,5 / 5.192,5; proyecto 2027 P27J88 $18.227 M, meta 1.810</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.png" length="99027" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los argentinos compraron US$2.471 millones en dólar billete en septiembre y ya pasaron los US$20.000 millones en 2026</title>
-      <link>https://coninteres.com/articulos/2026-10-30-dolares-personas-humanas-septiembre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-dolares-personas-humanas-septiembre.html</guid>
-      <pubDate>Fri, 30 Oct 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Septiembre se pareció a agosto en el total, pero no en la forma. Según el informe cambiario que el Banco Central publicó hoy, compraron billetes menos personas, 1,6 millones contra 1,7 millones, y cada una puso en promedio más: unos US$1.810, contra unos US$1.680. En nueve meses, la compra neta de las personas suma US$20.015 millones.</description>
-      <ci:numero>US$2.471 M</ci:numero>
-      <ci:numeroEtiqueta>compra neta de dólar billete de las personas humanas en septiembre de 2026 (BCRA)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-dolares-personas-humanas-septiembre.png" length="67331" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-dolares-personas-humanas-septiembre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

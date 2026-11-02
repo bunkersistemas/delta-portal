@@ -7111,6 +7111,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánto cuesta la vacuna séxtuple que entra al calendario? (pregunta de plata detrás de El Cronista 02/11/2026 'Argentina sumará una nueva vacuna al calendario obligatorio' y Res. MS 1567/2026, BO 02/11/2026, aviso 349937: séxtuple acelular DTPa-Hib-HB-IPV a los 2, 4, 6 y 15-18 meses para nacidos desde 01/01/2028, reemplaza 4 pentavalentes + 4 IPV) / OPS Fondo Rotatorio precios 2026 (act. 26/06/2026) ítem 12 DTaP-IPV-HepB-Hib líquida US$21,12 (2024 y 2025: 21,54); pentavalente 1,26-1,38; IPV 1,18-1,98; séxtuple célula entera 4,50; esquema por chico 9,76-13,44 -> 84,48 (6,3-8,7 veces); DEIS nacidos vivos 2024 413.135 -> +US$29,3-30,9 M por año (ESTIMACIÓN), 20,4-21,5% de las vacunas compradas en 2025 ($178.687,5 M / A3500 prom. 1.244,26 = US$143,6 M)",
+      "angulo": "Corrida programada del 02/11/2026 10:30, primera candidata probada (APTA). Ángulo propio: los medios cuentan el cambio de calendario; nadie dice cuánto cuesta ni que la acelular elegida vale 4,7 veces la séxtuple de célula entera que compra Uruguay. Distinto de 2026-10-04 (gasto total en vacunas 2025). Verificación: documento (lista OPS 2026 en castellano e inglés, mismo valor; serie 2024-2025) + recálculo propio + contraste independiente (Uruguay, resolución MSP 12/06/2026: 140.000 dosis de hexavalente de célula entera a US$4,50 = lista; INS Perú, evaluación de costo-minimización 2025: usó US$21,54 del Fondo Rotatorio y halló el esquema con séxtuple más caro, S/294,87 -> S/545,94 por niño). Costo anual marcado como estimado (precio indicativo FCA, sin flete; la Argentina no informó vía ni precio de compra).",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-vacuna-sextuple-precio-ops-calendario",
+      "archivo": "cola/2026-11-02-vacuna-sextuple-precio-ops-calendario.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 10:30: no se probaron porque pasó la primera candidata (precio de la vacuna séxtuple, Res. MS 1567/2026 + lista de precios OPS). Empresas (cupo: hoy no hay nota de EMPRESAS; razón para no tomarlas primero: ningún documento nuevo del bloque trae una cifra ancla, leídos uno por uno): Ternium Argentina HR Art. 72 del 30/10 (venta de acero a SIAT en 2027 sin monto ni volumen), Tango Energy asamblea del 30/10 (cambio de auditor PwC -> Pistrelli, sin cifras), Celulosa Argentina 'información judicial' 30/10 (prórroga de la intervención informante en el concurso de Forestadora Tapebicuá hasta el 07/04/2027, sin montos), Banco del Sol HR 29/10 (informe de la comisión fiscalizadora sobre libros digitales), Pluspetrol fusión (sin montos), Agroindustrias La Española ON (tasa a licitar), BYMA y A3 recompras (formato ya cubierto). Pregunta de plata no probadas: crédito al sector privado como % del PBI contra la región (Clarín 02/11 'Argentina, el país donde el crédito sigue siendo un lujo'; BCRA + INDEC + Banco Mundial; nunca cubierta como comparación internacional), Fondo Solidario de Redistribución de las obras sociales (sin noticia fresca localizada), cierre de telos en CABA (iProfesional; sin dato oficial), Colapinto sancionado en México (sin dato oficial de plata), Superclásico y visita del papa (descartadas antes). Portales: Binance (sin documento local), agro liquidó US$2.880 M en octubre (CIARA-CEC, una sola fuente privada), inflación de octubre estimada (sale el 12/11), riesgo país y elecciones de EE.UU. (mercado diario), Cyber Monday, aumentos de noviembre y FMI US$800 M (ya publicadas), autos -7 meses y motos (sin estadística oficial de octubre), IOSFA despidos (frenada antes por falta de datos), hipotecarios con más fondos a bancos (cubierto 4 veces), consumo de cerdo (publicada 23/07). Calendario: ICA 3T sale el 03/11. clarin.com y tn.com.ar leídos por curl. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas no probadas para que una corrida siguiente pueda retomarlas.",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }

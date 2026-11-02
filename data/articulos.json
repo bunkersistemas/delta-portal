@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-02T08:57:37-03:00",
+    "actualizado": "2026-11-02T10:42:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-02-vacuna-sextuple-precio-ops-calendario",
+      "titulo": "La vacuna séxtuple que entra al calendario cuesta US$21,12 por dosis en la lista de la OPS: el esquema de un bebé pasa a US$84, entre 6 y 9 veces el actual",
+      "bajada": "El Ministerio de Salud sumó al Calendario Nacional la vacuna séxtuple acelular, que en una sola inyección reemplaza a la pentavalente y a la antipolio inactivada (IPV) y baja de ocho a cuatro los pinchazos de esas vacunas. La resolución no dice cuánto cuesta. En la lista de precios 2026 del fondo de compras de la OPS, la dosis de séxtuple vale US$21,12 y la de pentavalente, entre US$1,26 y US$1,38. Con los 413.135 nacimientos de 2024, el cambio costaría alrededor de US$30 millones más por año solo en vacunas, según un cálculo estimado de Con Interés. Rige para los nacidos desde el 1 de enero de 2028.",
+      "titulo_busqueda": "¿Cuánto cuesta la vacuna séxtuple que entra al calendario de vacunación?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$21,12",
+      "numero_label": "precio por dosis de la vacuna séxtuple acelular en la lista 2026 del Fondo Rotatorio de la OPS",
+      "fecha": "2026-11-02",
+      "hora": "11:30",
+      "archivo": "articulos/2026-11-02-vacuna-sextuple-precio-ops-calendario.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-11-02-desempleo-rural-renatre-420000-noviembre",
       "titulo": "El desempleo rural sube a $420.000 desde noviembre: por el tope, a un peón despedido le paga un tercio de su sueldo y no el 60%",
