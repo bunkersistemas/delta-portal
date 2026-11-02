@@ -7027,6 +7027,21 @@
       "fecha": "2026-11-01",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "¿cuántas camionetas le vende la Argentina a Brasil? (pregunta de plata detrás de la caída del real tras las elecciones brasileñas: Infobae 01/11/2026 'Devaluación del real: ¿es una señal de alerta para el peso argentino?' con el IEB: la pick-up es el principal producto exportado a Brasil; La Nación 01/11 'Las elecciones en Brasil y su impacto en la economía argentina'; iProfesional 'Por qué la caída del real brasileño no condenará a la Argentina'; Clarín e infobae 01/11 sobre ventas de autos en baja) / INDEC exportaciones NCM 8704.21+8704.31 ene-sep 2026 US$4.202,4 M y 314.749 t (+23,2% y +20,9%), máximo ene-sep desde 2002 (previo 2023 US$3.515,1 M y 286.388 t); 8704.21.90 US$3.977,0 M = ICA sep-26 cuadro 31; Brasil US$2.472,5 M (58,8%), 25,3% de lo exportado a Brasil (ICA cuadro 35 US$9.788,8 M); Perú US$431,5 M (x2,5), Chile US$318,8 M; contraste UN Comtrade Brasil ene-ago 2026 US$2.192,8 M y 71.792 unidades",
+      "angulo": "Corrida programada del 02/11/2026 00:30, primera candidata probada (APTA). RETOMA con otro contraste la descartada el 27/10/2026 ('¿cuántos autos le vende la Argentina a Brasil?', frenada porque ComexStat no respondía por certificado): esta vez el contraste es UN Comtrade (datos que reporta Brasil), que coincide con el INDEC en 0,5% en ene-ago 2026 y da unidades. Ángulo propio: récord de la serie en dólares y en toneladas y el peso de la pick-up en lo que se le vende a Brasil, justo cuando se discute el real barato. Camino: estadística oficial recalculada (base INDEC = ICA cuadro 31) + contraste independiente (aduana de Brasil).",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-camionetas-exportacion-record-brasil",
+      "archivo": "cola/2026-11-02-camionetas-exportacion-record-brasil.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 00:30: no se probaron porque la primera candidata (exportación de camionetas y Brasil) pasó la verificación. Empresas (cupo: hoy no hay nota de EMPRESAS; descartadas antes de investigar por falta de cifra ancla en documento): Ternium Argentina 9M26 (sigue solo la síntesis Art. 63, sin estados financieros; el HR Art. 72 de venta a SIAT para 2027 no tiene monto), Pluspetrol fusión por absorción de PNB y PCN (sin montos; efectos 01/01/2027), Celulosa Argentina/Forestadora Tapebicuá (prórroga de la intervención informante hasta el 07/04/2027, sin cifras), Agroindustrias La Española (aviso de ON PyME garantizada por hasta $700 M a tasa variable, sin resultado de colocación), Banco Comafi (prospecto de 6 CEDEAR de ETFs, sin cifra ancla), Tango Energy (cambio de auditor, sin cifra). Pregunta de plata: sueldo de empleada doméstica en noviembre (Res. CNTCP 6 y 7/2026 ya usadas el 25/09, sin escala nueva), impuesto a la nafta postergado a diciembre (Decreto 1305/2026, BO 30/10, no fija montos por litro; mismo motivo que el 01/10), peajes AUSA de noviembre (frenada el 31/10), coparticipación de Salta (Página12; coparticipación ya publicada el 01/10 y descartada el 31/10). Portales: hackeo de Binance (infobae, Clarín, Página12; sin documento local), extracciones de efectivo en mínimo (infobae; BCRA sin contraste independiente), patentamientos de octubre (infobae, Clarín; sin estadística oficial de octubre todavía), Cyber Monday (sin dato oficial). Calendario: ICA precios y cantidades del 3T (sale el 03/11).",
+      "angulo": "Registro de candidatas no probadas para que una corrida siguiente pueda retomarlas.",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }

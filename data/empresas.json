@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-01T22:30",
+  "generado": "2026-11-02T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -955,52 +955,6 @@
       "tipo": "hecho",
       "descripcion": "INFORMACIÓN FINANCIERA - YPF - HECHO RELEVANTE - INFORME DE RECOMPRA DE ONS PROPIAS",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/46DCF6D5-AC3D-43B2-84C7-AD66802EA7D1"
-    },
-    {
-      "id": "cnv-3576088",
-      "fuente": "CNV",
-      "fecha": "2026-10-02T15:26",
-      "entidad": "ALUAR ALUMINIO ARGENTINO",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE RESPUESTA CONSULTA ACCIONISTA ANSES S. ASAMBLEA GOYE - 14.10.2026",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7E6FB4C0-0BC8-4027-A23E-D85E1AB49F3F"
-    },
-    {
-      "id": "cnv-3575946",
-      "fuente": "CNV",
-      "fecha": "2026-10-02T13:32",
-      "entidad": "CAJA DE VALORES S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV Y BYMA DIGITAL 8605 OCTUBRE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/52135B16-7471-494A-832B-A11C563F9705"
-    },
-    {
-      "id": "cnv-3575945",
-      "fuente": "CNV",
-      "fecha": "2026-10-02T13:32",
-      "entidad": "CAJA DE VALORES S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV Y BYMA DIGITAL 8603 OCTUBRE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/C7BCE07B-67C3-4850-8CF8-FD388B9416F2"
-    },
-    {
-      "id": "cnv-3575943",
-      "fuente": "CNV",
-      "fecha": "2026-10-02T13:32",
-      "entidad": "CAJA DE VALORES S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV 8575",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FC4FB13C-4B86-4EC4-B72D-EE2D04E39DE8"
-    },
-    {
-      "id": "sec-0001292814-26-004838",
-      "fuente": "SEC",
-      "fecha": "2026-10-02",
-      "entidad": "BBVA Argentina",
-      "ticker": "BBAR",
-      "tipo": "balance",
-      "descripcion": "6-K Financial Statements as of June 30, 2026. SIGNATURES Pursuant to the requirements of the Securities Exchange Act of 1934, the registrant has duly caused this report to be signed",
-      "url": "https://www.sec.gov/Archives/edgar/data/913059/000129281426004838/bbarfs2q26_6k.htm"
     }
   ],
   "anuncios": [
@@ -1099,7 +1053,6 @@
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
-    "sec-0001292814-26-004834": "2026-10-02",
     "sec-0001292814-26-004854": "2026-10-05",
     "sec-0001292814-26-004860": "2026-10-07",
     "sec-0001292814-26-004862": "2026-10-07",

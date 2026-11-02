@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-01",
-  "pregunta": "En noviembre de 2025 el viaje en subte con SUBE registrada costaba $1.157. En los doce meses a septiembre de 2026 la inflación fue de 33,4%. Si el boleto hubiera subido exactamente lo mismo que la inflación, ¿cuánto costaría hoy, en vez de los $1.887 que cuesta?",
+  "fecha": "2026-11-02",
+  "pregunta": "Un alquiler de $500.000 se ajusta una vez por año por el ICL y el contrato cumple año el 1 de noviembre. El ICL del BCRA pasó de 28,31 el 01/11/2025 a 37,21 el 01/11/2026. En los doce meses a septiembre la inflación fue de 33,4%. ¿Cuánto pasa a pagar el inquilino?",
   "opciones": [
-    "Unos $1.543: $1.157 más el 33,4% de $1.157",
-    "Unos $1.257: $1.887 menos el 33,4%",
-    "Unos $1.190: $1.157 más 33,4 pesos"
+    "Unos $657.000: $500.000 × 37,21 ÷ 28,31, una suba de 31,4%",
+    "Unos $667.000: $500.000 más la inflación de 33,4%",
+    "Unos $544.500: $500.000 más 8,9 puntos, la diferencia entre 37,21 y 28,31"
   ],
   "correcta": 0,
-  "explicacion": "Un aumento porcentual se calcula siempre sobre el precio de partida: $1.157 × 1,334 = $1.543. Restarle el 33,4% al precio de hoy es un error común, porque el porcentaje se aplica sobre una base más grande y la cuenta no vuelve al punto de partida. Sumar 33,4 pesos confunde puntos porcentuales con pesos. Con la cuenta bien hecha se ve la distancia: el subte cuesta $344 más de lo que costaría si hubiera seguido a la inflación, porque subió 63,1%.",
-  "nota": "articulos/2026-10-31-subte-noviembre-1887-sube-63-por-ciento.html",
-  "leccion": ""
+  "explicacion": "El ICL es un índice: lo que cuenta es cuánto creció, y eso sale de dividir el valor nuevo por el viejo. 37,21 ÷ 28,31 = 1,314, una suba de 31,4%, y por eso el alquiler pasa a unos $657.000. Restar los dos valores (8,9) y tomarlo como porcentaje es un error común: un índice no se mide en por ciento. Tampoco se aplica la inflación directamente, porque el ICL combina la inflación con la evolución de los salarios registrados (RIPTE), que subieron menos: 29,6% en los doce meses a agosto. Por eso esta vez el ajuste quedó por debajo de los precios.",
+  "nota": "articulos/2026-11-01-alquileres-icl-noviembre-31-por-ciento.html",
+  "leccion": "lecciones/inflacion-bolsillo.html"
 }
