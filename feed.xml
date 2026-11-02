@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 14:56:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 16:55:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El bioetanol de la nafta subió 11,3% en 2026 y la nafta, 29,1%: en noviembre el litro de alcohol de caña pasa a $1.104,886</title>
+      <link>https://coninteres.com/articulos/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.html</guid>
+      <pubDate>Mon, 02 Nov 2026 17:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Cuando la nafta saltó 19,5% en marzo y abril, el precio oficial del bioetanol que se le mezcla no se movió. La Secretaría de Energía, que lo fija por resolución todos los meses, lo subió 11,3% entre diciembre de 2025 y septiembre de 2026: menos de la mitad que los combustibles en el surtidor (29,1%) y por debajo de la inflación (23,8%), según el INDEC. La Resolución 306/2026, publicada hoy, le da 2% más para noviembre: $1.104,886 el litro de caña y $1.012,662 el de maíz.</description>
+      <ci:numero>11,3%</ci:numero>
+      <ci:numeroEtiqueta>suba del precio oficial del bioetanol para la nafta entre diciembre de 2025 y septiembre de 2026 (resoluciones de la Secretaría de Energía); los combustibles subieron 29,1% (IPC GBA)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.png" length="75471" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La energía trajo US$7.666 millones netos al mercado de cambios en nueve meses, más que en cualquier año entero desde 2003: US$33 por cada US$100 del campo</title>
       <link>https://coninteres.com/articulos/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuota pactada con la ART como % de la masa salarial, promedio de los empleadores asegurados (unidades productivas, sin autoasegurados), julio de 2026. SRT últimos datos de cobertura y financiación: 3,16%, $96.305,8 por trabajador. Recálculo serie histórica según ART (cuadros 1.3/1.4): cuota $819.964.085.324 / masa de las 23 ART y mutuales $25.942.273.963.660 = 3,1607%; con masa total $28.268.655.211.849 (incluye 7 autoasegurados, 905.394 trabajadores) = 2,90%; cuota/8.514.168 trabajadores = $96.305,8. Por tamaño (cuadros 4.3/4.4/4.6): 1 trabajador 6,137% (recalculado igual), más de 5.000 1,88%; ratio 3,27. Serie: jul-24 2,575; jul-25 2,839; jun-26 3,177; último mes &gt;= 3,16 antes de jun-26: nov-2017 3,187 (dic-2017 3,152; máximo de la serie ene-2016 3,521). Contraste independiente SSN datos abiertos, balance a mar-26 (acumulado jul-25 a mar-26), subramos Rs. del Trabajo, cuenta 5.01.01.01.01.01.01.00 primas seguros directos, 22 aseguradoras: $4.165,1 mil M vs SRT cuota pactada UP mismos 9 meses $4.458,8 mil M (-6,6%; con casas particulares 4.511,7, -7,7%).</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-cuanto-cuesta-la-art-de-un-empleado.png" length="82887" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-cuanto-cuesta-la-art-de-un-empleado.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El tope para tener los remedios gratis del PAMI es $666.237 en noviembre, y más de 2,6 millones de jubilados y pensionados cobran más que eso</title>
-      <link>https://coninteres.com/articulos/2026-10-30-pami-remedios-gratis-tope-ingresos-noviembre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-pami-remedios-gratis-tope-ingresos-noviembre.html</guid>
-      <pubDate>Fri, 30 Oct 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El PAMI fija el tope de ingresos para tener los medicamentos sin cargo por subsidio social, pero ni el PAMI ni la ANSES publican a cuánta gente deja afuera. El Boletín Estadístico de la Seguridad Social lo muestra: en septiembre, con el tope de ese mes, 2.686.603 jubilados y pensionados del SIPA, el 44,4%, ya cobraban más. Desde noviembre la raya es de 1,5 haberes mínimos, $666.237,69, y casi todos los que cobran jubilación y pensión a la vez quedan por encima.</description>
-      <ci:numero>$666.237</ci:numero>
-      <ci:numeroEtiqueta>tope de ingresos mensuales de noviembre de 2026 para los medicamentos sin cargo del PAMI por subsidio social: 1,5 haberes mínimos (PAMI, página del trámite, requisito 1) x $444.158,46 (Res. ANSES 304/2026 art. 1, BO 28/10/2026) = $666.237,69; CUD 3x = $1.332.475,38. Contraste: El Cronista 30/10/2026 $666.237. Apoyo: BESS sep-26 cuadro 2.2.6 (beneficiarios titulares del SIPA por intervalo de haber, con refuerzo Dto. 824/2026): total 6.049.974 (108 filas cierran); tope sep 1,5 x 428.633,20 = 642.949,80 cae en 640.000,01-650.000 (16.612); arriba 2.686.603 (44,4%) a 2.703.215 (44,7%); con haber neto de 3% 2.654.858 (43,9%); minimo+refuerzo 498.633,20 = 2.863.569 (47,3%); jub+pension 1.164.773/1.167.003 (99,8%); jub con moratoria sola 288.590/2.979.318 (9,7%); jub sin moratoria sola 1.089.265/1.505.170 (72,4%). Sep-25: tope 480.415,76, arriba 2.611.590/6.052.237 (43,2%). Contraste independiente EPH-INDEC 1T-2026 V2_01_M (PONDERA, sin no respuesta): 46,8% arriba de 1,5 x 349.299,32 (Res. ANSES 381/2025); 45,7-47,3% con topes de 511.000 a 554.000</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-pami-remedios-gratis-tope-ingresos-noviembre.png" length="89580" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-pami-remedios-gratis-tope-ingresos-noviembre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

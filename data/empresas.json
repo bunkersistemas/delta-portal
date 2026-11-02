@@ -1,11 +1,38 @@
 {
-  "generado": "2026-11-02T14:30",
+  "generado": "2026-11-02T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3587808",
+      "fuente": "CNV",
+      "fecha": "2026-11-02T16:14",
+      "entidad": "MOLINOS RÍO DE LA PLATA S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CIERRE ADQUISICIÓN DE ACTIVO INDUSTRIAL.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/68ABC3B4-98A2-4C1C-B69D-BC7D99DAF557"
+    },
+    {
+      "id": "cnv-3587820",
+      "fuente": "CNV",
+      "fecha": "2026-11-02T16:10",
+      "entidad": "MOLINOS RÍO DE LA PLATA S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CIERRE VENTA DE ACOPIO DE CEREALES Y OTROS ACTIVOS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B53E15E2-3D73-4EC5-B8A2-4176A545C3E5"
+    },
+    {
+      "id": "cnv-3587638",
+      "fuente": "CNV",
+      "fecha": "2026-11-02T14:33",
+      "entidad": "NEWSAN S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE INFORMA ACUERDO DEFINITIVO DE FUSIÓN ENTRE NEW PGA S.R.L. Y PILISAR S.A.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/8766C284-A980-4169-9325-BBB3F125CDB2"
+    },
     {
       "id": "cnv-3587479",
       "fuente": "CNV",
