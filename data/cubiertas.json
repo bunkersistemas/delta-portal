@@ -7042,6 +7042,21 @@
       "fecha": "2026-11-02",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "¿cuánto se ahorra comprando en cuotas sin interés en el Cyber Monday? (pregunta de plata detrás del Cyber Monday 2026, 2 al 4/11, CACE; infobae, Clarín y Página12 01-02/11/2026) / valor real de las cuotas con el IPC nacional del INDEC: 6 cuotas de una compra de nov-25 (CM 2025) = $90.639 por cada $100.000, 9,4% menos que el contado (IPCBA 9,0%); 3 cuotas 5,5%; CM 2024 12 cuotas 14,0% (IPCBA 14,8%), 6 cuotas 8,6%; CM 2023 12 cuotas 50,4%; escenario de inflación fija 1,9% mensual: 12 cuotas 11,3%",
+      "angulo": "Corrida programada del 02/11/2026 02:30. Primera candidata probada. Pregunta de plata del día (el Cyber Monday empezó hoy a las 00:00): lo que los portales no dicen es cuánto valen las cuotas sin interés. Ancla CONFIRMADA por el camino de estadística oficial recalculada: IPC del INDEC (serie_ipc_divisiones.csv, informe de septiembre de 2026) + recálculo propio + contraste con el IPCBA del IDECBA. Los escenarios a futuro van marcados como cuentas con inflación fija, no pronósticos.",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-cuotas-sin-interes-cyber-monday-valor-real"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 02:30: no se probaron porque pasó la primera candidata (cuotas sin interés del Cyber Monday contra la inflación, INDEC + IDECBA). Empresas (cupo: hoy no hay nota de EMPRESAS; descartadas con razón, sin cifra ancla en documento): Ternium Argentina 9M26 (lista CNV por CUIT 30516888241 al 02/11: sigue solo la síntesis Art. 62/63, sin estados financieros), Pluspetrol fusión por absorción de PNB y PCN (HR 29/10 leído: reorganización interna sin montos, efectos 01/01/2027), Agroindustrias La Española (aviso de ON PyME garantizada por hasta $700 M a 24 meses y tasa variable, sin resultado de colocación), Banco Comafi (prospecto de 6 CEDEAR de ETF; riesgo de leerse como recomendación), Celulosa Argentina/Forestadora Tapebicuá (prórroga de la intervención informante hasta el 07/04/2027, sin cifras), Tango Energy (cambio de auditor PwC por Pistrelli, sin cifras), Banco del Sol (informe de comisión fiscalizadora, rutina). Pregunta de plata: feriado del papa del 09/11 y si se cobra doble (DNU 1103/2026; el valor del día trabajado depende del divisor del convenio, no verificable a mano), operativo del Superclásico (sin documento del tamaño del operativo), costo del operativo del papa en Luján (descartada varias veces, sin documento nuevo), empleadas domésticas en noviembre (sin escala nueva). Portales: hackeo de Binance (sin documento local), extracciones de efectivo en mínimo (BCRA sin contraste independiente, frenada antes), crédito como lujo en la Argentina (Clarín; crédito/PBI comparado, no probada), ranking de municipios para abrir un negocio (Cronista; fuente sin localizar), patentamientos de octubre motos contra autos (sin estadística oficial del mes), recaudación de octubre (ARCA la publica hoy más tarde). Calendario: ICA precios y cantidades del 3T (sale el 03/11). clarin.com y tn.com.ar leídos por curl (WebFetch los rechaza). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas no probadas para que una corrida siguiente pueda retomarlas.",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }

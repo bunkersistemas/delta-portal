@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 00:52:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 02:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las seis cuotas sin interés del último Cyber Monday terminaron valiendo 9,4% menos que el precio de contado</title>
+      <link>https://coninteres.com/articulos/2026-11-02-cuotas-sin-interes-cyber-monday-valor-real.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-cuotas-sin-interes-cyber-monday-valor-real.html</guid>
+      <pubDate>Mon, 02 Nov 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Las cuotas sin interés valen menos que el precio de contado, porque la inflación achica cada cuota mientras el precio queda fijo. Quien compró en seis cuotas sin interés en el Cyber Monday de noviembre de 2025 pagó $100.000 en pesos, pero esas seis cuotas, medidas con la inflación del INDEC, valían $90.639 en pesos del día de la compra: 9,4% menos que pagar de contado. Con 12 cuotas en el de 2024 la diferencia fue de 14,0%, y en el de 2023, de 50,4%. Con la inflación de septiembre (1,9% por mes), doce cuotas equivaldrían hoy a un 11,3% de descuento: es un cálculo con esa inflación fija, no un pronóstico.</description>
+      <ci:numero>9,4%</ci:numero>
+      <ci:numeroEtiqueta>descuento equivalente frente al contado de seis cuotas sin interés de una compra de noviembre de 2025 (Cyber Monday 2025, 3 al 5/11), cuotas pagadas de dic-25 a may-26, deflactadas con el IPC nacional del INDEC (nov-25 9.841,3581; may-26 11.607,3937; +17,9%): factores 0,9723 0,9451 0,9185 0,8884 0,8661 0,8479, promedio 0,9064 = $90.639 por cada $100.000 (9,36%). Contraste IPCBA (IDECBA): 8,96%. CM 2024 12 cuotas 14,03% (IPCBA 14,79%); CM 2023 12 cuotas 50,43%. Escenario 1,9% mensual fijo: 3/6/12 cuotas 3,7%/6,3%/11,3%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-cuotas-sin-interes-cyber-monday-valor-real.png" length="82175" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-cuotas-sin-interes-cyber-monday-valor-real.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina exportó camionetas por US$4.202 millones en nueve meses, el máximo de la serie del INDEC</title>
       <link>https://coninteres.com/articulos/2026-11-02-camionetas-exportacion-record-brasil.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>caída de los viajes en colectivo con SUBE en el AMBA, sep-25 a sep-26: 233.057.558 -&gt; 206.897.112 usos (Secretaría de Transporte, datos abiertos 'SUBE - Cantidad de transacciones (usos) por fecha', suma propia por línea y día, campo AMBA=SI, TIPO_TRANSPORTE=COLECTIVO). Contraste independiente: AAETA Índice Bondi sep-26, 200,9 M vs 225.379.000 (-10,88%). Por jurisdicción: municipales -17,30%, provinciales -14,88%, nacionales -6,93%, Ciudad -3,42%; prov+muni -15,87% = 19,1 de los 26,2 M perdidos (73%). BCRA Pagos Minoristas sep-26: SUBE julio 292,7 M (-15,1%), misma dirección.</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-colectivo-amba-viajes-caen-11-por-ciento.png" length="88173" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-colectivo-amba-viajes-caen-11-por-ciento.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>YPF Luz facturó 88,5% más con menos energía vendida: ahora compra su propio combustible y casi la mitad de lo que cobra se va en eso</title>
-      <link>https://coninteres.com/articulos/2026-10-30-ypf-luz-ingresos-combustible-nueve-meses.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-ypf-luz-ingresos-combustible-nueve-meses.html</guid>
-      <pubDate>Fri, 30 Oct 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>YPF Luz, la generadora eléctrica de YPF, vendió 2,4% menos energía entre enero y septiembre de 2026 y aun así facturó 88,5% más que un año antes: US$910,7 millones. La diferencia no está en las centrales sino en una regla nueva: desde noviembre de 2025 las generadoras compran su propio combustible, y lo cobran en la tarifa. En sus estados financieros, ese renglón pasó de 17% a 47% de lo que factura. Lo que le queda después de producir, la ganancia bruta, creció 28%.</description>
-      <ci:numero>+88,5%</ci:numero>
-      <ci:numeroEtiqueta>suba de los ingresos en dólares de YPF Energía Eléctrica en ene-sep 2026 contra ene-sep 2025: US$910,7 M vs US$483,3 M (nota de resultados 3T26, HR CNV 27/10/2026 A8B0ADE2, sin auditar; reseña de los EEFF al 30/09/2026, CNV 29/10/2026 5d21da05: US$911 vs 483). EEFF revisados por Deloitte en pesos: $1.328.703 M vs $587.101 M; implícito $1.458,9 y $1.214,9 por US$ vs A3500 promedio diario $1.444,5 y $1.183,2 (1,0% y 2,7%). Energía vendida 11.165 vs 11.442 GWh (-2,4%); 3T26 ingresos 365,5 vs 183,1 (+99,6%) con 3.334 vs 3.684 GWh (-9,5%). Nota 10: combustible, gas, energía y transporte $629.636 M vs $101.296 M = 47,4% vs 17,3% de los ingresos; 71% del aumento de ingresos. Ganancia bruta US$301,9 M vs 235,5 (+28,2%), margen 33,1% vs 48,7%; operativo 261,4 vs 198,9 (+31,5%); neto 203,5 vs 30,1 (impuesto 5,5 vs 110,2); caja operativa 226,4 vs 280,7 (-19,3%). Causa: Res. SE 400/2025 (BO 21/10/2025, desde 01/11/2025). Camino: dos documentos de la empresa + recálculo con el tipo de cambio oficial.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-ypf-luz-ingresos-combustible-nueve-meses.png" length="89993" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-ypf-luz-ingresos-combustible-nueve-meses.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
