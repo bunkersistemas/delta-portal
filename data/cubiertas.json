@@ -7057,6 +7057,29 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuántos cargos ocupados con remuneración tiene cada provincia en 2025? (pregunta de plata detrás de Infobae 02/11/2026) / Tierra del Fuego 139,7 cada mil habitantes (25.422 / 182.003), Córdoba 32,9 (130.135), total 49,8 (2.308.763 de 46.387.098, proyección INDEC 2022-2040); gasto en personal por habitante 2025: Neuquén $5.256.025, Tierra del Fuego $4.770.307, Buenos Aires $843.320, total $1.278.437 ($59,3 billones); gasto medio mensual por cargo Neuquén $3.559.104, total $1.975.850, La Rioja $1.225.318; 2023-2025 total -2.750 (2.311.513 a 2.308.763), Buenos Aires +20.244, Salta -4.356, Santiago del Estero -4.192, Mendoza -4.054; Tierra del Fuego 2019-2025 +33,0% (19.109 a 25.422); EPH 1T-2026 estatales Ushuaia-Río Grande 31,5% vs Gran Córdoba 9,1%",
+      "angulo": "Corrida programada del 02/11/2026 04:30. Segunda candidata probada (frenó la deuda con la CAF). Pregunta de plata detrás de Infobae 02/11/2026 'El empleo público provincial bajo la lupa: cuáles son las provincias que tienen más cargos por habitante'. Ángulo propio: gasto en personal por habitante (Neuquén primero, no Tierra del Fuego), variación 2023-2025 por provincia, recálculo con la proyección INDEC 2022-2040 y contraste EPH.",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-empleo-publico-provincial-tierra-del-fuego-neuquen"
+    },
+    {
+      "tema": "¿cuánto le debe la Argentina a la CAF? (serie de multilaterales tras BID y Banco Mundial; El Cronista 02/11/2026 'Los organismos multilaterales, cada vez más presentes en las reformas del Estado') / Finanzas boletín 30/09/2026 A.1 renglón CAF: sep-26 US$5.227,2 M (dic-19 3.655,8; máximo dic-23 5.435,3 por el préstamo puente; ago-26 5.276,6)",
+      "angulo": "Corrida programada del 02/11/2026 04:30, primera candidata probada.",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "FRENADA: la cifra ancla está en el boletín de Finanzas pero el contraste independiente (reportes financieros trimestrales de la CAF, cartera por país) no se puede abrir: caf.com responde con un bloqueo Incapsula a curl y a WebFetch, así que la URL no pasaría el chequeo de 200. Los valores de la CAF vistos solo en fragmentos de búsqueda (dic-24 US$4.874,6 M, jun-25 4.765,0 M) no se pueden citar. Retomable si aparece una vía de acceso al reporte 2606 o 2609."
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 04:30: frenó la primera (deuda con la CAF, contraste de la CAF inaccesible) y pasó la segunda (empleo público provincial por habitante y gasto en personal, Subsecretaría de Coordinación Fiscal Provincial + INDEC). Empresas (cupo: hoy no hay nota de EMPRESAS; descartadas con razón, sin cifra ancla en documento nuevo): Ternium Argentina 9M26 (solo síntesis Art. 63, sin estados financieros; ya frenada el 31/10), Pluspetrol fusión PNB/PCN (sin montos), Agroindustrias La Española (aviso de ON sin resultado de colocación), Banco Comafi (prospecto de CEDEAR de ETF, riesgo de recomendación), Cresud e IRSA tipo de cambio del dividendo (dividendos ya publicados el 23/10), BYMA y A3 recompras (formato ya cubierto con Central Puerto y Banco Macro), Celulosa Argentina (prórroga de intervención, sin cifras), Tango Energy (cambio de auditor). Pregunta de plata no probadas: árbitros del Superclásico Boca-River (AFA no publica pagos), costo del operativo del papa (descartada varias veces), libro de León XIV y pelota del Superclásico (precios comerciales), turistas intoxicados en el crucero de Ushuaia (sin dato de plata), 71 nombramientos de jueces (sueldo de juez publicado el 06/10). Portales: hackeo de Binance (sin documento local), exportaciones de carne +37% (carne cubierta 7 veces en octubre), FMI US$800 M hoy (cubierta el 31/10), ranking de municipios para abrir un negocio (fuente sin localizar), patentamientos motos/autos (sin estadística oficial de octubre). Calendario: ICA precios y cantidades del 3T (sale el 03/11).",
+      "angulo": "Registro de candidatas no probadas para que una corrida siguiente pueda retomarlas.",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la segunda candidata"
     }
   ]
 }

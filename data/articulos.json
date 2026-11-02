@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-02T02:46:25-03:00",
+    "actualizado": "2026-11-02T05:03:16-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-02-empleo-publico-provincial-tierra-del-fuego-neuquen",
+      "titulo": "Tierra del Fuego tiene 139,7 empleados públicos provinciales cada mil habitantes, 4,2 veces Córdoba; Neuquén es la que más gasta por habitante",
+      "bajada": "Contar empleados públicos no es lo mismo que contar plata, y los dos rankings no coinciden. Tierra del Fuego encabeza el primero, con 139,7 cargos provinciales con sueldo cada mil habitantes, contra 32,9 de Córdoba, que cierra la tabla. Pero la que más gasta en personal por habitante es Neuquén: $5,26 millones por habitante en 2025, 6,2 veces la provincia de Buenos Aires. En total, las 23 provincias y la Ciudad de Buenos Aires pagaron sueldo en 2.308.763 cargos, según la Subsecretaría de Coordinación Fiscal Provincial. Entre 2023 y 2025 el total quedó casi igual: Buenos Aires sumó 20.244 cargos y 16 jurisdicciones recortaron.",
+      "titulo_busqueda": "¿Qué provincia tiene más empleados públicos por habitante?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "139,7",
+      "numero_label": "cargos ocupados con remuneración de la administración pública no financiera de Tierra del Fuego cada mil habitantes en 2025 (Subsecretaría de Coordinación Fiscal Provincial, serie ccoo_c_1000_hab y cuadro ocupacion_salarios 2025: 25.422 cargos / 182.003 habitantes, proyección INDEC 2022-2040 cuadro 2.25 = 139,68); Córdoba 32,9 (130.135 / 3.957.565), total 49,8 (2.308.763 / 46.387.098); contraste EPH 1T-2026: ocupados estatales Ushuaia-Río Grande 31,5% (137,0 c/mil hab) vs Gran Córdoba 9,1% (43,1)",
+      "fecha": "2026-11-02",
+      "hora": "05:00",
+      "archivo": "articulos/2026-11-02-empleo-publico-provincial-tierra-del-fuego-neuquen.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-11-02-cuotas-sin-interes-cyber-monday-valor-real",
       "titulo": "Las seis cuotas sin interés del último Cyber Monday terminaron valiendo 9,4% menos que el precio de contado",
