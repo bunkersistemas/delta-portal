@@ -7095,6 +7095,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánto paga el seguro de desempleo rural del RENATRE en noviembre de 2026? (pregunta de plata detrás de ámbito 02/11/2026 'El RENATRE aumentó 5% la prestación por desempleo rural: cuáles son los nuevos montos') / Res. RENATRE 102/2026 (BO 02/11/2026, aviso 349943): máximo $420.000 y mínimo $210.000 desde 01/11/2026 (+5% sobre Res. 76/2026: $400.000/$200.000 desde ago-26); base de cálculo 60% de la mejor remuneración de 12 meses desde may-26 (Res. 45/2026; antes 55% por Res. 17/2025) -> tope desde $700.000; peón general CNTA $1.235.833,53 + $12.465 = $1.248.298,53 -> 33,6% (tablero RENATRE: 33,65%; nov-25 33,7%; oct-26 32,0%; máx. jun/jul-22 64,5%; mín. mar-24 17,9%); vs SMVM = tope seguro general ANSES nov-26 $398.800 (Res. CNEPSMVM 4/2026): +5,3%; rural > SMVM desde nov-25 ($330.000 vs $328.400), nunca antes en la serie del tablero desde ene-21 (iguales oct y nov-22); sep-26/sep-25 tope +39,4% vs IPC nacional +33,4% (+4,5% real); a precios de sep-26 dic-25 $428.416 vs sep-26 $400.000 (-6,6%)",
+      "angulo": "Corrida programada del 02/11/2026 08:30, primera candidata probada (APTA). Ángulo propio: los medios dan los montos nuevos; nadie muestra que el tope hace que a un peón de convenio le cubra un tercio del sueldo y no el 60% de la regla, ni que el tope rural pasó al salario mínimo (techo del seguro general) desde nov-25. Distinto de 2026-09-26 (seguro general ANSES) y 2026-10-03 (sueldo del peón). Verificación: dos registros que coinciden (BO + tablero de estadísticas del RENATRE en Power BI, serie mensual ene-21 a dic-26 del máximo, mínimo, sueldo del peón y SMVM; consulta por API pública con _privado/pbi_renatre3.py) y recálculo de la cadena completa de resoluciones 120/25, 11, 19, 31, 45, 68, 76 y 102/26 (coinciden peso por peso). Discrepancia del tablero no usada: mínimo nov-25 $155.000 vs $165.000 de la Res. 109/25. Bono semilleros $150.000 (solo en un epígrafe de ámbito) no incluido: sin documento.",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-desempleo-rural-renatre-420000-noviembre",
+      "archivo": "cola/2026-11-02-desempleo-rural-renatre-420000-noviembre.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 08:30: no se probaron porque pasó la primera candidata (desempleo rural RENATRE, Res. 102/2026). Empresas (cupo: hoy no hay nota de EMPRESAS; razón para no tomarlas primero: la candidata del RENATRE tenía documento oficial del día y un ángulo propio verificable, y el bloque no trajo balances nuevos con cifra): Celulosa Argentina 'información judicial' 30/10 (sobre el HR del 02/07; leer el expediente antes de nada), Tango Energy asamblea extraordinaria 30/10 (sin monto en la línea), Agroindustrias La Española aviso de oferta de ON 30/10 (tasa a definir en licitación), Banco del Sol HR 29/10, Pluspetrol fusión (sin montos), Ternium 9M26 (solo síntesis Art. 63, frenada el 31/10). Pregunta de plata no probadas: cuánta plata del Fondo Solidario de Redistribución retiene el Gobierno (50 gremios denuncian a Caputo, iProfesional; SSS + Presupuesto Abierto), exención del automotor de ARBA a colectivos bonaerenses (ámbito; sin monto oficial), subsidios a colectivos AMBA $38.840 M (ámbito y Cronista; repetida, en cola/publicada en oct). Portales: inflación de octubre estimada 1,8-2% (La Nación; se publica el 12/11), riesgo país ~790 y elecciones de EE.UU. (mercado diario), agroexportaciones US$2.880 M en octubre 'mejor octubre en 25 años' (CIARA-CEC, una sola fuente privada), Binance (sin documento local), Cyber Monday y aumentos de noviembre (ya publicadas), vencimiento de US$800 M con el FMI (intereses al FMI publicada el 31/10). Calendario: ICA 3T sale el 03/11. clarin.com no respondió (curl vacío y WebFetch bloqueado); tn.com.ar leído por curl. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas no probadas para que una corrida siguiente pueda retomarlas.",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }
