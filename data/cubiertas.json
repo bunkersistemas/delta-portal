@@ -7012,6 +7012,21 @@
       "fecha": "2026-11-01",
       "estado": "publicada",
       "articulo_id": "2026-11-01-pampa-energia-obligacion-negociable-220-millones-tasa"
+    },
+    {
+      "tema": "¿cuánto cobra la Tarjeta Alimentar en noviembre de 2026? (pregunta de plata detrás de iProfesional 31/10/2026 'AUH de ANSES: qué familias pueden sumar $60.203 extra en noviembre' y las listas de cobros de noviembre) / Prestación Alimentar Res. MCH 161/2026 (BO 07/05/2026, vigente desde mayo): cat. 1 $72.250, cat. 2 $113.299, cat. 3 $149.425 (+38,3% sobre la Res. 181/2024, $52.250/$81.936/$108.062 desde la liquidación de jun-24); % de la CBA por adulto equivalente GBA (INDEC): jun-24 41,1%, abr-26 24,3% (mínimo con el monto viejo), may-26 32,8%, sep-26 30,2%; real (IPC alimentos nacional) sep-26 -26,5% vs jun-24; hogar 2 INDEC 15,3% (20,8% jun-24), hogar 3 19,2% (26,1%); Presupuesto Abierto 311/26/act. 1: $180.198-182.928 M/mes sep-24 a abr-26, $251.632-253.746 M/mes jun-oct 26, ene-oct 26 $2.310.233 M (+27,5% nominal; ene-sep -6,1% real con IPC nivel general)",
+      "angulo": "Corrida programada del 01/11/2026 22:30, primera candidata probada (APTA). Ángulo propio: todos los medios listan el monto; nadie lo mide contra la canasta ni muestra que no tiene fórmula de actualización (art. 1 de la Res. 161/2026: 'con arreglo a las disponibilidades presupuestarias') mientras la AUH sigue la movilidad. Distinto de 2026-10-16 (canasta de crianza contra AUH + Prestación). Verificación: dos fuentes independientes (norma en el BO + devengado mensual de Presupuesto Abierto, cociente de promedios 1,396 vs 1,3828 de la resolución; octubre +0,3% sobre septiembre) y recálculo de las tres categorías. Control de vigencia: avisos de Capital Humano y ANSES en las 21 ediciones de octubre del BO (01 al 30/10), ninguno modifica la prestación; el mismo escáner encuentra la Res. 161/2026 el 07/05/2026.",
+      "fecha": "2026-11-01",
+      "estado": "publicada",
+      "articulo_id": "2026-11-01-tarjeta-alimentar-72250-noviembre-canasta",
+      "archivo": "cola/2026-11-01-tarjeta-alimentar-72250-noviembre-canasta.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 01/11/2026 22:30: no se probaron porque la primera candidata (Prestación Alimentar de noviembre contra la canasta) pasó la verificación. Lista: pregunta de plata: consumo de carne de cerdo en 35 años (iProfesional 01/11; ya publicada el 23/07 con el récord a mayo, sin ángulo nuevo), pensión no contributiva por invalidez en noviembre (ámbito; tercera nota del tema en un mes), pago al FMI de noviembre (Clarín y TN; frenada el 28/10 y cubierta el 31/10), operativo del superclásico (Clarín; sin documento del tamaño del operativo), Cyber Monday (infobae, Página12, Clarín; solo CACE); portales: patentamientos de octubre con autos en baja y motos en alza (infobae, Clarín; ACARA sin informe de octubre todavía y relación motos/autos ya publicada el 05/09), hackeo de Binance (infobae, Clarín, Página12; sin documento local); empresas (cupo ya cubierto hoy por Pampa Energía y Banco Macro): Ternium Argentina 9M26 (sigue sin estados financieros en la CNV), Vista 3T26 (producción publicada el 29/10), Pluspetrol fusión por absorción de PNB y PCN (reorganización interna sin monto), Celulosa Argentina/Forestadora Tapebicuá (prórroga de la intervención informante en el concurso, sin cifras), Agroindustrias La Española (aviso de oferta de ON, sin resultado de colocación).",
+      "angulo": "Registro de candidatas no probadas para que una corrida siguiente pueda retomarlas.",
+      "fecha": "2026-11-01",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }
