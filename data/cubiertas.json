@@ -7163,6 +7163,20 @@
       "fecha": "2026-11-02",
       "estado": "descartada",
       "motivo_descarte": "frenaron dos probadas (FSR sin documento, subte jubilados sin ángulo nuevo) y el Editor descartó dos sin documento (UIF, Benetton); el resto no se probó porque pasó el bioetanol, tercera probada"
+    },
+    {
+      "tema": "¿cuánto le costó a Pampa Energía la cobertura del precio del petróleo? (EMPRESAS, balance del 3T-2026 presentado ante la SEC el 02/11/2026 y aprobado por el directorio ese día, nota CNV/BYMA) / pérdida de la cobertura reclasificada a ventas ene-sep 2026 US$143 M (ene-sep 2025: ganancia US$3 M); 3T US$60 M, precio 55,7 vs 84,0 sin cobertura; 1T ~21 M, 2T ~64 M; pendiente al 30/09 US$169 M hasta may-27; ventas de petróleo 338 vs 172, 21,6 vs 10,1 kbpd, precio -7% con Brent EIA +31,2% (71,00 -> 93,15)",
+      "angulo": "Corrida programada del 02/11/2026 18:30, primera candidata probada (APTA). Cupo de empresas: hoy no había nota de EMPRESAS y el bloque traía un balance nuevo (Pampa, SEC 02/11). Ángulo propio: los medios cuentan la ganancia o el petróleo caro; acá se muestra que Pampa cobró menos por barril mientras el Brent subía, por la cobertura, y cuánto queda pendiente. Distinto de la nota de Pampa del 01/11 (ON Clase 29) y de la de YPF Luz del 30/10 (combustible de las térmicas). Camino: dos documentos de la empresa (EEFF 9M y 6M, informes de resultados 1T/2T/3T) + recálculo + contraste independiente (Brent EIA).",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-pampa-energia-cobertura-petroleo-143-millones"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 18:30: no se probaron porque pasó la primera candidata (cobertura de petróleo de Pampa Energía, balance 3T-2026 ante la SEC). Lista no probada: empresas: Pampa generación eléctrica (ventas spot US$578 M vs 185, mismo efecto de la Res. SE 400/2025 que YPF Luz del 30/10), Tecpetrol resultados Art. 63 al 30/09/2026 (CNV 02/11, sin leer), Molinos cierre de venta del acopio y compra de planta (sin precio, frenada antes), Newsan fusión (sin cifras); pregunta de plata: umbral de la UIF de Inocencia Fiscal II (Res. UIF 144/2026, todavía sin BO), subsidio a colectivos AMBA $39.000 M (repetida), paritaria de empleados de concesionarias (iProfesional), recaudación de ARCA de octubre (Cronista; dato del día); portales: contrabando US$3.000 M (MAP LATAM, una sola fuente privada; infobae, La Nación, Cronista), Benetton 900.000 ha a socios de Adecoagro (sin documento ni precio), riesgo país sobre 800 y dólar en máximo nominal (mercado diario). clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json ya era de hoy.",
+      "angulo": "registro de candidatas no probadas",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }

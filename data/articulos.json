@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-02T16:55:38-03:00",
+    "actualizado": "2026-11-02T18:50:34-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-02-pampa-energia-cobertura-petroleo-143-millones",
+      "titulo": "Pampa Energía perdió US$143 millones en nueve meses por la cobertura de su petróleo, en el año en que el Brent subió 31%",
+      "bajada": "El Brent subió 31% contra 2025 y Pampa Energía cobró 7% menos por barril. La diferencia está en los contratos con que fijó de antemano el precio de parte de su petróleo: entre enero y septiembre de 2026 le restaron US$143 millones de ventas. En el tercer trimestre vendió a US$55,7 el barril; sin la cobertura habría cobrado US$84. Y la cuenta no está cerrada: al 30 de septiembre le quedaban US$169 millones de pérdida por reconocer hasta mayo de 2027.",
+      "titulo_busqueda": "¿Cuánto le costó a Pampa Energía la cobertura del petróleo?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$143 M",
+      "numero_label": "pérdida de la cobertura de petróleo de Pampa Energía reclasificada a ventas en ene-sep 2026 (EEFF consolidados US$ al 30/09/2026, SEC 6-K 02/11/2026 0001292814-26-005116, nota 12.7; ene-sep 2025: ganancia de US$3 M, EEFF 30/09/2025 nota 12.8). EEFF 30/06/2026 (SEC 04/08/2026) US$83 M en el semestre -> 3T US$60 M = informe de resultados 3T26 (SEC 02/11/2026 0001292814-26-005118): US$55,7/bbl con cobertura vs US$84,0 sin ella, ~US$60 M (recálculo 23,0 kbpd x 92 d x 28,3 = US$59,9 M); 1T US$58,2 vs 69,5 (~21 M), 2T US$58,8 vs 91,0 (~64 M): suma 145 vs 143. Ventas de petróleo 338 vs 172 (recálculo 21,6 kbpd x 273 d x 57,5 = 339); precio 9M 57,5 vs 61,9 (-7%); volumen vendido 21,6 vs 10,1 kbpd. Pendiente al 30/09 US$169 M (30/06: 63), oct-26 a may-27. Contraste: Brent EIA RBRTE ene-sep 2025 US$71,00 -> 2026 US$93,15 (+31,2%); 1T 80,72, 2T 102,63, 3T 96,30; 30/06 70,46, 30/09 115,91; oct hasta 27/10 124,83. Directorio aprobó los EEFF el 02/11 (nota CNV 9C7E95A5). Ganancia neta 519 vs 216; impuesto 21 vs 214 (diferido -125 vs +146; corriente 166 vs 67). Camino: dos documentos de la empresa + recálculo + contraste.",
+      "fecha": "2026-11-02",
+      "hora": "19:30",
+      "archivo": "articulos/2026-11-02-pampa-energia-cobertura-petroleo-143-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-11-02-bioetanol-nafta-subio-11-noviembre-1104",
       "titulo": "El bioetanol de la nafta subió 11,3% en 2026 y la nafta, 29,1%: en noviembre el litro de alcohol de caña pasa a $1.104,886",

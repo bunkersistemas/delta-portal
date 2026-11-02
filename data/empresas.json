@@ -1,11 +1,38 @@
 {
-  "generado": "2026-11-02T16:30",
+  "generado": "2026-11-02T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3587931",
+      "fuente": "CNV",
+      "fecha": "2026-11-02T17:18",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (02 11 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/DE2DA59C-6525-41F7-B10C-664CA26C9F89"
+    },
+    {
+      "id": "cnv-3587930",
+      "fuente": "CNV",
+      "fecha": "2026-11-02T17:15",
+      "entidad": "PAMPA ENERGÍA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - PAMPA ENERGÍA - MODIF. ACUERDOS DE COMPENSACIÓN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1D7CF500-B722-4260-B7FF-7D3AF814A465"
+    },
+    {
+      "id": "cnv-3587927",
+      "fuente": "CNV",
+      "fecha": "2026-11-02T17:12",
+      "entidad": "PAMPA ENERGÍA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - PAMPA ENERGÍA - HR ACUERDO MARCO CON SACDE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/297C4F07-4EFF-428D-A9D3-199FFC293054"
+    },
     {
       "id": "cnv-3587808",
       "fuente": "CNV",
@@ -41,6 +68,16 @@
       "tipo": "hecho",
       "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV Y BYMA DIGITAL 8624 1",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2C920FB1-53A8-4E7A-9482-F643FD507587"
+    },
+    {
+      "id": "sec-0001292814-26-005116",
+      "fuente": "SEC",
+      "fecha": "2026-11-02",
+      "entidad": "Pampa Energia",
+      "ticker": "PAM",
+      "tipo": "balance",
+      "descripcion": "6-K EX-99.1 2 ex99-1.htm EX-99.1 UNAUDITED CONSOLIDATED CONDENSED INTERIM FINANCIAL STATEMENTS AS OF SEPTEMBER 30, 2026 AND FOR THE NINE AND THREE-MONTH PERIODS THEN ENDED PRESENTED ON",
+      "url": "https://www.sec.gov/Archives/edgar/data/1469395/000129281426005116/pamfs3q26us_6k.htm"
     },
     {
       "id": "cnv-3587074",
@@ -1112,6 +1149,7 @@
     "sec-0001292814-26-005042": "2026-10-29",
     "sec-0001292814-26-005068": "2026-10-30",
     "sec-0001292814-26-005072": "2026-10-30",
+    "sec-0001292814-26-005114": "2026-11-02",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002070": "2026-10-05",
     "sec-0001554855-26-002088": "2026-10-09",
