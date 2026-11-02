@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-02T12:30",
+  "generado": "2026-11-02T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3587479",
+      "fuente": "CNV",
+      "fecha": "2026-11-02T12:43",
+      "entidad": "CAJA DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV Y BYMA DIGITAL 8624 1",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2C920FB1-53A8-4E7A-9482-F643FD507587"
+    },
     {
       "id": "cnv-3587074",
       "fuente": "CNV",

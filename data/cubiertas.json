@@ -7135,6 +7135,20 @@
       "estado": "publicada",
       "articulo_id": "2026-11-02-credito-bancos-pbi-argentina-chile-brasil",
       "archivo": "cola/2026-11-02-credito-bancos-pbi-argentina-chile-brasil.html"
+    },
+    {
+      "tema": "¿cuántos dólares trae la energía a la Argentina? (pregunta de plata detrás de ámbito 02/11/2026 'El superávit energético se duplicó en septiembre y junto al agro ayudan al Gobierno a blindar el dólar' e infobae 02/11 sobre la caída del petróleo) / BCRA anexo del mercado de cambios: energía (Petróleo+Gas+Electricidad) bienes netos ene-sep 2026 US$7.666,3 M (2025 4.367,1; +75,5%), más que cualquier año completo desde 2003 (máx. previo 2025 5.419,8); sep-26 1.119,9 (informe pág. 10: 1.120); 12 meses 8.718,9; agro 23.174,0 -> US$33 por cada 100 (2025 15; 2024 10); 28,9% del saldo de bienes; INDEC capítulo 27 ene-sep 7.999,6 (+77,6%)",
+      "angulo": "Corrida programada del 02/11/2026 14:30, primera candidata probada (APTA). Ángulo distinto de 2026-10-19 (superávit comercial de aduana, con la energía en US$8.000 M) y de 2026-07-18 (balanza energética del semestre): los dólares que efectivamente entraron al mercado de cambios, la serie larga desde 2003 y la comparación con el agro. Verificación: dos fuentes independientes (BCRA cambios + INDEC aduana) que coinciden en nivel (4,2%) y dirección; recálculo exacto del dato de septiembre del informe. Diferencia de vintage: el informe dice +108% en septiembre y la planilla actual da +106,4% (sep-25 revisado), la nota dice 'más del doble'.",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-energia-dolares-mercado-cambios-nueve-meses"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 14:30: no se probaron porque pasó la primera candidata (dólares de la energía en el mercado de cambios, BCRA + INDEC). Empresas (cupo: hoy no hay nota de EMPRESAS; razón para no tomarlas primero: ningún documento nuevo del bloque trae cifra ancla): Caja de Valores 'anuncio de dividendo 8624' del 02/11 (la vista pública de la CNV muestra solo un formulario con errores y sin adjuntos; los anuncios anteriores eran dividendos de CEDEAR), Agroindustrias La Española (aviso de ON sin resultado de colocación), Ternium 9M26 (solo síntesis Art. 63), Pluspetrol fusión (sin montos), Central Puerto y BYMA recompras (formato ya cubierto), Tango Energy (cambio de auditor). Pregunta de plata: cuánto se paga en efectivo en el súper (iProfesional 02/11 con datos del BCRA; INDEC serie_supermercados ago-26 efectivo 16,96% y billeteras/QR 16,15%: repetida, los medios de pago ya salieron el 23/09 y las billeteras todavía no pasaron al efectivo), subte gratis con DNI para jubilados porteños (infobae; no es un beneficio nuevo, solo el medio de validación), multa por alcohol al volante en la provincia (Cronista; valor de la UF sin documento oficial, descartada el 09/10). Portales: Benetton vendió 900.000 ha a los socios de Adecoagro (infobae, La Nación, Cronista, iProfesional; sin documento ni precio), 50 gremios contra la retención del Fondo Solidario de Redistribución (sin documento con monto), IOSFA despidos (sin dato oficial), créditos para autos nacionales (sin norma), agro US$2.880 M en octubre (CIARA-CEC, una sola fuente privada), inflación de octubre esperada (sale el 12/11), Megatone cierra sucursales (sin dato oficial de la empresa). Calendario: ICA precios y cantidades 3T (sale mañana).",
+      "angulo": "registro de candidatas no probadas",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }

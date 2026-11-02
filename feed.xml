@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 12:56:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 14:56:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La energía trajo US$7.666 millones netos al mercado de cambios en nueve meses, más que en cualquier año entero desde 2003: US$33 por cada US$100 del campo</title>
+      <link>https://coninteres.com/articulos/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.html</guid>
+      <pubDate>Mon, 02 Nov 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre 2011 y 2023, la energía se llevó dólares. Este año los trae: entre enero y septiembre, las empresas de petróleo, gas y electricidad ingresaron al mercado de cambios US$7.666 millones más de lo que sacaron para pagar importaciones, según el Banco Central: 75,5% más que en 2025 y más que en cualquier año completo desde 2003, cuando empieza la serie. La aduana del INDEC da casi lo mismo: US$7.999,6 millones. El agro sigue trayendo más, pero la distancia se achicó: por cada US$100 de oleaginosas y cereales, la energía aportó US$33; un año antes, US$15.</description>
+      <ci:numero>US$7.666 M</ci:numero>
+      <ci:numeroEtiqueta>saldo neto de la energía (sectores Petróleo, Gas y Electricidad) por bienes en el mercado de cambios, enero-septiembre de 2026 (BCRA, anexo estadístico del informe de Evolución del Mercado de Cambios y Balance Cambiario sep-26; suma propia: cobros US$11.580,4 M, pagos US$3.914,2 M; septiembre US$1.119,9 M = informe pág. 10 USD 1.120 M). Segunda fuente independiente: INDEC ICA sep-26 cuadro 8, saldo capítulo 27 ene-sep US$7.999,6 M (+77,6%; BCRA +75,5%). Superlativos: ene-sep previo máximo 2025 US$4.367,1 M; año completo máximo previo 2025 US$5.419,8 M; serie desde ene-2003. Agro (Oleaginosos y Cerealeros) ene-sep 2026 US$23.174,0 M -&gt; 33,1 por cada 100 (2025 15,2; 2024 10,3). Petróleo 8.795,5; Electricidad -1.115,7; Gas -13,6</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.png" length="86760" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los bancos le prestan a familias y empresas el equivalente al 13,9% del PBI: Chile presta cinco veces más y Brasil, más de cinco</title>
       <link>https://coninteres.com/articulos/2026-11-02-credito-bancos-pbi-argentina-chile-brasil.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>tope de ingresos mensuales de noviembre de 2026 para los medicamentos sin cargo del PAMI por subsidio social: 1,5 haberes mínimos (PAMI, página del trámite, requisito 1) x $444.158,46 (Res. ANSES 304/2026 art. 1, BO 28/10/2026) = $666.237,69; CUD 3x = $1.332.475,38. Contraste: El Cronista 30/10/2026 $666.237. Apoyo: BESS sep-26 cuadro 2.2.6 (beneficiarios titulares del SIPA por intervalo de haber, con refuerzo Dto. 824/2026): total 6.049.974 (108 filas cierran); tope sep 1,5 x 428.633,20 = 642.949,80 cae en 640.000,01-650.000 (16.612); arriba 2.686.603 (44,4%) a 2.703.215 (44,7%); con haber neto de 3% 2.654.858 (43,9%); minimo+refuerzo 498.633,20 = 2.863.569 (47,3%); jub+pension 1.164.773/1.167.003 (99,8%); jub con moratoria sola 288.590/2.979.318 (9,7%); jub sin moratoria sola 1.089.265/1.505.170 (72,4%). Sep-25: tope 480.415,76, arriba 2.611.590/6.052.237 (43,2%). Contraste independiente EPH-INDEC 1T-2026 V2_01_M (PONDERA, sin no respuesta): 46,8% arriba de 1,5 x 349.299,32 (Res. ANSES 381/2025); 45,7-47,3% con topes de 511.000 a 554.000</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-pami-remedios-gratis-tope-ingresos-noviembre.png" length="89580" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-pami-remedios-gratis-tope-ingresos-noviembre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Bioceres perdió US$263,9 millones en su año fiscal, US$30 millones más de lo que había anunciado en septiembre antes de la auditoría</title>
-      <link>https://coninteres.com/articulos/2026-10-30-bioceres-perdida-balance-auditado-20f.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-bioceres-perdida-balance-auditado-20f.html</guid>
-      <pubDate>Fri, 30 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>En septiembre, Bioceres Crop Solutions, la empresa rosarina del trigo HB4, anunció resultados sin auditar. El balance auditado que presentó el 30 de octubre ante la SEC muestra una pérdida neta de US$263,9 millones en su año fiscal a junio de 2026: unos US$30 millones más. La mayor parte es la ejecución de su negocio en Estados Unidos por los acreedores; lo nuevo son deterioros de activos, entre ellos la tecnología HB4. Su patrimonio cayó 96% en el año y su auditor advierte una «duda sustancial» sobre su capacidad de seguir funcionando.</description>
-      <ci:numero>US$263,9 M</ci:numero>
-      <ci:numeroEtiqueta>pérdida neta de Bioceres Crop Solutions en el año fiscal a jun-2026: US$263.942.996 (20-F SEC 30/10/2026, estado de resultados integrales auditado por Price Waterhouse &amp; Co.) = 82.438.029 operaciones que continúan + 181.504.967 discontinuadas (Pro Farm; pérdida por ejecución 181.305.248); FY25 (58,8), FY24 +7,3. Anuncio sin auditar 6-K 16/09/2026 ex99-1: continuas (54,4) y discontinuadas (179,4) = (233,8); resultado integral (231,4) vs (261,4) auditado = US$30,0 M. Diferencia continuas 28,0: otros egresos -0,7 -&gt; -24,2 (deterioro intangibles HB4/semillas/llave 15,58; créditos Moolec y Trigall 7,67; contingencias 3,50), impuesto -3,4 -&gt; -7,0 (baja de quebrantos 13,3), financiero -50,9 -&gt; -52,1, bruto 82,9 -&gt; 83,2, gastos 82,3 -&gt; 82,2. Ventas 237,8 en ambos (FY25 287,7, -17,3%). Patrimonio controlante 265,4 (jun-25) -&gt; 39,1 anuncio -&gt; 10,7 auditado (-96,0%). Duda sustancial sobre empresa en marcha (informe del auditor y nota 2); pasivo corriente supera al activo corriente en 54,9; secured notes 122,0; empleados 562/620/819. Camino: dos documentos de la empresa ante la SEC + recálculo de renglones.</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-bioceres-perdida-balance-auditado-20f.png" length="92196" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-bioceres-perdida-balance-auditado-20f.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

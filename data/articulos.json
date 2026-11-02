@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-02T12:56:28-03:00",
+    "actualizado": "2026-11-02T14:56:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-02-energia-dolares-mercado-cambios-nueve-meses",
+      "titulo": "La energía trajo US$7.666 millones netos al mercado de cambios en nueve meses, más que en cualquier año entero desde 2003: US$33 por cada US$100 del campo",
+      "bajada": "Entre 2011 y 2023, la energía se llevó dólares. Este año los trae: entre enero y septiembre, las empresas de petróleo, gas y electricidad ingresaron al mercado de cambios US$7.666 millones más de lo que sacaron para pagar importaciones, según el Banco Central: 75,5% más que en 2025 y más que en cualquier año completo desde 2003, cuando empieza la serie. La aduana del INDEC da casi lo mismo: US$7.999,6 millones. El agro sigue trayendo más, pero la distancia se achicó: por cada US$100 de oleaginosas y cereales, la energía aportó US$33; un año antes, US$15.",
+      "titulo_busqueda": "¿Cuántos dólares trae la energía a la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$7.666 M",
+      "numero_label": "saldo neto de la energía (sectores Petróleo, Gas y Electricidad) por bienes en el mercado de cambios, enero-septiembre de 2026 (BCRA, anexo estadístico del informe de Evolución del Mercado de Cambios y Balance Cambiario sep-26; suma propia: cobros US$11.580,4 M, pagos US$3.914,2 M; septiembre US$1.119,9 M = informe pág. 10 USD 1.120 M). Segunda fuente independiente: INDEC ICA sep-26 cuadro 8, saldo capítulo 27 ene-sep US$7.999,6 M (+77,6%; BCRA +75,5%). Superlativos: ene-sep previo máximo 2025 US$4.367,1 M; año completo máximo previo 2025 US$5.419,8 M; serie desde ene-2003. Agro (Oleaginosos y Cerealeros) ene-sep 2026 US$23.174,0 M -> 33,1 por cada 100 (2025 15,2; 2024 10,3). Petróleo 8.795,5; Electricidad -1.115,7; Gas -13,6",
+      "fecha": "2026-11-02",
+      "hora": "14:30",
+      "archivo": "articulos/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min"
+    },
     {
       "id": "2026-11-02-credito-bancos-pbi-argentina-chile-brasil",
       "titulo": "Los bancos le prestan a familias y empresas el equivalente al 13,9% del PBI: Chile presta cinco veces más y Brasil, más de cinco",
