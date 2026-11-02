@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 10:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 02 Nov 2026 12:56:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los bancos le prestan a familias y empresas el equivalente al 13,9% del PBI: Chile presta cinco veces más y Brasil, más de cinco</title>
+      <link>https://coninteres.com/articulos/2026-11-02-credito-bancos-pbi-argentina-chile-brasil.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-credito-bancos-pbi-argentina-chile-brasil.html</guid>
+      <pubDate>Mon, 02 Nov 2026 13:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En la Argentina los bancos prestan poco, y no solo frente a su propia historia. Todo lo que les prestan hoy a familias y empresas equivale al 13,9% de lo que produce el país en un año; en Chile ese número es 69,5% y en Brasil, 74,9%. Son datos del Banco de Pagos Internacionales (BIS) al primer trimestre de 2026, y recalculados con el stock de préstamos del BCRA y el PBI del INDEC dan casi lo mismo: 13,8%. El crédito creció en los últimos dos años y llegó a fines de 2025 a su nivel más alto desde 2018, pero sigue lejos del 21,8% de 1999. En el Banco Mundial, de 18 países de América Latina con dato, solo Haití tiene menos.</description>
+      <ci:numero>13,9%</ci:numero>
+      <ci:numeroEtiqueta>crédito de los bancos al sector privado no financiero de la Argentina en % del PBI, primer trimestre de 2026 (BIS WS_TC Q.AR.P.B.M.770.A). Recálculo BCRA var. 26 al 31/03/2026 $125,88 billones / PBI INDEC 4 trimestres $912,24 billones = 13,8%; 4T-25 BIS 14,2% vs 14,0% (119,09/850,24); 2T-26 propio 14,2% (139,57/985,22). Contraste Banco Mundial FD.AST.PRVT.GD.ZS 2025: 15,8% (definición más amplia). 1T-26 BIS: Brasil 74,9, Chile 69,5 (5,0 veces), Colombia 40,1, México 21,4. Superlativos BIS: 4T-25 14,2% máximo desde 4T-18 14,4%; máx desde 2003 3T-18 16,5%; máx 1994-2026 4T-99 21,8%; piso 1T-04 8,8%; 1T-23 9,3%. Banco Mundial: de 18 países de América Latina con dato 2024-2025 solo Haití (3,1%) por debajo. Préstamos en dólares 27/10/2026 US$26.131 M = 26,8% (23,0% a fin de 2025)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-credito-bancos-pbi-argentina-chile-brasil.png" length="85127" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-credito-bancos-pbi-argentina-chile-brasil.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La vacuna séxtuple que entra al calendario cuesta US$21,12 por dosis en la lista de la OPS: el esquema de un bebé pasa a US$84, entre 6 y 9 veces el actual</title>
       <link>https://coninteres.com/articulos/2026-11-02-vacuna-sextuple-precio-ops-calendario.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>pérdida neta de Bioceres Crop Solutions en el año fiscal a jun-2026: US$263.942.996 (20-F SEC 30/10/2026, estado de resultados integrales auditado por Price Waterhouse &amp; Co.) = 82.438.029 operaciones que continúan + 181.504.967 discontinuadas (Pro Farm; pérdida por ejecución 181.305.248); FY25 (58,8), FY24 +7,3. Anuncio sin auditar 6-K 16/09/2026 ex99-1: continuas (54,4) y discontinuadas (179,4) = (233,8); resultado integral (231,4) vs (261,4) auditado = US$30,0 M. Diferencia continuas 28,0: otros egresos -0,7 -&gt; -24,2 (deterioro intangibles HB4/semillas/llave 15,58; créditos Moolec y Trigall 7,67; contingencias 3,50), impuesto -3,4 -&gt; -7,0 (baja de quebrantos 13,3), financiero -50,9 -&gt; -52,1, bruto 82,9 -&gt; 83,2, gastos 82,3 -&gt; 82,2. Ventas 237,8 en ambos (FY25 287,7, -17,3%). Patrimonio controlante 265,4 (jun-25) -&gt; 39,1 anuncio -&gt; 10,7 auditado (-96,0%). Duda sustancial sobre empresa en marcha (informe del auditor y nota 2); pasivo corriente supera al activo corriente en 54,9; secured notes 122,0; empleados 562/620/819. Camino: dos documentos de la empresa ante la SEC + recálculo de renglones.</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-bioceres-perdida-balance-auditado-20f.png" length="92196" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-bioceres-perdida-balance-auditado-20f.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Ley Brisa ya usó el 98,7% de su presupuesto 2026: le quedan $122 millones, y un mes de pagos a los 1.710 chicos que prevé cuesta $759,5 millones</title>
-      <link>https://coninteres.com/articulos/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.html</guid>
-      <pubDate>Fri, 30 Oct 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La partida que paga la reparación de la Ley Brisa a los hijos de víctimas de femicidio ya devengó el 98,7% de su presupuesto 2026, y quedan dos meses de pagos por delante. Tenía $9.511 millones para todo el año; al 28 de octubre se habían devengado $9.388 millones. Quedan $122 millones, y pagarle un solo mes a los 1.710 chicos que prevé el presupuesto cuesta $759,5 millones con el monto de noviembre, $444.158 por chico.</description>
-      <ci:numero>98,7%</ci:numero>
-      <ci:numeroEtiqueta>parte del crédito 2026 de la Ley Brisa devengada al 28/10/2026: Presupuesto Abierto, servicio 311, programa 44, actividad 5, inciso 5.1.4: devengado $9.388,4 M sobre crédito inicial = vigente $9.510,8 M (mensual = anual: ene 913,9, feb 857,6, mar 519,9, abr 670,8, may 1.181,6, jun 573,0, jul -0,3, ago 0, sep 3.519,1, oct 1.152,8); quedan $122,4 M. Contraste: distribución ley de presupuesto 2026 J88 (D26J88) actividad 05 $9.510.798.826, meta 1.710 personas; Ley 27.452 art. 3 (haber mínimo); Res. ANSES 304/2026 haber mínimo nov $444.158,46; 1.710 x 444.158,46 = $759,5 M (16% cubierto). 2025: ini 6.393,5 vig 7.403,7 dev 7.114,7 (ene-oct 5.810,2; 2026 +61,6%); 2024: 1.754,5 / 6.393,5 / 5.192,5; proyecto 2027 P27J88 $18.227 M, meta 1.810</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.png" length="99027" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-30-ley-brisa-presupuesto-2026-casi-agotado.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

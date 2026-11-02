@@ -7127,6 +7127,14 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánto crédito hay en la Argentina comparado con otros países? (pregunta de plata detrás de Clarín 02/11/2026 'Argentina, el país donde el crédito sigue siendo un lujo', que no da el número argentino) / crédito de bancos al sector privado no financiero % PBI: BIS 1T-26 13,9% (recálculo BCRA var 26 / PBI INDEC 4T = 13,8%), Chile 69,5, Brasil 74,9, Colombia 40,1, México 21,4; Banco Mundial FD.AST.PRVT.GD.ZS 2025 15,8%, solo Haití por debajo entre 18 de América Latina; historia BIS 4T-99 21,8, 1T-04 8,8, 3T-18 16,5, 1T-23 9,3, 4T-25 14,2 (máx desde 4T-18 14,4)",
+      "angulo": "comparación internacional y serie larga del crédito/PBI, nunca cubierta (las notas de crédito previas fueron de stock, mora, hipotecarios y tasas). Verificación: estadística oficial recalculada (BIS = BCRA/INDEC con 0,1-0,3 pp de diferencia en cinco trimestres) + contraste independiente Banco Mundial (15,8%, definición más amplia, explicada). Candidatas de la corrida de las 12:30 no probadas: Fondo Solidario de Redistribución de obras sociales (iProfesional; sin documento con monto retenido), agro US$2.880 M en octubre (CIARA-CEC, una sola fuente privada; ya descartada hoy), Adecoagro/Benetton (operación privada sin documento), créditos para autos nacionales (sin norma publicada). Empresas (cupo: hoy no hay nota de EMPRESAS; leídos y sin cifra ancla): Pluspetrol fusión PNB/PCN (sin montos), Banco Comafi (prospecto de 6 CEDEAR de ETF, riesgo de recomendación), Tango Energy (cambio de auditor), Banco del Sol (informe de comisión fiscalizadora), Ternium 9M26 (solo síntesis Art. 63).",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-credito-bancos-pbi-argentina-chile-brasil",
+      "archivo": "cola/2026-11-02-credito-bancos-pbi-argentina-chile-brasil.html"
     }
   ]
 }
