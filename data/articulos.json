@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-02T05:03:16-03:00",
+    "actualizado": "2026-11-02T06:49:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,22 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-02-pollo-brasil-importaciones-newcastle",
+      "titulo": "La Argentina le compró a Brasil 35.627 toneladas de carne de ave en nueve meses, casi el doble que en todo 2025: dos de cada tres kilos son pechuga",
+      "bajada": "Entre enero y septiembre de 2026 la Argentina le compró a Brasil 35.627 toneladas de carne de ave, la mayor cantidad para esos meses desde 1999 y 124% más que un año antes, según el INDEC. La aduana brasileña, que lleva su propio registro, anota casi lo mismo: 35.820. Casi todo es pollo congelado, y dos de cada tres kilos son pechuga deshuesada. Por eso pesa el brote de Newcastle en Santa Catarina: el SENASA suspendió lo que llega de la zona del foco, no el resto de Brasil.",
+      "titulo_busqueda": "¿Cuánto pollo le compra la Argentina a Brasil?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "35.627 t",
+      "numero_label": "carne de ave (NCM 0207) importada desde Brasil en enero-septiembre de 2026 según el INDEC (impom26: 35.626.741 kg, FOB US$70.096.744; 2025: 15.902.560 kg, +124,0%; año 2025: 18.333.524 kg, 1,94 veces). Contraste ComexStat Brasil (heading 0207, país 063): 35.820,0 t y US$68,94 M FOB; 2025: 16.034,7 t (+123,4%); dif. -0,5%. Pechuga 0207.14.22: 24.290.883 kg (68,2%; +112,2%; US$2,52/kg vs 2,91, -13,3%); ComexStat 24.360,2 t. Brasil 99,6% de la 0207 importada (35.772.822 kg). Superlativos: INDEC desde 2002 máx previo ene-sep 2025 15.903 t, mes previo máx ago-25 3.743 t (jun-26 5.786 t); ComexStat ene-sep 1998 42.555 t, 1999 36.229 t, 2000 32.377 t, 2001 17.318 t. Secretaría de Agricultura ene-sep 2026: impo 43.182 t (+107,9%), expo 83.269 t (-33,3%), impo/expo 51,9% (2025 16,6%; 2016-2024 1,8%-6,7%), producción 1.649.058 t (-4,6%). Estados de origen (ComexStat): Paraná 47,0%, Santa Catarina 27,9%, Rio Grande do Sul 19,3%",
+      "fecha": "2026-11-02",
+      "hora": "07:30",
+      "archivo": "articulos/2026-11-02-pollo-brasil-importaciones-newcastle.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min"
+    },
     {
       "id": "2026-11-02-empleo-publico-provincial-tierra-del-fuego-neuquen",
       "titulo": "Tierra del Fuego tiene 139,7 empleados públicos provinciales cada mil habitantes, 4,2 veces Córdoba; Neuquén es la que más gasta por habitante",

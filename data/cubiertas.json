@@ -7080,6 +7080,21 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas: pasó la segunda candidata"
+    },
+    {
+      "tema": "¿cuánto pollo le compra la Argentina a Brasil? (pregunta de plata detrás de Infobae Revista Chacra 01/11/2026 'Newcastle en Brasil: Argentina restringió importaciones y refuerza la vigilancia avícola' y del comunicado del SENASA del 22/10/2026: zonificación, suspendida solo la zona del foco en Santa Catarina) / INDEC NCM 0207 origen Brasil ene-sep 2026 35.627 t (+124,0%; 2025 15.903 t; año 2025 18.334 t), pechuga deshuesada 68,2%; ComexStat 35.820 t; mayor ene-sep desde 1999 (ComexStat 36.229 t); Secretaría de Agricultura impo/expo 51,9%",
+      "angulo": "Corrida programada del 02/11/2026 06:30, primera candidata probada. Ángulo propio: la serie larga en las dos aduanas, el corte (pechuga) y el cruce con exportaciones en caída de la Secretaría de Agricultura. Camino de verificación: dos fuentes independientes (INDEC + ComexStat).",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-pollo-brasil-importaciones-newcastle"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 06:30: no se probaron porque pasó la primera candidata (importación de pollo de Brasil y Newcastle, INDEC + ComexStat). Empresas (cupo: hoy no hay nota de EMPRESAS; descartadas con razón, sin cifra ancla en documento nuevo): Caja de Valores 'anuncio de dividendo CNV 8571' (leído: es el dividendo del CEDEAR de Ford, US$0,15 por acción, no una nota sobre una empresa argentina y roza la recomendación), Loma Negra HR 27/10 (cancelación parcial de la ON Clase 5; sin monto en la línea, ON Clase 7 ya publicada el 20/10), Banco Comafi HR 29-30/10 (prospectos de CEDEAR de ETF, riesgo de recomendación), Ternium Argentina 9M26 (solo síntesis Art. 63), Pluspetrol fusión (sin montos), Molinos/Ayudín (precio no informado, frenada el 28/10). Pregunta de plata no probadas: cuánto cuesta un crucero/turismo de cruceros en Ushuaia (turistas intoxicados, Clarín; sin dato de plata oficial a mano), quita de hasta 33% en juicios laborales bonaerenses (Corte bonaerense, ámbito; sin serie oficial de montos), crédito como lujo (Clarín; crédito/PBI BCRA + Banco Mundial, no probada). Portales: riesgo país cerca de 800 (mercado diario), hackeo de Binance (sin documento local), coparticipación de octubre (Cronista; repetida, frenada el 31/10 hasta el IPC de octubre), maquinaria agrícola -33% (tractores en cola), autos -7 meses (sin estadística oficial de octubre), Cyber Monday y aumentos de noviembre (ya publicadas). Calendario: ICA precios y cantidades 3T (sale el 03/11). clarin.com y tn.com.ar leídos por curl. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas no probadas para que una corrida siguiente pueda retomarlas.",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }
