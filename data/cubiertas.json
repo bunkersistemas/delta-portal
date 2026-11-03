@@ -7228,6 +7228,21 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "no probadas: pasó la segunda candidata"
+    },
+    {
+      "tema": "¿cuánta carne le vende la Argentina a Estados Unidos? (pregunta de plata detrás de El Cronista 03/11/2026 'Carne, ARTI y aranceles: qué se juega Argentina en la relación bilateral', día de las elecciones de medio término en EE.UU.) / INDEC 0201+0202 destino EE.UU. ene-sep 2026 83.124 t, US$687,0 M FOB (2025 ene-sep 29.067 t, US$215,0 M; año 2025 44.377 t, US$342,5 M, máximo previo desde 2002); US$/t 8.265 vs China 4.598; EE.UU. segundo destino (15,1% de t, 18,1% de US$); espejo UN Comtrade ene-ago 2026 71.910 t vs INDEC dic25-jul26 72.969 (-1,45%); Arg 5,2% de las importaciones de carne de EE.UU. (7.º proveedor); cupo HTSUS 20.000 t + 80.000 t extra 13/02-31/12/2026 en tramos trimestrales",
+      "angulo": "Corrida programada del 03/11/2026 02:30, primera candidata probada (APTA). Ángulo nuevo: no hay nota sobre la carne a EE.UU.; la del 31/10 (China) solo mencionaba de pasada que los envíos a EE.UU. casi se triplicaban (83.124 t). Esta lleva ancla en dólares (US$687 M, el doble de 2025), serie 2002-2026, precio por tonelada contra China, el cruce con la aduana de EE.UU. y el cupo extra que vence el 31/12. Verificación: dos fuentes independientes (INDEC exportaciones + Census/UN Comtrade importaciones) que coinciden con un mes de desfase. No se afirma cuánto entró dentro del cupo ni la causa de la baja de septiembre.",
+      "fecha": "2026-11-03",
+      "estado": "publicada",
+      "articulo_id": "2026-11-03-carne-estados-unidos-687-millones-cupo",
+      "archivo": "cola/2026-11-03-carne-estados-unidos-687-millones-cupo.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 03/11/2026 02:30: no se probaron porque pasó la primera candidata (carne vacuna a EE.UU., INDEC + UN Comtrade). Empresas (cupo: hoy no hay nota de EMPRESAS; razón para no tomarlas: ningún documento nuevo trae cifra ancla, leídos): Pampa acuerdo marco con SACDE (HR CNV 02/11, renovación anual sin montos; las operaciones con SACDE podrían cuantificarse desde la nota de partes relacionadas de los EEFF: retomable), Tecpetrol 3T26 (solo síntesis Art. 63 con campos sin texto; EEFF no presentados), Ternium Argentina 9M26 (siguen sin EEFF en la CNV al 03/11), Molinos venta del acopio y compra de planta (sin precio), Newsan fusión (sin cifras), Central Puerto, Banco Macro, BYMA y A3 recompras (formato cubierto), Caja de Valores dividendo de Cedear (menor). Calendario: ICA precios y cantidades 3T-2026 (sale hoy a las 16, no disponible a las 02:30). Portales: riesgo país sobre 800 y acciones en baja (infobae, La Nación, ámbito, iProfesional; mercado diario), recaudación de octubre (infobae, La Nación, ámbito, Cronista, Página12; dato del día, descartado ayer), contrabando US$3.000 M (una sola fuente privada), Benetton-Adecoagro (sin documento ni precio), subsidios a colectivos AMBA (repetida), UIF Inocencia Fiscal II (sin texto en el BO al momento), Zona Fría reglamentación (cubierta 26 y 27/10), yerba mate en crisis (Página12; sin fuente oficial de precios al productor desde la desregulación), locales cerrados en CABA (sin dato oficial), paro de ATE en aeropuertos (sin cifra), nafta contra Europa y Brasil (tercera de combustibles). clarin.com y tn.com.ar no se pudieron leer con WebFetch.",
+      "angulo": "registro de candidatas no probadas",
+      "fecha": "2026-11-03",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }

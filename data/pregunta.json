@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-02",
-  "pregunta": "Un alquiler de $500.000 se ajusta una vez por año por el ICL y el contrato cumple año el 1 de noviembre. El ICL del BCRA pasó de 28,31 el 01/11/2025 a 37,21 el 01/11/2026. En los doce meses a septiembre la inflación fue de 33,4%. ¿Cuánto pasa a pagar el inquilino?",
+  "fecha": "2026-11-03",
+  "pregunta": "Según el BIS, en el primer trimestre de 2026 el crédito de los bancos a familias y empresas de la Argentina equivalía al 13,9% del PBI, y el de Chile, al 69,5%. ¿Qué quiere decir ese 13,9%?",
   "opciones": [
-    "Unos $657.000: $500.000 × 37,21 ÷ 28,31, una suba de 31,4%",
-    "Unos $667.000: $500.000 más la inflación de 33,4%",
-    "Unos $544.500: $500.000 más 8,9 puntos, la diferencia entre 37,21 y 28,31"
+    "Que por cada $100 que produce la economía en un año, los bancos tienen prestados unos $14 a familias y empresas",
+    "Que el 13,9% de los argentinos tiene un préstamo en un banco",
+    "Que los bancos prestaron 13,9% más que un año antes"
   ],
   "correcta": 0,
-  "explicacion": "El ICL es un índice: lo que cuenta es cuánto creció, y eso sale de dividir el valor nuevo por el viejo. 37,21 ÷ 28,31 = 1,314, una suba de 31,4%, y por eso el alquiler pasa a unos $657.000. Restar los dos valores (8,9) y tomarlo como porcentaje es un error común: un índice no se mide en por ciento. Tampoco se aplica la inflación directamente, porque el ICL combina la inflación con la evolución de los salarios registrados (RIPTE), que subieron menos: 29,6% en los doce meses a agosto. Por eso esta vez el ajuste quedó por debajo de los precios.",
-  "nota": "articulos/2026-11-01-alquileres-icl-noviembre-31-por-ciento.html",
-  "leccion": "lecciones/inflacion-bolsillo.html"
+  "explicacion": "El crédito en % del PBI compara dos cosas: lo que los bancos tienen prestado en un momento (un stock) con todo lo que la economía produce en un año. 13,9% es unos $14 de préstamos por cada $100 de producción; en Chile son unos $70, cinco veces más. No dice cuántas personas tienen un préstamo: una sola empresa grande puede tener más deuda que miles de familias. Tampoco es una variación: para saber cuánto creció el crédito hay que comparar el stock de dos fechas. Un crédito bajo en relación con el PBI significa que familias y empresas financian poco de su consumo y su inversión con préstamos bancarios.",
+  "nota": "articulos/2026-11-02-credito-bancos-pbi-argentina-chile-brasil.html",
+  "leccion": "lecciones/deuda-credito.html"
 }
