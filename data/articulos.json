@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T16:45:36-03:00",
+    "actualizado": "2026-11-03T19:00:27-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-03-ypf-capex-loma-negra-la-yesera-6-millones",
+      "titulo": "Las dos áreas de Río Negro donde YPF le vende su 35% a Capex por US$6 millones sacaron 20,9% menos petróleo en nueve meses; el país, 16,3% más",
+      "bajada": "YPF acordó venderle a Capex su 35% de Loma Negra y La Yesera, dos áreas petroleras de Río Negro, por US$6 millones, con un piso de US$3 millones. La operación se cierra en dos áreas que van al revés que el país: entre enero y septiembre de 2026 sacaron 20,9% menos petróleo que un año antes, mientras la producción nacional creció 16,3%. Y no es la primera vez que Capex compra ahí: es su tercera compra en las mismas áreas. En 2017 le pagó US$25,2 millones a Chevron por el 37,5% de una y el 18,75% de la otra.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "−20,9%",
+      "numero_label": "caída del petróleo de Loma Negra y La Yesera, las áreas que YPF le vende a Capex, en enero-septiembre de 2026 contra 2025",
+      "fecha": "2026-11-03",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-03-ypf-capex-loma-negra-la-yesera-6-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Secretaría de Energía, Capítulo IV por pozo, concesiones LOMA NEGRA y LA YESERA (Rio Negro): petróleo ene-sep 2026 77.947,4 m3 vs 2025 98.507,5 m3 (-20,87%); nacional ene-sep 39,48 vs 33,95 M m3 (+16,28%). Contraste: Capex EEFF anuales 30/04/2026 (CNV), reseña: producción de petróleo del 'Área Río Negro y La Yesera' +3,6% en el ejercicio; base SE ponderada por participación de Capex (37,5%; 72,5% en LY-1002 y LY-1003) may-2024/abr-2025 49.852 vs may-2025/abr-2026 51.628 m3 = +3,56% (100%: +7,6%). Precios: HR Capex CNV 03/11/2026 (US$6.000.000 ajustable, piso US$3.000.000), 17/04/2026 (CFI 15%: LN US$1,6 M, LY US$1,9 M), 01/11/2017 (Chevron 37,5% LN + 18,75% LY: US$25,2 M). Decreto RN 721/26 (BO 6513, 03/08/2026): participaciones tras CFI Capex 52,5/Metro 12,5/YPF 35; YPF sigue en La Yesera hasta 04/08/2027. Pico mensual jun-2025 2.708 bbl/d (previo 2.389 ago-2023, serie desde 2010)."
+    },
     {
       "id": "2026-11-03-exportaciones-volumen-record-1986-precios",
       "titulo": "La Argentina exportó en nueve meses el mayor volumen desde 1986: 9,3% más que en el mismo período de 2025",

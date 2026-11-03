@@ -1,11 +1,65 @@
 {
-  "generado": "2026-11-03T16:30",
+  "generado": "2026-11-03T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3588697",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T18:18",
+      "entidad": "CNH INDUSTRIAL CAPITAL ARGENTINA S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FDD481FD-3D7A-445E-A9B9-D755D8771267"
+    },
+    {
+      "id": "cnv-3588693",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T18:16",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 03.11.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/10615DE9-707D-4AA6-B81C-5E44D36E8C89"
+    },
+    {
+      "id": "cnv-3588692",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T18:15",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2BC4CFB7-BCA2-457E-9D71-0327FF2132E1"
+    },
+    {
+      "id": "cnv-3588688",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T18:11",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 02.11.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/674BB00B-FF83-4119-94B5-ABEB41AA53D3"
+    },
+    {
+      "id": "cnv-3588679",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T18:01",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A2138BB0-EAEB-44C5-9803-CE2DB1008812"
+    },
+    {
+      "id": "cnv-3588668",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T17:53",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (03 11 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2116C1C9-4B19-493C-B067-04B93E800F72"
+    },
     {
       "id": "cnv-3588549",
       "fuente": "CNV",
@@ -1202,6 +1256,7 @@
     "sec-0001292814-26-005124": "2026-11-02",
     "sec-0001292814-26-005130": "2026-11-03",
     "sec-0001342874-26-000048": "2026-10-08",
+    "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001554855-26-002070": "2026-10-05",
     "sec-0001554855-26-002088": "2026-10-09",
     "sec-0001554855-26-002090": "2026-10-09",
