@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-03T08:30",
+  "generado": "2026-11-03T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3588125",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T10:26",
+      "entidad": "BANCO BBVA ARGENTINA S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F3FBB143-8583-473B-980F-E30A6DE54C33"
+    },
     {
       "id": "cnv-3588018",
       "fuente": "CNV",

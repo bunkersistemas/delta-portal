@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 08:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 10:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los pagos con tarjeta a servicios digitales del exterior sumaron US$1.604 millones en nueve meses de 2026</title>
+      <link>https://coninteres.com/articulos/2026-11-03-servicios-digitales-tarjeta-1604-millones.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-servicios-digitales-tarjeta-1604-millones.html</guid>
+      <pubDate>Tue, 03 Nov 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En el tercer trimestre de 2026, los pagos con tarjeta y débito a proveedores de servicios digitales del exterior crecieron 25,9% interanual: más del doble que el resto de los consumos con tarjeta afuera, que incluye viajes y compras online (11,5%). Entre enero y septiembre sumaron US$1.604 millones, según el Banco Central: unos US$178 millones por mes. El INDEC ve lo mismo en las importaciones de servicios audiovisuales: +27,9% en el primer semestre.</description>
+      <ci:numero>US$1.604 M</ci:numero>
+      <ci:numeroEtiqueta>pagos con tarjeta y débito a proveedores de servicios digitales del exterior, enero a septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-servicios-digitales-tarjeta-1604-millones.png" length="65325" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-servicios-digitales-tarjeta-1604-millones.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>China dice que le vendió a la Argentina US$199,8 millones en juguetes en 2025; la aduana argentina registró US$106,1 millones</title>
       <link>https://coninteres.com/articulos/2026-11-03-juguetes-china-brecha-aduana-chile-colombia.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>viaje en subte con SUBE registrada, viajes 1 a 20 del mes, noviembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-subte-noviembre-1887-sube-63-por-ciento.png" length="68986" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-subte-noviembre-1887-sube-63-por-ciento.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina le vendió a China 335.671 toneladas de carne en nueve meses, dos tercios de su cupo de 2026: 8% menos que en 2025, pero cobró 14% más</title>
-      <link>https://coninteres.com/articulos/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.html</guid>
-      <pubDate>Sat, 31 Oct 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y septiembre la Argentina le embarcó a China 335.671 toneladas de carne vacuna, según el INDEC: 8,0% menos que un año antes. Pero cobró US$1.543 millones, 13,8% más, porque cada tonelada se pagó 23,6% más cara. Y usó el 65,7% del cupo de 511.000 toneladas que China le fijó para 2026, por encima del cual se paga 55% de arancel extra. Brasil y Australia ya agotaron sus cupos; la Argentina, no.</description>
-      <ci:numero>335.671 t</ci:numero>
-      <ci:numeroEtiqueta>toneladas de carne vacuna fresca y congelada exportadas a China en enero-septiembre de 2026, 65,7% del cupo de 511.000 t</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.png" length="79879" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

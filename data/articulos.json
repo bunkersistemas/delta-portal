@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T08:57:29-03:00",
+    "actualizado": "2026-11-03T10:42:09-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-03-servicios-digitales-tarjeta-1604-millones",
+      "titulo": "Los pagos con tarjeta a servicios digitales del exterior sumaron US$1.604 millones en nueve meses de 2026",
+      "bajada": "En el tercer trimestre de 2026, los pagos con tarjeta y débito a proveedores de servicios digitales del exterior crecieron 25,9% interanual: más del doble que el resto de los consumos con tarjeta afuera, que incluye viajes y compras online (11,5%). Entre enero y septiembre sumaron US$1.604 millones, según el Banco Central: unos US$178 millones por mes. El INDEC ve lo mismo en las importaciones de servicios audiovisuales: +27,9% en el primer semestre.",
+      "titulo_busqueda": "¿Cuánto gastan los argentinos en plataformas y apps del exterior?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$1.604 M",
+      "numero_label": "pagos con tarjeta y débito a proveedores de servicios digitales del exterior, enero a septiembre de 2026",
+      "fecha": "2026-11-03",
+      "hora": "10:30",
+      "archivo": "articulos/2026-11-03-servicios-digitales-tarjeta-1604-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA, anexo estadístico del mercado de cambios y balance cambiario, hoja 'Anexo tarjetas y viajes', egresos por servicios digitales: suma ene-sep 2026 = 1.603,89 (igual al total 2026 de la planilla); sep-2026 181,68 = 'USD 182 millones' del informe de septiembre, nota 8, pág. 12. Contraste: INDEC balanza de pagos 2T-2026, cuadro 14, 1.A.b.11.1 débito (audiovisuales): 1S-2026 714,2 contra 1S-2025 558,3 (+27,9%)."
+    },
     {
       "id": "2026-11-03-juguetes-china-brecha-aduana-chile-colombia",
       "titulo": "China dice que le vendió a la Argentina US$199,8 millones en juguetes en 2025; la aduana argentina registró US$106,1 millones",
