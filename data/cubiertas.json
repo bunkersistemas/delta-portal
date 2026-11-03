@@ -7191,6 +7191,20 @@
       "fecha": "2026-11-02",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "¿de dónde sale el uranio de las centrales nucleares argentinas? (pregunta detrás de la compra de proyectos de exploración de uranio en Chubut por mineras canadienses, iProfesional 02/11/2026) / INDEC NCM 2844.10.00 ene-sep 2026 418,7 t y US$97,8 M CIF, más que cualquier año completo desde 2002 (previos US$62,8 M 2025, 353,3 t 2015); Namibia US$52,9 M y Kazajistán US$44,9 M; espejo Kazajistán 2020-2022 y EE.UU. 2025 en Comtrade; CNEA: todo el concentrado se importa desde 1997; Dioxitek 190 t UO2 en 2026",
+      "angulo": "Corrida programada del 02/11/2026 22:30, primera candidata probada. Ángulo propio: la serie larga 2002-2026 de la aduana por año y por origen, el valor por kilo (x4,3 desde 2020) y el contraste con los registros de exportación de Kazajistán y EE.UU. Distinta de la nota nuclear del 25/08/2026 (generación récord 2025) y de la de INVAP del 07/10/2026.",
+      "fecha": "2026-11-02",
+      "estado": "publicada",
+      "articulo_id": "2026-11-02-uranio-importado-record-namibia-kazajistan"
+    },
+    {
+      "tema": "descartes de la corrida programada del 02/11/2026 22:30: no se probaron porque pasó la primera candidata (uranio importado, INDEC + Comtrade + CNEA + Dioxitek). Lista no probada: empresas (ya hubo nota de EMPRESAS hoy, Pampa): Pampa acuerdo marco con SACDE (CNV 02/11, sin leer), Tecpetrol resultados Art. 63 al 30/09/2026 (sin leer), Molinos cierre de venta del acopio y compra de planta (sin precio), Newsan fusión (sin cifras), Central Puerto recompras (formato cubierto); calendario: índices de precios y cantidades del comercio exterior 3T-2026 (sale el 03/11 a las 16); portales: recaudación de octubre +0,7% real (todos los portales; dato del día sin ángulo propio y con IPC de octubre estimado), riesgo país sobre 800 y dólar en máximo nominal (mercado diario), contrabando US$3.000 M (una sola fuente privada), Benetton-Adecoagro (sin documento ni precio), nafta en dólares contra la región (tercera nota de combustibles en dos días), préstamos personales a 72 meses (TN; molde de tasa copiada de bancos), UIF Inocencia Fiscal II (Res. 144/2026 aún sin BO). clarin.com y tn.com.ar leídos con curl. pregunta.json ya era de hoy.",
+      "angulo": "registro de candidatas no probadas",
+      "fecha": "2026-11-02",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }

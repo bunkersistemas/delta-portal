@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-02T20:47:55-03:00",
+    "actualizado": "2026-11-02T23:08:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-02-uranio-importado-record-namibia-kazajistan",
+      "titulo": "La Argentina gastó US$97,8 millones en uranio importado en nueve meses, más que en cualquier año entero desde 2002: más de la mitad vino de Namibia",
+      "bajada": "En nueve meses de 2026 la Argentina compró más uranio que en cualquier año completo desde 2002, tanto en toneladas como en dólares: 418,7 toneladas de uranio natural y sus compuestos por US$97,8 millones entre enero y septiembre, según el INDEC. El país no produce uranio desde 1997 y, según la CNEA, todo el concentrado se importa. Este año llegó de dos países: Namibia (US$52,9 millones) y Kazajistán (US$44,9 millones).",
+      "titulo_busqueda": "¿De dónde sale el uranio de las centrales nucleares argentinas?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$97,8 M",
+      "numero_label": "uranio natural y sus compuestos importado por la Argentina entre enero y septiembre de 2026, valor CIF",
+      "fecha": "2026-11-02",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-02-uranio-importado-record-namibia-kazajistan.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC impom 2002-2026, NCM 2844.10.00 todos los orígenes: ene-sep 2026 418.661 kg, CIF US$97.806.622, FOB US$95.870.775 (feb 57.159 kg, mar 97.399, may 56.911 origen 158 Namibia = US$52,92 M; sep 207.192 kg origen 352 Kazajistán = US$44,89 M). Máximos previos de año completo: US$62,81 M (2025), US$61,86 M (2015); 353,3 t (2015). +55,7% vs 2025 completo. US$/kg: 2020 54,5; 2023 147,8; 2025 211,9; 2026 233,6 (x4,29). 2018, 2019 y 2024 sin importaciones. 2024-sep 2026: 715,1 t, 260 t/año. Peso en importaciones totales ene-sep 2026 (itot CIF US$56.068,79 M): 0,17%. Códigos: Comtrade reporter 32 M 2025 partner 516 = 121.347,2 kg (=INDEC 158), 2022 partner 398 = 221.351 kg (=352), 2003 partner 860 (=356). Espejo Kazajistán (398 X): 2020 180.450 kg US$9.842.373,73; 2021 282.742 kg US$18.548.607; 2022 202.236 kg US$27.004.777; 2023 210.158 kg US$26.730.007 (INDEC 33.204.944); 2024 sin datos. EE.UU. (842) 2025 112.342 kg US$36.323.117 vs INDEC US$37.755.668 (-3,8%). Canadá 2015 434,6 t US$41,7 M vs INDEC 353,3 t US$61,9 M (no usable). Contraste 2026: CNEA (Zappino, CUINAP 2023) \"todo el concentrado de uranio se importa\"; Dioxitek presupuesto 2026 (Res. 89, anexo I): 190 t UO2."
+    },
     {
       "id": "2026-11-02-subte-gratis-jubilados-tope-noviembre",
       "titulo": "Los jubilados porteños viajan gratis en subte si cobran hasta $1.110.396 en noviembre: tres de cada cuatro jubilados del SIPA cobran menos",
