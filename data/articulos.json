@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T02:52:51-03:00",
+    "actualizado": "2026-11-03T04:39:54-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-03-pampa-energia-sacde-obras-223-millones",
+      "titulo": "Pampa Energía le compró US$223 millones a SACDE, la constructora de su mismo grupo de control, en 2025: casi uno de cada cinco dólares que invirtió",
+      "bajada": "En 2025 Pampa Energía le compró US$223 millones a SACDE, la constructora con la que comparte el grupo de control: más del doble que en 2024 y el mayor monto anual desde 2017, casi uno de cada cinco dólares que sumó en obras y equipos. El lunes, el directorio renovó por un año más el acuerdo marco para seguir contratándola, en un anuncio que no tiene montos. Una parte de esas obras se paga como honorarios y gastos generales calculados sobre el costo, y SACDE construirá con Tecnimont la planta de urea de US$2.700 millones.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$223 M",
+      "numero_label": "compras de Pampa Energía a SACDE, la constructora de su mismo grupo de control, en 2025",
+      "fecha": "2026-11-03",
+      "hora": "05:30",
+      "archivo": "articulos/2026-11-03-pampa-energia-sacde-obras-223-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Pampa 20-F 2025 (SEC 09/04/2026) nota 16.2: compras a SACDE 2025 223, 2024 103, 2023 65; 20-F 2023: 2022 203 (obras PP&E 76), 2021 48 (47); 20-F 2022: 2020 6; 20-F 2019: 2018 2, 2017 0, 2019 0 (20-F 2021: 14). EEFF 30/09/2026 (SEC 02/11) nota 16: ene-sep 2026 131 (fees 25), 2025 183 (obras 182, fees 47). CNV pesos: 2025 $284.843 M (implícito 1.277), 9M26 $189.932 M (1.450), 9M25 $224.411 M. Altas PP&E+intang.+ROU (segmentos): 242/264/482/827/475/1.132; 9M26 948, 9M25 789. HR CNV 02/11/2026 acuerdo marco; Comité de Auditoría 02/11; HR 17/07/2026 urea US$2.700 M EPC Tecnimont+SACDE lump-sum licitación internacional."
+    },
     {
       "id": "2026-11-03-carne-estados-unidos-687-millones-cupo",
       "titulo": "La Argentina le vendió a Estados Unidos US$687 millones de carne en nueve meses, el doble que en todo 2025",

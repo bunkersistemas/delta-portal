@@ -7243,6 +7243,21 @@
       "fecha": "2026-11-03",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "¿cuánto le paga Pampa Energía a SACDE, la constructora de su mismo grupo de control? (EMPRESAS; HR CNV 02/11/2026: renovación anual del acuerdo marco con SACDE, sin montos) / compras a SACDE (nota 16 de partes relacionadas): 2020 6, 2021 48, 2022 203 (76 obras), 2023 65, 2024 103, 2025 223 (máximo desde 2017), ene-sep 2026 131 vs 183; 19,7% de las altas de 2025 (1.132); honorarios y gastos generales 25 de 131 en 9M26; acumulado 2020-sep26 US$779 M; planta de urea US$2.700 M con Tecnimont y SACDE",
+      "angulo": "Corrida programada del 03/11/2026 04:30, primera candidata probada (APTA). Cupo de empresas: hoy no había nota de EMPRESAS. Ángulo propio: el hecho relevante no tiene montos; la serie 2020-2026 se arma desde la nota de partes relacionadas de cinco 20-F y el balance al 30/09, con el peso en la inversión (cálculo propio). Retoma lo que la corrida de 02:30 dejó como retomable. Distinta de las notas de Pampa del 01/11 (ON Clase 29) y del 02/11 (cobertura del petróleo). Camino: dos documentos de la empresa ante dos reguladores (SEC en dólares, CNV en pesos; tipo de cambio implícito coherente) + recálculo. 2019 se excluye por cifras distintas entre 20-F; honorarios de 2022 no se citan por la misma razón. No se juzga si los precios fueron de mercado.",
+      "fecha": "2026-11-03",
+      "estado": "publicada",
+      "articulo_id": "2026-11-03-pampa-energia-sacde-obras-223-millones",
+      "archivo": "cola/2026-11-03-pampa-energia-sacde-obras-223-millones.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 03/11/2026 04:30: no se probaron porque pasó la primera candidata (Pampa-SACDE, partes relacionadas). Lista no probada: empresas: Ternium Argentina 9M26 (sin EEFF en la CNV), Molinos venta del acopio y compra de planta (sin precio), Newsan fusión (sin cifras), Celulosa Argentina información judicial (CNV 30/10, sin leer), Tango Energy asamblea extraordinaria (CNV 30/10, sin leer), Agroindustrias La Española ON (aviso de oferta), recompras de Banco Macro, BYMA, Central Puerto y A3 (formato cubierto); calendario: ICA precios y cantidades 3T-2026 (sale hoy 16 h, no disponible a las 04:30); pregunta de plata: umbral de la UIF de Inocencia Fiscal II (infobae, La Nación 03/11: norma aprobada; retomable con el texto del BO), créditos para autos nacionales (Clarín; sin norma); portales: riesgo país sobre 800 y dólar oficial en máximo nominal (infobae, La Nación, ámbito, Cronista, Clarín; mercado diario), recaudación de octubre +0,7% real (todos; dato del día, descartado ayer), agro liquidó US$2.880 M en octubre (Clarín, Cronista; superlativo de 25 años sin serie verificada), contrabando US$3.000 M (una sola fuente privada), Benetton-Adecoagro (sin documento ni precio), nafta contra la región (tercera de combustibles), UIA y Caputo (sin cifra), yerba mate (Página12; sin fuente oficial), pago de US$800 M (Clarín; FMI cubierto 31/10). tn.com.ar no se pudo leer. pregunta.json ya era de hoy.",
+      "angulo": "registro de candidatas no probadas",
+      "fecha": "2026-11-03",
+      "estado": "descartada",
+      "articulo_id": ""
     }
   ]
 }
