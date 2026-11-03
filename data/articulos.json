@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T12:44:26-03:00",
+    "actualizado": "2026-11-03T14:51:24-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011",
+      "titulo": "La Argentina exportó 42,3 millones de kilos de yerba en nueve meses, la mayor cantidad desde 2002, pero cobró US$1,77 por kilo: el precio más bajo desde 2011",
+      "bajada": "Entre enero y septiembre de 2026 la Argentina vendió al exterior más yerba mate que en esos nueve meses de cualquier año desde 2002, y cobró por cada kilo el precio más bajo desde 2011. Según el INDEC, exportó 42,3 millones de kilos: 13,6% más que un año antes. Los dólares, en cambio, subieron solo 2,6%, porque el kilo se vendió a US$1,77 en promedio, 23,5% menos que en 2023. Con los precios de 2023, esos mismos kilos habrían dejado US$23 millones más.",
+      "titulo_busqueda": "¿Por qué la Argentina exporta más yerba y cobra menos por kilo?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "US$1,77",
+      "numero_label": "precio promedio por kilo de la yerba mate exportada entre enero y septiembre de 2026, el más bajo desde 2011",
+      "fecha": "2026-11-03",
+      "hora": "15:30",
+      "archivo": "articulos/2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC base comex exponm 2002-2026, NCM 0903, ene-sep 2026: US$75.009.737 FOB / 42.318.759 kg = US$1,7725 (2025: 73.087.277 / 37.253.241 = 1,9619; 2023: 2,3174; 2015: 3,067; 2011: 1,294; min 2012-2025 1,936 en 2012); max previo de kilos ene-sep 2025 37,25 M (2018 32,36 M); Siria (334 = Comtrade 760, coincide al kilo 2024-2025) 32.135.270 kg a US$1,613; contraste volumen INYM informe sep-2026 cuadro 5: 44.104.019 kg ene-sep (2025 41.954.075), anuales INYM/INDEC +0,4% a +8,4%; contraste precio Chile (Comtrade 152, M): 2,45 (2024), 2,23 (2025), 2,19 (ene-jul 2026); EE.UU. 842 va al reves (3,10 -> 3,31)"
+    },
     {
       "id": "2026-11-03-impuesto-sellos-provincias-caba-57",
       "titulo": "La Provincia y la Ciudad de Buenos Aires cobran el 57% del impuesto a los Sellos que Caputo propone eliminar",

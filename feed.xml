@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 12:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 14:51:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina exportó 42,3 millones de kilos de yerba en nueve meses, la mayor cantidad desde 2002, pero cobró US$1,77 por kilo: el precio más bajo desde 2011</title>
+      <link>https://coninteres.com/articulos/2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011.html</guid>
+      <pubDate>Tue, 03 Nov 2026 15:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Entre enero y septiembre de 2026 la Argentina vendió al exterior más yerba mate que en esos nueve meses de cualquier año desde 2002, y cobró por cada kilo el precio más bajo desde 2011. Según el INDEC, exportó 42,3 millones de kilos: 13,6% más que un año antes. Los dólares, en cambio, subieron solo 2,6%, porque el kilo se vendió a US$1,77 en promedio, 23,5% menos que en 2023. Con los precios de 2023, esos mismos kilos habrían dejado US$23 millones más.</description>
+      <ci:numero>US$1,77</ci:numero>
+      <ci:numeroEtiqueta>precio promedio por kilo de la yerba mate exportada entre enero y septiembre de 2026, el más bajo desde 2011</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011.png" length="79079" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Provincia y la Ciudad de Buenos Aires cobran el 57% del impuesto a los Sellos que Caputo propone eliminar</title>
       <link>https://coninteres.com/articulos/2026-11-03-impuesto-sellos-provincias-caba-57.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>pasajes y viáticos devengados por el Senado de la Nación, enero a junio de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-senado-pasajes-4014-millones-semestre.png" length="82277" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-senado-pasajes-4014-millones-semestre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Cámara de Diputados gastó $6.026 millones en pasajes en el primer semestre, y 97 de sus 257 diputados eligieron menos pasajes a cambio de dinero</title>
-      <link>https://coninteres.com/articulos/2026-10-31-diputados-pasajes-6026-millones-semestre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-diputados-pasajes-6026-millones-semestre.html</guid>
-      <pubDate>Sat, 31 Oct 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La Cámara de Diputados devengó $6.026 millones en pasajes y viáticos entre enero y junio de 2026, según su propia ejecución presupuestaria y Presupuesto Abierto: 28,9% más que en el mismo semestre de 2025, pero menos que la inflación. A nombre de los diputados se emitieron 5.713 tramos. Y 97 de los 257 eligieron de antemano menos pasajes a cambio de una suma mensual de dinero por movilidad, de hasta $1.192.982 en junio.</description>
-      <ci:numero>$6.026 millones</ci:numero>
-      <ci:numeroEtiqueta>pasajes y viáticos devengados por la Cámara de Diputados, enero a junio de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-diputados-pasajes-6026-millones-semestre.png" length="75612" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-diputados-pasajes-6026-millones-semestre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
