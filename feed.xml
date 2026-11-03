@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 04:40:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 06:50:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los 27 proyectos del RIGI declararon invertir US$17.700 millones en sus dos primeros años: menos de un cuarto de los US$76.173 millones que anuncia el Gobierno</title>
+      <link>https://coninteres.com/articulos/2026-11-03-rigi-dos-primeros-anos-17700-millones.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-rigi-dos-primeros-anos-17700-millones.html</guid>
+      <pubDate>Tue, 03 Nov 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El tablero oficial del Ministerio de Economía suma US$76.173 millones de inversión en los 27 proyectos aprobados del RIGI, pero esa cifra junta planes que llegan hasta 2054. Con Interés leyó las 27 resoluciones del Boletín Oficial: para sus dos primeros años, las empresas declararon US$17.700 millones, el 23% del total. En los seis proyectos más grandes, la proporción baja al 14%.</description>
+      <ci:numero>US$17.700 M</ci:numero>
+      <ci:numeroEtiqueta>lo que los 27 proyectos aprobados del RIGI declararon invertir en sus dos primeros años, según sus resoluciones</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-rigi-dos-primeros-anos-17700-millones.png" length="79622" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-rigi-dos-primeros-anos-17700-millones.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Pampa Energía le compró US$223 millones a SACDE, la constructora de su mismo grupo de control, en 2025: casi uno de cada cinco dólares que invirtió</title>
       <link>https://coninteres.com/articulos/2026-11-03-pampa-energia-sacde-obras-223-millones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>bajada de bandera diurna del taxi porteño desde el 01/11/2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-taxi-porteno-bajada-de-bandera-noviembre.png" length="68406" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-taxi-porteno-bajada-de-bandera-noviembre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un congresista de Estados Unidos cobra US$174.000 por año desde 2009: descontada la inflación es 35% menos, y sus empleados pueden ganar hasta US$228.000</title>
-      <link>https://coninteres.com/articulos/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.html</guid>
-      <pubDate>Sat, 31 Oct 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Quienes ganen el martes 3 de noviembre una banca en el Congreso de Estados Unidos van a cobrar lo mismo que los legisladores de 2009: US$174.000 por año, según el Servicio de Investigación del Congreso y la Secretaría de la Cámara. La ley prevé un ajuste automático cada enero, pero el Congreso vota cada año para no aumentarse. Con la inflación acumulada desde 2009, ese monto compra 35,4% menos, y el tope de sueldo de su propio personal ya lo supera: US$228.000.</description>
-      <ci:numero>US$174.000</ci:numero>
-      <ci:numeroEtiqueta>sueldo bruto anual de un representante o senador de EE.UU</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.png" length="76607" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-congresista-estados-unidos-sueldo-cuanto-cobra.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

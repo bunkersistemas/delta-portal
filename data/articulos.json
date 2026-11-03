@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T04:39:54-03:00",
+    "actualizado": "2026-11-03T06:50:23-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-03-rigi-dos-primeros-anos-17700-millones",
+      "titulo": "Los 27 proyectos del RIGI declararon invertir US$17.700 millones en sus dos primeros años: menos de un cuarto de los US$76.173 millones que anuncia el Gobierno",
+      "bajada": "El tablero oficial del Ministerio de Economía suma US$76.173 millones de inversión en los 27 proyectos aprobados del RIGI, pero esa cifra junta planes que llegan hasta 2054. Con Interés leyó las 27 resoluciones del Boletín Oficial: para sus dos primeros años, las empresas declararon US$17.700 millones, el 23% del total. En los seis proyectos más grandes, la proporción baja al 14%.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$17.700 M",
+      "numero_label": "lo que los 27 proyectos aprobados del RIGI declararon invertir en sus dos primeros años, según sus resoluciones",
+      "fecha": "2026-11-03",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-03-rigi-dos-primeros-anos-17700-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 30,
+      "lectura": "30 seg → 8 min",
+      "numero_fuente": "Suma propia de los montos iniciales del primer y segundo año (considerandos) de 27 resoluciones MEcon de aprobación RIGI en el BO: 17.699,9 M (año 1 en 25 desglosados 7.137,3). Tablero argentina.gob.ar/economia/rigi (Google Sheet dataset, 03/11/2026): 27 aprobados US$76.173 M, 133.076 empleos; evaluación 22 por 141.949. Grandes >=4.000 M (6): 54.481 / 7.626,1 (14,0%); resto 21: 21.692 / 10.073,8 (46,4%). Petróleo y gas 9: 46.158/10.605,7; minería 13: 27.624/6.069,8. Southern Res 559/2025: total 6.878 (comp. 2.825), 2 años 105+354=459, límite 31/12/2035; tablero 15.156; con 6.878 base 67.895 y 26,1%. Contraste: Pampa EEFF 2025 (6-K SEC) nota 5.1.6: VMOS inversión estimada US$3.000 M, desembolsos bancarios US$820 M al 31/12/2025; Res 302/2025: 2.900-3.200, año 1 1.318, año 2 1.123. PSJ es Res 801/2026 (aviso 342483, BO 28/05/2026), no 809."
+    },
     {
       "id": "2026-11-03-pampa-energia-sacde-obras-223-millones",
       "titulo": "Pampa Energía le compró US$223 millones a SACDE, la constructora de su mismo grupo de control, en 2025: casi uno de cada cinco dólares que invirtió",
