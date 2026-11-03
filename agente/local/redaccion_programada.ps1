@@ -120,6 +120,24 @@ Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del 
   $nuevo = "$(& $py -c "import json,sys;print(max([len(b['titulo']) for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]] or [0]))" $id)".Trim()
   $null = Anotar "titulo de $id : $largo -> $nuevo caracteres"
 }
+# Etiqueta de la cifra ancla (editor, 02/11/2026): numero_label es lo que el lector lee al
+# lado del numero en la portada. Desde fines de septiembre venia cargado con el rastro de
+# verificacion (resoluciones, cuentas, cruces con la prensa) y la portada lo mostraba entero.
+# Tope 160 caracteres; el rastro va en numero_fuente, que no se muestra.
+function AcortarEtiqueta($id) {
+  $largo = "$(& $py -c "import json,sys;print(max([len(b.get('numero_label','')) for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]] or [0]))" $id)".Trim()
+  if (-not ($largo -match '^\d+$') -or [int]$largo -le 160) { return }
+  $null = Anotar "numero_label de $largo caracteres en $id : se acorta"
+  $promptLab = @"
+Sos la redaccion de Con Interes. En data/cola.json, la entrada del borrador $id tiene un "numero_label" de $largo caracteres. Ese campo es la etiqueta que el lector ve al lado de la cifra ancla en la portada: tiene que decir en una frase QUE MIDE el numero (tope 160 caracteres, ideal menos de 120), sin fuentes entre parentesis, sin resoluciones, sin cuentas. Mueve el texto actual completo, sin cambiarlo, a un campo nuevo "numero_fuente" de esa misma entrada, y escribi en "numero_label" la etiqueta corta, sin cambiar ningun numero ni conclusion. No toques nada mas. PROHIBIDO git, aprobar.py, rechazar.py.
+Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo.
+"@
+  $salidaLab = & claude -p $promptLab --permission-mode dontAsk `
+    --allowedTools 'Read' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 2>&1
+  Add-Content -Path $Log -Value ($salidaLab | Out-String) -Encoding UTF8
+  $nuevo = "$(& $py -c "import json,sys;print(max([len(b.get('numero_label','')) for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]] or [0]))" $id)".Trim()
+  $null = Anotar "numero_label de $id : $largo -> $nuevo caracteres"
+}
 # Editor de narrativa (editor, 15/10/2026): un paso que SOLO mejora la redaccion de un borrador ya
 # verificado (agente/local/misiones/narrativa.md). Cambia la forma, nunca los hechos: aplicar_narrativa.py corre
 # controlar_narrativa.py y, si algo no pasa (cifra, cita, link, grafico, afirmacion nueva sin respaldo, titulo),
@@ -454,12 +472,13 @@ Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
 Fecha y hora de Buenos Aires: $ahoraAR. Usala para todo lo que dependa del dia (hoy, fecha de la nota, pregunta del dia, que ya publico el INDEC). La maquina esta en otra zona horaria: no te guies por su reloj.
 Hace una corrida de redaccion completa siguiendo agente/local/misiones/redaccion.md y agente/NEWSROOM.md al pie de la letra (python, no python3).
 El objetivo de cada corrida es publicar UNA nota buena. Trabaja asi:
-1. RASTREO, siempre las cuatro cosas: (a) barre las portadas de economia de infobae, lanacion, clarin, ambito, iprofesional, cronista, tn y pagina12 con WebFetch, y anota los temas que se repiten en varias; (b) corre python scripts/build_empresas.py y despues python scripts/agenda.py, para el calendario oficial y el bloque EMPRESAS (lo que las empresas presentaron ante la CNV y la SEC); (c) de ese bloque, minimo 2 candidatas de empresas cuando tiene material; (d) la PREGUNTA DE PLATA detras de la noticia del dia, en cualquier seccion (deporte, espectaculos, sociedad, no solo economia): que pregunta de plata se hace la gente y buscaria en Google (cuanto cobra, cuanto cuesta, cuanto paga el Estado) que se pueda contestar con documentos oficiales. Minimo 2 candidatas de este tipo.
-2. Arma una lista de 8 a 12 candidatas ordenada con los criterios del Editor de agente/local/misiones/redaccion.md: primero una pregunta que la gente busca y nadie contesta con datos (asi llego el 61% de los lectores del ultimo mes); el dato del dia del calendario solo gana si trae un angulo que los otros medios no tienen. Si agenda.py dice HOY NO HAY NOTA DE EMPRESAS, una candidata de empresas con documento primario compite con ventaja (NEWSROOM.md 2 quater): descartarla exige una razon escrita en el motivo, y la nota sigue sus lineas rojas. Descarta las que ya estan en data/cubiertas.json como publicada o en_cola sin un angulo nuevo. Las descartadas antes por falta de segunda fuente SI se pueden retomar: desde el 24/09/2026 rige la regla de estadisticas oficiales de NEWSROOM.md seccion 3.
+1. RASTREO, siempre las cuatro cosas: (a) barre las portadas de economia de infobae, lanacion, clarin, ambito, iprofesional, cronista, tn y pagina12 con WebFetch, y anota los temas que se repiten en varias; (b) corre python scripts/build_empresas.py y despues python scripts/agenda.py, para el calendario oficial y el bloque EMPRESAS (lo que las empresas presentaron ante la CNV y la SEC); (c) de ese bloque, minimo 2 candidatas de empresas cuando tiene material; (d) la PREGUNTA DE PLATA detras de la noticia del dia, en cualquier seccion (deporte, espectaculos, sociedad, no solo economia), que se pueda contestar con documentos oficiales. Es una fuente de candidatas, no una cuota: no hay minimo. Corre python scripts/titulares.py y mira lo que ya se publico HOY: no propongas otra nota del mismo molde que una de hoy.
+2. Arma una lista de 8 a 12 candidatas ordenada con los criterios del Editor de agente/local/misiones/redaccion.md: primero la que tiene un HALLAZGO (algo que el lector no sabia y no esta en el comunicado ni en la resolucion: un cruce de dos fuentes, una serie larga, una comparacion propia, un resultado que va contra lo que se cree); despues, que sea una pregunta que la gente se hace. El dato del dia del calendario solo gana si trae un angulo que los otros medios no tienen. Si agenda.py dice HOY NO HAY NOTA DE EMPRESAS, una candidata de empresas con documento primario compite con ventaja (NEWSROOM.md 2 quater): descartarla exige una razon escrita en el motivo, y la nota sigue sus lineas rojas. Descarta las que ya estan en data/cubiertas.json como publicada o en_cola sin un angulo nuevo. Las descartadas antes por falta de segunda fuente SI se pueden retomar: desde el 24/09/2026 rige la regla de estadisticas oficiales de NEWSROOM.md seccion 3.
+2b. VARA DE CALIDAD (editor, 02/11/2026: "porquerias de notas: cuanto cobra, cuanto gana, cuanto"). Antes de investigar una candidata, contesta por escrito para vos: (1) que sabe el lector despues de leerla que no sabia antes; (2) cual es el dato PROPIO de la nota (un calculo, un cruce o una serie que no esta en ninguna fuente tal cual); (3) podria haberla escrito cualquiera copiando una resolucion, un cuadro tarifario o una escala salarial? Si la (3) es SI, no es candidata: pasa a la siguiente. MOLDE AGOTADO: "la tarifa, el precio, el haber o el sueldo de X es N pesos y subio Y%, mas o menos que la inflacion". Del 24/10 al 02/11/2026 fue la mitad de lo publicado. Como maximo UNA nota de ese molde por dia, y solo si la comparacion revela algo (quien gana, quien pierde, desde cuando, contra que referencia mejor que el IPC). VARIEDAD: mira las secciones de lo publicado hoy y prefiere la que falta. La cantidad de notas no baja: si una candidata no pasa la vara, pasas a la siguiente.
 3. Toma la primera candidata y hace investigacion y verificacion completas. Del portal se saca el TEMA; el numero sale siempre de la fuente primaria.
-4. Si FRENA, registra el descarte en data/cubiertas.json y pasa a la candidata siguiente, en esta misma corrida. Hasta 4 candidatas. Recien si las 4 frenan, termina sin nota.
+4. Si FRENA, registra el descarte en data/cubiertas.json y pasa a la candidata siguiente, en esta misma corrida. Hasta 5 candidatas (las que no pasan la vara de calidad no cuentan). Recien si las 5 frenan, termina sin nota.
 La vara no se negocia: la cifra ancla tiene que llegar a CONFIRMADO por alguno de los dos caminos de NEWSROOM.md seccion 3. Nunca inventes, redondees a favor ni publiques un dato que no cierra.
-TITULAR: la pregunta de plata sirve para ELEGIR el tema, no es la forma del titular. El "titulo" arranca con el dato o el hecho; la pregunta tal como la buscaria la gente va en "titulo_busqueda" de la entrada de data/cola.json. Antes de cerrar corre python scripts/titulares.py "<titulo>": si dice NO ENTRA, reescribi el titulo. Un titular que no pasa no se publica solo: queda esperando al editor.
+TITULAR: la pregunta de plata sirve para ELEGIR el tema, no es la forma del titular. El "titulo" arranca con el dato o el hecho; "titulo_busqueda" es OPCIONAL: ponelo solo si la gente realmente lo buscaria asi, y no siempre como "Cuanto...?" (tope 2 por dia: python scripts/titulares.py --busqueda "<titulo_busqueda>"; si dice NO ENTRA, dejalo vacio o formulalo distinto). Antes de cerrar corre python scripts/titulares.py "<titulo>": si dice NO ENTRA, reescribi el titulo. Un titular que no pasa no se publica solo: queda esperando al editor.
 Como maximo UNA nota. Dejala en cola/ con noindex, agregala a data/cola.json, registrala en data/cubiertas.json como en_cola y corre python scripts/build_portada.py.
 Antes de terminar, corre vos los tres chequeos del editor de cierre (URLs 200, superlativos con valor previo, coherencia copete-graficos-cuerpo-manifiesto).
 Si es la primera corrida del dia y data/pregunta.json no es de hoy, actualizala. Sin kit social.
@@ -633,6 +652,9 @@ if ($Mision -eq 'pedido') {
   if ($pedNota -ne "$PedidoId") { Anotar "[AVISO] la corrida del pedido $PedidoId dejo $id con pedido '${pedNota}': el pedido no se va a cerrar solo" }
 }
 AcortarTitulo $id
+AcortarEtiqueta $id
+$lb = & $py scripts/titulares.py --limpiar-busqueda $id 2>&1
+if ("$lb" -ne "ok") { $null = Anotar ("titulo_busqueda: " + "$lb") }
 $narApl = Narrativa $id
 $conTg = ''
 if ($Mision -eq 'pedido') { $conTg = "$(& $py agente/local/pedidos_lectores.py tiene_telegram $PedidoId 2>$null)".Trim() }
@@ -644,11 +666,12 @@ if ($narApl -and $conTg -ne 'SI' -and (Test-Path $ArchivoRevNar)) {
 }
 if ($conTg -eq 'SI') { $rc = EnviarARevision $id } else { $rc = Publicar $id $retener }
 if ($rc -eq 3) {
-  # titular en forma de pregunta con el tope del dia pasado (scripts/titulares.py).
+  # titular en forma de pregunta con el tope del dia pasado (scripts/titulares.py),
+  # o etiqueta de la cifra ancla de mas de 160 caracteres que AcortarEtiqueta no pudo acortar.
   # La nota esta verificada: no se tira. Se sube a la cola (noindex) y espera al
   # editor; mientras tanto la redaccion queda en espera, como con cualquier
   # borrador ajeno, y el resumen diario lo cuenta.
-  Subir "Redaccion: queda en cola $id para el editor (titular)" $id
+  Subir "Redaccion: queda en cola $id para el editor (titular o etiqueta)" $id
   Terminar 0 'en_espera' "[AL EDITOR] $id queda en la cola: $($script:motivoControl)" $id
 }
 if ($rc -eq 2) {

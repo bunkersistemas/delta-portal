@@ -510,7 +510,8 @@ publicar se mueve a `articulos` en `data/articulos.json`):
   "seccion": "ECONOMÍA | EMPRESAS | MERCADOS | MUNDO | IA",
   "formato": "Anatomía de un dato | Anatomía de un balance | El número del día | Antes/Después | …",
   "numero": "1,9%",
-  "numero_label": "qué mide la cifra ancla",
+  "numero_label": "qué mide la cifra ancla (tope 160 caracteres)",
+  "numero_fuente": "el rastro de verificación de la cifra (opcional, no se muestra)",
   "fecha": "2026-07-19",
   "hora": "15:00",
   "archivo": "articulos/2026-07-19-tema-en-kebab.html",
@@ -520,11 +521,24 @@ publicar se mueve a `articulos` en `data/articulos.json`):
 }
 ```
 
+**`numero_label` y `numero_fuente`** (desde el 02/11/2026). `numero_label` es lo
+que el lector lee al lado de la cifra ancla en la portada, las secciones, el feed
+y la tarjeta de compartir: una frase que dice **qué mide** el número («tope de
+ingresos para viajar gratis en subte, noviembre de 2026»). Sin fuentes entre
+paréntesis, sin números de resolución, sin cuentas. Tope 160 caracteres; lo
+controlan `aprobar.py` y `controlar_borrador.py`. Entre septiembre y octubre de
+2026 se cargó ahí el rastro de verificación y la portada lo mostró entero (hubo
+etiquetas de 1.500 caracteres). Ese rastro va en `numero_fuente`, que no se
+publica.
+
 **`titulo` y `titulo_busqueda`** (desde el 25/09/2026). El `titulo` es el de la
 portada y el `<h1>`: arranca con el dato o el hecho, no con una pregunta. La
 pregunta tal como la escribiría la gente en Google («¿Cuánto cobra…?») va en
 `titulo_busqueda`, y `inject_meta.py` la pone en el `<title>`, en `og:title` y en
-`twitter:title`. Como máximo dos titulares en forma de pregunta por día y nunca
+`twitter:title`. **Es opcional** (02/11/2026): entre el 24/10 y el 02/11 144 de 188
+notas lo llevaban con «¿Cuánto…?» y en Google y en redes el diario se leía
+como una lista de tarifas. Tope: 2 por día que arranquen con «Cuánto»
+(`scripts/titulares.py --busqueda`). Como máximo dos titulares en forma de pregunta por día y nunca
 dos seguidos: lo controla `scripts/titulares.py`.
 
 Tras cualquier cambio de manifiesto: `python3 scripts/build_portada.py` para

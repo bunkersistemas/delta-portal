@@ -12,6 +12,12 @@ redes, lo que lee Google); el titular de la portada arranca con el dato.
 Reglas, sobre las notas PUBLICADAS del mismo dia (data/articulos.json):
   R1  como maximo MAX_PREGUNTAS titulares en forma de pregunta por dia;
   R2  nunca dos preguntas seguidas (la ultima publicada del dia y esta).
+  R3  (02/11/2026) como maximo MAX_CUANTO "titulo_busqueda" que arranquen con
+      "¿Cuánto/a/os/as" por dia. El 24/10-02/11 fueron 144 de 188: en Google, en
+      la pestana y al compartir, todo el diario se leia "¿cuanto?, ¿cuanto?".
+      titulo_busqueda es OPCIONAL: va solo si la gente lo buscaria asi.
+      --limpiar-busqueda <id> lo vacia en cola.json si no entra (la nota sale
+      con su titulo en el <title>): no frena la nota.
 Es pregunta si arranca con signo de pregunta o con un interrogativo acentuado
 (Cuanto, Que, Como, Quien, Cual, Donde, Cuando, Por que): "Cuanto te devuelven
 por los cortes de luz: ..." es la misma forma aunque no lleve el signo.
@@ -21,6 +27,8 @@ Uso:
   python scripts/titulares.py "<titulo>"       si ese titulo entraria hoy
   python scripts/titulares.py --borrador <id>  control de un borrador de la cola
                                                (sale 1 si no pasa)
+  python scripts/titulares.py --busqueda "<t>"  si ese titulo_busqueda entraria hoy
+  python scripts/titulares.py --limpiar-busqueda <id>  lo vacia en la cola si no entra
   python scripts/titulares.py --calibrar       las reglas contra la historia
   python scripts/titulares.py --autotest       casos sinteticos, buenos y malos
 """
@@ -28,6 +36,7 @@ import datetime, json, os, sys, unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 MAX_PREGUNTAS = 2
+MAX_CUANTO = 2      # titulo_busqueda con "¿Cuánto..." por dia (R3, 02/11/2026)
 INTERROGATIVOS = ("cuánto", "cuánta", "cuántos", "cuántas", "qué", "cómo",
                   "quién", "quiénes", "cuál", "cuáles", "dónde", "cuándo")
 
@@ -74,6 +83,41 @@ def problemas(titulo, previas):
         out.append("la ultima nota publicada hoy tambien es una pregunta: "
                    + previas[-1]["titulo"][:70])
     return out
+
+
+def es_cuanto(t):
+    t = str(t or "").strip().lstrip("¿\"'“«").strip().lower()
+    return t.split(" ", 1)[0] in ("cuánto", "cuánta", "cuántos", "cuántas")
+
+
+def problemas_busqueda(tb, previas):
+    """R3: motivos por los que el titulo_busqueda `tb` no entra hoy. Vacia = entra."""
+    if not es_cuanto(tb):
+        return []
+    n = sum(1 for a in previas if es_cuanto(a.get("titulo_busqueda")))
+    if n >= MAX_CUANTO:
+        return [f"ya hay {n} titulo_busqueda con '¿Cuánto...?' hoy (tope {MAX_CUANTO}): "
+                "dejalo vacio o formulalo de otra manera (¿Por qué...?, ¿Conviene...?, el hecho en criollo)"]
+    return []
+
+
+def limpiar_busqueda(i):
+    p = os.path.join(ROOT, "data", "cola.json")
+    cola = json.load(open(p, encoding="utf-8"))
+    c = [b for b in cola["borradores"] if b["id"] == i]
+    if len(c) != 1:
+        print("no esta una sola vez en cola.json")
+        return 1
+    b = c[0]
+    pr = problemas_busqueda(b.get("titulo_busqueda"), del_dia(publicadas(), b.get("fecha") or hoy_ar()))
+    if not pr:
+        print("ok")
+        return 0
+    print("titulo_busqueda vaciado: " + b["titulo_busqueda"] + " | " + pr[0])
+    b["titulo_busqueda"] = ""
+    with open(p, "w", encoding="utf-8") as f:
+        json.dump(cola, f, ensure_ascii=False, indent=2)
+    return 0
 
 
 def ayuda_reescribir():
@@ -150,6 +194,18 @@ def autotest():
         if paso != ok:
             mal += 1
             print(f"FALLA: {que}: esperaba {'pasa' if ok else 'frena'}, dio {'pasa' if paso else 'frena'}")
+    B = lambda t: {"titulo": "X", "titulo_busqueda": t, "hora": "10:00"}
+    for tb, prev, ok, que in [
+        ("¿Cuánto cobra X?", [B("¿Cuánto A?")], True, "R3: segunda de cuanto"),
+        ("¿Cuánto cobra X?", [B("¿Cuánto A?"), B("¿Cuántos B?")], False, "R3: tercera de cuanto"),
+        ("¿Por qué sube X?", [B("¿Cuánto A?"), B("¿Cuánto B?")], True, "R3: otra pregunta con el cupo lleno"),
+        ("", [B("¿Cuánto A?"), B("¿Cuánto B?")], True, "R3: vacio siempre entra"),
+    ]:
+        paso = not problemas_busqueda(tb, prev)
+        casos.append((tb, prev, ok, que))
+        if paso != ok:
+            mal += 1
+            print(f"FALLA: {que}: esperaba {'pasa' if ok else 'frena'}, dio {'pasa' if paso else 'frena'}")
     frenan = sum(1 for c in casos if not c[2])
     print(f"autotest: {len(casos)} casos ({frenan} que deben frenar, {len(casos) - frenan} que deben pasar), {mal} fallas")
     return 1 if mal else 0
@@ -166,6 +222,12 @@ if __name__ == "__main__":
         listar(hoy_ar())
     elif a[0] == "--borrador" and len(a) == 2:
         sys.exit(controlar_borrador(a[1]))
+    elif a[0] == "--busqueda" and len(a) >= 2:
+        p = problemas_busqueda(" ".join(a[1:]), del_dia(publicadas(), hoy_ar()))
+        print("ENTRA" if not p else "NO ENTRA: " + "; ".join(p))
+        sys.exit(1 if p else 0)
+    elif a[0] == "--limpiar-busqueda" and len(a) == 2:
+        sys.exit(limpiar_busqueda(a[1]))
     elif a[0] == "--calibrar":
         sys.exit(calibrar())
     elif a[0] == "--autotest":

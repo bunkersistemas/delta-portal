@@ -55,7 +55,9 @@ sigue:
    espectaculos, sociedad, no solo economia-, que pregunta de plata se hace la
    gente y buscaria en Google ("cuanto cobra", "cuanto cuesta", "cuanto paga
    el Estado", "cuanto sale") que se pueda contestar con documentos oficiales.
-   Minimo 2 candidatas de este tipo.
+   **Es una fuente de candidatas, no una cuota** (desde el 02/11/2026 ya no
+   hay minimo): con el minimo de 2, el molde "cuanto cobra / cuanto cuesta"
+   termino siendo la mitad del diario.
    **La pregunta elige el TEMA, no la forma del titular** (desde el
    25/09/2026). Ese dia 8 de 11 titulares arrancaban con "Cuanto" y la
    portada parecia un portal de chimentos. El titular (`titulo`) arranca con
@@ -64,6 +66,10 @@ sigue:
    redes (lo que lee Google). Como maximo 2 titulares en forma de pregunta por
    dia y nunca dos seguidos: `python scripts/titulares.py "<titulo>"` dice si
    entra, y el control de la redaccion programada no publica solo el que no.
+   **`titulo_busqueda` es opcional** (02/11/2026): va solo si la gente lo
+   buscaria asi, y como maximo 2 por dia arrancan con "Cuanto"
+   (`python scripts/titulares.py --busqueda "<t>"`). Si no entra, dejalo vacio
+   o formulalo distinto; la redaccion programada lo vacia sola si no entra.
    **Ademas, las empresas** (desde el 25/09/2026): minimo 2 candidatas del
    bloque EMPRESAS de agenda.py cuando tiene material. El tema sale de la
    linea de la CNV o la SEC; la nota, del documento enlazado.
@@ -71,16 +77,36 @@ sigue:
    empresas, en cuantas portadas aparece cada una y cuales son "pregunta de
    plata".
 2. **Editor** - elige UNA. Criterios en orden:
-   1. **Una pregunta que la gente busca y nadie contesta con datos.** Es lo
+   0. **La vara de calidad (editor, 02/11/2026).** "Porquerias de notas:
+      cuanto cobra, cuanto gana, cuanto, cuanto." Antes de elegir, contesta
+      tres preguntas por cada candidata:
+      - Que sabe el lector despues de leerla que no sabia antes?
+      - Cual es el dato PROPIO de la nota: un calculo, un cruce o una serie
+        que no esta tal cual en ninguna fuente?
+      - Podria haberla escrito cualquiera copiando una resolucion, un cuadro
+        tarifario o una escala salarial? **Si es si, no es candidata.**
+      **Molde agotado:** "la tarifa / el precio / el haber / el sueldo de X es
+      $N y subio Y%, mas o menos que la inflacion". Del 24/10 al 02/11/2026 fue
+      la mitad de lo publicado. Como maximo UNA nota de ese molde por dia, y
+      solo si la comparacion revela algo (quien gana y quien pierde, desde
+      cuando, contra una referencia mejor que el IPC).
+      **Variedad:** `python scripts/titulares.py` lista lo publicado hoy;
+      entre dos candidatas parejas, gana la de la seccion que falta.
+      **La cantidad no baja:** si una candidata no pasa la vara, se pasa a la
+      siguiente, no se termina la corrida.
+   1. **Un hallazgo.** Algo que el lector no sabia y no esta en el
+      comunicado: un cruce de dos fuentes, una serie larga, una comparacion
+      propia, un resultado que va contra lo que se cree.
+   2. **Una pregunta que la gente busca y nadie contesta con datos.** Es lo
       que trae lectores: en los 30 dias al 24/09/2026 el 61% de las visitas
       (330 de 540, Cloudflare Web Analytics) fue a UNA nota, la de las becas
       de las Leonas, y llegaron desde Google. Las notas del dato del dia
       (EMAE, pobreza, IPC) no pasaron de 10 visitas cada una: ese dato lo
       publican todos los medios a la misma hora y Google muestra primero a
       los grandes.
-   2. Riqueza de datos.
-   3. Relevancia para el lector argentino hoy.
-   4. No repetir.
+   3. Riqueza de datos.
+   4. Relevancia para el lector argentino hoy.
+   5. No repetir.
    El dato del dia del calendario sigue siendo candidato, pero solo gana si
    trae un angulo que los otros medios no tienen (un cruce, una serie larga,
    una comparacion propia). La vara de verificacion no cambia para ningun tipo.
