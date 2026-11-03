@@ -7205,6 +7205,29 @@
       "fecha": "2026-11-02",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "tema": "¿las empresas argentinas piden saber usar IA? / Maurizio, Semeshenko, Aromí, Catania, Zerdá-Sánchez, Llada y Bonel (IIEP-UBA-CONICET), \"Digitalization and artificial intelligence in Latin America: employer demand for AI, technical and soft skills\", CAF, 2026: avisos con habilidades de IA en la Argentina 0,6% (2017-2022) -> 2,6% (2026), 64.088 avisos de Computrabajo, ZonaJobs y Workana, dic-2025 a jun-2026; Brasil 0,6->0,8, Colombia 0,9->0,5, México 0,3->0,5 (según prensa)",
+      "angulo": "Corrida de La economía de la IA del 03/11/2026 00:30, primera candidata probada. FRENADA por la condición 2 de NEWSROOM 2 quinquies: no se pudo leer el original. El PDF en scioteca.caf.com (handle 123456789/2707) devuelve una página de bloqueo de Incapsula a curl y a WebFetch; Wayback no tiene copia del PDF (solo de una imagen del handle); no hay copia en el IIEP. Solo quedan notas de prensa (Infobae 08/09, El Economista 09/09, Económicas UBA 28/10) y el resumen de dos autoras en Alquimias Económicas (31/08/2026), que no alcanzan. Retomable si el PDF se vuelve accesible: el cruce argentino es directo.",
+      "fecha": "2026-11-03",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "original del CAF inaccesible (bloqueo antibot); solo prensa y resumen de autoras"
+    },
+    {
+      "tema": "¿la IA está dejando gente sin trabajo en las empresas? / Yotzov, Barrero, Bloom, Bunn, Chawla, Davis y otros, \"Firm Data on AI\", NBER WP 34836 (feb-2026, rev. oct-2026): casi 9.000 ejecutivos de EE.UU., Reino Unido, Alemania, Australia, Canadá, México y Sudáfrica, may-jul 2026: 78% usa IA (México 64%), 87% dice que no le cambió el empleo en tres años (México 80%), efecto pasado +0,06%, esperado -0,4% (EE.UU. y R.U. -1,3%, México +0,6%), productividad +0,5% pasada y +1,7% esperada; contraste BIS WP 1325 (Aldasoro y otros, ene-2026: productividad +4,1%, empleo -0,012 n.s.); Argentina: CEPE-Di Tella y Fundar (ago-sep 2025, 1.589 online) 27,5% de ocupados usa IA en el trabajo, 16% con estrategia oficial, 6,2% paga la empresa, 13,7% capacitado; OEDE flujos 1T-2026 creación 238.681 y destrucción 272.686, neto -34.005 (-0,5%)",
+      "angulo": "Corrida de La economía de la IA del 03/11/2026 00:30, segunda candidata probada (APTA). Cinco condiciones de 2 quinquies: atribuida; leída en el original (págs. 2, 11-23, figuras 4A, 8A, 8B, 9A, 9B, 10A, 11A); método y límites (percepciones de ejecutivos, cinco categorías convertidas a ±2,5/±7,5, México solo >100 trabajadores, Alemania con datos de enero, cambio de 78% a 95% en EE.UU. por tratamiento de no respuesta, no ve grupos de trabajadores, expectativas = estimación, sin referato); otro estudio al lado leído en el original (BIS WP 1325, misma dirección) más el matiz de Stanford ya publicado; dato argentino como estadística oficial recalculada (planilla OEDE tabla 2, exacto) con contraste SRT cuadro 2.1 (1T-26 interanual -2,1% vs -1,7% serie original SIPA). La encuesta CEPE-Fundar se trata como estudio, no como estadística. Ángulo nuevo frente a 07-20 (oficios), 10-05 (energía), 10-11 (jóvenes), 10-13 (seis estudios y sensación), 10-20 (programadores), 10-24 (materiales) y 10-27 (avisos, Banco Mundial): la mirada de las empresas (adopción, empleo y productividad declarados) y la adopción de abajo hacia arriba en la Argentina. Rastreo: NBER, Fed (St. Louis, SF, Cleveland, Atlanta), BIS, FMI, OIT, Banco Mundial (WDR 2026), BID, CEPAL/ILIA, CAF, IIEP-UBA, CEPE-Di Tella, Fundar, CEDLAS, CIPPEC, Secretaría de Trabajo.",
+      "fecha": "2026-11-03",
+      "estado": "publicada",
+      "articulo_id": "2026-11-03-ia-empresas-empleo-encuesta-ejecutivos"
+    },
+    {
+      "tema": "candidatas de la corrida de La economía de la IA del 03/11/2026 00:30, no probadas porque pasó la segunda (NBER WP 34836)",
+      "angulo": "Lista no probada: Kruse y Yu, \"The AI Exposure of Export-Linked Jobs\", Banco Mundial, documento de base del WDR 2026 (leído: la Argentina no está entre los 26 países); Betai y Chen, \"Automation without Borders\" (GWU, ene-2026: contratos de tercerización a países en desarrollo -34%; solo diapositivas de conferencia, sin paper; retomable con exportaciones de servicios del INDEC cuando haya documento); Fan y Nguyen, FMI WP 2026/147 (jul-2026, concentración del uso de IA; se basa en datos de uso de una empresa de IA sobre su propio producto); ILIA 2026 de CEPAL y CENIA (oct-2026; el documento está detrás de un bloqueo 403 de Cloudflare); BID, Desarrollo en las Américas 2026 sobre IA y salarios (anunciado para noviembre, todavía sin publicar; escenarios son proyecciones); brecha de género en el uso de la IA (Stephany y Duszynski, arXiv ene-2026, preprint) con la encuesta CEPE-Fundar (mujeres 48,2% vs varones 43,1% en uso personal) y la EPH por ocupación.",
+      "fecha": "2026-11-03",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "no probadas: pasó la segunda candidata"
     }
   ]
 }

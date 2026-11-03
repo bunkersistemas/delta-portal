@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 02 Nov 2026 23:08:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 00:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El 87% de las empresas dice que la IA no cambió cuánta gente emplea, aunque ya la usa el 78%, según una encuesta a casi 9.000 ejecutivos</title>
+      <link>https://coninteres.com/articulos/2026-11-03-ia-empresas-empleo-encuesta-ejecutivos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-ia-empresas-empleo-encuesta-ejecutivos.html</guid>
+      <pubDate>Tue, 03 Nov 2026 01:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>IA</category>
+      <description>El 78% de las empresas ya usa alguna inteligencia artificial, pero el 87% dice que no le cambió la cantidad de empleados en los últimos tres años. Así respondieron casi 9.000 ejecutivos de siete países, México entre ellos, encuestados a mediados de 2026 por economistas de Stanford, del ITAM y de los bancos centrales de seis países. Para los próximos tres años esperan, en promedio, 0,4% menos empleo y 1,7% más productividad. En la Argentina no hay una encuesta así a empresas: la de CEPE-Di Tella y Fundar a personas encontró que el 27,5% de los ocupados usa IA en el trabajo, y que la mayoría aprendió sola.</description>
+      <ci:numero>87%</ci:numero>
+      <ci:numeroEtiqueta>de las empresas de siete países dice que la IA no cambió su cantidad de empleados en los últimos tres años (encuesta a ejecutivos, 2026)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-ia-empresas-empleo-encuesta-ejecutivos.png" length="74726" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-ia-empresas-empleo-encuesta-ejecutivos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina gastó US$97,8 millones en uranio importado en nueve meses, más que en cualquier año entero desde 2002: más de la mitad vino de Namibia</title>
       <link>https://coninteres.com/articulos/2026-11-02-uranio-importado-record-namibia-kazajistan.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>suba de noviembre de la factura de gas de un hogar R1 sin subsidio de Metrogas en la Ciudad con 30 m3, sin impuestos</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-gas-metrogas-noviembre-factura-1-8.png" length="71874" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-gas-metrogas-noviembre-factura-1-8.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina le pagó al FMI US$2.353 millones de intereses en nueve meses, y por 77 de cada 100 dólares que debe paga dos puntos de sobrecargo</title>
-      <link>https://coninteres.com/articulos/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.html</guid>
-      <pubDate>Sat, 31 Oct 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En nueve meses, la Argentina le pagó al FMI más intereses que en cualquier año entero entre 2019 y 2022. Entre enero y septiembre de 2026 el Tesoro le giró al Fondo US$2.352,6 millones solo en intereses, según la Secretaría de Finanzas; el FMI anota lo mismo en su moneda: 1.714,75 millones de DEG. En noviembre vence otra cuota, que según la proyección del propio Fondo rondará los US$882 millones.</description>
-      <ci:numero>US$2.352,6 M</ci:numero>
-      <ci:numeroEtiqueta>intereses pagados al FMI entre enero y septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.png" length="73459" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-intereses-fmi-sobrecargo-77-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
