@@ -25,6 +25,11 @@ def main(draft_id):
     draft = next((b for b in cola["borradores"] if b["id"] == draft_id), None)
     if not draft:
         print(f"ERROR: no encontré el borrador '{draft_id}' en la cola."); sys.exit(1)
+    # 02/11/2026: numero_label es la etiqueta que el lector ve junto a la cifra
+    # ancla. El rastro de verificacion va en numero_fuente, que no se muestra.
+    if len(draft.get("numero_label", "")) > 160:
+        print(f"ERROR: numero_label de {len(draft['numero_label'])} caracteres (tope 160). "
+              "Pasá el rastro de verificación a numero_fuente y dejá una etiqueta corta."); sys.exit(1)
 
     src = os.path.join(ROOT, "cola", f"{draft_id}.html")
     dst = os.path.join(ROOT, "articulos", f"{draft_id}.html")
@@ -62,6 +67,8 @@ def main(draft_id):
     }
     # serie en prueba (ej. "plata-deportistas", 11/10/2026): sirve para contar el
     # cupo de la serie y medirla. Solo se copia si el borrador la trae.
+    if draft.get("numero_fuente"):
+        entry["numero_fuente"] = draft["numero_fuente"]
     if draft.get("serie"):
         entry["serie"] = draft["serie"]
     # turno de una cobertura especial (ej. "brasil-2026-1", 24/10/2026): marca

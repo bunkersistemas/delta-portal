@@ -13,6 +13,9 @@ Si no, imprime el motivo y sale con:
   3 = TITULAR: la nota puede estar bien, pero el titular es una pregunta y
       hoy ya se paso el tope (scripts/titulares.py). No se rechaza ni se
       reintenta sola: queda en la cola para que el editor la retitule.
+      Tambien sale con 3 si "numero_label" pasa de 160 caracteres (02/11/2026):
+      es la etiqueta que el lector ve junto a la cifra ancla, no el rastro de
+      verificacion (ese va en "numero_fuente").
   2 = falla TRANSITORIA: una fuente no respondio a tiempo, o contesto 403, 429
       o 5xx (antibot, sobrecarga). La nota puede estar bien: se reintenta en
       la corrida siguiente.
@@ -30,6 +33,7 @@ from verificar_enlaces import urls_de, check
 import titulares
 
 DEFINITIVOS = (404, 410)
+TOPE_ETIQUETA = 160   # caracteres de numero_label (02/11/2026)
 
 def fallar(motivo, codigo=1):
     print(motivo)
@@ -56,6 +60,9 @@ def main(i):
     b = c[0]
     if not str(b.get("numero", "")).strip():
         fallar("sin cifra ancla")
+    if len(b.get("numero_label", "")) > TOPE_ETIQUETA:
+        fallar("numero_label de %d caracteres (tope %d): la etiqueta dice que mide el numero; "
+               "el rastro de verificacion va en numero_fuente" % (len(b["numero_label"]), TOPE_ETIQUETA), 3)
     f = os.path.join(ROOT, "cola", i + ".html")
     if not os.path.exists(f):
         fallar("falta cola/" + i + ".html")
