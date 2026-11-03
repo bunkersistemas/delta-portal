@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 06:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 08:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>China dice que le vendió a la Argentina US$199,8 millones en juguetes en 2025; la aduana argentina registró US$106,1 millones</title>
+      <link>https://coninteres.com/articulos/2026-11-03-juguetes-china-brecha-aduana-chile-colombia.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-juguetes-china-brecha-aduana-chile-colombia.html</guid>
+      <pubDate>Tue, 03 Nov 2026 09:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En 2025 China informó que le vendió a la Argentina juguetes por US$199,8 millones. La aduana argentina registró compras a China por US$106,1 millones: casi la mitad, por una cantidad de kilos parecida. Con el contrabando y la subfacturación en las portadas, esa diferencia parece una prueba. Sola, no lo prueba: China también dice haberle vendido a Chile y a Colombia el doble de lo que registran sus aduanas, y a Brasil el triple. Y los importadores argentinos declaran pagar más por kilo que los de esos tres países.</description>
+      <ci:numero>1,9 veces</ci:numero>
+      <ci:numeroEtiqueta>lo que China dice haberle vendido a la Argentina en juguetes en 2025, comparado con lo que registró la aduana argentina</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-juguetes-china-brecha-aduana-chile-colombia.png" length="76820" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-juguetes-china-brecha-aduana-chile-colombia.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los 27 proyectos del RIGI declararon invertir US$17.700 millones en sus dos primeros años: menos de un cuarto de los US$76.173 millones que anuncia el Gobierno</title>
       <link>https://coninteres.com/articulos/2026-11-03-rigi-dos-primeros-anos-17700-millones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>toneladas de carne vacuna fresca y congelada exportadas a China en enero-septiembre de 2026, 65,7% del cupo de 511.000 t</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.png" length="79879" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-carne-china-cupo-dos-tercios-nueve-meses.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La bajada de bandera del taxi porteño pasa de $1.920 a $2.550 tras dos años congelada: sube 32,8%, menos de la mitad que la inflación</title>
-      <link>https://coninteres.com/articulos/2026-10-31-taxi-porteno-bajada-de-bandera-noviembre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-31-taxi-porteno-bajada-de-bandera-noviembre.html</guid>
-      <pubDate>Sat, 31 Oct 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Después de dos años congelada, la bajada de bandera del taxi porteño sube 32,8%, menos de la mitad que los precios: según el INDEC, la inflación fue de 71,1% hasta septiembre. Desde el 1 de noviembre de 2026 pasa de $1.920 a $2.550 y la ficha, de $192 a $255, según el Decreto 373/26. Era la tarifa vigente desde el 1 de noviembre de 2024. En febrero de 2027 sube otra vez, a $3.100.</description>
-      <ci:numero>$2.550</ci:numero>
-      <ci:numeroEtiqueta>bajada de bandera diurna del taxi porteño desde el 01/11/2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-31-taxi-porteno-bajada-de-bandera-noviembre.png" length="68406" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-31-taxi-porteno-bajada-de-bandera-noviembre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
