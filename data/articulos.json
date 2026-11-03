@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T14:51:24-03:00",
+    "actualizado": "2026-11-03T16:45:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-03-exportaciones-volumen-record-1986-precios",
+      "titulo": "La Argentina exportó en nueve meses el mayor volumen desde 1986: 9,3% más que en el mismo período de 2025",
+      "bajada": "El récord de exportaciones de 2026 no es solo de precios. Entre enero y septiembre la Argentina exportó el mayor volumen de mercaderías para esos nueve meses desde 1986, cuando empieza la serie del INDEC: 9,3% más que un año antes. Aun así, el precio pesó más que el volumen. Las exportaciones subieron US$13.734 millones, hasta US$77.267 millones, y según el propio INDEC US$7.811 millones de ese aumento vinieron de mejores precios y US$5.923 millones, de vender más. En 2022 los precios habían sido más altos que hoy, pero se exportó 18% menos volumen.",
+      "titulo_busqueda": "¿La Argentina exporta más o solo cobra mejores precios?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+9,3%",
+      "numero_label": "aumento del volumen exportado en enero-septiembre de 2026 contra 2025: el nivel más alto para esos nueve meses desde 1986",
+      "fecha": "2026-11-03",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-03-exportaciones-volumen-record-1986-precios.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC, Índices de precios y cantidades del comercio exterior 3T-2026 (03/11/2026), cuadro 5: índice de cantidades de exportación ene-sep 147,2 (2026) vs 134,7 (2025). Recalculado desde sh_indices_comext_04.xls (trimestres 132,0/154,4/155,3 vs 116,6/134,0/153,4). Contraste: Secretaría de Energía, TD comercio exterior, crudo exportado ene-sep 11,35 vs 9,47 millones de m3 (+19,8%); BCRA balance cambiario, cobros de exportaciones de bienes US$75.614 M (+5,9%, base 2025 alta por Decreto 682/2025)."
+    },
     {
       "id": "2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011",
       "titulo": "La Argentina exportó 42,3 millones de kilos de yerba en nueve meses, la mayor cantidad desde 2002, pero cobró US$1,77 por kilo: el precio más bajo desde 2011",

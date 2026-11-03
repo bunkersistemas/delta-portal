@@ -1,11 +1,29 @@
 {
-  "generado": "2026-11-03T14:30",
+  "generado": "2026-11-03T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3588549",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T16:15",
+      "entidad": "CAPEX S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ACUERDO DE CESION PARTICIPACIONES DE YPF S.A. EN ÁREAS LOMA NEGRA Y LA YESERA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4F1F9561-2194-4DC5-BEF4-A76709B847FC"
+    },
+    {
+      "id": "cnv-3588437",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T14:24",
+      "entidad": "PUENTE HNOS. S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - LA SOCIEDAD HA ADQUIRIDO EN EL MERCADO SECUNDARIO Y POSEE EN CARTERA PROPIA PARTE DE SUS OBLIGACIONES NEGOCIABLES CLASE III (CÓDIGO A3: PHC3O, CÓDIGO CVSA: 58390, ISIN: AR0269744345), POR UN VALOR NOM",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/C14FCD75-3A00-48A2-8CF2-AC4B59E0B88E"
+    },
     {
       "id": "cnv-3588336",
       "fuente": "CNV",
@@ -1182,6 +1200,7 @@
     "sec-0001292814-26-005120": "2026-11-02",
     "sec-0001292814-26-005122": "2026-11-02",
     "sec-0001292814-26-005124": "2026-11-02",
+    "sec-0001292814-26-005130": "2026-11-03",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001554855-26-002070": "2026-10-05",
     "sec-0001554855-26-002088": "2026-10-09",
