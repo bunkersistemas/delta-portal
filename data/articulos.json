@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T10:42:09-03:00",
+    "actualizado": "2026-11-03T12:44:26-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-03-impuesto-sellos-provincias-caba-57",
+      "titulo": "La Provincia y la Ciudad de Buenos Aires cobran el 57% del impuesto a los Sellos que Caputo propone eliminar",
+      "bajada": "El impuesto a los Sellos se cobra, sobre todo, en dos lugares: de los $3,99 billones que les dejó en 2025 a las 23 provincias y a la Ciudad, 57 de cada 100 pesos los cobraron la Provincia de Buenos Aires y la Ciudad. Ese año creció 31,7% descontada la inflación, mientras el resto de los impuestos provinciales casi no se movió. En el primer semestre de 2026 cayó 4,8%.",
+      "titulo_busqueda": "Impuesto a los Sellos: qué provincias lo cobran y cuánto pierden si se elimina",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "57%",
+      "numero_label": "parte de la recaudación del impuesto a los Sellos de 2025 que cobraron la Provincia y la Ciudad de Buenos Aires",
+      "fecha": "2026-11-03",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-03-impuesto-sellos-provincias-caba-57.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "DNAP, información mensual 2025 (actualizada 14/09/2026), hoja SELLOS: Buenos Aires $1.468.366 M + CABA $812.328 M = $2.280.694 M de $3.985.510 M (57,2%); suma de 12 meses = total. Contraste: Provincia de Buenos Aires, Dirección Provincial de Política Tributaria (ARBA), Sellos 2025 $1.468.366 M; serie anual DNAP (ejecuciones) 23 jurisdicciones sin La Pampa $3.963.647 M vs mensual $3.950.776 M (+0,3%); IARAF 19/07/2026 Sellos ene-may 2026 -2,7% real vs cálculo propio -2,8%."
+    },
     {
       "id": "2026-11-03-servicios-digitales-tarjeta-1604-millones",
       "titulo": "Los pagos con tarjeta a servicios digitales del exterior sumaron US$1.604 millones en nueve meses de 2026",
