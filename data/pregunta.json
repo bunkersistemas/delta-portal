@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-03",
-  "pregunta": "Según el BIS, en el primer trimestre de 2026 el crédito de los bancos a familias y empresas de la Argentina equivalía al 13,9% del PBI, y el de Chile, al 69,5%. ¿Qué quiere decir ese 13,9%?",
+  "fecha": "2026-11-04",
+  "pregunta": "Entre enero y septiembre de 2026 las exportaciones argentinas subieron US$13.734 millones. Según el INDEC, el volumen exportado fue el más alto para esos meses desde 1986, pero US$7.811 millones del aumento vinieron de mejores precios. ¿Qué significa eso?",
   "opciones": [
-    "Que por cada $100 que produce la economía en un año, los bancos tienen prestados unos $14 a familias y empresas",
-    "Que el 13,9% de los argentinos tiene un préstamo en un banco",
-    "Que los bancos prestaron 13,9% más que un año antes"
+    "Que más de la mitad del aumento se explica porque cada producto se vendió más caro, y el resto porque se vendieron más cantidades",
+    "Que en 2026 se exportaron menos toneladas que en 2025, pero a mejor precio",
+    "Que el récord de volumen es en dólares: se exportaron más dólares que nunca desde 1986"
   ],
   "correcta": 0,
-  "explicacion": "El crédito en % del PBI compara dos cosas: lo que los bancos tienen prestado en un momento (un stock) con todo lo que la economía produce en un año. 13,9% es unos $14 de préstamos por cada $100 de producción; en Chile son unos $70, cinco veces más. No dice cuántas personas tienen un préstamo: una sola empresa grande puede tener más deuda que miles de familias. Tampoco es una variación: para saber cuánto creció el crédito hay que comparar el stock de dos fechas. Un crédito bajo en relación con el PBI significa que familias y empresas financian poco de su consumo y su inversión con préstamos bancarios.",
-  "nota": "articulos/2026-11-02-credito-bancos-pbi-argentina-chile-brasil.html",
-  "leccion": "lecciones/deuda-credito.html"
+  "explicacion": "Lo que se exporta en dólares es precio por cantidad, y las dos cosas pueden moverse a la vez. El INDEC separa el aumento en dos partes: US$7.811 millones salen de vender cada unidad más cara y US$5.923 millones, de vender más unidades (el volumen subió 9,3%). Las dos subieron: no es que se vendió menos a mejor precio. Y el récord de volumen es de cantidades, no de dólares: en 2022 los precios eran más altos, pero se exportó 18% menos volumen. Separar precio y cantidad sirve para saber si un buen año depende del mercado mundial o de que el país produce y vende más.",
+  "nota": "articulos/2026-11-03-exportaciones-volumen-record-1986-precios.html",
+  "leccion": ""
 }

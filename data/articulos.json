@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T22:44:43-03:00",
+    "actualizado": "2026-11-04T01:11:50-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-04-colectivos-nacionales-pasajero-paga-35-por-ciento-del-costo",
+      "titulo": "Con el boleto quieto desde julio, el pasajero de los colectivos nacionales paga 35,6% del costo de su viaje: en junio pagaba 39,5% y en 2023, 10,2%",
+      "bajada": "El pasajero de los colectivos nacionales cubre hoy una parte menor de su viaje que en junio: 35,6% en octubre, contra 39,5%. El boleto mínimo está en $742,81 desde el 15 de julio y el costo siguió subiendo. Según la Secretaría de Transporte, un viaje cuesta $1.901,08 sin IVA, el pasajero aporta en promedio $677,56 y la Nación pone $1.223,52. En noviembre de 2023 el pasajero cubría 10,2%; para enero, la propia resolución proyecta 30,4%. De los $103.860 millones de octubre, el 98,7% va a las 103 líneas del AMBA.",
+      "titulo_busqueda": "¿Cuánto pone el Estado en cada viaje de colectivo en el AMBA?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "35,6%",
+      "numero_label": "del costo de cada viaje que paga el pasajero en las líneas de colectivo de jurisdicción nacional, octubre de 2026",
+      "fecha": "2026-11-04",
+      "hora": "01:30",
+      "archivo": "articulos/2026-11-04-colectivos-nacionales-pasajero-paga-35-por-ciento-del-costo.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Secretaría de Transporte, Res. 80/2026 (BO 02/11/2026), anexo II, Anexo 11 Balance de compensación, total 114 líneas: ingreso medio $677,56 / tarifa media sin compensación $1.901,08 = 35,64%; recaudación sin IVA $56.530.354.248 / monto a cubrir $158.611.553.301 = 35,64%. Recalculado: 39.888.991 km x $3.976,32 = monto a cubrir (dif. 0,0001%); 83.432.246 pas x $677,56 = recaudación. Serie con Res. 48/2026 (jun-26 39,49%), 86/2025 (nov-25 30,37%), 4/2024 (may-24 27,20%), 615/2023 MTR (nov-23 10,25%), grupos SGI+SGIKM+SGII+INP. Contraste: CABA Res. 181/SECT/26 oct-26 40,3% ($652,83/$1.620,34); SUBE datos abiertos sep-26 84,4 M usos en 103 líneas nacionales AMBA vs 82,1 M proyectados."
+    },
     {
       "id": "2026-11-03-ternium-acero-argentina-mexico-precio-tonelada",
       "titulo": "Ternium cobra por tonelada de acero en la Argentina y sus vecinos lo mismo que en México; en 2023 cobraba 38% más",
