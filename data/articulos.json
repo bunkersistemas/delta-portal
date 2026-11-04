@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T21:04:38-03:00",
+    "actualizado": "2026-11-03T22:44:43-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-03-ternium-acero-argentina-mexico-precio-tonelada",
+      "titulo": "Ternium cobra por tonelada de acero en la Argentina y sus vecinos lo mismo que en México; en 2023 cobraba 38% más",
+      "bajada": "En los primeros nueve meses de 2023, cada tonelada de acero que Ternium vendía en su Región Sur, que es sobre todo la Argentina, le dejaba 38% más que la mexicana. En los mismos meses de 2026 cobró prácticamente lo mismo en las dos: US$1.059 y US$1.063. Lo muestra el informe que la principal productora de acero plano del país presentó el 3 de noviembre ante la SEC. Desde 2023 el ingreso por tonelada en la Argentina y sus vecinos bajó 32,1%; los precios mayoristas del hierro y el acero del INDEC, pasados a dólares, bajaron 27%.",
+      "titulo_busqueda": "Precio del acero en la Argentina contra México: lo que cobra Ternium por tonelada",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$1.059",
+      "numero_label": "lo que Ternium cobró por tonelada de acero en la Argentina y sus vecinos en enero-septiembre de 2026; en México, US$1.063",
+      "fecha": "2026-11-03",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-03-ternium-acero-argentina-mexico-precio-tonelada.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Ternium S.A., 6-K del 03/11/2026 (SEC), cuadro por región 9M26: Región Sur US$1.631 M / 1.540 mil t = US$1.059,1 (informado 1.059); México US$6.641 M / 6.245 mil t = 1.063,4. 9M23 (6-K 3T24): Sur 1.559, México 1.130 -> +38,0%. Serie 2019-2026 de los 6-K del 3T 2020-2026. Contraste: INDEC IPIM apertura 271 / A3500 promedio mensual, prom. ene-sep: 13,3484 (2023) -> 9,7433 (2026) = -27,0%; Ternium Sur -32,1%."
+    },
     {
       "id": "2026-11-03-metalfor-concurso-deuda-dfc-estados-unidos",
       "titulo": "Más de la mitad de la deuda financiera de Metalfor es un préstamo de US$50 millones de una agencia del gobierno de Estados Unidos",

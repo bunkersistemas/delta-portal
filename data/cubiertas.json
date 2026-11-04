@@ -7368,6 +7368,20 @@
       "tema": "descartes de la corrida de redacción del 03/11/2026 20:30: ganó Metalfor (CNV + BCRA + ACARA-DNRPA + Tanoira Cassagne). Probada y frenada: compras del BCRA en octubre (US$1.300 M al 29/10 en el Informe Monetario Diario, 15.880,9 en el año; el ángulo 'octubre casi triplicó a septiembre' ya lo publicaron ámbito, iProfesional e infobae con US$1.395 M y el 30/10 todavía no figura en la serie oficial). No probadas: recaudación de octubre (+0,2% real según Página12; el cálculo real depende del IPC de octubre, que sale el 12/11; retomar entonces, ARCA serie2026.xls ya tiene octubre), transferencias a provincias (coparticipación de octubre ya cubierta el 31/10), riesgo país en 830 (sin ángulo propio), suspensión de embargos de ARCA a pymes hasta mayo (sin dato oficial de embargos), CEDEAR y Ganancias (sin dato oficial de tenencias), luz y gas del AMBA en noviembre (molde agotado; gas ya cubierto el 31/10), ETF Merval (producto de inversión). Empresas: Molinos cierre de la venta del acopio de Rosario (HR CNV 02/11 sin precio), Newsan fusión New PGA-Pilisar (reorganización interna sin cifras), BBVA ON Clase 50 y CNH Industrial Capital rescate de ON Clase 9 (rutina financiera). Clarín y TN no se pudieron leer",
       "fecha": "2026-11-03",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto cobra Ternium por tonelada de acero en la Argentina? (EMPRESAS; informe 3T26 de Ternium S.A. ante la SEC del 03/11/2026) / ingreso por tonelada 9M26: Región Sur US$1.059 (1.540 mil t, US$1.631 M) vs México US$1.063 (6.245 mil t, US$6.641 M), Brasil US$1.020; 9M23 Sur 1.559 vs México 1.130 (+38,0%), 2024 +28,7%, 2025 +12,1%, 2026 -0,4%; despachos Sur -4,5%, México +12,6%; 3T26 Sur 1.070 vs México 1.118",
+      "angulo": "serie propia 2019-2026 con los 6-K del 3T: la prima de la Región Sur sobre México, máxima en 2023, desapareció; primera vez desde 2021 que queda abajo. Contraste independiente: IPIM INDEC apertura 271 en dólares (A3500) -27,0% de 2023 a 2026 vs Ternium Sur -32,1%. Distinta de la nota del acero chino del 29/10 (importaciones) y de la de producción de acero del 23/07",
+      "fecha": "2026-11-03",
+      "estado": "publicada",
+      "articulo_id": "2026-11-03-ternium-acero-argentina-mexico-precio-tonelada",
+      "archivo": "cola/2026-11-03-ternium-acero-argentina-mexico-precio-tonelada.html"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 03/11/2026 22:30: pasó la primera candidata (Ternium 3T26, ingreso por tonelada Región Sur vs México, SEC + INDEC IPIM + BCRA)",
+      "angulo": "Lista no probada: portales: riesgo país sobre 830 y dólar mayorista récord nominal (infobae, La Nación, ámbito, iProfesional, Página12; mercado diario, sin ángulo propio), Gobierno da marcha atrás con Ganancias sobre CEDEARs (infobae, La Nación, ámbito; sin dato oficial de tenencias), BCRA sin compras (probado y frenado a las 20:30), medidas de Caputo y UIA (embargos ARCA, Sellos ya publicado hoy, RIGI industrial sin norma), marca de calzado en concurso (sin expediente ni HR), pagos con la SUBE gratis por la visita del Papa (Cronista; costo de la visita ya publicado el 12/10), suspensiones de pensiones por discapacidad (Cronista; sin cantidad en la norma), juicios contra prepagas (iProfesional; sin estadística judicial localizada), costos del transporte de carga FADEEAC (fuente privada única), peajes desde enero (molde de tarifa), Cyber Monday y ETF Merval (sin dato oficial), producción récord de cerdo (infobae; consumo y Brasil ya cubiertos). Empresas: Pampa 3T26 (SEC 02/11; Pampa ya publicada hoy por SACDE), Molinos y Newsan (sin cifras), recompras de Macro, BYMA, A3 y Central Puerto (formato cubierto), Pluspetrol fusión (sin cifras), Tango Energy asamblea (rutina). Clarín y TN no se pudieron leer (WebFetch bloqueado). Pregunta de plata: no hubo una con documento oficial que no estuviera cubierta",
+      "fecha": "2026-11-03",
+      "estado": "descartada"
     }
   ]
 }

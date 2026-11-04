@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 21:04:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 22:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Ternium cobra por tonelada de acero en la Argentina y sus vecinos lo mismo que en México; en 2023 cobraba 38% más</title>
+      <link>https://coninteres.com/articulos/2026-11-03-ternium-acero-argentina-mexico-precio-tonelada.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-ternium-acero-argentina-mexico-precio-tonelada.html</guid>
+      <pubDate>Tue, 03 Nov 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>En los primeros nueve meses de 2023, cada tonelada de acero que Ternium vendía en su Región Sur, que es sobre todo la Argentina, le dejaba 38% más que la mexicana. En los mismos meses de 2026 cobró prácticamente lo mismo en las dos: US$1.059 y US$1.063. Lo muestra el informe que la principal productora de acero plano del país presentó el 3 de noviembre ante la SEC. Desde 2023 el ingreso por tonelada en la Argentina y sus vecinos bajó 32,1%; los precios mayoristas del hierro y el acero del INDEC, pasados a dólares, bajaron 27%.</description>
+      <ci:numero>US$1.059</ci:numero>
+      <ci:numeroEtiqueta>lo que Ternium cobró por tonelada de acero en la Argentina y sus vecinos en enero-septiembre de 2026; en México, US$1.063</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-ternium-acero-argentina-mexico-precio-tonelada.png" length="73907" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-ternium-acero-argentina-mexico-precio-tonelada.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Más de la mitad de la deuda financiera de Metalfor es un préstamo de US$50 millones de una agencia del gobierno de Estados Unidos</title>
       <link>https://coninteres.com/articulos/2026-11-03-metalfor-concurso-deuda-dfc-estados-unidos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>empleados menos en las empresas y sociedades del Estado nacional entre noviembre de 2023 y septiembre de 2026, -21,3%, según la dotación del INDEC</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-empresas-estado-empleados-correo.png" length="69886" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-empresas-estado-empleados-correo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El petróleo subió 82,5% en 2026 y los combustibles, 29,1%: desde mayo aumentaron menos que la inflación</title>
-      <link>https://coninteres.com/articulos/2026-11-01-petroleo-subio-82-combustibles-29.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-01-petroleo-subio-82-combustibles-29.html</guid>
-      <pubDate>Sun, 01 Nov 2026 05:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El petróleo casi se duplicó en 2026 y en el surtidor se sintió uno solo de sus dos saltos. El barril de Brent promedió US$114,16 en septiembre, 82,5% más que en diciembre de 2025, y en octubre US$124,83. En el índice de precios del INDEC, los combustibles del Gran Buenos Aires subieron 29,1% en esos nueve meses, casi todo en marzo y abril. De mayo a septiembre subieron 6,0%, contra 10,5% del resto de los precios. Queda una pieza con fecha: el Gobierno volvió a postergar, ahora al 1 de diciembre, la suba pendiente del impuesto a los combustibles.</description>
-      <ci:numero>29,1%</ci:numero>
-      <ci:numeroEtiqueta>suba de los combustibles en el GBA entre diciembre de 2025 y septiembre de 2026 (IPC INDEC); el Brent subió 82,5%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-petroleo-subio-82-combustibles-29.png" length="73337" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-petroleo-subio-82-combustibles-29.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
