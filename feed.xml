@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 04 Nov 2026 01:11:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 04 Nov 2026 03:02:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Se mudan a España 40% menos argentinos que en 2023: 17.700 en el primer semestre de 2026, contra 29.500</title>
+      <link>https://coninteres.com/articulos/2026-11-04-argentinos-espana-llegan-40-menos-viven-450-mil.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-04-argentinos-espana-llegan-40-menos-viven-450-mil.html</guid>
+      <pubDate>Wed, 04 Nov 2026 03:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Cada vez llegan menos argentinos a España y, aun así, la comunidad argentina allá nunca fue tan grande. En la primera mitad de 2026 se mudaron a España 17.700 personas nacidas en la Argentina, 40% menos que en el mismo semestre de 2023, según el Instituto Nacional de Estadística (INE) español; las que hicieron el camino inverso casi se duplicaron. Pero al 1 de enero de 2025 vivían allá 450.883 nacidos en la Argentina, la cifra más alta de esa serie y 57% más que en el pico que dejó la crisis de 2001.</description>
+      <ci:numero>−40%</ci:numero>
+      <ci:numeroEtiqueta>nacidos en la Argentina que se mudaron a España en el primer semestre de 2026 contra el mismo semestre de 2023 (17.700 contra 29.500)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-04-argentinos-espana-llegan-40-menos-viven-450-mil.png" length="65930" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-04-argentinos-espana-llegan-40-menos-viven-450-mil.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Con el boleto quieto desde julio, el pasajero de los colectivos nacionales paga 35,6% del costo de su viaje: en junio pagaba 39,5% y en 2023, 10,2%</title>
       <link>https://coninteres.com/articulos/2026-11-04-colectivos-nacionales-pasajero-paga-35-por-ciento-del-costo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>variación anual del Índice para Contratos de Locación entre el 01/11/2025 y el 01/11/2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-alquileres-icl-noviembre-31-por-ciento.png" length="67049" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-alquileres-icl-noviembre-31-por-ciento.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El sueldo de convenio de un encargado de edificio subió 49,2% en un año, 15,8 puntos más que la inflación: en octubre el básico llega a $1.316.343</title>
-      <link>https://coninteres.com/articulos/2026-11-01-encargados-edificio-sueldo-sube-49-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-01-encargados-edificio-sueldo-sube-49-por-ciento.html</guid>
-      <pubDate>Sun, 01 Nov 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En el último año, el sueldo de convenio de un encargado de edificio le ganó a la inflación: básico y suma fija juntos subieron 49,2% entre septiembre de 2025 y septiembre de 2026, contra 33,4% de los precios. La escala de octubre del convenio de los trabajadores de edificios (CCT 589/10), la que se cobra en los primeros días de noviembre, fija en $1.316.343 el básico de un encargado permanente con vivienda de primera categoría, más una suma fija remunerativa. Del otro lado, las expensas porteñas que mide el IPC de la Ciudad subieron 41,2%.</description>
-      <ci:numero>+49,2%</ci:numero>
-      <ci:numeroEtiqueta>suba del sueldo de convenio de un encargado de edificio, CCT 589/10, entre septiembre de 2025 y septiembre de 2026, igual en las cuatro categorías</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-encargados-edificio-sueldo-sube-49-por-ciento.png" length="78027" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-encargados-edificio-sueldo-sube-49-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

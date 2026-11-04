@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-04T01:11:50-03:00",
+    "actualizado": "2026-11-04T03:02:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-04-argentinos-espana-llegan-40-menos-viven-450-mil",
+      "titulo": "Se mudan a España 40% menos argentinos que en 2023: 17.700 en el primer semestre de 2026, contra 29.500",
+      "bajada": "Cada vez llegan menos argentinos a España y, aun así, la comunidad argentina allá nunca fue tan grande. En la primera mitad de 2026 se mudaron a España 17.700 personas nacidas en la Argentina, 40% menos que en el mismo semestre de 2023, según el Instituto Nacional de Estadística (INE) español; las que hicieron el camino inverso casi se duplicaron. Pero al 1 de enero de 2025 vivían allá 450.883 nacidos en la Argentina, la cifra más alta de esa serie y 57% más que en el pico que dejó la crisis de 2001.",
+      "titulo_busqueda": "¿Cuántos argentinos viven en España?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "−40%",
+      "numero_label": "nacidos en la Argentina que se mudaron a España en el primer semestre de 2026 contra el mismo semestre de 2023 (17.700 contra 29.500)",
+      "fecha": "2026-11-04",
+      "hora": "03:30",
+      "archivo": "articulos/2026-11-04-argentinos-espana-llegan-40-menos-viven-450-mil.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INE España, Estadística Continua de Población: inmigración por país de nacimiento (tabla 59012, provisional, redondeo a la centena) Argentina 1T26 8.400 + 2T26 9.300 = 17.700; 1T23 14.200 + 2T23 15.300 = 29.500 -> -40,0%; 1S25 21.500 (-17,7%). Mapeo de períodos verificado con la nota ECP2T26 (Colombia 2T26 34.000 en tabla 59011). Emigración (tabla 59015): 1S26 6.900 vs 1S23 3.700 (+86,5%); saldo 10.800 vs 25.800 (-58,1%). Anuales llegan/se van: 2023 54.200/8.400, 2024 50.400/12.400, 2025 39.600/14.200. Stock (tabla 56937, serie ECP6401) 1/1/2025 450.883, máximo de la serie 2002-2025; pico previo 288.031 (1/1/2009) -> x1,565; 1/1/2020 289.783 (+55,6%); piso 249.038 (1/7/2015). Coherencia stock-flujos: 2023 +42.923 vs saldo 45.800, 2024 +34.896 vs 38.000 (resto ~3.000/año). Sexto país de nacimiento (Marruecos, Colombia, Venezuela, Rumanía, Ecuador). Contraste independiente Eurostat migr_resfirst (Ministerio del Interior), primeros permisos a ciudadanos argentinos: 2023 18.386 (máx., quiebre de serie), 2024 18.058, 2025 17.109 (-6,9%). Camino: estadística oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-04-colectivos-nacionales-pasajero-paga-35-por-ciento-del-costo",
       "titulo": "Con el boleto quieto desde julio, el pasajero de los colectivos nacionales paga 35,6% del costo de su viaje: en junio pagaba 39,5% y en 2023, 10,2%",
