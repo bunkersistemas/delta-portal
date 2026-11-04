@@ -1,11 +1,29 @@
 {
-  "generado": "2026-11-03T18:30",
+  "generado": "2026-11-03T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3588725",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T19:09",
+      "entidad": "CNH INDUSTRIAL CAPITAL ARGENTINA S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - EJERCER LA OPCIÓN DE RESCATE ANTICIPADO DE LA TOTALIDAD DE OBLIGACIONES NEGOCIABLES CLASE 9",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/47CBD932-7A6C-40C2-BC55-2E939B6DBC87"
+    },
+    {
+      "id": "cnv-3588707",
+      "fuente": "CNV",
+      "fecha": "2026-11-03T18:36",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICION DE ACCIONES PROPIAS EN LOS TERMINOS DEL ARTICULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7EA57592-9566-4521-A3C2-8A146D5B8AF6"
+    },
     {
       "id": "cnv-3588697",
       "fuente": "CNV",
@@ -1211,6 +1229,7 @@
     "sec-0000933267-26-000071": "2026-10-23",
     "sec-0000933267-26-000073": "2026-10-29",
     "sec-0000933267-26-000075": "2026-10-29",
+    "sec-0000933267-26-000077": "2026-11-03",
     "sec-0001034957-26-000071": "2026-10-22",
     "sec-0001034957-26-000073": "2026-10-22",
     "sec-0001034957-26-000075": "2026-10-23",
@@ -1224,6 +1243,7 @@
     "sec-0001104659-26-120635": "2026-10-30",
     "sec-0001104659-26-120754": "2026-11-02",
     "sec-0001104659-26-121483": "2026-11-02",
+    "sec-0001104659-26-122105": "2026-11-03",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",

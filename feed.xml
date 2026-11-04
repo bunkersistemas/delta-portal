@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 03 Nov 2026 19:00:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 03 Nov 2026 21:04:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Más de la mitad de la deuda financiera de Metalfor es un préstamo de US$50 millones de una agencia del gobierno de Estados Unidos</title>
+      <link>https://coninteres.com/articulos/2026-11-03-metalfor-concurso-deuda-dfc-estados-unidos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-metalfor-concurso-deuda-dfc-estados-unidos.html</guid>
+      <pubDate>Tue, 03 Nov 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Metalfor, la fábrica de pulverizadoras de Marcos Juárez, pidió el 3 de noviembre su concurso preventivo. La deuda que se publicó, $52.000 millones con 23 bancos, sale del registro del Banco Central, que solo anota a los bancos argentinos. Su último balance muestra que el acreedor más grande queda afuera de esa cuenta: el 55,4% de su deuda financiera era un solo préstamo de US$50 millones de la DFC, la agencia de financiamiento del gobierno de Estados Unidos. Y la caída es de la empresa, no del mercado: entre enero y septiembre Metalfor patentó 43,2% menos pulverizadoras; el resto de las marcas, lo mismo que un año antes.</description>
+      <ci:numero>55,4%</ci:numero>
+      <ci:numeroEtiqueta>parte de la deuda financiera de Metalfor que es un préstamo de la DFC, agencia del gobierno de EE.UU., al 30 de junio de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-metalfor-concurso-deuda-dfc-estados-unidos.png" length="68974" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-metalfor-concurso-deuda-dfc-estados-unidos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las dos áreas de Río Negro donde YPF le vende su 35% a Capex por US$6 millones sacaron 20,9% menos petróleo en nueve meses; el país, 16,3% más</title>
       <link>https://coninteres.com/articulos/2026-11-03-ypf-capex-loma-negra-la-yesera-6-millones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>suba de los combustibles en el GBA entre diciembre de 2025 y septiembre de 2026 (IPC INDEC); el Brent subió 82,5%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-petroleo-subio-82-combustibles-29.png" length="73337" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-petroleo-subio-82-combustibles-29.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina sacó más gas que nunca en nueve meses, pero apenas 0,7% más que en 2025: el no convencional creció 7,3% y el convencional cayó 11,1%</title>
-      <link>https://coninteres.com/articulos/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.html</guid>
-      <pubDate>Sun, 01 Nov 2026 04:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y septiembre de 2026 la Argentina produjo 40.275 millones de metros cúbicos de gas, el máximo para esos nueve meses en la serie oficial. Pero es un récord por poco, apenas 0,7% más que en 2025, porque dos fuerzas se cancelan: el gas no convencional subió 7,3% y el convencional cayó 11,1%. El récord anual sigue siendo de 2004.</description>
-      <ci:numero>40.275 M m³</ci:numero>
-      <ci:numeroEtiqueta>producción de gas de enero-septiembre de 2026 en millones de m³, máximo para esos nueve meses en la serie oficial</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.png" length="74860" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-01-produccion-gas-record-nueve-meses-convencional-cae.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

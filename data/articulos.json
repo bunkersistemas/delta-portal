@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-03T19:00:27-03:00",
+    "actualizado": "2026-11-03T21:04:38-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-03-metalfor-concurso-deuda-dfc-estados-unidos",
+      "titulo": "Más de la mitad de la deuda financiera de Metalfor es un préstamo de US$50 millones de una agencia del gobierno de Estados Unidos",
+      "bajada": "Metalfor, la fábrica de pulverizadoras de Marcos Juárez, pidió el 3 de noviembre su concurso preventivo. La deuda que se publicó, $52.000 millones con 23 bancos, sale del registro del Banco Central, que solo anota a los bancos argentinos. Su último balance muestra que el acreedor más grande queda afuera de esa cuenta: el 55,4% de su deuda financiera era un solo préstamo de US$50 millones de la DFC, la agencia de financiamiento del gobierno de Estados Unidos. Y la caída es de la empresa, no del mercado: entre enero y septiembre Metalfor patentó 43,2% menos pulverizadoras; el resto de las marcas, lo mismo que un año antes.",
+      "titulo_busqueda": "¿A quién le debe Metalfor?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "55,4%",
+      "numero_label": "parte de la deuda financiera de Metalfor que es un préstamo de la DFC, agencia del gobierno de EE.UU., al 30 de junio de 2026",
+      "fecha": "2026-11-03",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-03-metalfor-concurso-deuda-dfc-estados-unidos.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 8 min",
+      "numero_fuente": "Balance individual de Metalfor S.A. al 30/06/2026 (CNV, 17/08/2026), notas 3.4 y 3.6: préstamo DFC US$50.000.000 a $1.500 = $75.000 M sobre deuda financiera $55.112,8 M corriente + $80.147,1 M no corriente = $135.259,9 M. Monto del préstamo confirmado por Tanoira Cassagne (09/03/2026, 'up to US$ 50,000,000'). Contraste: BCRA Central de Deudores jun-26 $52.728 M con 21 entidades argentinas, sin la DFC; balance, bancos argentinos $43.972 M."
+    },
     {
       "id": "2026-11-03-ypf-capex-loma-negra-la-yesera-6-millones",
       "titulo": "Las dos áreas de Río Negro donde YPF le vende su 35% a Capex por US$6 millones sacaron 20,9% menos petróleo en nueve meses; el país, 16,3% más",
