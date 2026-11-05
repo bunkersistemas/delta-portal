@@ -1,11 +1,38 @@
 {
-  "generado": "2026-11-05T12:30",
+  "generado": "2026-11-05T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3589753",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T14:16",
+      "entidad": "BANCO COMAFI S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7EF20AC0-61E6-4246-8E6D-90687B43BF3E"
+    },
+    {
+      "id": "cnv-3589715",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T13:32",
+      "entidad": "CAJA DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV Y BYMA DIGITAL 8605 NOVIEMBRE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/382A68BF-890A-4F12-95BF-20C5ED1FD82C"
+    },
+    {
+      "id": "cnv-3589711",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T13:32",
+      "entidad": "CAJA DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO DE DIVIDENDO PARA PUBLICAR EN CNV Y BYMA DIGITAL 8603 NOVIEMBRE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9A455D26-32BF-46C0-802C-252B82DC4A6D"
+    },
     {
       "id": "cnv-3589583",
       "fuente": "CNV",
@@ -1324,6 +1351,7 @@
     "sec-0000931427-26-000012": "2026-10-07",
     "sec-0000931427-26-000013": "2026-10-29",
     "sec-0000931427-26-000014": "2026-10-29",
+    "sec-0000931427-26-000015": "2026-11-05",
     "sec-0000933267-26-000065": "2026-10-16",
     "sec-0000933267-26-000067": "2026-10-22",
     "sec-0000933267-26-000069": "2026-10-22",

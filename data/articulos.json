@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-05T12:54:42-03:00",
+    "actualizado": "2026-11-05T16:46:26-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-05-registros-automotor-cierran-46-maquinaria-77-tramites",
+      "titulo": "De los 67 registros del automotor que cierran, 46 son de maquinaria: en 2025, cada registro de maquinaria anotó 77 máquinas nuevas o vendidas",
+      "bajada": "El Ministerio de Justicia publicó este jueves la supresión de 67 registros seccionales de la propiedad del automotor, y el cierre suena a un recorte en los trámites del auto. La lista oficial muestra algo que el anuncio no dice: 46 de los 67 solo atienden maquinaria agrícola, vial e industrial, la rama más chica del sistema. En 2025, los 298 registros habilitados para maquinaria hicieron 22.905 inscripciones y transferencias: 77 por registro en todo el año, menos de dos por semana. Un registro de autos hizo en promedio 2.979, casi 39 veces más.",
+      "titulo_busqueda": "Cuáles son los registros del automotor que cierran y cuánto trabajo tenían",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "77",
+      "numero_label": "inscripciones y transferencias de maquinaria por registro habilitado para maquinaria, promedio de todo 2025",
+      "fecha": "2026-11-05",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-05-registros-automotor-cierran-46-maquinaria-77-tramites.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "DNRPA datos.jus.gob.ar: inscripciones iniciales de maquinarias 2025 = 12.482 y transferencias = 10.423 (suma de meses, estadística por provincia 2013-09 a 2026-10); listado de registros seccionales 202512: 298 filas con competencia Maquinarias -> 22.905/298 = 76,9. Autos: 615.138 + 1.890.403 (estadística agregada; bases por vehículo 615.157 + 1.890.875) / 841 registros Automotores = 2.979,2; ratio 38,8. Res. 538/2026 MJ (BO 05/11/2026) anexo I: 67 registros, 46 con competencia exclusiva sobre maquinaria, 10 de autos, 9 prendarios regionales, 2 de motos; anexo II: 5 ya suprimidos. Contraste independiente: INDEC maquinaria agrícola 2025 tractores 6.666 + cosechadoras 975 = 7.641 vendidos; ACARA (de DNRPA, no independiente) 6.643 + 187 autopropulsadas patentadas."
+    },
     {
       "id": "2026-11-05-rem-inflacion-2026-supero-pronostico-analistas",
       "titulo": "En septiembre la inflación ya superó lo que los analistas esperaban para todo 2026: 23,6% contra 20,1%, y en siete de los últimos nueve años se quedaron cortos",
