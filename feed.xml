@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 05 Nov 2026 10:49:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 12:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En septiembre la inflación ya superó lo que los analistas esperaban para todo 2026: 23,6% contra 20,1%, y en siete de los últimos nueve años se quedaron cortos</title>
+      <link>https://coninteres.com/articulos/2026-11-05-rem-inflacion-2026-supero-pronostico-analistas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-05-rem-inflacion-2026-supero-pronostico-analistas.html</guid>
+      <pubDate>Thu, 05 Nov 2026 13:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>En diciembre de 2025, los analistas que releva el BCRA esperaban 20,1% de inflación para todo 2026. En septiembre, los precios ya acumulaban 23,6%. No es la primera vez: desde 2017, el pronóstico de diciembre se quedó corto en siete de nueve años. Y en el último relevamiento, de septiembre, vuelven a esperar 21% para los doce meses siguientes: lo mismo que hace un año, cuando terminó siendo 33,4%.</description>
+      <ci:numero>23,6%</ci:numero>
+      <ci:numeroEtiqueta>inflación acumulada de enero a septiembre de 2026; en diciembre, los analistas del REM esperaban 20,1% para todo el año</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-05-rem-inflacion-2026-supero-pronostico-analistas.png" length="79110" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-05-rem-inflacion-2026-supero-pronostico-analistas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El gas de red llega al 59,5% de los habitantes de las ciudades, el nivel más bajo desde 2016: hay 2,3 millones de personas más sin red que antes de la pandemia</title>
       <link>https://coninteres.com/articulos/2026-11-05-gas-de-red-59-por-ciento-minimo-serie-garrafa.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>máximo mensual de la prestación por desempleo de los trabajadores rurales (RENATRE) desde noviembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-desempleo-rural-renatre-420000-noviembre.png" length="67627" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-desempleo-rural-renatre-420000-noviembre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina le compró a Brasil 35.627 toneladas de carne de ave en nueve meses, casi el doble que en todo 2025: dos de cada tres kilos son pechuga</title>
-      <link>https://coninteres.com/articulos/2026-11-02-pollo-brasil-importaciones-newcastle.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-pollo-brasil-importaciones-newcastle.html</guid>
-      <pubDate>Mon, 02 Nov 2026 07:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y septiembre de 2026 la Argentina le compró a Brasil 35.627 toneladas de carne de ave, la mayor cantidad para esos meses desde 1999 y 124% más que un año antes, según el INDEC. La aduana brasileña, que lleva su propio registro, anota casi lo mismo: 35.820. Casi todo es pollo congelado, y dos de cada tres kilos son pechuga deshuesada. Por eso pesa el brote de Newcastle en Santa Catarina: el SENASA suspendió lo que llega de la zona del foco, no el resto de Brasil.</description>
-      <ci:numero>35.627 t</ci:numero>
-      <ci:numeroEtiqueta>carne de ave importada desde Brasil en enero-septiembre de 2026 según el INDEC</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-pollo-brasil-importaciones-newcastle.png" length="73864" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-pollo-brasil-importaciones-newcastle.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

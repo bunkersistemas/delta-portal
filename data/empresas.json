@@ -1,11 +1,56 @@
 {
-  "generado": "2026-11-05T10:30",
+  "generado": "2026-11-05T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3589583",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T11:59",
+      "entidad": "AEROPUERTOS ARGENTINA 2000 S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - INFORMA RESCATE DE LA TOTALIDAD DE LAS OBLIGACIONES NEGOCIABLES SERIE 2017",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F3AF800C-7048-49AA-9021-7C6BF3FE7CF7"
+    },
+    {
+      "id": "cnv-3589581",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T11:59",
+      "entidad": "AEROPUERTOS ARGENTINA 2000 S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - INFORMA RESCATE DE LA TOTALIDAD DE LAS OBLIGACIONES NEGOCIABLES CON VENCIMIENTO EN 2028",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/DD4706A9-4288-46F8-84C0-6A4765210495"
+    },
+    {
+      "id": "cnv-3589580",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T11:59",
+      "entidad": "AEROPUERTOS ARGENTINA 2000 S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - INFORMA RESCATE DE LA TOTALIDAD DE LAS OBLIGACIONES NEGOCIABLES SERIE 2020",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/50E8A26C-7676-42B4-AF99-ACDD95F57295"
+    },
+    {
+      "id": "cnv-3589579",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T11:59",
+      "entidad": "AEROPUERTOS ARGENTINA 2000 S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - INFORMA RESCATE DE LA TOTALIDAD DE LAS OBLIGACIONES NEGOCIABLES GARANTIZADAS CLASE I SERIE 2021",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/257A577F-45E8-4484-BEBA-44B70CE9E45C"
+    },
+    {
+      "id": "cnv-3589495",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T10:36",
+      "entidad": "IMPSA S.A",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - TRANSCRIPCIÓN ESTADOS FINANCIEROS 30.06.2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A9FE3352-629B-4FB0-B948-22C07AB75DFE"
+    },
     {
       "id": "cnv-3589450",
       "fuente": "CNV",
