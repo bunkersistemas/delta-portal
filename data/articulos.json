@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-05T02:47:10-03:00",
+    "actualizado": "2026-11-05T04:47:53-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-05-dfc-exim-estados-unidos-argentina-cartera-paraguay",
+      "titulo": "La agencia de desarrollo de Estados Unidos tiene comprometidos en la Argentina US$145 millones, menos de un tercio que en Paraguay",
+      "bajada": "El EXIM, el banco de exportaciones de Estados Unidos, firmó en septiembre un marco para movilizar hasta US$7.000 millones en la Argentina hasta 2027. Los registros oficiales de dos agencias del gobierno de EE.UU. muestran desde dónde se arranca: la DFC tiene comprometidos acá US$145 millones, el 0,3% de su cartera y menos de un tercio que en Paraguay; el EXIM, entre octubre de 2021 y junio de 2026, aprobó para el país tres seguros por US$279.000.",
+      "titulo_busqueda": "",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "US$145 M",
+      "numero_label": "lo que la DFC, la agencia de financiamiento al desarrollo de EE.UU., tiene comprometido en proyectos en la Argentina, a octubre de 2026",
+      "fecha": "2026-11-05",
+      "hora": "05:30",
+      "archivo": "articulos/2026-11-05-dfc-exim-estados-unidos-argentina-cartera-paraguay.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "DFC ActiveProjects.xlsx (www3.dfc.gov/OPICProjects/Data, Last-Modified 22/10/2026), columna Committed, 5 filas Argentina: 16.146.449 + 30.110.818,35 (Legacy USAID 2014) + 45.000.000 (Plaza Logistica 2019) + 50.000.000 (Metalfor 2025) + 4.072.634 (Argentina Potash PD 2026) = 145.329.901; total mundial 47.127,5 M en 1.086 filas (0,31%); Paraguay 512,8 M (5: Sudameris x3, Banco Regional, Zeta); Western Hem 13.397,7 M (1,08%), 13 paises por encima. Contraste: Metalfor EEFF 30/06/2026 CNV (DFC US$50 M); Plaza Logistica suplemento ON Clase 5 jun-2026 (Priv. OPIC 1 y 2 11.219.512 c/u + DFC 3 2.804.882 = 25,2 M en circulacion, vto 15/11/2031); ficha DFC 9100000288 (4.072.634); planilla FY24 al 30/09/2024: 3 proyectos 91,26 M. EXIM data.gov data-gov_fy26-q3.csv: Argentina Approved FY22-FY25 = 0 filas; FY26 (a 30/06/2026) 3 seguros ESS: Agri Star 225.000, Trumar 45.000, FB Lineas Aereas 9.000 = 279.000; 2007-2021 suma 568,79 M; prueba A-Evangelista 21/02/2020 17,7 M (comunicado 18,4 M). CLS EXIM 29/10/2026: Argentina Y/Y/N publico y privado, notas 1 y 13."
+    },
     {
       "id": "2026-11-05-ypf-cupula-compensacion-123-millones-bono-accion",
       "titulo": "La cúpula de YPF devengó US$123 millones en nueve meses, más del doble que en cualquier año entero desde 2022",

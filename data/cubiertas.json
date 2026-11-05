@@ -7468,6 +7468,20 @@
       "fecha": "2026-11-05",
       "estado": "descartada",
       "motivo_descarte": "frenó la primera (un solo documento sin auditar para la cifra del trimestre); pasó la segunda"
+    },
+    {
+      "tema": "¿cuánto tiene puesto Estados Unidos en la Argentina a través de la DFC y el EXIM? (MUNDO; La Nación 04/11/2026 'Tras la derrota de Trump, un organismo de Estados Unidos ratificó el financiamiento para proyectos' y Cronista 'Un banco estadounidense que financia proyectos en Argentina aseguró que sigue operando'; marco EXIM de hasta US$7.000 M del 23/09/2026)",
+      "angulo": "Registros oficiales de las dos agencias: DFC con US$145,3 M comprometidos en 5 proyectos (0,3% de su cartera, Paraguay 512,8 M, la mitad de lo privado es Metalfor en concurso) y EXIM sin operaciones aprobadas para la Argentina en los años fiscales 2022-2025 y US$279.000 en tres seguros de corto plazo en FY26 hasta junio; CLS sin cobertura a más de 7 años. Retomable cuando el EXIM publique los datos de FY26 completo (después del marco) o la DFC actualice su planilla.",
+      "fecha": "2026-11-05",
+      "estado": "en_cola",
+      "id": "2026-11-05-dfc-exim-estados-unidos-argentina-cartera-paraguay"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 05/11/2026 04:30: pasó la candidata DFC y EXIM en la Argentina (MUNDO). Lista: (1) DFC/EXIM [La Nación, Cronista]: APTA. (2) EMPRESAS Mercado Libre 3T26 crecimiento real en la Argentina: sigue FRENADA, el 10-Q del 3T26 no está en EDGAR a las 04:30 (última presentación: 8-K 04/11). (3) EMPRESAS Molinos (acopio de Rosario y planta de Tucumán) y Newsan (fusión): HR sin montos. (4) EMPRESAS Loma Negra recompra de ON Clase 5, Banco Macro, BYMA y Central Puerto recompras: rutina, formato cubierto. (5) producción automotriz de octubre -14,4% (infobae, ámbito, Página12): cubierto en julio y 27/10. (6) riesgo país sobre 850 (cuatro portadas): publicada 29/10, mercado diario. (7) Ueno Bank en Paraguay (La Nación, Página12): sin documento argentino; dato al margen: la DFC tiene US$505,5 M en dos bancos paraguayos (Sudameris y Banco Regional), no Ueno. (8) crédito en pesos de octubre (La Nación): serie BCRA cubierta varias veces. (9) acceso a agua, gas y cloacas (infobae, EPH condiciones de vida 1S26): candidata retomable, no se probó. (10) fondos de emergencia a provincias menos del 20% (infobae): ATN publicada 28/09. (11) Comercio 5,7% y luz y gas AMBA: molde agotado. Hoy ya había nota de EMPRESAS (YPF 03:45): el cupo no aplica. Calendario: IPI pesquero y comercio exterior de nueve meses salen hoy a las 16. clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-05",
+      "estado": "descartada",
+      "motivo_descarte": "pasó la primera candidata (DFC y EXIM)"
     }
   ]
 }
