@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-05T06:59:05-03:00",
+    "actualizado": "2026-11-05T08:40:32-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-05-mercado-libre-argentina-crecimiento-real-6-por-ciento",
+      "titulo": "Mercado Libre creció 6,3% en la Argentina descontada la inflación: un año antes crecía 47%, y ya son seis trimestres seguidos de freno",
+      "bajada": "Mercado Libre informó que sus ingresos en la Argentina crecieron 42% en el tercer trimestre de 2026. Descontada la inflación con el índice de precios del INDEC, el crecimiento real fue de 6,3%. La diferencia está en la unidad: el 42% está medido en moneda local, es decir en pesos, y trae la inflación adentro. Un año antes, el crecimiento real era de 47%, y a principios de 2025, de 69%. Es el sexto trimestre seguido en que crece menos que en el anterior.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "6,3%",
+      "numero_label": "crecimiento real de los ingresos de Mercado Libre en la Argentina, tercer trimestre de 2026 contra el mismo de 2025",
+      "fecha": "2026-11-05",
+      "hora": "08:30",
+      "archivo": "articulos/2026-11-05-mercado-libre-argentina-crecimiento-real-6-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Mercado Libre, carta a los accionistas 3T26 (8-K EX-99.1 SEC 04/11/2026, cuadro FX-neutral Growth Rates by Quarter: Argentina 42%) y 10-Q al 30/09/2026 (SEC 05/11/2026, nota de segmentos: ingresos Argentina US$1.818 M vs 1.441 M; TC promedio 1.499,89 vs 1.333,04). Recálculo: 1,2616 x 1,1252 = 41,95%; con A3500 BCRA 1.500,28/1.332,15 = 42,1%. IPC nacional INDEC promedio jul-sep 2026 12.289,10 / 2025 9.200,44 = 1,3357. Real = 1,42/1,3357 - 1 = 6,31% (rango por redondeo 5,9-6,7; con dólares del 10-Q 6,28%). Serie real 1T24 -9,3; 2T24 1,7; 3T24 3,2; 4T24 22,7; 1T25 69,0; 2T25 60,5; 3T25 47,1; 4T25 34,7; 1T26 24,4; 2T26 11,3. Contraste: EMAE comercio INDEC jul-26 -5,04%, ago-26 -3,50% i.a.; 3T25 -0,51%. Por línea (10-Q): comercio 678/495 real +15,4; fintech 1.140/946 +1,5; servicios financieros 701/616 -4,1; crédito 438/329 +12,1. Ticket real: GMV FXN 40%, artículos 19% -> -11,9%."
+    },
     {
       "id": "2026-11-05-diez-tributos-99-por-ciento-recaudacion-nacional",
       "titulo": "De cada $100 que recauda la Nación, $99 salen de diez tributos; todos los demás juntan menos de $1",

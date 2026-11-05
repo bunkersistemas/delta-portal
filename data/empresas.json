@@ -1,11 +1,21 @@
 {
-  "generado": "2026-11-05T06:30",
+  "generado": "2026-11-05T08:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "sec-0001099590-26-000029",
+      "fuente": "SEC",
+      "fecha": "2026-11-05",
+      "entidad": "Mercado Libre",
+      "ticker": "MELI",
+      "tipo": "balance",
+      "descripcion": "10-Q balance trimestral",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000029/meli-20260930.htm"
+    },
     {
       "id": "cnv-3589414",
       "fuente": "CNV",
@@ -1313,6 +1323,7 @@
     "sec-0001292814-26-005124": "2026-11-02",
     "sec-0001292814-26-005130": "2026-11-03",
     "sec-0001292814-26-005144": "2026-11-04",
+    "sec-0001292814-26-005150": "2026-11-05",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001342874-26-000052": "2026-11-04",
