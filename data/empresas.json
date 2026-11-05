@@ -1,11 +1,85 @@
 {
-  "generado": "2026-11-04T06:30",
+  "generado": "2026-11-05T00:58",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3589414",
+      "fuente": "CNV",
+      "fecha": "2026-11-04T20:37",
+      "entidad": "VMOS S. A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - PERFECCIONAMIENTO DE ACUERDO DE CESIÓN EN GARANTÍA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A45751E1-F1BD-47ED-9627-143921DDCA40"
+    },
+    {
+      "id": "cnv-3589378",
+      "fuente": "CNV",
+      "fecha": "2026-11-04T18:36",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICION DE ACCIONES PROPIAS EN LOS TERMINOS DEL ARTICULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/59B50B1D-5464-452F-8677-A1ACE9F32269"
+    },
+    {
+      "id": "cnv-3589358",
+      "fuente": "CNV",
+      "fecha": "2026-11-04T18:14",
+      "entidad": "LOMA NEGRA CIASA",
+      "tipo": "financiamiento",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - RECOMPRA DE OBLIGACIONES NEGOCIABLES CLASE 5",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/274ECCBE-15D7-4ED0-BA3A-4D2778B59A5E"
+    },
+    {
+      "id": "cnv-3589345",
+      "fuente": "CNV",
+      "fecha": "2026-11-04T17:58",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6CCC0C75-6ED1-43FF-9512-92CC5AF16A4D"
+    },
+    {
+      "id": "cnv-3589325",
+      "fuente": "CNV",
+      "fecha": "2026-11-04T17:23",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (04 11 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/CBFF9B09-E704-47EE-A315-A0A853769BF6"
+    },
+    {
+      "id": "cnv-3588898",
+      "fuente": "CNV",
+      "fecha": "2026-11-04T11:33",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "HECHOS O SITUACIONES QUE AFECTEN LA ACTIVIDAD DE LA ENTIDAD - HECHO RELEVANTE - DIA DEL BANCARIO Y FERIADOS NOVIEMBRE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FBAD30A9-5C03-4218-A965-030F780B7FC6"
+    },
+    {
+      "id": "sec-0001193125-26-447423",
+      "fuente": "SEC",
+      "fecha": "2026-11-04",
+      "entidad": "YPF",
+      "ticker": "YPF",
+      "tipo": "balance",
+      "descripcion": "6-K YPF S.A.’s Condensed Interim Consolidated Financial Statements as of September 30, 2026 and Comparative Information (US$). ITEM 2 YPF S.A.’s Condensed Interim Consolidated Financi",
+      "url": "https://www.sec.gov/Archives/edgar/data/904851/000119312526447423/d141724d6k.htm"
+    },
+    {
+      "id": "sec-0001099590-26-000027",
+      "fuente": "SEC",
+      "fecha": "2026-11-04",
+      "entidad": "Mercado Libre",
+      "ticker": "MELI",
+      "tipo": "balance",
+      "descripcion": "8-K RESULTADOS",
+      "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000027/meli-20261104.htm"
+    },
     {
       "id": "cnv-3588725",
       "fuente": "CNV",
@@ -1118,46 +1192,9 @@
       "tipo": "hecho",
       "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - INVAP SAU - 20261006 -",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/0C53023F-F391-4F22-A883-B60210B8FB96"
-    },
-    {
-      "id": "cnv-3577069",
-      "fuente": "CNV",
-      "fecha": "2026-10-05T18:01",
-      "entidad": "A3 MERCADOS S.A",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 05.10.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5D4E11F9-861C-45FB-8163-1D1C5E36DBF1"
-    },
-    {
-      "id": "cnv-3577044",
-      "fuente": "CNV",
-      "fecha": "2026-10-05T17:39",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (05 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E9B4460B-899C-44DC-A96F-69C02CFAE705"
-    },
-    {
-      "id": "cnv-3576341",
-      "fuente": "CNV",
-      "fecha": "2026-10-05T09:34",
-      "entidad": "YPF S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN FINANCIERA - YPF - HECHO RELEVANTE - INFORME DE RECOMPRA DE ONS PROPIAS",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/46DCF6D5-AC3D-43B2-84C7-AD66802EA7D1"
     }
   ],
   "anuncios": [
-    {
-      "id": "sec-0001193125-26-399609-2026-10-28",
-      "fuente": "SEC",
-      "fecha": "2026-10-28",
-      "entidad": "Vista Energy",
-      "ticker": "VIST",
-      "frase": "ber 23, 2026 — Vista Energy, S.A.B. de C.V. (“Vista” or the “Company”) (NYSE: VIST; BMV: VISTA) announced today that it will release its consolidated financial statements for the third quarter of this year on Wednesday, October 28, 2026, after market closes. The Company will present the results through a webcast on",
-      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526399609/d27684d6k.htm",
-      "presentado": "2026-09-23"
-    },
     {
       "id": "sec-0001193125-26-399609-2026-10-29",
       "fuente": "SEC",
@@ -1244,10 +1281,10 @@
     "sec-0001104659-26-120754": "2026-11-02",
     "sec-0001104659-26-121483": "2026-11-02",
     "sec-0001104659-26-122105": "2026-11-03",
+    "sec-0001104659-26-122780": "2026-11-04",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
-    "sec-0001292814-26-004854": "2026-10-05",
     "sec-0001292814-26-004860": "2026-10-07",
     "sec-0001292814-26-004862": "2026-10-07",
     "sec-0001292814-26-004866": "2026-10-08",
@@ -1275,15 +1312,17 @@
     "sec-0001292814-26-005122": "2026-11-02",
     "sec-0001292814-26-005124": "2026-11-02",
     "sec-0001292814-26-005130": "2026-11-03",
+    "sec-0001292814-26-005144": "2026-11-04",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001342874-26-000050": "2026-11-03",
-    "sec-0001554855-26-002070": "2026-10-05",
+    "sec-0001342874-26-000052": "2026-11-04",
     "sec-0001554855-26-002088": "2026-10-09",
     "sec-0001554855-26-002090": "2026-10-09",
     "sec-0001554855-26-002124": "2026-10-14",
     "sec-0001554855-26-002169": "2026-10-23",
     "sec-0001554855-26-002241": "2026-10-28",
     "sec-0001711375-26-000047": "2026-10-20",
-    "sec-0001711375-26-000049": "2026-10-27"
+    "sec-0001711375-26-000049": "2026-10-27",
+    "sec-0001711375-26-000051": "2026-11-04"
   }
 }

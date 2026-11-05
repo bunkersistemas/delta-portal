@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-04",
-  "pregunta": "Entre enero y septiembre de 2026 las exportaciones argentinas subieron US$13.734 millones. Según el INDEC, el volumen exportado fue el más alto para esos meses desde 1986, pero US$7.811 millones del aumento vinieron de mejores precios. ¿Qué significa eso?",
+  "fecha": "2026-11-05",
+  "pregunta": "En las líneas de colectivo nacionales un viaje cuesta $1.901,08 sin IVA y el pasajero paga en promedio $677,56, según la Secretaría de Transporte. El boleto está quieto desde el 15 de julio. Si el costo sigue subiendo y el boleto no, ¿qué pasa con la parte que pone el Estado?",
   "opciones": [
-    "Que más de la mitad del aumento se explica porque cada producto se vendió más caro, y el resto porque se vendieron más cantidades",
-    "Que en 2026 se exportaron menos toneladas que en 2025, pero a mejor precio",
-    "Que el récord de volumen es en dólares: se exportaron más dólares que nunca desde 1986"
+    "Crece sola: la Nación paga la diferencia entre el costo del viaje y lo que aporta el pasajero, y esa diferencia se agranda",
+    "Queda igual: la compensación es un monto fijo por línea que solo cambia cuando sube el boleto",
+    "Baja: con el boleto quieto viaja más gente y la recaudación alcanza para cubrir más costo"
   ],
   "correcta": 0,
-  "explicacion": "Lo que se exporta en dólares es precio por cantidad, y las dos cosas pueden moverse a la vez. El INDEC separa el aumento en dos partes: US$7.811 millones salen de vender cada unidad más cara y US$5.923 millones, de vender más unidades (el volumen subió 9,3%). Las dos subieron: no es que se vendió menos a mejor precio. Y el récord de volumen es de cantidades, no de dólares: en 2022 los precios eran más altos, pero se exportó 18% menos volumen. Separar precio y cantidad sirve para saber si un buen año depende del mercado mundial o de que el país produce y vende más.",
-  "nota": "articulos/2026-11-03-exportaciones-volumen-record-1986-precios.html",
+  "explicacion": "La compensación de la Nación cubre lo que falta entre el costo de cada viaje y lo que paga el pasajero. En octubre, de $1.901,08 el pasajero aportó $677,56 (35,6%) y la Nación $1.223,52. En junio el pasajero cubría 39,5%: el boleto mínimo quedó en $742,81 desde el 15 de julio y el costo siguió subiendo. Cuando una tarifa se congela y los costos suben, el subsidio crece sin que nadie lo decida. Por eso una tarifa quieta no es gratis: alguien paga la diferencia.",
+  "nota": "articulos/2026-11-04-colectivos-nacionales-pasajero-paga-35-por-ciento-del-costo.html",
   "leccion": ""
 }

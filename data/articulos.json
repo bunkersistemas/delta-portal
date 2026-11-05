@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-04T05:05:09-03:00",
+    "actualizado": "2026-11-05T01:27:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-05-obras-sociales-beneficiarios-monotributo-social-43-por-ciento",
+      "titulo": "Las obras sociales tienen 1,16 millones de beneficiarios menos que en noviembre de 2023, y el 43% salió del monotributo social: 344.281 en un solo mes",
+      "bajada": "Entre noviembre de 2023 y septiembre de 2026 las obras sociales nacionales, sin contar el PAMI, perdieron 1.159.205 beneficiarios. La caída se asoció con el empleo perdido. El padrón de la Superintendencia de Servicios de Salud dice de dónde salió cada baja: 499.631, el 43%, fueron del monotributo social, y 344.281 se fueron en diciembre de 2024, después de que el Gobierno dejara de subsidiar el aporte de los que venían de planes sociales y les pidiera pagar la mitad de la obra social. Más de la mitad de las bajas son familiares a cargo. En el mismo período, los monotributistas comunes sumaron 338.189 beneficiarios.",
+      "titulo_busqueda": "¿Por qué las obras sociales perdieron más de un millón de afiliados?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "43%",
+      "numero_label": "de los beneficiarios que perdieron las obras sociales nacionales (sin PAMI) entre nov-2023 y sep-2026 estaban en el monotributo social",
+      "fecha": "2026-11-05",
+      "hora": "02:30",
+      "archivo": "articulos/2026-11-05-obras-sociales-beneficiarios-monotributo-social-43-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SSS, beneficiarios por tipo (planillas 2023-2026, sin la fila del PAMI 500807): nov-23 15.554.141 (total hoja 21.038.418, PAMI 5.484.277), sep-26 14.394.936 (total 20.231.359, PAMI 5.836.423) -> -1.159.205 (= cifra de ámbito 04/11). Efectores sociales 743.953 -> 244.322 = -499.631 (43,10%); nov-24 722.018 -> dic-24 377.737 = -344.281; jun-25 322.430 -> jul-25 253.966. RD -934.562, monotributo +338.189, desempleo +90.753, doméstico -58.752, adherentes -51.819, otros -43.383; suma exacta. Por entidad: titulares 9.650.742 -> 9.105.400 (-545.342), familiares 5.903.399 -> 5.289.536 (-613.863). Contraste SIPA T.2.1 (trabajoregistrado_2607): monotributo social nov-24 653,385 -> dic-24 259,193 miles (-60,3%); nov-23 634,720 -> jul-26 220,719 (-414,0); monotributo +177,1; asalariados privados -303,4, públicos -99,5; asal. privados dic-24 6.285,7 vs nov-24 6.267,8. Norma: Res. 603/2024 SNNAYF (BO 03/09/2024): deja sin efecto Res. 281/2024 desde 01/10/2024, 50% del componente obra social, bajas de oficio. Camino: estadística oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-04-sebo-vacuno-estados-unidos-60-por-ciento-paises-bajos",
       "titulo": "Estados Unidos se llevó 93.289 toneladas de sebo vacuno argentino en 2025, el 60% de todo lo exportado; en 2021 había comprado 1.063",
