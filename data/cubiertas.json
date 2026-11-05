@@ -7511,6 +7511,20 @@
       "fecha": "2026-11-05",
       "estado": "descartada",
       "motivo_descarte": "pasó la primera candidata (Mercado Libre, crecimiento real en la Argentina)"
+    },
+    {
+      "fecha": "2026-11-05",
+      "estado": "en_cola",
+      "id": "2026-11-05-gas-de-red-59-por-ciento-minimo-serie-garrafa",
+      "tema": "acceso al gas de red en las ciudades (Infobae 05/11/2026 'Empeoró el déficit de servicios básicos'; INDEC condiciones de vida 1S-2026, 04/11) / personas con gas de red 59,5% (IC 57,7-61,3), mínimo de la serie 2S-2016 a 1S-2026 (previo 60,5 en 2S-2025; 64,7 en 2S-2019); 12,2 M sin red, +2,3 M vs 2019; hogares con gas 6,59 M -> 6,62 M con +891.722 hogares; la baja va a garrafa (34,2 -> 38,3% de personas, microdatos II8); GBA 67,2 -> 61,8%; contraste ENARGAS usuarios domiciliarios +4,9% dic-19/jun-26 y +18.459 jun-24/jun-25 (mínimo desde 1993)",
+      "angulo": "serie larga 2016-2026 con intervalos de confianza + recálculo desde microdatos + descomposición por combustible y región + cruce con el registro de usuarios del ENARGAS"
+    },
+    {
+      "fecha": "2026-11-05",
+      "estado": "descartada",
+      "angulo": "Registro de candidatas de la corrida.",
+      "motivo_descarte": "pasó la primera candidata (gas de red, INDEC condiciones de vida 1S-2026 + ENARGAS)",
+      "tema": "descartes de la corrida de redacción del 05/11/2026 10:30: pasó la primera candidata (gas de red en las ciudades, mínimo de la serie, con recálculo de microdatos EPH y contraste ENARGAS). Lista: (1) PREGUNTA DE PLATA / calendario de ayer: condiciones de vida INDEC 1S-2026, gas de red 59,5% [infobae 05/11]: APTA. (2) ATN: 19,3% del fondo devengado (infobae 05/11, Analytica e IARAF): ATN por provincia publicada 28/09; cifra de dos consultoras, sin ángulo propio nuevo. (3) EMPRESAS Pampa 6-K 3T26: cubierta 02/11. (4) EMPRESAS Molinos (cierre venta de acopio, compra de activo industrial) y Newsan (fusión New PGA-Pilisar): HR sin montos, igual que a las 08:30. (5) producción automotriz de octubre -14,4% (infobae, ámbito, Página12; ADEFA): cubierta jul y 27/10, autos a Brasil 02/11. (6) riesgo país y bonos tras la elección de EE.UU. (infobae, iProfesional, Página12): mercado diario, publicada 29/10. (7) medidas de Caputo: suspensión de embargos de ARCA y plan de pagos pymes (Cronista x2, ámbito): sin cifra oficial de ejecuciones. (8) Belgrano Cargas licitación postergada (La Nación, Cronista): publicada 17/10. (9) Ueno Bank Paraguay (La Nación, iProfesional, Página12): garantía de depósitos publicada 30/10, sin documento argentino. (10) BGH 250 despidos en Tierra del Fuego (iProfesional): empleo fueguino publicado 09/10. (11) Ley de Discapacidad con dictamen (Cronista): nomenclador 26/09 y pensiones 27/09 y 28/10. (12) paritaria de Comercio y concesionarias (ámbito, iProfesional): molde agotado. Hoy ya hay dos notas de EMPRESAS (YPF, Mercado Libre): no aplica el cupo. clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json ya era de hoy."
     }
   ]
 }

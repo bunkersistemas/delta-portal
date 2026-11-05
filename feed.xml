@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 05 Nov 2026 08:40:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 10:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El gas de red llega al 59,5% de los habitantes de las ciudades, el nivel más bajo desde 2016: hay 2,3 millones de personas más sin red que antes de la pandemia</title>
+      <link>https://coninteres.com/articulos/2026-11-05-gas-de-red-59-por-ciento-minimo-serie-garrafa.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-05-gas-de-red-59-por-ciento-minimo-serie-garrafa.html</guid>
+      <pubDate>Thu, 05 Nov 2026 11:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En el primer semestre de 2026, el 59,5% de los habitantes de los 31 aglomerados urbanos que mide el INDEC cocinaba con gas de red: el valor más bajo de la serie, que empieza en 2016, contra 64,7% antes de la pandemia. No es que se desconectaron hogares en masa. La cantidad de hogares con gas de red quedó en 6,6 millones, mientras las ciudades sumaron casi 900.000 hogares. Hoy hay 12,2 millones de personas sin red, 2,3 millones más que en 2019, y casi todas usan garrafa.</description>
+      <ci:numero>59,5%</ci:numero>
+      <ci:numeroEtiqueta>personas de los 31 aglomerados urbanos que viven en hogares que cocinan con gas de red, primer semestre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-05-gas-de-red-59-por-ciento-minimo-serie-garrafa.png" length="74287" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-05-gas-de-red-59-por-ciento-minimo-serie-garrafa.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Mercado Libre creció 6,3% en la Argentina descontada la inflación: un año antes crecía 47%, y ya son seis trimestres seguidos de freno</title>
       <link>https://coninteres.com/articulos/2026-11-05-mercado-libre-argentina-crecimiento-real-6-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>carne de ave importada desde Brasil en enero-septiembre de 2026 según el INDEC</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-pollo-brasil-importaciones-newcastle.png" length="73864" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-pollo-brasil-importaciones-newcastle.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Tierra del Fuego tiene 139,7 empleados públicos provinciales cada mil habitantes, 4,2 veces Córdoba; Neuquén es la que más gasta por habitante</title>
-      <link>https://coninteres.com/articulos/2026-11-02-empleo-publico-provincial-tierra-del-fuego-neuquen.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-empleo-publico-provincial-tierra-del-fuego-neuquen.html</guid>
-      <pubDate>Mon, 02 Nov 2026 05:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Contar empleados públicos no es lo mismo que contar plata, y los dos rankings no coinciden. Tierra del Fuego encabeza el primero, con 139,7 cargos provinciales con sueldo cada mil habitantes, contra 32,9 de Córdoba, que cierra la tabla. Pero la que más gasta en personal por habitante es Neuquén: $5,26 millones por habitante en 2025, 6,2 veces la provincia de Buenos Aires. En total, las 23 provincias y la Ciudad de Buenos Aires pagaron sueldo en 2.308.763 cargos, según la Subsecretaría de Coordinación Fiscal Provincial. Entre 2023 y 2025 el total quedó casi igual: Buenos Aires sumó 20.244 cargos y 16 jurisdicciones recortaron.</description>
-      <ci:numero>139,7</ci:numero>
-      <ci:numeroEtiqueta>cargos ocupados con remuneración de la administración pública no financiera de Tierra del Fuego cada mil habitantes en 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-empleo-publico-provincial-tierra-del-fuego-neuquen.png" length="75630" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-empleo-publico-provincial-tierra-del-fuego-neuquen.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
