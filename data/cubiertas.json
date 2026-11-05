@@ -7482,6 +7482,20 @@
       "fecha": "2026-11-05",
       "estado": "descartada",
       "motivo_descarte": "pasó la primera candidata (DFC y EXIM)"
+    },
+    {
+      "tema": "¿cuántos impuestos hay y cuánto recauda cada uno? (pregunta de plata detrás de El Cronista 05/11/2026 'Daza busca reducir los impuestos a menos de 10', XV Jornadas Iberoamericanas de Financiación Local, UCEMA) / recursos tributarios nacionales 2025 (MECON, 2025_8.xlsx = ARCA anexo anual IV-2025 cuadro 2): $183.109.217,1 M; diez renglones 99,13%, los otros once $1.601.351,1 M (0,87%); cuatro mayores 85,95% (2008 74,85%, máximo 86,46% en 2018); top10 entre 98,47% y 99,51% todos los años 2008-2025",
+      "angulo": "Corrida de redacción del 05/11/2026 06:30. Hallazgo: cálculo propio de concentración sobre los 18 cuadros anuales 2008-2025: la cantidad de impuestos nacionales casi no pesa en la caja; los distorsivos (cheque, retenciones, aranceles, tasa: 15,2%) están entre los diez grandes. Cruce con IIBB DNAP 2025 (20,8 veces el resto nacional) y contraste con el FMI CR 26/106 ('más de un cuarto'; propio 27,2% sin municipios). No se verifica el 157 de Daza ni el '>155' del FMI. Distinta de la nota del IVA (04/10, IARAF 43 tributos) y de IIBB (29/09).",
+      "fecha": "2026-11-05",
+      "estado": "en_cola",
+      "id": "2026-11-05-diez-tributos-99-por-ciento-recaudacion-nacional"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 05/11/2026 06:30: pasó la primera candidata (concentración de la recaudación nacional). Lista: (1) cuántos impuestos recaudan la plata de la Nación [El Cronista, Daza en la UCEMA; pregunta de plata]: APTA. (2) EMPRESAS Mercado Libre 3T26 crecimiento real en la Argentina [infobae, iProfesional]: sigue FRENADA, a las 06:30 el 10-Q del 3T26 no está en EDGAR (última presentación 8-K 04/11). (3) EMPRESAS Pampa Energía EEFF 3T26 (6-K 02/11): hoy ya hay nota de EMPRESAS (YPF 03:45) y Pampa publicada 03/11; queda para otro día. (4) EMPRESAS Molinos (venta del acopio y compra de planta) y Newsan (fusión): HR sin montos. (5) producción automotriz de octubre -14,4% (infobae, ámbito, Página12; ADEFA): cubierto en julio y 27/10. (6) riesgo país sobre 850 (infobae, ámbito, Página12): publicada 29/10. (7) Ueno Bank en Paraguay (La Nación, iProfesional, Página12): sin documento argentino. (8) Belgrano Cargas licitación postergada (La Nación, Cronista): publicada 17/10. (9) fondos de emergencia a provincias (infobae): ATN publicada 28/09. (10) BGH 250 empleos en Tierra del Fuego (iProfesional): empleo industrial fueguino publicado 09/10. (11) acceso a agua, gas y cloacas (infobae, EPH): retomable, no se probó. Hoy ya había nota de EMPRESAS: el cupo no aplica. Calendario: IPI pesquero y comercio exterior de nueve meses salen hoy a las 16. clarin.com y tn.com.ar no se pudieron leer con WebFetch. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-05",
+      "estado": "descartada",
+      "motivo_descarte": "pasó la primera candidata (concentración de la recaudación nacional)"
     }
   ]
 }

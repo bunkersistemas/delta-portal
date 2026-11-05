@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-05T04:47:53-03:00",
+    "actualizado": "2026-11-05T06:59:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-05-diez-tributos-99-por-ciento-recaudacion-nacional",
+      "titulo": "De cada $100 que recauda la Nación, $99 salen de diez tributos; todos los demás juntan menos de $1",
+      "bajada": "Recortar la lista de impuestos nacionales casi no mueve la caja: la plata y los tributos más distorsivos están entre los diez grandes. En 2025 la Nación recaudó $183,1 billones, y el IVA, los aportes y contribuciones, Ganancias, el impuesto al cheque y otros seis tributos juntaron el 99,13%. Los once renglones restantes del cuadro oficial sumaron $1,60 billones: menos de lo que las provincias cobran con Ingresos Brutos en un mes promedio.",
+      "titulo_busqueda": "¿Cuántos impuestos hay en la Argentina y cuánto recauda cada uno?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "99,13%",
+      "numero_label": "parte de la recaudación tributaria nacional de 2025 que salió de los diez tributos más grandes",
+      "fecha": "2026-11-05",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-05-diez-tributos-99-por-ciento-recaudacion-nacional.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "MECON Subsecretaria de Ingresos Publicos, recursos tributarios 2025 (2025_8.xlsx, columna Total): total 183.109.217,1 M = ARCA anexo anual IV-2025 cuadro 2 (183.109.217,1). Diez mayores: IVA 61.296.099,3 - reintegros 608.700 = 60.687.399,3; seg. social 45.633.685,7; Ganancias 37.063.166,4; cheque 13.995.363,9; expo 7.191.591,0; impo 5.633.491,1; combustibles total 4.846.146,2; internos 3.408.545,4; BBPP 1.975.263,0; tasa estadistica 1.073.213,8 = 181.507.866,0 (99,13%); resto 11 renglones 1.601.351,1 (0,87%). Serie 2008-2025 (18 cuadros, meses = total en todos): top10 98,47 (2020) a 99,51 (2018); top4 74,85 (2008) -> 85,95 (2025), max 86,46 (2018). Contraste FMI CR 26/106 p.2: comercio exterior + transacciones financieras + IIBB > 1/4; propio: 27.893.659,8 + IIBB DNAP 33.373.064 = 61.266.723,8 / (183.109.217,1 + 42.366.422) = 27,2%."
+    },
     {
       "id": "2026-11-05-dfc-exim-estados-unidos-argentina-cartera-paraguay",
       "titulo": "La agencia de desarrollo de Estados Unidos tiene comprometidos en la Argentina US$145 millones, menos de un tercio que en Paraguay",
