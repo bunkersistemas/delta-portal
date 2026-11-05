@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-05T01:27:40-03:00",
+    "actualizado": "2026-11-05T02:47:10-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-05-ypf-cupula-compensacion-123-millones-bono-accion",
+      "titulo": "La cúpula de YPF devengó US$123 millones en nueve meses, más del doble que en cualquier año entero desde 2022",
+      "bajada": "Entre enero y septiembre de 2026, YPF registró US$123 millones de compensación para su directorio y su primera línea ejecutiva: más del doble de lo que registró en cualquier año completo desde 2022, y contra US$26 millones en los mismos meses de 2025. La suba no viene de los sueldos. Tres de cada cuatro pesos son bonos de largo plazo, entre ellos un plan que paga según cuánto suba la acción: el valor de cada uno de sus derechos subió 59% en nueve meses. Lo dicen los estados financieros que la petrolera presentó ante la CNV y la SEC.",
+      "titulo_busqueda": "Cuánto cobran los directivos de YPF: US$123 millones en nueve meses",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$123 M",
+      "numero_label": "compensación devengada del directorio y la primera línea ejecutiva de YPF en enero-septiembre de 2026; un año antes, US$26 millones",
+      "fecha": "2026-11-05",
+      "hora": "03:45",
+      "archivo": "articulos/2026-11-05-ypf-cupula-compensacion-123-millones-bono-accion.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "YPF S.A., EEFF intermedios consolidados al 30/09/2026, nota 37 (CNV publicview 706213b4-8609-4c6c-966a-f997f8765771; SEC 6-K 04/11/2026 d141724d6k.htm): $183.617 M = US$123 M (9M25 $29.313 M = US$26 M); corto plazo 46.237 vs 25.334, bonos de largo plazo 136.346 vs (1.550), posteriores 1.034 vs 790, terminación 0 vs 4.739. Recálculo A3500 prom ene-sep 1.442,79 / 1.179,77: US$127 M / US$25 M. 6M26 (6-K ago-26): $118.831 M = US$80 M. Serie 20-F 2024 y 2025: 2022 21, 2023 14, 2024 59, 2025 56. Nota 38: PSAR 4,6 M, valor razonable US$33,18 (dic-25 20,84; dic-24 28,6; otorgamiento 8,75), cargo VGP 9M26 $163.656 M vs recupero 9.582. Sueldos y cargas sociales del grupo 9M26 $1.748.778 M (10,5%), 9M25 $1.378.631 M (2,1%)."
+    },
     {
       "id": "2026-11-05-obras-sociales-beneficiarios-monotributo-social-43-por-ciento",
       "titulo": "Las obras sociales tienen 1,16 millones de beneficiarios menos que en noviembre de 2023, y el 43% salió del monotributo social: 344.281 en un solo mes",
