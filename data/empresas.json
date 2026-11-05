@@ -1,11 +1,74 @@
 {
-  "generado": "2026-11-05T16:30",
+  "generado": "2026-11-05T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3589994",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T18:22",
+      "entidad": "LOMA NEGRA CIASA",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/362B9557-2374-4E69-BDD2-8B3775C7080F"
+    },
+    {
+      "id": "cnv-3589949",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T18:08",
+      "entidad": "LOMA NEGRA CIASA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN COMERCIAL - HECHO RELEVANTE - ACUERDO CON PARTE RELACIONADA.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/77ADF5F2-F17B-43A2-BBA2-A33325DCEB15"
+    },
+    {
+      "id": "cnv-3589970",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T17:47",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 05.11.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/84019ED5-421B-4C51-B199-5C1628043DE7"
+    },
+    {
+      "id": "cnv-3589829",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T17:38",
+      "entidad": "CABLEVISIÓN HOLDING S.A",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - INVITACIÓN A LA PRESENTACIÓN DE LOS RESULTADOS DEL TERCER TRIMESTRE DE 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7F815E7B-816F-44A5-B731-4E825551288E"
+    },
+    {
+      "id": "cnv-3589833",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T17:38",
+      "entidad": "GRUPO CLARÍN S.A",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - INVITACIÓN A LA PRESENTACIÓN DE LOS RESULTADOS DEL TERCER TRIMESTRE DE 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3D349B80-757A-4922-9FC2-34140C9C4251"
+    },
+    {
+      "id": "cnv-3589959",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T17:36",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B190FCE6-4E95-4A68-A8FA-7C6A735A8510"
+    },
+    {
+      "id": "cnv-3589922",
+      "fuente": "CNV",
+      "fecha": "2026-11-05T17:11",
+      "entidad": "CENTRAL PUERTO",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (05 11 26)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9B78AF5A-4B96-4DD0-9918-4D9FC2AA9D39"
+    },
     {
       "id": "cnv-3589753",
       "fuente": "CNV",
@@ -96,6 +159,16 @@
       "tipo": "balance",
       "descripcion": "10-Q balance trimestral",
       "url": "https://www.sec.gov/Archives/edgar/data/1099590/000109959026000029/meli-20260930.htm"
+    },
+    {
+      "id": "sec-0001292814-26-005152",
+      "fuente": "SEC",
+      "fecha": "2026-11-05",
+      "entidad": "Pampa Energia",
+      "ticker": "PAM",
+      "tipo": "balance",
+      "descripcion": "6-K EX-99.1 2 ex99-1.htm EX-99.1 Free translation from the original prepared in Spanish for publication in Argentina UNAUDITED CONSOLIDATED CONDENSED INTERIM FINANCIAL STATEMENTS AS OF",
+      "url": "https://www.sec.gov/Archives/edgar/data/1469395/000129281426005152/pamfs3q26ar_6k.htm"
     },
     {
       "id": "cnv-3589414",
@@ -1363,6 +1436,7 @@
     "sec-0001034957-26-000073": "2026-10-22",
     "sec-0001034957-26-000075": "2026-10-23",
     "sec-0001034957-26-000077": "2026-10-30",
+    "sec-0001034957-26-000080": "2026-11-05",
     "sec-0001104659-26-115753": "2026-10-14",
     "sec-0001104659-26-115765": "2026-10-14",
     "sec-0001104659-26-116442": "2026-10-16",
@@ -1416,6 +1490,7 @@
     "sec-0001554855-26-002241": "2026-10-28",
     "sec-0001711375-26-000047": "2026-10-20",
     "sec-0001711375-26-000049": "2026-10-27",
-    "sec-0001711375-26-000051": "2026-11-04"
+    "sec-0001711375-26-000051": "2026-11-04",
+    "sec-0001711375-26-000053": "2026-11-05"
   }
 }

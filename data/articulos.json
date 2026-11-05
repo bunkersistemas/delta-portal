@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-05T16:46:26-03:00",
+    "actualizado": "2026-11-05T18:45:18-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-05-la-pampa-petroleo-cae-63-vaca-muerta-impuestos-cero",
+      "titulo": "La Pampa ofrece impuestos cero a los proveedores de Vaca Muerta, pero su propio petróleo cayó 63% desde 2013 y no saca ni un metro cúbico de no convencional",
+      "bajada": "La Pampa apuesta a venderle a Vaca Muerta porque su propio petróleo se achica: entre enero y septiembre de 2026 produjo 430.408 metros cúbicos, 63,3% menos que en los mismos meses de 2013 y lo más bajo desde 2002, según la Secretaría de Energía. Todo es petróleo convencional. Neuquén, en el mismo lapso, multiplicó su producción por 6,2. El plan del gobierno pampeano ofrece una exención de hasta el 100% de los tributos provinciales para que sus empresas le vendan bienes y servicios a la cuenca vecina.",
+      "titulo_busqueda": "¿Hay Vaca Muerta en La Pampa?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "−63,3%",
+      "numero_label": "caída del petróleo producido en La Pampa entre enero y septiembre, de 2013 a 2026",
+      "fecha": "2026-11-05",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-05-la-pampa-petroleo-cae-63-vaca-muerta-impuestos-cero.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "SE SESCO tablas dinámicas (hasta 2008, 2009-2018, desde 2019 con datos a sep-2026): La Pampa, primaria+secundaria+recuperación asistida+condensado, ene-sep 2013 = 1.171.777 m3, ene-sep 2026 = 430.408 m3 -> -63,27%. Recálculo con la base por pozo 2026 de la SE: 434.510 m3 (+1,0%), todo CONVENCIONAL. Contraste independiente: Anuario Estadístico La Pampa 2024 cuadro 12.1 (Secretaría de Energía y Minería LP) 2023 = 834.090,7 m3 vs SE 826.185 (-0,9%); Anuario 2018 (Ministerio de la Producción LP) 2017 = 1.074.432 m3 vs SE 1.064.816 (-0,9%). Producción No Convencional de La Pampa = 0 en SESCO 2019-2026. Neuquén ene-sep 2013 4.459.159 -> 2026 27.627.375 (x6,2); país 23.382.237 -> 39.044.476."
+    },
     {
       "id": "2026-11-05-registros-automotor-cierran-46-maquinaria-77-tramites",
       "titulo": "De los 67 registros del automotor que cierran, 46 son de maquinaria: en 2025, cada registro de maquinaria anotó 77 máquinas nuevas o vendidas",
