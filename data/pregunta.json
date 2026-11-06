@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-05",
-  "pregunta": "En las líneas de colectivo nacionales un viaje cuesta $1.901,08 sin IVA y el pasajero paga en promedio $677,56, según la Secretaría de Transporte. El boleto está quieto desde el 15 de julio. Si el costo sigue subiendo y el boleto no, ¿qué pasa con la parte que pone el Estado?",
+  "fecha": "2026-11-06",
+  "pregunta": "En diciembre de 2025, los analistas que releva el BCRA en el REM esperaban 20,1% de inflación para todo 2026. En septiembre los precios ya acumulaban 23,6%. En el último relevamiento vuelven a esperar 21% para los doce meses siguientes. ¿Qué conviene hacer con ese pronóstico?",
   "opciones": [
-    "Crece sola: la Nación paga la diferencia entre el costo del viaje y lo que aporta el pasajero, y esa diferencia se agranda",
-    "Queda igual: la compensación es un monto fijo por línea que solo cambia cuando sube el boleto",
-    "Baja: con el boleto quieto viaja más gente y la recaudación alcanza para cubrir más costo"
+    "Leerlo como una referencia con margen de error: desde 2017 el pronóstico de diciembre se quedó corto en siete de nueve años",
+    "Tomarlo como un dato cierto: es el promedio de decenas de analistas y los errores se compensan",
+    "Ignorarlo del todo: si falló en 2026, no dice nada sobre lo que viene"
   ],
   "correcta": 0,
-  "explicacion": "La compensación de la Nación cubre lo que falta entre el costo de cada viaje y lo que paga el pasajero. En octubre, de $1.901,08 el pasajero aportó $677,56 (35,6%) y la Nación $1.223,52. En junio el pasajero cubría 39,5%: el boleto mínimo quedó en $742,81 desde el 15 de julio y el costo siguió subiendo. Cuando una tarifa se congela y los costos suben, el subsidio crece sin que nadie lo decida. Por eso una tarifa quieta no es gratis: alguien paga la diferencia.",
-  "nota": "articulos/2026-11-04-colectivos-nacionales-pasajero-paga-35-por-ciento-del-costo.html",
+  "explicacion": "El REM es la mediana de lo que esperan consultoras y bancos: dice qué piensa el mercado hoy, no qué va a pasar. Desde 2017, el pronóstico de diciembre para el año siguiente se quedó corto en siete de nueve años. Hace un año esperaban 21% para los doce meses siguientes y terminó siendo 33,4%. Promediar a muchos analistas no corrige un error que comparten todos. Pero tampoco es ruido: es una foto de lo que espera hoy el mercado. Lo sensato es leerlo con su historial de errores al lado.",
+  "nota": "articulos/2026-11-05-rem-inflacion-2026-supero-pronostico-analistas.html",
   "leccion": ""
 }

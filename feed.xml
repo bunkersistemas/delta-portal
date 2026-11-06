@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 05 Nov 2026 22:49:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 00:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Loma Negra cobra 24% más en dólares por cada tonelada de cemento que hace un año, aunque vende 6,3% menos</title>
+      <link>https://coninteres.com/articulos/2026-11-06-loma-negra-cemento-dolares-por-tonelada.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-06-loma-negra-cemento-dolares-por-tonelada.html</guid>
+      <pubDate>Fri, 06 Nov 2026 01:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Loma Negra, la mayor cementera del país, vende menos cemento y cobra más por cada tonelada. Entre julio y septiembre de 2026 vendió 6,3% menos toneladas de cemento, cemento de albañilería y cal, y facturó unos US$122 por cada una, contra US$98 un año antes: alrededor de 24% más. Lo muestra el informe que presentó el 5 de noviembre ante la CNV y la SEC. Y no es solo Loma Negra: los precios mayoristas del cemento que mide el INDEC, pasados a dólares, están en el nivel más alto desde que empieza la serie, en 2016.</description>
+      <ci:numero>US$122</ci:numero>
+      <ci:numeroEtiqueta>lo que Loma Negra facturó por tonelada de cemento, cemento de albañilería y cal en julio-septiembre de 2026; un año antes, US$98</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-loma-negra-cemento-dolares-por-tonelada.png" length="70502" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-loma-negra-cemento-dolares-por-tonelada.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>China ya vende el 42% de la cartulina para envases que importa la Argentina, a US$745 la tonelada: 44% menos que la chilena</title>
       <link>https://coninteres.com/articulos/2026-11-05-cartulina-envases-china-42-por-ciento-mas-barata.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>pérdida de la cobertura de petróleo de Pampa Energía reclasificada a ventas en ene-sep 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-pampa-energia-cobertura-petroleo-143-millones.png" length="69536" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-pampa-energia-cobertura-petroleo-143-millones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El bioetanol de la nafta subió 11,3% en 2026 y la nafta, 29,1%: en noviembre el litro de alcohol de caña pasa a $1.104,886</title>
-      <link>https://coninteres.com/articulos/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.html</guid>
-      <pubDate>Mon, 02 Nov 2026 17:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Cuando la nafta saltó 19,5% en marzo y abril, el precio oficial del bioetanol que se le mezcla no se movió. La Secretaría de Energía, que lo fija por resolución todos los meses, lo subió 11,3% entre diciembre de 2025 y septiembre de 2026: menos de la mitad que los combustibles en el surtidor (29,1%) y por debajo de la inflación (23,8%), según el INDEC. La Resolución 306/2026, publicada hoy, le da 2% más para noviembre: $1.104,886 el litro de caña y $1.012,662 el de maíz.</description>
-      <ci:numero>11,3%</ci:numero>
-      <ci:numeroEtiqueta>suba del precio oficial del bioetanol para la nafta entre diciembre de 2025 y septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.png" length="67881" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

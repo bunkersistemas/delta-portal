@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-05T22:30",
+  "generado": "2026-11-06T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -1329,75 +1329,9 @@
       "tipo": "hecho",
       "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - PRÉSTAMO BANCO MACRO CAMUZZI GAS PAMPEANA",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/93888684-3036-497D-B275-64A6B080C285"
-    },
-    {
-      "id": "cnv-3577610",
-      "fuente": "CNV",
-      "fecha": "2026-10-06T17:27",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (06 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E440A9BE-1A0A-4BE7-8CE9-63DDED100523"
-    },
-    {
-      "id": "cnv-3577551",
-      "fuente": "CNV",
-      "fecha": "2026-10-06T16:35",
-      "entidad": "CIA. DE TRANSPORTE DE ENERGIA ELECTRICA",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - RENUNCIA DIRECTORA SUPLENTE FLAVIA VANESA BEVILACQUA",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3D93EB32-D480-4117-805A-32D039CA6A63"
-    },
-    {
-      "id": "cnv-3577417",
-      "fuente": "CNV",
-      "fecha": "2026-10-06T14:26",
-      "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE SE INFORMA DESVINCULACIÓN LI ZHENG",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5F5A4444-9611-4C6F-BACB-68600E6A3808"
-    },
-    {
-      "id": "cnv-3577346",
-      "fuente": "CNV",
-      "fecha": "2026-10-06T13:14",
-      "entidad": "INVAP S.A.U",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - INVAP SAU - 20261006 -",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/0C53023F-F391-4F22-A883-B60210B8FB96"
     }
   ],
   "anuncios": [
-    {
-      "id": "sec-0001193125-26-399609-2026-10-29",
-      "fuente": "SEC",
-      "fecha": "2026-10-29",
-      "entidad": "Vista Energy",
-      "ticker": "VIST",
-      "frase": "oday that it will release its consolidated financial statements for the third quarter of this year on Wednesday, October 28, 2026, after market closes. The Company will present the results through a webcast on Thursday, October 29, 2026, at 8:00 am Mexico City time (10:00 am ET; 11:00 am BAT). The webcast will be a",
-      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526399609/d27684d6k.htm",
-      "presentado": "2026-09-23"
-    },
-    {
-      "id": "sec-0001193125-26-425856-2026-10-29",
-      "fuente": "SEC",
-      "fecha": "2026-10-29",
-      "entidad": "Vista Energy",
-      "ticker": "VIST",
-      "frase": "ctober 20, 2026 — Vista Energy, S.A.B. de C.V. (“Vista” or the “Company”) (NYSE: VIST; BMV: VISTA) announced today that the webcast to present the Company’s third quarter 2026 results, originally scheduled for Thursday, October 29, 2026, at 8:00 am Mexico City time (10:00 am ET; 11:00 am BAT), has been rescheduled",
-      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526425856/d163226d6k.htm",
-      "presentado": "2026-10-20"
-    },
-    {
-      "id": "sec-0001193125-26-436174-2026-10-29",
-      "fuente": "SEC",
-      "fecha": "2026-10-29",
-      "entidad": "Vista Energy",
-      "ticker": "VIST",
-      "frase": "n-operated working interest in the Bandurria Sur block, of which 25.1% is attributable to Vista. For further details, see the table on page 14. The Company will present its Q3 2026 results through a webcast on Thursday, October 29, 2026, at 9:00 am Mexico City time (11:00 am ET; 12:00 pm BAT). Q3 2026 highlights: •",
-      "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526436174/d167189d6k.htm",
-      "presentado": "2026-10-28"
-    },
     {
       "id": "sec-0001292814-26-004922-2026-11-06",
       "fuente": "SEC",

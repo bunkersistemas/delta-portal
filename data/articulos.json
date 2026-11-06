@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-05T22:49:34-03:00",
+    "actualizado": "2026-11-06T00:49:31-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-06-loma-negra-cemento-dolares-por-tonelada",
+      "titulo": "Loma Negra cobra 24% más en dólares por cada tonelada de cemento que hace un año, aunque vende 6,3% menos",
+      "bajada": "Loma Negra, la mayor cementera del país, vende menos cemento y cobra más por cada tonelada. Entre julio y septiembre de 2026 vendió 6,3% menos toneladas de cemento, cemento de albañilería y cal, y facturó unos US$122 por cada una, contra US$98 un año antes: alrededor de 24% más. Lo muestra el informe que presentó el 5 de noviembre ante la CNV y la SEC. Y no es solo Loma Negra: los precios mayoristas del cemento que mide el INDEC, pasados a dólares, están en el nivel más alto desde que empieza la serie, en 2016.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$122",
+      "numero_label": "lo que Loma Negra facturó por tonelada de cemento, cemento de albañilería y cal en julio-septiembre de 2026; un año antes, US$98",
+      "fecha": "2026-11-06",
+      "hora": "01:00",
+      "archivo": "articulos/2026-11-06-loma-negra-cemento-dolares-por-tonelada.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Loma Negra, resultados 3T26 (CNV publicview 362B9557, SEC 6-K lomanegra-3q26xen.htm, 05/11/2026): cuadro 11 segmento cemento, albañilería y cal $234.887 M (sin NIC 29) / cuadro 2 1,28 MM t = $183.505/t / A3500 prom. 3T $1.500,51 (cuadro 1b; BCRA serie diaria 1.500,28) = US$122,3 (rango por redondeo de t 121,8-122,8). 3T25 (6-K 06/11/2025): $179.000 M / 1,37 / 1.332,23 = US$98,1. Var. +24,3% (con -6,3% informado) a +24,7%. Serie 3T: 2022 111,2; 2023 107,3; 2024 113,4. Contraste INDEC IPIM 2694 cemento y cal prom. 3T: +39,5% i.a. en pesos (Loma +40%), /A3500 +23,8%; máximo de 43 trimestres desde 2016T1 (previo 2T24, 93,1 con 3T26=100). IPIM nivel general +30,0%. AFCP 3T26 2.599.117 t (-3,9% i.a.), oct-26 887.386 t (-8,9%, provisorio)."
+    },
     {
       "id": "2026-11-05-cartulina-envases-china-42-por-ciento-mas-barata",
       "titulo": "China ya vende el 42% de la cartulina para envases que importa la Argentina, a US$745 la tonelada: 44% menos que la chilena",
