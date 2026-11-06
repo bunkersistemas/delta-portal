@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 05 Nov 2026 20:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 05 Nov 2026 22:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>China ya vende el 42% de la cartulina para envases que importa la Argentina, a US$745 la tonelada: 44% menos que la chilena</title>
+      <link>https://coninteres.com/articulos/2026-11-05-cartulina-envases-china-42-por-ciento-mas-barata.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-05-cartulina-envases-china-42-por-ciento-mas-barata.html</guid>
+      <pubDate>Thu, 05 Nov 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Una papelera de Tornquist cierra porque, según informó iProfesional, fabricar cartulina para envases dejó de ser rentable frente a la importada. Los datos de la Aduana muestran que no entra más cartulina que antes: entre enero y septiembre llegaron 27.898 toneladas de cartulina multicapa, la de los estuches y cajas plegadizas, 5,5% menos que un año antes. Lo que cambió es de dónde viene y a qué precio. China vendió el 41,9%, la parte más alta desde al menos 2002, a US$745 la tonelada con flete y seguro; la chilena llegó a US$1.320.</description>
+      <ci:numero>41,9%</ci:numero>
+      <ci:numeroEtiqueta>parte de la cartulina multicapa para envases importada entre enero y septiembre de 2026 que vino de China</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-05-cartulina-envases-china-42-por-ciento-mas-barata.png" length="69587" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-05-cartulina-envases-china-42-por-ciento-mas-barata.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Día vende sus 991 supermercados argentinos: por las acciones cobra unos €36 millones, menos que los €40 millones de caja neta que la filial declaraba en junio</title>
       <link>https://coninteres.com/articulos/2026-11-05-dia-argentina-venta-gdn-precio-caja.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>suba del precio oficial del bioetanol para la nafta entre diciembre de 2025 y septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.png" length="67881" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-bioetanol-nafta-subio-11-noviembre-1104.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La energía trajo US$7.666 millones netos al mercado de cambios en nueve meses, más que en cualquier año entero desde 2003: US$33 por cada US$100 del campo</title>
-      <link>https://coninteres.com/articulos/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.html</guid>
-      <pubDate>Mon, 02 Nov 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre 2011 y 2023, la energía se llevó dólares. Este año los trae: entre enero y septiembre, las empresas de petróleo, gas y electricidad ingresaron al mercado de cambios US$7.666 millones más de lo que sacaron para pagar importaciones, según el Banco Central: 75,5% más que en 2025 y más que en cualquier año completo desde 2003, cuando empieza la serie. La aduana del INDEC da casi lo mismo: US$7.999,6 millones. El agro sigue trayendo más, pero la distancia se achicó: por cada US$100 de oleaginosas y cereales, la energía aportó US$33; un año antes, US$15.</description>
-      <ci:numero>US$7.666 M</ci:numero>
-      <ci:numeroEtiqueta>saldo neto de la energía por bienes en el mercado de cambios, enero-septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.png" length="75163" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-energia-dolares-mercado-cambios-nueve-meses.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

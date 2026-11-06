@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-05T20:46:18-03:00",
+    "actualizado": "2026-11-05T22:49:34-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-05-cartulina-envases-china-42-por-ciento-mas-barata",
+      "titulo": "China ya vende el 42% de la cartulina para envases que importa la Argentina, a US$745 la tonelada: 44% menos que la chilena",
+      "bajada": "Una papelera de Tornquist cierra porque, según informó iProfesional, fabricar cartulina para envases dejó de ser rentable frente a la importada. Los datos de la Aduana muestran que no entra más cartulina que antes: entre enero y septiembre llegaron 27.898 toneladas de cartulina multicapa, la de los estuches y cajas plegadizas, 5,5% menos que un año antes. Lo que cambió es de dónde viene y a qué precio. China vendió el 41,9%, la parte más alta desde al menos 2002, a US$745 la tonelada con flete y seguro; la chilena llegó a US$1.320.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "41,9%",
+      "numero_label": "parte de la cartulina multicapa para envases importada entre enero y septiembre de 2026 que vino de China",
+      "fecha": "2026-11-05",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-05-cartulina-envases-china-42-por-ciento-mas-barata.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "INDEC base comex, importaciones NCM 4810.92 (papel y cartón estucado multicapa), ene-sep 2026: total 27.898.333 kg / CIF US$27,29 M (ene-sep 2025 29.512.763 kg, -5,5%; CIF 31,61 M, -13,7%); China (310) 11.693.023 kg = 41,91% (ene-sep 2025 36,79%; 2021 0,45%, 118 t; máximo ene-sep 2002-2026; 2002-2014 nunca >6,9%), CIF US$745,4/t (ene-sep 2025 878,1, -15,1%); Chile (208) 8.193.559 kg, US$1.320,3/t (ene-sep 2025 10.275.182 kg, -20,3%; 1.338,4/t); Brasil (203) 2.487.615 kg, 987,0/t; promedio 978,1 vs 1.070,9 (-8,7%). China/Chile -43,5%. Año 2025: China 14.424 t (38,2%) > Chile 12.827 t, primera vez 2002-2025 (Chile primero todos los años salvo 2015-2016, Brasil). Contraste UN Comtrade 2025: Chile X a ARG 481092 12.743.543 kg, FOB 15,72 M (1.234/t) vs INDEC 12.827 t, FOB 1.235/t (-0,7% kg); China X 11.742.481 kg, FOB 8,79 M (749/t) vs INDEC 14.424 t, FOB 658/t; partida 4810 China X 2023 36.124 t / 2024 15.049 / 2025 29.775 vs INDEC 36.839 / 15.299 / 26.954 (diferencia de subpartida = clasificación). Chile mensual 2026 FOB 1.209-1.213/t = INDEC. IPI manufacturero INDEC cuadro 2, Papel y productos de papel, serie original ene-ago 2026 vs 2025 +2,8% (870,11 vs 846,77), vs 2023 -10,7%. Cierre Papelera del Sur (Interpac, Tornquist, 160 despidos): solo iProfesional 05/11/2026. Camino: estadística oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-05-dia-argentina-venta-gdn-precio-caja",
       "titulo": "Día vende sus 991 supermercados argentinos: por las acciones cobra unos €36 millones, menos que los €40 millones de caja neta que la filial declaraba en junio",
