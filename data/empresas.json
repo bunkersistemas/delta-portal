@@ -1,11 +1,29 @@
 {
-  "generado": "2026-11-06T10:30",
+  "generado": "2026-11-06T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3590129",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T12:17",
+      "entidad": "EMPRESA DISTRIBUIDORA Y COMERCIALIZADORA NORTE SA",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/05B11C1E-FF50-4CB0-8CE3-4808A629C7C3"
+    },
+    {
+      "id": "cnv-3590079",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T12:01",
+      "entidad": "AGROMETAL SOCIEDAD ANONIMA INDUSTRIAL",
+      "tipo": "balance",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - FORMULARIO DOCUMENTACIÓN PRESENTADA - ESTADOS CONTABLES AL 30/09/2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/30B996C0-6C45-423C-ABF2-F4454A2C2F2C"
+    },
     {
       "id": "cnv-3590013",
       "fuente": "CNV",

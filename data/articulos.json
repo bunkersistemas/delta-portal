@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-06T10:53:38-03:00",
+    "actualizado": "2026-11-06T12:53:01-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-06-edenor-perdidas-energia-16-por-ciento",
+      "titulo": "Edenor pierde el 16,3% de la energía que compra, más que en cualquier cierre de año desde 2021, y la tarifa solo le reconoce el 10%",
+      "bajada": "Edenor, la distribuidora de luz del norte del Gran Buenos Aires y de la Ciudad, informó el 6 de noviembre ante la CNV que en los doce meses a septiembre de 2026 perdió el 16,3% de la energía que compró. Hace un año era 15,4%. Es más que en cualquier cierre de año desde 2021. Entre 2023 y 2025, toda la suba vino de la parte que no es técnica, sobre todo el robo de energía. Y la concesión solo le deja cobrar en la tarifa un 10%.",
+      "titulo_busqueda": "¿Cuánta luz se pierde o se roba en la red de Edenor?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "16,3%",
+      "numero_label": "energía que Edenor compró y no facturó en los 12 meses a septiembre de 2026, por pérdidas técnicas y robo; la tarifa reconoce 10%",
+      "fecha": "2026-11-06",
+      "hora": "13:30",
+      "archivo": "articulos/2026-11-06-edenor-perdidas-energia-16-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Edenor, comunicado de prensa al 30/09/2026 (CNV publicview 05B11C1E, 06/11/2026): 'pérdidas de energía medidas en su TAM a septiembre 2026 fueron del 16,3%'. TAM previos (SEC): sep-25 15,4 (ednpr3q25), dic-25 15,7 (ednpr4q25), mar-26 15,3 (ednpr1q26), jun-26 15,8 (edn20260810_6k). Serie anual 20-F 2010/2013/2016/2019/2022/2025: 2000 10,0 ... 2019 19,9 (máx. desde 2000), 2021 17,6, 2022 15,9, 2023 14,9, 2024 15,2, 2025 15,7; no técnicas 2023 5,8 / 2025 7,0. Factor reconocido ~10% (20-F 2025). Recálculo 2025: 27.256 - 22.952 = 4.304 GWh (informa 4.305), 15,8%. Contraste CAMMESA base informe mensual sep-26, Demanda Mensual agente EDENOROD: 2025 sin GU MEM 23.450,0 GWh - ventas sin peaje 19.066 = 4.384 GWh (+1,8%); TAM sep-26 25.472,2 vs 24.775,2 (+2,8%) contra ventas Edenor 22.999 vs 22.747 (+1,1%); con ratio Edenor/CAMMESA 2025 1,0836 o sep-25 1,0853 la pérdida TAM sep-26 da 16,7-16,8%. Estimados: pérdida TAM sep-26 4.480-4.650 GWh; 1,27 M hogares a 3.518 kWh/año (10.621 GWh / 3.019.427 clientes residenciales 2025)."
+    },
     {
       "id": "2026-11-06-visita-papa-contratos-17387-millones-partida",
       "titulo": "El Estado ya firmó $17.387 millones en contratos para la misa y la vigilia del papa; la transmisión que falta adjudicar no entra en lo que queda de la partida",
