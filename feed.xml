@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 06 Nov 2026 08:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 10:53:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El Estado ya firmó $17.387 millones en contratos para la misa y la vigilia del papa; la transmisión que falta adjudicar no entra en lo que queda de la partida</title>
+      <link>https://coninteres.com/articulos/2026-11-06-visita-papa-contratos-17387-millones-partida.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-06-visita-papa-contratos-17387-millones-partida.html</guid>
+      <pubDate>Fri, 06 Nov 2026 11:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Con lo que se sabe hasta ahora, la partida de la visita de León XIV ya no alcanza para todo lo que se está contratando. La unidad que la organiza firmó siete contratos por $17.387 millones, unos US$11,3 millones, para montar la misa del 9 de noviembre y la vigilia del 10 en Palermo, y su partida en el presupuesto nacional es de $20.000 millones. Falta adjudicar la transmisión oficial, y la oferta más baja, de $3.090 millones, es más grande que lo que queda. En los tres contratos más grandes hubo una sola oferta.</description>
+      <ci:numero>$17.387 millones</ci:numero>
+      <ci:numeroEtiqueta>en contratos firmados por el Estado nacional para la misa y la vigilia de León XIV en Palermo, al 4 de noviembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-visita-papa-contratos-17387-millones-partida.png" length="73390" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-visita-papa-contratos-17387-millones-partida.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las represas de Santa Cruz tienen $200.000 millones en el Presupuesto 2026 y no se gastó un solo peso</title>
       <link>https://coninteres.com/articulos/2026-11-06-represas-santa-cruz-presupuesto-2026-partida-en-cero.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>compras de Pampa Energía a SACDE, la constructora de su mismo grupo de control, en 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-pampa-energia-sacde-obras-223-millones.png" length="81548" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-pampa-energia-sacde-obras-223-millones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina le vendió a Estados Unidos US$687 millones de carne en nueve meses, el doble que en todo 2025</title>
-      <link>https://coninteres.com/articulos/2026-11-03-carne-estados-unidos-687-millones-cupo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-carne-estados-unidos-687-millones-cupo.html</guid>
-      <pubDate>Tue, 03 Nov 2026 03:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y septiembre de 2026 la Argentina le exportó a Estados Unidos carne vacuna por US$687 millones, según el INDEC: el doble que en todo 2025 y el máximo desde 2002. Fueron 83.124 toneladas, casi el triple que un año antes. Estados Unidos pasó a ser el segundo comprador, detrás de China, y paga 80% más por tonelada. Ese salto se apoya en un cupo con fecha de vencimiento: Estados Unidos le abrió a la Argentina un cupo extra de 80.000 toneladas con arancel bajo, que vence el 31 de diciembre.</description>
-      <ci:numero>US$687 M</ci:numero>
-      <ci:numeroEtiqueta>carne vacuna fresca y congelada exportada por la Argentina a Estados Unidos entre enero y septiembre de 2026, valor FOB</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-carne-estados-unidos-687-millones-cupo.png" length="73441" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-carne-estados-unidos-687-millones-cupo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

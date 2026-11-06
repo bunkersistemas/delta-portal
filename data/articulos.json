@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-06T08:46:53-03:00",
+    "actualizado": "2026-11-06T10:53:38-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-06-visita-papa-contratos-17387-millones-partida",
+      "titulo": "El Estado ya firmó $17.387 millones en contratos para la misa y la vigilia del papa; la transmisión que falta adjudicar no entra en lo que queda de la partida",
+      "bajada": "Con lo que se sabe hasta ahora, la partida de la visita de León XIV ya no alcanza para todo lo que se está contratando. La unidad que la organiza firmó siete contratos por $17.387 millones, unos US$11,3 millones, para montar la misa del 9 de noviembre y la vigilia del 10 en Palermo, y su partida en el presupuesto nacional es de $20.000 millones. Falta adjudicar la transmisión oficial, y la oferta más baja, de $3.090 millones, es más grande que lo que queda. En los tres contratos más grandes hubo una sola oferta.",
+      "titulo_busqueda": "Cuánto le cuesta al Estado la visita del papa León XIV: los contratos y la partida",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$17.387 millones",
+      "numero_label": "en contratos firmados por el Estado nacional para la misa y la vigilia de León XIV en Palermo, al 4 de noviembre de 2026",
+      "fecha": "2026-11-06",
+      "hora": "11:30",
+      "archivo": "articulos/2026-11-06-visita-papa-contratos-17387-millones-partida.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "COMPR.AR procesos 79-0010 a 79-0015-CDI26 (JGM, UOC 79/000, compulsa abreviada por urgencia), OC 79-0028 DF Entertainment 8.690.000.000; 0029 Fidias Energía 1.736.000.000; 0030 Nuevos Aires Producciones 4.547.700.000; 0031 VMG Video Tech 225.000.000; 0032 Tetramon 81.209.506,75; 0033 Alfombra Mágica 128.080.000; 0034 PRG Argentina 1.979.345.158; suma 17.387.334.664,75. 79-0016-CDI26 host broadcasting sin adjudicar: Recordvision 3.090.000.000, Non Stop Digital 3.110.000.000 (cuadro comparativo). Contraste: Presupuesto Abierto crédito anual 2026 act. 04/11/2026, servicio 305 actividad 'Coordinación de Actividades Inherentes a la Visita de su Santidad el Papa León XIV': inicial 0, vigente 20.000, comprometido 9.919,05, devengado = pagado 6.788,86 (mensual: oct 170,01, nov 6.618,85); 3.9.9 devengado 4.345 = 50% DF; 3.2.9 devengado 2.443,85 = 2.273,85 (50% Nuevos Aires) + 170; 3.2.2 comprometido 2.204,345158 = PRG + VMG. Letra P 04/11: $20.350.481.178 con ofertas. A3500 05/11 1.545,3974 -> US$11,25 M. Resto de partida 2.612,67 < 3.090."
+    },
     {
       "id": "2026-11-06-represas-santa-cruz-presupuesto-2026-partida-en-cero",
       "titulo": "Las represas de Santa Cruz tienen $200.000 millones en el Presupuesto 2026 y no se gastó un solo peso",
