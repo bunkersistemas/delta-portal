@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 06 Nov 2026 07:01:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 08:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Las represas de Santa Cruz tienen $200.000 millones en el Presupuesto 2026 y no se gastó un solo peso</title>
+      <link>https://coninteres.com/articulos/2026-11-06-represas-santa-cruz-presupuesto-2026-partida-en-cero.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-06-represas-santa-cruz-presupuesto-2026-partida-en-cero.html</guid>
+      <pubDate>Fri, 06 Nov 2026 09:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Las represas del río Santa Cruz vuelven a la obra, pero no con la plata de este año. El Presupuesto 2026 les asignó $200.000 millones, unos US$131 millones, y al 4 de noviembre esa partida no registra un solo peso gastado. La obra que se reactiva funciona con plata anotada en 2025: en diciembre, después de 26 meses sin girar nada, el presupuesto registró de una vez $217.638 millones, US$150 millones del crédito chino. Desde 2019 pasaron por el presupuesto nacional US$1.008 millones para las dos represas, el 21% de la línea de crédito.</description>
+      <ci:numero>$0</ci:numero>
+      <ci:numeroEtiqueta>gastado al 4 de noviembre de los $200.000 millones que el Presupuesto 2026 asigna a las represas del río Santa Cruz</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-represas-santa-cruz-presupuesto-2026-partida-en-cero.png" length="62422" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-represas-santa-cruz-presupuesto-2026-partida-en-cero.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>En los hogares que encabeza un jubilado, la pobreza pasó de 22,6% a 30,8% en un año: ahí están casi dos de cada tres pobres que se sumaron</title>
       <link>https://coninteres.com/articulos/2026-11-06-pobreza-hogares-jubilados-segundo-trimestre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>carne vacuna fresca y congelada exportada por la Argentina a Estados Unidos entre enero y septiembre de 2026, valor FOB</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-carne-estados-unidos-687-millones-cupo.png" length="73441" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-carne-estados-unidos-687-millones-cupo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El 87% de las empresas dice que la IA no cambió cuánta gente emplea, aunque ya la usa el 78%, según una encuesta a casi 9.000 ejecutivos</title>
-      <link>https://coninteres.com/articulos/2026-11-03-ia-empresas-empleo-encuesta-ejecutivos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-ia-empresas-empleo-encuesta-ejecutivos.html</guid>
-      <pubDate>Tue, 03 Nov 2026 01:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>IA</category>
-      <description>El 78% de las empresas ya usa alguna inteligencia artificial, pero el 87% dice que no le cambió la cantidad de empleados en los últimos tres años. Así respondieron casi 9.000 ejecutivos de siete países, México entre ellos, encuestados a mediados de 2026 por economistas de Stanford, del ITAM y de los bancos centrales de seis países. Para los próximos tres años esperan, en promedio, 0,4% menos empleo y 1,7% más productividad. En la Argentina no hay una encuesta así a empresas: la de CEPE-Di Tella y Fundar a personas encontró que el 27,5% de los ocupados usa IA en el trabajo, y que la mayoría aprendió sola.</description>
-      <ci:numero>87%</ci:numero>
-      <ci:numeroEtiqueta>de las empresas de siete países dice que la IA no cambió su cantidad de empleados en los últimos tres años (encuesta a ejecutivos, 2026)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-ia-empresas-empleo-encuesta-ejecutivos.png" length="74726" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-ia-empresas-empleo-encuesta-ejecutivos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

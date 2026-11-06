@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-06T07:01:39-03:00",
+    "actualizado": "2026-11-06T08:46:53-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-06-represas-santa-cruz-presupuesto-2026-partida-en-cero",
+      "titulo": "Las represas de Santa Cruz tienen $200.000 millones en el Presupuesto 2026 y no se gastó un solo peso",
+      "bajada": "Las represas del río Santa Cruz vuelven a la obra, pero no con la plata de este año. El Presupuesto 2026 les asignó $200.000 millones, unos US$131 millones, y al 4 de noviembre esa partida no registra un solo peso gastado. La obra que se reactiva funciona con plata anotada en 2025: en diciembre, después de 26 meses sin girar nada, el presupuesto registró de una vez $217.638 millones, US$150 millones del crédito chino. Desde 2019 pasaron por el presupuesto nacional US$1.008 millones para las dos represas, el 21% de la línea de crédito.",
+      "titulo_busqueda": "Represas de Santa Cruz: cuánta plata puso la Nación y cuánto falta",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$0",
+      "numero_label": "gastado al 4 de noviembre de los $200.000 millones que el Presupuesto 2026 asigna a las represas del río Santa Cruz",
+      "fecha": "2026-11-06",
+      "hora": "09:30",
+      "archivo": "articulos/2026-11-06-represas-santa-cruz-presupuesto-2026-partida-en-cero.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Presupuesto Abierto, crédito anual 2026 act. 04/11/2026: préstamo CDB 534106035, servicio 357 (transf. a ENARSA, presupuestado 200.000, vigente 0) y servicio 377 prog. Desarrollo de la Infraestructura Hidráulica inciso 4 (vigente 175.827,1 crédito externo + 24.172,9 Tesoro), comprometido y devengado 0; crédito mensual 2026 sin gasto. Serie devengada 2019-2025 recalculada mes a mes (= anual): 6.046,3 / 16.096,4 / 22.762,8 / 17.835,5 / 38.004,7 / 0 / 217.637,5 (todo dic-25); en US$ con promedio mensual A3500 BCRA: 113,7 / 215,7 / 232,8 / 147,5 / 148,3 / 0 / 150,3 = 1.008,3. Contraste: gobierno de Santa Cruz (Canal 26 18/01/2026) tramo de US$150 M pedido a fines de dic, 136 acreditados + 14 en China; proyecto de Presupuesto 2026 $200.000 M (LM Neuquén 24/09/2025); Decreto 238/2026 art. 6 (cambio de servicio) y línea de US$4.714,35 M (considerandos). 2017 y 2018 sin partida."
+    },
     {
       "id": "2026-11-06-pobreza-hogares-jubilados-segundo-trimestre",
       "titulo": "En los hogares que encabeza un jubilado, la pobreza pasó de 22,6% a 30,8% en un año: ahí están casi dos de cada tres pobres que se sumaron",
