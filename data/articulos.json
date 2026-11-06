@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-06T19:03:46-03:00",
+    "actualizado": "2026-11-06T20:59:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-06-valo-ppi-fusion-patrimonio",
+      "titulo": "PPI aporta el 2,8% del patrimonio de su fusión con Banco de Valores y sus dueños se quedan con el 4,47% del banco",
+      "bajada": "Los dueños de PPI van a recibir el 4,468% del capital de Banco de Valores a cambio de una sociedad que aporta el 2,8% del patrimonio que suman las dos y que cerró en pérdida 2024, 2025 y el primer semestre de 2026. El banco (VALO) informó a la CNV el 6 de noviembre que los accionistas de PPI aceptaron su oferta de fusión. Los balances que las dos empresas presentaron ante la CNV muestran la otra mitad de la operación: al 30 de junio, PPI tenía un patrimonio de $13.173 millones, y el banco ganó $40.616 millones en ese semestre.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "2,8%",
+      "numero_label": "parte de PPI en el patrimonio que suma con Banco de Valores, 30 de junio de 2026; sus dueños reciben el 4,468% del banco",
+      "fecha": "2026-11-06",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-06-valo-ppi-fusion-patrimonio.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "PPI (PP Inversiones S.A.) EECC 30/06/2026, CNV publicview c4bb9ef6 (11/08/2026): PN $13.173.073.012 (balance, evolución del PN 13.706.672.765 - 533.599.753, nota 6); el formulario CNV dice 13.706.672.765 = comparativo dic-25 reexpresado, no se usa. EECC 31/12/2025 (publicview 42f09a43): PN 11.730.552.514 x IPC ene-jun 16,8% = 13.701 M. Banco de Valores EEFF separados 30/06/2026 (publicview f258bc51): PN $455.040.041 miles; BCRA Información de Entidades Financieras jun-2026 p.195: activo 2.727.619,9 - pasivo 2.272.579,8 = 455.040,1 M. 13.173,1 / (13.173,1 + 455.040,0) = 2,81%. HR Valo 06/11/2026 (publicview AF4B3E1F y 517C8D5B, mismo archivo): 4,4680% del capital post fusión, PPSP por $20.000.000, earnout a sep-2027, KPMG pendiente."
+    },
     {
       "id": "2026-11-06-soja-paraguay-record-importa-mas-de-lo-que-exporta",
       "titulo": "La Argentina le compró a Paraguay 6,7 millones de toneladas de soja en nueve meses, la mayor cantidad desde 2002",

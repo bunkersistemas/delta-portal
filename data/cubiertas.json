@@ -7736,6 +7736,20 @@
       "angulo": "Registro de candidatas de la corrida.",
       "motivo_descarte": "pasó la candidata 3 (soja paraguaya); la 1 ya estaba publicada y la 2 no pasó la vara",
       "tema": "descartes de la corrida de redacción del 06/11/2026 18:30. Clarín y TN no cargaron. Lista: (1) HALLAZGO: fondos de rutas e hídrico en LECAP [Cronista 06/11, juez de Victoria]: el Fondo Hídrico con la serie ONP 2014-2026 ya se publicó el 28/10 ('$29 de cada $100'); sin ángulo nuevo. (2) bienes de capital importados -13,9% en cantidad ene-sep y precios en máximo de la serie 2004 [La Nación]; maquinaria del IPI -26,8%: se superpone con Agrometal de hoy; la parte china de BK (37,1%) no es récord (2022 41,9%). (3) HALLAZGO, pregunta detrás de la crisis paraguaya [infobae, La Nación, Página12]: soja paraguaya, INDEC + Comtrade: APTA. (4) CALENDARIO: IPI manufacturero sep: ver corrida 16:30. (5) riesgo país 939 [6 portales]: publicada 29/10, sin dato propio. (6) Ueno Bank, ahorristas: bcp.gov.py 403. (7) celulares chinos: publicada 06/10. (8) CABA retenciones IIBB: copia la resolución. (9) Festival de Cine de Mar del Plata, costo [infobae]: molde 'contratos de un evento' ya usado hoy (papa); INCAA publicada 31/08. (10) fallo movilidad Ley 27.609 [La Nación]: cálculo con RIPTE y recaudación, sin contraste; hoy ya salió una nota de fórmulas judiciales. (11) EMPRESAS: Mastellone, Molinos, Newsan, Luz de Tres Picos (CNV): cupo de empresas cubierto hoy (Loma Negra, Edenor, Agrometal). (12) inflación OCDE [ámbito]: Argentina-Turquía publicada 07/10."
+    },
+    {
+      "id": "2026-11-06-valo-ppi-fusion-patrimonio",
+      "fecha": "2026-11-06",
+      "estado": "en_cola",
+      "tema": "fusión Banco de Valores (VALO) - PPI (EMPRESAS; HR CNV 06/11/2026, oferta vinculante aceptada; infobae y La Nación 06/11) / PPI aporta el 2,81% del PN conjunto al 30/06/2026 ($13.173 M de $468.213 M) y sus dueños reciben el 4,468% del capital; PPI con pérdida en 2024 ($3.693 M), 2025 ($1.577 M) y 1S26 ($534 M); ganancia bruta 1S26 -90% real; Valo ganó $40.616 M en 1S26",
+      "angulo": "Primera nota sobre la operación. Hallazgo: cruce del término del canje (HR) con los balances de las dos empresas ante la CNV y el BCRA; el HR no dice cuánto vale ni cómo le fue a PPI."
+    },
+    {
+      "fecha": "2026-11-06",
+      "estado": "descartada",
+      "angulo": "Registro de candidatas de la corrida.",
+      "motivo_descarte": "pasó la candidata 1 (Valo-PPI)",
+      "tema": "descartes de la corrida de redacción del 06/11/2026 20:30. Clarín y TN no cargaron. Lista: (1) EMPRESAS, HALLAZGO: Valo-PPI, HR + balances CNV + BCRA: APTA. (2) EMPRESAS: Mastellone, ganancia neta 9M26 $8.133 M (HR 06/11); sin EEFF completos ni serie todavía, y Adecoagro-SanCor solo en prensa: se retoma con el balance. (3) EMPRESAS: Edenor comunicado 3T26: ya hubo nota de Edenor hoy (pérdidas de energía). (4) MERCADOS: riesgo país cerca de 940 (6 portadas): ya publicada el 29/10 con 763; sin ángulo propio nuevo. (5) inflación porteña oct 1,9% (6 portadas): IPCBA de septiembre ya publicado 08/10, dato del día que publican todos. (6) CALENDARIO: IPI manufacturero sep -1,8% i.a. (5 portadas): se superpone con construcción de hoy y Agrometal; mismo molde. (7) CyberMonday -20% real (CACE; 3 portadas): ya cubierto el 02/11 y cifra de una cámara sin serie oficial. (8) CABA elimina retenciones de IIBB a 83.000 contribuyentes (4 portadas): sin resolución de AGIP publicada. (9) restricción a celulares chinos por estándar de EE.UU. (3 portadas): celulares importados ya cubiertos 06/10; sin cifra oficial del alcance. (10) cupo 2027 de autos híbridos y eléctricos (infobae): autos eléctricos ya cubiertos 27/09 y 01/10. (11) créditos hipotecarios frenados pese a la ANSES (La Nación): serie BCRA disponible, queda como candidata para otra corrida. (12) pregunta de plata: papelera de Tornquist cierra y BGH recorta 250 en Río Grande: sin documento oficial con cifras; empleo fueguino cubierto 09/10."
     }
   ]
 }

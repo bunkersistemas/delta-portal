@@ -1,11 +1,56 @@
 {
-  "generado": "2026-11-06T18:30",
+  "generado": "2026-11-06T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3590464",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T20:13",
+      "entidad": "FIPLASTO S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN COMERCIAL - HECHO RELEVANTE COMPLEMENTARIO EN CONEXION CON LA VENTA DE UN INMUEBLE DE LA SOCIEDAD",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4D0A5987-515E-459A-A07D-B46171ACBE6A"
+    },
+    {
+      "id": "cnv-3590454",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T19:28",
+      "entidad": "BANCO DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - OFERTA VINCULANTE DE VALO A PP INVERSIONES S.A. Y PP SERVICIOS DE PAGOS S.A. - ACEPTACIÓN.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/AF4B3E1F-C816-47C7-9EDC-77533B1B2CDF"
+    },
+    {
+      "id": "cnv-3590452",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T19:03",
+      "entidad": "BANCO DE VALORES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - OFERTA VINCULANTE DE VALO A PP INVERSIONES S.A. Y PP SERVICIOS DE PAGOS S.A. - ACEPTACIÓN.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/517C8D5B-3438-4E73-B02A-5B47AC04BBF8"
+    },
+    {
+      "id": "cnv-3590447",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T18:44",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICION DE ACCIONES PROPIAS EN LOS TERMINOS DEL ARTICULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/74403C04-A736-4F48-9BFF-944EAF3AAB0D"
+    },
+    {
+      "id": "cnv-3590445",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T18:42",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 06.11.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F1CF0838-EC28-4C1C-B8A3-AE72D900B0BE"
+    },
     {
       "id": "cnv-3590424",
       "fuente": "CNV",
@@ -1465,6 +1510,7 @@
     "sec-0001104659-26-122780": "2026-11-04",
     "sec-0001104659-26-123415": "2026-11-05",
     "sec-0001104659-26-123820": "2026-11-06",
+    "sec-0001104659-26-123952": "2026-11-06",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
