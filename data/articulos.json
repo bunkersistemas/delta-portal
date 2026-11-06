@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-06T04:42:34-03:00",
+    "actualizado": "2026-11-06T07:01:39-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-06-pobreza-hogares-jubilados-segundo-trimestre",
+      "titulo": "En los hogares que encabeza un jubilado, la pobreza pasó de 22,6% a 30,8% en un año: ahí están casi dos de cada tres pobres que se sumaron",
+      "bajada": "Entre el segundo trimestre de 2025 y el de 2026 hubo 867.000 pobres más en las 31 ciudades que mide el INDEC. Separados según quién encabeza el hogar, 559.000 viven en uno cuyo jefe es un jubilado o pensionado, aunque esos hogares reúnen apenas a una de cada cinco personas. Es el único tipo de hogar donde la suba supera el margen de error de la encuesta. En el mismo año, la jubilación mínima con el bono subió 26,4% y la canasta de pobreza, 34,4%.",
+      "titulo_busqueda": "Pobreza en el segundo trimestre de 2026: qué pasó con los hogares de jubilados",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "30,8%",
+      "numero_label": "personas pobres en hogares encabezados por un jubilado o pensionado, segundo trimestre de 2026 (22,6% un año antes)",
+      "fecha": "2026-11-06",
+      "hora": "07:30",
+      "archivo": "articulos/2026-11-06-pobreza-hogares-jubilados-segundo-trimestre.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Cálculo propio con microdatos EPH INDEC 2T-2026 y 2T-2025 (usu_individual), método INDEC: adultos equivalentes x CBT regional (promedio trimestral de las canastas mensuales del anexo de los informes de pobreza 1S-2025 y 1S-2026), ITF, PONDIH. Jefe jubilado = CH03=1, ESTADO=3 y V2_01_M+V2_02_M+V2_03_M>0. 2T26 1.778.569/5.782.045 = 30,76%; 2T25 1.219.156/5.403.303 = 22,56%; dif +8,20 IC90 [+1,9;+14,5] (SE por conglomerado de hogar x 1,15, factor calibrado con los IC INDEC 1S-2026). Total 2T26 34,38% (10.367.459/30.158.037), 2T25 31,76% (9.500.261/29.908.845): +867.198 pobres, 559.413 (64,5%) en hogares con jefe jubilado. Recalculo: promedio de trimestres = semestres INDEC 52,9/38,1/31,6/28,4(28,2)/32,2(32,3); 65+ 1S26 14,7 (14,8). Contraste: UCA-ODSA trimestral 1T25 31,4, 4T25 29,9, 1T26 30,0, 2T26 34,4 / ind 8,0 (infobae 04/08 y 06/11/2026) = nuestros valores; haber minimo (MECON, res. ANSES) 2T25 295.675 -> 2T26 392.270 (+32,7%), con bono +26,4%, CBT GBA +34,4%, cobertura varon 61-75 121,9% -> 114,7%; IPC interanual abr-jun 32,4/33,2/33,5."
+    },
     {
       "id": "2026-11-06-internet-satelital-744205-supera-cable-formosa",
       "titulo": "En Formosa, Santa Cruz y Catamarca ya hay más conexiones a internet por satélite que por cable: en todo el país son 744.205, 16 veces más que en 2024",
