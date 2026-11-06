@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-06T12:30",
+  "generado": "2026-11-06T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3590276",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T14:19",
+      "entidad": "GENERACION MEDITERRANEA S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E4DACB74-55A1-4F54-9AC7-EED95B11616A"
+    },
     {
       "id": "cnv-3590129",
       "fuente": "CNV",
@@ -1443,6 +1452,7 @@
     "sec-0001292814-26-005144": "2026-11-04",
     "sec-0001292814-26-005150": "2026-11-05",
     "sec-0001292814-26-005162": "2026-11-06",
+    "sec-0001292814-26-005168": "2026-11-06",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001342874-26-000052": "2026-11-04",
