@@ -1,11 +1,47 @@
 {
-  "generado": "2026-11-06T16:30",
+  "generado": "2026-11-06T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3590424",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T18:11",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/061169F7-0A83-4345-A130-9CC30BB622D6"
+    },
+    {
+      "id": "cnv-3590390",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T17:10",
+      "entidad": "INVERSORA ELECTRICA DE BUENOS AIRES S.A",
+      "tipo": "balance",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ANEXO II - ESTADOS FINANCIEROS AL 30 DE SEPTIEMBRE DE 2026 (EEFF 300926)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/17C94088-F21D-4A39-99E6-E7ABC9C1E382"
+    },
+    {
+      "id": "cnv-3590373",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T16:53",
+      "entidad": "LUZ DE TRES PICOS S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - PROSPECTO DE FUSIÓN POR ABSORCIÓN (HR N° 2)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6D784987-F269-436E-B595-950BEFFC74DF"
+    },
+    {
+      "id": "cnv-3590371",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T16:49",
+      "entidad": "LUZ DE TRES PICOS S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - PROSPECTO DE FUSIÓN POR ABSORCIÓN (HR N° 1)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A2C5B401-1F81-48A2-AD98-2CE93BB0C392"
+    },
     {
       "id": "cnv-3590233",
       "fuente": "CNV",
@@ -1428,6 +1464,7 @@
     "sec-0001104659-26-122105": "2026-11-03",
     "sec-0001104659-26-122780": "2026-11-04",
     "sec-0001104659-26-123415": "2026-11-05",
+    "sec-0001104659-26-123820": "2026-11-06",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
@@ -1462,6 +1499,7 @@
     "sec-0001292814-26-005150": "2026-11-05",
     "sec-0001292814-26-005162": "2026-11-06",
     "sec-0001292814-26-005168": "2026-11-06",
+    "sec-0001292814-26-005170": "2026-11-06",
     "sec-0001342874-26-000048": "2026-10-08",
     "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001342874-26-000052": "2026-11-04",

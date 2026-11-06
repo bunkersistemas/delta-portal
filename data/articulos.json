@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-06T16:48:51-03:00",
+    "actualizado": "2026-11-06T19:03:46-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-06-soja-paraguay-record-importa-mas-de-lo-que-exporta",
+      "titulo": "La Argentina le compró a Paraguay 6,7 millones de toneladas de soja en nueve meses, la mayor cantidad desde 2002",
+      "bajada": "La Argentina, uno de los grandes productores de soja del mundo, volvió a comprar más porotos de los que vendió: entre enero y septiembre entraron 6,93 millones de toneladas y salieron 4,21 millones. Casi todos vinieron de Paraguay, al que le compró US$3.642 millones, más que en cualquier enero-septiembre desde 2002. Ocho de cada diez de esos dólares son porotos que entran para ser molidos en las aceiteras. La relación pesa también del otro lado: mientras Paraguay atraviesa el juicio político a Santiago Peña y la caída de Ueno Bank, la Argentina se lleva ocho de cada diez toneladas de soja que exporta.",
+      "titulo_busqueda": "¿Por qué la Argentina importa soja de Paraguay?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "6,7 millones",
+      "numero_label": "de toneladas de soja que la Argentina le compró a Paraguay entre enero y septiembre de 2026, la mayor cantidad para esos meses desde 2002",
+      "fecha": "2026-11-06",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-06-soja-paraguay-record-importa-mas-de-lo-que-exporta.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC impo_soja_y_sub_productos_mens_2002_2026.xlsx (zip imports_2026_M, 09/10/2026), hoja por pais: NCM 12019000 origen 221 ene-sep 2026 = 6.680.148 t, US$2.910,8 M CIF; recalculo desde impom26.csv = igual. Ene-sep 2025 4.585,0 kt (+45,7%); previo maximo ene-sep 2024 5.883,3 kt (serie 2002-2026). Total porotos importados 6.927,2 kt (PY 96,4%); exportados (zips expo, pos. 1201) 4.207,2 kt vs 7.620,6 (-44,8%; ICA cuadro 6: -44,9% cantidades, US$1.738 M). Impo > expo ene-sep en 2018, 2022, 2023, 2024, 2026; nunca 2002-2017. Importaciones desde Paraguay ICA sep-26 cuadro 37: US$3.642,3 M (+47,9%), previo max ene-sep 2023 US$3.109,9 M; 6,50% del total (56.068,8), previo max 2024 6,39%. Contraste UN Comtrade reporter 600: 2024 6.884 kt vs INDEC 6.804 (-1,2%), 2025 5.166 vs 5.107 (-1,1%); 1T26 2.709 kt vs 1T25 2.072 (+30,7%). Parte de expo de soja PY a AR: 2018 67,6, 2019 67,3, 2020 76,0, 2021 72,5, 2022 77,6, 2023 92,6, 2024 86,2, 2025 80,7, 1T26 89,5. IPI molienda oleaginosas ene-sep prom 182,9 vs 176,5 (+3,6%), max desde 2016. ICA: regimen de importaciones temporarias con fines de industrializacion."
+    },
     {
       "id": "2026-11-06-construccion-septiembre-tendencia-revisada",
       "titulo": "La construcción saltó 7,8% en septiembre y el INDEC borró la caída que había informado un mes antes: la tendencia está plana desde abril",
