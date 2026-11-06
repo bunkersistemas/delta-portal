@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 06 Nov 2026 02:55:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 04:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En Formosa, Santa Cruz y Catamarca ya hay más conexiones a internet por satélite que por cable: en todo el país son 744.205, 16 veces más que en 2024</title>
+      <link>https://coninteres.com/articulos/2026-11-06-internet-satelital-744205-supera-cable-formosa.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-06-internet-satelital-744205-supera-cable-formosa.html</guid>
+      <pubDate>Fri, 06 Nov 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En Formosa, Santa Cruz y Catamarca la internet por satélite ya tiene más conexiones que el cable. En todo el país, según el ENACOM, eran 744.205 en junio de 2026; en septiembre de 2024, cuando el regulador empezó a contarlas aparte, eran 45.874. Ya son la tercera tecnología del país, detrás de la fibra óptica y el cable, y en el último año fueron 35 de cada 100 conexiones nuevas. El salto se concentra lejos de las grandes ciudades: en Formosa, el 27% de las conexiones es satelital.</description>
+      <ci:numero>744.205</ci:numero>
+      <ci:numeroEtiqueta>conexiones fijas a internet por satélite en la Argentina, junio de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-internet-satelital-744205-supera-cable-formosa.png" length="71377" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-internet-satelital-744205-supera-cable-formosa.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un juicio por un despido de 2022 cobra 31,7% menos con la fórmula que ordenó la Corte que con la inflación más 3%</title>
       <link>https://coninteres.com/articulos/2026-11-06-juicios-laborales-corte-articulo-55-piso-tasa-pasiva.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>uranio natural y sus compuestos importado por la Argentina entre enero y septiembre de 2026, valor CIF</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-uranio-importado-record-namibia-kazajistan.png" length="77575" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-uranio-importado-record-namibia-kazajistan.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los jubilados porteños viajan gratis en subte si cobran hasta $1.110.396 en noviembre: tres de cada cuatro jubilados del SIPA cobran menos</title>
-      <link>https://coninteres.com/articulos/2026-11-02-subte-gratis-jubilados-tope-noviembre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-02-subte-gratis-jubilados-tope-noviembre.html</guid>
-      <pubDate>Mon, 02 Nov 2026 21:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Desde hoy los jubilados de la Ciudad validan el subte gratis con el DNI, siempre que sus ingresos no pasen de 2,5 haberes mínimos de la ANSES, como fija la Ley 6.817. Con el mínimo de noviembre, $444.158,46, la raya es $1.110.396,15. En septiembre, con la raya de ese mes, el 77% de los jubilados y pensionados del SIPA cobraba menos; entre los que cobran una jubilación sin moratoria, menos de la mitad.</description>
-      <ci:numero>$1.110.396</ci:numero>
-      <ci:numeroEtiqueta>tope de ingresos mensuales de noviembre de 2026 para el subte gratis de jubilados, pensionados y retirados porteños</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-02-subte-gratis-jubilados-tope-noviembre.png" length="75164" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-02-subte-gratis-jubilados-tope-noviembre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

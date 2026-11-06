@@ -7626,6 +7626,20 @@
       "angulo": "Registro de candidatas de la corrida.",
       "motivo_descarte": "pasó la primera candidata probada (artículo 55 y fallo de la Corte)",
       "tema": "descartes de la corrida de redacción del 06/11/2026 02:30: (1) HALLAZGO, pregunta de plata: juicios laborales y art. 55 tras el fallo de la Corte [Cronista, iProfesional, infobae, BAE]: APTA. (2) EMPRESAS: IMPSA, transcripción de EEFF al 30/06/2026 (CNV 05/11): solo carta de transcripción, sin cifras. (3) EMPRESAS: Molinos, cierre de venta del acopio de Rosario y compra de planta en Tucumán (CNV 02/11): sin montos. (4) EMPRESAS: Newsan, fusión New PGA-Pilisar (CNV 02/11): sin montos. (5) EMPRESAS: CNH Industrial Capital, recompra de ON Clase 11 por US$71.016: operación chica de rutina. Cupo de empresas ya cubierto hoy (Loma Negra 01:00). (6) recaudación de octubre +0,1% real 'por factores excepcionales' (ámbito, Qualy): el IPC de octubre sale el 12/11, la variación real no es recalculable todavía. (7) riesgo país sobre 900 [infobae, La Nación, ámbito, iProfesional, Cronista, Página12]: publicada el 29/10, sin dato nuevo. (8) Ueno Bank de Paraguay [La Nación, iProfesional, Cronista, Página12]: bcp.gov.py 403. (9) REM recorta crecimiento a 0,7% [infobae, iProfesional, Cronista]: REM usado el 05/11. (10) visita de León XIV US$88 M (ámbito): estimación sin documento; publicada el 12/10. (11) represas de Santa Cruz, 4.000 empleos (iProfesional): no probada. (12) calendario: IPI manufacturero, ISAC e IPI minero de septiembre (INDEC 16 h): no publicados a las 02:30."
+    },
+    {
+      "fecha": "2026-11-06",
+      "estado": "en_cola",
+      "tema": "internet satelital en la Argentina por provincia (pregunta detrás de La Nación 06/11/2026 «Starlink se lanza a competir con las telefónicas») / ENACOM 2T-2026: 744.205 accesos satelitales, 3.ª tecnología fija, 35% del aumento neto anual; supera al cable en Formosa, Santa Cruz y Catamarca",
+      "angulo": "cruce de los 24 informes provinciales del ENACOM y serie trimestral desde 3T-2024, con APNIC (usuarios de Starlink) como contraste independiente",
+      "id": "2026-11-06-internet-satelital-744205-supera-cable-formosa"
+    },
+    {
+      "fecha": "2026-11-06",
+      "estado": "descartada",
+      "angulo": "Registro de candidatas de la corrida.",
+      "motivo_descarte": "pasó la primera candidata probada (internet satelital ENACOM)",
+      "tema": "descartes de la corrida de redacción del 06/11/2026 04:30: (1) HALLAZGO: internet satelital por provincia, ENACOM + APNIC [La Nación]: APTA. (2) producción automotriz -15,5% en diez meses [Página12]: autos frenados o cubiertos el 10/10, 24/10 y 27/10; ADEFA sola. (3) préstamos hipotecarios +24% mensual [iProfesional]: hipotecarios cubiertos 25/09, 02/10, 13/10 y 16/10. (4) mora pyme 17,7% [Cronista]: mora de empresas publicada el 29/09; Informe sobre Bancos nuevo sale el 20/11. (5) papelera que cierra por importaciones, 160 empleos [iProfesional]: mismo molde que la cartulina china del 05/11. (6) BGH despide 250 en Río Grande [Página12]: empleo industrial fueguino publicado el 09/10. (7) exportaciones de carne US$3.800 M en nueve meses [infobae]: carne a EE.UU. publicada el 03/11. (8) EMPRESAS: Aeropuertos Argentina 2000 rescata todas sus ON (CNV 05/11): cupo de empresas ya cubierto hoy (Loma Negra) y AA2000 publicada el 19/10. (9) EMPRESAS: Pampa Energía balance 3T26 (SEC 05/11): Pampa publicada el 01/11 y el 02/11. (10) oferta récord de alquileres [Cronista]: alquileres ICL en cola desde el 01/11. (11) recaudación, riesgo país, Ueno Bank, REM, visita de León XIV: ya descartados en la corrida de las 02:30 por los mismos motivos. (12) calendario: IPI manufacturero, ISAC e IPI minero de septiembre (INDEC 16 h): no publicados a las 04:30."
     }
   ]
 }
