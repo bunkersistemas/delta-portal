@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-06T00:49:31-03:00",
+    "actualizado": "2026-11-06T02:55:16-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-06-juicios-laborales-corte-articulo-55-piso-tasa-pasiva",
+      "titulo": "Un juicio por un despido de 2022 cobra 31,7% menos con la fórmula que ordenó la Corte que con la inflación más 3%",
+      "bajada": "La Corte Suprema ordenó el 5 de noviembre que los juicios laborales en trámite se actualicen con el artículo 55 de la reforma laboral, y no con la inflación más 3% anual que aplicaba la Sala II de la Cámara del Trabajo. La ley pone un techo y un piso a la tasa pasiva, pero el techo no se alcanza en ningún crédito desde 2013: la tasa quedó tan por debajo de la inflación que, para todo crédito anterior al 10 de abril de 2024, rige el piso, el 67% del ajuste. Con las series del Banco Central, un crédito de $1.000.000 exigible desde enero de 2022 se cobra hoy $17,7 millones, en lugar de $25,9 millones.",
+      "titulo_busqueda": "Cómo se actualiza una indemnización en un juicio laboral tras el fallo de la Corte",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "31,7%",
+      "numero_label": "lo que cobra de menos un crédito laboral de enero de 2022 con el artículo 55, contra la inflación más 3% anual",
+      "fecha": "2026-11-06",
+      "hora": "02:30",
+      "archivo": "articulos/2026-11-06-juicios-laborales-corte-articulo-55-piso-tasa-pasiva.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Cálculo propio con BCRA API v4 var. 1198 (Tasa pasiva Ley 27.802 art. 55 a, Res. 45/26) y var. 30 (CER), fórmula de las notas aclaratorias de la calculadora BCRA (t0 = día anterior al inicio; i = (100+Tm)/(100+T0)-1; A = CERm/CER0*1,03^(días/365)-1; S = 0,67A; resultado = max(S, min(i, A))), replicada del JS de la calculadora (calculadora-CSV2R-F-.js) y con los valores de su endpoint series.php (31/12/2021: TP 7.946,3325, CER 38,64184724802; 06/11/2026: TP 97.944,606, CER 865,94850522602). Capital $1.000.000 exigible 01/01/2022, cierre 06/11/2026: pasiva $12.185.006, CER+3 $25.865.514, art. 55 = piso $17.659.894 (-31,72%). Contraste INDEC IPC nacional nivel general mensual (serie_ipc_divisiones.csv) dic-21 a sep-26, cierre 30/09/2026: IPC+3 $24.724.229, art. 55 = piso $16.895.233 (-31,67%); CER mismo cierre -31,69%. Inicio diario feb-2013 a 05/03/2026: techo 0 días; piso hasta el 10/04/2024 (CER) / ene-2024 (IPC); antes 67,1-78,6% del ajuste completo, pasiva sola 32,0-78,5%; después 78,7-98,2%. Dic-23 IPC 25,47% vs TP 10,30%; ene-24 20,61% vs 9,17%. Fallo CSJN 05/11/2026 CNT 27766/2020/CS1 y 7 más (expedientes 2014-2022): considerandos 1 y 4, inoficioso, art. 55 Ley 27.802 (BO 06/03/2026). Camino: cálculo propio con series oficiales + reproducción de la calculadora oficial + contraste con IPC INDEC."
+    },
     {
       "id": "2026-11-06-loma-negra-cemento-dolares-por-tonelada",
       "titulo": "Loma Negra cobra 24% más en dólares por cada tonelada de cemento que hace un año, aunque vende 6,3% menos",
