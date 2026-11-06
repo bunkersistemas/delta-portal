@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-06T14:30",
+  "generado": "2026-11-06T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -7,12 +7,21 @@
   "incompleto": [],
   "hechos": [
     {
+      "id": "cnv-3590233",
+      "fuente": "CNV",
+      "fecha": "2026-11-06T15:29",
+      "entidad": "MASTELLONE HERMANOS S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE DEL 06 DE NOVIEMBRE DE 2026.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FA022AC3-BE2D-40FE-A467-66A80948D6A4"
+    },
+    {
       "id": "cnv-3590276",
       "fuente": "CNV",
       "fecha": "2026-11-06T14:19",
       "entidad": "GENERACION MEDITERRANEA S.A",
       "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - RENUNCIA Y DESIGNACIÓN",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E4DACB74-55A1-4F54-9AC7-EED95B11616A"
     },
     {
