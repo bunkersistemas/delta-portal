@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-07T12:47:43-03:00",
+    "actualizado": "2026-11-07T14:52:04-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-07-fondo-garantia-depositos-sedesa-62-de-68-entidades",
+      "titulo": "El fondo que garantiza los depósitos tiene $10,5 billones: es más grande que todo lo depositado en 62 de las 68 entidades",
+      "bajada": "El fondo que respalda la garantía de los depósitos en la Argentina tenía $10,51 billones a fin de septiembre: el 5,5% de todo lo que el sector privado tiene depositado, más del doble que entre 2002 y 2014. Es más grande que los depósitos privados de 62 de las 68 entidades que los captan; solo los seis bancos más grandes lo superan. La cuenta vale ahora: la caída de un banco en Paraguay reabrió la pregunta de qué pasa con la plata si quiebra un banco.",
+      "titulo_busqueda": "¿Qué pasa con mi plata si quiebra un banco en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "5,5%",
+      "numero_label": "el fondo de garantía de los depósitos como parte de todo lo depositado por el sector privado en los bancos, septiembre de 2026",
+      "fecha": "2026-11-07",
+      "hora": "15:30",
+      "archivo": "articulos/2026-11-07-fondo-garantia-depositos-sedesa-62-de-68-entidades.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "SEDESA saldo disponible FGD 30/09/2026 $10.506.155.424.179 (BO 28/10/2026) / BCRA API var. 106 depósitos SPNF pesos+ME 30/09/2026 $192.392.915 M = 5,46%. Contrastes: reseña anual 2025 SEDESA (saldo 31/12/2025 $8.551.837 M = serie web; PN auditado EY $8.603.715 M); BCRA Entidades Financieras ago-26 depósitos privados $189.321.246 M vs var. 106 $187.735.980 M (+0,8%); suma por entidad $189.321.249 M = total. 2002-2014 máximo mensual 2,21% (nov-14); pico 6,50% (may-24). Fondo 31/08 $10.307.180 M > depósitos privados de 62 de 68 entidades; las 6 mayores = 66,8%."
+    },
     {
       "id": "2026-11-07-fiplasto-chapadur-campos-timbues",
       "titulo": "La fábrica del Chapadur ganó $15.356 millones vendiendo campos y exportó placas por debajo de su costo",

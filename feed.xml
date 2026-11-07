@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 07 Nov 2026 12:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 14:52:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El fondo que garantiza los depósitos tiene $10,5 billones: es más grande que todo lo depositado en 62 de las 68 entidades</title>
+      <link>https://coninteres.com/articulos/2026-11-07-fondo-garantia-depositos-sedesa-62-de-68-entidades.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-fondo-garantia-depositos-sedesa-62-de-68-entidades.html</guid>
+      <pubDate>Sat, 07 Nov 2026 15:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El fondo que respalda la garantía de los depósitos en la Argentina tenía $10,51 billones a fin de septiembre: el 5,5% de todo lo que el sector privado tiene depositado, más del doble que entre 2002 y 2014. Es más grande que los depósitos privados de 62 de las 68 entidades que los captan; solo los seis bancos más grandes lo superan. La cuenta vale ahora: la caída de un banco en Paraguay reabrió la pregunta de qué pasa con la plata si quiebra un banco.</description>
+      <ci:numero>5,5%</ci:numero>
+      <ci:numeroEtiqueta>el fondo de garantía de los depósitos como parte de todo lo depositado por el sector privado en los bancos, septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-fondo-garantia-depositos-sedesa-62-de-68-entidades.png" length="63771" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-fondo-garantia-depositos-sedesa-62-de-68-entidades.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La fábrica del Chapadur ganó $15.356 millones vendiendo campos y exportó placas por debajo de su costo</title>
       <link>https://coninteres.com/articulos/2026-11-07-fiplasto-chapadur-campos-timbues.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>compensación devengada del directorio y la primera línea ejecutiva de YPF en enero-septiembre de 2026; un año antes, US$26 millones</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-05-ypf-cupula-compensacion-123-millones-bono-accion.png" length="73831" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-05-ypf-cupula-compensacion-123-millones-bono-accion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las obras sociales tienen 1,16 millones de beneficiarios menos que en noviembre de 2023, y el 43% salió del monotributo social: 344.281 en un solo mes</title>
-      <link>https://coninteres.com/articulos/2026-11-05-obras-sociales-beneficiarios-monotributo-social-43-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-05-obras-sociales-beneficiarios-monotributo-social-43-por-ciento.html</guid>
-      <pubDate>Thu, 05 Nov 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre noviembre de 2023 y septiembre de 2026 las obras sociales nacionales, sin contar el PAMI, perdieron 1.159.205 beneficiarios. La caída se asoció con el empleo perdido. El padrón de la Superintendencia de Servicios de Salud dice de dónde salió cada baja: 499.631, el 43%, fueron del monotributo social, y 344.281 se fueron en diciembre de 2024, después de que el Gobierno dejara de subsidiar el aporte de los que venían de planes sociales y les pidiera pagar la mitad de la obra social. Más de la mitad de las bajas son familiares a cargo. En el mismo período, los monotributistas comunes sumaron 338.189 beneficiarios.</description>
-      <ci:numero>43%</ci:numero>
-      <ci:numeroEtiqueta>de los beneficiarios que perdieron las obras sociales nacionales (sin PAMI) entre nov-2023 y sep-2026 estaban en el monotributo social</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-05-obras-sociales-beneficiarios-monotributo-social-43-por-ciento.png" length="74585" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-05-obras-sociales-beneficiarios-monotributo-social-43-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
