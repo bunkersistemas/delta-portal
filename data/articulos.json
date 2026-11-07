@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-07T02:47:05-03:00",
+    "actualizado": "2026-11-07T04:55:46-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-07-aeropuertos-argentina-refinancia-8375-capital-2032",
+      "titulo": "Aeropuertos Argentina cambió bonos al 8,6% por uno al 8,375%: casi no abarata su deuda, pero deja de devolver capital hasta 2032",
+      "bajada": "Aeropuertos Argentina 2000 refinanció su deuda internacional y lo que consiguió no es una tasa más baja sino tiempo. Colocó US$400 millones a diez años con un rendimiento de 8,375% y el 5 de noviembre avisó que rescata sus cuatro bonos internacionales: US$299 millones que pagaban 8,6% en promedio. El ahorro es chico, 0,2 punto o unos US$680.000 de intereses por año, y la prima de US$7,2 millones que paga por cancelar antes el bono 2031 equivale a más de diez años de ese ahorro. A cambio, los bonos que rescata vencían entre 2027 y 2031 y el nuevo no devuelve capital hasta febrero de 2032.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "8,375%",
+      "numero_label": "rendimiento al que Aeropuertos Argentina 2000 colocó US$400 millones a diez años para rescatar bonos que pagaban 8,6% (octubre de 2026)",
+      "fecha": "2026-11-07",
+      "hora": "05:30",
+      "archivo": "articulos/2026-11-07-aeropuertos-argentina-refinancia-8375-capital-2032.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Aviso de resultados ON Clase 12 (CNV 22/10/2026, publicview a8be916e): VN US$400 M, cupón 8%, precio 98,351, rendimiento 8,375%, vida promedio 7,6; recalculado desde precio y cronograma: 8,376% semestral, vida 7,62. Cupón, monto y 2036 coinciden con el 6-K de CAAP (SEC 26/10/2026, ex99-1). Rescates (HR CNV 05/11/2026): capital US$299.032.101,14; prima Serie 2021 2,833% = US$7.175.470,56; pago total US$306.653.007. Tasa ponderada de los rescatados 8,6024% (cálculo propio)."
+    },
     {
       "id": "2026-11-07-estaciones-base-celular-china-89-por-ciento",
       "titulo": "China vendió el 89% de las estaciones base de celular que importó la Argentina este año, la mayor proporción desde 2007",
