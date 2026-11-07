@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-06",
-  "pregunta": "En diciembre de 2025, los analistas que releva el BCRA en el REM esperaban 20,1% de inflación para todo 2026. En septiembre los precios ya acumulaban 23,6%. En el último relevamiento vuelven a esperar 21% para los doce meses siguientes. ¿Qué conviene hacer con ese pronóstico?",
+  "fecha": "2026-11-07",
+  "pregunta": "Entre el segundo trimestre de 2025 y el de 2026, la jubilación mínima con el bono subió 26,4% y la canasta que marca la línea de pobreza subió 34,4%. ¿Cuánto cambió la cantidad de canastas que se pueden pagar con esa jubilación?",
   "opciones": [
-    "Leerlo como una referencia con margen de error: desde 2017 el pronóstico de diciembre se quedó corto en siete de nueve años",
-    "Tomarlo como un dato cierto: es el promedio de decenas de analistas y los errores se compensan",
-    "Ignorarlo del todo: si falló en 2026, no dice nada sobre lo que viene"
+    "Bajó alrededor de 6%: se divide 1,264 por 1,344",
+    "Bajó 8%: es la diferencia entre las dos subas",
+    "Subió 26,4%: la jubilación aumentó"
   ],
   "correcta": 0,
-  "explicacion": "El REM es la mediana de lo que esperan consultoras y bancos: dice qué piensa el mercado hoy, no qué va a pasar. Desde 2017, el pronóstico de diciembre para el año siguiente se quedó corto en siete de nueve años. Hace un año esperaban 21% para los doce meses siguientes y terminó siendo 33,4%. Promediar a muchos analistas no corrige un error que comparten todos. Pero tampoco es ruido: es una foto de lo que espera hoy el mercado. Lo sensato es leerlo con su historial de errores al lado.",
-  "nota": "articulos/2026-11-05-rem-inflacion-2026-supero-pronostico-analistas.html",
+  "explicacion": "Para comparar un ingreso con un precio no se restan los porcentajes: se dividen. Si la jubilación se multiplicó por 1,264 y la canasta por 1,344, lo que alcanza a comprar se multiplicó por 1,264 / 1,344 = 0,94, es decir, cayó alrededor de 6%. Restar (34,4 - 26,4 = 8) es una aproximación que exagera la caída cuando las subas son grandes. Y mirar solo la suba del ingreso engaña: con precios que suben más, cobrar más pesos no es poder comprar más. Por eso en los hogares que encabeza un jubilado la pobreza pasó de 22,6% a 30,8% en un año.",
+  "nota": "articulos/2026-11-06-pobreza-hogares-jubilados-segundo-trimestre.html",
   "leccion": ""
 }

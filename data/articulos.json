@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-06T22:48:23-03:00",
+    "actualizado": "2026-11-07T00:49:14-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-07-malvinas-sea-lion-reservas-santa-cruz-mendoza",
+      "titulo": "El primer campo petrolero de Malvinas tiene casi tantas reservas probadas como Santa Cruz y el doble que Mendoza",
+      "bajada": "La Argentina le pide al Tribunal del Mar que frene Sea Lion, el yacimiento que se desarrolla al norte de las islas, y la audiencia es el 10 y 11 de noviembre. Lo que está en juego es casi una provincia petrolera: 230,7 millones de barriles de reservas probadas, según la consultora independiente que lo auditó para uno de sus dueños. Con los datos de la Secretaría de Energía a la misma fecha, es el 97% de lo que declaran todos los yacimientos de Santa Cruz, el doble que los de Mendoza y casi 16 veces lo que tiene el mar bajo jurisdicción nacional.",
+      "titulo_busqueda": "¿Cuánto petróleo hay en Malvinas?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "230,7 millones",
+      "numero_label": "barriles de reservas probadas de Sea Lion, el campo petrolero al norte de Malvinas, al 31/12/2025: casi tantas como toda Santa Cruz",
+      "fecha": "2026-11-07",
+      "hora": "01:45",
+      "archivo": "articulos/2026-11-07-malvinas-sea-lion-reservas-santa-cruz-mendoza.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "NSAI para Rockhopper, informe 31/03/2026 (reservas al 31/12/2025, PRMS 2018), NDA fases 1 y 2: probadas no desarrolladas brutas 230.672,5 MBBL; 2P 313.837,7 (WI 35% 109.843,2 = '110 mmbbls 2P net' en resultados anuales RKH 03/06/2026 y semestral 30/09/2026 con NSAI de fines de julio). SE Reservas al 31/12/2025, hoja fin de concesión, PET comprobadas conv+no conv: Santa Cruz 37.667 Mm3 (236,9 MMbbl), Mendoza 18.395 (115,7), Estado Nacional 2.306 (14,5), total 601.383 (3.782,6); SL 36.674 Mm3 = 97,4% SC, x1,99 Mza, x15,9 EN. Hoja vida útil: SC 301,3, Mza 132,6 (SL 77%, x1,7). Contraste: Gob. Mendoza nov-2022 1P 127 / 2P 168 MMbbl = SE 31/12/2021 fin de concesión 127,2 / 168,2. Producción SE SESCO sep-26: Mza 48.203 b/d, SC 55.379, EN 4.201; pico fase 1 ~50.000 b/d (RNS FID RKH 10/12/2025); NSAI 2P máx 2033 18.802,5 MBBL/año = 51.514 b/d. Regalía FIG 9,0% (NSAI 28.451,6/316.128,6). ITLOS PR 401 (13/10) y 402 (20/10): audiencia 10-11/11/2026."
+    },
     {
       "id": "2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china",
       "titulo": "Aun con todos los acuerdos que firmó y negocia, la Argentina sumaría el 69% del PBI mundial: el 80% que promete Quirno exige a China o a casi todo el resto",

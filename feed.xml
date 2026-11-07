@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 06 Nov 2026 22:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 00:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El primer campo petrolero de Malvinas tiene casi tantas reservas probadas como Santa Cruz y el doble que Mendoza</title>
+      <link>https://coninteres.com/articulos/2026-11-07-malvinas-sea-lion-reservas-santa-cruz-mendoza.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-malvinas-sea-lion-reservas-santa-cruz-mendoza.html</guid>
+      <pubDate>Sat, 07 Nov 2026 01:45:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Argentina le pide al Tribunal del Mar que frene Sea Lion, el yacimiento que se desarrolla al norte de las islas, y la audiencia es el 10 y 11 de noviembre. Lo que está en juego es casi una provincia petrolera: 230,7 millones de barriles de reservas probadas, según la consultora independiente que lo auditó para uno de sus dueños. Con los datos de la Secretaría de Energía a la misma fecha, es el 97% de lo que declaran todos los yacimientos de Santa Cruz, el doble que los de Mendoza y casi 16 veces lo que tiene el mar bajo jurisdicción nacional.</description>
+      <ci:numero>230,7 millones</ci:numero>
+      <ci:numeroEtiqueta>barriles de reservas probadas de Sea Lion, el campo petrolero al norte de Malvinas, al 31/12/2025: casi tantas como toda Santa Cruz</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-malvinas-sea-lion-reservas-santa-cruz-mendoza.png" length="65358" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-malvinas-sea-lion-reservas-santa-cruz-mendoza.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Aun con todos los acuerdos que firmó y negocia, la Argentina sumaría el 69% del PBI mundial: el 80% que promete Quirno exige a China o a casi todo el resto</title>
       <link>https://coninteres.com/articulos/2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>caída del petróleo de Loma Negra y La Yesera, las áreas que YPF le vende a Capex, en enero-septiembre de 2026 contra 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-ypf-capex-loma-negra-la-yesera-6-millones.png" length="85549" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-ypf-capex-loma-negra-la-yesera-6-millones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina exportó en nueve meses el mayor volumen desde 1986: 9,3% más que en el mismo período de 2025</title>
-      <link>https://coninteres.com/articulos/2026-11-03-exportaciones-volumen-record-1986-precios.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-exportaciones-volumen-record-1986-precios.html</guid>
-      <pubDate>Tue, 03 Nov 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El récord de exportaciones de 2026 no es solo de precios. Entre enero y septiembre la Argentina exportó el mayor volumen de mercaderías para esos nueve meses desde 1986, cuando empieza la serie del INDEC: 9,3% más que un año antes. Aun así, el precio pesó más que el volumen. Las exportaciones subieron US$13.734 millones, hasta US$77.267 millones, y según el propio INDEC US$7.811 millones de ese aumento vinieron de mejores precios y US$5.923 millones, de vender más. En 2022 los precios habían sido más altos que hoy, pero se exportó 18% menos volumen.</description>
-      <ci:numero>+9,3%</ci:numero>
-      <ci:numeroEtiqueta>aumento del volumen exportado en enero-septiembre de 2026 contra 2025: el nivel más alto para esos nueve meses desde 1986</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-exportaciones-volumen-record-1986-precios.png" length="72090" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-exportaciones-volumen-record-1986-precios.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
