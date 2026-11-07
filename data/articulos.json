@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-07T10:58:41-03:00",
+    "actualizado": "2026-11-07T12:47:43-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-07-fiplasto-chapadur-campos-timbues",
+      "titulo": "La fábrica del Chapadur ganó $15.356 millones vendiendo campos y exportó placas por debajo de su costo",
+      "bajada": "Fiplasto, la empresa de Ramallo que fabrica el Chapadur, exportó 146% más placas en su ejercicio a junio de 2026, pero lo que vendió afuera le dejó $9.928 millones y le costó $16.805 millones. Lo que sostuvo las cuentas fue la venta de campos: $15.356 millones de ganancia. Aun así, cerró el ejercicio con una pérdida de $9.979 millones. Ahora vende un campo en Timbúes, con potencial portuario, a US$58.271 la hectárea, cinco veces lo que cobró en julio por uno en Andino.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$15.356 M",
+      "numero_label": "ganancia de Fiplasto por vender y ceder campos entre julio de 2025 y junio de 2026, en pesos de junio de 2026",
+      "fecha": "2026-11-07",
+      "hora": "13:30",
+      "archivo": "articulos/2026-11-07-fiplasto-chapadur-campos-timbues.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Fiplasto EEFF consolidados al 30/06/2026 (CNV publicview 654338bb, 08/09/2026): nota 6.20 'Resultado neto por venta y baja de PPE' 15.356; flujo de efectivo (15.356); memoria ($15.356 M). Recalculo nota 16: 1.126+2.290+3.403+1.075+2.338+5.124 = 15.356. HR 19/11/2025 (206 ha x US$7.000 = 1.442.000 vs nota 16 US$1.443.400) y HR 23/07/2026 (317 ha x US$11.475 = US$3.637.575 = nota 16). Nota 10.3: externo ventas 9.928 / costo 16.805 (FY25 3.468 / 4.989); local 39.461 / 35.051. Resultado antes de financieros -7.076; sin campos -22.432. Timbues: HR 28/10/2026 US$22.362.500 / 383,77 ha = US$58.271/ha; HR 06/11/2026 resultado estimado $29.662.422.350,13 antes de impuestos (ESTIMACION de la empresa). Contraste: UN Comtrade, importaciones de EE.UU. (842) desde Argentina HS 441192, jul-24 a jun-25 2.214 t / US$1,07 M CIF; jul-25 a jun-26 7.791 t / US$4,73 M (x3,5), vs memoria: expo m2 x2,46 y embarques maritimos EE.UU.+Europa x4,61. INDEC: 4411.92 bajo secreto estadistico."
+    },
     {
       "id": "2026-11-07-deuda-flotante-estado-25-por-ciento-octubre",
       "titulo": "La deuda flotante de $2,86 billones es el 2,5% del gasto del año: más que en 2025, pero menos que en cualquier año entre 2017 y 2024",
