@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-07T04:55:46-03:00",
+    "actualizado": "2026-11-07T06:44:24-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-07-fondo-rutas-combustibles-rentas-superan-obras",
+      "titulo": "El fideicomiso de rutas y trenes cobró más por sus colocaciones que lo que giró a obras: $145.600 millones contra $117.870 millones en el semestre",
+      "bajada": "El Fideicomiso de Infraestructura de Transporte, que recibe el 28,58% del impuesto a los combustibles para rutas, trenes y colectivos, cobró en el primer semestre de 2026 más por lo que tiene colocado que lo que giró para obras: $145.600 millones de rentas contra $117.870 millones. En ningún año completo desde 2014 las rentas habían pasado del 59% de lo girado a obras. Descontada la inflación, lo girado a obras cayó 36,1% contra el primer semestre de 2025.",
+      "titulo_busqueda": "¿Qué pasa con la plata del impuesto a los combustibles para las rutas?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$145.600 M",
+      "numero_label": "rentas que cobró en el primer semestre de 2026 el fideicomiso que recibe el 28,58% del impuesto a los combustibles para rutas y trenes",
+      "fecha": "2026-11-07",
+      "hora": "07:30",
+      "archivo": "articulos/2026-11-07-fondo-rutas-combustibles-rentas-superan-obras.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "ONP, ejecución de fondos fiduciarios acumulada al 30/06/2026, anexo II, FF Infraest. Transporte: rentas de la propiedad $145.600,2 M; gastos de capital $117.869,8 M; ingresos corrientes $1.463.556,9 M = impositivos 891.560,9 + rentas 145.600,2 + transferencias 426.395,8 (recalculado); resultado financiero 438.167,3 = I - II - V (recalculado). Contraste: Presupuesto Abierto servicio 377 transfirió al FFSIT $426.237,0 M ene-jun (0,04%); 28,58% del impuesto Ley 23.966 ene-jun $838.088 M / feb-jul $911.542 M vs ONP $891.561 M; legisladores del amparo (El Cronista): SISVIAL ene-24/may-26 >$1,5 billones, $394.406 M a obras, >$1 billón en títulos y plazos fijos. Serie rentas/gastos de capital años completos 2014-2025 entre 10,0% y 59,1% (2017 base caja)."
+    },
     {
       "id": "2026-11-07-aeropuertos-argentina-refinancia-8375-capital-2032",
       "titulo": "Aeropuertos Argentina cambió bonos al 8,6% por uno al 8,375%: casi no abarata su deuda, pero deja de devolver capital hasta 2032",
