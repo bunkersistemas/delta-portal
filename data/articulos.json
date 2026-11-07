@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-07T00:49:14-03:00",
+    "actualizado": "2026-11-07T02:47:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-07-estaciones-base-celular-china-89-por-ciento",
+      "titulo": "China vendió el 89% de las estaciones base de celular que importó la Argentina este año, la mayor proporción desde 2007",
+      "bajada": "Nueve de cada diez dólares que la Argentina gasta en estaciones base de celular importadas se le pagan a China, y el Gobierno acaba de aprobar una norma de ciberseguridad que, para los equipos más sensibles que compre el Estado, exige una certificación de una asociación estadounidense que Huawei y ZTE no pueden obtener. Entre enero y septiembre se importaron US$101,5 millones en estaciones base, más que en todo 2025, y US$90,7 millones vinieron de China. Nunca había sido una parte tan grande.",
+      "titulo_busqueda": "¿De dónde vienen los equipos de las antenas de celular en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "89,4%",
+      "numero_label": "parte de las estaciones base de celular importadas entre enero y septiembre de 2026 que vino de China, la más alta desde 2007",
+      "fecha": "2026-11-07",
+      "hora": "03:30",
+      "archivo": "articulos/2026-11-07-estaciones-base-celular-china-89-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "INDEC comex impom26 (imports_2026_M.zip) NCM 851761 ene-sep 2026: total CIF US$101,46 M, China (310) US$90,71 M = 89,4% (851761.30 = 100,1 M). Serie ene-sep 2007-2026: max previo 77,7% (2025); anual max previo 82,5% (2025). Total 9M 2026 suma propia 56.068,8 M = itotm26 control. 8517.62 China 48,9% de 555,6 M; total impo China 23,3%. Contraste Comtrade 851761 partner 32 X: 2025 China 39,82 de 41,8 (95,3%), 2024 83,7%, 2023 61,9%, 2022 48,6%, 2021 31,9% (+HK 27,9). Nivel: China FOB 39,8 vs INDEC FOB 79,7 (2025); partida 8517 kg 8.449 t vs 8.067 t, FOB 600,8 vs 908,4. Disp. CNC 7/2026 BO 06/11/2026 + Anexo I (3.1 SCS 9001, 36 meses; 2.1 g concentracion). TIA Policy v2.0 2025; FR 2025-21001 Huawei/ZTE covered."
+    },
     {
       "id": "2026-11-07-malvinas-sea-lion-reservas-santa-cruz-mendoza",
       "titulo": "El primer campo petrolero de Malvinas tiene casi tantas reservas probadas como Santa Cruz y el doble que Mendoza",
