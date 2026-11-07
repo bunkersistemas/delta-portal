@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-07T18:49:27-03:00",
+    "actualizado": "2026-11-07T20:49:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-07-luz-provincia-buenos-aires-74-por-ciento-edenor",
+      "titulo": "Por los mismos 300 kWh, un hogar de Bahía Blanca paga 74% más de luz que uno del conurbano atendido por Edenor",
+      "bajada": "Las cuatro distribuidoras cuyas tarifas fija la Provincia cobran entre 32% y 74% más que las dos que regula la Nación, aunque el precio mayorista de la energía es el mismo para todas. Sin subsidio y antes de impuestos, 300 kWh de luz costaron en septiembre $88.827 en EDES, la distribuidora del sur bonaerense, y $50.964 en Edenor. Y la brecha no la abrieron los aumentos de este año: hace doce meses, en tres de las cuatro, era más grande.",
+      "titulo_busqueda": "¿Dónde es más cara la luz en la provincia de Buenos Aires?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "74%",
+      "numero_label": "cuánto más paga un hogar sin subsidio de EDES (sur bonaerense) que uno de Edenor por 300 kWh de luz, sin impuestos, septiembre de 2026",
+      "fecha": "2026-11-07",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-07-luz-provincia-buenos-aires-74-por-ciento-edenor.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "EDES R3 (Res. MIySP PBA 682/2026, anexo 46): 12.259,05 + 300 x 255,2269 = 88.827,12; Edenor R2 (ENREGE Res. 534/2026, BO 01/09/2026): 3.775,55 + 300 x 157,295 = 50.964,05; 88.827,12/50.964,05 = 1,743. Sep-2025 (Res. 978/2025 anexo 4 y ENRE 614/2025): 62.490,36 vs 34.460,12 = 81,3%. Contraste IIEP Reporte #37 abr-2026, 265 kWh con impuestos: EDES 96.485 vs Edenor 49.154 (96%), mismo orden EDELAP < EDEA < EDEN < EDES. PEE residencial resto: Res. SE 190/2026 84.965 $/MWh (usada por PBA), Res. SE 222/2026 86.474 (usada por Edenor)."
+    },
     {
       "id": "2026-11-07-pesca-extranjera-atlantico-sur-56-por-ciento-calamar-doble",
       "titulo": "Los barcos extranjeros declaran pescar en el Atlántico Sur el 56% de lo que pesca la Argentina, no cuatro veces más; en el calamar, el doble",
