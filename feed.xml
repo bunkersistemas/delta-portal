@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 06 Nov 2026 20:59:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 06 Nov 2026 22:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Aun con todos los acuerdos que firmó y negocia, la Argentina sumaría el 69% del PBI mundial: el 80% que promete Quirno exige a China o a casi todo el resto</title>
+      <link>https://coninteres.com/articulos/2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china.html</guid>
+      <pubDate>Fri, 06 Nov 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Si se suma cada negociación que nombra la Cancillería, los acuerdos comerciales de la Argentina llegan al 69% del PBI mundial, no al 80% que el Gobierno fijó como meta. La Cancillería dice que la red pasó de cubrir el 10% al 30%. Rehicimos la cuenta con los datos del Banco Mundial y del FMI: el 30% cierra solo si se deja afuera el acuerdo con Estados Unidos; con él, da 55%. Para el 80% faltan 11 puntos, y sin contar a China quedan 14 en todo el resto del mundo.</description>
+      <ci:numero>69%</ci:numero>
+      <ci:numeroEtiqueta>del PBI mundial que suman los países con los que la Argentina tiene, firmó o negocia acuerdos comerciales, contando EE.UU.; la meta oficial es 80%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china.png" length="80794" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>PPI aporta el 2,8% del patrimonio de su fusión con Banco de Valores y sus dueños se quedan con el 4,47% del banco</title>
       <link>https://coninteres.com/articulos/2026-11-06-valo-ppi-fusion-patrimonio.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>aumento del volumen exportado en enero-septiembre de 2026 contra 2025: el nivel más alto para esos nueve meses desde 1986</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-exportaciones-volumen-record-1986-precios.png" length="72090" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-exportaciones-volumen-record-1986-precios.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina exportó 42,3 millones de kilos de yerba en nueve meses, la mayor cantidad desde 2002, pero cobró US$1,77 por kilo: el precio más bajo desde 2011</title>
-      <link>https://coninteres.com/articulos/2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011.html</guid>
-      <pubDate>Tue, 03 Nov 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Entre enero y septiembre de 2026 la Argentina vendió al exterior más yerba mate que en esos nueve meses de cualquier año desde 2002, y cobró por cada kilo el precio más bajo desde 2011. Según el INDEC, exportó 42,3 millones de kilos: 13,6% más que un año antes. Los dólares, en cambio, subieron solo 2,6%, porque el kilo se vendió a US$1,77 en promedio, 23,5% menos que en 2023. Con los precios de 2023, esos mismos kilos habrían dejado US$23 millones más.</description>
-      <ci:numero>US$1,77</ci:numero>
-      <ci:numeroEtiqueta>precio promedio por kilo de la yerba mate exportada entre enero y septiembre de 2026, el más bajo desde 2011</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011.png" length="79079" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-03-yerba-exportacion-record-precio-mas-bajo-2011.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

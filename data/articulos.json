@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-06T20:59:25-03:00",
+    "actualizado": "2026-11-06T22:48:23-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china",
+      "titulo": "Aun con todos los acuerdos que firmó y negocia, la Argentina sumaría el 69% del PBI mundial: el 80% que promete Quirno exige a China o a casi todo el resto",
+      "bajada": "Si se suma cada negociación que nombra la Cancillería, los acuerdos comerciales de la Argentina llegan al 69% del PBI mundial, no al 80% que el Gobierno fijó como meta. La Cancillería dice que la red pasó de cubrir el 10% al 30%. Rehicimos la cuenta con los datos del Banco Mundial y del FMI: el 30% cierra solo si se deja afuera el acuerdo con Estados Unidos; con él, da 55%. Para el 80% faltan 11 puntos, y sin contar a China quedan 14 en todo el resto del mundo.",
+      "titulo_busqueda": "¿Con qué países tiene acuerdos comerciales la Argentina y cuánto del PBI mundial cubren?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "69%",
+      "numero_label": "del PBI mundial que suman los países con los que la Argentina tiene, firmó o negocia acuerdos comerciales, contando EE.UU.; la meta oficial es 80%",
+      "fecha": "2026-11-06",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Calculo propio, PBI US$ corrientes 2025. Banco Mundial WDI NY.GDP.MKTP.CD (lastupdated 08/10/2026; LIE y ARE con 2024): mundo 118.350 mil M; red heredada (BRA PRY URY CHL BOL PER COL ECU MEX PAN ISR EGY IND + SACU) 9,37%; + UE (EUU 17,95) + EFTA (CHE NOR ISL LIE 1,36) + SGP 0,51 = 29,20%; + USA 26,00 = 55,19%; + negociacion (CAN VNM JPN ARE SLV KOR AUS BRN MYS NZL GBR) 13,76 = 68,95%. FMI WEO datamapper NGDPD 2025 (WEOWORLD 118.485,3): 9,33 / 29,20 / 55,24 / 69,08. China 16,47 (BM) / 16,56 (FMI); mundo sin CHN ni ARG 82,95 / 82,86. Cancilleria discurso 20/08/2026 Council of the Americas: 10% heredado, 'nos acercamos al treinta por ciento' con instrumentos concluidos (lista UE, EFTA, Singapur, EE.UU.), 50% corto plazo, 80% proximos anos; CPTPP 12 economias ~15% (BM 14,32). Lista vigentes y negociaciones: cancilleria.gob.ar acuerdos-comerciales-vigencia-reciente-negociacion. PPA (NY.GDP.MKTP.PP.CD 2025): heredada 15,76, +UE/EFTA/SGP 30,96. Scripts _privado/quirno/."
+    },
     {
       "id": "2026-11-06-valo-ppi-fusion-patrimonio",
       "titulo": "PPI aporta el 2,8% del patrimonio de su fusión con Banco de Valores y sus dueños se quedan con el 4,47% del banco",
