@@ -7895,6 +7895,20 @@
       "fecha": "2026-11-07",
       "estado": "descartada",
       "articulo_id": ""
+    },
+    {
+      "id": "2026-11-07-pesca-extranjera-atlantico-sur-56-por-ciento-calamar-doble",
+      "fecha": "2026-11-07",
+      "estado": "en_cola",
+      "tema": "¿cuánto pescan los barcos extranjeros en el Atlántico Sur frente a la flota argentina? (pregunta detrás de infobae 07/11/2026 «Quiénes pescan en el Mar Argentino: lanzan la primera plataforma...», CPA y Sin Azul No Hay Verde, 520 barcos; y del informe de FULASP «hasta cuatro veces», iProfesional 28/07 y MercoPress 07/06/2026) / FAO Global capture production 2026.1.0, área 41: barcos de países sin costa en la zona 491.272,8 t en 2024 = 56,4% de la Argentina (870.789,8); máximo 1950-2024 2,97 veces (1967); último año por encima 2015 (1,31); calamar Illex 2,05 veces (317.260,9 vs 154.956,8), 6,85 en 2015; extranjeros x2,03 desde 2019",
+      "angulo": "Corrida de redacción del 07/11/2026 18:30. Hallazgo: cruce del registro oficial de la FAO con la cifra que circula (FULASP, hasta cuatro veces): en el total lo declarado nunca pasó de 2,97 veces en 75 años y hoy es 56%; en el calamar sí hay ventaja extranjera (2,05) y las cuatro veces se dieron en 2014-2015. Distinto de la nota del 27/09 (licencias de Malvinas, recaudación de las islas) y del IPI pesquero (06/10). Camino: estadística oficial recalculada desde la base cruda + contraste SSPyA (coincide especie por especie; diferencia total = vieira en callos vs peso vivo). Se aclara que es pesca declarada: la no declarada no se mide.",
+      "archivo": "cola/2026-11-07-pesca-extranjera-atlantico-sur-56-por-ciento-calamar-doble.html"
+    },
+    {
+      "fecha": "2026-11-07",
+      "estado": "descartada",
+      "tema": "descartes de la corrida de redacción del 07/11/2026 18:30. Clarín y TN no cargaron (WebFetch bloqueado; curl denegado). Lista: (1) HALLAZGO, MUNDO, pregunta detrás de la noticia: pesca declarada a la FAO por barcos extranjeros en el Atlántico Sudoccidental contra la flota argentina y contra el «hasta cuatro veces» de FULASP [infobae 07/11, plataforma CPA-SANHV; iProfesional, MercoPress]: APTA. (2) EMPRESAS: Inversora Eléctrica de Buenos Aires EEFF 30/09 (CNV 06/11): mismo molde que Edenor 06/11; cupo de empresas cubierto hoy (Aeropuertos Argentina 2000 y Fiplasto). (3) EMPRESAS: Mastellone HR 06/11: sin EEFF al 30/09 en la CNV; se retoma con el balance. (4) EMPRESAS: Luz de Tres Picos, prospecto de fusión por absorción (CNV 06/11): retomable, sin leer los anexos; IMPSA transcripción EEFF 30/06: sin cifras. (5) EMPRESAS: recompras de Banco Macro, BYMA, A3 y Central Puerto; Caja de Valores dividendos: rutina. (6) Argentina LNG firma 28 contratos por US$51.000 M [iProfesional]: sin documento presentado por la empresa con montos. (7) Adecoagro y las plantas de SanCor [iProfesional]: solo en prensa. (8) los economistas empeoran la proyección de crecimiento [La Nación]: REM publicado 05/11 (inflación) y crecimiento 2026 cubierto. (9) créditos hipotecarios frenados pese a la ANSES [La Nación, iProfesional]: hipotecarios publicados 25/09, 02/10, 13/10 y 16/10. (10) riesgo país cerca de 940 [infobae, La Nación, ámbito, iProfesional, Página12]: publicada 29/10. (11) inflación porteña 1,9% [La Nación, ámbito, iProfesional, Página12]: dato del día; IPC nacional el 12/11. (12) CyberMonday -20% [infobae, La Nación]: cifra de una cámara; cuotas del Cyber publicadas 02/11. (13) visita de León XIV, impacto económico y turistas [La Nación, ámbito, Cronista]: costo publicado 12/10 y 06/11, Iglesia publicada hoy 17:30. Calendario: nada de INDEC/BCRA hoy (IPC y CBT el 12/11). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida."
     }
   ]
 }
