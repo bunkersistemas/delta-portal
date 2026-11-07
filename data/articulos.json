@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-07T08:50:45-03:00",
+    "actualizado": "2026-11-07T10:58:41-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-07-deuda-flotante-estado-25-por-ciento-octubre",
+      "titulo": "La deuda flotante de $2,86 billones es el 2,5% del gasto del año: más que en 2025, pero menos que en cualquier año entre 2017 y 2024",
+      "bajada": "El Estado nacional cerró octubre con $2,86 billones de gastos ya anotados y todavía sin pagar. Medida con la misma vara, es el 2,5% de lo que devengó en el año sin contar la deuda: más que el 1,5% de octubre de 2025, pero menos que en cualquier octubre entre 2017 y 2024, cuando estuvo entre 3,2% y 5,4%. Y en los primeros días hábiles de noviembre, más de la mitad se pagó.",
+      "titulo_busqueda": "Deuda flotante del Estado: cuánto quedó sin pagar a fin de octubre de 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "2,5%",
+      "numero_label": "parte del gasto nacional devengado de enero a octubre de 2026 que seguía sin pagar el 31 de octubre, sin contar la deuda",
+      "fecha": "2026-11-07",
+      "hora": "10:30",
+      "archivo": "articulos/2026-11-07-deuda-flotante-estado-25-por-ciento-octubre.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Presupuesto Abierto credito-mensual-2026.zip (act. 04/11/2026), sin inciso 7, meses 1-10: devengado 114.954.308 M, pagado 112.094.646 M, impago 2.859.662 M = 2,488%. Anual 2026 = mensual al peso (128.711.267,5 / 127.116.305,6 con todos los incisos). Ene-sep identico en descargas del 14/10 y 04/11. Serie al 31/10 (archivos finales): 2017 3,86; 2018 4,72; 2019 3,71; 2020 3,19; 2021 4,09; 2022 5,24; 2023 5,38; 2024 3,45; 2025 1,47. Mes 11 al 04/11: dev 265.190, pag 1.754.996, impago del año 1.369.857 (1,19%). Contrastes: OPC ene-sep gastos $115,8 b (nuestro 115.851.567); IARAF via Cronista 02/10 ene-sep 102,9/99,8/>3,1 (nuestro 102.957.423/99.784.438/3.172.985); IARAF via Ambito oct 12,0/12,3 (nuestro 11.996.885/12.310.207); Hacienda base caja sep universidades +42,4% vs PA pagado Desarrollo Educacion Superior transferencias 543.618/381.388 = +42,5% (devengado +167,9%). Ambito 06/11: 115,2/112,3/2,86."
+    },
     {
       "id": "2026-11-07-comida-en-dolares-argentina-vs-mundo-fao",
       "titulo": "La comida subió 24,9% en dólares en la Argentina en un año, contra 5,4% en el mundo",
