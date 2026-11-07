@@ -7821,6 +7821,21 @@
       "fecha": "2026-11-07",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "id": "2026-11-07-comida-en-dolares-argentina-vs-mundo-fao",
+      "fecha": "2026-11-07",
+      "estado": "en_cola",
+      "tema": "¿está más cara la comida en dólares en la Argentina que en el mundo? (pregunta detrás de ámbito 07/11/2026 'Los precios globales de los alimentos bajaron en octubre, pero aún son 6% más altos que en 2025', informe FAO del 06/11) / IPC INDEC alimentos nacional sep-25 -> sep-26 +35,1% en pesos, A3500 promedio +8,1%: +24,9% en dólares; FAO +5,4%; EE.UU. food at home +1,8%; IPCBA alimentos +31,5% -> +21,6% en USD; dic-16 -> sep-26 Argentina USD +40,0% vs FAO +42,3% (relación 98,4; sep-25 83,0; sin cepo entre 67,9 y 112,0)",
+      "angulo": "Retoma la candidata 'índice FAO, retomable con cruce contra INDEC' del 06/11. Hallazgo: en un año la comida argentina se encareció en dólares 4,6 veces más que la referencia mundial, pero la serie desde 2016 muestra que el salto la devolvió a la relación de diciembre de 2016 con la FAO, no a un lugar nuevo. Distinto de las notas de Brasil (05/10) y Europa (25/10), que comparaban el tipo de cambio real general con el Big Mac. Camino: estadística oficial recalculada (INDEC csv = datos.gob.ar; A3500 diario) + contraste IDECBA y BLS. Se excluyen los meses de cepo (sep-19 a abr-25).",
+      "archivo": "cola/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.html"
+    },
+    {
+      "fecha": "2026-11-07",
+      "estado": "descartada",
+      "angulo": "Registro de candidatas de la corrida.",
+      "motivo_descarte": "pasó la candidata 1 (comida en dólares contra la FAO)",
+      "tema": "descartes de la corrida de redacción del 07/11/2026 08:30. Clarín y TN no cargaron (WebFetch bloqueado). Lista: (1) HALLAZGO, MUNDO: comida en dólares (IPC INDEC / A3500) contra el índice FAO y el súper de EE.UU. [ámbito; FAO 06/11], contraste IDECBA: APTA. (2) EMPRESAS: Mastellone, HR 06/11 ganancia neta 9M26 $8.133 M (CUIT 30-54724233-1 ubicado; en la página de la CNV todavía no están los EEFF al 30/09, solo el HR y las actas): se retoma con los EEFF para cruzar con el precio SIGLeA al tambero; cupo de empresas cubierto hoy por Aeropuertos Argentina 2000. (3) EMPRESAS: Inversora Eléctrica de Buenos Aires EEFF 30/09: mismo molde que Edenor 06/11. (4) EMPRESAS: Luz de Tres Picos prospecto de fusión: sin cifra de negocio. (5) cheques rechazados / 'cadena de pagos en peligro' [Página12]: publicada 21/07, serie de septiembre descartada 30/10. (6) hipotecarios frenados pese a la ANSES [La Nación]: cinco notas de hipotecarios entre 25/09 y 16/10. (7) riesgo país cerca de 940 [infobae, La Nación, ámbito, iProfesional, Cronista, Página12]: publicada 29/10. (8) inflación porteña 1,9% [6 portadas]: dato del día; IPC nacional 12/11. (9) IPI y construcción de septiembre: ISAC publicado 06/11, IPI dato del día. (10) Quilmes y la malta a India [La Nación]: comex-serie ya publicado hoy (estaciones base). (11) inflación OCDE 4,5% [ámbito]: Argentina-Turquía publicada 07/10. (12) gasto público -10% en octubre [ámbito]: sin dato oficial de octubre todavía. pregunta.json ya era de hoy."
     }
   ]
 }

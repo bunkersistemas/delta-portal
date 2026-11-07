@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-07T06:44:24-03:00",
+    "actualizado": "2026-11-07T08:50:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-07-comida-en-dolares-argentina-vs-mundo-fao",
+      "titulo": "La comida subió 24,9% en dólares en la Argentina en un año, contra 5,4% en el mundo",
+      "bajada": "En un año, la comida argentina se encareció en dólares 4,6 veces más que la referencia mundial. Y aun así el salto no la llevó a un lugar nuevo: la devolvió a la misma relación con los precios mundiales que tenía en diciembre de 2016. Entre septiembre de 2025 y septiembre de 2026 los alimentos del IPC del INDEC subieron 35,1% en pesos y el dólar oficial, 8,1%: medidos en dólares, subieron 24,9%. En el mismo año el índice de precios de los alimentos de la FAO subió 5,4% y el súper en Estados Unidos, 1,8%.",
+      "titulo_busqueda": "¿Por qué la comida está tan cara en dólares en la Argentina?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "+24,9%",
+      "numero_label": "cuánto subieron en dólares los alimentos del IPC del INDEC entre septiembre de 2025 y septiembre de 2026",
+      "fecha": "2026-11-07",
+      "hora": "08:30",
+      "archivo": "articulos/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "INDEC serie_ipc_divisiones.csv, Nacional, división 01: sep-25 9.910,131, sep-26 13.384,1945, v_i_a 35,1 (recalculado 35,06%; = datos.gob.ar 146.3_IALIMENNAL_DICI_M_45 en 117 meses, dif. máx. 0,0005). BCRA com3500.xls, promedio de los 22 días hábiles: sep-25 $1.399,8977, sep-26 $1.513,887 (+8,14%). 1,3506/1,0814 = 1,2489. FAO FFPI CSV = xlsx: dic-16 95,27, sep-25 128,57, sep-26 135,56 (+5,44%), oct-26 133,92 (-1,2%, informe 06/11). Contraste IDECBA IR 2064: IPCBA alimentos sep-26 +31,5% i.a. -> +21,6% en USD. BLS CUSR0000SAF11 (FRED): 315,540 -> 321,111 (+1,77%); dic-16 237,147 (+35,4%). Dic-16 -> sep-26: Argentina USD +39,95%, FAO +42,29%. Relación Arg/FAO (dic-16 = 100) sin cepo: máx. 112,0 abr-17, mín. 67,9 sep-18; sep-25 83,0; sep-26 98,4."
+    },
     {
       "id": "2026-11-07-fondo-rutas-combustibles-rentas-superan-obras",
       "titulo": "El fideicomiso de rutas y trenes cobró más por sus colocaciones que lo que giró a obras: $145.600 millones contra $117.870 millones en el semestre",
