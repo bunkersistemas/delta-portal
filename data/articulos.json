@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T16:52:56-03:00",
+    "actualizado": "2026-11-08T19:04:28-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-juicios-laborales-record-ciudad-provincia-mapa",
+      "titulo": "Los juicios por accidentes de trabajo llegaron a un récord en 2025, pero con otro mapa: la Ciudad pasó de casi la mitad a uno de cada cinco",
+      "bajada": "Los juicios por accidentes y enfermedades laborales llegaron en 2025 a 130.045, la mayor cantidad de la serie oficial que empieza en 2010, aunque los accidentes notificados bajaron. La ley de 2017 los había reducido casi a la mitad en dos años. Volvieron, pero con otro mapa: en 2016 la Ciudad de Buenos Aires tenía el 48,1% de los juicios y la Provincia, el 15,6%; en 2025, la Ciudad tiene el 19,7% y la Provincia, el 38,4%.",
+      "titulo_busqueda": "Juicios contra las ART por provincia: récord de 130.045 en 2025 y la Ciudad ya no es la que más tiene",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "130.045",
+      "numero_label": "juicios por accidentes y enfermedades laborales notificados en 2025, la mayor cantidad de la serie oficial que empieza en 2010",
+      "fecha": "2026-11-08",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-08-juicios-laborales-record-ciudad-provincia-mapa.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "SRT serie historica de litigiosidad, 'serie historica de indices judicialidad.xlsx' (jul-2026) cuadro 1 Total sistema 2025 = 130.045 (UP 127.826 + CP 2.219); maximo previo 2024 124.516, 2017 124.378. Recalculo: suma mensual 'Juicios - Total Sistema.xlsx' (oct-2026) 2025 = 130.057 (corte distinto); suma de 24 jurisdicciones = total UP en 2010-2025. Contraste UART 'La paradoja' nov-2026 p.12: 2025 134.141 (+3,1%), 2024 126.055, 2017 130.679; 2017-19 -48,0% vs SRT -46,4%; 2019-25 +97,6% vs +95,2%; diferencia anual maxima 5,8%. Casos notificados SRT globales Rev4 cuadro 1: 2019 562.003, 2025 542.396 (-3,5%). Indice SRT por mil siniestros 2025 174,0 (2017 183,6; 2019 98,8). Participacion UP: CABA 2016 48,1% (58.822/122.236) -> 2025 19,7% (25.156/127.826); PBA 15,6% (19.061) -> 38,4% (49.123). Chubut 500 -> 3.913 (x7,8, indice 363,1), San Luis 638 -> 3.176 (x5,0, 323,9); adhesion 2024 segun SRT (argentina.gob.ar node 453853 y 475062). Ene-jul 2026 65.898 vs 69.136 (-4,7%)."
+    },
     {
       "id": "2026-11-08-impsa-venezuela-corpoelec-137-millones",
       "titulo": "IMPSA vende todo en la Argentina, pero el 92,6% de lo que tiene por cobrar está en Venezuela: US$137,7 millones que su auditor no puede decir cuándo cobrará",
