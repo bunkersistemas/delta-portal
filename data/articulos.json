@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T03:04:27-03:00",
+    "actualizado": "2026-11-08T04:45:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-prestamo-personal-doble-tasa-empresas-2005",
+      "titulo": "Un préstamo personal cuesta el doble de interés que el crédito de un banco a una empresa, la proporción más alta desde 2005",
+      "bajada": "En un año las tasas bajaron, pero sobre todo para las empresas. Entre enero y octubre de 2026, la tasa de un préstamo personal fue en promedio 2,04 veces la de un documento a sola firma, el crédito más común de las empresas: el promedio más alto desde 2005. Hace un año era 1,35 veces. En septiembre, según el BCRA, los bancos cobraron 62,7% anual por el primero y 31,6% por el segundo. Parte de la explicación está en la mora: en agosto estaba en situación irregular el 12,8% del crédito a las familias y el 3,8% del crédito a las empresas.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "2,04 veces",
+      "numero_label": "tasa de los préstamos personales sobre la de los documentos a sola firma de las empresas, promedio de enero a octubre de 2026",
+      "fecha": "2026-11-08",
+      "hora": "04:30",
+      "archivo": "articulos/2026-11-08-prestamo-personal-doble-tasa-empresas-2005.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA API v4.0 var 1219 (personales tasa fija) / var 1216 (documentos a sola firma tasa fija), cociente mensual promedio ene-oct 2026 = 2,0407 (ene 1,76 feb 1,74 mar 1,86 abr 2,18 may 2,23 jun 2,284 jul 2,21 ago 2,12 sep 2,00 oct 2,03: 62,90/30,95). IMM sept-2026 p.10: docs 31,6 / pers 62,7 (1,98); ago 31,1/65,8; jul 29,9/65,8; dic-25 37,0/71,1; sep-25 60,9/82,1 (1,35); API sep-26 31,35/62,62, sep-25 60,51/81,89 (dif. <=0,4 pp, API solo tasa fija). Superlativo: promedios anuales 2005 2,539, 2006 1,962, 2010 1,9995, 2025 1,765; jun-26 2,284 mayor desde nov-05 2,29; feb-may 2008 excluidos (personales 74,2-74,8% entre 27,7 y 30,1; tarjetas 26%; con ellos 2008 = 2,64). Contraste: MAV informe mensual oct-26 CPD avalados 26,40%, garantizados 25,59%, no garantizados 31%; transparencia BCRA personales pesos tasa fija, 8 bancos grandes, info ago-oct 2026, 54 lineas, TEA max mediana 108,95% = TNA 76,0% (medianas por banco: Credicoop 44,0, Nacion 49,0, Provincia 67,9, Ciudad 72,0, Santander 76,0, Patagonia 79,8, Galicia 83,2, BBVA 119,4). Mora Informe sobre Bancos ago-26: familias 12,81%, personales+TC 14,61%, empresas 3,80%, total 7,75%. Margen sobre PF personas hasta $1M (IMM): empresas 17,5 -> 12,4 pp; familias 38,7 -> 43,5 pp."
+    },
     {
       "id": "2026-11-08-grandes-usuarios-electricidad-invierno-82-por-ciento",
       "titulo": "Las grandes empresas pagaron la electricidad del invierno 82% más cara que en 2025, aunque en agosto se quemó menos combustible",
