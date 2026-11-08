@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T10:51:31-03:00",
+    "actualizado": "2026-11-08T13:03:51-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-transferencias-provincias-caida-ciudad-cautelar",
+      "titulo": "La plata que la Nación gira a las provincias cayó 61,4%, pero más de dos tercios de esa baja es la Ciudad",
+      "bajada": "Entre enero y septiembre, las transferencias corrientes de la Nación a provincias y municipios cayeron 61,4% descontada la inflación. Parece un recorte de casi dos tercios a los gobernadores, pero el 68,8% de esa caída sale de una sola línea del presupuesto: la plata que la Nación le debe a la Ciudad de Buenos Aires por la cautelar de la Corte sobre la coparticipación. Esa línea tuvo un único pago en 2026, en febrero. En mayo la deuda se canceló con $813.443 millones en bonos, que no pasan por esa cuenta. Otra parte de la baja es un cambio de casillero de siete hospitales. Todo lo demás subió 9,8%.",
+      "titulo_busqueda": "¿Cuánta plata manda la Nación a las provincias en 2026? La caída de 61,4% es, sobre todo, la Ciudad",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "68,8%",
+      "numero_label": "parte de la caída de las transferencias corrientes de la Nación a provincias en enero-septiembre de 2026 que es la cautelar de la Ciudad",
+      "fecha": "2026-11-08",
+      "hora": "13:30",
+      "archivo": "articulos/2026-11-08-transferencias-provincias-caida-ciudad-cautelar.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Presupuesto Abierto credito mensual 2025 y 2026 (act. 08/11/2026), inciso 5 principal 7, devengado ene-sep, IPC INDEC a pesos de sep-26 (12.514,1508): total 2.630.406,8 -> 1.015.689,0 M (-61,4%); cautelar CSJN 1864/2022 (356-67-1) 1.213.880,4 -> 102.527,2 (nominal 831.954,9 -> 87.783,9, unico pago feb-26); caida 1.614.717,8, cautelar 1.111.353,2 = 68,83%; hospitales (7, Transferencias Varias) 584.785,8 -> 0 (en 2026 en 5.5.3/5.5.4: nominal 558.749,8 vs 406.268,7, real +2,2%); resto 831.740,6 -> 913.161,7 (+9,8%). Recalculo: mensual = anual (cautelar 2025 1.004.369,3; 2026 87.783,9). Contraste: IARAF via La Nacion 07/11 -61% ene-oct; Politikon Chaco via Cronista feb-26 cautelar 87.784 M (igual); RC 29/2026 BO 29/05/2026 credito CABA al 31/03/2026 $813.442.779.604,73 cancelado con T30J6/S31G6/S30O6/T30A7."
+    },
     {
       "id": "2026-11-08-riesgo-pais-se-duplico-tres-meses-vecinos",
       "titulo": "El riesgo país se duplicó en tres meses por sexta vez desde 1999: esta vez el de los vecinos subió 13%",
