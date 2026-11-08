@@ -1,5 +1,25 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-11-07T20:30:00-03:00",
-  "borradores": []
+  "actualizado": "2026-11-07T22:50:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-11-07-boca-campeon-tabla-anual-cuanta-plata",
+      "titulo": "¿Cuánta plata le deja a Boca ser campeón de la tabla anual, y cuánto puede sumar si gana todas las finales que le quedan?",
+      "titulo_busqueda": "",
+      "bajada": "El título de la tabla anual no trae ningún premio en dinero publicado. El único premio oficial para los campeones de los torneos de liga, el de la CONMEBOL, alcanza para dos campeones por año, y uno ya lo cobró Belgrano. Con lo que sí está publicado, Boca lleva ganados US$6,4 millones en premios en 2026. Si gana la Sudamericana y la Copa Argentina, llega a US$16,6 millones, el 9,6% de lo que presupuestó ingresar en un año. Seis de cada diez dólares de esa cuenta salen de una sola final.",
+      "seccion": "DEPORTES",
+      "formato": "Investigación",
+      "numero": "US$16,6 M",
+      "numero_label": "lo máximo que Boca puede sumar en premios oficiales publicados en 2026, si gana la Sudamericana y la Copa Argentina",
+      "numero_fuente": "Libertadores 3,68 (3x1+2x0,34) + Sudamericana hasta semi 2,6 (0,5+0,6+0,7+0,8; CONMEBOL 24/09/2026) + final Sudamericana 10 (CONMEBOL 19/03/2026 y 24/09/2026) = US$16,28 M; Copa Argentina campeón $496,6 M (AFA Boletín 6850) / A3500 05/11/2026 1.545,3974 = US$0,32 M; total US$16,60 M. Ya ganado US$6,40 M ($9.895 M). Presupuesto 2026/27 $239.392 M / 1.381,45 = US$173,3 M -> 9,6%. Tabla anual: sin premio oficial; CONMEBOL da US$1 M/año por asociación en hasta dos premios, uno a Belgrano (Apertura 2026, CONMEBOL 25/05 y AFA 26/05).",
+      "fecha": "2026-11-07",
+      "hora": "22:50",
+      "archivo": "cola/2026-11-07-boca-campeon-tabla-anual-cuanta-plata.html",
+      "verificacion": "verificada",
+      "fuentes": 25,
+      "lectura": "30 seg → 8 min",
+      "pedido": 114,
+      "revision_lector": true
+    }
+  ]
 }

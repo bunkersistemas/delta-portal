@@ -7924,6 +7924,15 @@
       "angulo": "Registro de candidatas de la corrida.",
       "motivo_descarte": "pasó la candidata 1 (luz bonaerense contra Edenor)",
       "tema": "descartes de la corrida de redacción del 07/11/2026 20:30. Clarín y TN no cargaron (WebFetch bloqueado). Lista: (1) HALLAZGO, ECONOMÍA PROVINCIAL (sección que faltaba hoy), pregunta detrás de la noticia: luz de las distribuidoras bonaerenses contra Edenor y Edesur con el mismo hogar, cuadros de los dos reguladores + IIEP [La Nación 07/11, tarifas bonaerenses y cautelar]: APTA. (2) EMPRESAS: Mastellone HR 06/11, sin EEFF al 30/09 en la CNV; cupo de empresas cubierto hoy (Aeropuertos Argentina 2000 y Fiplasto). (3) EMPRESAS: Inversora Eléctrica de Buenos Aires EEFF 30/09: mismo molde que Edenor 06/11. (4) EMPRESAS: Luz de Tres Picos, prospecto de fusión: retomable, sin leer los anexos. (5) riesgo país cerca de 940, segundo de América Latina [infobae, La Nación, ámbito, iProfesional, Página12]: publicada 29/10, EMBI sin fuente abierta. (6) pobreza 45,4% según Equilibra [ámbito]: estimación de una consultora; pobreza 2T publicada 06/11. (7) el feriado por la visita del papa recorta la actividad de noviembre [iProfesional]: proyección sin dato; papa publicado 06/11 y 07/11. (8) exhorto a EE.UU. por datos financieros de Tapia y Toviggino [La Nación]: causa judicial sin cifras; balance de la AFA frenado 06/10. (9) Boca campeón de la Tabla Anual [infobae, La Nación]: premios publicados. (10) BGH recorta 250 puestos en Río Grande [Página12]: electrónica fueguina publicada 09/10. (11) fabricantes de maquinaria agrícola endeudados por importaciones [infobae]: Agrometal publicada 06/11. (12) cosecha de trigo de 23,8 Mt [infobae]: estimación de bolsa; trigo a Brasil publicado 23/10. (13) inflación porteña [ámbito, Página12] y CyberMonday -20% [La Nación]: dato del día y cifra de cámara. Calendario: nada de INDEC/BCRA hoy (IPC y CBT el 12/11). pregunta.json ya era de hoy."
+    },
+    {
+      "fecha": "2026-11-07",
+      "estado": "en_cola",
+      "id": "2026-11-07-boca-campeon-tabla-anual-cuanta-plata",
+      "tema": "Pedido de lector 114: cuánta plata le deja a Boca el título de la tabla anual 2026 (Campeón de Liga) y cuánto suma en premios si gana las finales que le quedan",
+      "angulo": "Nuevo frente a las notas del 06/10, 21/10 (Sudamericana) y 27/09 (Copa Argentina): la tabla anual no tiene premio oficial; el incentivo CONMEBOL a campeones locales es US$1 M/año por asociación en hasta dos premios y uno ya fue a Belgrano (Apertura 2026). Suma de todo el año: US$6,4 M ganados, hasta US$16,6 M si gana Sudamericana y Copa Argentina (9,6% del presupuesto 2026/27).",
+      "seccion": "DEPORTES",
+      "pedido": 114
     }
   ]
 }

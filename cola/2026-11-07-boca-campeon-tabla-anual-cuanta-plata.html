@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Cuánto cobra Boca por ganar la tabla anual 2026? Premios del Campeón de Liga y de las finales que le quedan — CON INTERÉS</title>
+<meta name="description" content="Por la tabla anual no hay premio oficial publicado. Con los premios de la CONMEBOL y la AFA, Boca lleva US$6,4 millones en 2026 y puede llegar a US$16,6 millones si gana la Sudamericana y la Copa Argentina.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+</style>
+</head>
+<body data-palette="#0E7C86,#6B6560,#C4701F,#C0392B">
+<div class="draft-ribbon"><b>BORRADOR</b> · pendiente de aprobación · no indexado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<div class="borrador"><div class="borrador-in"><b>Borrador.</b> Borrador generado por la redacción de agentes y pendiente de aprobación. Las cifras fueron verificadas con el protocolo de Con Interés.</div></div>
+<article>
+  <div class="kicker">DEPORTES <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+<div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Cuánta plata le deja a Boca ser campeón de la tabla anual, y cuánto puede sumar si gana todas las finales que le quedan?</h1>
+
+  <p class="standfirst">El título de la tabla anual no trae ningún premio en dinero publicado. El único premio oficial para los campeones de los torneos de liga, el de la CONMEBOL, alcanza para dos campeones por año, y uno ya lo cobró Belgrano. Con lo que sí está publicado, Boca lleva ganados US$6,4 millones en premios en 2026. Si gana la Sudamericana y la Copa Argentina, llega a US$16,6 millones, el 9,6% de lo que presupuestó ingresar en un año. Seis de cada diez dólares de esa cuenta salen de una sola final.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>7 de noviembre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 8 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta qué le deja a Boca el título de Campeón de Liga 2026, cuánto ganó en premios oficiales en el año (Libertadores, Sudamericana y Copa Argentina) y cuánto puede sumar en las finales que le quedan, en dólares y en pesos, al lado de su presupuesto. Hay una parte que no se pudo contestar: la AFA y la Liga Profesional no publican premios para la tabla anual, el Clausura, el Trofeo de Campeones ni las Supercopas, y la CONMEBOL todavía no anunció los de 2027. Esos títulos se cuentan, pero no entran en la suma. Tampoco entran los premios que el club le paga al plantel ni las cláusulas de los sponsors, que son contratos privados.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">3m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">US$16,6<span class="u">M</span></div>
+      <div class="cap">Es lo máximo que Boca puede sumar en 2026 con los <b>premios oficiales publicados</b>, si gana la Sudamericana y la Copa Argentina. Hoy lleva <b>US$6,4 millones</b>. Por la tabla anual, ningún documento oficial le asigna un peso.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v">US$6,4 M</span><span class="k">lo que ya ganó en premios en 2026</span></div>
+        <div class="sr"><span class="v up">US$10 M</span><span class="k">el premio de la final de la Sudamericana</span></div>
+        <div class="sr"><span class="v">US$0</span><span class="k">premio publicado por la tabla anual</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Lo que vale el título de la tabla anual</h3>
+    <p class="lead">Boca es el Campeón de Liga 2026 desde el sábado 7 de noviembre, y ese título no le trae ningún premio en dinero publicado. Le ganó 1 a 0 a Defensa y Justicia en la Bombonera, con un gol de Enner Valencia en la última jugada, y terminó primero en la tabla anual con 63 puntos, uno más que Rosario Central, según las crónicas de <a href="https://www.lagaceta.com.ar/nota/1161519/deportes/boca-gano-ultima-jugada-se-consagro-campeon-tabla-anual-2026.html">La Gaceta</a> y <a href="https://www.eldiarioar.com/deportes/futbol/boca-campeon-liga-profesional-gol-agonico-enner-valencia_1_13647389.html">elDiarioAR</a>.</p>
+    <p>El título lo crea el <a href="https://www.ligaprofesional.ar/wp-content/uploads/2026/01/Reglamento-Torneos-LPF-Primera-2026-1.pdf">reglamento de la Liga Profesional</a>: el artículo 24 consagra «Campeón de Liga 2026» al primero de la tabla que suma el Apertura y el Clausura. El reglamento le da dos cosas, y <b>ninguna es plata</b>. La primera es una plaza en la <b>Libertadores 2027</b>: el artículo 27.4 le da el lugar «Argentina 4» al mejor de la tabla que no haya clasificado por otra vía. La segunda es un lugar en la <b>Supercopa Internacional 2027</b>: el artículo 30 la define como la final entre el Campeón de Liga y el ganador del Trofeo de Campeones.</p>
+    <p>La cifra que circula no tiene un pagador identificado. Varios medios, como <a href="https://www.ambito.com/deportes/insolito-rosario-central-comenzo-celebrar-el-campeonato-antes-tiempo-y-finalmente-boca-se-lo-arrebato-n6342851">Ámbito</a>, escribieron que el título trae «una suma económica (u$s500.000)», sin decir quién la paga. No la encontramos en ningún documento de la AFA, de la Liga ni de la CONMEBOL. Y el único premio oficial que encontramos para los campeones de los torneos de liga tiene un tope que ya está casi agotado.</p>
+    <p>Ese premio lo paga la CONMEBOL. Desde 2022 le da a cada una de sus diez asociaciones <b>US$1 millón por año</b> para premiar a sus campeones locales, y cada asociación puede dividirlo «hasta en dos premios», según el comunicado de la confederación sobre el <a href="https://www.conmebol.com/noticias/la-conmebol-y-afa-entregan-premio-monetario-al-campeon-argentino/">pago a Estudiantes de 2024</a>. El 25 de mayo de este año, la CONMEBOL y la AFA le entregaron <b>US$500.000 a Belgrano por el Apertura 2026</b>, como contaron la <a href="https://www.conmebol.com/noticias/conmebol-y-afa-entregan-incentivo-economico-al-campeon-argentino/">CONMEBOL</a> y la <a href="https://www.afa.com.ar/es/posts/conmebol-y-afa-entregan-incentivo-economico-al-campeon-argentino">AFA</a>. Queda, como mucho, <b>un premio de US$500.000 para el resto del año</b>.</p>
+    <p>Ningún documento oficial dice a quién va ese segundo premio. En 2025, cuando la AFA también tuvo Apertura, Clausura y Campeón de Liga, fue para el campeón del Clausura, Estudiantes, según <a href="https://www.marketingregistrado.com/futbol/2025/estudiantes-campeon-torneo-clausura-llevo-premio-500000-dolares-45298/">Marketing Registrado</a> y <a href="https://eleconomista.com.ar/deportes/el-premio-economico-recibio-estudiantes-consagrarse-campeon-trofeo-campeones-2025-n91479">El Economista</a>. Del Campeón de Liga 2025, Rosario Central, no se publicó ningún premio. Por eso <b>la tabla anual entra en esta cuenta con cero</b>: no porque esté confirmado que no cobre nada, sino porque no hay ningún monto oficial para sumar. Si Boca gana también el Clausura, podría quedarse con ese segundo premio, pero tampoco eso está escrito.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Lo que ya ganó en 2026</h3>
+    <p>Los premios que sí están publicados son los de las copas. En la <b>Libertadores</b>, donde quedó afuera en la fase de grupos, Boca ganó US$3,68 millones: US$1 millón por cada uno de sus tres partidos de local y US$340.000 por cada una de sus dos victorias, según la escala de la <a href="https://www.conmebol.com/noticias/la-conmebol-libertadores-incrementa-una-vez-mas-sus-premios-para-la-edicion-2026/">CONMEBOL</a>. En la <b>Sudamericana</b> lleva US$2,6 millones hasta la semifinal, según el <a href="https://www.conmebol.com/noticias/los-premios-acumulados-de-los-semifinalistas-de-la-conmebol-libertadores-y-la-conmebol-sudamericana/">balance de la CONMEBOL de los semifinalistas</a>. Lo contamos en detalle el <a href="../articulos/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.html">6 de octubre</a> y el <a href="../articulos/2026-10-21-boca-final-sudamericana-cuanta-plata.html">21 de octubre</a>.</p>
+    <p>En la <b>Copa Argentina</b>, donde llegó a la semifinal, ganó $190,1 millones: $12,1 millones por participar y los premios de cuatro rondas ganadas, según el <a href="https://assets1.afa.com.ar/2026/BOLETINES/Boletin-Resoluciones-6850-(20-03-2026).pdf">Boletín 6850 de la AFA</a>, como contamos el <a href="../articulos/2026-09-27-cuanto-gana-campeon-copa-argentina-premios.html">27 de septiembre</a>. Al dólar mayorista del 5 de noviembre ($1.545,40), son unos US$123.000.</p>
+    <p>En total, Boca lleva ganados <b>US$6,4 millones en premios en 2026</b>, unos <b>$9.895 millones</b>. Casi todo es plata de la CONMEBOL: la Copa Argentina aporta menos del 2%.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Si gana todo lo que le queda</h3>
+    <p>A Boca le quedan cuatro títulos en juego, según el repaso de <a href="https://www.diariouno.com.ar/ovacion/futbol/boca-volvio-ser-campeon-despues-casi-4-anos-y-va-otros-4-titulos-el-cierre-la-temporada-n1614414">Diario Uno</a>. Solo dos tienen premio publicado, y uno pesa mucho más que el otro.</p>
+    <p>La <b>final de la Sudamericana</b>, el 21 de noviembre en Barranquilla contra Atlético Mineiro, como confirmaron <a href="https://www.primicias.ec/deportes/futbol/final-ecuatoriana-copa-sudamericana-atletico-mineiro-boca-juniors-135471/">Primicias</a> y <a href="https://www.emol.com/noticias/Deportes/2026/10/21/1214835/atletico-mineiro-finalista-sudamericana-boca.html">Emol</a>, paga <b>US$10 millones al campeón y US$2,5 millones al subcampeón</b>, según el <a href="https://www.conmebol.com/noticias/monto-record-para-el-campeon-de-la-conmebol-sudamericana/">anuncio de la CONMEBOL</a>. Es la final que más pesa: entre ganarla y perderla hay US$7,5 millones, unos $11.590 millones.</p>
+    <p>La <b>Copa Argentina</b> sigue el 14 de noviembre con la semifinal contra Banfield en el estadio Malvinas Argentinas de Mendoza, según <a href="https://www.elsol.com.ar/deportes/oficial-la-semi-de-copa-argentina-entre-boca-y-banfield-se-jugara-en-el-malvinas/">El Sol</a> y <a href="https://www.c5n.com/deportes/copa-argentina-se-confirmo-la-sede-y-el-horario-boca-vs-banfield-n251865">C5N</a>. Ganarla paga $106,5 millones y ganar la final, $200 millones más. Si es campeón, Boca suma $496,6 millones en la copa, unos US$321.000: <b>la trigésima parte del premio de la Sudamericana</b>.</p>
+    <p>Los otros dos títulos no tienen escala publicada. Boca juega los <b>playoffs del Clausura</b> desde los octavos de final: <a href="https://www.lanacion.com.ar/deportes/futbol/boca-argentinos-y-rosario-central-por-la-tabla-anual-en-vivo-asi-se-define-el-campeon-de-liga-nid07112026/">La Nación</a> lo cruza con Independiente Rivadavia. Si lo gana, juega el <b>Trofeo de Campeones</b> contra Belgrano el 19 de diciembre, la fecha que fija el artículo 22 del reglamento. De ahí salen las finales de 2027: la Supercopa Internacional, la Supercopa Argentina y, si gana la Sudamericana, la Recopa Sudamericana. Ninguna tiene premio oficial publicado para 2027.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Premios oficiales publicados de Boca en 2026 · millones de dólares</div>
+        <h3>Ganar todo le deja dos veces y media lo que ya tiene, y casi todo sale de una final</h3>
+        <p class="fig-sub">Lo que ya ganó, y lo que suma si pierde las dos finales que le quedan o si las gana. Los títulos sin premio publicado no están.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 290" role="img" aria-label="Millones de dólares. Ya ganado: 3,68 de la Libertadores, 2,6 de la Sudamericana hasta la semifinal y 0,12 de la Copa Argentina, total 6,4. Si pierde las dos finales: más 2,5 del subcampeón de la Sudamericana, total 8,9. Si gana todo: 0,32 de la Copa Argentina y 10 de la final de la Sudamericana, total 16,6.">
+<text x="0" y="18" class="clB">Lo que ya ganó</text>
+<rect x="0" y="28" width="124.1" height="30" fill="#6B6560"/>
+<rect x="124.1" y="28" width="87.7" height="30" fill="#0E7C86"/>
+<rect x="211.8" y="28" width="4.1" height="30" fill="#2E8B6F"/>
+<text x="226" y="48" class="cvB">US$6,4 M</text>
+<text x="0" y="94" class="clB">Si pierde la final de la Sudamericana y la semifinal de la Copa Argentina</text>
+<rect x="0" y="104" width="124.1" height="30" fill="#6B6560"/>
+<rect x="124.1" y="104" width="87.7" height="30" fill="#0E7C86"/>
+<rect x="211.8" y="104" width="4.1" height="30" fill="#2E8B6F"/>
+<rect x="215.9" y="104" width="84.3" height="30" fill="#E8B07A"/>
+<text x="310" y="124" class="cvB">US$8,9 M</text>
+<text x="0" y="170" class="clB">Si gana la Sudamericana y la Copa Argentina</text>
+<rect x="0" y="180" width="124.1" height="30" fill="#6B6560"/>
+<rect x="124.1" y="180" width="87.7" height="30" fill="#0E7C86"/>
+<rect x="211.8" y="180" width="10.8" height="30" fill="#2E8B6F"/>
+<rect x="222.6" y="180" width="337.3" height="30" fill="#C4701F"/>
+<text x="570" y="200" class="cvB">US$16,6 M</text>
+<text x="62" y="48" text-anchor="middle" class="cf" style="fill:#fff">3,68</text>
+<text x="168" y="48" text-anchor="middle" class="cf" style="fill:#fff">2,6</text>
+<text x="62" y="124" text-anchor="middle" class="cf" style="fill:#fff">3,68</text>
+<text x="168" y="124" text-anchor="middle" class="cf" style="fill:#fff">2,6</text>
+<text x="258" y="124" text-anchor="middle" class="cf" style="fill:#16130F">2,5</text>
+<text x="62" y="200" text-anchor="middle" class="cf" style="fill:#fff">3,68</text>
+<text x="168" y="200" text-anchor="middle" class="cf" style="fill:#fff">2,6</text>
+<text x="391" y="200" text-anchor="middle" class="cf" style="fill:#fff">10</text>
+<rect x="0" y="240" width="12" height="10" fill="#6B6560"/><text x="18" y="249" class="cf">Libertadores, grupos</text>
+<rect x="170" y="240" width="12" height="10" fill="#0E7C86"/><text x="188" y="249" class="cf">Sudamericana hasta la semi</text>
+<rect x="380" y="240" width="12" height="10" fill="#2E8B6F"/><text x="398" y="249" class="cf">Copa Argentina</text>
+<rect x="520" y="240" width="12" height="10" fill="#C4701F"/><text x="538" y="249" class="cf">final de la Sudamericana</text>
+<text x="0" y="278" class="cf">Tabla anual, Clausura, Trofeo de Campeones y Supercopas: sin premio oficial publicado.</text>
+</svg>
+      <figcaption><b>Fuentes:</b> CONMEBOL (premios 2026 y balance de semifinalistas del 24/09/2026); AFA, Boletín 6850 (20/03/2026); BCRA, Comunicación A 3500 del 05/11/2026 ($1.545,3974). Cálculo de Con Interés: suma de premios; los de la Copa Argentina, pasados a dólares.</figcaption>
+    </figure>
+
+    <p>En pesos, la cuenta va de los <b>$9.895 millones</b> que ya tiene a <b>$25.656 millones</b> si gana todo; si pierde las dos finales, queda en $13.759 millones. Todo lo que le falta jugar de la Copa Argentina, la semifinal y la final, vale menos de US$200.000. Para medir cuánto es eso, hay que ponerlo al lado del presupuesto del club.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Cuánto pesa en las cuentas del club</h3>
+    <p>El <a href="https://www.bocajuniors.com.ar/club/presupuesto">presupuesto de Boca</a> para julio de 2026 a junio de 2027 prevé ingresar <b>$239.392 millones</b> en pesos de abril de 2026, unos US$173 millones al dólar mayorista promedio de ese mes. Con lo que ya ganó, los premios de 2026 equivalen al <b>3,7%</b> de eso. Si gana todo, al <b>9,6%</b>. La comparación es aproximada: los premios son del año calendario y el presupuesto va de julio a junio.</p>
+    <p>El título de la tabla anual, en cambio, le asegura algo que el club ya había contado. Las premisas de ese presupuesto suponen que Boca juega la fase de grupos de la Libertadores 2027, como contamos el <a href="../articulos/2026-10-21-boca-final-sudamericana-cuanta-plata.html">21 de octubre</a>.</p>
+    <p>Lo que ese lugar vale todavía no está escrito. Con la escala de 2026, esa fase pagaba US$3 millones de entrada, US$1 millón por partido de local y US$340.000 por victoria. La escala de 2027 no se anunció, y el reglamento de la Liga no dice si la plaza Argentina 4 entra directo a la fase de grupos: eso lo fija la CONMEBOL.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Premios de 2026 al lado del presupuesto de Boca · millones de dólares</div>
+        <h3>Aun ganando todo, los premios son menos de la décima parte de un año de ingresos</h3>
+        <p class="fig-sub">Ingresos presupuestados para 2026/27 y su renglón de la Libertadores, frente a los tres escenarios de premios.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 290" role="img" aria-label="Millones de dólares: ingresos presupuestados 2026/27, 173,3; renglón Libertadores del presupuesto, 17,6; premios si gana todo, 16,6; si pierde las dos finales, 8,9; lo ya ganado, 6,4; premio de la CONMEBOL a un campeón local, 0,5.">
+<text x="0" y="18" class="cl">Ingresos presupuestados 2026/27</text>
+<rect x="0" y="24" width="560" height="18" rx="3" fill="#6B6560"/><text x="568" y="38" class="cvB">173,3</text>
+<text x="0" y="64" class="cl">Renglón Libertadores del presupuesto 2026/27</text>
+<rect x="0" y="70" width="56.9" height="18" rx="3" fill="#6B6560"/><text x="65" y="84" class="cvB">17,6</text>
+<text x="0" y="110" class="clB">Premios de 2026 si gana todo</text>
+<rect x="0" y="116" width="53.6" height="18" rx="3" fill="#C4701F"/><text x="62" y="130" class="cvB">16,6</text>
+<text x="0" y="156" class="cl">Premios de 2026 si pierde las dos finales</text>
+<rect x="0" y="162" width="28.8" height="18" rx="3" fill="#E8B07A"/><text x="37" y="176" class="cvB">8,9</text>
+<text x="0" y="202" class="cl">Premios ya ganados en 2026</text>
+<rect x="0" y="208" width="20.7" height="18" rx="3" fill="#0E7C86"/><text x="29" y="222" class="cvB">6,4</text>
+<text x="0" y="248" class="cl">Premio de la CONMEBOL a un campeón local (no asignado a la tabla anual)</text>
+<rect x="0" y="254" width="1.6" height="18" rx="1" fill="#0E7C86"/><text x="10" y="268" class="cvB">0,5</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Boca Juniors, presupuesto 2026/27 (pesos de abril de 2026); CONMEBOL; AFA; BCRA, Comunicación A 3500. Cálculo de Con Interés: presupuesto al mayorista promedio de abril de 2026 ($1.381,45); premios en pesos al del 05/11/2026 ($1.545,3974).</figcaption>
+    </figure>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación: documento oficial y recálculo.</b> Los premios no los mide nadie: los fijan la CONMEBOL y la AFA. La cifra ancla, US$16,6 millones, es la suma de cinco renglones que salen de documentos oficiales: Libertadores (US$3,68 millones: 3 × 1 + 2 × 0,34), Sudamericana hasta la semifinal (US$2,6 millones: 0,5 + 0,6 + 0,7 + 0,8, que cierra exacto con el balance de semifinalistas de la CONMEBOL), final de la Sudamericana (US$10 millones, en el anuncio del 19/03/2026 y en el balance del 24/09/2026) y Copa Argentina completa ($496,6 millones, suma de los siete renglones del Boletín 6850). Las escalas de la CONMEBOL coinciden con las que publicaron en marzo <a href="https://www.infobae.com/deportes/2026/03/20/los-millonarios-premios-que-entregaran-la-copa-libertadores-y-la-sudamericana-2026/">Infobae</a> y <a href="https://www.primicias.ec/deportes/futbol/copa-libertadores-premios-economicos-conmebol-millones-dolares-118511/">Primicias</a>; la de la Copa Argentina, con la de <a href="https://www.infobae.com/deportes/2026/03/25/la-afa-dio-a-conocer-los-premios-de-la-copa-argentina-2026-cuanto-dinero-se-llevara-el-campeon/">Infobae</a>.</p>
+      <p><b>El paso a dólares y a pesos es una cuenta nuestra.</b> Usamos el dólar mayorista de referencia del BCRA (Comunicación A 3500) del 5 de noviembre de 2026, $1.545,3974, el último publicado al cierre de esta nota: coincide en la planilla del BCRA y en su API de estadísticas. El presupuesto del club está en pesos constantes de abril de 2026; lo pasamos al promedio de ese mes, $1.381,45.</p>
+      <p><b>Por qué la tabla anual va con cero.</b> El reglamento de la Liga crea el título (artículo 24) y le asigna plazas (artículos 27.4 y 30), pero no menciona dinero. Revisamos los comunicados de la CONMEBOL y la AFA sobre sus premios a campeones locales: dicen que cada asociación recibe US$1 millón por año y puede dividirlo «hasta en dos premios», y que Belgrano cobró US$500.000 por el Apertura 2026. El dato de US$500.000 para el Campeón de Liga sale de medios que no citan documento. La prensa tampoco es consistente: El Economista le atribuyó a Estudiantes US$500.000 por el Clausura 2025 y otros US$500.000 por el Trofeo de Campeones 2025, lo que daría tres premios en un año para una asociación que puede dar dos. Ese tipo de contradicción es la razón por la que no sumamos nada que no esté en un documento oficial.</p>
+      <p><b>Lo que buscamos y no está.</b> Premios del Clausura, del Trofeo de Campeones, de la Supercopa Argentina y de la Supercopa Internacional: la AFA no los publica en sus boletines ni en su sitio. Escalas de 2027 de la Libertadores y de la Recopa: la CONMEBOL no las anunció. La recaudación de entradas, la televisión (que se reparte entre todos los clubes) y los premios al plantel quedan afuera de esta cuenta. Tampoco sabemos cuándo se pagan los premios de la Copa Argentina ni si se descuentan gastos: contamos lo que fija la AFA.</p>
+      <div class="meta">
+        <span><b>Fuente</b> CONMEBOL · AFA · LPF · Boca Juniors · BCRA</span>
+        <span><b>Período</b> temporada 2026</span>
+        <span><b>Unidad</b> US$ y $ corrientes</span>
+        <span><b>Verificación</b> documento oficial + recálculo</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>El título que Boca festejó el sábado no trae plata publicada. Vale por lo que abre: la Libertadores 2027, que el club ya había puesto en su presupuesto, y la Supercopa Internacional. La plata de la temporada está en otro lado: de los US$16,6 millones posibles, <b>US$10 millones dependen de un solo partido</b>, la final de Barranquilla. La Copa Argentina entera, ganada de punta a punta, suma unos US$321.000.</p>
+    <p>Esa diferencia dice algo del fútbol argentino: los torneos locales pagan en pesos y poco, o directamente no publican lo que pagan, y los premios grandes los pone la CONMEBOL, en dólares. Lo que esta nota no puede contestar es si el segundo premio de US$500.000 de este año irá al Campeón de Liga o al del Clausura, porque ni la AFA ni la CONMEBOL lo escribieron.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p><b>Si sos socio de Boca:</b> las cuotas sociales son el renglón más grande del presupuesto, $84.600 millones al año, unos US$5,1 millones por mes. Los US$6,4 millones que el club ya ganó en premios equivalen a algo más de un mes de lo que pagan todos los socios juntos; ganar todo, a algo más de tres meses.</p>
+      <p><b>Si leés que un título «vale» tal cifra:</b> fijate si el monto sale de un documento del que paga. En el fútbol argentino, varios de los premios que circulan no están escritos en ningún lado.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep" open>
+      <summary>Competencia por competencia <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Competencia</th><th>Dónde está Boca</th><th style="text-align:right">Ya ganado</th><th style="text-align:right">Lo que puede sumar</th><th>Fuente</th></tr>
+        <tr><td>Tabla anual (Campeón de Liga 2026)</td><td>Campeón el 7/11</td><td class="n">sin premio publicado</td><td class="n">—</td><td>Reglamento LPF 2026</td></tr>
+        <tr><td>Copa Sudamericana 2026</td><td>Final el 21/11 con Atlético Mineiro</td><td class="n">US$2.600.000</td><td class="n">US$10.000.000 si gana; US$2.500.000 si pierde</td><td>CONMEBOL</td></tr>
+        <tr><td>Copa Argentina 2026</td><td>Semifinal el 14/11 con Banfield</td><td class="n">$190.100.000</td><td class="n">$106.500.000 la semi y $200.000.000 la final</td><td>AFA, Boletín 6850</td></tr>
+        <tr><td>Copa Libertadores 2026</td><td>Afuera en la fase de grupos</td><td class="n">US$3.680.000</td><td class="n">—</td><td>CONMEBOL</td></tr>
+        <tr><td>Torneo Clausura 2026</td><td>Playoffs, desde octavos</td><td class="n">—</td><td class="n">sin premio publicado</td><td>—</td></tr>
+        <tr><td>Trofeo de Campeones 2026</td><td>Solo si gana el Clausura (19/12)</td><td class="n">—</td><td class="n">sin premio publicado</td><td>—</td></tr>
+        <tr><td>Supercopa Internacional 2027</td><td>Clasificado como Campeón de Liga</td><td class="n">—</td><td class="n">sin premio publicado</td><td>—</td></tr>
+        <tr><td>Supercopa Argentina y Recopa 2027</td><td>Según lo que gane</td><td class="n">—</td><td class="n">sin premio publicado</td><td>—</td></tr>
+        <tr><td><b>Total en dólares</b></td><td></td><td class="n"><b>US$6.403.000</b></td><td class="n"><b>hasta US$16.601.000</b></td><td>Cálculo propio</td></tr>
+        <tr><td><b>Total en pesos</b></td><td></td><td class="n"><b>$9.895 millones</b></td><td class="n"><b>hasta $25.656 millones</b></td><td>Cálculo propio</td></tr>
+      </table>
+      <p>Dólar mayorista A 3500 del 05/11/2026: $1.545,3974. Los totales en dólares pasan los pesos de la Copa Argentina a ese tipo de cambio, y los totales en pesos pasan los dólares de la CONMEBOL al mismo valor.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Los seis resultados posibles <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Sudamericana</th><th>Copa Argentina</th><th style="text-align:right">Total US$</th><th style="text-align:right">Total $</th><th style="text-align:right">% del presupuesto</th></tr>
+        <tr><td>Gana</td><td>Campeón</td><td class="n">16,60 M</td><td class="n">25.656 M</td><td class="n">9,6%</td></tr>
+        <tr><td>Gana</td><td>Pierde la final</td><td class="n">16,47 M</td><td class="n">25.456 M</td><td class="n">9,5%</td></tr>
+        <tr><td>Gana</td><td>Pierde la semifinal</td><td class="n">16,40 M</td><td class="n">25.349 M</td><td class="n">9,5%</td></tr>
+        <tr><td>Pierde</td><td>Campeón</td><td class="n">9,10 M</td><td class="n">14.065 M</td><td class="n">5,3%</td></tr>
+        <tr><td>Pierde</td><td>Pierde la final</td><td class="n">8,97 M</td><td class="n">13.865 M</td><td class="n">5,2%</td></tr>
+        <tr><td>Pierde</td><td>Pierde la semifinal</td><td class="n">8,90 M</td><td class="n">13.759 M</td><td class="n">5,1%</td></tr>
+      </table>
+      <p>Solo premios oficiales publicados. El presupuesto es el de ingresos 2026/27, $239.392 millones de abril de 2026, unos US$173,3 millones.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Liga Profesional de Fútbol — <a href="https://www.ligaprofesional.ar/wp-content/uploads/2026/01/Reglamento-Torneos-LPF-Primera-2026-1.pdf">Reglamento Torneos Primera División 2026</a>, artículos 20 a 30</li>
+        <li>&#8250; CONMEBOL — <a href="https://www.conmebol.com/noticias/conmebol-y-afa-entregan-incentivo-economico-al-campeon-argentino/">CONMEBOL y AFA entregan incentivo económico al campeón argentino</a> (25/05/2026)</li>
+        <li>&#8250; AFA — <a href="https://www.afa.com.ar/es/posts/conmebol-y-afa-entregan-incentivo-economico-al-campeon-argentino">CONMEBOL y AFA entregan incentivo económico al campeón argentino</a> (26/05/2026)</li>
+        <li>&#8250; CONMEBOL — <a href="https://www.conmebol.com/noticias/la-conmebol-y-afa-entregan-premio-monetario-al-campeon-argentino/">La CONMEBOL y AFA entregan premio monetario al campeón argentino</a> (06/05/2024)</li>
+        <li>&#8250; CONMEBOL — <a href="https://www.conmebol.com/noticias/el-campeon-argentino-recibe-usd-500-000-de-la-conmebol/">La CONMEBOL y AFA premian con USD 500.000 al campeón argentino</a> (29/07/2023)</li>
+        <li>&#8250; CONMEBOL — <a href="https://www.conmebol.com/noticias/monto-record-para-el-campeon-de-la-conmebol-sudamericana/">Premios de la Sudamericana 2026</a> (19/03/2026)</li>
+        <li>&#8250; CONMEBOL — <a href="https://www.conmebol.com/noticias/la-conmebol-libertadores-incrementa-una-vez-mas-sus-premios-para-la-edicion-2026/">Premios de la Libertadores 2026</a> (19/03/2026)</li>
+        <li>&#8250; CONMEBOL — <a href="https://www.conmebol.com/noticias/los-premios-acumulados-de-los-semifinalistas-de-la-conmebol-libertadores-y-la-conmebol-sudamericana/">Los premios acumulados de los semifinalistas</a> (24/09/2026)</li>
+        <li>&#8250; AFA — <a href="https://assets1.afa.com.ar/2026/BOLETINES/Boletin-Resoluciones-6850-(20-03-2026).pdf">Boletín Nº 6850</a> (20/03/2026), premios de la Copa Argentina 2026</li>
+        <li>&#8250; Boca Juniors — <a href="https://www.bocajuniors.com.ar/club/presupuesto">Información económica y presupuestaria</a>: presupuesto 2026/27</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/com3500.xls">Tipo de cambio mayorista de referencia, Comunicación A 3500</a></li>
+        <li>&#8250; La Gaceta — <a href="https://www.lagaceta.com.ar/nota/1161519/deportes/boca-gano-ultima-jugada-se-consagro-campeon-tabla-anual-2026.html">Boca ganó en la última jugada y se consagró campeón de la tabla anual 2026</a> (07/11/2026)</li>
+        <li>&#8250; elDiarioAR — <a href="https://www.eldiarioar.com/deportes/futbol/boca-campeon-liga-profesional-gol-agonico-enner-valencia_1_13647389.html">Boca es campeón de la Tabla Anual</a> (07/11/2026)</li>
+        <li>&#8250; La Nación — <a href="https://www.lanacion.com.ar/deportes/futbol/boca-argentinos-y-rosario-central-por-la-tabla-anual-en-vivo-asi-se-define-el-campeon-de-liga-nid07112026/">Boca, Campeón de Liga: posiciones y clasificaciones</a> (07/11/2026)</li>
+        <li>&#8250; Diario Uno — <a href="https://www.diariouno.com.ar/ovacion/futbol/boca-volvio-ser-campeon-despues-casi-4-anos-y-va-otros-4-titulos-el-cierre-la-temporada-n1614414">Boca va por otros cuatro títulos</a> (07/11/2026)</li>
+        <li>&#8250; Ámbito — <a href="https://www.ambito.com/deportes/insolito-rosario-central-comenzo-celebrar-el-campeonato-antes-tiempo-y-finalmente-boca-se-lo-arrebato-n6342851">Rosario Central celebró antes de tiempo</a> (07/11/2026), el premio informado sin fuente</li>
+        <li>&#8250; Primicias — <a href="https://www.primicias.ec/deportes/futbol/final-ecuatoriana-copa-sudamericana-atletico-mineiro-boca-juniors-135471/">Atlético Mineiro y Boca, la final de la Sudamericana</a></li>
+        <li>&#8250; Emol — <a href="https://www.emol.com/noticias/Deportes/2026/10/21/1214835/atletico-mineiro-finalista-sudamericana-boca.html">Atlético Mineiro es finalista y enfrenta a Boca</a> (21/10/2026)</li>
+        <li>&#8250; El Sol — <a href="https://www.elsol.com.ar/deportes/oficial-la-semi-de-copa-argentina-entre-boca-y-banfield-se-jugara-en-el-malvinas/">La semifinal entre Boca y Banfield se juega en el Malvinas</a></li>
+        <li>&#8250; C5N — <a href="https://www.c5n.com/deportes/copa-argentina-se-confirmo-la-sede-y-el-horario-boca-vs-banfield-n251865">Sede y horario de Boca y Banfield</a></li>
+        <li>&#8250; Marketing Registrado — <a href="https://www.marketingregistrado.com/futbol/2025/estudiantes-campeon-torneo-clausura-llevo-premio-500000-dolares-45298/">Estudiantes campeón del Clausura: premio de 500.000 dólares</a> (15/12/2025)</li>
+        <li>&#8250; El Economista — <a href="https://eleconomista.com.ar/deportes/el-premio-economico-recibio-estudiantes-consagrarse-campeon-trofeo-campeones-2025-n91479">El premio de Estudiantes por el Trofeo de Campeones 2025</a></li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/deportes/2026/03/20/los-millonarios-premios-que-entregaran-la-copa-libertadores-y-la-sudamericana-2026/">Los premios de la Libertadores y la Sudamericana 2026</a> (20/03/2026), contraste</li>
+        <li>&#8250; Primicias — <a href="https://www.primicias.ec/deportes/futbol/copa-libertadores-premios-economicos-conmebol-millones-dolares-118511/">Premios de la Copa Libertadores 2026</a> (19/03/2026), contraste</li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/deportes/2026/03/25/la-afa-dio-a-conocer-los-premios-de-la-copa-argentina-2026-cuanto-dinero-se-llevara-el-campeon/">Los premios de la Copa Argentina 2026</a> (25/03/2026), contraste</li>
+        <li>&#8250; Con Interés — <a href="../articulos/2026-10-21-boca-final-sudamericana-cuanta-plata.html">¿Cuánta plata le deja a Boca llegar a la final de la Sudamericana?</a> (21/10/2026)</li>
+        <li>&#8250; Con Interés — <a href="../articulos/2026-10-06-boca-libertadores-sudamericana-premios-conmebol.html">Lo que Boca cobró en la Libertadores y la Sudamericana</a> (06/10/2026)</li>
+        <li>&#8250; Con Interés — <a href="../articulos/2026-09-27-cuanto-gana-campeon-copa-argentina-premios.html">Lo que cobra el campeón de la Copa Argentina</a> (27/09/2026)</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: suma de premios, paso a dólares y a pesos, porcentajes.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 07/11/2026. Los valores en dólares de premios en pesos, y en pesos de premios en dólares, son cálculos propios con el dólar mayorista del BCRA. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
