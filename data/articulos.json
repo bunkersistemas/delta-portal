@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T00:47:49-03:00",
+    "actualizado": "2026-11-08T03:04:27-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-grandes-usuarios-electricidad-invierno-82-por-ciento",
+      "titulo": "Las grandes empresas pagaron la electricidad del invierno 82% más cara que en 2025, aunque en agosto se quemó menos combustible",
+      "bajada": "Las empresas que compran su electricidad directo en el mercado mayorista pagaron entre mayo y agosto un promedio de US$163,9 por MWh, contra US$90,2 un año antes, según CAMMESA. No fue por quemar más combustible: en agosto las térmicas generaron 13% menos y el precio igual subió 73%. Lo que cambió fue cómo se calcula el precio. En junio llegó a US$189,1, el valor más alto desde 2022 y 69% más que lo que costó la energía reservada a los hogares. Por la cuenta de Con Interés, el invierno les costó unos US$650 millones más.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+82%",
+      "numero_label": "suba del precio de la electricidad para los grandes usuarios del mercado mayorista, mayo a agosto de 2026 contra 2025",
+      "fecha": "2026-11-08",
+      "hora": "03:30",
+      "archivo": "articulos/2026-11-08-grandes-usuarios-electricidad-invierno-82-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 8 min",
+      "numero_fuente": "CAMMESA, precio monómico medio de grandes usuarios del MEM (energía+potencia+servicios+transporte), informes mensuales may-ago 2026: 139,8/189,1/168,6/157,9 vs 77,7/94,7/96,8/91,5 -> promedio 163,87 vs 90,19 = +81,7%; base sep-26 'Precios Mensuales' recalculada; ponderado por demanda GUMA+GUME ('Demanda Mensual', 8.884 GWh) 163,68 vs 90,12 = +81,6%. Contraste: Pampa EEFF US$ 30/09/2026 ventas spot 578 vs 185 (SEC 6-K 0001292814-26-005116); INDEC IPIM energía eléctrica abr-may +14,7%, i.a. jun +39,5%."
+    },
     {
       "id": "2026-11-08-mayores-65-superan-menores-15-en-2035",
       "titulo": "Los mayores de 65 van a ser más que los menores de 15 en 2035, seis años antes de lo que calculaba la ONU",
