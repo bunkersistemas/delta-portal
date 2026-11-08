@@ -8085,6 +8085,22 @@
       "estado": "descartada",
       "angulo": "Registro de candidatas de la corrida.",
       "motivo_descarte": "pasó la candidata 1 (juicios laborales, serie SRT por provincia)"
+    },
+    {
+      "tema": "caños para gasoductos importados (licitación de caños de Argentina LNG del lunes 09/11/2026, unos US$2.000 M: infobae, La Nación, Cronista 08/11; antecedente Welspun-Southern Energy, oferta US$203 M y Tenaris 40% más cara, iProfesional 29/01/2026) / INDEC comex NCM 7305.11.00, 2002-sep 2026: India 25.248 t en 2026 (25.245 t en ago-sep) a US$1.033/t FOB contra Brasil US$1.560/t (33,8% menos; CIF 1.210 vs 1.638, 26,1%); India 2002-2025 1.543 t (16 veces); Brasil 89,3% de 625.292 t en 2002-2025; China 2025 10.595 t a US$751/t; 2026 38.220 t, India 66,1%",
+      "fecha": "2026-11-08",
+      "estado": "en_cola",
+      "id": "2026-11-08-canos-gasoductos-india-mas-baratos-que-brasil",
+      "archivo": "cola/2026-11-08-canos-gasoductos-india-mas-baratos-que-brasil.html",
+      "angulo": "Nueva: el 29/10 (acero de China, cap. 73) no miró caños para ductos. Hallazgo: la serie de aduana 2002-2026 por origen muestra que el proveedor de 24 años (Brasil) fue desplazado por la India en 2026 y el precio FOB por tonelada da 33,8% menos, en la dirección del 40% publicado para la licitación de Southern Energy. Camino: estadística oficial recalculada + espejo India (Comtrade 699, jun-jul vs ago-sep, 1,3%) y Brasil (Comtrade 76, 2025 al kilo con el desfase de enero). No se atribuye comprador ni obra.",
+      "seccion": "ECONOMÍA"
+    },
+    {
+      "fecha": "2026-11-08",
+      "estado": "descartada",
+      "angulo": "Registro de candidatas de la corrida.",
+      "motivo_descarte": "pasó la candidata 1 (caños para gasoductos, INDEC + Comtrade India y Brasil)",
+      "tema": "descartes de la corrida de redacción del 08/11/2026 20:30. Clarín y TN no cargaron (WebFetch bloqueado). Lista: (1) HALLAZGO, pregunta detrás de la noticia: licitación de caños de Argentina LNG [infobae, La Nación, Cronista]: serie de aduana 7305.11 por origen y precio por tonelada, India vs Brasil, con espejo Comtrade: APTA. (2) MUNDO: ley antideforestación europea (CRA contra Visec, La Nación 08/11; rige desde fin de 2026): cuánto de lo exportado a la UE alcanza; la harina de soja tiene 40% del valor 2025 en destino confidencial (999) en la base del INDEC y el ICA no abre productos por zona; habría que anclar en Eurostat. Retomable. (3) EMPRESAS (cupo cumplido hoy con IMPSA 16:30): Mastellone sigue sin EEFF al 30/09 en cnv_lista a las 20:30 (solo actas del 05-06/11 y HR). (4) EMPRESAS: Grupo Clarín y Cablevisión, invitación a resultados 3T (CNV 05/11): EEFF todavía no presentados. (5) EMPRESAS: Edenor, cuánto de cada peso facturado se queda la distribuidora: hallazgo válido pero ya hubo luz hoy (03:30) y Edenor está en cola desde 06/11. (6) importaciones bajo el RIGI [infobae, Cronista]: sin documento primario. (7) maquinaria agrícola importada crece [infobae]: tractores en cola 30/10. (8) ventas minoristas pyme -1,6% [infobae, ámbito]: CAME sin serie cruda. (9) gasto público -5,4% real [La Nación]: IARAF; base caja oficial pendiente. (10) visita del papa, impacto y cuánto cobra León XIV [todos]: publicadas 12/10, 06/11, 07/11; molde agotado. (11) pobreza 16,2 millones en el 3T [ámbito]: estimación privada. (12) salida al teatro = salario mínimo [iProfesional] y jubilaciones contra inflación [Página12]: molde agotado. (13) Zona Fría, hipotecarios ANSES, Valo-PPI, BGH, Chango Más-Dia, riesgo país, juicios laborales, pesca en la ZEE: ya en cubiertas. Calendario: nada de INDEC/BCRA hoy (IPC y CBT el 12/11). pregunta.json ya era de hoy."
     }
   ]
 }

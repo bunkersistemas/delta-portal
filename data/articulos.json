@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T19:04:28-03:00",
+    "actualizado": "2026-11-08T20:45:08-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-canos-gasoductos-india-mas-baratos-que-brasil",
+      "titulo": "Los caños para gasoductos de la India llegaron 33,8% más baratos por tonelada que los de Brasil, y en dos meses entró 16 veces lo que había vendido desde 2002",
+      "bajada": "Hasta 2025, nueve de cada diez toneladas de caños para ductos que importó la Argentina habían venido de Brasil. En 2026 el primer origen fue la India: entraron 25.248 toneladas, 16 veces lo que había vendido entre 2002 y 2025, a US$1.033 la tonelada contra US$1.560 de los brasileños. Con ese dato en la aduana se define este lunes la licitación de caños de Argentina LNG, de unos US$2.000 millones.",
+      "titulo_busqueda": "¿De dónde vienen los caños de los gasoductos de Vaca Muerta?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "33,8%",
+      "numero_label": "cuánto más barata llegó en 2026 la tonelada de caño para gasoductos de la India que la de Brasil, precio en el puerto de origen",
+      "fecha": "2026-11-08",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-08-canos-gasoductos-india-mas-baratos-que-brasil.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC base comex, importaciones 2026 (zip bajado 08/11/2026), NCM 7305.11.00: India 25.248.397 kg, FOB US$26.085.619 = 1.033/t; Brasil 11.037.240 kg, FOB/t 1.560; 1-1033/1560 = 33,8%. Contraste UN Comtrade: India (699) exportaciones a AR jun+jul 2026 24.932 t FOB US$25,39 M (1.018/t) vs INDEC ago+sep 25.245 t FOB 26,07 M (+1,25% t, +2,68% US$); Brasil (76) 2025 33.442.805 kg = INDEC 2025 23.817.072 + ene-26 9.625.715 kg; FOB/t 1.604 vs 1.614. India 2002-2025: 1.542,9 t (2013 0,4 + 2015 1.542,5). Brasil 2002-2025 558.310 de 625.292 t = 89,3%."
+    },
     {
       "id": "2026-11-08-juicios-laborales-record-ciudad-provincia-mapa",
       "titulo": "Los juicios por accidentes de trabajo llegaron a un récord en 2025, pero con otro mapa: la Ciudad pasó de casi la mitad a uno de cada cinco",
