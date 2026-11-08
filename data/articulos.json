@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T14:47:02-03:00",
+    "actualizado": "2026-11-08T16:52:56-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-impsa-venezuela-corpoelec-137-millones",
+      "titulo": "IMPSA vende todo en la Argentina, pero el 92,6% de lo que tiene por cobrar está en Venezuela: US$137,7 millones que su auditor no puede decir cuándo cobrará",
+      "bajada": "IMPSA, la fábrica mendocina de turbinas que el Estado vendió en febrero de 2025, factura todo en la Argentina, pero el 92,63% de lo que tiene por cobrar es de la eléctrica estatal de Venezuela: US$137,7 millones. Ese saldo casi no se movió en 2026, y su auditor emitió por él una conclusión con salvedades. Mientras tanto, en nueve meses facturó $37.368 millones y perdió $48.049 millones.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$137,7 M",
+      "numero_label": "lo que IMPSA tiene por cobrar a CORPOELEC, la eléctrica estatal de Venezuela, antes de previsiones, al 30 de septiembre de 2026",
+      "fecha": "2026-11-08",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-08-impsa-venezuela-corpoelec-137-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "IMPSA EEFF consolidados 30/09/2026 (CNV 06/11/2026, publicview 44b05b93): nota 4 = 65.311.459 + 134.080.744 + 9.522.500 = 208.914.703 miles; anexo G creditos por ventas no corrientes US$137.716 miles x 1.517 = 208.914.704; previsiones 85.350.710 (nota 4 = anexo E = anexo G); neto 123.563.994 = formulario AIF; 92,63% en nota 4 y en el informe de revision de Becher y Asociados (BDO), conclusion con salvedades (18,59% del activo). Dic-2025: 200.765.477 / 1.455 = US$137.983 miles. Serie % CORPOELEC 2019-2025 de cada balance anual. US$27 M: nota 14 y argentina.gob.ar 11/02/2025."
+    },
     {
       "id": "2026-11-08-motos-por-auto-maximo-2007-formosa-ciudad",
       "titulo": "Se patentan 1,56 motos por cada auto 0 km, el máximo desde 2007: en Formosa son cinco y en la Ciudad, menos de una cada cuatro",
