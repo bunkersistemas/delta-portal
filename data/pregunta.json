@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-07",
-  "pregunta": "Entre el segundo trimestre de 2025 y el de 2026, la jubilación mínima con el bono subió 26,4% y la canasta que marca la línea de pobreza subió 34,4%. ¿Cuánto cambió la cantidad de canastas que se pueden pagar con esa jubilación?",
+  "fecha": "2026-11-08",
+  "pregunta": "Entre septiembre de 2025 y septiembre de 2026 los alimentos subieron 35,1% en pesos y el dólar oficial subió 8,1%. ¿Cuánto subieron los alimentos medidos en dólares?",
   "opciones": [
-    "Bajó alrededor de 6%: se divide 1,264 por 1,344",
-    "Bajó 8%: es la diferencia entre las dos subas",
-    "Subió 26,4%: la jubilación aumentó"
+    "Alrededor de 25%: se divide 1,351 por 1,081",
+    "27%: es la diferencia entre las dos subas",
+    "Nada: si sube el dólar, en dólares no cambia"
   ],
   "correcta": 0,
-  "explicacion": "Para comparar un ingreso con un precio no se restan los porcentajes: se dividen. Si la jubilación se multiplicó por 1,264 y la canasta por 1,344, lo que alcanza a comprar se multiplicó por 1,264 / 1,344 = 0,94, es decir, cayó alrededor de 6%. Restar (34,4 - 26,4 = 8) es una aproximación que exagera la caída cuando las subas son grandes. Y mirar solo la suba del ingreso engaña: con precios que suben más, cobrar más pesos no es poder comprar más. Por eso en los hogares que encabeza un jubilado la pobreza pasó de 22,6% a 30,8% en un año.",
-  "nota": "articulos/2026-11-06-pobreza-hogares-jubilados-segundo-trimestre.html",
+  "explicacion": "Para pasar un precio de pesos a dólares no se restan los porcentajes: se dividen. Si la comida se multiplicó por 1,351 y el dólar por 1,081, el precio en dólares se multiplicó por 1,351 / 1,081 = 1,249: subió 24,9%. Restar (35,1 - 8,1 = 27) exagera la suba cuando los números son grandes. Y si los precios en pesos suben más que el dólar, la comida se encarece también para quien cobra o ahorra en dólares. En el mismo año, el índice mundial de la FAO subió 5,4%.",
+  "nota": "articulos/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.html",
   "leccion": ""
 }

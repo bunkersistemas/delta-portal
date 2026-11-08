@@ -7933,6 +7933,21 @@
       "angulo": "Nuevo frente a las notas del 06/10, 21/10 (Sudamericana) y 27/09 (Copa Argentina): la tabla anual no tiene premio oficial; el incentivo CONMEBOL a campeones locales es US$1 M/año por asociación en hasta dos premios y uno ya fue a Belgrano (Apertura 2026). Suma de todo el año: US$6,4 M ganados, hasta US$16,6 M si gana Sudamericana y Copa Argentina (9,6% del presupuesto 2026/27).",
       "seccion": "DEPORTES",
       "pedido": 114
+    },
+    {
+      "id": "2026-11-08-mayores-65-superan-menores-15-en-2035",
+      "fecha": "2026-11-08",
+      "estado": "en_cola",
+      "tema": "¿en qué año habrá más mayores de 65 que menores de 15 en la Argentina? (pregunta detrás de ámbito 08/11/2026 «Argentina tendrá más adultos mayores que niños hacia 2040: cómo impactará en la economía y las jubilaciones») / INDEC proyecciones 2022-2040 cuadro 2.1 + base csv: cruce en 2035 (65+ 6.963.335 vs 0-14 6.818.813), no 2040; ONU WPP 2024: cruce 2041; nacimientos DEIS 2024 413.135 vs 506.609 proyectados por la ONU (+22,6%) e implícitos INDEC 2025 ~440.700",
+      "angulo": "Corrida de redacción del 08/11/2026 00:30. Hallazgo: el año del cruce no está en el informe del INDEC ni en las notas (que repiten 2040, el horizonte); sale de sumar sus cuadros, y el contraste con la ONU muestra que los mayores coinciden y la diferencia son los nacimientos que no ocurrieron. Primera nota de demografía del diario. Camino: estadística oficial recalculada (xlsx = csv) + contraste independiente ONU WPP 2024 con diferencia explicada por los nacimientos DEIS.",
+      "archivo": "cola/2026-11-08-mayores-65-superan-menores-15-en-2035.html"
+    },
+    {
+      "fecha": "2026-11-08",
+      "estado": "descartada",
+      "tema": "descartes de la corrida de redacción del 08/11/2026 00:30. Clarín y TN no cargaron (WebFetch bloqueado). Lista: (1) HALLAZGO, pregunta detrás de la noticia: año en que los mayores de 65 superan a los menores de 15, proyecciones INDEC 2022-2040 + ONU WPP 2024 + DEIS [ámbito 08/11, envejecimiento y jubilaciones]: APTA. (2) EMPRESAS (cupo: hoy no hay nota de empresas): Luz de Tres Picos, prospecto de fusión por absorción de 13 sociedades renovables del grupo PCR (CNV 06/11, leído): reorganización interna con cifras solo contables (patrimonio consolidado $395.416 M, prima de fusión $43.649 M) y el balance especial es un PDF sin texto; sería copiar el prospecto, no pasa la vara de calidad. (3) EMPRESAS: Mastellone HR 06/11, sigue sin EEFF al 30/09 en la CNV. (4) EMPRESAS: Inversora Eléctrica de Buenos Aires EEFF 30/09: mismo molde que Edenor 06/11 y luz bonaerense 07/11. (5) EMPRESAS: YPF 6-K EEFF 30/09 (ganancia por litro del downstream): tercera nota de YPF en once días (28/10 resultados, 05/11 cúpula). (6) EMPRESAS: Banco Comafi HR 05/11 = suplemento de CEDEAR Sandisk; recompras de Macro, BYMA, A3 y Central Puerto; rescate de ON de AA2000 (publicada 07/11): rutina. (7) riesgo país cerca de 940, segundo de América Latina [infobae, La Nación, iProfesional, Página12]: publicada 29/10. (8) gasto público -5,4% real en octubre [La Nación, ámbito]: deuda flotante y fondo de rutas publicados 07/11. (9) visita de León XIV, impacto económico [La Nación, ámbito, Cronista]: costo publicado 12/10 y 06/11, Iglesia 07/11. (10) Ueno Bank y la cadena de pagos [Cronista, Página12, iProfesional]: banco paraguayo, sin documento argentino con cifras. (11) Valo-PPI [infobae, La Nación, iProfesional]: publicada 06/11. (12) motos contra autos [ámbito]: publicada 05/09. (13) salida al teatro y a cenar contra el salario mínimo [iProfesional]: molde de precio contra salario, sin dato propio. Calendario: nada de INDEC/BCRA hoy (ISSP 11/11, IPC y CBT 12/11). pregunta.json actualizada (primera corrida del día).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "motivo_descarte": "pasó la candidata 1 (mayores de 65 contra menores de 15)"
     }
   ]
 }

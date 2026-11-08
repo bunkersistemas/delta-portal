@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-07T22:54:21-03:00",
+    "actualizado": "2026-11-08T00:47:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-mayores-65-superan-menores-15-en-2035",
+      "titulo": "Los mayores de 65 van a ser más que los menores de 15 en 2035, seis años antes de lo que calculaba la ONU",
+      "bajada": "Según las proyecciones del INDEC hechas con el Censo 2022, en 2035 la Argentina va a tener 6.963.335 personas de 65 años o más y 6.818.813 menores de 15. En la serie de la ONU, que empieza en 1950, los chicos siempre fueron más. La fecha que circula, 2040, es solo el último año de la proyección; el año del cruce no está en el informe del INDEC, sale de sus cuadros. La ONU lo calculaba recién para 2041 porque esperaba muchos más nacimientos: para 2024 proyectó 506.609 y nacieron 413.135, 93.000 chicos menos.",
+      "titulo_busqueda": "¿En qué año va a haber en la Argentina más mayores de 65 que chicos?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "2035",
+      "numero_label": "el año en que los mayores de 65 pasan a ser más que los menores de 15, según las proyecciones de población del INDEC",
+      "fecha": "2026-11-08",
+      "hora": "00:30",
+      "archivo": "articulos/2026-11-08-mayores-65-superan-menores-15-en-2035.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC proyecciones nacionales 2022-2040 (AD 39, oct-2025), cuadro 2.1 xlsx = base csv (suma por edad simple, dos sexos): 2034 0-14 6.934.297 / 65+ 6.831.713 (102.584 chicos más); 2035 0-14 6.818.813 / 65+ 6.963.335 (+144.522); 2040 6.802.901 / 7.789.606 (= Ámbito 7,8 y 6,8 M). Total 2035 47.118.716 = cuadro 1. El informe no menciona el cruce (tablas 2022/2030/2040). Contraste ONU WPP 2024 variante media (vía OWID, metadata lastUpdated 2024-07-12): 65+ 2035 6.918.273 (INDEC +0,65%), 2040 7.668.474 (+1,6%); 0-14 2035 7.657.073 (+838.260 sobre INDEC); cruce 2041 (7.730.775 vs 7.851.407); máx. 65+/0-14 1950-2023 = 0,549 (2023). Diferencia explicada por nacimientos: ONU 2023 503.823 vs DEIS 460.902; ONU 2024 506.609 vs DEIS 413.135 (+93.474, +22,6%). DEIS nacidos vivos (suma CUENTA): 2014 777.012, 2015 770.040, 2016 728.035, 2017 704.609, 2018 685.394, 2019 625.441, 2020 533.299, 2021 529.794, 2022 495.295, 2023 460.902, 2024 413.135 (-46,8%; diez bajas seguidas). INDEC TBN 2025 9,5 por mil x 46.387.098 = 440.677 (438.358-442.997 por redondeo), +6,7% sobre 2024; TGF 1,27 (2025), 1,24 (2030), 1,40 (2040). Escenario propio (ESTIMACIÓN): nacimientos fijos en 413.135 desde 2025 -> cruce 2034 (6.635.764 vs 6.831.713). Potencial de apoyo 15-64/65+: 5,46 (2022), 4,79 (2035), 4,23 (2040). Texto INDEC p. 35 'una tercera parte' vs tabla 13 (16,4%)."
+    },
     {
       "id": "2026-11-07-boca-campeon-tabla-anual-cuanta-plata",
       "titulo": "¿Cuánta plata le deja a Boca ser campeón de la tabla anual, y cuánto puede sumar si gana todas las finales que le quedan?",
