@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 08 Nov 2026 04:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 08 Nov 2026 06:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La inflación porteña le gana a la nacional solo cuando los servicios suben más que los bienes, y en octubre subieron lo mismo</title>
+      <link>https://coninteres.com/articulos/2026-11-08-inflacion-portena-servicios-anticipa-indec.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-08-inflacion-portena-servicios-anticipa-indec.html</guid>
+      <pubDate>Sun, 08 Nov 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>El 1,9% que midió la Ciudad de Buenos Aires en octubre no adelanta por sí solo el dato nacional: lo que adelanta algo es la mezcla, y en octubre bienes y servicios subieron lo mismo. Cruzamos 24 meses del índice porteño con el del INDEC. Cuando los servicios suben un punto o más por encima de los bienes, la inflación porteña supera a la nacional en 9 de cada 10 meses. Cuando suben parecido, como ahora, la nacional iguala o supera a la porteña en 13 de cada 14.</description>
+      <ci:numero>13 de 14</ci:numero>
+      <ci:numeroEtiqueta>meses desde octubre de 2024 en que, con servicios y bienes subiendo parecido en la Ciudad, la inflación nacional igualó o superó a la porteña</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-inflacion-portena-servicios-anticipa-indec.png" length="60927" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-inflacion-portena-servicios-anticipa-indec.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un préstamo personal cuesta el doble de interés que el crédito de un banco a una empresa, la proporción más alta desde 2005</title>
       <link>https://coninteres.com/articulos/2026-11-08-prestamo-personal-doble-tasa-empresas-2005.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que cobra Grupo Dia por el 100% de las acciones de Dia Argentina, unos €36 millones; el total con marca y deuda interna es US$53,8 millones</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-05-dia-argentina-venta-gdn-precio-caja.png" length="79860" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-05-dia-argentina-venta-gdn-precio-caja.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Pampa ofrece impuestos cero a los proveedores de Vaca Muerta, pero su propio petróleo cayó 63% desde 2013 y no saca ni un metro cúbico de no convencional</title>
-      <link>https://coninteres.com/articulos/2026-11-05-la-pampa-petroleo-cae-63-vaca-muerta-impuestos-cero.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-05-la-pampa-petroleo-cae-63-vaca-muerta-impuestos-cero.html</guid>
-      <pubDate>Thu, 05 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>La Pampa apuesta a venderle a Vaca Muerta porque su propio petróleo se achica: entre enero y septiembre de 2026 produjo 430.408 metros cúbicos, 63,3% menos que en los mismos meses de 2013 y lo más bajo desde 2002, según la Secretaría de Energía. Todo es petróleo convencional. Neuquén, en el mismo lapso, multiplicó su producción por 6,2. El plan del gobierno pampeano ofrece una exención de hasta el 100% de los tributos provinciales para que sus empresas le vendan bienes y servicios a la cuenca vecina.</description>
-      <ci:numero>−63,3%</ci:numero>
-      <ci:numeroEtiqueta>caída del petróleo producido en La Pampa entre enero y septiembre, de 2013 a 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-05-la-pampa-petroleo-cae-63-vaca-muerta-impuestos-cero.png" length="72586" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-05-la-pampa-petroleo-cae-63-vaca-muerta-impuestos-cero.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T04:45:40-03:00",
+    "actualizado": "2026-11-08T06:56:55-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-inflacion-portena-servicios-anticipa-indec",
+      "titulo": "La inflación porteña le gana a la nacional solo cuando los servicios suben más que los bienes, y en octubre subieron lo mismo",
+      "bajada": "El 1,9% que midió la Ciudad de Buenos Aires en octubre no adelanta por sí solo el dato nacional: lo que adelanta algo es la mezcla, y en octubre bienes y servicios subieron lo mismo. Cruzamos 24 meses del índice porteño con el del INDEC. Cuando los servicios suben un punto o más por encima de los bienes, la inflación porteña supera a la nacional en 9 de cada 10 meses. Cuando suben parecido, como ahora, la nacional iguala o supera a la porteña en 13 de cada 14.",
+      "titulo_busqueda": "Inflación de octubre en la Ciudad: ¿qué anticipa el 1,9% porteño para el dato del INDEC?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "13 de 14",
+      "numero_label": "meses desde octubre de 2024 en que, con servicios y bienes subiendo parecido en la Ciudad, la inflación nacional igualó o superó a la porteña",
+      "fecha": "2026-11-08",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-08-inflacion-portena-servicios-anticipa-indec.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "IDECBA informe 2069 cuadro C.1.A (IPCBA NG, bienes, servicios oct-24 a oct-26) + INDEC serie_ipc_divisiones.csv (Nacional NG). Meses con servicios-bienes CABA <=0,5 pp: 14 (feb, mar, abr, ago, sep, oct, nov, dic-25; mar, abr, may, jun, ago, sep-26); nacional >= CABA en 13 (excepción sep-25: 2,2 vs 2,1); brecha media -0,18, rango -0,5/+0,1. Meses con S-B >=1,1: 10; CABA > nacional en 9 (excepción feb-26 2,6 vs 2,9), media +0,47. Contraste GBA INDEC: 12 de 14 y 9 de 10. Oct-26: IPCBA 2.695,00/2.644,33 = +1,92%; B 2.318,42/2.275,90 = +1,87%; S 2.961,22/2.904,78 = +1,94%. Consultoras oct-26 1,8-2% (La Nación 01/11/2026). Rango condicional 1,8-2,4% (ESTIMACIÓN)."
+    },
     {
       "id": "2026-11-08-prestamo-personal-doble-tasa-empresas-2005",
       "titulo": "Un préstamo personal cuesta el doble de interés que el crédito de un banco a una empresa, la proporción más alta desde 2005",
