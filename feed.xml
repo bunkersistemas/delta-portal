@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 07 Nov 2026 20:49:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 07 Nov 2026 22:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Cuánta plata le deja a Boca ser campeón de la tabla anual, y cuánto puede sumar si gana todas las finales que le quedan?</title>
+      <link>https://coninteres.com/articulos/2026-11-07-boca-campeon-tabla-anual-cuanta-plata.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-boca-campeon-tabla-anual-cuanta-plata.html</guid>
+      <pubDate>Sat, 07 Nov 2026 22:50:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>DEPORTES</category>
+      <description>El título de la tabla anual no trae ningún premio en dinero publicado. El único premio oficial para los campeones de los torneos de liga, el de la CONMEBOL, alcanza para dos campeones por año, y uno ya lo cobró Belgrano. Con lo que sí está publicado, Boca lleva ganados US$6,4 millones en premios en 2026. Si gana la Sudamericana y la Copa Argentina, llega a US$16,6 millones, el 9,6% de lo que presupuestó ingresar en un año. Seis de cada diez dólares de esa cuenta salen de una sola final.</description>
+      <ci:numero>US$16,6 M</ci:numero>
+      <ci:numeroEtiqueta>lo máximo que Boca puede sumar en premios oficiales publicados en 2026, si gana la Sudamericana y la Copa Argentina</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-boca-campeon-tabla-anual-cuanta-plata.png" length="68429" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-boca-campeon-tabla-anual-cuanta-plata.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Por los mismos 300 kWh, un hogar de Bahía Blanca paga 74% más de luz que uno del conurbano atendido por Edenor</title>
       <link>https://coninteres.com/articulos/2026-11-07-luz-provincia-buenos-aires-74-por-ciento-edenor.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>personas de los 31 aglomerados urbanos que viven en hogares que cocinan con gas de red, primer semestre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-05-gas-de-red-59-por-ciento-minimo-serie-garrafa.png" length="74287" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-05-gas-de-red-59-por-ciento-minimo-serie-garrafa.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Mercado Libre creció 6,3% en la Argentina descontada la inflación: un año antes crecía 47%, y ya son seis trimestres seguidos de freno</title>
-      <link>https://coninteres.com/articulos/2026-11-05-mercado-libre-argentina-crecimiento-real-6-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-05-mercado-libre-argentina-crecimiento-real-6-por-ciento.html</guid>
-      <pubDate>Thu, 05 Nov 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Mercado Libre informó que sus ingresos en la Argentina crecieron 42% en el tercer trimestre de 2026. Descontada la inflación con el índice de precios del INDEC, el crecimiento real fue de 6,3%. La diferencia está en la unidad: el 42% está medido en moneda local, es decir en pesos, y trae la inflación adentro. Un año antes, el crecimiento real era de 47%, y a principios de 2025, de 69%. Es el sexto trimestre seguido en que crece menos que en el anterior.</description>
-      <ci:numero>6,3%</ci:numero>
-      <ci:numeroEtiqueta>crecimiento real de los ingresos de Mercado Libre en la Argentina, tercer trimestre de 2026 contra el mismo de 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-05-mercado-libre-argentina-crecimiento-real-6-por-ciento.png" length="71053" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-05-mercado-libre-argentina-crecimiento-real-6-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
