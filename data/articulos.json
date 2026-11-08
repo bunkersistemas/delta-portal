@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T13:03:51-03:00",
+    "actualizado": "2026-11-08T14:47:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-motos-por-auto-maximo-2007-formosa-ciudad",
+      "titulo": "Se patentan 1,56 motos por cada auto 0 km, el máximo desde 2007: en Formosa son cinco y en la Ciudad, menos de una cada cuatro",
+      "bajada": "Entre enero y octubre de 2026 se patentaron 1,56 motos por cada auto, camioneta o camión: el máximo de la serie del registro automotor, que empieza en 2007. Un año antes eran 0,98. Pero el promedio esconde dos países: en Formosa se patentaron cinco motos por auto y en el Noreste, cuatro; en la Ciudad de Buenos Aires, 0,22.",
+      "titulo_busqueda": "¿Cuántas motos se patentan por cada auto en la Argentina? En 2026, 1,56: el máximo desde 2007",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,56",
+      "numero_label": "motos 0 km patentadas por cada auto, camioneta o camión entre enero y octubre de 2026, el máximo de la serie que empieza en 2007",
+      "fecha": "2026-11-08",
+      "hora": "14:30",
+      "archivo": "articulos/2026-11-08-motos-por-auto-maximo-2007-formosa-ciudad.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "DNRPA datos.jus.gob.ar inscripciones iniciales automotores 2000-01/2026-10 y motovehiculos 2007-01/2026-10 (al 31/10/2026), suma de provincias ene-oct: 2026 756.572 motos / 485.357 automotores = 1,559; 2025 545.049/555.033 = 0,982 (incluye 28.041 motos TDF; sin TDF 0,942); 2024 392.376/358.105 = 1,096 (maximo previo ene-oct; anio completo 2024 1,186). Oct-26 81.713/46.390 = 1,761, maximo para mes no diciembre (dic-25 2,499). Provincias 2026: Formosa 16.640/3.319 = 5,01; CABA 20.151/93.207 = 0,216; NEA 4,015; NOA 3,704; 19 de 24 distritos > 1 (2007: 8; 2024: 17). Contraste ACARA oct-26 via El Economista: motos 748.598 (+39,1%), autos 481.852 (-12,8%) = 1,554; Buenos Aires 232.570 vs 233.698, Santa Fe 73.721 vs 74.463. Analytica via ambito 08/11: 177 por 100 en oct desest."
+    },
     {
       "id": "2026-11-08-transferencias-provincias-caida-ciudad-cautelar",
       "titulo": "La plata que la Nación gira a las provincias cayó 61,4%, pero más de dos tercios de esa baja es la Ciudad",
