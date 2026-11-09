@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T02:57:03-03:00",
+    "actualizado": "2026-11-09T04:51:04-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-industria-partida-11-ramas-piso-9-techo",
+      "titulo": "La industria se partió en dos: 11 de sus 65 ramas fabricaron en 2026 lo menos desde 2016, y 9 fabricaron lo más",
+      "bajada": "La industria cae 2,6% en promedio, y ese promedio tapa una grieta. De las 65 ramas que mide el INDEC, 11 produjeron entre enero y septiembre de 2026 lo menos de toda la serie, que empieza en 2016: menos que en la pandemia. Son electrónica, telas, electrodomésticos, cerámica, cuero, cigarrillos y vino. En la otra punta, 9 ramas marcaron su máximo: aceite y harina de soja, combustibles, aluminio, lácteos y remedios.",
+      "titulo_busqueda": "¿Qué industrias crecen y cuáles caen en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "11 de 65",
+      "numero_label": "ramas de la industria que en enero-septiembre de 2026 produjeron lo menos de la serie del INDEC, que empieza en 2016",
+      "fecha": "2026-11-09",
+      "hora": "07:30",
+      "archivo": "articulos/2026-11-09-industria-partida-11-ramas-piso-9-techo.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "cálculo propio sobre el cuadro 2 de sh_ipi_manufacturero_2026.xls (INDEC, 06/11/2026): promedio ene-sep 2016-2026 de 65 subclases (sin divisiones; excluidas neumáticos y otros caucho por secreto y reciclamiento por duplicar el nivel general); 11 en mínimo, 9 en máximo; variaciones contra 2025 coinciden con el informe técnico; contraste OEDE-SIPA 1T26 vs 1T23: ramas emparejadas con el piso -14,2% (157.466 vs 183.450), con el techo +2,0% (134.925 vs 132.290)"
+    },
     {
       "id": "2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero",
       "titulo": "La ANSES giró $290.667 millones a las cajas de jubilaciones de nueve provincias desde 2024; a la bonaerense, que en 2023 se llevó el 68,6%, nada",
