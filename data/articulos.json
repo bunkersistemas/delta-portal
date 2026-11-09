@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T10:56:06-03:00",
+    "actualizado": "2026-11-09T13:07:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-gas-quemado-venteado-36-por-ciento-vaca-muerta",
+      "titulo": "Las petroleras quemaron o ventearon 885 millones de m³ de gas en nueve meses, 36% más que en 2025: en Neuquén, más de lo que usaron en un año todos sus hogares",
+      "bajada": "Entre enero y septiembre de 2026, la producción de gas del país creció 0,7%. El gas que las petroleras no aprovecharon, y que quemaron en antorchas o liberaron a la atmósfera, creció 36,2%: declararon ante la Secretaría de Energía 885,5 millones de metros cúbicos de gas «aventado». Agosto fue el mes con más gas aventado desde 2009. Ocho de cada diez metros cúbicos extra salieron de cuatro áreas petroleras nuevas de Vaca Muerta.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+36,2%",
+      "numero_label": "suba del gas que las petroleras quemaron o ventearon entre enero y septiembre de 2026 contra el mismo período de 2025",
+      "fecha": "2026-11-09",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-09-gas-quemado-venteado-36-por-ciento-vaca-muerta.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "SE, Balances de gas desde 2009 (sescoweb_gas.zip, TD_S_SescoWebUP_09_2026_GAS.xlsx, pivotCache1, concepto 'Aventado (Mm3)'): ene-sep 2026 885.527,5 miles de m3 vs ene-sep 2025 650.014,1 (+36,23%); ago-2026 128.340,7 = máximo mensual 2009-2026 (ago-2019 124.254,1); prod. gas ene-sep 40.275.102 vs 40.000.954 (+0,69%). Neuquén ene-sep 2026 665.394,7. Cuatro áreas (La Angostura Sur I y II YPF, Bajo del Choique-La Invernada Pluspetrol, Los Toldos II Este Tecpetrol): 31,9 -> 223,6 M m3, +191,7 de +235,5 (81,4%). Contraste: Banco Mundial/EOG flare volume 2024 0,906 bcm vs declarado 0,930 (2,6%); 2025 0,732 vs 0,866; SE detección satelital may-ago 2024 1.047 AT vs may-ago 2026 ~2.711 AT. ENARGAS GED domiciliarios Neuquén 2025 627.498 miles m3; país 10.063.109. YPF 6-K SEC 28/10/2026: South Hub gas evacuation completed Sep-26; LAS I aventado ago 23,9 -> sep 11,0."
+    },
     {
       "id": "2026-11-09-ypf-margen-refino-barril-25-dolares",
       "titulo": "El margen de YPF por cada barril que refina se multiplicó por 3,6 en un año: US$25,6 contra US$7,1",

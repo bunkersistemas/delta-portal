@@ -8203,6 +8203,22 @@
       "angulo": "Registro de descartes de la corrida.",
       "fecha": "2026-11-09",
       "estado": "descartada"
+    },
+    {
+      "tema": "gas quemado o venteado (aventado) en la Argentina, enero-septiembre 2026 (pregunta detrás de Infobae 09/11/2026 'Las recientes elecciones en EEUU reavivaron el interés por la construcción de data centers en la Patagonia', gas desperdiciado en Vaca Muerta) / SE Balances de gas SESCO, concepto Aventado: 885,5 M m3 ene-sep 2026 vs 650,0 (+36,2%), producción de gas +0,7%; agosto 128,3 M m3, máximo mensual desde 2009 (ago-2019 124,3); Neuquén 665,4 M m3 > consumo domiciliario neuquino 2025 (ENARGAS 627,5); cuatro áreas nuevas de Vaca Muerta = 81% de la suba; contraste Banco Mundial (satélite) e informes satelitales de la SE; YPF 6-K: evacuación de gas del South Hub completada en sep-26",
+      "fecha": "2026-11-09",
+      "estado": "en_cola",
+      "id": "2026-11-09-gas-quemado-venteado-36-por-ciento-vaca-muerta",
+      "archivo": "cola/2026-11-09-gas-quemado-venteado-36-por-ciento-vaca-muerta.html",
+      "angulo": "Nuevo: ninguna nota previa sobre venteo o quema de gas. Cruce propio de la declaración de las empresas (SESCO) con dos mediciones satelitales (Banco Mundial/EOG y SE con NASA VIIRS), por área y por mes, con el documento de YPF que fecha la obra de evacuación.",
+      "seccion": "ECONOMÍA"
+    },
+    {
+      "fecha": "2026-11-09",
+      "estado": "descartada",
+      "angulo": "Registro de candidatas de la corrida.",
+      "motivo_descarte": "pasó la candidata 3 (gas aventado, SESCO + satélite); la 1 y la 2 frenaron",
+      "tema": "descartes de la corrida de redacción del 09/11/2026 12:30. Clarín y TN no cargaron (WebFetch bloqueado). Portadas: visita del papa (todas), riesgo país y bonos post-2027 [infobae, ámbito, Página12], pobreza 3T estimada [ámbito, iProfesional], ventas pyme -1,6% [infobae, ámbito], Valo-PPI [infobae, La Nación], gasto público -5,4% [La Nación], Papelera del Sur Tornquist [iProfesional], Revolut, Black Hawk, data centers en la Patagonia [infobae], Punta del Este verano 2027 [ámbito]. Lista: (1) turistas argentinos en Uruguay y uruguayos en la Argentina, informe de turismo receptivo del 3T2026 del Ministerio de Turismo de Uruguay (subido en noviembre; uruguayos gastaron en la Argentina US$159,9 M y argentinos en Uruguay US$156,2 M): FRENADA, el ancla del 3T2026 no se puede recalcular (microdatos de emisivo incompletos para el 3T: 212 mil de 618 mil viajeros), el contraste del INDEC (ETI, Puerto de Buenos Aires) da el gasto uruguayo en baja (-9%) contra +18,7% de Mintur, la comparación de viajeros cambia de signo según se mida por residencia o nacionalidad, y el 2T2026 no da vuelta (160,6 vs 146,0). Los microdatos de emisivo 2017-2T2026 cierran exacto con los informes (3T2025: 369.797); los de receptivo no (3T2024: 407.907 contra 429.760). Retomable cuando se complete la base. (2) cuánto efectivo sacó la gente antes de los cinco días sin bancos por el papa: FRENADA, la serie diaria BCRA 17 llega al 03/11. (3) HALLAZGO: gas aventado SESCO + satélite: APTA. (4) cartulina importada y cierre de Papelera del Sur en Tornquist [iProfesional]: ya publicada el 05/11 (NCM 4810.92). (5) EMPRESAS: Inversora Eléctrica de Buenos Aires (anexo II, solo formulario), Mastellone (sin EEFF al 30/09 en cnv_lista), Banco Comafi (suplemento de CEDEAR de SanDisk), Caja de Valores (dividendo del CEDEAR de Itaú, US$0,0028 por CEDEAR), Telecom (6-K del 06/11 es renuncia de un director; resultados del 3T todavía no), Grupo Clarín y Cablevisión (solo invitación), Central Puerto (resultados el 11/11): sin documento con cifra o ya cubiertas. Hoy ya hubo dos notas de EMPRESAS (Edenor e YPF). (6) deuda flotante, transferencias a provincias, riesgo país, pobreza 3T, visita del papa, FAL, plazo fijo en dólares, hipotecarios ANSES, pickups a Brasil, discapacidad, IPI por ramas: ya en cubiertas. Calendario: nada de INDEC/BCRA hoy (ISSP el 11/11, IPC y CBT el 12/11)."
     }
   ]
 }
