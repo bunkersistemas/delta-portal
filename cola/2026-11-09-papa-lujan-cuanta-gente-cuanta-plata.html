@@ -1,0 +1,414 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Cuánta gente va a Luján por la misa del papa León XIV y cuánta plata mueve en la ciudad? — CON INTERÉS</title>
+<meta name="description" content="Nadie publicó con método cuántos van a ir: el intendente habla de más de un millón. Lo que está en documentos es el gasto de la Provincia: diez contratos por $4.206 millones para la misa y la vigilia en Luján.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+</style>
+</head>
+<body data-palette="#0E7C86,#6B6560,#C4701F,#C0392B">
+<div class="draft-ribbon"><b>BORRADOR</b> · Nota en la cola de revisión, todavía no publicada.</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<div class="borrador"><div class="borrador-in"><b>Borrador para revisión.</b> Investigación pedida por un lector. Cifra ancla: $4.206 millones, suma de diez resoluciones del Ministerio de Gobierno bonaerense (SINDMA), que coincide con el desglose del ministerio publicado por Chequeado.</div>
+</div>
+<article>
+  <div class="kicker">ECONOMÍA PROVINCIAL <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+<div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Cuánta gente lleva el papa a Luján y cuánta plata mueve en una ciudad de 111.251 habitantes?</h1>
+
+  <p class="standfirst">Nadie publicó con método cuánta gente va a ir a la misa del miércoles: el intendente habla de más de un millón, casi nueve visitantes por vecino. Lo que sí tiene documento es lo que pone la Provincia: diez contratos por $4.206 millones para la misa y la vigilia en Luján, $37.809 por habitante y el equivalente al 3,9% de lo que el municipio presupuestó gastar en todo 2026. Lo que dejan los visitantes en hoteles y comercios, en cambio, no lo mide ninguna estadística oficial.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>9 de noviembre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 8 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta cuánta gente se espera en Luján para la misa de León XIV del miércoles 11 de noviembre, quién lo estima y con qué método, cómo se compara con las otras multitudes del último año en la ciudad, y cuánta plata pública se contrató para el evento. Hay partes que no se pudieron contestar: la misa todavía no ocurrió, así que no hay conteo; el gasto de los visitantes en hoteles y comercios de Luján no lo mide ninguna estadística oficial; y el Ministerio de Seguridad bonaerense, la Nación y el municipio no tienen publicado, al cierre de esta nota, un gasto para Luján. No cubre las paradas de Buenos Aires y Córdoba, que ya contamos en dos notas que se enlazan abajo.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">3m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">$4.206<span class="u">millones</span></div>
+      <div class="cap">Es lo que la <b>Provincia de Buenos Aires contrató para la misa y la vigilia del papa en Luján</b>: diez contratos aprobados entre el 26 y el 30 de octubre. Equivalen a <b>$37.809 por cada habitante</b> del partido.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v up">más de 1 millón</span><span class="k">asistentes que estima el intendente, sin método publicado</span></div>
+        <div class="sr"><span class="v">111.251</span><span class="k">habitantes de Luján, Censo 2022</span></div>
+        <div class="sr"><span class="v">3,9%</span><span class="k">del presupuesto municipal de 2026</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Cuántos se esperan y quién lo dice</h3>
+    <p class="lead">Nadie publicó un número de asistentes con método para la misa que León XIV celebra el miércoles 11 de noviembre a las 10 en la plaza de la Basílica de Luján. La única estimación oficial con nombre propio que encontramos es la del intendente, Leonardo Boto, y fue bajando.</p>
+    <p>El 23 de septiembre, en una entrevista con <a href="https://www.infobae.com/sociedad/2026/09/23/estimamos-hasta-dos-millones-de-personas-el-intendente-de-lujan-hablo-de-la-misa-que-el-papa-leon-xiv-dara-en-la-provincia-de-buenos-aires/">Infobae</a>, habló de «un millón y medio, dos millones de personas». El 28 de octubre, también en <a href="https://www.infobae.com/politica/2026/10/28/el-intendente-de-lujan-anticipo-que-esperan-mas-de-un-millon-de-personas-para-la-misa-del-papa-leon-xiv/">Infobae</a>, dijo: «Yo creo que vamos a estar por encima del millón de personas», y calculó entre 400.000 y 500.000 ya en la previa.</p>
+    <p>La Provincia, que organiza el operativo, no puso una cifra. Ni el <a href="https://visitadelpapapba.gba.gob.ar/misalujan.html">sitio oficial de la misa</a> ni el <a href="https://www.gba.gob.ar/node/55305">comunicado con el que Axel Kicillof presentó el operativo</a> el 4 de noviembre dicen cuánta gente esperan. Lo que sí dice el comunicado es el tamaño del despliegue: <b>12.000 efectivos de seguridad, más de 10.000 voluntarios, más de 1.200 trabajadores de la salud y 45 ambulancias</b>, unas 30.000 personas en total según el ministro de Seguridad, Javier Alonso, entre Luján y la visita del lunes al Cottolengo de Claypole.</p>
+    <p>Por eso, cualquier número que lea antes del miércoles es una <b>estimación</b>. Para medir el orden de magnitud, sirve compararlo con la ciudad: <b>Luján tiene 111.251 habitantes</b>, según el <a href="https://censo.gob.ar/index.php/datos_definitivos_bsas/">Censo 2022 del INDEC</a>. Un millón de visitantes son casi nueve por cada vecino; dos millones, dieciocho.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Lo que pone la Provincia, contrato por contrato</h3>
+    <p>La plata pública que tiene documento es la de la Provincia. El <a href="https://normas.gba.gob.ar/documentos/0zZD66i8.html">Decreto 1657/2026</a> declaró la visita de interés provincial y les dio a los ministerios de Gobierno y de Seguridad el régimen especial para actos oficiales del artículo 40 de la Ley 10.189, con anticipos a los proveedores contra una garantía del 100%. Con ese régimen, el <b>Ministerio de Gobierno aprobó doce contratos por $4.809 millones</b> entre el 26 y el 30 de octubre, según las resoluciones cargadas en el sistema de normas de la Provincia.</p>
+    <p>Diez de esos contratos, por <b>$4.206 millones</b>, son para Luján: el 87% del total. Los otros dos, por $603 millones, son para la visita del lunes al Cottolengo Don Orione de Claypole.</p>
+    <p>El reparto por lugar es el del desglose que el Ministerio de Gobierno le dio a <a href="https://chequeado.com/el-explicador/el-papa-leon-xiv-en-argentina-que-se-sabe-y-que-no-sobre-como-se-financia-la-visita-y-quien-la-paga/">Chequeado</a> el 6 de noviembre, y cierra con las resoluciones. Lo de Luján se divide en tres renglones: la producción de la misa ($3.024 millones), las pantallas y la técnica de la vigilia en el Parque San Martín ($639 millones) y la Villa San José de los Hermanos Maristas, en Luján ($543 millones).</p>
+    <p>El contrato más grande es de <b>$931 millones</b>, con Ramiroquai S.A., por técnica, carpas, catering, alojamiento, transporte y la vigilia. Le sigue uno de <b>$923,9 millones</b> con R2 S.A., que incluye el escenario del coro y el de la vigilia, los baños químicos, los módulos de oficina y la limpieza. La lista completa está al final de la nota.</p>
+    <p>Una parte la financia el Consejo Federal de Inversiones (CFI), el organismo que comparten las provincias. El <a href="https://normas.gba.gob.ar/ar-b/decreto/2026/1940/627677">Decreto 1940/2026</a> aprobó un convenio por el que el CFI le transfiere a la Provincia <b>hasta $2.500 millones</b> para la visita, en una sola cuota dentro de los cinco días de la firma, que fue el 8 de octubre. Equivale al 52% de los doce contratos.</p>
+    <p>Eso es lo que está en papel. Para la cantidad de gente no hay documento; lo que hay para comparar son las multitudes que Luján ya recibió.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Luján en el último año: las otras multitudes</h3>
+    <p>Luján ya recibió dos veces en el último año una multitud más grande que la que se espera para el miércoles, y las dos veces los números oficiales no coincidieron entre sí. Para la <b>Peregrinación Juvenil de octubre de 2025</b>, la Provincia informó <a href="https://www.gba.gob.ar/jag/noticias/la_provincia_acompa%C3%B1%C3%B3_m%C3%A1s_de_dos_millones_y_medio_de_fieles_en_la_51%C2%B0_peregrinaci%C3%B3n">«más de dos millones y medio de fieles»</a>, sin decir cómo los contó; el intendente, en cambio, dijo en septiembre que habían llegado «cerca de dos millones».</p>
+    <p>Para la de <b>octubre de 2026</b>, la Provincia habló de <a href="https://www.gba.gob.ar/node/54945">«más de 2.700.000 fieles»</a> y el municipio publicó <a href="https://www.lujan.gob.ar/noticias_detalle.php?id=423">2.860.933 personas</a> llegadas a la ciudad entre el sábado y el domingo. Es la única de esas cifras con un método declarado: el sistema GeoData, que analiza el movimiento registrado por las antenas de telefonía celular desde el ingreso a la ciudad. El municipio no publicó el informe técnico, así que no se puede saber cómo trató a quien entró dos veces o a quien no llevaba celular. Aun así, es la mejor vara disponible: la peregrinación juvenil llevó a Luján unas 26 veces su población en dos días.</p>
+    <p>La tercera referencia es más chica y más cotidiana. En las <b>vacaciones de invierno de 2026</b>, el municipio estimó <a href="https://www.lujan.gob.ar/noticias_detalle.php?id=276">unos 282.000 visitantes</a> en el Parque Invernal durante dos semanas, «a partir del análisis de dispositivos móviles y una proyección complementaria», con los alojamientos a «alrededor del 70%» y la gastronomía «cercana al 80%».</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Personas en Luján según cada fuente · millones</div>
+        <h3>La misa se espera más chica que las dos últimas peregrinaciones juveniles</h3>
+        <p class="fig-sub">Asistencia informada por la Provincia o el municipio en cada convocatoria del último año, y la estimación del intendente para la misa. Ninguna cifra es un conteo exacto.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 330" role="img" aria-label="Millones de personas. Población de Luján, Censo 2022: 0,11. Vacaciones de invierno 2026, Parque Invernal, dos semanas, municipio: 0,28. Peregrinación Juvenil 2025, Provincia: más de 2,5. Peregrinación Juvenil 2026, municipio por antenas: 2,86; Provincia: más de 2,7. Misa del papa 2026, intendente: más de 1 millón el 28 de octubre, entre 1,5 y 2 el 23 de septiembre.">
+<line x1="250" y1="10" x2="250" y2="280" class="gg"/>
+<line x1="400" y1="10" x2="400" y2="280" class="gg"/>
+<line x1="550" y1="10" x2="550" y2="280" class="gg"/>
+<line x1="700" y1="10" x2="700" y2="280" class="gg"/>
+<text x="250" y="296" text-anchor="middle" class="cf">1</text>
+<text x="400" y="296" text-anchor="middle" class="cf">2</text>
+<text x="550" y="296" text-anchor="middle" class="cf">3</text>
+<text x="700" y="296" text-anchor="middle" class="cf">4</text>
+<text x="0" y="30" class="cl">Habitantes de Luján (Censo 2022)</text>
+<rect x="100" y="38" width="16.7" height="18" rx="2" fill="#6B6560"/><text x="124" y="52" class="cvB">0,11</text>
+<text x="0" y="80" class="cl">Vacaciones de invierno 2026 (2 semanas, municipio)</text>
+<rect x="100" y="88" width="42.3" height="18" rx="2" fill="#6B6560"/><text x="150" y="102" class="cvB">0,28</text>
+<text x="0" y="130" class="cl">Peregrinación Juvenil 2025 (Provincia)</text>
+<rect x="100" y="138" width="375" height="18" rx="2" fill="#0E7C86"/><text x="483" y="152" class="cvB">más de 2,5</text>
+<text x="0" y="180" class="cl">Peregrinación Juvenil 2026 (municipio, antenas celulares)</text>
+<rect x="100" y="188" width="429.1" height="18" rx="2" fill="#0E7C86"/><text x="537" y="202" class="cvB">2,86</text>
+<text x="0" y="230" class="clB">Misa de León XIV, 11/11/2026 (estimación del intendente)</text>
+<rect x="100" y="238" width="150" height="18" rx="2" fill="#C4701F"/>
+<rect x="250" y="238" width="150" height="18" rx="2" fill="#C4701F" fill-opacity=".35"/>
+<text x="408" y="252" class="cvB">más de 1 (28/10) · 1,5 a 2 (23/09)</text>
+<text x="0" y="322" class="cf">La barra clara es el rango que el intendente daba en septiembre. La Provincia informó «más de 2,7 millones» para la peregrinación de 2026.</text>
+</svg>
+      <figcaption><b>Fuentes:</b> INDEC, Censo 2022; Municipio de Luján (07/08/2026 y 08/10/2026); Provincia de Buenos Aires (06/10/2025); Leonardo Boto en Infobae (23/09 y 28/10/2026).</figcaption>
+    </figure>
+
+    <p>El operativo, en cambio, no se parece al de la peregrinación. Para la de 2026, la Provincia informó <a href="https://www.gba.gob.ar/node/54945">más de 1.000 efectivos policiales, 15 ambulancias y más de 6.000 voluntarios</a> de la Comisión de Piedad Popular. Para la visita del papa, entre Luján y Claypole, 12.000 efectivos, 45 ambulancias y más de 10.000 voluntarios. Menos gente esperada, pero unas doce veces más policías: lo que cambia es quién llega, no solo cuántos.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Hoteles y comercios: lo que se mide y lo que no</h3>
+    <p>Cuánta plata dejan los visitantes en Luján no lo mide nadie con una estadística oficial. La <a href="https://www.indec.gob.ar/uploads/informesdeprensa/eoh_01_243A8413A147.pdf">Encuesta de Ocupación Hotelera del INDEC</a> releva 49 localidades del país y, en la provincia de Buenos Aires, publica datos de Bahía Blanca, Mar del Plata, Pinamar, Tandil y Villa Gesell: Luján no está.</p>
+    <p>El municipio publicó porcentajes de ocupación para las vacaciones de invierno, pero no un gasto, y para la visita del papa no encontramos un dato de ocupación publicado: solo la frase del intendente a Infobae en septiembre, «la hotelería ya está casi tomada». Lo que sí hizo fue habilitar, el 7 de octubre, un <a href="https://www.lujan.gob.ar/noticias_detalle.php?id=419">portal de alojamientos y servicios</a> en el que, aclara, «la información es declarada por cada prestador».</p>
+    <p>Las cifras de impacto económico que circulan son para todo el país y salen de cámaras empresarias. La más citada es una proyección atribuida a la CAME, que multiplica el gasto diario por turista de un fin de semana largo por la cantidad de visitantes esperados en toda la gira. No encontramos el documento publicado por la cámara, y la proyección no separa Luján. Por eso no la usamos como dato.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Contratos del Ministerio de Gobierno bonaerense para la visita · millones de pesos</div>
+        <h3>Nueve de cada diez pesos contratados por la Provincia van a Luján</h3>
+        <p class="fig-sub">Doce contratos aprobados del 26 al 30 de octubre de 2026, agrupados por lugar. La línea marca el aporte máximo del CFI.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 250" role="img" aria-label="Millones de pesos. Producción de la misa en Luján, siete contratos: 3.024. Pantallas y técnica de la vigilia en el Parque San Martín de Luján, dos contratos: 639. Villa San José de los Hermanos Maristas, Luján, un contrato: 543. Cottolengo Don Orione, Claypole, dos contratos: 603. Total Luján 4.206, total visita 4.809. Aporte del CFI hasta 2.500.">
+<text x="0" y="22" class="clB">Producción de la misa en Luján (7 contratos)</text>
+<rect x="0" y="30" width="453.6" height="22" rx="3" fill="#C4701F"/><text x="462" y="46" class="cvB">3.024</text>
+<text x="0" y="78" class="clB">Pantallas y técnica de la vigilia, Parque San Martín (2)</text>
+<rect x="0" y="86" width="95.9" height="22" rx="3" fill="#C4701F"/><text x="104" y="102" class="cvB">639</text>
+<text x="0" y="134" class="clB">Villa San José, Hermanos Maristas, Luján (1)</text>
+<rect x="0" y="142" width="81.4" height="22" rx="3" fill="#C4701F"/><text x="90" y="158" class="cvB">543</text>
+<text x="0" y="190" class="cl">Cottolengo Don Orione, Claypole (2)</text>
+<rect x="0" y="198" width="90.5" height="22" rx="3" fill="#6B6560"/><text x="99" y="214" class="cvB">603</text>
+<line x1="375" y1="20" x2="375" y2="226" stroke="#0E7C86" stroke-width="2" stroke-dasharray="5 4"/>
+<text x="381" y="240" class="cf" style="fill:#0A5C63">aporte del CFI: hasta 2.500</text>
+<text x="560" y="102" class="cvB">Luján: 4.206</text>
+<text x="560" y="122" class="cv">Total visita: 4.809</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Ministerio de Gobierno de la Provincia de Buenos Aires, resoluciones 517 (rectificada por la 541), 519 a 525 y 528 a 530 y 542 de 2026; Decreto 1940/2026 (convenio con el CFI). Agrupación por lugar: desglose del Ministerio de Gobierno publicado por Chequeado (06/11/2026). Suma: Con Interés.</figcaption>
+    </figure>
+
+    <p>Para medir el tamaño de esos $4.206 millones, sirve el presupuesto del propio municipio. Luján presupuestó gastar <a href="http://luj-bue-datos.paisdigital.innovacion.gob.ar/dataset/35c6935e-8f95-4071-8035-18d1b501faa9/resource/e40db43f-2cd4-41b2-9a12-b557d43bb315/download/presupuesto-2026.pdf">$106.500 millones en todo 2026</a>. Lo que contrató la Provincia para dos días de actos en la ciudad equivale al <b>3,9%</b> de eso, o a <b>$37.809 por habitante</b>. Si fuera cierto el millón de asistentes que estima el intendente, serían unos $4.200 por asistente, solo en producción: sin el operativo de seguridad, que no tiene costo publicado.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación: documento oficial, recálculo y contraste.</b> La cifra ancla, $4.206 millones, es la suma de diez resoluciones del Ministerio de Gobierno bonaerense que leímos una por una en el Sistema de Información Normativa de la Provincia (SINDMA): la 517 (con el monto que fija la 541), 519, 520, 522, 524, 525, 528, 529, 521 y 542, todas de 2026. Las doce resoluciones de la visita suman $4.809.251.049; las dos de Claypole (523 y 530), $603.000.000. El contraste es el desglose del mismo ministerio que publicó Chequeado: da $3.024 millones, $639 millones, $543 millones y $603 millones, y cada renglón coincide con nuestra suma de las resoluciones, redondeada al millón. El convenio con el CFI y su cronograma de desembolsos están en el anexo del Decreto 1940/2026.</p>
+      <p><b>Qué contratos cuentan como Luján.</b> Seis resoluciones nombran a Luján en su texto (la Basílica y su área de convocatoria, el Parque San Martín, la Villa San José y la logística «hasta Luján» de la escenografía). Las otras cuatro que sumamos a Luján describen servicios para «la provincia de Buenos Aires» sin decir el lugar; las asignamos con el desglose del ministerio, que las pone en la producción de la misa o de la vigilia. Las dos de Claypole las identifica el mismo desglose y una de ellas menciona «obras en Cottolengo».</p>
+      <p><b>Las asistencias son estimaciones, no datos.</b> Las publicamos con su autor y su fecha. La población de Luján (111.251) está en dos cuadros del Censo 2022 del INDEC (1.2 y 3.2.76); en algunos sitios circula 111.008, que no coincide con los resultados definitivos. El presupuesto municipal de 2026 es el crédito original del documento publicado por el municipio el 27/02/2026 ($106.500 millones); con las modificaciones de ese momento, $108.427 millones, el porcentaje da 3,9% igual.</p>
+      <p><b>Lo que buscamos y no está.</b> El gasto del Ministerio de Seguridad bonaerense en el operativo: no encontramos resoluciones publicadas en el SINDMA al 9 de noviembre, y no damos la cifra que circula sin documento. El gasto nacional: las órdenes de compra de la unidad ejecutora de la Jefatura de Gabinete que contamos el 6 de noviembre son para Palermo. El gasto del municipio: su presupuesto 2026, aprobado antes de que se anunciara el viaje, no tiene una partida para la visita, y no encontramos decretos de gasto publicados. La ocupación hotelera y el gasto de los visitantes en Luján: ninguna estadística oficial los mide.</p>
+      <div class="meta">
+        <span><b>Fuente</b> Ministerio de Gobierno PBA · CFI · INDEC · Municipio de Luján</span>
+        <span><b>Período</b> octubre-noviembre de 2026</span>
+        <span><b>Unidad</b> $ corrientes</span>
+        <span><b>Verificación</b> documento oficial + recálculo + contraste</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>La pregunta de cuánta plata mueve la misa tiene dos mitades, y solo una tiene respuesta. La que se puede contestar es la del gasto público: la Provincia ya comprometió $4.206 millones en Luján, con anticipos de entre el 30% y el 50% autorizados contra garantía, y el aporte del CFI equivale a algo más de la mitad del total de la visita. La que no se puede contestar es la que más le importa a la ciudad: cuánto dejan los visitantes en sus hoteles, restaurantes y comercios. Ni el INDEC ni el municipio lo miden, y las proyecciones que circulan son nacionales.</p>
+    <p>Lo mismo pasa con la gente: el conteo por antenas de celular de la peregrinación de octubre, el único de las grandes convocatorias con un método declarado, lo hizo el municipio y no publicó el informe técnico. Si después del miércoles se publica un número, la vara para leerlo es esa: quién lo midió y cómo.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si vivís en Luján:</b> desde el martes al mediodía se corta el acceso de vehículos a la zona de la misa, según el <a href="https://visitadelpapapba.gba.gob.ar/misalujan.html">sitio oficial</a>, y el municipio informó los cortes y desvíos por zona en su <a href="https://www.lujan.gob.ar/noticias_detalle.php?id=471">guía de la visita</a>. La plata de los contratos no sale del presupuesto municipal: la pone la Provincia, con ayuda del CFI.</p>
+      <p data-perfil="pyme"><b>Si tenés un comercio o un alojamiento en Luján:</b> no hay un número oficial de lo que gastan los visitantes, así que la mejor medida es la propia. En las vacaciones de invierno, con 282.000 visitantes en dos semanas, el municipio informó alojamientos al 70%.</p>
+      <p><b>Si vas a ir a la misa:</b> la Provincia anuncia <a href="https://visitadelpapapba.gba.gob.ar/">trenes y micros especiales gratis</a> y estacionamientos sin cargo con traslado, y caminatas de 3 a 8,5 kilómetros desde los accesos, según la <a href="https://visitadelpapapba.gba.gob.ar/misalujan.html">página de la misa</a>.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep" open>
+      <summary>Los doce contratos del Ministerio de Gobierno <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Res.</th><th>Proveedor</th><th>Qué contrata</th><th>Lugar</th><th style="text-align:right">Monto ($)</th></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/522/631565">522</a></td><td>Ramiroquai S.A.</td><td>Técnica, carpas, catering, alojamiento, transporte y vigilia</td><td>Luján*</td><td class="n">931.000.000</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/525/631649">525</a></td><td>R2 S.A.</td><td>Escenarios del coro y la vigilia, baños químicos, oficinas, limpieza</td><td>Luján*</td><td class="n">923.920.000</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/519/631391">519</a></td><td>JAL Entertainment S.R.L.</td><td>Sonido, pantalla, carpas, catering y ambientación</td><td>Villa San José, Maristas, Luján</td><td class="n">542.855.000</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/528/632110">528</a></td><td>Bagnati Producciones</td><td>Escenografía del escenario principal y del coro, logística hasta Luján</td><td>Luján</td><td class="n">388.724.600</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/521/631536">521</a></td><td>Offramp S.R.L.</td><td>Infraestructura técnica de iluminación y logística</td><td>Parque San Martín, Luján*</td><td class="n">323.275.700</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/524/631644">524</a></td><td>T.A.D.C. S.A.</td><td>Infraestructura del predio del Parque San Martín</td><td>Luján</td><td class="n">322.938.926</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/542/633311">542</a></td><td>Live Blu S.</td><td>Sonido, luces, pantallas y energía de la vigilia</td><td>Parque San Martín, Luján</td><td class="n">315.694.603</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/529/632549">529</a></td><td>VMG Video Tech S.A.</td><td>Pantallas LED</td><td>Basílica y área de convocatoria</td><td class="n">167.454.320</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/520/631476">520</a></td><td>XTC S.R.L.</td><td>Audio, pantallas, energía, fibra y centros de control</td><td>Basílica y área de convocatoria</td><td class="n">153.718.400</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/541/632566">517/541</a></td><td>Iza Nergia S.R.L.</td><td>Instalaciones eléctricas provisorias</td><td>Luján*</td><td class="n">136.669.500</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/523/631583">523</a></td><td>Total Producciones S.A.</td><td>Conectividad, obras en el Cottolengo, logística, catering</td><td>Claypole</td><td class="n">443.000.000</td></tr>
+        <tr><td><a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/530/632554">530</a></td><td>Vinante Sabariz</td><td>Sonido y pantallas del escenario principal</td><td>Claypole</td><td class="n">160.000.000</td></tr>
+        <tr><td colspan="4"><b>Luján (diez contratos)</b></td><td class="n"><b>4.206.251.049</b></td></tr>
+        <tr><td colspan="4"><b>Total de la visita (doce contratos)</b></td><td class="n"><b>4.809.251.049</b></td></tr>
+      </table>
+      <p>* La resolución dice «la provincia de Buenos Aires» sin nombrar el lugar; el destino sale del desglose del Ministerio de Gobierno, y las dos de Claypole se identifican igual. Las resoluciones 521 y 542 forman el renglón de pantallas y técnica de la vigilia en el Parque San Martín ($639 millones); la 519, el de los Hermanos Maristas ($543 millones); las otras siete de Luján, la producción de la misa ($3.024 millones). Los anticipos financieros de los diez contratos de Luján suman $1.960 millones.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Lo que todavía falta saber <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p><b>El conteo de la misa.</b> Si el municipio repite la medición por antenas de celular de la peregrinación, será el primer número con método. Conviene buscarlo en las noticias del <a href="https://www.lujan.gob.ar/noticias.php">sitio del municipio</a>.</p>
+      <p><b>El costo del operativo de seguridad.</b> Si el Ministerio de Seguridad aprueba sus gastos por el mismo régimen, las resoluciones deberían aparecer en el <a href="https://normas.gba.gob.ar/">sistema de normas de la Provincia</a>.</p>
+      <p><b>Lo que gastaron los visitantes.</b> Ninguna estadística oficial lo mide para Luján. Si el municipio publica un balance de ocupación como el de las vacaciones de invierno, será un porcentaje, no un gasto.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Provincia de Buenos Aires — <a href="https://normas.gba.gob.ar/documentos/0zZD66i8.html">Decreto 1657/2026</a> (29/09/2026): interés provincial y régimen de contrataciones</li>
+        <li>&#8250; Provincia de Buenos Aires — <a href="https://normas.gba.gob.ar/ar-b/decreto/2026/1940/627677">Decreto 1940/2026</a> (16/10/2026): convenio con el CFI por hasta $2.500 millones</li>
+        <li>&#8250; Ministerio de Gobierno PBA — resoluciones <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/519/631391">519</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/520/631476">520</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/521/631536">521</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/522/631565">522</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/523/631583">523</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/524/631644">524</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/525/631649">525</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/528/632110">528</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/529/632549">529</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/530/632554">530</a>, <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/541/632566">541</a> y <a href="https://normas.gba.gob.ar/ar-b/resolucion/2026/542/633311">542</a> de 2026</li>
+        <li>&#8250; Chequeado — <a href="https://chequeado.com/el-explicador/el-papa-leon-xiv-en-argentina-que-se-sabe-y-que-no-sobre-como-se-financia-la-visita-y-quien-la-paga/">Qué se sabe y qué no sobre cómo se financia la visita</a> (06/11/2026), desglose del Ministerio de Gobierno</li>
+        <li>&#8250; Provincia de Buenos Aires — <a href="https://www.gba.gob.ar/node/55305">Kicillof presentó el operativo por la visita del Papa León XIV</a> (04/11/2026)</li>
+        <li>&#8250; Provincia de Buenos Aires — <a href="https://visitadelpapapba.gba.gob.ar/misalujan.html">Misa en Luján, sitio oficial de la visita</a></li>
+        <li>&#8250; Provincia de Buenos Aires — <a href="https://www.gba.gob.ar/node/54945">La Provincia acompañó a más de 2,7 millones de fieles en la 52° Peregrinación</a> (05/10/2026)</li>
+        <li>&#8250; Provincia de Buenos Aires — <a href="https://www.gba.gob.ar/jag/noticias/la_provincia_acompa%C3%B1%C3%B3_m%C3%A1s_de_dos_millones_y_medio_de_fieles_en_la_51%C2%B0_peregrinaci%C3%B3n">Más de dos millones y medio de fieles en la 51° Peregrinación</a> (06/10/2025)</li>
+        <li>&#8250; Municipio de Luján — <a href="https://www.lujan.gob.ar/noticias_detalle.php?id=423">Más de 2.800.000 personas participaron de la 52ª Peregrinación Juvenil</a> (08/10/2026)</li>
+        <li>&#8250; Municipio de Luján — <a href="https://www.lujan.gob.ar/noticias_detalle.php?id=276">Balance de las vacaciones de invierno</a> (07/08/2026)</li>
+        <li>&#8250; Municipio de Luján — <a href="https://www.lujan.gob.ar/noticias_detalle.php?id=419">Portal de servicios para quienes visiten la ciudad</a> (07/10/2026)</li>
+        <li>&#8250; Municipio de Luján — <a href="https://www.lujan.gob.ar/noticias_detalle.php?id=471">Luján se prepara para la llegada del Papa León XIV</a> (29/10/2026)</li>
+        <li>&#8250; Municipio de Luján — <a href="http://luj-bue-datos.paisdigital.innovacion.gob.ar/dataset/35c6935e-8f95-4071-8035-18d1b501faa9/resource/e40db43f-2cd4-41b2-9a12-b557d43bb315/download/presupuesto-2026.pdf">Presupuesto de gastos 2026</a></li>
+        <li>&#8250; INDEC — <a href="https://censo.gob.ar/index.php/datos_definitivos_bsas/">Censo 2022, resultados definitivos de la provincia de Buenos Aires</a>, cuadros 1.2 y 3.2.76</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/uploads/informesdeprensa/eoh_01_243A8413A147.pdf">Encuesta de Ocupación Hotelera</a>: localidades relevadas y notas técnicas</li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/sociedad/2026/09/23/estimamos-hasta-dos-millones-de-personas-el-intendente-de-lujan-hablo-de-la-misa-que-el-papa-leon-xiv-dara-en-la-provincia-de-buenos-aires/">«Estimamos hasta dos millones de personas»</a> (23/09/2026), entrevista a Leonardo Boto</li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/politica/2026/10/28/el-intendente-de-lujan-anticipo-que-esperan-mas-de-un-millon-de-personas-para-la-misa-del-papa-leon-xiv/">El intendente de Luján anticipó que esperan más de un millón de personas</a> (28/10/2026)</li>
+        <li>&#8250; Con Interés — <a href="../articulos/2026-11-06-visita-papa-contratos-17387-millones-partida.html">Los contratos de la Nación para la visita del papa</a> (06/11/2026)</li>
+        <li>&#8250; Con Interés — <a href="../articulos/2026-10-12-visita-papa-cuanto-cuesta-cuanto-deja.html">Cuánto cuesta y cuánto deja la visita del papa</a> (12/10/2026)</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: suma de contratos, montos por habitante y porcentajes.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 09/11/2026. Las asistencias son estimaciones de sus autores, no conteos. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
