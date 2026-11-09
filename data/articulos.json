@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T16:54:33-03:00",
+    "actualizado": "2026-11-09T18:47:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-pan-harina-4-kilos-precio-trigo",
+      "titulo": "Un kilo de pan cuesta lo mismo que 4,5 kilos de harina: en dos años el pan subió 68% y la harina, la mitad",
+      "bajada": "En dos años el pan francés subió 68,2% en el Gran Buenos Aires, al ritmo de la inflación, y la harina común 34,6%: la mitad. El trigo, en dólares, vale menos que hace dos años. Hoy, con lo que cuesta un kilo de pan se pagan 4,5 kilos de harina. En agosto de 2018 alcanzaba para 2,4, y en junio de 2026 llegó a 4,7, el máximo desde que el INDEC publica estos precios.",
+      "titulo_busqueda": "¿Por qué el pan está tan caro si la harina no aumenta?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "4,5 kg",
+      "numero_label": "kilos de harina común que se pagan con el precio de un kilo de pan francés en el Gran Buenos Aires, septiembre de 2026",
+      "fecha": "2026-11-09",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-09-pan-harina-4-kilos-precio-trigo.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC precios promedio GBA sep-26 (informe IPC sep-26 p. 12, ipc_10_268C45A9444C.pdf, = sh_ipc_precios_promedio.xls): pan francés $4.958,05 / harina común $1.097,92 = 4,516. Serie jun-2017 a sep-2026: max jun-26 4,695 (4.652,79/991,11), min ago-18 2,391, max antes de 2025 sep-23 4,06. Oct-24 -> sep-26: pan +68,2%, harina +34,6%, IPC GBA +72,1% (serie_ipc_divisiones.csv), IPIM 1531 harinas +37,2% (indice_ipim.csv). Contraste DPEyC Neuquén IPC sep-26 cuadro 8: pan mignon 4.191,28 / harina 000 1.262,60 = 3,32 (INDEC Patagonia 3,26); oct-24 2.747,22/973,56 = 2,82; oct-24->sep-26 pan +52,6% harina +29,7% (INDEC Patagonia +56,9% / +24,8%). Trigo NCM 10019900 exponm26 sep-26 US$275,7 M / 1.106,3 kt = US$249,2/t x A3500 prom. sep 1.513,887 = $377,26/kg -> pan 13,14 kg de trigo; MAGyP FOB oficial 06/11/2026 US$236/t."
+    },
     {
       "id": "2026-11-09-riesgo-pais-duplico-dolar-subio-3-por-ciento",
       "titulo": "El riesgo país se duplicó y el dólar subió 3,2%: en la duplicación de 2025, con la misma banda, había subido 28,1%",

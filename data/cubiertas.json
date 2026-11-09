@@ -8265,6 +8265,20 @@
       "articulo_id": "2026-11-09-papa-lujan-cuanta-gente-cuanta-plata",
       "archivo": "cola/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.html",
       "pedido": 115
+    },
+    {
+      "tema": "¿por qué el pan está tan caro si la harina no aumenta? (pregunta detrás de Página12 09/11/2026 'La venta de facturas en panaderías cayó 80%', cierres atribuidos a tarifas y materias primas, sin fuente identificada) / INDEC precios promedio GBA sep-26: pan francés $4.958,05, harina común $1.097,92 -> 4,5 kg de harina por kg de pan; máximo de la serie jun-26 4,69 (desde jun-2017), mínimo ago-18 2,39; oct-24 a sep-26 pan +68,2%, harina +34,6%, IPC GBA +72,1%, IPIM harinas +37,2%; en las seis regiones el pan subió más que la harina; trigo de exportación US$249,2/t sep-26 (US$334,5 ene-24), pan = 13,1 kg de trigo (2026 prom. 14,0, máximo anual desde 2017; 2023 7,6); contraste DPEyC Neuquén",
+      "angulo": "Corrida programada del 09/11/2026 18:30. Hallazgo propio: el pan acompañó a la inflación y la harina (góndola y mayorista) subió la mitad; la brecha pan/harina está en máximos de la serie del INDEC en GBA, Pampeana y Patagonia. Camino: documento oficial (informe IPC sep-26) + recálculo desde la serie de precios promedio + contraste independiente (IPC Neuquén) e IPIM.",
+      "fecha": "2026-11-09",
+      "estado": "publicada",
+      "articulo_id": "2026-11-09-pan-harina-4-kilos-precio-trigo"
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/11/2026 18:30. No se probaron porque pasó la primera candidata (pan contra harina, INDEC). Lista: EMPRESAS (hoy ya salió una, YPF refino): Edenor compra 20% de Latam Downstream Holdings, refinación (HR CNV 09/11; sin monto en el documento), Grupo Clarín y Cablevisión 3T26 (la propia empresa anuncia resultados el 11/11, todavía no presentados), Central Puerto 3T26 (11/11, no presentado), IEBA EEFF 30/09 (CNV 06/11, sin leer), Mastellone HR 06/11 (nota retenida hasta los EEFF); portadas: riesgo país bajo 900 (todas; publicada hoy), Paraguay con riesgo país seis veces menor (La Nación; riesgo publicado hoy), visita del papa e impacto económico (La Nación, ámbito, iProfesional, Cronista; pedido 115 en vista previa), pobreza del 3T (ámbito, iProfesional; estimaciones privadas, pobreza en cola 06/11), 1,3 millones sin cobertura de salud (iProfesional; publicada 05/11), RIGI US$76.000 M (infobae, iProfesional; publicada 03/11), base monetaria -13% (infobae; publicada hoy), exportaciones de carne US$3.800 M (infobae; serie carne cubierta 13 veces), trigo 23,8 Mt (infobae; estimación privada), Papelera del Sur cierra Tornquist (iProfesional; sin dato oficial de la planta), Pauny (La Nación; tractores en cola 30/10), comercio pyme -1,6% (ámbito; CAME sola), más mayores que niños en 2040 (ámbito; en cola 08/11). clarin.com y tn.com.ar no accesibles desde la herramienta de lectura.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-09",
+      "estado": "descartada",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }

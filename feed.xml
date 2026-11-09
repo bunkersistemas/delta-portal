@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 16:54:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 18:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un kilo de pan cuesta lo mismo que 4,5 kilos de harina: en dos años el pan subió 68% y la harina, la mitad</title>
+      <link>https://coninteres.com/articulos/2026-11-09-pan-harina-4-kilos-precio-trigo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-pan-harina-4-kilos-precio-trigo.html</guid>
+      <pubDate>Mon, 09 Nov 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En dos años el pan francés subió 68,2% en el Gran Buenos Aires, al ritmo de la inflación, y la harina común 34,6%: la mitad. El trigo, en dólares, vale menos que hace dos años. Hoy, con lo que cuesta un kilo de pan se pagan 4,5 kilos de harina. En agosto de 2018 alcanzaba para 2,4, y en junio de 2026 llegó a 4,7, el máximo desde que el INDEC publica estos precios.</description>
+      <ci:numero>4,5 kg</ci:numero>
+      <ci:numeroEtiqueta>kilos de harina común que se pagan con el precio de un kilo de pan francés en el Gran Buenos Aires, septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-pan-harina-4-kilos-precio-trigo.png" length="67094" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-pan-harina-4-kilos-precio-trigo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El riesgo país se duplicó y el dólar subió 3,2%: en la duplicación de 2025, con la misma banda, había subido 28,1%</title>
       <link>https://coninteres.com/articulos/2026-11-09-riesgo-pais-duplico-dolar-subio-3-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuánto subieron en dólares los alimentos del IPC del INDEC entre septiembre de 2025 y septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.png" length="61680" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El fideicomiso de rutas y trenes cobró más por sus colocaciones que lo que giró a obras: $145.600 millones contra $117.870 millones en el semestre</title>
-      <link>https://coninteres.com/articulos/2026-11-07-fondo-rutas-combustibles-rentas-superan-obras.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-fondo-rutas-combustibles-rentas-superan-obras.html</guid>
-      <pubDate>Sat, 07 Nov 2026 07:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Fideicomiso de Infraestructura de Transporte, que recibe el 28,58% del impuesto a los combustibles para rutas, trenes y colectivos, cobró en el primer semestre de 2026 más por lo que tiene colocado que lo que giró para obras: $145.600 millones de rentas contra $117.870 millones. En ningún año completo desde 2014 las rentas habían pasado del 59% de lo girado a obras. Descontada la inflación, lo girado a obras cayó 36,1% contra el primer semestre de 2025.</description>
-      <ci:numero>$145.600 M</ci:numero>
-      <ci:numeroEtiqueta>rentas que cobró en el primer semestre de 2026 el fideicomiso que recibe el 28,58% del impuesto a los combustibles para rutas y trenes</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-fondo-rutas-combustibles-rentas-superan-obras.png" length="74600" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-fondo-rutas-combustibles-rentas-superan-obras.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
