@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 04:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 06:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>De cada $100 que los argentinos tienen en los bancos y en billetes de pesos, $29 son depósitos en dólares; Perú, que en 2000 tenía 71, bajó a 26</title>
+      <link>https://coninteres.com/articulos/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.html</guid>
+      <pubDate>Mon, 09 Nov 2026 09:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Con la misma vara que usa el Banco Central del Perú, la Argentina tiene hoy una porción en dólares más alta que Perú, el caso que se cita cuando se habla de un país que dejó atrás el dólar: 29,1% contra 26,4% en septiembre de 2026. Los dos llegaron ahí por caminos inversos. Perú bajó del 71% al 26% en 26 años. La Argentina, que en 2002 había quedado en 3%, volvió a casi un tercio, y desde octubre de 2025 está arriba de Perú todos los meses.</description>
+      <ci:numero>29,1%</ci:numero>
+      <ci:numeroEtiqueta>parte en dólares de los billetes de pesos y los depósitos del sector privado argentino, septiembre de 2026; en Perú, 26,4%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.png" length="74732" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La industria se partió en dos: 11 de sus 65 ramas fabricaron en 2026 lo menos desde 2016, y 9 fabricaron lo más</title>
       <link>https://coninteres.com/articulos/2026-11-09-industria-partida-11-ramas-piso-9-techo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte de PPI en el patrimonio que suma con Banco de Valores, 30 de junio de 2026; sus dueños reciben el 4,468% del banco</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-valo-ppi-fusion-patrimonio.png" length="67839" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-valo-ppi-fusion-patrimonio.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina le compró a Paraguay 6,7 millones de toneladas de soja en nueve meses, la mayor cantidad desde 2002</title>
-      <link>https://coninteres.com/articulos/2026-11-06-soja-paraguay-record-importa-mas-de-lo-que-exporta.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-06-soja-paraguay-record-importa-mas-de-lo-que-exporta.html</guid>
-      <pubDate>Fri, 06 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>La Argentina, uno de los grandes productores de soja del mundo, volvió a comprar más porotos de los que vendió: entre enero y septiembre entraron 6,93 millones de toneladas y salieron 4,21 millones. Casi todos vinieron de Paraguay, al que le compró US$3.642 millones, más que en cualquier enero-septiembre desde 2002. Ocho de cada diez de esos dólares son porotos que entran para ser molidos en las aceiteras. La relación pesa también del otro lado: mientras Paraguay atraviesa el juicio político a Santiago Peña y la caída de Ueno Bank, la Argentina se lleva ocho de cada diez toneladas de soja que exporta.</description>
-      <ci:numero>6,7 millones</ci:numero>
-      <ci:numeroEtiqueta>de toneladas de soja que la Argentina le compró a Paraguay entre enero y septiembre de 2026, la mayor cantidad para esos meses desde 2002</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-soja-paraguay-record-importa-mas-de-lo-que-exporta.png" length="67588" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-soja-paraguay-record-importa-mas-de-lo-que-exporta.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T04:51:04-03:00",
+    "actualizado": "2026-11-09T06:57:01-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26",
+      "titulo": "De cada $100 que los argentinos tienen en los bancos y en billetes de pesos, $29 son depósitos en dólares; Perú, que en 2000 tenía 71, bajó a 26",
+      "bajada": "Con la misma vara que usa el Banco Central del Perú, la Argentina tiene hoy una porción en dólares más alta que Perú, el caso que se cita cuando se habla de un país que dejó atrás el dólar: 29,1% contra 26,4% en septiembre de 2026. Los dos llegaron ahí por caminos inversos. Perú bajó del 71% al 26% en 26 años. La Argentina, que en 2002 había quedado en 3%, volvió a casi un tercio, y desde octubre de 2025 está arriba de Perú todos los meses.",
+      "titulo_busqueda": "¿Está más dolarizada la Argentina que Perú? Qué parte de la plata en los bancos es en dólares",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "29,1%",
+      "numero_label": "parte en dólares de los billetes de pesos y los depósitos del sector privado argentino, septiembre de 2026; en Perú, 26,4%",
+      "fecha": "2026-11-09",
+      "hora": "09:30",
+      "archivo": "articulos/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "cálculo propio con la definición del coeficiente de dolarización de la liquidez del BCRP (PN00025MM, Perú 26,38% sep-26, recalculado PN00023/PN00193 = 154.741/586.524): Argentina al 30/09/2026 = US$41.968 M (BCRA 1564) x 1.517,5209 (A3500, var 5) / ($26.623.048 M billetes en poder del público, var 17 + $128.705.597 M depósitos privados en pesos, var 1527 + $63.687.557 M) = 29,08%. IMM sep-26: depósitos privados en dólares US$41.911 M al cierre, TC 1.517,5; con promedios IMM 29,5%. Contraste Argentina: BBVA Argentina 2Q26 FX 6,7/18,5 billones = 36,2% vs sistema jun-26 31,6% (sin billetes). Contraste Perú: SBS sep-25 dolarización de depósitos 32,6% vs BCRP sin circulante 33,5%. AR > PE en 18 de 322 meses desde dic-1999; racha actual 12 (oct-25 a sep-26), anteriores de 1 o 2 meses (2018, 2019, 2024)."
+    },
     {
       "id": "2026-11-09-industria-partida-11-ramas-piso-9-techo",
       "titulo": "La industria se partió en dos: 11 de sus 65 ramas fabricaron en 2026 lo menos desde 2016, y 9 fabricaron lo más",
