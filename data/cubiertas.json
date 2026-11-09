@@ -8233,6 +8233,29 @@
       "fecha": "2026-11-09",
       "estado": "descartada",
       "motivo_descarte": "no se eligieron: sin hallazgo propio, sin documento oficial todavía o ya cubiertas; la elegida fue la de la urea"
+    },
+    {
+      "fecha": "2026-11-09",
+      "estado": "en_cola",
+      "tema": "¿por qué no sube el dólar si sube el riesgo país? (ámbito 09/11/2026 'El dólar no sube pese al salto del riesgo país', infobae 09/11 'por qué la suba del riesgo país no movió el dólar', iProfesional 'cuánto mermó la bazuka') / A3500 BCRA +3,2% (06/08-05/11/2026) con riesgo país 446 -> 925; misma banda en 2025 (18/06-18/09): +28,1% y techo tocado (1.474,25 vs 1.474,83); seis duplicaciones del riesgo país desde 1999: dólar 2008 +7,3%, 2019 +36,1%, 2020 +7,5%, 2025 +28,1%, 2026 +3,2%; BCRA compró US$2.545 M en 2026 y vendió US$432 M en 2025; TAMAR 23,6% vs 46,4%",
+      "angulo": "el dólar en cada duplicación del riesgo país y la distancia diaria al techo de la banda en 2025 contra 2026; distinto del 08/11 (riesgo país contra los vecinos, sin el dólar) y del 24/10 (dólar contra el techo, sin riesgo país)",
+      "id": "2026-11-09-riesgo-pais-duplico-dolar-subio-3-por-ciento",
+      "seccion": "MERCADOS"
+    },
+    {
+      "fecha": "2026-11-09",
+      "estado": "descartada",
+      "angulo": "retomable cuando la serie 1266 del BCRA incluya el 05/11/2026 o despues",
+      "motivo_descarte": "FRENADA por fecha: la serie del BCRA (var 1266) llega al 03/11 y entre el 2 y el 5/11 vencían unos US$800 M de intereses con el FMI (infobae 28/10, ámbito): el saldo de hoy no está publicado y el del 03/11 ya quedó viejo",
+      "tema": "¿tiene el Tesoro los dólares para el pago del 9 de enero de 2027? (iProfesional 09/11/2026 'Cuánto mermó la bazuka'; ámbito, infobae) / depósitos del gobierno en el BCRA en moneda extranjera (var 1266, millones de $, / A3500): US$947,5 M al 03/11/2026 = 21,6% de los US$4.378 M de enero (Finanzas); a 67 días de enero de 2026 tenía US$155,8 M (3,5%); el 07/01/2026 el Tesoro le compró US$2.319 M al BCRA (var 48) y los depósitos cayeron de 4.517,6 a 113,6 al 09/01 (-4.404 = pago Finanzas 4.403,7; PPI: 114). Julio 2026 no cierra igual (5.285 -> 3.308). Scripts _privado/tesoro_usd/",
+      "seccion": "MERCADOS"
+    },
+    {
+      "fecha": "2026-11-09",
+      "estado": "descartada",
+      "angulo": "Registro de candidatas de la corrida.",
+      "motivo_descarte": "pasó la candidata 1 (dólar contra el riesgo país)",
+      "tema": "descartes de la corrida de redacción del 09/11/2026 16:30. Clarín y TN no cargaron (WebFetch bloqueado). Hoy ya hay 8 notas, dos de EMPRESAS (Edenor, YPF): el cupo de empresas está cubierto. Lista: (1) HALLAZGO, MERCADOS: el dólar no sube aunque el riesgo país se duplicó [ámbito, infobae, iProfesional, La Nación (Paraguay), TN (riesgo arriba de 600)]: APTA. (2) Tesoro: dólares en el BCRA contra el pago de enero [iProfesional, ámbito, infobae]: FRENADA por fecha, retomable (ver entrada propia). (3) aires acondicionados importados vs. armados en Tierra del Fuego (ola de calor de 40 °C en La Nación; BGH recorta 250 en Río Grande, Página12): la producción fueguina por producto no está publicada para 2025-2026 (IPIEC solo da el total de unidades electrónicas, 764.867 en ago-26) y las importaciones de 8415.10 ene-sep bajaron (3.342 t contra 4.309): sin hallazgo. (4) ola de calor y demanda eléctrica: la API de CAMMESA solo da el día en curso; sin serie histórica abierta en la corrida. (5) precio del trigo con cosecha de 23,8 Mt (BCR) [infobae, La Nación]: la producción es estimación y la página de precios FOB oficiales de la SAGyP respondió 500/404. (6) NY Fed: expectativa de desempleo en EE.UU. 45,3%, la más alta desde abril de 2020 [ámbito]: el comunicado ya trae el superlativo, sin dato propio ni vínculo argentino. (7) Papelera del Sur cierra en Tornquist [ámbito, iProfesional]: cartulina 4810.92 publicada el 05/11. (8) gasto público -5,4% real en octubre [La Nación]: falta el IPC de octubre (12/11). (9) EMPRESAS: Mastellone, sigue sin EEFF al 30/09 en cnv_lista (solo acta del 05-06/11). (10) EMPRESAS: Inversora Eléctrica de Buenos Aires (EDEA), EEFF al 30/09: mismo molde que la nota de Edenor de hoy. (11) EMPRESAS: Grupo Clarín y Cablevisión: solo invitación a resultados; Central Puerto presenta el 11-12/11. (12) pregunta de plata: visita del papa León XIV (turismo, 3 millones de visitantes, US$270 M) [ámbito, La Nación]: estimación privada sin documento; costo para el Estado ya en cola el 06/11."
     }
   ]
 }

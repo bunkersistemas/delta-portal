@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 14:56:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 16:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El riesgo país se duplicó y el dólar subió 3,2%: en la duplicación de 2025, con la misma banda, había subido 28,1%</title>
+      <link>https://coninteres.com/articulos/2026-11-09-riesgo-pais-duplico-dolar-subio-3-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-riesgo-pais-duplico-dolar-subio-3-por-ciento.html</guid>
+      <pubDate>Mon, 09 Nov 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Del 6 de agosto al 5 de noviembre el riesgo país pasó de 446 a 925 puntos y el dólar mayorista subió 3,2%. Es la duplicación del riesgo país en la que menos se movió el dólar desde que dejó de estar fijo por ley. En la de 2025, también con bandas, subió 28,1% y tocó el techo. Esta vez terminó más lejos del techo que al principio.</description>
+      <ci:numero>+3,2%</ci:numero>
+      <ci:numeroEtiqueta>suba del dólar mayorista oficial (A3500) mientras el riesgo país se duplicaba, del 6 de agosto al 5 de noviembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-riesgo-pais-duplico-dolar-subio-3-por-ciento.png" length="73088" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-riesgo-pais-duplico-dolar-subio-3-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina pasó de exportar urea a importar 1,52 millones de toneladas en 2025, diez veces más que en 2002</title>
       <link>https://coninteres.com/articulos/2026-11-09-urea-importada-diez-veces-2002-planta-pampa.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>rentas que cobró en el primer semestre de 2026 el fideicomiso que recibe el 28,58% del impuesto a los combustibles para rutas y trenes</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-fondo-rutas-combustibles-rentas-superan-obras.png" length="74600" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-fondo-rutas-combustibles-rentas-superan-obras.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Aeropuertos Argentina cambió bonos al 8,6% por uno al 8,375%: casi no abarata su deuda, pero deja de devolver capital hasta 2032</title>
-      <link>https://coninteres.com/articulos/2026-11-07-aeropuertos-argentina-refinancia-8375-capital-2032.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-aeropuertos-argentina-refinancia-8375-capital-2032.html</guid>
-      <pubDate>Sat, 07 Nov 2026 05:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Aeropuertos Argentina 2000 refinanció su deuda internacional y lo que consiguió no es una tasa más baja sino tiempo. Colocó US$400 millones a diez años con un rendimiento de 8,375% y el 5 de noviembre avisó que rescata sus cuatro bonos internacionales: US$299 millones que pagaban 8,6% en promedio. El ahorro es chico, 0,2 punto o unos US$680.000 de intereses por año, y la prima de US$7,2 millones que paga por cancelar antes el bono 2031 equivale a más de diez años de ese ahorro. A cambio, los bonos que rescata vencían entre 2027 y 2031 y el nuevo no devuelve capital hasta febrero de 2032.</description>
-      <ci:numero>8,375%</ci:numero>
-      <ci:numeroEtiqueta>rendimiento al que Aeropuertos Argentina 2000 colocó US$400 millones a diez años para rescatar bonos que pagaban 8,6% (octubre de 2026)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-aeropuertos-argentina-refinancia-8375-capital-2032.png" length="74961" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-aeropuertos-argentina-refinancia-8375-capital-2032.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
