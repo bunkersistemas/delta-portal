@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T20:45:08-03:00",
+    "actualizado": "2026-11-08T23:08:39-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-08-ley-deforestacion-europa-38-por-ciento-exportaciones",
+      "titulo": "De cada 100 euros que Europa le compra a la Argentina, 38 tendrán que probar que no salieron de tierras desmontadas",
+      "bajada": "La ley europea contra la deforestación, que empieza a regir el 30 de diciembre, alcanza el 3,9% de lo que la Unión le compra al promedio de sus proveedores de afuera del bloque. En la Argentina alcanza el 37,9%, €3.033,4 millones de lo que le compró en 2025: casi diez veces más. Tres de cada cuatro de esos euros son harina de soja; los cueros salieron de la lista en septiembre.",
+      "titulo_busqueda": "¿Qué exportaciones argentinas alcanza la ley antideforestación de la Unión Europea?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "37,9%",
+      "numero_label": "parte de lo que la Unión Europea le compró a la Argentina en 2025 que alcanza su ley contra la deforestación",
+      "fecha": "2026-11-08",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-08-ley-deforestacion-europa-38-por-ciento-exportaciones.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Eurostat Comext DS-045409, EU27_2020 importaciones desde AR 2025: total €8.002.364.900; productos anexo I (Reg. 2023/1115 con 2025/2650 y Del. 2026/2102): 0102, 0201, 0202, 020610, 020622, 020629, 160250, 18, 0901, 120710, 1511, 151321, 151329, 230660, 4001, 1201, 120810, 1507, 2304, 44, 4701-4706, 48, 940131/41/61/69/80/91, 940330/40/50/60/91, 940610 = €3.033,4 M = 37,9%. Extra-UE 3,9% (97.997,5/2.532.055,9 M). Harina 2304 €2.229,3 M = 73,5%. Contraste: carne 0201 2025 Eurostat 54.855 t vs INDEC destinos 438+423+417+410+425 55.128 t (+0,5%). Serie 2005-2025 AR 32,9% (2018) a 47,6% (2009), extra-UE 3,0-3,9%."
+    },
     {
       "id": "2026-11-08-canos-gasoductos-india-mas-baratos-que-brasil",
       "titulo": "Los caños para gasoductos de la India llegaron 33,8% más baratos por tonelada que los de Brasil, y en dos meses entró 16 veces lo que había vendido desde 2002",
