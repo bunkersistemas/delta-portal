@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-08",
-  "pregunta": "Entre septiembre de 2025 y septiembre de 2026 los alimentos subieron 35,1% en pesos y el dólar oficial subió 8,1%. ¿Cuánto subieron los alimentos medidos en dólares?",
+  "fecha": "2026-11-09",
+  "pregunta": "En 2026, un plazo fijo en pesos renovado cada mes le ganó 13,4% al dólar. Pero entre enero y septiembre, el mismo plazo fijo perdió 4,7% contra los precios. ¿Cómo pueden ser ciertas las dos cosas?",
   "opciones": [
-    "Alrededor de 25%: se divide 1,351 por 1,081",
-    "27%: es la diferencia entre las dos subas",
-    "Nada: si sube el dólar, en dólares no cambia"
+    "Porque en esos meses los precios en pesos subieron más que el dólar",
+    "Porque el plazo fijo paga impuestos y comprar dólares no",
+    "No pueden ser ciertas: si le ganás al dólar, le ganás a la inflación"
   ],
   "correcta": 0,
-  "explicacion": "Para pasar un precio de pesos a dólares no se restan los porcentajes: se dividen. Si la comida se multiplicó por 1,351 y el dólar por 1,081, el precio en dólares se multiplicó por 1,351 / 1,081 = 1,249: subió 24,9%. Restar (35,1 - 8,1 = 27) exagera la suba cuando los números son grandes. Y si los precios en pesos suben más que el dólar, la comida se encarece también para quien cobra o ahorra en dólares. En el mismo año, el índice mundial de la FAO subió 5,4%.",
-  "nota": "articulos/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.html",
+  "explicacion": "Ganarle al dólar y ganarle a la inflación son dos carreras distintas. El plazo fijo compite contra el precio del dólar en la primera y contra el precio de la canasta en la segunda. En 2026 el dólar oficial subió menos que los precios, así que un plazo fijo pudo rendir más que el dólar y menos que la inflación al mismo tiempo. Cuando pasa eso, la Argentina se encarece en dólares: con los mismos pesos se compran más dólares, pero menos cosas. Por eso conviene mirar las dos comparaciones antes de decir que una colocación «rindió».",
+  "nota": "articulos/2026-11-08-plazo-fijo-gano-dolar-2026-casi-todo-antes-de-abril.html",
   "leccion": ""
 }

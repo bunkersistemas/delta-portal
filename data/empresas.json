@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-08T22:30",
+  "generado": "2026-11-09T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -1329,33 +1329,6 @@
       "tipo": "hecho",
       "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO RECTIFICATIVO DE DIVIDENDO PARA PUBLICAR EN CNV 8555",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/13DDBDF6-1F3F-4A01-B358-D84C7424E4E1"
-    },
-    {
-      "id": "cnv-3579297",
-      "fuente": "CNV",
-      "fecha": "2026-10-09T20:21",
-      "entidad": "A3 MERCADOS S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/AA6D4AC2-EE53-47DC-9312-E3E0A7B0DE90"
-    },
-    {
-      "id": "cnv-3579208",
-      "fuente": "CNV",
-      "fecha": "2026-10-09T17:22",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (09 10 26).",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7450F837-9688-443B-916F-D3E3EBC4A9F4"
-    },
-    {
-      "id": "cnv-3578753",
-      "fuente": "CNV",
-      "fecha": "2026-10-09T09:56",
-      "entidad": "NUEVO CONTINENTE S.A",
-      "tipo": "balance",
-      "descripcion": "INFORMACIÓN FINANCIERA - APROBACIÓN ESTADOS FINANCIEROS ANUALES AL 31 DE JULIO DE 2026",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/34539446-56FE-424A-923D-CD375DBFDCD8"
     }
   ],
   "anuncios": [
@@ -1423,8 +1396,6 @@
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
-    "sec-0001292814-26-004878": "2026-10-09",
-    "sec-0001292814-26-004882": "2026-10-09",
     "sec-0001292814-26-004906": "2026-10-13",
     "sec-0001292814-26-004916": "2026-10-14",
     "sec-0001292814-26-004922": "2026-10-14",
@@ -1454,8 +1425,6 @@
     "sec-0001292814-26-005170": "2026-11-06",
     "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001342874-26-000052": "2026-11-04",
-    "sec-0001554855-26-002088": "2026-10-09",
-    "sec-0001554855-26-002090": "2026-10-09",
     "sec-0001554855-26-002124": "2026-10-14",
     "sec-0001554855-26-002169": "2026-10-23",
     "sec-0001554855-26-002241": "2026-10-28",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 08 Nov 2026 23:08:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 00:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>De cada $100 que factura Edenor, $40 le quedan para la red y $60 se van en comprar energía: en 2022 le quedaban $30 y en 2007, $55</title>
+      <link>https://coninteres.com/articulos/2026-11-09-edenor-margen-distribucion-40-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-edenor-margen-distribucion-40-por-ciento.html</guid>
+      <pubDate>Mon, 09 Nov 2026 00:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Edenor se quedó con el 40,2% de lo que facturó entre enero y septiembre de 2026: de $3,05 billones, gastó $1,83 billones en la energía que compra para revender. Ese resto es su margen de distribución, y con él paga la red, los sueldos, las inversiones y los impuestos. En veinte años la porción fue del 55,1% al 30,4%, siguiendo las decisiones sobre tarifas. En el tercer trimestre volvió a bajar, porque la energía subió más rápido que lo que cobra.</description>
+      <ci:numero>40,2%</ci:numero>
+      <ci:numeroEtiqueta>parte de lo que facturó Edenor entre enero y septiembre de 2026 que le quedó después de pagar la energía que compra</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-edenor-margen-distribucion-40-por-ciento.png" length="73902" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-edenor-margen-distribucion-40-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>De cada 100 euros que Europa le compra a la Argentina, 38 tendrán que probar que no salieron de tierras desmontadas</title>
       <link>https://coninteres.com/articulos/2026-11-08-ley-deforestacion-europa-38-por-ciento-exportaciones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>sembradoras que Agrometal facturó entre julio y septiembre de 2026; un año antes, 121</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-agrometal-sembradoras-tercer-trimestre-80.png" length="67343" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-agrometal-sembradoras-tercer-trimestre-80.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Edenor pierde el 16,3% de la energía que compra, más que en cualquier cierre de año desde 2021, y la tarifa solo le reconoce el 10%</title>
-      <link>https://coninteres.com/articulos/2026-11-06-edenor-perdidas-energia-16-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-06-edenor-perdidas-energia-16-por-ciento.html</guid>
-      <pubDate>Fri, 06 Nov 2026 13:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Edenor, la distribuidora de luz del norte del Gran Buenos Aires y de la Ciudad, informó el 6 de noviembre ante la CNV que en los doce meses a septiembre de 2026 perdió el 16,3% de la energía que compró. Hace un año era 15,4%. Es más que en cualquier cierre de año desde 2021. Entre 2023 y 2025, toda la suba vino de la parte que no es técnica, sobre todo el robo de energía. Y la concesión solo le deja cobrar en la tarifa un 10%.</description>
-      <ci:numero>16,3%</ci:numero>
-      <ci:numeroEtiqueta>energía que Edenor compró y no facturó en los 12 meses a septiembre de 2026, por pérdidas técnicas y robo; la tarifa reconoce 10%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-edenor-perdidas-energia-16-por-ciento.png" length="70751" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-edenor-perdidas-energia-16-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

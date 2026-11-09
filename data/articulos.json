@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-08T23:08:39-03:00",
+    "actualizado": "2026-11-09T00:44:23-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-edenor-margen-distribucion-40-por-ciento",
+      "titulo": "De cada $100 que factura Edenor, $40 le quedan para la red y $60 se van en comprar energía: en 2022 le quedaban $30 y en 2007, $55",
+      "bajada": "Edenor se quedó con el 40,2% de lo que facturó entre enero y septiembre de 2026: de $3,05 billones, gastó $1,83 billones en la energía que compra para revender. Ese resto es su margen de distribución, y con él paga la red, los sueldos, las inversiones y los impuestos. En veinte años la porción fue del 55,1% al 30,4%, siguiendo las decisiones sobre tarifas. En el tercer trimestre volvió a bajar, porque la energía subió más rápido que lo que cobra.",
+      "titulo_busqueda": "¿Qué parte de lo que cobra Edenor se va en comprar energía?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "40,2%",
+      "numero_label": "parte de lo que facturó Edenor entre enero y septiembre de 2026 que le quedó después de pagar la energía que compra",
+      "fecha": "2026-11-09",
+      "hora": "00:30",
+      "archivo": "articulos/2026-11-09-edenor-margen-distribucion-40-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Edenor EEFF consolidados 30/09/2026 (CNV 06/11/2026, publicview 6ade4e01): ingresos por servicios $3.051.244 M, compras de energía $1.825.722 M, margen de distribución $1.225.522 M (= comunicado de prensa CNV 06/11 y formulario AIF); 1.225.522/3.051.244 = 40,16%. 9M25 40,84%; 3T26 434.374/1.122.720 = 38,69% vs 3T25 41,94%. Serie 20-F (SEC) 2006-2025: máx. 2007 55,10% (1.981,9/889,9), mín. 2022 30,42% (205.835/143.228); 2025 41,90% = 'distribution margin' del 20-F. Contraste CAMMESA: EDENOROD ene-sep 2026 19.600.256 MWh; compras Edenor 21.129 GWh = 1,078 veces (histórico ~1,084). Par: Edesur EEFF 30/09/2026 (CNV 30/10) 33,62% (2.124.707.881 - 1.410.423.019 miles), 36,55% sumando $98.178.170 miles de multas neteadas."
+    },
     {
       "id": "2026-11-08-ley-deforestacion-europa-38-por-ciento-exportaciones",
       "titulo": "De cada 100 euros que Europa le compra a la Argentina, 38 tendrán que probar que no salieron de tierras desmontadas",
