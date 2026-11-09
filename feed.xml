@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 00:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 02:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La ANSES giró $290.667 millones a las cajas de jubilaciones de nueve provincias desde 2024; a la bonaerense, que en 2023 se llevó el 68,6%, nada</title>
+      <link>https://coninteres.com/articulos/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.html</guid>
+      <pubDate>Mon, 09 Nov 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Hasta 2023, la caja de jubilaciones de Buenos Aires recibía la parte más grande de lo que la ANSES giraba a las provincias. Desde 2024 no recibió un peso, mientras otras nueve cajas cobraron $290.667 millones hasta octubre de 2026, con convenios firmados una por una. Son trece las provincias que conservan su propia caja, y la Nación se comprometió en 1999 a cubrirles el déficit. Buenos Aires lo reclama en la Corte Suprema. Y lo que reciben todas juntas en 2026 es menos de la quinta parte de lo que recibían antes de 2024, descontada la inflación.</description>
+      <ci:numero>$0</ci:numero>
+      <ci:numeroEtiqueta>lo que la ANSES le giró a la caja de jubilaciones de la provincia de Buenos Aires entre enero de 2024 y octubre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.png" length="75201" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>De cada $100 que factura Edenor, $40 le quedan para la red y $60 se van en comprar energía: en 2022 le quedaban $30 y en 2007, $55</title>
       <link>https://coninteres.com/articulos/2026-11-09-edenor-margen-distribucion-40-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuánto corrigió el INDEC hacia arriba la tendencia de la construcción de agosto entre su informe de octubre y el de noviembre</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-construccion-septiembre-tendencia-revisada.png" length="70556" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-construccion-septiembre-tendencia-revisada.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Agrometal vendió 80 sembradoras entre julio y septiembre, un tercio menos que un año antes: el tercer trimestre más flojo desde la sequía de 2023</title>
-      <link>https://coninteres.com/articulos/2026-11-06-agrometal-sembradoras-tercer-trimestre-80.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-06-agrometal-sembradoras-tercer-trimestre-80.html</guid>
-      <pubDate>Fri, 06 Nov 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Agrometal, la fábrica de sembradoras de Monte Maíz, cerró el primer semestre de 2026 con una caída de 10% en las máquinas facturadas. Entre julio y septiembre la caída llegó a 34%: facturó 80 sembradoras, contra 121 un año antes. Es su tercer trimestre más flojo desde la sequía de 2023, según sus balances ante la CNV. La empresa lo atribuye al fin de los créditos baratos de las ferias; los datos del BCRA muestran que el crédito para maquinaria casi dejó de crecer en julio y agosto.</description>
-      <ci:numero>80</ci:numero>
-      <ci:numeroEtiqueta>sembradoras que Agrometal facturó entre julio y septiembre de 2026; un año antes, 121</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-agrometal-sembradoras-tercer-trimestre-80.png" length="67343" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-agrometal-sembradoras-tercer-trimestre-80.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

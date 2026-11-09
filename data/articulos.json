@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T00:44:23-03:00",
+    "actualizado": "2026-11-09T02:57:03-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero",
+      "titulo": "La ANSES giró $290.667 millones a las cajas de jubilaciones de nueve provincias desde 2024; a la bonaerense, que en 2023 se llevó el 68,6%, nada",
+      "bajada": "Hasta 2023, la caja de jubilaciones de Buenos Aires recibía la parte más grande de lo que la ANSES giraba a las provincias. Desde 2024 no recibió un peso, mientras otras nueve cajas cobraron $290.667 millones hasta octubre de 2026, con convenios firmados una por una. Son trece las provincias que conservan su propia caja, y la Nación se comprometió en 1999 a cubrirles el déficit. Buenos Aires lo reclama en la Corte Suprema. Y lo que reciben todas juntas en 2026 es menos de la quinta parte de lo que recibían antes de 2024, descontada la inflación.",
+      "titulo_busqueda": "¿Le gira la ANSES plata a la caja de jubilaciones bonaerense? Desde 2024, nada",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "$0",
+      "numero_label": "lo que la ANSES le giró a la caja de jubilaciones de la provincia de Buenos Aires entre enero de 2024 y octubre de 2026",
+      "fecha": "2026-11-09",
+      "hora": "02:30",
+      "archivo": "articulos/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Presupuesto Abierto credito mensual 2017-2026 (2026 act. 08/11/2026, bajado 09/11), ANSES 'Transferencias a Cajas Previsionales Provinciales' 5.7 por ubicacion: PBA 2017 1.956; 2018 2.887; 2019 4.855; 2020 6.000; 2021 11.712; 2022 18.324; 2023 117.167 (68,6% de 170.878; dic 54.497); 2024-oct26 0. Resto 2024 26.000 (ER dic), 2025 94.500 (Cba 40.000, Chaco 40.000, ER 12.000, LP 2.500), 2026 ene-oct 170.166,7 (LP 50.000, ER 36.000, Cba 30.000, Nqn 24.000, Ctes 12.000, SF 10.000, Mis 4.166,7, Chubut 4.000) = 290.666,7. Ninguna otra linea 2024-26 a provincias con caja/jubil/pension/previs. Recalculo: mensual = anual 2017-2025; 2026 anual (ene-sep) 161.166,7 = mensual ene-sep. Real (IPC sep-26 12.514,1508; oct a precios de sep): ene-oct 2026 185.440 vs promedio ene-oct 2017-2023 975.497 = 19,0%. Contraste provincial: La Pampa convenio 11/12/2025 12x5.000 ene-dic 2026 (proyecto HCDN; junio impago intimado 03/07) = PA junio vacio, julio 10.000, ene-oct 50.000; inicial 2.500 (Letra P 16/12/2025) = PA dic-25; Neuquen 12x4.000 desde mayo (Hacienda provincial via LM Neuquen 27/05/2026) = PA mayo 4.000, 6 cuotas a oct; ER 8x6.000 (Perfil) = PA nov-25 a ago-26 48.000. PBA 2023 117.167 y 0 en 2024-25: ASAP (Grassi) via Chequeado 05/08/2025, misma base."
+    },
     {
       "id": "2026-11-09-edenor-margen-distribucion-40-por-ciento",
       "titulo": "De cada $100 que factura Edenor, $40 le quedan para la red y $60 se van en comprar energía: en 2022 le quedaban $30 y en 2007, $55",
