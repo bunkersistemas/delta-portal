@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T13:07:02-03:00",
+    "actualizado": "2026-11-09T14:55:55-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-urea-importada-diez-veces-2002-planta-pampa",
+      "titulo": "La Argentina pasó de exportar urea a importar 1,52 millones de toneladas en 2025, diez veces más que en 2002",
+      "bajada": "El fertilizante que más usa el campo argentino viene cada vez más de afuera. Entre 2002 y 2006 el país vendía afuera medio millón de toneladas de urea por año, y 2013 fue el último en que exportó más de lo que compró. En 2025 entraron 1,52 millones de toneladas, según el INDEC: la segunda cifra más alta desde 2002, apenas debajo de la de 2021. La planta que Pampa Energía encargó construir en Bahía Blanca podrá fabricar 2,1 millones por año, más de lo que la Argentina importó en cualquier año desde 2002.",
+      "titulo_busqueda": "¿Cuánta urea importa la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,52 M t",
+      "numero_label": "toneladas de urea que importó la Argentina en 2025, diez veces más que en 2002",
+      "fecha": "2026-11-09",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-09-urea-importada-diez-veces-2002-planta-pampa.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC base imports_2025_M posición 31021010: 1.520.184,6 t, US$695,66 M CIF = ICA dic-2025 (ica_cuadros_20_01_26.xls) c32/c34 695,65537364 y 404,58 (2024, 1.071.668 t). 2002: 147.444,7 t (x10,31). Récord 2021 1.545.201,9 t. Exportaciones INDEC 2002-2018 (2013: 206.235 exp vs 181.423 imp, último saldo exportador); desde 2019 confidenciales, espejo Comtrade flujo M 2025 2.919 t (Brasil 2.752), 2024 91 t. Contraste Bolivia Comtrade X 2025 93.985 t vs INDEC 202 95.461 t (-1,5%), 2024 81.346 vs 80.486. Adecoagro: consumo 2025 2,4 Mt (+6,5%), Profertil 3.950 t/d, 1,3 Mt/año, 91 días parada 2025, 1S26 617 kt (+15,9%). Pampa: 6.000 t/d = 2,1 Mt/año (HR 17/07 y 07/09/2026), Res. ME 1468/2026: 2x3.000 t/d urea, 3.450 t/d amoníaco, US$2.693 M. Loma Negra HR 05/11/2026: hormigón a SACDE 30 meses, planta de urea en Bahía Blanca."
+    },
     {
       "id": "2026-11-09-gas-quemado-venteado-36-por-ciento-vaca-muerta",
       "titulo": "Las petroleras quemaron o ventearon 885 millones de m³ de gas en nueve meses, 36% más que en 2025: en Neuquén, más de lo que usaron en un año todos sus hogares",

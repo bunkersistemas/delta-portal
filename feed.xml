@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 13:07:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 14:56:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina pasó de exportar urea a importar 1,52 millones de toneladas en 2025, diez veces más que en 2002</title>
+      <link>https://coninteres.com/articulos/2026-11-09-urea-importada-diez-veces-2002-planta-pampa.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-urea-importada-diez-veces-2002-planta-pampa.html</guid>
+      <pubDate>Mon, 09 Nov 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El fertilizante que más usa el campo argentino viene cada vez más de afuera. Entre 2002 y 2006 el país vendía afuera medio millón de toneladas de urea por año, y 2013 fue el último en que exportó más de lo que compró. En 2025 entraron 1,52 millones de toneladas, según el INDEC: la segunda cifra más alta desde 2002, apenas debajo de la de 2021. La planta que Pampa Energía encargó construir en Bahía Blanca podrá fabricar 2,1 millones por año, más de lo que la Argentina importó en cualquier año desde 2002.</description>
+      <ci:numero>1,52 M t</ci:numero>
+      <ci:numeroEtiqueta>toneladas de urea que importó la Argentina en 2025, diez veces más que en 2002</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-urea-importada-diez-veces-2002-planta-pampa.png" length="64373" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-urea-importada-diez-veces-2002-planta-pampa.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las petroleras quemaron o ventearon 885 millones de m³ de gas en nueve meses, 36% más que en 2025: en Neuquén, más de lo que usaron en un año todos sus hogares</title>
       <link>https://coninteres.com/articulos/2026-11-09-gas-quemado-venteado-36-por-ciento-vaca-muerta.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>rendimiento al que Aeropuertos Argentina 2000 colocó US$400 millones a diez años para rescatar bonos que pagaban 8,6% (octubre de 2026)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-aeropuertos-argentina-refinancia-8375-capital-2032.png" length="74961" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-aeropuertos-argentina-refinancia-8375-capital-2032.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>China vendió el 89% de las estaciones base de celular que importó la Argentina este año, la mayor proporción desde 2007</title>
-      <link>https://coninteres.com/articulos/2026-11-07-estaciones-base-celular-china-89-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-estaciones-base-celular-china-89-por-ciento.html</guid>
-      <pubDate>Sat, 07 Nov 2026 03:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Nueve de cada diez dólares que la Argentina gasta en estaciones base de celular importadas se le pagan a China, y el Gobierno acaba de aprobar una norma de ciberseguridad que, para los equipos más sensibles que compre el Estado, exige una certificación de una asociación estadounidense que Huawei y ZTE no pueden obtener. Entre enero y septiembre se importaron US$101,5 millones en estaciones base, más que en todo 2025, y US$90,7 millones vinieron de China. Nunca había sido una parte tan grande.</description>
-      <ci:numero>89,4%</ci:numero>
-      <ci:numeroEtiqueta>parte de las estaciones base de celular importadas entre enero y septiembre de 2026 que vino de China, la más alta desde 2007</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-estaciones-base-celular-china-89-por-ciento.png" length="70175" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-estaciones-base-celular-china-89-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
