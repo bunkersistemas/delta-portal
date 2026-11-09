@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T08:46:05-03:00",
+    "actualizado": "2026-11-09T10:56:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-ypf-margen-refino-barril-25-dolares",
+      "titulo": "El margen de YPF por cada barril que refina se multiplicó por 3,6 en un año: US$25,6 contra US$7,1",
+      "bajada": "En el año en que el petróleo se disparó, el negocio de refinar y vender combustibles de YPF ganó margen. Entre julio y septiembre de 2026 le dejó US$25,6 por barril antes de amortizaciones, contra US$7,1 un año antes: el margen más alto de los once trimestres que la empresa informó desde 2024. Son unos 16 centavos de dólar, o $242, por cada litro de crudo que procesó. Las dos puntas se movieron distinto: la nafta y el gasoil que vende en el país le rinden 42% más en dólares, y el crudo que compra le cuesta 26% más por barril. Lo dice el informe que la empresa presentó el 28 de octubre ante la CNV y la SEC.",
+      "titulo_busqueda": "¿Cuánto le queda a YPF por cada litro de nafta y gasoil que refina?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$25,6",
+      "numero_label": "margen de YPF (EBITDA ajustado de refino y venta de combustibles) por cada barril de crudo que refinó, julio a septiembre de 2026",
+      "fecha": "2026-11-09",
+      "hora": "10:30",
+      "archivo": "articulos/2026-11-09-ypf-margen-refino-barril-25-dolares.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "YPF nota de resultados 3T26, CNV HR 28/10/2026 (publicview 2ba1fb27, 'EBITDA Ajustado R&M (US$/bbl) 25,6 22,5 14% 7,1 258% 21,0 11,9 76%') = SEC 6-K 000155485526002241 ('R&M Adj. EBITDA (US$/bbl)'). x3,61 con cifras redondeadas. Por litro: 25,6/158,987 = US$0,161 x A3500 prom. jul-sep 2026 $1.500,28 = $241,6; 3T25 7,1 -> US$0,0447 x $1.332,15 = $59,5. Precio neto local combustibles US$865 vs 608/m3 (+42,3%), nafta 776 vs 567 (+36,8%), gasoil 922 vs 637 (+44,8%). Compras de crudo M&D 2.679 vs 2.012 US$ M / barriles procesados SE (productos-procesados.csv, YPF, Cuenca*+Crudo importado: 5.031.080 y 4.771.678 m3 x 6,28981 = 31,645 y 30,013 M bbl) = US$84,66 vs 67,04 (+26,3%). Contraste SE: 344,0 y 326,2 kbbl/d = release; 9M 346,4 y 315,2 = release. Recalculo de orden de magnitud: EBITDA aj. sin inventarios M&D 1.030/384 por bbl = 32,55 vs 12,79 (x2,5). IPIM INDEC 3T y/y: refinados +54,2% pesos (+36,9% US$), crudo y gas +55,4% (+38,0% US$). Brent FRED 96,30 vs 69,03 (+39,5%). Serie: 1T24 18,5 (1T25), 2T24 11,4, 3T24 13,1, 4T24 11,2, 1T25 15,6 (1T26), 2T25 13,0 (2T26), 3T25 7,1 (3T26), 4T25 19,5, 1T26 14,9, 2T26 22,5 (3T26; 23,2 en 2T26), 3T26 25,6: max de 11 trimestres."
+    },
     {
       "id": "2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017",
       "titulo": "La base monetaria equivale al 4,2% del PBI, menos de la mitad que entre 2004 y 2017; en 2019, con 53,8% de inflación, era 6,5%",

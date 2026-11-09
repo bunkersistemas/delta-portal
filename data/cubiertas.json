@@ -8191,6 +8191,18 @@
       "fecha": "2026-11-09",
       "estado": "descartada",
       "motivo_descarte": "repetidas, sin documento primario o mismo molde que una nota de hoy"
+    },
+    {
+      "tema": "empresas: ¿cuánto le queda a YPF por cada barril que refina? / margen de refino y marketing 3T26 (nota de resultados CNV y SEC 28/10/2026): EBITDA ajustado R&M US$25,6/bbl vs 7,1 en 3T25 (x3,6), 9M 21,0 vs 11,9; precio neto local combustibles US$865 vs 608/m3 (+42%); crudo comprado por barril procesado US$84,7 vs 67,0 (+26,3%, cálculo propio con barriles de la Secretaría de Energía)",
+      "angulo": "Corrida de redacción del 09/11/2026 10:30, primera candidata investigada (APTA). Hallazgo contra lo que se cree: después de la nota del 01/11 (el surtidor subió mucho menos que el crudo en 2026, sin medir márgenes), el informe de YPF muestra que su margen de refino está en el máximo de los once trimestres informados desde 2024. Ángulo nuevo frente a las notas de YPF del 28/10 (resultado neto 9M, upstream: precio y lifting) y del 05/11 (compensación de la cúpula): esta es el downstream, que ninguna mencionaba. Camino: documento de la empresa ante dos reguladores + contraste de volumen exacto con la Secretaría de Energía + contraste de precios con el IPIM del INDEC. Cupo de empresas ya cumplido hoy (Edenor 00:30); ganó por hallazgo.",
+      "fecha": "2026-11-09",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 09/11/2026 10:30. Clarín y TN no cargaron (WebFetch bloqueado). Lista: (1) HALLAZGO, EMPRESAS: margen de refino de YPF 3T26, US$25,6/bbl vs 7,1 (CNV+SEC, SE, IPIM) [pregunta detrás de la nota propia del 01/11 y de 'YPF sostiene el buffer']: APTA. (2) Papelera del Sur cierra en Tornquist, 160 despidos [iProfesional, Cronista]: cartulina importada publicada 05/11; el ángulo local (la rama papel era 188 de 1.954 puestos privados registrados del partido, 9,6%, CEP XXI) tiene datos solo hasta nov-2023 y el CDN de produccion.gob.ar tiene el certificado vencido: no pasa el control de enlaces. (3) crecida del Paraná y 147.500 animales evacuados [La Nación; Senasa]: ya contado por la prensa agro con la misma cifra; el ángulo propio (alturas históricas del INA/BDHI) no tiene descarga accesible hoy. (4) EMPRESAS: Mastellone sigue sin EEFF al 30/09 en cnv_lista (solo actas y HR del 05-06/11). (5) EMPRESAS: Inversora Eléctrica de Buenos Aires EEFF 30/09: molde de Edenor, publicada hoy. (6) EMPRESAS: Luz de Tres Picos, fusión de 13 sociedades renovables: reorganización interna sin cifra para el lector. (7) EMPRESAS: Telecom 3T26 todavía no presentado (los 6-K del 30/10 y 06/11 son renuncias de directores); Grupo Clarín y Cablevisión, solo invitación; Central Puerto presenta el 11/11. (8) Tesla abre en la Argentina el 20/11 [Cronista, iProfesional]: eléctricos importados publicados 27/09 y 01/10. (9) Vea, Dia y Diarco cierran sucursales [iProfesional]: las bocas del INDEC son de un panel de 92 empresas, frenada el 27/10 por eso. (10) visita del papa y ocupación hotelera [Cronista], pobreza 16,2 M, gasto -5,4% (IARAF), ventas pyme CAME, RIGI importaciones, riesgo país, Revolut, Chango Más-Dia, Ueno Bank y Peña: ya cubiertas, estimaciones privadas o sin documento argentino. (11) caballos de polo (Tortugas) [La Nación]: frenada el 27/09 por fuentes que se contradicen en cabezas. Calendario: nada de INDEC/BCRA hoy (IMM e ISSP el 11/11, IPC y CBT el 12/11). pregunta.json ya era de hoy.",
+      "angulo": "Registro de descartes de la corrida.",
+      "fecha": "2026-11-09",
+      "estado": "descartada"
     }
   ]
 }
