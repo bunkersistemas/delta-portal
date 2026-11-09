@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 06:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 08:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La base monetaria equivale al 4,2% del PBI, menos de la mitad que entre 2004 y 2017; en 2019, con 53,8% de inflación, era 6,5%</title>
+      <link>https://coninteres.com/articulos/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.html</guid>
+      <pubDate>Mon, 09 Nov 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>La economía argentina usa hoy, en proporción a lo que produce, menos de la mitad de los pesos que usaba entre 2004 y 2017, y menos que en 2019, cuando la inflación era más alta. Los billetes que circulan más los pesos que los bancos guardan en el Banco Central sumaron en promedio $41,4 billones entre julio de 2025 y junio de 2026: el 4,2% de lo que produjo la economía, contra un promedio de 8,7% entre 2004 y 2017. En el último año la base volvió a achicarse, 15,2% real en septiembre según el BCRA, y dos tercios de esa caída son pesos de los bancos, no billetes.</description>
+      <ci:numero>4,2%</ci:numero>
+      <ci:numeroEtiqueta>base monetaria (billetes y monedas en circulación más los pesos de los bancos en el BCRA) en porcentaje del PBI, julio de 2025 a junio de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.png" length="73246" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>De cada $100 que los argentinos tienen en los bancos y en billetes de pesos, $29 son depósitos en dólares; Perú, que en 2000 tenía 71, bajó a 26</title>
       <link>https://coninteres.com/articulos/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>del PBI mundial que suman los países con los que la Argentina tiene, firmó o negocia acuerdos comerciales, contando EE.UU.; la meta oficial es 80%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china.png" length="80794" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-acuerdos-comerciales-pbi-mundial-meta-80-china.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>PPI aporta el 2,8% del patrimonio de su fusión con Banco de Valores y sus dueños se quedan con el 4,47% del banco</title>
-      <link>https://coninteres.com/articulos/2026-11-06-valo-ppi-fusion-patrimonio.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-06-valo-ppi-fusion-patrimonio.html</guid>
-      <pubDate>Fri, 06 Nov 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Los dueños de PPI van a recibir el 4,468% del capital de Banco de Valores a cambio de una sociedad que aporta el 2,8% del patrimonio que suman las dos y que cerró en pérdida 2024, 2025 y el primer semestre de 2026. El banco (VALO) informó a la CNV el 6 de noviembre que los accionistas de PPI aceptaron su oferta de fusión. Los balances que las dos empresas presentaron ante la CNV muestran la otra mitad de la operación: al 30 de junio, PPI tenía un patrimonio de $13.173 millones, y el banco ganó $40.616 millones en ese semestre.</description>
-      <ci:numero>2,8%</ci:numero>
-      <ci:numeroEtiqueta>parte de PPI en el patrimonio que suma con Banco de Valores, 30 de junio de 2026; sus dueños reciben el 4,468% del banco</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-06-valo-ppi-fusion-patrimonio.png" length="67839" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-06-valo-ppi-fusion-patrimonio.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

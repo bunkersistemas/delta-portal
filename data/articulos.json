@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T06:57:01-03:00",
+    "actualizado": "2026-11-09T08:46:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017",
+      "titulo": "La base monetaria equivale al 4,2% del PBI, menos de la mitad que entre 2004 y 2017; en 2019, con 53,8% de inflación, era 6,5%",
+      "bajada": "La economía argentina usa hoy, en proporción a lo que produce, menos de la mitad de los pesos que usaba entre 2004 y 2017, y menos que en 2019, cuando la inflación era más alta. Los billetes que circulan más los pesos que los bancos guardan en el Banco Central sumaron en promedio $41,4 billones entre julio de 2025 y junio de 2026: el 4,2% de lo que produjo la economía, contra un promedio de 8,7% entre 2004 y 2017. En el último año la base volvió a achicarse, 15,2% real en septiembre según el BCRA, y dos tercios de esa caída son pesos de los bancos, no billetes.",
+      "titulo_busqueda": "¿Hay pocos pesos en la economía argentina? La base monetaria contra el PBI desde 2004",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "4,2%",
+      "numero_label": "base monetaria (billetes y monedas en circulación más los pesos de los bancos en el BCRA) en porcentaje del PBI, julio de 2025 a junio de 2026",
+      "fecha": "2026-11-09",
+      "hora": "10:30",
+      "archivo": "articulos/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "cálculo propio: promedio de la base monetaria (BCRA serie diaria 15) de los trimestres 3T25-2T26 = $41.422.585 M (40.870.920 / 40.708.079 / 42.119.080 / 41.992.262) sobre PIB a precios corrientes INDEC (sh_oferta_demanda_09_26.xls, cuadro 8, valores trimestrales a ritmo anual) promedio $985.216.733 M = 4,20%. Serie 15 sep-26 46.278 vs IMM 46.274; billetes (17) 26.514 = IMM. Contraste: IMM sep-26 base 4,0% del PIB (sep-25 4,3%, método mensual s.e.); IERAL (Gutiérrez, vía Revista Mercado 09/09/2026) 3,8%. Promedio 2004-2017 8,71% (mín. 2016 7,87%); 2017 7,96; 2018 7,69; 2019 6,46; 2020 7,98; 2023 3,22; 2024 3,11; 2025 4,30. Billetes 2,31% vs 5,88% (2004-2017) y 3,58% (2019). IPC INDEC dic/dic recalculado de serie_ipc_divisiones.csv: 2017 24,8; 2018 47,6; 2019 53,8; 2020 36,1; 2025 31,5; sep-26 i.a. 33,4. Caída real: IMM sep-26 base −15,2% i.a. (nominal +11,7%); Quantum vía infobae 09/11 −13,3% al 29/10. Descomposición sep-26 vs sep-25 a precios de sep-26: base −8.976, circulación −2.849, cuentas corrientes bancos −6.127 (68%)."
+    },
     {
       "id": "2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26",
       "titulo": "De cada $100 que los argentinos tienen en los bancos y en billetes de pesos, $29 son depósitos en dólares; Perú, que en 2000 tenía 71, bajó a 26",
