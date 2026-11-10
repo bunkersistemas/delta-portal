@@ -8322,6 +8322,20 @@
       "angulo": "Registro de candidatas de la corrida.",
       "fecha": "2026-11-10",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto vino toma un argentino por año? / consumo de vino por habitante 2025 = 16,1 litros, piso de la serie del INV desde 1963 (1970: 91,8), y cambio de mix ene-sep 2026: varietal -18,1%, sin mención varietal +8,7%, total -0,2% (INV informe mercado interno sep-26); comparación por habitante con OIV + Banco Mundial (Argentina 16,4 vs Reino Unido 17,7, España 19,0); exportación ene-oct 2026 fraccionado -2,1%, granel +30,6%. Tema nuevo en cubiertas (vino nunca cubierto); sin gancho de portada del día",
+      "angulo": "Corrida de redacción del 10/11/2026 04:30, APTA. Hallazgo: serie larga de 63 años + comparación internacional propia (el sexto productor del mundo toma menos por persona que el Reino Unido) + el recambio de varietal por vino común de 2026, y el recálculo con población homogénea (el INV mezcla proyecciones de población: 2024 con la vieja, 2025 con la del Censo 2022; con la misma población la caída de 2025 es 2,8%). Camino: estadística oficial recalculada + contraste (OIV, IPI vino INDEC), con la aclaración de que ninguno es del todo independiente del INV. Archivos en _privado/vino_dl, scripts _privado/vino_calc.py, vino_svgs.py.",
+      "fecha": "2026-11-10",
+      "estado": "publicada",
+      "articulo_id": "2026-11-10-vino-consumo-16-litros-piso-historico"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 10/11/2026 04:30. Clarín y TN no cargaron (WebFetch bloqueado). Hoy ya salieron IA (UCLA) y plata exportada. Lista: (1) HALLAZGO: consumo de vino por habitante, INV + INDEC + OIV + Banco Mundial [sin portada; tema nunca cubierto, Boletín Oficial 06/11 Res. INV 8/2026 técnica]: APTA. (2) EMPRESAS (cupo, hoy sin nota de la sección): Inversora Eléctrica de Buenos Aires EEFF 30/09 (CNV 06/11): el anexo es el formulario de control y la luz ya tuvo dos notas de Edenor esta semana; Mastellone 9M26 sigue sin EEFF completos (solo HR y actas del 06/11); Edenor 20% de Latam Downstream Holdings (HR 09/11) sin monto; Luz de Tres Picos absorbe sociedades de PCR, reorganización interna; Central Puerto presenta 3T26 el 11/11, todavía no hay documento. Ninguna tiene una cifra nueva con documento primario hoy. (3) Bodegas Esmeralda como contraste del varietal: retirada de la oferta pública en 2020 (DUVA), sin EEFF recientes en la CNV. (4) RIMI, RG ARCA 5922 (BO 06/11): procedimiento de IVA sin cifra. (5) portadas: riesgo país bajo 900 y Paraguay (publicadas 29/10, 08 y 09/11), visita del papa (pedido 115 en cola; Iglesia publicada 07/11), petroleras +US$5.100 M (publicada 05/10), trigo y Brasil (publicada 23/10), dólar tarjeta sobre $2.000 (molde agotado), cobertura de salud (publicada 05/11), adultos mayores 2040 (en cola 08/11), CAME ventas pyme (sin serie cruda), pobreza 3T (estimación privada), empresas creadas y cerradas (SRT publicada 27/09 y 09/10), Black Hawk (descartada 29/09, precio sin documento oficial), Fórmula 1 en Argentina y MotoGP (descartada 25/09), McDonald's Gran Día (sin documento). Calendario: nada de INDEC/BCRA hoy (IMM e ISSP el 11/11, IPC y CBT el 12/11). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-10",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
     }
   ]
 }

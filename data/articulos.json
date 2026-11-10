@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-10T02:56:29-03:00",
+    "actualizado": "2026-11-10T04:50:14-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-10-vino-consumo-16-litros-piso-historico",
+      "titulo": "Un argentino toma 16,1 litros de vino por año: menos que un británico y menos de la quinta parte que en 1970",
+      "bajada": "La Argentina es el sexto productor de vino del mundo, pero por persona ya toma menos que España, Alemania o el Reino Unido, con el consumo que estima la OIV para cada país. Los 16,1 litros de 2025 son el consumo por habitante más bajo desde que el INV lleva registro, en 1963. Y en 2026 el total se sostiene porque la gente cambió de vino: entre enero y septiembre el varietal cayó 18,1% y el vino sin mención varietal, el que no dice de qué uva es, subió 8,7%.",
+      "titulo_busqueda": "¿Cuánto vino toma un argentino por año?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "16,1 litros",
+      "numero_label": "vino por habitante que se vendió en el mercado interno en 2025, el registro más bajo desde 1963",
+      "fecha": "2026-11-10",
+      "hora": "04:30",
+      "archivo": "articulos/2026-11-10-vino-consumo-16-litros-piso-historico.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INV, informe mensual de mercado interno sep-26 (serie anual: 2024 16,3; 2025 16,1; 2025 = suma mensual 16,08). Recalculo: 7.460.499 hl (INV principales datos 2025) / 46.387.098 hab. (INDEC proyecciones base Censo 2022) = 16,08 L. 2024: 7.663.317 hl (INV informe mar-25) / 46.301.743 = 16,55 (el 16,3 del INV implica 47,1 M hab., proyeccion vieja); hl -2,65%, per capita -2,8%. Serie 1963-2024 INV: maximo 1970 91,8 (16,1/91,8 = 17,5%); minimo previo 2024 16,3. Contrastes: OIV State of the World Wine Sector 2025, Argentina 7,5 mhl (-2,6%, quinto anio de baja); INDEC IPI subclase vino ene-sep 2016 129,3 / 2020 145,1 / 2025 103,2 / 2026 101,2. Comparacion internacional: OIV cuadro 3 2025 / poblacion Banco Mundial 2025 (Arg 16,4; RU 17,7; Esp 19,0; Ale 21,3). Ene-sep 2026 (INV sep-26): varietal 1.798.705 -> 1.473.455 (-18,1%), sin mencion 3.502.323 -> 3.805.515 (+8,7%), total -0,2%."
+    },
     {
       "id": "2026-11-10-plata-exportada-726-millones-precio-doble",
       "titulo": "La plata que exporta la Argentina dejó US$726 millones en ocho meses, 64% más, con casi las mismas toneladas: la diferencia es el precio",
