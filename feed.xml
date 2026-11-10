@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 22:49:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 01:05:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El desempleo de los recién recibidos en EE.UU. no saltó con la IA: 7,3% en el verano de 2026, contra 7,2% un año antes, según un estudio de UCLA</title>
+      <link>https://coninteres.com/articulos/2026-11-10-ia-desempleo-recien-recibidos-ucla.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-10-ia-desempleo-recien-recibidos-ucla.html</guid>
+      <pubDate>Tue, 10 Nov 2026 01:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>IA</category>
+      <description>Se advirtió que la inteligencia artificial podía cerrarles la puerta del primer trabajo a los recién recibidos; en su desempleo, por ahora, ese golpe no aparece. En junio, julio y agosto de 2026, el desempleo de los recién recibidos de 22 a 25 años en Estados Unidos fue de 7,3%, contra 7,2% un año antes: dentro del rango de los veranos anteriores, según un estudio de Robert Fairlie y Jane Wu, de UCLA. Otro estudio, de Stanford, sí ve menos empleo joven en los trabajos más expuestos a la IA. En la Argentina, con la EPH, la desocupación de los recibidos universitarios de 22 a 29 años fue de 7,3% en los doce meses a junio de 2026 (estimado, entre 4,9% y 9,6%), sin salto, y bien por debajo del 12,1% de los jóvenes sin título.</description>
+      <ci:numero>7,3%</ci:numero>
+      <ci:numeroEtiqueta>desempleo de los recién recibidos de 22 a 25 años en EE.UU., junio a agosto de 2026 (7,2% un año antes), según un estudio de UCLA</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-ia-desempleo-recien-recibidos-ucla.png" length="75336" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-ia-desempleo-recien-recibidos-ucla.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina vende el 37% del aceite de limón que se exporta en el mundo, más que Perú, Italia y Estados Unidos juntos</title>
       <link>https://coninteres.com/articulos/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>ganancia de Fiplasto por vender y ceder campos entre julio de 2025 y junio de 2026, en pesos de junio de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-fiplasto-chapadur-campos-timbues.png" length="70194" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-fiplasto-chapadur-campos-timbues.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La deuda flotante de $2,86 billones es el 2,5% del gasto del año: más que en 2025, pero menos que en cualquier año entre 2017 y 2024</title>
-      <link>https://coninteres.com/articulos/2026-11-07-deuda-flotante-estado-25-por-ciento-octubre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-deuda-flotante-estado-25-por-ciento-octubre.html</guid>
-      <pubDate>Sat, 07 Nov 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Estado nacional cerró octubre con $2,86 billones de gastos ya anotados y todavía sin pagar. Medida con la misma vara, es el 2,5% de lo que devengó en el año sin contar la deuda: más que el 1,5% de octubre de 2025, pero menos que en cualquier octubre entre 2017 y 2024, cuando estuvo entre 3,2% y 5,4%. Y en los primeros días hábiles de noviembre, más de la mitad se pagó.</description>
-      <ci:numero>2,5%</ci:numero>
-      <ci:numeroEtiqueta>parte del gasto nacional devengado de enero a octubre de 2026 que seguía sin pagar el 31 de octubre, sin contar la deuda</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-deuda-flotante-estado-25-por-ciento-octubre.png" length="70412" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-deuda-flotante-estado-25-por-ciento-octubre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

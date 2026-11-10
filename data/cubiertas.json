@@ -8293,6 +8293,23 @@
       "fecha": "2026-11-09",
       "estado": "descartada",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "¿la IA deja sin trabajo a los recién recibidos? / Fairlie y Wu (UCLA), \"The Early Impacts of AI on Employment among Recent College Graduates\", NBER WP 35796 (sep-2026): desempleo de recién recibidos de 22-25 en EE.UU., verano 2026 7,3% vs 7,2% en 2025 (rango 6,3-7,8 desde 2022), sin efecto significativo; contraste Stanford Canaries ago-2026 (-19%); Argentina EPH: recibidos universitarios 22-29 7,3% (IC90 4,9-9,6) en 12 meses a jun-2026, sin título 12,1%, recibidos 30-49 3,0%",
+      "angulo": "Corrida de La economía de la IA del 10/11/2026 00:30, primera candidata probada: pasó las cinco condiciones de NEWSROOM 2 quinquies (atribuida; leída en el original, págs. 2, 7-8, 16-23 y cuadros 1-3; método y límites: descriptivo, un solo verano, sin referato, desocupados sin ocupación quedan fuera del cruce por exposición, IA y remoto confundidos; estudio al lado: Stanford Canaries ago-2026 leído en el original, en contra; dato argentino: composición por nivel educativo del INDEC 2T26 recalculada exacto con microdatos y contraste IDECBA ETOI 1T26; corte de recibidos jóvenes como ESTIMACIÓN propia con margen de error). Ángulo nuevo frente a 2026-10-11 (empleo de jóvenes en ocupaciones expuestas, Stanford) y 2026-10-13 (seis estudios): desempleo de los recién recibidos en el primer verano con uso extendido y su equivalente argentino por título. Retomable: verano 2027 del mismo estudio; EPH 3T26 (dic-2026) para actualizar la ventana.",
+      "fecha": "2026-11-10",
+      "estado": "publicada",
+      "articulo_id": "2026-11-10-ia-desempleo-recien-recibidos-ucla",
+      "archivo": "cola/2026-11-10-ia-desempleo-recien-recibidos-ucla.html",
+      "seccion": "IA"
+    },
+    {
+      "tema": "candidatas de la corrida de La economía de la IA del 10/11/2026 00:30, no probadas porque pasó la primera (UCLA, NBER WP 35796): Ciaschi, Falcone, Garganta, Gasparini, Bertín y Ramirez-Leira, \"The Potential Distributive Impact of AI-driven Labor Changes in Latin America\", CEDLAS DT 361 (dic-2025; la Argentina, la más expuesta de 14 países en 3 de 4 índices; simulaciones = proyección) con EPH por ocupación; Banco Mundial, LAC Economic Update oct-2026 \"Harnessing the AI Transition\" (leído: exposición por país solo en gráfico, Argentina con ocupaciones a 2 dígitos imputadas; costo de robots 2035-2040 = proyección; caso AySA de fugas con IA satelital); encuesta NADIA de CEPE-Di Tella y Fundar a 402 pymes (nov-dic 2025: 41,6% usa IA, 91% sin cambio de plantilla; mismo ángulo que la nota del 03/11); FMI, documento de trabajo de oct-2026 sobre el tiempo que ahorra la IA en 86 países (4,2% del PIB en países ricos vs 0,6% en medios, según Latinvex; original no ubicado); Fed de Nueva York, encuesta a pequeñas empresas (Liberty Street, 08/10/2026) y Fed de St. Louis (06/10/2026); BID, Desarrollo en las Américas 2026 sobre IA (se presenta el 16/11/2026; los escenarios de PIB y salarios son proyecciones).",
+      "angulo": "Registro de candidatas de la corrida (rastreo: NBER, Stanford, Fed de San Francisco, St. Louis y Nueva York, FMI, OIT, Banco Mundial, BID, CEPAL, CEDLAS, Fundar, CEPE-Di Tella, CIPPEC).",
+      "fecha": "2026-11-10",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }

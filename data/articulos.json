@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T22:49:09-03:00",
+    "actualizado": "2026-11-10T01:05:04-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-10-ia-desempleo-recien-recibidos-ucla",
+      "titulo": "El desempleo de los recién recibidos en EE.UU. no saltó con la IA: 7,3% en el verano de 2026, contra 7,2% un año antes, según un estudio de UCLA",
+      "bajada": "Se advirtió que la inteligencia artificial podía cerrarles la puerta del primer trabajo a los recién recibidos; en su desempleo, por ahora, ese golpe no aparece. En junio, julio y agosto de 2026, el desempleo de los recién recibidos de 22 a 25 años en Estados Unidos fue de 7,3%, contra 7,2% un año antes: dentro del rango de los veranos anteriores, según un estudio de Robert Fairlie y Jane Wu, de UCLA. Otro estudio, de Stanford, sí ve menos empleo joven en los trabajos más expuestos a la IA. En la Argentina, con la EPH, la desocupación de los recibidos universitarios de 22 a 29 años fue de 7,3% en los doce meses a junio de 2026 (estimado, entre 4,9% y 9,6%), sin salto, y bien por debajo del 12,1% de los jóvenes sin título.",
+      "titulo_busqueda": "¿La inteligencia artificial deja sin trabajo a los recién recibidos? Lo que encontró un estudio de UCLA y lo que muestra la EPH en la Argentina",
+      "seccion": "IA",
+      "formato": "Investigación",
+      "numero": "7,3%",
+      "numero_label": "desempleo de los recién recibidos de 22 a 25 años en EE.UU., junio a agosto de 2026 (7,2% un año antes), según un estudio de UCLA",
+      "fecha": "2026-11-10",
+      "hora": "01:30",
+      "archivo": "articulos/2026-11-10-ia-desempleo-recien-recibidos-ucla.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 8 min",
+      "numero_fuente": "Fairlie y Wu (UCLA), NBER WP 35796, sep-2026, CPS ene-2022 a ago-2026, 22-25 años, título de grado como máximo, no estudian: verano (jun-ago) 2026 7,3% vs 7,1/6,3/7,8/7,2 en 2022-2025; ampliado 10,4 vs 9,4/9,3/10,1/9,4 (pág. 16 del documento); no recibidos 7,5->6,8 y recibidos 30-49 2,7->2,8 (pág. 17); coeficientes n.s. (cuadros 1-3, págs. 18-20). Contraste: Brynjolfsson, Chandar y Chen, Stanford, ago-2026, ADP: -19% empleo 22-25 en ocupaciones expuestas (resumen, págs. 2-3). Argentina: INDEC EPH 2T26 cuadros 1.3/1.5/1.7 (7,9%; ocupados con superior completo 25,2%; desocupados 11,0%) recalculado exacto con microdatos (también 1T26 24,8/10,8 y 2T25 23,9/9,1); tasa implícita 3,6% (micro 3,62%); contraste IDECBA ETOI 1T26 43,9% ocupados vs 24,3% desocupados con superior completo. Estimación propia EPH 3T25-2T26: recibidos universitarios (CH12=7, CH13=1, CH10=2) 22-29 7,28% IC90 4,9-9,6 (995 obs., 71 desoc.); serie 12 meses a jun 2018-2026 7,0/8,7/8,2/s.d./7,9/5,5/5,6/8,7/7,3; sin título 22-29 12,06%; recibidos 30-49 2,99% (1,30% a jun-23); total 7,45% (6,63% a jun-23)."
+    },
     {
       "id": "2026-11-09-aceite-limon-argentina-37-por-ciento-mundo",
       "titulo": "La Argentina vende el 37% del aceite de limón que se exporta en el mundo, más que Perú, Italia y Estados Unidos juntos",
