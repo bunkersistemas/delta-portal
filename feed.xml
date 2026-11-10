@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 18:49:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 19:28:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Cuánto ganan, de cada $100 que facturan, las empresas de internet que cotizan en la Argentina?</title>
+      <link>https://coninteres.com/articulos/2026-11-10-cuanto-ganan-empresas-internet-cotizan.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-10-cuanto-ganan-empresas-internet-cotizan.html</guid>
+      <pubDate>Tue, 10 Nov 2026 19:15:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>El negocio de todos los días le deja plata a Telecom todos los años; el desgaste de la red y la deuda se la comen casi siempre. En 2025, de cada $100 que facturó le quedaron $30,30 antes de pagar el desgaste de su red y $5,40 después; por la deuda, cerró el año con una pérdida de $1,70. La ganancia operativa fue negativa en cuatro de los últimos cinco años, y en el primer semestre de 2026 subió a $13,30. Telecom, la dueña de Personal, Flow y, desde 2025, Movistar, es la única operadora de internet que cotiza en la bolsa y publica sus cuentas completas; la otra que cotiza, Cablevisión Holding, es su controlante.</description>
+      <ci:numero>5,4%</ci:numero>
+      <ci:numeroEtiqueta>ganancia operativa de Telecom Argentina sobre lo que facturó en 2025: $5,40 de cada $100</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-cuanto-ganan-empresas-internet-cotizan.png" length="62094" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-cuanto-ganan-empresas-internet-cotizan.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina rompe récords de petróleo, pero Venezuela volvió a sacarle ventaja: en septiembre extrajo el 80% de su crudo</title>
       <link>https://coninteres.com/articulos/2026-11-10-argentina-petroleo-80-por-ciento-venezuela.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>ganancia en dólares de un plazo fijo en pesos renovado cada 30 días entre el 30 de diciembre de 2025 y el 5 de noviembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-plazo-fijo-gano-dolar-2026-casi-todo-antes-de-abril.png" length="69782" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-plazo-fijo-gano-dolar-2026-casi-todo-antes-de-abril.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La inflación porteña le gana a la nacional solo cuando los servicios suben más que los bienes, y en octubre subieron lo mismo</title>
-      <link>https://coninteres.com/articulos/2026-11-08-inflacion-portena-servicios-anticipa-indec.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-08-inflacion-portena-servicios-anticipa-indec.html</guid>
-      <pubDate>Sun, 08 Nov 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>El 1,9% que midió la Ciudad de Buenos Aires en octubre no adelanta por sí solo el dato nacional: lo que adelanta algo es la mezcla, y en octubre bienes y servicios subieron lo mismo. Cruzamos 24 meses del índice porteño con el del INDEC. Cuando los servicios suben un punto o más por encima de los bienes, la inflación porteña supera a la nacional en 9 de cada 10 meses. Cuando suben parecido, como ahora, la nacional iguala o supera a la porteña en 13 de cada 14.</description>
-      <ci:numero>13 de 14</ci:numero>
-      <ci:numeroEtiqueta>meses desde octubre de 2024 en que, con servicios y bienes subiendo parecido en la Ciudad, la inflación nacional igualó o superó a la porteña</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-inflacion-portena-servicios-anticipa-indec.png" length="60927" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-inflacion-portena-servicios-anticipa-indec.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
