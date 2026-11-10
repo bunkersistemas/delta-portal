@@ -8336,6 +8336,12 @@
       "fecha": "2026-11-10",
       "estado": "descartada",
       "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "EMPRESAS: Edenor compra el 20% de Latam Downstream Holdings, controlante de Signar Energy (ex Raízen, refinería de Dock Sud y 892 estaciones Shell) (hecho relevante CNV y 6-K SEC del 09/11/2026) / Secretaría de Energía, productos procesados: Dock Sud 15,3% del crudo refinado ene-sep 2026 (17,3% en 2025), -4,4% contra +7,7% del país, la única de las seis grandes que cayó; bache jun-ago 2026; cuarta detrás de Campana",
+      "angulo": "Corrida de redacción del 10/11/2026 06:30. RETOMA la candidata descartada a las 04:30 ('sin monto'): el monto sigue sin publicarse, pero la cifra ancla no sale del hecho relevante sino de la estadística oficial de refinación, que da el hallazgo (la refinería en la que entra Edenor fue la única grande que procesó menos en el año de mayor refinación desde 2010). Camino: estadística oficial (SE) recalculada desde los registros crudos + contraste INDEC UCII refinación (+9,4% vs +9,5%) y parada de Raízen de sep-2025 visible en la base. APTA.",
+      "fecha": "2026-11-10",
+      "estado": "en_cola"
     }
   ]
 }

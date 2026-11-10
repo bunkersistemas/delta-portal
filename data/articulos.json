@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-10T04:50:14-03:00",
+    "actualizado": "2026-11-10T07:10:46-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-10-edenor-refineria-dock-sud-20-por-ciento",
+      "titulo": "Edenor compró el 20% de la refinería de Dock Sud, que procesa el 15,3% del crudo del país y fue la única de las seis grandes que refinó menos este año",
+      "bajada": "La distribuidora de luz del norte del conurbano entró en la refinación con una refinería que no venía en su mejor año. El 9 de noviembre informó ante la CNV y la SEC que compró el 20% de la sociedad que controla Signar Energy, la ex Raízen: la dueña de la refinería de Dock Sud y de las estaciones Shell. Entre enero y septiembre de 2026 el país refinó 7,7% más y Dock Sud, 4,4% menos. Según la Secretaría de Energía, su parte del crudo del país bajó de 17,3% a 15,3%. Edenor no informó cuánto pagó.",
+      "titulo_busqueda": "¿Qué compró Edenor en la refinería de Shell en Dock Sud?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de una compra",
+      "numero": "15,3%",
+      "numero_label": "parte del crudo refinado en la Argentina que procesó la refinería de Dock Sud entre enero y septiembre de 2026; un año antes, 17,3%",
+      "fecha": "2026-11-10",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-10-edenor-refineria-dock-sud-20-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Secretaría de Energía, productos-procesados.csv (descargado 10/11/2026), conceptos Cuenca* + Crudo importado, empresa SHELL C.A.P.S.A. refinería Dock Sud: ene-sep 2026 3.822.170 m3 / total país 24.936.184 m3 = 15,33%; 2025 3.998.617 / 23.163.803 = 17,26%; var DS -4,4%, país +7,7% (533,7 -> 574,5 kbbl/d, máximo ene-sep desde 2010). Contraste INDEC UCII refinación (sh_capacidad_10_26.xls) ene-ago 80,3% -> 87,8% (+9,4%) vs SE ene-ago +9,5%; parada FCC de Raízen desde sep-2025 (release 2T25/26) = caída oct-2025 a 68,5 kbbl/d. Capacidad 108 kbbl/d (La Nación 2020) / ~658 kbbl/d implícito INDEC = 16%. Compra: HR Edenor CNV 88C6863F y 6-K SEC 09/11/2026, 20% de Latam Downstream Holdings Ltd (controla Signar Energy, ex Latam Downstream Argentina); monto no informado."
+    },
     {
       "id": "2026-11-10-vino-consumo-16-litros-piso-historico",
       "titulo": "Un argentino toma 16,1 litros de vino por año: menos que un británico y menos de la quinta parte que en 1970",

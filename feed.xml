@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 04:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 07:10:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Edenor compró el 20% de la refinería de Dock Sud, que procesa el 15,3% del crudo del país y fue la única de las seis grandes que refinó menos este año</title>
+      <link>https://coninteres.com/articulos/2026-11-10-edenor-refineria-dock-sud-20-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-10-edenor-refineria-dock-sud-20-por-ciento.html</guid>
+      <pubDate>Tue, 10 Nov 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>La distribuidora de luz del norte del conurbano entró en la refinación con una refinería que no venía en su mejor año. El 9 de noviembre informó ante la CNV y la SEC que compró el 20% de la sociedad que controla Signar Energy, la ex Raízen: la dueña de la refinería de Dock Sud y de las estaciones Shell. Entre enero y septiembre de 2026 el país refinó 7,7% más y Dock Sud, 4,4% menos. Según la Secretaría de Energía, su parte del crudo del país bajó de 17,3% a 15,3%. Edenor no informó cuánto pagó.</description>
+      <ci:numero>15,3%</ci:numero>
+      <ci:numeroEtiqueta>parte del crudo refinado en la Argentina que procesó la refinería de Dock Sud entre enero y septiembre de 2026; un año antes, 17,3%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-edenor-refineria-dock-sud-20-por-ciento.png" length="76976" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-edenor-refineria-dock-sud-20-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un argentino toma 16,1 litros de vino por año: menos que un británico y menos de la quinta parte que en 1970</title>
       <link>https://coninteres.com/articulos/2026-11-10-vino-consumo-16-litros-piso-historico.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>pesca que declararon a la FAO los barcos de países de fuera de la región en el Atlántico Sudoccidental en 2024, frente a la de la flota argentina</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-pesca-extranjera-atlantico-sur-56-por-ciento-calamar-doble.png" length="71572" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-pesca-extranjera-atlantico-sur-56-por-ciento-calamar-doble.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los obispos dejaron de cobrar del Estado en 2023, pero la partida del culto católico siguió: $185 millones en 2025, 98% menos que en 2017 en pesos de hoy</title>
-      <link>https://coninteres.com/articulos/2026-11-07-estado-iglesia-culto-185-millones-98-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-estado-iglesia-culto-185-millones-98-por-ciento.html</guid>
-      <pubDate>Sat, 07 Nov 2026 17:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La partida del Estado que sostiene al culto católico no desapareció cuando los obispos terminaron de renunciar a su asignación, en diciembre de 2023: se licuó. En 2025 giró $185 millones a obispados, arzobispados y parroquias, casi lo mismo en pesos que en 2023. En pesos de hoy, es 98% menos que en 2017.</description>
-      <ci:numero>−98%</ci:numero>
-      <ci:numeroEtiqueta>caída real de lo que el Estado nacional transfirió a obispados, arzobispados y parroquias entre 2017 y 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-estado-iglesia-culto-185-millones-98-por-ciento.png" length="75485" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-estado-iglesia-culto-185-millones-98-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
