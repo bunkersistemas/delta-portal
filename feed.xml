@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 08:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 10:30:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>¿Cuántos fieles espera Luján para la misa del papa León XIV y cómo mueve eso la economía de la ciudad?</title>
+      <link>https://coninteres.com/articulos/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.html</guid>
+      <pubDate>Mon, 09 Nov 2026 19:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>El intendente espera más de un millón de personas el miércoles, casi nueve por cada vecino, pero nadie publicó cómo se van a contar. Lo que sí está en documentos es la plata pública: la Provincia contrató $4.206 millones para la misa y la vigilia, $37.809 por habitante y el 3,9% de lo que el municipio presupuestó gastar en todo 2026. Lo que dejan los visitantes en hoteles y comercios no lo mide ninguna estadística oficial.</description>
+      <ci:numero>$4.206 millones</ci:numero>
+      <ci:numeroEtiqueta>lo que la Provincia de Buenos Aires contrató para la misa y la vigilia del papa León XIV en Luján, en diez contratos</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.png" length="67478" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El dólar tarjeta pasó los $2.000, pero en pesos de hoy está al nivel de enero de 2017, cuando no tenía recargo</title>
       <link>https://coninteres.com/articulos/2026-11-10-dolar-tarjeta-2000-pesos-de-hoy-2017.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo máximo que Boca puede sumar en premios oficiales publicados en 2026, si gana la Sudamericana y la Copa Argentina</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-boca-campeon-tabla-anual-cuanta-plata.png" length="68429" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-boca-campeon-tabla-anual-cuanta-plata.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Por los mismos 300 kWh, un hogar de Bahía Blanca paga 74% más de luz que uno del conurbano atendido por Edenor</title>
-      <link>https://coninteres.com/articulos/2026-11-07-luz-provincia-buenos-aires-74-por-ciento-edenor.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-luz-provincia-buenos-aires-74-por-ciento-edenor.html</guid>
-      <pubDate>Sat, 07 Nov 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Las cuatro distribuidoras cuyas tarifas fija la Provincia cobran entre 32% y 74% más que las dos que regula la Nación, aunque el precio mayorista de la energía es el mismo para todas. Sin subsidio y antes de impuestos, 300 kWh de luz costaron en septiembre $88.827 en EDES, la distribuidora del sur bonaerense, y $50.964 en Edenor. Y la brecha no la abrieron los aumentos de este año: hace doce meses, en tres de las cuatro, era más grande.</description>
-      <ci:numero>74%</ci:numero>
-      <ci:numeroEtiqueta>cuánto más paga un hogar sin subsidio de EDES (sur bonaerense) que uno de Edenor por 300 kWh de luz, sin impuestos, septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-luz-provincia-buenos-aires-74-por-ciento-edenor.png" length="67950" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-luz-provincia-buenos-aires-74-por-ciento-edenor.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

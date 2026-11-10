@@ -1,25 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-11-10T08:30:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-11-09-papa-lujan-cuanta-gente-cuanta-plata",
-      "titulo": "¿Cuántos fieles espera Luján para la misa del papa León XIV y cómo mueve eso la economía de la ciudad?",
-      "titulo_busqueda": "",
-      "bajada": "El intendente espera más de un millón de personas el miércoles, casi nueve por cada vecino, pero nadie publicó cómo se van a contar. Lo que sí está en documentos es la plata pública: la Provincia contrató $4.206 millones para la misa y la vigilia, $37.809 por habitante y el 3,9% de lo que el municipio presupuestó gastar en todo 2026. Lo que dejan los visitantes en hoteles y comercios no lo mide ninguna estadística oficial.",
-      "seccion": "ECONOMÍA PROVINCIAL",
-      "formato": "Investigación",
-      "numero": "$4.206 millones",
-      "numero_label": "lo que la Provincia de Buenos Aires contrató para la misa y la vigilia del papa León XIV en Luján, en diez contratos",
-      "numero_fuente": "Suma de 10 resoluciones del Ministerio de Gobierno PBA (SINDMA): 517/541 136.669.500 + 519 542.855.000 + 520 153.718.400 + 521 323.275.700 + 522 931.000.000 + 524 322.938.926 + 525 923.920.000 + 528 388.724.600 + 529 167.454.320 + 542 315.694.603 = 4.206.251.049. Claypole 523 443.000.000 + 530 160.000.000 = 603.000.000; total 12 = 4.809.251.049. Contraste: desglose del Ministerio de Gobierno vía Chequeado 06/11/2026 (3.024 + 639 + 543 = 4.206; Cottolengo 603), coincide renglón por renglón. CFI hasta 2.500.000.000 (Decreto 1940/2026, anexo I, cuota única) = 52% de 4.809. Censo 2022 Luján 111.251 (cuadros 1.2 y 3.2.76) -> $37.809/hab. Presupuesto municipal 2026 crédito original 106.500.000.000 -> 3,95%.",
-      "fecha": "2026-11-09",
-      "hora": "19:30",
-      "archivo": "cola/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.html",
-      "verificacion": "verificada",
-      "fuentes": 26,
-      "lectura": "30 seg → 8 min",
-      "pedido": 115,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }
