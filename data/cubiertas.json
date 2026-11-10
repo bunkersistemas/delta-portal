@@ -8396,6 +8396,21 @@
       "fecha": "2026-11-10",
       "estado": "descartada",
       "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿produce más petróleo la Argentina o Venezuela? (TN 09/11/2026 'Exxon llega a un acuerdo preliminar para regresar a Venezuela'; petróleo bajo US$90 en infobae, TN y ámbito) / crudo argentino sep-26 972.154 b/d (SE, récord) = 80,3% de Venezuela 1,21 Mb/d (EIA STEO nov-26); 80,6% con la cifra del gobierno venezolano (1,206) y 84,5% con las fuentes secundarias de la OPEP (1,150); ene-26 110,6% (EIA 0,80; OPEP sec 0,83), dic-25 95,0%; Venezuela +51% ene-sep (EIA) contra Argentina +9,9%; serie anual EIA 1984-2025: 21-33% hasta 2018, 21,6% en 2013, 91,1% en 2020, 80,5% en 2022, 81,6% en 2025; la Argentina superó a Venezuela solo en jun-dic 2020 y ene-26",
+      "angulo": "Corrida de redacción del 10/11/2026 18:30, APTA. Hallazgo: con récord propio, la Argentina no achica la distancia con Venezuela; la pasó un mes (enero, bloqueo) y desde 2022 la proporción está clavada en ~80% porque los dos crecen igual. Camino: Argentina = estadística oficial SE recalculada + contraste EIA (1,2%); Venezuela con tres estimaciones (EIA, gobierno, fuentes secundarias OPEP) y ancla en el piso. OPEP no descargable (402/403): cifras vía Banca y Negocios y Finanzas Digital. Energy Institute no comparable (suma NGL). Scripts en _privado/ven/.",
+      "fecha": "2026-11-10",
+      "estado": "en_cola",
+      "id": "2026-11-10-argentina-petroleo-80-por-ciento-venezuela",
+      "archivo": "cola/2026-11-10-argentina-petroleo-80-por-ciento-venezuela.html"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 10/11/2026 18:30. Clarín y TN cargaron (python urllib). Hoy ya salieron IA (UCLA), plata exportada, vino, EMPRESAS (Edenor-Dock Sud y Naturgy BAN), MERCADOS (dólar tarjeta), MUNDO (cebada) y ECONOMÍA PROVINCIAL (deuda de Neuquén). Lista: (1) HALLAZGO, MUNDO: Argentina contra Venezuela en crudo tras el regreso de Exxon [TN; petróleo bajo US$90 en infobae, TN, ámbito]: SE + EIA + OPEP, APTA. (2) EMPRESAS (hoy ya hubo dos notas de la sección, no aplica el cupo): IEBA EEFF 30/09 (formulario de control), Agrometal 30/09 en cola 06/11, Mastellone HR 06/11 sin EEFF 9M26 en la CNV, Central Puerto presenta el 3T26 el 11-12/11 (sin documento), Luz de Tres Picos (reorganización interna), Banco de Valores-PPI publicada 06/11, BYMA, A3 y Macro recompras de rutina, Edenor HR 09/11 publicada hoy. (3) Bunge y GDM crean empresa de cultivos para biocombustibles [La Nación, Clarín]: sin monto ni documento de la CNV; biodiésel publicada 07/10. (4) Perú colocó US$4.500 M en el mercado [La Nación]: riesgo país publicado 29/10, 08 y 09/11; dolarización Perú en cola 09/11. (5) Paraguay y riesgo país seis veces menor [La Nación]: ídem. (6) RIGI y empleos por millón [infobae, Clarín, iProfesional, ámbito]: estudio privado; RIGI publicada 03/11. (7) suba de la soja por el informe del USDA [Clarín]: dato de mercado diario sin ángulo propio. (8) paro de subte del jueves [Cronista]: sin dato oficial de plata; subte publicada 31/10. (9) tarifas de luz bonaerenses, audiencia pública [ámbito]: luz PBA en cola 07/11. (10) créditos hipotecarios octubre [Clarín]: publicadas 16/10 y 02/11. (11) bazuka de dólares del Tesoro [Clarín, iProfesional]: descartada 09/11 y en cola 09/11. (12) visita del papa (carpa VIP, turismo, US$270 M) [todas]: sin documento; Luján publicada. (13) vans y furgones [infobae]: sin serie oficial por tipo a mano. Calendario: nada de INDEC/BCRA hoy (IMM e ISSP el 11/11, IPC y CBT el 12/11). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-10",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
     }
   ]
 }

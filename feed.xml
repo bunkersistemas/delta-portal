@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 17:06:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 18:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina rompe récords de petróleo, pero Venezuela volvió a sacarle ventaja: en septiembre extrajo el 80% de su crudo</title>
+      <link>https://coninteres.com/articulos/2026-11-10-argentina-petroleo-80-por-ciento-venezuela.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-10-argentina-petroleo-80-por-ciento-venezuela.html</guid>
+      <pubDate>Tue, 10 Nov 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>En septiembre la Argentina sacó 972.154 barriles de petróleo por día, el máximo de su historia, y aun así extrajo el 80% de lo que extrajo Venezuela: 1,21 millones, según el Departamento de Energía de EE.UU. En enero, con las exportaciones venezolanas bloqueadas, la Argentina la había pasado por un mes. Desde entonces Venezuela creció 51% y la Argentina, 10%. La proporción volvió a la de 2022, cuando la Argentina sacaba 40% menos petróleo.</description>
+      <ci:numero>80%</ci:numero>
+      <ci:numeroEtiqueta>crudo que extrajo la Argentina en septiembre de 2026 como proporción del de Venezuela; en enero, con Venezuela bloqueada, fue 111%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-argentina-petroleo-80-por-ciento-venezuela.png" length="69297" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-argentina-petroleo-80-por-ciento-venezuela.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Neuquén debe los mismos dólares que en 2019, pero sus ingresos se multiplicaron por 2,4: la deuda pasó de equivaler a cinco meses de recursos a unos dos</title>
       <link>https://coninteres.com/articulos/2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>meses desde octubre de 2024 en que, con servicios y bienes subiendo parecido en la Ciudad, la inflación nacional igualó o superó a la porteña</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-inflacion-portena-servicios-anticipa-indec.png" length="60927" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-inflacion-portena-servicios-anticipa-indec.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un préstamo personal cuesta el doble de interés que el crédito de un banco a una empresa, la proporción más alta desde 2005</title>
-      <link>https://coninteres.com/articulos/2026-11-08-prestamo-personal-doble-tasa-empresas-2005.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-08-prestamo-personal-doble-tasa-empresas-2005.html</guid>
-      <pubDate>Sun, 08 Nov 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En un año las tasas bajaron, pero sobre todo para las empresas. Entre enero y octubre de 2026, la tasa de un préstamo personal fue en promedio 2,04 veces la de un documento a sola firma, el crédito más común de las empresas: el promedio más alto desde 2005. Hace un año era 1,35 veces. En septiembre, según el BCRA, los bancos cobraron 62,7% anual por el primero y 31,6% por el segundo. Parte de la explicación está en la mora: en agosto estaba en situación irregular el 12,8% del crédito a las familias y el 3,8% del crédito a las empresas.</description>
-      <ci:numero>2,04 veces</ci:numero>
-      <ci:numeroEtiqueta>tasa de los préstamos personales sobre la de los documentos a sola firma de las empresas, promedio de enero a octubre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-prestamo-personal-doble-tasa-empresas-2005.png" length="63578" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-prestamo-personal-doble-tasa-empresas-2005.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

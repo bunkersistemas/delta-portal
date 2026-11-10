@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-10T17:06:14-03:00",
+    "actualizado": "2026-11-10T18:49:41-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-10-argentina-petroleo-80-por-ciento-venezuela",
+      "titulo": "La Argentina rompe récords de petróleo, pero Venezuela volvió a sacarle ventaja: en septiembre extrajo el 80% de su crudo",
+      "bajada": "En septiembre la Argentina sacó 972.154 barriles de petróleo por día, el máximo de su historia, y aun así extrajo el 80% de lo que extrajo Venezuela: 1,21 millones, según el Departamento de Energía de EE.UU. En enero, con las exportaciones venezolanas bloqueadas, la Argentina la había pasado por un mes. Desde entonces Venezuela creció 51% y la Argentina, 10%. La proporción volvió a la de 2022, cuando la Argentina sacaba 40% menos petróleo.",
+      "titulo_busqueda": "¿Produce más petróleo la Argentina o Venezuela?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "80%",
+      "numero_label": "crudo que extrajo la Argentina en septiembre de 2026 como proporción del de Venezuela; en enero, con Venezuela bloqueada, fue 111%",
+      "fecha": "2026-11-10",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-10-argentina-petroleo-80-por-ciento-venezuela.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SE Capitulo IV por pozo 2026 (Last-Modified 10/11/2026): sep-26 82.553 filas, 4.636.806,3 m3 x 6,28981 / 30 = 972.154 b/d (record; ago-26 941.839; pico 1998 858.304); VM 698.469; sep-25 843.343 (+15,3%); ene-26 884.706. Venezuela sep-26: EIA STEO nov-2026 tabla 3d copr_ve 1,21 Mb/d -> 80,34%; gobierno venezolano (comunicacion directa OPEP, MOMR oct-26 via Banca y Negocios) 1,206 -> 80,61%; fuentes secundarias OPEP 1,150 -> 84,54%. Ene-26: EIA 0,80 (110,6%), OPEP sec 0,830, gobierno 0,924 (Finanzas Digital 11/02/2026). Dic-25 EIA 0,925 (95,0%), OPEP sec 0,917, gobierno 1,12. Contraste Argentina: EIA INTL 57-1-ARG 2025 794,0 vs SE 803,4 (+1,2%); jun-26 901,7 vs 913,1. Serie anual EIA INTL 1984-2025: 2013 21,6%, 2020 91,1%, 2022 80,5%, 2025 81,6%; meses con AR>VE: jun-dic 2020 y ene-26. Bloqueo: STEO ene-2026. Scripts en _privado/ven/."
+    },
     {
       "id": "2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias",
       "titulo": "Neuquén debe los mismos dólares que en 2019, pero sus ingresos se multiplicaron por 2,4: la deuda pasó de equivaler a cinco meses de recursos a unos dos",
