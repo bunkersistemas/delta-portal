@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 01:05:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 02:56:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La plata que exporta la Argentina dejó US$726 millones en ocho meses, 64% más, con casi las mismas toneladas: la diferencia es el precio</title>
+      <link>https://coninteres.com/articulos/2026-11-10-plata-exportada-726-millones-precio-doble.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-10-plata-exportada-726-millones-precio-doble.html</guid>
+      <pubDate>Tue, 10 Nov 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La plata que vende la Argentina dejó más dólares por precio, no por producción. Entre enero y agosto se exportaron US$726 millones, según la Secretaría de Minería, 64,1% más que un año antes. En el concentrado, que explica casi toda esa plata, se vendieron casi las mismas toneladas que en 2025 y se cobró 84,8% más: la onza promedió US$74,6, más del doble que un año antes. El INDEC oculta a quién se le vende; los compradores lo declaran: en 2025, China se llevó el 60%.</description>
+      <ci:numero>US$726 M</ci:numero>
+      <ci:numeroEtiqueta>plata exportada por la Argentina entre enero y agosto de 2026, 64,1% más que un año antes</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-plata-exportada-726-millones-precio-doble.png" length="73714" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-plata-exportada-726-millones-precio-doble.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El desempleo de los recién recibidos en EE.UU. no saltó con la IA: 7,3% en el verano de 2026, contra 7,2% un año antes, según un estudio de UCLA</title>
       <link>https://coninteres.com/articulos/2026-11-10-ia-desempleo-recien-recibidos-ucla.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>el fondo de garantía de los depósitos como parte de todo lo depositado por el sector privado en los bancos, septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-fondo-garantia-depositos-sedesa-62-de-68-entidades.png" length="63771" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-fondo-garantia-depositos-sedesa-62-de-68-entidades.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La fábrica del Chapadur ganó $15.356 millones vendiendo campos y exportó placas por debajo de su costo</title>
-      <link>https://coninteres.com/articulos/2026-11-07-fiplasto-chapadur-campos-timbues.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-fiplasto-chapadur-campos-timbues.html</guid>
-      <pubDate>Sat, 07 Nov 2026 13:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Fiplasto, la empresa de Ramallo que fabrica el Chapadur, exportó 146% más placas en su ejercicio a junio de 2026, pero lo que vendió afuera le dejó $9.928 millones y le costó $16.805 millones. Lo que sostuvo las cuentas fue la venta de campos: $15.356 millones de ganancia. Aun así, cerró el ejercicio con una pérdida de $9.979 millones. Ahora vende un campo en Timbúes, con potencial portuario, a US$58.271 la hectárea, cinco veces lo que cobró en julio por uno en Andino.</description>
-      <ci:numero>$15.356 M</ci:numero>
-      <ci:numeroEtiqueta>ganancia de Fiplasto por vender y ceder campos entre julio de 2025 y junio de 2026, en pesos de junio de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-fiplasto-chapadur-campos-timbues.png" length="70194" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-fiplasto-chapadur-campos-timbues.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

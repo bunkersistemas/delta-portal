@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-09",
-  "pregunta": "En 2026, un plazo fijo en pesos renovado cada mes le ganó 13,4% al dólar. Pero entre enero y septiembre, el mismo plazo fijo perdió 4,7% contra los precios. ¿Cómo pueden ser ciertas las dos cosas?",
+  "fecha": "2026-11-10",
+  "pregunta": "Entre julio de 2025 y junio de 2026, los billetes en circulación más los pesos que los bancos guardan en el Banco Central sumaron el 4,2% del PBI, menos de la mitad que el promedio de 2004-2017 (8,7%). ¿Qué dice ese número?",
   "opciones": [
-    "Porque en esos meses los precios en pesos subieron más que el dólar",
-    "Porque el plazo fijo paga impuestos y comprar dólares no",
-    "No pueden ser ciertas: si le ganás al dólar, le ganás a la inflación"
+    "Que la economía usa menos pesos en proporción a lo que produce",
+    "Que el Banco Central imprimió menos billetes que en 2004 en cantidad",
+    "Que la inflación de 2026 fue más alta que la de 2004-2017"
   ],
   "correcta": 0,
-  "explicacion": "Ganarle al dólar y ganarle a la inflación son dos carreras distintas. El plazo fijo compite contra el precio del dólar en la primera y contra el precio de la canasta en la segunda. En 2026 el dólar oficial subió menos que los precios, así que un plazo fijo pudo rendir más que el dólar y menos que la inflación al mismo tiempo. Cuando pasa eso, la Argentina se encarece en dólares: con los mismos pesos se compran más dólares, pero menos cosas. Por eso conviene mirar las dos comparaciones antes de decir que una colocación «rindió».",
-  "nota": "articulos/2026-11-08-plazo-fijo-gano-dolar-2026-casi-todo-antes-de-abril.html",
+  "explicacion": "La base monetaria en porcentaje del PBI compara dos cosas medidas en pesos del mismo momento: el dinero del Banco Central y todo lo que produce la economía. Por eso no dice cuántos billetes hay, que hoy son muchos más que en 2004 porque los precios subieron, sino cuántos pesos se usan por cada peso producido. Cuando la gente y los bancos prefieren no tener pesos, por la inflación o porque rinden más en otro lado, la base se achica frente al PBI. Un número bajo puede leerse como prudencia del Banco Central o como poca demanda de pesos: la cifra sola no dice cuál de las dos.",
+  "nota": "articulos/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.html",
   "leccion": ""
 }
