@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-10T19:27:43-03:00",
+    "actualizado": "2026-11-10T20:44:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-10-recaudacion-proyeccion-2026-noviembre-diciembre",
+      "titulo": "Para cumplir la recaudación que proyectó el Gobierno, noviembre y diciembre tienen que crecer 38,3%: en 2026 solo septiembre rozó ese ritmo",
+      "bajada": "Para llegar a los $240,4 billones que el Gobierno proyectó en septiembre para 2026, noviembre y diciembre tienen que traer $44,4 billones: 38,3% más que los mismos meses de 2025, un ritmo que en el año solo rozó septiembre. Hasta octubre entraron $196,0 billones, 29,8% más que un año antes. Si cada impuesto sigue al ritmo de enero-octubre, el año cierra unos $2,4 billones abajo, y casi todo el faltante está en el IVA, que quedó debajo de la inflación en cada uno de los nueve meses con dato, y en los aportes a la seguridad social.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "38,3%",
+      "numero_label": "suba que necesita la recaudación de noviembre y diciembre de 2026, contra los mismos meses de 2025, para llegar a la proyección oficial del año",
+      "fecha": "2026-11-10",
+      "hora": "21:30",
+      "archivo": "articulos/2026-11-10-recaudacion-proyeccion-2026-noviembre-diciembre.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Proyección 2026 $240.446.730,0 M (mensaje Presupuesto 2027, p. 39) menos ene-oct 2026 $196.013.106,1 M (Ingresos Públicos, informe oct-26 y cuadro 2026311.xlsx; +29,82%) = $44.433.623,9 M; nov-dic 2025 $15.598.231,9 + $16.527.267,8 M (2025_8.xlsx, total anual $183.109.217,1 M) -> 1,3831. Septiembre 2026 +38,29%. Contraste: IARAF (Perfil 18/09) 5,4% real sep-dic; IERAL (Cronista) 6% real nov-dic; propio 3,7%-6,3% real con inflación mensual 2,5%-1,5%."
+    },
     {
       "id": "2026-11-10-cuanto-ganan-empresas-internet-cotizan",
       "titulo": "¿Cuánto ganan, de cada $100 que facturan, las empresas de internet que cotizan en la Argentina?",
