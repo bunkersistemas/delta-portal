@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-10T10:30:13-03:00",
+    "actualizado": "2026-11-10T12:52:07-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-10-cebada-china-australia-41-a-6-por-ciento",
+      "titulo": "La Argentina llegó a venderle a China el 41% de la cebada que importaba; con Australia de vuelta, en 2025 fue el 6%",
+      "bajada": "Entre 2020 y 2023 China le cobró a la cebada australiana un recargo de 80,5%, y la Argentina ocupó el lugar: en 2022 fue su primer proveedor, con el 41,2% de lo que compró. Desde que China levantó el castigo, Australia volvió a dominar y la parte argentina bajó a 6,0% en 2025. Las ventas argentinas de cebada a China cayeron 78% en dos años, pero la cebada no dejó de venderse: se fue a otros destinos, como Arabia Saudita y Brasil.",
+      "titulo_busqueda": "¿Por qué la Argentina le vende menos cebada a China?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "6%",
+      "numero_label": "parte argentina en la cebada que importó China en 2025; en 2022, con Australia castigada por aranceles, fue 41,2%",
+      "fecha": "2026-11-10",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-10-cebada-china-australia-41-a-6-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "UN Comtrade, China (156) importaciones HS 1003 por origen: 2025 total US$2.687,3 M, Argentina 161,1 (6,0%, 638,2 kt), Australia 1.548,0 (57,6%, 5.923 kt); 2022 total 2.052,3, Argentina 845,1 (41,2%, 2.389 kt), Canadá 31,1%, Francia 17,5%, Australia 0. Serie 2015-2025 en _privado/cebada/cuota.json. Contraste INDEC exponm 1003 destino 310: 2025 612,5 kt / US$128,02 M FOB (China +4,2% kt); 2021-2025 INDEC 7.881 kt vs China 8.579 (+8,8%); 2019-2020 sin destino 310 en INDEC (China declaró 66 y 392 kt). Australia (36) X a China: 2020 1.468 kt, 2021 y 2022 sin registro, 2025 6.523 kt. Aranceles: OMC WT/DS598/R (avisos MOFCOM 14 y 15 del 18/05/2020; MAS 11/08/2023); 73,6% + 6,9% y fin el 05/08/2023 según China Briefing 04/08/2023. INDEC China 2023 580,37 -> 2025 128,02 (-77,9%). Scripts _privado/cebada/ (serie.py, china.py, cuota.py, australia.py, compradores.py, calc.py)."
+    },
     {
       "id": "2026-11-09-papa-lujan-cuanta-gente-cuanta-plata",
       "titulo": "¿Cuántos fieles espera Luján para la misa del papa León XIV y cómo mueve eso la economía de la ciudad?",

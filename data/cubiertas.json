@@ -8356,6 +8356,19 @@
       "fecha": "2026-11-10",
       "estado": "descartada",
       "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánta cebada le vende la Argentina a China? (Clarín 10/11/2026 'Cebada argentina en el país más poblado del mundo: Quilmes exportó US$ 370 millones... y se expande a India') / UN Comtrade China HS 1003: parte argentina 1,0% (2019), 41,2% (2022, primer proveedor), 6,0% (2025); Australia 0% en 2021-2022 por los aranceles de 80,5% (mayo 2020-agosto 2023), 57,6% en 2025; INDEC: a China US$580,4 M (68,6%) en 2023 y US$128,0 M (16,3%) en 2025; India 138,9 kt de cebada argentina en 2025",
+      "angulo": "Corrida de redacción del 10/11/2026 12:30. Hallazgo: el auge de la cebada argentina en China fue el hueco que dejó el castigo a Australia, y se cerró cuando se levantó. Camino: estadística oficial (aduana china vía UN Comtrade) recalculada + contraste INDEC (kilos) y declaraciones de Australia. APTA.",
+      "fecha": "2026-11-10",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 10/11/2026 12:30. Clarín y TN cargaron (con python urllib). Hoy ya salieron IA (UCLA), plata exportada, vino, EMPRESAS (Edenor-Dock Sud) y MERCADOS (dólar tarjeta). Lista: (1) HALLAZGO, MUNDO (sección que faltaba hoy): cebada a China y el castigo a Australia, UN Comtrade + INDEC + OMC [Clarín, Quilmes e India]: APTA. (2) EMPRESAS (hoy ya hubo nota de la sección): Mastellone 9M26 sin EEFF completos en la CNV; IEBA EEFF 30/09 (formulario de control, la luz ya tuvo tres notas de Edenor esta semana); Central Puerto presenta el 3T26 el 11/11, sin documento todavía; Luz de Tres Picos (reorganización interna con PCR); Banco de Valores-PPI publicada 06/11; BYMA, A3 y Macro recompras de rutina. (3) créditos hipotecarios: mejor octubre en un año [Clarín]: serie BCRA ya publicada 16/10 y 02/11, sin ángulo nuevo. (4) logística = 30% de los costos de la industria láctea [Clarín]: cifra de una cámara sin serie oficial. (5) carne de feedlot a China [Clarín]: publicada 31/10. (6) RIGI y empleos por millón [infobae, iProfesional, Clarín]: estudio privado, RIGI publicada 03/11. (7) riesgo país bajo 900 [infobae, La Nación, ámbito, TN, Clarín]: publicadas 29/10, 08 y 09/11. (8) represas de Santa Cruz [TN]: en cola 06/11. (9) visita del papa y carpa VIP en Palermo [Clarín, ámbito]: costo descartado sin documento, Luján en cola. (10) YPF subasta de caños [Clarín, La Nación]: en cola 08/11. (11) propinas [Clarín]: sin fuente oficial. (12) CAME ventas pyme [TN]: sin serie cruda. (13) Edenor y estaciones Shell [Clarín]: publicada hoy. Calendario: nada de INDEC/BCRA hoy (IMM e ISSP el 11/11, IPC y CBT el 12/11). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-10",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
     }
   ]
 }
