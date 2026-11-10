@@ -8369,6 +8369,19 @@
       "fecha": "2026-11-10",
       "estado": "descartada",
       "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "EMPRESAS: Naturgy BAN, dividendo anticipado de $35.900 M (HR CNV 10/11/2026) y ganancia 9M26 $117.951 M (Art 63, 10/11/2026) / dividendos aprobados en 2026 $206.272 M = 1,75 veces la ganancia de nueve meses; 9M26 -41,9% real contra 9M25 (IPC INDEC); payout 95% de 2024 y 2025; nueve dividendos desde nov-2024 por $320.654 M nominales ($383.822 M de sep-26); 70% al grupo Naturgy Energy Group",
+      "fecha": "2026-11-10",
+      "estado": "en_cola",
+      "id": "2026-11-10-naturgy-ban-dividendos-2026-ganancia",
+      "angulo": "serie propia de dividendos contra ganancias desde documentos de la CNV, en pesos de septiembre de 2026; explicacion de la caida desde la reseña del 1S26; 3T26 sin explicacion de la empresa todavia (EEFF 30/09 no presentados)"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 10/11/2026 14:30. Hoy ya salieron IA (UCLA), plata exportada, vino, EMPRESAS (Edenor-Dock Sud), MERCADOS (dólar tarjeta) y MUNDO (cebada a China). Lista: (1) HALLAZGO EMPRESAS: Naturgy BAN dividendo anticipado $35.900 M (HR CNV 10/11, 14:15, nuevo desde la corrida de las 12:30): APTA. (2) RIGI y empleos por millón [infobae, iProfesional, Clarín]: estudio privado sin documento oficial con empleo por proyecto; RIGI publicada 03/11. (3) riesgo país bajo 900 [todas]: publicadas 29/10, 08 y 09/11. (4) Mastellone 9M26: EEFF al 30/09 todavía no presentados en la CNV. (5) IEBA EEFF 30/09: ya descartada a las 12:30. (6) recaudación y meta del Presupuesto [La Nación]: impuestos publicada 05/11. (7) deuda y perfil crediticio de Neuquén [La Nación]: requiere stock de deuda provincial de dos fuentes, quedó para otra corrida. (8) créditos hipotecarios octubre [Clarín]: serie ya publicada. (9) petróleo bajo US$90 e ingresos de petroleras [infobae, TN]: cubierto varias veces. (10) Black Hawk [iProfesional]: descartada 29/09 sin documento de precio. (11) visita del papa (dólar y carne en 1987 [iProfesional], sueldo de León XIV [ámbito]): sin documento oficial comparable. (12) ventas pyme CAME [TN]: fuente privada única.",
+      "fecha": "2026-11-10",
+      "estado": "descartada",
+      "motivo_descarte": "candidatas no elegidas en la corrida de las 14:30"
     }
   ]
 }

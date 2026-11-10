@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-10T12:30",
+  "generado": "2026-11-10T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3590601",
+      "fuente": "CNV",
+      "fecha": "2026-11-10T14:15",
+      "entidad": "NATURGY BAN S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - NBAN- DISTRIBUCIÓN DE DIVIDENDOS ANTICIPADOS EN EFECTIVO",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/06BFD6E9-0921-40A2-9B48-86719DB3BF6E"
+    },
     {
       "id": "cnv-3590533",
       "fuente": "CNV",

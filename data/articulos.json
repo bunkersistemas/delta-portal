@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-10T12:52:07-03:00",
+    "actualizado": "2026-11-10T14:44:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-10-naturgy-ban-dividendos-2026-ganancia",
+      "titulo": "Naturgy BAN aprobó $206.272 millones de dividendos en 2026, más que lo que ganó en nueve meses: su ganancia cayó 42% en pesos de hoy",
+      "bajada": "La ganancia de Naturgy BAN cayó 41,9% contra la de un año antes en pesos de hoy, y aun así en 2026 la empresa ya dispuso repartir más de lo que ganó. La distribuidora de gas del norte y el oeste del conurbano aprobó hoy un dividendo anticipado de $35.900 millones; con ese, los repartos del año suman $206.272 millones, contra $117.951 millones de ganancia entre enero y septiembre. De lo que ganó en 2024 y en 2025 repartió el 95%: todo lo que no fue a la reserva legal.",
+      "titulo_busqueda": "¿Qué parte de lo que gana reparte Naturgy en dividendos?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$206.272 M",
+      "numero_label": "dividendos en efectivo que Naturgy BAN aprobó repartir en 2026, en cuatro decisiones de abril a noviembre",
+      "fecha": "2026-11-10",
+      "hora": "15:30",
+      "archivo": "articulos/2026-11-10-naturgy-ban-dividendos-2026-ganancia.html",
+      "verificacion": "verificada",
+      "fuentes": 14,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Suma de montos nominales ante la CNV: asamblea 28/04/2026 $41.587.200.000 (form 4370f2a3); directorio 29/06 $80.000.000.000 (desafectacion parcial reserva, form b8345d98); 10/08 $48.784.261.135 (desafectacion total, form 997c7bd0); 10/11 anticipado $35.900.000.000 (HR 06BFD6E9). Cruce: propuesta 2025 (Art 62 HR 65097346) $38.000 M dic-25 x IPC mar26/dic25 = 41.588; reserva $110.224,5 M x IPC jun26/dic25 = 128.793 = 80.000 + 48.784 (saldo reserva al 30/06/2026 en EEFF 3caadc61). Ganancia 9M26 $117.951.060 miles (Art 63 2425ae02) vs 9M25 $152.348.965 miles x 12514,1508/9384,0922 = 203.165 => -41,9%; metodo contrastado: 1S25 52.018 x 11826,41/8855,57 = 69.469 vs 69.470 reseña 1S26. Payout 2024 y 2025 = 95,0% (5% reserva legal)."
+    },
     {
       "id": "2026-11-10-cebada-china-australia-41-a-6-por-ciento",
       "titulo": "La Argentina llegó a venderle a China el 41% de la cebada que importaba; con Australia de vuelta, en 2025 fue el 6%",
