@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 07:10:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 08:50:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El dólar tarjeta pasó los $2.000, pero en pesos de hoy está al nivel de enero de 2017, cuando no tenía recargo</title>
+      <link>https://coninteres.com/articulos/2026-11-10-dolar-tarjeta-2000-pesos-de-hoy-2017.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-10-dolar-tarjeta-2000-pesos-de-hoy-2017.html</guid>
+      <pubDate>Tue, 10 Nov 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>El dólar para pagar gastos con tarjeta en el exterior cuesta $2.041, el valor más alto en pesos de su historia: es el Banco Nación a $1.570 más la percepción del 30%. Pero los precios subieron más. En septiembre, el último mes con inflación medida, promedió $1.995: lo mismo, ajustado por el IPC, que en enero de 2017, cuando no pagaba ningún recargo. Es menos de la mitad que en octubre de 2020, su punto más caro, y salvo mayo de este año no estuvo tan barato desde abril de 2018.</description>
+      <ci:numero>$2.041</ci:numero>
+      <ci:numeroEtiqueta>dólar tarjeta con el Banco Nación a $1.570 y la percepción del 30%: el más alto en pesos de su historia, pero al nivel real de enero de 2017</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-dolar-tarjeta-2000-pesos-de-hoy-2017.png" length="67659" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-dolar-tarjeta-2000-pesos-de-hoy-2017.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Edenor compró el 20% de la refinería de Dock Sud, que procesa el 15,3% del crudo del país y fue la única de las seis grandes que refinó menos este año</title>
       <link>https://coninteres.com/articulos/2026-11-10-edenor-refineria-dock-sud-20-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuánto más paga un hogar sin subsidio de EDES (sur bonaerense) que uno de Edenor por 300 kWh de luz, sin impuestos, septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-luz-provincia-buenos-aires-74-por-ciento-edenor.png" length="67950" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-luz-provincia-buenos-aires-74-por-ciento-edenor.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los barcos extranjeros declaran pescar en el Atlántico Sur el 56% de lo que pesca la Argentina, no cuatro veces más; en el calamar, el doble</title>
-      <link>https://coninteres.com/articulos/2026-11-07-pesca-extranjera-atlantico-sur-56-por-ciento-calamar-doble.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-pesca-extranjera-atlantico-sur-56-por-ciento-calamar-doble.html</guid>
-      <pubDate>Sat, 07 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Circula que los barcos extranjeros sacan del Atlántico Sur hasta cuatro veces lo que pesca la Argentina. Lo que esos países le declararon a la FAO dice otra cosa: en 2024, los barcos de España, Taiwán, China, Corea y otros países de fuera de la región informaron 491.272 toneladas en el Atlántico Sudoccidental, el 56% de las 870.790 que pescó la Argentina. En el total, eso no pasó nunca en 75 años de datos. En el calamar Illex, sí: en 2024 sacaron el doble que la flota argentina, y en 2015, casi siete veces.</description>
-      <ci:numero>56%</ci:numero>
-      <ci:numeroEtiqueta>pesca que declararon a la FAO los barcos de países de fuera de la región en el Atlántico Sudoccidental en 2024, frente a la de la flota argentina</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-pesca-extranjera-atlantico-sur-56-por-ciento-calamar-doble.png" length="71572" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-pesca-extranjera-atlantico-sur-56-por-ciento-calamar-doble.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

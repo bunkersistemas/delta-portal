@@ -8342,6 +8342,20 @@
       "angulo": "Corrida de redacción del 10/11/2026 06:30. RETOMA la candidata descartada a las 04:30 ('sin monto'): el monto sigue sin publicarse, pero la cifra ancla no sale del hecho relevante sino de la estadística oficial de refinación, que da el hallazgo (la refinería en la que entra Edenor fue la única grande que procesó menos en el año de mayor refinación desde 2010). Camino: estadística oficial (SE) recalculada desde los registros crudos + contraste INDEC UCII refinación (+9,4% vs +9,5%) y parada de Raízen de sep-2025 visible en la base. APTA.",
       "fecha": "2026-11-10",
       "estado": "en_cola"
+    },
+    {
+      "tema": "dólar tarjeta sobre $2.000 (La Nación 09/11/2026 'Un recargo heredado del kirchnerismo: el dólar tarjeta ya supera los $2000') / $2.041 = BNA $1.570 x 1,30 (RG 5617); serie propia 2017-2026 con el recargo vigente cada día según el Boletín Oficial, deflactada por IPC INDEC: sep-26 $1.995 = ene-17 $1.990 (sin recargo), 41,8% del pico de oct-20 ($4.773), el más bajo desde abr-18 salvo may-26; oficial sin recargo en su mínimo desde 2017; BCRA: ~70% de los gastos con tarjeta y viajes se pagan con dólares propios",
+      "angulo": "Corrida de redacción del 10/11/2026 08:30. RETOMA el tema descartado a las 04:30 como 'molde agotado': no es 'el precio subió Y%', sino una serie de casi diez años reconstruida norma por norma (Ley 27.541, RG 3819, 4815, 5232, 5430, 5450, 5463, 5617) que da un resultado contra la intuición (récord nominal, nivel real de 2017 sin recargo). Camino: cifra ancla con dos fuentes (BNA x RG 5617 = ArgentinaDatos) + cálculo propio sobre series oficiales (BCRA var 4, IPC INDEC) con contraste independiente (ArgentinaDatos/BNA, diferencias explicadas). APTA.",
+      "fecha": "2026-11-10",
+      "estado": "publicada",
+      "articulo_id": "2026-11-10-dolar-tarjeta-2000-pesos-de-hoy-2017"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 10/11/2026 08:30. Clarín y TN no cargaron (WebFetch bloqueado). Hoy ya salieron IA (UCLA), plata exportada, vino y EMPRESAS (Edenor-Dock Sud). Lista: (1) HALLAZGO: dólar tarjeta real 2017-2026 [La Nación; infobae y Página12 con el dólar del día]: APTA. (2) EMPRESAS (hoy ya hubo nota de la sección): Mastellone 9M26 sigue sin EEFF en la CNV (cnv_lista 30547242331: solo HR y actas del 06/11); IEBA EEFF 30/09 (formulario de control, la luz ya tuvo tres notas de Edenor esta semana); Luz de Tres Picos (reorganización interna con PCR); Central Puerto presenta el 3T26 el 11/11; BYMA y A3 recompras de rutina. (3) riesgo país bajo 900 y Paraguay [infobae, La Nación, ámbito]: publicadas 29/10, 08 y 09/11. (4) visita del papa en Córdoba y Palermo [Cronista, ámbito, iProfesional]: Luján en cola (pedido 115), costo descartado sin documento. (5) petroleras +US$5.100 M [infobae]: publicada 05/10, mismo molde que la plata de hoy. (6) RIGI y empleos por millón [iProfesional]: RIGI dos años publicada 03/11. (7) Southern Energy GNL y caños de YPF [iProfesional, La Nación]: en cola 08/11. (8) CAME ventas pyme -1,6% [ámbito]: sin serie cruda. (9) pobreza 3T estimada [ámbito]: estimación privada, pobreza por hogares en cola. (10) adultos mayores 2040 [ámbito]: publicada 08/11. (11) Black Hawk [iProfesional]: descartada 29/09, sin documento argentino. (12) FAL y previsión [Página12]: publicada 24/09, sin estimación oficial del costo. Calendario: nada de INDEC/BCRA hoy (IMM e ISSP el 11/11, IPC y CBT el 12/11). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-10",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
     }
   ]
 }
