@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 14:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 10 Nov 2026 17:06:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Neuquén debe los mismos dólares que en 2019, pero sus ingresos se multiplicaron por 2,4: la deuda pasó de equivaler a cinco meses de recursos a unos dos</title>
+      <link>https://coninteres.com/articulos/2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias.html</guid>
+      <pubDate>Tue, 10 Nov 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>S&amp;P le subió la nota a Neuquén, y el motivo no es que la provincia deba menos dólares. Con el bono de US$500 millones que colocó en julio, su deuda llegó a US$1.197 millones en septiembre, prácticamente lo mismo que en junio de 2019. Lo que cambió es cuánto cobra: sus ingresos corrientes del primer semestre, medidos en dólares, son 2,4 veces los de 2019, y las regalías del petróleo y el gas se multiplicaron por 3,5. Para todas las provincias juntas, los ingresos crecieron 1,46 veces.</description>
+      <ci:numero>US$1.197 M</ci:numero>
+      <ci:numeroEtiqueta>deuda pública de Neuquén a septiembre de 2026, con el bono de julio; en junio de 2019 era de US$1.198 millones</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias.png" length="74631" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Naturgy BAN aprobó $206.272 millones de dividendos en 2026, más que lo que ganó en nueve meses: su ganancia cayó 42% en pesos de hoy</title>
       <link>https://coninteres.com/articulos/2026-11-10-naturgy-ban-dividendos-2026-ganancia.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>tasa de los préstamos personales sobre la de los documentos a sola firma de las empresas, promedio de enero a octubre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-prestamo-personal-doble-tasa-empresas-2005.png" length="63578" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-prestamo-personal-doble-tasa-empresas-2005.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las grandes empresas pagaron la electricidad del invierno 82% más cara que en 2025, aunque en agosto se quemó menos combustible</title>
-      <link>https://coninteres.com/articulos/2026-11-08-grandes-usuarios-electricidad-invierno-82-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-08-grandes-usuarios-electricidad-invierno-82-por-ciento.html</guid>
-      <pubDate>Sun, 08 Nov 2026 03:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Las empresas que compran su electricidad directo en el mercado mayorista pagaron entre mayo y agosto un promedio de US$163,9 por MWh, contra US$90,2 un año antes, según CAMMESA. No fue por quemar más combustible: en agosto las térmicas generaron 13% menos y el precio igual subió 73%. Lo que cambió fue cómo se calcula el precio. En junio llegó a US$189,1, el valor más alto desde 2022 y 69% más que lo que costó la energía reservada a los hogares. Por la cuenta de Con Interés, el invierno les costó unos US$650 millones más.</description>
-      <ci:numero>+82%</ci:numero>
-      <ci:numeroEtiqueta>suba del precio de la electricidad para los grandes usuarios del mercado mayorista, mayo a agosto de 2026 contra 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-grandes-usuarios-electricidad-invierno-82-por-ciento.png" length="70045" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-grandes-usuarios-electricidad-invierno-82-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

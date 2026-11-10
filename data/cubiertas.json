@@ -8382,6 +8382,20 @@
       "fecha": "2026-11-10",
       "estado": "descartada",
       "motivo_descarte": "candidatas no elegidas en la corrida de las 14:30"
+    },
+    {
+      "tema": "¿cuánto debe Neuquén y por qué S&P le subió la nota? (La Nación 10/11/2026 'Efecto Vaca Muerta: S&P elevó el perfil crediticio de Neuquén'; neuqueninforma 05/11/2026) / deuda sep-26 US$1.197 M (con bono de US$500 M de julio al 7,35%) = jun-19 US$1.198 M (Subsecretaría de Coordinación Fiscal Provincial); ingresos corrientes 1S en dólares x2,4 desde 2019 (todas las provincias x1,46), regalías x3,5 (35,0%); deuda en meses de ingresos corrientes: 5,0 (jun-19), 6,3 (jun-20), 1,3 (jun-26), ~2,2 con el bono (estimado); ranking jun-26 14.º de 23, con bono 8.º",
+      "angulo": "Corrida de redacción del 10/11/2026 16:30, APTA. RETOMA la candidata frenada el 06/11/2026 08:30 (sitio de la DNAP con certificado vencido y cifras de prensa que no coincidían): el sitio argentina.gob.ar de la Subsecretaría ya responde y su serie da US$766 M al 1T26 y US$694,8 M al 30/06/2026. Hallazgo: contra el relato de desendeudamiento, Neuquén debe en dólares lo mismo que en 2019; lo que mejoró es la capacidad de pago (ingresos y regalías). Camino: dos fuentes oficiales independientes (provincia y Nación, reconstrucción a 0,2%) + cálculo propio con serie 2016-2026 de las 24 jurisdicciones. Scripts en _privado/deuda/, descargas en _privado/deuda_dl/.",
+      "fecha": "2026-11-10",
+      "estado": "publicada",
+      "articulo_id": "2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 10/11/2026 16:30. Clarín y TN cargaron (python urllib). Hoy ya salieron IA (UCLA), plata exportada, vino, EMPRESAS (Edenor-Dock Sud y Naturgy BAN), MERCADOS (dólar tarjeta) y MUNDO (cebada); faltaba ECONOMÍA PROVINCIAL. Lista: (1) HALLAZGO, ECONOMÍA PROVINCIAL: deuda de Neuquén contra sus ingresos tras la suba de S&P [La Nación; retoma la frenada del 06/11]: APTA. (2) EMPRESAS (hoy ya hubo dos notas de la sección): IEBA EEFF 30/09 (formulario de control), Mastellone 9M26 sin EEFF en la CNV, Central Puerto presenta el 3T26 el 11-12/11 (sin documento todavía), Luz de Tres Picos (reorganización interna), BYMA, A3 y Macro recompras de rutina. (3) control previo de fusiones de la Ley 27.442 desde el lunes [La Nación]: sin estadística oficial descargable de plazos ni casos de la autoridad de competencia; retomable. (4) precios de referencia de inmuebles de una textil en quiebra [La Nación]: tasación judicial sin serie. (5) Malvinas ante el Tribunal del Mar [Cronista]: Sea Lion en cola 07/11. (6) RIGI y empleos por millón [infobae, Clarín, iProfesional]: estudio privado; RIGI publicada 03/11. (7) riesgo país [todas]: publicadas 29/10, 08 y 09/11. (8) inflación de EE.UU. de octubre y petróleo bajo US$90 [ámbito, infobae, TN]: sin ángulo argentino propio; el IPC local sale el 12/11. (9) GTA VI y sus reservas [La Nación]: sin dato oficial argentino. (10) visita del papa (costos, turismo) [todas]: sin documento; Luján publicada. (11) Huawei y tecnología china [La Nación]: en cola 07/11. (12) Papelera del Sur [iProfesional]: publicada 05/11. (13) pobreza 3T estimada [ámbito] y ventas pyme CAME [TN]: fuentes privadas únicas. Calendario: nada de INDEC/BCRA hoy (IMM e ISSP el 11/11, IPC y CBT el 12/11). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-10",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
     }
   ]
 }

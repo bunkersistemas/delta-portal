@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-10T14:44:36-03:00",
+    "actualizado": "2026-11-10T17:06:14-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias",
+      "titulo": "Neuquén debe los mismos dólares que en 2019, pero sus ingresos se multiplicaron por 2,4: la deuda pasó de equivaler a cinco meses de recursos a unos dos",
+      "bajada": "S&P le subió la nota a Neuquén, y el motivo no es que la provincia deba menos dólares. Con el bono de US$500 millones que colocó en julio, su deuda llegó a US$1.197 millones en septiembre, prácticamente lo mismo que en junio de 2019. Lo que cambió es cuánto cobra: sus ingresos corrientes del primer semestre, medidos en dólares, son 2,4 veces los de 2019, y las regalías del petróleo y el gas se multiplicaron por 3,5. Para todas las provincias juntas, los ingresos crecieron 1,46 veces.",
+      "titulo_busqueda": "¿Por qué S&P le subió la calificación a Neuquén y cuánta deuda tiene?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "US$1.197 M",
+      "numero_label": "deuda pública de Neuquén a septiembre de 2026, con el bono de julio; en junio de 2019 era de US$1.198 millones",
+      "fecha": "2026-11-10",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Gobierno de Neuquen (neuqueninforma 05/11/2026): sep-26 US$1.197 M = 650 heredada + 500 bono jul-26 (7,35%) + 36,5 org. internacionales + 10,5 bienes de capital. Reconstruccion Nacion: Subsecretaria de Coordinacion Fiscal Provincial stock 30/06/2026 Neuquen $1.030.357 M (sin flotante) / A3500 30/06/2026 1.483,0198 = US$694,8 M + 500 = 1.194,8 (-0,2%). Jun-19: $50.864 M / 42,4483 = US$1.198,3 M. Ingresos corrientes 1S (ejecuciones APNF trim II) / A3500 promedio diario del semestre: 2019 1.467,2; 2026 3.463,9 (x2,36); total provincias 37.768 -> 55.079 (x1,46). Regalias 343,1 -> 1.213,8 (x3,54; 35,0% de ing. corr., S&P ~35% segun La Nacion). Meses = stock / (ing. corr. 1S / 6), en pesos: 2019 5,02; 2020 6,33; 2026 1,26; total 2026 2,77; con bono (500 x 1.490,8431 del 30/07) 2,17 (estimado; con 1.197 / ing USD = 2,07). Ranking jun-26 14 de 23; con bono 8. Dic-23: DNAP US$1.142,5 vs provincia 1.263 (corte y tipo de cambio)."
+    },
     {
       "id": "2026-11-10-naturgy-ban-dividendos-2026-ganancia",
       "titulo": "Naturgy BAN aprobó $206.272 millones de dividendos en 2026, más que lo que ganó en nueve meses: su ganancia cayó 42% en pesos de hoy",
