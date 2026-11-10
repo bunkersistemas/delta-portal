@@ -8279,6 +8279,20 @@
       "fecha": "2026-11-09",
       "estado": "descartada",
       "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
+    },
+    {
+      "tema": "aceite esencial de limón / la Argentina primer exportador mundial (pregunta detrás de las exportaciones de cítricos en La Nación 09/11/2026 y del récord del primer cuatrimestre informado por la SAGyP) / INDEC 3301.13 2002-2026: 2025 7.782 t (máx. desde 2002, previo 7.214 en 2022) y US$215,72 M; UN Comtrade 2025 Argentina 36,9% del mundo (40,9% con confidenciales), más que Perú+Italia+EE.UU.; destinos Irlanda 43,6% y EE.UU. 36,9%; Irlanda 62,1% y EE.UU. 68,0% de sus importaciones vienen de la Argentina",
+      "angulo": "Corrida programada del 09/11/2026 22:30. Hallazgo propio: cruce INDEC + UN Comtrade (participación mundial y dependencia de los dos compradores). Camino: documento oficial (SAGyP) + recálculo desde la base del INDEC + contraste espejo (Irlanda y EE.UU.). Descartado como ancla el aceite contra el limón fresco: el espejo da por kilo de fruta fresca más del doble que la Aduana (posible consignación) y no se pudo explicar con documentos.",
+      "fecha": "2026-11-09",
+      "estado": "publicada",
+      "articulo_id": "2026-11-09-aceite-limon-argentina-37-por-ciento-mundo"
+    },
+    {
+      "tema": "descartes de la corrida programada del 09/11/2026 22:30. No se probaron porque pasó la primera candidata (aceite de limón). Lista: EMPRESAS (hoy ya salieron Edenor e YPF): Edenor compra 20% de Latam Downstream Holdings (HR CNV 09/11, sin monto), IEBA EEFF 30/09 (CNV 06/11; mismo molde que Edenor publicada hoy), Mastellone (EEFF 30/09 todavía no presentados, solo actas del 06/11), Grupo Clarín y Central Puerto 3T26 (todavía no presentados); portadas: riesgo país bajo 900 y Paraguay (publicada hoy), visita del papa (pedido 115 en cola), pobreza 3T (estimaciones privadas), cobertura de salud (publicada 05/11), RIGI empleos por millón invertido (iProfesional ya hizo la cuenta), dólar tarjeta sobre $2.000 (molde agotado), lechería exportaciones (infobae; tambo publicado 29/09 y 16/10), jubilaciones contra salarios (Página12; molde), FAL y sistema previsional (Página12; requiere la ley y su reglamentación). Limón fresco contra aceite: frenado por la diferencia de valuación entre Aduana y compradores. clarin.com y tn.com.ar no accesibles desde la herramienta de lectura.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-09",
+      "estado": "descartada",
+      "motivo_descarte": "no probadas: la primera candidata pasó la verificación; tope de una nota por corrida."
     }
   ]
 }

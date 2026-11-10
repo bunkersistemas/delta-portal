@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 09 Nov 2026 18:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 09 Nov 2026 22:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina vende el 37% del aceite de limón que se exporta en el mundo, más que Perú, Italia y Estados Unidos juntos</title>
+      <link>https://coninteres.com/articulos/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.html</guid>
+      <pubDate>Mon, 09 Nov 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>La Argentina es el primer exportador mundial de aceite esencial de limón en todos los años desde 2015. En 2025 vendió 7.782 toneladas por US$215,7 millones, según el INDEC: la mayor cantidad desde 2002. Pero ocho de cada diez dólares los ponen dos compradores: Irlanda, que en 2002 compraba casi nada, y Estados Unidos. Y la dependencia es mutua: para los dos, más de seis de cada diez dólares que gastan en este aceite van a la Argentina.</description>
+      <ci:numero>37%</ci:numero>
+      <ci:numeroEtiqueta>parte de la Argentina en las exportaciones mundiales de aceite esencial de limón en 2025</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.png" length="59557" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un kilo de pan cuesta lo mismo que 4,5 kilos de harina: en dos años el pan subió 68% y la harina, la mitad</title>
       <link>https://coninteres.com/articulos/2026-11-09-pan-harina-4-kilos-precio-trigo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte del gasto nacional devengado de enero a octubre de 2026 que seguía sin pagar el 31 de octubre, sin contar la deuda</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-deuda-flotante-estado-25-por-ciento-octubre.png" length="70412" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-deuda-flotante-estado-25-por-ciento-octubre.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La comida subió 24,9% en dólares en la Argentina en un año, contra 5,4% en el mundo</title>
-      <link>https://coninteres.com/articulos/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.html</guid>
-      <pubDate>Sat, 07 Nov 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>En un año, la comida argentina se encareció en dólares 4,6 veces más que la referencia mundial. Y aun así el salto no la llevó a un lugar nuevo: la devolvió a la misma relación con los precios mundiales que tenía en diciembre de 2016. Entre septiembre de 2025 y septiembre de 2026 los alimentos del IPC del INDEC subieron 35,1% en pesos y el dólar oficial, 8,1%: medidos en dólares, subieron 24,9%. En el mismo año el índice de precios de los alimentos de la FAO subió 5,4% y el súper en Estados Unidos, 1,8%.</description>
-      <ci:numero>+24,9%</ci:numero>
-      <ci:numeroEtiqueta>cuánto subieron en dólares los alimentos del IPC del INDEC entre septiembre de 2025 y septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.png" length="61680" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-07-comida-en-dolares-argentina-vs-mundo-fao.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

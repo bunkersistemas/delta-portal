@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-09T18:47:06-03:00",
+    "actualizado": "2026-11-09T22:49:09-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-09-aceite-limon-argentina-37-por-ciento-mundo",
+      "titulo": "La Argentina vende el 37% del aceite de limón que se exporta en el mundo, más que Perú, Italia y Estados Unidos juntos",
+      "bajada": "La Argentina es el primer exportador mundial de aceite esencial de limón en todos los años desde 2015. En 2025 vendió 7.782 toneladas por US$215,7 millones, según el INDEC: la mayor cantidad desde 2002. Pero ocho de cada diez dólares los ponen dos compradores: Irlanda, que en 2002 compraba casi nada, y Estados Unidos. Y la dependencia es mutua: para los dos, más de seis de cada diez dólares que gastan en este aceite van a la Argentina.",
+      "titulo_busqueda": "¿Cuál es el mayor exportador de aceite de limón del mundo?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "37%",
+      "numero_label": "parte de la Argentina en las exportaciones mundiales de aceite esencial de limón en 2025",
+      "fecha": "2026-11-09",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "UN Comtrade HS 330113, flow X, partner 0, 2025: Argentina declaró 182,31 de 493,42 US$M (36,9%; 77 reporters al 09/11/2026). Argentina en Comtrade = INDEC total 215,72 - destino 999 33,41 (2021, 2024 y 2025 exacto). Con confidenciales 215,72/526,83 = 40,9%. Siguen Perú 57,80, Italia 55,79, EE.UU. 40,58 (suma 154,17). Primer exportador 2015-2025. Documento oficial: SAGyP 06/10/2025 US$23.320/t ene-ago 2025 = recálculo INDEC 23.320; SAGyP 11/06/2026 US$48,2 M y 24.477/t ene-abr 2026 = recálculo 48,21 y 24.478. Contraste espejo 2025: Irlanda declara 93,31 (INDEC 415: 94,02), EE.UU. 81,06 (INDEC 212: 79,54). Importaciones mundiales 2025: Irlanda 150,37 (62,1% argentino), EE.UU. 119,25 (68,0%). Scripts _privado/citricos/."
+    },
     {
       "id": "2026-11-09-pan-harina-4-kilos-precio-trigo",
       "titulo": "Un kilo de pan cuesta lo mismo que 4,5 kilos de harina: en dos años el pan subió 68% y la harina, la mitad",
