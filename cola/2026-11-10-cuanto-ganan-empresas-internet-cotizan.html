@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>¿Cuánto ganan las empresas de internet que cotizan en la Argentina? Márgenes de Telecom 2021-2026 — CON INTERÉS</title>
+<meta name="description" content="Telecom es la única operadora de internet que cotiza y publica cuentas completas. En 2025, de cada $100 que facturó, le quedaron $30,30 antes de amortizar su red, $5,40 de ganancia operativa y una pérdida neta de $1,70. Cinco años de márgenes.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+</style>
+</head>
+<body data-palette="#0E7C86,#6B6560,#C4701F,#C0392B">
+
+<div class="draft-ribbon">Borrador generado por la redacción de agentes y pendiente de aprobación. <b>No publicado.</b></div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<article>
+<div class="borrador"><div class="borrador-in"><b>Borrador.</b> Investigación pedida por un lector, en revisión. Las cifras salen de los balances auditados de Telecom Argentina ante la SEC y de Cablevisión Holding ante la CNV.</div></div>
+  <div class="kicker">EMPRESAS <span class="sep">/</span> <span class="fmt">Investigación</span></div>
+
+<div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿Cuánto ganan, de cada $100 que facturan, las empresas de internet que cotizan en la Argentina?</h1>
+
+  <p class="standfirst">El negocio de todos los días le deja plata a Telecom todos los años; el desgaste de la red y la deuda se la comen casi siempre. En 2025, de cada $100 que facturó le quedaron $30,30 antes de pagar el desgaste de su red y $5,40 después; por la deuda, cerró el año con una pérdida de $1,70. La ganancia operativa fue negativa en cuatro de los últimos cinco años, y en el primer semestre de 2026 subió a $13,30. Telecom, la dueña de Personal, Flow y, desde 2025, Movistar, es la única operadora de internet que cotiza en la bolsa y publica sus cuentas completas; la otra que cotiza, Cablevisión Holding, es su controlante.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>10 de noviembre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 10 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta cuánto ganó, año por año desde 2021 y en lo que va de 2026, la única operadora de internet que cotiza y publica balances completos, Telecom Argentina, con tres márgenes y la ganancia sobre el patrimonio, más su controlante, Cablevisión Holding, y cuánto pesa internet en lo que facturan. Hay dos cosas que no se pudieron contestar. La primera, el margen del negocio de internet solo: Telecom no separa sus costos por servicio, así que su balance dice cuánto factura por internet pero no cuánto gana con eso. La segunda, la rentabilidad del resto del sector: Telecentro no tiene presentaciones en la CNV, y los cientos de proveedores chicos y cooperativas no publican balances. El tercer trimestre de 2026 todavía no salió: Cablevisión Holding anunció sus resultados para el 12 de noviembre.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">3m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">$5,4<span class="u">de $100</span></div>
+      <div class="cap">Es la <b>ganancia operativa</b> de Telecom Argentina en 2025 por cada $100 que facturó: lo que le quedó del negocio después de pagar los costos y el desgaste de su red, antes de la deuda y los impuestos. Fue el primer año en positivo desde 2020.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v">$30,3</span><span class="k">antes de amortizar la red (2025)</span></div>
+        <div class="sr"><span class="v up">−$1,7</span><span class="k">resultado neto: pérdida (2025)</span></div>
+        <div class="sr"><span class="v dn">$13,3</span><span class="k">ganancia operativa, 1.er semestre de 2026</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Cuánto queda de cada $100</h3>
+    <p class="lead">Telecom Argentina facturó $8,33 billones en 2025 y ganó con su negocio $450.047 millones: <b>$5,40 de cada $100</b>. Son los números de su balance anual auditado, que presentó ante la SEC de los Estados Unidos en el <a href="https://www.sec.gov/Archives/edgar/data/932470/000110465926026480/teo-20251231x20f.htm">formulario 20-F del 11 de marzo de 2026</a>, en pesos de diciembre de 2025. Telecom es la única operadora de internet que cotiza en la Bolsa porteña y en Nueva York, y por eso, junto con su controlante, la única del sector que publica cuentas completas y auditadas cada trimestre.</p>
+    <p>Para entender cuánto gana una empresa de redes hay que mirar tres escalones. El primero es lo que queda después de pagar los costos de todos los días: sueldos, contenidos de televisión, comisiones, impuestos, la luz de las antenas. En 2025 a Telecom le quedaron <b>$30,30 de cada $100</b>. Las empresas lo llaman EBITDA, y es la medida que más miran porque se parece a la caja que genera la operación.</p>
+    <p>El segundo escalón descuenta el desgaste de la red: los cables, la fibra y las antenas pierden valor con los años, y el balance carga cada año una parte de lo que costaron. En 2025 esa cuenta se llevó $24,90 de cada $100. Lo que queda es la <b>ganancia operativa: $5,40</b>, la medida más limpia de si el negocio, con red y todo, deja plata.</p>
+    <p>El tercer escalón suma la deuda, el dólar y los impuestos, y ahí 2025 terminó en rojo. El resultado financiero se llevó $7,70 de cada $100 y el año cerró con una <b>pérdida neta de $145.304 millones, $1,70 de cada $100</b>.</p>
+    <p>La razón está en la moneda de la deuda. Telecom debe en dólares mucho más de lo que tiene en dólares: al cierre de 2025, esa diferencia sin cobertura era de US$3.339 millones, según el 20-F. Por eso, cuando el dólar sube más que la inflación, el balance pierde; cuando sube menos, gana. En 2025 el peso se devaluó 41% contra el dólar, según el Banco Nación, y los precios subieron 31,5%.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Telecom Argentina, 2025 · pesos de cada $100 facturados</div>
+        <h3>La operación deja $30; la red se lleva $25 y la deuda, el resto</h3>
+        <p class="fig-sub">Cómo se va achicando lo que facturó Telecom en 2025 hasta llegar al resultado final.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 420" role="img" aria-label="De cada 100 pesos facturados en 2025: costos de operar 69,7; queda 30,3 antes de amortizar; amortizaciones 24,9; ganancia operativa 5,4; resultado financiero menos 7,7; impuesto y otros más 0,5; pérdida neta 1,7.">
+<line x1="120.0" x2="120.0" y1="0" y2="400" style="stroke:#8A847C"/>
+<text x="126.0" y="20" class="cl">Lo que facturó</text>
+<rect x="120.0" y="26" width="560.0" height="20" fill="#6B6560"/>
+<text x="674.0" y="41" text-anchor="end" class="cvB" style="fill:#fff">$100</text>
+<text x="126.0" y="70" class="cl">Costos de operar (sueldos, contenidos, impuestos, comisiones...)</text>
+<rect x="289.7" y="76" width="390.3" height="20" fill="#C0392B"/>
+<text x="686.0" y="91" text-anchor="start" class="cvB">−$69,7</text>
+<text x="126.0" y="120" class="cl">Queda antes de amortizar la red</text>
+<rect x="120.0" y="126" width="169.7" height="20" fill="#0E7C86"/>
+<text x="295.7" y="141" text-anchor="start" class="cvB">$30,3</text>
+<text x="126.0" y="170" class="cl">Amortización y desgaste de la red</text>
+<rect x="150.2" y="176" width="139.4" height="20" fill="#C0392B"/>
+<text x="295.7" y="191" text-anchor="start" class="cvB">−$24,9</text>
+<text x="126.0" y="220" class="cl">Ganancia operativa</text>
+<rect x="120.0" y="226" width="30.2" height="20" fill="#C4701F"/>
+<text x="156.2" y="241" text-anchor="start" class="cvB">$5,4</text>
+<text x="126.0" y="270" class="cl">Resultado financiero (deuda, dólar, inflación)</text>
+<rect x="107.1" y="276" width="43.1" height="20" fill="#C0392B"/>
+<text x="156.2" y="291" text-anchor="start" class="cvB">−$7,7</text>
+<text x="126.0" y="320" class="cl">Impuesto a las ganancias y otros</text>
+<rect x="107.1" y="326" width="3.4" height="20" fill="#2E8B6F"/>
+<text x="101.1" y="341" text-anchor="end" class="cvB">+$0,5</text>
+<text x="126.0" y="370" class="cl">Resultado neto: pérdida</text>
+<rect x="110.5" y="376" width="9.5" height="20" fill="#6B6560"/>
+<text x="104.5" y="391" text-anchor="end" class="cvB">−$1,7</text>
+</svg>
+      <figcaption><b>Fuente:</b> Telecom Argentina, formulario 20-F 2025 (SEC), estado de resultados consolidado en pesos de diciembre de 2025. Cálculo de Con Interés: cada renglón dividido por las ventas ($8.328.814 millones). «Otros» incluye el resultado de asociadas.</figcaption>
+    </figure>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Cinco años de márgenes</h3>
+    <p>El 2025 positivo es la excepción de la serie. <b>Entre 2021 y 2024, la ganancia operativa de Telecom fue negativa los cuatro años</b>: perdió $0,70 de cada $100 en 2021, $6,10 en 2023 y $3,50 en 2024.</p>
+    <p>En 2022 la pérdida operativa llegó a $40,40 de cada $100, pero casi todo fue un ajuste contable: ese año la empresa bajó el valor de la llave de negocio que venía de su fusión con Cablevisión, por $759.523 millones en pesos de 2023. Sin ese ajuste, la pérdida operativa de 2022 habría sido de unos $7 de cada $100.</p>
+    <p>Lo que no se movió tanto fue el primer escalón. El margen antes de amortizar la red se mantuvo entre <b>$27,50 y $31,20 de cada $100</b> entre 2021 y 2025, y subió a $35,80 en el primer semestre de 2026. El negocio de todos los días deja plata todos los años; lo que se come la ganancia es el desgaste de la red y, según el año, la deuda.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Telecom Argentina · márgenes sobre lo facturado, en %</div>
+        <h3>Antes de amortizar la red, siempre queda entre 27% y 36%; después, casi siempre se pierde</h3>
+        <p class="fig-sub">Los tres escalones de la ganancia, año por año. El primer semestre de 2026 no está auditado como año completo.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 330" role="img" aria-label="Margen sobre lo facturado, en porcentaje. 2021: antes de amortizar 31,2, operativo -0,7, neto 2,3; 2022: antes de amortizar 27,5, operativo -40,4, neto -28,2; 2023: antes de amortizar 28,1, operativo -6,1, neto -12,1; 2024: antes de amortizar 28,2, operativo -3,5, neto 25,0; 2025: antes de amortizar 30,3, operativo 5,4, neto -1,7; 1.er sem. 2026: antes de amortizar 35,8, operativo 13,3, neto 17,1.">
+<line x1="44" x2="760" y1="34.0" y2="34.0" class="gg"/>
+<text x="38" y="38.0" text-anchor="end" class="cf">40%</text>
+<line x1="44" x2="760" y1="92.0" y2="92.0" class="gg"/>
+<text x="38" y="96.0" text-anchor="end" class="cf">20%</text>
+<line x1="44" x2="760" y1="150.0" y2="150.0" class="gg" style="stroke:#8A847C"/>
+<text x="38" y="154.0" text-anchor="end" class="cf">0%</text>
+<line x1="44" x2="760" y1="208.0" y2="208.0" class="gg"/>
+<text x="38" y="212.0" text-anchor="end" class="cf">-20%</text>
+<line x1="44" x2="760" y1="266.0" y2="266.0" class="gg"/>
+<text x="38" y="270.0" text-anchor="end" class="cf">-40%</text>
+<rect x="62" y="59.5" width="26" height="90.5" fill="#0E7C86"/>
+<text x="75" y="55.5" text-anchor="middle" class="cf" style="fill:#3C3833">31,2</text>
+<rect x="92" y="150.0" width="26" height="2.0" fill="#C4701F"/>
+<text x="105" y="163.0" text-anchor="middle" class="cf" style="fill:#3C3833">-0,7</text>
+<rect x="122" y="143.3" width="26" height="6.7" fill="#6B6560"/>
+<text x="135" y="139.3" text-anchor="middle" class="cf" style="fill:#3C3833">2,3</text>
+<text x="105" y="296" text-anchor="middle" class="clB">2021</text>
+<rect x="178" y="70.2" width="26" height="79.8" fill="#0E7C86"/>
+<text x="191" y="66.2" text-anchor="middle" class="cf" style="fill:#3C3833">27,5</text>
+<rect x="208" y="150.0" width="26" height="117.2" fill="#C4701F"/>
+<text x="221" y="278.2" text-anchor="middle" class="cf" style="fill:#3C3833">-40,4</text>
+<rect x="238" y="150.0" width="26" height="81.8" fill="#6B6560"/>
+<text x="251" y="242.8" text-anchor="middle" class="cf" style="fill:#3C3833">-28,2</text>
+<text x="221" y="296" text-anchor="middle" class="clB">2022</text>
+<rect x="294" y="68.5" width="26" height="81.5" fill="#0E7C86"/>
+<text x="307" y="64.5" text-anchor="middle" class="cf" style="fill:#3C3833">28,1</text>
+<rect x="324" y="150.0" width="26" height="17.7" fill="#C4701F"/>
+<text x="337" y="178.7" text-anchor="middle" class="cf" style="fill:#3C3833">-6,1</text>
+<rect x="354" y="150.0" width="26" height="35.1" fill="#6B6560"/>
+<text x="367" y="196.1" text-anchor="middle" class="cf" style="fill:#3C3833">-12,1</text>
+<text x="337" y="296" text-anchor="middle" class="clB">2023</text>
+<rect x="410" y="68.2" width="26" height="81.8" fill="#0E7C86"/>
+<text x="423" y="64.2" text-anchor="middle" class="cf" style="fill:#3C3833">28,2</text>
+<rect x="440" y="150.0" width="26" height="10.2" fill="#C4701F"/>
+<text x="453" y="171.2" text-anchor="middle" class="cf" style="fill:#3C3833">-3,5</text>
+<rect x="470" y="77.5" width="26" height="72.5" fill="#6B6560"/>
+<text x="483" y="73.5" text-anchor="middle" class="cf" style="fill:#3C3833">25,0</text>
+<text x="453" y="296" text-anchor="middle" class="clB">2024</text>
+<rect x="526" y="62.1" width="26" height="87.9" fill="#0E7C86"/>
+<text x="539" y="58.1" text-anchor="middle" class="cf" style="fill:#3C3833">30,3</text>
+<rect x="556" y="134.3" width="26" height="15.7" fill="#C4701F"/>
+<text x="569" y="130.3" text-anchor="middle" class="cf" style="fill:#3C3833">5,4</text>
+<rect x="586" y="150.0" width="26" height="4.9" fill="#6B6560"/>
+<text x="599" y="165.9" text-anchor="middle" class="cf" style="fill:#3C3833">-1,7</text>
+<text x="569" y="296" text-anchor="middle" class="clB">2025</text>
+<rect x="642" y="46.2" width="26" height="103.8" fill="#0E7C86"/>
+<text x="655" y="42.2" text-anchor="middle" class="cf" style="fill:#3C3833">35,8</text>
+<rect x="672" y="111.4" width="26" height="38.6" fill="#C4701F"/>
+<text x="685" y="107.4" text-anchor="middle" class="cf" style="fill:#3C3833">13,3</text>
+<rect x="702" y="100.4" width="26" height="49.6" fill="#6B6560"/>
+<text x="715" y="96.4" text-anchor="middle" class="cf" style="fill:#3C3833">17,1</text>
+<text x="685" y="296" text-anchor="middle" class="clB">1.er sem. 2026</text>
+<rect x="44" y="312" width="12" height="10" fill="#0E7C86"/><text x="62" y="321" class="cf">antes de amortizar la red (EBITDA)</text>
+<rect x="300" y="312" width="12" height="10" fill="#C4701F"/><text x="318" y="321" class="cf">operativo (después de amortizar)</text>
+<rect x="540" y="312" width="12" height="10" fill="#6B6560"/><text x="558" y="321" class="cf">ganancia o pérdida neta</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Telecom Argentina, formularios 20-F 2023 (años 2021 a 2023) y 2025 (años 2024 y 2025), y comunicado de resultados del primer semestre de 2026 (6-K del 07/08/2026), SEC. Cálculo de Con Interés: cada resultado dividido por las ventas del mismo año. El −40,4% de 2022 incluye la baja de la llave de negocio; sin ella, el margen operativo fue de −7,0%.</figcaption>
+    </figure>
+
+    <p>La ganancia neta salta mucho más, y casi siempre por la misma razón. En 2024 Telecom ganó <b>$25 de cada $100</b> con una ganancia operativa negativa: el resultado de sus deudas le dio $1,91 billones a favor, porque ese año el dólar subió 27,7% y los precios 117,8%, y la deuda en dólares se achicó medida en pesos de hoy.</p>
+    <p>En 2025 pasó al revés, y en el primer semestre de 2026 volvió a ganar por lo mismo: la empresa atribuye su ganancia neta de $869.038 millones, $17,10 de cada $100, a la diferencia de cambio «medida en términos reales», según su <a href="https://www.sec.gov/Archives/edgar/data/932470/000110465926092409/tm2622474d1_6k.htm">comunicado de resultados del 7 de agosto</a>.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Cuánto ganó sobre lo que vale</h3>
+    <p>La otra forma de medir la rentabilidad es contra el patrimonio: cuánto ganó la empresa por cada $100 que valen, en sus libros, sus activos menos sus deudas. Con el patrimonio promedio de cada año, Telecom ganó <b>$1,70 de cada $100 en 2021</b>, perdió $21,80 en 2022 y $10,50 en 2023, ganó $19,80 en 2024 y perdió $2 en 2025. En cinco años, dos con ganancia y tres con pérdida.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Las demás empresas que publican balances</h3>
+    <p>La única otra empresa del sector que cotiza es <b>Cablevisión Holding</b>, y sus números son casi los de Telecom, porque Telecom es casi todo lo que tiene: es su accionista controlante y la consolida en su balance. En sus <a href="https://aif2.cnv.gov.ar/presentations/publicview/3b69a796-f8b4-4760-8980-250db696067c">resultados de 2025 presentados a la CNV</a>, Cablevisión Holding informó las mismas ventas, $8.328.814 millones, un margen antes de amortizar del 30,1% y una pérdida neta de $159.916 millones, $1,90 de cada $100.</p>
+    <p>De esa pérdida, $81.050 millones corresponden a sus propios accionistas; el resto, a los demás dueños de Telecom. En 2024 había ganado $1,35 billones, $24,80 de cada $100, de los que $509.233 millones fueron para sus accionistas.</p>
+    <p>Más allá de esas dos, <b>no hay balances públicos</b>. Buscamos a Telecentro, la otra gran empresa de cable e internet, en la Comisión Nacional de Valores con su CUIT, 30-64089726-7, el que figura en la <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/145500/20160523">Resolución 2617/2016 del ENACOM</a>: no tiene presentaciones. No encontramos estados contables públicos de Claro en la Argentina, ni de los cientos de proveedores chicos y cooperativas que dan internet en el interior.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Cuánto pesa internet</h3>
+    <p>De cada $100 que facturó Telecom en 2025, <b>$21,70 vinieron del servicio de internet</b>: $1,81 billones. La proporción casi no cambió en cinco años: fue de $21,30 en 2021, $22,20 en 2022, $21,80 en 2023 y $25,50 en 2024, y volvió a $21,70 en el primer semestre de 2026. El salto de 2024 y la vuelta de 2025 tienen una explicación: en 2025 entró Movistar, que vende sobre todo telefonía celular.</p>
+    <p>Ese renglón es el <b>internet fijo</b>, el del hogar. Los datos del celular se cuentan dentro de la telefonía móvil, que en 2025 fue el negocio más grande, con el 49% de las ventas. En 2023, según el 20-F de ese año, el 92% de lo que Telecom facturó por telefonía móvil era internet móvil.</p>
+    <p>En cantidad de clientes, Telecom pesa mucho en el mercado. A junio de 2026 tenía <b>4,2 millones de abonados de internet fijo con Personal y casi 1,7 millones con Movistar</b>, según su comunicado del primer semestre. El ENACOM contó <a href="https://indicadores.enacom.gob.ar/DatosAbiertos.asmx/InternetAccesosTecnologiaTotales">13,77 millones de accesos a internet fijo</a> en todo el país en el segundo trimestre de 2026. Comparando las dos cifras, Telecom tiene <b>unos 4 de cada 10</b> conexiones del país. Es una cuenta aproximada: la empresa cuenta abonados y el ENACOM cuenta accesos, que incluyen empresas y conexiones de todos los proveedores.</p>
+    <p>El Tribunal de Defensa de la Competencia le ordenó a Telecom, como condición para quedarse con Movistar, transferir 211.400 abonados de internet en 28 localidades.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Personal y Movistar, por separado</h3>
+    <p>El balance sí separa los dos negocios por red, y ahí aparece una diferencia. En 2025, Movistar le aportó a Telecom $2,75 billones de ventas y $644.311 millones de margen antes de amortizar, según el 20-F: <b>unos $23 de cada $100</b>, en sus diez meses dentro del grupo. El resto de Telecom dejó <b>unos $34 de cada $100</b>. En el primer semestre de 2026, la empresa informó que su margen sin Movistar llegó a 39,7%.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación: balance auditado, recálculo y cruce entre ejercicios.</b> La cifra ancla, 5,4%, es la ganancia operativa de 2025 ($450.047 millones) dividida por las ventas ($8.328.814 millones), los dos renglones del estado de resultados del 20-F 2025, que la misma empresa da como 5,4% en el texto. Los datos de cada balance están también en la base estructurada de la SEC (XBRL), con los mismos valores. Cada año aparece en tres 20-F distintos, en la moneda de cada uno; el margen recalculado da igual en todos. Por ejemplo, el de 2023 da 28,1% antes de amortizar, −6,1% operativo y −12,1% neto con las cifras del 20-F 2023 y con las del 20-F 2025. Los de 2021, 2022 y 2024 coinciden también con los de su propio 20-F.</p>
+      <p><b>El ajuste por inflación.</b> Los balances argentinos se presentan en pesos del cierre (NIC 29). Los márgenes no dependen de eso, porque cada renglón de un año se ajusta por el mismo coeficiente. Para poner las ventas de 2021 y 2022 en pesos de diciembre de 2025 usamos el coeficiente que surge del propio balance: el 20-F 2025 da las ventas de 2023 multiplicadas por 2,865 respecto del 20-F 2023. Es lo mismo que da el <a href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31">IPC del INDEC</a>: 117,8% en 2024 y 31,5% en 2025, por 2,864. El primer semestre de 2026 está en pesos de junio de 2026 y no se suma a la serie anual.</p>
+      <p><b>La ganancia sobre el patrimonio</b> es la ganancia neta total dividida por el promedio del patrimonio total al principio y al final del año, con las dos cifras del mismo 20-F. Incluye la parte de los accionistas minoritarios.</p>
+      <p><b>Lo que no está.</b> Telecom no publica cuánto gana con internet: sus costos (la red, el personal, los locales) son compartidos y no los separa por servicio; separa por red (Personal, Movistar y el resto). No estimamos un margen de internet que la empresa no publica. Telecentro no tiene presentaciones en la CNV con su CUIT, y no encontramos balances públicos de Claro en la Argentina ni de los proveedores chicos. Los resultados del tercer trimestre de 2026 salen el 12 de noviembre.</p>
+      <div class="meta">
+        <span><b>Fuente</b> Telecom Argentina (SEC) · Cablevisión Holding (CNV) · ENACOM · INDEC</span>
+        <span><b>Período</b> 2021 a junio de 2026</span>
+        <span><b>Unidad</b> % de las ventas · pesos de dic-2025</span>
+        <span><b>Verificación</b> balance auditado + recálculo</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>La pregunta de cuánto gana una empresa de internet tiene, con los balances públicos, una respuesta en dos partes. La operación deja entre $27 y $36 de cada $100 todos los años. Pero mantener la red cuesta casi lo mismo: entre 2021 y 2024, el desgaste de cables, fibra y antenas se comió todo eso y un poco más. Recién en 2025, con Movistar adentro y la facturación creciendo más que la inflación, la ganancia operativa volvió a ser positiva, y en el primer semestre de 2026 subió a $13,30.</p>
+    <p>Esa amortización tiene un componente contable grande: de los $2,08 billones de 2025, $1,41 billones son el efecto de expresar en pesos de hoy lo que la red costó cuando se construyó, según el 20-F. Y la red se sigue construyendo: en el primer semestre de 2026, Telecom invirtió <b>$18,60 de cada $100</b> que facturó, sobre todo en fibra y 5G.</p>
+    <p>La respuesta, entonces, tiene dos partes: el negocio de todos los días deja plata todos los años, y el desgaste de la red y la deuda deciden si al final queda ganancia. Lo que los balances no permiten contestar es cuánto de eso gana internet solo: Telecom no separa sus costos por servicio.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p data-perfil="trabajador"><b>Si pagás internet en tu casa:</b> el abono promedio de internet de Personal fue de $30.587 por mes en el primer semestre de 2026, en pesos de junio, un 3,6% menos que un año antes descontada la inflación; el de Movistar, $28.947. De cada $100 que pagás, la empresa entera se quedó en 2025 con unos $5 de ganancia operativa.</p>
+      <p data-perfil="ahorrista"><b>Si tenés acciones u obligaciones negociables de Telecom:</b> esta nota cuenta el negocio, no la inversión. El resultado neto depende mucho del dólar porque la empresa debe en esa moneda: un año en que el dólar sube menos que los precios le da ganancia; uno en que sube más, pérdida.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep" open>
+      <summary>Año por año <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Empresa y año</th><th style="text-align:right">Ventas (millones de $ de dic-2025)</th><th style="text-align:right">Ventas por internet</th><th style="text-align:right">Antes de amortizar</th><th style="text-align:right">Operativo</th><th style="text-align:right">Neto</th><th style="text-align:right">Sobre patrimonio</th></tr>
+        <tr><td>Telecom 2021</td><td class="n">7.393.794</td><td class="n">1.577.278</td><td class="n">31,2%</td><td class="n">−0,7%</td><td class="n">2,3%</td><td class="n">1,7%</td></tr>
+        <tr><td>Telecom 2022</td><td class="n">6.504.849</td><td class="n">1.442.843</td><td class="n">27,5%</td><td class="n">−40,4%*</td><td class="n">−28,2%</td><td class="n">−21,8%</td></tr>
+        <tr><td>Telecom 2023</td><td class="n">5.898.611</td><td class="n">1.288.819</td><td class="n">28,1%</td><td class="n">−6,1%</td><td class="n">−12,1%</td><td class="n">−10,5%</td></tr>
+        <tr><td>Telecom 2024</td><td class="n">5.442.958</td><td class="n">1.390.491</td><td class="n">28,2%</td><td class="n">−3,5%</td><td class="n">25,0%</td><td class="n">19,8%</td></tr>
+        <tr><td>Telecom 2025 (con Movistar desde marzo)</td><td class="n">8.328.814</td><td class="n">1.808.527</td><td class="n">30,3%</td><td class="n">5,4%</td><td class="n">−1,7%</td><td class="n">−2,0%</td></tr>
+        <tr><td>Telecom 1.er semestre 2026 (millones de $ de jun-2026)</td><td class="n">5.075.511</td><td class="n">1.101.497</td><td class="n">35,8%</td><td class="n">13,3%</td><td class="n">17,1%</td><td class="n">—</td></tr>
+        <tr><td>Cablevisión Holding 2024</td><td class="n">5.442.958</td><td class="n">1.390.490</td><td class="n">27,9%</td><td class="n">—</td><td class="n">24,8%</td><td class="n">—</td></tr>
+        <tr><td>Cablevisión Holding 2025</td><td class="n">8.328.814</td><td class="n">1.808.527</td><td class="n">30,1%</td><td class="n">—</td><td class="n">−1,9%</td><td class="n">—</td></tr>
+      </table>
+      <p>* Incluye la baja de la llave de negocio de $759.523 millones en pesos de 2023; sin ella, −7,0%. Las ventas de 2021 y 2022 son las del 20-F 2023 multiplicadas por 2,865, el coeficiente entre las ventas de 2023 de los 20-F 2023 y 2025. Cablevisión Holding mide su margen antes de amortizar con su propia definición y no publica en su comunicado el resultado operativo ni el patrimonio; sus ventas por internet son las de Telecom. Telecom compró Movistar el 24 de febrero de 2025: los años no son del todo comparables.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Las notas que ya publicamos sobre el sector <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <p>Cuántas líneas celulares tiene cada compañía y qué le queda a Telecom tras ceder seis millones: <a href="../articulos/2026-10-10-telecom-movistar-tuenti-lineas-moviles-mercado.html">nota del 10 de octubre</a>. Cuánto paga Metrotel por los clientes de Movistar: <a href="../articulos/2026-10-14-metrotel-telecom-precio-clientes-movistar.html">nota del 14 de octubre</a>. El internet satelital, provincia por provincia: <a href="../articulos/2026-11-06-internet-satelital-744205-supera-cable-formosa.html">nota del 6 de noviembre</a>.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Telecom Argentina — <a href="https://www.sec.gov/Archives/edgar/data/932470/000110465926026480/teo-20251231x20f.htm">Formulario 20-F 2025</a> (SEC, 11/03/2026): resultados de 2023 a 2025, segmentos y patrimonio</li>
+        <li>&#8250; Telecom Argentina — <a href="https://www.sec.gov/Archives/edgar/data/932470/000110465925019133/teo-20241231x20f.htm">Formulario 20-F 2024</a> (SEC, 28/02/2025): cruce de 2024</li>
+        <li>&#8250; Telecom Argentina — <a href="https://www.sec.gov/Archives/edgar/data/932470/000110465924037229/teo-20231231x20f.htm">Formulario 20-F 2023</a> (SEC, 21/03/2024): resultados de 2021 a 2023 y baja de la llave de negocio</li>
+        <li>&#8250; Telecom Argentina — <a href="https://www.sec.gov/Archives/edgar/data/932470/000110465923034541/teo-20221231x20f.htm">Formulario 20-F 2022</a> (SEC, 20/03/2023): cruce de 2022</li>
+        <li>&#8250; Telecom Argentina — <a href="https://www.sec.gov/Archives/edgar/data/932470/000110465922036418/teo-20211231x20f.htm">Formulario 20-F 2021</a> (SEC, 22/03/2022): cruce de 2021</li>
+        <li>&#8250; Telecom Argentina — <a href="https://www.sec.gov/Archives/edgar/data/932470/000110465926092409/tm2622474d1_6k.htm">Resultados del primer semestre de 2026</a> (6-K, 07/08/2026)</li>
+        <li>&#8250; Cablevisión Holding — <a href="https://aif2.cnv.gov.ar/presentations/publicview/3b69a796-f8b4-4760-8980-250db696067c">Resultados del año y cuarto trimestre de 2025</a> (CNV, 10/03/2026)</li>
+        <li>&#8250; Cablevisión Holding — <a href="https://aif2.cnv.gov.ar/presentations/publicview/7f815e7b-816f-44a5-b731-4e825551288e">Invitación a la presentación de resultados del tercer trimestre de 2026</a> (CNV, 05/11/2026)</li>
+        <li>&#8250; ENACOM — <a href="https://indicadores.enacom.gob.ar/DatosAbiertos.asmx/InternetAccesosTecnologiaTotales">Accesos a internet fijo por tecnología</a>, datos abiertos, segundo trimestre de 2026</li>
+        <li>&#8250; INDEC — <a href="https://www.indec.gob.ar/indec/web/Nivel4-Tema-3-5-31">Índice de precios al consumidor</a></li>
+        <li>&#8250; Boletín Oficial — <a href="https://www.boletinoficial.gob.ar/detalleAviso/primera/145500/20160523">Aviso del ENACOM con el CUIT de Telecentro</a> (23/05/2016)</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: márgenes, ganancia sobre patrimonio, paso de 2021 y 2022 a pesos de diciembre de 2025, parte del mercado.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 10/11/2026. Los márgenes y la ganancia sobre el patrimonio son cálculos propios sobre los balances de las empresas. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>

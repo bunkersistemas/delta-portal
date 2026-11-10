@@ -8411,6 +8411,14 @@
       "fecha": "2026-11-10",
       "estado": "descartada",
       "motivo_descarte": "no se probaron o se frenaron antes de investigar: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "rentabilidad de las empresas de internet que cotizan (pedido de lector 116, enfoque aprobado) / Telecom Argentina 2021-1S26: márgenes EBITDA, operativo, neto y ROE desde los 20-F y el 6-K del 1S26; Cablevisión Holding 2024-2025; peso de internet en ventas; cuota aproximada sobre accesos ENACOM 2T-2026",
+      "angulo": "Pedido 116. Cifra ancla: ganancia operativa 5,4% de las ventas de Telecom en 2025, la primera positiva desde 2020; antes de amortizar la red el margen va de 27,5% a 35,8%. Sin margen por servicio (Telecom no separa costos), Telecentro sin presentaciones en la CNV.",
+      "fecha": "2026-11-10",
+      "estado": "en_cola",
+      "id": "2026-11-10-cuanto-ganan-empresas-internet-cotizan",
+      "archivo": "cola/2026-11-10-cuanto-ganan-empresas-internet-cotizan.html"
     }
   ]
 }
