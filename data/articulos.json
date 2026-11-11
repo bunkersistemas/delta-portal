@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-10T20:44:49-03:00",
+    "actualizado": "2026-11-10T22:58:01-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-10-ganaderia-emite-mas-que-transporte-55-por-ciento",
+      "titulo": "La ganadería emite en la Argentina 55% más gases de efecto invernadero que todo el transporte: 86,7 millones de toneladas contra 56,0",
+      "bajada": "La primera fuente de emisiones de la Argentina no son los autos: es el ganado. Según el inventario oficial de gases, la ganadería emitió más que autos, camiones, aviones y barcos juntos todos los años desde 1990. La distancia se achicó, porque el transporte creció y el ganado no: en 1990 el ganado emitía cuatro veces lo que el transporte. Y por habitante un argentino ya emite más que un europeo, porque Europa bajó y la Argentina casi no.",
+      "titulo_busqueda": "¿Qué contamina más en la Argentina, las vacas o los autos?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+55%",
+      "numero_label": "cuánto más gases de efecto invernadero emitió la ganadería que todo el transporte de la Argentina en 2022, según el inventario oficial",
+      "fecha": "2026-11-10",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-10-ganaderia-emite-mas-que-transporte-55-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INGEI IBT1 (Subsecretaría de Ambiente, 2024). Fichas 2024 p. 12, cuadro por subsector (no IPCC): Ganadería 86,68 MtCO2e (21,62%), Transporte 55,96 (13,96%), total 401. Recalculado desde inventario-nacional-gei-emisiones_hasta_2022.xlsx: fermentación entérica 76,036 + gestión de estiércol 2,710 + excretas en pasturas 6,632 + fertilizantes orgánicos 1,298 = 86,676; transporte (1A3) 55,960; total 400,921; 86,676/55,960 = 1,549 (+54,9%). Serie: 1990 91,56 vs 22,73 (4,03x); mínimo 2011 1,53x; transporte 2022 máximo de la serie (previo 52,98 en 2011); ganadería > transporte los 33 años; ganadería primera fuente desde 2014 (UTCUTS mayor en 1996, 1998-2008, 2012-2013). Contraste EDGAR 2026 (JRC): CH4 agricultura/transporte 1990 103,91/28,87 = 3,60 (INGEI CH4 ganado 3,66); 2022 103,57/51,92 = 1,99; 2025 101,86/47,46 = 2,15. Total sin UTCUTS 2022: EDGAR 372,16 vs INGEI 349,52. Per cápita EDGAR 2025: ARG 7,456, EU27 7,056, mundo 6,616 (ARG > EU desde 2022). NDC 3.0 (argentina.gob.ar 03/11/2025): 375 MtCO2e netas en 2030 y 2035; 400,92 - 375 = 25,92 (-6,5%). Bovinos 80,49 Mt, 52,49 M cabezas, 1,533 t/cabeza (1990 1,691)."
+    },
     {
       "id": "2026-11-10-recaudacion-proyeccion-2026-noviembre-diciembre",
       "titulo": "Para cumplir la recaudación que proyectó el Gobierno, noviembre y diciembre tienen que crecer 38,3%: en 2026 solo septiembre rozó ese ritmo",
