@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-10",
-  "pregunta": "Entre julio de 2025 y junio de 2026, los billetes en circulación más los pesos que los bancos guardan en el Banco Central sumaron el 4,2% del PBI, menos de la mitad que el promedio de 2004-2017 (8,7%). ¿Qué dice ese número?",
+  "fecha": "2026-11-11",
+  "pregunta": "Según el Inventario Nacional de gases, en 2022 la ganadería emitió 86,7 millones de toneladas de CO₂ equivalente y todo el transporte, 56,0. La mayor parte de lo que emite el ganado es metano. ¿Por qué el inventario puede sumar metano y dióxido de carbono en una misma cuenta?",
   "opciones": [
-    "Que la economía usa menos pesos en proporción a lo que produce",
-    "Que el Banco Central imprimió menos billetes que en 2004 en cantidad",
-    "Que la inflación de 2026 fue más alta que la de 2004-2017"
+    "Porque convierte cada gas a CO₂ equivalente: cuánto dióxido de carbono haría el mismo efecto sobre el clima en cien años",
+    "Porque el metano se transforma en dióxido de carbono apenas sale a la atmósfera",
+    "Porque suma las toneladas físicas de cada gas, sin importar cuánto calienta cada uno"
   ],
   "correcta": 0,
-  "explicacion": "La base monetaria en porcentaje del PBI compara dos cosas medidas en pesos del mismo momento: el dinero del Banco Central y todo lo que produce la economía. Por eso no dice cuántos billetes hay, que hoy son muchos más que en 2004 porque los precios subieron, sino cuántos pesos se usan por cada peso producido. Cuando la gente y los bancos prefieren no tener pesos, por la inflación o porque rinden más en otro lado, la base se achica frente al PBI. Un número bajo puede leerse como prudencia del Banco Central o como poca demanda de pesos: la cifra sola no dice cuál de las dos.",
-  "nota": "articulos/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.html",
+  "explicacion": "Los gases no calientan todos igual: una tonelada de metano atrapa mucho más calor que una de dióxido de carbono, aunque dura menos en la atmósfera. Para poder sumarlos, los inventarios convierten cada gas a CO₂ equivalente con un factor que mide su efecto en cien años, la métrica del IPCC. Por eso el ganado, que emite sobre todo metano, aparece como la primera fuente del país. Si se usara otra ventana de tiempo, por ejemplo veinte años, el peso del metano sería todavía mayor; con una más larga, menor.",
+  "nota": "articulos/2026-11-10-ganaderia-emite-mas-que-transporte-55-por-ciento.html",
   "leccion": ""
 }

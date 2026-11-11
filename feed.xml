@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 10 Nov 2026 22:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 00:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Bulgaria, el país más pobre de la Unión Europea, ya produce por habitante 27% más que la Argentina; en 2000 producía 44% menos</title>
+      <link>https://coninteres.com/articulos/2026-11-11-bulgaria-supera-argentina-pbi-por-habitante.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-11-bulgaria-supera-argentina-pbi-por-habitante.html</guid>
+      <pubDate>Wed, 11 Nov 2026 00:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Los once países del Este que hoy integran la Unión Europea producen por habitante más que la Argentina. En 2000, nueve de ellos producían menos. El último en pasarla fue Bulgaria, entre 2018 y 2019; Polonia pasó de producir 17% menos que la Argentina a producir 69% más. La Argentina, en cambio, produce por habitante 5,4% menos que en 2011, su máximo, porque su economía creció menos que su población.</description>
+      <ci:numero>+27%</ci:numero>
+      <ci:numeroEtiqueta>cuánto más produce por habitante Bulgaria, el país más pobre de la Unión Europea, que la Argentina en 2025, con el mismo poder de compra</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-11-bulgaria-supera-argentina-pbi-por-habitante.png" length="74408" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-11-bulgaria-supera-argentina-pbi-por-habitante.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La ganadería emite en la Argentina 55% más gases de efecto invernadero que todo el transporte: 86,7 millones de toneladas contra 56,0</title>
       <link>https://coninteres.com/articulos/2026-11-10-ganaderia-emite-mas-que-transporte-55-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>motos 0 km patentadas por cada auto, camioneta o camión entre enero y octubre de 2026, el máximo de la serie que empieza en 2007</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-motos-por-auto-maximo-2007-formosa-ciudad.png" length="66173" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-motos-por-auto-maximo-2007-formosa-ciudad.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La plata que la Nación gira a las provincias cayó 61,4%, pero más de dos tercios de esa baja es la Ciudad</title>
-      <link>https://coninteres.com/articulos/2026-11-08-transferencias-provincias-caida-ciudad-cautelar.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-08-transferencias-provincias-caida-ciudad-cautelar.html</guid>
-      <pubDate>Sun, 08 Nov 2026 13:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Entre enero y septiembre, las transferencias corrientes de la Nación a provincias y municipios cayeron 61,4% descontada la inflación. Parece un recorte de casi dos tercios a los gobernadores, pero el 68,8% de esa caída sale de una sola línea del presupuesto: la plata que la Nación le debe a la Ciudad de Buenos Aires por la cautelar de la Corte sobre la coparticipación. Esa línea tuvo un único pago en 2026, en febrero. En mayo la deuda se canceló con $813.443 millones en bonos, que no pasan por esa cuenta. Otra parte de la baja es un cambio de casillero de siete hospitales. Todo lo demás subió 9,8%.</description>
-      <ci:numero>68,8%</ci:numero>
-      <ci:numeroEtiqueta>parte de la caída de las transferencias corrientes de la Nación a provincias en enero-septiembre de 2026 que es la cautelar de la Ciudad</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-transferencias-provincias-caida-ciudad-cautelar.png" length="69527" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-transferencias-provincias-caida-ciudad-cautelar.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

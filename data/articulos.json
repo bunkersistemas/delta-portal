@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-10T22:58:01-03:00",
+    "actualizado": "2026-11-11T00:46:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-11-bulgaria-supera-argentina-pbi-por-habitante",
+      "titulo": "Bulgaria, el país más pobre de la Unión Europea, ya produce por habitante 27% más que la Argentina; en 2000 producía 44% menos",
+      "bajada": "Los once países del Este que hoy integran la Unión Europea producen por habitante más que la Argentina. En 2000, nueve de ellos producían menos. El último en pasarla fue Bulgaria, entre 2018 y 2019; Polonia pasó de producir 17% menos que la Argentina a producir 69% más. La Argentina, en cambio, produce por habitante 5,4% menos que en 2011, su máximo, porque su economía creció menos que su población.",
+      "titulo_busqueda": "¿Polonia ya es más rica que la Argentina?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "+27%",
+      "numero_label": "cuánto más produce por habitante Bulgaria, el país más pobre de la Unión Europea, que la Argentina en 2025, con el mismo poder de compra",
+      "fecha": "2026-11-11",
+      "hora": "00:30",
+      "archivo": "articulos/2026-11-11-bulgaria-supera-argentina-pbi-por-habitante.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Banco Mundial WDI NY.GDP.PCAP.PP.KD (actualizado 08/10/2026), US$ internacionales de 2021: BGR 2025 35.325,5 / ARG 27.846,6 = 1,2686 (+26,9%); 2000 12.563,8 / 22.281,4 = 0,564 (-43,6%). Recalculado NY.GDP.MKTP.PP.KD / SP.POP.TOTL: identico al centavo (ARG, BGR, POL 2000, 2010, 2025). UE27 2025 minimo BGR 35.326, luego GRC 38.219. Contraste FMI WEO oct-2026 PPPPC (PPA corriente): BGR/ARG 2025 1,325 (+32,5%), 2000 0,566; BGR tambien minimo UE. Diferencia = poblacion: BM (ONU) ARG 45,85 M vs FMI (INDEC) 47,47 M; PBI ARG 2010-25 +10,2% en ambas. Con poblacion FMI: 1,3135. POL/ARG 2000 0,833, 2025 1,685 (FMI 0,881 y 1,776). Paises del Este bajo ARG: BM 9 en 2000, 0 desde 2018; FMI 7 en 2000, 0 desde 2019. ARG maximo serie 1990-2025 = 2011 29.425,8; 2025 -5,4% (FMI -9,7%). 2011-25 BM: ARG PBI +4,0% pob +9,9%; POL +57,5% / -4,3% (pc +64,5); BGR +38,6% / -12,5% (pc +58,3). CHL +10,8% y URY +17,6% sobre ARG (FMI +13,6 y +18,1); cruces BM 2018 y 2014. Mundo 21.914 (ARG 1,27x). FMI 2026 proy: ARG 2,1%, POL 3,4%."
+    },
     {
       "id": "2026-11-10-ganaderia-emite-mas-que-transporte-55-por-ciento",
       "titulo": "La ganadería emite en la Argentina 55% más gases de efecto invernadero que todo el transporte: 86,7 millones de toneladas contra 56,0",
