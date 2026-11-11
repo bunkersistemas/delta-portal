@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 11 Nov 2026 00:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 02:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La mina de oro Veladero tuvo su peor trimestre en al menos diez años: produjo 54.000 onzas, 45% menos, y cada onza costó casi el doble</title>
+      <link>https://coninteres.com/articulos/2026-11-11-veladero-peor-trimestre-oro-54000-onzas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-11-veladero-peor-trimestre-oro-54000-onzas.html</guid>
+      <pubDate>Wed, 11 Nov 2026 02:41:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>El oro subió 23% en un año, pero lo que le quedó a la empresa por cada onza vendida en Veladero bajó 22%: el costo por onza pasó de 1.352 a 2.606 dólares. Entre julio y septiembre, los temporales de nieve frenaron varias veces la mina de San Juan, según el informe que Barrick presentó ante la SEC, y fue el trimestre más bajo de los 43 desde 2016.</description>
+      <ci:numero>54.000 oz</ci:numero>
+      <ci:numeroEtiqueta>onzas de oro que produjo la mina Veladero (San Juan) entre julio y septiembre de 2026, el trimestre más bajo desde al menos 2016</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-11-veladero-peor-trimestre-oro-54000-onzas.png" length="72145" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-11-veladero-peor-trimestre-oro-54000-onzas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Bulgaria, el país más pobre de la Unión Europea, ya produce por habitante 27% más que la Argentina; en 2000 producía 44% menos</title>
       <link>https://coninteres.com/articulos/2026-11-11-bulgaria-supera-argentina-pbi-por-habitante.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que IMPSA tiene por cobrar a CORPOELEC, la eléctrica estatal de Venezuela, antes de previsiones, al 30 de septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-impsa-venezuela-corpoelec-137-millones.png" length="84694" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-impsa-venezuela-corpoelec-137-millones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Se patentan 1,56 motos por cada auto 0 km, el máximo desde 2007: en Formosa son cinco y en la Ciudad, menos de una cada cuatro</title>
-      <link>https://coninteres.com/articulos/2026-11-08-motos-por-auto-maximo-2007-formosa-ciudad.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-08-motos-por-auto-maximo-2007-formosa-ciudad.html</guid>
-      <pubDate>Sun, 08 Nov 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y octubre de 2026 se patentaron 1,56 motos por cada auto, camioneta o camión: el máximo de la serie del registro automotor, que empieza en 2007. Un año antes eran 0,98. Pero el promedio esconde dos países: en Formosa se patentaron cinco motos por auto y en el Noreste, cuatro; en la Ciudad de Buenos Aires, 0,22.</description>
-      <ci:numero>1,56</ci:numero>
-      <ci:numeroEtiqueta>motos 0 km patentadas por cada auto, camioneta o camión entre enero y octubre de 2026, el máximo de la serie que empieza en 2007</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-motos-por-auto-maximo-2007-formosa-ciudad.png" length="66173" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-motos-por-auto-maximo-2007-formosa-ciudad.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

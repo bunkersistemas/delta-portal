@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-11T00:46:17-03:00",
+    "actualizado": "2026-11-11T02:57:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-11-veladero-peor-trimestre-oro-54000-onzas",
+      "titulo": "La mina de oro Veladero tuvo su peor trimestre en al menos diez años: produjo 54.000 onzas, 45% menos, y cada onza costó casi el doble",
+      "bajada": "El oro subió 23% en un año, pero lo que le quedó a la empresa por cada onza vendida en Veladero bajó 22%: el costo por onza pasó de 1.352 a 2.606 dólares. Entre julio y septiembre, los temporales de nieve frenaron varias veces la mina de San Juan, según el informe que Barrick presentó ante la SEC, y fue el trimestre más bajo de los 43 desde 2016.",
+      "titulo_busqueda": "¿Cuánto oro produjo Veladero en 2026?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "54.000 oz",
+      "numero_label": "onzas de oro que produjo la mina Veladero (San Juan) entre julio y septiembre de 2026, el trimestre más bajo desde al menos 2016",
+      "fecha": "2026-11-11",
+      "hora": "02:41",
+      "archivo": "articulos/2026-11-11-veladero-peor-trimestre-oro-54000-onzas.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Barrick MD&A 3T26 (6-K SEC 09/11/2026, d141003dex992): Veladero (50%) 27 koz, COS 2.606 US$/oz, TCC 1.486, AISC 1.788; 2T26 36 koz y 2.098. x2 = 54 koz mina entera; 3T25 49 koz (98) y 1.352 (MD&A 3T25 d922379dex992): -44,9% / +92,8%. Serie 43 trimestres 1T16-3T26 (38 MD&A): pisos previos 2T21 31x2=62, 1T21 64, 2T17 72 (100%, MD&A 2T17). 2016 al 100%: 132+119+116+177=544 (MD&A 2T17, 3T17, 4T17). Sumas trimestrales = anual 2018-2025 (278, 274, 226, 172, 195, 207, 252, 230). 9M26 118 vs guia 180-200; 4T necesita 62; Barrick: around or below the low end. COS max previo desde 2019 = 2.309 (4T22). Precio realizado Barrick 4.243 vs 3.457 (+22,7%); margen COS 1.637 vs 2.105 (-22,2%). Contraste INDEC IPI minero cuadro 2 (serie_ipi_minero.xlsx, prov. 2026): plata y oro y sus concentrados 3T26 vs 3T25 -19,06% (ago -25,2%, sep -23,7%); doré -5,41%, promedio 30,71, minimo serie 2017-2026 (previo 1T25 31,03)."
+    },
     {
       "id": "2026-11-11-bulgaria-supera-argentina-pbi-por-habitante",
       "titulo": "Bulgaria, el país más pobre de la Unión Europea, ya produce por habitante 27% más que la Argentina; en 2000 producía 44% menos",
