@@ -1,11 +1,146 @@
 {
-  "generado": "2026-11-11T02:41",
+  "generado": "2026-11-12T11:36",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3591429",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T18:50",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICIÓN DE ACCIONES PROPIAS EN LOS TÉRMINOS DEL ART. 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7B7F011E-0F64-4EE1-A458-BCD2D9AB3C53"
+    },
+    {
+      "id": "cnv-3591364",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T18:32",
+      "entidad": "FIPLASTO S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - HECHO RELEVANTE INFORMANDO PRECIO DE CONVERSIÓN E INICIO DE PERÍODO DE CONVERSION - OBLIGACIONES NEGOCIABLES CONVERTIBLES CLASE I",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2095053F-DB64-4F76-971B-CB075D5BE95C"
+    },
+    {
+      "id": "cnv-3591410",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T18:29",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 11.11.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5C2D2A7A-E0B9-4A59-9DBD-FE85F3E425F2"
+    },
+    {
+      "id": "cnv-3591392",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T18:07",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/74120419-64A2-4DDE-862E-C7A29A928941"
+    },
+    {
+      "id": "cnv-3591382",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T18:01",
+      "entidad": "LUZ DE TRES PICOS S.A",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - INFORMA RESULTADOS DEL TRIMESTRE EEFF AL 30.09.26",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/ED534B4A-585F-4B54-BECB-92F7ADACFFE5"
+    },
+    {
+      "id": "cnv-3591278",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T16:38",
+      "entidad": "BANCO DE COMERCIO S.A",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN JUDICIAL - MULTA BCRA EN SUMARIO FINANCIERO N° 1647",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/DF45119E-A5CF-47D2-8A09-9363165CD192"
+    },
+    {
+      "id": "cnv-3591243",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T16:04",
+      "entidad": "CONTINENTAL URBANA S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CELEBRACIÓN CONTRATO DE FIDEICOMISO TORRET MONET - ALTOS DE NEUQUEN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FA60ADCD-B07F-42E6-B444-817449AE5696"
+    },
+    {
+      "id": "cnv-3591220",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T15:49",
+      "entidad": "CREDITO DIRECTO S.A",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - AVISO DE RESULTADO SOBRE ESTADOS FINANCIEROS POR EL PERÍODO DE NUEVE MESES FINALIZADO EL 30 DE SEPTIEMBRE DE 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F962E23D-DB68-4F79-BA74-7269A1DD9B2E"
+    },
+    {
+      "id": "cnv-3590787",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T15:47",
+      "entidad": "BANCO DE GALICIA Y BUENOS AIRES S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/CF59AA7B-1BE1-4509-B648-E3511077A66A"
+    },
+    {
+      "id": "cnv-3591120",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T14:26",
+      "entidad": "VALENTIN BIANCHI S A C I F",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ACUERDO PRELIMINAR DE CONDICIONES PARA LA REESTRUCTURACIÓN DE DEUDA FINANCIERA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/8D603FAF-F65A-48D5-9D18-4C443F65F481"
+    },
+    {
+      "id": "cnv-3591100",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T14:08",
+      "entidad": "CAMUZZI GAS DEL SUR S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE - DESAFECTACIÓN PARCIAL DE LA RESERVA FACULTATIVA Y DISTRIBUCIÓN DE DIVIDENDOS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F19BBF84-B9C5-4023-9388-80F0F2C50135"
+    },
+    {
+      "id": "cnv-3590039",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T11:06",
+      "entidad": "CARLOS CASADO",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN SOCIETARIA - RESEÑA INFORMATIVA A LOS ESTADOS FINANCIEROS AL 30.09.2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E22608CE-AE9D-4B39-B7CF-A359F9210A19"
+    },
+    {
+      "id": "cnv-3590762",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T10:28",
+      "entidad": "LONGVIE",
+      "tipo": "balance",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ART. 63 - REGLAMENTO DE LISTADO DE BYMA - SÍNTESIS DE ESTADOS FINANCIEROS TRIMESTRALES 30092026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7AE9BD10-A122-4284-A075-FAB0A28BD546"
+    },
+    {
+      "id": "cnv-3590726",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T09:37",
+      "entidad": "MINERA EXAR SA",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN FINANCIERA - HR - RECOMPRA DE OBLIGACIONES NEGOCIABLES",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7A541E0F-AC5F-4DD0-BB4A-8ED5AC3522E0"
+    },
+    {
+      "id": "cnv-3590701",
+      "fuente": "CNV",
+      "fecha": "2026-11-11T08:40",
+      "entidad": "SURCOS SOCIEDAD ANONIMA",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - HECHO RELEVANTE - OBLIGACIONES NEGOCIABLES SERIE XIV.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/D4B56DDB-6865-4EC5-ADDC-1B5AA1805D6F"
+    },
     {
       "id": "cnv-3590601",
       "fuente": "CNV",
@@ -1412,12 +1547,14 @@
     "sec-0001104659-26-123415": "2026-11-05",
     "sec-0001104659-26-123820": "2026-11-06",
     "sec-0001104659-26-123952": "2026-11-06",
+    "sec-0001104659-26-125796": "2026-11-12",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
     "sec-0001193125-26-452609": "2026-11-09",
     "sec-0001193125-26-454388": "2026-11-10",
     "sec-0001193125-26-455705": "2026-11-10",
+    "sec-0001193125-26-456852": "2026-11-12",
     "sec-0001292814-26-004906": "2026-10-13",
     "sec-0001292814-26-004916": "2026-10-14",
     "sec-0001292814-26-004922": "2026-10-14",
@@ -1450,6 +1587,9 @@
     "sec-0001292814-26-005176": "2026-11-09",
     "sec-0001292814-26-005178": "2026-11-09",
     "sec-0001292814-26-005191": "2026-11-09",
+    "sec-0001292814-26-005257": "2026-11-12",
+    "sec-0001292814-26-005265": "2026-11-12",
+    "sec-0001292814-26-005269": "2026-11-12",
     "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001342874-26-000052": "2026-11-04",
     "sec-0001554855-26-002124": "2026-10-14",

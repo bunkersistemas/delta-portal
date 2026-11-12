@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 11 Nov 2026 02:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 11:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El 41,2% de la deuda de Bodegas Bianchi ya está en las categorías de problemas y alto riesgo; en diciembre todos los bancos la tenían como normal</title>
+      <link>https://coninteres.com/articulos/2026-11-12-bodegas-bianchi-deuda-bancos-situacion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-12-bodegas-bianchi-deuda-bancos-situacion.html</guid>
+      <pubDate>Thu, 12 Nov 2026 12:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>En diciembre de 2025, todas las entidades que le prestaban a Bodegas Bianchi la tenían en situación normal. En septiembre de 2026 no queda ninguna, y el 41,2% de los $17.013 millones que debe está en las categorías de deudor con problemas o con alto riesgo de insolvencia. En el medio, 205 cheques rechazados y una cuota de su obligación negociable que pagaron los bancos garantes. El 11 de noviembre, la bodega informó ante la CNV un acuerdo preliminar con sus acreedores financieros para reestructurar su deuda; el registro del Banco Central muestra cómo se llegó ahí.</description>
+      <ci:numero>41,2%</ci:numero>
+      <ci:numeroEtiqueta>parte de la deuda de Bodegas Bianchi con bancos y financieras en situación 3 o 4 (con problemas o alto riesgo de insolvencia), septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-12-bodegas-bianchi-deuda-bancos-situacion.png" length="73580" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-12-bodegas-bianchi-deuda-bancos-situacion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La mina de oro Veladero tuvo su peor trimestre en al menos diez años: produjo 54.000 onzas, 45% menos, y cada onza costó casi el doble</title>
       <link>https://coninteres.com/articulos/2026-11-11-veladero-peor-trimestre-oro-54000-onzas.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>juicios por accidentes y enfermedades laborales notificados en 2025, la mayor cantidad de la serie oficial que empieza en 2010</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-juicios-laborales-record-ciudad-provincia-mapa.png" length="67804" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-juicios-laborales-record-ciudad-provincia-mapa.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>IMPSA vende todo en la Argentina, pero el 92,6% de lo que tiene por cobrar está en Venezuela: US$137,7 millones que su auditor no puede decir cuándo cobrará</title>
-      <link>https://coninteres.com/articulos/2026-11-08-impsa-venezuela-corpoelec-137-millones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-08-impsa-venezuela-corpoelec-137-millones.html</guid>
-      <pubDate>Sun, 08 Nov 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>IMPSA, la fábrica mendocina de turbinas que el Estado vendió en febrero de 2025, factura todo en la Argentina, pero el 92,63% de lo que tiene por cobrar es de la eléctrica estatal de Venezuela: US$137,7 millones. Ese saldo casi no se movió en 2026, y su auditor emitió por él una conclusión con salvedades. Mientras tanto, en nueve meses facturó $37.368 millones y perdió $48.049 millones.</description>
-      <ci:numero>US$137,7 M</ci:numero>
-      <ci:numeroEtiqueta>lo que IMPSA tiene por cobrar a CORPOELEC, la eléctrica estatal de Venezuela, antes de previsiones, al 30 de septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-impsa-venezuela-corpoelec-137-millones.png" length="84694" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-impsa-venezuela-corpoelec-137-millones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-11T02:57:33-03:00",
+    "actualizado": "2026-11-12T11:53:58-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-12-bodegas-bianchi-deuda-bancos-situacion",
+      "titulo": "El 41,2% de la deuda de Bodegas Bianchi ya está en las categorías de problemas y alto riesgo; en diciembre todos los bancos la tenían como normal",
+      "bajada": "En diciembre de 2025, todas las entidades que le prestaban a Bodegas Bianchi la tenían en situación normal. En septiembre de 2026 no queda ninguna, y el 41,2% de los $17.013 millones que debe está en las categorías de deudor con problemas o con alto riesgo de insolvencia. En el medio, 205 cheques rechazados y una cuota de su obligación negociable que pagaron los bancos garantes. El 11 de noviembre, la bodega informó ante la CNV un acuerdo preliminar con sus acreedores financieros para reestructurar su deuda; el registro del Banco Central muestra cómo se llegó ahí.",
+      "titulo_busqueda": "¿Cuánto debe Bodegas Bianchi?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de una deuda",
+      "numero": "41,2%",
+      "numero_label": "parte de la deuda de Bodegas Bianchi con bancos y financieras en situación 3 o 4 (con problemas o alto riesgo de insolvencia), septiembre de 2026",
+      "fecha": "2026-11-12",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-12-bodegas-bianchi-deuda-bancos-situacion.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA Central de Deudores, deudas históricas CUIT 30-50167832-1, período 202609 (consulta 12/11/2026): situación 3 ICBC 2.129.542 + BBVA 1.333.766 = 3.463.308 miles; situación 4 Nación 1.539.945 + Comafi 1.584.724 + Industrial 425.079 = 3.549.748 miles; total 17.012.684 miles (12 entidades incl. YPF $45 mil) -> 7.013.056 / 17.012.684 = 41,22%. Deuda actual (endpoint Deudas) = mismo total y situaciones. Dic-2025: 17.873.011 miles, 100% situación 1 (14 entidades financieras + YPF). Contraste: cheques rechazados al 30/01/2026 = 108 por $1.294.188.992,95, idéntico a El Cronista 05/02/2026; hechos relevantes CNV 05/02, 08/06, 10/08 y 11/11/2026 confirman la secuencia."
+    },
     {
       "id": "2026-11-11-veladero-peor-trimestre-oro-54000-onzas",
       "titulo": "La mina de oro Veladero tuvo su peor trimestre en al menos diez años: produjo 54.000 onzas, 45% menos, y cada onza costó casi el doble",

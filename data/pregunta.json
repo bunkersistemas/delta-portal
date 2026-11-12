@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-11",
-  "pregunta": "Según el Inventario Nacional de gases, en 2022 la ganadería emitió 86,7 millones de toneladas de CO₂ equivalente y todo el transporte, 56,0. La mayor parte de lo que emite el ganado es metano. ¿Por qué el inventario puede sumar metano y dióxido de carbono en una misma cuenta?",
+  "fecha": "2026-11-12",
+  "pregunta": "Según el Banco Mundial, en 2025 Bulgaria produjo 35.326 dólares por habitante y la Argentina, 27.847, medidos a paridad de poder adquisitivo. ¿Por qué se usa esa medida y no el PBI convertido al tipo de cambio de cada país?",
   "opciones": [
-    "Porque convierte cada gas a CO₂ equivalente: cuánto dióxido de carbono haría el mismo efecto sobre el clima en cien años",
-    "Porque el metano se transforma en dióxido de carbono apenas sale a la atmósfera",
-    "Porque suma las toneladas físicas de cada gas, sin importar cuánto calienta cada uno"
+    "Porque corrige por lo que cuestan las cosas en cada país: un dólar no compra lo mismo en Buenos Aires que en Sofía",
+    "Porque el tipo de cambio oficial argentino no existe en las estadísticas del Banco Mundial",
+    "Porque la paridad de poder adquisitivo descuenta la inflación de cada año y el tipo de cambio no"
   ],
   "correcta": 0,
-  "explicacion": "Los gases no calientan todos igual: una tonelada de metano atrapa mucho más calor que una de dióxido de carbono, aunque dura menos en la atmósfera. Para poder sumarlos, los inventarios convierten cada gas a CO₂ equivalente con un factor que mide su efecto en cien años, la métrica del IPCC. Por eso el ganado, que emite sobre todo metano, aparece como la primera fuente del país. Si se usara otra ventana de tiempo, por ejemplo veinte años, el peso del metano sería todavía mayor; con una más larga, menor.",
-  "nota": "articulos/2026-11-10-ganaderia-emite-mas-que-transporte-55-por-ciento.html",
+  "explicacion": "Convertir el PBI al tipo de cambio dice cuántos dólares valdría lo producido en el mercado de divisas, pero no cuánto se puede comprar con eso adentro del país. La paridad de poder adquisitivo convierte todo a 'dólares internacionales' que compran la misma canasta en todos lados, y así compara niveles de vida. La inflación es otra corrección: la serie del Banco Mundial está además a precios constantes de 2021, para que lo que cambie de un año a otro sea cuánto se produce y no los precios. Son dos ajustes distintos, y la nota usa los dos.",
+  "nota": "articulos/2026-11-11-bulgaria-supera-argentina-pbi-por-habitante.html",
   "leccion": ""
 }
