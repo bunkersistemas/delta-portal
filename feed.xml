@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 11:54:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 12:51:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Mendoza cambió su ley de petróleo con la producción en el piso: sacó 56,7% menos que en 2002 y Neuquén ya produce 13 veces más</title>
+      <link>https://coninteres.com/articulos/2026-11-12-mendoza-petroleo-cae-57-ley-hidrocarburos-neuquen-13-veces.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-12-mendoza-petroleo-cae-57-ley-hidrocarburos-neuquen-13-veces.html</guid>
+      <pubDate>Thu, 12 Nov 2026 13:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>Mendoza aprobó una ley de hidrocarburos pensada para traer Vaca Muerta a Malargüe, y lo hizo en el peor momento de su petróleo: entre enero y septiembre de 2026 la provincia produjo 2.129.348 metros cúbicos, 56,7% menos que en los mismos meses de 2002 y lo más bajo desde 1999, según la Secretaría de Energía. En 2017 Neuquén sacaba apenas 30% más que Mendoza; hoy saca 13 veces más.</description>
+      <ci:numero>−56,7%</ci:numero>
+      <ci:numeroEtiqueta>caída del petróleo producido en Mendoza entre enero y septiembre, de 2002 a 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-12-mendoza-petroleo-cae-57-ley-hidrocarburos-neuquen-13-veces.png" length="70185" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-12-mendoza-petroleo-cae-57-ley-hidrocarburos-neuquen-13-veces.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El 41,2% de la deuda de Bodegas Bianchi ya está en las categorías de problemas y alto riesgo; en diciembre todos los bancos la tenían como normal</title>
       <link>https://coninteres.com/articulos/2026-11-12-bodegas-bianchi-deuda-bancos-situacion.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuánto más barata llegó en 2026 la tonelada de caño para gasoductos de la India que la de Brasil, precio en el puerto de origen</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-canos-gasoductos-india-mas-baratos-que-brasil.png" length="78131" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-canos-gasoductos-india-mas-baratos-que-brasil.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los juicios por accidentes de trabajo llegaron a un récord en 2025, pero con otro mapa: la Ciudad pasó de casi la mitad a uno de cada cinco</title>
-      <link>https://coninteres.com/articulos/2026-11-08-juicios-laborales-record-ciudad-provincia-mapa.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-08-juicios-laborales-record-ciudad-provincia-mapa.html</guid>
-      <pubDate>Sun, 08 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Los juicios por accidentes y enfermedades laborales llegaron en 2025 a 130.045, la mayor cantidad de la serie oficial que empieza en 2010, aunque los accidentes notificados bajaron. La ley de 2017 los había reducido casi a la mitad en dos años. Volvieron, pero con otro mapa: en 2016 la Ciudad de Buenos Aires tenía el 48,1% de los juicios y la Provincia, el 15,6%; en 2025, la Ciudad tiene el 19,7% y la Provincia, el 38,4%.</description>
-      <ci:numero>130.045</ci:numero>
-      <ci:numeroEtiqueta>juicios por accidentes y enfermedades laborales notificados en 2025, la mayor cantidad de la serie oficial que empieza en 2010</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-juicios-laborales-record-ciudad-provincia-mapa.png" length="67804" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-juicios-laborales-record-ciudad-provincia-mapa.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

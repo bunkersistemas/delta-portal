@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-12T11:36",
+  "generado": "2026-11-12T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3591349",
+      "fuente": "CNV",
+      "fecha": "2026-11-12T11:45",
+      "entidad": "ANGEL ESTRADA Y CIA",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - ESTADOS FINANCIEROS. ESTADO DE RESULTADOS INTEGRAL. ESTADO DE SITUACIÓN FINANCIERA. ESTADO DE CAMBIOS EN EL PATRIMONIO. ESTADO DE FLUJOS DE EFECTIVO NOTAS 1 A 20",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F3A6BC9A-BF4E-41D9-9BDB-D1067622F75B"
+    },
     {
       "id": "cnv-3591429",
       "fuente": "CNV",

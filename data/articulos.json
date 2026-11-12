@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-12T11:53:58-03:00",
+    "actualizado": "2026-11-12T12:51:13-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-12-mendoza-petroleo-cae-57-ley-hidrocarburos-neuquen-13-veces",
+      "titulo": "Mendoza cambió su ley de petróleo con la producción en el piso: sacó 56,7% menos que en 2002 y Neuquén ya produce 13 veces más",
+      "bajada": "Mendoza aprobó una ley de hidrocarburos pensada para traer Vaca Muerta a Malargüe, y lo hizo en el peor momento de su petróleo: entre enero y septiembre de 2026 la provincia produjo 2.129.348 metros cúbicos, 56,7% menos que en los mismos meses de 2002 y lo más bajo desde 1999, según la Secretaría de Energía. En 2017 Neuquén sacaba apenas 30% más que Mendoza; hoy saca 13 veces más.",
+      "titulo_busqueda": "¿Cuánto petróleo produce Mendoza?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "−56,7%",
+      "numero_label": "caída del petróleo producido en Mendoza entre enero y septiembre, de 2002 a 2026",
+      "fecha": "2026-11-12",
+      "hora": "13:30",
+      "archivo": "articulos/2026-11-12-mendoza-petroleo-cae-57-ley-hidrocarburos-neuquen-13-veces.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SE SESCO tablas dinamicas (primaria+secundaria+asistida+condensado, Mendoza ene-sep): 2002 4.917.966 m3 -> 2026 2.129.348 m3; recalculo base por pozo 2026 2.141.823 (-56,4%); contraste DEIE Mendoza (Direccion de Regalias) 2002 6.772.137 -> 2024 3.282.463 (-51,5%) vs SE 6.772.374 -> 3.233.048 (-52,3%); 2007-2008 de la tabla SE hasta 2008 no cierran con DEIE (+10,9% y +16,1%), excluidos."
+    },
     {
       "id": "2026-11-12-bodegas-bianchi-deuda-bancos-situacion",
       "titulo": "El 41,2% de la deuda de Bodegas Bianchi ya está en las categorías de problemas y alto riesgo; en diciembre todos los bancos la tenían como normal",
