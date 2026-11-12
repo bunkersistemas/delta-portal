@@ -38,6 +38,25 @@
 # ===================================================================
 $ErrorActionPreference = 'Continue'
 $env:GIT_TERMINAL_PROMPT = '0'
+# 12/11/2026: el push quedo 24 min colgado en el Credential Manager esperando una
+# ventana que nadie ve. La VM sube por SSH con clave propia (core.sshCommand del
+# repo); esto es por si algo vuelve a intentar el Credential Manager.
+$env:GCM_INTERACTIVE = 'never'
+
+# git con tope de tiempo: si no termina en $seg segundos se mata el arbol y
+# devuelve 124, para que la corrida falle y avise en vez de colgarse.
+function GitTope($seg, [string[]]$argumentos) {
+  # Start-Process une los argumentos con espacios: el que tiene espacios va entre comillas
+  $linea = ($argumentos | ForEach-Object { if ($_ -match '\s') { '"' + $_ + '"' } else { $_ } }) -join ' '
+  $p = Start-Process -FilePath 'git' -ArgumentList $linea -NoNewWindow -PassThru `
+    -RedirectStandardOutput "$env:TEMP\ci_git_out.txt" -RedirectStandardError "$env:TEMP\ci_git_err.txt"
+  $null = $p.Handle
+  if (-not $p.WaitForExit($seg * 1000)) {
+    & taskkill.exe /PID $p.Id /T /F 2>&1 | Out-Null
+    return 124
+  }
+  return $p.ExitCode
+}
 $env:PYTHONIOENCODING = 'utf-8'
 # Python y git escriben UTF-8: sin esto PowerShell 5.1 lee su salida con la
 # pagina de codigos de la consola y los titulos con tildes llegan rotos al
@@ -226,9 +245,10 @@ function Subir($mensaje, $nota = '') {
   git add -A 2>&1 | Out-Null
   git -c user.email='redaccion@coninteres.com' -c user.name='Redaccion Con Interes' commit -m $mensaje 2>&1 | Out-Null
   if ($LASTEXITCODE -ne 0) { Terminar 1 'falla' '[FALLA] no se pudo commitear' $nota }
-  git pull --rebase --autostash origin main 2>&1 | Out-Null
-  git push origin main 2>&1 | Out-Null
-  if ($LASTEXITCODE -ne 0) { Terminar 1 'falla' '[FALLA] el push fallo; el commit quedo en la maquina' $nota }
+  $null = GitTope 120 @('pull','--rebase','--autostash','origin','main')
+  $rcPush = GitTope 120 @('push','origin','main')
+  if ($rcPush -eq 124) { Terminar 1 'falla' '[FALLA] el push no termino en 2 minutos; el commit quedo en la maquina' $nota }
+  if ($rcPush -ne 0) { Terminar 1 'falla' '[FALLA] el push fallo; el commit quedo en la maquina' $nota }
 }
 
 # Controla un borrador y lo publica. Devuelve el codigo del control si NO se
@@ -273,8 +293,8 @@ function Rechazar($id, $motivo) {
 # ---- 1. repo al dia y cola ----
 $sucio = git status --porcelain
 if ($sucio) { Terminar 1 'bloqueada' ('[FALLA] hay cambios sin commitear, no se corre: ' + ($sucio -join ' | ')) }
-git pull --ff-only origin main 2>&1 | Out-Null
-if ($LASTEXITCODE -ne 0) { Terminar 1 'falla' '[FALLA] git pull no pudo traer lo ultimo' }
+$rcPull = GitTope 120 @('pull','--ff-only','origin','main')
+if ($rcPull -ne 0) { Terminar 1 'falla' ('[FALLA] git pull no pudo traer lo ultimo (codigo ' + $rcPull + ')') }
 Anotar ('repo: ' + (git log --oneline -1))
 
 $py = $null
