@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 16:24:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 16:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Molinos cobró 9,8% menos por tonelada, descontada la inflación, y pasó de pérdida a ganancia operativa: recortó $56.687 millones de gastos</title>
+      <link>https://coninteres.com/articulos/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.html</guid>
+      <pubDate>Thu, 12 Nov 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Molinos Río de la Plata cobró menos por cada kilo de alimentos y aun así pasó de perder a ganar con su operación. Entre enero y septiembre vendió en el país 297.426 toneladas, 1,9% más que en 2025, a $2.427 por kilo: 9,8% menos, descontada la inflación. Su resultado operativo pasó de una pérdida de $29.146 millones a una ganancia de $52.997 millones, y siete de cada diez pesos de esa mejora salieron de gastar $56.687 millones menos en comercialización y administración.</description>
+      <ci:numero>−9,8%</ci:numero>
+      <ci:numeroEtiqueta>lo que Molinos cobró por cada tonelada de alimentos vendida en el país, enero a septiembre de 2026 contra 2025, descontada la inflación</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.png" length="77695" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La luz y el gas subieron 11,1% en la Patagonia en octubre con la nueva Zona Fría y bajaron 2,2% en el Noreste, donde no rige</title>
       <link>https://coninteres.com/articulos/2026-11-12-zona-fria-inflacion-octubre-luz-gas-regiones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte de lo que facturó Edenor entre enero y septiembre de 2026 que le quedó después de pagar la energía que compra</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-edenor-margen-distribucion-40-por-ciento.png" length="73902" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-edenor-margen-distribucion-40-por-ciento.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>De cada 100 euros que Europa le compra a la Argentina, 38 tendrán que probar que no salieron de tierras desmontadas</title>
-      <link>https://coninteres.com/articulos/2026-11-08-ley-deforestacion-europa-38-por-ciento-exportaciones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-08-ley-deforestacion-europa-38-por-ciento-exportaciones.html</guid>
-      <pubDate>Sun, 08 Nov 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>La ley europea contra la deforestación, que empieza a regir el 30 de diciembre, alcanza el 3,9% de lo que la Unión le compra al promedio de sus proveedores de afuera del bloque. En la Argentina alcanza el 37,9%, €3.033,4 millones de lo que le compró en 2025: casi diez veces más. Tres de cada cuatro de esos euros son harina de soja; los cueros salieron de la lista en septiembre.</description>
-      <ci:numero>37,9%</ci:numero>
-      <ci:numeroEtiqueta>parte de lo que la Unión Europea le compró a la Argentina en 2025 que alcanza su ley contra la deforestación</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-08-ley-deforestacion-europa-38-por-ciento-exportaciones.png" length="62674" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-08-ley-deforestacion-europa-38-por-ciento-exportaciones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

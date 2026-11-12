@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-12T16:24:18-03:00",
+    "actualizado": "2026-11-12T16:44:08-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos",
+      "titulo": "Molinos cobró 9,8% menos por tonelada, descontada la inflación, y pasó de pérdida a ganancia operativa: recortó $56.687 millones de gastos",
+      "bajada": "Molinos Río de la Plata cobró menos por cada kilo de alimentos y aun así pasó de perder a ganar con su operación. Entre enero y septiembre vendió en el país 297.426 toneladas, 1,9% más que en 2025, a $2.427 por kilo: 9,8% menos, descontada la inflación. Su resultado operativo pasó de una pérdida de $29.146 millones a una ganancia de $52.997 millones, y siete de cada diez pesos de esa mejora salieron de gastar $56.687 millones menos en comercialización y administración.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "−9,8%",
+      "numero_label": "lo que Molinos cobró por cada tonelada de alimentos vendida en el país, enero a septiembre de 2026 contra 2025, descontada la inflación",
+      "fecha": "2026-11-12",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Molinos EEFF consolidados 30/09/2026 (CNV publicview 0a681b0e, 10/11/2026): nota 6 alimentos mercado local 721.833 (2026) / 785.203 (2025); resena punto 5 toneladas mercado local 297.426 / 291.760 (2025 igual en resena 9M25). $/t 2.426.933 vs 2.691.263 = -9,82%. Recalculo reexpresion: EEFF 9M25 (eeda825a) 588.807 x IPC nac INDEC sep26/sep25 (12.514,1508/9.384,0922 = 1,33355) = 785.203. 2024: comparativo 765.862 (pesos sep-25) x 1,33355 / 326.815 t = 3.125.055 $/t (-22,3% en dos anos). Resultado operativo 52.997 vs -29.146 (+82.143): bruta +23.893, comercializacion +29.939, administracion +26.748 (= 56.687 = -22,9%, cifra de la resena), otros ingresos +19.211, otros gastos -18.034, asociadas +386. Contraste: IPC GBA promedio ene-sep 2026/2025: general 33,3%, pan y cereales 27,8% (-4,1% real), cafe te yerba 20,5% (-9,6%), aceites 34,0% (+0,5%). Serie toneladas 9M 2019-2026 de resenas 9M23, 9M25, 9M26: 2020 maximo 368.959, 2025 minimo 291.760. Resena texto dice ganancia neta 56.863; estado y cuadro 56.195 (usado)."
+    },
     {
       "id": "2026-11-12-zona-fria-inflacion-octubre-luz-gas-regiones",
       "titulo": "La luz y el gas subieron 11,1% en la Patagonia en octubre con la nueva Zona Fría y bajaron 2,2% en el Noreste, donde no rige",
