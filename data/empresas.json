@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-12T16:30",
+  "generado": "2026-11-12T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3592107",
+      "fuente": "CNV",
+      "fecha": "2026-11-12T17:54",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 12.11.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FFD0064D-E577-4AC5-8662-19FFC46D1144"
+    },
     {
       "id": "cnv-3591985",
       "fuente": "CNV",
@@ -1566,6 +1575,8 @@
     "sec-0001104659-26-123820": "2026-11-06",
     "sec-0001104659-26-123952": "2026-11-06",
     "sec-0001104659-26-125796": "2026-11-12",
+    "sec-0001104659-26-126259": "2026-11-12",
+    "sec-0001104659-26-126275": "2026-11-12",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",

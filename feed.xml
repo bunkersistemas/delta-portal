@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 16:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 18:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Ángel Estrada vendió 54% menos artículos de papelería que hace tres años, y la importación de cuadernos se multiplicó por 20,9</title>
+      <link>https://coninteres.com/articulos/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.html</guid>
+      <pubDate>Thu, 12 Nov 2026 19:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>En tres años, la fábrica riojana de cuadernos y repuestos Ángel Estrada pasó de vender 37,8 millones de unidades a 17,3 millones: 54,1% menos. En el mismo lapso, la Argentina pasó de importar 324 toneladas de cuadernos por año a 6.763, casi todo de China y Brasil, según el INDEC. En su ejercicio terminado en junio de 2026, la empresa facturó 33,6% menos descontada la inflación, perdió $4.819 millones y anotó $4.981 millones de costo por capacidad ociosa.</description>
+      <ci:numero>−54,1%</ci:numero>
+      <ci:numeroEtiqueta>unidades de papelería que vendió Ángel Estrada en el ejercicio julio 2025-junio 2026 contra el de julio 2022-junio 2023</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.png" length="69316" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Molinos cobró 9,8% menos por tonelada, descontada la inflación, y pasó de pérdida a ganancia operativa: recortó $56.687 millones de gastos</title>
       <link>https://coninteres.com/articulos/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que la ANSES le giró a la caja de jubilaciones de la provincia de Buenos Aires entre enero de 2024 y octubre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.png" length="75201" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>De cada $100 que factura Edenor, $40 le quedan para la red y $60 se van en comprar energía: en 2022 le quedaban $30 y en 2007, $55</title>
-      <link>https://coninteres.com/articulos/2026-11-09-edenor-margen-distribucion-40-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-edenor-margen-distribucion-40-por-ciento.html</guid>
-      <pubDate>Mon, 09 Nov 2026 00:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Edenor se quedó con el 40,2% de lo que facturó entre enero y septiembre de 2026: de $3,05 billones, gastó $1,83 billones en la energía que compra para revender. Ese resto es su margen de distribución, y con él paga la red, los sueldos, las inversiones y los impuestos. En veinte años la porción fue del 55,1% al 30,4%, siguiendo las decisiones sobre tarifas. En el tercer trimestre volvió a bajar, porque la energía subió más rápido que lo que cobra.</description>
-      <ci:numero>40,2%</ci:numero>
-      <ci:numeroEtiqueta>parte de lo que facturó Edenor entre enero y septiembre de 2026 que le quedó después de pagar la energía que compra</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-edenor-margen-distribucion-40-por-ciento.png" length="73902" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-edenor-margen-distribucion-40-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
