@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-12T18:42:47-03:00",
+    "actualizado": "2026-11-12T20:46:18-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-12-gasandes-35-anos-chile-gas-cae-42",
+      "titulo": "GasAndes ofreció por hasta 35 años su capacidad libre hacia Chile, y en septiembre pasó por el caño 41,6% menos gas que un año antes",
+      "bajada": "GasAndes, el gasoducto que cruza la cordillera desde Mendoza hasta Santiago, ofreció desde julio 4,8 millones de metros cúbicos diarios de capacidad en firme, por plazos de hasta 35 años. Pero por su medidor de exportación pasa cada vez menos gas: en septiembre fueron 2,1 millones de m³ por día, 41,6% menos que un año antes y el mes más bajo de la serie diaria de la Secretaría de Energía. Del otro lado de la cordillera está la explicación que muestran los datos: Chile generó con gas 51,7% menos electricidad que en septiembre de 2025, y con sus centrales hidroeléctricas, 54% más.",
+      "titulo_busqueda": "GasAndes: cuánto gas exporta la Argentina a Chile en 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−41,6%",
+      "numero_label": "gas exportado a Chile por GasAndes en septiembre de 2026 contra septiembre de 2025",
+      "fecha": "2026-11-12",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-12-gasandes-35-anos-chile-gas-cae-42.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SE, mediciones-exportaciones-gas.csv (datos diarios, 9.300 kcal), punto 'Gas Andes' (Mendoza, medidor C9554; los otros 4 suman 0,13 MMm3 en toda la serie): sep-25 107,94 MMm3 (30 dias), sep-26 63,00 (30 dias) = -41,64%; oct-25 136,24 vs oct-26 68,94 = -49,40%; ago -38,54%; mar-26 223,10 (7,20/d) maximo; sep-26 2,10/d minimo de la serie (desde jul-25). Bases Concurso Abierto GAA 01/2026 (gasandes.com): 4,80 MMm3/d remanente desde 01/07/2026, 1 a 35 anos. Contraste CEN Chile, Informe Mensual sep-26: gas natural 325,3 GWh vs 672,9 (sep-25, informe oct25) = -51,66%; ago 647,7 vs 1.230,3 = -47,35%; hidro 2.668,1 vs 1.733,0 (+54,0%); costo marginal Quillota 23,5 vs 40,2 US$/MWh. Adjudicacion (100%, 6 empresas, firme 25-30% -> ~80%) solo iProfesional 12/11."
+    },
     {
       "id": "2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos",
       "titulo": "Ángel Estrada vendió 54% menos artículos de papelería que hace tres años, y la importación de cuadernos se multiplicó por 20,9",

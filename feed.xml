@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 18:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 12 Nov 2026 20:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>GasAndes ofreció por hasta 35 años su capacidad libre hacia Chile, y en septiembre pasó por el caño 41,6% menos gas que un año antes</title>
+      <link>https://coninteres.com/articulos/2026-11-12-gasandes-35-anos-chile-gas-cae-42.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-12-gasandes-35-anos-chile-gas-cae-42.html</guid>
+      <pubDate>Thu, 12 Nov 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>GasAndes, el gasoducto que cruza la cordillera desde Mendoza hasta Santiago, ofreció desde julio 4,8 millones de metros cúbicos diarios de capacidad en firme, por plazos de hasta 35 años. Pero por su medidor de exportación pasa cada vez menos gas: en septiembre fueron 2,1 millones de m³ por día, 41,6% menos que un año antes y el mes más bajo de la serie diaria de la Secretaría de Energía. Del otro lado de la cordillera está la explicación que muestran los datos: Chile generó con gas 51,7% menos electricidad que en septiembre de 2025, y con sus centrales hidroeléctricas, 54% más.</description>
+      <ci:numero>−41,6%</ci:numero>
+      <ci:numeroEtiqueta>gas exportado a Chile por GasAndes en septiembre de 2026 contra septiembre de 2025</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-12-gasandes-35-anos-chile-gas-cae-42.png" length="72953" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-12-gasandes-35-anos-chile-gas-cae-42.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Ángel Estrada vendió 54% menos artículos de papelería que hace tres años, y la importación de cuadernos se multiplicó por 20,9</title>
       <link>https://coninteres.com/articulos/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>ramas de la industria que en enero-septiembre de 2026 produjeron lo menos de la serie del INDEC, que empieza en 2016</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-industria-partida-11-ramas-piso-9-techo.png" length="67086" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-industria-partida-11-ramas-piso-9-techo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La ANSES giró $290.667 millones a las cajas de jubilaciones de nueve provincias desde 2024; a la bonaerense, que en 2023 se llevó el 68,6%, nada</title>
-      <link>https://coninteres.com/articulos/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.html</guid>
-      <pubDate>Mon, 09 Nov 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Hasta 2023, la caja de jubilaciones de Buenos Aires recibía la parte más grande de lo que la ANSES giraba a las provincias. Desde 2024 no recibió un peso, mientras otras nueve cajas cobraron $290.667 millones hasta octubre de 2026, con convenios firmados una por una. Son trece las provincias que conservan su propia caja, y la Nación se comprometió en 1999 a cubrirles el déficit. Buenos Aires lo reclama en la Corte Suprema. Y lo que reciben todas juntas en 2026 es menos de la quinta parte de lo que recibían antes de 2024, descontada la inflación.</description>
-      <ci:numero>$0</ci:numero>
-      <ci:numeroEtiqueta>lo que la ANSES le giró a la caja de jubilaciones de la provincia de Buenos Aires entre enero de 2024 y octubre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.png" length="75201" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-anses-cajas-jubilaciones-provincias-bonaerense-cero.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
