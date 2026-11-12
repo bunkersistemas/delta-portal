@@ -78,6 +78,11 @@
         "fecha": "2026-06-01",
         "titulo": "La inflación mayorista bajó a 1,1% en junio",
         "nota": "../articulos/2026-07-20-inflacion-mayorista-junio.html"
+      },
+      {
+        "fecha": "2026-10-31",
+        "titulo": "La inflación de octubre fue 2,2%: la luz y el gas subieron 11,1% en la Patagonia con la nueva Zona Fría",
+        "nota": "../articulos/2026-11-12-zona-fria-inflacion-octubre-luz-gas-regiones.html"
       }
     ]
   }

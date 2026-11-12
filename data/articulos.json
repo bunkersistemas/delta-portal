@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-12T12:51:13-03:00",
+    "actualizado": "2026-11-12T16:24:18-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-12-zona-fria-inflacion-octubre-luz-gas-regiones",
+      "titulo": "La luz y el gas subieron 11,1% en la Patagonia en octubre con la nueva Zona Fría y bajaron 2,2% en el Noreste, donde no rige",
+      "bajada": "La inflación de octubre fue 2,2%, la más alta desde abril, y el INDEC atribuye la mayor suba al gas y al cambio de la Zona Fría. El mapa de las subas sigue al de la ley: el rubro electricidad, gas y otros combustibles del hogar subió 11,1% en la Patagonia, 10,9% en la región pampeana y 9,9% en Cuyo, la mayor suba desde febrero en las tres. En el Noreste, donde ninguna provincia tiene hogares en el régimen, bajó 2,2%.",
+      "titulo_busqueda": "Inflación de octubre de 2026: cuánto subieron la luz y el gas en cada región con la nueva Zona Fría",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "11,1%",
+      "numero_label": "suba de la luz, el gas y otros combustibles del hogar en la Patagonia en octubre de 2026, con la nueva Zona Fría",
+      "fecha": "2026-11-12",
+      "hora": "17:30",
+      "archivo": "articulos/2026-11-12-zona-fria-inflacion-octubre-luz-gas-regiones.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC IPC oct-26 (ipc_11_269335F5BA6B.pdf, 12/11/2026) cuadro 21: 04.5 Electricidad, gas y otros combustibles GBA 4,4 Pampeana 10,9 Noreste -2,2 Noroeste 2,8 Cuyo 9,9 Patagonia 11,1. Recalculo serie_ipc_aperturas.csv: Patagonia 27.952,9748 -> 31.042,0854 (+11,05%), Pampeana 17.698,4558 -> 19.620,8124 (+10,86%), Noreste 29.728,0801 -> 29.078,2719 (-2,19%). Max desde feb-26 (Pat 16,0 Pamp 11,7 Cuyo 16,7); NEA minimo de la serie (previo -1,4 dic-18). Nota 1 del resumen ejecutivo: gas por tarifas 1/10, bloques SEF y normativa de zonas frias vigente 13/10 (Res. ENReGE 816-822). Nacional 2,2 (12.514,1508 -> 12.785,9321), Vivienda 4,2 (max desde feb 6,8), regulados 2,9, nucleo 1,5 (minimo desde jul-25). Contraste ENReGE: Camuzzi Pampeana BAP R1 dif 70% oct 3.285,85 + 233,21/m3 -> plena 4.694,07 + 333,15 (Res. 821, +42,9%); CGS Neuquen R1 fijo 3.432,42 -> 6.864,84 (Res. 822). SE feb-2024: ningun hogar del regimen en Chaco, Corrientes, Formosa, Misiones."
+    },
     {
       "id": "2026-11-12-mendoza-petroleo-cae-57-ley-hidrocarburos-neuquen-13-veces",
       "titulo": "Mendoza cambió su ley de petróleo con la producción en el piso: sacó 56,7% menos que en 2002 y Neuquén ya produce 13 veces más",
