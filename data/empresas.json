@@ -1,11 +1,48 @@
 {
-  "generado": "2026-11-13T12:30",
+  "generado": "2026-11-13T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3592542",
+      "fuente": "CNV",
+      "fecha": "2026-11-13T13:18",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - A3 MERCADOS S.A. HECHO RELEVANTE PROGRAMA DE RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FF9D3DAD-91A0-4DC8-B41B-89427922149C"
+    },
+    {
+      "id": "cnv-3592484",
+      "fuente": "CNV",
+      "fecha": "2026-11-13T12:32",
+      "entidad": "TRANSPORTADORA DE GAS DEL SUR S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE. APROBACIÓN DE PROYECTOS RIGI.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/AB63D205-CA23-4569-BD18-02888989B197"
+    },
+    {
+      "id": "cnv-3592479",
+      "fuente": "CNV",
+      "fecha": "2026-11-13T12:31",
+      "entidad": "MASTELLONE HERMANOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE REF REP. DE SUSTENTABILIDAD 2025",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/76C62F94-B26E-40D5-8A75-5E7236FB604B"
+    },
+    {
+      "id": "sec-0001711375-26-000059",
+      "fuente": "SEC",
+      "fecha": "2026-11-13",
+      "entidad": "Loma Negra",
+      "ticker": "LOMA",
+      "tipo": "balance",
+      "descripcion": "6-K EX-1 2 financialstatements3q26e.htm EX-1 financialstatements3q26e LOMA NEGRA COMPAÑÍA INDUSTRIAL ARGENTINA SOCIEDAD ANÓNIMA CONSOLIDATED CONDENSED INTERIM FINANCIAL STATEMENTS AS O",
+      "url": "https://www.sec.gov/Archives/edgar/data/1711375/000171137526000059/consolidatedcondensedinter.htm"
+    },
     {
       "id": "cnv-3592132",
       "fuente": "CNV",
@@ -1568,6 +1605,7 @@
     "sec-0001104659-26-125796": "2026-11-12",
     "sec-0001104659-26-126259": "2026-11-12",
     "sec-0001104659-26-126275": "2026-11-12",
+    "sec-0001104659-26-126774": "2026-11-13",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",

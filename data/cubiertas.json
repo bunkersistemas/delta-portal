@@ -8687,6 +8687,20 @@
       "fecha": "2026-11-13",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: pasó la primera candidata (Plus Ultra en Ezeiza-Madrid, ANAC)"
+    },
+    {
+      "tema": "¿creó empleo el incentivo de la reforma laboral? (infobae 13/11/2026 'el Gobierno asegura que el incentivo a la formalización creó 82.000 empleos en blanco en cuatro meses'; La Nación y Clarín 13/11 sobre las contrataciones del RIFL; ámbito, Cronista y TN sobre la caída del empleo privado de agosto) / informe de implementación del RIFL may-ago 2026 (81.808 trabajadores, 25.928 empresas) cruzado con el SIPA: abril-agosto 2026 -56.990 asalariados privados registrados (serie original), la mayor baja de ese tramo desde 2020 (-66.844) y mayor que 2025 (-53.794); desest. -37.858. Las cinco ramas que más usaron el RIFL (67.787 contratados) perdieron 46.232 en el total.",
+      "angulo": "HALLAZGO: comparación del mismo tramo abril-agosto de cada año desde 2009 y cruce rama por rama de las contrataciones del RIFL con la variación neta del SIPA. Distinto de la nota del 03/10 (cuánto ahorra una pyme con el RIFL) y de la del 13/11 04:00 (mapa provincial del SIPA). Camino: estadística oficial recalculada desde el anexo + contraste EIL; cifras del RIFL atribuidas al único registro, con chequeo de coherencia interna. Sin afirmar efecto causal: se dice que los datos no separan contrataciones nuevas de las que se habrían hecho igual. Retomar con el informe RIFL de septiembre y el SIPA de septiembre.",
+      "fecha": "2026-11-13",
+      "estado": "publicada",
+      "articulo_id": "2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 13/11/2026 14:30. Seis portadas con WebFetch (infobae, La Nación, ámbito, iProfesional, Cronista, Página12); Clarín y TN con _privado/rastreo/portadas.py. Hoy ya salieron 7 notas (EMPRESAS Holcim y Plus Ultra; SIPA Patagonia; Tesoro en el BCRA; hospitales UBA; apertura comercial; utilidades del BCRA). Lista: (1) HALLAZGO: RIFL 81.808 contratados contra el SIPA abril-agosto [infobae, La Nación, Clarín; empleo en ámbito, Cronista, TN]: APTA. (2) colectivos a GNC y eléctricos pierden el plus fijo de 30% y 50% de la TTR, Res. ST 83/2026 [infobae, ámbito]: sin cantidad de unidades ni monto oficial; colectivos muy cubiertos. (3) costo de construcción en CABA en máximos desde 2015 en dólares [infobae]: fuente privada (OFAVA); ICC en dólares cubierto el 18/10. (4) concesión de 27 tramos de rutas, Etapa IV [5 portadas]: sin tarifas adjudicadas (ver 12:30). (5) TGS al RIGI [3 portadas + HR CNV]: RIGI cubierto 29/10 y 03/11, TGS 04/11. (6) riesgo país 840 y Bonar 2029 al 17% [ámbito, Página12]: riesgo país en cola 08/11, 09/11 y 13/11. (7) EMPRESAS: Valentín Bianchi reestructuración (en cola 12/11), Loma Negra EEFF 3T26 SEC (publicada 06/11 con el release), Carlos Casado, Camuzzi dividendo, Banco de Comercio multa BCRA: cupo de empresas cumplido hoy. (8) bono de CABA por hasta $600.000 M para proveedores [ámbito]: descartada 09/10 sin serie oficial; sigue igual. (9) Ingresos Brutos en caída [Cronista]: DNAP cubierto 29/09; el mes nuevo no está publicado. (10) CALENDARIO: UCII e índice de salarios, hoy 16 h: no publicados a las 14:30. (11) pregunta de plata: explosión en Remedios de Escalada, Estudiantes 6 títulos (premios sin fuente oficial), paro de ATE-ANAC: sin pregunta de plata con documento. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-13",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: pasó la primera candidata (RIFL contra el SIPA)"
     }
   ]
 }

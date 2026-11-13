@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-13T12:47:05-03:00",
+    "actualizado": "2026-11-13T14:46:50-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto",
+      "titulo": "El empleo privado en blanco perdió 56.990 puestos de abril a agosto, la mayor baja en esos meses desde 2020, con el incentivo de la reforma laboral",
+      "bajada": "El régimen que baja las cargas patronales al 5% sumó 81.808 trabajadores entre mayo y agosto, según la Secretaría de Trabajo. Aun así, en esos mismos meses el total de asalariados privados registrados pasó de 6.129.915 a 6.072.925. Son 56.990 menos: la mayor baja entre abril y agosto desde 2020, y algo más que en 2025, cuando el régimen no existía.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "-56.990",
+      "numero_label": "asalariados privados registrados entre abril y agosto de 2026, con el incentivo de la reforma laboral en marcha",
+      "fecha": "2026-11-13",
+      "hora": "15:30",
+      "archivo": "articulos/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "SIPA anexo ago-26 (trabajoregistrado_2608_estadisticas.xlsx) cuadro A.1 serie original: abr-26 6.129,915 mil, ago-26 6.072,925 mil = -56.990; mismo tramo 2025 -53.794, 2024 -42.123, 2020 -66.844, 2018 -66.777 (2021-2023 positivos). Desest.: 6.136,033 -> 6.098,175 = -37.858 (2025 -34.545, 2020 -43.742). Recalculo: ago-25 6.204,933 -> ago-26 = -132.008 (-2,13%) = informe PDF (-2,1%, 132 mil); suma de 14 ramas A.2.1 = total; var. mensuales desest. may -0,15 jun -0,14 jul -0,20 ago -0,12 = grafico del informe. Contraste: EIL sep-26 (2.820 empresas 10+ en 11 aglomerados): once periodos sin expansion, -0,8% i.a. RIFL (informe implementacion may-ago 2026, unico registro, atribuido): 18.914/41.952/63.305/81.808; incrementos suman 81.808; ramas comercio 20.348, serv. empresariales 18.487, industria 12.031, hoteles 8.486, construccion 8.435 (=67.787, 82,9%); 81.808/6.072.925 = 1,35%. Ramas abr-ago original: -13.966, -11.739, -14.485, -6.278, +236 (= -46.232); desest. -14.571, +75, -12.136, -2.791, -3.618 (= -33.041). Scripts: _privado/rifl/."
+    },
     {
       "id": "2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez",
       "titulo": "Uno de cada diez pasajeros entre Ezeiza y Madrid voló en septiembre en Plus Ultra, que se llevó casi todo lo que la ruta creció en un año",

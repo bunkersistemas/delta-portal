@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 13 Nov 2026 12:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 14:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El empleo privado en blanco perdió 56.990 puestos de abril a agosto, la mayor baja en esos meses desde 2020, con el incentivo de la reforma laboral</title>
+      <link>https://coninteres.com/articulos/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.html</guid>
+      <pubDate>Fri, 13 Nov 2026 15:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El régimen que baja las cargas patronales al 5% sumó 81.808 trabajadores entre mayo y agosto, según la Secretaría de Trabajo. Aun así, en esos mismos meses el total de asalariados privados registrados pasó de 6.129.915 a 6.072.925. Son 56.990 menos: la mayor baja entre abril y agosto desde 2020, y algo más que en 2025, cuando el régimen no existía.</description>
+      <ci:numero>-56.990</ci:numero>
+      <ci:numeroEtiqueta>asalariados privados registrados entre abril y agosto de 2026, con el incentivo de la reforma laboral en marcha</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.png" length="70492" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Uno de cada diez pasajeros entre Ezeiza y Madrid voló en septiembre en Plus Ultra, que se llevó casi todo lo que la ruta creció en un año</title>
       <link>https://coninteres.com/articulos/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>desempleo de los recién recibidos de 22 a 25 años en EE.UU., junio a agosto de 2026 (7,2% un año antes), según un estudio de UCLA</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-ia-desempleo-recien-recibidos-ucla.png" length="75336" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-ia-desempleo-recien-recibidos-ucla.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina vende el 37% del aceite de limón que se exporta en el mundo, más que Perú, Italia y Estados Unidos juntos</title>
-      <link>https://coninteres.com/articulos/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.html</guid>
-      <pubDate>Mon, 09 Nov 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>La Argentina es el primer exportador mundial de aceite esencial de limón en todos los años desde 2015. En 2025 vendió 7.782 toneladas por US$215,7 millones, según el INDEC: la mayor cantidad desde 2002. Pero ocho de cada diez dólares los ponen dos compradores: Irlanda, que en 2002 compraba casi nada, y Estados Unidos. Y la dependencia es mutua: para los dos, más de seis de cada diez dólares que gastan en este aceite van a la Argentina.</description>
-      <ci:numero>37%</ci:numero>
-      <ci:numeroEtiqueta>parte de la Argentina en las exportaciones mundiales de aceite esencial de limón en 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.png" length="59557" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
