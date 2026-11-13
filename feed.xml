@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 12 Nov 2026 23:05:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 00:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La casa matriz de Holcim puso US$63 millones para cancelar los descubiertos de su filial argentina, que en nueve meses multiplicó por 5,3 su pérdida operativa</title>
+      <link>https://coninteres.com/articulos/2026-11-13-holcim-aporte-63-millones-descubiertos-perdida-operativa.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-holcim-aporte-63-millones-descubiertos-perdida-operativa.html</guid>
+      <pubDate>Fri, 13 Nov 2026 02:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>La controlante española de Holcim Argentina puso US$63 millones en junio para cancelar los descubiertos bancarios de la cementera. Eso ordenó la deuda, no la operación: en nueve meses la empresa perdió $68.249 millones con su operación, 5,3 veces más que un año antes, descontada la inflación. Vendió 3,5% menos cemento y su costo de ventas subió 8,7%. El 20 de noviembre la asamblea vota capitalizar ese aporte, y el FGS de la ANSES, dueño del 10,88%, tendría que poner $12.229 millones para no achicar su parte.</description>
+      <ci:numero>US$63 M</ci:numero>
+      <ci:numeroEtiqueta>aporte de capital de la controlante española de Holcim a su filial argentina para cancelar descubiertos bancarios, junio de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-holcim-aporte-63-millones-descubiertos-perdida-operativa.png" length="78898" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-holcim-aporte-63-millones-descubiertos-perdida-operativa.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Ledesma dejó de ser el ingenio que más azúcar produce: Concepción, que compró un Blaquier, hizo 251.331 toneladas en la zafra 2025 contra 235.458</title>
       <link>https://coninteres.com/articulos/2026-11-12-ledesma-pierde-primer-puesto-azucar-concepcion-blaquier.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>base monetaria (billetes y monedas en circulación más los pesos de los bancos en el BCRA) en porcentaje del PBI, julio de 2025 a junio de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.png" length="73246" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>De cada $100 que los argentinos tienen en los bancos y en billetes de pesos, $29 son depósitos en dólares; Perú, que en 2000 tenía 71, bajó a 26</title>
-      <link>https://coninteres.com/articulos/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.html</guid>
-      <pubDate>Mon, 09 Nov 2026 09:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Con la misma vara que usa el Banco Central del Perú, la Argentina tiene hoy una porción en dólares más alta que Perú, el caso que se cita cuando se habla de un país que dejó atrás el dólar: 29,1% contra 26,4% en septiembre de 2026. Los dos llegaron ahí por caminos inversos. Perú bajó del 71% al 26% en 26 años. La Argentina, que en 2002 había quedado en 3%, volvió a casi un tercio, y desde octubre de 2025 está arriba de Perú todos los meses.</description>
-      <ci:numero>29,1%</ci:numero>
-      <ci:numeroEtiqueta>parte en dólares de los billetes de pesos y los depósitos del sector privado argentino, septiembre de 2026; en Perú, 26,4%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.png" length="74732" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-argentina-mas-dolarizada-que-peru-29-contra-26.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

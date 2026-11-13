@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-12T22:30",
+  "generado": "2026-11-13T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -1500,33 +1500,6 @@
       "tipo": "hecho",
       "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - TELECOM ARGENTINA S.A. INFORMA HECHO RELEVANTE SOBRE CONDICIONAMIENTO ESTABLECIDO POR EL TRIBUNAL DE DEFENSA DE LA COMPETENCIA",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1103855D-0C22-4F32-9CF0-D457556C42C7"
-    },
-    {
-      "id": "cnv-3580152",
-      "fuente": "CNV",
-      "fecha": "2026-10-13T17:29",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (13 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4891137F-FAFF-46E5-B9BB-49B08A821C37"
-    },
-    {
-      "id": "cnv-3578651",
-      "fuente": "CNV",
-      "fecha": "2026-10-13T14:50",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (08 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/52CFDC02-81DC-47D0-B0E5-43532B2B4AFC"
-    },
-    {
-      "id": "cnv-3579797",
-      "fuente": "CNV",
-      "fecha": "2026-10-13T13:34",
-      "entidad": "CAJA DE VALORES S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - ANUNCIO RECTIFICATIVO DE DIVIDENDO PARA PUBLICAR EN CNV 8555",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/13DDBDF6-1F3F-4A01-B358-D84C7424E4E1"
     }
   ],
   "anuncios": [
@@ -1602,7 +1575,6 @@
     "sec-0001193125-26-454388": "2026-11-10",
     "sec-0001193125-26-455705": "2026-11-10",
     "sec-0001193125-26-456852": "2026-11-12",
-    "sec-0001292814-26-004906": "2026-10-13",
     "sec-0001292814-26-004916": "2026-10-14",
     "sec-0001292814-26-004922": "2026-10-14",
     "sec-0001292814-26-004924": "2026-10-14",

@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-12",
-  "pregunta": "Según el Banco Mundial, en 2025 Bulgaria produjo 35.326 dólares por habitante y la Argentina, 27.847, medidos a paridad de poder adquisitivo. ¿Por qué se usa esa medida y no el PBI convertido al tipo de cambio de cada país?",
+  "fecha": "2026-11-13",
+  "pregunta": "Molinos Río de la Plata cobró en promedio $2.427 por kilo de alimentos entre enero y septiembre de 2026, contra $2.691 en 2025, los dos en pesos de septiembre de 2026. En los precios de la etiqueta, ¿cobró más o menos que un año antes?",
   "opciones": [
-    "Porque corrige por lo que cuestan las cosas en cada país: un dólar no compra lo mismo en Buenos Aires que en Sofía",
-    "Porque el tipo de cambio oficial argentino no existe en las estadísticas del Banco Mundial",
-    "Porque la paridad de poder adquisitivo descuenta la inflación de cada año y el tipo de cambio no"
+    "Más: la caída de 9,8% es 'descontada la inflación', y con precios al consumidor que subieron alrededor de un tercio en el año, en pesos corrientes el kilo se cobró más caro, aunque menos que la suba general",
+    "Menos: si en pesos de septiembre de 2026 bajó 9,8%, en la etiqueta también bajó 9,8%",
+    "Igual: el ajuste por inflación hace que los precios de los dos años queden iguales"
   ],
   "correcta": 0,
-  "explicacion": "Convertir el PBI al tipo de cambio dice cuántos dólares valdría lo producido en el mercado de divisas, pero no cuánto se puede comprar con eso adentro del país. La paridad de poder adquisitivo convierte todo a 'dólares internacionales' que compran la misma canasta en todos lados, y así compara niveles de vida. La inflación es otra corrección: la serie del Banco Mundial está además a precios constantes de 2021, para que lo que cambie de un año a otro sea cuánto se produce y no los precios. Son dos ajustes distintos, y la nota usa los dos.",
-  "nota": "articulos/2026-11-11-bulgaria-supera-argentina-pbi-por-habitante.html",
-  "leccion": ""
+  "explicacion": "Los balances argentinos se presentan en moneda de cierre: los pesos de 2025 se multiplican por la inflación del año (el IPC del INDEC subió 33,4% entre septiembre de 2025 y septiembre de 2026) para compararlos con los de 2026. Por eso los $2.691 de 2025 no son lo que decía la etiqueta, sino ese precio llevado a pesos de hoy. Que el precio 'descontada la inflación' baje no significa que haya bajado en el changuito: significa que subió menos que el resto de los precios. Es la diferencia entre una variación nominal y una real.",
+  "nota": "articulos/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.html",
+  "leccion": "lecciones/inflacion.html"
 }
