@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-13T06:50:23-03:00",
+    "actualizado": "2026-11-13T08:57:53-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-13-apertura-comercio-pbi-milei-90-paises-grandes",
+      "titulo": "El comercio exterior argentino es el 30,3% del PBI: de los 35 países de más de 40 millones de habitantes, solo tres pasan el 90% que pide Milei",
+      "bajada": "El 30% que cita el Presidente es correcto: la Argentina vendió y compró afuera el equivalente al 30,3% de su PBI en 2025, según el INDEC. La meta del 90%, en cambio, depende de con quién se compare. Entre los 35 países de más de 40 millones de habitantes con dato del Banco Mundial, en 2024 la Argentina era el sexto menos abierto, la mitad de esos países no llegaba al 46% y solo Vietnam, Tailandia y el Congo pasaban esa vara. Y medido en cantidades, el comercio exterior nunca pesó tanto: creció 21% desde 2023, casi siete veces más que la economía.",
+      "titulo_busqueda": "¿Es la Argentina la economía más cerrada del mundo?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "30,3%",
+      "numero_label": "exportaciones más importaciones de bienes y servicios sobre el PBI de la Argentina en 2025; Milei fija la meta en 90%",
+      "fecha": "2026-11-13",
+      "hora": "10:00",
+      "archivo": "articulos/2026-11-13-apertura-comercio-pbi-milei-90-paises-grandes.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC sh_oferta_demanda_09_26.xls cuadro 8 (precios corrientes) 2025: X $132.056.341 M + M $125.972.653 M / PBI $850.239.798 M = 30,35%; BM NE.TRD.GNFS.ZS 2025 30,36 (toma INDEC). Contraste BCRA balance cambiario (cobros + pagos bienes y servicios) / PBI en US$ al A3500 trimestral: 20,1% 2023, 28,0% 2025. Cantidades (cuadro 1, precios 2004): 54,6% 2025, máximo 2004-2025 (previo 49,9% 2018); aduana: índice de cantidad importada 262,7 (2017: 255,5) y exportada 139,1 (2011: 127,2), máximos 1986-2025. Ranking BM 2024: 35 países de 40M+ con dato (faltan Nigeria, Myanmar, Yemen): mediana 45,9; >=90 solo VNM 173,9, THA 135,7, COD 94,2; ARG 27,9 sexta desde abajo (SDN, ETH, USA, BGD, PAK); recalculado con componentes BM y con PBI US$ del FMI (WEO oct-26): mismos países. Cita: Casa Rosada, discurso en la UTDT 30/10/2026"
+    },
     {
       "id": "2026-11-13-hospitales-uba-fondos-nacion-2026",
       "titulo": "Hasta mayo, la partida nacional para los hospitales de la UBA venía 76% abajo de 2025; a octubre ya supera a cualquier año completo desde 2017",
