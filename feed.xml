@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 13 Nov 2026 10:55:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 12:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Uno de cada diez pasajeros entre Ezeiza y Madrid voló en septiembre en Plus Ultra, que se llevó casi todo lo que la ruta creció en un año</title>
+      <link>https://coninteres.com/articulos/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.html</guid>
+      <pubDate>Fri, 13 Nov 2026 13:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Casi todo lo que creció en un año la ruta Ezeiza–Madrid viajó en Plus Ultra, la aerolínea española que retiró de su sitio la venta de vuelos para la Argentina. Según la ANAC, en septiembre volaron 115.104 pasajeros, 12.813 más que un año antes; Plus Ultra, que empezó a volar la ruta en mayo, llevó 12.118. Iberia, Air Europa y Aerolíneas Argentinas juntas llevaron apenas 1,1% más que en septiembre de 2025.</description>
+      <ci:numero>10,5%</ci:numero>
+      <ci:numeroEtiqueta>de los pasajeros entre Ezeiza y Madrid que volaron en Plus Ultra en septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.png" length="66439" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El Banco Central le giró al Tesoro $24,4 billones en mayo: en relación al PBI, la mayor transferencia de utilidades desde 2020</title>
       <link>https://coninteres.com/articulos/2026-11-13-bcra-utilidades-tesoro-24-billones-reforma-carta-organica.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte de la Argentina en las exportaciones mundiales de aceite esencial de limón en 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.png" length="59557" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-aceite-limon-argentina-37-por-ciento-mundo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Un kilo de pan cuesta lo mismo que 4,5 kilos de harina: en dos años el pan subió 68% y la harina, la mitad</title>
-      <link>https://coninteres.com/articulos/2026-11-09-pan-harina-4-kilos-precio-trigo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-pan-harina-4-kilos-precio-trigo.html</guid>
-      <pubDate>Mon, 09 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>En dos años el pan francés subió 68,2% en el Gran Buenos Aires, al ritmo de la inflación, y la harina común 34,6%: la mitad. El trigo, en dólares, vale menos que hace dos años. Hoy, con lo que cuesta un kilo de pan se pagan 4,5 kilos de harina. En agosto de 2018 alcanzaba para 2,4, y en junio de 2026 llegó a 4,7, el máximo desde que el INDEC publica estos precios.</description>
-      <ci:numero>4,5 kg</ci:numero>
-      <ci:numeroEtiqueta>kilos de harina común que se pagan con el precio de un kilo de pan francés en el Gran Buenos Aires, septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-pan-harina-4-kilos-precio-trigo.png" length="67094" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-pan-harina-4-kilos-precio-trigo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

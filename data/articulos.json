@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-13T10:54:52-03:00",
+    "actualizado": "2026-11-13T12:47:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez",
+      "titulo": "Uno de cada diez pasajeros entre Ezeiza y Madrid voló en septiembre en Plus Ultra, que se llevó casi todo lo que la ruta creció en un año",
+      "bajada": "Casi todo lo que creció en un año la ruta Ezeiza–Madrid viajó en Plus Ultra, la aerolínea española que retiró de su sitio la venta de vuelos para la Argentina. Según la ANAC, en septiembre volaron 115.104 pasajeros, 12.813 más que un año antes; Plus Ultra, que empezó a volar la ruta en mayo, llevó 12.118. Iberia, Air Europa y Aerolíneas Argentinas juntas llevaron apenas 1,1% más que en septiembre de 2025.",
+      "titulo_busqueda": "¿Cuántos pasajeros lleva Plus Ultra entre Buenos Aires y Madrid?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "10,5%",
+      "numero_label": "de los pasajeros entre Ezeiza y Madrid que volaron en Plus Ultra en septiembre de 2026",
+      "fecha": "2026-11-13",
+      "hora": "13:30",
+      "archivo": "articulos/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "ANAC tablas de movimientos y pasajeros 2023-2026 (act. 13/10/2026), cuadro 20 Ezeiza - Madrid: sep-26 115,104 miles (prov.), sep-25 102,291; ANAC aterrizajes y despegues 2026 (datos.transporte.gob.ar, hasta sep): Plus Ultra EZE-LEMD sep-26 12.118 pax en 45 movimientos (22 aterrizajes, 23 despegues); 12.118/115.104 = 10,53%; con total del registro 115.193 = 10,52%. Registro vs cuadro 20: diferencia < 0,9% en cada mes ene-23 a sep-26. Resto (Iberia 56.518 + AE 19.945 + AR 26.610) 103.073 vs 101.979 = +1,07%. Jul-sep: PU 32.707; ruta +34.849 oficial (+36.089 registro). Contraste: Eurostat avia_par_es ES_LEMD_AR_SAEZ PAS_CRD 2023 918.624 / 2024 1.077.881 vs ANAC 870.275 / 1.037.827 (+17,3% vs +19,3%); El Cronista 07/05/2026: inicio 24/05 y quinta frecuencia semanal desde julio. Serie 2001-2022: máx anual 2007 1.003.137, máx mensual ene-2008 94.026; 2025 1.155.561 récord; ago-26 120.564 máximo mensual (previo ago-25 108.567)."
+    },
     {
       "id": "2026-11-13-bcra-utilidades-tesoro-24-billones-reforma-carta-organica",
       "titulo": "El Banco Central le giró al Tesoro $24,4 billones en mayo: en relación al PBI, la mayor transferencia de utilidades desde 2020",
