@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-13T02:50:21-03:00",
+    "actualizado": "2026-11-13T05:06:35-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-13-tesoro-dolares-bcra-pago-enero",
+      "titulo": "Al Gobierno le quedan US$59 millones en el Banco Central para pagar US$4.523 millones a los bonistas el 9 de enero: a esta altura de 2025 tenía US$910 millones",
+      "bajada": "A 65 días del pago de enero a los bonistas, la cuenta en dólares del Gobierno en el Banco Central cubre el 1,3% de lo que vence, contra 20,7% un año antes y 28,1% dos años antes. El 5 de noviembre quedó en US$59,3 millones, el día en que salieron unos US$880 millones para los intereses del FMI. En pesos, en cambio, tiene el equivalente a US$4.550 millones: con pesos compró al Banco Central los dólares que le faltaban en enero de 2026.",
+      "titulo_busqueda": "¿Tiene el Gobierno los dólares para pagar la deuda de enero?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$59 M",
+      "numero_label": "depósitos en dólares del Gobierno en el Banco Central el 5 de noviembre de 2026, contra US$4.523 millones que vencen el 9 de enero",
+      "fecha": "2026-11-13",
+      "hora": "06:00",
+      "archivo": "articulos/2026-11-13-tesoro-dolares-bcra-pago-enero.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA API v4 var 1266 05/11/2026 $91.581 M / A3500 1.545,3974 = US$59,26 M (04/11 $1.455.776 M / 1.548,4941 = 940,1); minimo desde 19/01/2024 (56,0). Contraste FMI extforth al 31/10/2026: cargos 01/11/2026 648.432.005 DEG / 0,73727 DEG por US$ (05/11) = US$879,5 M vs caida 880,8; reservas var 1 50.437 -> 49.586. Ene-2026: 07/01 compra Tesoro var 48 -$3.400.000 M = US$2.319,2 M; 07/01 4.517,6 -> 09/01 113,6 = -4.404 vs Finanzas 4.403,7 (perfil 31/12/2025). Pago ene-2027 Bonares+Globales perfil 30/06/2026 A.3.4+A.3.5: 2.706,6 + 1.816,7 = 4.523,4 (31/03/2026: 4.378,3; AL35 VN 15.853,7 -> 20.244,0, AL38 10.063,3 -> 12.325,0; letras BCRA 52.564 -> 30.310). 05/11/2024 1.219,8 (28,1% de 4.338,6, perfil 31/12/2024); 05/11/2025 910,0 (20,7% de 4.403,7). Pesos var 1265 05/11/2026 $7.032.400 M = US$4.550,5 M; (59,3+4.550,5)/4.523,4 = 101,9%; 2025 (910+2.769,5)/4.403,7 = 83,6%. FMI capital 24/12/2026 250 M DEG = US$337 M (0,741152). Boncap 15/01/2027 capital US$10.069,6 M eq. (A.3.4). Var 78 compras 2026 al 04/11 US$15.985,9 M. Scripts _privado/tesoro_usd/ (calc.py, ventana_enero.py, enero_bonos.py, compara_perfil.py, armar.py)."
+    },
     {
       "id": "2026-11-13-neuquen-supera-chubut-santa-cruz-empleo-privado",
       "titulo": "Neuquén ya tiene más asalariados privados registrados que Chubut y Santa Cruz juntas, que hoy emplean menos gente en blanco que en 2009",

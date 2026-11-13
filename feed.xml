@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 13 Nov 2026 02:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 05:06:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Al Gobierno le quedan US$59 millones en el Banco Central para pagar US$4.523 millones a los bonistas el 9 de enero: a esta altura de 2025 tenía US$910 millones</title>
+      <link>https://coninteres.com/articulos/2026-11-13-tesoro-dolares-bcra-pago-enero.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-tesoro-dolares-bcra-pago-enero.html</guid>
+      <pubDate>Fri, 13 Nov 2026 06:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>A 65 días del pago de enero a los bonistas, la cuenta en dólares del Gobierno en el Banco Central cubre el 1,3% de lo que vence, contra 20,7% un año antes y 28,1% dos años antes. El 5 de noviembre quedó en US$59,3 millones, el día en que salieron unos US$880 millones para los intereses del FMI. En pesos, en cambio, tiene el equivalente a US$4.550 millones: con pesos compró al Banco Central los dólares que le faltaban en enero de 2026.</description>
+      <ci:numero>US$59 M</ci:numero>
+      <ci:numeroEtiqueta>depósitos en dólares del Gobierno en el Banco Central el 5 de noviembre de 2026, contra US$4.523 millones que vencen el 9 de enero</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-tesoro-dolares-bcra-pago-enero.png" length="88114" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-tesoro-dolares-bcra-pago-enero.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Neuquén ya tiene más asalariados privados registrados que Chubut y Santa Cruz juntas, que hoy emplean menos gente en blanco que en 2009</title>
       <link>https://coninteres.com/articulos/2026-11-13-neuquen-supera-chubut-santa-cruz-empleo-privado.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>suba del gas que las petroleras quemaron o ventearon entre enero y septiembre de 2026 contra el mismo período de 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-gas-quemado-venteado-36-por-ciento-vaca-muerta.png" length="75563" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-gas-quemado-venteado-36-por-ciento-vaca-muerta.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El margen de YPF por cada barril que refina se multiplicó por 3,6 en un año: US$25,6 contra US$7,1</title>
-      <link>https://coninteres.com/articulos/2026-11-09-ypf-margen-refino-barril-25-dolares.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-ypf-margen-refino-barril-25-dolares.html</guid>
-      <pubDate>Mon, 09 Nov 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>En el año en que el petróleo se disparó, el negocio de refinar y vender combustibles de YPF ganó margen. Entre julio y septiembre de 2026 le dejó US$25,6 por barril antes de amortizaciones, contra US$7,1 un año antes: el margen más alto de los once trimestres que la empresa informó desde 2024. Son unos 16 centavos de dólar, o $242, por cada litro de crudo que procesó. Las dos puntas se movieron distinto: la nafta y el gasoil que vende en el país le rinden 42% más en dólares, y el crudo que compra le cuesta 26% más por barril. Lo dice el informe que la empresa presentó el 28 de octubre ante la CNV y la SEC.</description>
-      <ci:numero>US$25,6</ci:numero>
-      <ci:numeroEtiqueta>margen de YPF (EBITDA ajustado de refino y venta de combustibles) por cada barril de crudo que refinó, julio a septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-ypf-margen-refino-barril-25-dolares.png" length="74597" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-ypf-margen-refino-barril-25-dolares.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
