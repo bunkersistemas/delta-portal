@@ -8715,6 +8715,20 @@
       "fecha": "2026-11-13",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: pasó la primera candidata (índice de salarios: el promedio estatal empujado por las universidades)"
+    },
+    {
+      "tema": "TGS en el RIGI: Proyecto NGLs (Res. MEcon 1976 y 1977/2026, BO 13/11/2026; HR CNV 13/11; infobae, La Nación, iProfesional, Cronista 13/11) / US$3.244 M en activos computables (Midstream 1.849,6 poliducto 577 km + fraccionamiento 90.000 bpd; Procesadora 1.394,7 planta Tratayén 1.200 MMSCFD), 52,6% en los dos primeros anios, operacion desde 01/02/2030; TGS estima exportaciones ~US$1.200 M/anio (HR 10/06); serie INDEC de GLP exportado 2002-2026: 2025 1,65 Mt y US$719 M, mayor desde 2006; ene-sep 2026 +31,2%; espejo Comtrade 1,50 Mt",
+      "angulo": "Corrida de redaccion del 13/11/2026 18:30. Angulo nuevo respecto de la corrida de las 16:30 (que la descarto por 'RIGI cubierto 29/10 y 03/11, TGS 04/11'): la nota del 03/11 es el agregado de 27 resoluciones y la del 04/11 (frenada) el balance 3T26; aca el hallazgo es la serie larga del gas licuado exportado (2002-2026, calculo propio desde la base del INDEC, nunca publicada en el sitio) contra el tamanio del proyecto. Camino: acto oficial + empresa que lo confirma; exportaciones: estadistica oficial recalculada + contraste espejo Comtrade. No se compara 1.200 como misma canasta (incluye gasolina natural, que en el INDEC va en 2710.12.49 con otras naftas). Archivos en _privado/tgsrigi.",
+      "fecha": "2026-11-13",
+      "estado": "publicada",
+      "articulo_id": "2026-11-13-tgs-rigi-liquidos-gas-licuado-exportaciones"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 13/11/2026 18:30. Ocho portadas (seis con WebFetch; Clarin y TN con _privado/rastreo/portadas.py). Hoy ya salieron 9 notas. Lista: (1) EMPRESAS + portadas: TGS al RIGI con el gas licuado exportado [infobae, La Nacion, iProfesional, Cronista; HR CNV]: APTA. (2) CALENDARIO: UCII septiembre 60,1% [8 portadas]: descartada a las 16:30 por molde repetido (15/10 y 09/11). (3) CALENDARIO: indice de salarios: publicada 16:30. (4) SIPA agosto: publicada 15:30. (5) Etapa IV de concesiones viales, 27 tramos [La Nacion, Cronista, Clarin, TN]: sin tarifas adjudicadas. (6) fin del subsidio fijo a colectivos a GNC y electricos [infobae, ambito]: sin probar; molde de resolucion. (7) hogares inquilinos [ambito, infobae, Pagina12]: publicada 18/10. (8) segundas marcas/consumo masivo [iProfesional, Clarin, TN, Pagina12]: fuentes privadas. (9) EMPRESAS: Valentin Bianchi acuerdo preliminar de reestructuracion de deuda (HR CNV 11/11), Camuzzi Gas del Sur dividendo, Carlos Casado resenia 9M, Rosenbusch EEFF: sin probar, retomables. (10) pregunta de plata: explosion de un canio de gas en Remedios de Escalada (Metrogas, investigacion judicial abierta): no se toma con causa abierta y sin documento oficial con cifra; Messi-Inter Miami amistoso en el Monumental: sin documento.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-13",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: paso la primera candidata (TGS en el RIGI con la serie del gas licuado exportado)"
     }
   ]
 }
