@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-13T08:57:53-03:00",
+    "actualizado": "2026-11-13T10:54:52-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-13-bcra-utilidades-tesoro-24-billones-reforma-carta-organica",
+      "titulo": "El Banco Central le giró al Tesoro $24,4 billones en mayo: en relación al PBI, la mayor transferencia de utilidades desde 2020",
+      "bajada": "El 21 de mayo de 2026 el Banco Central le pasó al Tesoro sus utilidades de 2025: $24,4 billones, el 2,3% del PBI. Desde 2004, solo los giros de utilidades de 2020 pesaron más. Pero, a diferencia de entonces, no sumaron pesos en la calle: el mismo día quedaron depositados en el Banco Central, y cinco días después $18,4 billones volvieron al Banco Central para recomprarle Letras Intransferibles. La reforma de la Carta Orgánica que vota Diputados prohíbe los adelantos, que no se usan desde 2023, y obliga a que cada giro de utilidades vaya a cancelar deuda.",
+      "titulo_busqueda": "¿El Banco Central sigue financiando al Tesoro?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "$24,4 billones",
+      "numero_label": "utilidades que el Banco Central le transfirió al Tesoro el 21 de mayo de 2026, el 2,3% del PBI: solo en 2020 un giro de utilidades pesó más",
+      "fecha": "2026-11-13",
+      "hora": "11:30",
+      "archivo": "articulos/2026-11-13-bcra-utilidades-tesoro-24-billones-reforma-carta-organica.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA API v4 var 50 (transferencia de utilidades) 21/05/2026 = 24.400.000 M; comunicado BCRA 14/05/2026 (remanente $24,4 bn, art. 38); var 51 mismo dia -24.399.848 M (deposito); PBI INDEC cuadro 8 prom 1T-2T 2026 a tasa anual 1.052.526.922 M -> 2,32%; 2020 util 1.606.981,6 / PBI 27.209.814 = 5,91% (EECC 2020: 14 resoluciones, 1.854.182.981 miles moneda dic-20); 2014 1,71%; RC 27/2026 recompra $18,4 bn 26/05; adelantos var 49 ultimo 13/07/2023, devolucion -500.000 M 23/08/2023; O.D. 211/2026 nuevo art. 38 y transitorio; mensaje PE $36,6 bn"
+    },
     {
       "id": "2026-11-13-apertura-comercio-pbi-milei-90-paises-grandes",
       "titulo": "El comercio exterior argentino es el 30,3% del PBI: de los 35 países de más de 40 millones de habitantes, solo tres pasan el 90% que pide Milei",
