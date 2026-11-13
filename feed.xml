@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 13 Nov 2026 00:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 13 Nov 2026 02:50:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Neuquén ya tiene más asalariados privados registrados que Chubut y Santa Cruz juntas, que hoy emplean menos gente en blanco que en 2009</title>
+      <link>https://coninteres.com/articulos/2026-11-13-neuquen-supera-chubut-santa-cruz-empleo-privado.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-neuquen-supera-chubut-santa-cruz-empleo-privado.html</guid>
+      <pubDate>Fri, 13 Nov 2026 04:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>En agosto de 2009 Chubut y Santa Cruz juntas le sacaban a Neuquén 54.467 asalariados privados registrados de ventaja. En agosto de 2026 la cuenta se dio vuelta: Neuquén tenía 156.517 y las dos provincias del sur, 136.711. En esos 17 años Neuquén creció 83,9%; Chubut y Santa Cruz tienen hoy menos empleo privado en blanco que entonces.</description>
+      <ci:numero>156.517</ci:numero>
+      <ci:numeroEtiqueta>asalariados privados registrados en Neuquén en agosto de 2026; Chubut y Santa Cruz juntas tenían 136.711</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-neuquen-supera-chubut-santa-cruz-empleo-privado.png" length="70969" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-neuquen-supera-chubut-santa-cruz-empleo-privado.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La casa matriz de Holcim puso US$63 millones para cancelar los descubiertos de su filial argentina, que en nueve meses multiplicó por 5,3 su pérdida operativa</title>
       <link>https://coninteres.com/articulos/2026-11-13-holcim-aporte-63-millones-descubiertos-perdida-operativa.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>margen de YPF (EBITDA ajustado de refino y venta de combustibles) por cada barril de crudo que refinó, julio a septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-ypf-margen-refino-barril-25-dolares.png" length="74597" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-ypf-margen-refino-barril-25-dolares.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La base monetaria equivale al 4,2% del PBI, menos de la mitad que entre 2004 y 2017; en 2019, con 53,8% de inflación, era 6,5%</title>
-      <link>https://coninteres.com/articulos/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.html</guid>
-      <pubDate>Mon, 09 Nov 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>La economía argentina usa hoy, en proporción a lo que produce, menos de la mitad de los pesos que usaba entre 2004 y 2017, y menos que en 2019, cuando la inflación era más alta. Los billetes que circulan más los pesos que los bancos guardan en el Banco Central sumaron en promedio $41,4 billones entre julio de 2025 y junio de 2026: el 4,2% de lo que produjo la economía, contra un promedio de 8,7% entre 2004 y 2017. En el último año la base volvió a achicarse, 15,2% real en septiembre según el BCRA, y dos tercios de esa caída son pesos de los bancos, no billetes.</description>
-      <ci:numero>4,2%</ci:numero>
-      <ci:numeroEtiqueta>base monetaria (billetes y monedas en circulación más los pesos de los bancos en el BCRA) en porcentaje del PBI, julio de 2025 a junio de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.png" length="73246" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-base-monetaria-4-por-ciento-pbi-mitad-2004-2017.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

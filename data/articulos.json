@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-13T00:47:45-03:00",
+    "actualizado": "2026-11-13T02:50:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-13-neuquen-supera-chubut-santa-cruz-empleo-privado",
+      "titulo": "Neuquén ya tiene más asalariados privados registrados que Chubut y Santa Cruz juntas, que hoy emplean menos gente en blanco que en 2009",
+      "bajada": "En agosto de 2009 Chubut y Santa Cruz juntas le sacaban a Neuquén 54.467 asalariados privados registrados de ventaja. En agosto de 2026 la cuenta se dio vuelta: Neuquén tenía 156.517 y las dos provincias del sur, 136.711. En esos 17 años Neuquén creció 83,9%; Chubut y Santa Cruz tienen hoy menos empleo privado en blanco que entonces.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "156.517",
+      "numero_label": "asalariados privados registrados en Neuquén en agosto de 2026; Chubut y Santa Cruz juntas tenían 136.711",
+      "fecha": "2026-11-13",
+      "hora": "04:00",
+      "archivo": "articulos/2026-11-13-neuquen-supera-chubut-santa-cruz-empleo-privado.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SIPA, anexo trabajoregistrado_2608, cuadro A.5.1 (con estacionalidad): Neuquén ago-26 156.517, Chubut 87.438, Santa Cruz 49.273; ago-09 85.110 / 88.908 / 50.669. Informe: Neuquén +6,1% i.a., Chubut -4,5% (recalculado +6,14 / -4,49). Contraste EPH (asalariados privados con descuento jubilatorio, prom. 2023 vs 3T25-2T26): Neuquén-Plottier +11,1%, Comodoro -8,9%, Rawson-Trelew -3,3%, Río Gallegos -8,6%; SIPA mismos períodos +7,9 / -8,0 / -15,9"
+    },
     {
       "id": "2026-11-13-holcim-aporte-63-millones-descubiertos-perdida-operativa",
       "titulo": "La casa matriz de Holcim puso US$63 millones para cancelar los descubiertos de su filial argentina, que en nueve meses multiplicó por 5,3 su pérdida operativa",
