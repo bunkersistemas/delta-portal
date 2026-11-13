@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-12T20:46:18-03:00",
+    "actualizado": "2026-11-12T23:05:13-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-12-ledesma-pierde-primer-puesto-azucar-concepcion-blaquier",
+      "titulo": "Ledesma dejó de ser el ingenio que más azúcar produce: Concepción, que compró un Blaquier, hizo 251.331 toneladas en la zafra 2025 contra 235.458",
+      "bajada": "Entre 2010 y 2023, Ledesma fue el ingenio que más azúcar produjo en todas las temporadas. En la zafra 2025 la pasó Concepción, en Tucumán: 251.331 toneladas contra 235.458, según el Centro Azucarero Argentino. Concepción no creció; el que bajó fue Ledesma. Desde 2016 su producción de azúcar cayó 34,1%, contra 11,7% la del país, y en la zafra 2025 mandó el 31% de su caña a hacer alcohol. Para vender, compra azúcar a terceros: en su último ejercicio vendió 477.730 toneladas, casi el doble de las 242.000 que hizo con su propia caña. Concepción es desde diciembre de 2025 de Santiago Blaquier, hijo del expresidente de Ledesma, que según La Nación e infobae acaba de sumar el ingenio La Trinidad.",
+      "titulo_busqueda": "¿Cuál es el ingenio que más azúcar produce en la Argentina?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "251.331 t",
+      "numero_label": "azúcar que produjo el ingenio Concepción (Tucumán) en la zafra 2025, más que Ledesma (235.458 t), que había sido la primera de 2010 a 2023",
+      "fecha": "2026-11-12",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-12-ledesma-pierde-primer-puesto-azucar-concepcion-blaquier.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Centro Azucarero Argentino, xlsx Produccion-de-Azucar-desde-2016 hoja 2025: Concepcion 251.331 t azucar total, 2.719.008 t cana; Ledesma 235.458, 3.307.205; total 1.761.438. Contraste IPAAT nota 665 (27/10/2025): Concepcion 248.537 t azucar fisico, 2.701.241 cana (preliminar, -1,1%). Ledesma Memoria y Reporte Integrado 2025-2026 (CNV publicview 9efd650e, 12/08/2026): zafra 2025 cana 3.307.231, 242.000 t azucar fisica con materia prima propia, 31% de la cana a alcohol, azucar equivalente 352.231, refinada 321.493, ventas 477.730 (export 248.200), alcohol 105.500 m3 (memoria 2025: 91.800). Peor combinacion: 248.537 vs 242.000 = +6.537. Serie CAA 2010-2025 por ingenio: Ledesma primero 2010-2023 (ventaja minima 45.116 en 2021), 2024 Concepcion 255.432 vs Ledesma 249.893 (Ledesma memoria 2025: 253.700). Ledesma 2016 357.133 -> 2025 -34,07%; pais 1.993.941 -> -11,66%; Concepcion 309.707 -> -18,85%. La Trinidad azucar 133.632 (CAA) vs 113.632 (IPAAT via prensa feb-26): NO usada. Scripts _privado/azucar/."
+    },
     {
       "id": "2026-11-12-gasandes-35-anos-chile-gas-cae-42",
       "titulo": "GasAndes ofreció por hasta 35 años su capacidad libre hacia Chile, y en septiembre pasó por el caño 41,6% menos gas que un año antes",
