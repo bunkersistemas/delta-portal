@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-13",
-  "pregunta": "Molinos Río de la Plata cobró en promedio $2.427 por kilo de alimentos entre enero y septiembre de 2026, contra $2.691 en 2025, los dos en pesos de septiembre de 2026. En los precios de la etiqueta, ¿cobró más o menos que un año antes?",
+  "fecha": "2026-11-14",
+  "pregunta": "El 5 de noviembre, al Gobierno le quedaban US$59,3 millones depositados en dólares en el Banco Central, y el 9 de enero de 2027 vencen US$4.523 millones de Bonares y Globales. ¿Quiere decir que no tiene con qué pagar?",
   "opciones": [
-    "Más: la caída de 9,8% es 'descontada la inflación', y con precios al consumidor que subieron alrededor de un tercio en el año, en pesos corrientes el kilo se cobró más caro, aunque menos que la suba general",
-    "Menos: si en pesos de septiembre de 2026 bajó 9,8%, en la etiqueta también bajó 9,8%",
-    "Igual: el ajuste por inflación hace que los precios de los dos años queden iguales"
+    "No necesariamente: tiene en el Banco Central pesos equivalentes a unos US$4.550 millones, y con pesos le puede comprar los dólares al Banco Central, como hizo para el pago de enero de 2026",
+    "Sí: la deuda en dólares solo se puede pagar con los dólares que el Tesoro ya tiene depositados",
+    "No importa: el Banco Central paga los bonos del Tesoro con sus reservas, sin que el Tesoro tenga que poner nada"
   ],
   "correcta": 0,
-  "explicacion": "Los balances argentinos se presentan en moneda de cierre: los pesos de 2025 se multiplican por la inflación del año (el IPC del INDEC subió 33,4% entre septiembre de 2025 y septiembre de 2026) para compararlos con los de 2026. Por eso los $2.691 de 2025 no son lo que decía la etiqueta, sino ese precio llevado a pesos de hoy. Que el precio 'descontada la inflación' baje no significa que haya bajado en el changuito: significa que subió menos que el resto de los precios. Es la diferencia entre una variación nominal y una real.",
-  "nota": "articulos/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.html",
-  "leccion": "lecciones/inflacion.html"
+  "explicacion": "El Tesoro y el Banco Central son cajas distintas. El Tesoro tiene cuentas en pesos y en dólares en el Banco Central; para pagar a los bonistas en dólares necesita dólares en su cuenta, pero los puede conseguir comprándoselos al Banco Central con los pesos que tiene depositados, que es lo que hizo antes del pago de enero de 2026. Por eso, que la cuenta en dólares esté casi vacía no quiere decir que no haya con qué pagar: quiere decir que, para pagar, el Tesoro va a tener que cambiar pesos por dólares, y esos dólares salen de las reservas.",
+  "nota": "articulos/2026-11-13-tesoro-dolares-bcra-pago-enero.html",
+  "leccion": ""
 }

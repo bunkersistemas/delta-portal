@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-13T22:58:40-03:00",
+    "actualizado": "2026-11-14T00:49:51-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-14-formula-jubilatoria-macri-fernandez-fallo",
+      "titulo": "La fórmula jubilatoria de Macri que un fallo mandó aplicar habría pagado menos que la de Alberto Fernández en 37 de sus 39 meses",
+      "bajada": "Un fallo declaró inconstitucional la ley 27.609, de 2020, y ordenó recalcular una jubilación de 2021 a 2024 con la fórmula de 2017. Hecha la cuenta con las series oficiales, esa fórmula habría dado un haber más bajo que el que se pagó en 37 de los 39 meses de la ley 27.609: hasta marzo de 2024 habría subido 594,7%, contra 606,3%.",
+      "titulo_busqueda": "Fallo de movilidad jubilatoria: ¿la fórmula de Macri pagaba más que la de Alberto Fernández?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "37 de 39",
+      "numero_label": "meses de la ley de movilidad de 2020 en que la fórmula de 2017 habría dado una jubilación más baja que la pagada",
+      "fecha": "2026-11-14",
+      "hora": "00:30",
+      "archivo": "articulos/2026-11-14-formula-jubilatoria-macri-fernandez-fallo.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Cálculo propio: anexo Ley 27.426 (0,7 IPC + 0,3 RIPTE, rezago de un trimestre) con IPC nacional INDEC (datos.gob.ar 148.3_INIVELNAL_DICI_M_26) y RIPTE (158.1_REPTE_0_0_5); validado con los 8 aumentos pagados en 2018-2019 (5,71 a 8,74, exactos). Pagado: haber mínimo ANSES (58.1_MP_0_M_24) feb-21 $19.035,29 a mar-24 $134.445,79 (+606,3%); 27.426 mar-21 a mar-24 +594,7%. Brecha negativa en 37 de 39 meses ene-21/mar-24 (ene y feb-21 iguales), máx. -9,0% jun-ago 2022. Contraste: Chequeado (ago-2023) 27.426 mar-21/sep-23 323,3% vs 323,7% propio; La Nación 553,55% vs 553,56% propio desde haber de mar-21."
+    },
     {
       "id": "2026-11-13-pasajeros-argentina-estados-unidos-enero-record",
       "titulo": "Enero de 2026 fue el mes récord de pasajeros entre la Argentina y Estados Unidos, pero de abril a septiembre volaron 21% menos que en 2018",

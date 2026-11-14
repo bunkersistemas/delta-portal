@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-13T22:30",
+  "generado": "2026-11-14T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593197",
+      "fuente": "CNV",
+      "fecha": "2026-11-13T23:29",
+      "entidad": "METROGAS S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7163D33F-B40E-49AA-815B-FDE5EC8FF83E"
+    },
     {
       "id": "cnv-3593186",
       "fuente": "CNV",
@@ -1546,109 +1555,9 @@
       "tipo": "hecho",
       "descripcion": "HECHO RELEVANTE",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FD3AE30F-743B-41D5-8559-A9D78DC77BAA"
-    },
-    {
-      "id": "cnv-3580831",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T22:21",
-      "entidad": "YPF ENERGÍA ELÉCTRICA S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/83C98FE9-5EF2-4284-9869-86A97F8C1B61"
-    },
-    {
-      "id": "cnv-3580832",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T22:21",
-      "entidad": "YPF ENERGÍA ELÉCTRICA S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7804E13E-D296-40B2-87AB-72460F9AB239"
-    },
-    {
-      "id": "cnv-3580407",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T18:07",
-      "entidad": "AES ARGENTINA GENERACIÓN S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN FINANCIERA - CELEBRACIÓN DE ACUERDO DE GARANTÍA CON INTER-AMERICAN INVESTMENT CORPORATION POR PRÉSTAMO TOMADO POR LA SUBSIDIARIA VIENTOS BONAERENSES S.A.",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/919113DF-AE3E-4B95-864D-631B998B8132"
-    },
-    {
-      "id": "cnv-3580765",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T17:50",
-      "entidad": "YPF ENERGÍA ELÉCTRICA S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - CAMBIO COMPOSICIÓN ACCIONARIA",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/72DA8750-E22B-4055-938F-4067290AFBCF"
-    },
-    {
-      "id": "cnv-3580748",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T17:33",
-      "entidad": "YPF S.A",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ADQUISICIÓN DE PARTICIPACIÓN ACCIONARIA EN YPF ENERGÍA ELÉCTRICA S.A. - CIERRE DE LA TRANSACCIÓN",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/913D1B4E-B705-4D29-BC95-2E0C3FBA98EB"
-    },
-    {
-      "id": "cnv-3580726",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T17:19",
-      "entidad": "FIPLASTO S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE EN CONEXION CON LA DESIGNACION DE MIEMBROS DEL COMITE DE AUDITORIA",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/97CCCCDF-02F3-449E-8B2D-0E1BE9A49304"
-    },
-    {
-      "id": "cnv-3580712",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T17:17",
-      "entidad": "GEOPARK ARGENTINA SA",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE QUE DA CUENTA DE UNA REUNIÓN DE ASAMBLEA GENERAL DE ACCIONISTAS EN CARÁCTER AUTOCONVOCADA EL 14/10/2026",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/EC33135D-27AD-4269-A17B-E503077F3835"
-    },
-    {
-      "id": "cnv-3580717",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T17:14",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (14 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4C35F24B-BA63-4B03-974B-7D4581E0D07A"
-    },
-    {
-      "id": "cnv-3580623",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T16:20",
-      "entidad": "ALUAR ALUMINIO ARGENTINO",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2A68C96F-3E77-4781-9A97-A887E3930205"
-    },
-    {
-      "id": "cnv-3580290",
-      "fuente": "CNV",
-      "fecha": "2026-10-14T09:55",
-      "entidad": "TELECOM ARGENTINA S.A",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - TELECOM ARGENTINA S.A. INFORMA HECHO RELEVANTE SOBRE CONDICIONAMIENTO ESTABLECIDO POR EL TRIBUNAL DE DEFENSA DE LA COMPETENCIA",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1103855D-0C22-4F32-9CF0-D457556C42C7"
     }
   ],
   "anuncios": [
-    {
-      "id": "sec-0001292814-26-004922-2026-11-06",
-      "fuente": "SEC",
-      "fecha": "2026-11-06",
-      "entidad": "Central Puerto",
-      "ticker": "CEPU",
-      "frase": "r the “Company”) (BYMA: CEPU; NYSE: CEPU), one of the largest private power generation companies in Argentina, will release its financial results for the third quarter of 2026 on the first business day following Friday, November 6, 2026, the scheduled date of the Board of Directors meeting at which such results wil",
-      "url": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426004922/cepu20261014_6k.htm",
-      "presentado": "2026-10-14"
-    },
     {
       "id": "sec-0001292814-26-004922-2026-11-11",
       "fuente": "SEC",
@@ -1688,8 +1597,6 @@
     "sec-0001034957-26-000077": "2026-10-30",
     "sec-0001034957-26-000080": "2026-11-05",
     "sec-0001034957-26-000082": "2026-11-09",
-    "sec-0001104659-26-115753": "2026-10-14",
-    "sec-0001104659-26-115765": "2026-10-14",
     "sec-0001104659-26-116442": "2026-10-16",
     "sec-0001104659-26-118637": "2026-10-26",
     "sec-0001104659-26-119660": "2026-10-28",
@@ -1715,9 +1622,6 @@
     "sec-0001193125-26-455705": "2026-11-10",
     "sec-0001193125-26-456852": "2026-11-12",
     "sec-0001193125-26-459244": "2026-11-13",
-    "sec-0001292814-26-004916": "2026-10-14",
-    "sec-0001292814-26-004922": "2026-10-14",
-    "sec-0001292814-26-004924": "2026-10-14",
     "sec-0001292814-26-004944": "2026-10-16",
     "sec-0001292814-26-004948": "2026-10-16",
     "sec-0001292814-26-004952": "2026-10-19",
@@ -1751,7 +1655,6 @@
     "sec-0001292814-26-005269": "2026-11-12",
     "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001342874-26-000052": "2026-11-04",
-    "sec-0001554855-26-002124": "2026-10-14",
     "sec-0001554855-26-002169": "2026-10-23",
     "sec-0001554855-26-002241": "2026-10-28",
     "sec-0001711375-26-000047": "2026-10-20",

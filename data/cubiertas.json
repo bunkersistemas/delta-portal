@@ -8758,6 +8758,20 @@
       "fecha": "2026-11-13",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: pasó la primera candidata (pasajeros Argentina-EE.UU., ANAC + DOT)"
+    },
+    {
+      "tema": "¿la fórmula jubilatoria de Macri pagaba más que la de Alberto Fernández? (fallo de la Sala 2 de la CFSS del 13/11/2026, 'Galletta, Carmen c/ Anses s/ Reajustes varios', declara inconstitucional la ley 27.609 y ordena aplicar la 27.426 de ene-2021 a jun-2024; La Nación 13/11) / contrafactual con el anexo de la Ley 27.426 (IPC INDEC + RIPTE, validado con los 8 aumentos de 2018-2019): mar-21 a mar-24 +594,7% contra +606,3% pagado; haber más bajo en 37 de 39 meses, máx. -9,0% jun-ago 2022; mínima ene-21/mar-24 $102.478 menos; jun-24 -6,8% (DNU 274 abr-jun +53,9% vs 45,88%); ventana Sala 3 'Aguirre' (oct-23/jun-24) +3,0%, +6,7% y +1,1% en jun-24",
+      "angulo": "Corrida de redacción del 14/11/2026 00:30, primera candidata (APTA). Hallazgo contra lo que se cree: la fórmula de 2017 no habría protegido mejor; las dos perdieron 45-46% del poder de compra. Camino: estadística oficial recalculada (fórmula validada contra lo pagado en 2018-19) + contraste Chequeado (323,3% vs 323,7%). Se muestra que la estimación de +67% del abogado Tróccoli (La Nación) no se reproduce con la fórmula del anexo y que sus supuestos no se conocen. No se calcula la liquidación de la demandante; el fallo no se leyó (sale de La Nación).",
+      "fecha": "2026-11-14",
+      "estado": "publicada",
+      "articulo_id": "2026-11-14-formula-jubilatoria-macri-fernandez-fallo"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 14/11/2026 00:30. Seis portadas con WebFetch (infobae, La Nación, ámbito, iProfesional, Cronista, Página12); Clarín con _privado/rastreo/portadas.py; tn.com.ar no se pudo leer por ningún camino. Hoy no había notas publicadas. Lista: (1) HALLAZGO + pregunta: fórmula de movilidad de 2017 contra la de 2020 tras el fallo 'Galletta' [La Nación]: APTA. (2) EMPRESAS: Arcor, dividendo en efectivo de $70.000 M aprobado el 13/11 (HR CNV) con la serie de dividendos en dólares: no probada; retomable en la próxima corrida con ventaja de cupo (la primera tenía hallazgo propio y pregunta de búsqueda masiva). (3) EMPRESAS: Carlos Casado, reseña al 30/09/2026 (CNV 11/11): no probada. (4) EMPRESAS: Instituto Rosenbusch EEFF intermedios al 30/09/2026 (CNV 13/11): no probada; cruce posible con dosis antiaftosa de SENASA. (5) EMPRESAS: Camuzzi Gas del Sur, desafectación de reserva y dividendo (HR 11/11): mismo molde que Naturgy BAN 10/11. (6) quita del subsidio fijo de 30% a colectivos a GNC y 50% a eléctricos [infobae, ámbito]: colectivos cubiertos 17/10, 30/10 y 04/11; sin norma localizada. (7) UCII septiembre 60% [infobae, ámbito, iProfesional, Cronista, Página12]: cubierta 13/11. (8) salarios registrados +1,9% en septiembre [infobae, La Nación, ámbito]: publicada 13/11. (9) hogares inquilinos [infobae, ámbito, Página12]: publicada 18/10. (10) Etapa IV de concesiones viales, 27 tramos [La Nación, Cronista, Clarín]: sin tarifas adjudicadas. (11) liquidación de Austral Agro de Lázaro Báez [infobae, La Nación]: causa judicial sin montos en documento accesible. (12) explosión de gas en Remedios de Escalada y HR de Metrogas [infobae, La Nación, Clarín]: causa judicial abierta. (13) Argentina-Uruguay sin Messi en una Bombonera semivacía [Clarín, La Nación]: sin documento oficial con montos. Primera corrida del día: pregunta.json actualizada con la nota del Tesoro y los dólares para el pago de enero (13/11).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: pasó la primera candidata (fórmula jubilatoria de 2017 contra la de 2020)"
     }
   ]
 }
