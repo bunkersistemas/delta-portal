@@ -8854,6 +8854,20 @@
       "fecha": "2026-11-14",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: pasó la primera candidata (China y Brasil como proveedores, INDEC + ComexStat)"
+    },
+    {
+      "tema": "¿cuánto cuesta el DNI desde el 21 de noviembre? (Res. VGI 151/2026 y Disp. Renaper 759/2026, BO 11/11/2026: DNI $10.000 -> $20.000, pasaporte $100.000 -> $130.000, tasas en Unidades Arancelarias Documentales de $1.000 con actualización semestral por IPC; iProfesional 14/11 'Pasaporte y DNI: nuevos precios', ámbito 11/11) / serie de las cinco tarifas del DNI desde 2019 leídas en los anexos del BO: $300 (Res. 266/2019, rigió 18/07/2019-08/01/2024), $3.000 (Res. 5/2024), $7.500 (Res. 93/2025), $10.000 (Res. 19/2026), $20.000; al A3500 del día de vigencia US$7,08 / 3,68 / 7,05 / 7,07 / 12,93 (13/11/2026); pesos de oct-26 16.642 / 9.001 / 11.480 / 11.543 / 20.000; % del haber mínimo 2,60 / 2,84 / 2,69 / 2,71 / 4,50; la de 2019 valía US$0,37 al 29/12/2023",
+      "angulo": "Corrida del 14/11/2026 14:30. Ángulo nuevo frente a la nota del pasaporte del 25/09 (que solo mencionaba el DNI de $10.000) y a los medios (que publican el +100%): la serie del DNI desde 2019 muestra que tres tarifas arrancaron en unos US$7 y la nueva en US$12,93 (+83%), la más alta de las cinco en dólares, en pesos de hoy (+20% sobre 2019) y en proporción de la jubilación mínima (4,50% contra 2,6-2,8%). Camino: normas leídas en el original (BO) + tres cálculos independientes (A3500, IPC, haber mínimo) + contrastes (tarifario Renaper $10.000; El Cronista 04/01/2023 $300). No se afirma la fecha ni el monto de la primera actualización de la UAD.",
+      "fecha": "2026-11-14",
+      "estado": "publicada",
+      "articulo_id": "2026-11-14-dni-20000-dolares-doble"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 14/11/2026 14:30. Seis portadas con WebFetch (infobae, La Nación, ámbito, iProfesional, Cronista, Página12); Clarín y TN con _privado/rastreo/portadas.py; portada general de infobae para la pregunta de plata. Hoy ya salieron siete notas (ECONOMÍA fórmula jubilatoria, inflación Milei-Fernández, carne exportada, molienda; EMPRESAS Arcor; MUNDO República Dominicana y China-Brasil): cupo de empresas cumplido. Lista: (1) HALLAZGO + pregunta: DNI a $20.000, serie 2019-2026 en dólares, IPC y jubilación mínima [iProfesional; BO 11/11]: APTA. (2) canje de la LeLink D30N6 [La Nación]: no se encontró el comunicado de Finanzas con el canje de ~$30 billones; retomable. (3) oro: la baja del precio restó US$1.800 M a las reservas [infobae]: oro del BCRA cubierto el 14/10. (4) exportaciones récord del 3T, informe ITEA UBA-CONICET [infobae]: camionetas cubiertas el 02/11, ICA usado hoy. (5) cierre de empresas por sector, SRT [infobae, ámbito, Clarín, La Nación]: cubiertas el 27/09, 09/10 y 13/11. (6) demanda de pesos / remonetización [ámbito]: base monetaria en % del PBI publicada el 09/11. (7) Monotributo con la mayor alza del año [Clarín]: cubierto 16/10. (8) EMPRESAS Molinos-Tía Maruca, Burger King-Manzano, Valentín Bianchi, Mastellone: sin monto o ya en cola (Bianchi 12/11). (9) Etapa IV de rutas y peaje de cargas [Clarín, TN, infobae]: sin tramos ni tarifas en documento. (10) cárcel de máxima seguridad [Clarín]: costo por preso publicado 08/10. (11) Polonia [Clarín]: en cola 11/11. (12) pasaporte a $130.000 [iProfesional]: incluido en la nota del DNI; serie publicada 25/09. pregunta.json ya era del día.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: pasó la candidata con hallazgo (DNI en dólares y en jubilaciones mínimas desde 2019)"
     }
   ]
 }
