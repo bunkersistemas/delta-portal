@@ -8772,6 +8772,20 @@
       "fecha": "2026-11-14",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: pasó la primera candidata (fórmula jubilatoria de 2017 contra la de 2020)"
+    },
+    {
+      "tema": "EMPRESAS: Arcor 9M26, toneladas de consumo masivo y ganancia operativa del segmento (EEFF consolidados al 30/09/2026 y HR de dividendo de $70.000 M, CNV 13/11/2026) / ventas al mercado local 543 mil t ene-sep, cuarta caida anual seguida y la menor desde 2020 (serie 2019-2026 armada con las reseñas de 2023, 2024, 2025 y 2026; 3T 183 mil t, el mas bajo de la serie); ganancia operativa de consumo masivo +54,8% real ($307.019 M vs $198.392 M; costo -7,1%, ventas -2,7%); dotacion 18.952 vs 21.173 en sep-22; dividendo = 35,5% de la ganancia atribuible de 9M",
+      "angulo": "Corrida de redaccion del 14/11/2026 02:30, primera candidata (APTA). Hallazgo: menos toneladas por cuarto año y mas ganancia operativa en el mismo negocio. Camino: documentos de la empresa (EEFF nota 3, reseña punto V, formulario CNV) + consistencia entre cuatro reseñas + contraste IPI INDEC (confiteria -4,25%, galletitas -1,24%). No se calcula precio por kilo porque la reseña no define si 'mercado local' incluye a las filiales del exterior.",
+      "fecha": "2026-11-14",
+      "estado": "en_cola",
+      "motivo_descarte": null
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 14/11/2026 02:30. Seis portadas con WebFetch (infobae, La Nacion, ambito, iProfesional, Cronista, Pagina12); Clarin y TN con _privado/rastreo/portadas.py. Hoy ya salio una nota (ECONOMIA, formula jubilatoria) y ninguna de EMPRESAS. Lista: (1) HALLAZGO, EMPRESAS: Arcor 9M26, toneladas de consumo masivo contra ganancia operativa del segmento y dividendo de $70.000 M (CNV 13/11) [consumo masivo en baja en Clarin, iProfesional, TN, Pagina12]: APTA. (2) EMPRESAS: Carlos Casado reseña al 30/09: precio por cabeza sin peso (corridas del 13/11). (3) EMPRESAS: Instituto Rosenbusch EEFF al 30/09: no probada, retomable. (4) EMPRESAS: Camuzzi Gas del Sur, desafectacion de reserva y dividendo (HR 11/11): mismo molde que Naturgy BAN 10/11. (5) EMPRESAS: Loma Negra EEFF 3T26 completos (SEC 13/11): publicada 06/11 con el release. (6) explosion de un caño de gas en Remedios de Escalada/Lanus y HR de Metrogas [infobae, La Nacion, Clarin]: causa judicial abierta, directivos demorados. (7) UCII septiembre 60,1% [infobae, ambito, iProfesional, Cronista, Pagina12, TN]: cubierta 13/11. (8) salarios registrados +1,9% en septiembre [infobae, La Nacion, ambito, TN, Clarin]: publicada 13/11. (9) empleo registrado agosto, 126.400 puestos menos en un año [TN, Clarin, ambito, Pagina12]: SIPA publicado 13/11. (10) Etapa IV de concesiones viales, 27 tramos [La Nacion, Cronista, Clarin, TN]: sin tarifas adjudicadas. (11) segundas marcas y consumo masivo en baja 11 meses [Clarin, iProfesional, TN]: fuentes privadas sin serie publica; el angulo entra por Arcor. (12) Bombonera semivacia y entradas caras en el primer partido sin Messi [Clarin]: sin documento oficial con precios. (13) Fox Sports deja de emitirse en la Argentina [Clarin]: sin documento con montos. pregunta.json ya era de hoy (00:30).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: paso la primera candidata (Arcor, toneladas de consumo masivo y ganancia operativa)"
     }
   ]
 }

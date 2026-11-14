@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-14T00:49:51-03:00",
+    "actualizado": "2026-11-14T02:44:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-14-arcor-golosinas-toneladas-menor-desde-2020-ganancia-operativa",
+      "titulo": "Arcor vendió 543.000 toneladas de golosinas, galletas y alimentos en nueve meses, la menor cantidad desde 2020",
+      "bajada": "Arcor vendió menos golosinas, galletas y alimentos por cuarto año seguido, y ganó más con ellos. Entre enero y septiembre sus divisiones de consumo masivo vendieron 543.000 toneladas en el mercado local: 3,7% menos que en 2025 y 10,7% menos que en 2022. Pero la ganancia operativa de ese negocio subió 54,8% descontada la inflación, porque lo que le costó fabricar lo que vendió bajó más que sus ventas. El viernes, la asamblea aprobó un dividendo de $70.000 millones.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "543.000 t",
+      "numero_label": "golosinas, galletas y alimentos que Arcor vendió en el mercado local entre enero y septiembre de 2026, la menor cantidad desde 2020",
+      "fecha": "2026-11-14",
+      "hora": "03:30",
+      "archivo": "articulos/2026-11-14-arcor-golosinas-toneladas-menor-desde-2020-ganancia-operativa.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Reseña informativa consolidada al 30/09/2026, punto V, consumo masivo, ventas mercado local 543 miles de t (2025: 564; 2024: 590). Serie 2019-2023 de las reseñas al 30/09/2023 (562.097; 534.153; 569.816; 607.969) y 30/09/2024 (2023: 607); años repetidos coinciden entre reseñas. Contraste: IPI INDEC cuadro 2, ene-sep 2026 vs 2025: azúcar, confitería y chocolate -4,25%; galletitas, panadería y pastas -1,24%. Ganancia operativa consumo masivo nota 3: 307.019 vs 198.392 (+54,75%)."
+    },
     {
       "id": "2026-11-14-formula-jubilatoria-macri-fernandez-fallo",
       "titulo": "La fórmula jubilatoria de Macri que un fallo mandó aplicar habría pagado menos que la de Alberto Fernández en 37 de sus 39 meses",

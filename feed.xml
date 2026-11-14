@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 14 Nov 2026 00:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 02:45:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Arcor vendió 543.000 toneladas de golosinas, galletas y alimentos en nueve meses, la menor cantidad desde 2020</title>
+      <link>https://coninteres.com/articulos/2026-11-14-arcor-golosinas-toneladas-menor-desde-2020-ganancia-operativa.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-14-arcor-golosinas-toneladas-menor-desde-2020-ganancia-operativa.html</guid>
+      <pubDate>Sat, 14 Nov 2026 03:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Arcor vendió menos golosinas, galletas y alimentos por cuarto año seguido, y ganó más con ellos. Entre enero y septiembre sus divisiones de consumo masivo vendieron 543.000 toneladas en el mercado local: 3,7% menos que en 2025 y 10,7% menos que en 2022. Pero la ganancia operativa de ese negocio subió 54,8% descontada la inflación, porque lo que le costó fabricar lo que vendió bajó más que sus ventas. El viernes, la asamblea aprobó un dividendo de $70.000 millones.</description>
+      <ci:numero>543.000 t</ci:numero>
+      <ci:numeroEtiqueta>golosinas, galletas y alimentos que Arcor vendió en el mercado local entre enero y septiembre de 2026, la menor cantidad desde 2020</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-14-arcor-golosinas-toneladas-menor-desde-2020-ganancia-operativa.png" length="64775" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-14-arcor-golosinas-toneladas-menor-desde-2020-ganancia-operativa.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La fórmula jubilatoria de Macri que un fallo mandó aplicar habría pagado menos que la de Alberto Fernández en 37 de sus 39 meses</title>
       <link>https://coninteres.com/articulos/2026-11-14-formula-jubilatoria-macri-fernandez-fallo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte argentina en la cebada que importó China en 2025; en 2022, con Australia castigada por aranceles, fue 41,2%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-cebada-china-australia-41-a-6-por-ciento.png" length="67377" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-cebada-china-australia-41-a-6-por-ciento.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>¿Cuántos fieles espera Luján para la misa del papa León XIV y cómo mueve eso la economía de la ciudad?</title>
-      <link>https://coninteres.com/articulos/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.html</guid>
-      <pubDate>Mon, 09 Nov 2026 19:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>El intendente espera más de un millón de personas el miércoles, casi nueve por cada vecino, pero nadie publicó cómo se van a contar. Lo que sí está en documentos es la plata pública: la Provincia contrató $4.206 millones para la misa y la vigilia, $37.809 por habitante y el 3,9% de lo que el municipio presupuestó gastar en todo 2026. Lo que dejan los visitantes en hoteles y comercios no lo mide ninguna estadística oficial.</description>
-      <ci:numero>$4.206 millones</ci:numero>
-      <ci:numeroEtiqueta>lo que la Provincia de Buenos Aires contrató para la misa y la vigilia del papa León XIV en Luján, en diez contratos</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.png" length="67478" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-09-papa-lujan-cuanta-gente-cuanta-plata.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
