@@ -8729,6 +8729,20 @@
       "fecha": "2026-11-13",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: paso la primera candidata (TGS en el RIGI con la serie del gas licuado exportado)"
+    },
+    {
+      "tema": "EMPRESAS: Pan American Silver vende Manantial Espejo (Minera Triton Argentina, Gobernador Gregores, Santa Cruz) a Cerrado Gold por US$20 M (comunicado Cerrado 13/11/2026; Clarin 13/11) / AISC de la mina por anio 2017-2022 en los MD&A de Pan American ante la SEC contra el precio de la plata (Banco Mundial) y el precio realizado 2022 vs 9M-2026",
+      "angulo": "Corrida de redaccion del 13/11/2026 20:30. Hallazgo: en 2022 la mina sostenia cada onza a US$20,82 (la mas cara de las minas de plata de Pan American) y la vendia a US$21,59, margen de 77 centavos; en 2017-2019 el costo supero al precio internacional. En 9M-2026 Pan American cobro la plata US$74,12 (3,4 veces). El comunicado no trae costos; el cruce es propio. Distinto de la nota de plata exportada (10/11), que se enlaza.",
+      "fecha": "2026-11-13",
+      "estado": "publicada",
+      "articulo_id": "2026-11-13-manantial-espejo-pan-american-cerrado-plata"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 13/11/2026 20:30. Seis portadas con WebFetch (infobae, La Nacion, ambito, iProfesional, Cronista, Pagina12); Clarin y TN con _privado/rastreo/portadas.py. Hoy ya salieron 10 notas (EMPRESAS Holcim, Plus Ultra y TGS). Lista: (1) HALLAZGO, EMPRESAS: Manantial Espejo vendida a Cerrado Gold [Clarin] con el costo por onza de Pan American (SEC): APTA. (2) EMPRESAS: Arcor dividendo en efectivo de $70.000 M aprobado en la asamblea del 13/11 (HR CNV) y aprobacion de la escision-fusion de Mastellone con La Serenisima Unida: mismo molde que Naturgy BAN 10/11 y Camuzzi; retomable con la serie de dividendos de Arcor en dolares (HR de 2020-2022 en cnv_lista). (3) EMPRESAS: Instituto Rosenbusch (vacuna antiaftosa) EEFF al 30/09: solo la nota de aprobacion, sin los estados. (4) CALENDARIO: UCII e indice de salarios: ver corridas de las 16:30 y 18:30. (5) empleo privado en agosto, monotributo en alza [5 portadas]: SIPA publicado hoy. (6) tarifa de referencia del transporte de granos +16% en PBA [Clarin]: molde tarifa, cifras en disputa entre entidades y provincia. (7) tercera licitacion de plazos fijos del FGS para hipotecarios [TN]: programa cubierto 26/08, 02/10 y 16/10; los resultados no tienen comunicado oficial (06/10). (8) inundaciones en el Litoral y temporal en Salta: ATN cubiertos 28/09. (9) explosion de gas en Remedios de Escalada (Metrogas): causa judicial abierta. (10) Nvidia, cierre del espacio aereo de EE.UU., amistoso Argentina-Uruguay en la Bombonera: sin documento oficial con cifra. (11) Blaquier compra otro ingenio [Clarin]: ingenios en cola 12/11. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-13",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: paso la primera candidata (Manantial Espejo, costo por onza contra precio)"
     }
   ]
 }

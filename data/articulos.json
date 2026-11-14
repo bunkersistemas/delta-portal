@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-13T18:45:25-03:00",
+    "actualizado": "2026-11-13T21:26:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-13-manantial-espejo-pan-american-cerrado-plata",
+      "titulo": "En 2026 la plata se vendió 3,4 veces más cara que cuando Pan American cerró su mina de Santa Cruz, que acaba de vender en US$20 millones",
+      "bajada": "En su último año completo, a Manantial Espejo le costaba US$20,82 sostener cada onza de plata y Pan American la vendía a US$21,59: le dejaba 77 centavos por onza, y era la más cara de sus minas de plata. En los primeros nueve meses de 2026, Pan American cobró esa onza US$74,12. Con ese precio de fondo, la empresa canadiense Cerrado Gold compró la mina este viernes y quiere reabrirla en 2027.",
+      "titulo_busqueda": "Manantial Espejo: Pan American vende la mina de Santa Cruz a Cerrado Gold por US$20 millones",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "3,4 veces",
+      "numero_label": "lo que subió el precio de la plata entre 2022, último año completo de Manantial Espejo, y enero-septiembre de 2026",
+      "fecha": "2026-11-13",
+      "hora": "21:30",
+      "archivo": "articulos/2026-11-13-manantial-espejo-pan-american-cerrado-plata.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Pan American Silver precio realizado plata: 2022 US$21,59 (MD&A 2022, 40-F 22/02/2023) y 9M-2026 US$74,12 (MD&A 3T26, 6-K 04/11/2026): 3,43. Banco Mundial Pink Sheet: 2022 promedio 21,783; ene-sep 2026 promedio 73,478: 3,37. AISC Manantial Espejo (MD&A, por onza de plata vendida neta de oro): 2017 23,42; 2018 16,83; 2019 18,43; 2020 15,80; 2021 20,67; 2022 20,82 (cada anio coincide en dos informes). Margen 2022 21,59-20,82 = 0,77. Produccion 2022 3.463 koz Ag + 26,6 koz Au = 68,5 koz GEO con precios BM (Cerrado: 68.000). Compra: US$10 M + 5 + 5, NSR 1%, garantia de cierre ~US$13,8 M (comunicado Cerrado 13/11/2026)."
+    },
     {
       "id": "2026-11-13-tgs-rigi-liquidos-gas-licuado-exportaciones",
       "titulo": "TGS entró al RIGI con US$3.244 millones para exportar los líquidos del gas de Vaca Muerta: calcula ventas por US$1.200 millones al año",
