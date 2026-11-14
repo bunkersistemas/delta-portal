@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-14T06:55:06-03:00",
+    "actualizado": "2026-11-14T08:53:01-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-14-inflacion-milei-fernandez-35-meses-servicios-bienes",
+      "titulo": "Los precios subieron 354% en los primeros 35 meses de Milei, más que el 277% del mismo tramo de Alberto Fernández",
+      "bajada": "Javier Milei acumula más inflación que Alberto Fernández en el mismo tiempo: desde el último índice antes de que asumiera hasta octubre de 2026, el IPC del INDEC subió 354%; en los mismos 35 meses de Fernández había subido 276,5%. Pero las dos inflaciones no se parecen. La de Milei se concentró al principio, con 25,5% solo en el primer mes; la de Fernández se aceleró al final. Y con Fernández los bienes subieron más que los servicios; con Milei, los servicios subieron 531%, casi el doble que el 294% de los bienes.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "354%",
+      "numero_label": "inflación acumulada en los primeros 35 meses de Milei, de noviembre de 2023 a octubre de 2026; con Alberto Fernández había sido 276,5%",
+      "fecha": "2026-11-14",
+      "hora": "09:30",
+      "archivo": "articulos/2026-11-14-inflacion-milei-fernandez-35-meses-servicios-bienes.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC serie_ipc_divisiones.csv, Nacional, nivel general: nov-23 2816,0628 -> oct-26 12785,9321 = +354,0%; nov-19 273,2158 -> oct-22 1028,706 = +276,5%. Bienes 3160,805 -> 12464,1733 (+294,3%) y 277,0656 -> 1132,6433 (+308,8%); servicios 2140,1777 -> 13499,0101 (+530,7%) y 267,232 -> 826,4284 (+209,3%). Informe IPC oct-26 (ipc_11_269335F5BA6B.pdf): 2,2% m, 26,3% acum, 33,1% i.a. Recalculo = datos.gob.ar 148.3_INIVELNAL_DICI_M_26 (dif < 0,001). Contraste IPCBA (193.1 + 193.2 empalmado feb-22): Milei 376,2%, Fernandez 248,3%; regulados CABA 586,5% vs INDEC 570,0%. Precio relativo S/B (dic-16=1): nov-19 0,96; nov-23 0,68 (min hasta entonces); ene-24 0,59 (min); oct-26 1,08; max abr-18 1,17; 33 subas seguidas desde ene-24."
+    },
     {
       "id": "2026-11-14-argentinos-republica-dominicana-record-brasil-avion",
       "titulo": "Récord de argentinos en República Dominicana: 391.176 en nueve meses, pero este año crecen casi al mismo ritmo que los que llegan en avión a Brasil",

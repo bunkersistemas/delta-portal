@@ -8812,6 +8812,20 @@
       "fecha": "2026-11-14",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuánta inflación acumula Milei y cómo se compara con Alberto Fernández? (iProfesional 13-14/11/2026 'Milei acumula 350% de inflación'; Página12 'la inflación se acelera'; IPC de octubre del 12/11/2026) / IPC nacional INDEC, primeros 35 meses (nov previo a asumir -> mes 35): Milei 354,0% vs Fernández 276,5%; bienes 294,3% vs 308,8%; servicios 530,7% vs 209,3%; precio relativo servicios/bienes 0,68 nov-23 -> 0,59 ene-24 -> 1,08 oct-26; contraste IPCBA 376,2% vs 248,3%",
+      "angulo": "la inflación acumulada de Milei contra la del mismo tramo de Fernández, y la composición invertida: con Milei subieron los servicios, con Fernández los bienes",
+      "fecha": "2026-11-14",
+      "estado": "en_cola",
+      "archivo": "cola/2026-11-14-inflacion-milei-fernandez-35-meses-servicios-bienes.html"
+    },
+    {
+      "tema": "descartes de la corrida 2026-11-14 08:30: (1) Ingresos Brutos 2026 por provincia, DNAP top_mensual_2026_1311 (ene-sep, 23 jurisdicciones: -4,7% real; Misiones -20,0%, La Rioja -13,9%, CABA -8,8%; crecen Neuquén +5,0%, Santiago +3,6%, San Juan +2,5%, Río Negro +2,0%) [Cronista]; (2) peso contra real, TCR bilateral con Brasil [iProfesional]; (3) caños petroleros sin costura de China para Vaca Muerta [Cronista]; (4) EMPRESAS Metrogas, explosión en Remedios de Escalada (HR CNV 13/11: un muerto, 13 heridos) [Clarín]; (5) EMPRESAS Molinos-Tía Maruca; (6) EMPRESAS Ribeiro concurso (oferta US$2,9 M por el inmueble del centro logístico); (7) Etapa IV de concesiones viales; (8) inquilinos: 600.000 hogares más en una década [infobae, ámbito, Página12]; (9) Francia/Milei en París",
+      "angulo": "candidatas descartadas",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "motivo_descarte": "(1) el ranking provincial ya lo publicaron IARAF y El Cronista ('Misiones lidera el derrumbe'): sin dato propio; (2) TCR bilateral con Brasil publicado el 05/10; (3) caños sin costura de China ya en la nota del 29/10; (4) sin dato que no sea el comunicado y sin causa establecida; (5) sin monto en el documento; (6) sin monto del pasivo concursal; (7) sin documento con tramos ni tarifas; (8) cubierto el 18/10; (9) cubierto el 30/09 y 02/10. Cupo de empresas ya cumplido hoy (Arcor)."
     }
   ]
 }

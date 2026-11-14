@@ -55,6 +55,11 @@
     ],
     "inflacion": [
       {
+        "fecha": "2026-10-31",
+        "titulo": "En 35 meses de Milei los precios subieron 354% (Fernández: 276,5%): los servicios, 530,7%, y los bienes, 294,3%",
+        "nota": "../articulos/2026-11-14-inflacion-milei-fernandez-35-meses-servicios-bienes.html"
+      },
+      {
         "fecha": "2026-09-30",
         "titulo": "Los regulados subieron 31,5% en nueve meses, contra 23,6% de la inflación; en el Noreste, 43,0%",
         "nota": "../articulos/2026-10-16-tarifas-regulados-inflacion-noreste.html"
