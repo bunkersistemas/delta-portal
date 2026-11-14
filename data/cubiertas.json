@@ -8893,6 +8893,22 @@
       "fecha": "2026-11-14",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: pasó la candidata con hallazgo (ranking de exportaciones con serie desde 1993)"
+    },
+    {
+      "tema": "EMPRESAS: ¿qué pasó con la deuda de Ribeiro en su concurso preventivo? (hecho relevante CNV 13/11/2026 ca7baa58: la Sala F revocó el rechazo de la propuesta; pago con la indemnización del seguro del centro Spegazzini, quemado el 14/11/2025, más oferta en firme de US$2,9 M por el terreno) / pasivo total en dólares al A3500 de cada cierre: jun-21 $6.568,2 M = US$68,6 M; jun-22 $7.541,9 M = US$60,2 M; jun-23 $7.839,8 M = US$30,5 M; jun-24 $11.939,7 M = US$13,1 M (+82% en pesos, -81% en dólares); deuda concursal nota 38 $28.038 M -> $11.216 M en pesos de jun-24 (-60%); RECPAM FY24 $13.966 M = 9,3 veces las ventas; alquileres 76,9% de las ventas; empleados 1.577 -> 95; tasaciones dic-22 US$10,6 M y US$10 M",
+      "angulo": "Corrida programada del 14/11/2026 20:30, primera candidata probada (APTA). HALLAZGO propio: nadie contó que la deuda del concurso se licuó con la inflación (art. 19 LCQ congela los créditos en pesos) mientras el expediente lleva 5 años, ni que la empresa gana por RECPAM y vive del alquiler del galpón. Fuentes: EEFF 2021-2024 presentados juntos el 11/12/2025 (formularios de datos CNV + PDF escaneados leídos por imagen: EEFF 2022 p.2 y EEFF 2024 pp.2-3, notas 26, 27, 38, 40, memoria), HR 31/01/2023, 11/05/2023, 24/11/2023, 17/12/2025, 21/05/2026, 13/11/2026; BCRA A3500; INDEC IPC. Control: reexpresión del comparativo con IPC INDEC cuadra exacto (jun21 x 1,6398; jun23 x 3,7153). FY2025 no presentado: no se afirma la deuda actual. Central de Deudores BCRA (CUIT 30525966859) solo informa $0,9 M: no sirve de contraste.",
+      "fecha": "2026-11-14",
+      "estado": "publicada",
+      "articulo_id": "2026-11-14-ribeiro-concurso-deuda-dolares-inflacion",
+      "archivo": "cola/2026-11-14-ribeiro-concurso-deuda-dolares-inflacion.html"
+    },
+    {
+      "tema": "descartes de la corrida programada del 14/11/2026 20:30: no se probaron o no pasaron la vara porque pasó la primera candidata (Ribeiro, deuda licuada en el concurso). Empresas: Molinos compra la marca Tía Maruca (HR CNV 13/11 EA682D37 y acta 2356; infobae, La Nación, Clarín) sin precio ni volumen: sin cifra ancla (igual que Ayudín el 28/10); Metrogas, explosión en Remedios de Escalada por un gasoducto de media presión dañado por una tunelera (HR 13/11, 1 muerto y 13 heridos) sin serie oficial de incidentes localizada; Minera Exar recompra US$3,1 M VN de la ON Clase I a AR$1.630,32 por US$ (HR 11/11), sin ángulo; Camuzzi Gas del Sur dividendo (HR 11/11), mismo molde que Naturgy BAN del 10/11; Carlos Casado, Rosenbusch, Luz de Tres Picos, Central Urbana y Crédito Directo (balances 3T) no leídos. Portales: capacidad instalada 60,1% (ámbito, iProfesional, TN, Página12, Cronista; cubierta 15/10 con agosto), salarios de septiembre (publicada 13/11), 32.429 empresas cerradas (Clarín, ámbito, infobae; cubierta 27/09 y 09/10), rutas Etapa IV 27 tramos (Cronista, Clarín, TN; Etapa III descartada 06/10 por tarifas no verificables), oro y reservas US$1.800 M (infobae; oro del BCRA cubierto 14/10), inflación por provincia de octubre (infobae ya publicó el ranking), Manzano-De Narváez Dia y Burger King (venta de Dia en cola 05/11; Burger King sin documento), retiro del subsidio a colectivos a gas y eléctricos (ámbito; colectivos cubiertos 8 veces), Caribe vs Brasil (publicada hoy 07:30). Pregunta de plata: semifinal de Copa Argentina (premios cubiertos 27/09), Festival de Mar del Plata (INCAA cubierto 31/08). clarin.com y tn.com.ar leídos con _privado/rastreo/portadas.py. pregunta.json no se tocó (no es la primera corrida del día).",
+      "angulo": "Registro de candidatas no probadas para que una corrida siguiente pueda retomarlas.",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas o sin cifra ancla: pasó la primera candidata"
     }
   ]
 }
