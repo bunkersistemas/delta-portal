@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 14 Nov 2026 02:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 04:53:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los molinos molieron más trigo que en cualquier enero-septiembre desde 2011, pero todo el aumento de 2026 se fue en harina exportada</title>
+      <link>https://coninteres.com/articulos/2026-11-14-molienda-trigo-harina-exportada-bolivia.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-14-molienda-trigo-harina-exportada-bolivia.html</guid>
+      <pubDate>Sat, 14 Nov 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Entre enero y septiembre de 2026 los molinos molieron 4,82 millones de toneladas de trigo pan, el mayor volumen para esos meses desde 2011. Pero contra 2025 la molienda creció apenas 0,7%, y la harina exportada, 14,3%: en ella se fueron unas 69.000 toneladas de trigo más, el doble de lo que creció la molienda. Lo que se muele para el mercado interno, estimado, cayó cerca de 0,8%. Bolivia compró más harina argentina que Brasil, algo que en un año entero no pasaba desde 2020.</description>
+      <ci:numero>+14,3%</ci:numero>
+      <ci:numeroEtiqueta>aumento de la harina de trigo exportada entre enero y septiembre de 2026; la molienda de trigo pan creció 0,7%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-14-molienda-trigo-harina-exportada-bolivia.png" length="69710" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-14-molienda-trigo-harina-exportada-bolivia.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Arcor vendió 543.000 toneladas de golosinas, galletas y alimentos en nueve meses, la menor cantidad desde 2020</title>
       <link>https://coninteres.com/articulos/2026-11-14-arcor-golosinas-toneladas-menor-desde-2020-ganancia-operativa.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>dividendos en efectivo que Naturgy BAN aprobó repartir en 2026, en cuatro decisiones de abril a noviembre</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-naturgy-ban-dividendos-2026-ganancia.png" length="81235" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-naturgy-ban-dividendos-2026-ganancia.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La Argentina llegó a venderle a China el 41% de la cebada que importaba; con Australia de vuelta, en 2025 fue el 6%</title>
-      <link>https://coninteres.com/articulos/2026-11-10-cebada-china-australia-41-a-6-por-ciento.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-10-cebada-china-australia-41-a-6-por-ciento.html</guid>
-      <pubDate>Tue, 10 Nov 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Entre 2020 y 2023 China le cobró a la cebada australiana un recargo de 80,5%, y la Argentina ocupó el lugar: en 2022 fue su primer proveedor, con el 41,2% de lo que compró. Desde que China levantó el castigo, Australia volvió a dominar y la parte argentina bajó a 6,0% en 2025. Las ventas argentinas de cebada a China cayeron 78% en dos años, pero la cebada no dejó de venderse: se fue a otros destinos, como Arabia Saudita y Brasil.</description>
-      <ci:numero>6%</ci:numero>
-      <ci:numeroEtiqueta>parte argentina en la cebada que importó China en 2025; en 2022, con Australia castigada por aranceles, fue 41,2%</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-cebada-china-australia-41-a-6-por-ciento.png" length="67377" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-cebada-china-australia-41-a-6-por-ciento.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

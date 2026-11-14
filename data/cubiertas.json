@@ -8786,6 +8786,19 @@
       "fecha": "2026-11-14",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: paso la primera candidata (Arcor, toneladas de consumo masivo y ganancia operativa)"
+    },
+    {
+      "tema": "¿cuánta harina exporta la Argentina y a quién? (pregunta detrás de infobae 12/11/2026 'La molienda de trigo alcanzó su mayor volumen en 12 campañas', SAGyP: 5.633.125 t dic-25/sep-26, +2,8%) / molienda de trigo pan ene-sep 2026 4.824.521 t (+0,70%, mayor ene-sep desde 2011) contra harina exportada INDEC NCM 1101 408.122 t (+14,3%); trigo equivalente +68.900 t, el doble del aumento de la molienda; mercado interno estimado -0,8%; Bolivia 215,6 kt (x2,85 vs 2024) supera a Brasil 161,1 kt (-20%); molienda por habitante 136,3 kg en 2025 vs 156,5 en los años 50 (serie SAGyP desde 1950 + ONU)",
+      "angulo": "Corrida de redacción del 14/11/2026 04:30, primera candidata (APTA). Hallazgo: el récord de molienda que anunció la Secretaría es exportación; el mercado interno no creció. Camino: estadística oficial recalculada (planilla por planta = informe) + contraste independiente (declaración de destino de los molinos a la SAGyP vs Aduana; espejo de Bolivia en Comtrade; FAO para la tendencia larga). El trigo equivalente y el mercado interno van como estimados con rango de coeficiente 0,72-0,76. No se afirma que se coma menos pan.",
+      "fecha": "2026-11-14",
+      "estado": "publicada",
+      "articulo_id": "2026-11-14-molienda-trigo-harina-exportada-bolivia"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 14/11/2026 04:30. Portadas de economía de infobae, La Nación, Clarín, ámbito, iProfesional, Cronista, TN y Página12 con _privado/rastreo/portadas.py. Hoy ya salieron dos notas (ECONOMÍA fórmula jubilatoria; EMPRESAS Arcor): cupo de empresas cumplido. Lista: (1) HALLAZGO + pregunta: molienda de trigo récord contra harina exportada y destinos [infobae; SAGyP]: APTA. (2) quita del subsidio fijo a colectivos a GNC (30%) y eléctricos (50%), Res. ST 83/2026 [infobae, ámbito]: sin cantidad de unidades ni montos en documento; colectivos cubiertos 17/10, 30/10 y 04/11. (3) tarifa de flete de granos laudada por la provincia de Buenos Aires [Clarín]: no probada, retomable (peso del flete en el precio del grano). (4) Etapa IV de concesiones viales, 27 tramos [La Nación, Clarín, Cronista, TN]: sin tarifas ni tramos en documento. (5) EMPRESAS: Instituto Rosenbusch EEFF al 30/09/2026: no probada; cupo cumplido. (6) EMPRESAS: Camuzzi Gas del Sur, dividendo (HR 11/11): mismo molde que Naturgy BAN 10/11. (7) EMPRESAS: Molinos compra la marca Tía Maruca (HR 13/11): sin monto. (8) UCII septiembre 60,1% [infobae, ámbito, iProfesional, Cronista, TN]: cubierta 13/11. (9) salarios registrados +1,9% [infobae, La Nación, ámbito, TN, Clarín]: publicada 13/11. (10) empleo registrado agosto [La Nación, Clarín, ámbito, Cronista, TN, Página12]: publicada 13/11. (11) hogares inquilinos [infobae, ámbito, Página12]: publicada 18/10. (12) Bombonera semivacía sin Messi [Clarín]: sin documento oficial con precios. pregunta.json ya era del día.",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: pasó la primera candidata"
     }
   ]
 }

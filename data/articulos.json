@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-14T02:44:57-03:00",
+    "actualizado": "2026-11-14T04:53:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-14-molienda-trigo-harina-exportada-bolivia",
+      "titulo": "Los molinos molieron más trigo que en cualquier enero-septiembre desde 2011, pero todo el aumento de 2026 se fue en harina exportada",
+      "bajada": "Entre enero y septiembre de 2026 los molinos molieron 4,82 millones de toneladas de trigo pan, el mayor volumen para esos meses desde 2011. Pero contra 2025 la molienda creció apenas 0,7%, y la harina exportada, 14,3%: en ella se fueron unas 69.000 toneladas de trigo más, el doble de lo que creció la molienda. Lo que se muele para el mercado interno, estimado, cayó cerca de 0,8%. Bolivia compró más harina argentina que Brasil, algo que en un año entero no pasaba desde 2020.",
+      "titulo_busqueda": "¿Cuánta harina exporta la Argentina y a quién?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+14,3%",
+      "numero_label": "aumento de la harina de trigo exportada entre enero y septiembre de 2026; la molienda de trigo pan creció 0,7%",
+      "fecha": "2026-11-14",
+      "hora": "04:30",
+      "archivo": "articulos/2026-11-14-molienda-trigo-harina-exportada-bolivia.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC bases exponm25/exponm26, NCM 1101 ene-sep: 357.135 t -> 408.122 t (+14,28%), incluye destino 999 confidencial (3,4 kt en 2026). Molienda trigo pan SAGyP informe harinas sep-2026: 4.791.074 -> 4.824.521 (+0,70%), recalculada con la planilla por planta (283 plantas, misma suma). Contraste: SAGyP declara 12,24% de lo industrializado a exportacion en sep-26; INDEC sep-26 44.797 t / 401.172 t producidas = 11,2%. Bolivia (Comtrade 68, M, 1101): 2024 61,7 kt -> 2025 102,4 kt (+66%) vs INDEC +71%. Trigo equivalente con 0,74 (401.172/541.762): +68.901 t; mercado interno -0,82% (0,72: -0,87%; 0,76: -0,78%). Superlativo: ene-sep 2011 4.935.766 t (serie datos.gob.ar 1950-2018). Per capita 2025 136,3 kg (ONU WPP) vs 156,5 promedio 1950-59; FAO FBS historica food 126,5 (1961) -> 103,1 (2013), -18,5%; molienda pc -21,4%."
+    },
     {
       "id": "2026-11-14-arcor-golosinas-toneladas-menor-desde-2020-ganancia-operativa",
       "titulo": "Arcor vendió 543.000 toneladas de golosinas, galletas y alimentos en nueve meses, la menor cantidad desde 2020",
