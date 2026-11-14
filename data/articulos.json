@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-14T14:48:49-03:00",
+    "actualizado": "2026-11-14T16:45:21-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,24 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-14-boca-finanzas-de-donde-saca-la-plata-en-que-la-gasta",
+      "titulo": "¿De dónde saca Boca su plata y en qué la gasta?",
+      "bajada": "En su último balance, el del ejercicio 2025/26, los socios pusieron el 35,7% de lo que entró a Boca: $83.617 millones, la proporción más alta de los tres años que se pueden reconstruir con documentos oficiales. Aun así, las cuotas, los partidos y los sponsors juntos no alcanzaron para pagar el club: sin el mercado de pases, los ingresos no cubrieron los gastos en ninguno de esos tres años. Ni siquiera en 2024/25, el de mayor superávit de los tres, cuando faltaron $42.000 millones. El fútbol profesional se llevó casi la mitad de lo que gastó.",
+      "titulo_busqueda": "Finanzas de Boca Juniors: ingresos y gastos según sus balances oficiales",
+      "seccion": "DEPORTES",
+      "formato": "Anatomía de un balance",
+      "numero": "35,7%",
+      "numero_label": "parte de los ingresos de Boca que pagaron los socios con la cuota en el ejercicio 2025/26, la más alta de los tres balances disponibles",
+      "fecha": "2026-11-14",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-14-boca-finanzas-de-donde-saca-la-plata-en-que-la-gasta.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 10 min",
+      "numero_fuente": "Boca Juniors, estado de recursos y gastos al 30/06/2026 (p. 141 del PDF escaneado, ejercicio N° 122, auditor Becher y Asociados): cuotas sociales $83.616.751.053 / total de recursos $233.946.442.882 = 35,74%. 11 renglones de recursos y 17 de gastos suman exacto los totales de 2025/26, 2024/25 y 2023/24 (balance al 30/06/2025, p. 76). 2023/24: 27,0%; 2024/25: 24,2%. Anexo VIII suma exacto las cuotas. Contrastes: superávit 2025/26 $15.519.491.524 = El Economista 29/10/2026; superávit 2024/25 $35.581.462.204 (jun-25) = nota oficial del club; 2023/24 US$22,2 M (A3500 28/06/2024, IPC) vs US$22 M informado (La Capital 29/10/2024); coeficiente de reexpresión del club 1,335477 = IPC INDEC jun-26/jun-25.",
+      "pedido": 117
+    },
     {
       "id": "2026-11-14-dni-20000-dolares-doble",
       "titulo": "El DNI pasa a $20.000: son US$12,93, casi el doble de los US$7 en que el Estado lo fijó en 2019, 2025 y marzo de 2026",
