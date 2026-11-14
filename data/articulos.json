@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-13T21:26:33-03:00",
+    "actualizado": "2026-11-13T22:58:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-13-pasajeros-argentina-estados-unidos-enero-record",
+      "titulo": "Enero de 2026 fue el mes récord de pasajeros entre la Argentina y Estados Unidos, pero de abril a septiembre volaron 21% menos que en 2018",
+      "bajada": "Enero de 2026 fue el mes con más pasajeros entre la Argentina y Estados Unidos en la serie de la ANAC: 204.055, y el registro de EE.UU. lo ubica como su mes más alto desde 1990. Pero el récord fue solo de temporada: de abril a septiembre volaron 717.203 pasajeros, 20,9% menos que en los mismos meses de 2018.",
+      "titulo_busqueda": "Vuelos entre la Argentina y Estados Unidos: cuántos pasajeros hay por mes y cuál fue el récord",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "204.055",
+      "numero_label": "pasajeros entre la Argentina y Estados Unidos en enero de 2026, el mes más alto en las series de los dos países",
+      "fecha": "2026-11-13",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-13-pasajeros-argentina-estados-unidos-enero-record.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "ANAC tablas de movimientos y pasajeros, cuadro 20, suma de Ezeiza con Miami, Nueva York, Atlanta, Houston, Dallas-Fort Worth, Newark y Los Angeles: ene-26 204,055 miles; recalculo vuelo por vuelo ANAC (regulares, aeropuertos K***) 204.050. Contraste DOT International_Report_Passengers (data.transportation.gov xgub-n9bw, fg_wac=303): ene-26 201.760 (-1,1%), maximo desde ene-1990; maximo previo DOT mar-18 170.057, ANAC mar-18 175.416 (+16,3%). Dic-25 188.859 y feb-26 178.331 (DOT 181.814 y 176.127). Temporada dic-mar 741.305 vs 680.032 (dic17-mar18, +9,0%; DOT 722.345 vs 651.257). Abr-sep 2026 717.203 vs 906.805 (2018, -20,9%), 924.327 (2019, -22,4%), 607.106 (2025, +18,1%); jul-sep provisorios. Abr-jun ANAC -26,3% vs DOT -29,1% (DOT trae menos pax que ANAC en abr-26: 98.549 vs 121.559). Ene-sep 1.269.649 vs 1.415.626 (2018, -10,3%). Vuelos regulares despegando a EE.UU.: ene-26 440, nov-25 333, sep-26 236."
+    },
     {
       "id": "2026-11-13-manantial-espejo-pan-american-cerrado-plata",
       "titulo": "En 2026 la plata se vendió 3,4 veces más cara que cuando Pan American cerró su mina de Santa Cruz, que acaba de vender en US$20 millones",

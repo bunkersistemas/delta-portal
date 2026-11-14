@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-13T20:30",
+  "generado": "2026-11-13T22:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593186",
+      "fuente": "CNV",
+      "fecha": "2026-11-13T21:59",
+      "entidad": "MOLINOS RÍO DE LA PLATA S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ADQUISICIÓN DE LA MARCA “TÍA MARUCA” Y DERECHOS DE PROPIEDAD INTELECTUAL ASOCIADOS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/EA682D37-4082-48DE-9915-618872F48AB7"
+    },
     {
       "id": "cnv-3593143",
       "fuente": "CNV",

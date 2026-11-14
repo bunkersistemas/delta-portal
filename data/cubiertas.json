@@ -8743,6 +8743,21 @@
       "fecha": "2026-11-13",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: paso la primera candidata (Manantial Espejo, costo por onza contra precio)"
+    },
+    {
+      "tema": "¿cuánta gente vuela entre la Argentina y Estados Unidos? (pregunta detrás de la suspensión de despegues ordenada por la FAA el viernes 13/11/2026, Clarín 'Estados Unidos ordenó cerrar todos los aeropuertos' y 'cómo impacta en las salidas desde la Argentina') / ANAC cuadro 20, siete rutas Ezeiza-EE.UU. 2001-2026: ene-26 204.055, récord de la serie (previo mar-18 175.416); DOT International_Report_Passengers ene-26 201.760, máximo desde 1990; temporada dic25-mar26 741.305 (+9,0% vs dic17-mar18) pero abr-sep 2026 717.203, -20,9% vs 2018; Miami 56,5% de ene-sep; vuelos regulares por día 14,2 (ene) y 7,9 (sep)",
+      "angulo": "Corrida de redacción del 13/11/2026 22:30, primera candidata (APTA). Ángulo nuevo frente a la nota del 20/10 (turistas residentes a EE.UU. y Canadá, ETI anual): acá es tráfico total de pasajeros por mes, el récord de enero con dos fuentes independientes (ANAC + DOT de EE.UU., -1,1%) y la concentración en la temporada. Sección MUNDO, que faltaba hoy. Abril-septiembre como estadística oficial recalculada (registro vuelo por vuelo) con contraste DOT en la misma dirección (abr-jun -29,1% vs -26,3%); DOT con huecos en meses recientes, no usado para cifras de abr-sep. Sin causas del cambio de estacionalidad.",
+      "fecha": "2026-11-13",
+      "estado": "publicada",
+      "articulo_id": "2026-11-13-pasajeros-argentina-estados-unidos-enero-record",
+      "archivo": "cola/2026-11-13-pasajeros-argentina-estados-unidos-enero-record.html"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 13/11/2026 22:30. Seis portadas con WebFetch (infobae, La Nación, ámbito, iProfesional, Cronista, Página12); Clarín y TN con _privado/rastreo/portadas.py. Hoy ya salieron 11 notas (EMPRESAS Holcim, Plus Ultra, TGS y Pan American; ECONOMÍA PROVINCIAL; ECONOMÍA; MERCADOS); faltaba MUNDO. Lista: (1) HALLAZGO, MUNDO + pregunta: suspensión de despegues de la FAA [Clarín, dos notas], pasajeros Argentina-EE.UU. por mes con ANAC + DOT de EE.UU.: APTA. (2) consumo de carne -11,2% y exportación 31,1% de la producción 'por primera vez' [La Nación, CICCRA]: fuente privada; carne cubierta 24/10, 29/10 y 31/10. (3) Empiria: quien pierde un empleo registrado gana 22% menos [La Nación]: estudio de consultora sin documento publicado; hoy ya salieron dos notas de empleo (SIPA Patagonia, RIFL). (4) Fundar: Argentina hasta 51% más cara que la región en restaurantes [iProfesional]: índice de una sola fuente, sin cálculo propio posible hoy. (5) nuevo canje por un vencimiento de casi $30 billones [La Nación]: Tesoro cubierto hoy (06:00). (6) UCII septiembre 60,1% [6 portadas]: molde repetido (corrida 16:30). (7) EMPRESAS: Arcor dividendo $70.000 M y escisión-fusión Mastellone-LSU (HR CNV 13/11), Camuzzi dividendo, Carlos Casado, Rosenbusch, Molinos-Tía Maruca (publicada 12/11): cupo de empresas cumplido con cuatro notas hoy. (8) Los Grobo alquila un negocio a Amaggi [La Nación, Clarín]: contrato privado sin monto en documento. (9) Burger King a Manzano [La Nación, Clarín]: sin documento. (10) Etapa IV de rutas, 27 tramos [5 portadas]: sin tarifas adjudicadas. (11) hogares inquilinos [infobae, ámbito, Página12]: publicada 18/10. (12) Argentina-Uruguay en una Bombonera semivacía [Clarín]: sin documento oficial con montos. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-13",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: pasó la primera candidata (pasajeros Argentina-EE.UU., ANAC + DOT)"
     }
   ]
 }
