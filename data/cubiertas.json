@@ -8877,6 +8877,22 @@
       "angulo": "Nuevo frente a las notas del 21/10 y 07/11 (premios): la estructura completa de recursos y gastos de tres ejercicios (2023/24 a 2025/26, pesos de jun-2026 y US$) con anexos del balance N° 122. Ancla: cuotas 35,7% de los ingresos 2025/26. Sin mercado de pases, déficit operativo los tres años (-40,7 / -42,0 / -15,8 mil M). Faltan 2016/17-2022/23: el club publica solo el último balance y Wayback dio 429.",
       "seccion": "DEPORTES",
       "pedido": 117
+    },
+    {
+      "tema": "¿cuál es el principal producto de exportación de la Argentina? (infobae 14/11/2026 'El petróleo superó a la harina de soja y pasó a ser el principal producto de exportación', iProfesional 'productos agroindustriales más destacados del año') / INDEC ICA sep-2026 cuadro 31: crudo 27090010 US$7.752,5 M ene-sep (+58,6%, 10,0%) > harina 23040010 6.971,0 (+7,4%) > maíz 6.877,0; harina primera en cada año 2001-2025 y en cada ene-sep 2002-2025; crudo primero en 1995, 1996, 1997 y 2000 (Comtrade); harina/crudo 9M 27,0 en 2017 y 0,90 en 2026; harina mismas toneladas (20,78 Mt, +0,1%), crudo +32,5% t y +19,7% precio",
+      "angulo": "Corrida de redacción del 14/11/2026 18:30, primera candidata probada (APTA). Distinta de la nota del 05/10 (crudo ene-ago, oleoducto VMOS) y de la del 03/11 (volumen exportado récord desde 1986): el hallazgo es la serie larga del ranking (los portales dan el 58% y el 7,4%, no desde cuándo) y que la harina no cayó. Camino: estadística oficial recalculada (cuadro 31 + base exponm26 exacta) con contraste independiente (Comtrade espejo de compradores ene-ago +59,3% vs INDEC +54,7%; SE +50,8%). El espejo de la harina por mes no sirve (cambia la mezcla de países) y no se usó; el espejo por país del crudo diverge (cargamentos que cambian de destino) y solo se usó el total. Sin causas atribuidas.",
+      "fecha": "2026-11-14",
+      "estado": "publicada",
+      "articulo_id": "2026-11-14-petroleo-primer-producto-exportacion-desde-2000",
+      "archivo": "cola/2026-11-14-petroleo-primer-producto-exportacion-desde-2000.html",
+      "seccion": "ECONOMÍA"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 14/11/2026 18:30: pasó la primera candidata (petróleo crudo primer producto exportado, serie desde 1993)",
+      "angulo": "Lista no probada. Empresas (hoy ya hay nota de EMPRESAS, Arcor; no rige el cupo): Molinos compra la marca Tía Maruca (HR CNV 13/11/2026 EA682D37; La Nación, Clarín, infobae; sin leer si trae precio, retomable), Camuzzi Gas del Sur desafectación de reserva y dividendo (HR CNV 11/11; mismo molde que Naturgy BAN del 10/11), Carlos Casado reseña al 30/09/2026 e Instituto Rosenbusch EEFF al 30/09/2026 (no leídos), Banco Macro/BYMA/A3 recompras (formato cubierto), TGS RIGI (publicada 13/11), Bianchi (en cola 12/11). Portales: Manzano y De Narváez en Dia y Burger King (infobae, La Nación, Clarín; Dia en cola 05/11, Burger King sin documento), capacidad instalada 60,1% en septiembre (dato del día en cinco portales, sin ángulo), empresas cerradas y empleo registrado (Clarín, ámbito, TN, Página12; cubierto 27/09 y 09/10), salarios registrados de septiembre (molde agotado), oro que restó US$1.800 M a las reservas (infobae; retomable con BCRA), retiro del subsidio fijo a colectivos a GNC y eléctricos (ámbito; sin norma leída), Etapa IV de concesión de rutas (Clarín, Cronista, TN; sin cifras de peaje), hogares inquilinos (cubierto 18/10). Pregunta de plata: sin candidata con documento oficial en deportes o sociedad (Tapia y ATFA, visita del Papa).",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: pasó la candidata con hallazgo (ranking de exportaciones con serie desde 1993)"
     }
   ]
 }
