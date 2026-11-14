@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="robots" content="noindex">
+<link rel="icon" type="image/svg+xml" href="../assets/favicon.svg">
+<title>Finanzas de Boca Juniors: de dónde saca la plata y en qué la gasta, según sus balances oficiales — CON INTERÉS</title>
+<meta name="description" content="En 2025/26 los socios pusieron el 35,7% de lo que entró a Boca y el fútbol profesional se llevó casi la mitad de lo que gastó. Sin el mercado de pases, los ingresos no cubrieron los gastos en ninguno de los tres balances que se pueden reconstruir.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;0,8..60,700;1,8..60,400&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --paper:#FAF8F4; --ink:#16130F; --ink-soft:#3C3833;
+    --teal:#0E7C86; --teal-deep:#0A5C63; --amber:#C4701F; --amber-bright:#E8833A;
+    --red:#C0392B; --green:#2E8B6F; --muted:#6B6560; --faint:#8A847C;
+    --grid:#E7E1D7; --rule:#DCD6CC; --card:#FFFFFF; --card-edge:#EAE4DA;
+    --serif:"Source Serif 4",Georgia,"Times New Roman",serif;
+    --sans:"Inter",system-ui,-apple-system,Segoe UI,Roboto,sans-serif;
+    --mono:"IBM Plex Mono",ui-monospace,SFMono-Regular,Menlo,monospace;
+  }
+  *{box-sizing:border-box}
+  html{scroll-behavior:smooth}
+  body{
+    margin:0;background:var(--paper);color:var(--ink);
+    font-family:var(--sans);line-height:1.65;
+    -webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;
+  }
+  .wrap{max-width:720px;margin:0 auto;padding:0 22px}
+
+  /* ---------- Draft ribbon (se quita al aprobar) ---------- */
+  .draft-ribbon{background:#7A2E12;color:#FBE7D6;font-family:var(--mono);font-size:12px;
+    letter-spacing:.03em;text-align:center;padding:9px 14px;line-height:1.4}
+  .draft-ribbon b{color:#fff;font-weight:600}
+  .borrador{background:#FBEFE4;border:1px solid #E8CBAE;border-left:3px solid var(--amber);border-radius:10px;padding:14px 16px;margin:20px 0 4px}
+  .borrador-in{font-size:14px;line-height:1.55;color:#7A4A22}
+  .borrador-in b{color:#5E3410;font-weight:600}
+
+  /* ---------- Masthead ---------- */
+  .masthead{border-bottom:2px solid var(--ink);position:sticky;top:0;background:var(--paper);z-index:50}
+  .masthead .wrap{display:flex;align-items:center;justify-content:space-between;height:56px;max-width:960px}
+  .brand{font-family:var(--serif);font-weight:700;font-size:26px;letter-spacing:-.01em;display:flex;align-items:center;gap:8px;text-decoration:none;color:var(--ink)}
+  .brand .tri{color:var(--teal);font-size:22px;transform:translateY(-1px)}
+  .brand .tag{font-family:var(--mono);font-size:10px;color:var(--muted);letter-spacing:.14em;text-transform:uppercase;border-left:1px solid var(--rule);padding-left:8px;margin-left:2px;font-weight:500}
+  .mh-date{font-family:var(--mono);font-size:11px;color:var(--muted);letter-spacing:.04em}
+
+  /* ---------- Article header ---------- */
+  article{padding-top:34px}
+  .kicker{font-family:var(--mono);font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:16px}
+  .kicker .sep{color:var(--rule);margin:0 8px}
+  .kicker .fmt{color:var(--amber)}
+  h1{font-family:var(--serif);font-weight:700;font-size:40px;line-height:1.12;letter-spacing:-.015em;margin:0 0 18px}
+  .standfirst{font-family:var(--serif);font-size:20px;line-height:1.5;color:var(--ink-soft);font-weight:400;margin:0 0 24px}
+  .byline{display:flex;align-items:center;gap:14px;flex-wrap:wrap;font-size:13px;color:var(--muted);border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);padding:12px 0;margin-bottom:8px}
+  .byline b{color:var(--ink);font-weight:600}
+  .byline .dot{width:3px;height:3px;border-radius:50%;background:var(--faint)}
+
+  /* ---------- Layer selector ---------- */
+  .layers{position:sticky;top:56px;background:var(--paper);z-index:40;padding:14px 0 12px;border-bottom:1px solid var(--rule);margin-bottom:8px}
+  .layers .lbl{font-family:var(--mono);font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:var(--faint);margin-bottom:8px}
+  .layer-btns{display:flex;gap:8px;flex-wrap:wrap}
+  .layer-btns button{font-family:var(--mono);font-size:12px;border:1px solid var(--rule);background:var(--card);color:var(--ink-soft);padding:7px 13px;border-radius:999px;cursor:pointer;transition:.15s;font-weight:500}
+  .layer-btns button:hover{border-color:var(--teal)}
+  .layer-btns button.active{background:var(--ink);color:var(--paper);border-color:var(--ink)}
+  .layer-btns button .t{color:var(--faint);margin-left:6px}
+  .layer-btns button.active .t{color:#B9B3A9}
+
+  /* ---------- Body prose ---------- */
+  .prose p{font-size:18px;line-height:1.7;margin:0 0 22px}
+  .prose p.lead:first-letter{font-family:var(--serif);float:left;font-size:60px;line-height:.82;font-weight:700;padding:4px 10px 0 0;color:var(--teal)}
+  .block{scroll-margin-top:120px;margin:0 0 10px}
+  .block-tag{display:flex;align-items:center;gap:10px;margin:44px 0 20px}
+  .block-tag .num{font-family:var(--mono);font-weight:600;font-size:13px;color:var(--paper);background:var(--teal);width:26px;height:26px;border-radius:50%;display:flex;align-items:center;justify-content:center;flex:0 0 auto}
+  .block-tag .txt{font-family:var(--mono);font-size:12px;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);font-weight:600}
+  .block-tag .rule{flex:1;height:1px;background:var(--rule)}
+
+  /* ---------- The number (hero) ---------- */
+  .hero-num{background:var(--ink);color:var(--paper);border-radius:14px;padding:34px 32px;margin:6px 0 30px;position:relative;overflow:hidden}
+  .hero-num .big{font-family:var(--mono);font-weight:600;font-size:70px;line-height:1;letter-spacing:-.03em;color:#fff}
+  .hero-num .big .u{font-size:34px;color:var(--teal);margin-left:4px}
+  .hero-num .cap{font-family:var(--sans);font-size:15px;color:#CFC9BF;margin-top:12px;max-width:430px;line-height:1.5}
+  .hero-num .cap b{color:#fff;font-weight:600}
+  .hero-num .sparkrow{display:flex;gap:26px;margin-top:22px;padding-top:20px;border-top:1px solid #2E2A25;flex-wrap:wrap}
+  .hero-num .sr{display:flex;flex-direction:column}
+  .hero-num .sr .v{font-family:var(--mono);font-size:22px;font-weight:600;color:#fff}
+  .hero-num .sr .v.up{color:var(--amber-bright)}
+  .hero-num .sr .v.dn{color:#4FC0A4}
+  .hero-num .sr .k{font-size:11px;color:#A39D93;margin-top:3px;letter-spacing:.02em}
+
+  /* ---------- Figure / chart ---------- */
+  figure{margin:10px 0 30px;background:var(--card);border:1px solid var(--card-edge);border-radius:14px;padding:22px 20px 16px}
+  figure .fig-head{margin-bottom:16px}
+  figure .fig-kick{font-family:var(--mono);font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:var(--teal-deep);font-weight:600;margin-bottom:6px}
+  figure h3{font-family:var(--serif);font-size:20px;font-weight:600;margin:0 0 4px;line-height:1.25}
+  figure .fig-sub{font-size:13px;color:var(--muted);margin:0}
+  figure figcaption{font-size:12px;color:var(--faint);margin-top:14px;padding-top:12px;border-top:1px solid var(--grid);line-height:1.5;font-family:var(--mono)}
+  figure figcaption b{color:var(--muted);font-weight:600}
+  .chart-svg{width:100%;height:auto;display:block;overflow:visible}
+
+  /* ---------- Sources / cocina ---------- */
+  .cocina{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--teal);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .cocina h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--teal-deep);margin:0 0 10px;font-weight:600}
+  .cocina p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .cocina p:last-child{margin-bottom:0}
+  .cocina .meta{display:flex;gap:20px;flex-wrap:wrap;margin-top:12px;padding-top:12px;border-top:1px dashed var(--rule);font-family:var(--mono);font-size:12px;color:var(--muted)}
+  .cocina .meta span b{color:var(--ink);font-weight:600}
+
+  /* ¿cómo te afecta? */
+  .afecta{background:#F3EFE7;border:1px solid var(--card-edge);border-left:3px solid var(--amber);border-radius:10px;padding:18px 20px;margin:8px 0 26px}
+  .afecta h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--amber);margin:0 0 10px;font-weight:600}
+  .afecta p{font-size:15px;line-height:1.6;margin:0 0 10px;color:var(--ink-soft)}
+  .afecta p:last-child{margin-bottom:0}
+  .afecta b{color:var(--ink);font-weight:600}
+
+  /* deep dive collapsible */
+  .deep{border:1px solid var(--card-edge);border-radius:12px;overflow:hidden;margin:8px 0 20px;background:var(--card)}
+  .deep>summary{list-style:none;cursor:pointer;padding:16px 20px;display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:13px;font-weight:600;color:var(--ink)}
+  .deep>summary::-webkit-details-marker{display:none}
+  .deep>summary .plus{color:var(--teal);font-size:20px;transition:.2s}
+  .deep[open]>summary .plus{transform:rotate(45deg)}
+  .deep .deep-body{padding:2px 20px 18px}
+  .deep .deep-body p{font-size:16px;line-height:1.65;margin:0 0 16px;color:var(--ink-soft)}
+
+  /* tabla */
+  table.tb{width:100%;border-collapse:collapse;font-size:14px;margin:6px 0 10px}
+  table.tb th{font-family:var(--mono);font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:var(--muted);text-align:left;border-bottom:1px solid var(--rule);padding:6px 6px}
+  table.tb td{border-bottom:1px solid var(--grid);padding:6px 6px;color:var(--ink-soft)}
+  table.tb td.n{font-family:var(--mono);text-align:right;white-space:nowrap}
+
+  /* footer */
+  footer{border-top:2px solid var(--ink);margin-top:50px;padding:28px 0 60px}
+  footer .wrap{max-width:720px}
+  footer .src h4{font-family:var(--mono);font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:var(--muted);margin:0 0 12px}
+  footer .src ul{margin:0;padding:0;list-style:none;font-size:13px;line-height:1.9}
+  footer .src a{color:var(--teal-deep);text-decoration:none;border-bottom:1px solid var(--grid)}
+  footer .src a:hover{border-color:var(--teal)}
+  footer .foot-brand{font-family:var(--serif);font-weight:700;font-size:18px;margin-top:24px;color:var(--ink)}
+  footer .foot-brand .tri{color:var(--teal)}
+  footer .disc{font-size:12px;color:var(--faint);margin-top:6px;max-width:520px;line-height:1.5}
+
+  b.hl{background:linear-gradient(transparent 62%, #F3D9A8 62%);font-weight:600;padding:0 1px}
+
+  @media(max-width:600px){
+    h1{font-size:30px}.standfirst{font-size:18px}.prose p{font-size:17px}
+    .hero-num .big{font-size:52px}.hero-num{padding:26px 22px}
+    .wrap{padding:0 16px}
+  }
+  /* graficos estaticos de esta nota */
+  .cl{font-family:var(--sans);font-size:13px;fill:var(--ink-soft)}
+  .clB{font-family:var(--sans);font-size:13px;fill:var(--ink);font-weight:600}
+  .cv{font-family:var(--mono);font-size:12px;fill:var(--muted)}
+  .cvB{font-family:var(--mono);font-size:12px;fill:var(--ink);font-weight:600}
+  .cf{font-family:var(--mono);font-size:11px;fill:var(--faint)}
+  .gg{stroke:var(--grid);stroke-width:1}
+  .pedido{font-family:var(--serif);font-style:italic;font-size:16px;color:var(--ink-soft);margin:14px 0 6px}
+</style>
+</head>
+<body data-palette="#0E7C86,#6B6560,#C4701F,#C0392B">
+<div class="draft-ribbon"><b>BORRADOR</b> · pendiente de aprobación · no publicado</div>
+
+<header class="masthead">
+  <div class="wrap">
+    <a class="brand" href="../index.html"><span class="tri">%</span>Con Interés<span class="tag">La economía, con interés</span></a>
+    <a href="../index.html" class="mh-date" style="text-decoration:none">&larr; Portada</a>
+  </div>
+</header>
+
+<div class="wrap">
+<div class="borrador">
+  <div class="borrador-in"><b>Borrador.</b> Borrador generado por la redacción de agentes y pendiente de aprobación. Investigación pedida por un lector (pedido 117).</div>
+</div>
+<article>
+  <div class="kicker">DEPORTES <span class="sep">/</span> <span class="fmt">Anatomía de un balance</span></div>
+
+  <div class="lector-tag" style="display:inline-block;font-family:'IBM Plex Mono',monospace;font-size:11px;letter-spacing:.1em;text-transform:uppercase;font-weight:600;color:#fff;background:#C4701F;padding:5px 11px;border-radius:999px;margin:0 0 14px">&#128587; Pregunta de un lector</div>
+<h1>¿De dónde saca Boca su plata y en qué la gasta?</h1>
+
+  <p class="standfirst">En su último balance, el del ejercicio 2025/26, los socios pusieron el 35,7% de lo que entró a Boca: $83.617 millones, la proporción más alta de los tres años que se pueden reconstruir con documentos oficiales. Aun así, las cuotas, los partidos y los sponsors juntos no alcanzaron para pagar el club: sin el mercado de pases, los ingresos no cubrieron los gastos en ninguno de esos tres años. Ni siquiera en 2024/25, el de mayor superávit de los tres, cuando faltaron $42.000 millones. El fútbol profesional se llevó casi la mitad de lo que gastó.</p>
+
+  <div class="byline">
+    <span>Por <b>Redacción Con Interés</b></span><span class="dot"></span>
+    <span>14 de noviembre de 2026</span><span class="dot"></span>
+    <span>Lectura: 30 seg &rarr; 10 min</span>
+  </div>
+
+  <p class="pedido">Esta investigación la pidió un lector de Con Interés.</p>
+  <p class="pedido" style="font-size:15px;margin-top:0">Contesta de dónde salen los ingresos de Boca y en qué se van sus gastos, rubro por rubro, con los balances oficiales del club. Se pidieron diez años y la nota cubre tres, los ejercicios 2023/24, 2024/25 y 2025/26: el club publica en su sitio solo el último balance, y no encontramos los anteriores a 2023/24 en ningún documento oficial al que se pueda acceder hoy. Todo está en pesos de junio de 2026, como los presenta el club, y también en dólares. Quedan afuera el sueldo de cada jugador, que el balance no abre, y las cuentas de la Fundación Boca Juniors.</p>
+
+  <div class="layers">
+    <div class="lbl">Elegí cuánto querés bajar &darr;</div>
+    <div class="layer-btns">
+      <button data-go="b1" class="active">El número <span class="t">30s</span></button>
+      <button data-go="b2">La noticia <span class="t">2m</span></button>
+      <button data-go="b3">En contexto <span class="t">3m</span></button>
+      <button data-go="b4">Cómo lo sabemos <span class="t">2m</span></button>
+      <button data-go="b5">Por qué importa <span class="t">1m</span></button>
+      <button data-go="b6">Más profundo <span class="t">+</span></button>
+    </div>
+  </div>
+
+  <!-- ① EL NÚMERO -->
+  <div class="block" id="b1">
+    <div class="hero-num">
+      <div class="big">35,7<span class="u">%</span></div>
+      <div class="cap">Es la parte de los ingresos de Boca que pagaron sus <b>socios con la cuota</b> en el ejercicio 2025/26: $83.617 millones de $233.946 millones. Dos años antes era el 27%, y en 2024/25, el 24,2%.</div>
+      <div class="sparkrow">
+        <div class="sr"><span class="v">49,2%</span><span class="k">de los gastos se fue al fútbol profesional</span></div>
+        <div class="sr"><span class="v dn">11,1%</span><span class="k">de los ingresos vino del mercado de pases (36% un año antes)</span></div>
+        <div class="sr"><span class="v up">$15.519 M</span><span class="k">superávit 2025/26, un tercio del año anterior</span></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- ② LA NOTICIA -->
+  <div class="block prose" id="b2">
+    <div class="block-tag"><span class="num">2</span><span class="txt">La noticia</span><span class="rule"></span></div>
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Lo que entra: los socios, primero</h3>
+    <p class="lead">Boca vive, antes que de nada, de sus socios. Pero esa base, sumada a los partidos y los sponsors, no alcanza para pagar un plantel que se lleva casi la mitad del gasto: la diferencia la pone la venta de jugadores. En el ejercicio que fue de julio de 2025 a junio de 2026, el club ingresó <b>$233.946 millones</b>, según el estado de recursos y gastos de su <a href="https://www.bocajuniors.com.ar/club/presupuesto">memoria y balance oficial</a>, firmado por el presidente, el tesorero, la comisión fiscalizadora y el auditor externo. El renglón más grande fueron las <b>cuotas sociales: $83.617 millones, el 35,7%</b>.</p>
+    <p>Esa cuota se reparte entre varias categorías. Los socios activos pagaron $37.593 millones; los adherentes, $19.843 millones; los del interior y el exterior, $11.125 millones.</p>
+    <p>Después vienen los partidos. El rubro «exhibiciones y espectáculos de fútbol» sumó $59.991 millones, el 25,6%. Más de la mitad son <b>abonos a palcos, plateas y cocheras</b> ($32.988 millones); el resto, la Copa Libertadores ($10.679 millones), la televisación ($9.159 millones) y la Liga Profesional ($4.650 millones), entre otros.</p>
+    <p>La publicidad, las concesiones y las licencias dieron $46.477 millones, el 19,9%. El sponsor más grande es Adidas, con <b>$18.090 millones</b>, el 38,9% de ese rubro; le siguen Betsson ($7.280 millones) y DirecTV ($3.324 millones).</p>
+    <p>La venta de jugadores pesó poco ese año. Las transferencias aportaron $17.354 millones, y el mecanismo de solidaridad, lo que cobra un club cuando se vende a un jugador que formó, $8.241 millones. Con los préstamos, el <b>mercado de pases dio el 11,1%</b> de los ingresos. Un año antes había dado el 36%; esa diferencia, como se verá, es la que mueve el total de los ingresos.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Lo que sale: casi la mitad, al plantel profesional</h3>
+    <p>Del otro lado, Boca gastó <b>$229.586 millones</b>. El rubro fútbol profesional se llevó <b>$113.044 millones, el 49,2%</b>. Adentro hay dos renglones que explican casi todo: los <b>sueldos y primas del plantel, $58.036 millones</b>, y la amortización de los jugadores, $47.722 millones. La amortización es la forma contable de repartir el costo de un jugador comprado entre los años de su contrato: no es plata que sale ese año, pero es el precio de haberlos traído.</p>
+    <p>El resto se reparte en muchos renglones chicos. La estructura del club costó $24.085 millones; organizar los partidos, $21.245 millones; el estadio, $11.414 millones; las inferiores, $9.180 millones; el básquet, $5.628 millones; el fútbol femenino, $2.487 millones. Los impuestos y tasas fueron $6.374 millones.</p>
+    <p>Ingresos menos gastos dejaron <b>$4.361 millones</b> antes de los resultados financieros. Con ellos, que sumaron $11.159 millones, el ejercicio cerró con un <b>superávit de $15.519 millones</b>. Es decir, siete de cada diez pesos del superávit vinieron de las inversiones y la tenencia de activos, no de la actividad del club. Para ver si eso es la regla o la excepción, hay que mirar los años anteriores.</p>
+  </div>
+
+  <!-- ③ EL DATO EN CONTEXTO -->
+  <div class="block prose" id="b3">
+    <div class="block-tag"><span class="num">3</span><span class="txt">El dato en contexto</span><span class="rule"></span></div>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:0 0 12px">Tres años: los socios crecen, la venta de jugadores sube y baja</h3>
+    <p>Con los dos últimos balances se pueden armar tres años en la misma moneda. Cada balance trae el año anterior como comparación, y el de 2024/25 incluye el ejercicio 2023/24. Pasados a pesos de junio de 2026, los ingresos fueron de <b>$256.700 millones en 2023/24, $317.329 millones en 2024/25 y $233.946 millones en 2025/26</b>. El último año, Boca ingresó 26,3% menos que el anterior, ya descontada la inflación.</p>
+    <p>La caída no vino de los socios. Las cuotas subieron todos los años: de $69.389 millones a $76.838 millones y a $83.617 millones, un <b>20,5% más en dos años</b>, por encima de la inflación. La publicidad y los sponsors también crecieron, 19,8% en el mismo período.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Ingresos de Boca por rubro · miles de millones de pesos de junio de 2026</div>
+        <h3>Las cuotas crecen todos los años; el mercado de pases explica el pico y la caída</h3>
+        <p class="fig-sub">Recursos de cada ejercicio (julio a junio), agrupados. El número de la derecha es el total.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 250" role="img" aria-label="Miles de millones de pesos de junio de 2026. 2023/24: cuotas 69,4; partidos 65,4; publicidad 38,8; mercado de pases 73,2; otros 9,8; total 256,7. 2024/25: cuotas 76,8; partidos 75,3; publicidad 44,4; mercado de pases 114,3; otros 6,5; total 317,3. 2025/26: cuotas 83,6; partidos 60,0; publicidad 46,5; mercado de pases 26,0; otros 17,9; total 233,9.">
+<text x="0" y="50" class="clB">2023/24</text>
+<rect x="80.0" y="30" width="126.2" height="30" fill="#0E7C86"/>
+<text x="143.1" y="50" text-anchor="middle" class="cf" style="fill:#fff">69</text>
+<rect x="206.2" y="30" width="119.0" height="30" fill="#6B6560"/>
+<text x="265.7" y="50" text-anchor="middle" class="cf" style="fill:#fff">65</text>
+<rect x="325.2" y="30" width="70.6" height="30" fill="#2E8B6F"/>
+<text x="360.4" y="50" text-anchor="middle" class="cf" style="fill:#fff">39</text>
+<rect x="395.7" y="30" width="133.2" height="30" fill="#C4701F"/>
+<text x="462.3" y="50" text-anchor="middle" class="cf" style="fill:#fff">73</text>
+<rect x="528.9" y="30" width="17.9" height="30" fill="#B9B3A9"/>
+<text x="554.7" y="50" class="cvB">256,7</text>
+<text x="0" y="106" class="clB">2024/25</text>
+<rect x="80.0" y="86" width="139.7" height="30" fill="#0E7C86"/>
+<text x="149.9" y="106" text-anchor="middle" class="cf" style="fill:#fff">77</text>
+<rect x="219.7" y="86" width="137.0" height="30" fill="#6B6560"/>
+<text x="288.2" y="106" text-anchor="middle" class="cf" style="fill:#fff">75</text>
+<rect x="356.7" y="86" width="80.7" height="30" fill="#2E8B6F"/>
+<text x="397.0" y="106" text-anchor="middle" class="cf" style="fill:#fff">44</text>
+<rect x="437.3" y="86" width="207.9" height="30" fill="#C4701F"/>
+<text x="541.3" y="106" text-anchor="middle" class="cf" style="fill:#fff">114</text>
+<rect x="645.2" y="86" width="11.8" height="30" fill="#B9B3A9"/>
+<text x="665.0" y="106" class="cvB">317,3</text>
+<text x="0" y="162" class="clB">2025/26</text>
+<rect x="80.0" y="142" width="152.0" height="30" fill="#0E7C86"/>
+<text x="156.0" y="162" text-anchor="middle" class="cf" style="fill:#fff">84</text>
+<rect x="232.0" y="142" width="109.1" height="30" fill="#6B6560"/>
+<text x="286.6" y="162" text-anchor="middle" class="cf" style="fill:#fff">60</text>
+<rect x="341.1" y="142" width="84.5" height="30" fill="#2E8B6F"/>
+<text x="383.4" y="162" text-anchor="middle" class="cf" style="fill:#fff">46</text>
+<rect x="425.6" y="142" width="47.3" height="30" fill="#C4701F"/>
+<text x="449.2" y="162" text-anchor="middle" class="cf" style="fill:#fff">26</text>
+<rect x="472.9" y="142" width="32.5" height="30" fill="#B9B3A9"/>
+<text x="513.4" y="162" class="cvB">233,9</text>
+<rect x="0" y="204" width="12" height="10" fill="#0E7C86"/><text x="18" y="213" class="cf">Cuotas sociales</text>
+<rect x="150" y="204" width="12" height="10" fill="#6B6560"/><text x="168" y="213" class="cf">Partidos: abonos, TV, copas</text>
+<rect x="390" y="204" width="12" height="10" fill="#2E8B6F"/><text x="408" y="213" class="cf">Publicidad y sponsors</text>
+<rect x="0" y="228" width="12" height="10" fill="#C4701F"/><text x="18" y="237" class="cf">Mercado de pases (ventas, rescisiones, préstamos, solidaridad)</text>
+<rect x="500" y="228" width="12" height="10" fill="#B9B3A9"/><text x="518" y="237" class="cf">Otros</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Boca Juniors, estados de recursos y gastos al 30/06/2026 (con 2024/25 comparativo) y al 30/06/2025 (con 2023/24 comparativo). Cálculo de Con Interés: 2023/24 pasado de pesos de junio de 2025 a pesos de junio de 2026 con el IPC del INDEC (×1,3355), el mismo coeficiente que usó el club.</figcaption>
+    </figure>
+
+    <p>Lo que mueve el total es el mercado de pases. En 2024/25 dio <b>$114.321 millones, el 36% de los ingresos</b>: $48.729 millones por transferencias y $64.406 millones por rescisiones de contrato pagadas por otros clubes. Ese año también entró el Mundial de Clubes, $26.888 millones. En 2025/26 no hubo rescisiones, las transferencias cayeron 64% y el Mundial ya no estaba: de ahí sale la caída de los ingresos.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Sin vender jugadores, Boca gasta más de lo que le entra</h3>
+    <p>Si a los ingresos de cada año se les sacan los del mercado de pases, y a los gastos, los que el balance asocia a esas operaciones, el resultado da negativo los tres años: <b>$40.700 millones en 2023/24, $42.000 millones en 2024/25 y $15.800 millones en 2025/26</b>. En otras palabras, las cuotas, los partidos y los sponsors juntos no alcanzaron para pagar el club. La diferencia la cubrió la venta de jugadores y, en 2023/24 y 2025/26, también los resultados financieros.</p>
+
+    <figure>
+      <div class="fig-head">
+        <div class="fig-kick">Gastos de Boca por rubro · miles de millones de pesos de junio de 2026</div>
+        <h3>El fútbol profesional pasó del 40% a casi la mitad de los gastos</h3>
+        <p class="fig-sub">Gastos de cada ejercicio (julio a junio), agrupados. El número de la derecha es el total.</p>
+      </div>
+<svg class="chart-svg" viewBox="0 0 760 270" role="img" aria-label="Miles de millones de pesos de junio de 2026. 2023/24: fútbol profesional 96,2; partidos y estadio 38,8; otros deportes y áreas 21,8; estructura, gastos generales e impuestos 58,5; depreciaciones 9,0; gastos por transferencias 17,2; total 241,4. 2024/25: 118,6; 41,4; 27,3; 47,7; 10,0; 25,8; total 270,8. 2025/26: 113,0; 32,7; 31,0; 36,1; 11,0; 5,8; total 229,6.">
+<text x="0" y="50" class="clB">2023/24</text>
+<rect x="80.0" y="30" width="174.9" height="30" fill="#C0392B"/>
+<text x="167.5" y="50" text-anchor="middle" class="cf" style="fill:#fff">96</text>
+<rect x="254.9" y="30" width="70.5" height="30" fill="#6B6560"/>
+<text x="290.2" y="50" text-anchor="middle" class="cf" style="fill:#fff">39</text>
+<rect x="325.4" y="30" width="39.6" height="30" fill="#0E7C86"/>
+<text x="345.2" y="50" text-anchor="middle" class="cf" style="fill:#fff">22</text>
+<rect x="365.0" y="30" width="106.3" height="30" fill="#8A847C"/>
+<text x="418.2" y="50" text-anchor="middle" class="cf" style="fill:#fff">58</text>
+<rect x="471.3" y="30" width="16.3" height="30" fill="#B9B3A9"/>
+<rect x="487.6" y="30" width="31.3" height="30" fill="#C4701F"/>
+<text x="526.9" y="50" class="cvB">241,4</text>
+<text x="0" y="106" class="clB">2024/25</text>
+<rect x="80.0" y="86" width="215.7" height="30" fill="#C0392B"/>
+<text x="187.8" y="106" text-anchor="middle" class="cf" style="fill:#fff">119</text>
+<rect x="295.7" y="86" width="75.2" height="30" fill="#6B6560"/>
+<text x="333.3" y="106" text-anchor="middle" class="cf" style="fill:#fff">41</text>
+<rect x="370.9" y="86" width="49.7" height="30" fill="#0E7C86"/>
+<text x="395.7" y="106" text-anchor="middle" class="cf" style="fill:#fff">27</text>
+<rect x="420.6" y="86" width="86.7" height="30" fill="#8A847C"/>
+<text x="464.0" y="106" text-anchor="middle" class="cf" style="fill:#fff">48</text>
+<rect x="507.3" y="86" width="18.1" height="30" fill="#B9B3A9"/>
+<rect x="525.4" y="86" width="46.9" height="30" fill="#C4701F"/>
+<text x="548.9" y="106" text-anchor="middle" class="cf" style="fill:#fff">26</text>
+<text x="580.3" y="106" class="cvB">270,8</text>
+<text x="0" y="162" class="clB">2025/26</text>
+<rect x="80.0" y="142" width="205.5" height="30" fill="#C0392B"/>
+<text x="182.8" y="162" text-anchor="middle" class="cf" style="fill:#fff">113</text>
+<rect x="285.5" y="142" width="59.4" height="30" fill="#6B6560"/>
+<text x="315.2" y="162" text-anchor="middle" class="cf" style="fill:#fff">33</text>
+<rect x="344.9" y="142" width="56.3" height="30" fill="#0E7C86"/>
+<text x="373.1" y="162" text-anchor="middle" class="cf" style="fill:#fff">31</text>
+<rect x="401.3" y="142" width="65.6" height="30" fill="#8A847C"/>
+<text x="434.1" y="162" text-anchor="middle" class="cf" style="fill:#fff">36</text>
+<rect x="466.9" y="142" width="20.0" height="30" fill="#B9B3A9"/>
+<rect x="486.9" y="142" width="10.6" height="30" fill="#C4701F"/>
+<text x="505.4" y="162" class="cvB">229,6</text>
+<rect x="0" y="204" width="12" height="10" fill="#C0392B"/><text x="18" y="213" class="cf">Fútbol profesional</text>
+<rect x="170" y="204" width="12" height="10" fill="#6B6560"/><text x="188" y="213" class="cf">Partidos y estadio</text>
+<rect x="340" y="204" width="12" height="10" fill="#0E7C86"/><text x="358" y="213" class="cf">Otros deportes y áreas (inferiores, básquet, femenino...)</text>
+<rect x="0" y="228" width="12" height="10" fill="#8A847C"/><text x="18" y="237" class="cf">Estructura, gastos generales e impuestos</text>
+<rect x="320" y="228" width="12" height="10" fill="#B9B3A9"/><text x="338" y="237" class="cf">Depreciaciones</text>
+<rect x="470" y="228" width="12" height="10" fill="#C4701F"/><text x="488" y="237" class="cf">Gastos por transferencias</text>
+<text x="0" y="262" class="cf">«Fútbol profesional» incluye sueldos del plantel y amortización de jugadores comprados.</text>
+</svg>
+      <figcaption><b>Fuentes:</b> Boca Juniors, estados de recursos y gastos al 30/06/2026 y al 30/06/2025. Cálculo de Con Interés: agrupamiento de los 17 renglones de gastos; 2023/24 reexpresado con el IPC del INDEC.</figcaption>
+    </figure>
+
+    <p>Los gastos cayeron menos que los ingresos: 15,2% contra el año anterior. Y el fútbol profesional casi no bajó: 4,7%. Por eso su peso en los gastos subió de <b>39,9% en 2023/24 a 43,8% y a 49,2%</b>. Los sueldos y primas del plantel, por sí solos, equivalen al 69% de lo que pagan todos los socios en cuotas.</p>
+
+    <h3 style="font-family:var(--serif);font-size:22px;margin:30px 0 12px">Superávit todos los años, pero cada vez más chico</h3>
+    <p>Los tres ejercicios cerraron con superávit: <b>$37.610 millones en 2023/24, $47.518 millones en 2024/25 y $15.519 millones en 2025/26</b>, siempre en pesos de junio de 2026. El último es un tercio del año anterior.</p>
+    <p>En dólares, al tipo de cambio mayorista oficial del cierre de cada ejercicio, fueron US$22,2 millones, US$29,8 millones y US$10,5 millones. Los ingresos, en la misma cuenta, fueron US$151,2 millones, US$199 millones y US$157,8 millones.</p>
+    <p>Lo que cambió cada año es el origen del superávit. En 2024/25 salió casi todo de la actividad: $46.568 millones antes de los resultados financieros. En 2023/24 y 2025/26, en cambio, más de la mitad vino de los resultados financieros y por tenencia: $22.321 millones y $11.159 millones. Por eso el resultado final dice poco por sí solo: hay que mirar de dónde sale.</p>
+  </div>
+
+  <!-- ④ CÓMO LO SABEMOS -->
+  <div class="block" id="b4">
+    <div class="block-tag"><span class="num">4</span><span class="txt">Cómo lo sabemos</span><span class="rule"></span></div>
+    <div class="cocina">
+      <h4>&#9651; La cocina del dato</h4>
+      <p><b>Camino de verificación: documento oficial auditado, recálculo y contraste.</b> Los balances de Boca son documentos escaneados: leímos a mano el estado de recursos y gastos del ejercicio 2025/26 (página 141 del PDF) y del 2024/25 (página 76), y los anexos VI, VII, VIII y IX del último. Sumamos cada columna renglón por renglón: los once renglones de recursos y los diecisiete de gastos dan exactamente los totales de los tres años, y cada anexo da exactamente su rubro. La cifra ancla, 35,7%, es $83.616.751.053 de cuotas sobre $233.946.442.882 de recursos.</p>
+      <p><b>Los contrastes.</b> El superávit 2025/26, $15.519.491.524, coincide al peso con el que publicó <a href="https://eleconomista.com.ar/deportes/boca-balance-superavit-10-millones-dolares-grandes-inversiones-n99313">El Economista</a> el 29/10/2026. El de 2024/25 en su moneda original, $35.581.462.204, es el que informó el club en su <a href="https://www.bocajuniors.com.ar/noticias/superavit-record">nota oficial</a>. El de 2023/24 da US$22,2 millones en nuestra cuenta; en octubre de 2024, <a href="https://www.lacapitalmdp.com/boca-informo-un-superavit-de-22-millones-de-dolares/">La Capital</a> informó que el club anunció un superávit de 22 millones de dólares. Además, el balance 2025/26 reexpresa cada renglón de 2024/25 con un coeficiente de 1,33548, que es exactamente la suba del <a href="https://apis.datos.gob.ar/series/api/series/?ids=148.3_INIVELNAL_DICI_M_26&amp;start_date=2025-06-01&amp;end_date=2026-06-01&amp;format=csv">IPC del INDEC</a> entre junio de 2025 y junio de 2026: los números de un balance y del otro son consistentes.</p>
+      <p><b>Las cuentas nuestras.</b> El ejercicio 2023/24 solo está en el balance 2024/25, en pesos de junio de 2025: lo pasamos a pesos de junio de 2026 con el mismo coeficiente del club. Los dólares salen de dividir cada ejercicio, en la moneda de su cierre, por el dólar mayorista de referencia del BCRA (<a href="https://www.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/com3500.xls">Comunicación A 3500</a>) de ese día: $911,75 el 28/06/2024, $1.194,08 el 30/06/2025 y $1.483,02 el 30/06/2026. Para 2023/24 primero volvimos a pesos de junio de 2024 con el IPC. El Economista da US$10,7 millones para el último superávit porque usa otro tipo de cambio. El «mercado de pases» es una agrupación nuestra: transferencias, rescisiones onerosas, cesiones a préstamo y mecanismo de solidaridad; del lado de los gastos, gastos por transferencias, incorporaciones a préstamo y derechos de tanteo. Entre junio y octubre de 2026 los precios subieron otro 8,1%: para llevar las cifras a pesos de octubre, hay que multiplicarlas por 1,081.</p>
+      <p><b>Lo que buscamos y no está.</b> Los balances de 2016/17 a 2022/23. En la página de <a href="https://www.bocajuniors.com.ar/club/presupuesto">información económica</a> del club hay un solo balance, el último; el anterior lo habíamos guardado cuando estaba publicado. Buscamos las versiones viejas de esa página en Internet Archive: su índice tiene copias solo desde abril de 2025, que a lo sumo sumarían el ejercicio 2022/23, y las copias devolvieron error por exceso de consultas en todos los intentos del 14/11/2026. No encontramos los balances anteriores en ningún otro sitio oficial. Las cifras de esos años que circulan en los diarios no las usamos como dato. Hay una particularidad en 2023/24: por el cambio de autoridades, el club aprobó un balance especial cortado al 27 de diciembre de 2023; acá usamos el ejercicio completo al 30 de junio de 2024, tal como lo presenta el balance siguiente. El balance tampoco abre el sueldo de cada jugador ni el detalle de los contratos de sponsor: muestra cuánto pagó cada sponsor en el año, no qué cláusulas tiene.</p>
+      <div class="meta">
+        <span><b>Fuente</b> Boca Juniors · INDEC · BCRA</span>
+        <span><b>Período</b> ejercicios 2023/24 a 2025/26 (julio a junio)</span>
+        <span><b>Unidad</b> $ de junio de 2026 y US$</span>
+        <span><b>Verificación</b> documento auditado + recálculo + contraste</span>
+      </div>
+    </div>
+  </div>
+
+  <!-- ⑤ POR QUÉ IMPORTA -->
+  <div class="block prose" id="b5">
+    <div class="block-tag"><span class="num">5</span><span class="txt">Por qué importa</span><span class="rule"></span></div>
+    <p>Las cuentas de Boca tienen una base estable y una parte que depende del mercado. La base son los socios, los partidos y los sponsors, que sumaron $190.085 millones en 2025/26; las cuotas y los sponsors crecieron por encima de la inflación en los dos últimos años. Pero esa base no alcanza para pagar un plantel que se lleva casi la mitad del gasto. La diferencia la pone, año a año, la venta de jugadores. Cuando el mercado da mucho, como en 2024/25, el club tiene superávit récord; cuando da poco, como en 2025/26, el superávit se achica y depende de los resultados financieros.</p>
+    <p>Lo que esta nota no puede contestar es cómo era esa ecuación hace diez años, porque el club no publica sus balances viejos. Con tres años alcanza para ver la forma de las cuentas, no para saber si cambió.</p>
+
+    <div class="afecta">
+      <h4>&#9651; ¿Cómo te afecta?</h4>
+      <p><b>Si sos socio de Boca:</b> tu cuota es el ingreso más grande del club. En 2025/26, todos los socios juntos pagaron $83.617 millones, unos US$56 millones, cerca de $7.000 millones por mes. Los sueldos y primas del plantel profesional ($58.036 millones) equivalen a siete de cada diez pesos de esa cifra.</p>
+      <p><b>Si leés que un club «tuvo superávit»:</b> fijate de dónde vino. En Boca, el mismo superávit puede salir de vender jugadores, de la actividad del club o de las inversiones, y cada fuente dura distinto.</p>
+    </div>
+  </div>
+
+  <!-- ⑥ PARA IR MÁS PROFUNDO -->
+  <div class="block" id="b6">
+    <div class="block-tag"><span class="num">6</span><span class="txt">Para ir más profundo</span><span class="rule"></span></div>
+    <details class="deep" open>
+      <summary>Recursos y gastos, renglón por renglón <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Rubro (millones de $ de jun-2026)</th><th style="text-align:right">2023/24</th><th style="text-align:right">2024/25</th><th style="text-align:right">2025/26</th></tr>
+        <tr><td>Cuotas sociales</td><td class="n">69.389</td><td class="n">76.838</td><td class="n">83.617</td></tr>
+        <tr><td>Exhibiciones y espectáculos de fútbol</td><td class="n">65.450</td><td class="n">75.340</td><td class="n">59.991</td></tr>
+        <tr><td>Publicidad, concesiones y licencias</td><td class="n">38.806</td><td class="n">44.361</td><td class="n">46.477</td></tr>
+        <tr><td>Transferencias de jugadores</td><td class="n">48.916</td><td class="n">48.729</td><td class="n">17.354</td></tr>
+        <tr><td>Rescisión onerosa de contratos</td><td class="n">23.173</td><td class="n">64.406</td><td class="n">—</td></tr>
+        <tr><td>Mecanismo de solidaridad</td><td class="n">805</td><td class="n">685</td><td class="n">8.241</td></tr>
+        <tr><td>Cesión de jugadores a préstamo</td><td class="n">340</td><td class="n">501</td><td class="n">397</td></tr>
+        <tr><td>Otras contribuciones de asociados</td><td class="n">803</td><td class="n">1.139</td><td class="n">1.550</td></tr>
+        <tr><td>Departamentos de básquet y educación física</td><td class="n">1.019</td><td class="n">1.274</td><td class="n">1.563</td></tr>
+        <tr><td>Ingresos varios</td><td class="n">8.000</td><td class="n">4.056</td><td class="n">14.756</td></tr>
+        <tr><td><b>Total de recursos</b></td><td class="n"><b>256.700</b></td><td class="n"><b>317.329</b></td><td class="n"><b>233.946</b></td></tr>
+        <tr><td>Fútbol profesional</td><td class="n">96.217</td><td class="n">118.627</td><td class="n">113.044</td></tr>
+        <tr><td>Organización de espectáculos</td><td class="n">30.071</td><td class="n">30.501</td><td class="n">21.245</td></tr>
+        <tr><td>Estadio</td><td class="n">8.700</td><td class="n">10.854</td><td class="n">11.414</td></tr>
+        <tr><td>Fútbol juvenil</td><td class="n">7.163</td><td class="n">7.215</td><td class="n">9.180</td></tr>
+        <tr><td>Departamento de educación física</td><td class="n">4.430</td><td class="n">5.951</td><td class="n">6.875</td></tr>
+        <tr><td>Departamento de básquet</td><td class="n">3.651</td><td class="n">4.801</td><td class="n">5.628</td></tr>
+        <tr><td>Casa Amarilla</td><td class="n">2.069</td><td class="n">3.337</td><td class="n">3.292</td></tr>
+        <tr><td>Departamento médico</td><td class="n">2.256</td><td class="n">2.915</td><td class="n">3.083</td></tr>
+        <tr><td>Fútbol femenino</td><td class="n">1.657</td><td class="n">2.655</td><td class="n">2.487</td></tr>
+        <tr><td>Departamento de cultura</td><td class="n">540</td><td class="n">474</td><td class="n">445</td></tr>
+        <tr><td>Gastos de estructura operativa</td><td class="n">18.835</td><td class="n">22.261</td><td class="n">24.085</td></tr>
+        <tr><td>Gastos generales</td><td class="n">32.503</td><td class="n">15.992</td><td class="n">5.630</td></tr>
+        <tr><td>Impuestos y tasas</td><td class="n">7.132</td><td class="n">9.456</td><td class="n">6.374</td></tr>
+        <tr><td>Depreciaciones</td><td class="n">8.953</td><td class="n">9.953</td><td class="n">11.000</td></tr>
+        <tr><td>Gastos por transferencias, préstamos y tanteo</td><td class="n">17.234</td><td class="n">25.768</td><td class="n">5.804</td></tr>
+        <tr><td><b>Total de gastos</b></td><td class="n"><b>241.412</b></td><td class="n"><b>270.761</b></td><td class="n"><b>229.586</b></td></tr>
+        <tr><td>Resultado antes de los resultados financieros</td><td class="n">15.289</td><td class="n">46.568</td><td class="n">4.361</td></tr>
+        <tr><td>Resultados financieros y por tenencia</td><td class="n">22.321</td><td class="n">951</td><td class="n">11.159</td></tr>
+        <tr><td><b>Superávit del ejercicio</b></td><td class="n"><b>37.610</b></td><td class="n"><b>47.518</b></td><td class="n"><b>15.519</b></td></tr>
+      </table>
+      <p>2024/25 y 2025/26, tal como figuran en el balance al 30/06/2026. 2023/24, del balance al 30/06/2025 multiplicado por 1,33548 (IPC del INDEC, junio de 2026 sobre junio de 2025). Los totales son los del club; por redondeo, algunas filas pueden no sumar exacto.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>Adentro de los rubros grandes, 2025/26 <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Renglón</th><th style="text-align:right">2024/25 ($ M)</th><th style="text-align:right">2025/26 ($ M)</th></tr>
+        <tr><td colspan="3"><b>Cuotas sociales (anexo VIII)</b></td></tr>
+        <tr><td>Socios activos</td><td class="n">31.815</td><td class="n">37.593</td></tr>
+        <tr><td>Socios adherentes</td><td class="n">21.310</td><td class="n">19.843</td></tr>
+        <tr><td>Socios interior/exterior</td><td class="n">9.044</td><td class="n">11.125</td></tr>
+        <tr><td>Socios adherentes interior</td><td class="n">9.015</td><td class="n">8.649</td></tr>
+        <tr><td>Socios menores y cadetes</td><td class="n">5.654</td><td class="n">6.407</td></tr>
+        <tr><td colspan="3"><b>Exhibiciones y espectáculos (anexo VI)</b></td></tr>
+        <tr><td>Abonos a palcos, plateas y cocheras</td><td class="n">28.142</td><td class="n">32.988</td></tr>
+        <tr><td>Copa Libertadores</td><td class="n">2.585</td><td class="n">10.679</td></tr>
+        <tr><td>Televisación de partidos</td><td class="n">9.203</td><td class="n">9.159</td></tr>
+        <tr><td>Liga Profesional</td><td class="n">3.501</td><td class="n">4.650</td></tr>
+        <tr><td>Giras y amistosos</td><td class="n">363</td><td class="n">2.031</td></tr>
+        <tr><td>Mundial de Clubes</td><td class="n">26.888</td><td class="n">60</td></tr>
+        <tr><td>Copa Sudamericana</td><td class="n">3.880</td><td class="n">—</td></tr>
+        <tr><td>Selección Nacional y Copa Argentina</td><td class="n">777</td><td class="n">425</td></tr>
+        <tr><td colspan="3"><b>Publicidad, concesiones y licencias (anexo VII), los cinco mayores</b></td></tr>
+        <tr><td>Adidas</td><td class="n">20.636</td><td class="n">18.090</td></tr>
+        <tr><td>Betsson</td><td class="n">6.950</td><td class="n">7.280</td></tr>
+        <tr><td>DirecTV</td><td class="n">3.726</td><td class="n">3.324</td></tr>
+        <tr><td>Museos de Primera</td><td class="n">1.631</td><td class="n">2.331</td></tr>
+        <tr><td>Publicidad estática</td><td class="n">2.353</td><td class="n">2.318</td></tr>
+        <tr><td colspan="3"><b>Fútbol profesional (anexo IX)</b></td></tr>
+        <tr><td>Remuneraciones del plantel profesional y primas</td><td class="n">59.283</td><td class="n">58.036</td></tr>
+        <tr><td>Amortización de jugadores profesionales</td><td class="n">48.843</td><td class="n">47.722</td></tr>
+        <tr><td>Remuneraciones del personal administrativo</td><td class="n">2.753</td><td class="n">2.202</td></tr>
+        <tr><td>Otros diez renglones (viajes, indumentaria, farmacia, comisiones...)</td><td class="n">7.748</td><td class="n">5.085</td></tr>
+      </table>
+      <p>Pesos de junio de 2026. El anexo VII lista 32 renglones de publicidad y concesiones; sumados dan exacto el total del rubro ($46.477 millones en 2025/26). Para 2023/24 esta nota usa solo los renglones del estado de recursos y gastos.</p>
+      </div>
+    </details>
+    <details class="deep">
+      <summary>En dólares <span class="plus">+</span></summary>
+      <div class="deep-body">
+      <table class="tb">
+        <tr><th>Millones de US$</th><th style="text-align:right">2023/24</th><th style="text-align:right">2024/25</th><th style="text-align:right">2025/26</th></tr>
+        <tr><td>Ingresos</td><td class="n">151,2</td><td class="n">199,0</td><td class="n">157,8</td></tr>
+        <tr><td>&nbsp;&nbsp;Cuotas sociales</td><td class="n">40,9</td><td class="n">48,2</td><td class="n">56,4</td></tr>
+        <tr><td>&nbsp;&nbsp;Exhibiciones y espectáculos</td><td class="n">38,6</td><td class="n">47,2</td><td class="n">40,5</td></tr>
+        <tr><td>&nbsp;&nbsp;Publicidad, concesiones y licencias</td><td class="n">22,9</td><td class="n">27,8</td><td class="n">31,3</td></tr>
+        <tr><td>&nbsp;&nbsp;Transferencias de jugadores</td><td class="n">28,8</td><td class="n">30,6</td><td class="n">11,7</td></tr>
+        <tr><td>&nbsp;&nbsp;Rescisiones de contrato</td><td class="n">13,7</td><td class="n">40,4</td><td class="n">—</td></tr>
+        <tr><td>Gastos</td><td class="n">142,2</td><td class="n">169,8</td><td class="n">154,8</td></tr>
+        <tr><td>&nbsp;&nbsp;Fútbol profesional</td><td class="n">56,7</td><td class="n">74,4</td><td class="n">76,2</td></tr>
+        <tr><td><b>Superávit</b></td><td class="n"><b>22,2</b></td><td class="n"><b>29,8</b></td><td class="n"><b>10,5</b></td></tr>
+      </table>
+      <p>Cada ejercicio, en la moneda de su cierre, al dólar mayorista de referencia del BCRA de ese día: $911,75 (28/06/2024), $1.194,08 (30/06/2025) y $1.483,02 (30/06/2026). El 2023/24 se llevó primero a pesos de junio de 2024 con el IPC del INDEC (junio de 2025 sobre junio de 2024: 1,3942). En dólares, las cuotas crecieron los tres años, y el fútbol profesional también.</p>
+      </div>
+    </details>
+  </div>
+
+</article>
+</div>
+
+<footer>
+  <div class="wrap">
+    <div class="src">
+      <h4>&#9651; Fuentes y transparencia</h4>
+      <ul>
+        <li>&#8250; Boca Juniors — <a href="https://www.bocajuniors.com.ar/club/presupuesto">Información económica y presupuestaria</a>: memoria y balance del ejercicio N° 122, al 30/06/2026, con 2024/25 comparativo (estado de recursos y gastos y anexos VI a IX)</li>
+        <li>&#8250; Boca Juniors — memoria y balance del ejercicio N° 121, al 30/06/2025, con 2023/24 comparativo (estado de recursos y gastos y notas), publicado en la misma página hasta la llegada del balance siguiente</li>
+        <li>&#8250; Boca Juniors — <a href="https://www.bocajuniors.com.ar/noticias/superavit-record">Nota oficial sobre el balance 2024/25</a> (30/10/2025)</li>
+        <li>&#8250; INDEC — <a href="https://apis.datos.gob.ar/series/api/series/?ids=148.3_INIVELNAL_DICI_M_26&amp;start_date=2025-06-01&amp;end_date=2026-06-01&amp;format=csv">Índice de precios al consumidor, nivel general nacional</a> (serie en datos.gob.ar)</li>
+        <li>&#8250; BCRA — <a href="https://www.bcra.gob.ar/Pdfs/PublicacionesEstadisticas/com3500.xls">Tipo de cambio mayorista de referencia, Comunicación A 3500</a></li>
+        <li>&#8250; El Economista — <a href="https://eleconomista.com.ar/deportes/boca-balance-superavit-10-millones-dolares-grandes-inversiones-n99313">Boca aprobó un nuevo balance con superávit</a> (29/10/2026), contraste</li>
+        <li>&#8250; La Capital — <a href="https://www.lacapitalmdp.com/boca-informo-un-superavit-de-22-millones-de-dolares/">Boca informó un superávit de 22 millones de dólares</a> (29/10/2024), contraste</li>
+        <li>&#8250; Infobae — <a href="https://www.infobae.com/deportes/2024/04/30/el-balance-en-boca-juniors-fue-aprobado-con-cifra-record-14-millones-de-dolares-de-superavit/">El balance especial al 27/12/2023</a> (30/04/2024), contexto</li>
+        <li>&#8250; Con Interés — <a href="../articulos/2026-10-21-boca-final-sudamericana-cuanta-plata.html">¿Cuánta plata le deja a Boca llegar a la final de la Sudamericana?</a> (21/10/2026)</li>
+        <li>&#8250; Con Interés — <a href="../articulos/2026-11-07-boca-campeon-tabla-anual-cuanta-plata.html">¿Cuánta plata le deja a Boca ser campeón de la tabla anual?</a> (07/11/2026)</li>
+        <li>&#8250; Con Interés — <b>cálculos propios</b>: sumas de control, agrupamientos, reexpresión de 2023/24, porcentajes y paso a dólares.</li>
+      </ul>
+    </div>
+    <div class="foot-brand"><span class="tri">%</span> Con Interés</div>
+    <div style="font-family:var(--mono);font-size:12px;margin-top:8px"><a href="../index.html" style="color:var(--teal-deep);text-decoration:none">Portada</a> &#183; <a href="../como-trabajamos.html" style="color:var(--teal-deep);text-decoration:none">Cómo trabajamos</a></div>
+    <p class="disc">Los datos provienen de fuentes públicas citadas y fueron consolidados el 14/11/2026. Las agrupaciones de rubros, la reexpresión de 2023/24 y los valores en dólares son cálculos propios, no cifras del club. Con Interés no recomienda comprar, vender ni invertir en ningún instrumento; informa y contextualiza. Cada afirmación, con su número y su fuente.</p>
+  </div>
+</footer>
+
+<!-- CI-WIDGETS --><script defer src="../assets/ticker.js?v=5"></script>
+<!-- CI-NOTA --><script defer src="../assets/nota.js?v=2"></script>
+<!-- CI-METRICS --><script defer src="../assets/metrics.js?v=1"></script>
+</body>
+</html>
