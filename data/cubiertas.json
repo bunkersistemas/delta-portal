@@ -8826,6 +8826,21 @@
       "fecha": "2026-11-14",
       "estado": "descartada",
       "motivo_descarte": "(1) el ranking provincial ya lo publicaron IARAF y El Cronista ('Misiones lidera el derrumbe'): sin dato propio; (2) TCR bilateral con Brasil publicado el 05/10; (3) caños sin costura de China ya en la nota del 29/10; (4) sin dato que no sea el comunicado y sin causa establecida; (5) sin monto en el documento; (6) sin monto del pasivo concursal; (7) sin documento con tramos ni tarifas; (8) cubierto el 18/10; (9) cubierto el 30/09 y 02/10. Cupo de empresas ya cumplido hoy (Arcor)."
+    },
+    {
+      "tema": "¿qué parte de la carne vacuna se exporta? (La Nación 13/11/2026 'por primera vez en la historia, la exportación se llevó el 31,1% de la producción', CICCRA Inf. 309) / SAGyP indicadores bovinos ene-sep 2026 30,6% y serie historica 1914-2025: mayor proporcion desde 1972 (32,2%); 1914-1944 todos los anos > 34%, max 64,6% en 1918; kilos por habitante consumidos y exportados 1924-2026",
+      "angulo": "HALLAZGO contra lo publicado: no es record historico. Cifra ancla 30,6% ene-sep 2026 (SAGyP, recalculada; contraste CICCRA 31,1% ene-oct y USDA PSD para 1972). La proporcion sube porque cae la produccion (-5,9% vs ene-sep 2024) con exportacion 3,6% menor que en 2024; consumo 12 m a sep 45,8 kg, bajo el minimo anual de 1920.",
+      "fecha": "2026-11-14",
+      "estado": "en_cola",
+      "id": "2026-11-14-exportacion-carne-vacuna-mayor-desde-1972-no-record",
+      "archivo": "cola/2026-11-14-exportacion-carne-vacuna-mayor-desde-1972-no-record.html"
+    },
+    {
+      "tema": "descartes de la corrida 2026-11-14 10:30: (1) EMPRESAS Molinos compra Tía Maruca (HR CNV 13/11 y acta 2356) [infobae]; (2) Burger King a Integra Capital (Manzano) [infobae, Clarín]; (3) uso de capacidad instalada sept 60,1% [infobae, ámbito, iProfesional, Cronista, TN, Página12]; (4) salarios registrados sept 1,9% [infobae, LN, ámbito, TN]; (5) empresas y empleo perdidos SRT/SIPA [LN, ámbito, Clarín, TN]; (6) Etapa IV de concesiones viales [Clarín, TN, Cronista]; (7) ranking de inflación en América Latina [infobae]; (8) quita del subsidio fijo a colectivos a gas y eléctricos [ámbito]; (9) EMPRESAS Camuzzi Gas del Sur, desafectación de reserva y dividendos (HR CNV 11/11); (10) EMPRESAS Minera Exar, recompra de ON (HR CNV 11/11)",
+      "angulo": "candidatas descartadas",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "motivo_descarte": "pasó la candidata con hallazgo (carne exportada, serie desde 1914). (1) el documento no tiene precio; ya descartada a las 08:30; (2) sin documento primario, empresa privada; (3) dato del día sin ángulo propio, UCII cubierta el 15/10; (4) cubierta el 13/11; (5) cubiertas el 27/09, 09/10 y 13/11; (6) sin documento con tramos ni tarifas; (7) molde agotado, sin cruce propio; (8) molde 'cuánto subsidio', colectivos cubiertos el 30/10 y 04/11; (9) mismo molde que Naturgy BAN del 10/11; (10) operación chica de rutina. Cupo de empresas ya cumplido hoy (Arcor 03:30)."
     }
   ]
 }
