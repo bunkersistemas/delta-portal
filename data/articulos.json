@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-14T10:45:59-03:00",
+    "actualizado": "2026-11-14T12:47:51-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-14-china-supera-brasil-importaciones-autos",
+      "titulo": "China volvió a venderle a la Argentina más que Brasil, pero no porque vendiera más: le vendió lo mismo que en 2025 y Brasil vendió 17% menos",
+      "bajada": "China volvió al primer puesto entre los países que le venden a la Argentina, pero el cambio no vino de China sino de Brasil. De enero a septiembre de 2026, China vendió US$13.047 millones, el 23,3% de todo lo que el país importó, y 0,3% menos que un año antes. Brasil vendió US$12.005 millones, el 21,4%, y 17% menos. Es la primera vez desde 2022 que China queda arriba en esos nueve meses. La mayor parte de la caída brasileña está en los autos: los que llegan de Brasil bajaron 30% y los que llegan de China se triplicaron.",
+      "titulo_busqueda": "¿Cuál es el país que más le vende a la Argentina? China y Brasil en 2026",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "23,3%",
+      "numero_label": "parte de China en todo lo que importó la Argentina de enero a septiembre de 2026, contra 21,4% de Brasil",
+      "fecha": "2026-11-14",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-14-china-supera-brasil-importaciones-autos.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC ICA sep-2026 (19/10/2026), PDF p. 23 y cuadro 38: China 13.046,96 M (-0,34%), 23,27%; Brasil 12.004,96 M (-17,04%), 21,41%; total 56.068,79 (-2,47%). Recalculo base impom26 (CIF, sin confidenciales): China 310 13.040,7, Brasil 203 11.953,9, total 56.068,8 = 23,26% / 21,32%; FOB China 12.143,6 vs Brasil 11.384,2. Cuadros sep-2023/24/25: 9m Brasil primero 2023 (14.165 vs 11.061), 2024 (10.058 vs 7.879), 2025 (14.491 vs 13.091); 9m 2022 China 13.356 vs Brasil 12.558. Cuadro 37 VA: Brasil 3.137,4 -> 2.188,8 (-30,2%), China 329,1 -> 1.007,4 (x3,06). Contraste ComexStat MDIC: Brasil->Argentina ene-sep FOB 14.209,8 -> 11.585,1 (-18,5%), cap 87 6.331,9 -> 4.261,8; INDEC cap 87 Brasil 6.390,2 -> 4.363,9. Espejo Comtrade China 2025 14.454,0 vs INDEC 17.940,8 (2024 9.314,5 vs 11.658,2)."
+    },
     {
       "id": "2026-11-14-exportacion-carne-vacuna-mayor-desde-1972-no-record",
       "titulo": "La exportación se lleva el 30,6% de la carne vacuna, la mayor proporción desde 1972 pero no un récord: entre 1914 y 1944 superó un tercio todos los años",

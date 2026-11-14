@@ -8841,6 +8841,19 @@
       "fecha": "2026-11-14",
       "estado": "descartada",
       "motivo_descarte": "pasó la candidata con hallazgo (carne exportada, serie desde 1914). (1) el documento no tiene precio; ya descartada a las 08:30; (2) sin documento primario, empresa privada; (3) dato del día sin ángulo propio, UCII cubierta el 15/10; (4) cubierta el 13/11; (5) cubiertas el 27/09, 09/10 y 13/11; (6) sin documento con tramos ni tarifas; (7) molde agotado, sin cruce propio; (8) molde 'cuánto subsidio', colectivos cubiertos el 30/10 y 04/11; (9) mismo molde que Naturgy BAN del 10/11; (10) operación chica de rutina. Cupo de empresas ya cumplido hoy (Arcor 03:30)."
+    },
+    {
+      "tema": "¿cuál es el país que más le vende a la Argentina? (pregunta detrás de infobae 14/11/2026, columna de Evan Ellis 'El avance de China en Argentina bajo el gobierno de Javier Milei') / INDEC ICA sep-2026 cuadros 37-38: importaciones ene-sep 2026 China US$13.047 M (23,3%, -0,3%) vs Brasil US$12.005 M (21,4%, -17,0%), China primera por primera vez desde 2022 (9m 2022 13.356 vs 12.558; Brasil primero 2023-2025); autos de pasajeros Brasil 3.137 -> 2.189 (-30,2%), China 329 -> 1.007 (x3,1), parte china 8,0% -> 25,7%; Brasil cap. 87 -2.026 M = 82% de su caída; serie base INDEC 2002-2026 (China 3,5% -> 23,3%; Brasil máx. 35,4% 2005); FOB China 12.144 vs Brasil 11.384; contraste ComexStat Brasil -18,5%; espejo Comtrade China 2025",
+      "angulo": "el cambio de puesto no es avance chino: China vendió lo mismo y Brasil cayó 17%, sobre todo en autos (cálculo propio por uso y capítulo, serie 2002-2026, contraste con la estadística brasileña)",
+      "fecha": "2026-11-14",
+      "estado": "publicada",
+      "articulo_id": "2026-11-14-china-supera-brasil-importaciones-autos"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 14/11/2026 12:30. Portadas de economía de infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN con _privado/rastreo/portadas.py; portada general de infobae para la pregunta de plata. Hoy ya salieron seis notas (ECONOMÍA fórmula jubilatoria, inflación Milei-Fernández y carne exportada; EMPRESAS Arcor; molienda de trigo; MUNDO República Dominicana): cupo de empresas cumplido. Lista: (1) HALLAZGO: China vuelve a superar a Brasil como primer proveedor, pero por la caída de Brasil (autos) [infobae, columna de opinión; INDEC ICA + base comex + ComexStat]: APTA. (2) canje de la LeLink D30N6 y serie de los diez canjes de 2026 [La Nación]: no probada, retomable (serie de aceptación con los comunicados de Finanzas). (3) fallo de la Corte por las retenciones de 2007-2008 a Louis Dreyfus [La Nación]: sin montos en documento. (4) índice de precios relativos de Fundar, Argentina 51% más cara en restaurantes [iProfesional]: índice privado sin cálculo propio posible hoy. (5) Empiria: ingresos de quienes perdieron un empleo registrado [La Nación]: estudio privado sobre la EPH, no replicado. (6) silobolsas argentinas exportadas a 60 países [La Nación]: la NCM no separa el silobolsa. (7) EMPRESAS Molinos-Tía Maruca, Rosenbusch EEFF 30/09, Camuzzi dividendo, Minera Exar recompra de ON: sin monto, cupo cumplido o mismo molde que Naturgy BAN. (8) quita del subsidio fijo a colectivos a GNC y eléctricos [ámbito]: molde agotado. (9) Etapa IV de concesiones viales [Cronista, Clarín, TN]: sin tramos ni tarifas en documento. (10) UCII, salarios y empleo de septiembre-agosto [todas]: publicadas 13/11. (11) PASO [infobae, Clarín, Cronista, TN]: costo publicado 04/10 y 28/09. (12) Bombonera semivacía sin Messi [Clarín]: sin documento oficial con precios. pregunta.json ya era del día.",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: pasó la primera candidata (China y Brasil como proveedores, INDEC + ComexStat)"
     }
   ]
 }
