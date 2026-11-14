@@ -8799,6 +8799,19 @@
       "fecha": "2026-11-14",
       "estado": "descartada",
       "motivo_descarte": "no elegidas: pasó la primera candidata"
+    },
+    {
+      "tema": "¿cuántos argentinos viajan a República Dominicana y Punta Cana? (Clarín 14/11/2026 'El Caribe recibe cada vez más argentinos y busca destronar a Brasil como destino de vacaciones en el verano') / BCRD llegadas por nacionalidad: ene-sep 2026 391.176 (+12,9%; x2,7 vs 2019; récord de la serie 2000-2026), informe flujo turístico por residencia 383.021 (+13,1%, 3° mercado extranjero); Brasil MTur ene-ago 2026: aéreo +9,4%, terrestre -34,5%, total -15,4%; RD por cada 100 llegados en avión a Brasil: 18 en 2019, ~30 desde 2023; ANAC directos +41,4%",
+      "angulo": "récord de argentinos en República Dominicana, pero en 2026 crece casi como Brasil por avión (+12,7% vs +9,4% ene-ago): el salto fue en 2025 y lo que cayó en Brasil es el viaje por tierra; Clarín/MITUR +33% no coincide con el BCRD",
+      "fecha": "2026-11-14",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 14/11/2026 06:30. Portadas de economía de infobae, La Nación, Clarín, ámbito, iProfesional, Cronista, TN y Página12 con _privado/rastreo/portadas.py. Hoy ya salieron tres notas (ECONOMÍA fórmula jubilatoria; EMPRESAS Arcor; ECONOMÍA molienda de trigo): cupo de empresas cumplido. Lista: (1) HALLAZGO, MUNDO: argentinos en República Dominicana contra Brasil por avión [Clarín; BCRD + MTur Brasil + ANAC] -> elegida; (2) subsidio fijo a colectivos a GNC y eléctricos que se retira [infobae, ámbito] (molde subsidios/colectivos ya muy cubierto); (3) EMPRESAS Camuzzi Gas del Sur, desafectación de reserva y dividendo [CNV] (mismo molde que Naturgy BAN del 10/11 y cupo cumplido); (4) EMPRESAS Molinos compra la marca Tía Maruca [CNV] (sin leer monto); (5) EMPRESAS Ribeiro, actualización del concurso preventivo [CNV]; (6) EMPRESAS Minera Exar recompra ON [CNV]; (7) Etapa IV de concesiones viales, 27 tramos [La Nación, Clarín, Cronista, TN] (sin tramos ni tarifas en documento, como la Etapa III descartada el 06/10); (8) capacidad instalada 60,1% [5 portales] (dato del día, serie ya cubierta 19/07 y 15/10); (9) salarios registrados septiembre [5 portales] (cubierto 13/11); (10) empleo SIPA agosto [6 portales] (cubierto 13/11); (11) tercera licitación de plazos fijos del FGS para hipotecarios [TN]; (12) Bombonera semivacía tras el retiro de Messi y precio de las entradas [Clarín deportes] (sin documento oficial de precios)",
+      "angulo": "lista de candidatas no probadas",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "motivo_descarte": "no elegidas: pasó la primera candidata"
     }
   ]
 }

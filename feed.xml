@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 14 Nov 2026 04:53:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 06:55:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Récord de argentinos en República Dominicana: 391.176 en nueve meses, pero este año crecen casi al mismo ritmo que los que llegan en avión a Brasil</title>
+      <link>https://coninteres.com/articulos/2026-11-14-argentinos-republica-dominicana-record-brasil-avion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-14-argentinos-republica-dominicana-record-brasil-avion.html</guid>
+      <pubDate>Sat, 14 Nov 2026 07:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Según el Banco Central dominicano, de enero a septiembre de 2026 llegaron en avión 391.176 argentinos, 12,9% más que en 2025 y 2,7 veces más que en 2019: ya son el tercer país que más turistas extranjeros le manda, detrás de EE.UU. y Canadá. Pero el salto grande fue el año pasado, y en 2026 el Caribe no le está sacando ventaja a Brasil entre los que viajan en avión. De enero a agosto, los argentinos que llegaron a República Dominicana crecieron 12,7%, y los que llegaron a Brasil en avión, 9,4%. Lo que se desplomó en Brasil fue el viaje por tierra.</description>
+      <ci:numero>391.176</ci:numero>
+      <ci:numeroEtiqueta>argentinos que llegaron en avión a República Dominicana de enero a septiembre de 2026, el número más alto desde 2000</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-14-argentinos-republica-dominicana-record-brasil-avion.png" length="73148" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-14-argentinos-republica-dominicana-record-brasil-avion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los molinos molieron más trigo que en cualquier enero-septiembre desde 2011, pero todo el aumento de 2026 se fue en harina exportada</title>
       <link>https://coninteres.com/articulos/2026-11-14-molienda-trigo-harina-exportada-bolivia.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>deuda pública de Neuquén a septiembre de 2026, con el bono de julio; en junio de 2019 era de US$1.198 millones</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias.png" length="74631" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-neuquen-deuda-dolares-2019-ingresos-regalias.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Naturgy BAN aprobó $206.272 millones de dividendos en 2026, más que lo que ganó en nueve meses: su ganancia cayó 42% en pesos de hoy</title>
-      <link>https://coninteres.com/articulos/2026-11-10-naturgy-ban-dividendos-2026-ganancia.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-10-naturgy-ban-dividendos-2026-ganancia.html</guid>
-      <pubDate>Tue, 10 Nov 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>La ganancia de Naturgy BAN cayó 41,9% contra la de un año antes en pesos de hoy, y aun así en 2026 la empresa ya dispuso repartir más de lo que ganó. La distribuidora de gas del norte y el oeste del conurbano aprobó hoy un dividendo anticipado de $35.900 millones; con ese, los repartos del año suman $206.272 millones, contra $117.951 millones de ganancia entre enero y septiembre. De lo que ganó en 2024 y en 2025 repartió el 95%: todo lo que no fue a la reserva legal.</description>
-      <ci:numero>$206.272 M</ci:numero>
-      <ci:numeroEtiqueta>dividendos en efectivo que Naturgy BAN aprobó repartir en 2026, en cuatro decisiones de abril a noviembre</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-10-naturgy-ban-dividendos-2026-ganancia.png" length="81235" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-10-naturgy-ban-dividendos-2026-ganancia.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

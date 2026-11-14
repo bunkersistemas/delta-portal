@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-14T04:53:02-03:00",
+    "actualizado": "2026-11-14T06:55:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-14-argentinos-republica-dominicana-record-brasil-avion",
+      "titulo": "Récord de argentinos en República Dominicana: 391.176 en nueve meses, pero este año crecen casi al mismo ritmo que los que llegan en avión a Brasil",
+      "bajada": "Según el Banco Central dominicano, de enero a septiembre de 2026 llegaron en avión 391.176 argentinos, 12,9% más que en 2025 y 2,7 veces más que en 2019: ya son el tercer país que más turistas extranjeros le manda, detrás de EE.UU. y Canadá. Pero el salto grande fue el año pasado, y en 2026 el Caribe no le está sacando ventaja a Brasil entre los que viajan en avión. De enero a agosto, los argentinos que llegaron a República Dominicana crecieron 12,7%, y los que llegaron a Brasil en avión, 9,4%. Lo que se desplomó en Brasil fue el viaje por tierra.",
+      "titulo_busqueda": "¿Cuántos argentinos viajan a República Dominicana y Punta Cana?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "391.176",
+      "numero_label": "argentinos que llegaron en avión a República Dominicana de enero a septiembre de 2026, el número más alto desde 2000",
+      "fecha": "2026-11-14",
+      "hora": "07:30",
+      "archivo": "articulos/2026-11-14-argentinos-republica-dominicana-record-brasil-avion.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRD lleg_nacionalidad_2026.xls, fila Argentina, total nacional ene-sep = 391.176 (suma mensual recalculada); ene-sep 2025 346.427 (+12,92%), 2019 145.926 (x2,681); anual 2025 450.501, 2024 281.812 (máximo anual previo a 2025 en 2000-2024). Informe flujo turístico BCRD ene-sep 2026 por residencia: 383.021, +13,1%, 6,4%, 3° tras EE.UU. 2.617.520 y Canadá 936.017. Contraste ANAC registro vuelo a vuelo: despegues directos a MDPC/MDSD ene-sep 2024 62.563, 2025 121.799, 2026 172.239 (+41,4%); EZE-MDPC 2026 259.732 vs cuadro 20 259.947. Brasil MTur ene-ago 2026 aéreo 1.197.277 (+9,40%, = Embratur), terrestre 914.956 (-34,49%), total 2.244.297 (-15,39%)."
+    },
     {
       "id": "2026-11-14-molienda-trigo-harina-exportada-bolivia",
       "titulo": "Los molinos molieron más trigo que en cualquier enero-septiembre desde 2011, pero todo el aumento de 2026 se fue en harina exportada",
