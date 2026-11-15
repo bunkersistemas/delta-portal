@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-15T15:03:38-03:00",
+    "actualizado": "2026-11-15T16:54:42-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-15-madera-aserrada-exportacion-record-desde-1961",
+      "titulo": "La Argentina exportó 347.510 toneladas de madera aserrada en 2025, el récord desde 1961, cuando todavía la importaba",
+      "bajada": "La Argentina nunca vendió tanta madera aserrada al exterior, y la vende al precio más bajo desde 2009. En 2025 exportó 347.510 toneladas, casi todas de coníferas como el pino, la mayor cantidad registrada; entre enero y septiembre de 2026 ya lleva 317.931, 25,4% más que un año antes, a US$387 por tonelada en promedio. Es el final de un giro largo: hasta 2001 el país compraba afuera más madera aserrada de la que vendía, y en 1961 importó 880.800 metros cúbicos y exportó 3.400, según la FAO.",
+      "titulo_busqueda": "Exportaciones de madera de la Argentina: récord de pino aserrado",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "347.510 t",
+      "numero_label": "madera aserrada exportada por la Argentina en 2025, la mayor cantidad desde 1961",
+      "fecha": "2026-11-15",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-15-madera-aserrada-exportacion-record-desde-1961.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC base exportaciones 2025, partida 4407 (incluye 999 confidencial): 347.510 t, US$136,73 M FOB; 2024 272.835 t; máx previo INDEC 2004 228.349 t. Recálculo sin 999: 287.201 t / US$112,19 M = Comtrade reporter 32 (287.295 t / 112,20 M). Contraste espejo 41 compradores 2023->2025 +58,2% t, +51,5% US$ vs INDEC sin Vietnam +59,6% t, +55,8% US$. FAO Sawnwood export 2024 450.035 m3 (máx 1961-2024; previo 2005 404.000); 1961 import 880.800 / export 3.400 m3; Comtrade 1993-2001 máx 47.850 t (2001). Ene-sep 2026 317.931 t vs 253.507 (+25,4%), US$/t 387 (2009: 351; 2021: 557). EE.UU. Comtrade 842 ene-ago 2026 46.135 t vs 46.369. BLS WPU0811 2021 397,7 -> 2025 264,9 (-33,4%)"
+    },
     {
       "id": "2026-11-15-alimentos-importados-por-habitante-chile-brasil",
       "titulo": "La Argentina importa US$65 de alimentos por habitante al año, menos de la quinta parte que Chile",
