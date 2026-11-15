@@ -8987,6 +8987,18 @@
       "seccion": "ECONOMÍA",
       "pedido": 118,
       "archivo": "cola/2026-11-15-el-nino-campo-argentino-vecinos-china.html"
+    },
+    {
+      "fecha": "2026-11-15",
+      "estado": "en_cola",
+      "id": "2026-11-15-alimentos-importados-por-habitante-chile-brasil",
+      "tema": "ECONOMÍA: ¿cuántos alimentos importa la Argentina? (pregunta detrás de infobae 15/11/2026 'Por qué los alimentos importados todavía no lograron ganar terreno en los supermercados') / importación de alimentos y bebidas por habitante 2025, Argentina contra siete países de la región, y toneladas de enero-septiembre 2002-2026",
+      "angulo": "Canasta propia por capítulos NCM/SA 02,03,04,07,08,09,11,16-22 (sin 10, 12, 15, 23, 24, 01). Argentina 2025 US$2.972,1 M CIF (INDEC = Comtrade), US$64,8 por habitante (BM 45,85 M); Chile 358,1, Uruguay 435,0, México 212,2, Paraguay 154,1, Colombia 92,3, Perú 91,8, Brasil 47,4. Contraste: espejo de exportadores FOB 2.587,8 vs INDEC FOB 2.758,3 (-6,2%; Ecuador -25 M en frutas); con espejo ARG 56,4 vs CHL 333,9 (5,9x). Ene-sep 2026: 1.019,3 kt (+9,9%; máximo ene-sep desde 2002, antes 927,3 en 2025 y 913,1 en 2017), US$2.238,4 M (-1,1%), US$/kg -10,0%; carnes 109,3 kt (+52,3%, 45% cerdo y 32,7% pollo, 95,7% Brasil), bebidas +102,8%, hortalizas +62,6%, harinas +57,0%; cacao US$ -32,9%. Año completo: récord de toneladas sigue siendo 2017 (1.268,1 kt). Scripts en _privado/alimentos/."
+    },
+    {
+      "fecha": "2026-11-15",
+      "estado": "descartada",
+      "tema": "descartes de la corrida de redacción del 15/11/2026 14:30. Seis portadas con WebFetch (infobae, La Nación, ámbito, iProfesional, Cronista, Página12); Clarín y TN con _privado/rastreo/portadas.py. Hoy ya salieron 6 notas (EMPRESAS Metrogas y Mastellone: cupo de empresas cumplido; MERCADOS Brasil; MUNDO inflación LatAm; ECONOMÍA calzado y El Niño). Lista: (1) HALLAZGO, pregunta detrás de infobae 15/11 'Por qué los alimentos importados todavía no lograron ganar terreno en los supermercados': importación de alimentos por habitante, Argentina US$64,8 vs Chile 358,1 (Comtrade + espejo + BM) y toneladas ene-sep 2026 máximo desde 2002 -> APTA. (2) RETOMADA estrategias de los hogares EPH 1S-2026 (_privado/online/): repositorio.uca.edu.ar siguió en 504 (curl y WebFetch) y archive.org dio 429; sigue frenada por falta del original de la UCA. (3) EMPRESAS Molinos compra Tía Maruca [La Nación, infobae, Clarín]: sin precio, descartada en seis corridas. (4) EMPRESAS Longvie síntesis de EEFF al 30/09 (CNV 11/11): semestre publicado 01/10, sin leer el trimestre; no probada porque pasó la primera. (5) EMPRESAS Valentín Bianchi acuerdo preliminar de reestructuración (HR 11/11): en cola 12/11. (6) EMPRESAS Camuzzi Gas del Sur dividendo (HR 11/11): mismo molde que Naturgy BAN. (7) cupo de híbridos y eléctricos con cuatro meses de stock [infobae]: la base del INDEC no trae unidades, solo kilos; cupo publicado 01/10. (8) Manzano en Dia y Burger King [infobae, La Nación, Clarín]: sin documento; Dia en cola 05/11. (9) petróleo primer producto exportado [infobae, ámbito]: publicada 14/11. (10) capacidad instalada 60,1% [iProfesional, Página12, TN]: cubierta. (11) oro y reservas US$1.800 M [infobae]: cubierto 14/10. (12) 'toda una generación lejos de la casa propia' [Página12]: inquilinos publicada 18/10. (13) gas de Vaca Muerta a Brasil [infobae]: publicada 27/10. Pregunta de plata: visita de León XIV (Iglesia publicada 07/11), Carpa VIP (sin documento). pregunta.json no se tocó (ya era del 15/11)."
     }
   ]
 }
