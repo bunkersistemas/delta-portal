@@ -8939,6 +8939,14 @@
       "fecha": "2026-11-15",
       "estado": "descartada",
       "motivo_descarte": "no se eligieron: la primera candidata pasó la verificación; ver el motivo de cada una en el tema"
+    },
+    {
+      "tema": "EMPRESAS: Mastellone Hermanos (La Serenísima) 9M26: ganancia neta $8.133 M con resultado operativo -$16.965 M; diferencias de cambio +$51.016 M (EEFF consolidados al 30/09/2026, CNV 12/11/2026; HR 06/11; reporte de sustentabilidad 2025, CNV 13/11) / litros 1.059 M (+0,2%), ingreso por litro en el país -6,6% real, fletes +7,0%, 3T26 operativo +15.101 (3T25 -229), deuda financiera 120.261 vs 315.017 (-61,8%) tras aportes de US$100 M de Bagley/LSU; IPI lácteos +3,1%; 1.277 M litros = 11% de la leche del país",
+      "angulo": "Corrida programada del 15/11/2026 02:30. RETOMA la nota de Mastellone frenada el 08/11 a la espera de los EEFF al 30/09 (memoria mastellone-arcor-lsu). HALLAZGO: la ganancia que informó el HR no viene de la operación sino de diferencias de cambio (deuda en dólares que se achica en moneda homogénea); nadie lo publicó (la prensa cubrió solo el 1S26). Distinta de la nota de Arcor del 14/11 (que solo menciona la participación en Mastellone). Segunda nota EMPRESAS del día (Metrogas 00:30): sin candidata de otra sección con hallazgo listo. Descartes de esta corrida: Tía Maruca (sin precio, igual que a las 00:30), Camuzzi dividendo (molde Naturgy 10/11), Manzano/Burger King/Día (sin documento; Día en cola 05/11), inflación LatAm (ranking ya hecho por infobae y ámbito), oro en reservas (cubierto 14/10), cierre de empresas (09/10), UCII (cubierta), Etapa IV de rutas (sin pliego con cifras), futuros vs devaluación (hallazgo propio de infobae), Copa Argentina premios (27/09), boleto de colectivo (molde agotado).",
+      "fecha": "2026-11-15",
+      "estado": "publicada",
+      "archivo": "cola/2026-11-15-la-serenisima-gano-por-el-dolar-negocio-perdio.html",
+      "articulo_id": "2026-11-15-la-serenisima-gano-por-el-dolar-negocio-perdio"
     }
   ]
 }

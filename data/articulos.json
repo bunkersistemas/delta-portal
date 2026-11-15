@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-15T00:48:02-03:00",
+    "actualizado": "2026-11-15T02:47:23-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-15-la-serenisima-gano-por-el-dolar-negocio-perdio",
+      "titulo": "La Serenísima cerró nueve meses con una ganancia de $8.133 millones, pero su negocio perdió $16.965 millones: la diferencia la puso el dólar",
+      "bajada": "Mastellone Hermanos, la empresa de La Serenísima, terminó enero-septiembre con ganancia, pero no por vender leche: su operación perdió $16.965 millones y el resultado lo dio vuelta su deuda en dólares, que se achicó medida en pesos constantes. Vendió la misma leche que un año antes y cobró 6,6% menos por cada litro en el mercado local, descontada la inflación. En el tercer trimestre, el primero entero bajo Arcor, el negocio volvió a ganar plata.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "−$16.965 M",
+      "numero_label": "resultado operativo de Mastellone Hermanos (La Serenísima) entre enero y septiembre de 2026, en pesos de septiembre de 2026",
+      "fecha": "2026-11-15",
+      "hora": "03:30",
+      "archivo": "articulos/2026-11-15-la-serenisima-gano-por-el-dolar-negocio-perdio.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Mastellone Hermanos EEFF consolidados al 30/09/2026 (CNV 12/11/2026, publicview 8240e1aa, revisión Deloitte sin observaciones): ganancia bruta 493.143 - comercialización 445.245 - administración 64.863 = -16.965 (reseña punto 3 idem; formulario CNV -17.341 = -16.965 + otras -376). Neto 8.133 = EEFF = reseña = formulario = HR 06/11 (fa022ac3). Diferencias de cambio +51.016 (9M25 -25.328). 9M25 reexpresado = formulario 9M25 x 1,3315 (ingresos 1.289.323 -> 1.716.718). Litros reseña punto 5: 1.059 vs 1.057 (interno 726/724). Ingreso por litro interno 1.241.396/726 = 1.709,9 vs 1.326.055/724 = 1.831,6 (-6,64%). 3T26 operativo +15.101 (3T25 -229). Deuda financiera 120.261 vs 315.017 al 30/09/25 (-61,8%). Contraste: IPI INDEC subclase 15200 productos lácteos promedio ene-sep 135,92 vs 131,79 (+3,1%). Reporte de sustentabilidad 2025 (CNV 13/11): 1.277 M litros, 567 tambos; SAGyP 2025 11.618 M litros = 11,0%."
+    },
     {
       "id": "2026-11-15-metrogas-hierro-fundido-renovacion-redes",
       "titulo": "Metrogas todavía tiene 1.951 kilómetros de caños de hierro fundido: en 2025 renovó 79, menos de un tercio que en 2019",
