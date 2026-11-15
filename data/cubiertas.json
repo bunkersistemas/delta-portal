@@ -8977,6 +8977,16 @@
       "fecha": "2026-11-15",
       "estado": "descartada",
       "motivo_descarte": "FRENAR en las cuatro candidatas probadas: contraste contradictorio (supermercados online, madera a EE.UU.), sin norma (GNC) y contraste independiente ilegible (EPH estrategias 1S-2026, UCA con 504)"
+    },
+    {
+      "fecha": "2026-11-15",
+      "estado": "en_cola",
+      "id": "2026-11-15-el-nino-campo-argentino-vecinos-china",
+      "tema": "Pedido de lector 118: cómo afectó El Niño al agro argentino y al de la región, y quién perdió menos ante China y otros clientes / cosechas de soja+maíz+trigo de Argentina, Brasil, Uruguay, Paraguay y Bolivia en los cuatro Niños fuertes (ONI >= 1,5 tres trimestres: 1982/83, 1997/98, 2015/16, 2023/24); parte de cada país en las compras de soja de China; exportaciones argentinas de soja, harina, aceite, maíz y trigo",
+      "angulo": "Nuevo frente a la nota del 13/10/2026 (ONI récord JAS y rindes argentinos): la comparación regional y el mercado chino. Producción oficial (Agricultura, CONAB; FAO para URU/PAR/BOL) contrastada con USDA PSD: Argentina +27,0/+24,6/+1,0/+53,9 (USDA +27,9/+28,0/-3,0/+55,1); Brasil -3,5/-1,7/-10,6/-8,8 (USDA -5,0/-1,8/-10,6/-9,0; FAO 1997/98 +1,2): en los cuatro la Argentina anduvo mejor; Brasil cayó en maíz y trigo los cuatro (CONAB, USDA, FAO). Paraguay 1982/83 y 2023/24: fuentes en sentido contrario, publicado como 'no coinciden'. China (Comtrade 156, en valor porque los kilos 2023 de Brasil y EE.UU. son imputados): ARG 0/11,9/21,1 (1997-99), 11,3/9,5/6,8 (2015-17), 2,1/3,9/7,1 (2023-25); BRA 16,4/29,7/19,3; 48,5/45,8/52,8; 68,9/69,1/73,3. Contraste: lo que declara cada exportador (Arg 1,74->3,92 Mt 2023-24; Bra 74,5->72,6). Uruguay en China descartado (espejo no coincide). Exportaciones argentinas 5 productos (INDEC via Comtrade): +31,5% t 1998, +21,0% 2016, +38,7% 2024; USDA PSD misma dirección. Brasil 1998 descartado (fuentes no coinciden). Niño actual: ONI ASO 2026 +2,46 (máximo ASO, previo 1997 +2,04); CONAB trigo 2026 5,73 Mt (-27,2%), USDA 5,8 (-26,3%); Agricultura sin estimación de producción de trigo 26/27, área 6.626.074 ha (-4,9%). Emergencias agropecuarias 2026 no usadas: prorrogan inundaciones de 2025 (Res. 216/2026), anteriores al Niño. Scripts y datos en _privado/nino118/.",
+      "seccion": "ECONOMÍA",
+      "pedido": 118,
+      "archivo": "cola/2026-11-15-el-nino-campo-argentino-vecinos-china.html"
     }
   ]
 }
