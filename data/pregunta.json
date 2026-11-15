@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-14",
-  "pregunta": "El 5 de noviembre, al Gobierno le quedaban US$59,3 millones depositados en dólares en el Banco Central, y el 9 de enero de 2027 vencen US$4.523 millones de Bonares y Globales. ¿Quiere decir que no tiene con qué pagar?",
+  "fecha": "2026-11-15",
+  "pregunta": "En los primeros 35 meses de Milei, según el INDEC, los servicios subieron 531% y los bienes 294%. ¿Qué quiere decir esa diferencia para el bolsillo?",
   "opciones": [
-    "No necesariamente: tiene en el Banco Central pesos equivalentes a unos US$4.550 millones, y con pesos le puede comprar los dólares al Banco Central, como hizo para el pago de enero de 2026",
-    "Sí: la deuda en dólares solo se puede pagar con los dólares que el Tesoro ya tiene depositados",
-    "No importa: el Banco Central paga los bonos del Tesoro con sus reservas, sin que el Tesoro tenga que poner nada"
+    "Que los servicios (tarifas, transporte, prepagas, alquileres) se encarecieron mucho más que los bienes: hoy hace falta resignar más bienes que en 2023 para pagar el mismo servicio",
+    "Que la inflación de los servicios no cuenta en el índice general, porque el IPC solo mide bienes del supermercado",
+    "Que los bienes bajaron de precio, porque si los servicios suben más, los bienes tienen que bajar para compensar"
   ],
   "correcta": 0,
-  "explicacion": "El Tesoro y el Banco Central son cajas distintas. El Tesoro tiene cuentas en pesos y en dólares en el Banco Central; para pagar a los bonistas en dólares necesita dólares en su cuenta, pero los puede conseguir comprándoselos al Banco Central con los pesos que tiene depositados, que es lo que hizo antes del pago de enero de 2026. Por eso, que la cuenta en dólares esté casi vacía no quiere decir que no haya con qué pagar: quiere decir que, para pagar, el Tesoro va a tener que cambiar pesos por dólares, y esos dólares salen de las reservas.",
-  "nota": "articulos/2026-11-13-tesoro-dolares-bcra-pago-enero.html",
+  "explicacion": "El IPC del INDEC mide bienes (alimentos, ropa, artículos del hogar) y servicios (tarifas, transporte, salud, educación, alquiler). Los dos subieron: los bienes 294% y los servicios 531%. Que uno suba más que el otro cambia el precio relativo: cuántos bienes equivalen a un servicio. A fines de 2023 los servicios estaban muy atrasados, con tarifas congeladas, y desde enero de 2024 se encarecieron casi sin pausa respecto de los bienes. Por eso dos hogares con la misma inflación promedio pueden sentirla distinto: pesa más en el que gasta una parte grande de su ingreso en servicios.",
+  "nota": "articulos/2026-11-14-inflacion-milei-fernandez-35-meses-servicios-bienes.html",
   "leccion": ""
 }

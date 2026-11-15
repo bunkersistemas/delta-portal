@@ -8925,6 +8925,20 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no elegidas: pasó la primera candidata (Rosenbusch, compra del control en cuotas y revalúo)"
+    },
+    {
+      "tema": "EMPRESAS: ¿cuántos caños de hierro fundido le quedan a Metrogas? (hecho relevante CNV 13/11/2026: explosión en Remedios de Escalada al dañar una tunelera de la renovación de redes un gasoducto de media presión; 1 muerto y 13 heridos; bloque EMPRESAS de agenda.py y portadas del 15/11) / memorias 2018-2025: hierro fundido 2.062 km (2022) -> 1.951 (2025); km de polietileno tendidos para reemplazarlo 2019 260 -> 2023 37 -> 2025 79; Res. ENARGAS 257/2025 plan obligatorio $160.011 M (jun-2024), renovación de redes $49.307 M",
+      "angulo": "Corrida programada del 15/11/2026 00:30. Retoma la candidata descartada el 14/11 20:30 ('sin serie oficial de incidentes') con otro ángulo: no los incidentes sino el programa de renovación en el que ocurrió la explosión. Hallazgo: serie propia de nueve años de renovación desde las memorias (cae de 260 km en 2019 a 37 en 2023 con tarifas congeladas, según la propia empresa; 79 en 2025) y stock de hierro fundido que baja 37 km por año (unos 53 años al ritmo actual, cuenta simple). Camino: documentos de la empresa coherentes año contra año + reporte GRI con otro método (-0,7%) + plan del regulador. No se afirma causa de la explosión ni relación con el hierro fundido (el caño dañado era de media presión).",
+      "fecha": "2026-11-15",
+      "estado": "publicada",
+      "articulo_id": "2026-11-15-metrogas-hierro-fundido-renovacion-redes"
+    },
+    {
+      "tema": "descartes de la corrida programada del 15/11/2026 00:30. Portadas: infobae, La Nación, ámbito, iProfesional, Cronista, Página12 con WebFetch; Clarín y TN con _privado/rastreo/portadas.py. Lista: (1) HALLAZGO, EMPRESAS, Metrogas hierro fundido y ritmo de renovación [HR CNV 13/11 + memorias; explosión en portadas] -> APTA. (2) EMPRESAS Molinos compra Tía Maruca [La Nación, Clarín; HR y acta 2356]: sin precio; vendedora sin CUIT localizado para Central de Deudores; producción de galletitas (IPI 15411/12/41/42) estable 2016-2026 e importación 1905.31 marginal (2.564 t en 2025): sin hallazgo. (3) EMPRESAS Camuzzi Gas del Sur dividendo $77.275 M (HR 11/11): mismo molde que Naturgy BAN. (4) EMPRESAS Carlos Casado 1T 26/27 (reseña 05/11): ganancia $1.757 M; expropiación por la ruta PY15 (Corredor Bioceánico) sin hectáreas; precios de vacas en USD sin comparable oficial. (5) EMPRESAS Central Urbana patrimonio neto negativo (HR 13/11), Crédito Directo 9M26: sin interés ni contexto. (6) UCII septiembre 60,1% [6 portadas]: serie publicada 19/07, 23/07 y 15/10. (7) Inflación oct 2,2% [6 portadas]: publicada 14/11. (8) Cierre de empresas 32.429 [Clarín, ámbito, infobae]: publicada 09/10. (9) Día/Manzano-De Narváez [3 portadas]: en cola 05/11. (10) Petróleo primer producto exportado [4 portadas]: publicada 14/11. (11) Etapa IV de concesiones viales, 27 tramos [Cronista, TN, Clarín]: sin pliego con cifras localizado en la corrida. (12) Pregunta de plata: AFA y yates (Clarín) descartada por acusación sin sentencia; Boca doble final (premios publicados 06/10 y 21/10); costo de las PASO (publicada 04/10).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-15",
+      "estado": "descartada",
+      "motivo_descarte": "no se eligieron: la primera candidata pasó la verificación; ver el motivo de cada una en el tema"
     }
   ]
 }
