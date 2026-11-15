@@ -623,6 +623,20 @@ if ($Mision -ne 'enfoque' -and -not (Test-Path $Resultado)) {
     $auto = [ordered]@{ veredicto = 'APTA'; id = $nuevos[0]; motivo = 'borrador en la cola (sin .corrida.json)' }
     (New-Object PSObject -Property $auto | ConvertTo-Json -Compress) | Set-Content -Path $Resultado -Encoding UTF8
   }
+  # Y si no quedo borrador pero el agente termino bien y declaro en su salida que
+  # frenaba, es una corrida sin nota: se sube lo registrado (descartes) como con
+  # FRENAR. Paso el 15/11/2026 10:30: "FRENAR, sin nota", sin .corrida.json, y el
+  # repo sucio iba a trabar las corridas siguientes.
+  elseif ($nuevos.Count -eq 0 -and $codigo -eq 0) {
+    $txt = ($salida | Out-String)
+    $ver = ''
+    if ($txt -match '\bFRENAR\b') { $ver = 'FRENAR' } elseif ($txt -match '\bSIN_TEMA\b') { $ver = 'SIN_TEMA' }
+    if ($ver) {
+      Anotar "[AVISO] la redaccion no dejo .corrida.json ni borrador y su salida dice $ver : se toma como $ver"
+      $auto = [ordered]@{ veredicto = $ver; id = ''; motivo = "$ver declarado en la salida (sin .corrida.json)" }
+      (New-Object PSObject -Property $auto | ConvertTo-Json -Compress) | Set-Content -Path $Resultado -Encoding UTF8
+    }
+  }
 }
 if (-not (Test-Path $Resultado)) { Terminar 1 'falla' '[FALLA] la redaccion no dejo .corrida.json; el repo queda como esta para revisarlo' }
 $r = Get-Content $Resultado -Raw -Encoding UTF8 | ConvertFrom-Json
