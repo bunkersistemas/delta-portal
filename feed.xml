@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 15 Nov 2026 02:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 04:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Brasil se abarató 11,7% para los argentinos en cinco semanas: frente al real, el peso está más caro que el promedio de todos los años desde 1997, salvo 2001</title>
+      <link>https://coninteres.com/articulos/2026-11-15-brasil-mas-barato-real-cinco-semanas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-15-brasil-mas-barato-real-cinco-semanas.html</guid>
+      <pubDate>Sun, 15 Nov 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Brasil quedó 11,7% más barato para los argentinos entre el 9 de octubre y el 13 de noviembre de 2026, y casi todo vino del lado brasileño: el dólar subió 13,3% en Brasil y apenas 2,1% en la Argentina. El tipo de cambio real con Brasil que calcula el BCRA bajó de 86,7 a 76,6, el nivel más bajo desde el 22 de abril de 2025. En toda la serie diaria, que arranca en 1997, el índice estuvo más abajo solo el 6,4% de los días.</description>
+      <ci:numero>11,7%</ci:numero>
+      <ci:numeroEtiqueta>se abarató Brasil para los argentinos entre el 9 de octubre y el 13 de noviembre de 2026, según el tipo de cambio real bilateral del BCRA</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-brasil-mas-barato-real-cinco-semanas.png" length="72551" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-brasil-mas-barato-real-cinco-semanas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Serenísima cerró nueve meses con una ganancia de $8.133 millones, pero su negocio perdió $16.965 millones: la diferencia la puso el dólar</title>
       <link>https://coninteres.com/articulos/2026-11-15-la-serenisima-gano-por-el-dolar-negocio-perdio.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>unidades de papelería que vendió Ángel Estrada en el ejercicio julio 2025-junio 2026 contra el de julio 2022-junio 2023</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.png" length="69316" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Molinos cobró 9,8% menos por tonelada, descontada la inflación, y pasó de pérdida a ganancia operativa: recortó $56.687 millones de gastos</title>
-      <link>https://coninteres.com/articulos/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.html</guid>
-      <pubDate>Thu, 12 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Molinos Río de la Plata cobró menos por cada kilo de alimentos y aun así pasó de perder a ganar con su operación. Entre enero y septiembre vendió en el país 297.426 toneladas, 1,9% más que en 2025, a $2.427 por kilo: 9,8% menos, descontada la inflación. Su resultado operativo pasó de una pérdida de $29.146 millones a una ganancia de $52.997 millones, y siete de cada diez pesos de esa mejora salieron de gastar $56.687 millones menos en comercialización y administración.</description>
-      <ci:numero>−9,8%</ci:numero>
-      <ci:numeroEtiqueta>lo que Molinos cobró por cada tonelada de alimentos vendida en el país, enero a septiembre de 2026 contra 2025, descontada la inflación</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.png" length="77695" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-12-molinos-cobro-menos-por-tonelada-gano-recortando-gastos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

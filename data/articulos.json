@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-15T02:47:23-03:00",
+    "actualizado": "2026-11-15T04:48:40-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-15-brasil-mas-barato-real-cinco-semanas",
+      "titulo": "Brasil se abarató 11,7% para los argentinos en cinco semanas: frente al real, el peso está más caro que el promedio de todos los años desde 1997, salvo 2001",
+      "bajada": "Brasil quedó 11,7% más barato para los argentinos entre el 9 de octubre y el 13 de noviembre de 2026, y casi todo vino del lado brasileño: el dólar subió 13,3% en Brasil y apenas 2,1% en la Argentina. El tipo de cambio real con Brasil que calcula el BCRA bajó de 86,7 a 76,6, el nivel más bajo desde el 22 de abril de 2025. En toda la serie diaria, que arranca en 1997, el índice estuvo más abajo solo el 6,4% de los días.",
+      "titulo_busqueda": "¿Está más barato Brasil para los argentinos después de la caída del real?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "11,7%",
+      "numero_label": "se abarató Brasil para los argentinos entre el 9 de octubre y el 13 de noviembre de 2026, según el tipo de cambio real bilateral del BCRA",
+      "fecha": "2026-11-15",
+      "hora": "04:30",
+      "archivo": "articulos/2026-11-15-brasil-mas-barato-real-cinco-semanas.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA itcrm-serie.xlsx (descargada 15/11/2026), ITCRB Brasil: 86,7466 (09/10/2026) -> 76,5908 (13/11/2026) = -11,71%. Recalculo propio A3500 (1.515,8766 -> 1.547,0336) / PTAX venta BCB SGS 1 (4,9892 -> 5,6518) x IPCA (oct 0,14%) / IPC INDEC (oct 2,2%), interpolacion geometrica diaria y replica de octubre para noviembre: -11,95%; 30/09-13/11 propio -9,20% vs BCRA -8,96%; nominal propio -9,91% vs ITCNB Brasil BCRA -10,05%. Contraste PPI (iProfesional 13/11): 'menor nivel desde mayo de 2025' = BCRA 11/11 77,78, ultima vez <= 08/05/2025 77,24. Superlativos: ultimo dia <= 76,59 = 22/04/2025 (76,48); caida a 35 dias <= -11,7% sin repetirse desde 18/04/2024 (racha con -19,77% el 23/01/2024); 701 de 10.909 dias por debajo (6,4%); solo el promedio anual de 2001 (70,34) por debajo de 76,59 (1999: 77,65). Ponderador Brasil sep-26 27,22% (China 24,91, zona euro 18,62)."
+    },
     {
       "id": "2026-11-15-la-serenisima-gano-por-el-dolar-negocio-perdio",
       "titulo": "La Serenísima cerró nueve meses con una ganancia de $8.133 millones, pero su negocio perdió $16.965 millones: la diferencia la puso el dólar",
