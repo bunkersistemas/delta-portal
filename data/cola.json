@@ -1,25 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-11-15T12:17:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-11-15-el-nino-campo-argentino-vecinos-china",
-      "titulo": "¿A quién le pegó más El Niño en la pelea por venderle a China: al campo argentino o al de los vecinos?",
-      "titulo_busqueda": "¿Cómo afectó El Niño al campo argentino y al de Brasil, Uruguay, Paraguay y Bolivia?",
-      "bajada": "Hubo cuatro Niños fuertes desde 1980, y las cuatro veces el campo argentino salió mejor parado que el brasileño. En el último, 2023/24, la Argentina cosechó 54% más soja, maíz y trigo que el año anterior, y Brasil, 9% menos. Pero en China casi no se notó: Brasil le siguió vendiendo siete de cada diez dólares de soja, y la Argentina apenas pasó de 2,1% a 3,9%.",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "+54%",
-      "numero_label": "cuánta más soja, maíz y trigo cosechó la Argentina en 2023/24, el último Niño fuerte, que en la campaña anterior",
-      "numero_fuente": "Secretaría de Agricultura, serie de estimaciones agrícolas e informe semanal 12/11/2026: soja+maíz+trigo 2022/23 79.010.260 t -> 2023/24 121.560.850 t (+53,9%); USDA PSD 74,55 -> 115,66 Mt (+55,1%). Brasil misma campaña: CONAB 301,6 -> 274,9 Mt (-8,8%), USDA -9,0%, FAO/IBGE -9,3%. China (Comtrade 156, valor 1201): Brasil 68,9% 2023 / 69,1% 2024; Argentina 2,1% / 3,9%",
-      "fecha": "2026-11-15",
-      "hora": "12:17",
-      "archivo": "cola/2026-11-15-el-nino-campo-argentino-vecinos-china.html",
-      "verificacion": "verificada",
-      "fuentes": 11,
-      "lectura": "30 seg → 9 min",
-      "pedido": 118,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }
