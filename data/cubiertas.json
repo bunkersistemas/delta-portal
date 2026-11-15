@@ -9027,6 +9027,20 @@
       "fecha": "2026-11-15",
       "estado": "descartada",
       "motivo_descarte": "repetidas, sin monto en el documento, o cupo de empresas ya cubierto hoy (razón escrita arriba)"
+    },
+    {
+      "tema": "¿subestima el INDEC la inflación con la canasta de 2004/05? (ámbito 15/11/2026, Kiguel: 'el Gobierno subestima la inflación'; IPC de octubre 2,2% del 12/11) / IPC nacional recalculado con los pesos de la ENGHo 2017-18 (cuadro 1 del informe de gastos): 12 meses a oct-26 34,2% vs 33,1% oficial (+1,1 pp); ene-oct 26 27,2% vs 26,3%; serie anual 2017-2025: la canasta vieja dio más inflación 2019-2023 (2023 -3,2 pp) y menos en 2024 (+5,7 pp), 2025 y 2026; dic-16 a oct-26 el nivel recalculado queda 0,8% arriba del oficial",
+      "angulo": "Corrida programada del 15/11/2026 20:30. Ángulo nuevo respecto de la nota del 01/09/2026 (precios relativos de las doce divisiones, que mostró los pesos viejos y nuevos y citó una estimación privada sin usarla): acá se recalcula el índice con la canasta 2017/18 para 2017-2026 y se encuentra el cambio de signo. Camino: dos cálculos independientes que coinciden (propio y UTDT, González-Rozada, 34,2 vs 34,3 i.a.), con control que reproduce el oficial con los pesos vigentes. Las diferencias anuales van como estimación (dependen del año base). No se cita a Kiguel ni a nadie de otro medio.",
+      "fecha": "2026-11-15",
+      "estado": "publicada",
+      "articulo_id": "2026-11-15-canasta-vieja-indec-inflacion-2017-18"
+    },
+    {
+      "tema": "descartes de la corrida programada del 15/11/2026 20:30. Candidatas: [EMPRESAS] Molinos compra Tía Maruca (HR y acta 2356, CNV 13/11): sin monto, igual que Ayudín; [EMPRESAS] Camuzzi Gas del Sur dividendo $77.275 M (acta 449, 11/11; el directorio lo atribuye a 'condiciones superavitarias' por la RQT): descartada porque hoy ya salieron dos notas de empresas, una de distribuidora de gas, y el molde dividendo se usó con Naturgy el 10/11; retomable con EEFF 30/09; [EMPRESAS] Valentín Bianchi reestructuración (en cola 12/11), Loma Negra 3T (publicada 06/11), TGS RIGI, Crédito Directo 9M (morosidad repetida); [portadas] petróleo supera a la soja (publicada 14/11), Manzano y De Narváez en Día (venta de Día en cola 05/11), 7 de cada 10 sin plata antes del 20 (encuesta privada, deuda familiar repetida), cierre de empresas SRT (publicada 27/09 y 09/10), apuestas online (publicada 08/10), hipotecarios con fondos de la ANSES (publicada 02/10 y 16/10), Caribe (en cola 14/11), textiles (publicada 02/10 y 09/10). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-15",
+      "estado": "descartada",
+      "motivo_descarte": "repetidas, sin monto en el documento, o cupo de empresas ya cubierto hoy (razón escrita arriba)"
     }
   ]
 }

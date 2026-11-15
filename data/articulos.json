@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-15T18:48:20-03:00",
+    "actualizado": "2026-11-15T20:48:19-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-15-canasta-vieja-indec-inflacion-2017-18",
+      "titulo": "La canasta vieja del INDEC le resta 1,1 puntos a la inflación de los últimos 12 meses; entre 2019 y 2023, en cambio, se los sumaba",
+      "bajada": "Una sospecha frecuente es que la canasta vieja del INDEC, la de 2004/05, sirve para mostrar menos inflación. Este año es así, pero por poco: rehicimos el índice con la canasta de 2017/18, la que el organismo preparó y no llegó a usar, y la inflación de los 12 meses a octubre de 2026 da 34,2% en lugar de 33,1%. Entre 2019 y 2023 pasó lo contrario. La canasta vieja agrandó la inflación, porque le da más peso a la comida, que en esos años subió más que el promedio.",
+      "titulo_busqueda": "¿Subestima el INDEC la inflación con la canasta de 2004?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "+1,1 puntos",
+      "numero_label": "lo que sumaría a la inflación de los 12 meses a octubre de 2026 medir el IPC con la canasta de gastos 2017/18 (34,2% contra 33,1%)",
+      "fecha": "2026-11-15",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-15-canasta-vieja-indec-inflacion-2017-18.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 8 min",
+      "numero_fuente": "Cálculo propio: 12 divisiones IPC nacional INDEC (datos.gob.ar, coinciden con informe ipc_11_269335F5BA6B cuadro acumulado) reponderadas con ENGHo 2017-18 informe de gastos cuadro 1 total país, Lowe base dic-16 (pesos deflactados por índice medio nov-17/nov-18): oct-25 a oct-26 34,22% vs oficial 33,13% (+1,09); ene-oct 26 27,20% vs 26,33%. Control con pesos 2004/05: 33,08% y 26,31% (dif <=0,1 pp cada año 2017-2025). Contraste UTDT González-Rozada, informe Inflación Actualizada oct-2026: 34,3% i.a., 27,5% ene-oct; nuestro cálculo con base 2025 da 27,5%. Serie anual dif: 2017 +1,2; 2018 +1,2; 2019 -0,7; 2020 -1,8; 2021 -1,4; 2022 -2,0; 2023 -3,2; 2024 +5,7 (UTDT +7,7); 2025 +0,7; signo igual en 3 variantes de método."
+    },
     {
       "id": "2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces",
       "titulo": "Brasil le compró a Bolivia 70% menos gas que en 2014, lo mínimo desde 2001, y la Argentina, que quiere ese mercado, le vendió 86 veces menos que Bolivia",
