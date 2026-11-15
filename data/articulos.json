@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-15T16:54:42-03:00",
+    "actualizado": "2026-11-15T18:48:20-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces",
+      "titulo": "Brasil le compró a Bolivia 70% menos gas que en 2014, lo mínimo desde 2001, y la Argentina, que quiere ese mercado, le vendió 86 veces menos que Bolivia",
+      "bajada": "Brasil le compra a Bolivia la menor cantidad de gas desde 2001, y la Argentina, que quiere llenar ese hueco con el gas de Vaca Muerta, recién arranca. Entre enero y octubre de 2026, según la aduana brasileña, llegaron de Bolivia por gasoducto 2,28 millones de toneladas: 69,9% menos que en los mismos meses de 2014. De la Argentina llegaron 26.620 toneladas: más que en los 17 años anteriores juntos, pero menos de la duodécima parte de lo que le vendía en 2002.",
+      "titulo_busqueda": "",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "−69,9%",
+      "numero_label": "caída del gas que Brasil le compró a Bolivia por gasoducto, enero-octubre de 2026 contra el mismo período de 2014",
+      "fecha": "2026-11-15",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "MDIC ComexStat, importaciones NCM 2711.21.00 origen Bolivia, ene-oct: 2026 2.278.802 t (US$711,8 M FOB) vs 2014 7.559.229 t (US$3.209,1 M); recalculado desde la base bruta IMP_2026.csv e IMP_2014.csv (= consulta API). Mínimo desde 2001 (2002: 3.393.114 t; 2001: 1.806.449 t con 9 meses). Contraste ANP: 2014 12.000 MMm3 (Anuario 2015), 2025 4.500 MMm3 (Anuario 2026), 2026 ene-jul 11 MMm3/d (Relatório Executivo set-2026): -66,5%; 2025 vs 2014 -62,5% (aduana -61,3%). Argentina ene-oct 2026 26.620 t (1,17% de Bolivia; 2002 365.144 t, INDEC 325.160 t). SE medidores Madrejones oct-26 35,34 MMm3"
+    },
     {
       "id": "2026-11-15-madera-aserrada-exportacion-record-desde-1961",
       "titulo": "La Argentina exportó 347.510 toneladas de madera aserrada en 2025, el récord desde 1961, cuando todavía la importaba",

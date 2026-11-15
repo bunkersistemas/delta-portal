@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 15 Nov 2026 16:54:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 18:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Brasil le compró a Bolivia 70% menos gas que en 2014, lo mínimo desde 2001, y la Argentina, que quiere ese mercado, le vendió 86 veces menos que Bolivia</title>
+      <link>https://coninteres.com/articulos/2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces.html</guid>
+      <pubDate>Sun, 15 Nov 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Brasil le compra a Bolivia la menor cantidad de gas desde 2001, y la Argentina, que quiere llenar ese hueco con el gas de Vaca Muerta, recién arranca. Entre enero y octubre de 2026, según la aduana brasileña, llegaron de Bolivia por gasoducto 2,28 millones de toneladas: 69,9% menos que en los mismos meses de 2014. De la Argentina llegaron 26.620 toneladas: más que en los 17 años anteriores juntos, pero menos de la duodécima parte de lo que le vendía en 2002.</description>
+      <ci:numero>−69,9%</ci:numero>
+      <ci:numeroEtiqueta>caída del gas que Brasil le compró a Bolivia por gasoducto, enero-octubre de 2026 contra el mismo período de 2014</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces.png" length="78113" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina exportó 347.510 toneladas de madera aserrada en 2025, el récord desde 1961, cuando todavía la importaba</title>
       <link>https://coninteres.com/articulos/2026-11-15-madera-aserrada-exportacion-record-desde-1961.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que la UBA recibió de enero a octubre de 2026 por la partida nacional para hospitales universitarios, el máximo desde 2017 descontada la inflación</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-hospitales-uba-fondos-nacion-2026.png" length="81217" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-hospitales-uba-fondos-nacion-2026.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Al Gobierno le quedan US$59 millones en el Banco Central para pagar US$4.523 millones a los bonistas el 9 de enero: a esta altura de 2025 tenía US$910 millones</title>
-      <link>https://coninteres.com/articulos/2026-11-13-tesoro-dolares-bcra-pago-enero.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-tesoro-dolares-bcra-pago-enero.html</guid>
-      <pubDate>Fri, 13 Nov 2026 06:00:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>A 65 días del pago de enero a los bonistas, la cuenta en dólares del Gobierno en el Banco Central cubre el 1,3% de lo que vence, contra 20,7% un año antes y 28,1% dos años antes. El 5 de noviembre quedó en US$59,3 millones, el día en que salieron unos US$880 millones para los intereses del FMI. En pesos, en cambio, tiene el equivalente a US$4.550 millones: con pesos compró al Banco Central los dólares que le faltaban en enero de 2026.</description>
-      <ci:numero>US$59 M</ci:numero>
-      <ci:numeroEtiqueta>depósitos en dólares del Gobierno en el Banco Central el 5 de noviembre de 2026, contra US$4.523 millones que vencen el 9 de enero</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-tesoro-dolares-bcra-pago-enero.png" length="88114" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-tesoro-dolares-bcra-pago-enero.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
