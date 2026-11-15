@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 15 Nov 2026 04:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 06:46:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En 2000 la Argentina tuvo la inflación más baja de América Latina y el Caribe; desde 2012 nunca salió de las cuatro más altas</title>
+      <link>https://coninteres.com/articulos/2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026.html</guid>
+      <pubDate>Sun, 15 Nov 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>La Argentina pasó de tener la inflación más baja de América Latina y el Caribe a no salir de las cuatro más altas. En 2000 sus precios bajaron 0,7%, y ningún otro país de la región terminó el año con un número menor. Desde 2012 no volvió a bajar del cuarto puesto, según las series del FMI y de la CEPAL. En 2023 y 2024 fue la primera. En 2025 y en septiembre de 2026, segunda: solo Venezuela estuvo arriba.</description>
+      <ci:numero>14 años</ci:numero>
+      <ci:numeroEtiqueta>seguidos, de 2012 a 2025, con la Argentina entre las cuatro inflaciones más altas de América Latina y el Caribe</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026.png" length="66324" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Brasil se abarató 11,7% para los argentinos en cinco semanas: frente al real, el peso está más caro que el promedio de todos los años desde 1997, salvo 2001</title>
       <link>https://coninteres.com/articulos/2026-11-15-brasil-mas-barato-real-cinco-semanas.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>gas exportado a Chile por GasAndes en septiembre de 2026 contra septiembre de 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-12-gasandes-35-anos-chile-gas-cae-42.png" length="72953" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-12-gasandes-35-anos-chile-gas-cae-42.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Ángel Estrada vendió 54% menos artículos de papelería que hace tres años, y la importación de cuadernos se multiplicó por 20,9</title>
-      <link>https://coninteres.com/articulos/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.html</guid>
-      <pubDate>Thu, 12 Nov 2026 19:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>En tres años, la fábrica riojana de cuadernos y repuestos Ángel Estrada pasó de vender 37,8 millones de unidades a 17,3 millones: 54,1% menos. En el mismo lapso, la Argentina pasó de importar 324 toneladas de cuadernos por año a 6.763, casi todo de China y Brasil, según el INDEC. En su ejercicio terminado en junio de 2026, la empresa facturó 33,6% menos descontada la inflación, perdió $4.819 millones y anotó $4.981 millones de costo por capacidad ociosa.</description>
-      <ci:numero>−54,1%</ci:numero>
-      <ci:numeroEtiqueta>unidades de papelería que vendió Ángel Estrada en el ejercicio julio 2025-junio 2026 contra el de julio 2022-junio 2023</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.png" length="69316" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-12-angel-estrada-vende-54-menos-importacion-cuadernos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

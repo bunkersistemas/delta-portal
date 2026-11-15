@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-15T04:48:40-03:00",
+    "actualizado": "2026-11-15T06:46:39-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026",
+      "titulo": "En 2000 la Argentina tuvo la inflación más baja de América Latina y el Caribe; desde 2012 nunca salió de las cuatro más altas",
+      "bajada": "La Argentina pasó de tener la inflación más baja de América Latina y el Caribe a no salir de las cuatro más altas. En 2000 sus precios bajaron 0,7%, y ningún otro país de la región terminó el año con un número menor. Desde 2012 no volvió a bajar del cuarto puesto, según las series del FMI y de la CEPAL. En 2023 y 2024 fue la primera. En 2025 y en septiembre de 2026, segunda: solo Venezuela estuvo arriba.",
+      "titulo_busqueda": "¿Qué país tiene la inflación más alta de América Latina?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "14 años",
+      "numero_label": "seguidos, de 2012 a 2025, con la Argentina entre las cuatro inflaciones más altas de América Latina y el Caribe",
+      "fecha": "2026-11-15",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "FMI WEO oct-2026 PCPIEPCH, 33 países LAC: puesto ARG 2012-2025 = 2,2,2,s/d,s/d,2,2,2,3,3,2,1,1,3 (arriba: VEN; SUR 2020-21; HTI 2025 31,9 vs 31,5). CEPALSTAT indicador 365, dic/dic recalculado, 38-39 países: 2,2,2,2,3,2,2,2,3,4,2,1,1,2 (arriba: VEN; SUR 2016, 2020-21; CUB 2021 77,33%). 2015-16 contraste IPCBA 26,9% y 41,0%. 2000: ARG -0,7%, 33/33 FMI y 26/26 CEPAL. Sep-26: INDEC 33,4% i.a., 2.º de 21 con dato en CEPAL (VEN 465,6; CUB 28,4)."
+    },
     {
       "id": "2026-11-15-brasil-mas-barato-real-cinco-semanas",
       "titulo": "Brasil se abarató 11,7% para los argentinos en cinco semanas: frente al real, el peso está más caro que el promedio de todos los años desde 1997, salvo 2001",
