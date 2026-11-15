@@ -8909,6 +8909,22 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas o sin cifra ancla: pasó la primera candidata"
+    },
+    {
+      "tema": "EMPRESAS: ¿quién compró Rosenbusch y cuánto pagó? (balance al 30/09/2026 presentado ante la CNV el 13/11/2026, bloque EMPRESAS de agenda.py, retomada de las corridas del 14/11 que la dejaron 'no probada') / Agro 2000 compró el 80,16% (34.139.555 acciones) por US$6.094.000: US$194.000 al contado y el resto en cuotas hasta 2043 al 7%, garantizado solo con las acciones; VP US$0,07/acción; OPA a minoritarios US$0,1785 en cuotas o US$0,08 contado; revalúo técnico $12.328 M (US$8,31 M) y condonaciones de $808,5 M y $1.941,2 M: PN de -$4.604 M a +$6.056 M; costo $116,7 por cada $100 vendido en 9M26; dosis peste porcina 1.918.280 (9M24) -> 708.300 (9M26), aborto bovino 0",
+      "angulo": "Corrida de redacción del 14/11/2026 22:30. HALLAZGO propio: nadie contó las condiciones de la compra del control (pago inicial 3,2% del precio, sin recurso) ni que la mejora del patrimonio viene 92% del revalúo mientras el negocio vende por debajo del costo. Cruce de documentos presentados ante la CNV: anuncio de OPA, anuncio complementario, informe de valuación, HR de abril, mayo y septiembre, EEFF y reseña al 30/09/2026 (escaneados, leídos por imagen); BCRA A3500. Camino: documentos de la empresa y del oferente, consistentes entre sí (aritmética por acción, puente del patrimonio).",
+      "fecha": "2026-11-14",
+      "estado": "publicada",
+      "articulo_id": "2026-11-14-rosenbusch-agro-2000-control-cuotas-revaluo",
+      "archivo": "cola/2026-11-14-rosenbusch-agro-2000-control-cuotas-revaluo.html"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 14/11/2026 22:30. Seis portadas con WebFetch (infobae, La Nación, ámbito, iProfesional, Cronista, Página12); Clarín y TN con _privado/rastreo/portadas.py. Hoy ya salieron 10 notas (EMPRESAS Arcor y Ribeiro: cupo cumplido). Lista: (1) HALLAZGO, EMPRESAS: Rosenbusch, compra del control en cuotas + revalúo + venta bajo costo [CNV] -> APTA. (2) EMPRESAS Molinos compra Tía Maruca [infobae, La Nación, Clarín]: HR y acta 2356 sin precio. (3) EMPRESAS TGS RIGI [iProfesional, CNV]: publicada 13/11. (4) Manantial Espejo vendida a Cerrado por US$20 M [Clarín]: publicada 13/11. (5) Manzano compra Burger King y entra en Dia [infobae, La Nación, Clarín]: sin documento primario. (6) Fundar: Argentina más barata en dólares que la región [La Nación]: índice privado, sin segunda fuente. (7) oro del BCRA resta US$1.800 M [infobae]: cubierto 14/10. (8) capacidad instalada 60,1% [ámbito, iProfesional, Cronista, Página12, TN]: cubierta. (9) empresas cerradas y empleo SIPA [infobae, La Nación, ámbito, Clarín, TN]: cubiertas 27/09, 09/10, 13/11. (10) hogares inquilinos [ámbito, Página12]: publicada 18/10. (11) Etapa IV de rutas, 27 tramos [Cronista, Clarín, TN]: sin tarifas en documento. (12) Boca a la final de la Copa Argentina [Clarín, TN]: premios cubiertos 27/09. Retomables: canje de la LeLink D30N6 (serie de canjes 2026), flete de granos laudado por PBA, Camuzzi dividendo (mismo molde que Naturgy BAN).",
+      "angulo": "Registro de candidatas para que la próxima corrida siga desde acá.",
+      "fecha": "2026-11-14",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no elegidas: pasó la primera candidata (Rosenbusch, compra del control en cuotas y revalúo)"
     }
   ]
 }

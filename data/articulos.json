@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-14T20:47:41-03:00",
+    "actualizado": "2026-11-14T22:45:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-14-rosenbusch-agro-2000-control-cuotas-revaluo",
+      "titulo": "Agro 2000 se quedó con el 80% de Rosenbusch, el laboratorio de vacunas veterinarias, pagando US$194.000 al contado: el resto, en cuotas hasta 2043",
+      "bajada": "El precio fue de US$6,09 millones, pero el 96,8% se paga en cuotas anuales hasta 2043 y la única garantía son las mismas acciones. Después de la compra, los libros de la empresa se dieron vuelta sin que el negocio dejara de perder: el patrimonio pasó de −$4.604 millones a +$6.056 millones porque un revalúo técnico sumó $12.328 millones al valor de la planta y el nuevo dueño le perdonó deudas. Mientras tanto, por cada $100 que facturó en nueve meses, gastó $116,7 en producir.",
+      "titulo_busqueda": "Rosenbusch: quién la compró, a qué precio y cómo le fue en 2026",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$194.000",
+      "numero_label": "pago al contado de Agro 2000 por el 80,16% de Instituto Rosenbusch en febrero de 2026, sobre un precio de US$6,09 millones en cuotas hasta 2043",
+      "fecha": "2026-11-14",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-14-rosenbusch-agro-2000-control-cuotas-revaluo.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Anuncio OPA obligatoria Agro 2000 (CNV publicview 7f4d6849, 10/03/2026, adjunto 6013a238 p.4): 34.139.555 acciones (80,16%) por US$6.094.000; 'primer pago de USD 194.000 y el resto en cuotas anuales ... hasta el año 2043, tasa promedio 7%'; garantía única fideicomiso sobre las acciones, sin derecho a perseguir saldo; VP US$0,07/acción. Control: anuncio complementario 14/04/2026 (963ae72d, adjunto cdeaa2ce) pago inicial US$0,00568256/acción = 194.000/34.139.555; opción financiada US$0,1785 = 6.094.000/34.139.555; contado US$0,08; 34.139.555 + 8.449.910 = 42.589.465 acciones del capital. Informe Lisicki Litvin & Abelovich 04/08/2026 (b7bba502): VP opción financiada US$0,0802-0,1227. Revalúo HR 11/09/2026 (aa48d1d5): $12.328.258.993 a moneda 30/06/2026 / A3500 30/06/2026 1.483,0198 = US$8,31 M. EEFF consolidados 30/09/2026 (65bf571b, PDF pp.8-10): ventas 6.218.917.153 vs 5.698.541.553; costo 7.255.341.048 vs 6.886.533.214 (formulario de datos CNV dice 7.047.595.523: se usa el auditado); PN atribuible -4.604.286.625 -> 6.055.810.308 (908,6 + 1.941,2 condonaciones; 9.783,9 revalúo neto; -718,8 conversión; -1.254,8 resultado); pasivo 19.040.295.478 / A3500 30/09/2026 1.517,5209 = US$12,55 M. Reseña informativa (dd88ccee, escaneada) punto 4 dosis ene-sep 2022-2026."
+    },
     {
       "id": "2026-11-14-ribeiro-concurso-deuda-dolares-inflacion",
       "titulo": "Ribeiro debía el equivalente a US$68,6 millones antes de entrar en concurso; en 2024 su pasivo valía US$13,1 millones aunque en pesos había crecido 82%",
