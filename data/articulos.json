@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T10:11:26-03:00",
+    "actualizado": "2026-11-16T10:51:38-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-belgrano-cargas-record-2022-piedra-para-vias",
+      "titulo": "En 2022, el año récord del Belgrano Cargas, una de cada cinco toneladas fue piedra para vías: sin ella, la carga cayó 8,6%",
+      "bajada": "El Gobierno anunció 2022 como \"otro año récord\" para los trenes de Belgrano Cargas y Logística: 8,42 millones de toneladas, la cifra más alta de las tres líneas desde 1995. El total es cierto. Pero 1,63 millones de esas toneladas, el 19,4%, eran material de vía, casi todo piedra balasto, según la estadística de la CNRT, y sin ese material la carga bajó 8,6% contra 2021. Es la empresa que el Estado está por concesionar.",
+      "titulo_busqueda": "Belgrano Cargas: qué carga lleva la empresa que se privatiza",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "19,4%",
+      "numero_label": "parte de la carga de las líneas Belgrano, San Martín y Urquiza en 2022 que fue material de vía, casi todo piedra balasto",
+      "fecha": "2026-11-16",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-16-belgrano-cargas-record-2022-piedra-para-vias.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "CNRT ffcc_cargas_2026_ton_tonkm_e_ing_2026_sep2026.xlsx hoja BASE (329.101 filas): BCyL L.BEL+L.SM+L.URQ 2022 Toneladas 8.418.356; rubro Material de Via 1.631.779 (balasto 1.624.010, rieles 3.993, durmientes 3.776) = 19,38%. Sin via 2021 7.424.016 -> 2022 6.786.577 = -8,6%; total +0,9%. Control informe anual CNRT 2023: BEL 2.754.165 / SM 3.916.639 / URQ 486.732 y via 8,7 / 23,3 / 50,5% identicos; comunicado ago-2018 identico (427.218). Contraste memoria BCyL 2022 (balance 31/12/2022 en argentina.gob.ar): >8.400.000 t, +57% vs 2019 (CNRT 57,4), lineas +61/+55/+60 (61,4/55,0/60,2), agricolas 56% (56,0), 'despachos de piedra'. Comunicado 18/01/2023 8.418.271 t."
+    },
     {
       "id": "2026-11-16-papel-prensa-clarin-la-nacion-4-9-por-ciento-embalaje",
       "titulo": "El 4,9% del papel que vendió Papel Prensa en 2026 fue para Clarín y La Nación: en 2017 se llevaban un tercio",

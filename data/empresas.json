@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-16T09:51",
+  "generado": "2026-11-16T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593282",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T10:09",
+      "entidad": "NEWSAN S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE POR ADQUISICIÓN DE VEH ARGENTINA S.A. Y VEH MFG ARGENTINA S.A.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/20BB228E-4D8B-4A38-B68D-19573D4576E8"
+    },
     {
       "id": "cnv-3593248",
       "fuente": "CNV",
