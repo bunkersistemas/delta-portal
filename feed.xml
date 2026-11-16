@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 07:29:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 10:11:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El 4,9% del papel que vendió Papel Prensa en 2026 fue para Clarín y La Nación: en 2017 se llevaban un tercio</title>
+      <link>https://coninteres.com/articulos/2026-11-16-papel-prensa-clarin-la-nacion-4-9-por-ciento-embalaje.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-16-papel-prensa-clarin-la-nacion-4-9-por-ciento-embalaje.html</guid>
+      <pubDate>Mon, 16 Nov 2026 11:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Entre enero y septiembre de 2026, Papel Prensa vendió 108.732 toneladas de papel. AGEA, la editora de Clarín, y La Nación se llevaron 5.355: el 4,9%. En 2017 se habían llevado un tercio. La fábrica que en 1999 facturaba 156.547 toneladas de papel para diarios hoy factura 78% en papel de embalaje. Y las importaciones de papel para diarios cayeron casi lo mismo que las compras de los dos diarios: no cambiaron de proveedor, imprimen menos.</description>
+      <ci:numero>4,9%</ci:numero>
+      <ci:numeroEtiqueta>parte del papel que vendió Papel Prensa entre enero y septiembre de 2026 que compraron AGEA (Clarín) y La Nación</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-papel-prensa-clarin-la-nacion-4-9-por-ciento-embalaje.png" length="70201" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-papel-prensa-clarin-la-nacion-4-9-por-ciento-embalaje.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Desde el martes, comprar una empresa grande exige permiso previo: desde julio, la Autoridad de la Competencia tardó una mediana de 45 días en darlo</title>
       <link>https://coninteres.com/articulos/2026-11-16-fusiones-permiso-previo-45-dias-competencia.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que subió el precio de la plata entre 2022, último año completo de Manantial Espejo, y enero-septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-manantial-espejo-pan-american-cerrado-plata.png" length="75937" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-manantial-espejo-pan-american-cerrado-plata.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>TGS entró al RIGI con US$3.244 millones para exportar los líquidos del gas de Vaca Muerta: calcula ventas por US$1.200 millones al año</title>
-      <link>https://coninteres.com/articulos/2026-11-13-tgs-rigi-liquidos-gas-licuado-exportaciones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-tgs-rigi-liquidos-gas-licuado-exportaciones.html</guid>
-      <pubDate>Fri, 13 Nov 2026 19:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>TGS calcula que su proyecto de líquidos del gas va a exportar unos US$1.200 millones por año desde 2030: más, en dólares, que todo el propano y butano que vendió la Argentina en 2025, aunque suma un producto más. Ese año el país exportó 1,65 millones de toneladas por US$719 millones, la mayor cantidad desde 2006. El Boletín Oficial publicó hoy las dos resoluciones que aprueban la planta en Tratayén y el poliducto de 577 kilómetros hasta Bahía Blanca.</description>
-      <ci:numero>US$3.244 M</ci:numero>
-      <ci:numeroEtiqueta>inversión en activos computables de los dos proyectos de líquidos del gas de TGS aprobados en el RIGI</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-tgs-rigi-liquidos-gas-licuado-exportaciones.png" length="77324" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-tgs-rigi-liquidos-gas-licuado-exportaciones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

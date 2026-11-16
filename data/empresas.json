@@ -1,11 +1,30 @@
 {
-  "generado": "2026-11-16T06:30",
+  "generado": "2026-11-16T09:51",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593248",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T09:14",
+      "entidad": "PAPEL PRENSA S.A",
+      "tipo": "balance",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ANXO II - ESTADOS FINANCIEROS CONDENSADOS AL 30-09-2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/DCA5A9EB-97AA-4CE0-A80E-6749A261E112"
+    },
+    {
+      "id": "sec-0001104659-26-127265",
+      "fuente": "SEC",
+      "fecha": "2026-11-16",
+      "entidad": "Telecom Argentina",
+      "ticker": "TEO",
+      "tipo": "balance",
+      "descripcion": "6-K Unaudited condensed consolidated financial statements as of September 30, 2026 2. Operating and financial review and prospects as of September 30, 2026 TELECOM ARGENTINA S.A. Una",
+      "url": "https://www.sec.gov/Archives/edgar/data/932470/000110465926127265/tm2629648d2_6k.htm"
+    },
     {
       "id": "cnv-3593197",
       "fuente": "CNV",
@@ -1495,6 +1514,8 @@
     "sec-0001104659-26-126275": "2026-11-12",
     "sec-0001104659-26-126774": "2026-11-13",
     "sec-0001104659-26-127176": "2026-11-13",
+    "sec-0001104659-26-127298": "2026-11-16",
+    "sec-0001104659-26-127621": "2026-11-16",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
@@ -1503,6 +1524,7 @@
     "sec-0001193125-26-455705": "2026-11-10",
     "sec-0001193125-26-456852": "2026-11-12",
     "sec-0001193125-26-459244": "2026-11-13",
+    "sec-0001193125-26-461971": "2026-11-16",
     "sec-0001292814-26-004952": "2026-10-19",
     "sec-0001292814-26-004958": "2026-10-20",
     "sec-0001292814-26-004966": "2026-10-21",

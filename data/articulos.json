@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T07:29:23-03:00",
+    "actualizado": "2026-11-16T10:11:26-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-papel-prensa-clarin-la-nacion-4-9-por-ciento-embalaje",
+      "titulo": "El 4,9% del papel que vendió Papel Prensa en 2026 fue para Clarín y La Nación: en 2017 se llevaban un tercio",
+      "bajada": "Entre enero y septiembre de 2026, Papel Prensa vendió 108.732 toneladas de papel. AGEA, la editora de Clarín, y La Nación se llevaron 5.355: el 4,9%. En 2017 se habían llevado un tercio. La fábrica que en 1999 facturaba 156.547 toneladas de papel para diarios hoy factura 78% en papel de embalaje. Y las importaciones de papel para diarios cayeron casi lo mismo que las compras de los dos diarios: no cambiaron de proveedor, imprimen menos.",
+      "titulo_busqueda": "Qué vende hoy Papel Prensa y cuánto papel le compran Clarín y La Nación",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "4,9%",
+      "numero_label": "parte del papel que vendió Papel Prensa entre enero y septiembre de 2026 que compraron AGEA (Clarín) y La Nación",
+      "fecha": "2026-11-16",
+      "hora": "11:00",
+      "archivo": "articulos/2026-11-16-papel-prensa-clarin-la-nacion-4-9-por-ciento-embalaje.html",
+      "verificacion": "verificada",
+      "fuentes": 20,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "EEFF Papel Prensa 30/09/2026 (CNV 38f214f9, Brea Solans): nota 16 ventas en Tn AGEA 3.247 (9M25 4.888) y S.A. La Nacion 2.108 (2.280); resena: total vendido 108.732 t (local 93.547 + externo 15.186). 5.355/108.732 = 4,92%. 9M25 cifras identicas en EEFF 30/09/2025 (0e965491). Serie anual nota partes relacionadas EEFF 2018-2023, cada comparativo coincide; 2017 AGEA 28.413 + LN 12.471 = 40.884 / 125.136 (resena 2020) = 32,7%. Segmentos nota 3: impresion 22.877.797 / 104.079.768 = 22,0% (2017 diarios 76,6%, EEFF 2018). En pesos AGEA+LN 3.970.604 = 3,8% de ventas (9M25 7,4%). Contraste INDEC impo NCM 4801: 2017 33.823 t, 2023 9.873, 2025 3.426 (-89,9%), 9M26 2.491. 1999: memoria (f218d08d) produccion 158.049 t papel para diarios, facturacion 156.547 t. Descartado LN 9M18 10.170 (igual al anual, posible error del EEFF 9M19)."
+    },
     {
       "id": "2026-11-16-fusiones-permiso-previo-45-dias-competencia",
       "titulo": "Desde el martes, comprar una empresa grande exige permiso previo: desde julio, la Autoridad de la Competencia tardó una mediana de 45 días en darlo",
