@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 05:06:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 07:29:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Desde el martes, comprar una empresa grande exige permiso previo: desde julio, la Autoridad de la Competencia tardó una mediana de 45 días en darlo</title>
+      <link>https://coninteres.com/articulos/2026-11-16-fusiones-permiso-previo-45-dias-competencia.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-16-fusiones-permiso-previo-45-dias-competencia.html</guid>
+      <pubDate>Mon, 16 Nov 2026 09:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Hasta este lunes, una compra de empresas podía cerrarse primero y avisarse al Estado después. Desde el martes 17 de noviembre, si el volumen de negocios conjunto en el país supera los $145.005 millones, la operación no puede cerrarse sin el permiso de la Autoridad Nacional de la Competencia. Leímos las 82 autorizaciones de 2026: las firmadas desde julio llegaron una mediana de 45 días después de la notificación; las del primer trimestre, 225,5.</description>
+      <ci:numero>45 días</ci:numero>
+      <ci:numeroEtiqueta>mediana entre la notificación y la autorización de las 31 compras y fusiones que autorizó la Autoridad de la Competencia de julio a noviembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-fusiones-permiso-previo-45-dias-competencia.png" length="72943" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-fusiones-permiso-previo-45-dias-competencia.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Camuzzi Gas del Sur repartió $127.826 millones en dividendos en once meses, los primeros desde 2018: salen de lo que ganó en 2024, el año del salto de tarifas</title>
       <link>https://coninteres.com/articulos/2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>inversión en activos computables de los dos proyectos de líquidos del gas de TGS aprobados en el RIGI</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-tgs-rigi-liquidos-gas-licuado-exportaciones.png" length="77324" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-tgs-rigi-liquidos-gas-licuado-exportaciones.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El sueldo estatal le ganó 1,9% a la inflación en 2026, pero más de la mitad la pusieron las universidades: sin ellas, menos de un punto</title>
-      <link>https://coninteres.com/articulos/2026-11-13-sueldo-estatal-universidades-inflacion-2026.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-sueldo-estatal-universidades-inflacion-2026.html</guid>
-      <pubDate>Fri, 13 Nov 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El índice de salarios de septiembre dice que el sueldo del sector público subió 26,0% en el año, contra una inflación de 23,6%; el privado en blanco, 22,7%. Pero ni el Estado nacional (24,6%) ni las provincias (24,8%) llegan a ese promedio. Lo que falta sale de la única otra parte del índice: las universidades nacionales, cuyos sueldos básicos subieron 37,8% entre diciembre y septiembre por el acuerdo de junio.</description>
-      <ci:numero>+1,9%</ci:numero>
-      <ci:numeroEtiqueta>le ganó a la inflación el sueldo del sector público de diciembre de 2025 a septiembre de 2026; sin universidades, menos de un punto</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-sueldo-estatal-universidades-inflacion-2026.png" length="66498" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-sueldo-estatal-universidades-inflacion-2026.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

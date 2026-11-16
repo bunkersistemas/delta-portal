@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T05:06:10-03:00",
+    "actualizado": "2026-11-16T07:29:23-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-fusiones-permiso-previo-45-dias-competencia",
+      "titulo": "Desde el martes, comprar una empresa grande exige permiso previo: desde julio, la Autoridad de la Competencia tardó una mediana de 45 días en darlo",
+      "bajada": "Hasta este lunes, una compra de empresas podía cerrarse primero y avisarse al Estado después. Desde el martes 17 de noviembre, si el volumen de negocios conjunto en el país supera los $145.005 millones, la operación no puede cerrarse sin el permiso de la Autoridad Nacional de la Competencia. Leímos las 82 autorizaciones de 2026: las firmadas desde julio llegaron una mediana de 45 días después de la notificación; las del primer trimestre, 225,5.",
+      "titulo_busqueda": "Cuánto tarda la Autoridad de la Competencia en autorizar una fusión",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "45 días",
+      "numero_label": "mediana entre la notificación y la autorización de las 31 compras y fusiones que autorizó la Autoridad de la Competencia de julio a noviembre de 2026",
+      "fecha": "2026-11-16",
+      "hora": "09:30",
+      "archivo": "articulos/2026-11-16-fusiones-permiso-previo-45-dias-competencia.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Calculo propio: 95 resoluciones CONC fechadas 2026 en cndc.produccion.gob.ar/buscador (hasta 06/11); 3 PDF sin bajar (2032, 2044, 2061), excluida 848 (Ley 25.156, acumula 929/1169); 91 leidas: 81 autorizan, 1 subordina (Telecom CONC 2025, 469 d), 6 no sujetas, 1 multa Wade (1780), 2 rectificaciones (2040, 2141). Fecha de notificacion = 'presentacion de fecha' del VISTO o 'fue iniciado el'; correcciones a mano 1979 (05/06/2024), 2000, 2019, 2117. Jul-06/11: 31 autorizaciones, mediana 45 (3T 44,5 n20; 4T 45 n11); sumario 22 med 35,5; ordinario 9 med 182; 19 de 31 <= 62 d. 1T-26 n24 med 225,5; 2T-26 n27 med 195. Contraste: mismo metodo 2024, 24 autorizaciones con fecha, promedio 417 d = 1,14 anios vs Memoria CNDC 2024 tabla 3: 1,18 anios (92 resueltas). Umbral: art. 9 Ley 27.442 x UM $1.450,05 (Res. TDC 6/2026, BO 16/01/2026) = $145.005 M, igual al texto de CONC 2101. Scripts _privado/r1116_scripts/."
+    },
     {
       "id": "2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018",
       "titulo": "Camuzzi Gas del Sur repartió $127.826 millones en dividendos en once meses, los primeros desde 2018: salen de lo que ganó en 2024, el año del salto de tarifas",
