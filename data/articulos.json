@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T14:51:46-03:00",
+    "actualizado": "2026-11-16T17:03:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-diciembre-deficit-primario-diez-anos-meta-fmi",
+      "titulo": "Diciembre cerró con déficit primario en cada uno de los últimos diez años: en 2025, noviembre y diciembre le sacaron 6% al superávit que había a octubre",
+      "bajada": "El Gobierno llegó a octubre con un superávit primario de $15,6 billones, «aproximadamente 1,4% del PIB», según Economía: la misma proporción que la meta del programa con el FMI. Faltan noviembre y diciembre, y en la serie mensual de Hacienda, que empieza en 2016, diciembre terminó siempre en rojo. En 2025 los dos últimos meses bajaron el superávit de 1,47% a 1,38% del PIB. Si este año repitieran lo de 2025, el año cerraría cerca de 1,3%.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "6,0%",
+      "numero_label": "del superávit primario acumulado a octubre de 2025 que se perdió en noviembre y diciembre",
+      "fecha": "2026-11-16",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-16-diciembre-deficit-primario-diez-anos-meta-fmi.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "Hacienda: dic-2025 ingresos 12.068.871 - gasto primario 14.945.320 = -2.876.449,6 (planilla dic-25, comunicado node/489944: anual 2025 primario 11.769.219 ~1,4% PIB). IMIG csv datos.gob.ar 2016-01 a 2026-09: ene-oct 2025 12.517.659 (= planilla oct-26 columna 2025), nov-25 +2.128.009, dic-25 -2.876.450, nov+dic -748.440 = -5,98% de ene-oct. Diciembre negativo 2016-2025 (10/10); nov+dic negativo 9/10 (2024 +80.500). Ene-oct 2026: 13.705.324 (csv ene-sep) + 1.931.156,3 (oct) = 15.636.480 (= planilla oct-26 y AIF acumulado). PFE 15.204.155,7 = 15.636.480 - 1.039.903,3 hidro + 607.579 CSJN 1864/22. PIB INDEC cuadro 8 promedio trimestral: 2024 584.377.011 (1,767% -> 1,781%), 2025 850.239.798 (1,472% -> 1,384%). Real (IPC nacional, base oct-26): dic 2017-2023 entre -4,98 y -12,25 bn; 2024 -2,16; 2025 -3,63; ene-oct 2026 vs 2025 -6,9% (= IARAF en Cronista). Escenarios: nov+dic 2025 real -868.988 -> 14.767.492 (x0,9444; 1,27-1,37% con base 1,35-1,45); 2024 real +195.857 -> 15.832.337 (1,37-1,47%). Contraste: OPC APN devengado dic-2025 primario -4,1 billones. Meta FMI 1,4% PIB (~16,3 billones) atribuida a El Cronista 16/11/2026; imf.org pr26342 da 404."
+    },
     {
       "id": "2026-11-16-autos-sin-seguro-uno-de-cada-cuatro",
       "titulo": "Uno de cada cuatro autos, camionetas y camiones no tiene seguro: en dos años la flota sumó 484.634 vehículos y los asegurados, 44.685",
