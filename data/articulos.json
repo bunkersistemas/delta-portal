@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-15T20:48:19-03:00",
+    "actualizado": "2026-11-15T22:51:07-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-15-hogares-venden-pertenencias-piden-prestado-primer-semestre",
+      "titulo": "27,7% de los hogares tuvo que pedir prestado para vivir en el primer semestre y 11,5% vendió cosas, casi el doble que en 2017",
+      "bajada": "El Presidente preguntó cómo hace para vivir diez días quien se queda sin plata el día 20. Una estadística del propio Estado responde: en el primer semestre de 2026, la mitad de los hogares urbanos cubrió parte de sus gastos con ahorros, préstamos o vendiendo cosas. Según la Encuesta Permanente de Hogares del INDEC, el 27,7% pidió prestado, el 37,6% gastó ahorros y el 11,5%, 1,18 millones de hogares, vendió pertenencias. En 2017 los que vendían eran 5,9%.",
+      "titulo_busqueda": "¿Cómo viven los hogares a los que no les alcanza? Préstamos, ahorros y venta de pertenencias, según el INDEC",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "27,7%",
+      "numero_label": "hogares urbanos que tuvieron que pedir prestado a bancos, financieras, familiares o amigos para vivir, primer semestre de 2026",
+      "fecha": "2026-11-15",
+      "hora": "23:30",
+      "archivo": "articulos/2026-11-15-hogares-venden-pertenencias-piden-prestado-primer-semestre.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "EPH-INDEC, bases usuarias 1T y 2T-2026, V14 o V15 = 1, PONDIH, promedio de los dos trimestres: 27,68% +-1,29 (2.834.105 de 10.240.230 hogares). Método reproduce al decimal el dosier INDEC nov-2025 cuadro 1 para 1S-2025 (algún préstamo 25,5; ahorros 37,4; familiares 16,1; bancos 14,2; cuotas 50,9; vender 9,3). Máximo previo desde 2017: 27,59 en 2S-2025. Contraste independiente: UCA-ODSA EDSA 3T-2025 27,4% (Salvia y González, sep-2026) contra EPH 3T-2025 26,83%. Apoyo: vender pertenencias 11,50% +-0,92 (1.177.214; 1S-2025 9,33 = dosier 9,3; 1S-2017 5,87; 2S-2024 10,50; INDEC 2S-2003 9,7, 28 aglomerados); ahorros, préstamos o venta 50,31% (1S-2017 37,53)."
+    },
     {
       "id": "2026-11-15-canasta-vieja-indec-inflacion-2017-18",
       "titulo": "La canasta vieja del INDEC le resta 1,1 puntos a la inflación de los últimos 12 meses; entre 2019 y 2023, en cambio, se los sumaba",
