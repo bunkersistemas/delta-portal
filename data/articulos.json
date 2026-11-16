@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T19:04:32-03:00",
+    "actualizado": "2026-11-16T20:42:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-los-grobo-alquila-plantas-acopio-amaggi",
+      "titulo": "Los Grobo perdió plata con sus plantas de acopio dos años seguidos: desde enero se las alquila a Amaggi por US$4,8 millones fijos al año",
+      "bajada": "Según sus propios balances, Los Grobo Agropecuaria perdió plata con el acopio en los dos últimos ejercicios: unos US$5,1 millones y unos US$2,7 millones. Ahora, en concurso preventivo desde febrero de 2025, no vende esas plantas: se las alquila a Amaggi Argentina. Le da en locación sus 8 plantas de acopio y le cede los contratos de otras 7 por dos años, a cambio de US$398.326 por mes más IVA, más una parte variable. El acuerdo todavía necesita la autorización del juez del concurso.",
+      "titulo_busqueda": "Qué le alquila Los Grobo a Amaggi y por cuánto",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "US$4,8 M",
+      "numero_label": "alquiler fijo por año que Amaggi pagará a Los Grobo por 15 plantas de acopio en 2027 y 2028, sin IVA ni la parte variable",
+      "fecha": "2026-11-16",
+      "hora": "21:30",
+      "archivo": "articulos/2026-11-16-los-grobo-alquila-plantas-acopio-amaggi.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Hecho relevante Los Grobo Agropecuaria CNV 11/11/2026 (publicado 16/11): canon fijo mensual USD 398.326 + IVA, 24 meses desde 01/01/2027 -> 4.779.912/año. Contraste: EEFF 30/06/2026 nota 8 segmento acopio -3.832.608 miles $ (FY26) y -5.310.365 (FY25) = -US$2,74 M y -5,13 M al A3500 promedio (1.397,99 y 1.034,42); memoria FY26 cuadro USD (ventas 131.080 vs 423.453; EBITDA -1.590 vs -22.365); pasivo 30/09/2026 $351.337.699 miles = US$231,5 M al A3500 1.517,52."
+    },
     {
       "id": "2026-11-16-argentina-lng-40000-puestos-empleo-neuquen",
       "titulo": "YPF calcula hasta 40.000 puestos en el pico de obra de Argentina LNG: dos tercios de todo el empleo privado registrado que sumó Neuquén en 13 años",

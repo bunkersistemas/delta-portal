@@ -1,11 +1,29 @@
 {
-  "generado": "2026-11-16T18:30",
+  "generado": "2026-11-16T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593762",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T19:46",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - NOTA CNV - BYMA - HECHO RELEVANTE - ACTIVIDAD DE LIQUIDACION 11-11-26",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/CDFF73AD-B62D-4912-9FB0-AAB577A44722"
+    },
+    {
+      "id": "cnv-3593746",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T18:33",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICIÓN DE ACCIONES PROPIAS EN LOS TÉRMINOS DEL ARTÍCULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE LA CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1470ADB8-8263-4478-9496-F9368C2C01F0"
+    },
     {
       "id": "cnv-3593727",
       "fuente": "CNV",
@@ -1579,6 +1597,7 @@
     "sec-0001104659-26-127176": "2026-11-13",
     "sec-0001104659-26-127298": "2026-11-16",
     "sec-0001104659-26-127621": "2026-11-16",
+    "sec-0001104659-26-128487": "2026-11-16",
     "sec-0001114700-26-000085": "2026-11-16",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
