@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-16T12:30",
+  "generado": "2026-11-16T14:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593478",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T13:20",
+      "entidad": "LOS GROBO AGROPECUARIA S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHOS O SITUACIONES QUE AFECTEN LA ACTIVIDAD DE LA ENTIDAD - ACUERDO MARCO DE COOPERACIÓN COMERCIAL 2027 Y 2028 CON AMAGGI ARGENTINA S.A.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/78772FF5-806C-4EDE-A3C0-CE62AD0C538A"
+    },
     {
       "id": "cnv-3593282",
       "fuente": "CNV",

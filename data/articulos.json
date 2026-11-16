@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T13:01:56-03:00",
+    "actualizado": "2026-11-16T14:51:46-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-autos-sin-seguro-uno-de-cada-cuatro",
+      "titulo": "Uno de cada cuatro autos, camionetas y camiones no tiene seguro: en dos años la flota sumó 484.634 vehículos y los asegurados, 44.685",
+      "bajada": "Las estimaciones del sector asegurador hablan de uno de cada cinco vehículos sin seguro. Los datos oficiales dan uno de cada cuatro. En el año que terminó en junio de 2026 hubo, en promedio, 11,7 millones de autos, camionetas, camiones y vehículos de pasajeros con seguro, según la Superintendencia de Seguros de la Nación; la flota de esos vehículos era de 15,8 millones a fin de 2025, según la cámara de autopartistas. La diferencia ronda los 4 millones. No es un fenómeno nuevo: en la última década la proporción osciló entre 23% y 27%. Lo nuevo es que en los últimos dos años la flota creció y los asegurados casi no.",
+      "titulo_busqueda": "Autos sin seguro en la Argentina: uno de cada cuatro",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "11,7 millones",
+      "numero_label": "autos, camionetas, camiones y vehículos de pasajeros con seguro, promedio julio 2025-junio 2026, sobre una flota de 15,8 millones",
+      "fecha": "2026-11-16",
+      "hora": "14:30",
+      "archivo": "articulos/2026-11-16-autos-sin-seguro-uno-de-cada-cuatro.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SSN Vehiculos Expuestos a Riesgo al 30/06/2026 (informe pdf + xlsx cuadro 2): total 15.203.225; automoviles 7.644.007 + pick up A 1.997.757 + pick up B 1.399.941 + camiones 498.556 + taxis 45.511 + remises 30.334 + M1 24.623 + M2 42.126 + M3 36.578 = 11.719.433 (excluye motos 2.561.112, maq. rurales 408.310, acoplados 330.060, remolcados 184.310). Recalculo: cuadro 5, 70 aseguradoras suman cada categoria exacto (Autos 9.641.764, Camionetas 1.399.941, Camiones 498.556, Taxis 75.845, M1/2/3 103.327). Contraste: AFAC comunicado 07/04/2026 'vehiculos asegurados en la Argentina (aprox. 12 millones)'. Flota AFAC fin 2025 15.784.385 (2024 15.552.418, 2023 15.299.751). Sin seguro estimado: 4.064.952 (25,8%) con VER jun-26; 4.019.256 (25,5%) con VER 2025-4 (cuadro 4: 15.148.676 - motos 2.500.734 - maq 354.634 - acopl 341.101 - remolc 187.078 = 11.765.129). Serie 2014-2025 (AFAC dic vs VER jul-jun siguiente): 23,3 22,9 25,2 24,3 24,1 s/d 27,3 23,7 24,5 23,7 25,4 25,8. 2023->2025: flota +484.634, asegurados 11.674.748 -> 11.719.433 (+44.685). Motos DNRPA ene-2019/jun-2026 sin TDF 3.485.494 (con TDF 3.518.024) vs 2.561.112 motos aseguradas (2015: 1.164.898)."
+    },
     {
       "id": "2026-11-16-rigi-proveedores-locales-sin-porcentaje",
       "titulo": "El 68% de la inversión aprobada en el RIGI está en proyectos cuya resolución no dice cuánto les comprarán a proveedores locales",
