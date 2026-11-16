@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-15",
-  "pregunta": "En los primeros 35 meses de Milei, según el INDEC, los servicios subieron 531% y los bienes 294%. ¿Qué quiere decir esa diferencia para el bolsillo?",
+  "fecha": "2026-11-16",
+  "pregunta": "Según la Encuesta Permanente de Hogares del INDEC, en el primer semestre de 2026 el 37,6% de los hogares gastó ahorros y el 11,5% vendió pertenencias para vivir. ¿Por qué esas dos salidas preocupan más que comprar en cuotas?",
   "opciones": [
-    "Que los servicios (tarifas, transporte, prepagas, alquileres) se encarecieron mucho más que los bienes: hoy hace falta resignar más bienes que en 2023 para pagar el mismo servicio",
-    "Que la inflación de los servicios no cuenta en el índice general, porque el IPC solo mide bienes del supermercado",
-    "Que los bienes bajaron de precio, porque si los servicios suben más, los bienes tienen que bajar para compensar"
+    "Porque el hogar se come lo que tenía: lo que vendió o gastó este semestre no lo tiene para el próximo, y no entra un ingreso nuevo",
+    "Porque vender pertenencias y gastar ahorros generan intereses, y las cuotas no",
+    "Porque las cuotas casi no se usan: menos de uno de cada diez hogares compra en cuotas o al fiado"
   ],
   "correcta": 0,
-  "explicacion": "El IPC del INDEC mide bienes (alimentos, ropa, artículos del hogar) y servicios (tarifas, transporte, salud, educación, alquiler). Los dos subieron: los bienes 294% y los servicios 531%. Que uno suba más que el otro cambia el precio relativo: cuántos bienes equivalen a un servicio. A fines de 2023 los servicios estaban muy atrasados, con tarifas congeladas, y desde enero de 2024 se encarecieron casi sin pausa respecto de los bienes. Por eso dos hogares con la misma inflación promedio pueden sentirla distinto: pesa más en el que gasta una parte grande de su ingreso en servicios.",
-  "nota": "articulos/2026-11-14-inflacion-milei-fernandez-35-meses-servicios-bienes.html",
+  "explicacion": "Gastar ahorros y vender pertenencias son lo que el INDEC llama estrategias de descapitalización: el hogar no suma un ingreso, usa lo que había juntado. Tienen un límite, porque lo vendido o gastado no vuelve solo. Comprar en cuotas o al fiado, en cambio, reparte un gasto en el tiempo, y es muy común: lo hizo el 50,0% de los hogares, casi lo mismo que en 2017. Lo que cambió fue lo otro: vender cosas pasó de 5,9% de los hogares en 2017 a 11,5% en 2026.",
+  "nota": "articulos/2026-11-15-hogares-venden-pertenencias-piden-prestado-primer-semestre.html",
   "leccion": ""
 }

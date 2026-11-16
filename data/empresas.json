@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-15T22:30",
+  "generado": "2026-11-16T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -1438,51 +1438,6 @@
       "tipo": "financiamiento",
       "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - APROBACIÓN DE TÉRMINOS Y CONDICIONES PARA LA EMISIÓN DE LAS OBLIGACIONES NEGOCIABLES CLASE 12.",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/589CEA6A-0027-4CCF-83F3-1D9527CD49C5"
-    },
-    {
-      "id": "cnv-3581631",
-      "fuente": "CNV",
-      "fecha": "2026-10-16T17:06",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (16 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9D3024AD-BBFD-4A3D-90E9-17101AEF3975"
-    },
-    {
-      "id": "cnv-3581577",
-      "fuente": "CNV",
-      "fecha": "2026-10-16T15:56",
-      "entidad": "IRSA INVERSIONES Y REPRESENTACIONES S.A",
-      "tipo": "financiamiento",
-      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE – RECOMPRA DE OBLIGACIONES NEGOCIABLES",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/87C0F906-7C52-4851-8D61-ED41CAE7EB45"
-    },
-    {
-      "id": "cnv-3581512",
-      "fuente": "CNV",
-      "fecha": "2026-10-16T14:19",
-      "entidad": "FCA COMPAÑÍA FINANCIERA S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/90E51048-E3B0-4827-8621-737B8B68352B"
-    },
-    {
-      "id": "cnv-3581496",
-      "fuente": "CNV",
-      "fecha": "2026-10-16T13:34",
-      "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1A4C4ED9-A613-4A24-936F-6A878649AD29"
-    },
-    {
-      "id": "cnv-3581464",
-      "fuente": "CNV",
-      "fecha": "2026-10-16T12:18",
-      "entidad": "POTENCIAR SGR",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6999C036-1316-470C-BFC7-3754EFDB9F06"
     }
   ],
   "anuncios": [
@@ -1512,7 +1467,6 @@
     "sec-0000931427-26-000014": "2026-10-29",
     "sec-0000931427-26-000015": "2026-11-05",
     "sec-0000931427-26-000016": "2026-11-13",
-    "sec-0000933267-26-000065": "2026-10-16",
     "sec-0000933267-26-000067": "2026-10-22",
     "sec-0000933267-26-000069": "2026-10-22",
     "sec-0000933267-26-000071": "2026-10-23",
@@ -1525,7 +1479,6 @@
     "sec-0001034957-26-000077": "2026-10-30",
     "sec-0001034957-26-000080": "2026-11-05",
     "sec-0001034957-26-000082": "2026-11-09",
-    "sec-0001104659-26-116442": "2026-10-16",
     "sec-0001104659-26-118637": "2026-10-26",
     "sec-0001104659-26-119660": "2026-10-28",
     "sec-0001104659-26-120214": "2026-10-29",
@@ -1550,8 +1503,6 @@
     "sec-0001193125-26-455705": "2026-11-10",
     "sec-0001193125-26-456852": "2026-11-12",
     "sec-0001193125-26-459244": "2026-11-13",
-    "sec-0001292814-26-004944": "2026-10-16",
-    "sec-0001292814-26-004948": "2026-10-16",
     "sec-0001292814-26-004952": "2026-10-19",
     "sec-0001292814-26-004958": "2026-10-20",
     "sec-0001292814-26-004966": "2026-10-21",

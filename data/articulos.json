@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-15T22:51:07-03:00",
+    "actualizado": "2026-11-16T00:44:55-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-sala-de-5-primer-grado-caida-nacimientos-colegios",
+      "titulo": "En sala de 5 hay 23% menos chicos que en 2019, y los que empiezan primer grado en 2030 ya nacieron: son cerca de un tercio menos",
+      "bajada": "Los dueños de colegios privados dicen que cierran porque les faltan alumnos. La estadística educativa del Estado muestra que no es un problema de los privados: nacen menos chicos, y esa caída recién está entrando a la escuela. En 2025 la sala de 5 tuvo 569.404 alumnos, 23,1% menos que en 2019; primer grado, 654.181, 15,7% menos que en 2021. Y los chicos que van a empezar primer grado en 2030 ya nacieron: según la DEIS y el INDEC, serán entre 437.019 y 453.780.",
+      "titulo_busqueda": "¿Por qué cierran colegios? Cuántos chicos menos hay en las escuelas argentinas",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−23,1%",
+      "numero_label": "alumnos de sala de 5 años en 2025 contra 2019, en escuelas estatales y privadas de todo el país",
+      "fecha": "2026-11-16",
+      "hora": "02:30",
+      "archivo": "articulos/2026-11-16-sala-de-5-primer-grado-caida-nacimientos-colegios.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Anuario Estadístico Educativo 2025 (Relevamiento Anual, Secretaría de Educación), cuadro 2.2.3 sala de 5: 569.404 (estatal 410.863 + privado 158.541); Anuario 2019 mismo cuadro: 740.608. Recálculo: suma de las 24 jurisdicciones = Total País en 2017-2025. Contraste independiente DEIS nacidos vivos: cohorte promedio 2013-2014 765.808 -> 2019-2020 579.370 = -24,3% (vs -23,1% matrícula). Apoyo: primer grado 2025 654.181 vs 2021 775.780 (-15,7%); relación primer grado / cohorte DEIS 0,983-1,016 en 2017-2025; estimación primer grado 2030: DEIS 437.019, INDEC población de 6 años 453.780 (-33,2% / -30,6%); 2026: 579.370 / 579.791. Privadas: alumnos 1er grado 219.662 -> 187.852 (-14,5%), secciones 7.895 -> 7.844 (-0,6%), 27,8 -> 23,9 por sección."
+    },
     {
       "id": "2026-11-15-hogares-venden-pertenencias-piden-prestado-primer-semestre",
       "titulo": "27,7% de los hogares tuvo que pedir prestado para vivir en el primer semestre y 11,5% vendió cosas, casi el doble que en 2017",
