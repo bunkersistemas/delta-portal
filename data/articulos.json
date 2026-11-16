@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T02:53:55-03:00",
+    "actualizado": "2026-11-16T05:06:10-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018",
+      "titulo": "Camuzzi Gas del Sur repartió $127.826 millones en dividendos en once meses, los primeros desde 2018: salen de lo que ganó en 2024, el año del salto de tarifas",
+      "bajada": "Sus balances no registran un reparto desde 2018. Ahora, en once meses, la distribuidora de gas de la Patagonia y del sur bonaerense repartió $127.826 millones: en diciembre de 2025, en mayo de 2026 y el 13 de noviembre, cuando puso a disposición de sus accionistas $77.275 millones, unos US$50 millones. La plata viene de una reserva armada con la ganancia de 2024, cuando el ENARGAS le aprobó tarifas nuevas: aquel año ganó 25 veces más que en 2023.",
+      "titulo_busqueda": "¿Cuánto reparte en dividendos Camuzzi Gas del Sur?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$127.826 M",
+      "numero_label": "dividendos en efectivo que repartió Camuzzi Gas del Sur entre diciembre de 2025 y noviembre de 2026, los primeros desde 2018",
+      "fecha": "2026-11-16",
+      "hora": "06:00",
+      "archivo": "articulos/2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018.html",
+      "verificacion": "verificada",
+      "fuentes": 16,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Suma de montos nominales de la empresa ante la CNV: Res. Directorio 440 del 22/12/2025 $14.385.000 miles (estado de evolucion del PN, EEFF 31/12/2025 1d464410, PwC); directorio 08/05/2026 $36.166.000.000 (form pago dividendos 8695836b + aviso); Acta 449 11/11/2026 $77.275.000.000 (HR F19BBF84 + acta + aviso ab394be9). Cruces con IPC INDEC nacional: 14.385 x IPC sep26/dic25 = 17.786 = EEFF 9M26; reserva 237.527,502 dic25 -> 293.681 sep26 = EEFF 9M26; 36.166 x sep26/may26 = 38.991 = acta 449. Ultimo dividendo previo: 2018, $539.617.239 pesos dic-2019 (EEFF 2019, 84cb26fe; nota 32: 2019 sin dividendos); EEFF 2021 sin dividendos 2020-2021; EEFF 1S22 sin dividendos; EEFF 2024 sin dividendos 2023-2024 (1/1/2023 resultados acumulados -2.136.498 miles); EEFF anual 2022 no presentado (deslistado HR 22/06/2022). Ganancia 2024 237.527,502 M y 2023 9.548,702 M pesos dic-25 (resena 31/12/2025). A oct-26: total div 135.285; ganancia 2024 300.059 => 45,1%."
+    },
     {
       "id": "2026-11-16-rem-dolar-pronostico-elecciones-10-de-12",
       "titulo": "En 10 de 12 meses desde las elecciones de 2025, los analistas que consulta el BCRA esperaron un dólar más caro que el que hubo",

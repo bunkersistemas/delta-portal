@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 02:54:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 05:06:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Camuzzi Gas del Sur repartió $127.826 millones en dividendos en once meses, los primeros desde 2018: salen de lo que ganó en 2024, el año del salto de tarifas</title>
+      <link>https://coninteres.com/articulos/2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018.html</guid>
+      <pubDate>Mon, 16 Nov 2026 06:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Sus balances no registran un reparto desde 2018. Ahora, en once meses, la distribuidora de gas de la Patagonia y del sur bonaerense repartió $127.826 millones: en diciembre de 2025, en mayo de 2026 y el 13 de noviembre, cuando puso a disposición de sus accionistas $77.275 millones, unos US$50 millones. La plata viene de una reserva armada con la ganancia de 2024, cuando el ENARGAS le aprobó tarifas nuevas: aquel año ganó 25 veces más que en 2023.</description>
+      <ci:numero>$127.826 M</ci:numero>
+      <ci:numeroEtiqueta>dividendos en efectivo que repartió Camuzzi Gas del Sur entre diciembre de 2025 y noviembre de 2026, los primeros desde 2018</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018.png" length="81917" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>En 10 de 12 meses desde las elecciones de 2025, los analistas que consulta el BCRA esperaron un dólar más caro que el que hubo</title>
       <link>https://coninteres.com/articulos/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>le ganó a la inflación el sueldo del sector público de diciembre de 2025 a septiembre de 2026; sin universidades, menos de un punto</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-sueldo-estatal-universidades-inflacion-2026.png" length="66498" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-sueldo-estatal-universidades-inflacion-2026.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El empleo privado en blanco perdió 56.990 puestos de abril a agosto, la mayor baja en esos meses desde 2020, con el incentivo de la reforma laboral</title>
-      <link>https://coninteres.com/articulos/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.html</guid>
-      <pubDate>Fri, 13 Nov 2026 15:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El régimen que baja las cargas patronales al 5% sumó 81.808 trabajadores entre mayo y agosto, según la Secretaría de Trabajo. Aun así, en esos mismos meses el total de asalariados privados registrados pasó de 6.129.915 a 6.072.925. Son 56.990 menos: la mayor baja entre abril y agosto desde 2020, y algo más que en 2025, cuando el régimen no existía.</description>
-      <ci:numero>-56.990</ci:numero>
-      <ci:numeroEtiqueta>asalariados privados registrados entre abril y agosto de 2026, con el incentivo de la reforma laboral en marcha</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.png" length="70492" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
