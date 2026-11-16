@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T17:03:33-03:00",
+    "actualizado": "2026-11-16T19:04:32-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-argentina-lng-40000-puestos-empleo-neuquen",
+      "titulo": "YPF calcula hasta 40.000 puestos en el pico de obra de Argentina LNG: dos tercios de todo el empleo privado registrado que sumó Neuquén en 13 años",
+      "bajada": "En la audiencia pública de Sierra Grande, YPF repitió la cifra que había presentado en agosto: hasta 40.000 puestos en el momento de mayor actividad de Argentina LNG. No son 40.000 obreros en la costa. Es una estimación de la empresa, y su propio comunicado aclara que suma empleos directos, indirectos e inducidos, repartidos entre Neuquén, Río Negro y la cadena de proveedores de todo el país. La vara para medirla: entre 2013 y 2026 Neuquén sumó 59.074 asalariados privados registrados, en todas las actividades.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "59.074",
+      "numero_label": "asalariados privados registrados que sumó Neuquén entre el primer trimestre de 2013 y el de 2026, en todas las actividades",
+      "fecha": "2026-11-16",
+      "hora": "19:30",
+      "archivo": "articulos/2026-11-16-argentina-lng-40000-puestos-empleo-neuquen.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "OEDE provinciales_serie_empleo_trimestral_2dig_7.xlsx hoja Neuquen fila TOTAL: 1T2013 101.039, 1T2026 160.113 (max serie 1996-2026) -> +59.074; rama 11 14.755 -> 25.154 (+10.399; pico 3T2024 26.883); rama 45 8.750 -> 24.597 (+15.847, max serie). Rio Negro 1T2026 total 131.775, construccion 8.216. Contraste EPH Neuquen-Plottier (aglo 17, PP07H=1): prom 2017 43.489 -> 3T25-2T26 59.061 (+35,8%) vs SIPA Neuquen prom 2017 114.864 -> 2T25-1T26 155.239 (+35,2%). YPF comunicado 13/08/2026 (argentina-lng.ypf.com/assets/pdf/Argentina-LNG-Adhesion-RIGI.pdf): 20.000 anuales 2026-2030 directos+indirectos+inducidos, picos hasta 40.000 en el tercer año, 8.000 en operacion (ESTIMACION de la empresa); iProfesional 16/11 audiencia Sierra Grande. 40.000/59.074 = 67,7%; 20.000/59.074 = 33,9%; 8.000/10.399 = 77%; 40.000/8.216 = 4,9."
+    },
     {
       "id": "2026-11-16-diciembre-deficit-primario-diez-anos-meta-fmi",
       "titulo": "Diciembre cerró con déficit primario en cada uno de los últimos diez años: en 2025, noviembre y diciembre le sacaron 6% al superávit que había a octubre",

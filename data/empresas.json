@@ -1,11 +1,56 @@
 {
-  "generado": "2026-11-16T16:30",
+  "generado": "2026-11-16T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593727",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T18:22",
+      "entidad": "GRUPO SUPERVIELLE S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3BC32409-0018-4B15-83DB-B519C9308E87"
+    },
+    {
+      "id": "cnv-3593738",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T18:08",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7A5783E4-AEC9-4BA6-95B5-0AE9C54BE6AE"
+    },
+    {
+      "id": "cnv-3593734",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T18:05",
+      "entidad": "INVAP S.A.U",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - HECHO RELEVANTE INVAP SAU 16-11-2026 EMISIÓN ON",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B5DA2051-FF0C-4F1F-818C-AF26EAD349CB"
+    },
+    {
+      "id": "cnv-3593718",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T17:44",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 16.11.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FF06521D-178E-422F-8E97-F9F24FD4273D"
+    },
+    {
+      "id": "cnv-3593678",
+      "fuente": "CNV",
+      "fecha": "2026-11-16T17:10",
+      "entidad": "GRUPO FINANCIERO GALICIA S.A",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN JUDICIAL - GRUPO FINANCIERO FINANCIERO S.A. - HR BGBA DEMANDA COLECTIVA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6E3B0FF8-E5D1-4D5F-A6A8-F41AB289DC77"
+    },
     {
       "id": "cnv-3593478",
       "fuente": "CNV",
@@ -1534,6 +1579,7 @@
     "sec-0001104659-26-127176": "2026-11-13",
     "sec-0001104659-26-127298": "2026-11-16",
     "sec-0001104659-26-127621": "2026-11-16",
+    "sec-0001114700-26-000085": "2026-11-16",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
