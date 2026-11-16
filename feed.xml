@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 10:51:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 13:02:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El 68% de la inversión aprobada en el RIGI está en proyectos cuya resolución no dice cuánto les comprarán a proveedores locales</title>
+      <link>https://coninteres.com/articulos/2026-11-16-rigi-proveedores-locales-sin-porcentaje.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-16-rigi-proveedores-locales-sin-porcentaje.html</guid>
+      <pubDate>Mon, 16 Nov 2026 12:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El Decreto 1366/2026, publicado hoy, cambió quién es "proveedor local" para el RIGI: alcanza con estar constituido y domiciliado en el país, sin importar quién sea el dueño, así que una filial extranjera también cuenta como local. Pero en la mayor parte de la inversión del régimen no hay un número publicado contra el cual medir ese cambio. Con Interés leyó las 29 resoluciones de aprobación. En nueve, que suman US$54.293 millones, el 68% de la inversión, no figura qué parte de las compras irá a proveedores locales. En petróleo y gas, un solo proyecto, de US$365 millones, declara más que el mínimo del 20%.</description>
+      <ci:numero>68%</ci:numero>
+      <ci:numeroEtiqueta>de la inversión aprobada en el RIGI está en proyectos cuya resolución no dice qué parte de sus compras irá a proveedores locales</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-rigi-proveedores-locales-sin-porcentaje.png" length="65162" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-rigi-proveedores-locales-sin-porcentaje.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>En 2022, el año récord del Belgrano Cargas, una de cada cinco toneladas fue piedra para vías: sin ella, la carga cayó 8,6%</title>
       <link>https://coninteres.com/articulos/2026-11-16-belgrano-cargas-record-2022-piedra-para-vias.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>meses de la ley de movilidad de 2020 en que la fórmula de 2017 habría dado una jubilación más baja que la pagada</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-14-formula-jubilatoria-macri-fernandez-fallo.png" length="67523" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-14-formula-jubilatoria-macri-fernandez-fallo.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Enero de 2026 fue el mes récord de pasajeros entre la Argentina y Estados Unidos, pero de abril a septiembre volaron 21% menos que en 2018</title>
-      <link>https://coninteres.com/articulos/2026-11-13-pasajeros-argentina-estados-unidos-enero-record.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-pasajeros-argentina-estados-unidos-enero-record.html</guid>
-      <pubDate>Fri, 13 Nov 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Enero de 2026 fue el mes con más pasajeros entre la Argentina y Estados Unidos en la serie de la ANAC: 204.055, y el registro de EE.UU. lo ubica como su mes más alto desde 1990. Pero el récord fue solo de temporada: de abril a septiembre volaron 717.203 pasajeros, 20,9% menos que en los mismos meses de 2018.</description>
-      <ci:numero>204.055</ci:numero>
-      <ci:numeroEtiqueta>pasajeros entre la Argentina y Estados Unidos en enero de 2026, el mes más alto en las series de los dos países</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-pasajeros-argentina-estados-unidos-enero-record.png" length="70765" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-pasajeros-argentina-estados-unidos-enero-record.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T10:51:38-03:00",
+    "actualizado": "2026-11-16T13:01:56-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-rigi-proveedores-locales-sin-porcentaje",
+      "titulo": "El 68% de la inversión aprobada en el RIGI está en proyectos cuya resolución no dice cuánto les comprarán a proveedores locales",
+      "bajada": "El Decreto 1366/2026, publicado hoy, cambió quién es \"proveedor local\" para el RIGI: alcanza con estar constituido y domiciliado en el país, sin importar quién sea el dueño, así que una filial extranjera también cuenta como local. Pero en la mayor parte de la inversión del régimen no hay un número publicado contra el cual medir ese cambio. Con Interés leyó las 29 resoluciones de aprobación. En nueve, que suman US$54.293 millones, el 68% de la inversión, no figura qué parte de las compras irá a proveedores locales. En petróleo y gas, un solo proyecto, de US$365 millones, declara más que el mínimo del 20%.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "68%",
+      "numero_label": "de la inversión aprobada en el RIGI está en proyectos cuya resolución no dice qué parte de sus compras irá a proveedores locales",
+      "fecha": "2026-11-16",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-16-rigi-proveedores-locales-sin-porcentaje.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Clasificación propia de 29 resoluciones MEcon de aprobación RIGI (Boletín Oficial, texto completo de cada aviso; ninguna de las 9 sin porcentaje tiene anexo) + inversión del tablero oficial argentina.gob.ar/economia/rigi consultado 16/11/2026 (30 aprobados por US$79.649 M; Parque Eólico La Rinconada US$231 M sin resolución hallada, excluido): 29 proyectos US$79.418 M. Sin porcentaje: 9 (VMOS 2.900, GNL Southern Energy 15.156, Rincón 2.744, Sidersa 286, PE Olavarría 276, Rincón de Aranda 4.522, Vicuña 9.737, Los Toldos II Este 6.432, Bajo del Choique 12.240) = 54.293 = 68,4%. Con el monto de la Res. 559/2025 para el GNL (6.878): 46.015 / 71.140 = 64,7%. Declaran 20%: 7 (Veladero 436, GPM 550, Cauchari 1.241, SMP 1.300, Fertil Pampa 2.693, MGS 1.850, PGS 1.395) = 9.465 = 11,9%. Más del 20%: 13 = 15.660 = 19,7% (HMW 95,34; Timbúes 87; DCP 69; Los Azules 61,1; Liex 60,26; Fase 1B 60; Mega 60; El Quemado 55,5 calculado 117,5/211,6; Diablillos 55; Agua Rica 54; Toyota 53 sobre inversión total; PSJ 27; Sal de Oro II 21,02; mediana 60). Petróleo y gas 11 = 49.403: A 365 (Mega), B 7.788 (5), C 41.250 (5). Minería 13 = 27.624: A 13.466 (9), B 1.677 (2), C 12.481 (2). Definición anterior: Decreto 749/2024 anexo I art. 3 inc. f (51% del capital o votos con domicilio fiscal en el país); nueva: Decreto 1366/2026 art. 1 (BO 16/11/2026, aviso 350325, vigencia art. 5). Mínimo 20%: art. 47 inc. l; vinculadas art. 49; acreditación bienal art. 50. Scripts: _privado/rigiprov/."
+    },
     {
       "id": "2026-11-16-belgrano-cargas-record-2022-piedra-para-vias",
       "titulo": "En 2022, el año récord del Belgrano Cargas, una de cada cinco toneladas fue piedra para vías: sin ella, la carga cayó 8,6%",
