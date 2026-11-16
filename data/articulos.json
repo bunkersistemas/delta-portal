@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T00:44:55-03:00",
+    "actualizado": "2026-11-16T02:53:55-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-rem-dolar-pronostico-elecciones-10-de-12",
+      "titulo": "En 10 de 12 meses desde las elecciones de 2025, los analistas que consulta el BCRA esperaron un dólar más caro que el que hubo",
+      "bajada": "En 10 de los 12 meses posteriores a las elecciones de octubre de 2025, la mediana de los analistas que releva el BCRA esperó para el mes siguiente un dólar mayorista más caro que el que hubo. En los siete meses de banda anteriores a la votación había pasado lo contrario: se quedaron cortos en cinco. A un año, el error fue más grande: en septiembre de 2025 esperaban $1.739 para septiembre de 2026, y fue $1.514. Para diciembre esperan ahora $1.590.",
+      "titulo_busqueda": "Qué tan bien pronostican el dólar los analistas del REM del BCRA",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "10 de 12",
+      "numero_label": "meses desde las elecciones de octubre de 2025 en que el dólar esperado por el REM para el mes siguiente superó al que hubo",
+      "fecha": "2026-11-16",
+      "hora": "02:30",
+      "archivo": "articulos/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA REM base histórica (TC nominal, primer mes de cada encuesta, mediana) vs promedio simple mensual A3500 (com3500.xls = API var 5 al centavo, ene-24 a oct-26). Obj nov-25..oct-26: 10/12 arriba (jun-26 -1,95%, jul-26 -0,34%), mediana +1,73%; obj abr-25..oct-25: 2/7 arriba (h2, h3, h6: 0/7). Sep-25 12m: 1.739,17 vs 1.513,89; dic-26: 1.811,5 (sep-25) -> 1.590 (oct-26). Oct-26 tablas: abr-27 1.701,54, oct-27 1.984,91. Contraste: Di Pace (Focus Market), Infobae 15/11/2026, futuros sobreestimaron 29 de 35 meses dic-23/oct-26."
+    },
     {
       "id": "2026-11-16-sala-de-5-primer-grado-caida-nacimientos-colegios",
       "titulo": "En sala de 5 hay 23% menos chicos que en 2019, y los que empiezan primer grado en 2030 ya nacieron: son cerca de un tercio menos",

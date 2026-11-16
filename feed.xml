@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 16 Nov 2026 00:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 02:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En 10 de 12 meses desde las elecciones de 2025, los analistas que consulta el BCRA esperaron un dólar más caro que el que hubo</title>
+      <link>https://coninteres.com/articulos/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.html</guid>
+      <pubDate>Mon, 16 Nov 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>En 10 de los 12 meses posteriores a las elecciones de octubre de 2025, la mediana de los analistas que releva el BCRA esperó para el mes siguiente un dólar mayorista más caro que el que hubo. En los siete meses de banda anteriores a la votación había pasado lo contrario: se quedaron cortos en cinco. A un año, el error fue más grande: en septiembre de 2025 esperaban $1.739 para septiembre de 2026, y fue $1.514. Para diciembre esperan ahora $1.590.</description>
+      <ci:numero>10 de 12</ci:numero>
+      <ci:numeroEtiqueta>meses desde las elecciones de octubre de 2025 en que el dólar esperado por el REM para el mes siguiente superó al que hubo</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.png" length="67616" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>En sala de 5 hay 23% menos chicos que en 2019, y los que empiezan primer grado en 2030 ya nacieron: son cerca de un tercio menos</title>
       <link>https://coninteres.com/articulos/2026-11-16-sala-de-5-primer-grado-caida-nacimientos-colegios.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>asalariados privados registrados entre abril y agosto de 2026, con el incentivo de la reforma laboral en marcha</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.png" length="70492" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-rifl-reforma-laboral-empleo-privado-abril-agosto.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Uno de cada diez pasajeros entre Ezeiza y Madrid voló en septiembre en Plus Ultra, que se llevó casi todo lo que la ruta creció en un año</title>
-      <link>https://coninteres.com/articulos/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.html</guid>
-      <pubDate>Fri, 13 Nov 2026 13:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Casi todo lo que creció en un año la ruta Ezeiza–Madrid viajó en Plus Ultra, la aerolínea española que retiró de su sitio la venta de vuelos para la Argentina. Según la ANAC, en septiembre volaron 115.104 pasajeros, 12.813 más que un año antes; Plus Ultra, que empezó a volar la ruta en mayo, llevó 12.118. Iberia, Air Europa y Aerolíneas Argentinas juntas llevaron apenas 1,1% más que en septiembre de 2025.</description>
-      <ci:numero>10,5%</ci:numero>
-      <ci:numeroEtiqueta>de los pasajeros entre Ezeiza y Madrid que volaron en Plus Ultra en septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.png" length="66439" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-13-plus-ultra-ezeiza-madrid-uno-de-cada-diez.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
