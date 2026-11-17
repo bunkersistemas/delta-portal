@@ -9229,6 +9229,23 @@
       "tema": "descartes de la corrida de redaccion del 16/11/2026 22:30. Portadas: infobae, La Nacion, ambito, iProfesional, Cronista y Pagina12 con WebFetch (Clarin y TN no cargaron). Hoy ya salieron 11 notas (tres de EMPRESAS: Camuzzi, Papel Prensa, Los Grobo; ninguna en forma de pregunta). Lista: (1) HALLAZGO, EMPRESAS: Newsan, la fabrica de Ushuaia pierde la mitad de la ganancia bruta y el consumo masivo pasa a sostener la empresa [La Nacion 'Newsan compra el negocio de Procenex'; HR CNV 16/11 + EEFF 9M26] -> APTA; la corrida anterior la descarto porque el HR no trae monto: el angulo sale del balance, no del HR. (2) EMPRESAS Galicia demanda colectiva por comision a depositos y extracciones en dolares en otra sucursal (HR CNV 13/11): el banco estima impacto no significativo; sin cifra propia. (3) EMPRESAS Molinos compra la marca Tia Maruca (acta 2356, CNV 13/11): sin monto. (4) EMPRESAS Central Urbana patrimonio neto negativo (HR 13/11): sociedad de inversion chica, sin nota de interes. (5) superavit de octubre [5 portadas]: fiscal publicada 16:30. (6) RIGI proveedores [5 portadas]: publicada 12:30. (7) dolar y riesgo pais 850 [todas]: sin angulo propio. (8) deuda publica bruta de octubre [infobae, La Nacion]: serie mensual, nota del 15/10. (9) consumo de carne minimo [ambito, iProfesional]: cubierta 29/10 y 14/11. (10) bancarios / UOM / UTA [infobae, iProfesional, Cronista]: molde agotado. (11) canasta de crianza octubre [ambito; calendario hoy]: molde y 4 notas previas. (12) 7 de cada 10 hogares sin plata antes del 20 [ambito, Pagina12]: encuesta privada. Calendario: SIPM e ICC manana. pregunta.json no se toco (ya era del 16/11).",
       "angulo": "Registro de candidatas de la corrida.",
       "motivo_descarte": "paso la primera candidata (Newsan)"
+    },
+    {
+      "tema": "¿quién gana plata con la inversión en IA? / Soto, Thieu y Allen, \"The AI Buildout and the Economy: Publicly Available Data to Assess AI's Impact\", FEDS Notes, Reserva Federal, 17/07/2026, gráfico 7 (planilla): la inversión ligada a la IA sumó 1,18 pp al crecimiento anualizado de EE.UU. en 2026T1 y las importaciones netas de computadoras restaron 0,45 (38%); 2025T4 81%; promedio 2025 35%. Contraste Rubinton y Patro (Fed de St. Louis, 12/01/2026): 39% del crecimiento 2025T1-T3, sin restar importaciones; Fiori y otros (Fed, 14/07/2026) 90% de los equipos de afuera; De Soyres y otros (Fed, 13/02/2026) definición HS 8471.50/8471.80/8473.30. Cruce INDEC: importaciones argentinas de esas posiciones ene-sep 2026 US$297,1 M CIF (+1,0%; ene-sep 2022 573,1 M), espejo Comtrade 2025 -4,7%; EE.UU. 2025 US$270.700 M.",
+      "angulo": "Corrida de La economía de la IA del 17/11/2026 00:30, primera candidata probada: pasó las cinco condiciones de NEWSROOM 2 quinquies. Ángulo nuevo frente a las notas IA anteriores (empleo, oficios, energía, programadores, materiales, avisos, encuesta a empresas, recién recibidos): la cuenta macro de la inversión y adónde va la plata, con el cruce de la aduana argentina.",
+      "fecha": "2026-11-17",
+      "estado": "publicada",
+      "articulo_id": "2026-11-17-ia-inversion-pbi-importaciones-reserva-federal",
+      "archivo": "cola/2026-11-17-ia-inversion-pbi-importaciones-reserva-federal.html",
+      "seccion": "IA"
+    },
+    {
+      "tema": "candidatas de la corrida de La economía de la IA del 17/11/2026 00:30, no probadas porque pasó la primera (Fed, inversión en IA e importaciones): BID, Desarrollo en las Américas 2026 \"De la digitalización a la inteligencia artificial: cómo transformar las promesas en productividad\" (presentado el 16/11/2026; +5,1% del PIB regional en diez años y salarios -13,5% a +5,3% son escenarios = proyección; iadb.org y publications.iadb.org devuelven 403 a curl y a WebFetch, original no leído); Bastos y Nayyar, \"Artificial Intelligence and International Trade in Services: Evidence from the United States\", documento de base del WDR 2026 del Banco Mundial (no leído; puente con exportaciones de servicios del INDEC); Gmyrek, Viollaz y Winkler, OIT WP 166 \"Disruption without Dividend?\" (mar-2026, 135 países, brecha digital y exposición); Jung y Katz, \"Impacto económico de la IA en América Latina\", CEPAL LC/TS.2025/37/Rev.2 (ene-2026); Bick, Blandin, Deming y Schumacher, \"What Work Does Generative AI Do?\", NBER WP 35677 (ago-2026) con la encuesta CEPE-Fundar.",
+      "angulo": "Registro de candidatas de la corrida (rastreo: NBER, Reserva Federal (directorio, St. Louis), FMI, OIT, Banco Mundial (WDR 2026), BID, CEPAL, universidades argentinas, INDEC, Comtrade).",
+      "fecha": "2026-11-17",
+      "estado": "descartada",
+      "articulo_id": null,
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T22:43:13-03:00",
+    "actualizado": "2026-11-17T00:50:53-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-ia-inversion-pbi-importaciones-reserva-federal",
+      "titulo": "38% de lo que la inversión en IA sumó al crecimiento de EE.UU. a comienzos de 2026 se fue en equipos importados, según economistas de la Fed",
+      "bajada": "La inversión en inteligencia artificial empuja el crecimiento de Estados Unidos, pero una parte grande de esa plata sale del país. Según tres economistas de la Reserva Federal, en el primer trimestre de 2026 esa inversión sumó 1,18 puntos al crecimiento anualizado y las importaciones de computadoras y partes le restaron 0,45: quedaron 0,73, y el 38% se fue a los países que fabrican los equipos. En la Argentina ese auge todavía no aparece en la aduana: de enero a septiembre de 2026 el país importó US$297,1 millones en servidores y sus partes, 1,0% más que un año antes y 48% menos que en el mismo período de 2022.",
+      "titulo_busqueda": "¿Quién gana plata con la inteligencia artificial? Lo que encontró la Reserva Federal y lo que muestran las importaciones argentinas",
+      "seccion": "IA",
+      "formato": "Investigación",
+      "numero": "38%",
+      "numero_label": "de lo que la inversión en IA sumó al crecimiento de EE.UU. en el primer trimestre de 2026 se compensó con computadoras importadas, según la Fed",
+      "fecha": "2026-11-17",
+      "hora": "01:30",
+      "archivo": "articulos/2026-11-17-ia-inversion-pbi-importaciones-reserva-federal.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 8 min",
+      "numero_fuente": "Soto, Thieu y Allen, FEDS Notes 17/07/2026, gráfico 7 y planilla feds-ai-buildout-figure-data.xlsx hoja Figure_7: 2026T1 software 0,53 + centros de datos 0,03 + energía 0,03 + computadoras 0,59 = 1,18 bruto; exportaciones netas de computadoras, periféricos y partes -0,45; neto 0,73; 0,45/1,18 = 38,1% (cálculo propio). 2025T4 0,75 / -0,61 / 0,14 (81,3%); promedio 2025 0,7975 / -0,28 / 0,5175 (35,1%). Contraste: Rubinton y Patro, Fed de St. Louis 12/01/2026, 39% del crecimiento 2025T1-T3 sin restar importaciones (0,97 pp). Fiori, Lipa y Nuenninghoff (FEDS 14/07/2026): ~90% de los equipos de alta tecnología, de afuera. Argentina: INDEC impom26 NCM 847150+847180+847330 ene-sep 2026 US$297.111.467 CIF vs 294.045.927 (+1,04%); 2025 368.141.501 CIF / 358.876.210 FOB; espejo Comtrade 2025 partner 32 = 342,06 M (-4,7%); EE.UU. (842 M) 2022 81.565 M, 2024 127.617 M, 2025 270.694 M."
+    },
     {
       "id": "2026-11-16-newsan-fabricas-tierra-del-fuego-ganancia-bruta",
       "titulo": "La ganancia bruta de las fábricas de Newsan en Tierra del Fuego cayó 52% en un año: más de la mitad de la de toda la empresa ya sale de Gillette y Pampers",
