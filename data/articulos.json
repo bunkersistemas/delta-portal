@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T14:54:11-03:00",
+    "actualizado": "2026-11-17T16:42:58-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-mayorista-importados-mas-baratos-que-nacionales-desde-2015",
+      "titulo": "Los precios mayoristas de lo importado subieron 14,4% en un año, contra 31% los de lo nacional",
+      "bajada": "Entre octubre de 2025 y octubre de 2026, los precios mayoristas de lo hecho en el país subieron 31,0% y los de lo importado, 14,4%, según el INDEC. Con esa diferencia, lo importado quedó en su nivel más barato frente a lo nacional en los 131 meses de la serie: 15,7% por debajo de diciembre de 2015, según nuestra cuenta. Y no es solo la energía: 21 de las 26 divisiones de productos nacionales subieron más que lo importado.",
+      "titulo_busqueda": "Inflación mayorista de octubre de 2026: cuánto subieron los productos nacionales y los importados",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "14,4%",
+      "numero_label": "suba en un año de los precios mayoristas de los productos importados, contra 31,0% de los nacionales (octubre de 2026)",
+      "fecha": "2026-11-17",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-17-mayorista-importados-mas-baratos-que-nacionales-desde-2015.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC SIPM oct-2026 (17/11/2026) cuadro 3: IPIM importados 14,4% i.a., nacionales 31,0%; recalculado con indice_ipim.csv (14,36% / 30,97%). Relación importados/nacionales (dic-15=100) 84,28 en oct-26, mínimo de 131 meses (previo 84,90 sep-26; antes de 2026 91,50 jun-25; dic-17 92,79; máximo 163,05 dic-23). Contraste BCRA: A3500 15/10/2025 1.373,50 -> 15/10/2026 1.513,93 (+10,2%; promedio mensual +6,5%); ITCRM prom. oct -16,2% i.a. vs cociente -12,7%. IPIB: 29,4% / 14,5%."
+    },
     {
       "id": "2026-11-17-aportantes-por-jubilacion-141-moratoria-monotributo-social",
       "titulo": "Por cada jubilación o pensión que paga la ANSES hay 1,41 personas que aportan, contra 1,60 en 2023",

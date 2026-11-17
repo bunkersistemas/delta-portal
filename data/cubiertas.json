@@ -9329,6 +9329,20 @@
       "fecha": "2026-11-17",
       "estado": "descartada",
       "motivo_descarte": "cifra ancla del ISAC sin contraste independiente: el IPI cal y yeso es del mismo organismo, Rio Negro mide extraccion de mineral (que va a placas y cemento) y Etex no publica volumenes de Argentina"
+    },
+    {
+      "tema": "¿subió más lo nacional o lo importado en los precios mayoristas? (calendario oficial: SIPM INDEC octubre de 2026, publicado hoy 17/11 a las 16; los ocho portales dieron el 1,6% mensual) / IPIM nacionales 31,0% i.a. contra importados 14,4% (cuadro 3; recalculado con indice_ipim.csv); relación importados/nacionales dic-2015=100: 84,3 en oct-26, mínimo de los 131 meses de la serie (previo 84,9 sep-26; antes de 2026, 91,5 jun-25; 2017, 92,8 dic-17; máximo 163,1 dic-23); 21 de 26 divisiones nacionales subieron más que lo importado; contraste BCRA A3500 día 15 +10,2% y ITCRM -16,2% i.a.",
+      "angulo": "Corrida programada del 17/11/2026 16:30. Ángulo propio que no dio ningún medio: el cociente importados/nacionales calculado desde la serie cruda y su mínimo histórico de la serie, más las divisiones que quedaron por debajo de lo importado. Distinto de las notas mayoristas del 20/07 (dato del mes) y 16/10 (petróleo contra surtidor) y del súper peso del 23/07 (ITCRM). Camino: estadística oficial recalculada + contraste BCRA (A3500 e ITCRM), con la diferencia de niveles 2024-25 explicada en ④.",
+      "fecha": "2026-11-17",
+      "estado": "publicada",
+      "articulo_id": "2026-11-17-mayorista-importados-mas-baratos-que-nacionales-desde-2015"
+    },
+    {
+      "tema": "descartes de la corrida programada del 17/11/2026 16:30: no se probaron porque pasó la primera candidata (SIPM octubre: importados contra nacionales). Lista no probada, por orden: calendario: ICC octubre del INDEC (ICC en dólares publicado 18/10, sin ángulo nuevo); portadas: superávit fiscal de octubre (iProfesional, Cronista, TN, Página12; dato del día de todos los medios, sin cruce propio), RIMI porteño de 25% de Ingresos Brutos (Infobae, Cronista, Clarín; sin cupo fiscal ni costo publicado), crédito hipotecario con fondos de la ANSES, tercera licitación de $200.000 M (TN, Ámbito, Clarín; publicado 02/10 y 26/08), Plus Ultra suspende Ezeiza-Madrid (publicado 13/11), transferencias discrecionales a provincias -60% (TN; en cola 08/11), consumo de carne más bajo (iProfesional, Página12; publicado 29/10 y en cola 14/11), Techint gana caños de Argentina LNG (La Nación, Clarín, iProfesional; en cola 08/11); pregunta de plata: cuánta leche procesaba SanCor (sin dato oficial por empresa), subasta de 8 vagones de subte a $24 M base (un solo documento, molde precio); empresas (cupo cubierto hoy por Supervielle): Molinos compra la marca Tía Maruca (HR CNV 13/11, sin precio en el título; Molinos en cola 12/11), Galicia demanda colectiva (HR CNV 16/11, judicial sin monto verificado), INVAP emisión de ON (HR 16/11, operación de rutina; INVAP publicado 07/10). clarin.com y tn.com.ar se leyeron con _privado/rastreo/portadas.py. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-17",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }
