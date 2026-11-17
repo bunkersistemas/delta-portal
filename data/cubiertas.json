@@ -9301,6 +9301,13 @@
       "angulo": "lista de candidatas no probadas",
       "fecha": "2026-11-17",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿se cumple el corte de biodiésel en el gasoil? (proyecto de ley de biocombustibles en Diputados; Clarín e Infobae 17/11/2026: el Consejo Agroindustrial pide aprobarlo esta semana) / corte efectivo calculado con dos planillas de la Secretaría de Energía: 5,77% en 2025 contra 7,5% legal, faltaron 199.146 t; 2 de 45 meses sobre 7,5% (ene-23 a sep-26); el 10% del art. 12 de la sanción del Senado pide 1.213.960 t (x1,73 de 2025)",
+      "angulo": "Corrida del 17/11/2026 10:30, primera candidata probada. Hallazgo propio: nadie publica el corte efectivo; cruce de ventas al corte (SE biocombustibles) con ventas de gasoil por canal (SE Res. 1104), validado con 2017 (10,07% con corte legal 10%) y contrastado con USDA FAS AR2026-0013 (5,9% en 2025). No repite las notas del bioetanol (02/11, precio) ni de exportaciones de biodiésel a Europa (07/10). Descartes de esta corrida: ver entrada de descartes del 08:30 (misma lista) + LEGO/juguetes (cubierto 26/09 y 03/11), canasta de crianza (molde mensual), jubilaciones de más de $10 M (molde, BESS cubierto 19/10), dólar en Brasil (cubierto 15/11), carne consumo mínimo (cubierto 29/10). Empresas: cupo del día ya cubierto (CMPC, Personal); Telecom 3T, Loma Negra 3T, Papel Prensa 30/09, Rosenbusch y Newsan ya tienen nota reciente.",
+      "fecha": "2026-11-17",
+      "estado": "en_cola",
+      "archivo": "cola/2026-11-17-biodiesel-gasoil-corte-5-8-por-ciento.html"
     }
   ]
 }

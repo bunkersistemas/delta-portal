@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-17T08:30",
+  "generado": "2026-11-17T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593817",
+      "fuente": "CNV",
+      "fecha": "2026-11-17T10:20",
+      "entidad": "HOLCIM (ARGENTINA) S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/BB3C5C45-37E8-4D60-8D7F-E4CFE3ED32AB"
+    },
     {
       "id": "cnv-3593762",
       "fuente": "CNV",

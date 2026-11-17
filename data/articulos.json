@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T09:05:58-03:00",
+    "actualizado": "2026-11-17T11:00:46-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-biodiesel-gasoil-corte-5-8-por-ciento",
+      "titulo": "El gasoil llevó 5,8% de biodiésel en 2025, aunque la norma exige 7,5%: desde 2023, solo dos meses llegaron al corte que ahora el Congreso quiere subir a 10%",
+      "bajada": "El Senado ya aprobó llevar a 10% el biodiésel del gasoil. El 7,5% que rige hoy no se cumplió nunca en un año entero: en 2025 el gasoil tuvo 5,8%, según nuestro cálculo con las planillas de la Secretaría de Energía, y faltaron 199.146 toneladas. Desde enero de 2023, el corte superó el 7,5% en solo dos de 45 meses. Con el gasoil de 2025, el 10% pide 1,73 veces el biodiésel que se mezcló ese año.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "5,8%",
+      "numero_label": "biodiésel que llevó en 2025 el gasoil vendido en la Argentina, en volumen; la norma pide 7,5%",
+      "fecha": "2026-11-17",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-17-biodiesel-gasoil-corte-5-8-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Calculo propio: SE estadisticas_biocombustibles.xls hoja RESUMEN BIODIESEL, ventas al corte 2025 700.920 t (provisorio) / 0,88 t/m3 = 796.500 m3; SE ventas-excluye-ventas-a-empresas-del-sector csv, Gasoil Grado 1+2+3 2025 sin Bunker Internacional, Bunker Cabotaje, Usinas Electricas y Transporte Ferroviario = 13.794.998 m3 -> 5,77% (todo el gasoil 5,60%). Requerido 7,5% (7% nov-dic, Res SE 445/2025 BO 10/11/2025; 7,5% de nuevo por Res 612/2025 BO 02/01/2026) = 900.066 t; faltante 199.146 t (22,1%). Meses ene-23..sep-26 sobre 7,5%: sep-24 7,72, jun-26 7,66 (abr-26 7,496). 10% con pool 2025 = 1.213.960 t (x1,73). Prueba de metodo: 2017 10,07% con corte legal 10%. Contraste USDA FAS AR2026-0013 (20/08/2026) cuadro 5: 2025 5,9, 2024 6,8, 2023 4,9, 2022 5,8 (nuestros 5,77/6,57/4,67/5,65; USDA excluye tambien mineria). Proyecto: sancion Senado CD-76/26 17/09/2026 art. 12 (7,5% -> 10% a los 12 meses). Scripts en _privado/biodiesel/."
+    },
     {
       "id": "2026-11-17-obra-social-camioneros-oschoca-pierde-titulares",
       "titulo": "La obra social de Camioneros en Buenos Aires perdió uno de cada cuatro titulares desde 2023, aunque el empleo registrado en el transporte de cargas no cayó",
