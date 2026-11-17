@@ -9246,6 +9246,20 @@
       "estado": "descartada",
       "articulo_id": null,
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "tema": "EMPRESAS: Telecom / Personal, 2,4 millones de líneas móviles menos en un año (EEFF al 30/09/2026 ante la SEC 16/11/2026, bloque EMPRESAS de agenda.py; release 3T26 12/11) / base 17,9 M vs 20,3 M (-11,8%) por el cambio del plazo de baja de prepagas sin recarga (360->242 días jun-2025, 242->180 jun-2026); ingresos móviles +6,8% real, ARPU +18,8%; serie dic-22 a sep-26 desde 20-F 2024/2025 y releases; Movistar 20,1 M (+5,2%); Claro dio de baja 1,5 M prepagas en 2T26 (AMX); ENACOM total 64,9 M (3T25) -> 64,3 M (2T26)",
+      "angulo": "Corrida programada del 17/11/2026 02:30. Hallazgo: la caída de clientes de Personal es sobre todo un cambio de regla de conteo, no clientes perdidos; el ARPU sube casi tres veces más que los ingresos porque se divide por menos líneas. Distinta de la nota del 10/10 (participación de mercado con el dictamen ANC) y de la del 10/11 (márgenes). Camino: documentos de la empresa (6-K EEFF + release + 20-F) cruzados entre sí + contraste con América Móvil y ENACOM (que no registra las depuraciones en la misma magnitud; se dice y no se suman cifras entre fuentes).",
+      "fecha": "2026-11-17",
+      "estado": "publicada",
+      "articulo_id": "2026-11-17-personal-lineas-prepagas-baja-180-dias"
+    },
+    {
+      "tema": "descartes de la corrida programada del 17/11/2026 02:30: no se probaron porque pasó la primera candidata (Telecom/Personal, líneas prepagas). Lista: empresas: Central Urbana S.A. con patrimonio neto negativo al 30/09/2026 (HR CNV 13/11, sin cifras en el HR), Galicia demanda colectiva de PAC por la comisión a depósitos/extracciones en dólares por ventanilla en otra sucursal (HR 13/11; el banco estima impacto no significativo; candidata para comparar esa comisión entre bancos), Molinos compra la marca Tía Maruca (HR 13/11, sin precio), Newsan compra VEH/Procenex (cubierta 16/11), Loma Negra 3T (cubierta 06/11), Rosenbusch (cubierta 14/11), TGS RIGI (cubierta 13/11); calendario: SIPM e ICC de octubre (INDEC hoy 16 h, no publicados a la hora de la corrida); portadas: superávit fiscal de octubre (cubierta 16/11), deuda pública de octubre +US$3.000 M (serie mensual cubierta 15/10), canasta de crianza (cubierta 14/09, 16/10, 19/10), consumo de carne mínimo histórico (cubierta 29/10), petróleo supera a la harina de soja (cubierta 14/11), RIGI proveedores locales (cubierto), Toyota Tacoma híbrida US$1.300 M (RIGI sin resolución localizada), LEGO tienda (juguetes cubiertos 26/09 y 03/11), INV retiros voluntarios, Belgrano Cargas acceso a la red, crecida del Paraná en Rosario.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-17",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

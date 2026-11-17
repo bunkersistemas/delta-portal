@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T00:50:53-03:00",
+    "actualizado": "2026-11-17T02:43:51-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-personal-lineas-prepagas-baja-180-dias",
+      "titulo": "Personal tiene 2,4 millones de líneas menos que hace un año, pero factura 6,8% más por sus celulares",
+      "bajada": "Personal tiene menos líneas que hace un año y factura más por ellas. Según el balance que Telecom presentó el lunes ante la SEC, cerró septiembre con 17,9 millones de líneas móviles en la Argentina, contra 20,3 millones un año antes, y casi toda la baja son prepagas: desde junio de 2026, una línea que pasa 180 días sin recarga deja de contarse como cliente, cuando hasta mediados de 2025 el plazo era de 360 días. Mientras tanto, los ingresos por servicios móviles subieron 6,8% en moneda constante, y el ingreso promedio por línea, 18,8%.",
+      "titulo_busqueda": "¿Por qué Personal tiene menos clientes?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "−2,4 M",
+      "numero_label": "líneas móviles menos de Personal en la Argentina, septiembre de 2026 contra septiembre de 2025 (de 20,3 a 17,9 millones)",
+      "fecha": "2026-11-17",
+      "hora": "04:30",
+      "archivo": "articulos/2026-11-17-personal-lineas-prepagas-baja-180-dias.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Telecom EEFF 30/09/2026 6-K SEC 16/11 (tm2629648d2): customer base 17.9 M vs 20.3 M; prepaid -20.1% por desconexion 360->242 dias (jun-25) y 242->180 (jun-26); postpaid +1.1%; mobile services revenue 9M26 P$2.222.316 M (+141.080, +6.8%); ARPU 12.940,8 vs 10.890,4 (+18.8%); churn 2.0% vs 2.1%. Release 3T26 12/11 (tm2629648d1): 17.9 M, -2.4 M o -11.8%. Serie: 20-F 2024 dic-22 20.2 / dic-23 21.0; 20-F 2025 dic-24 21.6 / dic-25 19.9 (prepaid -10.7% por 360->242); release 2T26 jun-26 19.4 (-1.5 M i.a. -> jun-25 20.9). Contraste: AMX 2T26 Claro -1.5 M prepagas, 26.4 M; 3T26 26.7 M; ENACOM TelMovilAccesosTotales 3T25 64.887.652, 1T26 64.441.043, 2T26 64.282.292."
+    },
     {
       "id": "2026-11-17-ia-inversion-pbi-importaciones-reserva-federal",
       "titulo": "38% de lo que la inversión en IA sumó al crecimiento de EE.UU. a comienzos de 2026 se fue en equipos importados, según economistas de la Fed",
