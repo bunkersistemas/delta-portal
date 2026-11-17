@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T04:47:53-03:00",
+    "actualizado": "2026-11-17T06:54:42-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-cigarrillos-ventas-minimo-desde-1972-pymes",
+      "titulo": "En 2025 se vendieron 1.617 millones de paquetes de cigarrillos, la menor cantidad desde 1972",
+      "bajada": "Las ventas legales de cigarrillos cayeron 25,6% desde 2008, pero la caída no fue pareja: las grandes tabacaleras vendieron 51,0% menos y las pymes pasaron de 3,3% a 36,3% del mercado. En 2025 el total quedó en 34,9 paquetes por habitante, menos de la mitad que en 1981 y el nivel más bajo desde 1938, según la serie del Ministerio de Agricultura. En 2026 la baja sigue: 4,2% menos en los primeros nueve meses.",
+      "titulo_busqueda": "¿Se fuma menos en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1.617 M",
+      "numero_label": "paquetes de cigarrillos vendidos en el circuito legal de la Argentina en 2025, la menor cantidad desde 1972",
+      "fecha": "2026-11-17",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-17-cigarrillos-ventas-minimo-desde-1972-pymes.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "SAGyP Coordinación de Tabaco, planilla grandes y pymes: suma ene-dic 2025 = 1.617.133.991 (G 1.029.460.072 + P 587.673.919); planilla consumo aparente 1910-2026 (23/09/2026) la rotula '2026' = 1.617.133.990 (filas 2023-2026 corridas un año: '2023' repite 2022 1.857.593.932; '2024' = suma 2023 1.829.794.727; '2025' = suma 2024 1.665.687.119). Previo menor: 1972 1.584.330.130; 1973-2024 todos mayores (mínimo 1982 1.624.369.829). Por habitante: 1.617.133.991 / 46.387.098 (INDEC proy. 2025) = 34,86; 1938 468.016.113/13.730.301 = 34,09; 1939 35,62; 1981 77,64. Contraste: PMI 10-K mercado Argentina (miles de M de unidades) 2015 40,8 / 2016 36,1 / 2018 35,0 / 2022 30,3 / 2023 28,8 / 2024 26,4 / 2025 26,8 vs SAGyP x20: 40,62 / 35,88 / 34,79 / 37,15 / 36,60 / 33,31 / 32,34; 2022-2025 -11,6% vs -12,9%; 2025 +1,8% vs -2,9% (G +3,5%, P -12,4%); envíos PMI 2016 27,512 -> 2025 17,0 (-38,2%) vs grandes SAGyP -39,2%. INDEC IPI subclase 16009 promedio anual 2016 96,18, 2023 89,34, 2024 80,84, 2025 75,55 (mínimo de la serie). ENFR 2018: prevalencia 29,7% (2005) -> 22,2% (2018); paquetes/hab 49,34 -> 39,10 (-20,8%)."
+    },
     {
       "id": "2026-11-17-cmpc-bosques-argentina-precio-hectarea",
       "titulo": "CMPC vendió sus bosques de Corrientes y Misiones a US$1.809 la hectárea: un mes antes había cobrado 3,4 veces más por cada hectárea de pino en Chile",

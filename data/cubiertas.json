@@ -9274,6 +9274,21 @@
       "fecha": "2026-11-17",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿se fuma menos en la Argentina? / ventas legales de cigarrillos (pregunta detrás del Día Internacional de Lucha contra el Cáncer de Pulmón 17/11/2026 y del tumor de pulmón que contó León XIV, infobae 17/11) / SAGyP Coordinación de Tabaco: 1.617.133.991 paquetes en 2025 (suma mensual de la planilla grandes y pymes; la planilla anual 1910-2026 corre un año las filas 2023-2026 y repite 2022), menor desde 1972 (1.584,3 M); 34,9 por habitante (INDEC proy. 2025), menor desde 1938 (34,1), 1981 77,6; grandes 2.100,9 M (2008) -> 1.029,5 M (2025, -51,0%), pymes 72,1 -> 587,7 M (3,3% -> 36,3%; pico 40,5% en 2023); ene-sep 2026 1.146,5 M (-4,2%), pymes 39,9%; precio sep-26 $450 a $6.750, promedio ponderado $2.976,48",
+      "angulo": "Corrida de redacción del 17/11/2026 06:30, primera candidata que pasó la vara. Hallazgo: serie de 115 años y el corrimiento entre grandes y pymes, con un error de la planilla anual del ministerio detectado y corregido con la mensual. Camino: estadística oficial recalculada + contraste independiente: 10-K de Philip Morris ante la SEC (mercado argentino a menos de 1% del ministerio en 2014-2018; desde 2022, 17-21% abajo por cobertura de IMS de las pymes; 2022-2025 -11,6% vs -12,9%; 2025 +1,8% vs -2,9%, explicado por grandes +3,5% y pymes -12,4%; envíos PMI 2016-2025 -38,2% vs grandes -39,2%), IPI INDEC subclase cigarrillos (2025 mínimo de la serie 2016) y ENFR 2018 (prevalencia 29,7% -> 22,2%). No se afirma que se fume menos (circuito legal) ni causas; no se nombran empresas por grupo.",
+      "fecha": "2026-11-17",
+      "estado": "publicada",
+      "articulo_id": "2026-11-17-cigarrillos-ventas-minimo-desde-1972-pymes",
+      "seccion": "ECONOMÍA"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 17/11/2026 06:30. Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN con _privado/rastreo/portadas.py; portada general de infobae. Hoy ya salieron IA (Fed), EMPRESAS (Personal y CMPC): sin cupo de empresas. Probada y descartada: compras del BCRA en 2026 contra la suba de reservas (BCRA API v4 vars 77-82: compras 16.057 al 11/11, org. int. -5.859, sector público -3.218, efectivo mínimo +1.622, otros -360, reservas +8.241 = 51 de cada 100; IMM oct-26 15.977 a octubre = suma propia; contraste FMI extrans1 2026 desembolsos 763 M DEG, recompras 583,3, cargos 1.714,8) -> repetida: publicada el 08/10 ('compró US$14.709 M pero las reservas subieron US$7.562 M'); la serie por año desde 2003 no alcanza como ángulo nuevo. No probadas: superávit fiscal de octubre (cubierto 16/11), deuda pública +US$3.000 M (serie cubierta 15/10), RIGI proveedores (cubierto 16/11), canasta de crianza (cubierta), riesgo país 850 (cubierto 29/10 y 08/11), bancarios (molde agotado), real brasileño (cubierto), Plus Ultra cancela Ezeiza-Madrid (cubierta 13/11), Toyota Tacoma US$1.300 M (pick-ups a Brasil cubiertas 02/11; RIGI sin resolución), Belgrano Cargas (cubierto 16/11), LEGO (juguetes cubiertos), PASO en el Senado (costo cubierto 04/10), natalidad y jubilaciones (en cola 08/11), Mastellone 9M y Newsan-Procenex (cupo de empresas cubierto), Molinos-Tía Maruca (sin precio), Galicia demanda colectiva (sin cifra), crecida del Paraná (sin cifra propia), Ueno Bank (cubierto 06-07/11); calendario: SIPM e ICC de octubre (INDEC hoy 16 h, no publicados a la hora de la corrida). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-17",
+      "estado": "descartada",
+      "motivo_descarte": "reservas: repetida del 08/10; el resto no se probó porque pasó la candidata de cigarrillos"
     }
   ]
 }
