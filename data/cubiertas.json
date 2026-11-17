@@ -9315,6 +9315,20 @@
       "fecha": "2026-11-17",
       "estado": "en_cola",
       "archivo": "cola/2026-11-17-supervielle-158-millones-por-empleado-retiros.html"
+    },
+    {
+      "tema": "¿cuántos trabajadores aportan por cada jubilado? (pregunta detrás de El Cronista 17/11/2026 \"La natalidad se hunde y el futuro de las jubilaciones queda bajo presión\", Bernués: \"aproximadamente 1,5 activo por cada pasivo\") / BESS cuadro 4.1.1.1: 1,41 aportantes por beneficio en jun-26 contra 1,60 en 2023; -654.800 aportantes y +420.800 beneficios (96% con moratoria); 58,8% de la caida de aportantes = monotributistas sin aporte SIPA (631.330 -> 246.336)",
+      "angulo": "Corrida del 17/11/2026 14:30. Hallazgo propio: la descomposicion de la caida 2023-jun 2026 de la relacion aportantes/beneficios (mitad aportantes, mitad beneficios), que el 96% de los beneficios nuevos son con moratoria y que casi seis de cada diez aportantes perdidos eran monotributistas sin aporte jubilatorio; contraste OEDE monotributo social -382.400. Distinta de la nota del 16/10 (cuanto aporta un monotributista) y de la del 08/11 (proyecciones de poblacion). FRENADA antes en esta corrida: placas de yeso contra yeso (ISAC, pregunta detras del cierre de la planta de Durlock/Corral en General Roca, infobae 17/11): yeso ene-sep 2026 -35% contra 2012 y placas +23%, importaciones de placas marginales (NCM 6809.11 505 t ene-sep 2026), pero sin contraste independiente para el yeso (IPI cal y yeso es INDEC; Rio Negro mide extraccion de mineral para placas y cemento; Etex no publica volumenes por pais). Descartes: Galicia demanda colectiva por comision de dolares (sin monto; el regimen de transparencia BCRA no publica esa comision), Central Urbana PN negativo (HR sin cifras), Holcim respuesta a ANSES (cubierta 13/11), Molinos Tia Maruca (sin precio), Mastellone tambos (frenada 16/11, sin serie previa a 2020), jubilados de mas de $10 M (cubierta 19/10), deuda publica de octubre y superavit (dato del dia), PASO (cubierta 04/10), Belgrano Cargas (16/11), juguetes/LEGO (cubierto), SanCor (quiebra de abril, sin datos por empresa), SIPM e ICC de octubre (sin publicar al momento de elegir).",
+      "fecha": "2026-11-17",
+      "estado": "en_cola",
+      "archivo": "cola/2026-11-17-aportantes-por-jubilacion-141-moratoria-monotributo-social.html"
+    },
+    {
+      "tema": "placas de yeso contra yeso en polvo (ISAC INDEC 2012-2026) / pregunta detras del cierre de la planta de yeso de Compania Corral (Etex/Durlock) en General Roca (infobae 17/11/2026)",
+      "angulo": "yeso ene-sep 2026 indice 140,8 (-35% contra 2012, -37% contra 2023, -11,6% i.a.), placas 379,2 (+23% contra 2012, +0,9% i.a.); importacion de placas 6809.11 marginal.",
+      "fecha": "2026-11-17",
+      "estado": "descartada",
+      "motivo_descarte": "cifra ancla del ISAC sin contraste independiente: el IPI cal y yeso es del mismo organismo, Rio Negro mide extraccion de mineral (que va a placas y cemento) y Etex no publica volumenes de Argentina"
     }
   ]
 }

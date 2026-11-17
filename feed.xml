@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 17 Nov 2026 12:59:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 14:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Por cada jubilación o pensión que paga la ANSES hay 1,41 personas que aportan, contra 1,60 en 2023</title>
+      <link>https://coninteres.com/articulos/2026-11-17-aportantes-por-jubilacion-141-moratoria-monotributo-social.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-17-aportantes-por-jubilacion-141-moratoria-monotributo-social.html</guid>
+      <pubDate>Tue, 17 Nov 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En junio de 2026 había 1,41 personas aportando al sistema previsional por cada jubilación o pensión que pagaba la ANSES, según el boletín de la Secretaría de Seguridad Social. En 2023 eran 1,60. La caída tiene dos mitades: unas 420.800 jubilaciones y pensiones más, 96% de ellas con moratoria, y 654.800 aportantes menos. Y casi seis de cada diez aportantes que faltan son monotributistas que no ponían plata para la jubilación.</description>
+      <ci:numero>1,41</ci:numero>
+      <ci:numeroEtiqueta>personas que aportan al sistema previsional por cada jubilación o pensión que paga la ANSES, junio de 2026 (1,60 en 2023)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-aportantes-por-jubilacion-141-moratoria-monotributo-social.png" length="63510" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-aportantes-por-jubilacion-141-moratoria-monotributo-social.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Supervielle pagó unos $158 millones por cada uno de los 540 empleados que se fueron entre enero y septiembre</title>
       <link>https://coninteres.com/articulos/2026-11-17-supervielle-158-millones-por-empleado-retiros.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>resultado operativo de Mastellone Hermanos (La Serenísima) entre enero y septiembre de 2026, en pesos de septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-la-serenisima-gano-por-el-dolar-negocio-perdio.png" length="78390" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-la-serenisima-gano-por-el-dolar-negocio-perdio.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Metrogas todavía tiene 1.951 kilómetros de caños de hierro fundido: en 2025 renovó 79, menos de un tercio que en 2019</title>
-      <link>https://coninteres.com/articulos/2026-11-15-metrogas-hierro-fundido-renovacion-redes.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-15-metrogas-hierro-fundido-renovacion-redes.html</guid>
-      <pubDate>Sun, 15 Nov 2026 01:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>A fines de 2025, Metrogas tenía 1.951 kilómetros de caños de hierro fundido, uno de cada diez de su red en la Ciudad y el sur del conurbano. Ese año tendió 79 kilómetros de polietileno para reemplazarlos, menos de un tercio que los 260 de 2019. Entre 2022 y 2025 el hierro fundido bajó 111 kilómetros: a ese ritmo, cambiarlo todo llevaría más de medio siglo. La explosión del 13 de noviembre en Remedios de Escalada se produjo después de que una máquina de esa renovación dañara un caño de gas.</description>
-      <ci:numero>1.951 km</ci:numero>
-      <ci:numeroEtiqueta>caños de hierro fundido en la red de Metrogas a fines de 2025, uno de cada diez de sus 18.629 kilómetros</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-metrogas-hierro-fundido-renovacion-redes.png" length="67871" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-metrogas-hierro-fundido-renovacion-redes.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

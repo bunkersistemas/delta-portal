@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T12:59:00-03:00",
+    "actualizado": "2026-11-17T14:54:11-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-aportantes-por-jubilacion-141-moratoria-monotributo-social",
+      "titulo": "Por cada jubilación o pensión que paga la ANSES hay 1,41 personas que aportan, contra 1,60 en 2023",
+      "bajada": "En junio de 2026 había 1,41 personas aportando al sistema previsional por cada jubilación o pensión que pagaba la ANSES, según el boletín de la Secretaría de Seguridad Social. En 2023 eran 1,60. La caída tiene dos mitades: unas 420.800 jubilaciones y pensiones más, 96% de ellas con moratoria, y 654.800 aportantes menos. Y casi seis de cada diez aportantes que faltan son monotributistas que no ponían plata para la jubilación.",
+      "titulo_busqueda": "¿Cuántos trabajadores aportan por cada jubilado en la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,41",
+      "numero_label": "personas que aportan al sistema previsional por cada jubilación o pensión que paga la ANSES, junio de 2026 (1,60 en 2023)",
+      "fecha": "2026-11-17",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-17-aportantes-por-jubilacion-141-moratoria-monotributo-social.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "BESS (Secretaria de Seguridad Social) cuadro 4.1.1.1 indicadores 09-2026: jun-26 10.288.935 aportantes / 7.273.340 beneficios = 1,4146; 2023 1,5966. Recalculo: activos 06-2026 cuadro 1.1.1.b (subtotal DDJJ RD y resto con demora hasta 12 meses) 10.288.935 jun-26, 10.943.735 2023; pasivos 06-2026 cuadro 2.3.1 no suspendidos 7.273.340 (con moratoria 4.404.879, sin 2.868.461), 2023 6.852.539 (3.999.521 / 2.853.019). Delta aportantes -654.800; beneficios +420.801 (con moratoria +405.358 = 96,3%). Contrafactuales 1,505 / 1,501. Monotributo sin aporte SIPA no jubilados 631.330 -> 246.336 (-384.994 = 58,8% de la caida); RD no jubilados 7.326.397 -> 6.987.010 (-339.387). Contraste OEDE/SIPA trabajoregistrado_2608 T.2.2 desest: total 13.269,9 (prom 2023) -> 12.770,0 miles jun-26 (-3,8%); asalariados pub+priv -312,5; monotributo social 609,7 -> 227,3 (-382,4); monotributo 1.980,8 -> 2.217,2 (+236,3). Scripts _privado/aportantes/."
+    },
     {
       "id": "2026-11-17-supervielle-158-millones-por-empleado-retiros",
       "titulo": "Supervielle pagó unos $158 millones por cada uno de los 540 empleados que se fueron entre enero y septiembre",
