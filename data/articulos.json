@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-16T20:42:45-03:00",
+    "actualizado": "2026-11-16T22:43:13-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-16-newsan-fabricas-tierra-del-fuego-ganancia-bruta",
+      "titulo": "La ganancia bruta de las fábricas de Newsan en Tierra del Fuego cayó 52% en un año: más de la mitad de la de toda la empresa ya sale de Gillette y Pampers",
+      "bajada": "Newsan factura más que hace un año, pero lo que fabrica en Ushuaia le deja mucho menos. Según su balance al 30 de septiembre, sus plantas le dejaron $152.141 millones de ganancia bruta en nueve meses, contra $316.553 millones un año antes en moneda constante. Su margen bruto bajó de 33% a 14,7%, el más bajo en al menos cinco años, y fabricó 2,06 millones de unidades, la mitad que en 2023. El negocio de consumo masivo que le compró a P&G ya aporta el 52,5% de la ganancia bruta, y este lunes la empresa anunció otra compra en ese rubro.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "−52%",
+      "numero_label": "caída de la ganancia bruta de las plantas de Newsan en Tierra del Fuego, enero a septiembre de 2026 contra 2025, en moneda constante",
+      "fecha": "2026-11-16",
+      "hora": "23:00",
+      "archivo": "articulos/2026-11-16-newsan-fabricas-tierra-del-fuego-ganancia-bruta.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Newsan EEFF consolidados 30/09/2026 nota 28 (CNV 12/11/2026): produccion propia ventas 1.037.020 / costo 884.879 -> GB 152.141; 9M25 reexpresado 960.502 / 643.949 -> GB 316.553 (-51,9%); suma de segmentos = GB del estado de resultados 413.739 / 564.199; margen 14,67% vs 32,96% (9M25 original 720.259/482.883 = 32,96%); serie 9M22-9M26 17,1/26,8/31,5/33,0/14,7. Contraste: unidades fabricadas resenia 2.057.730 vs 2.951.734 (-30,3%) y 4.264.482 9M23 (-51,7%); INDEC IPI subclase 30000/32100/200/300 prom ene-sep 133,77 vs 220,93 (-39,5%) y 297,15 (-55,0%). Beneficio promocional 179.634 (nota 19)."
+    },
     {
       "id": "2026-11-16-los-grobo-alquila-plantas-acopio-amaggi",
       "titulo": "Los Grobo perdió plata con sus plantas de acopio dos años seguidos: desde enero se las alquila a Amaggi por US$4,8 millones fijos al año",
