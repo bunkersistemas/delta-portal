@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 17 Nov 2026 18:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 20:49:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Agro de Souza debía $15.717 millones a bancos y SGR cuando pidió el concurso, y su último balance público es de 2023</title>
+      <link>https://coninteres.com/articulos/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.html</guid>
+      <pubDate>Tue, 17 Nov 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Hasta julio, todos los bancos que le prestaban a Agro de Souza la tenían como deudor normal. El 15 de septiembre, la concesionaria de maquinaria agrícola de Coronel Suárez, que tiene obligaciones negociables en la Bolsa, pidió el concurso preventivo. Ese mes les debía $15.717 millones a 14 bancos y seis SGR, según el Banco Central: 37% más que dos años antes, descontada la inflación. Su último balance público es de 2023, y el concurso lo informó a la CNV 61 días después de la apertura.</description>
+      <ci:numero>$15.717 M</ci:numero>
+      <ci:numeroEtiqueta>deuda de Agro de Souza con bancos y SGR en septiembre de 2026, el mes en que pidió el concurso preventivo</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.png" length="75453" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>35 de cada 100 pesos depositados en los bancos de Santa Fe, Entre Ríos y San Juan son del sector público: el doble que en el sistema</title>
       <link>https://coninteres.com/articulos/2026-11-17-bancos-petersen-santa-fe-entre-rios-san-juan-depositos-publicos.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>puestos de trabajo asalariados registrados en la fabricación de calzado, primer trimestre de 2026: el menor desde 1996</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-calzado-trabajadores-minimo-desde-1996.png" length="61219" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-calzado-trabajadores-minimo-desde-1996.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>En 2000 la Argentina tuvo la inflación más baja de América Latina y el Caribe; desde 2012 nunca salió de las cuatro más altas</title>
-      <link>https://coninteres.com/articulos/2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026.html</guid>
-      <pubDate>Sun, 15 Nov 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>La Argentina pasó de tener la inflación más baja de América Latina y el Caribe a no salir de las cuatro más altas. En 2000 sus precios bajaron 0,7%, y ningún otro país de la región terminó el año con un número menor. Desde 2012 no volvió a bajar del cuarto puesto, según las series del FMI y de la CEPAL. En 2023 y 2024 fue la primera. En 2025 y en septiembre de 2026, segunda: solo Venezuela estuvo arriba.</description>
-      <ci:numero>14 años</ci:numero>
-      <ci:numeroEtiqueta>seguidos, de 2012 a 2025, con la Argentina entre las cuatro inflaciones más altas de América Latina y el Caribe</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026.png" length="66324" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-inflacion-america-latina-ranking-argentina-1998-2026.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-17T18:30",
+  "generado": "2026-11-17T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -7,12 +7,39 @@
   "incompleto": [],
   "hechos": [
     {
+      "id": "cnv-3594162",
+      "fuente": "CNV",
+      "fecha": "2026-11-17T19:34",
+      "entidad": "AGRO DE SOUZA S.A",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN JUDICIAL - HECHO RELEVANTE - PRESENTACIÓN DE CONCURSO PREVENTIVO DE ACREEDORES",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/BA9C6735-DCD0-48A1-9F1E-99E8B0ABA0CF"
+    },
+    {
+      "id": "cnv-3594335",
+      "fuente": "CNV",
+      "fecha": "2026-11-17T18:42",
+      "entidad": "LOMA NEGRA CIASA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - HECHO RELEVANTE - PLAN DE ADQUISICIÓN DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/532D6D29-F2F3-4CAC-8AC2-B6729A10F180"
+    },
+    {
+      "id": "cnv-3594334",
+      "fuente": "CNV",
+      "fecha": "2026-11-17T18:39",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICION DE ACCIONES PROPIAS EN LOS TERMINOS DEL ARTICULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/765624CA-2E79-4068-BD1C-7E41FE38F02E"
+    },
+    {
       "id": "cnv-3594327",
       "fuente": "CNV",
       "fecha": "2026-11-17T18:20",
       "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
       "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9DE31EDC-CCB0-4687-BF04-41C088AEE674"
     },
     {
@@ -1653,6 +1680,10 @@
     "sec-0001104659-26-127621": "2026-11-16",
     "sec-0001104659-26-128487": "2026-11-16",
     "sec-0001104659-26-129015": "2026-11-17",
+    "sec-0001104659-26-129103": "2026-11-17",
+    "sec-0001104659-26-129109": "2026-11-17",
+    "sec-0001104659-26-129112": "2026-11-17",
+    "sec-0001104659-26-129132": "2026-11-17",
     "sec-0001114700-26-000085": "2026-11-16",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
@@ -1701,6 +1732,7 @@
     "sec-0001711375-26-000051": "2026-11-04",
     "sec-0001711375-26-000053": "2026-11-05",
     "sec-0001711375-26-000055": "2026-11-05",
-    "sec-0001711375-26-000057": "2026-11-12"
+    "sec-0001711375-26-000057": "2026-11-12",
+    "sec-0001711375-26-000063": "2026-11-17"
   }
 }

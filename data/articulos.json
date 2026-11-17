@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T18:48:05-03:00",
+    "actualizado": "2026-11-17T20:49:56-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance",
+      "titulo": "Agro de Souza debía $15.717 millones a bancos y SGR cuando pidió el concurso, y su último balance público es de 2023",
+      "bajada": "Hasta julio, todos los bancos que le prestaban a Agro de Souza la tenían como deudor normal. El 15 de septiembre, la concesionaria de maquinaria agrícola de Coronel Suárez, que tiene obligaciones negociables en la Bolsa, pidió el concurso preventivo. Ese mes les debía $15.717 millones a 14 bancos y seis SGR, según el Banco Central: 37% más que dos años antes, descontada la inflación. Su último balance público es de 2023, y el concurso lo informó a la CNV 61 días después de la apertura.",
+      "titulo_busqueda": "Agro de Souza en concurso preventivo: cuánto debe y a quién",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de una deuda",
+      "numero": "$15.717 M",
+      "numero_label": "deuda de Agro de Souza con bancos y SGR en septiembre de 2026, el mes en que pidió el concurso preventivo",
+      "fecha": "2026-11-17",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA Central de Deudores, CUIT 30707923446, periodo 202609: 14 bancos $15.623.607 miles + 6 SGR $93.351 miles = $15.716.958 miles (historicas = actual). Contraste: HR CNV 17/11/2026 (concurso 15/09, apertura 17/09, expte 58.450 JCC 8 Bahia Blanca), prospecto Serie II dic-2024 (situacion 1, pasivo $1.895.781.135,56 al 30/09/2023), garantes Supervielle y Comafi figuran como acreedores. Real: IPC oct-24 7313,9542 -> sep-26 12514,1508."
+    },
     {
       "id": "2026-11-17-bancos-petersen-santa-fe-entre-rios-san-juan-depositos-publicos",
       "titulo": "35 de cada 100 pesos depositados en los bancos de Santa Fe, Entre Ríos y San Juan son del sector público: el doble que en el sistema",
