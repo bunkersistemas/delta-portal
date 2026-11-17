@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 17 Nov 2026 11:01:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 12:59:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Supervielle pagó unos $158 millones por cada uno de los 540 empleados que se fueron entre enero y septiembre</title>
+      <link>https://coninteres.com/articulos/2026-11-17-supervielle-158-millones-por-empleado-retiros.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-17-supervielle-158-millones-por-empleado-retiros.html</guid>
+      <pubDate>Tue, 17 Nov 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Grupo Supervielle ganó plata en los nueve meses del año, pero casi toda la ganancia se fue en pagar la salida de su personal. Según sus informes de resultados ante la CNV, cargó $85.200 millones en indemnizaciones y retiros anticipados entre enero y septiembre por la salida de 540 empleados. Sin ese costo habría ganado $56.554 millones; ganó $1.143 millones. Banco Supervielle tenía el 3,3% de los empleados de los bancos a fin de 2025 y, según el BCRA, explica el 15,7% de los puestos que el sistema perdió en el primer semestre: casi uno de cada seis.</description>
+      <ci:numero>$158 M</ci:numero>
+      <ci:numeroEtiqueta>costo promedio en indemnizaciones y retiros anticipados por cada uno de los 540 empleados que desvinculó Grupo Supervielle en 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-supervielle-158-millones-por-empleado-retiros.png" length="70022" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-supervielle-158-millones-por-empleado-retiros.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El gasoil llevó 5,8% de biodiésel en 2025, aunque la norma exige 7,5%: desde 2023, solo dos meses llegaron al corte que ahora el Congreso quiere subir a 10%</title>
       <link>https://coninteres.com/articulos/2026-11-17-biodiesel-gasoil-corte-5-8-por-ciento.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>caños de hierro fundido en la red de Metrogas a fines de 2025, uno de cada diez de sus 18.629 kilómetros</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-metrogas-hierro-fundido-renovacion-redes.png" length="67871" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-metrogas-hierro-fundido-renovacion-redes.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Agro 2000 se quedó con el 80% de Rosenbusch, el laboratorio de vacunas veterinarias, pagando US$194.000 al contado: el resto, en cuotas hasta 2043</title>
-      <link>https://coninteres.com/articulos/2026-11-14-rosenbusch-agro-2000-control-cuotas-revaluo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-14-rosenbusch-agro-2000-control-cuotas-revaluo.html</guid>
-      <pubDate>Sat, 14 Nov 2026 22:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>El precio fue de US$6,09 millones, pero el 96,8% se paga en cuotas anuales hasta 2043 y la única garantía son las mismas acciones. Después de la compra, los libros de la empresa se dieron vuelta sin que el negocio dejara de perder: el patrimonio pasó de −$4.604 millones a +$6.056 millones porque un revalúo técnico sumó $12.328 millones al valor de la planta y el nuevo dueño le perdonó deudas. Mientras tanto, por cada $100 que facturó en nueve meses, gastó $116,7 en producir.</description>
-      <ci:numero>US$194.000</ci:numero>
-      <ci:numeroEtiqueta>pago al contado de Agro 2000 por el 80,16% de Instituto Rosenbusch en febrero de 2026, sobre un precio de US$6,09 millones en cuotas hasta 2043</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-14-rosenbusch-agro-2000-control-cuotas-revaluo.png" length="87121" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-14-rosenbusch-agro-2000-control-cuotas-revaluo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

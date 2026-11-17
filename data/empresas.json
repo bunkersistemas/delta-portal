@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-17T10:30",
+  "generado": "2026-11-17T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593850",
+      "fuente": "CNV",
+      "fecha": "2026-11-17T12:09",
+      "entidad": "BANCO SUPERVIELLE S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE EECC 09 2026 APROBADOS POR EL DIRECTORIO EL 16 DE NOVIEMBRE 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/AB7A8E01-939D-472C-A1AC-A473B210A149"
+    },
     {
       "id": "cnv-3593817",
       "fuente": "CNV",

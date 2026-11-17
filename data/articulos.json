@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T11:00:46-03:00",
+    "actualizado": "2026-11-17T12:59:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-supervielle-158-millones-por-empleado-retiros",
+      "titulo": "Supervielle pagó unos $158 millones por cada uno de los 540 empleados que se fueron entre enero y septiembre",
+      "bajada": "Grupo Supervielle ganó plata en los nueve meses del año, pero casi toda la ganancia se fue en pagar la salida de su personal. Según sus informes de resultados ante la CNV, cargó $85.200 millones en indemnizaciones y retiros anticipados entre enero y septiembre por la salida de 540 empleados. Sin ese costo habría ganado $56.554 millones; ganó $1.143 millones. Banco Supervielle tenía el 3,3% de los empleados de los bancos a fin de 2025 y, según el BCRA, explica el 15,7% de los puestos que el sistema perdió en el primer semestre: casi uno de cada seis.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$158 M",
+      "numero_label": "costo promedio en indemnizaciones y retiros anticipados por cada uno de los 540 empleados que desvinculó Grupo Supervielle en 2026",
+      "fecha": "2026-11-17",
+      "hora": "14:30",
+      "archivo": "articulos/2026-11-17-supervielle-158-millones-por-empleado-retiros.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Calculo propio: Grupo Supervielle, informe de resultados 3T26 (CNV 16/11/2026, HR 3BC32409): cargos por indemnizaciones y retiros anticipados 9M26 AR$85.200 M (2T26 38.100, 3T26 ~5.900, 1T26 por diferencia 41.200), pesos sep-26; informe 2T26 (CNV 10/08/2026): 'desvinculacion de 540 empleados al 30 de junio de 2026' (cargos 6M26 AR$75.000 M pesos jun-26 -> 79.300 pesos sep-26, +5,7%); informe 1T26 (CNV 06/05/2026): AR$36.564,8 M por 278 empleados. 85.200/540 = 157,8. Resultado neto 9M26 1.143,0 vs ajustado 56.554,4; antes de impuestos 7.352,5 vs 92.600,9. Contraste BCRA Informacion de Entidades Financieras ago-2026: Banco Supervielle dotacion dic-25 2.916 -> jun-26 2.421 (-495; empresa 2.917 -> 2.422), Bancos 88.862 -> 85.707 (-3.155): 15,69% de la caida con 3,28% del empleo; resto -3,1%. EEFF consolidados 30/06/2026 nota 7.23 beneficios al personal 238.024.633 miles = informe 2T26. Repago ~10 meses (ESTIMACION): personal sin cargos 3T25 100.707,3 vs 3T26 75.787,2. Scripts en _privado/supervielle3t/."
+    },
     {
       "id": "2026-11-17-biodiesel-gasoil-corte-5-8-por-ciento",
       "titulo": "El gasoil llevó 5,8% de biodiésel en 2025, aunque la norma exige 7,5%: desde 2023, solo dos meses llegaron al corte que ahora el Congreso quiere subir a 10%",
