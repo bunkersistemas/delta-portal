@@ -9260,6 +9260,20 @@
       "fecha": "2026-11-17",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "EMPRESAS: CMPC vende su operación forestal argentina (Forestal Bosques del Plata y Forestal Timbauva, ~94.000 ha en Corrientes y Misiones, ~65.000 plantables) al Grupo Faro Verde por US$170 M (comunicado CMPC y hecho esencial CMF 16/11/2026; ámbito 16/11 'Un empresario argentino compra 94.000 hectáreas a un gigante chileno') / precio por hectárea US$1.809 vs US$6.092 en la venta de ~60.000 ha en el Maule (CMPC 21/10/2026, nota 40 EEFF 30/09/2026): 3,4 veces; por ha plantable US$2.615 vs >=US$6.092; Klabin-Arauco Paraná 2023 US$7.733/ha y US$13.647/ha productiva",
+      "angulo": "Corrida programada del 17/11/2026 04:30. Hallazgo: cruce propio de tres documentos de empresas; las dos ventas más caras tenían una fábrica compradora de la madera (contrato de suministro con la planta de cartulinas de Maule; Puma II de Klabin) y la argentina no ('no estaba integrada', CMPC). Bosques del Plata con US$17,6 M de pérdidas fiscales que CMPC no espera usar. Camino: documentos de las empresas cruzados entre sí + superficie contrastada con NEPCon/FSC. No se afirma ganancia ni pérdida contable de CMPC (sin valor en libros por país).",
+      "fecha": "2026-11-17",
+      "estado": "publicada",
+      "articulo_id": "2026-11-17-cmpc-bosques-argentina-precio-hectarea"
+    },
+    {
+      "tema": "descartes de la corrida programada del 17/11/2026 04:30: no se probaron porque pasó la primera candidata (CMPC, bosques argentinos). Lista: forestación Argentina vs Uruguay (infobae 15/11, 'seis veces menos divisas': Comtrade no sirve, la celulosa uruguaya sale de zonas francas y no figura en el capítulo 47 de Uruguay), morosidad de billeteras y fintech vs bancos (Clarín, Cronista 16-17/11; mora cubierta 20/07, 01/09, 26/09; el Informe de PNFC del BCRA sale el 26/11), real brasileño +16% desde la reelección de Lula (infobae; ITCRB cubierto 05/10), Arauco habilita la venta de activos en Argentina (iProfesional 26/10, sin activos definidos), Mastellone vuelve a ganar en 9M (La Nación; cupo de empresas ya cubierto hoy con Personal), Galicia demanda colectiva (HR 16/11), cupo de híbridos y eléctricos 2027 (infobae; cubierto 01/10), riesgo país 850 (cubierto 29/10 y en cola 08/11), bancarios (molde agotado); calendario: SIPM e ICC de octubre (INDEC hoy 16 h, todavía no publicados).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-17",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

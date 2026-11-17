@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T02:43:51-03:00",
+    "actualizado": "2026-11-17T04:47:53-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-cmpc-bosques-argentina-precio-hectarea",
+      "titulo": "CMPC vendió sus bosques de Corrientes y Misiones a US$1.809 la hectárea: un mes antes había cobrado 3,4 veces más por cada hectárea de pino en Chile",
+      "bajada": "La chilena CMPC vendió sus 94.000 hectáreas forestales de Corrientes y Misiones por US$170 millones: unos US$1.809 por hectárea. Un mes antes había cobrado unos US$6.092 por cada una de las 60.000 hectáreas de pino que vendió en el Maule, Chile, por US$365,5 millones. Sus propios documentos marcan qué separa a una venta de la otra: los bosques chilenos y los brasileños que se vendieron más caros tenían una fábrica que les compraba la madera; los argentinos, no.",
+      "titulo_busqueda": "¿Por cuánto vendió CMPC sus bosques en Argentina?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de una venta",
+      "numero": "US$1.809",
+      "numero_label": "precio por hectárea que cobró CMPC por sus 94.000 hectáreas forestales de Corrientes y Misiones, noviembre de 2026",
+      "fecha": "2026-11-17",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-17-cmpc-bosques-argentina-precio-hectarea.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "US$170.000.000 / 94.000 ha = 1.808,51 (comunicado CMPC 16/11/2026; hecho esencial CMF 16/11/2026 12:43, escaneado JBIG2, no legible). Superficie: NEPCon/FSC 2021 94.297,3 ha (US$1.803/ha, -0,3%); EEFF CMPC 30/09/2026 59 mil ha plantadas + 7 mil por plantar en Argentina (=66 mil vs 'unas 65 mil' plantables). Maule: US$365,5 M / 60.000 ha = 6.091,67 (comunicado 21/10/2026 + nota 40 EEFF 30/09/2026); ratio 3,368. Por ha plantable: 2.615,38 vs >=6.091,67 (>=2,33x). Klabin fato relevante 20/12/2023: US$1.160 M / 150.000 ha = 7.733; / 85.000 productivas = 13.647 (5,22x). Bosques del Plata: perdidas fiscales sin activo diferido US$17,551 M (30/09/2026) vs 15,217 M (31/12/2025), nota 22.1."
+    },
     {
       "id": "2026-11-17-personal-lineas-prepagas-baja-180-dias",
       "titulo": "Personal tiene 2,4 millones de líneas menos que hace un año, pero factura 6,8% más por sus celulares",

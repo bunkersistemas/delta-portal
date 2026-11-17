@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 17 Nov 2026 02:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 17 Nov 2026 04:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>CMPC vendió sus bosques de Corrientes y Misiones a US$1.809 la hectárea: un mes antes había cobrado 3,4 veces más por cada hectárea de pino en Chile</title>
+      <link>https://coninteres.com/articulos/2026-11-17-cmpc-bosques-argentina-precio-hectarea.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-17-cmpc-bosques-argentina-precio-hectarea.html</guid>
+      <pubDate>Tue, 17 Nov 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>La chilena CMPC vendió sus 94.000 hectáreas forestales de Corrientes y Misiones por US$170 millones: unos US$1.809 por hectárea. Un mes antes había cobrado unos US$6.092 por cada una de las 60.000 hectáreas de pino que vendió en el Maule, Chile, por US$365,5 millones. Sus propios documentos marcan qué separa a una venta de la otra: los bosques chilenos y los brasileños que se vendieron más caros tenían una fábrica que les compraba la madera; los argentinos, no.</description>
+      <ci:numero>US$1.809</ci:numero>
+      <ci:numeroEtiqueta>precio por hectárea que cobró CMPC por sus 94.000 hectáreas forestales de Corrientes y Misiones, noviembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-cmpc-bosques-argentina-precio-hectarea.png" length="84369" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-cmpc-bosques-argentina-precio-hectarea.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Personal tiene 2,4 millones de líneas menos que hace un año, pero factura 6,8% más por sus celulares</title>
       <link>https://coninteres.com/articulos/2026-11-17-personal-lineas-prepagas-baja-180-dias.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte de los ingresos de Boca que pagaron los socios con la cuota en el ejercicio 2025/26, la más alta de los tres balances disponibles</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-14-boca-finanzas-de-donde-saca-la-plata-en-que-la-gasta.png" length="51507" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-14-boca-finanzas-de-donde-saca-la-plata-en-que-la-gasta.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El DNI pasa a $20.000: son US$12,93, casi el doble de los US$7 en que el Estado lo fijó en 2019, 2025 y marzo de 2026</title>
-      <link>https://coninteres.com/articulos/2026-11-14-dni-20000-dolares-doble.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-14-dni-20000-dolares-doble.html</guid>
-      <pubDate>Sat, 14 Nov 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Desde el 21 de noviembre el DNI regular cuesta $20.000, el doble que hoy. Las tarifas de 2019, 2025 y marzo de 2026 habían arrancado todas en unos US$7 al dólar oficial; esta arranca en US$12,93. Y pasa a pesar 4,5% de la jubilación mínima, contra 2,6% a 2,8% en las anteriores.</description>
-      <ci:numero>US$12,93</ci:numero>
-      <ci:numeroEtiqueta>lo que cuesta el DNI regular desde el 21 de noviembre de 2026 al dólar oficial; las tarifas de 2019, 2025 y marzo de 2026 arrancaron en unos US$7</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-14-dni-20000-dolares-doble.png" length="78059" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-14-dni-20000-dolares-doble.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
