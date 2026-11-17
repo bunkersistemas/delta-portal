@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T16:42:58-03:00",
+    "actualizado": "2026-11-17T18:48:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-bancos-petersen-santa-fe-entre-rios-san-juan-depositos-publicos",
+      "titulo": "35 de cada 100 pesos depositados en los bancos de Santa Fe, Entre Ríos y San Juan son del sector público: el doble que en el sistema",
+      "bajada": "Según el BCRA, en agosto de 2026 el 35,4% de lo depositado en el Nuevo Banco de Santa Fe, el Nuevo Banco de Entre Ríos y el Banco de San Juan era plata del sector público: el doble que en el sistema (17,6%). Los tres son agentes financieros de su provincia, y el grupo Petersen va a integrarlos en un solo banco. Juntos sumarían $6,13 billones de depósitos: quedarían 11º en el sistema, no entre los diez primeros, y octavos entre los bancos privados.",
+      "titulo_busqueda": "Fusión de Banco Santa Fe, Bersa y Banco San Juan: qué tamaño tendría el nuevo banco",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "35,4%",
+      "numero_label": "parte de los depósitos de los bancos de Santa Fe, Entre Ríos y San Juan que es del sector público, agosto de 2026 (sistema: 17,6%)",
+      "fecha": "2026-11-17",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-17-bancos-petersen-santa-fe-entre-rios-san-juan-depositos-publicos.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Calculo propio: BCRA Informacion de Entidades Financieras ago-2026 (202608e.pdf), Evolucion de estados contables: depositos sector publico no financiero / depositos totales. Nuevo Banco de Santa Fe 1.146.215,5/3.682.461,0 (31,1%); Nuevo Banco de Entre Rios 472.789,6/1.457.371,2 (32,4%); Banco de San Juan 549.542,1/992.725,2 (55,4%); juntos 2.168.547,2/6.132.557,4 = 35,36%. Sistema financiero 40.516.600,9/230.112.539,2 = 17,61%. Recalculo: suma de 73 entidades = total del sistema (dep, activo, prestamos, dep publico) en dic-25, jun, jul, ago-26. Contraste: EEFF auditados al 30/06/2026 de los tres bancos = BCRA jun-26 al peso (dep 3.481.962.471 / 1.396.837.870 / 995.075.043 miles; publico 940.020.189 / 527.270.650 / 550.296.894 miles). Ranking por depositos ago-26: 11 (Ciudad 6.323.229,0 decimo; Supervielle 5.291.310,6 12); activo 8.192.060,6 y prestamos 3.426.713,6 tambien 11; privados 8; con Santa Cruz 6.623.350,5 = 9. Canon NBSF 1S26 11.109.018 miles vs resultado neto 10.288.694 miles; Bersa canon 4.616.036 vs 14.002.721. La Nacion 17/11/2026: 'uno de los diez primeros bancos del sistema financiero argentino'. Scripts en _privado/petersen/."
+    },
     {
       "id": "2026-11-17-mayorista-importados-mas-baratos-que-nacionales-desde-2015",
       "titulo": "Los precios mayoristas de lo importado subieron 14,4% en un año, contra 31% los de lo nacional",

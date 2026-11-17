@@ -9343,6 +9343,12 @@
       "fecha": "2026-11-17",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "EMPRESAS: integracion de los bancos del grupo Petersen (Nuevo Banco de Santa Fe, Nuevo Banco de Entre Rios y Banco de San Juan; La Nacion 17/11/2026, media sancion en Diputados de Entre Rios) / BCRA IEF ago-2026: 35,4% de los depositos de los tres es del sector publico ($2,17 de $6,13 billones) contra 17,6% del sistema; San Juan 55,4%; juntos 11o por depositos, activo y prestamos (no 'entre los diez primeros'), 8o entre privados; canon NBSF 1S26 $11.109 M > resultado neto $10.289 M",
+      "angulo": "Corrida programada del 17/11/2026 18:30, primera candidata probada (APTA). Hallazgo propio: ranking del banco integrado con los balances del BCRA (contradice 'uno de los diez primeros del sistema' de La Nacion), dependencia de depositos publicos por ser agentes financieros provinciales y canon > ganancia en Santa Fe (cruce BCRA + EEFF auditados). Cuarta nota EMPRESAS del dia (Personal, CMPC, Supervielle): ninguna candidata de otra seccion con hallazgo listo. Descartes de esta corrida: Peter Thiel y Vista en el 13F (infobae, La Nacion; nota sobre una accion, sin hallazgo), Petroleos Sudamericanos adelanto de resultados (HR CNV 17/11, no leido: paso la primera), Grupo ST EECC seguros 30/09 (no leido), MSU Green Energy HR 17/11 (no leido), Pampa crea empresa de IA (Pampa cubierta 01-03/11), Renault-Geely (electricos cubiertos 27/09 y 01/10), indice Lego y tienda (molde precio), confianza del consumidor UTDT (una sola fuente), Ley de Discapacidad (aranceles cubiertos 26/09), deficit de financiamiento 2027 (vencimientos 2027 cubiertos 28/09 y 13/11), tipo de cambio real (cubierto 15/11), puerto de Bahia Blanca a 50 pies (sin dato oficial de calado por buque a mano); los descartes de la corrida de las 16:30 siguen valiendo.",
+      "fecha": "2026-11-17",
+      "estado": "en_cola"
     }
   ]
 }

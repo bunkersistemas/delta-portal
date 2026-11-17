@@ -1,11 +1,47 @@
 {
-  "generado": "2026-11-17T16:30",
+  "generado": "2026-11-17T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3594327",
+      "fuente": "CNV",
+      "fecha": "2026-11-17T18:20",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9DE31EDC-CCB0-4687-BF04-41C088AEE674"
+    },
+    {
+      "id": "cnv-3594316",
+      "fuente": "CNV",
+      "fecha": "2026-11-17T18:05",
+      "entidad": "GRUPO ST S.A",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - PRESENTACIÓN DE ESTADOS CONTABLES AL 30.09.2026 DE COMPAÑIAS DE SEGUROS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2F9742BE-A7B3-4685-ADF2-DE7A971D531B"
+    },
+    {
+      "id": "cnv-3594305",
+      "fuente": "CNV",
+      "fecha": "2026-11-17T17:48",
+      "entidad": "MSU GREEN ENERGY S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE 17 DE NOVIEMBRE DE 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A62137A9-A51F-4396-8345-FF8E85AC35C2"
+    },
+    {
+      "id": "cnv-3592883",
+      "fuente": "CNV",
+      "fecha": "2026-11-17T16:51",
+      "entidad": "PETROLEOS SUDAMERICANOS SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE INFORMA ADELANTO DE RESULTADOS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/C2957B2C-DD84-49D3-8459-18A6F42A63EA"
+    },
     {
       "id": "cnv-3593850",
       "fuente": "CNV",
@@ -1616,6 +1652,7 @@
     "sec-0001104659-26-127298": "2026-11-16",
     "sec-0001104659-26-127621": "2026-11-16",
     "sec-0001104659-26-128487": "2026-11-16",
+    "sec-0001104659-26-129015": "2026-11-17",
     "sec-0001114700-26-000085": "2026-11-16",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
