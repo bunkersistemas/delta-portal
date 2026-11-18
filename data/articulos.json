@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-18T02:51:27-03:00",
+    "actualizado": "2026-11-18T04:53:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-18-bahia-blanca-puerto-maiz-17-por-ciento-dragado",
+      "titulo": "El puerto de Bahía Blanca ya embarca el 17,7% del maíz que exporta la Argentina: hasta 2019 nunca había pasado del 14%",
+      "bajada": "El puerto de Bahía Blanca ya cambió de carga, aunque su canal todavía no cambió de profundidad. Entre 2005 y 2019 por ahí salía alrededor de uno de cada nueve kilos del maíz que exportaba el país; desde 2021, uno de cada seis. El maíz pasó de ser el 18% de los granos que embarca el puerto al 42%. Mientras se adjudica el dragado para llevar el canal a unos 50 pies, la obra que más se anunció, la profundización, sigue sin decidirse: el pliego le da al consorcio cuatro años para resolver si la hace.",
+      "titulo_busqueda": "¿Qué exporta el puerto de Bahía Blanca?",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "17,7%",
+      "numero_label": "parte del maíz que exportó la Argentina en 2025 que salió por el puerto de Bahía Blanca",
+      "fecha": "2026-11-18",
+      "hora": "05:30",
+      "archivo": "articulos/2026-11-18-bahia-blanca-puerto-maiz-17-por-ciento-dragado.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "CGPBB comparativoproductos1225.pdf: Maíz 2025 5.539.713 t (recalculo tipoproductos1225: ADM 975.376 + TBB 1.130.197 + Cargill 2.076.701 + Dreyfus 1.023.853 + Viterra 333.586 = 5.539.713). INDEC exports_2025_M.zip NCM 1005 todos los destinos: 31.321.109 t. 5.539.713/31.321.109 = 17,69%. Serie 2005-2019 (comparativos anuales CGPBB + zips INDEC de cada anio): min 7,4% (2014), max 13,9% (2012); 2020 14,0%; 2021-2025 17,5/19,2/17,0/17,1/17,7. Ponderado 2005-09 10,5%, 2021-25 17,7%. Contraste BCR (SAGyP + NABSA) 23/01/2026 node 114028: BB 13 Mt granos y derivados 2025 = 13% de 100,2 Mt; CGPBB 13.141.622 t = 13,1%. 1S26 BCR node 116774: 7,4 Mt, 14%; CGPBB 7.076.378 (13,4% de 52,8); maiz BB 1S26 2.710.157 / BCR 19,1 Mt = 14,2%. Ene-sep 2026 BB maiz 4.818.637 / INDEC 33.174.903 = 14,5% (2025: 4.388.301 / 26.558.128 = 16,5%). Pliego 06-CGPBB/2026: topes Obra 1 16,8 + 4,4 + 15,6 MUSD/anio (180 meses), Obra 2 97 MUSD, 12 meses; art. 40 condicion suspensiva 4 anios. Circular 4: canal principal >13,5 m. Scripts _privado/bbpuerto_scripts/."
+    },
     {
       "id": "2026-11-18-hipotecarios-fgs-anses-cartera-crece-mitad-que-2025",
       "titulo": "Con la plata de la ANSES, la cartera de créditos hipotecarios creció en septiembre y octubre la mitad que un año antes",

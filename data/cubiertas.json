@@ -9404,6 +9404,21 @@
       "angulo": "Registro de candidatas de la corrida.",
       "fecha": "2026-11-18",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿qué exporta el puerto de Bahía Blanca? (pregunta detrás de infobae 17/11/2026 'El puerto de Bahía Blanca iniciará obras de dragado para alcanzar un calado de 50 pies', adjudicación a Jan De Nul) / CGPBB comparativos de productos 2005-2025 cruzados con INDEC NCM 1005 y 1001: maíz por BB 17,7% de lo exportado en 2025 (5.539.713 / 31.321.109 t), máximo 2005-2019 13,9% (2012), 2021-2025 entre 17,0 y 19,2%; trigo sin tendencia (21,6% 2005-09, 21,1% 2021-25); maíz 18,4% -> 42,2% de los granos del puerto; ene-sep 2026 14,5%; pliego 06-CGPBB/2026: Obra 2 tope US$97 M, condición suspensiva de 4 años (art. 40)",
+      "angulo": "Corrida de redaccion del 18/11/2026 04:30. Hallazgo propio: cruce de dos estadísticas oficiales en serie de 21 años (puerto + INDEC) que muestra el escalón del maíz desde 2021, y lectura del pliego: la profundización que anuncian los titulares es optativa para el consorcio. Camino: estadística oficial recalculada (suma por terminal y zips INDEC) con contraste independiente BCR (SAGyP + NABSA): 13% del total nacional 2025 contra 13,1% propio.",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-bahia-blanca-puerto-maiz-17-por-ciento-dragado",
+      "archivo": "cola/2026-11-18-bahia-blanca-puerto-maiz-17-por-ciento-dragado.html"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 18/11/2026 04:30: no se probaron porque paso la primera candidata (puerto de Bahia Blanca, maiz y dragado). Portadas: infobae, La Nacion, ambito, iProfesional, Cronista y Pagina12 con WebFetch; Clarin y TN con _privado/rastreo/portadas.py. Hoy ya salieron 2 notas (EMPRESAS: MSU; ECONOMIA: hipotecarios FGS), cupo de empresas cubierto. Lista: calendario: ICA de octubre (INDEC 19/11, no publicado), Dosier Dia del Nino (INDEC hoy 16:00, no publicado); empresas: Grupo ST EECC 30/09 de sus aseguradoras (CNV 17/11; retomable: rentas vitalicias de Origenes), Galicia demanda colectiva (retomable con regimen de transparencia BCRA), Petroleos Sudamericanos adelanto de resultados (PDF CNV HTTP 400 en corridas previas), BYMA y Macro recompras (rutina; Macro en cola 01/11); portadas: micropymes en mora 18.454 (infobae, Mapa de la Deuda del Centro de Estudios para la Ciudad; mora de empresas publicada 29/09), transferencias discrecionales -60% (TN; en cola 08/11), empleo en blanco a cuenta propia -22% del salario (Clarin; informales en cola 18/10), Toyota Tacoma hibrida US$1.341 M (RIGI descartado 30/09-01/10 sin documento nuevo), carne +44,5% i.a. y 6 kilos menos (P12; consumo publicado 29/10), Pampa Energia y data centers (sin HR con montos), Renault-Geely (patentamientos chinos publicados 31/08), confianza del consumidor UTDT (una sola fuente), Plus Ultra (publicada 13/11), inflacion mayorista (publicada 17/11), RIMI porteno 25% IIBB (sin norma en BOCBA).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata paso la verificacion"
     }
   ]
 }
