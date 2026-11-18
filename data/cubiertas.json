@@ -9376,6 +9376,20 @@
       "fecha": "2026-11-17",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata paso la verificacion"
+    },
+    {
+      "tema": "EMPRESAS: MSU Green Energy compra a Neoen los parques solares La Puna y Altiplano I (Salta, 2 x 100 MW; HR CNV 17/11/2026) / precio adjudicado RenovAr: La Puna US$58,98/MWh (Ronda 1, Res. 213-E/2016) contra Altiplano I US$40,80 (Ronda 2, Res. 473-E/2017): +44,6%; CAMMESA 2025 294,3 y 280,3 GWh, FC 33,6% y 32,0% (pais 28,2%), 11,3% de la generacion solar; 88,4% de los 650.000 MWh anunciados por Neoen",
+      "angulo": "Corrida de redaccion del 18/11/2026 00:30, primera candidata probada (APTA). Hallazgo propio: cruce de las dos resoluciones de adjudicacion con la generacion por central de CAMMESA; dos parques vecinos con produccion casi igual y precios que difieren 44,6%. Cupo de EMPRESAS (hoy no habia nota de empresas). Distinta de la meta de renovables de la Ley 27.191 (26/09) y de AlmaGBA (27/09).",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-msu-neoen-parques-solares-salta-precio-44-por-ciento",
+      "archivo": "cola/2026-11-18-msu-neoen-parques-solares-salta-precio-44-por-ciento.html"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 18/11/2026 00:30: no se probaron porque paso la primera candidata (MSU compra los parques solares de Neoen). Portadas: infobae, La Nacion, ambito, iProfesional, Cronista y Pagina12 con WebFetch; Clarin y TN con _privado/rastreo/portadas.py. Lista: calendario: ICA de octubre (INDEC 19/11 16:00, todavia no publicado), Dosier Dia del Nino (INDEC hoy 16:00); empresas: Galicia demanda colectiva por la comision de ventanilla en dolares en otra sucursal (CNV 16/11; retomable con el regimen de transparencia del BCRA, banco por banco), Petroleos Sudamericanos adelanto de resultados (el PDF de la CNV devolvio HTTP 400), Newsan compra VEH Argentina (sin monto; Newsan publicada 16/11), Holcim respuesta a ANSES (aporte cubierto 13/11), Telecom 9M26 en la SEC; portadas: inflacion mayorista de octubre (8 portadas; publicada 17/11), hipotecarios con fondos del FGS $200.000 M (5 portadas; retomable con el informe del FGS), Plus Ultra suspende Madrid (publicada 13/11), RIMI portenio 25% en IIBB (4 portadas; sin norma publicada en el BOCBA), Tesoro y deuda 2027 (4), Techint y canios para Argentina LNG (en cola 08/11), Durlock (descartado 17/11); pregunta de plata: amistoso Argentina-Costa Rica en Cordoba (cuanto pago la provincia; sin contrato publicado), tobilleras electronicas (COMPR.AR, retomable), reversion de recortes en discapacidad y AUH.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada"
     }
   ]
 }

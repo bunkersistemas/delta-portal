@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T22:45:04-03:00",
+    "actualizado": "2026-11-18T00:45:05-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-18-msu-neoen-parques-solares-salta-precio-44-por-ciento",
+      "titulo": "Los dos parques solares que compra MSU en Salta generan casi lo mismo, pero uno cobra 44,6% más por cada megavatio hora",
+      "bajada": "Los dos parques solares que MSU Green Energy le compra a la francesa Neoen en la Puna salteña son vecinos, tienen 100 MW cada uno y, según CAMMESA, en 2025 generaron casi lo mismo: 294,3 y 280,3 GWh. Aun así, uno cobra 44,6% más por la misma energía. Según las resoluciones que los adjudicaron, La Puna cobra US$58,98 por megavatio hora y Altiplano I, US$40,80. La diferencia no está en las plantas sino en la fecha: uno se licitó en 2016 y el otro en 2017.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de una compra",
+      "numero": "44,6%",
+      "numero_label": "cuánto más cobra por megavatio hora el parque solar La Puna que su vecino Altiplano I, los dos que MSU le compra a Neoen en Salta",
+      "fecha": "2026-11-18",
+      "hora": "01:30",
+      "archivo": "articulos/2026-11-18-msu-neoen-parques-solares-salta-precio-44-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Res. MEyM 213-E/2016 (07/10/2016), anexo IF-2016-02038468-APN-SECEE#MEM: SFV-13 P.S. La Puna, Salta, San Antonio de los Cobres, 58.98 US$/MWh, 100 MW (BO linkQR dzFDNFZPRC8x...). Res. MEyM 473-E/2017 (BO 01/12/2017), Anexo I IF-2017-30464580-APN-DNER#MEM: SFV-259 P.S. Altiplano I, Neoen SAS, Salta, 40,80 US$/MWh, 100 MW. 58,98/40,80 = 1,4456. Contraste: Energias Renovables 15/10/2016 (La Puna 58,98, FieldFare+Isolux); Neoen 30/11/2017 (40,80; promedio 43,46 = recalculo del anexo, 12 SFV 556,75 MW); Neoen 05/10/2021 (Altiplano 200 = La Puna 107 MWp + Altiplano 101 MWp, RenovAr 1 y 2, 650.000 MWh/año, 20 años). HR MSU Green Energy CNV 17/11/2026 (A62137A9): compra 100% Altiplano Solar SA, La Puna Solar SRL, Neoen Argentina SA, 200 MW, RenovAr Rondas 1 y 2. CAMMESA base informe mensual sep-26, Factor de carga EOyFV (= Generacion Local Mensual): 2025 LPUNFV 294.319,1 MWh, ALT1FV 280.276,3 MWh (FC 33,6% y 32,0%; solar pais 28,2%; 11,26% de 5.104.014 MWh); 9M26 vs 9M25 -6,1%; solar pais +30,5%. Facturacion a precio adjudicado (ESTIMACION): 17,36 + 11,44 = 28,79 M US$; diferencia La Puna 5,35 M US$. GU energia 2025 promedio simple 58,24 US$/MWh. Scripts _privado/c1118/."
+    },
     {
       "id": "2026-11-17-sarampion-segunda-dosis-argentina-ultima-america",
       "titulo": "La Argentina tuvo en 2024 la segunda dosis contra el sarampión más baja de América: 46,7%, menos que los tres países que acaban de perder el estatus de libres",

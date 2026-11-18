@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-17",
-  "pregunta": "Entre enero y septiembre de 2026, las ventas de lo que Newsan fabrica en Tierra del Fuego subieron 8% en moneda constante, pero la ganancia bruta de esas plantas cayó 52%. ¿Cómo puede pasar?",
+  "fecha": "2026-11-18",
+  "pregunta": "En 2024 solo 46,7% de los chicos de 5 años de la Argentina recibió a tiempo la segunda dosis contra el sarampión, menos que en Bolivia, México y Estados Unidos. Esos tres países acaban de perder el estatus de libres de sarampión y la Argentina lo conserva. ¿Cómo puede ser?",
   "opciones": [
-    "Porque el costo de fabricar subió mucho más que las ventas, 37% contra 8%, y la ganancia bruta es la diferencia entre los dos",
-    "Porque la empresa pagó más impuesto a las ganancias, que se descuenta antes de calcular la ganancia bruta",
-    "Porque con inflación, vender más pesos siempre es perder plata, aunque las cifras estén ajustadas"
+    "Porque el estatus se pierde cuando el mismo virus circula sin cortarse durante 12 meses o más, no por tener baja cobertura: la baja cobertura es un riesgo, no una pérdida automática",
+    "Porque la OPS solo mira la primera dosis, y en la primera dosis la Argentina tiene la cobertura más alta de América",
+    "Porque la Argentina mide la cobertura con su propio registro y la OPS no acepta esos datos para decidir el estatus"
   ],
   "correcta": 0,
-  "explicacion": "La ganancia bruta es lo que queda de las ventas después de pagar lo que costó producir lo vendido: todavía no se restaron los gastos de venta y administración, los intereses ni los impuestos. Si las ventas suben 8% y el costo 37%, la resta se achica mucho: en las plantas de Newsan pasó de $316.553 millones a $152.141 millones. Por eso el margen bruto, la ganancia bruta sobre las ventas, bajó de 33% a 14,7%. Las dos cifras ya están en pesos de igual poder de compra, así que la inflación no explica la caída.",
-  "nota": "articulos/2026-11-16-newsan-fabricas-tierra-del-fuego-ganancia-bruta.html",
+  "explicacion": "Ser libre de sarampión no es una nota por vacunar bien: significa que no hay transmisión sostenida del virus. Un país pierde el estatus cuando el mismo virus circula sin cortarse durante 12 meses o más, y eso pasó en Bolivia, México y Estados Unidos. La cobertura baja no hace perder el estatus por sí sola, pero deja a muchos chicos sin protección completa: si el virus entra y encuentra suficientes personas sin vacunar, puede empezar a circular. Por eso la meta es 95% con las dos dosis, y la Argentina estuvo en 54,8% en 2025.",
+  "nota": "articulos/2026-11-17-sarampion-segunda-dosis-argentina-ultima-america.html",
   "leccion": ""
 }
