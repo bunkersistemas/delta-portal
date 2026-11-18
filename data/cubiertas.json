@@ -9490,6 +9490,18 @@
       "fecha": "2026-11-18",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto IVA se paga en un préstamo personal? (pregunta detrás del estudio de BDO Argentina para la ONG Lógica: la Argentina, primera entre 30 países por impuestos a los préstamos personales; infobae, TN y El Cronista 18/11/2026) / BCRA régimen de transparencia, préstamos personales en pesos a tasa fija informados 02/09-17/11/2026: en 74 de 116 líneas bancarias (19 de 30 bancos) el CFT es la TEA con IVA de 21% sobre el interés mensual; mediana +31,6% del costo anual (23,9% a 43,8% según la tasa); TEA mediana 119,1%; $1.000.000 a 12 meses: IVA $103.151 (83% de una cuota)",
+      "angulo": "Corrida de redaccion del 18/11/2026 16:30. Hallazgo propio: el IVA de 21% se convierte en +31,6% del costo anual por la capitalización mensual, y pesa más cuanto más cara la tasa; recálculo línea por línea de la base del BCRA, que el estudio de BDO (por cuota, sin capitalizar) no muestra. Camino: dos fuentes independientes (declaraciones de los bancos al BCRA + Ley de IVA art. 28) con recálculo.",
+      "fecha": "2026-11-18",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 18/11/2026 16:30 (pasó la candidata del IVA en los préstamos personales). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN con _privado/rastreo/portadas.py. Hoy ya salieron 8 notas. Probadas y FRENADAS: (1) chicos que dependen solo del sistema público de salud (INDEC, Dosier de niñas, niños y adolescentes publicado hoy a las 16, gráfico 2.4: 45,5% en el 3T-2025, quintil 1 77,9%): el recálculo con la EPH total urbano da 45,6% (y 45,0/43,3 contra 44,7/43,0 de las ediciones 2023 y 2022), no exacto, y la serie 3T 2016-2025 (43,2; 43,0; 42,4; 43,7; 45,2; 43,3; 45,0; 43,9; 45,4; 45,6) es casi plana, sin hallazgo fuera del error de muestreo; cobertura total publicada el 23/07. (2) reservas contra pesos antes de las elecciones (iProfesional, brecha CCL en cuatro portales): reservas brutas con swap y encajes, sin reservas netas oficiales; base monetaria publicada 09/11. No probadas: mortalidad materna 4,43 por 10.000 en 2024 (dosier INDEC; sin contraste independiente fuera del Ministerio de Salud), Aprender 2025 por sexo (dato del comunicado), River presupuesto 2027 (sin balance oficial en línea), Loma Negra recompra US$50 M (rutina; cupo de EMPRESAS cubierto por MSU), Galicia demanda colectiva, Petróleos Sudamericanos (error 400 de la CNV otra vez), Lego (molde de importación ya usado hoy dos veces), PASO (costo publicado 04/10), UIA y empleo industrial (frenada 09/10), carne -6 kg (cubierta).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada"
     }
   ]
 }
