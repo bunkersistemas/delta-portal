@@ -9475,6 +9475,21 @@
       "fecha": "2026-11-18",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "MUNDO: ¿en cuántos productos China es el principal proveedor de la Argentina? (pregunta detrás de la cumbre APEC con Trump, Xi y Putin, infobae 18/11/2026; el acuerdo comercial con EE.UU. al Congreso, El Cronista 17/11; Robert Evan Ellis en la UNDEF 'es difícil decir no a los chinos cuando uno depende de tantas cosas', infobae 18/11) / INDEC base de importaciones NCM 8 dígitos x origen, ene-sep 2026: China primer origen en 3.179 de 7.765 posiciones (40,9%, máximo de la serie 2002-2026; 8,1% en 2002, 30,0% en 2017); EE.UU. 9,1% (20,8% en 2002, mínimo de la serie); Brasil 13,9%; China pasa a EE.UU. en 2007; capítulos China 33, Brasil 33, EE.UU. 7 (2002: 7/48/14); contraste UN Comtrade espejo 2017-2025",
+      "angulo": "Corrida de las 14:30 del 18/11/2026, primera candidata probada (APTA). Hallazgo: serie propia de 25 años de en cuántos productos lidera cada país, que no publica nadie. Ángulo nuevo frente a la nota del 14/11 (China vs Brasil en dólares, 23,3%) y a la de consolas de hoy (un solo producto): acá la medida es la cantidad de posiciones y el eje es EE.UU. contra China. Camino: estadística oficial recalculada (total de la base = total de control del INDEC; China 23,3% = ICA) + contraste independiente con las declaraciones de los exportadores en Comtrade (dirección igual, niveles distintos explicados por origen vs. procedencia, reexportaciones de EE.UU. US$1.784 M y CIF/FOB). No afirmado: dependencia en valor ni causas del cambio.",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-china-principal-proveedor-41-de-cada-100-productos",
+      "archivo": "cola/2026-11-18-china-principal-proveedor-41-de-cada-100-productos.html"
+    },
+    {
+      "tema": "descartes de la corrida del 18/11/2026 14:30 (pasó la candidata de China como principal proveedor por producto). Lista: emisión de ON de empresas cayó a la mitad en octubre con el riesgo país (Clarín, La Nación 27/10, ámbito; las cifras son de un informe de PwC, sin el informe mensual de la CNV accesible), brecha entre el oficial y el contado con liqui en máximo de un año (Clarín, ámbito; sin serie oficial del CCL), deuda del Tesoro hacia US$500.000 M por CER (ámbito; deuda publicada 15/10, mismo ángulo), morosidad de las familias 18,2% y 26,9% de deudores (infobae, informe EcoGo-Austral; mora cubierta 20/07 y 01/09), River presupuesto 2027 de US$198,7 M (infobae; el presupuesto se trata el jueves y no hay balance oficial del club en línea), Holcim respuesta al FGS sobre el aumento de capital (Holcim publicada 13/11), Lego abre local e 'índice Lego' (infobae, Cronista; precios sin fuente oficial y molde de importación ya usado hoy), ranking de transparencia fiscal de ASAP (Cronista; índice de una asociación, sin cifra económica), Galicia, Petróleos Sudamericanos, Newsan, Loma Negra y Macro (mismos motivos que la corrida de las 12:30).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

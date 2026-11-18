@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-18T12:57:20-03:00",
+    "actualizado": "2026-11-18T14:59:01-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-18-china-principal-proveedor-41-de-cada-100-productos",
+      "titulo": "China es el principal proveedor de 41 de cada 100 productos que importa la Argentina: en 2002 eran 8, y Estados Unidos cayó de 21 a 9",
+      "bajada": "En 2002, Estados Unidos era el país que lideraba en más productos importados por la Argentina (20,8%) y China encabezaba el 8,1%. El orden cambió: de las 7.765 posiciones arancelarias por las que la Argentina importó algo entre enero y septiembre de 2026, China fue el primer país de origen en 3.179, el 40,9%, el nivel más alto de una serie que arranca en 2002. Estados Unidos quedó en 9,1%. China ya encabeza más rubros que Estados Unidos y Brasil juntos, aunque en plata vende el 23,3% de lo que se importa: su peso está en la cantidad de productos, de los celulares a las baterías.",
+      "titulo_busqueda": "¿Depende la Argentina de China? En qué productos China es el principal proveedor",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "40,9%",
+      "numero_label": "productos importados por la Argentina en los que China es el principal país de origen, enero a septiembre de 2026",
+      "fecha": "2026-11-18",
+      "hora": "14:30",
+      "archivo": "articulos/2026-11-18-china-principal-proveedor-41-de-cada-100-productos.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC base de importaciones (comex.indec.gob.ar/files/zips/imports_<año>_M.zip), NCM 8 dígitos x país de origen, CIF, ene-sep: 2026 7.765 posiciones, China (310) primera en 3.179 = 40,94%; EE.UU. (212) 706 = 9,09%; Brasil (203) 1.080 = 13,91%. Total base 2026 US$56.068,8 M = itotm26 de control; China 23,3% = ICA sep-2026. 2002: 585/7.267 = 8,1%, EE.UU. 20,8%. Cruce China/EE.UU. en 2007 (17,5 vs 17,0). Robustez: posiciones >= US$1 M: 1.276/3.096 = 41,2%; año 2025 completo 3.271/7.988 = 40,9%. China >50%: 2.546 pos (32,8%), 18,5% del valor; posiciones que lidera = 27,7% del valor. Capítulos ene-sep 2026: China 33, Brasil 33, EE.UU. 7 (2002: 48/14/7). Top 100 posiciones: China 26, Brasil 25, EE.UU. 13. Contraste UN Comtrade espejo (exportadores, partner 32, X): China 14,7% (2017) -> 20,9% (2025); EE.UU. 15,6% -> 14,3%; INDEC año completo 18,4 -> 23,7 y 11,3 -> 8,7. Capítulos espejo 2025: Brasil 33, China 31, EE.UU. 10 (INDEC 33/35/6). EE.UU. RX 2025 US$1.784 M de US$9.901 M. Scripts _privado/china_dep (calc.py, detalle.py, espejo.py, espejo_cap.py, cruce_cap.py)."
+    },
     {
       "id": "2026-11-18-pesca-fonape-1-8-por-ciento-exportaciones",
       "titulo": "La pesca le pagó al Estado US$1,8 por cada US$100 que exportó en 2025, más del triple que en 2023",

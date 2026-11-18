@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 18 Nov 2026 12:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 14:59:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>China es el principal proveedor de 41 de cada 100 productos que importa la Argentina: en 2002 eran 8, y Estados Unidos cayó de 21 a 9</title>
+      <link>https://coninteres.com/articulos/2026-11-18-china-principal-proveedor-41-de-cada-100-productos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-18-china-principal-proveedor-41-de-cada-100-productos.html</guid>
+      <pubDate>Wed, 18 Nov 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>En 2002, Estados Unidos era el país que lideraba en más productos importados por la Argentina (20,8%) y China encabezaba el 8,1%. El orden cambió: de las 7.765 posiciones arancelarias por las que la Argentina importó algo entre enero y septiembre de 2026, China fue el primer país de origen en 3.179, el 40,9%, el nivel más alto de una serie que arranca en 2002. Estados Unidos quedó en 9,1%. China ya encabeza más rubros que Estados Unidos y Brasil juntos, aunque en plata vende el 23,3% de lo que se importa: su peso está en la cantidad de productos, de los celulares a las baterías.</description>
+      <ci:numero>40,9%</ci:numero>
+      <ci:numeroEtiqueta>productos importados por la Argentina en los que China es el principal país de origen, enero a septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-china-principal-proveedor-41-de-cada-100-productos.png" length="73247" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-china-principal-proveedor-41-de-cada-100-productos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La pesca le pagó al Estado US$1,8 por cada US$100 que exportó en 2025, más del triple que en 2023</title>
       <link>https://coninteres.com/articulos/2026-11-18-pesca-fonape-1-8-por-ciento-exportaciones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>dividendos en efectivo que repartió Camuzzi Gas del Sur entre diciembre de 2025 y noviembre de 2026, los primeros desde 2018</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018.png" length="81917" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-camuzzi-gas-del-sur-dividendos-primeros-desde-2018.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>En 10 de 12 meses desde las elecciones de 2025, los analistas que consulta el BCRA esperaron un dólar más caro que el que hubo</title>
-      <link>https://coninteres.com/articulos/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.html</guid>
-      <pubDate>Mon, 16 Nov 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>En 10 de los 12 meses posteriores a las elecciones de octubre de 2025, la mediana de los analistas que releva el BCRA esperó para el mes siguiente un dólar mayorista más caro que el que hubo. En los siete meses de banda anteriores a la votación había pasado lo contrario: se quedaron cortos en cinco. A un año, el error fue más grande: en septiembre de 2025 esperaban $1.739 para septiembre de 2026, y fue $1.514. Para diciembre esperan ahora $1.590.</description>
-      <ci:numero>10 de 12</ci:numero>
-      <ci:numeroEtiqueta>meses desde las elecciones de octubre de 2025 en que el dólar esperado por el REM para el mes siguiente superó al que hubo</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.png" length="67616" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-rem-dolar-pronostico-elecciones-10-de-12.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
