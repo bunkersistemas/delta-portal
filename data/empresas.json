@@ -1,11 +1,38 @@
 {
-  "generado": "2026-11-18T16:30",
+  "generado": "2026-11-18T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3594793",
+      "fuente": "CNV",
+      "fecha": "2026-11-18T18:22",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2E4F2229-371B-4609-8C6F-830C5FD0582B"
+    },
+    {
+      "id": "cnv-3594771",
+      "fuente": "CNV",
+      "fecha": "2026-11-18T17:59",
+      "entidad": "LOS GROBO AGROPECUARIA S.A",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN FINANCIERA - PRESENTACIÓN DE PROPUESTA DE ACUERDO PREVENTIVO EN EL CONCURSO PREVENTIVO",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9E72CE16-4E66-424D-8604-65ABD88C6214"
+    },
+    {
+      "id": "cnv-3594773",
+      "fuente": "CNV",
+      "fecha": "2026-11-18T17:52",
+      "entidad": "AGROFINA S.A",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN FINANCIERA - PRESENTACIÓN DE PROPUESTA DE ACUERDO PREVENTIVO EN EL CONCURSO PREVENTIVO",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/0981DA1C-578D-4502-A196-419D1C77010E"
+    },
     {
       "id": "cnv-3593806",
       "fuente": "CNV",

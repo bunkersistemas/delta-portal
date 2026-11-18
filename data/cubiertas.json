@@ -9502,6 +9502,20 @@
       "angulo": "Registro de candidatas de la corrida.",
       "fecha": "2026-11-18",
       "estado": "descartada"
+    },
+    {
+      "tema": "Los Grobo Agropecuaria y Agrofina: propuestas de acuerdo preventivo a acreedores quirografarios (HR CNV 18/11/2026, actas de directorio 17/11/2026) / Los Grobo: A 15% al contado (default), B 35% en 4 cuotas años 2-5 tope US$25 M, C 100% en 12 cuotas años 4-15 + 1% tope US$20 M; Agrofina: A 30% año 3 tope 20 M, B 50% 7 cuotas tope 25 M, C 100% 11 cuotas sin tope (default); tasa de empate C=A 22,2%; Promontoria US$24,39 M quirografario > tope C; deuda concursal balance 30/09 ~US$126-135 M vs cupo B+C US$45 M",
+      "angulo": "Corrida programada del 18/11/2026 18:30. Ángulo propio: el comunicado da porcentajes; la nota calcula el valor presente de cada opción y la tasa a la que la opción larga empata con el contado (22,2%, dos métodos), muestra que los cupos de las opciones largas cubren a lo sumo un tercio de la deuda concursal del balance, que un solo acreedor (Promontoria) supera el tope de la C, y contrasta con Agrofina, del mismo grupo y mismo día, que manda a los que no eligen al 100% en vez de al 15%. Distinto de la nota del 16/11 (alquiler de plantas a Amaggi).",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-los-grobo-agrofina-propuesta-acreedores"
+    },
+    {
+      "tema": "descartes de la corrida programada del 18/11/2026 18:30: no se probaron porque pasó la primera candidata (propuestas de acuerdo preventivo de Los Grobo y Agrofina). Lista: empresas: Telecom 3T26 (6-K 16/11; rentabilidad ya cubierta), Petróleos Sudamericanos adelanto de resultados, Galicia demanda colectiva, Grupo ST balance de seguros al 30/09, Papel Prensa 30/09 (cubierta 16/11), Loma Negra y BYMA recompras (rutina); portadas: brecha CCL máxima en un año (infobae, iProfesional, Clarín, TN, La Nación; reservas contra pesos frenada en una corrida anterior de hoy), mora casi duplicada en un año 26,9% de deudores (infobae; morosidad cubierta 20/07 y 01/09), emisión de deuda corporativa cae a la mitad con el riesgo país (Clarín), deuda del Tesoro en CER hacia US$500.000 M (ámbito), industria importadora cae 12-19% y exportadora sostiene (ámbito; UIA frenada 09/10), Lego llega a la Argentina (infobae, iProfesional; molde de importación usado hoy), carne -6 kg (página12; cubierta), Plus Ultra (La Nación, Clarín; sin documento local), Swiss Medical compra grupo rosarino (sin monto); calendario: ICA octubre mañana 19/11, dosier Día del Niño (frenado en una corrida anterior de hoy). Ranking de impuestos a préstamos (cuatro portales) ya cubierto hoy a las 16:30. clarin.com y tn.com.ar leídos con _privado/rastreo/portadas.py. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

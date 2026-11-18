@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-18T16:56:10-03:00",
+    "actualizado": "2026-11-18T19:03:31-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-18-los-grobo-agrofina-propuesta-acreedores",
+      "titulo": "Los Grobo ofrece a sus acreedores 15 dólares al contado o 100 en 15 años: la opción larga vale más salvo que se le exija más de 22% anual en dólares",
+      "bajada": "En la oferta que Los Grobo Agropecuaria presentó en su concurso preventivo, la opción que devuelve el 100% del crédito vale más que el 15% al contado salvo que el acreedor le exija a su plata más de 22% anual en dólares. Pero en esa opción solo entran US$20 millones de créditos, y el que no elige nada cobra el 15%. Entre las dos hay una tercera: 35% en cuatro cuotas. El 100% llega en doce cuotas que terminan quince años después de la homologación. Agrofina, la empresa vinculada, presentó el mismo día una oferta con la regla al revés.",
+      "titulo_busqueda": "Qué les ofrece Los Grobo a sus acreedores en el concurso preventivo",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "22%",
+      "numero_label": "tasa anual en dólares desde la cual cobrar 15% al contado le gana a cobrar el 100% en 15 años, en la oferta de Los Grobo a sus acreedores",
+      "fecha": "2026-11-18",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-18-los-grobo-agrofina-propuesta-acreedores.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Acta de directorio Los Grobo Agropecuaria 17/11/2026 (CNV publicview 005d1345, escaneada, pags 10-12): A 15% a 30 dias habiles de homologacion firme; B 35% en 4 cuotas anos 2-5 (3,5/7/10,5/14), tope USD 25 M, excedente a A; C 100% en 12 cuotas anos 4-15 (2x5, 5x2, 12,5x3, 20, 22,5) + 1% anual sobre saldo semestral, tope USD 20 M, excedente a B (remanente) y A; sin eleccion -> A; pesos a 1.326. HR CNV 18/11/2026 coincide. Break-even VA(C)=VA(A): 22,16% (descuento anual, _privado/grobo_acuerdo/calc.py) y 22,17% (grilla mensual, verif.py); B=A 25,2%. VA al 10%: A 14,84, B 24,02, C 39,31 (ESTIMACION). Agrofina acta 17/11 (6766176e): A 30% ano 3 tope 20 M; B 50% 7 cuotas anos 3-9 tope 25 M; C 100% 11 cuotas anos 4-14 + 1%, sin tope, default C. EEFF LG 30/09/2026 (58f4a211): nota 5.19 deuda concursal $130.600.381 miles + relacionadas $23.371.378 miles; nota 5.17 Promontoria USD 24,39 M quirografaria ($36.998.595 miles -> 1.516,96 implicito vs A3500 30/09 1.517,52); pagares bursatiles $10.676.775, VPD $3.498.605; caja $5.960.816 miles. Total USD 125,9-135,2 M; topes 45 M = 35,7%-33,3% (aproximacion contable)."
+    },
     {
       "id": "2026-11-18-iva-prestamo-personal-costo-anual-31-por-ciento",
       "titulo": "El IVA de 21% sobre un préstamo personal termina subiendo 31,6% su costo anual en los bancos, por la capitalización mensual",
