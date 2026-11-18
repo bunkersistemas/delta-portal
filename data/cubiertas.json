@@ -9516,6 +9516,21 @@
       "fecha": "2026-11-18",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "ECONOMÍA PROVINCIAL: ¿cuánto exporta una provincia con minas de oro contra su vecina con ley antiminera? (pregunta detrás de iProfesional 18/11/2026 \"7 provincias le cierran la puerta a la minería y Mendoza encontró un camino\", sin cifras de exportación) / INDEC OPEX 2025: San Juan US$2.101 M vs Mendoza US$1.539 M (+36,5%), 822.853 vs 2.043.540 habitantes (Censo 2022), US$2.553 vs US$753 por habitante (x3,4); metales preciosos SJ US$1.704 M (81%) > Mendoza total; serie 2002-2026: 2002 Mza 6,3 veces SJ, SJ adelante 2010-2015, 2017, 2024-2025; 2025 mayor ventaja desde 2011; 1S-2026 +52,9% (mayor primer semestre de la serie); contraste Veladero (Barrick SEC) ~US$1.560 M en 2025",
+      "angulo": "Corrida de redaccion del 18/11/2026 20:30, primera candidata probada (APTA). Hallazgo: cruce propio de la serie provincial del INDEC de 24 años con la población del censo y la producción de Veladero; la nota de iProfesional no trae cifras. Distinto de Catamarca (02/10), Neuquén (03/10), petróleo de Mendoza (12/11) y Veladero (11/11). Camino: estadística oficial recalculada (informe = serie mensual) + contraste independiente (Barrick ante la SEC). No afirmado: que la ley 7.722 explique la diferencia; que Veladero explique la suba de 2026 (produjo 35% menos ene-sep).",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-san-juan-exporta-mas-que-mendoza-oro",
+      "archivo": "cola/2026-11-18-san-juan-exporta-mas-que-mendoza-oro.html"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 18/11/2026 20:30 (pasó la primera candidata: San Juan contra Mendoza). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; clarin.com y tn.com.ar no cargaron. Hoy ya salieron 10 notas, entre ellas EMPRESAS (MSU, Los Grobo): sin cupo de empresas. Lista no probada: empresas: Telecom 3T26 (rentabilidad cubierta), Petróleos Sudamericanos adelanto de resultados (PDF CNV con error 400 en corridas anteriores), Galicia demanda colectiva (sin cifra ancla), Grupo ST seguros al 30/09 (solo aviso), INVAP ON (sin términos), Holcim HR (cubierta 13/11), BYMA, Macro y Loma Negra recompras (rutina); portadas: dólar oficial récord nominal y brecha CCL 10% (infobae, ámbito, iProfesional, Página12; reservas contra pesos frenada hoy, sin serie oficial del CCL), deuda del Tesoro hacia US$500.000 M por CER (ámbito; mismo ángulo que 15/10), Lego e índice Lego (molde de importación usado hoy dos veces), Kicillof y la ley impositiva 2027 (La Nación; sin proyecto con alícuotas a mano), Caputo y Chubut crédito US$150 M (ámbito; sin documento del préstamo), alimenticias exportan ante caída local (La Nación; sin cifra propia), carne -6 kg (cubierta), Durlock (frenada 17/11), Swiss Medical compra grupo rosarino (sin monto), PASO (costo publicado 04/10), AUH y comercio de diciembre (molde agotado), morosidad 26,9% (cubierta), ranking de impuestos a préstamos (cubierto hoy 16:30); calendario: ICA octubre mañana 19/11. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-18T19:03:31-03:00",
+    "actualizado": "2026-11-18T20:46:08-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-18-san-juan-exporta-mas-que-mendoza-oro",
+      "titulo": "San Juan exportó 36,5% más que Mendoza en 2025 con el 40% de su población: el oro y la plata solos vendieron más que toda la provincia del vino",
+      "bajada": "Según el INDEC, en 2025 San Juan exportó US$2.101 millones y Mendoza US$1.539 millones: US$2.553 por habitante contra US$753. Un solo rubro explica la distancia. Mendoza mantiene desde 2007 la ley que prohíbe el cianuro en la minería metalífera; en San Juan, al lado, 81 de cada 100 dólares que se exportan son metales preciosos, y ese rubro solo, US$1.704 millones, superó todo lo que vendió Mendoza. En el primer semestre de 2026 la diferencia llegó a 52,9%, la mayor para un primer semestre desde 2002.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "36,5%",
+      "numero_label": "cuánto más exportó San Juan que Mendoza en 2025, con el 40% de su población",
+      "fecha": "2026-11-18",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-18-san-juan-exporta-mas-que-mendoza-oro.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC Origen provincial de las exportaciones 2025 (opex_03_26929F77A2CA.pdf p. 18 y 24): San Juan 2.101, Mendoza 1.539, metales preciosos SJ 1.704, bebidas Mza 627; recalculo Serie_Opex_Mensual 2002-2026 (exports_2026_M.zip): 2.101,1 y 1.538,9; 1S-2026 1.283,6 vs 839,6 = informe 1.284/840 (+52,9%; previo 1S-2025 52,1%); ene-sep 2026 1.692,1 vs 1.224,5; anual 2011 ratio 1,368 (unico mayor); Censo 2022 definitivo 822.853 y 2.043.540; contraste Barrick MD&A 2025 SEC: Veladero 50% = 230 koz (71/62/49/48) x precio realizado trimestral 2.898/3.295/3.457/4.177 x 2 = US$1.559,9 M (91,5% del rubro). Scripts _privado/mineria/"
+    },
     {
       "id": "2026-11-18-los-grobo-agrofina-propuesta-acreedores",
       "titulo": "Los Grobo ofrece a sus acreedores 15 dólares al contado o 100 en 15 años: la opción larga vale más salvo que se le exija más de 22% anual en dólares",
