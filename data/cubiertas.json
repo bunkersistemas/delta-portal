@@ -9362,6 +9362,20 @@
       "fecha": "2026-11-17",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata paso la verificacion"
+    },
+    {
+      "tema": "MUNDO: cobertura de la segunda dosis contra el sarampion, Argentina contra America (pregunta detras del anuncio de la OPS del 17/11/2026: Bolivia, Mexico y EE.UU. pierden el estatus de eliminacion; La Nacion e infobae 17/11) / MinSalud 2024 46,7% (284.920/609.576), 2025 54,8%; WUENIC MCV2 2024 ARG 46%, ultima de 35 paises de America; BOL 61, MEX 69, CAN 79, USA 95; provincias 2025 Santa Fe 37,5, PBA 42,1, CABA 49,3",
+      "angulo": "Corrida de redaccion del 17/11/2026 22:30, primera candidata probada (APTA). Hallazgo propio: ranking de America con OMS-UNICEF cruzado con el registro nominal del Ministerio (recalculado) y la cobertura ampliada: 323.858 chicos de las cohortes 2019-2020 sin segunda dosis. Distinta del gasto en vacunas (04/10, Presupuesto Abierto) y de la sextuple (02/11, precio OPS): eje en cobertura comparada. Seccion MUNDO, que faltaba hoy.",
+      "fecha": "2026-11-17",
+      "estado": "publicada",
+      "articulo_id": "2026-11-17-sarampion-segunda-dosis-argentina-ultima-america"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 17/11/2026 22:30: no se probaron porque paso la primera candidata (sarampion, segunda dosis). Portadas: infobae, La Nacion, ambito, iProfesional, Cronista y Pagina12 con WebFetch, mas portadas generales de infobae y La Nacion; Clarin y TN no cargaron (WebFetch bloqueado). Hoy ya salieron 11 notas (5 EMPRESAS, 5 ECONOMIA, 1 IA). Lista: pregunta detras de la noticia: Milei dice que los jovenes son el 70% del padron (infobae; chequeo con padron CNE e INDEC, retomable), nueva sentencia sobre movilidad jubilatoria (La Nacion; contrafactual 27.426 en cola/publicado 14/11), Lopilato pierde demanda (espectaculos, sin documento); portadas: cuatro cadenas agricolas piden ley para bajar retenciones (La Nacion; recaudacion por derechos de exportacion cubierta 30/09), brecha entre oficial y dolar de giro de empresas (iProfesional; CCL sin fuente oficial), SanCor y marcha por la quiebra (iProfesional; molde concurso + Central de Deudores ya usado hoy con Agro de Souza), Tenaris y caños para GNL (en cola 08/11), Tetra Pak US$33 M en La Rioja (anuncio sin documento), Durlock (descartado hoy), Plus Ultra (13/11); empresas (cupo cubierto hoy): MSU Green Energy compra Neoen Argentina (sexta EMPRESAS del dia), Petroleos Sudamericanos adelanto de resultados, Loma Negra recompra de acciones (rutina). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-17",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata paso la verificacion"
     }
   ]
 }

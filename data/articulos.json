@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-17T20:49:56-03:00",
+    "actualizado": "2026-11-17T22:45:04-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-17-sarampion-segunda-dosis-argentina-ultima-america",
+      "titulo": "La Argentina tuvo en 2024 la segunda dosis contra el sarampión más baja de América: 46,7%, menos que los tres países que acaban de perder el estatus de libres",
+      "bajada": "Bolivia, México y Estados Unidos dejaron de ser libres de sarampión, según anunció hoy la OPS. La Argentina conserva el estatus, pero su cobertura con la segunda dosis es más baja que la de los tres: en 2024 solo 46,7% de los chicos de 5 años la recibió a tiempo, según el Ministerio de Salud, y con la estimación de OMS-UNICEF quedó última entre los 35 países de América. En 2025 subió a 54,8%, todavía lejos de la meta de 95%.",
+      "titulo_busqueda": "Vacuna contra el sarampión en la Argentina: qué porcentaje de chicos tiene las dos dosis",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "46,7%",
+      "numero_label": "chicos de 5 años que recibieron a tiempo la segunda dosis contra el sarampión en 2024: la cobertura más baja de América según OMS-UNICEF",
+      "fecha": "2026-11-17",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-17-sarampion-segunda-dosis-argentina-ultima-america.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Ministerio de Salud, Coberturas Calendario Nacional 2024 (act. 10/09/2025): triple viral refuerzo 5 años 284.920/609.576 = 46,74% (recalculado); OMS-UNICEF WUENIC MCV2 2024 ARG 46%, ultimo de 35 paises de AMR (VEN 51, SUR 52, HTI 54; BOL 61, MEX 69, CAN 79, USA 95). 2025 oficial (act. 03/06/2026): 288.986/527.344 = 54,80%; ampliada cohorte 2020 371.595 = 70,47%; cohorte 2019 ampliada 441.467 = 72,42%; sin 2a dosis 168.109 + 155.749 = 323.858. 1a dosis 2025 348.339/416.444 = 83,65%. WUENIC 2025 repite 46 (registro GHO 14/07/2026, antes del comunicado MinSalud 21/07/2026). OPS 17/11/2026: BOL, MEX, USA pierden estatus; regional 2025 88%/85%."
+    },
     {
       "id": "2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance",
       "titulo": "Agro de Souza debía $15.717 millones a bancos y SGR cuando pidió el concurso, y su último balance público es de 2023",
