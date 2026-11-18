@@ -9434,6 +9434,20 @@
       "fecha": "2026-11-18",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata paso la verificacion"
+    },
+    {
+      "tema": "¿cuánto perdió el Banco Central con la caída del oro? (pregunta de plata detrás de iProfesional 18/11/2026 'El oro se desploma 30% desde su récord'; reservas que no suben pese a las compras) / valor del oro del BCRA 1.984,96 miles oz x XAU BCRA: 29/01/2026 US$10.609 M -> 12/11 US$7.692 M (-2.917,4); factores de variación de reservas 30/01-12/11: compras +15.025,2, otros -6.037,6 (oro 48,3%), reservas +2.831,1; oro 22,9% -> 15,7% de las reservas brutas",
+      "angulo": "Corrida programada del 18/11/2026 08:30, primera candidata probada (APTA). Ángulo nuevo frente a la nota del 14/10 (cantidad de onzas y pelea AGN-BCRA): el cambio de valor desde el pico y su peso en los factores de explicación de las reservas; el oro explica 19,4% de las compras. Camino: estadística oficial recalculada (onzas EECC + balance semanal; precio XAU BCRA) con contraste Banco Mundial (precio) y Consejo Mundial del Oro (onzas). No se afirma pérdida en el resultado ni si hay coberturas en 2026.",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-oro-bcra-reservas-caida-2917-millones"
+    },
+    {
+      "tema": "descartes de la corrida programada del 18/11/2026 08:30: no se probaron porque pasó la primera candidata (caída del oro y reservas del BCRA). Lista: empresas (cupo ya cubierto hoy por MSU): Loma Negra plan de recompra hasta US$50 M y $3.300 por acción hasta 19/03/2027 (HR CNV 17/11; sin compras aún, molde Central Puerto/Macro), Banco Galicia demanda colectiva de PAC por la comisión de depósitos/extracciones en dólares por ventanilla en otra sucursal (HR CNV 13/11, JCC 10 Mar del Plata MP-24515-2026; sin monto, tarifario por banco no comparable en fuente oficial), Holcim respuesta al FGS (aporte $97.662 M, aumento hasta $112.365 M, VPA $2.153,83; Holcim publicada 13/11), Grupo ST (solo aviso de EECC de Life Seguros y Orígenes Retiro), INVAP ON Clase VII (HR sin términos), Petróleos Sudamericanos adelanto de resultados 9M26 (PDF con error 400 en la descarga); portadas: inflación mayorista 1,6% (publicada 17/11), Plus Ultra suspende Madrid (publicada 13/11), hipotecarios con fondos ANSES (publicada hoy), canje de la letra dólar linked 60% y $4,4 billones (La Nación, ámbito), brecha oficial-CCL (infobae, iProfesional, Cavallo en Clarín; sin fuente oficial del CCL), Renault-Geely y autos eléctricos (Clarín; cubierto 01/10 y 15/10), RIMI CABA 25% de Ingresos Brutos (La Nación, ámbito, Cronista), suspensión de las PASO (costo publicado 04/10), Algodonera Avellaneda (descartada 16/10), carguero Punta Arenas-Malvinas (infobae; Malvinas cubierta 27/09, 01/10 y 07/11), confianza del consumidor por ingreso (UTDT, una sola fuente), cuentapropia -22% del salario (Clarín, estudio sin documento localizado), Lego y videojuego más caro (precios de tiendas, sin documento oficial). pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

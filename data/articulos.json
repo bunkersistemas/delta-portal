@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-18T06:56:32-03:00",
+    "actualizado": "2026-11-18T09:01:13-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-18-oro-bcra-reservas-caida-2917-millones",
+      "titulo": "La caída del oro le restó US$2.917 millones a las reservas del Banco Central desde enero: uno de cada cinco dólares que compró",
+      "bajada": "Entre el 29 de enero y el 12 de noviembre, el BCRA compró US$15.025 millones en el mercado, pero las reservas subieron solo US$2.831 millones. Parte de la diferencia es el oro: las 1,98 millones de onzas del Banco Central valían US$10.609 millones con la onza en US$5.344,90, y US$7.692 millones con la onza en US$3.875,17. Esa caída se llevó el 19,4% de lo que compró.",
+      "titulo_busqueda": "¿Cuánto perdió el Banco Central con la caída del oro?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "US$2.917 M",
+      "numero_label": "valor que perdió el oro de las reservas del Banco Central entre el 29 de enero y el 12 de noviembre de 2026 por la baja del precio",
+      "fecha": "2026-11-18",
+      "hora": "08:30",
+      "archivo": "articulos/2026-11-18-oro-bcra-reservas-caida-2917-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "1.984,96 miles oz (EECC BCRA 2025 nota 4.1.1) x (XAU BCRA 29/01/2026 5.344,90 - 12/11/2026 3.875,17) = 2.917,4; balance semanal 07/11/2026 oro $12.578.428.145 miles / 1.545,3974 / XAU 05/11 4.101,13 = 1.984,64 miles oz; WGC 61,74 t 3T-2026; Banco Mundial CMO mensual dic-25..oct-26 vs promedios XAU BCRA < 1%; max mensual BM feb-26 5.020 (antes de 2025 max 2.690 oct-24). Factores BCRA API v4 30/01-12/11: 78 compras +15.025,2, 79 org -5.744,8, 80 SP +828,3, 81 EM -1.240,0, 82 otros -6.037,6 = 77 +2.831,1 = var 74 46.242 -> 49.073; 30/01 oro -963,5 vs 82 -948,7; 03/02 +540,6 vs +512,2. Scripts _privado/oro_caida/"
+    },
     {
       "id": "2026-11-18-jovenes-70-por-ciento-padron-milei-indec",
       "titulo": "Los votantes de 16 a 29 años serán el 27,6% en 2027, no el 70% que dijo Milei: para llegar a esa cifra hay que contar como joven a todo el que tenga hasta 53",
