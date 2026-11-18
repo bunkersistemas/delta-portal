@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 18 Nov 2026 09:01:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 10:56:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Por primera vez, la Argentina compró más consolas de videojuegos a Vietnam que a China: 52 de cada 100 dólares en 2026, contra 3 en 2025</title>
+      <link>https://coninteres.com/articulos/2026-11-18-consolas-vietnam-supera-china-gta-vi.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-18-consolas-vietnam-supera-china-gta-vi.html</guid>
+      <pubDate>Wed, 18 Nov 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Por primera vez desde por lo menos 2002, China no es el primer origen de las consolas que importa la Argentina. De enero a septiembre de 2026, de los US$42,9 millones que se pagaron, US$22,1 millones fueron a Vietnam (51,6%) y US$19,7 millones a China (46,0%); un año antes, China tenía el 93,8%. Brasil muestra el mismo giro, más chico. El dato llega en la víspera: mañana sale GTA VI, que en la Argentina se juega en PlayStation 5 y Xbox Series.</description>
+      <ci:numero>51,6%</ci:numero>
+      <ci:numeroEtiqueta>parte de Vietnam en el valor de las consolas de videojuegos importadas por la Argentina, enero a septiembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-consolas-vietnam-supera-china-gta-vi.png" length="75606" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-consolas-vietnam-supera-china-gta-vi.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La caída del oro le restó US$2.917 millones a las reservas del Banco Central desde enero: uno de cada cinco dólares que compró</title>
       <link>https://coninteres.com/articulos/2026-11-18-oro-bcra-reservas-caida-2917-millones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>alumnos de sala de 5 años en 2025 contra 2019, en escuelas estatales y privadas de todo el país</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-sala-de-5-primer-grado-caida-nacimientos-colegios.png" length="72327" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-sala-de-5-primer-grado-caida-nacimientos-colegios.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>27,7% de los hogares tuvo que pedir prestado para vivir en el primer semestre y 11,5% vendió cosas, casi el doble que en 2017</title>
-      <link>https://coninteres.com/articulos/2026-11-15-hogares-venden-pertenencias-piden-prestado-primer-semestre.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-15-hogares-venden-pertenencias-piden-prestado-primer-semestre.html</guid>
-      <pubDate>Sun, 15 Nov 2026 23:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Presidente preguntó cómo hace para vivir diez días quien se queda sin plata el día 20. Una estadística del propio Estado responde: en el primer semestre de 2026, la mitad de los hogares urbanos cubrió parte de sus gastos con ahorros, préstamos o vendiendo cosas. Según la Encuesta Permanente de Hogares del INDEC, el 27,7% pidió prestado, el 37,6% gastó ahorros y el 11,5%, 1,18 millones de hogares, vendió pertenencias. En 2017 los que vendían eran 5,9%.</description>
-      <ci:numero>27,7%</ci:numero>
-      <ci:numeroEtiqueta>hogares urbanos que tuvieron que pedir prestado a bancos, financieras, familiares o amigos para vivir, primer semestre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-hogares-venden-pertenencias-piden-prestado-primer-semestre.png" length="66865" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-hogares-venden-pertenencias-piden-prestado-primer-semestre.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

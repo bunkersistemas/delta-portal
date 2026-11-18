@@ -9448,6 +9448,18 @@
       "fecha": "2026-11-18",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿de dónde vienen las consolas que importa la Argentina? (pregunta de plata detrás del lanzamiento de GTA VI el 19/11/2026: infobae 18/11 'GTA VI llega a Argentina: en qué consolas se juega, cuánto cuesta y cómo comprarlo', La Nación) / INDEC base comex NCM 9504.50.00 ene-sep 2026: Vietnam 51,6% del valor CIF (US$22,1 M de 42,9 M), China 46,0% (93,8% en ene-sep 2025); jul-sep 70,7% Vietnam; en kilos China 65,5% (FOB/kg 45,7 vs 105,3); total -13,2% vs 2025; 2025 US$75,3 M, máximo desde 2017; Decreto 333/2025 arancel 35%->20%; contraste Brasil Comtrade Vietnam 1,6/7,4/20,1%",
+      "angulo": "por primera vez desde por lo menos 2002 China no es el primer origen de las consolas importadas: Vietnam pasó de 2,7% en 2025 a 51,6% en 2026; el mismo giro, más chico, en Brasil",
+      "fecha": "2026-11-18",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida del 18/11/2026 10:30 (pasó la candidata de consolas). Quedaron: deuda en pesos atada al dólar tras el canje del 60% de la letra dollar linked (La Nación, ámbito; el boletín mensual de Finanzas no separa el dollar linked: lo clasifica en moneda local, haría falta armar el stock instrumento por instrumento), demanda colectiva contra Banco Galicia por la comisión de depósitos y extracciones de dólares en otra sucursal (HR CNV 13/11/2026; tarifario de 1,5 a 3 por mil, el banco dice que no tiene impacto significativo: sin cifra ancla fuerte), Grupo ST (solo aviso de presentación de EECC de Life Seguros y Orígenes Seguros de Retiro; balance consolidado recién al 30/11), Petrolera Sudamericanos adelanto de resultados (PDF de la CNV devolvió error 400), trigo 24,3 Mt de la BCR (proyección, la 2025/26 fue mayor), aranceles de discapacidad +2,2% en noviembre (repite 26/09), UIA y carga fiscal (sin dato nuevo), Plus Ultra (publicada 13/11), confianza del consumidor por ingreso (UTDT, una sola fuente), inflación mayorista (publicada 17/11), seguro de desempleo y Aghion (publicadas 26/09 y 17/10), Durlock (frenada 17/11). Empresas: ya hubo nota de EMPRESAS hoy (MSU, 01:30)",
+      "angulo": "lista de candidatas no probadas",
+      "fecha": "2026-11-18",
+      "estado": "descartada"
     }
   ]
 }
