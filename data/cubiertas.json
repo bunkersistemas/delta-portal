@@ -9390,6 +9390,20 @@
       "angulo": "Registro de candidatas de la corrida.",
       "fecha": "2026-11-18",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿están funcionando los créditos hipotecarios con fondos del FGS de la ANSES? (tercera licitación del 17/11/2026, $200.000 M a 7 bancos: infobae, La Nación, Clarín, TN, ámbito, Cronista) / cartera hipotecaria en pesos BCRA var 112 medida en UVA: sep+oct 2026 +289,8 M UVA = 52% de sep+oct 2025 (556,1 M UVA), +55% vs jul+ago 2026; bancos en las licitaciones 18 -> 14 -> 12 (adjudicatarios 13 -> 12 -> 7); contraste Colegio de Escribanos CABA sep-26 1.256 hipotecas (-15,5% i.a.)",
+      "angulo": "Corrida de redaccion del 18/11/2026 02:30. Hallazgo propio: primera evaluacion con dos meses enteros de datos del programa del FGS, cruzando la serie diaria del BCRA en UVA con los comunicados oficiales de resultado de las tres licitaciones (51230, 51235, 51241, que el 06/10 no se habian encontrado) y las escrituras de CABA. Distinta de la nota del 26/08 (como funciona el plan), del 02/10 (tope y cuota) y del 16/10 (tasas).",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-hipotecarios-fgs-anses-cartera-crece-mitad-que-2025",
+      "archivo": "cola/2026-11-18-hipotecarios-fgs-anses-cartera-crece-mitad-que-2025.html"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 18/11/2026 02:30: no se probaron porque paso la primera candidata completa (hipotecarios FGS). Probadas y dejadas: Havanna (LN 17/11, desembarco en China con Messi; CNV EEFF 9M26 consolidados son imagenes de glifos, sin nota de segmentos legible; la resenia da 256 locales en el exterior, 220 en Brasil, kilos de alfajores 3T -18,1% y precio real por kilo $22.923 vs $28.429, -19,4%; retomable si se consigue la apertura por mercado), INVAP ON Clase VII (HR 16/11 sin montos: esperar aviso de resultados), Petroleos Sudamericanos adelanto de resultados (PDF de la CNV sigue en HTTP 400), oro -30% y reservas del BCRA (angulo ya publicado por Forbes Argentina). Portadas (infobae, LN, ambito, iProfesional, Cronista, P12 con WebFetch; Clarin y TN con portadas.py): inflacion mayorista 1,6% (todas; publicada 17/11), Plus Ultra (publicada 13/11), Cavallo, PASO, Presupuesto 2027, RIMI porteno, Techint canios LNG (en cola 08/11), natalidad y jubilaciones (publicada 17/11), Lego mas caro, economias regionales en rojo (Coninagro, una sola fuente), Selección 7-0 Costa Rica (sin contrato publicado).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada"
     }
   ]
 }

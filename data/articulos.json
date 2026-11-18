@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-18T00:45:05-03:00",
+    "actualizado": "2026-11-18T02:51:27-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-18-hipotecarios-fgs-anses-cartera-crece-mitad-que-2025",
+      "titulo": "Con la plata de la ANSES, la cartera de créditos hipotecarios creció en septiembre y octubre la mitad que un año antes",
+      "bajada": "El crédito hipotecario acelera, pero no vuelve al ritmo de hace un año. En septiembre y octubre, con $400.000 millones del fondo de la ANSES ya en los bancos, la cartera de créditos hipotecarios sumó 289,8 millones de UVA: 55% más que en julio y agosto, pero el 52% de lo que había sumado en los mismos meses de 2025. Y cada vez se presentan menos bancos a buscar esa plata: 18 en la primera licitación, 12 en la tercera, el martes.",
+      "titulo_busqueda": "¿Están funcionando los créditos hipotecarios con plata de la ANSES?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "52%",
+      "numero_label": "lo que creció la cartera de créditos hipotecarios en septiembre y octubre de 2026, medida en UVA, comparado con los mismos meses de 2025",
+      "fecha": "2026-11-18",
+      "hora": "02:30",
+      "archivo": "articulos/2026-11-18-hipotecarios-fgs-anses-cartera-crece-mitad-que-2025.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA API v4 var 112 (prestamos hipotecarios sector privado en pesos, diaria) / var 31 (UVA): 31/08/26 8.631.439 / 2096,27 = 4117,5 M UVA; 30/09/26 9.111.808 / 2138,48 = 4260,9; 30/10/26 9.591.270 / 2176,21 = 4407,3 -> sep +143,4, oct +146,4, suma 289,8. 2025: 29/08 4.746.549 / 1568,28 = 3026,6; 30/09 5.270.691 / 1599,50 = 3295,2; 31/10 5.846.914 / 1631,97 = 3582,7 -> 268,6 + 287,5 = 556,1. 289,8/556,1 = 52,1%. Jul+ago 2026 187,5 (+54,6%). Documento oficial: IMM oct-26 saldo promedio hipotecarios 9.351 (oct) y 8.864 (sep) miles de millones; recalculo promedio var 112: 9.357 y 8.865; variacion real s.e. 3,8% oct y 3,2% sep (IMM sep-26) vs en UVA 3,66% y 2,90%. Deflactado por IPC INDEC (148.3_INIVELNAL_DICI_M_26) ratio 2026/2025 = 49,7%; abr/may-26 +0,34%/+0,11% con IPC y -0,27%/-0,83% con UVA (UVA m/m 3,20/3,13 vs IPC 2,58/2,15). Contraste: Colegio de Escribanos CABA sep-26 1.256 hipotecas (-15,5% i.a.; ago 1.059, -20,8%); 9 meses 7.426 vs 10.827 (-31,4%). Licitaciones: Comunicados BCRA 51230 (7/9: ofertas 258.640 M, 42 posturas, 18 bancos, 13 adjudicatarios), 51235 (6/10: 246.000 M, 40, 14, 12), 51241 (17/11: 273.000 M, 33, 12, 7; 5 anios UVA+4,79%). B 13258: tope 40% / 4% RPC / 40% cartera; boleto de compraventa. Scripts _privado/hipo/."
+    },
     {
       "id": "2026-11-18-msu-neoen-parques-solares-salta-precio-44-por-ciento",
       "titulo": "Los dos parques solares que compra MSU en Salta generan casi lo mismo, pero uno cobra 44,6% más por cada megavatio hora",
