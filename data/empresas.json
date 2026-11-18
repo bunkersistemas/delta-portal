@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-18T10:30",
+  "generado": "2026-11-18T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3593806",
+      "fuente": "CNV",
+      "fecha": "2026-11-18T11:48",
+      "entidad": "DISTRIBUIDORA DE GAS CUYANA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - DGCU_HECHO RELEVANTE_REFORMAS DE LOS ARTÍCULOS CUARTO, VIGÉSIMO Y VIGÉSIMO SEGUNDO DEL ESTATUTO SOCIAL",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/23EA2DD7-3E8E-4A75-9355-F43A8FFB4CB8"
+    },
     {
       "id": "cnv-3594162",
       "fuente": "CNV",

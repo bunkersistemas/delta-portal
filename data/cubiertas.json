@@ -9460,6 +9460,21 @@
       "angulo": "lista de candidatas no probadas",
       "fecha": "2026-11-18",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿cuánto paga una pesquera por pescar en el mar argentino? (pregunta detrás de infobae 18/11/2026 'La pesca argentina rechazó la propuesta de Sturzenegger de abrir licitaciones': Eduardo Boiero, Cámara Argentina de la Industria Pesquera) / Fondo Nacional Pesquero 2025 $45.929 M (Acta CFP 3/2026 = Presupuesto Abierto), US$38,3 M con A3500 mensual = 1,83% de las exportaciones del complejo pesquero (US$2.091 M, INDEC); 2023 0,52%; serie 2015-2023 US$7,8-13,8 M; 2024 US$25,5 M; US$45,9 por tonelada desembarcada (835.827 t SAGyP); Malvinas 2024 £36,14 M = US$46,2 M (x1,8); Tesoro absorbió $9.495 M (20,7%) del FONAPE 2025; DUE fresqueros merluza suspendido 06/04/2026-31/03/2027 (Res. CFP 2/2026 y 14/2026)",
+      "angulo": "Corrida de las 12:30 del 18/11/2026, primera candidata probada (APTA). Hallazgo: cruce propio de la recaudación del FONAPE con las exportaciones y con Malvinas, serie de 11 años en dólares que no publica nadie. Nueva frente a la nota de Malvinas del 27/09 (allí solo las islas) y la de flota extranjera en cola del 07/11. Camino: dos documentos oficiales de oficinas distintas que coinciden al peso (acta CFP y e-SIDIF/Presupuesto Abierto) + recálculo mensual + contraste de orden de magnitud con la regla del DUE. No afirmado: por qué saltó en 2024; cuánto recaudaría una licitación; derechos de exportación ni permisos provinciales.",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-pesca-fonape-1-8-por-ciento-exportaciones",
+      "archivo": "cola/2026-11-18-pesca-fonape-1-8-por-ciento-exportaciones.html"
+    },
+    {
+      "tema": "descartes de la corrida del 18/11/2026 12:30 (pasó la candidata de pesca y FONAPE). Lista: EMPRESAS (cupo ya cubierto hoy por MSU): Galicia demanda colectiva de PAC por la comisión de depósitos y extracciones de dólares en otra sucursal (HR CNV 13/11; el BCRA no publica tabla comparable de esa comisión por banco, ya descartada en las dos corridas anteriores), Petróleos Sudamericanos adelanto de resultados (PDF de la CNV devuelve error 400 otra vez), Grupo ST (solo aviso de EECC), INVAP ON (sin términos), Loma Negra y Macro recompras (rutina), Newsan compra de VEH (Newsan publicada 16/11); portadas: inflación mayorista 1,6% (los ocho portales; publicada 17/11), Cavallo y el plan económico (opinión, sin dato), UIA propuesta fiscal y '90.000 empleos' (empleo industrial por provincia frenado 09/10 por contraste EPH), Pampa Energía crea empresa de IA para data centers (La Nación, Clarín; sin documento CNV con montos), Tenaris/Techint caños para el GNL (La Nación, Clarín; caños 7305 cubiertos), Plus Ultra (publicada 13/11), Mastellone (cubierta), Algodonera Avellaneda suspende plantas (descartada 16/10), AUH y discapacidad de diciembre (molde agotado), empleadas domésticas y comercio (molde agotado), carne -6 kg por habitante (Página12; publicada 29/10 y 14/11), Durlock (frenada 17/11), RIMI CABA 25% IIBB (La Nación, ámbito, Cronista; sin recaudación por régimen), subte: subasta de 8 coches viejos (La Nación; dato suelto).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }
