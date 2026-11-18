@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 18 Nov 2026 04:53:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 06:56:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los votantes de 16 a 29 años serán el 27,6% en 2027, no el 70% que dijo Milei: para llegar a esa cifra hay que contar como joven a todo el que tenga hasta 53</title>
+      <link>https://coninteres.com/articulos/2026-11-18-jovenes-70-por-ciento-padron-milei-indec.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-18-jovenes-70-por-ciento-padron-milei-indec.html</guid>
+      <pubDate>Wed, 18 Nov 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>«Ustedes son los que van a salvar el país, que dicho sea de paso, son el 70% del padrón», les dijo el Presidente a los jóvenes en las Jornadas del Banco Central. Las proyecciones del INDEC dicen otra cosa: en 2027 los de 16 a 29 años serán 27,6% de la población en edad de votar. Aun estirando la juventud hasta los 39, no pasan de 46,6%. La mitad de los votantes tiene 41 años o más.</description>
+      <ci:numero>27,6%</ci:numero>
+      <ci:numeroEtiqueta>parte de la población de 16 años o más que tendrá entre 16 y 29 años en 2027, año de la próxima elección presidencial</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-jovenes-70-por-ciento-padron-milei-indec.png" length="79476" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-jovenes-70-por-ciento-padron-milei-indec.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El puerto de Bahía Blanca ya embarca el 17,7% del maíz que exporta la Argentina: hasta 2019 nunca había pasado del 14%</title>
       <link>https://coninteres.com/articulos/2026-11-18-bahia-blanca-puerto-maiz-17-por-ciento-dragado.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que sumaría a la inflación de los 12 meses a octubre de 2026 medir el IPC con la canasta de gastos 2017/18 (34,2% contra 33,1%)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-canasta-vieja-indec-inflacion-2017-18.png" length="71949" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-canasta-vieja-indec-inflacion-2017-18.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Brasil le compró a Bolivia 70% menos gas que en 2014, lo mínimo desde 2001, y la Argentina, que quiere ese mercado, le vendió 86 veces menos que Bolivia</title>
-      <link>https://coninteres.com/articulos/2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces.html</guid>
-      <pubDate>Sun, 15 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>Brasil le compra a Bolivia la menor cantidad de gas desde 2001, y la Argentina, que quiere llenar ese hueco con el gas de Vaca Muerta, recién arranca. Entre enero y octubre de 2026, según la aduana brasileña, llegaron de Bolivia por gasoducto 2,28 millones de toneladas: 69,9% menos que en los mismos meses de 2014. De la Argentina llegaron 26.620 toneladas: más que en los 17 años anteriores juntos, pero menos de la duodécima parte de lo que le vendía en 2002.</description>
-      <ci:numero>−69,9%</ci:numero>
-      <ci:numeroEtiqueta>caída del gas que Brasil le compró a Bolivia por gasoducto, enero-octubre de 2026 contra el mismo período de 2014</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces.png" length="78113" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-15-brasil-gas-bolivia-70-menos-argentina-86-veces.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

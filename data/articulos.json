@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-18T04:53:00-03:00",
+    "actualizado": "2026-11-18T06:56:32-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-18-jovenes-70-por-ciento-padron-milei-indec",
+      "titulo": "Los votantes de 16 a 29 años serán el 27,6% en 2027, no el 70% que dijo Milei: para llegar a esa cifra hay que contar como joven a todo el que tenga hasta 53",
+      "bajada": "«Ustedes son los que van a salvar el país, que dicho sea de paso, son el 70% del padrón», les dijo el Presidente a los jóvenes en las Jornadas del Banco Central. Las proyecciones del INDEC dicen otra cosa: en 2027 los de 16 a 29 años serán 27,6% de la población en edad de votar. Aun estirando la juventud hasta los 39, no pasan de 46,6%. La mitad de los votantes tiene 41 años o más.",
+      "titulo_busqueda": "¿Los jóvenes son el 70% del padrón, como dijo Milei? Qué dicen los datos del INDEC",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "27,6%",
+      "numero_label": "parte de la población de 16 años o más que tendrá entre 16 y 29 años en 2027, año de la próxima elección presidencial",
+      "fecha": "2026-11-18",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-18-jovenes-70-por-ciento-padron-milei-indec.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "INDEC, proyecciones nacionales 2022-2040 por edad simple (base Censo 2022): 10.192.685 de 16 a 29 sobre 36.870.926 de 16 o más en 2027, recalculado desde el csv; 70% acumulado recién a los 53 años (70,3%); contraste ONU WPP 2024 (OWID) 2023 15-29: 29,6% vs INDEC 30,0%; frase: discurso del 17/11/2026 en las Jornadas del BCRA, Río Negro e Inforama con el mismo texto"
+    },
     {
       "id": "2026-11-18-bahia-blanca-puerto-maiz-17-por-ciento-dragado",
       "titulo": "El puerto de Bahía Blanca ya embarca el 17,7% del maíz que exporta la Argentina: hasta 2019 nunca había pasado del 14%",

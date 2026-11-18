@@ -9419,6 +9419,21 @@
       "fecha": "2026-11-18",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata paso la verificacion"
+    },
+    {
+      "tema": "chequeo: ¿los jovenes son el 70% del padron, como dijo Milei? (discurso de cierre de las Jornadas Monetarias y Bancarias del BCRA, 17/11/2026: 'Ustedes son los que van a salvar el pais, que dicho sea de paso, son el 70% del padron'; Rio Negro e Inforama 17/11) / INDEC proyecciones 2022-2040 por edad simple: 2027 16-29 = 27,6% de la poblacion de 16+ (10.192.685 / 36.870.926), 16-24 18,0%, 16-35 39,1%, 16-39 46,6%, 70% acumulado recien a los 53 anios (70,3%), mediana 41, 70+ 11,5%, 16-17 4,1%; 16-29 28,8% en 2022 y 22,6% en 2040; contraste ONU WPP 2024 2023 15-29 29,6% vs INDEC 30,0%",
+      "angulo": "Corrida de redaccion del 18/11/2026 06:30. Hallazgo propio: la frase no se puede chequear con un solo corte porque Milei no dijo que edad es joven; medimos la curva acumulada por edad y mostramos que el 70% exige contar hasta los 53. Camino: estadistica oficial recalculada desde el csv del INDEC + contraste independiente ONU (OWID) dentro de 0,4 pp. La CNE no publica el padron por edad (se aclara en la nota: poblacion, no padron). Seccion ECONOMIA (el-pais), distinta de las tres de hoy (EMPRESAS, credito, puerto). Sin superlativos.",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-jovenes-70-por-ciento-padron-milei-indec",
+      "archivo": "cola/2026-11-18-jovenes-70-por-ciento-padron-milei-indec.html"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 18/11/2026 06:30: no se probaron porque paso la primera candidata (jovenes y padron). Portadas: las ocho con _privado/rastreo/portadas.py. Hoy ya salieron 3 notas (MSU, hipotecarios FGS, puerto de Bahia Blanca). Lista: calendario: ICA de octubre (INDEC 19/11, no publicado), Dosier Dia del Nino (INDEC hoy 16:00); empresas (cupo cubierto hoy por MSU): Galicia demanda colectiva por comision de ventanilla en dolares (HR leido: sin monto, el banco dice que no es significativo; retomable con regimen de transparencia BCRA), Petroleos Sudamericanos adelanto de resultados (PDF CNV sigue en HTTP 400), Grupo ST EECC seguros, Loma Negra/BYMA/Macro recompras (rutina), Newsan-VEH (publicada 16/11); portadas: inflacion mayorista (publicada 17/11), hipotecarios FGS (publicada hoy), Plus Ultra (publicada 13/11), transferencias discrecionales (en cola 08/11), Durlock (descartado 17/11), Techint canios LNG (en cola 08/11), Cavallo y Aghion (opinion, sin dato), Pampa y data centers (sin HR con montos), micropymes en mora (publicada 29/09), canje de la letra dolarizada (deuda cubierta), Bunge Campana (sin documento), Algodonera Avellaneda (cubierta 16/10), Malvinas y la princesa Ana (cubierta). Serie historica 1960-2025 del Banco Mundial para el padron joven: la API devolvio timeout y 502, retomable.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata paso la verificacion"
     }
   ]
 }
