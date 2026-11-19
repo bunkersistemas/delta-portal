@@ -9587,6 +9587,33 @@
       "fecha": "2026-11-19",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: pasó la primera candidata (ampliación del Presupuesto 2026, Boletín Oficial + Presupuesto Abierto)"
+    },
+    {
+      "tema": "¿alcanzan las reservas si los ahorristas pasan sus pesos a dólares antes de 2027? (iProfesional 18/11/2026 'Las reservas del BCRA no alcanzarían a cubrir una fuerte dolarización preelectoral'; dólar y brecha en 7 portadas) / reservas brutas menos pasivos monetarios en moneda extranjera (API BCRA 1 - (1247-1248)/5) sobre M2 transaccional privado (197): 0,745 al 13/11/2026 (libres US$32.447 M, encajes US$17.153 M, M2 US$43.573 M) contra 0,756 antes de las legislativas 2025, 0,701 bonaerenses 2025, 0,300 PASO 2023, 0,723 PASO 2021; 0,581 al 30/12/2025; compras 2026 (var 78) US$16.200,6 M; M2 +35,2% en pesos contra A3500 +4,1% desde 24/10/2025",
+      "angulo": "FRENADA en la corrida de redacción del 19/11/2026 06:30 (tercera candidata probada). Recálculo exacto desde la API del BCRA (scripts _privado/reservas_cob/m2.py y calc.py), pero sin contraste independiente: reservas, encajes y M2 solo los mide el BCRA, y la única otra lectura (iProfesional: encajes US$16.700 M, M2 $67,9 billones, base $50 billones) es un medio que reproduce datos del BCRA; el FMI (IRFCL) publica lo que informa el propio BCRA. La versión con base monetaria (2003-2026) es además ruidosa: la cobertura salta con cambios de encajes en pesos (1,53 en mar-24, 0,60 en dic-24). Retomable si una consultora publica la misma cuenta con método.",
+      "fecha": "2026-11-19",
+      "estado": "descartada",
+      "motivo_descarte": "cifra ancla sin contraste independiente (estadística de un solo organismo sin tercera condición)"
+    },
+    {
+      "tema": "Banco de Tierra del Fuego y la Ley de Financiamiento Integral del Sistema Educativo (sancionada 17/11/2026 con doble voto de Vuoto; TN, El Diario del Fin del Mundo, Tiempo Fueguino 18/11): 3% adicional de Ingresos Brutos al BTF y 3,4% a la distribución de gas (Camuzzi) / BCRA Información de Entidades Financieras ago-26 (entidad 00268): resultado 2025 $297,1 M (ROE 0,16%) contra $36.326,3 M en 2024; 8M26 resultado neto $6.669 M, integral $3.001 M; base del art. 195 de la Ley 1075 estimada en $124.000-128.000 M para 2025",
+      "angulo": "FRENADA en la corrida de redacción del 19/11/2026 06:30 (primera candidata probada). Hallazgo a medias: los estados contables 2025 del propio banco (nota 2.2.18) dicen que está exento de impuestos provinciales en el Territorio por su Carta Orgánica (Ley Territorial 234/84, cap. VI) y en 2025 pagó solo $153,1 M de Ingresos Brutos (nota de gastos). Sin el texto sancionado no se puede saber si la ley levanta esa exención ni sobre qué base cobra el 3%: la versión de comisión del 31/10 lo había cambiado por un aporte de 32 millones de UAPES (Letra P). Retomable cuando la ley salga en el Boletín Oficial provincial.",
+      "fecha": "2026-11-19",
+      "estado": "descartada",
+      "motivo_descarte": "sin texto oficial de la ley; el costo depende de la redacción"
+    },
+    {
+      "tema": "exportaciones de pinturas (NCM 9701) y la subasta de la colección Arrieta-Blaquier en Sotheby's (US$411,97 M, Van Gogh US$190,43 M; Clarín 19/11/2026) / INDEC base de exportaciones 2002-2026: 9701 entre US$0,4 M y US$6 M por año hasta 2017; US$483,6 M en 2019 (fila 999 de nov-19 US$359,0 M), US$133,2 M en 2021 (EE.UU.), US$184,2 M en ene-ago 2026 (una fila de ene-26 a EE.UU., 97019100, 30,5 kg, US$174,6 M)",
+      "angulo": "FRENADA en la corrida de redacción del 19/11/2026 06:30 (segunda candidata probada). Los espejos no cierran y la diferencia no se puede explicar con documentos: Luxemburgo declara importaciones de pinturas desde la Argentina por €367 en 2019 (Eurostat Comext DS-045409) y EE.UU. US$0,3 M en ene-26 y US$16,1 M en 2021 (Comtrade 842, flujo M) contra US$174,6 M y US$133,2 M del INDEC. Probable exportación temporal o depósito franco, sin norma leída que lo pruebe. El vínculo de 2019 con la colección ya lo publicó La Nación (10/05/2023, multa de la DGA a Art Logistic). Riesgo de línea roja 7 si se atribuyen filas anónimas a particulares. Script _privado/arte/expo97.py y detalle.py.",
+      "fecha": "2026-11-19",
+      "estado": "descartada",
+      "motivo_descarte": "fuentes que se contradicen sin explicación documentada"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 19/11/2026 06:30 (FRENÓ: ninguna candidata pasó). Probadas y frenadas: Banco de Tierra del Fuego e impuesto educativo (sin texto de la ley; el banco está exento por Carta Orgánica), exportaciones de pinturas y la subasta Arrieta-Blaquier (espejos de Luxemburgo y EE.UU. no cierran), cobertura de pesos con reservas sin encajes (sin contraste independiente). Exploradas y descartadas antes de verificar: ON en dólares contra ingresos por títulos de deuda del mercado de cambios (anexo cambiario BCRA, fila 77 'otros préstamos del exterior y títulos de deuda': sep-26 US$2.088 M contra US$2.710 M de ON según PwC; universos distintos, ON locales suscriptas con MEP); Boca finalista de la Sudamericana (premios cubiertos 21/10 y 07/11); Swiss Medical compra Grupo Oroño (sin documento ni estados contables públicos); Plus Ultra (publicada 13/11); Kicillof ley impositiva 2027 (La Nación 18/11; molde 'el impuesto sube 30%'); Galicia demanda colectiva por comisiones en dólares (HR leído; sin cifra del reclamo); Grupo ST (HR de plazo, sin cifras); accidentes en petróleo y gas (sin serie SRT por rama hallada). Rastreo: ocho portadas (Clarín y TN con portadas.py), agenda (ICA octubre a las 16, después de la corrida), bloque EMPRESAS (cupo cumplido con Petróleos Sudamericanos).",
+      "angulo": "lista de candidatas de la corrida sin nota",
+      "fecha": "2026-11-19",
+      "estado": "descartada"
     }
   ]
 }
