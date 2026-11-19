@@ -9531,6 +9531,21 @@
       "fecha": "2026-11-18",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto paga la Argentina por usar patentes, marcas y licencias del exterior? (pregunta de plata detrás de iProfesional 18/11/2026 'El Senado avanzará con ley de Patentes que EE.UU. le reclama a Milei', adhesión al PCT) / BCRA balance cambiario, egresos por cargos por el uso de la propiedad intelectual: 2025 US$1.322,8 M vs 2023 US$66,2 M (x20, mínimo de la serie 2003-2026); contra débitos INDEC (devengado) 2023 US$1.820,0 M = 3,6%, 2020-2023 10,3%, 2012-2015 16,2%, 2006-2011 60,2%, 2025 61,4%; sep-2026 US$188,6 M, mayor mes desde may-2016",
+      "angulo": "Corrida de redaccion del 18/11/2026 22:30, primera candidata probada (APTA). Hallazgo: cruce propio de lo percibido por el mercado de cambios (BCRA) con lo devengado en la balanza de pagos (INDEC), 2006-2026: los dos cepos dejan la misma huella. Distinto de la candidata de patentes del 27/10 (frenada: solicitudes INPI). Camino: estadística oficial recalculada (anexo BCRA = datos.gob.ar) + contraste independiente (INDEC, otro método, diferencia explicada por la metodología del BCRA). No afirmado: que la diferencia sea deuda impaga; que el PCT cambie los montos.",
+      "fecha": "2026-11-18",
+      "estado": "publicada",
+      "articulo_id": "2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior",
+      "archivo": "cola/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.html"
+    },
+    {
+      "tema": "descartes de la corrida de redaccion del 18/11/2026 22:30 (pasó la primera candidata: regalías y cepo, BCRA + INDEC). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; clarin.com y tn.com.ar no cargaron. Hoy ya salieron 11 notas, entre ellas EMPRESAS (MSU, Los Grobo): sin cupo de empresas. Lista no probada: empresas: Telecom 3T26 (rentabilidad cubierta), Grupo ST seguros al 30/09 (solo aviso), Petróleos Sudamericanos adelanto de resultados (PDF CNV con error en corridas anteriores), Galicia demanda colectiva (sin cifra ancla), INVAP ON (sin términos), BYMA/Macro/Loma Negra recompras (rutina), DGCU reforma de estatuto (sin cifra); portadas: dólar récord nominal y brecha CCL 10% (5 portadas; sin serie oficial del CCL), alimenticias exportan (La Nación; sin cifra propia), Swiss Medical compra en Rosario (sin monto), Lego (molde de importación ya usado hoy), YPF y el 'buffer' de la nafta (Cronista; cubierta 01/11), pozo vs usado (Cronista; sin fuente oficial), Kicillof ley impositiva 2027 (sin proyecto con alícuotas), deuda del Tesoro US$500.000 M (cubierta 15/10), aranceles de discapacidad +2,2% (molde agotado, cubierta 26/09), recolector CABA y comercio de diciembre (molde agotado); calendario: ICA octubre mañana 19/11. pregunta.json ya era de hoy.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-18",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }

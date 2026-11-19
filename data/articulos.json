@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-18T20:46:08-03:00",
+    "actualizado": "2026-11-18T22:41:57-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior",
+      "titulo": "US$1.323 millones salieron en 2025 por el mercado de cambios para pagar patentes, marcas y licencias: 20 veces más que en 2023, con el cepo",
+      "bajada": "El cepo no cortó el uso de patentes, marcas y licencias extranjeras: cortó el pago. En 2023 la economía argentina usó patentes, marcas, software y licencias extranjeras por US$1.820 millones, según la balanza de pagos del INDEC, pero por el mercado oficial de cambios se pagaron US$66 millones: el cepo dejaba pasar 4 de cada 100 dólares. Con el cepo, de 2020 a 2023, pasaron 10 de cada 100; en 2025 pasaron 61, como antes de los controles. Y en septiembre de 2026 se giraron US$188,6 millones, el mayor monto de un mes desde mayo de 2016.",
+      "titulo_busqueda": "Regalías: lo que paga la Argentina por patentes, marcas y licencias del exterior",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$1.323 M",
+      "numero_label": "pagos al exterior por patentes, marcas, derechos de autor y licencias cursados por el mercado oficial de cambios en 2025",
+      "fecha": "2026-11-18",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "BCRA anexo balance cambiario, MC por concepto, fila egresos propiedad intelectual (S15): 2025 -1.322.751.252; 2023 -66.244.840; 2016 -1.424.090.205 (max anual desde 2003); ene-sep 2026 1.047,7 vs ene-sep 2025 908,1 (+15,4%); sep-26 188,55 (max mensual desde may-16 263,1). = datos.gob.ar 185.1_PAG_SERV_CLEC_0_M_32. INDEC cin_II_2026.xls cuadro 4 debitos: 2023 1.820,0; 2025 2.153,6 (prov.); 1S26 1.030,9; credito 2025 342,4; saldo -1.811,1. Pagado/devengado: 2006-11 60,2; 2012-15 16,2; 2016 67,5; 2017-19 30,4; 2020-23 10,3 (626,4/6.058,3); 2023 3,6; 2024 15,4; 2025 61,4; 1S26 57,6. A 6770 punto 14 (01/09/2019); A 8226 puntos 10-11 (11/04/2025). Metodologia BCRA: percibido vs devengado, cuentas propias en el exterior y compensaciones 2017-2019. Scripts _privado/ip_*.py"
+    },
     {
       "id": "2026-11-18-san-juan-exporta-mas-que-mendoza-oro",
       "titulo": "San Juan exportó 36,5% más que Mendoza en 2025 con el 40% de su población: el oro y la plata solos vendieron más que toda la provincia del vino",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 18 Nov 2026 20:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 22:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>US$1.323 millones salieron en 2025 por el mercado de cambios para pagar patentes, marcas y licencias: 20 veces más que en 2023, con el cepo</title>
+      <link>https://coninteres.com/articulos/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.html</guid>
+      <pubDate>Wed, 18 Nov 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El cepo no cortó el uso de patentes, marcas y licencias extranjeras: cortó el pago. En 2023 la economía argentina usó patentes, marcas, software y licencias extranjeras por US$1.820 millones, según la balanza de pagos del INDEC, pero por el mercado oficial de cambios se pagaron US$66 millones: el cepo dejaba pasar 4 de cada 100 dólares. Con el cepo, de 2020 a 2023, pasaron 10 de cada 100; en 2025 pasaron 61, como antes de los controles. Y en septiembre de 2026 se giraron US$188,6 millones, el mayor monto de un mes desde mayo de 2016.</description>
+      <ci:numero>US$1.323 M</ci:numero>
+      <ci:numeroEtiqueta>pagos al exterior por patentes, marcas, derechos de autor y licencias cursados por el mercado oficial de cambios en 2025</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.png" length="73763" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>San Juan exportó 36,5% más que Mendoza en 2025 con el 40% de su población: el oro y la plata solos vendieron más que toda la provincia del vino</title>
       <link>https://coninteres.com/articulos/2026-11-18-san-juan-exporta-mas-que-mendoza-oro.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de la inversión aprobada en el RIGI está en proyectos cuya resolución no dice qué parte de sus compras irá a proveedores locales</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-rigi-proveedores-locales-sin-porcentaje.png" length="65162" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-rigi-proveedores-locales-sin-porcentaje.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>En 2022, el año récord del Belgrano Cargas, una de cada cinco toneladas fue piedra para vías: sin ella, la carga cayó 8,6%</title>
-      <link>https://coninteres.com/articulos/2026-11-16-belgrano-cargas-record-2022-piedra-para-vias.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-16-belgrano-cargas-record-2022-piedra-para-vias.html</guid>
-      <pubDate>Mon, 16 Nov 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Gobierno anunció 2022 como "otro año récord" para los trenes de Belgrano Cargas y Logística: 8,42 millones de toneladas, la cifra más alta de las tres líneas desde 1995. El total es cierto. Pero 1,63 millones de esas toneladas, el 19,4%, eran material de vía, casi todo piedra balasto, según la estadística de la CNRT, y sin ese material la carga bajó 8,6% contra 2021. Es la empresa que el Estado está por concesionar.</description>
-      <ci:numero>19,4%</ci:numero>
-      <ci:numeroEtiqueta>parte de la carga de las líneas Belgrano, San Martín y Urquiza en 2022 que fue material de vía, casi todo piedra balasto</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-belgrano-cargas-record-2022-piedra-para-vias.png" length="66716" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-belgrano-cargas-record-2022-piedra-para-vias.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
