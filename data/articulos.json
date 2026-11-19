@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-19T12:47:09-03:00",
+    "actualizado": "2026-11-19T14:52:59-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-19-precios-combustibles-lista-oficial-congelada-ypf",
+      "titulo": "La lista oficial de precios de los combustibles quedó congelada: 9 de cada 10 estaciones YPF muestran un precio de hace más de un año",
+      "bajada": "La Secretaría de Energía sigue publicando el registro de precios en surtidor, pero desde junio de 2025 las estaciones ya no están obligadas a informarlos, y la lista quedó con precios viejos. De las 1.560 estaciones YPF de la lista, 1.383 muestran un precio de hace más de un año: la mediana de su nafta súper es $1.261, contra $2.179 en las pocas YPF que sí actualizaron. En todo el registro, solo 526 de 4.605 estaciones informaron un precio en el último mes.",
+      "titulo_busqueda": "¿Está actualizado el precio de la nafta en la lista de la Secretaría de Energía?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "88,7%",
+      "numero_label": "estaciones YPF cuyo último precio en la lista oficial de la Secretaría de Energía tiene más de un año, al 19 de noviembre de 2026",
+      "fecha": "2026-11-19",
+      "hora": "15:00",
+      "archivo": "articulos/2026-11-19-precios-combustibles-lista-oficial-congelada-ypf.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Secretaría de Energía, Precios en surtidor (datos.energia.gob.ar, dataset 1c181390): precios vigentes descargados 19/11/2026 (último precio 18/11/2026 13:07), 4.605 estaciones (idempresa), 1.560 bandera YPF; último precio de cada estación (cualquier producto) anterior al 19/11/2025: YPF 1.383 (88,7%), total 3.120 (67,8%); <=31 días: total 526 (11,4%), YPF 28. YPF última carga jun-25 1.111 + jul-25 170 = 1.281. Súper diurno mediana YPF desactualizadas $1.261 (1.363) vs YPF con súper <=92 días $2.179 (17), todas <=31 días $2.237 (381); gasoil G2 $1.283 (1.361) vs $2.359,5 (16). Historial: estaciones distintas con precio en el mes may-25 3.589 (YPF 1.644), jun-25 3.457 (1.550), jul-25 1.751 (245), oct-26 735 (40). Causa: Res. ME 717/2025 (BO 02/06/2025) deroga Res. 314/2016. Contrastes: INDEC IPC aperturas GBA combustibles jun-25 7.084,68 -> oct-26 11.638,17 (+64,3%; otras regiones +62,1% a +78,9%) vs +72,8% súper YPF actualizadas/desactualizadas; YPF 20-F 2025 (SEC): 1.688 estaciones activas al 31/12/2025, 32,1% del país (registro = 92% de la red)."
+    },
     {
       "id": "2026-11-19-exportaciones-alimentos-elaborados-carne-vacuna",
       "titulo": "De cada US$100 que crecieron las exportaciones de alimentos en 2026, los lácteos y elaborados aportaron US$2,3",

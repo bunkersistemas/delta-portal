@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 19 Nov 2026 12:47:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 14:53:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La lista oficial de precios de los combustibles quedó congelada: 9 de cada 10 estaciones YPF muestran un precio de hace más de un año</title>
+      <link>https://coninteres.com/articulos/2026-11-19-precios-combustibles-lista-oficial-congelada-ypf.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-precios-combustibles-lista-oficial-congelada-ypf.html</guid>
+      <pubDate>Thu, 19 Nov 2026 15:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La Secretaría de Energía sigue publicando el registro de precios en surtidor, pero desde junio de 2025 las estaciones ya no están obligadas a informarlos, y la lista quedó con precios viejos. De las 1.560 estaciones YPF de la lista, 1.383 muestran un precio de hace más de un año: la mediana de su nafta súper es $1.261, contra $2.179 en las pocas YPF que sí actualizaron. En todo el registro, solo 526 de 4.605 estaciones informaron un precio en el último mes.</description>
+      <ci:numero>88,7%</ci:numero>
+      <ci:numeroEtiqueta>estaciones YPF cuyo último precio en la lista oficial de la Secretaría de Energía tiene más de un año, al 19 de noviembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-precios-combustibles-lista-oficial-congelada-ypf.png" length="68007" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-precios-combustibles-lista-oficial-congelada-ypf.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>De cada US$100 que crecieron las exportaciones de alimentos en 2026, los lácteos y elaborados aportaron US$2,3</title>
       <link>https://coninteres.com/articulos/2026-11-19-exportaciones-alimentos-elaborados-carne-vacuna.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>líneas móviles menos de Personal en la Argentina, septiembre de 2026 contra septiembre de 2025 (de 20,3 a 17,9 millones)</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-personal-lineas-prepagas-baja-180-dias.png" length="65207" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-personal-lineas-prepagas-baja-180-dias.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>38% de lo que la inversión en IA sumó al crecimiento de EE.UU. a comienzos de 2026 se fue en equipos importados, según economistas de la Fed</title>
-      <link>https://coninteres.com/articulos/2026-11-17-ia-inversion-pbi-importaciones-reserva-federal.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-17-ia-inversion-pbi-importaciones-reserva-federal.html</guid>
-      <pubDate>Tue, 17 Nov 2026 01:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>IA</category>
-      <description>La inversión en inteligencia artificial empuja el crecimiento de Estados Unidos, pero una parte grande de esa plata sale del país. Según tres economistas de la Reserva Federal, en el primer trimestre de 2026 esa inversión sumó 1,18 puntos al crecimiento anualizado y las importaciones de computadoras y partes le restaron 0,45: quedaron 0,73, y el 38% se fue a los países que fabrican los equipos. En la Argentina ese auge todavía no aparece en la aduana: de enero a septiembre de 2026 el país importó US$297,1 millones en servidores y sus partes, 1,0% más que un año antes y 48% menos que en el mismo período de 2022.</description>
-      <ci:numero>38%</ci:numero>
-      <ci:numeroEtiqueta>de lo que la inversión en IA sumó al crecimiento de EE.UU. en el primer trimestre de 2026 se compensó con computadoras importadas, según la Fed</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-ia-inversion-pbi-importaciones-reserva-federal.png" length="75563" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-ia-inversion-pbi-importaciones-reserva-federal.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
