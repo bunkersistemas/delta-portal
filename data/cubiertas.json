@@ -9546,6 +9546,20 @@
       "fecha": "2026-11-18",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto invierten los argentinos en España? (Clarín 18/11/2026 'Sorpresa: Argentina es el primer inversor en España y supera al resto de América Latina', por número de proyectos; infobae 18/11 'España como puerta de entrada a Europa') / Banco de España vía Eurostat bop_fdi6_pos (18/11/2026): posición neta 2025 por país último €10.918 M vs país inmediato €688 M (15,9 veces; Australia 23,0, EE.UU. 2,4, Brasil 2,2, México 1,4; Uruguay 0,5, Países Bajos 0,3, Luxemburgo 0,1); 2.º de América Latina por país último (México 36.316), 7.º por inmediato; salto 2024 4.262 -> 10.125 en comercio (596 -> 5.299) e info y comunicaciones (5 -> 1.211); contraste Registro de Inversiones Exteriores 2022: PBU 9.240, fuera del top 20 por inmediato (>= 3,7x) vs BdE 2022 4,3x; BCRA: España 2.º inversor en la Argentina US$25.715 M",
+      "angulo": "Ángulo propio: los medios contaron el ranking por proyectos; las estadísticas oficiales españolas muestran que casi toda la inversión de dueños argentinos en España entra por sociedades de terceros países. Camino: estadística oficial (BdE/Eurostat) recalculada + contraste independiente (Registro del Ministerio, otro método). No se afirma irregularidad, ni empresas, ni por qué país entra.",
+      "fecha": "2026-11-19",
+      "estado": "publicada",
+      "articulo_id": "2026-11-19-argentina-inversion-espana-terceros-paises"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/11/2026 00:30: no se probaron o se descartaron porque pasó la candidata de la inversión argentina en España (Banco de España/Eurostat + Registro). Lista: brecha CCL-oficial en máximo de un año, 10% (7 portadas; sin serie oficial del CCL); Galicia, demanda colectiva de PAC por la comisión por depósitos y extracciones en dólares en otra sucursal (HR CNV 13/11; el régimen de transparencia del BCRA no publica comisiones de cajas de ahorro, molde 'cuánto cobra'); Petróleos Sudamericanos, adelanto de resultados (HR CNV 13/11; el PDF devolvió HTTP 400); Grupo ST, EECC de seguros al 30/09; INVAP emisión de ON (cubierta 07/10); deuda del Tesoro hacia US$500.000 M por bonos CER y capitalización (ámbito; ángulo del propio medio); emisión de ON de empresas cae a la mitad (Clarín; sin registro oficial consolidado a mano); Tierra del Fuego, impuestos a su banco y al gas para educación (TN; ley sin texto localizado); Lego y precios de juguetes (juguetes cubiertos 26/09 y 03/11); préstamos personales con más impuestos (publicada 18/11); Los Grobo y Agro de Souza (publicadas 17-18/11); PASO (cubiertas); carne (cubierta); Anthropic en Wall Street (sin dato argentino). Calendario: ICA de octubre y ETN hoy a las 16, la corrida es a las 00:30.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-19",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron o no pasaron la vara: la candidata de España pasó la verificación"
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-18T22:30",
+  "generado": "2026-11-19T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -1592,91 +1592,9 @@
       "tipo": "hecho",
       "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (20 10 26)",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/230D1A1D-6071-4AAC-8650-0EDFD41612C9"
-    },
-    {
-      "id": "cnv-3582237",
-      "fuente": "CNV",
-      "fecha": "2026-10-19T18:59",
-      "entidad": "INVERSORA JURAMENTO S.A",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - ADQUISICIÓN DE INMUEBLE RURAL ESTANCIA LOTE 5",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A81B732C-5669-449D-9821-7F77B196695F"
-    },
-    {
-      "id": "cnv-3582208",
-      "fuente": "CNV",
-      "fecha": "2026-10-19T18:56",
-      "entidad": "LOMA NEGRA CIASA",
-      "tipo": "financiamiento",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - LICITACIÓN OBLIGACIONES NEGOCIABLES CLASE 7",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3644DBFD-CF12-47F5-87C5-6EBD2D9DBD68"
-    },
-    {
-      "id": "cnv-3582235",
-      "fuente": "CNV",
-      "fecha": "2026-10-19T18:34",
-      "entidad": "CIA. INTRODUCTORA DE BS.AS",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE CNV DESTINO RESULTADO EJERCICIO AGOE CIBA 19.10.2026",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/EA9CA5C3-042C-4795-AACF-B85182C52A4E"
-    },
-    {
-      "id": "cnv-3582192",
-      "fuente": "CNV",
-      "fecha": "2026-10-19T17:31",
-      "entidad": "BANCO INDUSTRIAL S.A",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE – RENUNCIA DE UN (1) DIRECTOR TITULAR",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/D5396B9D-9856-4EC1-BD8C-5A9B08B96428"
-    },
-    {
-      "id": "cnv-3582190",
-      "fuente": "CNV",
-      "fecha": "2026-10-19T17:28",
-      "entidad": "PLUSPETROL SA",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - APROBACIÓN RIGI - PROYECTO BAJO DEL CHOIQUE - 19.10.2026",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A3134ACF-0EF4-4D32-B136-2D96DC4FB46C"
-    },
-    {
-      "id": "cnv-3582163",
-      "fuente": "CNV",
-      "fecha": "2026-10-19T17:13",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (19 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/529F1736-0A07-4A31-9523-CD86127614C0"
-    },
-    {
-      "id": "cnv-3582024",
-      "fuente": "CNV",
-      "fecha": "2026-10-19T13:57",
-      "entidad": "IEB CONSTRUCCIONES S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE. DESIGNACIÓN DE CHIEF FINANCIAL OFFICER - CFO Y CHIEF LEGAL OFFICER - CLO",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5BF439AB-EE67-43F2-92E5-2D53E4653DF4"
-    },
-    {
-      "id": "cnv-3581770",
-      "fuente": "CNV",
-      "fecha": "2026-10-19T09:31",
-      "entidad": "AEROPUERTOS ARGENTINA 2000 S.A",
-      "tipo": "financiamiento",
-      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - APROBACIÓN DE TÉRMINOS Y CONDICIONES PARA LA EMISIÓN DE LAS OBLIGACIONES NEGOCIABLES CLASE 12.",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/589CEA6A-0027-4CCF-83F3-1D9527CD49C5"
     }
   ],
   "anuncios": [
-    {
-      "id": "sec-0001292814-26-004922-2026-11-11",
-      "fuente": "SEC",
-      "fecha": "2026-11-11",
-      "entidad": "Central Puerto",
-      "ticker": "CEPU",
-      "frase": "llowing Friday, November 6, 2026, the scheduled date of the Board of Directors meeting at which such results will be considered. As of the date of this announcement, the results are expected to be released on Wednesday, November 11, 2026 (1) . The Company’s management team will host a conference call to discuss its",
-      "url": "https://www.sec.gov/Archives/edgar/data/1717161/000129281426004922/cepu20261014_6k.htm",
-      "presentado": "2026-10-14"
-    },
     {
       "id": "sec-0001292814-26-004922-2026-11-12",
       "fuente": "SEC",
@@ -1741,7 +1659,6 @@
     "sec-0001193125-26-459244": "2026-11-13",
     "sec-0001193125-26-461971": "2026-11-16",
     "sec-0001193125-26-466167": "2026-11-18",
-    "sec-0001292814-26-004952": "2026-10-19",
     "sec-0001292814-26-004958": "2026-10-20",
     "sec-0001292814-26-004966": "2026-10-21",
     "sec-0001292814-26-004990": "2026-10-23",

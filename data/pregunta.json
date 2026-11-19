@@ -1,14 +1,14 @@
 {
   "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
-  "fecha": "2026-11-18",
-  "pregunta": "En 2024 solo 46,7% de los chicos de 5 años de la Argentina recibió a tiempo la segunda dosis contra el sarampión, menos que en Bolivia, México y Estados Unidos. Esos tres países acaban de perder el estatus de libres de sarampión y la Argentina lo conserva. ¿Cómo puede ser?",
+  "fecha": "2026-11-19",
+  "pregunta": "En 2023 la economía argentina usó patentes, marcas y licencias extranjeras por US$1.820 millones, según el INDEC. Pero por el mercado oficial de cambios se pagaron solo US$66 millones por ese concepto. ¿Qué explica la diferencia?",
   "opciones": [
-    "Porque el estatus se pierde cuando el mismo virus circula sin cortarse durante 12 meses o más, no por tener baja cobertura: la baja cobertura es un riesgo, no una pérdida automática",
-    "Porque la OPS solo mira la primera dosis, y en la primera dosis la Argentina tiene la cobertura más alta de América",
-    "Porque la Argentina mide la cobertura con su propio registro y la OPS no acepta esos datos para decidir el estatus"
+    "El cepo frenó el pago, no el uso: el INDEC anota el gasto cuando se usa la marca o la licencia, y el BCRA, cuando el pago pasa por el mercado de cambios",
+    "Que en 2023 las empresas dejaron de usar marcas extranjeras y el INDEC siguió con una estimación vieja",
+    "Que el INDEC suma lo que pagan los particulares con tarjeta por plataformas como Netflix, y eso no pasa por ese renglón del mercado de cambios"
   ],
   "correcta": 0,
-  "explicacion": "Ser libre de sarampión no es una nota por vacunar bien: significa que no hay transmisión sostenida del virus. Un país pierde el estatus cuando el mismo virus circula sin cortarse durante 12 meses o más, y eso pasó en Bolivia, México y Estados Unidos. La cobertura baja no hace perder el estatus por sí sola, pero deja a muchos chicos sin protección completa: si el virus entra y encuentra suficientes personas sin vacunar, puede empezar a circular. Por eso la meta es 95% con las dos dosis, y la Argentina estuvo en 54,8% en 2025.",
-  "nota": "articulos/2026-11-17-sarampion-segunda-dosis-argentina-ultima-america.html",
+  "explicacion": "La balanza de pagos del INDEC registra un servicio cuando se presta, se pague o no (lo devengado). El balance cambiario del BCRA registra el pago cuando se hace y solo si pasa por el mercado oficial (lo percibido). Con el cepo, las filiales siguieron usando las marcas y las licencias de sus casas matrices, pero casi no pudieron girar el pago: en 2023 pasaron 3,6 de cada 100 dólares. En 2025, con los pagos habilitados, pasaron 61, como en los años sin cepo. Las suscripciones a plataformas de particulares van en otros renglones de la balanza de servicios.",
+  "nota": "articulos/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.html",
   "leccion": ""
 }

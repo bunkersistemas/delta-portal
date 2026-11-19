@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-18T22:41:57-03:00",
+    "actualizado": "2026-11-19T00:43:11-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-19-argentina-inversion-espana-terceros-paises",
+      "titulo": "La inversión directa en España controlada desde la Argentina suma €10.918 millones, pero solo €688 millones llegan directo desde el país",
+      "bajada": "La inversión directa en España controlada en última instancia desde la Argentina sumaba €10.918 millones a fines de 2025, según el Banco de España: la segunda de América Latina, detrás de México. Pero la que llegaba directo desde la Argentina era de €688 millones, 15,9 veces menos. El resto entra por sociedades radicadas en otros países. Entre los países con más de €5.000 millones invertidos en España, solo Australia muestra una diferencia mayor.",
+      "titulo_busqueda": "¿Cuánto invierten los argentinos en España?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "15,9 veces",
+      "numero_label": "inversión directa en España controlada desde la Argentina frente a la que llega directo desde la Argentina, fines de 2025",
+      "fecha": "2026-11-19",
+      "hora": "01:30",
+      "archivo": "articulos/2026-11-19-argentina-inversion-espana-terceros-paises.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Eurostat bop_fdi6_pos (datos del Banco de España, actualizada 18/11/2026), geo ES, partner AR, DI__D__F, TOTAL, FDI, NI: ULT 2025 = 10.918, IMM 2025 = 688 (M EUR); 10.918/688 = 15,87. Control: BdE Nota Estadística 28 (2026) EE.UU. 140/56 mm vs Eurostat 139.492/57.536. Contraste: Registro de Inversiones Exteriores, Posición 2022: Argentina PBU 9.240 M (cuadro II.3), fuera del top 20 por inmediato (20.º Canadá 2.473) => >= 3,7x; BdE 2022 4.745/1.115 = 4,3x; texto del Registro: 'terceras jurisdicciones... como ocurre con Australia o Argentina'. 2.º LatAm por ULT en ambas fuentes (México 1.º)."
+    },
     {
       "id": "2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior",
       "titulo": "US$1.323 millones salieron en 2025 por el mercado de cambios para pagar patentes, marcas y licencias: 20 veces más que en 2023, con el cepo",

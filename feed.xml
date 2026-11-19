@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 18 Nov 2026 22:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 00:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La inversión directa en España controlada desde la Argentina suma €10.918 millones, pero solo €688 millones llegan directo desde el país</title>
+      <link>https://coninteres.com/articulos/2026-11-19-argentina-inversion-espana-terceros-paises.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-argentina-inversion-espana-terceros-paises.html</guid>
+      <pubDate>Thu, 19 Nov 2026 01:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>La inversión directa en España controlada en última instancia desde la Argentina sumaba €10.918 millones a fines de 2025, según el Banco de España: la segunda de América Latina, detrás de México. Pero la que llegaba directo desde la Argentina era de €688 millones, 15,9 veces menos. El resto entra por sociedades radicadas en otros países. Entre los países con más de €5.000 millones invertidos en España, solo Australia muestra una diferencia mayor.</description>
+      <ci:numero>15,9 veces</ci:numero>
+      <ci:numeroEtiqueta>inversión directa en España controlada desde la Argentina frente a la que llega directo desde la Argentina, fines de 2025</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-argentina-inversion-espana-terceros-paises.png" length="72428" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-argentina-inversion-espana-terceros-paises.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>US$1.323 millones salieron en 2025 por el mercado de cambios para pagar patentes, marcas y licencias: 20 veces más que en 2023, con el cepo</title>
       <link>https://coninteres.com/articulos/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>autos, camionetas, camiones y vehículos de pasajeros con seguro, promedio julio 2025-junio 2026, sobre una flota de 15,8 millones</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-autos-sin-seguro-uno-de-cada-cuatro.png" length="74164" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-autos-sin-seguro-uno-de-cada-cuatro.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El 68% de la inversión aprobada en el RIGI está en proyectos cuya resolución no dice cuánto les comprarán a proveedores locales</title>
-      <link>https://coninteres.com/articulos/2026-11-16-rigi-proveedores-locales-sin-porcentaje.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-16-rigi-proveedores-locales-sin-porcentaje.html</guid>
-      <pubDate>Mon, 16 Nov 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El Decreto 1366/2026, publicado hoy, cambió quién es "proveedor local" para el RIGI: alcanza con estar constituido y domiciliado en el país, sin importar quién sea el dueño, así que una filial extranjera también cuenta como local. Pero en la mayor parte de la inversión del régimen no hay un número publicado contra el cual medir ese cambio. Con Interés leyó las 29 resoluciones de aprobación. En nueve, que suman US$54.293 millones, el 68% de la inversión, no figura qué parte de las compras irá a proveedores locales. En petróleo y gas, un solo proyecto, de US$365 millones, declara más que el mínimo del 20%.</description>
-      <ci:numero>68%</ci:numero>
-      <ci:numeroEtiqueta>de la inversión aprobada en el RIGI está en proyectos cuya resolución no dice qué parte de sus compras irá a proveedores locales</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-rigi-proveedores-locales-sin-porcentaje.png" length="65162" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-rigi-proveedores-locales-sin-porcentaje.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
