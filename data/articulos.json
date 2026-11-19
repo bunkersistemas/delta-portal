@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-19T03:04:43-03:00",
+    "actualizado": "2026-11-19T04:46:24-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-19-presupuesto-2026-ampliacion-jubilaciones-mitad",
+      "titulo": "Casi la mitad de los $15,6 billones que el Gobierno sumó al Presupuesto 2026 va a jubilaciones: sin el decreto, la partida alcanzaba para un mes más",
+      "bajada": "El Presupuesto 2026 se calculó con 10,1% de inflación; el IPC subió 33,1% en los doce meses a octubre, y los haberes se ajustan por el IPC. El Decreto 1391/2026, publicado hoy en el Boletín Oficial, suma $15,57 billones al gasto de 2026: de cada $100, $48,7 son para jubilaciones y pensiones de la ANSES y $25 para intereses de la deuda. Con el decreto, la partida de jubilaciones queda 16,5% por encima de lo que aprobó el Congreso, el mayor desvío de los presupuestos aprobados desde 2017.",
+      "titulo_busqueda": "Decreto 1391/2026: a dónde van los $15,6 billones de la ampliación del Presupuesto",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$7,57 billones",
+      "numero_label": "lo que suma el Decreto 1391/2026 para jubilaciones y pensiones de la ANSES en 2026: casi la mitad de la ampliación del Presupuesto",
+      "fecha": "2026-11-19",
+      "hora": "04:30",
+      "archivo": "articulos/2026-11-19-presupuesto-2026-ampliacion-jubilaciones-mitad.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Decreto 1391/2026 (BO 19/11/2026) planilla anexa art. 1, ANSES (850) programa 16 Prestaciones Previsionales $7.574.999.966.926 de un total de $15.568.872.935.557 (48,65%); 307 programas sumados, 83 subtotales de la planilla coinciden al peso; recursos +$8.085.564.103.992. Contraste: Presupuesto Abierto al 16/11/2026, prog 16 ley 52.748.936 M, vigente 53.858.436 M, devengado ene-oct 48.278.665 M (mensual = anual); proyeccion nov-dic con movilidad 1,93% y 2,17% + SAC relativo de junio = 61,34 billones vs vigente con decreto 61,43 (-0,15%). Desvio sobre ley prog 16: 2017 5,4; 2018 8,4; 2019 3,7; 2021 7,7; 2023 14,0; 2026 16,5. IPC nacional oct-26/oct-25 +33,13% (datos.gob.ar 148.3_INIVELNAL_DICI_M_26); supuesto dic-26 10,1% (mensaje P2026 p. 30)."
+    },
     {
       "id": "2026-11-19-petroleos-sudamericanos-pozos-maduros-vista-21-veces",
       "titulo": "Petróleos Sudamericanos necesita 854 pozos para sacar el petróleo que Vista saca de unos 40 en Vaca Muerta",

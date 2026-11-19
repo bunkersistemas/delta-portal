@@ -9572,6 +9572,21 @@
       "angulo": "lista de candidatas no probadas",
       "fecha": "2026-11-19",
       "estado": "descartada"
+    },
+    {
+      "tema": "¿a dónde van los $15,6 billones de la ampliación del Presupuesto 2026? (Decreto 1391/2026, DNU, BO 19/11/2026; infobae 19/11 'El Gobierno amplió el Presupuesto 2026 en $15,6 billones') / planilla anexa sumada por programa: gastos $15.568.872.935.557, recursos $8.085.564.103.992; ANSES prog 16 jubilaciones $7,57 billones (48,7%), deuda $3,89 billones (25,0%), asignaciones $1,49, cajas FFAA y seguridad $0,85, PNC $0,75, PAMI $0,30 (1,9%), J91 neto -$2,29 (Otras Asistencias Financieras -$2,06); prog 16 ley 52,75 -> vigente 53,86 -> con decreto 61,43 billones (+16,5%, mayor desvio de los presupuestos con ley desde 2017: 2023 14,0%); total +13,5% sobre ley (2023 39,6%); IPC 33,1% i.a. oct-26 vs supuesto 10,1%",
+      "angulo": "Corrida de redacción del 19/11/2026 04:30. Hallazgo propio: la suma de la planilla de 564 páginas muestra que casi la mitad va a jubilaciones de la ANSES (y no al PAMI, que recibe $300.000 M), que sin el decreto a la partida le quedaba plata para un mes, y que es el mayor desvío de la partida sobre la ley en los presupuestos aprobados desde 2017 mientras el total se desvía menos que en 2018-2023. Camino: documento oficial recalculado (83 subtotales al peso) + contraste independiente (ejecución de Presupuesto Abierto proyectada a diciembre, -0,15%).",
+      "fecha": "2026-11-19",
+      "estado": "en_cola",
+      "id": "2026-11-19-presupuesto-2026-ampliacion-jubilaciones-mitad",
+      "archivo": "cola/2026-11-19-presupuesto-2026-ampliacion-jubilaciones-mitad.html"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 19/11/2026 04:30 (pasó la primera candidata: ampliación del Presupuesto 2026, Decreto 1391/2026). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN con _privado/rastreo/portadas.py. Hoy ya salieron 2 notas (España inversión, EMPRESAS Petróleos Sudamericanos: cupo de empresas cumplido). Lista no probada: préstamos personales y carga impositiva (infobae, La Nación, iProfesional, Clarín, TN; en cola 18/11 con el IVA); brecha CCL-oficial en 10% (6 portadas; sin serie oficial del CCL, descartada 00:30 y 02:30); Plus Ultra suspende Ezeiza-Madrid (La Nación, Clarín; publicada 13/11 con ANAC); accidentes laborales en petróleo y gas tras el convenio YPF-SRT (infobae; sin contraste independiente identificado, retomable); alimenticias salen a exportar por la caída local (La Nación; ICA de octubre sale hoy 16 h); ICA octubre y ETN supermercados (calendario, 16 h, después de la corrida); Kicillof ley impositiva 2027 (La Nación; sin texto del proyecto); Swiss Medical compra grupo de salud de Rosario (La Nación; sin documento con monto); Pampa Energía crea empresa de IA (Clarín; sin hecho relevante con cifra en el bloque); Chubut crédito de US$150 M con Nación (ámbito; sin norma); Van Gogh de la colección Arrieta-Blaquier (Clarín; sin dato oficial); changuito federal (infobae, TN; fuente privada única, molde precio); EMPRESAS: Telecom 3T26 6-K (rentabilidad cubierta), Grupo ST EECC de seguros, Newsan compra de VEH Argentina (Newsan publicada 16/11), recompras de Macro, BYMA, A3 y Loma Negra (sin cifra nueva).",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-19",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: pasó la primera candidata (ampliación del Presupuesto 2026, Boletín Oficial + Presupuesto Abierto)"
     }
   ]
 }
