@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-19T18:44:30-03:00",
+    "actualizado": "2026-11-19T20:57:31-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-19-supermercados-esperan-mejora-ventas-piso-2024",
+      "titulo": "Solo 4,8% de los supermercados dice que le va bien, el mínimo desde 2020: hace más de dos años que esperan una mejora y las ventas siguen en el piso de 2024",
+      "bajada": "En la encuesta del INDEC publicada hoy, apenas 4,8 de cada 100 supermercados y mayoristas calificaron de buena su situación comercial de octubre, la proporción más baja desde que empezó la serie, en 2020. Aun así, 31 de cada 100 esperan que mejore. No es nuevo: esperan una mejora desde junio de 2024, en 27 de 29 relevamientos, y las ventas a precios constantes están donde estaban entonces.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "4,8%",
+      "numero_label": "supermercados y autoservicios mayoristas que califican de buena su situación comercial, octubre de 2026",
+      "fecha": "2026-11-19",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-19-supermercados-esperan-mejora-ventas-piso-2024.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC ETN supermercados y autoservicios mayoristas, informe 19/11/2026 y serie_etn_sam.xlsx cuadro 2: oct-26 buena 4,76 / normal 61,90 / mala 33,33 (balance -28,6); mínimo de \"buena\" desde ene-2020 (previo 5,33 mar y abr-2026); cuadro 3 expectativa nov26-ene27 31,0/63,1/6,0 = +25,0, el más alto desde nov-25 (27,5); expectativa positiva 27 de 29 meses jun-24 a oct-26 (negativas jul-24 y ago-25); situación actual negativa 36 meses nov-23 a oct-26. Balances recalculados = publicados en los 82 meses. Cruce: Encuesta de supermercados cuadro 1 desest 81,16 jun-24, 80,45 ago-26 (-0,9%), mínimo 80,24 mar-24; ago-26 -3,7% i.a. (informe super_10_26). Prueba: 22 meses con expectativa positiva jun-24 a may-26, ventas desest prom t+1..t+3 sobre t subieron en 11. Contraste CAME 08/11/2026: alimentos y bebidas pyme -3,5% i.a. real en octubre."
+    },
     {
       "id": "2026-11-19-industria-expectativa-personal-45-meses-racha",
       "titulo": "Hace 45 meses que en la industria son más los que esperan achicar el personal que los que esperan sumarlo: la racha más larga desde 2016",

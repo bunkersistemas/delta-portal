@@ -1,11 +1,38 @@
 {
-  "generado": "2026-11-19T18:30",
+  "generado": "2026-11-19T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3595129",
+      "fuente": "CNV",
+      "fecha": "2026-11-19T20:07",
+      "entidad": "CIA. DE TRANSPORTE DE ENERGIA ELECTRICA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE_ ADQUISICIÓN DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/5804BC58-1088-4D56-948E-43319EE33F3C"
+    },
+    {
+      "id": "cnv-3595117",
+      "fuente": "CNV",
+      "fecha": "2026-11-19T18:56",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/687A36A2-70A3-4131-BE8C-ED4BA0444D42"
+    },
+    {
+      "id": "cnv-3595115",
+      "fuente": "CNV",
+      "fecha": "2026-11-19T18:47",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICIÓN DE ACCIONES PROPIAS EN LOS TÉRMINOS DEL ARTÍCULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE LA CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/80C39E4C-668D-482C-89F0-B1B3CF129EB3"
+    },
     {
       "id": "cnv-3594797",
       "fuente": "CNV",
@@ -1649,6 +1676,7 @@
     "sec-0001104659-26-129132": "2026-11-17",
     "sec-0001104659-26-129793": "2026-11-18",
     "sec-0001104659-26-130143": "2026-11-19",
+    "sec-0001104659-26-130195": "2026-11-19",
     "sec-0001114700-26-000085": "2026-11-16",
     "sec-0001193125-26-425856": "2026-10-20",
     "sec-0001193125-26-436152": "2026-10-28",
