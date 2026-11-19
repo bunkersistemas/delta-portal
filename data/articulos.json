@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-19T14:52:59-03:00",
+    "actualizado": "2026-11-19T16:43:26-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-19-autos-importados-electrificados-cuatro-de-cada-diez",
+      "titulo": "Cuatro de cada diez dólares que la Argentina gastó en autos importados en octubre fueron a híbridos y eléctricos; un año antes, menos de uno",
+      "bajada": "La factura de autos importados se achicó y, adentro, cambió de motor. En octubre, el primer mes con los topes nuevos para entrar sin arancel, la Argentina importó autos por US$412,8 millones, y US$176,6 millones fueron híbridos, híbridos enchufables y eléctricos: el 42,8%. En octubre de 2025 habían sido el 8,3%. Los autos a combustión importados cayeron a menos de la mitad, y en los diez meses del año los electrificados ya son un tercio de la factura.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "42,8%",
+      "numero_label": "parte de lo que la Argentina gastó en autos importados en octubre de 2026 que fue para híbridos, enchufables y eléctricos",
+      "fecha": "2026-11-19",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-19-autos-importados-electrificados-cuatro-de-cada-diez.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC ICA oct-2026 (19/11/2026): cuadro 4 VA oct-26 412,808 (oct-25 544,877, -24,2%); cuadro 17 8703.60 76,367 + 8703.40 59,564 + 8703.80 40,675 = 176,606 -> 42,78%; cuadro 19 oct-25 9,5/26,3/9,5 = 45,27 -> 8,31%; resto 236,20 vs 499,61 (-52,7%). Recalculo base impom 2019-2026 (NCM 8703 CIF, ene-sep 2026): +0,1 a +0,4 M por mes vs cuadro 4; oct-25 por posicion igual al cuadro 19; ene-sep base + oct c17 = c18 ene-oct (HEV 838,80, PHEV 399,04). Ene-oct 2026 1.417,44 / 4.331,84 = 32,7% (2025 442,87 / 4.679,66 = 9,5%); anual 2019 2,1 ... 2025 12,5; max mensual previo a nov-25: ago-23 21,0%; ene-26 42,7%, jul-26 42,3%. BEV oct 40,7 vs sep 11,0, max previo ene-26 34,8. Contraste ACARA (A Rodar Post 30-31/10/2026): oct-26 hibridos 7.777 + BEV 699 de 45.965 (18,4%); BEV ene-oct 6.736 vs 893 (x7,5) vs aduana BEV ene-oct 179,6 vs 29,7 (x6,0). Decreto 1128/2026 topes BEV US$35.000, HEV/PHEV 18.000."
+    },
     {
       "id": "2026-11-19-precios-combustibles-lista-oficial-congelada-ypf",
       "titulo": "La lista oficial de precios de los combustibles quedó congelada: 9 de cada 10 estaciones YPF muestran un precio de hace más de un año",

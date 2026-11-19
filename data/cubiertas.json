@@ -9667,6 +9667,18 @@
       "angulo": "Probadas y frenadas: (1) caballa en Mar del Plata detrás del cierre de la planta de La Campagnola (Arcor; Clarín, La Nación, infobae): desembarques SSPyA ene-oct 2026 2.087 t contra 5.269 t en 2025 (-60%, el menor de la serie 2014-2026 de las tablas especie_mes), pero sin contraste independiente (exportaciones INDEC de caballa ínfimas o confidenciales; importaciones de caballa en lata 56 t) y el -90% de la prensa no aparece en el dato oficial; scripts _privado/caballa/serie.py y expo.py. (2) gasoil Argentina contra Brasil en dólares (TN): ANP mensual + A3500/PTAX, grado 3 / S10 1,23 en oct-26; frenada porque el nivel argentino sale del mismo registro desactualizado (sesgo sin YPF), y de ahí salió la nota elegida. EMPRESAS (cupo no regía): Newsan compra VEH Argentina y VEH MFG (HR CNV 16/11, sin monto); Galicia demanda colectiva PAC por comisión de depósitos/extracciones en dólares en otra sucursal (HR 13/11, el banco estima impacto no significativo, sin monto). No probadas: emisión de ON cae a la mitad con el riesgo país (Clarín, dato de PwC; informe CNV de octubre no localizado), impuestos de Tierra del Fuego al Banco TDF y al gas (ley sancionada 17/11 sin texto oficial localizado), deuda récord de países en desarrollo (API del Banco Mundial IDS sin el indicador), Anthropic en Wall Street (conflicto de interés: la redacción usa Claude), ICA de octubre (INDEC 16 h, después de la corrida), brecha CCL, préstamos personales (en cola 18/11), carne +44,5% (cubierta varias veces), prepagas fallo de la Corte (cubiertas), Durlock Roca (descartada 17/11), Plus Ultra (publicada 13/11).",
       "fecha": "2026-11-19",
       "estado": "descartada"
+    },
+    {
+      "tema": "autos importados electrificados (calendario: INDEC ICA octubre 2026, 19/11/2026 16 h, superávit US$3.394 M en ámbito, TN, Clarín) / parte de híbridos (8703.40), enchufables (8703.60) y eléctricos (8703.80) en el uso VA: oct-26 US$176,6 M de US$412,8 M = 42,8% (oct-25 8,3%); resto -52,7%; ene-oct 32,7% vs 9,5%; serie anual 2019-2025 2,1% a 12,5%; primer mes de los topes del Decreto 1128/2026; contraste patentamientos ACARA",
+      "angulo": "la factura de autos importados cae y la parte electrificada sube a 4 de cada 10 dólares: lo que se dejó de traer son autos a combustión (distinto de las notas del 27/09, solo eléctricos puros ene-ago, y del 01/10, los topes del decreto)",
+      "fecha": "2026-11-19",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/11/2026 16:30: ICA octubre otros ángulos (superávit récord: ya 19/10; precios y cantidades: ya 03/11; energía: ya 02/11 y 14/11; uranio importado de Kazajstán US$45 M: ya 02/11), fallo de la Corte sobre prepagas (Cronista, Página12, TN; prepagas cubiertas 01/10, 28/10, 05/11), gasoil más caro de la región (TN; misma serie que la nota de combustibles de hoy 15:00), Arcor cierra La Campagnola en Mar del Plata (infobae, La Nación, Clarín; atún y caballa ya 24/10), crédito personal más caro que en 29 países (Clarín; IVA en préstamos en cola 18/11), PASO (costo ya 04/10), Boca en la final de la Sudamericana (ya 21/10), Tierra del Fuego impuestos al banco y al gas (descartada hoy, sin texto oficial), Anthropic en Wall Street (4 portadas; descartada por conflicto de interés: la redacción usa Claude), riesgo país y dólar en máximos (dato del día, sin ángulo propio). EMPRESAS: ya hubo nota hoy (Petróleos Sudamericanos); Galicia demanda colectiva, INVAP ON, Loma Negra recompra, Grupo ST seguros 3T no probadas",
+      "angulo": "lista de candidatas no probadas",
+      "fecha": "2026-11-19",
+      "estado": "descartada"
     }
   ]
 }
