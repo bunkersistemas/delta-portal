@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-19T00:43:11-03:00",
+    "actualizado": "2026-11-19T03:04:43-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-19-petroleos-sudamericanos-pozos-maduros-vista-21-veces",
+      "titulo": "Petróleos Sudamericanos necesita 854 pozos para sacar el petróleo que Vista saca de unos 40 en Vaca Muerta",
+      "bajada": "Petróleos Sudamericanos, la empresa que se quedó con campos maduros que operaba YPF en Mendoza, sacó 13.549 barriles diarios en nueve meses con unos 850 pozos: 17 barriles por pozo y por día, según la Secretaría de Energía. Un pozo de Vista en Vaca Muerta dio 359, unas 21 veces más. El balance que presentó ante la CNV muestra cómo rinde ese negocio: de cada $100 que facturó le quedaron $13,6 de ganancia operativa y, después de los intereses de su deuda y del impuesto, $1,6 de ganancia neta.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "21 veces",
+      "numero_label": "cuánto más petróleo por día dio un pozo de Vista en Vaca Muerta que uno de Petróleos Sudamericanos, enero a septiembre de 2026",
+      "fecha": "2026-11-19",
+      "hora": "04:30",
+      "archivo": "articulos/2026-11-19-petroleos-sudamericanos-pozos-maduros-vista-21-veces.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "SE, produccion por pozo 2026 (Cap. IV), ene-sep: PESA 588.071 m3 en 7.655 pozo-meses (76,8) y 17,19 bbl por dia efectivo (tef); Vista Energy Argentina SAU 3.425.758 m3 en 2.081 pozo-meses (1.646,2) y 358,75 bbl/dia: 20,9x por dia efectivo, 21,4x por pozo-mes. Sep: PESA 64.086 m3 en 854 pozos; Vista 406.277 m3 en 256 -> 40,4 pozos equivalentes. Control PESA: EEFF consolidados 30/09/2026 (CNV 17/11/2026) 3.698.856 bbl y 55.117 miles m3 = SE exacto. Control Vista: SE 3T26 91.341 boe/d vs 6-K SEC 28/10/2026 produccion operada 93.115 (-1,9%). Pais sep: convencional 19.253 pozos 27,5% del petroleo; ene-sep 15,16 vs 199,61 bbl/dia efectivo."
+    },
     {
       "id": "2026-11-19-argentina-inversion-espana-terceros-paises",
       "titulo": "La inversión directa en España controlada desde la Argentina suma €10.918 millones, pero solo €688 millones llegan directo desde el país",

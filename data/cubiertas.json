@@ -9560,6 +9560,18 @@
       "fecha": "2026-11-19",
       "estado": "descartada",
       "motivo_descarte": "no se probaron o no pasaron la vara: la candidata de España pasó la verificación"
+    },
+    {
+      "tema": "EMPRESAS: Petróleos Sudamericanos, estados financieros consolidados al 30/09/2026 (CNV 17/11/2026, HR adelanto de resultados; bloque EMPRESAS de agenda.py) / productividad por pozo contra Vista con la base por pozo de la SE: 17,19 vs 358,75 bbl por día efectivo ene-sep 2026 (20,9x; 21,4x por pozo-mes), 854 pozos en sep vs ~40 equivalentes de Vista; país: convencional 83,5% de los pozos y 27,5% del petróleo en sep; producción PESA = SE exacto (3.698.856 bbl); seis áreas de Mendoza que operó YPF hasta mar-2025: 12.826 / 11.694 / 10.466 bbl/d ene-oct 2024/25/26, plana en 2026 (10.314 -> 10.267); balance: ingresos $417.285 M, op. $56.919 M (13,6%), neta $6.565 M (1,6%), reposición y reparación de equipos $119.385 M (41,2% de costos de producción, 2,5x), capital de trabajo -$101.599 M",
+      "angulo": "un pozo maduro de Petróleos Sudamericanos da 17 barriles por día y uno de Vista en Vaca Muerta 359 (21 veces); lo que dejó YPF en Mendoza cayó 15,8% en un año y se estabilizó en 2026 con una campaña de reparación que se lleva 41% del costo; de cada $100 vendidos, $13,6 operativos y $1,6 netos",
+      "fecha": "2026-11-19",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida programada del 19/11/2026 02:30 (pasó la primera, Petróleos Sudamericanos). Lista: EMPRESAS Galicia, demanda colectiva por la comisión a depósitos y extracciones en dólares en otra sucursal (HR CNV 13/11; pregunta de plata con régimen de transparencia del BCRA, no probada); Holcim respuesta al FGS-ANSES para la asamblea del 20/11 (publicada 13/11); INVAP ON Clase VII (HR sin monto ni tasa), Grupo ST (aviso de plazo, sin cifras), recompras de Macro, BYMA y A3 (Macro publicada 01/11); portadas: brecha cambiaria en 10% (infobae, La Nación, ámbito, iProfesional, Clarín, TN; dato de mercado del día, dólar y riesgo país cubiertos 08-09/11), préstamos personales y carga impositiva (5 portadas; publicada 18/11), deuda del Tesoro hacia US$500.000 M por CER y capitalización (ámbito; descomposición publicada 15/10), emisión de ON cae a la mitad con el riesgo país (Clarín; informe CNV de octubre no hallado, PwC sola fuente), changuito federal por provincia (infobae, TN; fuente privada única, molde precio), Tierra del Fuego impuestos al banco y al gas para educación (TN; sin texto de la ley), real barato y vacaciones en Brasil (ámbito, Página12; publicada 15/11 y 26/10); calendario: ICA de octubre (INDEC 16:00, después de la corrida). Petróleos Sudamericanos HR de adelanto: el PDF da HTTP 400 en la CNV; se usaron los EEFF y la reseña del mismo día",
+      "angulo": "lista de candidatas no probadas",
+      "fecha": "2026-11-19",
+      "estado": "descartada"
     }
   ]
 }
