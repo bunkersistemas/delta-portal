@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-19T04:46:24-03:00",
+    "actualizado": "2026-11-19T08:56:01-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo",
+      "titulo": "$1,7 de cada $100 negociados en el MAV en octubre fueron facturas de crédito, las que Caputo pide a las grandes empresas aceptar el primer día",
+      "bajada": "Cuando una factura de crédito llega al mercado, se descuenta a la tasa de la empresa grande que la tiene que pagar. El problema es que llegan pocas: en el Mercado Argentino de Valores fueron en octubre $1,7 de cada $100 negociados con cheques, pagarés y facturas, y en 30 meses nunca pasaron de $2,7. Las aceptadas por YPF, Vista y Pan American Energy se descontaron a 24,8% anual, casi la misma tasa que los cheques de esas petroleras y hasta 4,6 puntos menos que un cheque sin garantía. Ahora el ministro de Economía les pidió a las grandes empresas que acepten esas facturas desde el primer día.",
+      "titulo_busqueda": "Factura de crédito electrónica: a qué tasa se descuenta y cuánto se usa en el mercado",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "1,7%",
+      "numero_label": "parte de las facturas de crédito electrónicas en lo negociado en el MAV con cheques, pagarés y facturas, octubre de 2026",
+      "fecha": "2026-11-19",
+      "hora": "08:30",
+      "archivo": "articulos/2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "MAV informe mensual oct-2026: CPD $1.539.396 M, pagaré $2.190.184 M, FCE $64.359 M (979 FCE) = 1,696%. Recalculo base anexo I (55.809 operaciones): CPD nominal $1.539.395,8 M (NG 1.202.186, avalado 313.470, garantizado 23.739, igual al informe); FCE pesos 866 por $55.448,3 M + 113 en USD por US$5,84 M. Contraste CNV informe anual 2025: FCE $399.649 M / (CPD 9.542.558 + pagarés 10.128.577 + FCE) = 1,99% (pesos dic-25); unidades 7.021/(7.021+350.370+37.344) = 1,78%. MAV 2025 suma informes mensuales: 1,78% nominal. Serie MAV may-24 a oct-26: min 0,86% (jun/jul-24), max 2,71% (abr-26). Tasas ponderadas por monto liquidado, pesos: FCE YPF+PAE+Vista 0-30 24,78 / 31-60 24,78; cheque NG 26,68 / 29,39; cheque NG librado por las tres 24,44 / 25,12; avalado SGR 24,81 / 25,03. BCRA serie 1216 documentos a sola firma oct-26 30,95%."
+    },
     {
       "id": "2026-11-19-presupuesto-2026-ampliacion-jubilaciones-mitad",
       "titulo": "Casi la mitad de los $15,6 billones que el Gobierno sumó al Presupuesto 2026 va a jubilaciones: sin el decreto, la partida alcanzaba para un mes más",

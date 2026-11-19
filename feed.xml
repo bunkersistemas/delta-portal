@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 19 Nov 2026 04:46:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 08:56:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>$1,7 de cada $100 negociados en el MAV en octubre fueron facturas de crédito, las que Caputo pide a las grandes empresas aceptar el primer día</title>
+      <link>https://coninteres.com/articulos/2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo.html</guid>
+      <pubDate>Thu, 19 Nov 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Cuando una factura de crédito llega al mercado, se descuenta a la tasa de la empresa grande que la tiene que pagar. El problema es que llegan pocas: en el Mercado Argentino de Valores fueron en octubre $1,7 de cada $100 negociados con cheques, pagarés y facturas, y en 30 meses nunca pasaron de $2,7. Las aceptadas por YPF, Vista y Pan American Energy se descontaron a 24,8% anual, casi la misma tasa que los cheques de esas petroleras y hasta 4,6 puntos menos que un cheque sin garantía. Ahora el ministro de Economía les pidió a las grandes empresas que acepten esas facturas desde el primer día.</description>
+      <ci:numero>1,7%</ci:numero>
+      <ci:numeroEtiqueta>parte de las facturas de crédito electrónicas en lo negociado en el MAV con cheques, pagarés y facturas, octubre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo.png" length="71218" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Casi la mitad de los $15,6 billones que el Gobierno sumó al Presupuesto 2026 va a jubilaciones: sin el decreto, la partida alcanzaba para un mes más</title>
       <link>https://coninteres.com/articulos/2026-11-19-presupuesto-2026-ampliacion-jubilaciones-mitad.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>alquiler fijo por año que Amaggi pagará a Los Grobo por 15 plantas de acopio en 2027 y 2028, sin IVA ni la parte variable</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-los-grobo-alquila-plantas-acopio-amaggi.png" length="75500" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-los-grobo-alquila-plantas-acopio-amaggi.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>YPF calcula hasta 40.000 puestos en el pico de obra de Argentina LNG: dos tercios de todo el empleo privado registrado que sumó Neuquén en 13 años</title>
-      <link>https://coninteres.com/articulos/2026-11-16-argentina-lng-40000-puestos-empleo-neuquen.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-16-argentina-lng-40000-puestos-empleo-neuquen.html</guid>
-      <pubDate>Mon, 16 Nov 2026 19:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>En la audiencia pública de Sierra Grande, YPF repitió la cifra que había presentado en agosto: hasta 40.000 puestos en el momento de mayor actividad de Argentina LNG. No son 40.000 obreros en la costa. Es una estimación de la empresa, y su propio comunicado aclara que suma empleos directos, indirectos e inducidos, repartidos entre Neuquén, Río Negro y la cadena de proveedores de todo el país. La vara para medirla: entre 2013 y 2026 Neuquén sumó 59.074 asalariados privados registrados, en todas las actividades.</description>
-      <ci:numero>59.074</ci:numero>
-      <ci:numeroEtiqueta>asalariados privados registrados que sumó Neuquén entre el primer trimestre de 2013 y el de 2026, en todas las actividades</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-16-argentina-lng-40000-puestos-empleo-neuquen.png" length="73874" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-16-argentina-lng-40000-puestos-empleo-neuquen.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

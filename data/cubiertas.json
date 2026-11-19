@@ -9614,6 +9614,18 @@
       "angulo": "lista de candidatas de la corrida sin nota",
       "fecha": "2026-11-19",
       "estado": "descartada"
+    },
+    {
+      "tema": "MERCADOS: ¿se usa la factura de crédito electrónica para financiar pymes? (pregunta detrás de infobae 19/11/2026 'Cómo es la estrategia que planteó Caputo para que las pymes se financien a tasas más bajas': pedido a las grandes empresas de aceptar las FCE el día 1) / MAV informe mensual oct-2026: FCE $64.359 M de $3.793.939 M = 1,7% (979 FCE vs 49.922 cheques y 4.908 pagarés); serie may-24 a oct-26 entre 0,86% y 2,71%; CNV anual 2025 2,0% del monto; tasas ponderadas oct-26 desde la base de operaciones: FCE de YPF, PAE y Vista 24,8% vs cheque sin garantía 26,7% (0-30 días) y 29,4% (31-60); 46 deudores, tres petroleras = 49,6% del monto",
+      "angulo": "la herramienta que propone Caputo ya existe y la tasa sí copia el riesgo del deudor grande (24,8% = cheques de las mismas petroleras), pero es 2 de cada 100 pesos del mercado pyme y está concentrada en 46 empresas. Scripts _privado/corrida1119b/ (serie_mav.py, serie_parse.py, fce2.py, plazos.py, svgs.py, armar.py).",
+      "fecha": "2026-11-19",
+      "estado": "en_cola"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 19/11/2026 08:30 (pasó la tercera candidata probada: facturas de crédito electrónicas en el MAV). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN con _privado/rastreo/portadas.py; portadas generales de infobae y Clarín para la pregunta de plata. Hoy ya salieron 3 notas (España IED, EMPRESAS Petróleos Sudamericanos, Presupuesto 2026): sin cupo de empresas. Probadas y FRENADAS: (1) chequeo de Milei en A24 sobre inflación \"viajando al 30%, núcleo al 20%, mayorista al 10%\" (infobae 18/11): la nota de A24 del 18/11 (n1617826) no trae esas frases y no hay video; cita levantada de otro medio, no va. Para un retome: IPIM oct-26/oct-25 +29,8% y núcleo sep-26 interanual 31,6% (INDEC). (2) tope de cargos del Presupuesto 2027 (TN 19/11, arts. 6 y 7 del proyecto): planilla anexa al art. 6 da 376.701 cargos en 2027, 379.585 en la ley 2026 y 370.295 en la ley 2023 (fuerzas de seguridad y FF.AA. con cifras idénticas desde 2023), pero no se puede comparar con la dotación INDEC (personas, incluye contratados y excluye militares): ANSES tiene más personas que cargos (10.926 vs 10.789) e INTA menos (4.960 vs 6.308); decir que el tope no limita sería engañoso. Planillas en _privado/corrida1119b/dl/rh/. No probadas: Diego Estévez \"la mitad de la inflación de 2026 fue importada\" (infobae; importados vs nacionales publicada 17/11); Neuquén regalías ene-sep récord (infobae; regalías Neuquén publicada 26/09 y el cálculo es del medio); brecha CCL 10% (sin serie oficial); real devaluado 16% y Brasil (publicada 15/11); changuito federal (fuente privada); Tesla segundo local (autos eléctricos publicada 27/09); Lego (juguetes cubiertos); Kicillof $2,3 billones contra inundaciones (Cronista; sin ejecución provincial por obra a mano); Moyano y la recolección porteña US$200 M (basura publicada 27/09 y 06/10); Ley de Tierras en el Senado (extranjerización publicada 30/09); Van Gogh Blaquier (frenada 06:30); Cristina y la ANSES (molde cuánto cobra); EMPRESAS: Telecom 3T26, Grupo ST, Galicia demanda colectiva, recompras de Macro/BYMA/Loma Negra, INVAP ON (mismos motivos que las corridas anteriores). Calendario: ICA octubre a las 16 (después de la corrida). pregunta.json ya era de hoy.",
+      "angulo": "lista de candidatas de la corrida",
+      "fecha": "2026-11-19",
+      "estado": "descartada"
     }
   ]
 }
