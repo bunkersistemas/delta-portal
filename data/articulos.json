@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-19T16:43:26-03:00",
+    "actualizado": "2026-11-19T18:44:30-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-19-industria-expectativa-personal-45-meses-racha",
+      "titulo": "Hace 45 meses que en la industria son más los que esperan achicar el personal que los que esperan sumarlo: la racha más larga desde 2016",
+      "bajada": "Desde marzo de 2023, en cada relevamiento del INDEC hay más industriales que esperan tener menos empleados que un año antes que industriales que esperan tener más. Son 45 meses seguidos; la racha anterior más larga, la de la crisis de 2018 a 2020, duró 30. Y lo que esperaban se cumplió: el empleo registrado en la industria cayó 4,4% en un año, a su nivel más bajo desde diciembre de 2020.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "45 meses",
+      "numero_label": "meses seguidos en que son más los industriales que esperan tener menos personal que un año antes que los que esperan tener más",
+      "fecha": "2026-11-19",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-19-industria-expectativa-personal-45-meses-racha.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC ETN industria, cuadro 4 de serie_etn_im.xlsx (19/11/2026): dotación de personal respecto del mismo período del año anterior, balance negativo en las 45 ventanas mar-may 2023 a nov 2026-ene 2027 (feb-abr 2023 +0,7); racha previa may-jul 2018 a oct-dic 2020 = 30; nov26-ene27 7,0/67,1/25,9 (-18,9); máx. disminuirá 32,3% ago-oct 2025 (previo 31,8% abr-jun 2020). Puntos comprobados contra informes IPI 05/19, 01/25 y 09/25. Contraste SIPA A.2.1 anexo ago-2026: industria 1.096,749 mil (ago-26) vs 1.147,390 (ago-25) y 1.194,632 (nov-23); mínimo desde dic-2020; 30 meses de caída interanual; signo coincide en 93 de 119 ventanas, correlación 0,71."
+    },
     {
       "id": "2026-11-19-autos-importados-electrificados-cuatro-de-cada-diez",
       "titulo": "Cuatro de cada diez dólares que la Argentina gastó en autos importados en octubre fueron a híbridos y eléctricos; un año antes, menos de uno",

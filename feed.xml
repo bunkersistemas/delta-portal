@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 19 Nov 2026 16:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 19 Nov 2026 18:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Hace 45 meses que en la industria son más los que esperan achicar el personal que los que esperan sumarlo: la racha más larga desde 2016</title>
+      <link>https://coninteres.com/articulos/2026-11-19-industria-expectativa-personal-45-meses-racha.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-industria-expectativa-personal-45-meses-racha.html</guid>
+      <pubDate>Thu, 19 Nov 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Desde marzo de 2023, en cada relevamiento del INDEC hay más industriales que esperan tener menos empleados que un año antes que industriales que esperan tener más. Son 45 meses seguidos; la racha anterior más larga, la de la crisis de 2018 a 2020, duró 30. Y lo que esperaban se cumplió: el empleo registrado en la industria cayó 4,4% en un año, a su nivel más bajo desde diciembre de 2020.</description>
+      <ci:numero>45 meses</ci:numero>
+      <ci:numeroEtiqueta>meses seguidos en que son más los industriales que esperan tener menos personal que un año antes que los que esperan tener más</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-industria-expectativa-personal-45-meses-racha.png" length="65097" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-industria-expectativa-personal-45-meses-racha.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Cuatro de cada diez dólares que la Argentina gastó en autos importados en octubre fueron a híbridos y eléctricos; un año antes, menos de uno</title>
       <link>https://coninteres.com/articulos/2026-11-19-autos-importados-electrificados-cuatro-de-cada-diez.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>paquetes de cigarrillos vendidos en el circuito legal de la Argentina en 2025, la menor cantidad desde 1972</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-cigarrillos-ventas-minimo-desde-1972-pymes.png" length="62549" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-cigarrillos-ventas-minimo-desde-1972-pymes.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>CMPC vendió sus bosques de Corrientes y Misiones a US$1.809 la hectárea: un mes antes había cobrado 3,4 veces más por cada hectárea de pino en Chile</title>
-      <link>https://coninteres.com/articulos/2026-11-17-cmpc-bosques-argentina-precio-hectarea.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-17-cmpc-bosques-argentina-precio-hectarea.html</guid>
-      <pubDate>Tue, 17 Nov 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>La chilena CMPC vendió sus 94.000 hectáreas forestales de Corrientes y Misiones por US$170 millones: unos US$1.809 por hectárea. Un mes antes había cobrado unos US$6.092 por cada una de las 60.000 hectáreas de pino que vendió en el Maule, Chile, por US$365,5 millones. Sus propios documentos marcan qué separa a una venta de la otra: los bosques chilenos y los brasileños que se vendieron más caros tenían una fábrica que les compraba la madera; los argentinos, no.</description>
-      <ci:numero>US$1.809</ci:numero>
-      <ci:numeroEtiqueta>precio por hectárea que cobró CMPC por sus 94.000 hectáreas forestales de Corrientes y Misiones, noviembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-cmpc-bosques-argentina-precio-hectarea.png" length="84369" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-cmpc-bosques-argentina-precio-hectarea.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

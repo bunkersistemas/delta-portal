@@ -9679,6 +9679,20 @@
       "angulo": "lista de candidatas no probadas",
       "fecha": "2026-11-19",
       "estado": "descartada"
+    },
+    {
+      "tema": "expectativas de empleo de la industria (calendario: INDEC ETN industria manufacturera, expectativas nov-2026 a ene-2027, publicada 19/11/2026 16 h; Clarín \"los industriales no ven un piso\", La Nación \"industria todavía negativa\") / ETN cuadro 4, dotación de personal respecto del mismo período del año anterior: balance negativo 45 ventanas seguidas (mar-may 2023 a nov26-ene27), la racha más larga desde ago-oct 2016 (previa 30, 2018-2020); nov26-ene27 7,0/67,1/25,9 = -18,9; máx. disminuirá 32,3% ago-oct 2025; mar-may 2025 demanda interna +1,3 con personal -19,0; contraste SIPA A.2.1 industria 1.096.749 ago-26 (-50.641 i.a., -4,4%; -97.883 desde nov-23), mínimo desde dic-2020, 38,4% de la caída del empleo privado registrado",
+      "angulo": "Corrida de redacción del 19/11/2026 18:30, primera candidata probada: APTA. Hallazgo propio: la serie larga de expectativas de personal (cuadro 4, que el informe no grafica) y el cruce con el empleo registrado efectivo por ventana de tres meses. Camino: estadística oficial recalculada (balances desde los porcentajes, tres puntos comprobados contra los informes IPI originales de 05/2019, 01/2025 y 09/2025) + contraste independiente (SIPA, registro administrativo). No afirmado: cuántos puestos se perderán; por qué esperan menos personal con la misma demanda. Distinto de la nota de indicadores anticipados (pedido 91, octubre: ICE) y de la industria partida en dos (09/11, IPI por rama). Scripts en _privado/etn/ (analisis.py, sipa_ind.py, sipa_stats.py, sipa_ramas.py, svgs.py, armar.py, manif.py).",
+      "fecha": "2026-11-19",
+      "estado": "publicada",
+      "articulo_id": "2026-11-19-industria-expectativa-personal-45-meses-racha",
+      "archivo": "cola/2026-11-19-industria-expectativa-personal-45-meses-racha.html"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 19/11/2026 18:30 (pasó la primera candidata probada: expectativas de personal de la industria, ETN cuadro 4 + SIPA). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN con _privado/rastreo/portadas.py; portada general de infobae. Hoy ya salieron 8 notas (España IED, Presupuesto 2026, EMPRESAS Petróleos Sudamericanos, MERCADOS MAV, peras, alimentos exportados, combustibles, autos electrificados): sin cupo de empresas.",
+      "angulo": "Lista no probada: calendario: ETN supermercados nov-ene (La Nación \"supermercados mejorando\"; mismo informe, menos serie). Pregunta de plata: ganado evacuado de las islas por la crecida del Paraná (infobae 19/11, casi un millón de cabezas; cifras de funcionarios provinciales y RENSPA, sin documento publicado ni stock SENASA que separe islas de tierra firme). Portadas: riesgo país 930 y dólar en máximos (dato del día, sin ángulo propio), Anthropic en Wall Street (conflicto de interés, la redacción usa Claude), fallo de la Corte sobre prepagas (cubiertas 01/10, 28/10, 05/11), Arcor cierra La Campagnola (atún y caballa ya 24/10), Mercado Libre y Carrefour (sin documento con cifras), financiación de 0 km en octubre (infobae; prendas sin serie oficial abierta probada), grandes empresas valen US$15.100 M menos (La Nación; juicio sobre acciones, línea roja), Ley de Propiedad Privada y desalojos (sin estadística judicial nacional), Pauny y Córdoba $300.000 por empleado (tractores en cola 30/10), JP Morgan hackeo, PASO, Cavallo (sin dato). EMPRESAS (cupo cumplido): Telecom 3T26, Grupo ST, Galicia demanda colectiva, recompras de Macro, BYMA, A3 y Loma Negra, INVAP ON, Holcim HR. pregunta.json ya era de hoy.",
+      "fecha": "2026-11-19",
+      "estado": "descartada"
     }
   ]
 }
