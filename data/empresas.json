@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-20T16:28",
+  "generado": "2026-11-20T18:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3595468",
+      "fuente": "CNV",
+      "fecha": "2026-11-20T18:17",
+      "entidad": "MOLINOS RÍO DE LA PLATA S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - VENTA DE ACOPIO DE CEREALES Y OTROS ACTIVOS.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1072C8BF-4AFA-42E3-A8E3-C2D9A0180A85"
+    },
     {
       "id": "cnv-3595367",
       "fuente": "CNV",

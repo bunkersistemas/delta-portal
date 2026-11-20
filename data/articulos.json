@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-20T16:45:15-03:00",
+    "actualizado": "2026-11-20T18:50:53-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-20-ezeiza-porcion-pasajeros-internacionales-minimo",
+      "titulo": "El país vuela al exterior más que nunca, pero Ezeiza mueve menos pasajeros internacionales que en 2016: su porción cayó a 51,5%, la más baja desde 2001",
+      "bajada": "El país bate su récord de vuelos al exterior y Ezeiza no está en él. De enero a octubre de 2026 viajaron en vuelos internacionales 14,29 millones de pasajeros, el récord de la serie de la ANAC; Ezeiza movió 7,36 millones, 3,5% menos que en los mismos meses de 2016, mientras el país creció 34,6%. Su porción del total cayó a 51,5%, la más baja desde 2001. El crecimiento se lo llevaron Aeroparque, que ya tiene más pasajeros que Ezeiza a Santiago, San Pablo y Río, y los aeropuertos del interior, que llegaron a su máximo.",
+      "titulo_busqueda": "¿Por qué Ezeiza tiene menos pasajeros internacionales que hace diez años?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "51,5%",
+      "numero_label": "porción de los pasajeros de vuelos internacionales que pasó por Ezeiza, enero a octubre de 2026; la más baja desde 2001",
+      "fecha": "2026-11-20",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-20-ezeiza-porcion-pasajeros-internacionales-minimo.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "ANAC tablas de movimientos y pasajeros, tabla 10 (pax internacionales por aeropuerto, miles), suma ene-oct: 2026 total 14.286,7 / EZE 7.362,6 (51,53%) / AEP 4.643,5 (32,50%) / interior 2.277,4 (15,94%); minimo previo EZE 53,32% (2025); 2016 EZE 7.630,9 de 10.611,1 (71,91%): EZE -3,52%, total +34,64%; 2018 EZE 8.523,1 (-13,6%); 2019 EZE 9.708,7 con AEP sin internacionales desde abril (160,8 mar -> 24,0 abr). Ene-sep: EZE 51,92% (previo 53,32%). Recalculo vuelo por vuelo (datos.transporte.gob.ar, anac_2026.csv hasta sep): EZE 6.744.768 vs tabla 6.740,6; AER 4.174.589 vs 4.173,8; porcion 51,71%. 2025 ene-oct EZE 6.945.052 vs 6.943,7. Contraste CAAP (6-K SEC): dic-25 intl +15,9% vs ANAC +16,0%; oct-26 records intl de COR/AEP/MDZ = maximos de octubre en ANAC (90,8 / 469,6 / 69,2); oct-26 CAAP +0,2% vs ANAC +1,3% (-1,4% sin Rosario, 0 intl en oct-25); obras pista EZE 7 dias. Interior 2.277,4 maximo (previo 2.006,9 en 2018). Rutas tabla 20 ene-oct 2016->2026: EZE-SCL 945,8->412,9; AEP-SCL 521,0->942,5; EZE-GRU 828,8->523,5; AEP-GRU 772,9->1.051,2; AEP-GIG 207,4->851,4; EZE-MAD 639,1->1.011,2; EZE-PTY 215,7->547,5. Scripts _privado/vuelos1120/."
+    },
     {
       "id": "2026-11-20-golosinas-chinas-importadas-record",
       "titulo": "Entraron 1,1 millones de kilos de golosinas chinas de enero a octubre, casi 15 veces lo de 2024: China ya es el segundo proveedor, detrás de Brasil",
