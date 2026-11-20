@@ -9776,6 +9776,22 @@
       "tema": "Ezeiza pierde peso en los vuelos internacionales (pregunta detrás de La Nación 20/11/2026 «Por qué una ciudad argentina registró un crecimiento del 397% en pasajeros internacionales», récord ene-oct de la ANAC) / ANAC tabla 10 ene-oct 2001-2026: Ezeiza 51,5% de los 14,29 M de pasajeros internacionales (mínimo de la serie, previo 53,3% en 2025; 71,9% en 2016); Ezeiza 7,36 M, -3,5% contra 2016 con el país +34,6%; Aeroparque 32,5%; interior 2,28 M, máximo (previo 2,01 M en 2018); rutas tabla 20 (Santiago, San Pablo, Río, Madrid, Panamá)",
       "angulo": "el récord de vuelos al exterior no pasa por Ezeiza: desde 2016 todo el crecimiento fue para Aeroparque (+2,66 M, vuelos a países vecinos) y el interior (+1,28 M); Ezeiza se quedó con larga distancia y Caribe. Distinto de la nota del 24/07 (récord total del 1S) y de Plus Ultra (13/11): acá el eje es el reparto por aeropuerto en 25 años. Verificación: estadística oficial ANAC + recálculo vuelo por vuelo + contraste CAAP (SEC).",
       "articulo_id": "2026-11-20-ezeiza-porcion-pasajeros-internacionales-minimo"
+    },
+    {
+      "fecha": "2026-11-20",
+      "estado": "en_cola",
+      "id": "2026-11-20-flete-china-importaciones-doble",
+      "tema": "¿cuánto cuesta el flete de lo que se importa de China? (INDEC ICA octubre 2026, 19/11, nueva sección 'Costos del flete internacional en las importaciones'; infobae/Movant 20/11 'el flete representa más del 6% del valor importado') / flete por cada US$1.000 FOB y por tonelada, total y China, serie mensual 2019-2026",
+      "angulo": "El informe del INDEC compara solo contra un año antes y su gráfico arranca en 2023. Ángulo propio: serie mensual desde 2019 rearmada con la base de importaciones (flete y FOB por registro; 2002-2018 sin flete separado). China: de 47,2 por cada US$1.000 en marzo (mínimo desde oct-2020) a 106,0 en octubre (máximo desde mar-2022, 108,7; pico ene-2022 119,9; ola previa oct-2024 104,7). Total: 42,9 -> 64,2 (máximo desde dic-2022). Resto del mundo sin China: 4,18 -> 5,04 por cada US$100 (+20,5%) contra China +124%. Acumulado ene-oct parejo: 51,8 vs 51,4 (US$3.078,5 M vs 3.148,0 M). Contraste Bertling (Shanghai-Santos +52,5% en agosto) y Drewry WCI (+126% i.a.), diferencia de magnitud explicada (spot vs declarado). Scripts en _privado/fletes/.",
+      "seccion": "ECONOMÍA",
+      "archivo": "cola/2026-11-20-flete-china-importaciones-doble.html"
+    },
+    {
+      "fecha": "2026-11-20",
+      "estado": "descartada",
+      "tema": "descartes de la corrida de redacción del 20/11/2026 20:30 (pasó la candidata del flete desde China, INDEC ICA + base de importaciones). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN no respondieron a WebFetch. agenda.py: HOY NO HAY NOTA DE EMPRESAS.",
+      "angulo": "EMPRESAS descartadas con motivo: Molinos (HR CNV 20/11, resultado contable estimado de unos $13.000 M por la venta de la planta de Rosario a Eliantus): el único número es una estimación de la propia empresa, sin precio ni valor de libros, igual que en el descarte de las 18:30; Galicia (HR 13/11, demanda colectiva de PAC por la comisión por depósitos y extracciones en dólares en otra sucursal): sin monto y el banco estima impacto no significativo; IRSA 1T FY27 (6-K 20/11): los shoppings ya están en cola desde el 24/10 y un trimestre más no es ángulo nuevo. Portadas: riesgo país arriba de 1.000 (todas), cuatro notas en noviembre; Argentina LNG RIGI (5 portadas) sin resolución en el BO; mora de familias, ya publicada tres veces; cuentas sueldo -600.000 (Página12) sin fuente identificada; AySA y servicios del AMBA, molde agotado; UNICEF 41%, encuesta sin serie oficial.",
+      "motivo_descarte": "ver ángulo: empresas sin dato propio confirmable; el resto repetido, sin documento o molde agotado"
     }
   ]
 }

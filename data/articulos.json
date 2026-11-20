@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-20T18:50:53-03:00",
+    "actualizado": "2026-11-20T20:48:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-20-flete-china-importaciones-doble",
+      "titulo": "Traer mercadería de China ya cuesta US$10,60 de flete por cada US$100: más del doble que en marzo y lo más alto desde 2022",
+      "bajada": "Traer mercadería de China cuesta más del doble que en marzo, y el salto es de China, no de todos los orígenes. En octubre, cada US$100 de mercadería china que entró a la Argentina pagó US$10,60 de flete, según el INDEC, contra US$4,72 en marzo: el costo más alto desde marzo de 2022, cuando todavía duraba la crisis de los contenedores. El flete desde el resto del mundo subió mucho menos; en el total de las importaciones llegó a US$6,42 por cada US$100, lo más alto desde diciembre de 2022.",
+      "titulo_busqueda": "¿Por qué sube el flete de lo que se importa de China?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$10,60",
+      "numero_label": "flete que pagó cada US$100 de mercadería importada desde China en octubre de 2026; en marzo eran US$4,72",
+      "fecha": "2026-11-20",
+      "hora": "21:15",
+      "archivo": "articulos/2026-11-20-flete-china-importaciones-doble.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC ICA octubre 2026 (ica_11_262BEEC7410A.pdf, cuadro 8, p. 12): China US$106,0 por cada US$1.000 FOB, 398,7 US$/t, 41,1% del flete; total 64,2 y 143,1. Recalculo exacto con imports_2026_M.zip (origen 310; suma Flete / suma FOB). Serie 2019-2026 con impom19-26: China mar-26 47,24 (minimo desde oct-20), oct-26 105,97 (maximo desde mar-22 108,73; abr-22 a sep-26 max 104,7 oct-24); total mar-26 42,91 (min desde feb-20), oct-26 64,2 (max desde dic-22 66,26). Contraste: Bertling ago-2026 Shanghai-Santos +52,5% (6.025 -> 9.188 US$/FEU); Drewry WCI 19/11/2026 US$4.176, +126% i.a."
+    },
     {
       "id": "2026-11-20-ezeiza-porcion-pasajeros-internacionales-minimo",
       "titulo": "El país vuela al exterior más que nunca, pero Ezeiza mueve menos pasajeros internacionales que en 2016: su porción cayó a 51,5%, la más baja desde 2001",

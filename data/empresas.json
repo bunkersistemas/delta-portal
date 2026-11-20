@@ -1,11 +1,38 @@
 {
-  "generado": "2026-11-20T18:30",
+  "generado": "2026-11-20T20:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3595507",
+      "fuente": "CNV",
+      "fecha": "2026-11-20T19:14",
+      "entidad": "SIDERSA SA",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN JUDICIAL - TRIBUNAL RESOLVIÓ REVOCAR LA MEDIDA CAUTELAR ORIGINARIAMENTE DICTADA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/93E0AC8F-63F1-45DE-9C09-5E575D4891B7"
+    },
+    {
+      "id": "cnv-3595477",
+      "fuente": "CNV",
+      "fecha": "2026-11-20T18:30",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/058D4EF3-2644-4CC7-AB64-A3753C03279A"
+    },
+    {
+      "id": "cnv-3595474",
+      "fuente": "CNV",
+      "fecha": "2026-11-20T18:27",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICION DE ACCIONES PROPIAS EN LOS TERMINOS DEL ARTICULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9EB0ACF3-4890-48C7-AEBD-BD7C547E160E"
+    },
     {
       "id": "cnv-3595468",
       "fuente": "CNV",
@@ -1695,6 +1722,7 @@
     "sec-0001104659-26-129793": "2026-11-18",
     "sec-0001104659-26-130143": "2026-11-19",
     "sec-0001104659-26-130195": "2026-11-19",
+    "sec-0001104659-26-130664": "2026-11-20",
     "sec-0001114700-26-000085": "2026-11-16",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
