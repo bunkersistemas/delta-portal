@@ -66,7 +66,7 @@ PROHIBIDO: escribir notas, tocar data/, cola/, articulos/ o cualquier archivo fu
 "@
   $salida = & claude -p $prompt --permission-mode dontAsk `
     --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' `
-    --disallowedTools 'PowerShell' 2>&1
+    --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
   Add-Content -Path $Log -Value ($salida | Out-String) -Encoding UTF8
   if (Test-Path '_privado/enfoque.json') {
     $g = @(& $py agente/local/pedidos_lectores.py guardar_enfoque $PedidoId 2>&1)

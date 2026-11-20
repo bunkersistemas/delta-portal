@@ -97,8 +97,29 @@ function Registrar($evento, $resultado = '', $id = '', $motivo = '') {
   $linea = (New-Object PSObject -Property $o | ConvertTo-Json -Compress) + "`n"
   [System.IO.File]::AppendAllText($Registro, $linea, (New-Object System.Text.UTF8Encoding($false)))
 }
+# Editor, 20/11/2026: una corrida cortada dejaba el repo sucio y TODAS las siguientes
+# frenaban en "hay cambios sin commitear" (12 h sin nota el 20/11, 4 veces en noviembre).
+# Lo que sobra se aparta a un git stash (recuperable con: git stash list / git stash show -p)
+# y el repo queda limpio. Devuelve el texto del aviso, o '' si no habia nada.
+function Apartar($motivo) {
+  Remove-Item $Resultado -ErrorAction SilentlyContinue
+  $sobra = @(git -C $Raiz status --porcelain)
+  if ($sobra.Count -eq 0) { return '' }
+  $msg = 'redaccion ' + (HoraAR).ToString('yyyy-MM-dd HH:mm') + ' AR: ' + $motivo
+  git -C $Raiz -c user.email='redaccion@coninteres.com' -c user.name='Redaccion Con Interes' stash push -u -m $msg 2>&1 | Out-Null
+  $quedan = @(git -C $Raiz status --porcelain)
+  if ($quedan.Count -gt 0) { return ('[FALLA] no se pudo apartar lo que sobraba: ' + ($quedan -join ' | ')) }
+  $aviso = '[APARTADO] ' + $sobra.Count + ' archivo(s) a git stash (' + $msg + '): ' + ($sobra -join ' | ')
+  Add-Content -Path $Log -Value ((HoraAR).ToString('yyyy-MM-dd HH:mm:ss') + ' AR  ' + $aviso) -Encoding ASCII
+  return $aviso
+}
 # resultado: publicada | sin_tema | frenada | retenida | rechazada | en_espera | bloqueada | falla
 function Terminar($codigo, $resultado, $t, $id = '') {
+  # una falla no deja el repo sucio para la corrida siguiente
+  if ($codigo -ne 0 -and $resultado -ne 'bloqueada') {
+    $ap = Apartar ("$t".Substring(0, [Math]::Min(120, "$t".Length)))
+    if ($ap) { $t = "$t (repo limpio: lo tocado quedo apartado en git stash)" }
+  }
   Anotar $t
   Set-Content -Path $Latido -Value ((HoraAR).ToString('yyyy-MM-dd HH:mm:ss') + ' AR  ' + $t) -Encoding ASCII
   Registrar 'fin' $resultado $id $t
@@ -134,7 +155,7 @@ Sos la redaccion de Con Interes. El titulo del borrador cola/$id.html tiene $lar
 Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo.
 "@
   $salidaTit = & claude -p $promptTit --permission-mode dontAsk `
-    --allowedTools 'Read' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 2>&1
+    --allowedTools 'Read' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
   Add-Content -Path $Log -Value ($salidaTit | Out-String) -Encoding UTF8
   $nuevo = "$(& $py -c "import json,sys;print(max([len(b['titulo']) for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]] or [0]))" $id)".Trim()
   $null = Anotar "titulo de $id : $largo -> $nuevo caracteres"
@@ -152,7 +173,7 @@ Sos la redaccion de Con Interes. En data/cola.json, la entrada del borrador $id 
 Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo.
 "@
   $salidaLab = & claude -p $promptLab --permission-mode dontAsk `
-    --allowedTools 'Read' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 2>&1
+    --allowedTools 'Read' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
   Add-Content -Path $Log -Value ($salidaLab | Out-String) -Encoding UTF8
   $nuevo = "$(& $py -c "import json,sys;print(max([len(b.get('numero_label','')) for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]] or [0]))" $id)".Trim()
   $null = Anotar "numero_label de $id : $largo -> $nuevo caracteres"
@@ -177,7 +198,7 @@ PROHIBIDO: git, aprobar.py, rechazar.py, editar cola/, data/ o cualquier otro ar
 Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo: sin cd, sin && ni ;. PowerShell no esta habilitado.
 "@
     $salidaNar = & claude -p $promptNar --permission-mode dontAsk `
-      --allowedTools 'Read' 'Glob' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 2>&1
+      --allowedTools 'Read' 'Glob' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
     Add-Content -Path $Log -Value ($salidaNar | Out-String) -Encoding UTF8
     $res = @(& $py agente/local/aplicar_narrativa.py $id 2>&1)
     $null = Anotar ("editor de narrativa: " + (($res | Out-String).Trim()))
@@ -291,8 +312,11 @@ function Rechazar($id, $motivo) {
 }
 
 # ---- 1. repo al dia y cola ----
-$sucio = git status --porcelain
-if ($sucio) { Terminar 1 'bloqueada' ('[FALLA] hay cambios sin commitear, no se corre: ' + ($sucio -join ' | ')) }
+# Lo que haya quedado de una corrida anterior (cortada por la tarea, por un reinicio)
+# se aparta y la corrida sigue. Solo frena si no se puede apartar.
+$ap = Apartar 'sobrante al inicio de la corrida'
+if ($ap.StartsWith('[FALLA]')) { Terminar 1 'bloqueada' $ap }
+if ($ap) { $null = Anotar '[AVISO] habia cambios sin commitear de una corrida anterior: quedaron apartados y la corrida sigue' }
 $rcPull = GitTope 120 @('pull','--ff-only','origin','main')
 if ($rcPull -ne 0) { Terminar 1 'falla' ('[FALLA] git pull no pudo traer lo ultimo (codigo ' + $rcPull + ')') }
 Anotar ('repo: ' + (git log --oneline -1))
@@ -324,7 +348,7 @@ PROHIBIDO: aprobar.py, rechazar.py, pedidos_lectores.py, git, tocar notas public
 "@
       $salidaCorr = & claude -p $promptCorr --permission-mode dontAsk `
         --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' `
-        --disallowedTools 'PowerShell' 2>&1
+        --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
       Add-Content -Path $Log -Value ($salidaCorr | Out-String) -Encoding UTF8
       $explic = 'Revisamos lo que nos marcaste contra la fuente.'
       if (Test-Path '_privado/correccion.json') {
@@ -347,7 +371,7 @@ PROHIBIDO: aprobar.py, rechazar.py, pedidos_lectores.py, git, tocar notas public
 "@
       $salidaFb = & claude -p $promptFb --permission-mode dontAsk `
         --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' `
-        --disallowedTools 'PowerShell' 2>&1
+        --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
       Add-Content -Path $Log -Value ($salidaFb | Out-String) -Encoding UTF8
       $explicFb = 'Revisamos tus sugerencias.'
       if (Test-Path '_privado/correccion.json') {
@@ -601,7 +625,7 @@ Anotar 'llamando a la redaccion...'
 # rechazaban y abandonaba creyendo que no tenia comandos.
 $salida = & claude -p $prompt --permission-mode dontAsk `
   --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' `
-  --disallowedTools 'PowerShell' 2>&1
+  --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
 $codigo = $LASTEXITCODE
 Add-Content -Path $Log -Value ($salida | Out-String) -Encoding UTF8
 Anotar "claude termino con codigo $codigo"
