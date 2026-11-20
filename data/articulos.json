@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-20T02:46:07-03:00",
+    "actualizado": "2026-11-20T16:45:15-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-20-golosinas-chinas-importadas-record",
+      "titulo": "Entraron 1,1 millones de kilos de golosinas chinas de enero a octubre, casi 15 veces lo de 2024: China ya es el segundo proveedor, detrás de Brasil",
+      "bajada": "En dos años, China pasó de vender casi nada a ser el segundo proveedor de golosinas de la Argentina, detrás de Brasil. De enero a octubre de 2026 entraron 1,1 millones de kilos de golosinas sin cacao hechas en China, casi 15 veces lo de los mismos meses de 2024. Las aduanas de los dos países coinciden en que 2025 fue el año récord. Pero el fenómeno todavía es chico: por cada kilo chino, el país exportó casi 26, y por habitante Chile compra diez veces más.",
+      "titulo_busqueda": "¿Cuántas golosinas chinas importa la Argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "1,1 M kg",
+      "numero_label": "golosinas sin cacao hechas en China importadas por la Argentina de enero a octubre de 2026, casi 15 veces lo de los mismos meses de 2024",
+      "fecha": "2026-11-20",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-20-golosinas-chinas-importadas-record.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "INDEC base de importaciones 2026 (zip descargado 20/11/2026, hasta octubre), partida 1704 origen 310: 1.103.462 kg, US$4.560.547 CIF; ene-oct 2024 74.361 kg (x14,8); ene-oct 2025 990.836 kg (+11,4%); 2025 1.187.376 kg = reporte argentino a UN Comtrade al kilo; récord 2002-2025, previo 2010 695.774. Contraste: China a UN Comtrade (exportaciones a Argentina, 1704) 2025 784.358 kg, máximo 2004-2025, previo 2010 692.813; 2024 124.921."
+    },
     {
       "id": "2026-11-20-asado-diciembre-sube-mas-que-inflacion",
       "titulo": "El asado subió más que la inflación en los últimos siete diciembres; este año llega a las Fiestas 17,6% más barato que en marzo, descontada la inflación",

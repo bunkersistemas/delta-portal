@@ -1,11 +1,39 @@
 {
-  "generado": "2026-11-20T02:30",
+  "generado": "2026-11-20T16:28",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3595367",
+      "fuente": "CNV",
+      "fecha": "2026-11-20T16:23",
+      "entidad": "HOLCIM (ARGENTINA) S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/D4E2DEE2-66BA-412F-9F98-CB97069AAE02"
+    },
+    {
+      "id": "cnv-3595268",
+      "fuente": "CNV",
+      "fecha": "2026-11-20T14:17",
+      "entidad": "LABORATORIOS RICHMOND SOCIEDAD ANONIMA, COMERCIAL,",
+      "tipo": "judicial",
+      "descripcion": "INFORMACIÓN JUDICIAL - HECHO RELEVANTE - INFORMA LEVANTAMIENTO DE MEDIDA CAUTELAR DICTADA SOBRE BUSNEL S.A.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1DFDE9A9-434C-479D-8276-1DBC09C80F86"
+    },
+    {
+      "id": "sec-0000933267-26-000086",
+      "fuente": "SEC",
+      "fecha": "2026-11-20",
+      "entidad": "IRSA",
+      "ticker": "IRS",
+      "tipo": "balance",
+      "descripcion": "6-K 6-K 1 irsaiq27.htm IRSA1QFY27 irsaiq27 IRSA Inversiones y Representaciones Sociedad Anónima Unaudited Condensed Interim Consolidated Financial Statements as of September 30, 2026 a",
+      "url": "https://www.sec.gov/Archives/edgar/data/933267/000093326726000086/irsaiq27.htm"
+    },
     {
       "id": "cnv-3595129",
       "fuente": "CNV",
@@ -1630,6 +1658,7 @@
     "sec-0001034957-26-000077": "2026-10-30",
     "sec-0001034957-26-000080": "2026-11-05",
     "sec-0001034957-26-000082": "2026-11-09",
+    "sec-0001034957-26-000085": "2026-11-20",
     "sec-0001104659-26-118637": "2026-10-26",
     "sec-0001104659-26-119660": "2026-10-28",
     "sec-0001104659-26-120214": "2026-10-29",
@@ -1668,6 +1697,7 @@
     "sec-0001193125-26-461971": "2026-11-16",
     "sec-0001193125-26-466167": "2026-11-18",
     "sec-0001193125-26-467770": "2026-11-19",
+    "sec-0001193125-26-469270": "2026-11-20",
     "sec-0001292814-26-004966": "2026-10-21",
     "sec-0001292814-26-004990": "2026-10-23",
     "sec-0001292814-26-005002": "2026-10-23",
