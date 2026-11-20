@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-19T20:57:31-03:00",
+    "actualizado": "2026-11-20T00:56:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-20-fundacion-gates-argentina-donaciones",
+      "titulo": "US$1,2 de cada US$10.000 que donó la Fundación Gates desde 1994 fueron a organizaciones argentinas",
+      "bajada": "Según su propia base de donaciones, la fundación de Bill Gates comprometió US$12,3 millones con organizaciones de la Argentina en 32 años, en 20 donaciones. La mayor parte de esa plata no fue a proyectos para la Argentina, sino de alcance mundial. La mayor donación fue para un laboratorio de Mar del Plata, para asegurar insumos de las vacunas infantiles de países de ingresos bajos y medios. Solo una de las 20 nombra a la Argentina en su objetivo: medir si vacunar a las embarazadas contra el virus sincicial respiratorio evita muertes de bebés.",
+      "titulo_busqueda": "¿Cuánto donó la Fundación de Bill Gates a la Argentina?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "US$1,2",
+      "numero_label": "de cada US$10.000 que la Fundación Gates comprometió en donaciones entre 1994 y agosto de 2026, los que fueron a organizaciones con sede en la Argentina",
+      "fecha": "2026-11-20",
+      "hora": "00:30",
+      "archivo": "articulos/2026-11-20-fundacion-gates-argentina-donaciones.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Gates Foundation committed grants (bmgf-grants.csv, \"Updated 1 September, 2026\"): 41.387 filas, total US$101.793.350.845; GRANTEE COUNTRY = Argentina 20 filas, US$12.269.686 = 0,0121% (1,205 por 10.000); puesto 69 de 127 paises (US$23,4 M sin pais). Region served GLOBAL 9.432.716 (76,9%), AMERICA 1.928.919, AFRICA 908.051. Mayor: INV-007902 Gihon 3.586.705 (2016-08, 240 meses). INFANT 6 donaciones 3.778.931. Unica con Argentina en el objetivo: INV-085205 FIIB 881.350 (2025-03). LatAm sin CIMMYT/CIP/CIAT: BRA 60,07, MEX 59,29, PER 29,28, CHL 22,72, COL 21,69, ARG 12,27 (US$ M). Contraste OCDE CRS donor 9PRIV1601, measure 30, desembolsos corrientes 2009-2025: ARG 5,57, BRA 69,55, COL 41,61, MEX 34,08, PER 23,63, CHL 3,22 (hasta 2015). Lado receptor: NEJM 2021 Libster (PMID 33406353) declara Gates entre financiadores (= INV-017995, INFANT plasma, 534.332)."
+    },
     {
       "id": "2026-11-19-supermercados-esperan-mejora-ventas-piso-2024",
       "titulo": "Solo 4,8% de los supermercados dice que le va bien, el mínimo desde 2020: hace más de dos años que esperan una mejora y las ventas siguen en el piso de 2024",
