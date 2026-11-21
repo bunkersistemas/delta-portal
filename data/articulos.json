@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-21T13:03:10-03:00",
+    "actualizado": "2026-11-21T14:46:58-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-21-argentina-lng-las-tacanas-sin-reservas-comprobadas-gas",
+      "titulo": "Las Tacanas, el área que debe dar el gas de Argentina LNG, no tiene reservas comprobadas: sus 573.547 millones de m³ son recurso contingente",
+      "bajada": "El Gobierno aprobó el ingreso de Argentina LNG al RIGI, pero el gas que debe alimentarlo todavía no es reserva. Saldrá de tres áreas de Vaca Muerta que, en el registro oficial de la Secretaría de Energía al cierre de 2025, no tienen un solo metro cúbico de reservas comprobadas. Las Tacanas declara 573.547 millones de m³ como recurso contingente: gas descubierto, pero todavía sin mercado. Equivale al 98,3% de las reservas comprobadas de gas de todo el país.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "573.547",
+      "numero_label": "millones de m³ de gas de Las Tacanas, área de Argentina LNG, registrados como recurso contingente y no como reserva comprobada, al cierre de 2025",
+      "fecha": "2026-11-21",
+      "hora": "15:30",
+      "archivo": "articulos/2026-11-21-argentina-lng-las-tacanas-sin-reservas-comprobadas-gas.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SE reservas_al_31-12-2025.zip, hoja 'fin de vida util' (y 'fin de concesion'), fila YPF S.A. / NEUQUINA / Neuquen / LAS TACANAS: comprobadas, probables y posibles de gas 0; recursos contingentes gas (col. 28, conv+no conv) 573.547 MMm3 = 20,25 Tcf. Serie LT contingente: 2021-2023 49.385; 2024 253.241; 2025 573.547 (x11,6 vs 2023). Aguada Villanueva y Meseta Buena Esperanza (Pluspetrol): 0 reservas; contingentes 2025 83,4 y 90,4 MMm3 (no usados en cuentas). Total pais comprobadas gas (suma propia hoja FVU): 2021 415.988; 2022 451.763; 2023 487.472; 2024 546.272 (= Metrogas memoria 2025 p.7, 'segun la SE al 31/12/2024'); 2025 583.219 (20,60 Tcf). LT/pais = 98,3%. Contingentes pais 1.288.138 -> 2.182.890 (+894.752, +69,5%), LT +320.306 = 35,8%. Contraste: YPF memoria tecnica Argentina LNG (audiencia Rio Negro): 'base de recursos aprox. 22 Tcf de gas mas 2 Tcf de recursos contingentes' en LTAC, MBE, AVN; LT = 92% de 22 Tcf. YPF 20-F 2025 (SEC, 26/03/2026): 2 pozos de prueba en Las Tacanas 2025, YPF 50%, canje con Pluspetrol ene-2026 por el 100%. Definicion: Res. 69-E/2016 anexo I punto 9 (BO 09/11/2016). Aprobacion RIGI: Caputo en X 20/11/2026 via Shale24, US$50.750 M hasta 2050; resolucion aun no publicada en BO."
+    },
     {
       "id": "2026-11-21-huevos-por-habitante-argentina-septima-fao",
       "titulo": "En la última tabla mundial de la FAO, la Argentina es séptima en huevos por habitante: el primer puesto que anuncia la industria no se midió con la misma vara",
