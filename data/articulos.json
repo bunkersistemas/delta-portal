@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-21T06:54:16-03:00",
+    "actualizado": "2026-11-21T08:47:13-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-21-glifosato-china-materia-prima-estados-unidos",
+      "titulo": "El glifosato que la Argentina compra hecho llega todo de China; 7 de cada 10 kilos del insumo para fabricarlo acá vienen de Estados Unidos",
+      "bajada": "El glifosato que la Argentina compra ya fabricado viene todo de China, pero lo que más compra es el insumo para fabricarlo acá, y ese viene sobre todo de Estados Unidos. Entre enero y octubre de 2026 entraron 26.347 toneladas de glifosato y 16.706 de herbicida listo para usar, todo chino, contra 77.723 toneladas de PMIDA, el 72,4% estadounidense. En total, US$346,6 millones. El glifosato chino llega 61,6% más barato que en 2022.",
+      "titulo_busqueda": "¿De dónde viene el glifosato que usa el campo argentino?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "72,4%",
+      "numero_label": "de la materia prima del glifosato (PMIDA) que importó la Argentina entre enero y octubre de 2026 vino de Estados Unidos",
+      "fecha": "2026-11-21",
+      "hora": "08:30",
+      "archivo": "articulos/2026-11-21-glifosato-china-materia-prima-estados-unidos.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC imports_2026_M.zip (impom26.csv), NCM 2931.49.11 (Acido fosfonometiliminodiacetico; acido aminotrimetilfosfonico, descripcion del buscador comexbe.indec.gob.ar) ene-oct 2026: 77.722.590 kg, US$177.833.471 CIF; origen 212 EE.UU. 56.292.070 kg (72,43%), 310 China 21.430.520 kg. Glifosato 2931.49.14: 26.347.003 kg, US$111.730.807 CIF (US$4,241/kg), 100% China; 3808.93.24: 16.705.646 kg, US$57.059.351, 100% China. Total US$346,6 M (China 223,8; EE.UU. 122,8). Serie 2002-2026 ene-oct con codigos 2931.00.32/37, 2931.90.32/37, 2931.39.12/17: EE.UU. primer origen de PMIDA 2010-2026; precio glifosato 2022 US$11,049 (maximo; previo 2008 US$10,50) -> -61,6%; vs 2025 3,595 +18,0%. Contraste Comtrade EE.UU. (842 X 32 HS 293149): ene-ago 2026 US$101,10 M FOB vs INDEC desde 212 US$100,94 M FOB (+0,2%); 2024+2025 167,3 vs 165,2 mil t (+1,3%); China 2025 62,1 vs 65,4 mil t (-5,1%). Camino: estadistica oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-21-carne-europa-15000-dolares-tonelada-china",
       "titulo": "Europa paga US$15.000 por cada tonelada de carne argentina, 3,2 veces lo que paga China: compra el 8% de los kilos y deja el 17,5% de los dólares",

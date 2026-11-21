@@ -9860,6 +9860,20 @@
       "estado": "descartada",
       "articulo_id": "",
       "motivo_descarte": "no probadas o repetidas: pasó la candidata de carne a Europa"
+    },
+    {
+      "tema": "MUNDO: ¿de dónde viene el glifosato que usa el campo argentino? (pregunta de plata detrás de infobae 21/11/2026 'La Justicia de EEUU confirmó que Bayer pagará USD 7.250 millones por los casos de cáncer vinculados al glifosato de Roundup'; AP/PBS 20/11) / INDEC importaciones ene-oct 2026: PMIDA 2931.49.11 77.723 t, US$177,8 M, 72,4% EE.UU. (56.292 t) y 27,6% China; glifosato técnico 2931.49.14 26.347 t, US$111,7 M, US$4,24/kg, 100% China; herbicida minorista 3808.93.24 16.706 t, US$57,1 M, 100% China; total US$346,6 M; precio -61,6% vs 2022 (US$11,05, máximo 2002-2026) y +18,0% vs 2025; EE.UU. primer origen de la PMIDA todos los años 2010-2026 (máx. 91,9% en 2012; Brasil 2002-2005, China 2007-2009)",
+      "angulo": "Corrida de la redacción del 21/11/2026 08:30; APTA. Hallazgo: el cruce por producto y origen de la cadena del glifosato (lo que llega hecho es chino, la materia prima para fabricarlo acá es mayormente estadounidense) con serie 2002-2026 recalculada con los cuatro cambios de código del NCM (descripciones verificadas en el buscador del INDEC). Camino estadística oficial recalculada + contraste Comtrade EE.UU. mensual 2026 (+0,2% FOB ene-ago) y China 2025 (-5,1% kg). No afirmado: importadores ni plantas; cuánto glifosato se fabrica o se aplica; relación del acuerdo de Bayer con precios locales. Tope estequiométrico 0,744 kg/kg (PubChem) solo como estimación en la capa 6.",
+      "fecha": "2026-11-21",
+      "estado": "publicada",
+      "articulo_id": "2026-11-21-glifosato-china-materia-prima-estados-unidos"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 21/11/2026 08:30 (pasó la primera candidata probada: glifosato, INDEC + Comtrade). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN con _privado/rastreo/portadas.py. agenda.py: última nota EMPRESAS hoy (Globant 00:30), sin cupo; calendario sin publicaciones hoy (sábado). Lista no probada: (2) consumo de yerba estancado, Playadito contra Las Marías [iProfesional]: yerba publicada 03/11, el INYM no da marcas; (3) EMPRESAS Grupo ST, EEFF de seguros al 30/09 (CNV 17/11): cupo cubierto por Globant, retomable; (4) EMPRESAS Molinos venta del acopio (HR CNV 20/11): sin precio, descartada 20 y 21/11; (5) ley de cabotaje fluvial con media sanción [Clarín]: sin serie oficial de bodega por bandera localizada; (6) Pauny y tractores [Clarín]: mejor con el informe de maquinaria agrícola del INDEC del 27/11; (7) trigo con rindes de 60 qq y granizo [Clarín]: estimaciones privadas, pedido de El Niño en cola 15/11; (8) riesgo país 1.070 y dólar $1.600 [todas]: cuatro notas en noviembre; (9) Argentina LNG en el RIGI [cinco portadas]: RIGI y empleo ya cubiertos; (10) mora de familias, UNICEF 41%, servicios del AMBA, Tesla, AySA 2027, jubilaciones 66%, autos en 72 cuotas: repetidas o molde agotado; (11) Brasil más barato tras la devaluación del real [Clarín]: publicada 15/11; (12) Fidel Castro a 10 años y deuda de Cuba con la Argentina [Clarín]: sin documento oficial con el saldo.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "fecha": "2026-11-21",
+      "estado": "descartada",
+      "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
     }
   ]
 }
