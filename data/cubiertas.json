@@ -9817,6 +9817,20 @@
       "tema": "descartes de la corrida de redacción del 21/11/2026 00:30 (pasó la primera candidata probada: Globant, plantilla y facturación, SEC). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN no respondieron a WebFetch. agenda.py: HOY NO HAY NOTA DE EMPRESAS.",
       "angulo": "Lista (no probadas porque pasó la primera): (2) EMPRESAS Molinos venta del acopio (HR CNV 20/11): descartada dos veces el 20/11, el único número es una estimación de resultado sin precio. (3) EMPRESAS Loma Negra, BYMA, Macro y Transener recompras de acciones propias (HR CNV 18-20/11): formato recompra cubierto (Macro 01/11). (4) Holcim HR 20/11: aporte de la casa matriz ya contado el 13/11. (5) riesgo país arriba de 1.000 y dólar en máximo (todas las portadas): dato del día, cuatro notas en noviembre. (6) Argentina LNG en el RIGI, US$50.750 M (infobae, La Nación, ámbito, iProfesional): sin resolución en el BO. (7) mora de familias en baja (infobae, La Nación, ámbito, iProfesional): publicada tres veces. (8) UNICEF 41% de hogares con chicos no cubre gastos (cuatro portadas): encuesta sin serie oficial. (9) servicios del AMBA $291.247 y AySA (infobae, La Nación, iProfesional, Página12): molde tarifa agotado. (10) compras por courier arriba de US$1.000 M (iProfesional): frenada 24/09 sin contraste, sigue igual. (11) girasol +82% en divisas (infobae): complejo girasolero publicado 24/07. (12) Cotar comprada por sus trabajadores (Página12) y Durlock cierra planta en Río Negro (iProfesional): sin documento con cifras; yeso ya descartado 17/11. Pregunta del día actualizada desde la nota de IRSA del 20/11.",
       "motivo_descarte": "no probadas: pasó la primera candidata (Globant); el resto repetido, sin documento o molde agotado"
+    },
+    {
+      "fecha": "2026-11-21",
+      "estado": "en_cola",
+      "tema": "peso promedio de la res vacuna, 241 kg en enero-octubre de 2026, el más alto desde 1921 (infobae 20/11/2026 'La ganadería argentina rompió una barrera histórica: el peso promedio de faena superó los 240 kilos por primera vez en más de un siglo'; comunicado SAGyP 20/11 'Hito después de 100 años')",
+      "angulo": "serie anual SAGyP 1914-2025 (último año >240: 1921 con 244; 1914-1916: 259, no es récord) + cálculo propio: con el peso de 2025 la faena de 2026 habría dado 97.000 t menos (producción -10,2% en vez de -6,5%), 1 de cada 8 t exportadas. Distinta de la nota del 14/11 (proporción exportada) y del 29/10 (consumo por habitante).",
+      "nota": "cola/2026-11-21-peso-res-vacuna-241-kilos-desde-1921.html"
+    },
+    {
+      "fecha": "2026-11-21",
+      "estado": "descartada",
+      "tema": "descartes de la corrida de redacción del 21/11/2026 02:30 (pasó la primera candidata probada: peso de la res vacuna). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN no respondieron. agenda.py: última nota EMPRESAS hoy (Globant 00:30), sin cupo.",
+      "angulo": "Lista (no probadas porque pasó la primera): (2) EMPRESAS Molinos venta del acopio de Rosario (HR CNV 20/11): único número, resultado contable estimado de $13.000 M, sin precio; ya descartada el 20/11. (3) EMPRESAS Grupo ST, EECC de seguros al 30/09 (CNV 17/11): sin pregunta ni hallazgo. (4) EMPRESAS recompras de acciones (Loma Negra, BYMA, Macro, Transener): formato cubierto el 01/11. (5) riesgo país arriba de 1.000 (seis portadas): dato del día, cuatro notas en noviembre. (6) Argentina LNG en el RIGI (infobae, La Nación, ámbito, iProfesional): empleo y caños ya contados. (7) mora de familias en baja (cuatro portadas): publicada tres veces. (8) UNICEF 41% (La Nación, iProfesional, Cronista): encuesta sin serie oficial. (9) servicios AMBA $291.247 (La Nación, iProfesional, Página12): molde tarifa agotado. (10) eliminación de Sellos (ámbito, Cronista): publicada 03/11. (11) girasol +82% en divisas (infobae): complejo girasolero publicado 24/07. (12) Durlock cierra planta (iProfesional): yeso descartado 17/11.",
+      "motivo_descarte": "no probadas: pasó la primera candidata (peso de la res); el resto repetido, sin documento o molde agotado"
     }
   ]
 }

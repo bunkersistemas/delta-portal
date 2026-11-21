@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-21T00:50:10-03:00",
+    "actualizado": "2026-11-21T02:49:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-21-peso-res-vacuna-241-kilos-desde-1921",
+      "titulo": "La res vacuna pesa 241 kilos en promedio, lo más alto desde 1921: sin esos kilos de más, el país habría producido 97.000 toneladas menos de carne",
+      "bajada": "Entre enero y octubre de 2026 la Argentina faenó menos animales, pero cada uno dio más carne: 241 kilos con hueso en promedio, según la Secretaría de Agricultura. En la serie oficial, que arranca en 1914, ningún año desde 1921 llegó a tanto. Con el peso de 2025, la misma faena habría dado 97.000 toneladas menos: la producción habría caído 10,2% en lugar de 6,5%. No es, sin embargo, el máximo histórico: entre 1914 y 1916 la res promediaba 259 kilos.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "241 kg",
+      "numero_label": "peso promedio de la res vacuna faenada entre enero y octubre de 2026, el más alto en un año desde 1921",
+      "fecha": "2026-11-21",
+      "hora": "03:30",
+      "archivo": "articulos/2026-11-21-peso-res-vacuna-241-kilos-desde-1921.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "SAGyP Indicadores bovinos oct-2026 p.10: 2.465 kt / 10.241.289 cab = 240,7 kg (informe 241; +4,08% vs 2025, recalc 231,2 -> +4,1%). Contraste: CICCRA Inf. 309 241 kg ene-oct; USDA PSD 2026 3.050 kt / 12.700 mil cab = 240,2. Serie histórica SAGyP 1914-2025: >240 solo 1914-1921 (1921: 244); max 1922-2025: 235. Calculo propio: 10.241.289 x 231,2 = 2.368 kt; 2.465-2.368 = 97 kt (12,6% de 767.419 t exportadas)."
+    },
     {
       "id": "2026-11-21-globant-plantilla-siete-trimestres-recorte",
       "titulo": "Globant recortó su plantilla siete trimestres seguidos: tiene 5.116 empleados menos que en su pico y factura casi lo mismo que hace dos años",
