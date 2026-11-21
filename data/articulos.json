@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-20T20:48:00-03:00",
+    "actualizado": "2026-11-20T22:58:24-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion",
+      "titulo": "IRSA perdió $74.236 millones en tres meses por revaluar sus edificios: el dólar subió menos que la inflación",
+      "bajada": "Entre julio y septiembre de 2026 el resultado operativo ajustado de IRSA creció 9,3% y, aun así, la empresa perdió $6.380 millones, contra una ganancia de $217.952 millones un año antes. La diferencia la hizo la revaluación de sus propiedades, que valúa en dólares: el contado con liquidación subió 3,4% y los precios 5,8%. En los primeros trimestres de 2023 a 2026, el valor real de sus oficinas se movió siempre para el mismo lado que el dólar financiero descontada la inflación.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$74.236 M",
+      "numero_label": "pérdida de IRSA por revaluar sus propiedades de inversión entre julio y septiembre de 2026, en pesos de septiembre",
+      "fecha": "2026-11-20",
+      "hora": "23:30",
+      "archivo": "articulos/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "IRSA EEFF consolidados 30/09/2026 (CNV publicview 72a6b4f4, 05/11/2026; 6-K SEC irsaiq27 20/11/2026): ER 'resultado neto por cambio en el valor razonable de propiedades de inversion' -74.236; nota 8 Nivel 2 -21.420 + Nivel 3 -52.816 = -74.236; segmentos -74.892 + 656 = -74.236. Resultado del periodo -6.380 (formulario CNV 3049999 = -6380) vs 217.952. Nota 8: oficinas Nivel 2 real -1,99% 'tipo de cambio implicito por debajo de la inflacion'. Contraste propio: CCL 1.563,5->1.617,4 (+3,45%), MEP 1.519->1.557 (+2,50%), A3500 1.483,02->1.517,52 (+2,33%) vs IPC nac jun-sep 2026 +5,82% (11.826,41->12.514,15): real -2,24/-3,13/-3,30. Q1 previos Nivel 2: 2023 +13,21 (CCL real +21,72), 2024 -18,47 (-18,87), 2025 +18,24 (+20,36). Reexpresion IPC reproduce comparativos (163.438x1,33355=217.953 vs 217.952; 2024 -191.580 vs -191.581). Scripts _privado/irsa1120/."
+    },
     {
       "id": "2026-11-20-flete-china-importaciones-doble",
       "titulo": "Traer mercadería de China ya cuesta US$10,60 de flete por cada US$100: más del doble que en marzo y lo más alto desde 2022",

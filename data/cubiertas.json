@@ -9792,6 +9792,15 @@
       "tema": "descartes de la corrida de redacción del 20/11/2026 20:30 (pasó la candidata del flete desde China, INDEC ICA + base de importaciones). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN no respondieron a WebFetch. agenda.py: HOY NO HAY NOTA DE EMPRESAS.",
       "angulo": "EMPRESAS descartadas con motivo: Molinos (HR CNV 20/11, resultado contable estimado de unos $13.000 M por la venta de la planta de Rosario a Eliantus): el único número es una estimación de la propia empresa, sin precio ni valor de libros, igual que en el descarte de las 18:30; Galicia (HR 13/11, demanda colectiva de PAC por la comisión por depósitos y extracciones en dólares en otra sucursal): sin monto y el banco estima impacto no significativo; IRSA 1T FY27 (6-K 20/11): los shoppings ya están en cola desde el 24/10 y un trimestre más no es ángulo nuevo. Portadas: riesgo país arriba de 1.000 (todas), cuatro notas en noviembre; Argentina LNG RIGI (5 portadas) sin resolución en el BO; mora de familias, ya publicada tres veces; cuentas sueldo -600.000 (Página12) sin fuente identificada; AySA y servicios del AMBA, molde agotado; UNICEF 41%, encuesta sin serie oficial.",
       "motivo_descarte": "ver ángulo: empresas sin dato propio confirmable; el resto repetido, sin documento o molde agotado"
+    },
+    {
+      "fecha": "2026-11-20",
+      "estado": "en_cola",
+      "tema": "EMPRESAS: IRSA primer trimestre FY27 (EEFF 30/09/2026, CNV 05/11/2026 y 6-K SEC 20/11/2026, bloque EMPRESAS de agenda.py) / perdida de $74.236 M por revaluacion de propiedades de inversion y resultado -$6.380 M (vs +$217.952 M) con EBITDA ajustado +9,3%",
+      "angulo": "ANGULO NUEVO frente a la nota de shoppings del 24/10 (ventas de locatarios FY2026) y al descarte de la corrida de las 20:30 ('un trimestre mas no es angulo nuevo'): no son las ventas sino la revaluacion de los edificios, cruzada con el dolar. Serie propia de cuatro primeros trimestres (2023-2026): variacion real de las oficinas Nivel 2 segun cada balance (+13,21 / -18,47 / +18,24 / -1,99) contra CCL deflactado por IPC (+21,7 / -18,9 / +20,4 / -2,2), misma direccion los cuatro anos; EBITDA ajustado 76-92 miles de M (pesos sep-26) contra resultado final de +440 a -192. Otras candidatas de la corrida de las 22:30: Molinos acopio (estimacion sin precio, ya descartada hoy), riesgo pais >1.000 (BCRP sin datos de vecinos 17-20/11; cuatro notas en noviembre), Argentina LNG RIGI (sin resolucion en BO), mora de familias (BCRA Informe sobre Bancos, ya publicada tres veces), faena 240 kg (carne ya hoy con el asado), Tesla (aranceles ya cubiertos 27/09), MSU/Neoen (nota 18/11), Telecom (nota 17/11), Holcim (aporte ya contado 13/11), Galicia demanda colectiva (sin monto).",
+      "id": "2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion",
+      "seccion": "EMPRESAS",
+      "archivo": "cola/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.html"
     }
   ]
 }

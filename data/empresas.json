@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-20T20:30",
+  "generado": "2026-11-20T22:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3595521",
+      "fuente": "CNV",
+      "fecha": "2026-11-20T21:09",
+      "entidad": "LOMA NEGRA CIASA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - HECHO RELEVANTE - RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/32898573-E6E3-4CB7-8BA4-BB6050DEA2F5"
+    },
     {
       "id": "cnv-3595507",
       "fuente": "CNV",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 20 Nov 2026 20:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 22:58:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>IRSA perdió $74.236 millones en tres meses por revaluar sus edificios: el dólar subió menos que la inflación</title>
+      <link>https://coninteres.com/articulos/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.html</guid>
+      <pubDate>Fri, 20 Nov 2026 23:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Entre julio y septiembre de 2026 el resultado operativo ajustado de IRSA creció 9,3% y, aun así, la empresa perdió $6.380 millones, contra una ganancia de $217.952 millones un año antes. La diferencia la hizo la revaluación de sus propiedades, que valúa en dólares: el contado con liquidación subió 3,4% y los precios 5,8%. En los primeros trimestres de 2023 a 2026, el valor real de sus oficinas se movió siempre para el mismo lado que el dólar financiero descontada la inflación.</description>
+      <ci:numero>$74.236 M</ci:numero>
+      <ci:numeroEtiqueta>pérdida de IRSA por revaluar sus propiedades de inversión entre julio y septiembre de 2026, en pesos de septiembre</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.png" length="71338" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Traer mercadería de China ya cuesta US$10,60 de flete por cada US$100: más del doble que en marzo y lo más alto desde 2022</title>
       <link>https://coninteres.com/articulos/2026-11-20-flete-china-importaciones-doble.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>deuda de Agro de Souza con bancos y SGR en septiembre de 2026, el mes en que pidió el concurso preventivo</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.png" length="75453" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>35 de cada 100 pesos depositados en los bancos de Santa Fe, Entre Ríos y San Juan son del sector público: el doble que en el sistema</title>
-      <link>https://coninteres.com/articulos/2026-11-17-bancos-petersen-santa-fe-entre-rios-san-juan-depositos-publicos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-17-bancos-petersen-santa-fe-entre-rios-san-juan-depositos-publicos.html</guid>
-      <pubDate>Tue, 17 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Según el BCRA, en agosto de 2026 el 35,4% de lo depositado en el Nuevo Banco de Santa Fe, el Nuevo Banco de Entre Ríos y el Banco de San Juan era plata del sector público: el doble que en el sistema (17,6%). Los tres son agentes financieros de su provincia, y el grupo Petersen va a integrarlos en un solo banco. Juntos sumarían $6,13 billones de depósitos: quedarían 11º en el sistema, no entre los diez primeros, y octavos entre los bancos privados.</description>
-      <ci:numero>35,4%</ci:numero>
-      <ci:numeroEtiqueta>parte de los depósitos de los bancos de Santa Fe, Entre Ríos y San Juan que es del sector público, agosto de 2026 (sistema: 17,6%)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-bancos-petersen-santa-fe-entre-rios-san-juan-depositos-publicos.png" length="70041" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-bancos-petersen-santa-fe-entre-rios-san-juan-depositos-publicos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
