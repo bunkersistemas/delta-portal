@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 21 Nov 2026 04:45:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 06:54:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Europa paga US$15.000 por cada tonelada de carne argentina, 3,2 veces lo que paga China: compra el 8% de los kilos y deja el 17,5% de los dólares</title>
+      <link>https://coninteres.com/articulos/2026-11-21-carne-europa-15000-dolares-tonelada-china.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-21-carne-europa-15000-dolares-tonelada-china.html</guid>
+      <pubDate>Sat, 21 Nov 2026 06:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Europa compró el 8% de las toneladas de carne vacuna que exportó la Argentina y dejó el 17,5% de los dólares. Entre enero y octubre de 2026 pagó en promedio US$15.000 la tonelada, según la base de comercio exterior del INDEC: 3,2 veces lo que pagó China. En dólares corrientes, ningún año completo desde 2002 había pagado tanto. El 20 de noviembre el Gobierno cambió las reglas para faenar los animales de los cupos europeos.</description>
+      <ci:numero>US$15.000</ci:numero>
+      <ci:numeroEtiqueta>precio promedio por tonelada de la carne vacuna exportada a la Unión Europea, enero-octubre de 2026 (China: US$4.668)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-carne-europa-15000-dolares-tonelada-china.png" length="81404" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-carne-europa-15000-dolares-tonelada-china.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>El regulador le reconoce 13,69% anual a quien construya la obra que debe asegurar la luz del Gran Buenos Aires, más del doble que a Transener</title>
       <link>https://coninteres.com/articulos/2026-11-21-amba-i-obra-electrica-rentabilidad-transener.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte del maíz que exportó la Argentina en 2025 que salió por el puerto de Bahía Blanca</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-bahia-blanca-puerto-maiz-17-por-ciento-dragado.png" length="67831" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-bahia-blanca-puerto-maiz-17-por-ciento-dragado.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Con la plata de la ANSES, la cartera de créditos hipotecarios creció en septiembre y octubre la mitad que un año antes</title>
-      <link>https://coninteres.com/articulos/2026-11-18-hipotecarios-fgs-anses-cartera-crece-mitad-que-2025.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-18-hipotecarios-fgs-anses-cartera-crece-mitad-que-2025.html</guid>
-      <pubDate>Wed, 18 Nov 2026 02:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El crédito hipotecario acelera, pero no vuelve al ritmo de hace un año. En septiembre y octubre, con $400.000 millones del fondo de la ANSES ya en los bancos, la cartera de créditos hipotecarios sumó 289,8 millones de UVA: 55% más que en julio y agosto, pero el 52% de lo que había sumado en los mismos meses de 2025. Y cada vez se presentan menos bancos a buscar esa plata: 18 en la primera licitación, 12 en la tercera, el martes.</description>
-      <ci:numero>52%</ci:numero>
-      <ci:numeroEtiqueta>lo que creció la cartera de créditos hipotecarios en septiembre y octubre de 2026, medida en UVA, comparado con los mismos meses de 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-hipotecarios-fgs-anses-cartera-crece-mitad-que-2025.png" length="63614" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-hipotecarios-fgs-anses-cartera-crece-mitad-que-2025.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

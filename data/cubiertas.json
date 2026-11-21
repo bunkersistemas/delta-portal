@@ -9845,6 +9845,21 @@
       "fecha": "2026-11-21",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿cuánto paga Europa por la carne argentina? (Res. MEcon 2003/2026, BO 20/11/2026: nuevas reglas de faena y marca «W» para los contingentes UE 09.2201/2202/2203; carne en portadas: infobae 21/11 'caída inexorable del consumo de carne') / INDEC exportaciones 0201+0202 ene-oct 2026: UE (6 destinos) 50.329 t, US$754,9 M, US$15.000/t; China 394.845 t, US$1.843,3 M, US$4.668/t (3,2 veces); UE 8,0% t y 17,5% US$, China 63,0% y 42,7%; mismo producto deshuesado UE 0201.30 US$15.453 vs China 0202.30 US$5.921 (2,6); serie 2002-2026: UE 51,4% de los dólares en 2011, 13,1% en 2020; máximo previo de precio UE 2014 US$14.568; total carne US$4.316,6 M ene-oct > 2025 completo US$3.887,0 M; cupo 09.2202 (no EE.UU.) 20.800 t 2021/22 -> 10.000 t desde 07/2026 (Reg. 2020/1988); Hilton AR 29.500 t (Reg. 2020/761)",
+      "angulo": "Corrida de la redacción del 21/11/2026 06:30; APTA. Hallazgo: cruce de precio por tonelada por destino con serie 2002-2026 propia, que no está en la resolución ni en los medios. Camino estadística oficial recalculada (base comex INDEC) + contraste independiente Eurostat (-1,8% t, +2,6% precio CIF) y Comtrade China 2025. No afirmado: qué parte entra por Hilton, 481, cupo Mercosur o arancel pleno; que la resolución cambie precios; que el acuerdo UE-Mercosur explique la suba (precio ya >15.000 en mar-abr).",
+      "fecha": "2026-11-21",
+      "estado": "publicada",
+      "articulo_id": "2026-11-21-carne-europa-15000-dolares-tonelada-china"
+    },
+    {
+      "tema": "descartes de la corrida del 21/11/2026 06:30 (sin probar o repetidas). Portadas: riesgo país 1.070 y bonos en caída (infobae, ámbito, Cronista, Página12, iProfesional; cubierto 29/10, 08/11, 09/11, 13/11 sin ángulo nuevo); RIGI de Argentina LNG US$50.750 M (La Nación, ámbito, iProfesional, infobae; sin resolución en el BO del 20/11, empleo ya publicado 16/11); mora de las familias por segundo mes (BCRA Informe sobre Bancos; repetida, descartada 25/10 por mismo motivo); Sellos (publicada 03/11); servicios del AMBA $291.247 (molde tarifa, IIEP); Tesla en la Argentina (precios solo en medios, tesla.com 403); dólar blue récord (publicada 23/07); courier > US$1.000 M (sin contraste, descartada 24/09); Durlock (descartada 17/11); UNICEF 41% hogares (encuesta). Empresas (cupo ya cubierto hoy por Globant): Molinos, ganancia estimada ~$13.000 M por la venta del acopio y la planta de Rosario a Eliantus (HR CNV 20/11; sin precio de venta ni valor de libros, retomable con los EEFF anuales); Holcim, aumento de capital hasta $112.365 M (capitaliza el aporte ya publicado 13/11); MSU-Neoen (publicada 18/11); Sidersa (cautelar revocada, sin cifras); recompras Loma Negra, Macro, BYMA, Transener (rutina). Pregunta de plata: final Sudamericana de Boca (publicada 21/10), PASO (publicada 04/10), retenciones contra superávit (publicada 30/09, mismo cruce).",
+      "angulo": "Registro de la corrida. Clarín y TN no se pudieron leer con WebFetch.",
+      "fecha": "2026-11-21",
+      "estado": "descartada",
+      "articulo_id": "",
+      "motivo_descarte": "no probadas o repetidas: pasó la candidata de carne a Europa"
     }
   ]
 }

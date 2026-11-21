@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-21T04:45:36-03:00",
+    "actualizado": "2026-11-21T06:54:16-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-21-carne-europa-15000-dolares-tonelada-china",
+      "titulo": "Europa paga US$15.000 por cada tonelada de carne argentina, 3,2 veces lo que paga China: compra el 8% de los kilos y deja el 17,5% de los dólares",
+      "bajada": "Europa compró el 8% de las toneladas de carne vacuna que exportó la Argentina y dejó el 17,5% de los dólares. Entre enero y octubre de 2026 pagó en promedio US$15.000 la tonelada, según la base de comercio exterior del INDEC: 3,2 veces lo que pagó China. En dólares corrientes, ningún año completo desde 2002 había pagado tanto. El 20 de noviembre el Gobierno cambió las reglas para faenar los animales de los cupos europeos.",
+      "titulo_busqueda": "¿Cuánto paga Europa por la carne argentina?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "US$15.000",
+      "numero_label": "precio promedio por tonelada de la carne vacuna exportada a la Unión Europea, enero-octubre de 2026 (China: US$4.668)",
+      "fecha": "2026-11-21",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-21-carne-europa-15000-dolares-tonelada-china.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC exports_2026_M.zip (exponm26.csv), NCM 0201+0202, destinos 438/423/417/410/425/406, ene-oct 2026: 50.329.009 kg y US$754.920.365 FOB = US$14.999,7/t; China 310: 394.845.257 kg y US$1.843.333.059 = US$4.668/t (ratio 3,21); total 626.517.266 kg y US$4.316.565.083 (UE 8,0% t, 17,5% US$). Contraste: Eurostat Comext DS-045409 UE27 desde AR 0201+0202 ene-sep 2026 42.420 t vs INDEC 43.188 t (-1,8%); euros a US$ con BCE mensual: US$15.197/t CIF vs 14.808 FOB (+2,6%). China: Comtrade 156 M 0202 2025 469.841 t US$4.173/t CIF vs INDEC 496.169 t US$3.792 FOB. Superlativo: máximo previo UE 2014 US$14.568 (serie 2002-2025 recalculada). Camino: estadística oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-21-amba-i-obra-electrica-rentabilidad-transener",
       "titulo": "El regulador le reconoce 13,69% anual a quien construya la obra que debe asegurar la luz del Gran Buenos Aires, más del doble que a Transener",
