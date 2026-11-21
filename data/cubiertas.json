@@ -9874,6 +9874,20 @@
       "fecha": "2026-11-21",
       "estado": "descartada",
       "motivo_descarte": "no se probaron: la primera candidata pasó la verificación"
+    },
+    {
+      "tema": "¿se cerraron 600.000 cuentas sueldo? (Página12 19/11/2026 '600 mil cuentas sueldo destruidas': desde diciembre de 2024, -6%) / BCRA Información de Entidades Financieras: cuentas con pago de remuneraciones Ago-2026 9.885.099, Ago-2025 10.012.552 (-127.453, -1,3%), Ago-2024 10.212.342, Dic-2024 10.511.100; de las 626.001 de Dic-24 a Ago-26, 298.758 (47,7%) son la distancia Dic-24/Ago-24; Nuevo Banco del Chaco 177.313 (jul-26) -> 73.022 (ago-26), 80,9% de la baja neta anual; Chaco pagó sueldos de julio el 30-31/07 y de agosto el 1-2/09 (chaco.gob.ar); Banco Provincia +169.179; diciembres 2014-2025 (7,81 M -> 10,51 M, primera baja en dic-25)",
+      "angulo": "Corrida de la redacción del 21/11/2026 10:30; APTA. Hallazgo: la cifra que circula compara diciembre con agosto; mismo mes contra mismo mes la baja anual es 1,3% y ocho de cada diez cuentas que faltan son de un solo banco en un solo mes, coincidente con el corrimiento del pago de sueldos provinciales del Chaco a septiembre. Camino estadística oficial recalculada (suma por entidad = total) + contraste SIPA asalariados privados+públicos (-1,7%). No afirmado: que el calendario sea la causa; adónde fueron las cuentas que ganó el Banco Provincia. Retomable: la edición de septiembre (202609e) dirá si el Banco del Chaco recupera las cuentas.",
+      "fecha": "2026-11-21",
+      "estado": "publicada",
+      "articulo_id": "2026-11-21-cuentas-sueldo-127453-menos-banco-chaco",
+      "archivo": "cola/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.html"
+    },
+    {
+      "tema": "descartes de la corrida de redacción del 21/11/2026 10:30 (pasó la candidata de cuentas sueldo, BCRA + SIPA). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; clarin.com y tn.com.ar no se pudieron leer (WebFetch bloqueado). agenda.py: última nota EMPRESAS hoy (Globant 00:30), sin cupo; calendario sin publicaciones hoy (sábado), EMAE el martes 24.",
+      "angulo": "Lista probada o descartada: (2) Argentina LNG aprobada en el RIGI por US$50.750 M [La Nación, ámbito, iProfesional]: solo el anuncio de Caputo en X, sin resolución en el Boletín Oficial; RIGI cubierto 03, 13 y 16/11; retomable con la resolución (cruce contra el total de 30 proyectos del tablero, US$79.649 M); (3) riesgo país sobre 1.000 [cinco portadas]: cuatro notas en noviembre; (4) consumo de yerba estancado [iProfesional]: INYM ene-sep 2026 210,1 M kg en mercado interno (+1,5%), sin serie larga accesible (páginas de años anteriores del INYM dan HTTP 500); (5) cierre de la planta de Durlock [iProfesional]: frenada 17/11 y las placas importadas son marginales; (6) Impuesto de Sellos con compensación del 50% [ámbito, iProfesional]: dependencia por provincia ya publicada 03/11; (7) UNICEF 41% de hogares con hijos no cubre gastos [iProfesional, Cronista, Página12]: estrategias EPH publicadas 15/11; (8) Tesla y el cupo de eléctricos sin arancel [infobae, La Nación, Cronista, iProfesional]: sin resolución de asignación a Tesla; importados eléctricos publicados 27/09; (9) trigo récord en La Pampa y Santiago [Cronista]: estimación privada de la BCR; (10) EMPRESAS Holcim aumento de capital (HR CNV 20/11): continuación del aporte publicado 13/11; (11) EMPRESAS Sidersa revocación de cautelar (HR CNV 20/11): sin cifras; (12) EMPRESAS Molinos venta del acopio (HR CNV 20/11): sin precio, descartada 20 y 21/11; (13) mora de familias y empresas, servicios del AMBA $291.247, aguinaldo de domésticas: repetidas o molde agotado.",
+      "fecha": "2026-11-21",
+      "estado": "descartada"
     }
   ]
 }

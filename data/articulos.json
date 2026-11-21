@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-21T08:47:13-03:00",
+    "actualizado": "2026-11-21T10:56:28-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-21-cuentas-sueldo-127453-menos-banco-chaco",
+      "titulo": "Hay 127.453 cuentas sueldo menos que hace un año, y ocho de cada diez faltan en el banco del Chaco",
+      "bajada": "La cuenta de las «600 mil cuentas sueldo destruidas» desde diciembre de 2024 es correcta, pero mezcla dos cosas. Casi la mitad, 298.758, es la diferencia que ya había entre diciembre y agosto de 2024. Agosto contra agosto, el Banco Central registra 9.885.099 cuentas sueldo, 1,3% menos que un año antes, y el Nuevo Banco del Chaco explica 103.114 de esa baja: perdió 104.291 en un solo mes, después de pagar los sueldos de julio el 31 de julio y los de agosto el 2 de septiembre. Los asalariados registrados bajaron 1,7% en el mismo año.",
+      "titulo_busqueda": "¿Se cerraron 600.000 cuentas sueldo? Qué dicen los datos del Banco Central",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "127.453",
+      "numero_label": "cuentas sueldo menos en los bancos en agosto de 2026 que un año antes, según el Banco Central",
+      "fecha": "2026-11-21",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA Informacion de Entidades Financieras, Informacion adicional del sistema, 'Pago de remuneraciones mediante acreditacion bancaria - Cantidad de Cuentas': 202608e Ago-2026 9.885.099; 202508e Ago-2025 10.012.552 (-127.453, -1,27%); 202408e Ago-2024 10.212.342; 202412e Dic-2024 10.511.100 (Dic24->Ago26 -626.001 = 298.758 Dic24-Ago24 + 327.243 Ago24->Ago26). Recalculo: suma de las 73 paginas por entidad = total del sistema exacto en Ago-26 y Ago-25 (75 entidades Ago-24). Nuevo Banco del Chaco (00311): Ago-25 176.136, Jul-26 177.313, Ago-26 73.022 (-103.114 = 80,9% de la baja neta; -104.291 en el mes); sin Chaco -24.339 (-0,25%). Calendario chaco.gob.ar: sueldos de julio 30-31/07/2026, de agosto 1-2/09/2026. Contraste SIPA anexo 2608 T.2.1 asalariados privados+publicos: Ago-25 9.611.316, Ago-26 9.451.253 (-1,67%); Ago-24->Ago-26 -1,93% vs cuentas -3,20%; Dic24->Dic25 -1,10% vs -1,78%. Camino: estadistica oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-21-glifosato-china-materia-prima-estados-unidos",
       "titulo": "El glifosato que la Argentina compra hecho llega todo de China; 7 de cada 10 kilos del insumo para fabricarlo acá vienen de Estados Unidos",
