@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-21T10:56:28-03:00",
+    "actualizado": "2026-11-21T13:03:10-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-21-huevos-por-habitante-argentina-septima-fao",
+      "titulo": "En la última tabla mundial de la FAO, la Argentina es séptima en huevos por habitante: el primer puesto que anuncia la industria no se midió con la misma vara",
+      "bajada": "El sector anuncia que la Argentina es primera en el mundo en consumo de huevo. La tabla de la FAO, la única que mide a todos los países con el mismo método, la deja séptima: en 2023 tenía 18,4 kilos de huevo por habitante para comer, detrás de Bélgica, Hong Kong, China, Malasia, México e Indonesia, entre 143 países de más de un millón de habitantes. El primer puesto sale del dato propio del sector para 2025, 398 huevos por persona, que nadie comparó todavía con cifras de otros países medidas igual.",
+      "titulo_busqueda": "¿Es la Argentina el país que más huevos come del mundo?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "7.º",
+      "numero_label": "puesto de la Argentina entre 143 países de más de un millón de habitantes en kilos de huevo disponibles para comer por habitante en 2023",
+      "fecha": "2026-11-21",
+      "hora": "14:30",
+      "archivo": "articulos/2026-11-21-huevos-por-habitante-argentina-septima-fao.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "FAOSTAT hojas de balance de alimentos (bulk FoodBalanceSheets_E_All_Data_(Normalized).zip, descargado 21/11/2026), item 2949 Eggs, elemento 645 kg/cap/yr 2023: Bélgica 31,83, Hong Kong 28,30, China mainland 22,96, Malasia 21,65, México 21,55, Indonesia 20,87, Argentina 18,41 (recálculo Food 839 kt / pob 45.538,4 mil = 18,42); 143 países con >= 1 M hab (176 con dato; Argentina 12.ª con islas); excluidas regiones (código >= 5000) y China agregada (351); Japón no está en la descarga. Serie ARG 2010 10,86 -> 2023 18,41 (+69,5%); MEX +18,4%, CHN +22,3%. Contraste CAPIA (consumo aparente, unidades/hab, serie publicada por Revista Chacra/infobae 21/11/2026: 2019 284, 2020 306, 2021 298, 2022 322, 2023 336, 2024 363, 2025 398): FAO 2019-23 +16,2% vs CAPIA +18,3%; 54,8 g/huevo implícito 2023 (rango 54,5-57,2 en 2019-2023); ranking CAPIA datos 2022 (Engormix 10/01/2023): Argentina 4.ª (314) detrás de México, Japón, Colombia. Estimación 2025: 21,7-22,8 kg."
+    },
     {
       "id": "2026-11-21-cuentas-sueldo-127453-menos-banco-chaco",
       "titulo": "Hay 127.453 cuentas sueldo menos que hace un año, y ocho de cada diez faltan en el banco del Chaco",

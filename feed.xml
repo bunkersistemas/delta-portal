@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sat, 21 Nov 2026 10:56:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 13:03:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En la última tabla mundial de la FAO, la Argentina es séptima en huevos por habitante: el primer puesto que anuncia la industria no se midió con la misma vara</title>
+      <link>https://coninteres.com/articulos/2026-11-21-huevos-por-habitante-argentina-septima-fao.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-21-huevos-por-habitante-argentina-septima-fao.html</guid>
+      <pubDate>Sat, 21 Nov 2026 14:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>El sector anuncia que la Argentina es primera en el mundo en consumo de huevo. La tabla de la FAO, la única que mide a todos los países con el mismo método, la deja séptima: en 2023 tenía 18,4 kilos de huevo por habitante para comer, detrás de Bélgica, Hong Kong, China, Malasia, México e Indonesia, entre 143 países de más de un millón de habitantes. El primer puesto sale del dato propio del sector para 2025, 398 huevos por persona, que nadie comparó todavía con cifras de otros países medidas igual.</description>
+      <ci:numero>7.º</ci:numero>
+      <ci:numeroEtiqueta>puesto de la Argentina entre 143 países de más de un millón de habitantes en kilos de huevo disponibles para comer por habitante en 2023</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-huevos-por-habitante-argentina-septima-fao.png" length="66895" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-huevos-por-habitante-argentina-septima-fao.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Hay 127.453 cuentas sueldo menos que hace un año, y ocho de cada diez faltan en el banco del Chaco</title>
       <link>https://coninteres.com/articulos/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte de Vietnam en el valor de las consolas de videojuegos importadas por la Argentina, enero a septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-consolas-vietnam-supera-china-gta-vi.png" length="75606" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-consolas-vietnam-supera-china-gta-vi.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La caída del oro le restó US$2.917 millones a las reservas del Banco Central desde enero: uno de cada cinco dólares que compró</title>
-      <link>https://coninteres.com/articulos/2026-11-18-oro-bcra-reservas-caida-2917-millones.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-18-oro-bcra-reservas-caida-2917-millones.html</guid>
-      <pubDate>Wed, 18 Nov 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>Entre el 29 de enero y el 12 de noviembre, el BCRA compró US$15.025 millones en el mercado, pero las reservas subieron solo US$2.831 millones. Parte de la diferencia es el oro: las 1,98 millones de onzas del Banco Central valían US$10.609 millones con la onza en US$5.344,90, y US$7.692 millones con la onza en US$3.875,17. Esa caída se llevó el 19,4% de lo que compró.</description>
-      <ci:numero>US$2.917 M</ci:numero>
-      <ci:numeroEtiqueta>valor que perdió el oro de las reservas del Banco Central entre el 29 de enero y el 12 de noviembre de 2026 por la baja del precio</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-oro-bcra-reservas-caida-2917-millones.png" length="69306" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-oro-bcra-reservas-caida-2917-millones.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
