@@ -9801,6 +9801,22 @@
       "id": "2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion",
       "seccion": "EMPRESAS",
       "archivo": "cola/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.html"
+    },
+    {
+      "fecha": "2026-11-21",
+      "estado": "en_cola",
+      "id": "2026-11-21-globant-plantilla-siete-trimestres-recorte",
+      "tema": "EMPRESAS: Globant tercer trimestre 2026 (6-K SEC 19/11/2026; La Nación 20/11 'Globant amplió su inversión en IA, pero sus ingresos trimestrales cayeron') / plantilla 26.164, -5.116 (-16,4%) desde el pico de 31.280 (dic-2024), siete bajas trimestrales seguidas; ingresos III-2026 US$611,1 M (-1,0% i.a., -0,6% contra III-2024); Argentina 68,9% de la plantilla en 2014 y 18,6% en 2024 (20-F)",
+      "angulo": "Distinto de la nota del 23/07 (desplome de la acción): acá es el negocio y el empleo, sin juicio sobre la acción. Serie propia de los 50 anuncios trimestrales 6-K desde II-2014 (empleados e ingresos) y de los 12 informes 20-F (empleados por país 2014-2024; el 20-F 2025 dejó de abrir por país). Hallazgos: racha de siete bajas (máximo previo 2), primera baja interanual de ingresos en IV-2025 desde que cotiza, proyección 2026 recortada de +0,2/+2,2% a -1,1/-0,7%, costos de optimización US$111,7 M desde abril 2025, Colombia pasó a la Argentina en 2022. Contraste independiente: SIPA rama 7220 estancado (-0,3% 4T-25 i.a.). Scripts en _privado/globant/.",
+      "seccion": "EMPRESAS",
+      "archivo": "cola/2026-11-21-globant-plantilla-siete-trimestres-recorte.html"
+    },
+    {
+      "fecha": "2026-11-21",
+      "estado": "descartada",
+      "tema": "descartes de la corrida de redacción del 21/11/2026 00:30 (pasó la primera candidata probada: Globant, plantilla y facturación, SEC). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN no respondieron a WebFetch. agenda.py: HOY NO HAY NOTA DE EMPRESAS.",
+      "angulo": "Lista (no probadas porque pasó la primera): (2) EMPRESAS Molinos venta del acopio (HR CNV 20/11): descartada dos veces el 20/11, el único número es una estimación de resultado sin precio. (3) EMPRESAS Loma Negra, BYMA, Macro y Transener recompras de acciones propias (HR CNV 18-20/11): formato recompra cubierto (Macro 01/11). (4) Holcim HR 20/11: aporte de la casa matriz ya contado el 13/11. (5) riesgo país arriba de 1.000 y dólar en máximo (todas las portadas): dato del día, cuatro notas en noviembre. (6) Argentina LNG en el RIGI, US$50.750 M (infobae, La Nación, ámbito, iProfesional): sin resolución en el BO. (7) mora de familias en baja (infobae, La Nación, ámbito, iProfesional): publicada tres veces. (8) UNICEF 41% de hogares con chicos no cubre gastos (cuatro portadas): encuesta sin serie oficial. (9) servicios del AMBA $291.247 y AySA (infobae, La Nación, iProfesional, Página12): molde tarifa agotado. (10) compras por courier arriba de US$1.000 M (iProfesional): frenada 24/09 sin contraste, sigue igual. (11) girasol +82% en divisas (infobae): complejo girasolero publicado 24/07. (12) Cotar comprada por sus trabajadores (Página12) y Durlock cierra planta en Río Negro (iProfesional): sin documento con cifras; yeso ya descartado 17/11. Pregunta del día actualizada desde la nota de IRSA del 20/11.",
+      "motivo_descarte": "no probadas: pasó la primera candidata (Globant); el resto repetido, sin documento o molde agotado"
     }
   ]
 }

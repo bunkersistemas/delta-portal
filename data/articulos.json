@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-20T22:58:24-03:00",
+    "actualizado": "2026-11-21T00:50:10-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-21-globant-plantilla-siete-trimestres-recorte",
+      "titulo": "Globant recortó su plantilla siete trimestres seguidos: tiene 5.116 empleados menos que en su pico y factura casi lo mismo que hace dos años",
+      "bajada": "Durante doce años, Globant facturó más sumando gente. Ya no: entre julio y septiembre de 2026 facturó US$611,1 millones, 0,6% menos que dos años antes, con 26.164 empleados, 3.834 menos que entonces y 5.116 menos que en diciembre de 2024, su máximo. Es la racha de recortes más larga desde que cotiza en Nueva York. Y la Argentina, donde estaba el 69% de su gente en 2014, tenía el 18,6% en 2024, detrás de Colombia.",
+      "titulo_busqueda": "¿Cuántos empleados recortó Globant?",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "5.116",
+      "numero_label": "empleados menos que tenía Globant en septiembre de 2026 contra diciembre de 2024, su máximo: de 31.280 a 26.164",
+      "fecha": "2026-11-21",
+      "hora": "00:30",
+      "archivo": "articulos/2026-11-21-globant-plantilla-siete-trimestres-recorte.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Globant 6-K 20/02/2025 (31.280 Globers al 31/12/2024, igual en 20-F 2024 y 20-F 2025) y 6-K 19/11/2026 (26.164 Globers al 30/09/2026, texto y cuadro de métricas). Serie propia de 50 anuncios trimestrales 6-K (II-2014 a III-2026): siete bajas seguidas, racha previa máxima 2 (I y II-2023); nivel más bajo desde II-2023 (25.947). Los 12 cierres de diciembre de los 6-K coinciden con los 20-F 2014-2025. Ingresos III-2026 US$611.135 mil vs III-2024 US$614.667 mil (-0,6%); suma trimestral 2025 = anual US$2.454.877 mil. Contraste independiente: SIPA rama 7220 (OEDE, cuadro 7) 4T-2025 84.750 vs 4T-2024 85.037 (-0,3%)."
+    },
     {
       "id": "2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion",
       "titulo": "IRSA perdió $74.236 millones en tres meses por revaluar sus edificios: el dólar subió menos que la inflación",

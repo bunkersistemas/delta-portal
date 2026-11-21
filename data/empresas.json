@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-20T22:30",
+  "generado": "2026-11-21T00:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -1591,98 +1591,6 @@
       "tipo": "hecho",
       "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - PAGO DE DIVIDENDO EN EFECTIVO",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/52B5FFAF-F3A2-45BE-8E77-B2FBB50FD3EF"
-    },
-    {
-      "id": "cnv-3583080",
-      "fuente": "CNV",
-      "fecha": "2026-10-21T18:58",
-      "entidad": "GEOPARK ARGENTINA SA",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE – ADJUDICACIÓN DEL BLOQUE CORRALERA NORESTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/55AE0017-A6C0-47D1-BCAE-12F99B52E42E"
-    },
-    {
-      "id": "cnv-3583075",
-      "fuente": "CNV",
-      "fecha": "2026-10-21T18:30",
-      "entidad": "CRESUD SACIF Y A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - REPORTE ANUAL 20-F",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E4FACA84-53E4-4BA3-AF82-240355B84CDC"
-    },
-    {
-      "id": "cnv-3583003",
-      "fuente": "CNV",
-      "fecha": "2026-10-21T17:13",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (21 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6893B4DC-F0F2-40A2-86DE-F84018B2B0A1"
-    },
-    {
-      "id": "cnv-3582954",
-      "fuente": "CNV",
-      "fecha": "2026-10-21T16:11",
-      "entidad": "IRSA INVERSIONES Y REPRESENTACIONES S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - REPORTE ANUAL 20-F",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/105FB860-E35F-478A-930E-EA86A1F0E06E"
-    },
-    {
-      "id": "cnv-3582872",
-      "fuente": "CNV",
-      "fecha": "2026-10-21T14:15",
-      "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE DESIGNACIÓN RESPONSABLE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/DCEDCC1A-5D25-46C0-87E2-04A97BD5FA3A"
-    },
-    {
-      "id": "cnv-3582732",
-      "fuente": "CNV",
-      "fecha": "2026-10-21T11:21",
-      "entidad": "BACS BANCO DE CRÉDITO Y SECURITIZACIÓN S.A",
-      "tipo": "financiamiento",
-      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - RECOMPRA PARCIAL OBLIGACIONES NEGOCIABLES DE BACS S.A. CLASE XIX",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9F5CA0D4-7F39-473B-BC8B-E9F31CF35C9E"
-    },
-    {
-      "id": "cnv-3582729",
-      "fuente": "CNV",
-      "fecha": "2026-10-21T11:17",
-      "entidad": "ALUAR ALUMINIO ARGENTINO",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE: INFORMA HABILITACIÓN COMERCIAL DEL PARQUE EOLICO LA FECHA",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/0FE51740-82AA-4BCE-90C5-597157055622"
-    },
-    {
-      "id": "cnv-3582696",
-      "fuente": "CNV",
-      "fecha": "2026-10-21T10:03",
-      "entidad": "ZONDA BITCOIN CAPITAL SOCIEDAD ANÓNIMA",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - RESCICION CONTRATO DE SERVICIOS AUDITOR",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FBA02A42-C635-4589-8415-83373DEBE9B9"
-    },
-    {
-      "id": "sec-0001654954-26-009071",
-      "fuente": "SEC",
-      "fecha": "2026-10-21",
-      "entidad": "IRSA",
-      "ticker": "IRS",
-      "tipo": "balance",
-      "descripcion": "20-F memoria y balance anual",
-      "url": "https://www.sec.gov/Archives/edgar/data/933267/000165495426009071/irsa_20f.htm"
-    },
-    {
-      "id": "sec-0001654954-26-009074",
-      "fuente": "SEC",
-      "fecha": "2026-10-21",
-      "entidad": "Cresud",
-      "ticker": "CRESY",
-      "tipo": "balance",
-      "descripcion": "20-F memoria y balance anual",
-      "url": "https://www.sec.gov/Archives/edgar/data/1034957/000165495426009074/cresud_20f.htm"
     }
   ],
   "anuncios": [],
@@ -1744,7 +1652,6 @@
     "sec-0001193125-26-466167": "2026-11-18",
     "sec-0001193125-26-467770": "2026-11-19",
     "sec-0001193125-26-469270": "2026-11-20",
-    "sec-0001292814-26-004966": "2026-10-21",
     "sec-0001292814-26-004990": "2026-10-23",
     "sec-0001292814-26-005002": "2026-10-23",
     "sec-0001292814-26-005008": "2026-10-26",

@@ -1,14 +1,14 @@
 {
  "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
- "fecha": "2026-11-20",
- "pregunta": "El Presupuesto 2026 suponía una inflación de 10,1% para este año, pero en los doce meses a octubre el IPC subió 33,1%. El decreto que lo amplió esta semana puso casi la mitad de la plata nueva en jubilaciones. ¿Por qué ese gasto es el que más siente la diferencia?",
+ "fecha": "2026-11-21",
+ "pregunta": "Entre julio y septiembre de 2026, el negocio de IRSA rindió 9,3% más que un año antes, pero la empresa terminó con pérdida: sus edificios, que valúa en dólares, perdieron $74.236 millones de valor en el balance. En esos meses el dólar financiero subió 3,4% y los precios 5,8%. ¿Por qué eso alcanza para que un edificio pierda valor?",
  "opciones": [
-  "Porque los haberes se actualizan solos cada mes con el IPC de dos meses antes: el gasto sigue a la inflación real, no a la que suponía la ley",
-  "Porque la ley obliga a pagar un bono extra a los jubilados cada vez que la inflación supera la prevista en el Presupuesto",
-  "Porque cuando la inflación sube se jubila más gente, y eso multiplica la cantidad de haberes a pagar"
+  "Porque el balance está en pesos de poder de compra constante: si el dólar sube menos que la inflación, el mismo edificio en dólares vale menos en pesos de hoy",
+  "Porque cuando el dólar sube los inquilinos dejan de pagar el alquiler y el edificio rinde menos",
+  "Porque la empresa tuvo que vender parte de sus edificios más baratos para pagar deudas en dólares"
  ],
  "correcta": 0,
- "explicacion": "Las jubilaciones se ajustan por fórmula: cada mes el haber sube lo que subió el IPC dos meses antes. Si la inflación es más alta que la prevista, el gasto crece solo y la partida aprobada no alcanza. Por eso, con el decreto, el crédito para jubilaciones y pensiones de la ANSES pasó de los $52,75 billones de la ley a $61,43 billones: 16,5% más, el mayor desvío en los presupuestos aprobados desde 2017. Otros gastos no tienen esa actualización automática y se pueden recortar: el mismo decreto le quitó $2,73 billones a 26 programas.",
- "nota": "articulos/2026-11-19-presupuesto-2026-ampliacion-jubilaciones-mitad.html",
+ "explicacion": "Los balances argentinos se ajustan por inflación, y un edificio de oficinas se cotiza en dólares por metro cuadrado. Para el balance, ese valor se pasa a pesos y se compara con el de tres meses antes llevado a pesos de hoy. Si el dólar sube 3,4% y los precios 5,8%, el mismo edificio compra menos cosas: descontada la inflación, el contado con liquidación bajó 2,2%. Es una pérdida contable, no de caja: IRSA no vendió nada ni cobró menos alquileres. Lo mismo le pasa a cualquiera que tenga un departamento o ahorros en dólares cuando el dólar queda atrás de la inflación.",
+ "nota": "articulos/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.html",
  "leccion": ""
 }

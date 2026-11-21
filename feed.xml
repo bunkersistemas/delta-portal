@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 20 Nov 2026 22:58:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 21 Nov 2026 00:50:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Globant recortó su plantilla siete trimestres seguidos: tiene 5.116 empleados menos que en su pico y factura casi lo mismo que hace dos años</title>
+      <link>https://coninteres.com/articulos/2026-11-21-globant-plantilla-siete-trimestres-recorte.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-21-globant-plantilla-siete-trimestres-recorte.html</guid>
+      <pubDate>Sat, 21 Nov 2026 00:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>Durante doce años, Globant facturó más sumando gente. Ya no: entre julio y septiembre de 2026 facturó US$611,1 millones, 0,6% menos que dos años antes, con 26.164 empleados, 3.834 menos que entonces y 5.116 menos que en diciembre de 2024, su máximo. Es la racha de recortes más larga desde que cotiza en Nueva York. Y la Argentina, donde estaba el 69% de su gente en 2014, tenía el 18,6% en 2024, detrás de Colombia.</description>
+      <ci:numero>5.116</ci:numero>
+      <ci:numeroEtiqueta>empleados menos que tenía Globant en septiembre de 2026 contra diciembre de 2024, su máximo: de 31.280 a 26.164</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-globant-plantilla-siete-trimestres-recorte.png" length="67336" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-globant-plantilla-siete-trimestres-recorte.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>IRSA perdió $74.236 millones en tres meses por revaluar sus edificios: el dólar subió menos que la inflación</title>
       <link>https://coninteres.com/articulos/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>chicos de 5 años que recibieron a tiempo la segunda dosis contra el sarampión en 2024: la cobertura más baja de América según OMS-UNICEF</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-sarampion-segunda-dosis-argentina-ultima-america.png" length="76692" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-sarampion-segunda-dosis-argentina-ultima-america.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Agro de Souza debía $15.717 millones a bancos y SGR cuando pidió el concurso, y su último balance público es de 2023</title>
-      <link>https://coninteres.com/articulos/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.html</guid>
-      <pubDate>Tue, 17 Nov 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Hasta julio, todos los bancos que le prestaban a Agro de Souza la tenían como deudor normal. El 15 de septiembre, la concesionaria de maquinaria agrícola de Coronel Suárez, que tiene obligaciones negociables en la Bolsa, pidió el concurso preventivo. Ese mes les debía $15.717 millones a 14 bancos y seis SGR, según el Banco Central: 37% más que dos años antes, descontada la inflación. Su último balance público es de 2023, y el concurso lo informó a la CNV 61 días después de la apertura.</description>
-      <ci:numero>$15.717 M</ci:numero>
-      <ci:numeroEtiqueta>deuda de Agro de Souza con bancos y SGR en septiembre de 2026, el mes en que pidió el concurso preventivo</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.png" length="75453" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-17-agro-de-souza-concurso-deuda-bancos-sin-balance.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
