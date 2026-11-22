@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-22T14:47:46-03:00",
+    "actualizado": "2026-11-22T16:50:10-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019",
+      "titulo": "Cada petrolero registrado de Neuquén sacó 23,5 barriles por día a fines de 2025, cuatro veces más que en 2019",
+      "bajada": "Neuquén cerró 2025 sacando 585.957 barriles de petróleo por día, 29,6% más que un año antes, con 1.624 asalariados registrados menos en la rama del petróleo y el gas, una baja del 6,1%. Cruzadas, las dos estadísticas oficiales dan 23,5 barriles diarios por trabajador, el valor más alto desde al menos 2009. Los puestos que se perdieron son de las empresas de servicios petroleros; las operadoras y la construcción sumaron gente.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "23,5",
+      "numero_label": "barriles de petróleo por día por cada asalariado registrado de la rama petrolera de Neuquén, cuarto trimestre de 2025",
+      "fecha": "2026-11-22",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SE sescoweb_produccion (Cap. IV) Neuquen petroleo = primaria+secundaria+rec. asistida+condensado: 4T25 8.570.689 m3 / 92 dias x 6,28981 = 585.957 bbl/d (4T24 452.182, +29,6%; 1T19 125.100). OEDE provinciales_serie_empleo_trimestral_2dig_7 hoja Neuquen rama 11: 4T25 24.904 (4T24 26.528, -6,1%; 3T24 pico 26.883; 1T19 21.940; 1T26 25.154 prelim). Cociente 23,53 (4T24 17,05; 1T19 5,70; ratio 4,13; max previo a 2024 14,1 en 4T23; 1T26 23,9). Recalculo empleo: 4dig 1110+1120 = rama 11 en los 69 trimestres 2009T1-2026T1 (4T25 4.592+20.312). Contraste produccion: Subsecretaria de Hidrocarburos de Neuquen, info estadistica mar-2025: 2024 24.223.614 m3 vs SE 23.830.673; 1T25 6.638.449 vs 6.533.422 (prov +1,6%); 2019-2024 x2,90 vs x2,99; ene-sep 2026 +29,83% (prov., difundido por prensa) vs SE +29,96%. Contraste empleo: EPH aglomerado 17, PP04B_COD 600/900: 4T24 17.966 (58 casos), 1T25 18.545 (52), 4T25 12.620 (28), 1T26 16.096 (44); promedios 18.256 -> 14.358 (-21%) vs SIPA mismos trimestres 26.486 -> 25.029 (-5,5%): misma direccion, muestra chica. Camino: estadisticas oficiales recalculadas + contraste."
+    },
     {
       "id": "2026-11-22-exportaciones-record-en-dolares-no-en-poder-de-compra",
       "titulo": "Las exportaciones suman US$87.328 millones hasta octubre, más que nunca en dólares; descontada la inflación de Estados Unidos, en 2011 se vendió 19% más",
