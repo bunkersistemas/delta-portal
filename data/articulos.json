@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-21T14:46:58-03:00",
+    "actualizado": "2026-11-22T12:50:27-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-22-mora-familias-banco-provincia-18-por-ciento",
+      "titulo": "En el Banco Provincia, 18 de cada 100 pesos prestados a las familias están en mora: siete veces más que a fines de 2024",
+      "bajada": "Entre los seis bancos que concentran siete de cada diez pesos prestados a hogares, ninguno vio subir tanto la mora como el Banco de la Provincia de Buenos Aires. En agosto, el 17,97% de lo que les prestó a las familias tenía más de 90 días de atraso, según el Banco Central; en diciembre de 2024 era 2,52%. Quedó apenas por encima de Santander (17,70%) y Galicia (17,33%). Y es la excepción de su grupo: en conjunto, los bancos públicos tienen menos mora que los privados, 10,78% contra 14,44%.",
+      "titulo_busqueda": "¿Qué bancos tienen más mora? Los préstamos atrasados de las familias, banco por banco",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "17,97%",
+      "numero_label": "parte de los préstamos del Banco Provincia a familias con más de 90 días de atraso, agosto de 2026",
+      "fecha": "2026-11-22",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-22-mora-familias-banco-provincia-18-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA Informacion de Entidades Financieras 202608e, ficha 00014 Banco de la Provincia de Buenos Aires (pags. impresas 161-164): A16 Cartera irregular consumo sector privado Dic-24 2,52 / Dic-25 10,65 / Jun-26 16,81 / Jul-26 17,14 / Ago-26 17,97; situacion de deudores consumo o vivienda Ago-26 sit3 4,56 + sit4 8,80 + sit5 4,61 = 17,97 sobre $6.169.482,8 M (irregular $1.108.656 M). Recalculo: suma de 73 entidades sit3-5 consumo = $9.248.254 M / $72.556.825 M = 12,75% = cuadro del sistema (3,60+6,70+2,45); A16 sistema 12,79 (Dic-24 2,51). Contraste: EEFF separados BAPRO 30/06/2026 (CNV publicview d6ea7b1d, anexo B consumo y vivienda) total 9.271.724.598 miles, sit3-5 1.252.730.558 miles = IEF Jun-26 consumo 6.067.322 + CAC 3.204.173 = 9.271.495 M, irregular 1.252.506 M (dif 0,002% y 0,02%). Seis bancos A16 Dic-24 -> Ago-26: Provincia x7,13, Nacion 1,53->8,75 x5,72, Santander 3,17->17,70 x5,58, BBVA 2,54->13,81 x5,44, Macro 1,68->8,98 x5,35, Galicia 3,49->17,33 x4,97. Serie diciembres Provincia 2013-2025 max 8,32 (2021), oct-21 9,32. Grupos A16 Ago-26: publicos 10,78, privados 14,44. Nacion hipotecarios $4.811.177 M (29,4% de consumo); cota sin hipotecarios 12,78%. Cargo por incobrabilidad BAPRO 1S26 416.209.583 vs 1S25 234.249.842 miles (moneda de jun-26) +77,7%. Camino: estadistica oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-21-argentina-lng-las-tacanas-sin-reservas-comprobadas-gas",
       "titulo": "Las Tacanas, el área que debe dar el gas de Argentina LNG, no tiene reservas comprobadas: sus 573.547 millones de m³ son recurso contingente",

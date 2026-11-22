@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-21T14:30",
+  "generado": "2026-11-22T12:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -1528,69 +1528,6 @@
       "tipo": "financiamiento",
       "descripcion": "INFORMACIÓN FINANCIERA - RESCATE DE OBLIGACIONES NEGOCIABLES CLASE XXXVII VIGENTES Y EN CIRCULACIÓN",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/90B99A04-3B3B-4E54-A1C3-3D25A113F445"
-    },
-    {
-      "id": "cnv-3583384",
-      "fuente": "CNV",
-      "fecha": "2026-10-22T19:05",
-      "entidad": "TARJETA NARANJA S.A.U",
-      "tipo": "financiamiento",
-      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - EMISIÓN DE OBLIGACIONES NEGOCIABLES LXVIII",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E996A9F6-852C-45B6-B15B-3D503BF9E5B9"
-    },
-    {
-      "id": "cnv-3583357",
-      "fuente": "CNV",
-      "fecha": "2026-10-22T18:01",
-      "entidad": "A3 MERCADOS S.A",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - 22.10.26 PROGRAMA DE RECOMPRA DE ACCIONES PROPIAS",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6E8C74A7-A53F-4D36-A6BB-E27E39ACC1A6"
-    },
-    {
-      "id": "cnv-3583348",
-      "fuente": "CNV",
-      "fecha": "2026-10-22T17:47",
-      "entidad": "PETROQUÍMICA COMODORO RIVADAVIA S.A",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1767CFEF-8776-4A55-B6AF-BB2C75C089F9"
-    },
-    {
-      "id": "cnv-3583333",
-      "fuente": "CNV",
-      "fecha": "2026-10-22T17:30",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (22 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/D6774E29-B8F7-4156-B165-3EA68366DA72"
-    },
-    {
-      "id": "cnv-3583322",
-      "fuente": "CNV",
-      "fecha": "2026-10-22T17:17",
-      "entidad": "INVAP S.A.U",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - INVAP SAU - CONFORMACIÓN DIRECTORIO",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4D834842-962D-4DB5-9661-A0805ABFF209"
-    },
-    {
-      "id": "cnv-3583225",
-      "fuente": "CNV",
-      "fecha": "2026-10-22T14:38",
-      "entidad": "CRESUD SACIF Y A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - PAGO DE DIVIDENDO EN EFECTIVO Y EN ESPECIE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/D0A2A524-B623-42EF-B98C-DE132C8BC466"
-    },
-    {
-      "id": "cnv-3583187",
-      "fuente": "CNV",
-      "fecha": "2026-10-22T12:52",
-      "entidad": "IRSA INVERSIONES Y REPRESENTACIONES S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - PAGO DE DIVIDENDO EN EFECTIVO",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/52B5FFAF-F3A2-45BE-8E77-B2FBB50FD3EF"
     }
   ],
   "anuncios": [],
@@ -1599,14 +1536,10 @@
     "sec-0000931427-26-000014": "2026-10-29",
     "sec-0000931427-26-000015": "2026-11-05",
     "sec-0000931427-26-000016": "2026-11-13",
-    "sec-0000933267-26-000067": "2026-10-22",
-    "sec-0000933267-26-000069": "2026-10-22",
     "sec-0000933267-26-000071": "2026-10-23",
     "sec-0000933267-26-000073": "2026-10-29",
     "sec-0000933267-26-000075": "2026-10-29",
     "sec-0000933267-26-000077": "2026-11-03",
-    "sec-0001034957-26-000071": "2026-10-22",
-    "sec-0001034957-26-000073": "2026-10-22",
     "sec-0001034957-26-000075": "2026-10-23",
     "sec-0001034957-26-000077": "2026-10-30",
     "sec-0001034957-26-000080": "2026-11-05",
