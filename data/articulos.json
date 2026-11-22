@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-22T18:48:33-03:00",
+    "actualizado": "2026-11-22T20:57:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-22-china-soja-12-litio-86-pesca-exportaciones",
+      "titulo": "China compra 12 de cada 100 dólares de la soja que exporta la Argentina, pero 86 de cada 100 del litio y uno de cada cuatro de la pesca",
+      "bajada": "Un informe para el Congreso de Estados Unidos habla de la presencia china en el litio, la soja y la pesca de la Argentina. Los registros del INDEC muestran tres historias distintas. Entre enero y octubre, China pagó al menos el 86,1% del carbonato de litio exportado y el 24,3% de la pesca, casi lo mismo que España. En la soja, solo el 11,7% del complejo: compra el grano y no la harina ni el aceite, que son el 83% de lo que exporta el complejo.",
+      "titulo_busqueda": "",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "11,7%",
+      "numero_label": "parte de las exportaciones del complejo soja que compró China entre enero y octubre de 2026; en el litio, 86,1%",
+      "fecha": "2026-11-22",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-22-china-soja-12-litio-86-pesca-exportaciones.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC exports_2026_M.zip exponm26, ene-oct: complejo soja (13 NCM de prod_soja_mens_2002_2026.xlsx) total 17.238,1 M USD, destino 310 China 2.014,2 (11,7%); la hoja soja_ncm_pais_mens da el mismo China 2.014,2 y la hoja por NCM el mismo total. Poroto 2.324,2 (China 86,7%), harina 2304 7.892,0 y aceite 1507 6.477,5 sin China (83,4% del complejo). India (315) 3.343,5 visible. Carbonato 283691: 1.672,1, China 1.439,4 (86,1%), 999 232,7. Pesca cap 03+1604+1605: 1.970,0, China 478,2 (24,3%), Espana (410) 505,3 (25,7%). Total 87.328,0, China 7.003,5 (8,0%). Documento: complejos_08_26 (1S26) soja 9.082, China 961 (10,6%); recalculo base 1S 917/8.811,8 = 10,4% (confidenciales + lecitinas). Contraste Comtrade China (156) M desde 32: 283691 2025 73.239.663 kg vs INDEC-China 79,0 kt (-7,3%), 2024 46,5 vs 47,6 kt (-2,3%); 2304 2025 US$11,6 M (INDEC harina total 8.564,5, China 0); 1201 2024 4,10 vs 3,92 Mt (+4,7%), 2025 7,89 vs 11,48 Mt (-31,3%, no explicado). USCC 2026 Annual Report cap. 4, PDF p. 241 (Tibet Summit US$1,7 bn), 260 (Jujuy-Tsingshan), 274 (flota, US$2,3 bn). Camino: estadistica oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-22-sidersa-honorarios-directorio-perdidas-rigi",
       "titulo": "Sidersa, la del primer RIGI industrial, perdió plata dos años seguidos y propone $3.580 millones para directores y síndicos",

@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 22 Nov 2026 18:48:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 20:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>China compra 12 de cada 100 dólares de la soja que exporta la Argentina, pero 86 de cada 100 del litio y uno de cada cuatro de la pesca</title>
+      <link>https://coninteres.com/articulos/2026-11-22-china-soja-12-litio-86-pesca-exportaciones.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-22-china-soja-12-litio-86-pesca-exportaciones.html</guid>
+      <pubDate>Sun, 22 Nov 2026 20:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>Un informe para el Congreso de Estados Unidos habla de la presencia china en el litio, la soja y la pesca de la Argentina. Los registros del INDEC muestran tres historias distintas. Entre enero y octubre, China pagó al menos el 86,1% del carbonato de litio exportado y el 24,3% de la pesca, casi lo mismo que España. En la soja, solo el 11,7% del complejo: compra el grano y no la harina ni el aceite, que son el 83% de lo que exporta el complejo.</description>
+      <ci:numero>11,7%</ci:numero>
+      <ci:numeroEtiqueta>parte de las exportaciones del complejo soja que compró China entre enero y octubre de 2026; en el litio, 86,1%</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-22-china-soja-12-litio-86-pesca-exportaciones.png" length="67511" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-22-china-soja-12-litio-86-pesca-exportaciones.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Sidersa, la del primer RIGI industrial, perdió plata dos años seguidos y propone $3.580 millones para directores y síndicos</title>
       <link>https://coninteres.com/articulos/2026-11-22-sidersa-honorarios-directorio-perdidas-rigi.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>pagos al exterior por patentes, marcas, derechos de autor y licencias cursados por el mercado oficial de cambios en 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.png" length="73763" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-regalias-patentes-marcas-cepo-pagos-exterior.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>San Juan exportó 36,5% más que Mendoza en 2025 con el 40% de su población: el oro y la plata solos vendieron más que toda la provincia del vino</title>
-      <link>https://coninteres.com/articulos/2026-11-18-san-juan-exporta-mas-que-mendoza-oro.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-18-san-juan-exporta-mas-que-mendoza-oro.html</guid>
-      <pubDate>Wed, 18 Nov 2026 20:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Según el INDEC, en 2025 San Juan exportó US$2.101 millones y Mendoza US$1.539 millones: US$2.553 por habitante contra US$753. Un solo rubro explica la distancia. Mendoza mantiene desde 2007 la ley que prohíbe el cianuro en la minería metalífera; en San Juan, al lado, 81 de cada 100 dólares que se exportan son metales preciosos, y ese rubro solo, US$1.704 millones, superó todo lo que vendió Mendoza. En el primer semestre de 2026 la diferencia llegó a 52,9%, la mayor para un primer semestre desde 2002.</description>
-      <ci:numero>36,5%</ci:numero>
-      <ci:numeroEtiqueta>cuánto más exportó San Juan que Mendoza en 2025, con el 40% de su población</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-san-juan-exporta-mas-que-mendoza-oro.png" length="79314" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-san-juan-exporta-mas-que-mendoza-oro.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
