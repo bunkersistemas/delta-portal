@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 22 Nov 2026 16:50:00 -0300</lastBuildDate>
+    <lastBuildDate>Sun, 22 Nov 2026 18:48:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Sidersa, la del primer RIGI industrial, perdió plata dos años seguidos y propone $3.580 millones para directores y síndicos</title>
+      <link>https://coninteres.com/articulos/2026-11-22-sidersa-honorarios-directorio-perdidas-rigi.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-22-sidersa-honorarios-directorio-perdidas-rigi.html</guid>
+      <pubDate>Sun, 22 Nov 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>EMPRESAS</category>
+      <description>La siderúrgica de San Nicolás perdió $12.197 millones en el ejercicio cerrado en agosto de 2026, después de perder $22.594 millones el anterior, y su asamblea del 3 de diciembre votará igual los honorarios de directores y síndicos. Los del año pasado, que un accionista impugnó en la Justicia, fueron mayores que lo que ganó toda la operación. Mientras levanta su acería del RIGI, vendió 12,4% más toneladas de acero, pero cobró 8,1% menos por cada una descontada la inflación.</description>
+      <ci:numero>$3.580 M</ci:numero>
+      <ci:numeroEtiqueta>honorarios que Sidersa propone para directores y síndicos por su ejercicio 2026, cerrado con pérdida</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-22-sidersa-honorarios-directorio-perdidas-rigi.png" length="71373" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-22-sidersa-honorarios-directorio-perdidas-rigi.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Cada petrolero registrado de Neuquén sacó 23,5 barriles por día a fines de 2025, cuatro veces más que en 2019</title>
       <link>https://coninteres.com/articulos/2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuánto más exportó San Juan que Mendoza en 2025, con el 40% de su población</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-san-juan-exporta-mas-que-mendoza-oro.png" length="79314" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-san-juan-exporta-mas-que-mendoza-oro.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Los Grobo ofrece a sus acreedores 15 dólares al contado o 100 en 15 años: la opción larga vale más salvo que se le exija más de 22% anual en dólares</title>
-      <link>https://coninteres.com/articulos/2026-11-18-los-grobo-agrofina-propuesta-acreedores.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-18-los-grobo-agrofina-propuesta-acreedores.html</guid>
-      <pubDate>Wed, 18 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>En la oferta que Los Grobo Agropecuaria presentó en su concurso preventivo, la opción que devuelve el 100% del crédito vale más que el 15% al contado salvo que el acreedor le exija a su plata más de 22% anual en dólares. Pero en esa opción solo entran US$20 millones de créditos, y el que no elige nada cobra el 15%. Entre las dos hay una tercera: 35% en cuatro cuotas. El 100% llega en doce cuotas que terminan quince años después de la homologación. Agrofina, la empresa vinculada, presentó el mismo día una oferta con la regla al revés.</description>
-      <ci:numero>22%</ci:numero>
-      <ci:numeroEtiqueta>tasa anual en dólares desde la cual cobrar 15% al contado le gana a cobrar el 100% en 15 años, en la oferta de Los Grobo a sus acreedores</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-18-los-grobo-agrofina-propuesta-acreedores.png" length="69545" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-18-los-grobo-agrofina-propuesta-acreedores.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-22T16:50:10-03:00",
+    "actualizado": "2026-11-22T18:48:33-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-22-sidersa-honorarios-directorio-perdidas-rigi",
+      "titulo": "Sidersa, la del primer RIGI industrial, perdió plata dos años seguidos y propone $3.580 millones para directores y síndicos",
+      "bajada": "La siderúrgica de San Nicolás perdió $12.197 millones en el ejercicio cerrado en agosto de 2026, después de perder $22.594 millones el anterior, y su asamblea del 3 de diciembre votará igual los honorarios de directores y síndicos. Los del año pasado, que un accionista impugnó en la Justicia, fueron mayores que lo que ganó toda la operación. Mientras levanta su acería del RIGI, vendió 12,4% más toneladas de acero, pero cobró 8,1% menos por cada una descontada la inflación.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un balance",
+      "numero": "$3.580 M",
+      "numero_label": "honorarios que Sidersa propone para directores y síndicos por su ejercicio 2026, cerrado con pérdida",
+      "fecha": "2026-11-22",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-22-sidersa-honorarios-directorio-perdidas-rigi.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Convocatoria a asamblea del 03/12/2026 (HR CNV 30/10/2026, escaneado): puntos ix $2.650 M directorio Sidersa, x $750 M RIGI-Sidersa Acería, xi $180 M comisión fiscalizadora = $3.580 M, 'quebranto computable'. EEFF consolidados al 31/08/2026 (Deloitte, CNV 06/11/2026) nota 30: 'Honorarios del ejercicio 2026 pendientes de asignación 3.580.000' (miles). Nota 25 y 30: honorarios devengados 4.047.489 (2026) y 3.001.983 (2025) miles de $ de ago-26; resultado operativo 29.512.786 y 1.972.753 (estado, reseña, nota 31 y formulario CNV). 2025: convocatoria 01/10/2025 1.500+1.000+120 = 2.620 = formulario CNV EEFF 31/08/2025 (honorarios 2.620.000.000; op. 7.061.439.533 original, corregido nota 2.1). Toneladas vendidas 244.867 vs 217.842 (reseña, no auditado)."
+    },
     {
       "id": "2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019",
       "titulo": "Cada petrolero registrado de Neuquén sacó 23,5 barriles por día a fines de 2025, cuatro veces más que en 2019",
