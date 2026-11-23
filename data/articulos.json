@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-23T06:55:59-03:00",
+    "actualizado": "2026-11-23T08:57:29-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-23-pozos-petroleo-parados-sin-tapar-32444",
+      "titulo": "La Argentina tiene 32.444 pozos de petróleo y gas parados y sin tapar, 1,3 por cada uno que produce: el máximo desde al menos 2008",
+      "bajada": "En septiembre de 2026 las petroleras declararon 32.444 pozos inactivos que no fueron cerrados, 65% más que en 2008, contra 25.183 en extracción. Es el primer septiembre de la serie en que los parados superan a todos los pozos en actividad. Se acumulan porque en dos años 5.130 pozos dejaron de producir y solo 513 parados se taparon. Y la cuenta es un piso: el pozo de Salta que pierde hidrocarburos desde 2023 no entra, porque su área dejó de declarar cuando quebró la operadora.",
+      "titulo_busqueda": "¿Cuántos pozos petroleros inactivos hay en la Argentina y quién paga por taparlos?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "32.444",
+      "numero_label": "pozos de petróleo y gas parados y sin tapar en la Argentina, septiembre de 2026: 1,3 por cada pozo en extracción",
+      "fecha": "2026-11-23",
+      "hora": "08:30",
+      "archivo": "articulos/2026-11-23-pozos-petroleo-parados-sin-tapar-32444.html",
+      "verificacion": "verificada",
+      "fuentes": 9,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SE produccion por pozo Cap. IV, planilla 2026 DDJJ abiertas y cerradas (resource 85d6e021), septiembre: 82.601 pozos distintos; extraccion efectiva 25.183; activos (extraccion+inyeccion+mant. presion+en reparacion+otras activo) 31.193; abandonado 18.960; inactivos (resto, Res. SE 5/96: produccion o inyeccion cesada o no comenzada) 32.444; a abandonar 3.198. Serie septiembre 2008-2026 con las 19 planillas DDJJ: inactivos 2008 19.658 (ratio 0,80), 2015 23.080, 2020 28.840 (1,07), 2024 30.030, 2025 31.499 (1,21, maximo previo), 2026 32.444 (1,29, maximo); primer septiembre con inactivos > activos: 2026. Extraccion pico 28.615 (2015), -12,0%. A abandonar NO es record (3.380 en 2021). Recalculo: padron Cap. IV (capitulo-iv-pozos.csv, 21/11/2026) extraccion 25.490, a abandonar 3.181; 3.429 pozos del padron sin DDJJ en sep-26 (1.430 inactivos), entre ellos L.O. X-10 (Puesto Guardian, President Petroleum, 'A Abandonar'). Tabla agregada SE 1999-2008 clasifica distinto (sep-2008 a abandonar 2.302 vs 1.528 pozo por pozo): no se compara antes de 2008. Flujos sep-24 -> sep-26 (planillas sin DDJJ abiertas 43a09dce/fb7a47a0, sep-26 32.403 inactivos): activos->inactivos 5.130, inactivos->activos 1.835, inactivos->abandonados 513; 2.160 de 3.198 a abandonar ya lo eran en sep-24. Contraste: Santa Cruz (Parlamentario 28/08/2026) plan de abandono 1.160 pozos ex YPF a cargo de Clear vs padron area Cañadon de la Escondida-Las Heras 1.334 inactivos; YPF 20-F 2025 pasivo US$375 M (remediacion+abandono+bono Santa Cruz); Restinga Ali (amparo, Economia Sustentable 25/08) 560/364/111 = padron exacto (probablemente misma fuente). YPF 6-K 30/09/2026 nota 18: provision abandono US$745+135 M + US$289 M mantenidos para la venta = US$1.169 M. Camino: estadistica oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-23-capex-obligacion-negociable-8-por-ciento-riesgo-pais",
       "titulo": "Capex consiguió US$106 millones a 8% en dólares con el riesgo país en 855: un cuarto de punto menos que hace un año, cuando estaba en 647",

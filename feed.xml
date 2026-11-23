@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 23 Nov 2026 06:56:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 08:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Argentina tiene 32.444 pozos de petróleo y gas parados y sin tapar, 1,3 por cada uno que produce: el máximo desde al menos 2008</title>
+      <link>https://coninteres.com/articulos/2026-11-23-pozos-petroleo-parados-sin-tapar-32444.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-23-pozos-petroleo-parados-sin-tapar-32444.html</guid>
+      <pubDate>Mon, 23 Nov 2026 08:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En septiembre de 2026 las petroleras declararon 32.444 pozos inactivos que no fueron cerrados, 65% más que en 2008, contra 25.183 en extracción. Es el primer septiembre de la serie en que los parados superan a todos los pozos en actividad. Se acumulan porque en dos años 5.130 pozos dejaron de producir y solo 513 parados se taparon. Y la cuenta es un piso: el pozo de Salta que pierde hidrocarburos desde 2023 no entra, porque su área dejó de declarar cuando quebró la operadora.</description>
+      <ci:numero>32.444</ci:numero>
+      <ci:numeroEtiqueta>pozos de petróleo y gas parados y sin tapar en la Argentina, septiembre de 2026: 1,3 por cada pozo en extracción</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-23-pozos-petroleo-parados-sin-tapar-32444.png" length="66568" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-23-pozos-petroleo-parados-sin-tapar-32444.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Capex consiguió US$106 millones a 8% en dólares con el riesgo país en 855: un cuarto de punto menos que hace un año, cuando estaba en 647</title>
       <link>https://coninteres.com/articulos/2026-11-23-capex-obligacion-negociable-8-por-ciento-riesgo-pais.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte de los kilos de peras exportados entre enero y septiembre de 2026 que fue a Brasil, la mayor para esos meses desde 2002</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-peras-brasil-44-por-ciento-real.png" length="75721" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-peras-brasil-44-por-ciento-real.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>$1,7 de cada $100 negociados en el MAV en octubre fueron facturas de crédito, las que Caputo pide a las grandes empresas aceptar el primer día</title>
-      <link>https://coninteres.com/articulos/2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo.html</guid>
-      <pubDate>Thu, 19 Nov 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MERCADOS</category>
-      <description>Cuando una factura de crédito llega al mercado, se descuenta a la tasa de la empresa grande que la tiene que pagar. El problema es que llegan pocas: en el Mercado Argentino de Valores fueron en octubre $1,7 de cada $100 negociados con cheques, pagarés y facturas, y en 30 meses nunca pasaron de $2,7. Las aceptadas por YPF, Vista y Pan American Energy se descontaron a 24,8% anual, casi la misma tasa que los cheques de esas petroleras y hasta 4,6 puntos menos que un cheque sin garantía. Ahora el ministro de Economía les pidió a las grandes empresas que acepten esas facturas desde el primer día.</description>
-      <ci:numero>1,7%</ci:numero>
-      <ci:numeroEtiqueta>parte de las facturas de crédito electrónicas en lo negociado en el MAV con cheques, pagarés y facturas, octubre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo.png" length="71218" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-factura-credito-electronica-1-7-por-ciento-mav-caputo.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
