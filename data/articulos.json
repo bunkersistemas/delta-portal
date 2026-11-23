@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-23T04:44:38-03:00",
+    "actualizado": "2026-11-23T06:55:59-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-23-capex-obligacion-negociable-8-por-ciento-riesgo-pais",
+      "titulo": "Capex consiguió US$106 millones a 8% en dólares con el riesgo país en 855: un cuarto de punto menos que hace un año, cuando estaba en 647",
+      "bajada": "Capex se endeudó en dólares más barato que hace un año, con el riesgo país más alto. El lunes 16 de noviembre, en la semana en que el riesgo país pasó de 855 a 1.070 puntos, colocó US$105.950.798 a cuatro años, a una tasa de 8,00% anual en dólares, según el aviso que presentó ante la CNV y el registro de A3 Mercados. En diciembre de 2025, con el riesgo país 208 puntos más abajo, había pagado 8,25% por un plazo más corto. Esta vez recibió 4.178 ofertas, cuatro veces más que entonces. Capex es la empresa de energía que en noviembre acordó comprarle a YPF su parte de dos áreas petroleras de Río Negro.",
+      "titulo_busqueda": "",
+      "seccion": "EMPRESAS",
+      "formato": "Anatomía de un dato",
+      "numero": "8,00%",
+      "numero_label": "tasa anual en dólares de la obligación negociable Clase XIII de Capex, a cuatro años, colocada el 16/11/2026",
+      "fecha": "2026-11-23",
+      "hora": "06:30",
+      "archivo": "articulos/2026-11-23-capex-obligacion-negociable-8-por-ciento-riesgo-pais.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Aviso de resultados ON Clase XIII (CNV publicview 4fda64ee-2a93-4e81-98ee-b7b93caf5f84, presentación 3593731, 16/11/2026): tasa aplicable 8,00% n.a., TIR 8,16%, US$105.950.798 adjudicado, 4.178 ofertas por US$106.253.809, vto. 18/11/2030 = A3 Mercados licitación -1057 (tasa de corte 8.00%, adjudicado 105950798, duration 3.5). Comparación: Clase XII (CNV fc6a0649, 02/12/2025) 8,25%, US$70.905.879, 1.041 ofertas = A3 -171. Riesgo país ArgentinaDatos 855 (16/11/26), 647 (02/12/25), 678 (12/06/25); BCRP PD43664XD 853,9 / 650 / 683. Pampa Clase 28 5,5% (A3 -857, 19/08/26, RP 517) y Clase 29 6,5% (A3 -1021, 28/10/26, RP 763)."
+    },
     {
       "id": "2026-11-23-futuro-recibos-de-sueldo-159152-empleadores-provincia",
       "titulo": "La Provincia pedirá cada mes los recibos de sueldo a 159.152 empleadores, y al menos 15.005 tienen su domicilio fiscal fuera de Buenos Aires",
