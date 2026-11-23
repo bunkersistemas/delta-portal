@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 23 Nov 2026 16:42:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 18:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los bancos destinaron 31 de cada 100 pesos de intereses que cobraron a cubrir préstamos que no se pagan: casi el triple que en 2024 y lo más desde al menos 2010</title>
+      <link>https://coninteres.com/articulos/2026-11-23-bancos-incobrables-31-de-cada-100-intereses.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-23-bancos-incobrables-31-de-cada-100-intereses.html</guid>
+      <pubDate>Mon, 23 Nov 2026 18:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>La mora de las familias bajó dos meses seguidos, pero eso no quiere decir que los bancos dejaron de perder plata con los créditos impagos. Entre enero y septiembre de 2026, bancos y financieras cargaron a pérdidas $9,92 billones por préstamos que no esperan cobrar: el 31,2% de todos los intereses que cobraron, contra el 10,9% del mismo período de 2024. Por cada peso que ganaron, apartaron $2,44.</description>
+      <ci:numero>31,2%</ci:numero>
+      <ci:numeroEtiqueta>de los intereses que cobraron bancos y financieras entre enero y septiembre de 2026 se fue a cubrir préstamos incobrables (10,9% en 2024)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-23-bancos-incobrables-31-de-cada-100-intereses.png" length="73106" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-23-bancos-incobrables-31-de-cada-100-intereses.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Los turistas que se alojan en hoteles de Mar del Plata se quedan 4,6 noches en enero, 0,6 menos que en 2007: lo que se achicó es cuántos van</title>
       <link>https://coninteres.com/articulos/2026-11-23-mar-del-plata-hoteles-estadia-4-6-noches-menos-turistas.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>supermercados y autoservicios mayoristas que califican de buena su situación comercial, octubre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-supermercados-esperan-mejora-ventas-piso-2024.png" length="75576" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-supermercados-esperan-mejora-ventas-piso-2024.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Hace 45 meses que en la industria son más los que esperan achicar el personal que los que esperan sumarlo: la racha más larga desde 2016</title>
-      <link>https://coninteres.com/articulos/2026-11-19-industria-expectativa-personal-45-meses-racha.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-industria-expectativa-personal-45-meses-racha.html</guid>
-      <pubDate>Thu, 19 Nov 2026 18:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Desde marzo de 2023, en cada relevamiento del INDEC hay más industriales que esperan tener menos empleados que un año antes que industriales que esperan tener más. Son 45 meses seguidos; la racha anterior más larga, la de la crisis de 2018 a 2020, duró 30. Y lo que esperaban se cumplió: el empleo registrado en la industria cayó 4,4% en un año, a su nivel más bajo desde diciembre de 2020.</description>
-      <ci:numero>45 meses</ci:numero>
-      <ci:numeroEtiqueta>meses seguidos en que son más los industriales que esperan tener menos personal que un año antes que los que esperan tener más</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-industria-expectativa-personal-45-meses-racha.png" length="65097" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-industria-expectativa-personal-45-meses-racha.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

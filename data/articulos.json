@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-23T16:42:07-03:00",
+    "actualizado": "2026-11-23T18:47:02-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-23-bancos-incobrables-31-de-cada-100-intereses",
+      "titulo": "Los bancos destinaron 31 de cada 100 pesos de intereses que cobraron a cubrir préstamos que no se pagan: casi el triple que en 2024 y lo más desde al menos 2010",
+      "bajada": "La mora de las familias bajó dos meses seguidos, pero eso no quiere decir que los bancos dejaron de perder plata con los créditos impagos. Entre enero y septiembre de 2026, bancos y financieras cargaron a pérdidas $9,92 billones por préstamos que no esperan cobrar: el 31,2% de todos los intereses que cobraron, contra el 10,9% del mismo período de 2024. Por cada peso que ganaron, apartaron $2,44.",
+      "titulo_busqueda": "",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "31,2%",
+      "numero_label": "de los intereses que cobraron bancos y financieras entre enero y septiembre de 2026 se fue a cubrir préstamos incobrables (10,9% en 2024)",
+      "fecha": "2026-11-23",
+      "hora": "18:30",
+      "archivo": "articulos/2026-11-23-bancos-incobrables-31-de-cada-100-intereses.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA anexo Informe sobre Bancos (informe-bancos-anexo.xlsx, edicion sep-2026 publicada 20/11/2026), hoja 'Estado de Resultado desde 2020', sistema financiero, pesos de sep-2026: suma ene-sep 2026 cargos por incobrabilidad -9.919.679 M / ingresos por intereses 31.822.963 M = 31,171%; la suma mensual coincide con la columna 'Acumulado en el anio' 2026. Ene-sep 2024: 2.639.329 / 24.296.970 = 10,863%; 2025: 6.305.899 / 33.352.000 = 18,907%. Resultado total ene-sep 2026 4.057.316 M -> cargos/resultado 2,4449 (2024: 0,190). Cargos 2026/2024 = 3,758 veces. Serie ene-sep 2010-2019 desde la hoja 'Estado de Resultado hasta 2019' (meses en pesos corrientes): maximo previo 16,1% (2019); 2020-2025 max 18,9% (2025). Anios completos: 2003 34,6%, 2004 30,5%. Por grupo ene-sep 2026 vs 2024: priv. extranjeros 36,3 vs 10,0; publicos 30,5 vs 13,7; priv. nacionales 29,7 vs 9,4; EFNB 20,7 vs 11,1. 2T26 sistema 30,7 vs 2T25 18,3; extranjeros 36,5 vs 18,8. Coherencia: ROE 12 meses anexo 8,72 = informe 8,7%; mora sep-26 7,50 = informe. ROE ajustado ene-sep: 2024 18,87; 2025 -0,14; 2026 5,75. Contraste independiente: BBVA Argentina 6-K 2Q26 (SEC, 27/08/2026): loan loss allowances 2Q26 303.811 / interest from loans and other financing 1.012.102 = 30,0%; 2Q25 193.008 / 1.046.462 = 18,4%. Metodologia: desde 2020 NIC 29 + NIIF 9 (Com. A 6651/6430/6847); 'Ingresos por intereses' excluye titulos y CER."
+    },
     {
       "id": "2026-11-23-mar-del-plata-hoteles-estadia-4-6-noches-menos-turistas",
       "titulo": "Los turistas que se alojan en hoteles de Mar del Plata se quedan 4,6 noches en enero, 0,6 menos que en 2007: lo que se achicó es cuántos van",
