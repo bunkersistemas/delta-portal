@@ -10002,6 +10002,20 @@
       "angulo": "Lista: (1) recompras de acciones propias de cinco empresas [infobae, iProfesional; CNV] ELEGIDA como MERCADOS, sección que faltaba hoy: suma propia de avisos, no el molde de un solo HR (descartada antes como 'rutina' empresa por empresa). (2) EMPRESAS Transener recompra (sumada a la nota). (3) EMPRESAS Holcim aumento de capital: continuación del 13/11. (4) EMPRESAS Molinos venta de acopio: sin precio. (5) riesgo país sobre 1.000 [La Nación, ámbito, Cronista, Página12, infobae]: cinco notas en un mes. (6) 'desempleo encubierto' 15,8% récord [Página12]: sin fuente en la nota; INDEC 2T26 desocupación 7,9 + subocupación demandante 8,0, presión 30,8%; retomable como chequeo con serie larga EPH. (7) Boca campeón de la Sudamericana, impuestos de premios [infobae]: molde, Boca cubierto 4 veces. (8) Tesla en la Argentina [infobae, La Nación, Cronista]: tesla.com 403. (9) cosecha de trigo récord en La Pampa [infobae, Cronista]: campaña en curso, solo estimaciones. (10) AySA privatizada y tarifas [Página12]: cubierta cinco veces. (11) Sancor en quiebra, plantas [La Nación]: sin documento con volúmenes. (12) producción agraria del Mercosur [infobae]: estudio ajeno, se superpone con la nota de El Niño en cola.",
       "articulo_id": "",
       "motivo_descarte": "pasó la primera candidata con hallazgo (suma de cinco empresas, Macro 92%)"
+    },
+    {
+      "fecha": "2026-11-23",
+      "estado": "en_cola",
+      "tema": "¿está en récord el 'desempleo encubierto'? (Página12 22/11/2026 'Con Milei, el desempleo encubierto tocó récords', 15,8%) / desocupados + subocupados demandantes, EPH 2T26: 15,9% (7,9+8,0), unos 2,3 millones; más alto desde 3T21 (16,5), no récord (2T19 19,8; 4T20 21,3); 2T23 13,6",
+      "angulo": "Chequeo con la serie trimestral 2017-2026 del INDEC (cuadro 1.2) recalculada con microdatos; distinto de la nota del 19/07 (subocupación 1T26 contra 1T25) y de la del 24/09 (desocupación del interior). Hallazgos: dos de cada tres de los +436 mil en tres años son desocupados; interior 16,7% contra GBA 15,4%, pampeana 19,6%; la UCA (desempleo + subempleo inestable) sí marca máximo desde 2010 en 2025 (34,2%) porque mide tipo de trabajo y no horas. Scripts en _privado/encubierto/.",
+      "motivo": ""
+    },
+    {
+      "fecha": "2026-11-23",
+      "estado": "descartada",
+      "tema": "descartes de la corrida de redacción del 23/11/2026 02:30 (primera del día; pasó la primera candidata probada). Portadas: infobae, La Nación, ámbito, iProfesional, Cronista y Página12 con WebFetch; Clarín y TN con _privado/rastreo/portadas.py. agenda.py: HOY NO HAY NOTA DE EMPRESAS; EMAE el 24/11, supermercados el 25/11. build_empresas: 0 hechos nuevos.",
+      "angulo": "Lista: (1) 'desempleo encubierto' récord [Página12; La Nación y Cronista con riesgo de recesión; retomable anotado el 22/11 22:30] ELEGIDA: chequeo con serie propia y contraste UCA. (2) EMPRESAS Holcim aumento de capital a $1.464,53: continuación del 13/11 y roza juicio sobre la acción. (3) EMPRESAS Transener, Macro, BYMA, Loma Negra recompras: publicadas en la suma del 22/11. (4) EMPRESAS Molinos venta de acopio: sin precio. (5) EMPRESAS Sidersa cautelar y Richmond: sin cifras / publicadas. Razón del cupo de empresas: el bloque no tiene documentos nuevos desde el 20/11 y todos ya fueron evaluados o publicados; ninguno trae un hallazgo. (6) empleo en el litio +700% desde 2013 [infobae]: estudio ajeno, litio cubierto 03/10 y 10/11. (7) software argentino estanca el empleo [infobae]: SIPA 7220 ya usado en Globant (21/11). (8) CABA carga tributaria menor [ámbito, TN]: estudio privado. (9) inflación de alimentos se desacelera [ámbito, TN]: consultoras; IPC el 11/12. (10) Brasil más barato / real devaluado [Clarín, iProfesional]: publicado 05/10, 26/10, 15/11 y 19/11. (11) riesgo país, dólar $1.600, Financial Times [todas]: cubierto. (12) Tesla, Boca y la Sudamericana, Sea Lion, parque automotor, hogares para hipotecario, consumo masivo Scentia: ya evaluadas el 22/11 sin dato nuevo. (13) Presupuesto 2027 limita vacantes [iProfesional]: dotación INDEC sale el 30/11.",
+      "motivo": ""
     }
   ]
 }

@@ -1,5 +1,5 @@
 {
-  "generado": "2026-11-22T22:30",
+  "generado": "2026-11-23T02:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
@@ -1501,33 +1501,6 @@
       "tipo": "hecho",
       "descripcion": "HECHO RELEVANTE",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/61D72542-13A7-4BA0-B607-A35541ED253A"
-    },
-    {
-      "id": "cnv-3583679",
-      "fuente": "CNV",
-      "fecha": "2026-10-23T17:11",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (23 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6203938D-52E4-4919-9320-A9A2B39BD139"
-    },
-    {
-      "id": "cnv-3583578",
-      "fuente": "CNV",
-      "fecha": "2026-10-23T14:05",
-      "entidad": "CONSULTATIO S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN COMERCIAL - CTIO - HECHO RELEVANTE - 23.10.2026 BOLETO DE COMPRAVENTA SOLDADO DE LA INDEPENDENCIA",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/D306FA32-068F-45BF-AB70-81D3B5028E48"
-    },
-    {
-      "id": "cnv-3583441",
-      "fuente": "CNV",
-      "fecha": "2026-10-23T09:57",
-      "entidad": "YPF S.A",
-      "tipo": "financiamiento",
-      "descripcion": "INFORMACIÓN FINANCIERA - RESCATE DE OBLIGACIONES NEGOCIABLES CLASE XXXVII VIGENTES Y EN CIRCULACIÓN",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/90B99A04-3B3B-4E54-A1C3-3D25A113F445"
     }
   ],
   "anuncios": [],
@@ -1536,11 +1509,9 @@
     "sec-0000931427-26-000014": "2026-10-29",
     "sec-0000931427-26-000015": "2026-11-05",
     "sec-0000931427-26-000016": "2026-11-13",
-    "sec-0000933267-26-000071": "2026-10-23",
     "sec-0000933267-26-000073": "2026-10-29",
     "sec-0000933267-26-000075": "2026-10-29",
     "sec-0000933267-26-000077": "2026-11-03",
-    "sec-0001034957-26-000075": "2026-10-23",
     "sec-0001034957-26-000077": "2026-10-30",
     "sec-0001034957-26-000080": "2026-11-05",
     "sec-0001034957-26-000082": "2026-11-09",
@@ -1585,8 +1556,6 @@
     "sec-0001193125-26-466167": "2026-11-18",
     "sec-0001193125-26-467770": "2026-11-19",
     "sec-0001193125-26-469270": "2026-11-20",
-    "sec-0001292814-26-004990": "2026-10-23",
-    "sec-0001292814-26-005002": "2026-10-23",
     "sec-0001292814-26-005008": "2026-10-26",
     "sec-0001292814-26-005026": "2026-10-28",
     "sec-0001292814-26-005042": "2026-10-29",
@@ -1613,7 +1582,6 @@
     "sec-0001292814-26-005269": "2026-11-12",
     "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001342874-26-000052": "2026-11-04",
-    "sec-0001554855-26-002169": "2026-10-23",
     "sec-0001554855-26-002241": "2026-10-28",
     "sec-0001711375-26-000049": "2026-10-27",
     "sec-0001711375-26-000051": "2026-11-04",

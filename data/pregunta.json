@@ -1,14 +1,14 @@
 {
  "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
- "fecha": "2026-11-22",
- "pregunta": "Página12 contó que desde diciembre de 2024 se perdieron más de 600.000 cuentas sueldo, comparando ese diciembre con agosto de 2026. Si se compara agosto de 2026 con agosto de 2025, la baja es de 127.453. ¿Por qué comparar un diciembre con un agosto agranda la caída?",
+ "fecha": "2026-11-23",
+ "pregunta": "De enero a octubre de 2026 la Argentina exportó US$87.328 millones, más que en cualquier enero-octubre anterior. Pero si las ventas de 2011 se pasan a dólares de hoy, con la inflación de Estados Unidos, ese año supera a 2026 en 19%. ¿Por qué puede ser récord en una vara y no en la otra?",
  "opciones": [
-  "Porque diciembre casi siempre tiene más cuentas sueldo que el agosto siguiente: la resta mezcla la baja real con la diferencia entre los dos meses",
-  "Porque el dato de agosto es provisorio y siempre se corrige hacia arriba cuando sale el definitivo",
-  "Porque en agosto el Banco Central todavía no cuenta las cuentas sueldo de los bancos públicos"
+  "Porque un dólar de 2011 compraba más cosas que un dólar de hoy: comparar dólares de años distintos sin ajustar por inflación agranda lo reciente",
+  "Porque en 2011 el INDEC contaba las exportaciones de servicios y ahora cuenta solo las de bienes",
+  "Porque el tipo de cambio de 2011 era más bajo, así que cada dólar exportado valía menos pesos"
  ],
  "correcta": 0,
- "explicacion": "Muchas estadísticas no se mueven parejo en el año: tienen estacionalidad. En las cuentas sueldo, en cinco de los siete pares que se pueden armar desde 2019, agosto quedó por debajo del diciembre anterior; entre diciembre y agosto de 2024 ya había 298.758 cuentas de diferencia, casi la mitad de las 626.001 que circularon. Por eso la comparación limpia es la del mismo mes contra el mismo mes del año anterior, que muestra una baja de 1,3%. Pasa lo mismo con las ventas, el turismo o el empleo: antes de comparar, fijate que sean meses equivalentes.",
- "nota": "articulos/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.html",
- "leccion": ""
+ "explicacion": "El dólar también pierde valor con el tiempo: desde 2011 los precios al consumidor de Estados Unidos subieron 50%, así que con un dólar de entonces se compraba lo mismo que con un dólar y medio de hoy. Para comparar montos de años distintos hay que pasarlos a la misma moneda de poder de compra. Medidas así, las exportaciones de 2026 quedan quintas desde 1990. Lo que sí es récord es la cantidad vendida: se exporta más que nunca, pero a precios reales más bajos. El tipo de cambio en pesos no cambia una comparación hecha en dólares.",
+ "nota": "articulos/2026-11-22-exportaciones-record-en-dolares-no-en-poder-de-compra.html",
+ "leccion": "lecciones/inflacion.html"
 }

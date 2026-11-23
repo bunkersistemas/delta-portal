@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-22T22:53:25-03:00",
+    "actualizado": "2026-11-23T02:43:44-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-23-desocupados-subocupados-15-9-mas-alto-desde-2021-no-record",
+      "titulo": "Desocupados y subocupados que buscan más trabajo suman 15,9%: el nivel más alto desde 2021, pero no un récord",
+      "bajada": "La suba es real; el récord, no. En el segundo trimestre de 2026, el 7,9% de la población activa de 31 ciudades no tenía trabajo y lo buscaba, y otro 8,0% trabajaba menos horas de las que quería y salía a buscar otro empleo. Sumados, 15,9%: unos 2,3 millones de personas y el valor más alto desde 2021. Pero en 2019 llegó a 19,8% y en la pandemia, a 21,3%. La encuesta de la UCA, que cuenta las changas de otra manera, sí marca su máximo desde 2010.",
+      "titulo_busqueda": "Desempleo real en la Argentina: cuántos no tienen trabajo o buscan más horas",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "15,9%",
+      "numero_label": "desocupados más subocupados que buscan otro empleo, en % de la población activa de 31 ciudades, segundo trimestre de 2026",
+      "fecha": "2026-11-23",
+      "hora": "02:30",
+      "archivo": "articulos/2026-11-23-desocupados-subocupados-15-9-mas-alto-desde-2021-no-record.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC EPH 2T26 (informe 17/09/2026, cuadro 1.1/1.2; cuadros_tasas_indicadores_eph_09_26.xls hoja 'Cuadro 1.2 '): desocupacion abierta 7,9 + subocupados demandantes 8,0 = 15,9. Recalculo microdatos EPH_usu_2_Trim_2026: ESTADO=2 1.164 mil (7,90%), ESTADO=1 & INTENSI=1 & PP03J=1 1.184 mil (8,04%), suma 15,94%; regiones iguales al cuadro 3.1. Serie 1T17-2T26: ultimo mayor 3T21 16,5; max 4T20 21,3; 2T19 19,8; piso 3T23/4T23 12,5; 2T23 13,6 (6,2+7,4); 2T25 15,5 (sin cambio significativo segun INDEC). Desocupados 2T23 872 mil -> 2T26 1.164,4 mil (+292); subdem 7,4%x13.980=1.035 -> 8,0%x14.733=1.179 (+144). Interior: desoc +1,3 pp a 7,6, subdem +0,9 a 9,1 (significativos). Pampeana 9,7+9,9=19,6. Contraste: ODSA-UCA EDSA, doc estadistico 2010-2025, fig DE 1.3/1.4: desempleo+subempleo inestable 2023 8,8+24,3=33,1; 2024 8,9+23,6=32,5; 2025 10,1+24,1=34,2 (max desde 2010); 2019 31,5. Misma direccion 2023-2025, nivel distinto por definicion (18+, tipo de trabajo, no horas). Camino: estadistica oficial recalculada + contraste."
+    },
     {
       "id": "2026-11-22-recompras-acciones-propias-macro-byma-69141-millones",
       "titulo": "Cinco empresas gastaron $70.588 millones en comprar sus propias acciones en 16 ruedas, y 92 de cada 100 pesos los puso Banco Macro",

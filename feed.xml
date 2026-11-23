@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Sun, 22 Nov 2026 22:53:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 02:43:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Desocupados y subocupados que buscan más trabajo suman 15,9%: el nivel más alto desde 2021, pero no un récord</title>
+      <link>https://coninteres.com/articulos/2026-11-23-desocupados-subocupados-15-9-mas-alto-desde-2021-no-record.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-23-desocupados-subocupados-15-9-mas-alto-desde-2021-no-record.html</guid>
+      <pubDate>Mon, 23 Nov 2026 02:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La suba es real; el récord, no. En el segundo trimestre de 2026, el 7,9% de la población activa de 31 ciudades no tenía trabajo y lo buscaba, y otro 8,0% trabajaba menos horas de las que quería y salía a buscar otro empleo. Sumados, 15,9%: unos 2,3 millones de personas y el valor más alto desde 2021. Pero en 2019 llegó a 19,8% y en la pandemia, a 21,3%. La encuesta de la UCA, que cuenta las changas de otra manera, sí marca su máximo desde 2010.</description>
+      <ci:numero>15,9%</ci:numero>
+      <ci:numeroEtiqueta>desocupados más subocupados que buscan otro empleo, en % de la población activa de 31 ciudades, segundo trimestre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-23-desocupados-subocupados-15-9-mas-alto-desde-2021-no-record.png" length="65245" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-23-desocupados-subocupados-15-9-mas-alto-desde-2021-no-record.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Cinco empresas gastaron $70.588 millones en comprar sus propias acciones en 16 ruedas, y 92 de cada 100 pesos los puso Banco Macro</title>
       <link>https://coninteres.com/articulos/2026-11-22-recompras-acciones-propias-macro-byma-69141-millones.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuánto más petróleo por día dio un pozo de Vista en Vaca Muerta que uno de Petróleos Sudamericanos, enero a septiembre de 2026</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-petroleos-sudamericanos-pozos-maduros-vista-21-veces.png" length="70127" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-petroleos-sudamericanos-pozos-maduros-vista-21-veces.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La inversión directa en España controlada desde la Argentina suma €10.918 millones, pero solo €688 millones llegan directo desde el país</title>
-      <link>https://coninteres.com/articulos/2026-11-19-argentina-inversion-espana-terceros-paises.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-argentina-inversion-espana-terceros-paises.html</guid>
-      <pubDate>Thu, 19 Nov 2026 01:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>La inversión directa en España controlada en última instancia desde la Argentina sumaba €10.918 millones a fines de 2025, según el Banco de España: la segunda de América Latina, detrás de México. Pero la que llegaba directo desde la Argentina era de €688 millones, 15,9 veces menos. El resto entra por sociedades radicadas en otros países. Entre los países con más de €5.000 millones invertidos en España, solo Australia muestra una diferencia mayor.</description>
-      <ci:numero>15,9 veces</ci:numero>
-      <ci:numeroEtiqueta>inversión directa en España controlada desde la Argentina frente a la que llega directo desde la Argentina, fines de 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-argentina-inversion-espana-terceros-paises.png" length="72428" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-argentina-inversion-espana-terceros-paises.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
