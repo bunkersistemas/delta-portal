@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-23T18:47:02-03:00",
+    "actualizado": "2026-11-23T20:44:32-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-23-regalias-petroleo-provincias-fuera-de-neuquen-39-menos-2012",
+      "titulo": "El crudo caro les dio 8% más de regalías a las provincias petroleras fuera de Neuquén, pero cobran 39% menos que en 2012 porque sacan 46% menos petróleo",
+      "bajada": "El barril caro alivió a Chubut, Santa Cruz, Mendoza, Río Negro y las demás provincias petroleras fuera de Neuquén, pero no les devolvió lo que perdieron. Entre enero y septiembre de 2026 cobraron US$609,5 millones de regalías por petróleo crudo: 8,3% más que un año antes y 38,8% menos que en los mismos meses de 2012, el máximo de la serie. No es el precio: cada metro cúbico deja hoy más regalías que entonces. Lo que se perdió es el petróleo. Neuquén sola cobró 2,4 veces más que todas ellas juntas.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA PROVINCIAL",
+      "formato": "Anatomía de un dato",
+      "numero": "−39%",
+      "numero_label": "regalías por petróleo de las provincias petroleras sin Neuquén, enero a septiembre de 2026 contra el mismo período de 2012",
+      "fecha": "2026-11-23",
+      "hora": "20:30",
+      "archivo": "articulos/2026-11-23-regalias-petroleo-provincias-fuera-de-neuquen-39-menos-2012.html",
+      "verificacion": "verificada",
+      "fuentes": 5,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "SE informe mensual de regalias de petroleo crudo (Regalias_CRUDO.zip, 'Informe Regalias CRUDO.xlsx', realizado 04/11/2026, ago-sep 2026 provisorios), hoja 'Tabla regalías' (USD) y 'Tabla producción' (m3). Suma ene-sep, total provincias menos Neuquen menos Estado Nacional: 2026 US$609,5 M (2054,3 - 1441,0 - 3,7); 2025 563,0 (+8,26%); 2012 996,5 (-38,8%; maximo ene-sep de la serie 1991-2026). Produccion resto: 2026 9.680 miles m3; 2025 10.860 (-10,9%); 2012 18.042 (-46,3%). Regalia/m3 resto: 2026 62,97; 2025 51,84 (+21,5%); 2012 55,23 (+14,0%). Neuquen 2026 1441,0 = 2,36 veces el resto, 70,1% del total; ene-jul 1062,0 = nota 26/09. Resto > Neuquen ene-sep todos los anios 1991-2023 (2023: 686,2 vs 644,4); 2024 797,6 vs 685,1. Por provincia 26 vs 25: Chubut +12,6% (vol -10,7%), Santa Cruz -3,7% (vol -16,1%), Mendoza +11,3% (-6,0), Rio Negro +12,7 (-7,4), La Pampa +14,9 (-8,8), TdF +3,8 (-26,0); regalia/m3 entre +14,8 (SC) y +40,2 (TdF). Contra 2012: Chubut -18,2, Mendoza -29,9, SC -52,5 (vol -64,0), RN -64,4, LP -70,3, TdF -77,1. Contraste: SESCO Cap. IV tablas dinamicas (con condensado) resto ene-sep 2012 19,16 Mm3 -> 2026 11,23 (-41,4%), 2025 12,13 -> 2026 (-7,5%). EIA Brent RBRTE mensual ene-sep 2025 70,93 -> 2026 93,27 (+31,5%); abr-26 117,29, ene-26 66,6. Hacienda via Clarin 23/11: cantidades 1S Chubut -11%, SC -30%; planilla SE 1S -11,1% y -25,1%."
+    },
     {
       "id": "2026-11-23-bancos-incobrables-31-de-cada-100-intereses",
       "titulo": "Los bancos destinaron 31 de cada 100 pesos de intereses que cobraron a cubrir préstamos que no se pagan: casi el triple que en 2024 y lo más desde al menos 2010",
