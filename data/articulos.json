@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-23T08:57:29-03:00",
+    "actualizado": "2026-11-23T10:52:53-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-23-campo-brasil-3-5-veces-argentina-ganaderia-1961",
+      "titulo": "El campo de Brasil produce 3,5 veces lo que el argentino, y la brecha se abrió en la ganadería: en 1961 la argentina producía más que la brasileña",
+      "bajada": "En 1961 el campo brasileño producía 1,4 veces lo que el argentino; en 2024, 3,5 veces, según el valor de la producción que calcula la FAO con los mismos precios para todos los países. Los cultivos explican una parte: ahí Brasil ya estaba adelante en 1961. El giro está en la ganadería: en 1961 la argentina producía un tercio más que la brasileña, y en 2024 Brasil ya producía casi cuatro veces más. El Banco Mundial, con las cuentas nacionales de cada país, llega a la misma distancia: 3,5 veces.",
+      "titulo_busqueda": "¿Cuánto más produce el campo de Brasil que el argentino?",
+      "seccion": "MUNDO",
+      "formato": "Anatomía de un dato",
+      "numero": "3,5 veces",
+      "numero_label": "lo que produjo el campo de Brasil en 2024 por cada dólar de producción del campo argentino, a los mismos precios internacionales; en 1961, 1,4 veces",
+      "fecha": "2026-11-23",
+      "hora": "10:30",
+      "archivo": "articulos/2026-11-23-campo-brasil-3-5-veces-argentina-ganaderia-1961.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "FAOSTAT Value_of_Production_E_Americas.zip (descargado 23/11/2026), elemento 152 (miles de I$ constantes 2014-2016), agregado Agriculture: 2024 Brasil 270.035.767 / Argentina 76.682.864 = 3,52; 1961 32.478.913 / 22.569.453 = 1,44; recalculo suma de items = agregado (diferencias de redondeo de 1-5 miles). Ganaderia (Livestock) 1961 0,756 -> 2024 3,875, >1 desde 1971; cultivos 2,45 -> 3,34. Contraste Banco Mundial NV.AGR.TOTL.KD (US$ 2015, actualizado 11/11/2026) 2024 98,79 / 28,41 mm = 3,48; 1965 1,12 (FAO 1,71), 1970 1,41 (FAO 1,54). USDA PSD carne vacuna 1961 Arg 2.145 kt Bra 1.369 (0,64; FAO valor 0,64); 2024 3.180 / 11.850 (3,73; FAO 3,22); Brasil > Argentina desde 1980 en ambas. INDEC VBP agro precios 2004 (443.1) 2004-06 -> 2022-24 +21,2% vs FAO Arg +29,3%; IBGE 6612 agropecuaria encadeado +69,5% vs FAO Bra +75,1%. Tasas FAO 2000-02 -> 2020-22: Arg 2,30, Bra 3,48, Par 3,89, Uru 2,38 (BCR via infobae: 2,3 / 3,2 / 3,9 / 2,4)."
+    },
     {
       "id": "2026-11-23-pozos-petroleo-parados-sin-tapar-32444",
       "titulo": "La Argentina tiene 32.444 pozos de petróleo y gas parados y sin tapar, 1,3 por cada uno que produce: el máximo desde al menos 2008",

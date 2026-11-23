@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 23 Nov 2026 08:57:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 10:53:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>El campo de Brasil produce 3,5 veces lo que el argentino, y la brecha se abrió en la ganadería: en 1961 la argentina producía más que la brasileña</title>
+      <link>https://coninteres.com/articulos/2026-11-23-campo-brasil-3-5-veces-argentina-ganaderia-1961.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-23-campo-brasil-3-5-veces-argentina-ganaderia-1961.html</guid>
+      <pubDate>Mon, 23 Nov 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MUNDO</category>
+      <description>En 1961 el campo brasileño producía 1,4 veces lo que el argentino; en 2024, 3,5 veces, según el valor de la producción que calcula la FAO con los mismos precios para todos los países. Los cultivos explican una parte: ahí Brasil ya estaba adelante en 1961. El giro está en la ganadería: en 1961 la argentina producía un tercio más que la brasileña, y en 2024 Brasil ya producía casi cuatro veces más. El Banco Mundial, con las cuentas nacionales de cada país, llega a la misma distancia: 3,5 veces.</description>
+      <ci:numero>3,5 veces</ci:numero>
+      <ci:numeroEtiqueta>lo que produjo el campo de Brasil en 2024 por cada dólar de producción del campo argentino, a los mismos precios internacionales; en 1961, 1,4 veces</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-23-campo-brasil-3-5-veces-argentina-ganaderia-1961.png" length="76220" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-23-campo-brasil-3-5-veces-argentina-ganaderia-1961.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La Argentina tiene 32.444 pozos de petróleo y gas parados y sin tapar, 1,3 por cada uno que produce: el máximo desde al menos 2008</title>
       <link>https://coninteres.com/articulos/2026-11-23-pozos-petroleo-parados-sin-tapar-32444.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>parte de la suba de las exportaciones de alimentos de enero a septiembre de 2026 que aportaron los lácteos y los alimentos elaborados</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-exportaciones-alimentos-elaborados-carne-vacuna.png" length="68787" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-exportaciones-alimentos-elaborados-carne-vacuna.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Brasil se llevó 44 de cada 100 kilos de peras que exportó la Argentina en 2026, la mayor parte desde 2002, justo antes de que el real perdiera 13%</title>
-      <link>https://coninteres.com/articulos/2026-11-19-peras-brasil-44-por-ciento-real.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-peras-brasil-44-por-ciento-real.html</guid>
-      <pubDate>Thu, 19 Nov 2026 10:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Desde 2002, Brasil nunca se había llevado una parte tan grande de las peras argentinas: entre enero y septiembre compró 126.363 toneladas, el 43,8% de todo lo exportado, según el INDEC y el SENASA. No compró mucho más que antes. Pagó 23% más por kilo, mientras Estados Unidos compraba 40% menos. Ahora ese cliente abarató su moneda: desde la reelección de Lula, el real perdió 13,3% contra el dólar, y empiezan los meses en que Brasil se lleva siete de cada diez kilos.</description>
-      <ci:numero>43,8%</ci:numero>
-      <ci:numeroEtiqueta>parte de los kilos de peras exportados entre enero y septiembre de 2026 que fue a Brasil, la mayor para esos meses desde 2002</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-peras-brasil-44-por-ciento-real.png" length="75721" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-peras-brasil-44-por-ciento-real.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
