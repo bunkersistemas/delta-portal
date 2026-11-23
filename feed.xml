@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 23 Nov 2026 02:43:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 04:44:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>La Provincia pedirá cada mes los recibos de sueldo a 159.152 empleadores, y al menos 15.005 tienen su domicilio fiscal fuera de Buenos Aires</title>
+      <link>https://coninteres.com/articulos/2026-11-23-futuro-recibos-de-sueldo-159152-empleadores-provincia.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-23-futuro-recibos-de-sueldo-159152-empleadores-provincia.html</guid>
+      <pubDate>Mon, 23 Nov 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA PROVINCIAL</category>
+      <description>El nuevo trámite bonaerense no se limita a las empresas de la provincia ni hace excepciones por tamaño. Desde enero de 2027, todo empleador con personal en la provincia de Buenos Aires tendrá que subir cada mes a un portal del Ministerio de Trabajo bonaerense un formulario con firma digital, los recibos de sueldo y los comprobantes del depósito en la cuenta sueldo. Según la Superintendencia de Riesgos del Trabajo, en agosto eran 159.152 empleadores con 3.051.009 personas trabajadoras, y casi uno de cada diez tiene su domicilio fiscal en otro distrito. En el país, siete de cada diez empleadores tienen cinco empleados o menos.</description>
+      <ci:numero>159.152</ci:numero>
+      <ci:numeroEtiqueta>empleadores con personal trabajando en la provincia de Buenos Aires en agosto de 2026, alcanzados por el formulario mensual F.U.T.U.R.O.</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-23-futuro-recibos-de-sueldo-159152-empleadores-provincia.png" length="71503" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-23-futuro-recibos-de-sueldo-159152-empleadores-provincia.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Desocupados y subocupados que buscan más trabajo suman 15,9%: el nivel más alto desde 2021, pero no un récord</title>
       <link>https://coninteres.com/articulos/2026-11-23-desocupados-subocupados-15-9-mas-alto-desde-2021-no-record.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>lo que suma el Decreto 1391/2026 para jubilaciones y pensiones de la ANSES en 2026: casi la mitad de la ampliación del Presupuesto</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-presupuesto-2026-ampliacion-jubilaciones-mitad.png" length="79176" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-presupuesto-2026-ampliacion-jubilaciones-mitad.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Petróleos Sudamericanos necesita 854 pozos para sacar el petróleo que Vista saca de unos 40 en Vaca Muerta</title>
-      <link>https://coninteres.com/articulos/2026-11-19-petroleos-sudamericanos-pozos-maduros-vista-21-veces.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-petroleos-sudamericanos-pozos-maduros-vista-21-veces.html</guid>
-      <pubDate>Thu, 19 Nov 2026 04:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>EMPRESAS</category>
-      <description>Petróleos Sudamericanos, la empresa que se quedó con campos maduros que operaba YPF en Mendoza, sacó 13.549 barriles diarios en nueve meses con unos 850 pozos: 17 barriles por pozo y por día, según la Secretaría de Energía. Un pozo de Vista en Vaca Muerta dio 359, unas 21 veces más. El balance que presentó ante la CNV muestra cómo rinde ese negocio: de cada $100 que facturó le quedaron $13,6 de ganancia operativa y, después de los intereses de su deuda y del impuesto, $1,6 de ganancia neta.</description>
-      <ci:numero>21 veces</ci:numero>
-      <ci:numeroEtiqueta>cuánto más petróleo por día dio un pozo de Vista en Vaca Muerta que uno de Petróleos Sudamericanos, enero a septiembre de 2026</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-petroleos-sudamericanos-pozos-maduros-vista-21-veces.png" length="70127" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-petroleos-sudamericanos-pozos-maduros-vista-21-veces.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
