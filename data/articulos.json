@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-22T20:57:17-03:00",
+    "actualizado": "2026-11-22T22:53:25-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-22-recompras-acciones-propias-macro-byma-69141-millones",
+      "titulo": "Cinco empresas gastaron $70.588 millones en comprar sus propias acciones en 16 ruedas, y 92 de cada 100 pesos los puso Banco Macro",
+      "bajada": "Banco Macro compró el 1,08% de sus propias acciones y, aun así, el precio promedio que pagó bajó 9,7% entre su primera compra y la última. Puso $65.180 millones, el 40,7% de su tope, del total de $70.588 millones que cinco empresas (Macro, BYMA, Central Puerto, A3 Mercados y Loma Negra) le informaron a la CNV entre el 28 de octubre y el 20 de noviembre. Transener se sumó el jueves con un programa de hasta $29.250 millones.",
+      "titulo_busqueda": "",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "$70.588 M",
+      "numero_label": "lo que cinco empresas gastaron en comprar sus propias acciones en la bolsa entre el 28/10 y el 20/11/2026",
+      "fecha": "2026-11-22",
+      "hora": "22:30",
+      "archivo": "articulos/2026-11-22-recompras-acciones-propias-macro-byma-69141-millones.html",
+      "verificacion": "verificada",
+      "fuentes": 13,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Suma propia de 49 compras diarias informadas a la CNV (art. 3 inc. 23 Tit. XII), ruedas 28/10-20/11/2026: Banco Macro 14 avisos 6.874.829 acc $65.180.334.165 (= suma de los 14 6-K SEC CIK 1347426; 6-K 16/11 dice 78.300 acc por error, monto = 783.000); BYMA 12 ruedas 12.583.571 acc $2.518.248.892,50; Central Puerto (CUIT 33650305499, titulos 'adquisicion de acciones') 7 ruedas 28/10-05/11 827.000 acc $1.447.264.358, solo BYMA; A3 Mercados (CUIT 30525698412, titulos 'informacion diaria', descartados como rutina por build_empresas) 14 ruedas 394.412 acc $1.025.659.539,90; Loma Negra 19-20/11 147.500 acc $416.988.180. Total $70.588.495.135,40. Cierre qty x precio: 47/49 < $11.000; A3 04/11 (+2,0 M) y 19/11 (-3,0 M) no cierran, se usa el total informado. Contraste: 35 compras (Macro, BYMA, CEPU, LOMA) dentro del rango min-max diario de Yahoo Finance .BA; A3.BA sin datos. Macro: 40,7% del tope $160.000 M, 34,4% de 20 M acc, 1,08% de 639.413.408, precio 9.956,20 (30/10) -> 8.993,32 (20/11) -9,7%; 44,3% del dividendo 2026 $147.101 M. Barrido de otras 11 emisoras sin recompras desde oct. Camino: documentos de las empresas + segundo regulador (Macro) + cierre aritmetico + contraste de cotizacion. Scripts en _privado/recompras."
+    },
     {
       "id": "2026-11-22-china-soja-12-litio-86-pesca-exportaciones",
       "titulo": "China compra 12 de cada 100 dólares de la soja que exporta la Argentina, pero 86 de cada 100 del litio y uno de cada cuatro de la pesca",
