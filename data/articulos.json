@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-23T14:40:24-03:00",
+    "actualizado": "2026-11-23T16:42:07-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-23-mar-del-plata-hoteles-estadia-4-6-noches-menos-turistas",
+      "titulo": "Los turistas que se alojan en hoteles de Mar del Plata se quedan 4,6 noches en enero, 0,6 menos que en 2007: lo que se achicó es cuántos van",
+      "bajada": "En los hoteles de Mar del Plata, la estadía por turista se movió poco; lo que se achicó es cuántos turistas van. En enero de 2025, el último que midió el INDEC, cada turista alojado en un hotel o parahotel de la ciudad se quedó 4,6 noches; en 2007, 5,2. Los viajeros, en cambio, fueron 182.570: 27,8% menos que en 2007 y el enero con menos viajeros de la serie fuera de la pandemia. El municipio marca lo mismo. El verano de 2026 ya no tiene dato oficial: el INDEC dejó de publicar la encuesta.",
+      "titulo_busqueda": "¿Las vacaciones son más cortas? Cuántas noches se queda un turista en un hotel de Mar del Plata",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "4,6 noches",
+      "numero_label": "estadía promedio de cada turista en hoteles y parahoteles de Mar del Plata, enero de 2025 (5,2 noches en enero de 2007)",
+      "fecha": "2026-11-23",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-23-mar-del-plata-hoteles-estadia-4-6-noches-menos-turistas.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "INDEC EOH enero 2025 (informe eoh_03_25, 20/03/2025, cuadro 13): MdP 832.786 noches, 182.557 viajeros, 4,6. Revisado EOH_cuadros_dic25 demanda: 830.960 / 182.570 = 4,551 (INDEC publica 4,5518). Ene-2007 eoh_2007_mardel.xls: 1.309.640 / 253.017 = 5,176 (INDEC 5,176). Serie enero 2007-2025 recalculada = estadia publicada en todos los anios; rango 4,49 (2014) a 5,65 (2010) salvo 2019 3,66 y 2021 3,88. Viajeros enero minimo fuera de 2021: 182.570 (previo 184.858 en 2016). Viajeros -27,8%, noches -36,6%, plazas disp -22,8%, establecimientos 572->447, ocupacion plazas 73,59->60,46. Total pais enero 2017 2,75 (eoh_2017_Totalpais), 2025 2,85. Gesell 5,8 y Pinamar 5,0 (informe ene-25). Contraste EMTUR via UNMdP Roldan, Cacciutto y Cruz 2023: estadia temp. alta 5,30 (2011-12) a 4,46 (2019-20), 'relativamente constantes'; turistas estables enero 328.935 (2011) -> 263.104 (2019) -20,0%; EOH noches enero 2011->2019 -26,1%. Fin de la EOH: informe nov-2025 (20/01/2026), convenio con la Secretaria de Turismo y Ambiente no renovado."
+    },
     {
       "id": "2026-11-23-supermercados-billeteras-qr-16-por-ciento-credito-pico",
       "titulo": "Las billeteras, el QR y los vales ya cobran 16 de cada 100 pesos del súper, cuatro veces más que en 2022, y la tarjeta de crédito bajó de su pico",

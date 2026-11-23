@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Mon, 23 Nov 2026 14:40:00 -0300</lastBuildDate>
+    <lastBuildDate>Mon, 23 Nov 2026 16:42:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los turistas que se alojan en hoteles de Mar del Plata se quedan 4,6 noches en enero, 0,6 menos que en 2007: lo que se achicó es cuántos van</title>
+      <link>https://coninteres.com/articulos/2026-11-23-mar-del-plata-hoteles-estadia-4-6-noches-menos-turistas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-23-mar-del-plata-hoteles-estadia-4-6-noches-menos-turistas.html</guid>
+      <pubDate>Mon, 23 Nov 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En los hoteles de Mar del Plata, la estadía por turista se movió poco; lo que se achicó es cuántos turistas van. En enero de 2025, el último que midió el INDEC, cada turista alojado en un hotel o parahotel de la ciudad se quedó 4,6 noches; en 2007, 5,2. Los viajeros, en cambio, fueron 182.570: 27,8% menos que en 2007 y el enero con menos viajeros de la serie fuera de la pandemia. El municipio marca lo mismo. El verano de 2026 ya no tiene dato oficial: el INDEC dejó de publicar la encuesta.</description>
+      <ci:numero>4,6 noches</ci:numero>
+      <ci:numeroEtiqueta>estadía promedio de cada turista en hoteles y parahoteles de Mar del Plata, enero de 2025 (5,2 noches en enero de 2007)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-23-mar-del-plata-hoteles-estadia-4-6-noches-menos-turistas.png" length="70234" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-23-mar-del-plata-hoteles-estadia-4-6-noches-menos-turistas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Las billeteras, el QR y los vales ya cobran 16 de cada 100 pesos del súper, cuatro veces más que en 2022, y la tarjeta de crédito bajó de su pico</title>
       <link>https://coninteres.com/articulos/2026-11-23-supermercados-billeteras-qr-16-por-ciento-credito-pico.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>meses seguidos en que son más los industriales que esperan tener menos personal que un año antes que los que esperan tener más</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-industria-expectativa-personal-45-meses-racha.png" length="65097" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-industria-expectativa-personal-45-meses-racha.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Cuatro de cada diez dólares que la Argentina gastó en autos importados en octubre fueron a híbridos y eléctricos; un año antes, menos de uno</title>
-      <link>https://coninteres.com/articulos/2026-11-19-autos-importados-electrificados-cuatro-de-cada-diez.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-19-autos-importados-electrificados-cuatro-de-cada-diez.html</guid>
-      <pubDate>Thu, 19 Nov 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La factura de autos importados se achicó y, adentro, cambió de motor. En octubre, el primer mes con los topes nuevos para entrar sin arancel, la Argentina importó autos por US$412,8 millones, y US$176,6 millones fueron híbridos, híbridos enchufables y eléctricos: el 42,8%. En octubre de 2025 habían sido el 8,3%. Los autos a combustión importados cayeron a menos de la mitad, y en los diez meses del año los electrificados ya son un tercio de la factura.</description>
-      <ci:numero>42,8%</ci:numero>
-      <ci:numeroEtiqueta>parte de lo que la Argentina gastó en autos importados en octubre de 2026 que fue para híbridos, enchufables y eléctricos</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-19-autos-importados-electrificados-cuatro-de-cada-diez.png" length="71729" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-19-autos-importados-electrificados-cuatro-de-cada-diez.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
