@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-23T10:52:53-03:00",
+    "actualizado": "2026-11-23T13:00:52-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-23-bolas-molinos-mineria-china-via-chile",
+      "titulo": "China ya vende 59 de cada 100 kilos de las bolas de acero que la Argentina importa para moler mineral, y buena parte entra por Chile",
+      "bajada": "Chile fue el primer origen de las bolas para molinos que importa la Argentina, las que trituran la roca en las plantas mineras, en todos los años de la serie del INDEC desde 2002. En 2026 dejó de serlo: de las 4.208 toneladas importadas entre enero y octubre, 2.501 vinieron de China, el 59,4%, cuando un año antes China vendía el 19,5% y Chile el 71,9%. Pero Chile declara que de enero a septiembre le vendió a la Argentina 2,7 veces lo que la Aduana argentina anota como chileno, y la diferencia coincide con las bolas chinas.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "59,4%",
+      "numero_label": "parte de China en los kilos de bolas de acero para molinos mineros importadas por la Argentina, enero a octubre de 2026",
+      "fecha": "2026-11-23",
+      "hora": "12:30",
+      "archivo": "articulos/2026-11-23-bolas-molinos-mineria-china-via-chile.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "INDEC base comex, impom26.csv (zip bajado 20/11/2026, hasta octubre; el de 24/10 da igual ene-sep 4.058.904 kg), NCM 7326.11.00 + 7325.91.00 ene-oct 2026: total 4.208.304 kg, CIF US$5.381.447; origen 310 China 2.500.708 kg (59,4%), 208 Chile 1.289.500 (30,6%), 203 Brasil 417,0 t. Ene-oct 2025: 2.402,9 t, China 469,3 t (19,5%), Chile 1.727,4 t (71,9%). Chile primer origen 2002-2025 (49,2% a 96,3%); maximo previo China 2025 27,6% (843,5 t). Codigos 208/310 segun comexbe public-api countries. FOB/kg 2026 China 1,06, Chile 1,13. Serie 2002-2017 26,1-33,1 kt/anio; 2019 7,0; 2020 3,2 (fin cielo abierto Alumbrera: Glencore FY2018; Goldcorp MD&A 2T18 SEC). Contraste UN Comtrade Chile (152) X a 32, 732611: 2023 4.446 t (INDEC Chile 4.246), 2024 2.148 (2.031), 2025 2.543 (2.003; INDEC Chile+China 2.534), ene-sep 2026 3.038,5 (INDEC Chile 1.140,1; Chile+China forjadas 3.520,6). China (156) X a 32: 2024 61,5 t, 2025 152,3 t (INDEC China forjadas 175,7 y 531,5). Chile M desde China 732611: 2023 187,9 kt, 2024 208,3 kt, 2025 312,9 kt."
+    },
     {
       "id": "2026-11-23-campo-brasil-3-5-veces-argentina-ganaderia-1961",
       "titulo": "El campo de Brasil produce 3,5 veces lo que el argentino, y la brecha se abrió en la ganadería: en 1961 la argentina producía más que la brasileña",
