@@ -1,13 +1,20 @@
 {
-  "generado": "2026-11-24T10:30",
+  "generado": "2026-11-24T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
-  "incompleto": [
-    "SEC: HTTP Error 404: Not Found"
-  ],
+  "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3595856",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T16:03",
+      "entidad": "INDUSTRIAL AND COMMERCIAL BANK OF CHINA (ARGENTINA) S.A.U",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE RENUNCIA Y DESIGNACIÓN DIRECTOR TITULAR",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4DF74F88-9634-4669-8E0C-0C425EF09C1C"
+    },
     {
       "id": "cnv-3595618",
       "fuente": "CNV",
@@ -1541,7 +1548,18 @@
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/61D72542-13A7-4BA0-B607-A35541ED253A"
     }
   ],
-  "anuncios": [],
+  "anuncios": [
+    {
+      "id": "sec-0001114700-26-000087-2026-11-25",
+      "fuente": "SEC",
+      "fecha": "2026-11-25",
+      "entidad": "Grupo Financiero Galicia",
+      "ticker": "GGAL",
+      "frase": "o Financiero Galicia S.A. (“Grupo Galicia” o “GFG”, BYMA/NASDAQ: GGAL), announced its financial results for the third quarter ended on September 30, 2026. Gonzalo Fernández Covaro Chief Financial Officer Conference Call November 25, 2026 11:00 a.m. (Eastern Time) 1:00 p.m. (Argentina) To participate, register here.",
+      "url": "https://www.sec.gov/Archives/edgar/data/1114700/000111470026000087/a6k-cover.htm",
+      "presentado": "2026-11-24"
+    }
+  ],
   "sec_vistos": {
     "sec-0000931427-26-000013": "2026-10-29",
     "sec-0000931427-26-000014": "2026-10-29",
@@ -1583,6 +1601,7 @@
     "sec-0001104659-26-130195": "2026-11-19",
     "sec-0001104659-26-130664": "2026-11-20",
     "sec-0001114700-26-000085": "2026-11-16",
+    "sec-0001114700-26-000087": "2026-11-24",
     "sec-0001193125-26-436152": "2026-10-28",
     "sec-0001193125-26-436947": "2026-10-29",
     "sec-0001193125-26-452609": "2026-11-09",
@@ -1595,6 +1614,7 @@
     "sec-0001193125-26-467770": "2026-11-19",
     "sec-0001193125-26-469270": "2026-11-20",
     "sec-0001193125-26-470918": "2026-11-23",
+    "sec-0001193125-26-473127": "2026-11-24",
     "sec-0001292814-26-005008": "2026-10-26",
     "sec-0001292814-26-005026": "2026-10-28",
     "sec-0001292814-26-005042": "2026-10-29",

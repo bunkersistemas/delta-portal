@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-24T10:44:44-03:00",
+    "actualizado": "2026-11-24T16:41:06-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-24-recesion-tecnica-novena-desde-2004",
+      "titulo": "La actividad cayó 1,8% en el tercer trimestre: es la novena recesión técnica desde 2004 y, por ahora, una de las dos más leves",
+      "bajada": "El rebote de septiembre no alcanzó. Con el EMAE que publicó hoy el INDEC, la actividad del tercer trimestre quedó 1,8% debajo de la del segundo, que a su vez cayó 1,0%: dos trimestres seguidos en baja. Desde 2004 la economía encadenó caídas así ocho veces antes. Esta lleva perdido 2,8% desde el pico, casi lo mismo que la de 2022, la más corta de la serie. Si la actividad solo se sostiene en el nivel de septiembre, el cuarto trimestre ya da +0,9%.",
+      "titulo_busqueda": "¿Argentina está en recesión? Qué dice el EMAE de septiembre y cómo se compara con las recesiones desde 2004",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−1,8%",
+      "numero_label": "caída de la actividad económica en el tercer trimestre de 2026 frente al segundo, sin estacionalidad",
+      "fecha": "2026-11-24",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-24-recesion-tecnica-novena-desde-2004.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "EMAE desestacionalizado INDEC (informe y planilla 24/11/2026): promedio jul-sep 150,884 vs abr-jun 153,599 = -1,77%; con cuadro 2 redondeado 150,9 vs 153,6 = -1,8%. 2T vs 1T (155,189) -1,02%. Rachas de 2+ trimestres en baja 2004-2026: mismas 8 previas en EMAE y en PIB desest (sh_oferta_demanda_desest_09_26.xls); profundidad 2026 -2,77% vs 2022 -2,71% (PIB -2,84%), resto -3,6% a -19,4%. Piso 4T: sep 152,174/150,884 = +0,85%. Contraste: FIEL IPI 3T -4,3% t/t y -3,2% i.a. (EMAE industria -3,3% i.a.); REM oct (45 participantes) 3T -2,3%, 4T +2,0%; BCRA IPOM 29/10 'caída desestacionalizada del tercer trimestre'."
+    },
     {
       "id": "2026-09-27-cuanto-cobra-docente-universitario-ley-financiamiento",
       "titulo": "Los sueldos de los docentes universitarios compran 23,6% menos que en noviembre de 2023: para cumplir la ley tendrían que subir 31%",
