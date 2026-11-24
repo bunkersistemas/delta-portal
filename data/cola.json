@@ -1,5 +1,25 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
-  "actualizado": "2026-11-23T20:30:00-03:00",
-  "borradores": []
+  "actualizado": "2026-11-23T22:30:00-03:00",
+  "borradores": [
+    {
+      "id": "2026-11-07-boca-campeon-tabla-anual-cuanta-plata",
+      "titulo": "Boca ya suma US$16,5 millones en premios oficiales en 2026, y tres de cada cuatro dólares salen de la Sudamericana",
+      "bajada": "Boca ganó la Copa Sudamericana el 21 de noviembre y cobra US$10 millones de la CONMEBOL, el premio más grande de su año. Con eso, sus premios oficiales publicados de 2026 suman US$16,5 millones, unos $25.953 millones: el 9,5% de lo que el club presupuestó ingresar en un año. Tres de cada cuatro dólares salen de la Sudamericana. La tabla anual sigue sin premio en dinero publicado, y ganar la final de la Copa Argentina con Platense le agregaría $200 millones, unos US$127.000.",
+      "titulo_busqueda": "Premios de Boca en 2026: lo que ganó con la Sudamericana, la Copa Argentina y la tabla anual",
+      "seccion": "DEPORTES",
+      "formato": "Investigación",
+      "numero": "US$16,5 M",
+      "numero_label": "premios oficiales publicados que Boca ganó en 2026, con el título de la Copa Sudamericana",
+      "numero_fuente": "Libertadores 3,68 (3x1+2x0,34) + Sudamericana hasta semi 2,6 (0,5+0,6+0,7+0,8; CONMEBOL 24/09/2026) + título Sudamericana 10 (CONMEBOL 19/03/2026 y 24/09/2026; final 21/11/2026 2-0 a Atlético Mineiro, La Nación y Minutouno) = US$16,28 M; contraste: Infobae y Ámbito 22/11/2026 informan US$16,28 M. Copa Argentina hasta semifinal $296,6 M (12,1+18,2+39,9+53,3+66,6+106,5, AFA Boletín 6850; semi 14/11 3-0 a Banfield, ESPN y club Banfield) / A3500 20/11/2026 1.575,9572 (planilla com3500.xls = API BCRA var 5) = US$0,188 M; total US$16,468 M. Final Copa Argentina +$200 M = US$16,595 M. Presupuesto 2026/27 $239.392 M / 1.381,45 = US$173,3 M -> 9,5% (9,6% con la Copa). Libertadores 2027: plaza adicional por la Sudamericana, reglamento LPF art. 27.10.",
+      "fecha": "2026-11-23",
+      "hora": "22:30",
+      "archivo": "cola/2026-11-07-boca-campeon-tabla-anual-cuanta-plata.html",
+      "verificacion": "verificada",
+      "fuentes": 39,
+      "lectura": "30 seg → 8 min",
+      "pedido": 114,
+      "actualiza": true
+    }
+  ]
 }
