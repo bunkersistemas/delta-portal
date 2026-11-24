@@ -10155,6 +10155,23 @@
       "estado": "descartada",
       "tema": "descartes de la corrida de redacción del 23/11/2026 22:54 (feriado; prioridad del editor: Boca campeón de la Sudamericana). Portadas: infobae, Clarín, iProfesional y TN con _privado/portadas.py. agenda.py: EMAE el 24/11 16 h, supermercados el 25/11; ya hubo nota de EMPRESAS hoy (Capex). build_empresas: 0 hechos nuevos. pregunta.json no se tocó (ya era del 23/11).",
       "angulo": "Lista: (1) Boca campeón de la Sudamericana, cuánto ganó [demanda + prioridad del editor; ninguna nota de DEPORTES hoy] ELEGIDA. (2) fin de semana largo, gasto -30% [infobae, TN]: dato de CAME, privado, sin fuente oficial. (3) metalurgia ADIMRA [Clarín, TN]: ya evaluada hoy. (4) quiebra de SanCor, propuestas por las plantas [infobae, Clarín]: ya evaluada hoy, sin documento nuevo. (5) 30 monotributistas para igualar el aporte de un asalariado [iProfesional]: pendiente para otra corrida, cálculo con escalas ARCA. (6) riesgo país, dólar, carry trade, repo, Nvidia: dato de mercado del día o sin documento propio. (7) EMAE: sale el 24/11 16 h."
+    },
+    {
+      "fecha": "2026-11-24",
+      "estado": "en_cola",
+      "id": "2026-11-24-ia-servicios-eeuu-banco-mundial-exportaciones",
+      "seccion": "IA",
+      "tema": "¿la IA les quita trabajo a los argentinos que le venden servicios a EE.UU.? / Bastos y Nayyar, \"Artificial Intelligence and International Trade in Services: Evidence from the United States\", Banco Mundial, documento de base del WDR 2026, borrador jul-2026 (BEA, 78 países y regiones, 8 sectores, 2011-2024; adopción = empleo en 19 ocupaciones de IA): IV exportaciones +7,6 (sig.), importaciones +1,06 (no sig.); Argentina: INDEC exportaciones de servicios a EE.UU. 2025 US$5.539,8 M (+15,0%), USTR +11,6%",
+      "angulo": "Primera nota IA sobre comercio de servicios (distinta de la SBC del 19/07: allí récord exportador, acá si la IA en EE.UU. reemplaza proveedores de afuera). Contrastes: Betai y Chen (GWU, diapositivas ene-2026, plataforma: contratos -34%) y Copestake y otros (India, avisos no IA -8,1 pp). Serie INDEC por país y rubro recalculada en _privado/ia/serv_us.py y calc_nota.py.",
+      "archivo": "cola/2026-11-24-ia-servicios-eeuu-banco-mundial-exportaciones.html"
+    },
+    {
+      "fecha": "2026-11-24",
+      "estado": "descartada",
+      "articulo_id": null,
+      "tema": "candidatas de la corrida de La economía de la IA del 24/11/2026 04:30, no probadas porque pasó la primera (Banco Mundial, IA y comercio de servicios): Bick, Blandin, Deming y Schumacher, \"What Work Does Generative AI Do?\", NBER WP 35677 / Fed de St. Louis WP 2026-017 (ago-2026; 1 de cada 5 trabajadores la usa en 80% de las ocupaciones, uso poco profundo) con la encuesta CEPE-Fundar; Gmyrek, Viollaz y Winkler, OIT WP 166 (mar-2026, leído: la Argentina entra por SEDLAC a 2 dígitos y solo aparece en gráficos, sin cifra por país en el texto; las medidas de exposición sobrestiman en países en desarrollo); Gmyrek, Segura, Winkler y Yu, \"Generative AI and the Global Redistribution of Expertise\" (WDR 2026, bajado, sin la Argentina en el texto); Davies y otros, \"Adopting Fast and Slow\" (WDR 2026, adopción empresaria, sin la Argentina en el texto); Fed de Boston, encuesta a trabajadores sobre miedo a perder el empleo por la IA y ahorro (sep-2026).",
+      "angulo": "Registro de candidatas de la corrida (rastreo: NBER, Fed de St. Louis, Boston y Nueva York, FMI, OIT, Banco Mundial (documentos de base del WDR 2026), BID, CEPAL, CEDLAS, Fundar, CIPPEC, CEPE-Di Tella).",
+      "motivo_descarte": "no probadas: pasó la primera candidata"
     }
   ]
 }
