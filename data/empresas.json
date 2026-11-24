@@ -1,11 +1,49 @@
 {
-  "generado": "2026-11-23T22:57",
+  "generado": "2026-11-24T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
-  "incompleto": [],
+  "incompleto": [
+    "SEC: HTTP Error 404: Not Found"
+  ],
   "hechos": [
+    {
+      "id": "cnv-3595618",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T10:23",
+      "entidad": "GRUPO FINANCIERO GALICIA S.A",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/D0DF9AB6-AC47-4B9C-BE76-529DDCAD77EB"
+    },
+    {
+      "id": "cnv-3595582",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T09:56",
+      "entidad": "SPECIAL GRAINS S A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - INFORMA LA CO-EMISIÓN CON SPECIAL GRAINS S.A DE LAS OBLIGACIONES NEGOCIABLES CLASE IV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9F3DDE9B-AE14-4274-A03D-A534426986C4"
+    },
+    {
+      "id": "cnv-3595581",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T09:50",
+      "entidad": "PETROAGRO S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - INFORMA LA CO-EMISIÓN CON SPECIAL GRAINS DE LAS OBLIGACIONES NEGOCIABLES CLASE IV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/8F806D29-39B5-466E-997F-D3B849F94769"
+    },
+    {
+      "id": "cnv-3595587",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T09:40",
+      "entidad": "A3 MERCADOS S.A",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 24.11.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/060532CE-9B01-462B-A0C5-588043F16155"
+    },
     {
       "id": "cnv-3595521",
       "fuente": "CNV",

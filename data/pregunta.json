@@ -1,14 +1,14 @@
 {
  "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
- "fecha": "2026-11-23",
- "pregunta": "De enero a octubre de 2026 la Argentina exportó US$87.328 millones, más que en cualquier enero-octubre anterior. Pero si las ventas de 2011 se pasan a dólares de hoy, con la inflación de Estados Unidos, ese año supera a 2026 en 19%. ¿Por qué puede ser récord en una vara y no en la otra?",
+ "fecha": "2026-11-24",
+ "pregunta": "Entre enero y septiembre de 2026, los bancos destinaron $31,2 de cada $100 de intereses que cobraron a cubrir préstamos que no esperan cobrar, casi el triple que en 2024. Pero la mora de las familias bajó dos meses seguidos. ¿Cómo pueden pasar las dos cosas a la vez?",
  "opciones": [
-  "Porque un dólar de 2011 compraba más cosas que un dólar de hoy: comparar dólares de años distintos sin ajustar por inflación agranda lo reciente",
-  "Porque en 2011 el INDEC contaba las exportaciones de servicios y ahora cuenta solo las de bienes",
-  "Porque el tipo de cambio de 2011 era más bajo, así que cada dólar exportado valía menos pesos"
+  "Porque la mora es una foto de cuántos préstamos están impagos en un momento, y los cargos suman lo que los bancos dan por perdido durante todos esos meses, incluidos créditos que cayeron en mora antes",
+  "Porque la mora que bajó es la de las empresas, y los cargos por incobrables vienen solo de los préstamos a las familias",
+  "Porque cuando baja la mora los bancos están obligados a apartar más plata para incobrables, como reserva para el futuro"
  ],
  "correcta": 0,
- "explicacion": "El dólar también pierde valor con el tiempo: desde 2011 los precios al consumidor de Estados Unidos subieron 50%, así que con un dólar de entonces se compraba lo mismo que con un dólar y medio de hoy. Para comparar montos de años distintos hay que pasarlos a la misma moneda de poder de compra. Medidas así, las exportaciones de 2026 quedan quintas desde 1990. Lo que sí es récord es la cantidad vendida: se exporta más que nunca, pero a precios reales más bajos. El tipo de cambio en pesos no cambia una comparación hecha en dólares.",
- "nota": "articulos/2026-11-22-exportaciones-record-en-dolares-no-en-poder-de-compra.html",
- "leccion": "lecciones/inflacion.html"
+ "explicacion": "La mora mide un stock: qué parte de los préstamos está impaga en una fecha. Los cargos por incobrabilidad son un flujo: lo que el banco carga a pérdidas mes a mes por créditos que ya considera difíciles de cobrar, muchos de los cuales entraron en mora antes. Por eso la mora puede dejar de subir y los cargos seguir altos un tiempo, hasta que se terminan de reconocer las pérdidas. En septiembre la mora de las familias fue 12,20% y la del crédito privado, 7,50%, contra 1,57% dos años antes. Bajar la mora no obliga a apartar más: la regla es que se aparta según lo que se espera perder.",
+ "nota": "articulos/2026-11-23-bancos-incobrables-31-de-cada-100-intereses.html",
+ "leccion": ""
 }

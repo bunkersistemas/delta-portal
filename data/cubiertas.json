@@ -10172,6 +10172,21 @@
       "tema": "candidatas de la corrida de La economía de la IA del 24/11/2026 04:30, no probadas porque pasó la primera (Banco Mundial, IA y comercio de servicios): Bick, Blandin, Deming y Schumacher, \"What Work Does Generative AI Do?\", NBER WP 35677 / Fed de St. Louis WP 2026-017 (ago-2026; 1 de cada 5 trabajadores la usa en 80% de las ocupaciones, uso poco profundo) con la encuesta CEPE-Fundar; Gmyrek, Viollaz y Winkler, OIT WP 166 (mar-2026, leído: la Argentina entra por SEDLAC a 2 dígitos y solo aparece en gráficos, sin cifra por país en el texto; las medidas de exposición sobrestiman en países en desarrollo); Gmyrek, Segura, Winkler y Yu, \"Generative AI and the Global Redistribution of Expertise\" (WDR 2026, bajado, sin la Argentina en el texto); Davies y otros, \"Adopting Fast and Slow\" (WDR 2026, adopción empresaria, sin la Argentina en el texto); Fed de Boston, encuesta a trabajadores sobre miedo a perder el empleo por la IA y ahorro (sep-2026).",
       "angulo": "Registro de candidatas de la corrida (rastreo: NBER, Fed de St. Louis, Boston y Nueva York, FMI, OIT, Banco Mundial (documentos de base del WDR 2026), BID, CEPAL, CEDLAS, Fundar, CIPPEC, CEPE-Di Tella).",
       "motivo_descarte": "no probadas: pasó la primera candidata"
+    },
+    {
+      "fecha": "2026-11-24",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-cuanto-cobra-docente-universitario-ley-financiamiento",
+      "tema": "ACTUALIZACIÓN con el mismo id de la nota del 27/09/2026 sobre el sueldo de los docentes universitarios (demanda: 'conadu grilla salarial 2026', ~44 apariciones, posición 5-9; paro de CONADU el 25/11/2026, día del Presupuesto 2027 en Diputados) / escala SPU de octubre 2026: titular exclusivo $2.067.249,72; poder de compra -23,6% contra nov-23; la ley pide +31,0% (ago 33,4%, sep 32,0%)",
+      "angulo": "Corrida de la redacción del 24/11/2026 10:30; APTA. Mismo dato que cambia de valor (escala nueva + IPC de octubre), por eso actualiza y no duplica. Hallazgo de la actualización: los dos 3% de septiembre y octubre le ganaron a la inflación (1,9% y 2,2%) y la brecha legal bajó de 33,4% a 31,0%; al ritmo de octubre tardaría ~33 meses en cerrarse (cuenta ilustrativa). Camino: documento oficial (instructivo SPU oct-26, UNCuyo; copia ADUNS idéntica) + recálculo con IPC datos.gob.ar + contraste FEDUN-CIICTI Informe 17 (-23,6%, 31%). No afirmado: escala de noviembre (no hay instructivo al 24/11), salario de bolsillo, la cifra de 35% de pérdida que citan dirigentes de CONADU (sin método). Retomable cuando salga el instructivo de noviembre o diciembre."
+    },
+    {
+      "fecha": "2026-11-24",
+      "estado": "descartada",
+      "articulo_id": null,
+      "tema": "descartes de la corrida de redacción del 24/11/2026 10:30 (pasó la actualización de docentes universitarios). Demanda revisada: (1) veteranos de Malvinas, madre de 7 hijos y Ley Brisa (monto = múltiplos del haber mínimo): la resolución ANSES de diciembre todavía no salió en el BO (la de noviembre, Res. 304/2026 del 28/10, ya se usó); esperar la de diciembre y hacer veteranos con aguinaldo (actualizar) y madre de 7 hijos (SIN NOTA). (2) IPCBA de octubre: publicado 08/11. (3) Copa Argentina campeón: la final Boca-Platense es el 02/12, la nota va después (calendario de finales). (4) consumo de carne por habitante: cubierto 20/07 y 14/11. (5) EMAE de septiembre (hoy 16 h): dato del día sin ángulo propio todavía; candidato para la corrida de la tarde.",
+      "angulo": "Registro de candidatas de la corrida.",
+      "motivo_descarte": "no probadas o sin dato nuevo: ver tema"
     }
   ]
 }

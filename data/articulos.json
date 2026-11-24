@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-24T04:54:44-03:00",
+    "actualizado": "2026-11-24T10:44:44-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,25 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-cuanto-cobra-docente-universitario-ley-financiamiento",
+      "titulo": "Los sueldos de los docentes universitarios compran 23,6% menos que en noviembre de 2023: para cumplir la ley tendrían que subir 31%",
+      "bajada": "Al sueldo de un docente universitario le falta 31,0% para cumplir la ley de financiamiento universitario. Los aumentos de 3% de septiembre y octubre le ganaron por poco a la inflación y bajaron esa distancia desde 33,4%, pero la pérdida de fondo sigue: un profesor titular con dedicación exclusiva cobra $2.067.250 de básico desde octubre, según la última escala oficial, y compra 23,6% menos que en noviembre de 2023. Es la misma cuenta que hace el gremio FEDUN.",
+      "titulo_busqueda": "Grilla salarial de los docentes universitarios en octubre de 2026: cuánto cobra cada cargo",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "31,0%",
+      "numero_label": "aumento que haría falta en octubre de 2026 para que el básico docente universitario compre lo mismo que en noviembre de 2023, como ordena la ley 27.795",
+      "fecha": "2026-11-24",
+      "hora": "10:30",
+      "archivo": "articulos/2026-09-27-cuanto-cobra-docente-universitario-ley-financiamiento.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Instructivo SPU octubre 2026 (13/10/2026, UNCuyo y ADUNS, 16 básicos idénticos): titular exclusivo $2.067.249,72 (= sep $2.007.038,57 x 1,03). Nov-23 $596.259,30 (ADUNS). IPC nacional datos.gob.ar 148.3: nov-23 2.816,0628, oct-26 12.785,9321, factor 4,5404 (+354,0%); básico x3,4670 (+246,7%); poder 0,7636 (-23,6%); ley $2.707.230 (+30,96%). Contraste: FEDUN-CIICTI Informe 17 (Urgente24 19/11/2026): -23,6%, 354%, 246,7%, 31%. Sep-26 brecha 32,02%; ago-26 33,40% (Frente Sindical 33,4%).",
+      "publicada_original": "2026-09-27",
+      "actualizaciones": 1
+    },
     {
       "id": "2026-11-24-ia-servicios-eeuu-banco-mundial-exportaciones",
       "titulo": "Los sectores de EE.UU. que más adoptaron IA no le compraron menos servicios al resto del mundo, según el Banco Mundial, y la Argentina le vendió 15% más en 2025",
@@ -9916,23 +9935,6 @@
       "fuentes": 8,
       "lectura": "30 seg → 6 min",
       "numero_fuente": "devengó en 2025 el programa Servicios de Higiene Urbana de la Ciudad de Buenos Aires ($1.154.984.724.903): 8,01% de todo su gasto; 74,1% fue al contrato de recolección y limpieza con empresas"
-    },
-    {
-      "id": "2026-09-27-cuanto-cobra-docente-universitario-ley-financiamiento",
-      "titulo": "Los sueldos de los docentes universitarios compran 25% menos que en noviembre de 2023: para cumplir la ley tendrían que subir 33,4%",
-      "bajada": "Un profesor titular con dedicación exclusiva cobra $2.007.039 de básico en septiembre. En agosto cobraba $1.948.581: 226,8% más que en noviembre de 2023, con precios que subieron 336,0%. Compra 25,0% menos. La ley de financiamiento universitario manda actualizar los sueldos por inflación desde diciembre de 2023: a agosto, eso es 33,4% más, la cifra que reclaman los gremios.",
-      "titulo_busqueda": "¿Cuánto cobra un docente universitario en septiembre de 2026? Un titular exclusivo, $2.007.039 de básico",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "33,4%",
-      "numero_label": "aumento que haría falta en agosto de 2026 para que el básico docente universitario compre lo mismo que en noviembre de 2023, como ordena la ley 27.795",
-      "fecha": "2026-09-27",
-      "hora": "19:30",
-      "archivo": "articulos/2026-09-27-cuanto-cobra-docente-universitario-ley-financiamiento.html",
-      "verificacion": "verificada",
-      "fuentes": 8,
-      "lectura": "30 seg → 6 min",
-      "numero_fuente": "aumento que haría falta en agosto de 2026 para que el básico docente universitario compre lo mismo que en noviembre de 2023, como ordena la ley 27.795 (titular exclusivo: $1.948.581 contra $2.599.422)"
     },
     {
       "id": "2026-09-27-baterias-apagones-amba-cuanto-cuestan",
