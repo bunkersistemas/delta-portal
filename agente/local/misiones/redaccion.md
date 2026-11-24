@@ -92,8 +92,20 @@ sigue:
       cuando, contra una referencia mejor que el IPC).
       **Variedad:** `python scripts/titulares.py` lista lo publicado hoy;
       entre dos candidatas parejas, gana la de la seccion que falta.
-      **La cantidad no baja:** si una candidata no pasa la vara, se pasa a la
-      siguiente, no se termina la corrida.
+      **Menos y mejores (23/11/2026):** si una candidata no pasa la vara, se
+      pasa a la siguiente; si ninguna contesta algo que alguien busca o trae
+      un hallazgo, la corrida termina sin nota.
+   00. **La demanda manda (editor, 23/11/2026: "el publico elige").** Antes que
+      todo, `_privado/demanda.md`: las preguntas que la gente escribe en Google
+      y por las que ya aparecemos. En 3 meses, 554 de 776 notas no tuvieron
+      ningun clic; los clics fueron a preguntas concretas (cuanto cobra un
+      cargo, cuanto paga un premio, el monto de un beneficio, cuanto cuesta un
+      tramite). Una pregunta de la demanda es candidata aunque "cualquiera
+      pueda copiarla de una resolucion": la vara es contestarla mejor que el
+      resto. Si ya tenemos la nota y el dato cambio, se **actualiza** con el
+      mismo id (ver el prompt de la redaccion programada), no se hace otra.
+      Se mide el TEMA, no la forma del titulo: copiar un titulo exitoso
+      satura (septiembre 2026, "cuanta plata").
    1. **Un hallazgo.** Algo que el lector no sabia y no esta en el
       comunicado: un cruce de dos fuentes, una serie larga, una comparacion
       propia, un resultado que va contra lo que se cree.

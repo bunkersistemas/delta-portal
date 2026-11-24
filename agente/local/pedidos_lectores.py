@@ -442,7 +442,7 @@ def resumen():
 # Cada corrida que falla, o que termina sin nota cuando ya van HORAS_SIN_NOTA sin publicar,
 # le escribe al editor por este mismo bot. Como la redaccion corre cada 2 h, insiste cada
 # 2 h hasta que vuelva a salir una nota; ahi avisa que se destrabo.
-HORAS_SIN_NOTA = 6
+HORAS_SIN_NOTA = 14   # 23/11/2026: corridas cada 6 h; avisa si dos seguidas no publican
 ALARMA = os.path.join(LOGS, "alarma_redaccion.txt")   # cuantos avisos van (si existe, esta bloqueada)
 EDITOR_TG = os.path.join(os.path.expanduser("~"), "coninteres-privado", "editor_telegram.txt")
 
@@ -485,7 +485,7 @@ def alarma_editor(resultado, motivo):
          ("Hace %.0f horas que no sale una nota (la \u00faltima: %s)." % (horas, ultima[8:10] + "/" + ultima[5:7] + " " + ultima[11:16])
           if ultima else "No encuentro ninguna nota publicada en el registro."),
          "", "Qu\u00e9 pas\u00f3: " + (motivo or "(sin detalle)")[:600], "",
-         "Aviso n\u00b0 %d. Te vuelvo a escribir en 2 horas, y as\u00ed hasta que se resuelva." % n,
+         "Aviso n\u00b0 %d. Te vuelvo a escribir en la pr\u00f3xima corrida, y as\u00ed hasta que se resuelva." % n,
          "Para destrabarla: abr\u00ed Claude Code y decime \u00abdestrab\u00e1 la redacci\u00f3n\u00bb."]
     tg("sendMessage", {"chat_id": ed, "text": "\n".join(l), "disable_web_page_preview": True})
     print("OK|alarma %d al editor" % n)

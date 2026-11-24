@@ -79,6 +79,14 @@ def main(draft_id):
     # de una por dia y permite medir las notas pedidas.
     if draft.get("pedido"):
         entry["pedido"] = draft["pedido"]
+    # ACTUALIZACION (23/11/2026): un borrador con el MISMO id que una nota ya
+    # publicada la reemplaza en su misma URL (Google ya la conoce) y sube a la
+    # portada con la fecha nueva. Se guarda la fecha original.
+    previa = next((a for a in art["articulos"] if a["id"] == draft_id), None)
+    if previa:
+        entry["publicada_original"] = previa.get("publicada_original") or previa.get("fecha", "")
+        entry["actualizaciones"] = previa.get("actualizaciones", 0) + 1
+        art["articulos"] = [a for a in art["articulos"] if a["id"] != draft_id]
     art["articulos"].insert(0, entry)
     art["portal"]["actualizado"] = datetime.datetime.now().astimezone().replace(microsecond=0).isoformat() \
         if os.environ.get("DELTA_NOW") is None else os.environ["DELTA_NOW"]
