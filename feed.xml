@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Tue, 24 Nov 2026 16:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Tue, 24 Nov 2026 22:47:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un fiscal general federal cobra $9,56 millones brutos por mes, y desde diciembre cada aumento fue igual a la inflación del mes</title>
+      <link>https://coninteres.com/articulos/2026-10-01-cuanto-cobra-un-fiscal-federal.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-10-01-cuanto-cobra-un-fiscal-federal.html</guid>
+      <pubDate>Tue, 24 Nov 2026 22:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Es lo que fija para septiembre de 2026 la escala de la Procuración General de la Nación, la última publicada: $9.557.674 por mes, antes de descuentos y sin antigüedad. Un fiscal ante un juez de primera instancia cobra $7.503.136. Desde diciembre de 2025, cada aumento de jueces y fiscales federales fue igual a la inflación del mes que mide el INDEC, y la Corte ya dispuso 2,2% para octubre, lo mismo que el IPC de octubre.</description>
+      <ci:numero>$9,56 millones</ci:numero>
+      <ci:numeroEtiqueta>sueldo bruto mensual de un fiscal general del Ministerio Público Fiscal de la Nación, septiembre de 2026, sin antigüedad</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-10-01-cuanto-cobra-un-fiscal-federal.png" length="70596" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-10-01-cuanto-cobra-un-fiscal-federal.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>La actividad cayó 1,8% en el tercer trimestre: es la novena recesión técnica desde 2004 y, por ahora, una de las dos más leves</title>
       <link>https://coninteres.com/articulos/2026-11-24-recesion-tecnica-novena-desde-2004.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>pérdida de IRSA por revaluar sus propiedades de inversión entre julio y septiembre de 2026, en pesos de septiembre</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.png" length="71338" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-20-irsa-revaluacion-propiedades-dolar-inflacion.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Traer mercadería de China ya cuesta US$10,60 de flete por cada US$100: más del doble que en marzo y lo más alto desde 2022</title>
-      <link>https://coninteres.com/articulos/2026-11-20-flete-china-importaciones-doble.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-20-flete-china-importaciones-doble.html</guid>
-      <pubDate>Fri, 20 Nov 2026 21:15:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Traer mercadería de China cuesta más del doble que en marzo, y el salto es de China, no de todos los orígenes. En octubre, cada US$100 de mercadería china que entró a la Argentina pagó US$10,60 de flete, según el INDEC, contra US$4,72 en marzo: el costo más alto desde marzo de 2022, cuando todavía duraba la crisis de los contenedores. El flete desde el resto del mundo subió mucho menos; en el total de las importaciones llegó a US$6,42 por cada US$100, lo más alto desde diciembre de 2022.</description>
-      <ci:numero>US$10,60</ci:numero>
-      <ci:numeroEtiqueta>flete que pagó cada US$100 de mercadería importada desde China en octubre de 2026; en marzo eran US$4,72</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-20-flete-china-importaciones-doble.png" length="71375" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-20-flete-china-importaciones-doble.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

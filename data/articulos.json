@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-24T16:41:06-03:00",
+    "actualizado": "2026-11-24T22:47:10-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,25 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-01-cuanto-cobra-un-fiscal-federal",
+      "titulo": "Un fiscal general federal cobra $9,56 millones brutos por mes, y desde diciembre cada aumento fue igual a la inflación del mes",
+      "bajada": "Es lo que fija para septiembre de 2026 la escala de la Procuración General de la Nación, la última publicada: $9.557.674 por mes, antes de descuentos y sin antigüedad. Un fiscal ante un juez de primera instancia cobra $7.503.136. Desde diciembre de 2025, cada aumento de jueces y fiscales federales fue igual a la inflación del mes que mide el INDEC, y la Corte ya dispuso 2,2% para octubre, lo mismo que el IPC de octubre.",
+      "titulo_busqueda": "¿Cuánto gana un fiscal federal en la Argentina en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$9,56 millones",
+      "numero_label": "sueldo bruto mensual de un fiscal general del Ministerio Público Fiscal de la Nación, septiembre de 2026, sin antigüedad",
+      "fecha": "2026-11-24",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-01-cuanto-cobra-un-fiscal-federal.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Procuración General, escala salarial de septiembre de 2026 (Escala_Salarial_MPF_09-2026.csv/pdf, procesada 27/10/2026), código 506 fiscal general ante tribunal oral: $9.557.674,36 = 1.581.973,27 + 2.372.945,21 + 4.720.438,48 + 427.195,58 + 455.121,82; = agosto x 1,019. Segunda fuente: Consejo de la Magistratura, escala de octubre de 2026 (acordada 37/2026, 2,2%), juez de cámara $9.767.943,19; cada componente / 1,022 = componentes MPF sep al centavo; agosto MPF = agosto CM (acordada 25/2026) $9.379.464,53. IPC nacional INDEC: sep 1,9%, oct 2,2%; nov-25 9.841,3581 a sep-26 12.514,1508 (+27,2%) contra escala +27,1%; ago-24 a sep-26 +77,7% contra +81,8% (-2,3%).",
+      "publicada_original": "2026-10-01",
+      "actualizaciones": 1
+    },
     {
       "id": "2026-11-24-recesion-tecnica-novena-desde-2004",
       "titulo": "La actividad cayó 1,8% en el tercer trimestre: es la novena recesión técnica desde 2004 y, por ahora, una de las dos más leves",
@@ -9136,23 +9155,6 @@
       "verificacion": "verificada",
       "fuentes": 4,
       "lectura": "30 seg → 6 min"
-    },
-    {
-      "id": "2026-10-01-cuanto-cobra-un-fiscal-federal",
-      "titulo": "Un fiscal general federal cobra $9,38 millones brutos por mes: en nueve meses su sueldo subió 24,7%, lo mismo que la inflación",
-      "bajada": "Es lo que fija para agosto de 2026 la escala de la Procuración General de la Nación para un fiscal general, el cargo de Diego Luciani, ovacionado hoy en el Coloquio de IDEA: $9.379.464 por mes, antes de descuentos y sin el adicional por antigüedad. Desde diciembre de 2025, los aumentos de jueces y fiscales federales copiaron la inflación del INDEC. Entre agosto de 2024 y diciembre de 2025 habían quedado 2,3% atrás.",
-      "titulo_busqueda": "¿Cuánto cobra un fiscal federal en la Argentina? $9,38 millones brutos un fiscal general",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "$9,38 millones",
-      "numero_label": "sueldo bruto mensual de un fiscal general del Ministerio Público Fiscal de la Nación, agosto de 2026, sin antigüedad",
-      "fecha": "2026-10-01",
-      "hora": "22:30",
-      "archivo": "articulos/2026-10-01-cuanto-cobra-un-fiscal-federal.html",
-      "verificacion": "verificada",
-      "fuentes": 6,
-      "lectura": "30 seg → 6 min",
-      "numero_fuente": "sueldo bruto mensual de un fiscal general del Ministerio Público Fiscal de la Nación (y de un juez de cámara), agosto de 2026, sin antigüedad (Procuración General, escala salarial, código 506: $9.379.464,53); +24,7% desde noviembre de 2025, igual que el IPC"
     },
     {
       "id": "2026-10-01-coparticipacion-provincias-por-habitante",

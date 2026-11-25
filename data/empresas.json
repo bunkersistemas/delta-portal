@@ -1,11 +1,56 @@
 {
-  "generado": "2026-11-24T16:30",
+  "generado": "2026-11-24T22:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3596022",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T19:20",
+      "entidad": "EMPRESA DISTRIBUIDORA Y COMERCIALIZADORA NORTE SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE PAGO TOTAL OBLIGACIÓN NEGOCIABLE CLASE 3",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FBE8786A-26BA-4442-93C1-F6AA86108C01"
+    },
+    {
+      "id": "cnv-3596017",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T18:51",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICION DE ACCIONES PROPIAS EN LOS TERMINOS DEL ARTICULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/0CAA1801-F01C-433D-846E-199040AB7BDF"
+    },
+    {
+      "id": "cnv-3596012",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T18:28",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/32DDC04E-FE2B-4F86-BD06-CD956E61A490"
+    },
+    {
+      "id": "cnv-3595971",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T17:24",
+      "entidad": "CIA. DE TRANSPORTE DE ENERGIA ELECTRICA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE_ RECOMPRA DIARIA DE ACCIONES",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/803CA046-8F1F-445A-91E3-46DA64096E35"
+    },
+    {
+      "id": "cnv-3595932",
+      "fuente": "CNV",
+      "fecha": "2026-11-24T17:17",
+      "entidad": "PSA FINANCE ARGENTINA COMPAÑÍA FINANCIERA S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE AVALES - FIANZAS - GARANTÍAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/389D929D-9333-4303-B523-A8F55D318B75"
+    },
     {
       "id": "cnv-3595856",
       "fuente": "CNV",
@@ -50,6 +95,26 @@
       "tipo": "hecho",
       "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - 24.11.2026 - INFORME DIARIO PROGRAMA RECOMPRA DE ACCIONES PROPIAS",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/060532CE-9B01-462B-A0C5-588043F16155"
+    },
+    {
+      "id": "sec-0001292814-26-005394",
+      "fuente": "SEC",
+      "fecha": "2026-11-24",
+      "entidad": "BBVA Argentina",
+      "ticker": "BBAR",
+      "tipo": "balance",
+      "descripcion": "6-K Financial Statements as of September 30, 2026 – Sect. 63 BYMA listing rules and regulations – Translation of a submission from Banco BBVA Argentina S.A to the CNV dated on Novemb",
+      "url": "https://www.sec.gov/Archives/edgar/data/913059/000129281426005394/bbar20261124_6k.htm"
+    },
+    {
+      "id": "sec-0001292814-26-005393",
+      "fuente": "SEC",
+      "fecha": "2026-11-24",
+      "entidad": "BBVA Argentina",
+      "ticker": "BBAR",
+      "tipo": "balance",
+      "descripcion": "6-K Banco BBVA Argentina S.A. reports consolidated third quarter earnings for fiscal year 2026. 3Q26 Earnings Release BBVA Argentina November 24, 2026 Buenos Aires, Argentina 3Q26 Co",
+      "url": "https://www.sec.gov/Archives/edgar/data/913059/000129281426005393/bbarpr3q26_6k.htm"
     },
     {
       "id": "cnv-3595521",
@@ -1558,6 +1623,16 @@
       "frase": "o Financiero Galicia S.A. (“Grupo Galicia” o “GFG”, BYMA/NASDAQ: GGAL), announced its financial results for the third quarter ended on September 30, 2026. Gonzalo Fernández Covaro Chief Financial Officer Conference Call November 25, 2026 11:00 a.m. (Eastern Time) 1:00 p.m. (Argentina) To participate, register here.",
       "url": "https://www.sec.gov/Archives/edgar/data/1114700/000111470026000087/a6k-cover.htm",
       "presentado": "2026-11-24"
+    },
+    {
+      "id": "sec-0001292814-26-005393-2026-11-25",
+      "fuente": "SEC",
+      "fecha": "2026-11-25",
+      "entidad": "BBVA Argentina",
+      "ticker": "BBAR",
+      "frase": "CONTENTS Item 1. Banco BBVA Argentina S.A. reports consolidated third quarter earnings for fiscal year 2026. 3Q26 Earnings Release BBVA Argentina November 24, 2026 Buenos Aires, Argentina 3Q26 Conference Call Wednesday, November 25, 2026 - 12:00 p.m. Buenos Aires time (10:00 a.m. EST) To participate click here to re",
+      "url": "https://www.sec.gov/Archives/edgar/data/913059/000129281426005393/bbarpr3q26_6k.htm",
+      "presentado": "2026-11-24"
     }
   ],
   "sec_vistos": {
@@ -1600,6 +1675,7 @@
     "sec-0001104659-26-130143": "2026-11-19",
     "sec-0001104659-26-130195": "2026-11-19",
     "sec-0001104659-26-130664": "2026-11-20",
+    "sec-0001104659-26-131670": "2026-11-24",
     "sec-0001114700-26-000085": "2026-11-16",
     "sec-0001114700-26-000087": "2026-11-24",
     "sec-0001193125-26-436152": "2026-10-28",
