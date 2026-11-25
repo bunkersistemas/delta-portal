@@ -10217,6 +10217,21 @@
       "tema": "descartes de la corrida de redacción del 24/11/2026 22:30 (pasó la primera candidata probada: actualización del sueldo de los fiscales federales). Portadas: las ocho con _privado/rastreo/portadas.py (Página12 solo trajo 3 títulos). agenda.py: HOY NO HAY NOTA DE EMPRESAS; supermercados, mayoristas, electrodomésticos y centros de compras el 25/11. build_empresas: 5 hechos CNV y 2 SEC nuevos. pregunta.json no se tocó (ya era del 24/11).",
       "angulo": "Lista: (1) DEMANDA, ACTUALIZAR: fiscal federal ~400 apariciones, posición 6, nota con dato de agosto; la Procuración publicó septiembre y el Consejo octubre: ELEGIDA, APTA. (2) DEMANDA: veteranos de Malvinas, madre de 7 hijos, Ley Brisa y asignación por nacimiento: la resolución ANSES de diciembre no está en el BO del 20/11 ni del 24/11 (_privado/bo_lista.py); esperar. (3) DEMANDA: juez federal (~200, posición 7): misma fuente que la elegida (escala de octubre del Consejo ya disponible: juez de 1ª instancia $7.668.204,77); actualizable en otra corrida. (4) EMPRESAS (cupo): BBVA Argentina 3T26, 6-K del 24/11 [SEC]: no probada porque la demanda va primero y pasó la (1); mora de BBVA cubierta el 26/09 y cargos por incobrables de los bancos el 23/11; retomable con un ángulo propio (mora de personas 3T contra 2T). Razón del cupo escrita. (5) UTA: acuerdo salarial de choferes del AMBA [TN, Cronista]: molde sueldo de convenio, sin demanda. (6) subte +4,1% en diciembre [TN]: molde tarifa. (7) patrimonio de los diputados [Cronista]: DDJJ, requiere lectura de declaraciones individuales; candidata para corrida con tiempo. (8) dólar $1.615 y riesgo país 1.100 [infobae, La Nación, Clarín, TN]: lo que no conviene perseguir según la demanda. (9) devaluación del real abarata las vacaciones en Brasil [La Nación]: candidata de pregunta de plata, no probada. (10) YPF RIGI Narambuena US$11.688 M: igual que a las 16:30, sin documento público. (11) exportaciones de carne récord [Clarín]: cubierta 14/11.",
       "motivo_descarte": "no probadas o sin dato nuevo: ver angulo"
+    },
+    {
+      "fecha": "2026-11-25",
+      "estado": "publicada",
+      "articulo_id": "2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion",
+      "tema": "ACTUALIZACIÓN con el mismo id de la nota del 06/10/2026 sobre cuánto cobra un juez federal (demanda: 'cuanto cobra un juez federal en argentina 2026', ~200 apariciones, posición 7; la nota tenía la escala de agosto).",
+      "angulo": "Escala de octubre de 2026 del Consejo de la Magistratura (Acordada 37/2026, 2,2%): juez de 1ª instancia $7.668.204,77; +36,8% en un año contra IPC +33,1% (+2,8% real); desde diciembre plano en pesos de octubre ($7,67 M); ocho acordadas iguales al IPC del mes; estatales registrados -2,4% real ago-ago. Segunda escala: MPF septiembre x 1,022 al centavo."
+    },
+    {
+      "fecha": "2026-11-25",
+      "estado": "descartada",
+      "articulo_id": null,
+      "tema": "descartes de la corrida de redacción del 25/11/2026 04:30 (primera del día; pasó la primera candidata probada: actualización del juez federal). agenda.py: HOY supermercados, mayoristas, electrodomésticos y centros de compras a las 16 h; HOY NO HAY NOTA DE EMPRESAS; build_empresas sin hechos nuevos. Portadas no barridas a fondo: la demanda tenía una candidata lista con la fuente ya publicada.",
+      "angulo": "Lista: (1) DEMANDA, ACTUALIZAR: juez federal (~200, posición 7, dato de agosto; escala de octubre del Consejo disponible): ELEGIDA, APTA. (2) DEMANDA: veteranos de Malvinas (~450), madre de 7 hijos, Ley Brisa, asignación por nacimiento: la resolución ANSES de diciembre no está en el BO del 25/11 (_privado/bo_lista.py); esperar. (3) EMPRESAS (cupo): BBVA Argentina 3T26 (6-K 24/11) y Galicia (conferencia 25/11): no probadas porque la demanda va primero; mora de BBVA cubierta el 26/09 y cargos por incobrables el 23/11; razón del cupo escrita. (4) Supermercados/autoservicios/centros de compras de septiembre (INDEC hoy 16 h): candidata para la corrida de la tarde si trae un ángulo propio. (5) Patrimonio de los diputados (Cronista, 24/11): sigue pendiente para una corrida con tiempo. (6) Final de Copa Argentina Boca-Platense 02/12: va después del partido (calendario de finales).",
+      "motivo_descarte": "no probadas o sin dato nuevo: ver angulo"
     }
   ]
 }

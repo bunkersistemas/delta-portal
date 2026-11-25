@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-24T22:47:10-03:00",
+    "actualizado": "2026-11-25T04:55:23-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,25 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion",
+      "titulo": "Un juez federal de primera instancia cobra $7.668.205 brutos por mes sin antigüedad, 2,8% más que hace un año descontada la inflación",
+      "bajada": "Desde diciembre, cada aumento fue igual a la inflación de su mes y el sueldo quedó quieto en pesos de hoy, en $7,67 millones. Es lo que fija para octubre de 2026 la escala del Consejo de la Magistratura, con el aumento de 2,2% de la Acordada 37/2026: $7.668.205 antes de descuentos y sin antigüedad. En un año el sueldo subió 36,8% y los precios 33,1%.",
+      "titulo_busqueda": "¿Cuánto cobra un juez federal en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$7.668.205",
+      "numero_label": "sueldo bruto mensual de un juez federal de primera instancia sin antigüedad, octubre de 2026",
+      "fecha": "2026-11-25",
+      "hora": "04:30",
+      "archivo": "articulos/2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion.html",
+      "verificacion": "verificada",
+      "fuentes": 7,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Consejo de la Magistratura, escala salarial de octubre de 2026 (uploads/2026/11/Escala_Salarial_2026_10.pdf, Acordada 37/2026 2,2%), fila Juez de 1ra. instancia: 1.471.759,47 + 2.207.616,65 + 3.187.086,29 + 436.593,88 + 365.148,48 = 7.668.204,77. Segunda escala independiente: MPF septiembre 2026 (Escala_Salarial_MPF_09-2026.csv), codigo 504 fiscal ante juez 1a inst $7.503.135,79; cada componente CM oct / 1,022 = componente MPF sep al centavo; MPF sep / CM ago (7.363.234,35) = 1,019. Recalculo: oct-25 (Acordada 36/2025) 5.603.742,28 -> x1,3684 (+36,8%); IPC INDEC oct-25 9.603,8623, oct-26 12.785,9321 (x1,3313); real +2,78%. Dic-25 a oct-26: escala +26,38%, IPC +26,33%. Acordada vs IPC mensual: oct-25 2,3/2,34; dic 2,8/2,85; abr 2,6/2,58; jun 1,9/1,89; jul 2,1/2,11; ago 1,7/1,66; sep 1,9/1,93; oct 2,2/2,17. Indice salarios sector publico registrado ago-25 6.375,31, ago-26 8.307,48 (+30,3%) vs IPC +33,5%: real -2,4%.",
+      "publicada_original": "2026-10-06",
+      "actualizaciones": 1
+    },
     {
       "id": "2026-10-01-cuanto-cobra-un-fiscal-federal",
       "titulo": "Un fiscal general federal cobra $9,56 millones brutos por mes, y desde diciembre cada aumento fue igual a la inflación del mes",
@@ -8243,23 +8262,6 @@
       "verificacion": "verificada",
       "fuentes": 6,
       "lectura": "30 seg → 6 min"
-    },
-    {
-      "id": "2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion",
-      "titulo": "Un juez federal de primera instancia cobra $7.363.234 brutos por mes sin antigüedad: en un año le ganó 2,8% a la inflación y desde diciembre le empata",
-      "bajada": "Según la escala oficial del Consejo de la Magistratura, en agosto de 2026 un juez federal de primera instancia sin antigüedad cobró $7.363.234 brutos, lo mismo que publica el Ministerio Público Fiscal para un fiscal ante esa instancia. En un año el sueldo subió 37,2% y los precios 33,5%. Los seis aumentos mensuales que revisamos fueron iguales a la inflación de su mes redondeada a un decimal, y desde diciembre el sueldo quedó quieto en pesos de hoy: $7,36 millones.",
-      "titulo_busqueda": "¿Cuánto cobra un juez federal en 2026?",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "$7.363.234",
-      "numero_label": "sueldo bruto mensual de un juez federal de primera instancia sin antigüedad, agosto de 2026",
-      "fecha": "2026-10-06",
-      "hora": "10:30",
-      "archivo": "articulos/2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion.html",
-      "verificacion": "verificada",
-      "fuentes": 7,
-      "lectura": "30 seg → 6 min",
-      "numero_fuente": "sueldo bruto mensual de un juez federal de primera instancia sin antigüedad, agosto de 2026 (escala del Consejo de la Magistratura, Acordada CSJN 25/2026; igual al fiscal ante juez de 1ª instancia del MPF)"
     },
     {
       "id": "2026-10-06-cuanto-le-cuesta-aysa-al-estado",

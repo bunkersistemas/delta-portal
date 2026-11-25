@@ -1,14 +1,14 @@
 {
  "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
- "fecha": "2026-11-24",
- "pregunta": "Entre enero y septiembre de 2026, los bancos destinaron $31,2 de cada $100 de intereses que cobraron a cubrir préstamos que no esperan cobrar, casi el triple que en 2024. Pero la mora de las familias bajó dos meses seguidos. ¿Cómo pueden pasar las dos cosas a la vez?",
+ "fecha": "2026-11-25",
+ "pregunta": "Según el INDEC, la actividad cayó 1,0% en el segundo trimestre de 2026 y 1,8% en el tercero, siempre contra el trimestre anterior y sin estacionalidad, aunque septiembre rebotó. ¿Por qué se dice que la economía entró en una «recesión técnica»?",
  "opciones": [
-  "Porque la mora es una foto de cuántos préstamos están impagos en un momento, y los cargos suman lo que los bancos dan por perdido durante todos esos meses, incluidos créditos que cayeron en mora antes",
-  "Porque la mora que bajó es la de las empresas, y los cargos por incobrables vienen solo de los préstamos a las familias",
-  "Porque cuando baja la mora los bancos están obligados a apartar más plata para incobrables, como reserva para el futuro"
+  "Porque así se llama a dos trimestres seguidos de caída frente al trimestre anterior, aunque algún mes suelto suba.",
+  "Porque la actividad de septiembre quedó por debajo de la de septiembre de 2025.",
+  "Porque la caída acumulada pasó el 2%, el umbral con el que el INDEC declara oficialmente una recesión."
  ],
  "correcta": 0,
- "explicacion": "La mora mide un stock: qué parte de los préstamos está impaga en una fecha. Los cargos por incobrabilidad son un flujo: lo que el banco carga a pérdidas mes a mes por créditos que ya considera difíciles de cobrar, muchos de los cuales entraron en mora antes. Por eso la mora puede dejar de subir y los cargos seguir altos un tiempo, hasta que se terminan de reconocer las pérdidas. En septiembre la mora de las familias fue 12,20% y la del crédito privado, 7,50%, contra 1,57% dos años antes. Bajar la mora no obliga a apartar más: la regla es que se aparta según lo que se espera perder.",
- "nota": "articulos/2026-11-23-bancos-incobrables-31-de-cada-100-intereses.html",
+ "explicacion": "«Recesión técnica» es una convención, no una declaración oficial: se usa cuando el producto cae dos trimestres seguidos contra el trimestre anterior, ya sin el efecto de la estación. Por eso un buen mes no la borra: lo que cuenta es el promedio de los tres meses del trimestre. Comparar con el mismo mes del año anterior (la interanual) mide otra cosa, y el INDEC no tiene ningún umbral para «declarar» recesiones. Desde 2004 la Argentina encadenó caídas así nueve veces contando esta.",
+ "nota": "articulos/2026-11-24-recesion-tecnica-novena-desde-2004.html",
  "leccion": ""
 }
