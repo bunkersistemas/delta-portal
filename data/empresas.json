@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-25T04:30",
+  "generado": "2026-11-25T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3596053",
+      "fuente": "CNV",
+      "fecha": "2026-11-25T09:06",
+      "entidad": "REBA COMPAÑÍA FINANCIERA S.A",
+      "tipo": "financiamiento",
+      "descripcion": "INFORMACIÓN SOCIETARIA - EMISIÓN DE OBLIGACIONES NEGOCIABLES DE COLOCACIÓN PRIVADA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F983034B-919B-4186-A95B-53105199B025"
+    },
     {
       "id": "cnv-3596022",
       "fuente": "CNV",
@@ -1691,6 +1700,7 @@
     "sec-0001193125-26-469270": "2026-11-20",
     "sec-0001193125-26-470918": "2026-11-23",
     "sec-0001193125-26-473127": "2026-11-24",
+    "sec-0001193125-26-476775": "2026-11-25",
     "sec-0001292814-26-005008": "2026-10-26",
     "sec-0001292814-26-005026": "2026-10-28",
     "sec-0001292814-26-005042": "2026-10-29",
@@ -1715,6 +1725,7 @@
     "sec-0001292814-26-005257": "2026-11-12",
     "sec-0001292814-26-005265": "2026-11-12",
     "sec-0001292814-26-005269": "2026-11-12",
+    "sec-0001292814-26-005396": "2026-11-25",
     "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001342874-26-000052": "2026-11-04",
     "sec-0001554855-26-002241": "2026-10-28",

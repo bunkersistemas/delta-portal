@@ -10232,6 +10232,21 @@
       "tema": "descartes de la corrida de redacción del 25/11/2026 04:30 (primera del día; pasó la primera candidata probada: actualización del juez federal). agenda.py: HOY supermercados, mayoristas, electrodomésticos y centros de compras a las 16 h; HOY NO HAY NOTA DE EMPRESAS; build_empresas sin hechos nuevos. Portadas no barridas a fondo: la demanda tenía una candidata lista con la fuente ya publicada.",
       "angulo": "Lista: (1) DEMANDA, ACTUALIZAR: juez federal (~200, posición 7, dato de agosto; escala de octubre del Consejo disponible): ELEGIDA, APTA. (2) DEMANDA: veteranos de Malvinas (~450), madre de 7 hijos, Ley Brisa, asignación por nacimiento: la resolución ANSES de diciembre no está en el BO del 25/11 (_privado/bo_lista.py); esperar. (3) EMPRESAS (cupo): BBVA Argentina 3T26 (6-K 24/11) y Galicia (conferencia 25/11): no probadas porque la demanda va primero; mora de BBVA cubierta el 26/09 y cargos por incobrables el 23/11; razón del cupo escrita. (4) Supermercados/autoservicios/centros de compras de septiembre (INDEC hoy 16 h): candidata para la corrida de la tarde si trae un ángulo propio. (5) Patrimonio de los diputados (Cronista, 24/11): sigue pendiente para una corrida con tiempo. (6) Final de Copa Argentina Boca-Platense 02/12: va después del partido (calendario de finales).",
       "motivo_descarte": "no probadas o sin dato nuevo: ver angulo"
+    },
+    {
+      "fecha": "2026-11-25",
+      "estado": "publicada",
+      "articulo_id": "2026-10-11-celiaquia-cobertura-obra-social-pami-monto",
+      "tema": "ACTUALIZACIÓN con el mismo id de la nota del 11/10/2026 sobre cuánto paga la obra social o el PAMI a un celíaco (demanda: 'monto / reintegro / subsidio por celiaquía 2026', ~175 apariciones, posición 9, se busca por mes; la nota tenía el monto de abril $58.560,975 y anunciaba la actualización del 26/10).",
+      "angulo": "Monto del 26/10/2026: $65.740,95 (Ministerio de Salud; Asociación Celíaca igual), 27,5% de la CBA de septiembre $239.058 recalculado al centavo; +12,3% = suba de la CBA mar-sep. Hallazgo propio: en abr-sep 2026 el monto quieto dio $23.251 menos (6,2%) que la regla aplicada a la CBA de cada mes, contra $40.926 (12,7%) en oct-25/mar-26; a un año, monto +40,0% y CBA +39,9%; en octubre la CBA subió 3,1% y la regla ya da $67.750 (cubre 26,7%). La página del PAMI seguía al 25/11 con $58.560,98 y no se encontró disposición nueva. Próxima actualización 26/04/2027."
+    },
+    {
+      "fecha": "2026-11-25",
+      "estado": "descartada",
+      "articulo_id": null,
+      "tema": "descartes de la corrida de redacción del 25/11/2026 10:30 (pasó la primera candidata probada: actualización de la cobertura por celiaquía). agenda.py: HOY supermercados, autoservicios mayoristas, electrodomésticos 3T y centros de compras a las 16 h; HOY NO HAY NOTA DE EMPRESAS; build_empresas: 1 hecho CNV nuevo. Portadas no barridas a fondo: la demanda tenía una candidata con dato oficial nuevo y nota desactualizada.",
+      "angulo": "Lista: (1) DEMANDA, ACTUALIZAR: celiaquía (~175, posición 9, monto de abril; el Ministerio actualizó el 26/10): ELEGIDA, APTA. (2) DEMANDA: recolector de residuos (~140, posición 9): la nota del 06/10 ya trae la escala firmada hasta febrero de 2027; sin dato nuevo. (3) DEMANDA: enfermero de clínica (~46, posición 8, escala de agosto): no probada; buscar si FATSA firmó escala de septiembre en adelante. (4) DEMANDA: peaje ruta 2 (~34, posición 10): no probada; ver si AUBASA fija tarifa de temporada de diciembre. (5) DEMANDA: veteranos de Malvinas, madre de 7 hijos, Ley Brisa, asignación por nacimiento: siguen esperando la resolución ANSES de diciembre (no revisado el BO en esta corrida). (6) EMPRESAS (cupo): BBVA Argentina 3T26 (6-K 24/11) y Galicia (conferencia 25/11): no probadas porque la demanda va primero; mora de BBVA cubierta el 26/09 y cargos por incobrables el 23/11; retomables con la mora de personas 3T contra 2T. Razón del cupo escrita. (7) Supermercados y centros de compras de septiembre (INDEC 16 h): candidata para la corrida de la tarde con ángulo propio. (8) Final de Copa Argentina Boca-Platense 02/12: la corrida previa al partido deja _privado/finales/2026-12-02.md.",
+      "motivo_descarte": "no probadas o sin dato nuevo: ver angulo"
     }
   ]
 }

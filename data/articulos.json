@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-25T04:55:23-03:00",
+    "actualizado": "2026-11-25T10:41:16-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,25 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-11-celiaquia-cobertura-obra-social-pami-monto",
+      "titulo": "Un celíaco tiene derecho a $65.740,95 por mes de su obra social, prepaga o PAMI desde el 26 de octubre",
+      "bajada": "El Ministerio de Salud fijó la cobertura por celiaquía en el 27,5% de la canasta básica alimentaria de septiembre: 12,3% más que en abril. Pero el monto queda quieto seis meses y la canasta no: en el semestre anterior, eso le dio a un celíaco $23.251 menos que la misma regla aplicada a la canasta de cada mes. El monto nuevo queda fijo hasta el 26 de abril de 2027, y en octubre la canasta ya subió 3,1%. Al 25 de noviembre, la página del trámite del PAMI todavía mostraba el monto anterior.",
+      "titulo_busqueda": "¿Cuánto paga la obra social o el PAMI a un celíaco en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$65.740,95",
+      "numero_label": "cobertura mensual por celiaquía que deben pagar obras sociales, prepagas y PAMI desde el 26/10/2026",
+      "fecha": "2026-11-25",
+      "hora": "11:30",
+      "archivo": "articulos/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.html",
+      "verificacion": "verificada",
+      "fuentes": 10,
+      "lectura": "30 seg → 5 min",
+      "numero_fuente": "Ministerio de Salud, actualización del 26/10/2026: $65.740,95 = 27,5% de la CBA de septiembre de 2026 ($239.058, INDEC 13/10/2026; serie $239.058,22), art. 9 del anexo del Decreto 218/2023; Asociación Celíaca Argentina informa el mismo valor; PAMI al 25/11 seguía con $58.560,98. Semestre abr-sep 2026: pagado $351.366 vs regla mes a mes $374.617 (dif. $23.251, 6,2%); oct-25 a mar-26: dif. $40.926 (12,7%). CBA octubre $246.362,93: regla $67.750, cubre 26,7%.",
+      "publicada_original": "2026-10-11",
+      "actualizaciones": 1
+    },
     {
       "id": "2026-10-06-cuanto-cobra-juez-federal-sueldo-inflacion",
       "titulo": "Un juez federal de primera instancia cobra $7.668.205 brutos por mes sin antigüedad, 2,8% más que hace un año descontada la inflación",
@@ -7502,23 +7521,6 @@
       "fuentes": 5,
       "lectura": "30 seg → 5 min",
       "numero_fuente": "caída del gasoil importado en enero-agosto de 2026 contra 2025: 408.390 m³ contra 1.167.082 (Secretaría de Energía, Res. 1104/2004); contraste INDEC NCM 2710.19.21: 372,0 contra 981,2 millones de kg (−62,1%)"
-    },
-    {
-      "id": "2026-10-11-celiaquia-cobertura-obra-social-pami-monto",
-      "titulo": "Un celíaco recibe $58.560 por mes de su obra social o del PAMI para comprar harinas sin gluten: con la canasta de agosto, el monto ya cubre 24,9% y no el 27,5% que fija la norma",
-      "bajada": "La reglamentación de la ley de celiaquía obliga a obras sociales, prepagas y PAMI a pagar el 27,5% de la canasta básica alimentaria del INDEC, y lo actualiza cada seis meses. Desde el 26 de abril son $58.560,975. Pero la canasta siguió subiendo: con el valor de agosto, la regla ya daría $64.653, y el monto vigente cubre 24,9%.",
-      "titulo_busqueda": "¿Cuánto paga la obra social o el PAMI a un celíaco en 2026?",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "$58.560",
-      "numero_label": "cobertura mensual por celiaquía que deben pagar obras sociales, prepagas y PAMI desde el 26/04/2026",
-      "fecha": "2026-10-11",
-      "hora": "14:45",
-      "archivo": "articulos/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.html",
-      "verificacion": "verificada",
-      "fuentes": 9,
-      "lectura": "30 seg → 5 min",
-      "numero_fuente": "cobertura mensual por celiaquía que deben pagar obras sociales, prepagas y PAMI desde el 26/04/2026 ($58.560,975, Ministerio de Salud; PAMI $58.560,98): 27,5% de la CBA de marzo de 2026 ($212.949, INDEC) según el art. 9 del anexo del Decreto 218/2023; con la CBA de agosto ($235.103) la regla daría $64.653"
     },
     {
       "id": "2026-10-11-ia-empleo-jovenes-stanford",
