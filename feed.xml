@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 25 Nov 2026 10:41:00 -0300</lastBuildDate>
+    <lastBuildDate>Wed, 25 Nov 2026 16:51:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Un enfermero de clínica cobra $1.349.492 de básico desde noviembre, y su sueldo compra 6,7% menos que hace un año</title>
+      <link>https://coninteres.com/articulos/2026-09-27-cuanto-cobra-enfermero-clinica-sanidad.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-27-cuanto-cobra-enfermero-clinica-sanidad.html</guid>
+      <pubDate>Wed, 25 Nov 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>Hay escala nueva y ya homologada, y aun así el sueldo de un enfermero de clínica compra 6,7% menos que hace un año. En octubre, el último mes con inflación publicada, su básico había subido 24,2% en un año y los precios, 33,1%. El convenio de clínicas y sanatorios (CCT 122/75), firmado el 15 de octubre, le fija $1.349.492,40 de básico en noviembre, más $70.000 no remunerativos, y llega a $1.412.489,60 en enero de 2027.</description>
+      <ci:numero>$1.349.492</ci:numero>
+      <ci:numeroEtiqueta>salario básico de un enfermero de piso en una clínica privada (CCT 122/75) desde noviembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-cobra-enfermero-clinica-sanidad.png" length="64970" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-27-cuanto-cobra-enfermero-clinica-sanidad.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Un celíaco tiene derecho a $65.740,95 por mes de su obra social, prepaga o PAMI desde el 26 de octubre</title>
       <link>https://coninteres.com/articulos/2026-10-11-celiaquia-cobertura-obra-social-pami-monto.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>rentabilidad anual real después de impuestos con la que el regulador calculó la tarifa de quien construya AMBA I; a Transener le reconoce 6,48%</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-amba-i-obra-electrica-rentabilidad-transener.png" length="75735" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-amba-i-obra-electrica-rentabilidad-transener.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>La res vacuna pesa 241 kilos en promedio, lo más alto desde 1921: sin esos kilos de más, el país habría producido 97.000 toneladas menos de carne</title>
-      <link>https://coninteres.com/articulos/2026-11-21-peso-res-vacuna-241-kilos-desde-1921.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-21-peso-res-vacuna-241-kilos-desde-1921.html</guid>
-      <pubDate>Sat, 21 Nov 2026 03:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Entre enero y octubre de 2026 la Argentina faenó menos animales, pero cada uno dio más carne: 241 kilos con hueso en promedio, según la Secretaría de Agricultura. En la serie oficial, que arranca en 1914, ningún año desde 1921 llegó a tanto. Con el peso de 2025, la misma faena habría dado 97.000 toneladas menos: la producción habría caído 10,2% en lugar de 6,5%. No es, sin embargo, el máximo histórico: entre 1914 y 1916 la res promediaba 259 kilos.</description>
-      <ci:numero>241 kg</ci:numero>
-      <ci:numeroEtiqueta>peso promedio de la res vacuna faenada entre enero y octubre de 2026, el más alto en un año desde 1921</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-peso-res-vacuna-241-kilos-desde-1921.png" length="70015" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-peso-res-vacuna-241-kilos-desde-1921.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

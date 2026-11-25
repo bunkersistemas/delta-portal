@@ -10247,6 +10247,21 @@
       "tema": "descartes de la corrida de redacción del 25/11/2026 10:30 (pasó la primera candidata probada: actualización de la cobertura por celiaquía). agenda.py: HOY supermercados, autoservicios mayoristas, electrodomésticos 3T y centros de compras a las 16 h; HOY NO HAY NOTA DE EMPRESAS; build_empresas: 1 hecho CNV nuevo. Portadas no barridas a fondo: la demanda tenía una candidata con dato oficial nuevo y nota desactualizada.",
       "angulo": "Lista: (1) DEMANDA, ACTUALIZAR: celiaquía (~175, posición 9, monto de abril; el Ministerio actualizó el 26/10): ELEGIDA, APTA. (2) DEMANDA: recolector de residuos (~140, posición 9): la nota del 06/10 ya trae la escala firmada hasta febrero de 2027; sin dato nuevo. (3) DEMANDA: enfermero de clínica (~46, posición 8, escala de agosto): no probada; buscar si FATSA firmó escala de septiembre en adelante. (4) DEMANDA: peaje ruta 2 (~34, posición 10): no probada; ver si AUBASA fija tarifa de temporada de diciembre. (5) DEMANDA: veteranos de Malvinas, madre de 7 hijos, Ley Brisa, asignación por nacimiento: siguen esperando la resolución ANSES de diciembre (no revisado el BO en esta corrida). (6) EMPRESAS (cupo): BBVA Argentina 3T26 (6-K 24/11) y Galicia (conferencia 25/11): no probadas porque la demanda va primero; mora de BBVA cubierta el 26/09 y cargos por incobrables el 23/11; retomables con la mora de personas 3T contra 2T. Razón del cupo escrita. (7) Supermercados y centros de compras de septiembre (INDEC 16 h): candidata para la corrida de la tarde con ángulo propio. (8) Final de Copa Argentina Boca-Platense 02/12: la corrida previa al partido deja _privado/finales/2026-12-02.md.",
       "motivo_descarte": "no probadas o sin dato nuevo: ver angulo"
+    },
+    {
+      "fecha": "2026-11-25",
+      "estado": "publicada",
+      "articulo_id": "2026-09-27-cuanto-cobra-enfermero-clinica-sanidad",
+      "tema": "ACTUALIZACIÓN con el mismo id de la nota del 27/09/2026 sobre cuánto cobra un enfermero de clínica (demanda: 'cuanto cobra un enfermero en argentina 2026', ~46 apariciones, posición 8; la nota tenía la escala de agosto). Acuerdo CCT 122/75 del 15/10/2026, homologado: enfermero de piso $1.349.492,40 en noviembre (+$70.000), $1.412.489,60 en enero 2027; oct/oct básico +24,2% contra IPC +33,1% (-6,7%).",
+      "angulo": "escala vigente de noviembre y pactada hasta enero, poder de compra contra IPC, índice de salarios privado registrado y CBT hogar 2"
+    },
+    {
+      "fecha": "2026-11-25",
+      "estado": "descartada",
+      "articulo_id": null,
+      "tema": "descartes de la corrida de redacción del 25/11/2026 16:30 (pasó la primera candidata probada: actualización del enfermero de clínica). agenda.py: HOY supermercados, mayoristas, electrodomésticos 3T y centros de compras a las 16 h; HOY NO HAY NOTA DE EMPRESAS; build_empresas sin hechos nuevos. BO del 25/11 revisado con bo_lista.py: sin resolución ANSES de diciembre. Portadas no barridas a fondo: la demanda tenía una candidata con documento nuevo y nota desactualizada.",
+      "angulo": "Lista: (1) DEMANDA, ACTUALIZAR: enfermero de clínica (~46, posición 8, escala de agosto; acuerdo del 15/10/2026 homologado, publicado por ADECRA): ELEGIDA, APTA. (2) DEMANDA: veteranos de Malvinas, madre de 7 hijos, Ley Brisa, asignación por nacimiento: la resolución ANSES de diciembre no está en el BO del 25/11; esperar. (3) DEMANDA: peaje ruta 2 (~34, posición 10): sin aumento nuevo de AUBASA después del 09/10 (revisión trimestral); sin dato nuevo. (4) DEMANDA: recolector de residuos: la nota ya trae la escala hasta febrero de 2027. (5) EMPRESAS (cupo): BBVA Argentina 3T26 (6-K 24/11) y Galicia (conferencia 25/11): no probadas porque la demanda va primero; retomables con la mora de personas 3T contra 2T. Razón del cupo escrita. (6) Supermercados y centros de compras de septiembre (INDEC hoy 16 h): medios de pago cubiertos el 23/11; sin ángulo propio probado. (7) Patrimonio de los diputados: pendiente para una corrida con tiempo. (8) FATSA no subió aún su copia del acuerdo nuevo: si la sube, sumarla a las fuentes de la nota.",
+      "motivo_descarte": "no probadas o sin dato nuevo: ver angulo"
     }
   ]
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-25T10:41:16-03:00",
+    "actualizado": "2026-11-25T16:51:49-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,25 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-09-27-cuanto-cobra-enfermero-clinica-sanidad",
+      "titulo": "Un enfermero de clínica cobra $1.349.492 de básico desde noviembre, y su sueldo compra 6,7% menos que hace un año",
+      "bajada": "Hay escala nueva y ya homologada, y aun así el sueldo de un enfermero de clínica compra 6,7% menos que hace un año. En octubre, el último mes con inflación publicada, su básico había subido 24,2% en un año y los precios, 33,1%. El convenio de clínicas y sanatorios (CCT 122/75), firmado el 15 de octubre, le fija $1.349.492,40 de básico en noviembre, más $70.000 no remunerativos, y llega a $1.412.489,60 en enero de 2027.",
+      "titulo_busqueda": "Sueldo de un enfermero en Argentina en 2026: la escala de clínicas y sanatorios",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$1.349.492",
+      "numero_label": "salario básico de un enfermero de piso en una clínica privada (CCT 122/75) desde noviembre de 2026",
+      "fecha": "2026-11-25",
+      "hora": "16:30",
+      "archivo": "articulos/2026-09-27-cuanto-cobra-enfermero-clinica-sanidad.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "Acuerdo FATSA-ADECRA-CONFECLISA-CACEP-AAEG-CEPSAL del 15/10/2026, punto 4, categoria h: sep 1.287.363,64; oct 1.310.536,19; nov 1.349.492,40; dic 1.373.783,26; ene-27 1.412.489,60 (ADECRA uploads/2026/10/acuerdo-122-octubre-de-2026.pdf). Homologado: DI-2026-111862091-APN-DNRYRT#MCH, EX-2026-102950357 (mismas 6 partes, clausulas 3, 10 y 13). Recalculo: ago 1.262.121,22 (acuerdo 19/06/2026, FATSA y ADECRA) x1,02 = sep; x1,018 = oct; nov +2,9725% igual en cadete (1.041.836,77 -> 1.072.805,79) y en todas las categorias. Oct-25 1.054.975,60 (acuerdo 26/08/2025): +24,22%; IPC oct-25 9.603,8623, oct-26 12.785,9321 (+33,13%); real -6,69%; con suma (60.000 / 80.000) +24,71%, real -6,32%. Contraste: indice de salarios privado registrado sep-25 7.896,90, sep-26 10.357,14 (+31,15%), IPC sep/sep +33,35%, real -1,65%. CBT hogar 2 oct-26 546.925,70 x 3,09 = 1.690.000,41; oct-25 1.213.798,81. FATSA no subio aun su copia del acuerdo nuevo.",
+      "publicada_original": "2026-09-27",
+      "actualizaciones": 1
+    },
     {
       "id": "2026-10-11-celiaquia-cobertura-obra-social-pami-monto",
       "titulo": "Un celíaco tiene derecho a $65.740,95 por mes de su obra social, prepaga o PAMI desde el 26 de octubre",
@@ -9874,22 +9893,6 @@
       "fuentes": 5,
       "lectura": "30 seg → 7 min",
       "numero_fuente": "año en que vence la concesión de Aeropuertos Argentina 2000 si cumple la inversión adicional de US$600 M en Ezeiza (DA 27/2026, BO 28/09/2026); 2049 si no cumple; hasta hoy, 2038"
-    },
-    {
-      "id": "2026-09-27-cuanto-cobra-enfermero-clinica-sanidad",
-      "titulo": "Un enfermero de clínica cobra $1.262.121 de básico: en un año subió 23,6% y los precios, 33,5%",
-      "bajada": "La escala del convenio de clínicas y sanatorios (CCT 122/75) fija desde agosto de 2026 un básico de $1.262.121,22 para un enfermero de piso, más $80.000 no remunerativos. Contra agosto de 2025 el básico subió 23,6% y los precios 33,5%: compra 7,4% menos. Con la suma incluida, cubre el 83,6% de la canasta básica de una familia tipo.",
-      "titulo_busqueda": "¿Cuánto cobra un enfermero en 2026? $1.262.121 de básico en una clínica privada",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "$1.262.121",
-      "numero_label": "de salario básico cobra un enfermero de piso en una clínica privada (CCT 122/75) desde agosto de 2026",
-      "fecha": "2026-09-27",
-      "hora": "23:30",
-      "archivo": "articulos/2026-09-27-cuanto-cobra-enfermero-clinica-sanidad.html",
-      "verificacion": "verificada",
-      "fuentes": 10,
-      "lectura": "30 seg → 6 min"
     },
     {
       "id": "2026-09-27-fondo-bahia-blanca-cuanto-se-pago",
