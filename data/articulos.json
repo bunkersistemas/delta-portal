@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-26T05:04:45-03:00",
+    "actualizado": "2026-11-26T11:01:17-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,25 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-09-25-empleada-domestica-sueldo-octubre",
+      "titulo": "Una empleada doméstica cobra $519.826 por mes en diciembre, y su aguinaldo mínimo es de $259.913",
+      "bajada": "La escala oficial fija para diciembre $519.825,60 por mes y $4.237,25 por hora para el personal de tareas generales con retiro, y el aguinaldo es la mitad del mejor sueldo del semestre. En octubre, el último mes con inflación publicada, el sueldo mínimo empató con los precios: los dos subieron 33,1% en un año. El empate no devuelve lo perdido en el camino: ese sueldo compra todavía 3,3% menos que en agosto de 2025.",
+      "titulo_busqueda": "¿Cuánto cobra una empleada doméstica en diciembre 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "$519.826",
+      "numero_label": "sueldo mínimo mensual de una empleada doméstica de tareas generales con retiro en diciembre de 2026",
+      "fecha": "2026-11-26",
+      "hora": "10:30",
+      "archivo": "articulos/2026-09-25-empleada-domestica-sueldo-octubre.html",
+      "verificacion": "verificada",
+      "fuentes": 11,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "CNTCP Res. 6/2026 art. 5 rectificado por Res. 7/2026 (BO 18/09/2026, aviso 347648, Anexo 5 corregido IF-2026-85636281): dic-26 tareas generales con retiro $519.825,60/mes y $4.237,25/h; Anexo 4 corregido nov-26 $511.639,37 y $4.170,52. Recalculo: (498.582,06 + 5.000) x 1,016 = 511.639,37; x 1,016 = 519.825,60; 4.170,52 x 1,016 = 4.237,25. Contraste: UPACP (upacp.org.ar/?page_id=26745) al 26/11/2026 publica nov-26 $511.639,37 y $4.170,52, igual al BO. Aguinaldo: Ley 26.844 arts. 26-27, 50% de la mayor remuneracion del semestre = 259.912,80. Dic-25 384.722,14 + 14.000 no remunerativos (Res. 3/2025 art. 3): +35,12% basico, +30,37% con suma. IPC nacional oct-25 9.603,8623, oct-26 12.785,9321 (+33,13%); sueldo oct-26 498.582,06 / oct-25 374.541,36 (+33,12%): real -0,01%. Indice ago-25=100: sep-26 95,14, oct-26 96,67. CBT AE oct-25 392.815,15, oct-26 546.925,70 (+39,2%); x0,77: 421.132,79, sueldo +18,4% (oct-25 +23,8%). Sin escala posterior a diciembre de 2026 publicada al 26/11.",
+      "publicada_original": "2026-09-25",
+      "actualizaciones": 1
+    },
     {
       "id": "2026-11-26-estudiantes-final-libertadores-premio-cuentas",
       "titulo": "Ganarle la final a Palmeiras le paga a Estudiantes US$25 millones, casi el triple de lo que cobró por copas internacionales en todo su último año",
@@ -10679,23 +10698,6 @@
       "verificacion": "verificada",
       "fuentes": 9,
       "lectura": "30 seg → 6 min"
-    },
-    {
-      "id": "2026-09-25-empleada-domestica-sueldo-octubre",
-      "titulo": "Una empleada doméstica cobra $498.582 por mes desde octubre: 33,1% más que hace un año, casi lo mismo que subieron los precios",
-      "bajada": "La escala oficial de octubre fija $498.582,06 por mes para el personal de tareas generales con retiro y $4.064,08 por hora. Contra octubre de 2025 son 33,1% más. Pero la suba llegó tarde: en agosto, con la suma fija incluida, el sueldo mínimo compraba 4,2% menos que un año antes.",
-      "titulo_busqueda": "¿Cuánto cobra una empleada doméstica en octubre de 2026? $498.582 por mes y $4.064,08 la hora",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "$498.582",
-      "numero_label": "sueldo mínimo mensual de una trabajadora de casas particulares de tareas generales con retiro desde octubre de 2026",
-      "fecha": "2026-09-25",
-      "hora": "11:30",
-      "archivo": "articulos/2026-09-25-empleada-domestica-sueldo-octubre.html",
-      "verificacion": "verificada",
-      "fuentes": 10,
-      "lectura": "30 seg → 6 min",
-      "numero_fuente": "sueldo mínimo mensual de una trabajadora de casas particulares de tareas generales con retiro desde octubre de 2026 (Resolución 6/2026 de la CNTCP); en octubre de 2025, $374.541,36"
     },
     {
       "id": "2026-09-25-cuanto-tiene-que-subir-dolar-techo-banda",

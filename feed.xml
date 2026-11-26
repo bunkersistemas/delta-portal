@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 26 Nov 2026 05:04:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 11:01:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Una empleada doméstica cobra $519.826 por mes en diciembre, y su aguinaldo mínimo es de $259.913</title>
+      <link>https://coninteres.com/articulos/2026-09-25-empleada-domestica-sueldo-octubre.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-09-25-empleada-domestica-sueldo-octubre.html</guid>
+      <pubDate>Thu, 26 Nov 2026 10:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>La escala oficial fija para diciembre $519.825,60 por mes y $4.237,25 por hora para el personal de tareas generales con retiro, y el aguinaldo es la mitad del mejor sueldo del semestre. En octubre, el último mes con inflación publicada, el sueldo mínimo empató con los precios: los dos subieron 33,1% en un año. El empate no devuelve lo perdido en el camino: ese sueldo compra todavía 3,3% menos que en agosto de 2025.</description>
+      <ci:numero>$519.826</ci:numero>
+      <ci:numeroEtiqueta>sueldo mínimo mensual de una empleada doméstica de tareas generales con retiro en diciembre de 2026</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-09-25-empleada-domestica-sueldo-octubre.png" length="74873" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-09-25-empleada-domestica-sueldo-octubre.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Ganarle la final a Palmeiras le paga a Estudiantes US$25 millones, casi el triple de lo que cobró por copas internacionales en todo su último año</title>
       <link>https://coninteres.com/articulos/2026-11-26-estudiantes-final-libertadores-premio-cuentas.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>cuentas sueldo menos en los bancos en agosto de 2026 que un año antes, según el Banco Central</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.png" length="62384" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>El glifosato que la Argentina compra hecho llega todo de China; 7 de cada 10 kilos del insumo para fabricarlo acá vienen de Estados Unidos</title>
-      <link>https://coninteres.com/articulos/2026-11-21-glifosato-china-materia-prima-estados-unidos.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-21-glifosato-china-materia-prima-estados-unidos.html</guid>
-      <pubDate>Sat, 21 Nov 2026 08:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>MUNDO</category>
-      <description>El glifosato que la Argentina compra ya fabricado viene todo de China, pero lo que más compra es el insumo para fabricarlo acá, y ese viene sobre todo de Estados Unidos. Entre enero y octubre de 2026 entraron 26.347 toneladas de glifosato y 16.706 de herbicida listo para usar, todo chino, contra 77.723 toneladas de PMIDA, el 72,4% estadounidense. En total, US$346,6 millones. El glifosato chino llega 61,6% más barato que en 2022.</description>
-      <ci:numero>72,4%</ci:numero>
-      <ci:numeroEtiqueta>de la materia prima del glifosato (PMIDA) que importó la Argentina entre enero y octubre de 2026 vino de Estados Unidos</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-glifosato-china-materia-prima-estados-unidos.png" length="72469" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-glifosato-china-materia-prima-estados-unidos.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

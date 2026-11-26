@@ -1,258 +1,15 @@
 {
  "descripcion": "Calendario de publicaciones oficiales. Lo genera scripts/build_calendario.py desde los calendarios de difusion del INDEC y del BCRA. Ninguna fecha se estima: si una fuente no publica calendario, no entra. 'prioridad' y 'seccion_sugerida' son preclasificacion editorial, no dato de la fuente.",
- "generado": "2026-11-05T16:30:36",
- "desde": "2026-11-05",
- "hasta": "2027-03-05",
+ "generado": "2026-11-26T10:30:51",
+ "desde": "2026-11-26",
+ "hasta": "2027-03-26",
  "fuentes": {
   "INDEC": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario",
   "BCRA": "https://www.bcra.gob.ar/calendario-de-informes/"
  },
  "incompleto": null,
- "total": 132,
+ "total": 129,
  "publicaciones": [
-  {
-   "fecha": "2026-11-05",
-   "hora": null,
-   "organismo": "BCRA",
-   "publicacion": "Informe sobre Inversión Extranjera Directa",
-   "prioridad": "media",
-   "seccion_sugerida": "los-mercados",
-   "calendario": "https://www.bcra.gob.ar/calendario-de-informes/"
-  },
-  {
-   "fecha": "2026-11-05",
-   "hora": null,
-   "organismo": "BCRA",
-   "publicacion": "Relevamiento de Expectativas de Mercado (REM)",
-   "prioridad": "alta",
-   "seccion_sugerida": "los-mercados",
-   "calendario": "https://www.bcra.gob.ar/calendario-de-informes/"
-  },
-  {
-   "fecha": "2026-11-05",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Argentine Foreign Trade Statistics. Preliminary data for the nine months of 2026",
-   "prioridad": "baja",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-05",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Índice de producción industrial pesquero (IPI pesquero). Septiembre de 2026",
-   "prioridad": "media",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-06",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Indicadores de coyuntura de la actividad de la construcción. Septiembre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-06",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Índice de producción industrial manufacturero (IPI manufacturero). Septiembre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-06",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Índice de producción industrial minero (IPI minero). Septiembre de 2026",
-   "prioridad": "media",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-11",
-   "hora": null,
-   "organismo": "BCRA",
-   "publicacion": "Informe Monetario Mensual",
-   "prioridad": "alta",
-   "seccion_sugerida": "los-mercados",
-   "calendario": "https://www.bcra.gob.ar/calendario-de-informes/"
-  },
-  {
-   "fecha": "2026-11-11",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Indicador sintético de servicios públicos (ISSP). Agosto de 2026",
-   "prioridad": "media",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-12",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Valorización mensual de la canasta básica alimentaria (CBA) y de la canasta básica total (CBT). Octubre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "tu-plata",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-12",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Índice de precios al consumidor (IPC). Cobertura nacional. Octubre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "tu-plata",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-13",
-   "hora": null,
-   "organismo": "BCRA",
-   "publicacion": "Boletín Estadístico",
-   "prioridad": "media",
-   "seccion_sugerida": "los-mercados",
-   "calendario": "https://www.bcra.gob.ar/calendario-de-informes/"
-  },
-  {
-   "fecha": "2026-11-13",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Utilización de la capacidad instalada en la industria (UCII). Septiembre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-13",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Índice de salarios. Septiembre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "tu-plata",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-16",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Valorización mensual de la canasta de crianza de la primera infancia, la niñez y la adolescencia. Octubre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "tu-plata",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-17",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Sistema de índices de precios mayoristas (SIPM). Octubre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-17",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Índice del costo de la construcción (ICC). Octubre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-18",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Dosier estadístico en conmemoración del Día Mundial del Niño. Sexta edición",
-   "prioridad": "baja",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-19",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Encuesta de tendencia de negocios. Industria manufacturera. Expectativas noviembre de 2026- enero de 2027",
-   "prioridad": "baja",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-19",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Encuesta de tendencia de negocios. Supermercados y autoservicios mayoristas. Expectativas noviembre de 2026-enero de 2027",
-   "prioridad": "media",
-   "seccion_sugerida": "tu-plata",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-19",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Intercambio comercial argentino (ICA). Bienes. Octubre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "el-mundo",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-20",
-   "hora": null,
-   "organismo": "BCRA",
-   "publicacion": "Informe sobre Bancos",
-   "prioridad": "alta",
-   "seccion_sugerida": "los-mercados",
-   "calendario": "https://www.bcra.gob.ar/calendario-de-informes/"
-  },
-  {
-   "fecha": "2026-11-24",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Estimador mensual de actividad económica (EMAE). Septiembre de 2026",
-   "prioridad": "alta",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Encuesta de autoservicios mayoristas. Septiembre de 2026",
-   "prioridad": "baja",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Encuesta de comercios de electrodomésticos y artículos para el hogar. Tercer trimestre de 2026",
-   "prioridad": "baja",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Encuesta de supermercados. Septiembre de 2026",
-   "prioridad": "media",
-   "seccion_sugerida": "tu-plata",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
-  {
-   "fecha": "2026-11-25",
-   "hora": "16:00",
-   "organismo": "INDEC",
-   "publicacion": "Encuesta nacional de centros de compras. Septiembre de 2026",
-   "prioridad": "baja",
-   "seccion_sugerida": "el-pais",
-   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
-  },
   {
    "fecha": "2026-11-26",
    "hora": null,
@@ -360,6 +117,15 @@
    "prioridad": "baja",
    "seccion_sugerida": "el-pais",
    "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2026-12-04",
+   "hora": null,
+   "organismo": "BCRA",
+   "publicacion": "Relevamiento de Expectativas de Mercado (REM)",
+   "prioridad": "alta",
+   "seccion_sugerida": "los-mercados",
+   "calendario": "https://www.bcra.gob.ar/calendario-de-informes/"
   },
   {
    "fecha": "2026-12-04",
@@ -1195,6 +961,213 @@
    "organismo": "INDEC",
    "publicacion": "Índice de producción industrial minero (IPI minero). Enero de 2027",
    "prioridad": "media",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-09",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Indicadores de coyuntura de la actividad de la construcción (ISAC). Enero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-09",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Origen provincial de las exportaciones. Bienes. Año 2026",
+   "prioridad": "baja",
+   "seccion_sugerida": "tu-provincia",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-09",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Índice de producción industrial manufacturero (IPI manufacturero). Enero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-10",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Accesos a internet. Cuarto trimestre de 2026",
+   "prioridad": "media",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-10",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Indicador sintético de servicios públicos (ISSP). Diciembre de 2026",
+   "prioridad": "media",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-12",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Valorización mensual de la canasta básica alimentaria (CBA) y de la canasta básica total (CBT). Febrero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "tu-plata",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-12",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Índice de precios al consumidor (IPC). Cobertura nacional. Febrero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "tu-plata",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-16",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Utilización de la capacidad instalada en la industria (UCII). Enero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-16",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Valorización mensual de la canasta de crianza de la primera infancia, la niñez y la adolescencia. Febrero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "tu-plata",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-16",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Índice de salarios. Enero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "tu-plata",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-17",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Sistema de índices de precios mayoristas (SIPM). Febrero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-17",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Índice del costo de la construcción (ICC). Febrero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-18",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Informe de avance del nivel de actividad. Cuarto trimestre de 2026",
+   "prioridad": "baja",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-18",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Mercado de trabajo. Tasas e indicadores socioeconómicos. Cuarto trimestre de 2026",
+   "prioridad": "alta",
+   "seccion_sugerida": "tu-plata",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-19",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Encuesta de Tendencia de Negocios. Industria manufacturera. Expectativas marzo-mayo de 2027",
+   "prioridad": "baja",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-19",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Encuesta de Tendencia de Negocios. Supermercados y autoservicios mayoristas. Expectativas marzo-mayo de 2027",
+   "prioridad": "media",
+   "seccion_sugerida": "tu-plata",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-19",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Intercambio comercial argentino (ICA). Bienes. Febrero de 2027",
+   "prioridad": "alta",
+   "seccion_sugerida": "el-mundo",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-22",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Encuesta de autoservicios mayoristas. Enero de 2027",
+   "prioridad": "baja",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-22",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Encuesta de supermercados. Enero de 2027",
+   "prioridad": "media",
+   "seccion_sugerida": "tu-plata",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-22",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Encuesta nacional de centros de compras. Enero de 2027",
+   "prioridad": "baja",
+   "seccion_sugerida": "el-pais",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-23",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Balanza de pagos, posición de inversión internacional y deuda externa. Cuarto trimestre de 2026",
+   "prioridad": "alta",
+   "seccion_sugerida": "los-mercados",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-23",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Estadísticas de turismo internacional. Febrero de 2027",
+   "prioridad": "media",
+   "seccion_sugerida": "el-mundo",
+   "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
+  },
+  {
+   "fecha": "2027-03-23",
+   "hora": "16:00",
+   "organismo": "INDEC",
+   "publicacion": "Estimador mensual de actividad económica (EMAE). Enero de 2027",
+   "prioridad": "alta",
    "seccion_sugerida": "el-pais",
    "calendario": "https://www.indec.gob.ar/indec/web/Institucional-Indec-Calendario"
   }
