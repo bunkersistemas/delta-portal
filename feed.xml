@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Wed, 25 Nov 2026 22:44:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 05:04:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Ganarle la final a Palmeiras le paga a Estudiantes US$25 millones, casi el triple de lo que cobró por copas internacionales en todo su último año</title>
+      <link>https://coninteres.com/articulos/2026-11-26-estudiantes-final-libertadores-premio-cuentas.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-26-estudiantes-final-libertadores-premio-cuentas.html</guid>
+      <pubDate>Thu, 26 Nov 2026 04:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>DEPORTES</category>
+      <description>En su último ejercicio, Estudiantes registró unos US$8,7 millones por todas sus copas internacionales. El sábado, una sola noche en Montevideo puede pagarle casi el triple. Si le gana a Palmeiras, cobra US$25 millones de la CONMEBOL y su Libertadores 2026 suma US$33,93 millones. Si pierde, se lleva US$7 millones y cierra con US$15,93 millones: aun así, más de lo que Boca cobró por ganar la Sudamericana. El premio al campeón es casi del tamaño de toda la deuda que el club tenía al 30 de junio.</description>
+      <ci:numero>US$25 M</ci:numero>
+      <ci:numeroEtiqueta>premio de la CONMEBOL al campeón de la Libertadores 2026, que juegan Estudiantes y Palmeiras el 28 de noviembre en Montevideo</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-26-estudiantes-final-libertadores-premio-cuentas.png" length="76077" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-26-estudiantes-final-libertadores-premio-cuentas.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Si Messi sigue haciendo goles al ritmo del último año, ¿cuándo llegaría a los 1.000?</title>
       <link>https://coninteres.com/articulos/2026-10-20-messi-1000-goles-cuando.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>de la materia prima del glifosato (PMIDA) que importó la Argentina entre enero y octubre de 2026 vino de Estados Unidos</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-glifosato-china-materia-prima-estados-unidos.png" length="72469" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-glifosato-china-materia-prima-estados-unidos.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Europa paga US$15.000 por cada tonelada de carne argentina, 3,2 veces lo que paga China: compra el 8% de los kilos y deja el 17,5% de los dólares</title>
-      <link>https://coninteres.com/articulos/2026-11-21-carne-europa-15000-dolares-tonelada-china.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-21-carne-europa-15000-dolares-tonelada-china.html</guid>
-      <pubDate>Sat, 21 Nov 2026 06:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>Europa compró el 8% de las toneladas de carne vacuna que exportó la Argentina y dejó el 17,5% de los dólares. Entre enero y octubre de 2026 pagó en promedio US$15.000 la tonelada, según la base de comercio exterior del INDEC: 3,2 veces lo que pagó China. En dólares corrientes, ningún año completo desde 2002 había pagado tanto. El 20 de noviembre el Gobierno cambió las reglas para faenar los animales de los cupos europeos.</description>
-      <ci:numero>US$15.000</ci:numero>
-      <ci:numeroEtiqueta>precio promedio por tonelada de la carne vacuna exportada a la Unión Europea, enero-octubre de 2026 (China: US$4.668)</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-carne-europa-15000-dolares-tonelada-china.png" length="81404" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-carne-europa-15000-dolares-tonelada-china.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

@@ -1,14 +1,14 @@
 {
  "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
- "fecha": "2026-11-25",
- "pregunta": "Según el INDEC, la actividad cayó 1,0% en el segundo trimestre de 2026 y 1,8% en el tercero, siempre contra el trimestre anterior y sin estacionalidad, aunque septiembre rebotó. ¿Por qué se dice que la economía entró en una «recesión técnica»?",
+ "fecha": "2026-11-26",
+ "pregunta": "El básico de un enfermero de clínica subió 24,2% en un año, y en el mismo período los precios subieron 33,1%. ¿Cuánto menos puede comprar con su sueldo que hace un año?",
  "opciones": [
-  "Porque así se llama a dos trimestres seguidos de caída frente al trimestre anterior, aunque algún mes suelto suba.",
-  "Porque la actividad de septiembre quedó por debajo de la de septiembre de 2025.",
-  "Porque la caída acumulada pasó el 2%, el umbral con el que el INDEC declara oficialmente una recesión."
+  "Un 6,7% menos: hay que dividir lo que subió el sueldo por lo que subieron los precios, no restar.",
+  "Un 8,9% menos: la diferencia entre 33,1% y 24,2%.",
+  "Nada menos: con un aumento de 24,2% el sueldo alcanza para más cosas que antes."
  ],
  "correcta": 0,
- "explicacion": "«Recesión técnica» es una convención, no una declaración oficial: se usa cuando el producto cae dos trimestres seguidos contra el trimestre anterior, ya sin el efecto de la estación. Por eso un buen mes no la borra: lo que cuenta es el promedio de los tres meses del trimestre. Comparar con el mismo mes del año anterior (la interanual) mide otra cosa, y el INDEC no tiene ningún umbral para «declarar» recesiones. Desde 2004 la Argentina encadenó caídas así nueve veces contando esta.",
- "nota": "articulos/2026-11-24-recesion-tecnica-novena-desde-2004.html",
+ "explicacion": "Lo que importa es el poder de compra: cuántas cosas paga el sueldo. Si el sueldo pasa de 100 a 124,2 y lo que costaba 100 ahora cuesta 133,1, el sueldo nuevo compra 124,2 / 133,1 = 0,933 de lo de antes: un 6,7% menos. Restar los porcentajes (33,1 − 24,2 = 8,9) exagera la pérdida cuando la inflación es alta, porque los dos aumentos se aplican sobre bases distintas. Y un aumento en pesos no dice nada por sí solo: hay que ponerlo al lado de los precios.",
+ "nota": "articulos/2026-09-27-cuanto-cobra-enfermero-clinica-sanidad.html",
  "leccion": ""
 }

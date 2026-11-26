@@ -1,11 +1,56 @@
 {
-  "generado": "2026-11-25T16:30",
+  "generado": "2026-11-26T04:31",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3596515",
+      "fuente": "CNV",
+      "fecha": "2026-11-25T19:14",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/7A74BCD5-8F29-4380-B5D7-FFA39B5D8B5F"
+    },
+    {
+      "id": "cnv-3596496",
+      "fuente": "CNV",
+      "fecha": "2026-11-25T18:50",
+      "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES S.A.U",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - INFORMACIÓN DE RESULTADOS SEGÚN ESTADOS FINANCIEROS AL 30 DE SEPTIEMBRE 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/9ADC31A7-4077-40C6-8775-E900597E427B"
+    },
+    {
+      "id": "cnv-3596489",
+      "fuente": "CNV",
+      "fecha": "2026-11-25T18:31",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICION DE ACCIONES PROPIAS EN LOS TERMINOS DEL ARTICULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/D44A9631-D983-406C-82CB-00D6A3CFF615"
+    },
+    {
+      "id": "cnv-3596472",
+      "fuente": "CNV",
+      "fecha": "2026-11-25T17:59",
+      "entidad": "CIA. DE TRANSPORTE DE ENERGIA ELECTRICA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE_ RECOMPRA DIARIA DE ACCIONES",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/1AA89C69-8C86-44AD-87EC-F9264A7C252E"
+    },
+    {
+      "id": "cnv-3596438",
+      "fuente": "CNV",
+      "fecha": "2026-11-25T17:13",
+      "entidad": "BANCO HIPOTECARIO S.A",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - RESEÑA INFORMATIVA: ANUNCIA RESULTADOS 3 TRIMESTRE 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B2B31668-36F4-4F2F-965E-349784C19D64"
+    },
     {
       "id": "cnv-3596053",
       "fuente": "CNV",
@@ -1611,15 +1656,6 @@
       "tipo": "hecho",
       "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE - NOTA DE RESULTADOS 3T26",
       "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A8B0ADE2-2C99-4F48-8C26-1E52315A07F1"
-    },
-    {
-      "id": "cnv-3584197",
-      "fuente": "CNV",
-      "fecha": "2026-10-26T17:48",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/61D72542-13A7-4BA0-B607-A35541ED253A"
     }
   ],
   "anuncios": [
@@ -1656,7 +1692,6 @@
     "sec-0001034957-26-000080": "2026-11-05",
     "sec-0001034957-26-000082": "2026-11-09",
     "sec-0001034957-26-000085": "2026-11-20",
-    "sec-0001104659-26-118637": "2026-10-26",
     "sec-0001104659-26-119660": "2026-10-28",
     "sec-0001104659-26-120214": "2026-10-29",
     "sec-0001104659-26-120635": "2026-10-30",
@@ -1685,6 +1720,8 @@
     "sec-0001104659-26-130195": "2026-11-19",
     "sec-0001104659-26-130664": "2026-11-20",
     "sec-0001104659-26-131670": "2026-11-24",
+    "sec-0001104659-26-132135": "2026-11-25",
+    "sec-0001104659-26-132171": "2026-11-25",
     "sec-0001114700-26-000085": "2026-11-16",
     "sec-0001114700-26-000087": "2026-11-24",
     "sec-0001193125-26-436152": "2026-10-28",
@@ -1701,7 +1738,7 @@
     "sec-0001193125-26-470918": "2026-11-23",
     "sec-0001193125-26-473127": "2026-11-24",
     "sec-0001193125-26-476775": "2026-11-25",
-    "sec-0001292814-26-005008": "2026-10-26",
+    "sec-0001193125-26-478694": "2026-11-25",
     "sec-0001292814-26-005026": "2026-10-28",
     "sec-0001292814-26-005042": "2026-10-29",
     "sec-0001292814-26-005068": "2026-10-30",

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-25T22:44:19-03:00",
+    "actualizado": "2026-11-26T05:04:45-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-26-estudiantes-final-libertadores-premio-cuentas",
+      "titulo": "Ganarle la final a Palmeiras le paga a Estudiantes US$25 millones, casi el triple de lo que cobró por copas internacionales en todo su último año",
+      "bajada": "En su último ejercicio, Estudiantes registró unos US$8,7 millones por todas sus copas internacionales. El sábado, una sola noche en Montevideo puede pagarle casi el triple. Si le gana a Palmeiras, cobra US$25 millones de la CONMEBOL y su Libertadores 2026 suma US$33,93 millones. Si pierde, se lleva US$7 millones y cierra con US$15,93 millones: aun así, más de lo que Boca cobró por ganar la Sudamericana. El premio al campeón es casi del tamaño de toda la deuda que el club tenía al 30 de junio.",
+      "titulo_busqueda": "¿Cuánto gana Estudiantes si sale campeón de la Libertadores 2026?",
+      "seccion": "DEPORTES",
+      "formato": "Investigación",
+      "numero": "US$25 M",
+      "numero_label": "premio de la CONMEBOL al campeón de la Libertadores 2026, que juegan Estudiantes y Palmeiras el 28 de noviembre en Montevideo",
+      "fecha": "2026-11-26",
+      "hora": "04:30",
+      "archivo": "articulos/2026-11-26-estudiantes-final-libertadores-premio-cuentas.html",
+      "verificacion": "verificada",
+      "fuentes": 12,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "CONMEBOL, anuncio de premios 19/03/2026 (campeón USD 25.000.000) y balance de semifinalistas 24/09/2026 (campeón 25 M, subcampeón 7 M adicionales; Estudiantes 8,93 M, Palmeiras 9,27 M). Recálculo: 3x1 M local en grupos + 2x0,34 M victorias (grupo A: 2-1 Cusco, 1-0 Medellín) + 1,25 + 1,7 + 2,3 = 8,93; Palmeiras 3 victorias = 9,27. Contraste: Infobae 20/03/2026 (escala por instancia), Wikipedia fase de grupos. Balance EDLP al 30/06/2026 (BDO, 6/10/2026), $ de jun-2026 / A3500 30/06/2026 1.483,0198: campeonatos internacionales 12.957,07 = US$8,737 M (25/8,737 = 2,86); pasivo 38.539,34 = US$25,99 M (96%); cuotas 15.907,82 = US$10,73 M; fútbol profesional 10.911,31+13.437,99+1.570,43 = 25.919,74 = US$17,48 M. Pesos al A3500 25/11/2026 1.608,6204."
+    },
     {
       "id": "2026-10-20-messi-1000-goles-cuando",
       "titulo": "Si Messi sigue haciendo goles al ritmo del último año, ¿cuándo llegaría a los 1.000?",
