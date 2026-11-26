@@ -10262,6 +10262,22 @@
       "tema": "descartes de la corrida de redacción del 25/11/2026 16:30 (pasó la primera candidata probada: actualización del enfermero de clínica). agenda.py: HOY supermercados, mayoristas, electrodomésticos 3T y centros de compras a las 16 h; HOY NO HAY NOTA DE EMPRESAS; build_empresas sin hechos nuevos. BO del 25/11 revisado con bo_lista.py: sin resolución ANSES de diciembre. Portadas no barridas a fondo: la demanda tenía una candidata con documento nuevo y nota desactualizada.",
       "angulo": "Lista: (1) DEMANDA, ACTUALIZAR: enfermero de clínica (~46, posición 8, escala de agosto; acuerdo del 15/10/2026 homologado, publicado por ADECRA): ELEGIDA, APTA. (2) DEMANDA: veteranos de Malvinas, madre de 7 hijos, Ley Brisa, asignación por nacimiento: la resolución ANSES de diciembre no está en el BO del 25/11; esperar. (3) DEMANDA: peaje ruta 2 (~34, posición 10): sin aumento nuevo de AUBASA después del 09/10 (revisión trimestral); sin dato nuevo. (4) DEMANDA: recolector de residuos: la nota ya trae la escala hasta febrero de 2027. (5) EMPRESAS (cupo): BBVA Argentina 3T26 (6-K 24/11) y Galicia (conferencia 25/11): no probadas porque la demanda va primero; retomables con la mora de personas 3T contra 2T. Razón del cupo escrita. (6) Supermercados y centros de compras de septiembre (INDEC hoy 16 h): medios de pago cubiertos el 23/11; sin ángulo propio probado. (7) Patrimonio de los diputados: pendiente para una corrida con tiempo. (8) FATSA no subió aún su copia del acuerdo nuevo: si la sube, sumarla a las fuentes de la nota.",
       "motivo_descarte": "no probadas o sin dato nuevo: ver angulo"
+    },
+    {
+      "fecha": "2026-11-25",
+      "estado": "en_cola",
+      "id": "2026-10-20-messi-1000-goles-cuando",
+      "tema": "ACTUALIZACIÓN con el mismo id de la nota del 20/10/2026 sobre cuándo llega Messi a los 1.000 goles (demanda: 'messi: cuantos goles le faltan para los 1000', ~420 apariciones, posición 7; pedido 107)",
+      "angulo": "Corrida de la redacción del 25/11/2026 22:30. Mismo dato que cambia de valor (937 en 1.186, faltan 63; un gol en cinco partidos desde el 20/10), por eso actualiza y no duplica. Hallazgo nuevo: el ritmo del último año con el club cayó a 0,77 (30 en 39), por debajo del de la carrera (0,79), y la nota original no tenía en cuenta el calendario nuevo de la MLS (Sprint Season 2027 de 14 fechas, 2027-28 de julio a mayo): el escenario central pasa de agosto de 2028 a nov-2028/feb-2029, al borde del contrato anunciado hasta diciembre de 2028.",
+      "archivo": "cola/2026-10-20-messi-1000-goles-cuando.html"
+    },
+    {
+      "fecha": "2026-11-25",
+      "estado": "descartada",
+      "articulo_id": null,
+      "tema": "descartes de la corrida de redacción del 25/11/2026 22:30 (pasó la primera candidata probada: actualización de Messi y los 1.000 goles). Portadas no barridas a fondo: la demanda tenía una candidata con dato nuevo y nota desactualizada; hoy ya salieron tres notas de ECONOMÍA del molde sueldo/monto, y esta es DEPORTES.",
+      "angulo": "Lista: (1) DEMANDA, ACTUALIZAR: Messi 1.000 goles (~420, posición 7, cuenta del 19/10): ELEGIDA, APTA. (2) DEMANDA: congresista de EE.UU. (~1.150): el sueldo no cambió (US$174.000), sin dato nuevo. (3) DEMANDA: campeón de la Copa Argentina (~900): final Boca-Platense el 02/12; va como nota nueva después del partido (calendario de finales). (4) DEMANDA: veteranos de Malvinas, madre de 7 hijos, Ley Brisa, asignación por nacimiento: siguen esperando la resolución ANSES de diciembre. (5) DEMANDA: IPCBA: noviembre sale en diciembre; octubre ya cubierto el 08/11. (6) DEMANDA: carne por habitante: nota del 29/10 vigente; retomable con el dato de noviembre. (7) EMPRESAS (cupo): BBVA Argentina 3T26 y Galicia: no probadas porque la demanda va primero; retomables con la mora de personas 3T contra 2T. Razón del cupo escrita. (8) Messi: si el Inter Miami queda afuera el 27/11 en Columbus, la nota ya lo anticipa (temporada 2026 cerrada en 937 más lo que haga ese día).",
+      "motivo_descarte": "no probadas o sin dato nuevo: ver angulo"
     }
   ]
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-25T16:51:49-03:00",
+    "actualizado": "2026-11-25T22:44:19-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,26 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-20-messi-1000-goles-cuando",
+      "titulo": "Si Messi sigue haciendo goles al ritmo del último año, ¿cuándo llegaría a los 1.000?",
+      "bajada": "Al ritmo del último año, el gol 1.000 de Messi caería entre noviembre de 2028 y febrero de 2029: en el borde del contrato que el Inter Miami anunció hasta diciembre de 2028. Lleva 937 goles oficiales en 1.186 partidos y le faltan 63. En los cinco partidos que jugó desde nuestra cuenta del 20 de octubre hizo uno solo, y su ritmo del último año con el club bajó a 30 goles en 39 partidos, menos que el promedio de su carrera. A ese ritmo necesita unos 82 partidos más, contados con el calendario nuevo de la MLS, que en 2027 juega una temporada corta de 14 fechas.",
+      "titulo_busqueda": "¿Cuándo llega Messi a los 1.000 goles? Cuántos le faltan y en cuántos partidos",
+      "seccion": "DEPORTES",
+      "formato": "Investigación",
+      "numero": "63",
+      "numero_label": "goles que le faltan a Messi para llegar a 1.000, al 25 de noviembre de 2026",
+      "fecha": "2026-11-25",
+      "hora": "22:30",
+      "archivo": "articulos/2026-10-20-messi-1000-goles-cuando.html",
+      "verificacion": "verificada",
+      "fuentes": 21,
+      "lectura": "30 seg → 8 min",
+      "numero_fuente": "937 goles oficiales en 1.186 partidos al 25/11/2026. Camino 1: suma por equipo de la nota del 20/10 (936 en 1.181) + registro ESPN gamelog desde el 20/10 (RBNY 0, Cincinnati 0, New England 1 el 1/11, Charlotte 0, Columbus PO 0); coincide con MessiStat (937/1.186, Inter Miami 107/125, actualizado 26/11). Camino 2: 896 al cierre de 2025 (ESPN Deportes) + 41 en 2026 (tracker ESPN, 21/11). Inter Miami 2026: 30 en 37 (gamelog MLS 31 partidos 26 goles + playoff 0 + Concacaf 2/1 + Leagues Cup 2/2 + Campeones Cup 1/1); contraste beIN 81/93 al gol 900 menos 4/5 de 2026 = 77/88 fin 2025; 107-77, 125-88. Ultimo anio club 26/11/25-25/11/26: 30 en 39 (NYCFC 29/11/25 y Vancouver 6/12/25 sin goles). Proyecciones = estimacion; script _privado/messi_1000_nov.py",
+      "pedido": 107,
+      "publicada_original": "2026-10-20",
+      "actualizaciones": 1
+    },
     {
       "id": "2026-09-27-cuanto-cobra-enfermero-clinica-sanidad",
       "titulo": "Un enfermero de clínica cobra $1.349.492 de básico desde noviembre, y su sueldo compra 6,7% menos que hace un año",
@@ -5684,24 +5704,6 @@
       "fuentes": 7,
       "lectura": "30 seg → 6 min",
       "numero_fuente": "caída de los turistas residentes que salieron por Ezeiza y Aeroparque con destino principal EE.UU. y Canadá entre 2017 y 2025: 758.752 a 581.613 (INDEC, ETI serie trimestral 2010-2026, Emisivo_serie_3b; suma de trimestres recalculada). Contraste NTTO I-94, llegadas a EE.UU. de residentes en la Argentina: 1.018.177 a 789.942 (−22,4%). Proporción 14,2% en 2025, la más baja desde 2010 (anterior mínima 17,7% en 2024)"
-    },
-    {
-      "id": "2026-10-20-messi-1000-goles-cuando",
-      "titulo": "Si Messi sigue haciendo goles al ritmo del último año, ¿cuándo llegaría a los 1.000?",
-      "bajada": "En ninguno de los tres escenarios que calculamos Messi llega a los 1.000 goles en 2027. Lleva 936 goles oficiales en 1.181 partidos: le faltan 64. En los últimos doce meses hizo 47 goles en 51 partidos, pero 12 fueron con la Selección, y ya no juega en ella. Todo lo que falta tiene que salir del Inter Miami, donde hizo 35 goles en 38 partidos. A ese ritmo necesitaría unos 70 partidos más: llegaría hacia agosto de 2028, a los 41 años y en la última temporada de su contrato.",
-      "titulo_busqueda": "¿Cuándo llega Messi a los 1.000 goles? Cuántos le faltan y en cuántos partidos",
-      "seccion": "DEPORTES",
-      "formato": "Investigación",
-      "numero": "64",
-      "numero_label": "goles que le faltan a Messi para llegar a 1.000",
-      "fecha": "2026-10-20",
-      "hora": "17:50",
-      "archivo": "articulos/2026-10-20-messi-1000-goles-cuando.html",
-      "verificacion": "verificada",
-      "fuentes": 18,
-      "lectura": "30 seg → 7 min",
-      "pedido": 107,
-      "numero_fuente": "goles que le faltan a Messi para llegar a 1.000: lleva 936 oficiales en 1.181 partidos al 19/10/2026 (suma por equipo: Barcelona 672, Selección 126, Inter Miami 106, PSG 32; coincide con MessiStat y con 896 al cierre de 2025 según ESPN + 40 en 2026 según Yahoo Sports). Último año: 47 goles en 51 partidos; solo Inter Miami, 35 en 38. Al ritmo del club, unos 70 partidos (estimado)"
     },
     {
       "id": "2026-10-20-aerolineas-empleados-pasajeros",
