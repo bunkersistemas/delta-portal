@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-26T11:01:17-03:00",
+    "actualizado": "2026-11-26T16:57:00-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-26-prestamistas-no-bancarios-tasa-139-por-ciento",
+      "titulo": "Los prestamistas que no son bancos cobran 139% anual por un préstamo personal, más del doble que un banco",
+      "bajada": "Un préstamo personal fuera de un banco cuesta más del doble. En julio, las fintech, mutuales, casas de electrodomésticos y otras financieras que no son bancos cobraron en promedio 139% de tasa nominal anual; los bancos, 65,8%, según un informe del Banco Central publicado el 26 de noviembre. En un préstamo de $500.000 a 12 cuotas, es pagar $450.000 de intereses en vez de $195.000. Y 30 de cada 100 pesos que prestaron están atrasados más de 90 días.",
+      "titulo_busqueda": "¿Qué tasa cobran las fintech y las financieras por un préstamo personal?",
+      "seccion": "MERCADOS",
+      "formato": "Anatomía de un dato",
+      "numero": "139%",
+      "numero_label": "tasa nominal anual promedio de los préstamos personales de prestamistas no bancarios, julio de 2026 (bancos: 65,8%)",
+      "fecha": "2026-11-26",
+      "hora": "16:30",
+      "archivo": "articulos/2026-11-26-prestamistas-no-bancarios-tasa-139-por-ciento.html",
+      "verificacion": "verificada",
+      "fuentes": 4,
+      "lectura": "30 seg → 6 min",
+      "numero_fuente": "BCRA, Informe de Proveedores No Financieros de Credito nov-2026 (PDF 26/11/2026), seccion 2.5: TNA promedio ponderada OPNFC prestamos personales 144% ene-26 -> 139% jul-26, +9 pp vs jul-25 (130, etiqueta del grafico 5); SF 65% ('diferencia de aproximadamente 73 p.p.'). Por grupo jul-26: Resto 163, Fintech 144, Electrodomesticos 124, Coop. y mutuales 95. Bancos recalculado: API BCRA v4 serie 1219 jul-26 65,78; jul-25 70,38 (brecha 59,6 -> 73,2 pp). Contraste independiente: regimen de transparencia BCRA (api transparencia Prestamos/Personales, 26/11/2026), lineas en pesos deduplicadas con fechaInformacion >= 2026-07: 161 PNFC, mediana por entidad de TEA maxima 311,4% = TNA 150,1%; 40 bancos 116,8% = TNA 79,9% (cociente 1,9 vs 2,1 del informe). Irregularidad PNFC 30,0% jul (24,7 ene), 30% ago; personales 36,3; EEFF familias 12,9 (10,6 ene). Ejemplo $500.000 12 cuotas frances TNA/12 sin IVA: intereses 449.993 vs 195.466 (2,30x). IPC INDEC jul-26/jul-25 33,83%."
+    },
     {
       "id": "2026-09-25-empleada-domestica-sueldo-octubre",
       "titulo": "Una empleada doméstica cobra $519.826 por mes en diciembre, y su aguinaldo mínimo es de $259.913",

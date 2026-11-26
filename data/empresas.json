@@ -1,11 +1,38 @@
 {
-  "generado": "2026-11-26T10:30",
+  "generado": "2026-11-26T16:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3595309",
+      "fuente": "CNV",
+      "fecha": "2026-11-26T16:05",
+      "entidad": "INVAP S.A.U",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN RELEVANTE RELATIVA A INSTRUMENTOS - HECHO RELEVANTE - INVAP SAU - REGISTRO ESCRITURAL",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/ADEE394B-2D07-4CA3-A61E-3509DB3601ED"
+    },
+    {
+      "id": "cnv-3596700",
+      "fuente": "CNV",
+      "fecha": "2026-11-26T14:50",
+      "entidad": "NUEVO CONTINENTE S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - FECHA PUESTA A DISPOSICIÓN PAGO DIVIDENDOS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6B6CC654-9129-406A-9865-470C08EDF92F"
+    },
+    {
+      "id": "cnv-3596590",
+      "fuente": "CNV",
+      "fecha": "2026-11-26T11:58",
+      "entidad": "NUEVO CONTINENTE S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN FINANCIERA - APROBACIÓN DIVIDENDO EN EFECTIVO POR ASAMBLEA $ 252.000.000",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/8B095790-2527-41D0-B92C-AC2B79D58909"
+    },
     {
       "id": "cnv-3596515",
       "fuente": "CNV",

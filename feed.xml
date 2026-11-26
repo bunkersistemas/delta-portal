@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Thu, 26 Nov 2026 11:01:00 -0300</lastBuildDate>
+    <lastBuildDate>Thu, 26 Nov 2026 16:57:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>Los prestamistas que no son bancos cobran 139% anual por un préstamo personal, más del doble que un banco</title>
+      <link>https://coninteres.com/articulos/2026-11-26-prestamistas-no-bancarios-tasa-139-por-ciento.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-26-prestamistas-no-bancarios-tasa-139-por-ciento.html</guid>
+      <pubDate>Thu, 26 Nov 2026 16:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>MERCADOS</category>
+      <description>Un préstamo personal fuera de un banco cuesta más del doble. En julio, las fintech, mutuales, casas de electrodomésticos y otras financieras que no son bancos cobraron en promedio 139% de tasa nominal anual; los bancos, 65,8%, según un informe del Banco Central publicado el 26 de noviembre. En un préstamo de $500.000 a 12 cuotas, es pagar $450.000 de intereses en vez de $195.000. Y 30 de cada 100 pesos que prestaron están atrasados más de 90 días.</description>
+      <ci:numero>139%</ci:numero>
+      <ci:numeroEtiqueta>tasa nominal anual promedio de los préstamos personales de prestamistas no bancarios, julio de 2026 (bancos: 65,8%)</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-26-prestamistas-no-bancarios-tasa-139-por-ciento.png" length="67048" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-26-prestamistas-no-bancarios-tasa-139-por-ciento.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>Una empleada doméstica cobra $519.826 por mes en diciembre, y su aguinaldo mínimo es de $259.913</title>
       <link>https://coninteres.com/articulos/2026-09-25-empleada-domestica-sueldo-octubre.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>puesto de la Argentina entre 143 países de más de un millón de habitantes en kilos de huevo disponibles para comer por habitante en 2023</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-huevos-por-habitante-argentina-septima-fao.png" length="66895" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-huevos-por-habitante-argentina-septima-fao.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Hay 127.453 cuentas sueldo menos que hace un año, y ocho de cada diez faltan en el banco del Chaco</title>
-      <link>https://coninteres.com/articulos/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.html</guid>
-      <pubDate>Sat, 21 Nov 2026 12:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>La cuenta de las «600 mil cuentas sueldo destruidas» desde diciembre de 2024 es correcta, pero mezcla dos cosas. Casi la mitad, 298.758, es la diferencia que ya había entre diciembre y agosto de 2024. Agosto contra agosto, el Banco Central registra 9.885.099 cuentas sueldo, 1,3% menos que un año antes, y el Nuevo Banco del Chaco explica 103.114 de esa baja: perdió 104.291 en un solo mes, después de pagar los sueldos de julio el 31 de julio y los de agosto el 2 de septiembre. Los asalariados registrados bajaron 1,7% en el mismo año.</description>
-      <ci:numero>127.453</ci:numero>
-      <ci:numeroEtiqueta>cuentas sueldo menos en los bancos en agosto de 2026 que un año antes, según el Banco Central</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.png" length="62384" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-21-cuentas-sueldo-127453-menos-banco-chaco.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>
