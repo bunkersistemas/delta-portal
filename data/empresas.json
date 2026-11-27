@@ -1,11 +1,20 @@
 {
-  "generado": "2026-11-27T17:06",
+  "generado": "2026-11-27T17:10",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3597172",
+      "fuente": "CNV",
+      "fecha": "2026-11-27T17:03",
+      "entidad": "PATRICIOS S.A.I.C",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4E9264E2-D379-4458-B85E-8FBFEBCDA902"
+    },
     {
       "id": "cnv-3597119",
       "fuente": "CNV",
