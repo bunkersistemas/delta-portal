@@ -148,6 +148,11 @@ function Terminar($codigo, $resultado, $t, $id = '') {
   exit $codigo
 }
 $MaxIntentos = 3
+# 27/11/2026: PowerShell 5.1 no escapa las comillas dobles al pasarle un argumento a un .exe:
+# claude recibia el prompt CORTADO en la primera comilla ("Cuanto gana un juez") y nunca leia
+# la segunda mitad (titular, comandos, .corrida.json). Pasa desde el 24/11 por lo menos.
+# Todo prompt va a claude -p por ArgNativo.
+function ArgNativo([string]$s) { $s = $s -replace '(\\*)"', '$1$1\"'; $s = $s -replace '(\\+)$', '$1$1'; return $s }
 $script:FueActualizacion = $false
 function LeerRetenidos { if (Test-Path $ArchivoRetenidos) { @(Get-Content $ArchivoRetenidos | Where-Object { $_.Trim() }) } else { @() } }
 function GuardarRetenidos($ids) { Set-Content -Path $ArchivoRetenidos -Value @($ids) -Encoding ASCII }
@@ -170,7 +175,7 @@ function AcortarTitulo($id) {
 Sos la redaccion de Con Interes. El titulo del borrador cola/$id.html tiene $largo caracteres: demasiado largo (el tope es 150; la mediana del sitio es 126). Reescribilo en una sola idea, sin cambiar ningun numero ni conclusion; lo que sobra va a la bajada. Si la entrada de data/cola.json tiene "pedido", el titulo es la pregunta del lector bien formulada: mantenelo como pregunta. Si no, arranca con el dato principal. Cambialo en el h1 y en el <title> y metadatos de cola/$id.html, y en "titulo" de su entrada en data/cola.json. Corre python scripts/titulares.py "<titulo nuevo>": si dice NO ENTRA, reescribilo. No toques nada mas. PROHIBIDO git, aprobar.py, rechazar.py.
 Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo.
 "@
-  $salidaTit = & claude -p $promptTit --permission-mode dontAsk `
+  $salidaTit = & claude -p (ArgNativo $promptTit) --permission-mode dontAsk `
     --allowedTools 'Read' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
   Add-Content -Path $Log -Value ($salidaTit | Out-String) -Encoding UTF8
   $nuevo = "$(& $py -c "import json,sys;print(max([len(b['titulo']) for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]] or [0]))" $id)".Trim()
@@ -188,7 +193,7 @@ function AcortarEtiqueta($id) {
 Sos la redaccion de Con Interes. En data/cola.json, la entrada del borrador $id tiene un "numero_label" de $largo caracteres. Ese campo es la etiqueta que el lector ve al lado de la cifra ancla en la portada: tiene que decir en una frase QUE MIDE el numero (tope 160 caracteres, ideal menos de 120), sin fuentes entre parentesis, sin resoluciones, sin cuentas. Mueve el texto actual completo, sin cambiarlo, a un campo nuevo "numero_fuente" de esa misma entrada, y escribi en "numero_label" la etiqueta corta, sin cambiar ningun numero ni conclusion. No toques nada mas. PROHIBIDO git, aprobar.py, rechazar.py.
 Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo.
 "@
-  $salidaLab = & claude -p $promptLab --permission-mode dontAsk `
+  $salidaLab = & claude -p (ArgNativo $promptLab) --permission-mode dontAsk `
     --allowedTools 'Read' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
   Add-Content -Path $Log -Value ($salidaLab | Out-String) -Encoding UTF8
   $nuevo = "$(& $py -c "import json,sys;print(max([len(b.get('numero_label','')) for b in json.load(open('data/cola.json',encoding='utf-8'))['borradores'] if b['id']==sys.argv[1]] or [0]))" $id)".Trim()
@@ -213,7 +218,7 @@ Deja SOLO _privado/narrativa/$id.html y _privado/narrativa/$id.narrativa.json. E
 PROHIBIDO: git, aprobar.py, rechazar.py, editar cola/, data/ o cualquier otro archivo, buscar en internet. Si no podes mejorar la nota sin tocar un hecho, no escribas nada y listo.
 Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo: sin cd, sin && ni ;. PowerShell no esta habilitado.
 "@
-    $salidaNar = & claude -p $promptNar --permission-mode dontAsk `
+    $salidaNar = & claude -p (ArgNativo $promptNar) --permission-mode dontAsk `
       --allowedTools 'Read' 'Glob' 'Grep' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
     Add-Content -Path $Log -Value ($salidaNar | Out-String) -Encoding UTF8
     $res = @(& $py agente/local/aplicar_narrativa.py $id 2>&1)
@@ -364,7 +369,7 @@ Escribi _privado/correccion.json con {"corregido": true o false, "explicacion": 
 COMO USAR LOS COMANDOS: Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo, sin cd, sin && ni ;.
 PROHIBIDO: aprobar.py, rechazar.py, pedidos_lectores.py, git, tocar notas publicadas o cualquier otro archivo que no sea ese borrador y su entrada.
 "@
-      $salidaCorr = & claude -p $promptCorr --permission-mode dontAsk `
+      $salidaCorr = & claude -p (ArgNativo $promptCorr) --permission-mode dontAsk `
         --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' `
         --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
       Add-Content -Path $Log -Value ($salidaCorr | Out-String) -Encoding UTF8
@@ -387,7 +392,7 @@ Escribi _privado/correccion.json con {"cambiado": true o false, "explicacion": "
 COMO USAR LOS COMANDOS: Bash acepta SOLO comandos que empiezan con python, py o curl, desde la raiz del repo, sin cd, sin && ni ;.
 PROHIBIDO: aprobar.py, rechazar.py, pedidos_lectores.py, git, tocar notas publicadas o cualquier otro archivo que no sea ese borrador y su entrada.
 "@
-      $salidaFb = & claude -p $promptFb --permission-mode dontAsk `
+      $salidaFb = & claude -p (ArgNativo $promptFb) --permission-mode dontAsk `
         --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' `
         --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
       Add-Content -Path $Log -Value ($salidaFb | Out-String) -Encoding UTF8
@@ -554,6 +559,20 @@ PROHIBIDO: correr aprobar.py o rechazar.py, usar git, tocar notas ya publicadas,
 AL FINAL escribi el archivo .corrida.json en la raiz del repo: un objeto JSON con tres claves de texto.
 veredicto: APTA, FRENAR o SIN_TEMA. id: el id de la nota en la cola, o vacio. motivo: una linea que explique el resultado; si no hubo nota, nombra cada candidata que probaste y por que freno.
 "@
+# Editor, 27/11/2026: el portal no puede quedar sin nota. Reintentar el mismo filtro sobre las
+# mismas portadas a los 5 minutos da lo mismo: desde el intento 2 del turno la corrida es de RESERVA.
+$intentoTurno = 1
+try { $intentoTurno = [int]"$env:CI_INTENTO" } catch { $intentoTurno = 1 }
+if ($Mision -eq 'general' -and $intentoTurno -ge 2) {
+Anotar ("RESERVA: intento {0} del turno, SIN_TEMA no vale" -f $intentoTurno)
+$prompt += @"
+
+MODO RESERVA (editor, 27/11/2026). Esta es la corrida $intentoTurno del turno y las anteriores no dejaron una nota nueva. EL PORTAL NO PUEDE QUEDAR SIN NOTA: en esta corrida SIN_TEMA NO es un resultado valido y la nota tiene que salir. No vuelvas a barrer las portadas ni a probar candidatas que ya se descartaron hoy (estan en data/cubiertas.json): elegi de aca, en este orden:
+  1. Lo descartado HOY o en los ultimos dias que quedo marcado para retomar o con un dato propio ya calculado (data/cubiertas.json y la salida de las corridas anteriores). Si se descarto solo por "no es el tema del dia" o por ser actualizacion de una nota vieja, y el dato es nuevo, va como nota NUEVA con id nuevo que enlaza a la anterior.
+  2. Un dato oficial publicado este mes (INDEC, BCRA, CAMMESA, ARCA, ANSES, Boletin Oficial) que le toque al bolsillo del lector comun y que todavia no contamos.
+Se afloja SOLO la condicion (A) del filtro 2b: no hace falta que sea el tema del dia; alcanza con que le llegue al lector comun por algo suyo (lo que paga, su sueldo, sus impuestos, su credito o sus ahorros, un plazo). La (B), aporte propio, y la vara de verificacion de NEWSROOM seccion 3 NO se aflojan. Sueldos de cargos y chismes siguen afuera. Solo podes terminar sin nota con FRENAR, y solo por las lineas rojas de NEWSROOM 2 bis.
+"@
+}
 if ($Mision -eq 'ia') {
 $prompt = @"
 Sos la redaccion de Con Interes y corres sin nadie mirando: no hagas preguntas.
@@ -647,7 +666,7 @@ SIEMPRE, pase lo que pase, termina escribiendo .corrida.json, tambien si frenas 
 Anotar 'llamando a la redaccion...'
 # PowerShell se saca de la vista (12/10/2026): el agente lo intentaba, se lo
 # rechazaban y abandonaba creyendo que no tenia comandos.
-$salida = & claude -p $prompt --permission-mode dontAsk `
+$salida = & claude -p (ArgNativo $prompt) --permission-mode dontAsk `
   --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' `
   --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
 $codigo = $LASTEXITCODE

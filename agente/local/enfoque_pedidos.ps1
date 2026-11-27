@@ -40,6 +40,11 @@ $py = $null
 foreach ($c in @('python', 'py')) { if (Get-Command $c -ErrorAction SilentlyContinue) { $py = $c; break } }
 if (-not $py) { Anotar '[FALLA] no hay python en el PATH'; exit 1 }
 if (-not (Get-Command claude -ErrorAction SilentlyContinue)) { Anotar '[FALLA] claude no esta en el PATH'; exit 1 }
+# 27/11/2026: PowerShell 5.1 no escapa las comillas dobles al pasarle un argumento a un .exe:
+# claude recibia el prompt CORTADO en la primera comilla ("Cuanto gana un juez") y nunca leia
+# la segunda mitad (titular, comandos, .corrida.json). Pasa desde el 24/11 por lo menos.
+# Todo prompt va a claude -p por ArgNativo.
+function ArgNativo([string]$s) { $s = $s -replace '(\\*)"', '$1$1\"'; $s = $s -replace '(\\+)$', '$1$1'; return $s }
 
 Anotar '==== enfoque de pedidos: inicio ===='
 for ($vuelta = 1; $vuelta -le 3; $vuelta++) {
@@ -64,7 +69,7 @@ Si el pedido cae en las lineas rojas de NEWSROOM 2 bis o la moderacion de 2 ter,
 COMO USAR LOS COMANDOS: Bash acepta SOLO comandos que empiezan con python, py o curl, corridos desde la raiz del repo: sin cd, sin && ni ;, sin rutas fuera del repo. Para validar tu JSON corre: python -c "import json;json.load(open('_privado/enfoque.json',encoding='utf-8'));print('ok')". Si te rechazan un comando, reformulalo dentro de esas reglas.
 PROHIBIDO: escribir notas, tocar data/, cola/, articulos/ o cualquier archivo fuera de _privado/, correr aprobar.py, rechazar.py o pedidos_lectores.py, usar git, poner credenciales.
 "@
-  $salida = & claude -p $prompt --permission-mode dontAsk `
+  $salida = & claude -p (ArgNativo $prompt) --permission-mode dontAsk `
     --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python:*)' 'Bash(py:*)' 'Bash(curl:*)' `
     --disallowedTools 'PowerShell' 'Agent' 'Task' 2>&1
   Add-Content -Path $Log -Value ($salida | Out-String) -Encoding UTF8

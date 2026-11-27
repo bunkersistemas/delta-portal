@@ -92,6 +92,11 @@ if ($N -eq 0) {
 
 # ---- 3. correr el auditor ----
 if (-not (Get-Command claude -ErrorAction SilentlyContinue)) { Terminar 1 '[FALLA] claude no esta en el PATH' }
+# 27/11/2026: PowerShell 5.1 no escapa las comillas dobles al pasarle un argumento a un .exe:
+# claude recibia el prompt CORTADO en la primera comilla ("Cuanto gana un juez") y nunca leia
+# la segunda mitad (titular, comandos, .corrida.json). Pasa desde el 24/11 por lo menos.
+# Todo prompt va a claude -p por ArgNativo.
+function ArgNativo([string]$s) { $s = $s -replace '(\\*)"', '$1$1\"'; $s = $s -replace '(\\+)$', '$1$1'; return $s }
 # El informe NO va al repo: es publico y GitHub Pages lo sirve entero (11/10/2026).
 # El agente lo escribe en _privado/ (ignorado por git) y el script lo mueve afuera.
 $Informe = "_privado/auditoria-$Hoy.md"
@@ -108,7 +113,7 @@ REGLAS: no edites ni despubliques ninguna nota, no corras aprobar.py ni rechazar
 Al final, responde con: el scorecard y la lista priorizada de acciones, marcando URGENTE lo grave.
 "@
 Anotar 'llamando al auditor...'
-$salida = & claude -p $prompt --permission-mode dontAsk `
+$salida = & claude -p (ArgNativo $prompt) --permission-mode dontAsk `
   --allowedTools 'Read' 'Glob' 'Grep' 'WebFetch' 'WebSearch' 'Write' 'Edit' 'Bash(python scripts/verificar_enlaces.py:*)' 2>&1
 $codigo = $LASTEXITCODE
 Add-Content -Path $Log -Value ($salida | Out-String) -Encoding UTF8
