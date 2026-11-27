@@ -1,11 +1,47 @@
 {
-  "generado": "2026-11-27T10:30",
+  "generado": "2026-11-27T17:00",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3597119",
+      "fuente": "CNV",
+      "fecha": "2026-11-27T16:22",
+      "entidad": "360 ENERGY SOLAR S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ACUERDO PRELIMINAR DE FUSIÓN POR ABSORCIÓN 360 ENERGY SOLAR S.A. (ABSORBENTE) Y 360 ENERGY CATAMARCA S.A. (ABSORBIDA)",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/E9710C07-0DE9-4CD8-8AB8-34F04A76C834"
+    },
+    {
+      "id": "cnv-3597126",
+      "fuente": "CNV",
+      "fecha": "2026-11-27T16:21",
+      "entidad": "PLUSPETROL SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - PLUSPETROL S.A. - APROBACIÓN DEL COMPROMISO PREVIO DE FUSIÓN POR ABSORCIÓN DE PNB Y PCN",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/DA080A91-0882-4971-BAA0-F193AD85DFCF"
+    },
+    {
+      "id": "cnv-3596603",
+      "fuente": "CNV",
+      "fecha": "2026-11-27T15:03",
+      "entidad": "BANCO PATAGONIA SA",
+      "tipo": "hecho",
+      "descripcion": "HECHO RELEVANTE",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/4B9EA8F6-73E4-49B3-9584-4EBA7C3AAE23"
+    },
+    {
+      "id": "cnv-3596914",
+      "fuente": "CNV",
+      "fecha": "2026-11-27T13:57",
+      "entidad": "IEB CONSTRUCCIONES S.A",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE ACUERDO TRANSACCIONAL CGA",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/B197F1C5-D3AB-408B-8B1F-93FF30F52EBA"
+    },
     {
       "id": "cnv-3596881",
       "fuente": "CNV",
