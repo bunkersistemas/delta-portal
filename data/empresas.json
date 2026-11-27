@@ -1,11 +1,29 @@
 {
-  "generado": "2026-11-27T17:10",
+  "generado": "2026-11-27T18:07",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3597234",
+      "fuente": "CNV",
+      "fecha": "2026-11-27T17:56",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F8111CEE-3E48-4BE3-AB9F-C1275E3E947B"
+    },
+    {
+      "id": "cnv-3597193",
+      "fuente": "CNV",
+      "fecha": "2026-11-27T17:23",
+      "entidad": "B-GAMING SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - B-GAMING S..A - SE PUBLICA EL PRESENE HECHO RELEVANTE A LOS EFECTOS DE ACOMPAÑAR EL ANUNCIO DE OFERTA PÚBLICA DE ADQUISICIÓN OBLIGATORIA DE ACCIONES DE B-GAMING S.A. RECIBIDO DE LA SRTA. ROSANA BEATRI",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/FAD2FC04-1B25-4AED-8B26-DC077DF21F27"
+    },
     {
       "id": "cnv-3597172",
       "fuente": "CNV",
