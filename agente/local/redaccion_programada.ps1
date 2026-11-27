@@ -679,6 +679,10 @@ if ($Mision -ne 'enfoque' -and -not (Test-Path $Resultado)) {
     $txt = ($salida | Out-String)
     $ver = ''
     if ($txt -match '\bFRENAR\b') { $ver = 'FRENAR' } elseif ($txt -match '\bSIN_TEMA\b') { $ver = 'SIN_TEMA' }
+    # 27/11/2026 13:26: "No hay nota en esta corrida: ninguna candidata paso el filtro",
+    # sin .corrida.json ni la palabra SIN_TEMA. Claude termino bien y no dejo borrador:
+    # es una corrida sin nota, no una falla (la falla no arranca otra y alarma de mas).
+    else { $ver = 'SIN_TEMA' }
     if ($ver) {
       Anotar "[AVISO] la redaccion no dejo .corrida.json ni borrador y su salida dice $ver : se toma como $ver"
       $auto = [ordered]@{ veredicto = $ver; id = ''; motivo = "$ver declarado en la salida (sin .corrida.json)" }
