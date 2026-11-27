@@ -1242,7 +1242,7 @@ for pg in paginas_seccion:
 for a in articulos:
     urls.append(
         f"  <url><loc>{SITE}/{escape(a['archivo'])}</loc>"
-        f"<lastmod>{a['fecha']}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>")
+        f"<lastmod>{a.get('actualizada') or a['fecha']}</lastmod><changefreq>monthly</changefreq><priority>0.8</priority></url>")
 sitemap = '<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n' \
           + "\n".join(urls) + "\n</urlset>\n"
 with open(os.path.join(ROOT, "sitemap.xml"), "w", encoding="utf-8") as f:

@@ -95,17 +95,28 @@ sigue:
       **Menos y mejores (23/11/2026):** si una candidata no pasa la vara, se
       pasa a la siguiente; si ninguna contesta algo que alguien busca o trae
       un hallazgo, la corrida termina sin nota.
-   00. **La demanda manda (editor, 23/11/2026: "el publico elige").** Antes que
-      todo, `_privado/demanda.md`: las preguntas que la gente escribe en Google
-      y por las que ya aparecemos. En 3 meses, 554 de 776 notas no tuvieron
-      ningun clic; los clics fueron a preguntas concretas (cuanto cobra un
-      cargo, cuanto paga un premio, el monto de un beneficio, cuanto cuesta un
-      tramite). Una pregunta de la demanda es candidata aunque "cualquiera
-      pueda copiarla de una resolucion": la vara es contestarla mejor que el
-      resto. Si ya tenemos la nota y el dato cambio, se **actualiza** con el
-      mismo id (ver el prompt de la redaccion programada), no se hace otra.
-      Se mide el TEMA, no la forma del titulo: copiar un titulo exitoso
-      satura (septiembre 2026, "cuanta plata").
+   00. **El filtro (editor, 27/11/2026). Reemplaza a "la demanda manda" del
+      23/11**, que lleno el sitio de "cuanto gana un juez / un fiscal": la
+      demanda de Search Console solo muestra busquedas en las que YA
+      aparecemos, o sea el eco de nuestras notas viejas. Desde ahora sirve
+      solo para el `titulo_busqueda`. Con Interes es *el mismo tema del dia
+      que mira todo el mundo, leido hasta el documento original y con la
+      cuenta hecha para el bolsillo de quien lo lee*. Una candidata pasa si
+      cumple LAS DOS:
+      - **Le importa a la gente:** es EL tema del dia (en varias portadas), o
+        le llega al lector comun por algo que ya es suyo (lo que paga, su
+        trabajo, sus impuestos, su credito, un plazo que vence). No vale
+        encontrarle "a alguien" a quien le toque: para cualquier hecho hay un
+        grupo afectado. Sueldos de cargos, internas y escandalos no pasan.
+      - **Tenemos algo propio:** el documento original leido o la cuenta hecha
+        para el lector. Repetir el anuncio no es aporte; copiar a Clarin o La
+        Nacion tampoco.
+      Si ninguna pasa, la corrida termina sin nota y el script arranca otra en
+      el acto (hasta 3 por turno). Una actualizacion no es noticia nueva:
+      conserva su lugar en la portada y no ocupa el turno.
+      **Titulos:** provocativos, pero la provocacion sale del dato, nunca de un
+      juicio, una acusacion al lector o una exageracion. Cada palabra del
+      titulo tiene que poder senalarse en una linea de la nota.
    1. **Un hallazgo.** Algo que el lector no sabia y no esta en el
       comunicado: un cruce de dos fuentes, una serie larga, una comparacion
       propia, un resultado que va contra lo que se cree.

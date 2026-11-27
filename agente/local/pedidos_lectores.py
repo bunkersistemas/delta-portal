@@ -491,6 +491,71 @@ def alarma_editor(resultado, motivo):
     print("OK|alarma %d al editor" % n)
 
 
+# Editor, 27/11/2026: el 26/11 la VM se reinicio, la redaccion no arranco 14 h y no aviso
+# nadie, porque alarma_editor corre DENTRO de la redaccion. Esto lo corre la tarea
+# Comunidad (cada 10 min, sin sesion): si paso un turno y la redaccion no arranco, avisa
+# y repite cada hora hasta que arranque. Los turnos son los de ACTIVAR_REDACCION.ps1.
+TURNOS_AR = ("07:00", "12:00", "17:00", "21:00")
+TAREA_REDACCION = "Con Interes - Redaccion programada"
+ALARMA_ARRANQUE = os.path.join(LOGS, "alarma_arranque.txt")   # hora AR del ultimo aviso
+
+
+def vigilar_arranque():
+    import subprocess
+    ahora = dt.datetime.now(dt.timezone.utc).replace(tzinfo=None) - dt.timedelta(hours=3)
+    # tarea apagada a proposito: no se vigila
+    q = subprocess.run(["schtasks", "/Query", "/TN", TAREA_REDACCION, "/FO", "CSV", "/NH"],
+                       capture_output=True, text=True, errors="replace")
+    if q.returncode != 0 or "Deshabilitad" in q.stdout or "Disabled" in q.stdout:
+        print("OK|vigilar: tarea apagada o inexistente, no se vigila")
+        return
+    turnos = []
+    for d in (0, 1):
+        dia = ahora.date() - dt.timedelta(days=d)
+        for t in TURNOS_AR:
+            h, m = map(int, t.split(":"))
+            turnos.append(dt.datetime.combine(dia, dt.time(h, m)))
+    turno = max(x for x in turnos if x <= ahora - dt.timedelta(minutes=20))
+    ult_ev, ult_inicio = None, None
+    with open(os.path.join(LOGS, "corridas.jsonl"), encoding="utf-8") as h:
+        for l in h:
+            try:
+                r = json.loads(l)
+            except ValueError:
+                continue
+            ult_ev = r.get("evento")
+            if ult_ev == "inicio":
+                ult_inicio = dt.datetime.fromisoformat(r["hora"])
+    # una corrida en curso (inicio sin fin, de menos de 5 h: el tope de la tarea es 4 h 30)
+    # tapa el turno siguiente a proposito (MultipleInstances IgnoreNew): no es falla
+    en_curso = ult_ev == "inicio" and ult_inicio and ahora - ult_inicio < dt.timedelta(hours=5)
+    arranco = (ult_inicio and ult_inicio >= turno - dt.timedelta(minutes=5)) or en_curso
+    ed = int(open(EDITOR_TG, encoding="ascii").read().strip())
+    if arranco:
+        if os.path.exists(ALARMA_ARRANQUE):
+            tg("sendMessage", {"chat_id": ed, "text": "✅ La redacción de Con Interés volvió a arrancar."})
+            os.remove(ALARMA_ARRANQUE)
+            print("OK|vigilar: volvio a arrancar")
+        return
+    if os.path.exists(ALARMA_ARRANQUE):
+        try:
+            previo = dt.datetime.fromisoformat(open(ALARMA_ARRANQUE, encoding="ascii").read().strip())
+            if ahora - previo < dt.timedelta(minutes=60):
+                return
+        except ValueError:
+            pass
+    tg("sendMessage", {"chat_id": ed, "text": "\U0001f6a8\U0001f6a8\U0001f6a8 HORACIO \U0001f6a8\U0001f6a8\U0001f6a8"})
+    l = ["\U0001f6a8 La redacción de Con Interés NO ARRANCÓ en el turno de las %s." % turno.strftime("%H:%M"),
+         "Última corrida: %s." % (ult_inicio.strftime("%d/%m %H:%M") if ult_inicio else "no encuentro ninguna"),
+         "", "Lo más probable: la VM se reinició o se quedó sin internet.",
+         "Te vuelvo a escribir cada hora hasta que arranque.",
+         "Para destrabarla: abrí Claude Code y decime «destrabá la redacción»."]
+    tg("sendMessage", {"chat_id": ed, "text": "\n".join(l), "disable_web_page_preview": True})
+    with open(ALARMA_ARRANQUE, "w", encoding="ascii") as h:   # despues de mandar: si no sale, reintenta
+        h.write(ahora.isoformat(timespec="minutes"))
+    print("OK|vigilar: aviso de turno %s sin arrancar" % turno.strftime("%H:%M"))
+
+
 def ver():
     for p in pedir("GET", "?select=id,creado,origen,tipo,estado,titulo,motivo,salida&order=creado"):
         print("%(id)s | %(creado).16s | %(origen)s | %(tipo)s | %(estado)s | %(titulo)s" % p)
@@ -532,6 +597,8 @@ if __name__ == "__main__":
         guardar_enfoque(a[1])
     elif a == ["resumen"]:
         resumen()
+    elif a == ["vigilar"]:
+        vigilar_arranque()
     elif a == ["ver"]:
         ver()
     else:

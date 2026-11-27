@@ -311,7 +311,8 @@ def exportar():
 
 def ciclo():
     # cada parte por separado: si Instagram no contesta, igual se avisa lo del portal
-    for paso in (leer_comentarios, avisar_pendientes, seguimiento):
+    # pl.vigilar_arranque (editor, 27/11/2026): avisa si la redaccion no arranco en su turno
+    for paso in (leer_comentarios, avisar_pendientes, seguimiento, pl.vigilar_arranque):
         try:
             paso()
         except SystemExit as e:
