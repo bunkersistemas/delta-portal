@@ -1,25 +1,5 @@
 {
   "descripcion": "Cola de revisión: borradores generados por la redacción de agentes, pendientes de aprobación humana antes de publicarse.",
   "actualizado": "2026-11-27T08:30:00-03:00",
-  "borradores": [
-    {
-      "id": "2026-11-27-oro-bcra-londres-auditoria-agn",
-      "titulo": "¿Falta oro en el Banco Central después de mandar 1.000 lingotes a Londres?",
-      "titulo_busqueda": "¿Falta oro del Banco Central? Qué dice la auditoría de la AGN sobre los lingotes enviados a Londres",
-      "bajada": "No: la Auditoría General de la Nación cuenta 1.984.962 onzas, las mismas que antes de los cuatro envíos de 2024. Lo que cambió es cómo se tienen: casi un tercio ya no son barras propias sino un derecho sobre oro en una cuenta del BIS. Y la AGN no pudo ver la póliza del seguro ni los contratos de las operaciones con oro que en 2025 costaron US$1.023 millones.",
-      "seccion": "MERCADOS",
-      "formato": "Investigación",
-      "numero": "1.984.962",
-      "numero_label": "onzas troy de oro del Banco Central según la auditoría de la AGN, las mismas que antes de mandar 1.000 barras a Londres en 2024",
-      "numero_fuente": "AGN informe 220/2026 cuadro 3 (saldos al 31/12/2025, idénticos a nov-2026): 626.432,33 BIS + 1.358.529,88 tesoro = 1.984.962,21; antes 1.760.963,43 + 224.006,18 = 1.984.969,61 (dif 7,40 oz, 0,00037%; 2,337 merma refundición). BCRA EECC 2023/2024/2025 nota 4.1.1: 1.984,96 miles. Balance semanal 23/11/2026: oro $11.038.762.239 miles / 1.575,9572 = US$7.004,5 M / XAU 20/11 US$3.529,43 = 1.984.593 oz (-0,02%, previsión). Contraste WGC 61,74 t 3T-2026. Script _privado/agn_oro/calc.py",
-      "fecha": "2026-11-27",
-      "hora": "08:30",
-      "archivo": "articulos/2026-11-27-oro-bcra-londres-auditoria-agn.html",
-      "verificacion": "verificada",
-      "fuentes": 10,
-      "lectura": "30 seg → 9 min",
-      "pedido": 120,
-      "revision_lector": true
-    }
-  ]
+  "borradores": []
 }
