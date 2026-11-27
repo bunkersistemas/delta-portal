@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-27T09:56:20-03:00",
+    "actualizado": "2026-11-27T11:02:52-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,25 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-10-17-presos-federales-peculio-74-por-ciento-menos",
+      "titulo": "El Estado pagó por el trabajo de los presos federales $7.212 millones en diez meses, 75% menos que en 2024 descontada la inflación",
+      "bajada": "La ley no tocó el piso del sueldo de un preso; lo que cambió es cuántos presos cobran. Entre enero y octubre de 2026 el ente que paga el trabajo de las personas presas en las cárceles federales giró $7.212 millones, menos de la mitad que en los mismos meses de 2024 aun en pesos corrientes. Octubre fue el mes más bajo desde 2023, descontada la inflación: $465 millones. Mientras tanto, quien trabaja para el Estado sigue sin poder cobrar menos de tres cuartos del salario mínimo, $304.800 en diciembre. El cambio tiene dos fechas: desde diciembre de 2024 la limpieza de las cárceles es obligatoria y sin pago, y desde abril de 2025 solo el 5% de los presos puede cobrar por ella.",
+      "titulo_busqueda": "¿Cuánto cobra un preso en la Argentina en 2026?",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "−75,0%",
+      "numero_label": "caída real del peculio pagado a las personas presas en cárceles federales, enero-octubre de 2026 contra enero-octubre de 2024",
+      "fecha": "2026-11-27",
+      "hora": "10:30",
+      "archivo": "articulos/2026-10-17-presos-federales-peculio-74-por-ciento-menos.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 7 min",
+      "numero_fuente": "Presupuesto Abierto credito-mensual-2026 (al 25/11/2026), servicio 334 ENCOPE, partida Peculio: devengado ene-oct 2026 $7.212,1 M (oct 465,21) contra ene-oct 2024 $15.138,3 M; cada mes a pesos de oct-26 con IPC nacional INDEC (oct-26 12.785,9321): 7.984,0 contra 31.972,3 M = -75,03%. Nominal -52,4%. Recalculo: suma mensual ene-nov 2026 7.417,13 = credito-anual-2026 devengado 7.417,13; vigente 10.005,74 (inicial 16.322,07, -38,7%; recorte oct -1.157,62). Superlativo: oct-26 465,2 M de oct-26 es el minimo real desde ene-2023 (previo: jul-26 619,7). Piso: Res. CNEPYSMVM 4/2026 SMVM dic-26 $406.400 x 0,75 = $304.800 (nov 398.800 -> 299.100; ene-27 414.200 -> 310.650); Ley 24.660 art. 120. Contraste PPN Informe Anual 2025: horas pagadas jul-25 -54% contra jul-24 (nuestro peculio jul-25/jul-24 -57,3% real).",
+      "publicada_original": "2026-10-17",
+      "actualizaciones": 1
+    },
     {
       "id": "2026-11-27-oro-bcra-londres-auditoria-agn",
       "titulo": "¿Falta oro en el Banco Central después de mandar 1.000 lingotes a Londres?",
@@ -6420,23 +6439,6 @@
       "fuentes": 8,
       "lectura": "30 seg → 6 min",
       "numero_fuente": "transferencias a las provincias del FONEDA (Ley 26.509) en 2026, al 14/10: Presupuesto Abierto, Ministerio de Economía programa 59 'Políticas para la Gestión del Riesgo Agropecuario', actividades 42 y 43, devengado, pagado y comprometido $0; crédito inicial $15.022,1 M, vigente $7.604,4 M tras el recorte de mayo (-$7.417,7 M, -49,4%). Devengado 2025 $2.293,6 M; 2024 $500,0 M; 2023 $13.398,7 M (mensual = anual). A pesos de sep-26 con IPC INDEC: 82.631,0 / 855,5 / 3.013,3 / 0 (2025 vs 2023 -96,4%). Contraste: Misiones (López Sartori, Primera Edición 10/10/2026) 'desde 2023 no recibió' = último giro nov-23; comunicado nacional 23/12/2025 $1.046 M a municipios bonaerenses dentro de dic-25 BA $1.793,6 M"
-    },
-    {
-      "id": "2026-10-17-presos-federales-peculio-74-por-ciento-menos",
-      "titulo": "El Estado pagó por el trabajo de los presos federales $6.747 millones en nueve meses: 74,2% menos que en 2024, descontada la inflación",
-      "bajada": "Entre enero y septiembre de 2026 el ente que paga el trabajo de las personas presas en las cárceles federales giró $6.747 millones, la mitad que en los mismos meses de 2024 aun en pesos corrientes. El piso que fija la ley no cambió: quien trabaja para el Estado no puede cobrar menos de tres cuartos del salario mínimo, $293.400 en octubre. Lo que cambió es cuántos presos cobran. Desde diciembre de 2024 la limpieza de las cárceles es obligatoria y sin pago, y desde abril de 2025 solo el 5% de los presos puede cobrar por ella.",
-      "titulo_busqueda": "¿Cuánto cobra un preso que trabaja en la Argentina?",
-      "seccion": "ECONOMÍA",
-      "formato": "Anatomía de un dato",
-      "numero": "−74,2%",
-      "numero_label": "caída real del peculio pagado a las personas presas en cárceles federales, enero-septiembre de 2026 contra enero-septiembre de 2024",
-      "fecha": "2026-10-17",
-      "hora": "14:30",
-      "archivo": "articulos/2026-10-17-presos-federales-peculio-74-por-ciento-menos.html",
-      "verificacion": "verificada",
-      "fuentes": 8,
-      "lectura": "30 seg → 7 min",
-      "numero_fuente": "caída real del peculio pagado a las personas presas en cárceles federales, enero-septiembre de 2026 contra enero-septiembre de 2024: Presupuesto Abierto, servicio 334 ENCOPE, partida Peculio, devengado $6.746,9 M (2026, al 14/10) contra $13.500,5 M (2024), cada mes a pesos de sep-26 con IPC nacional INDEC: 7.359,0 contra 28.490,4 M. Nominal -50,0%. Total 2024 $19.313,6 M = Res. MSN 429/2025. Contraste PPN Informe Anual 2025: horas pagadas jul-25 452.547, -54% contra jul-24 (nuestro peculio jul-25/jul-24: -41,7% nominal, -57,3% real)"
     },
     {
       "id": "2026-10-17-colectivos-amba-tesoro-20-por-ciento-menos",

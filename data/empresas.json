@@ -1,11 +1,74 @@
 {
-  "generado": "2026-11-26T16:30",
+  "generado": "2026-11-27T10:30",
   "fuentes": [
     "https://www.cnv.gov.ar/SitioWeb/HechosRelevantes",
     "https://data.sec.gov/submissions/"
   ],
   "incompleto": [],
   "hechos": [
+    {
+      "id": "cnv-3596881",
+      "fuente": "CNV",
+      "fecha": "2026-11-27T10:18",
+      "entidad": "OLEODUCTOS DEL VALLE SOCIEDAD ANONIMA",
+      "tipo": "financiamiento",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE SOBRE LA APROBACIÓN DE LA APLICACIÓN DE LOS FONDOS CORRESPONDIENTES A LA EMISIÓN DE LAS OBLIGACIONES NEGOCIABLES CLASE 7 POR LA SUMA DE US$ 89.353.970",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/8A30F00E-5CCA-4FA8-957B-C2381EB0B8DD"
+    },
+    {
+      "id": "cnv-3596848",
+      "fuente": "CNV",
+      "fecha": "2026-11-26T21:03",
+      "entidad": "BANCO DE SERVICIOS Y TRANSACCIONES S.A.U",
+      "tipo": "balance",
+      "descripcion": "INFORMACIÓN FINANCIERA - INFORMACIÓN DE RESULTADOS SEGÚN ESTADOS FINANCIEROS AL 30 DE SEPTIEMBRE 2026",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/2C5C4B50-408C-42CE-8DE4-FD9CFA597921"
+    },
+    {
+      "id": "cnv-3596834",
+      "fuente": "CNV",
+      "fecha": "2026-11-26T19:03",
+      "entidad": "BANCO MACRO SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - ADQUISICIÓN DE ACCIONES PROPIAS EN LOS TÉRMINOS DEL ARTÍCULO 64 DE LA LEY DE MERCADO DE CAPITALES Y DE LAS NORMAS DE LA CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/3B526957-26F8-4A91-9ECA-C4F209272A2E"
+    },
+    {
+      "id": "cnv-3596815",
+      "fuente": "CNV",
+      "fecha": "2026-11-26T18:15",
+      "entidad": "BANCO PATAGONIA SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - HECHO RELEVANTE - OPERACIONES CON PARTES RELACIONADAS",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/F5E8F1E4-930D-4A3D-8DF8-66B82D1E7B6C"
+    },
+    {
+      "id": "cnv-3596813",
+      "fuente": "CNV",
+      "fecha": "2026-11-26T18:15",
+      "entidad": "BOLSAS Y MERCADOS ARGENTINOS SA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE - BYMA INFORMA ADQUISICION DE ACCIONES PROPIAS.",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/852DFCE9-1848-4080-85B7-707F2294AAF9"
+    },
+    {
+      "id": "cnv-3596811",
+      "fuente": "CNV",
+      "fecha": "2026-11-26T18:13",
+      "entidad": "BANCO PATAGONIA SA",
+      "tipo": "hecho",
+      "descripcion": "INFORMACIÓN SOCIETARIA - INFORMA HECHO RELEVANTE - ART. 8º, SECCIÓN II, CAP. III, TÍT II - NORMAS CNV",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/687F134F-ABD7-4683-A579-81827915F2D3"
+    },
+    {
+      "id": "cnv-3596805",
+      "fuente": "CNV",
+      "fecha": "2026-11-26T18:00",
+      "entidad": "CIA. DE TRANSPORTE DE ENERGIA ELECTRICA",
+      "tipo": "hecho",
+      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - HECHO RELEVANTE_ RECOMPRA DIARIA DE ACCIONES",
+      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/8BD7BEDC-C4D1-4C50-BC8F-91F03636970E"
+    },
     {
       "id": "cnv-3595309",
       "fuente": "CNV",
@@ -1656,33 +1719,6 @@
       "tipo": "balance",
       "descripcion": "6-K Contents of this Form 6-K This Form 6-K for Vista Energy, S.A.B. de C.V. (“Vista” or the “Company”) contains the following exhibit: Exhibit 1 : Third Quarter of 2026 Results Forwar",
       "url": "https://www.sec.gov/Archives/edgar/data/1762506/000119312526436174/d167189d6k.htm"
-    },
-    {
-      "id": "cnv-3584417",
-      "fuente": "CNV",
-      "fecha": "2026-10-27T18:03",
-      "entidad": "LOMA NEGRA CIASA",
-      "tipo": "hecho",
-      "descripcion": "HECHO RELEVANTE",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/6EFCAD9C-9E54-432B-AA9E-9FF323348BA8"
-    },
-    {
-      "id": "cnv-3584567",
-      "fuente": "CNV",
-      "fecha": "2026-10-27T17:31",
-      "entidad": "CENTRAL PUERTO",
-      "tipo": "hecho",
-      "descripcion": "OTRA INFORMACIÓN DEL ADMINSITRADO - CEPU - HR - INFORMA ADQUISICIÓN DE ACCIONES (27 10 26)",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/29A8A64F-AFF7-4AC5-9CC1-05902F6C5C65"
-    },
-    {
-      "id": "cnv-3584548",
-      "fuente": "CNV",
-      "fecha": "2026-10-27T17:13",
-      "entidad": "YPF ENERGÍA ELÉCTRICA S.A",
-      "tipo": "hecho",
-      "descripcion": "INFORMACIÓN FINANCIERA - HECHO RELEVANTE - NOTA DE RESULTADOS 3T26",
-      "url": "https://aif2.cnv.gov.ar/Presentations/publicview/A8B0ADE2-2C99-4F48-8C26-1E52315A07F1"
     }
   ],
   "anuncios": [
@@ -1749,6 +1785,7 @@
     "sec-0001104659-26-131670": "2026-11-24",
     "sec-0001104659-26-132135": "2026-11-25",
     "sec-0001104659-26-132171": "2026-11-25",
+    "sec-0001104659-26-132187": "2026-11-27",
     "sec-0001114700-26-000085": "2026-11-16",
     "sec-0001114700-26-000087": "2026-11-24",
     "sec-0001193125-26-436152": "2026-10-28",
@@ -1793,7 +1830,6 @@
     "sec-0001342874-26-000050": "2026-11-03",
     "sec-0001342874-26-000052": "2026-11-04",
     "sec-0001554855-26-002241": "2026-10-28",
-    "sec-0001711375-26-000049": "2026-10-27",
     "sec-0001711375-26-000051": "2026-11-04",
     "sec-0001711375-26-000053": "2026-11-05",
     "sec-0001711375-26-000055": "2026-11-05",
