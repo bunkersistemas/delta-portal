@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 27 Nov 2026 18:34:00 -0300</lastBuildDate>
+    <lastBuildDate>Fri, 27 Nov 2026 21:16:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>En octubre, los hogares sin subsidio pagaron la energía 23% más cara de lo que costó generarla</title>
+      <link>https://coninteres.com/articulos/2026-11-27-luz-hogares-sin-subsidio-pagan-mas-que-el-costo.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-27-luz-hogares-sin-subsidio-pagan-mas-que-el-costo.html</guid>
+      <pubDate>Fri, 27 Nov 2026 21:30:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>En octubre, el hogar sin subsidio pagó su energía más cara de lo que costó generarla. No subió la tarifa: bajó el costo, 12,9% contra septiembre, a $99.568 por MWh, con menos gas quemado y el Paraná crecido, mientras el precio que fija la Secretaría de Energía casi no se movió. Según CAMMESA, ese hogar pagó $122.611 por MWh, 23,1% más que el costo. El promedio de los hogares cubrió el 87,7%, la proporción más alta de 2026, y lo que no cubrió la tarifa bajó a $58.337 millones, la décima parte que en junio.</description>
+      <ci:numero>123%</ci:numero>
+      <ci:numeroEtiqueta>lo que pagó un hogar sin subsidio por la energía de su luz en octubre de 2026, como porcentaje de lo que costó generarla</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-27-luz-hogares-sin-subsidio-pagan-mas-que-el-costo.png" length="66007" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-27-luz-hogares-sin-subsidio-pagan-mas-que-el-costo.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>En diez meses, los argentinos ya compraron casi tantos dólares como en 2025, el año récord</title>
       <link>https://coninteres.com/articulos/2026-11-27-dolares-billete-2026-casi-record-2025.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>barriles de petróleo por día por cada asalariado registrado de la rama petrolera de Neuquén, cuarto trimestre de 2025</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019.png" length="67156" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Las exportaciones suman US$87.328 millones hasta octubre, más que nunca en dólares; descontada la inflación de Estados Unidos, en 2011 se vendió 19% más</title>
-      <link>https://coninteres.com/articulos/2026-11-22-exportaciones-record-en-dolares-no-en-poder-de-compra.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-22-exportaciones-record-en-dolares-no-en-poder-de-compra.html</guid>
-      <pubDate>Sun, 22 Nov 2026 14:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA</category>
-      <description>El récord es en dólares, no en lo que esos dólares compran. Ningún enero-octubre había llegado a esa cifra: el máximo anterior era el de 2022, con US$75.204 millones. Pero con los precios actuales de Estados Unidos, los dólares de 2011 valen 50% más, y medidas así las ventas de 2026 quedan quintas, detrás de 2011, 2012, 2013 y 2008. La Argentina nunca vendió tanta mercadería: el volumen es el más alto de la serie del INDEC. Se vende más, a precios más bajos.</description>
-      <ci:numero>US$87.328 M</ci:numero>
-      <ci:numeroEtiqueta>exportaciones de bienes de enero a octubre de 2026: récord en dólares corrientes, quintas en dólares de hoy</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-22-exportaciones-record-en-dolares-no-en-poder-de-compra.png" length="78421" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-22-exportaciones-record-en-dolares-no-en-poder-de-compra.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

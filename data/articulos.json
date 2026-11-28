@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-27T18:33:47-03:00",
+    "actualizado": "2026-11-27T21:15:47-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-27-luz-hogares-sin-subsidio-pagan-mas-que-el-costo",
+      "titulo": "En octubre, los hogares sin subsidio pagaron la energía 23% más cara de lo que costó generarla",
+      "bajada": "En octubre, el hogar sin subsidio pagó su energía más cara de lo que costó generarla. No subió la tarifa: bajó el costo, 12,9% contra septiembre, a $99.568 por MWh, con menos gas quemado y el Paraná crecido, mientras el precio que fija la Secretaría de Energía casi no se movió. Según CAMMESA, ese hogar pagó $122.611 por MWh, 23,1% más que el costo. El promedio de los hogares cubrió el 87,7%, la proporción más alta de 2026, y lo que no cubrió la tarifa bajó a $58.337 millones, la décima parte que en junio.",
+      "titulo_busqueda": "",
+      "seccion": "ECONOMÍA",
+      "formato": "Anatomía de un dato",
+      "numero": "123%",
+      "numero_label": "lo que pagó un hogar sin subsidio por la energía de su luz en octubre de 2026, como porcentaje de lo que costó generarla",
+      "fecha": "2026-11-27",
+      "hora": "21:30",
+      "archivo": "articulos/2026-11-27-luz-hogares-sin-subsidio-pagan-mas-que-el-costo.html",
+      "verificacion": "verificada",
+      "fuentes": 6,
+      "lectura": "30 seg → 8 min",
+      "numero_fuente": "CAMMESA informe mensual oct-2026 pag. 27 (Precios estacionales - cobertura): costo residencial $99.568/MWh (US$64,8); PEST sin subsidio $122.611 (>100%), excedente $123.893, base con subsidio $50.058 (50%), residencial $87.280 (88%). 122.611/99.568 = 123,1%; sep 126.822/114.280 = 111,0% (maximo previo de 2026). Recalculo base_informe_mensual_2026-10, Precio Medio Estacional, hoja PEST Mes x Categoria x Distr: sin subsidio 1.634.436 MWh $200.420 M = $122.623; residencial 4.741.091 MWh $413.724 M = $87.263. Costo: 64,8 x A3500 30/10/2026 1.537,3487 = 99.620 (0,05%). Contraste: Res SE 222/2026 energia residencial resto $86.474/MWh = 86,8% del costo; EBY alerta caudales altos oct-dic; IIEP nov 58%/50% (otra medicion). Scripts _privado/luz1127r_cat.py y luz1127r_calc.py"
+    },
     {
       "id": "2026-11-27-dolares-billete-2026-casi-record-2025",
       "titulo": "En diez meses, los argentinos ya compraron casi tantos dólares como en 2025, el año récord",
