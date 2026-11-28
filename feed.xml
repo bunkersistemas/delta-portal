@@ -11,13 +11,26 @@
     <description>La economía argentina, con interés: cada dato con su fuente, su contexto y su verificación a la vista.</description>
     <language>es-AR</language>
     <copyright>Con Interés</copyright>
-    <lastBuildDate>Fri, 27 Nov 2026 21:16:00 -0300</lastBuildDate>
+    <lastBuildDate>Sat, 28 Nov 2026 07:28:00 -0300</lastBuildDate>
     <ttl>60</ttl>
     <image>
       <url>https://coninteres.com/assets/og-delta.png</url>
       <title>Con Interés</title>
       <link>https://coninteres.com/</link>
     </image>
+    <item>
+      <title>A 25 años del corralito, los bancos ya tienen casi los mismos dólares</title>
+      <link>https://coninteres.com/articulos/2026-11-28-corralito-25-anos-dolares-depositos.html</link>
+      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-28-corralito-25-anos-dolares-depositos.html</guid>
+      <pubDate>Sat, 28 Nov 2026 07:00:00 -0300</pubDate>
+      <dc:creator>Redacción Con Interés</dc:creator>
+      <category>ECONOMÍA</category>
+      <description>El 25 de noviembre, personas y empresas tenían US$43.924 millones depositados en dólares en los bancos argentinos: el 99,4% de lo que había el 30 de noviembre de 2001, el último día hábil antes del corralito. Tardaron 25 años en volver, y volvieron a bancos que funcionan distinto: hoy prestan una parte menor de esa plata y guardan más en el Banco Central.</description>
+      <ci:numero>US$43.924 M</ci:numero>
+      <ci:numeroEtiqueta>depósitos en dólares de personas y empresas el 25/11/2026: el 99,4% de los US$44.182 millones del día antes del corralito</ci:numeroEtiqueta>
+      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-28-corralito-25-anos-dolares-depositos.png" length="57007" type="image/png"/>
+      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-28-corralito-25-anos-dolares-depositos.png" medium="image" type="image/png"/>
+    </item>
     <item>
       <title>En octubre, los hogares sin subsidio pagaron la energía 23% más cara de lo que costó generarla</title>
       <link>https://coninteres.com/articulos/2026-11-27-luz-hogares-sin-subsidio-pagan-mas-que-el-costo.html</link>
@@ -394,19 +407,6 @@
       <ci:numeroEtiqueta>honorarios que Sidersa propone para directores y síndicos por su ejercicio 2026, cerrado con pérdida</ci:numeroEtiqueta>
       <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-22-sidersa-honorarios-directorio-perdidas-rigi.png" length="71373" type="image/png"/>
       <media:content url="https://coninteres.com/assets/tarjetas/2026-11-22-sidersa-honorarios-directorio-perdidas-rigi.png" medium="image" type="image/png"/>
-    </item>
-    <item>
-      <title>Cada petrolero registrado de Neuquén sacó 23,5 barriles por día a fines de 2025, cuatro veces más que en 2019</title>
-      <link>https://coninteres.com/articulos/2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019.html</link>
-      <guid isPermaLink="true">https://coninteres.com/articulos/2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019.html</guid>
-      <pubDate>Sun, 22 Nov 2026 16:30:00 -0300</pubDate>
-      <dc:creator>Redacción Con Interés</dc:creator>
-      <category>ECONOMÍA PROVINCIAL</category>
-      <description>Neuquén cerró 2025 sacando 585.957 barriles de petróleo por día, 29,6% más que un año antes, con 1.624 asalariados registrados menos en la rama del petróleo y el gas, una baja del 6,1%. Cruzadas, las dos estadísticas oficiales dan 23,5 barriles diarios por trabajador, el valor más alto desde al menos 2009. Los puestos que se perdieron son de las empresas de servicios petroleros; las operadoras y la construcción sumaron gente.</description>
-      <ci:numero>23,5</ci:numero>
-      <ci:numeroEtiqueta>barriles de petróleo por día por cada asalariado registrado de la rama petrolera de Neuquén, cuarto trimestre de 2025</ci:numeroEtiqueta>
-      <enclosure url="https://coninteres.com/assets/tarjetas/2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019.png" length="67156" type="image/png"/>
-      <media:content url="https://coninteres.com/assets/tarjetas/2026-11-22-neuquen-petroleo-por-trabajador-cuatro-veces-2019.png" medium="image" type="image/png"/>
     </item>
   </channel>
 </rss>

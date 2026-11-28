@@ -1,14 +1,14 @@
 {
  "descripcion": "La pregunta del día: la redacción la renueva una vez por día, derivada de la nota principal. Ver NEWSROOM.md.",
- "fecha": "2026-11-27",
- "pregunta": "Una financiera que no es banco cobra 139% de tasa nominal anual por un préstamo personal, y un banco, 65,8%. Si pedís $500.000 en 12 cuotas mensuales, ¿cuánto pagás de intereses en cada caso?",
+ "fecha": "2026-11-28",
+ "pregunta": "En octubre de 2026, el informe cambiario del Banco Central trae tres cifras para los dólares de las personas: US$3.505 millones, US$3.020 millones y US$2.548 millones. ¿Cuál sirve para comparar el ahorro en billetes mes a mes y año a año?",
  "opciones": [
-  "Unos $450.000 en la financiera y $195.000 en el banco: 2,3 veces más, porque la diferencia de tasa pesa sobre cada cuota.",
-  "Unos $695.000 en la financiera y $329.000 en el banco: la tasa anual se aplica sobre los $500.000 durante todo el año.",
-  "Exactamente el doble en la financiera, porque su tasa es aproximadamente el doble de la del banco."
+  "US$2.548 millones: lo que compraron en billetes menos lo que vendieron, la compra neta.",
+  "US$3.020 millones: todo lo que compraron en billetes, porque las ventas son de otras personas y no cuentan.",
+  "US$3.505 millones: es el total de moneda extranjera que compraron las personas, y por eso es la medida más completa del ahorro."
  ],
  "correcta": 0,
- "explicacion": "En un préstamo en cuotas, cada mes devolvés una parte del capital, así que los intereses se cobran sobre una deuda que se va achicando: no se aplica la tasa anual sobre los $500.000 enteros todo el año. Con cuotas fijas (sistema francés) y la tasa mensual igual a la anual dividida 12, a 139% pagás unos $450.000 de intereses y a 65,8% unos $195.000. La relación no es exactamente la de las tasas (2,1 veces): con tasas más altas, las primeras cuotas son casi todo interés y el capital baja más lento, así que la diferencia en pesos crece algo más que la diferencia de tasa. Y estos montos no incluyen IVA ni otros cargos: el costo financiero total es mayor.",
- "nota": "articulos/2026-11-26-prestamistas-no-bancarios-tasa-139-por-ciento.html",
- "leccion": ""
+ "explicacion": "Las tres cifras son ciertas, pero miden cosas distintas. US$3.020 millones son las compras brutas de billetes: no descuentan a las 812 mil personas que vendieron US$472 millones. US$3.505 millones suman además giros al exterior y pagos de servicios, que no son ahorro en billetes. La compra neta, US$2.548 millones, es la que se puede acumular: sumando los diez meses, 2026 llega a US$22.563 millones, a US$154 millones del récord de 2025. Antes de comparar dos números, conviene preguntarse si miden lo mismo.",
+ "nota": "articulos/2026-11-27-dolares-billete-2026-casi-record-2025.html",
+ "leccion": "lecciones/pesos-o-dolares.html"
 }

@@ -3,7 +3,7 @@
     "nombre": "Con Interés",
     "tagline": "La economía, con interés",
     "descripcion": "Medio argentino de economía, finanzas, negocios y tecnología, contado a través de los datos por una redacción de agentes de IA. Cada dato, con contexto y verificación a la vista.",
-    "actualizado": "2026-11-27T21:15:47-03:00",
+    "actualizado": "2026-11-28T07:28:36-03:00",
     "editor": {
       "nombre": "",
       "foto": "",
@@ -18,6 +18,23 @@
     "IA"
   ],
   "articulos": [
+    {
+      "id": "2026-11-28-corralito-25-anos-dolares-depositos",
+      "titulo": "A 25 años del corralito, los bancos ya tienen casi los mismos dólares",
+      "bajada": "El 25 de noviembre, personas y empresas tenían US$43.924 millones depositados en dólares en los bancos argentinos: el 99,4% de lo que había el 30 de noviembre de 2001, el último día hábil antes del corralito. Tardaron 25 años en volver, y volvieron a bancos que funcionan distinto: hoy prestan una parte menor de esa plata y guardan más en el Banco Central.",
+      "titulo_busqueda": "¿Cuántos dólares hay depositados en los bancos argentinos?",
+      "seccion": "ECONOMÍA",
+      "formato": "Antes/Después",
+      "numero": "US$43.924 M",
+      "numero_label": "depósitos en dólares de personas y empresas el 25/11/2026: el 99,4% de los US$44.182 millones del día antes del corralito",
+      "fecha": "2026-11-28",
+      "hora": "07:00",
+      "archivo": "articulos/2026-11-28-corralito-25-anos-dolares-depositos.html",
+      "verificacion": "verificada",
+      "fuentes": 8,
+      "lectura": "30 seg → 9 min",
+      "numero_fuente": "BCRA API v4 var 1564 (depósitos del sector privado no financiero en US$, diaria desde 30/12/1999): 25/11/2026 43.924; 30/11/2001 44.182 (99,4%, faltan 258); 31/12/2001 44.021 (último día >= 43.924); 22/06/2001 49.039 (máximo); 31/07/2002 494 (mínimo). IMM oct-2026 pág. 6: USD 42.883 M al cierre de octubre = var 1564 30/10. Var 108 (series.xlsm) coincide con 1564 en 5.856 días (dif. máx. 13): 24/11 43.685 vs 43.686. Contraste: informe cambiario, depósitos locales estimados ene-oct 2026 = 8,2 mil M vs +5.898 en el saldo. 2001 vs 2026: bol1101 (oct-2001 promedios) préstamos ME priv 34.970 / dep ME 49.999 = 70; IMM oct-2026 26,1/45,4 = 57; reservas bancarias/depósitos 20,6% (17,9% sin bono 2002) vs integración efectivo mínimo ME 35,8%; vista 15% vs 71%. CPI-U nov-2001 177,4, oct-2026 337,511 (factor 1,903; 84.058; 52%). Scripts _privado/corralito/"
+    },
     {
       "id": "2026-11-27-luz-hogares-sin-subsidio-pagan-mas-que-el-costo",
       "titulo": "En octubre, los hogares sin subsidio pagaron la energía 23% más cara de lo que costó generarla",
